@@ -153,13 +153,13 @@ export default function Walk() {
                     <div><b className="num">{plan.rideCostNpr ? npr(plan.rideCostNpr) : 'Rs 0'}</b><span>taxi fares</span></div>
                   </div>
                   <ol className="timeline">
-                    <li className="tl-start"><span className="tl-dot" /><div><b>{start.name}</b><span className="cap">Start · {plan.startTime}</span></div></li>
+                    <li className="tl-start"><span className="tl-dot" /><div><b>{start.name}</b><span className="cap">{t('Start', 'सुरु')} · {plan.startTime}</span></div></li>
                     {plan.stops.map((s, i) => (
                       <li key={s.id}>
                         <div className="tl-leg">
                           {s.leg.mode === 'walk' ? <Footprints size={14} /> : <Car size={14} />}
-                          {s.leg.mode === 'walk' ? `Walk ${fmtM(s.leg.metres)} · ${s.leg.minutes} min` : `Taxi ${fmtM(s.leg.metres)} · ~${s.leg.minutes} min · ${npr(s.leg.costNpr)}`}
-                          {s.waitMinutes > 0 && <span className="tl-wait"><Coffee size={13} /> wait {s.waitMinutes} min for opening</span>}
+                          {s.leg.mode === 'walk' ? t(`Walk ${fmtM(s.leg.metres)} · ${s.leg.minutes} min`, `हिँड्ने ${t.n(fmtM(s.leg.metres))} · ${t.n(s.leg.minutes)} मिनेट`) : t(`Taxi ${fmtM(s.leg.metres)} · ~${s.leg.minutes} min · ${npr(s.leg.costNpr)}`, `ट्याक्सी ${t.n(fmtM(s.leg.metres))} · ~${t.n(s.leg.minutes)} मिनेट · ${t.n(npr(s.leg.costNpr))}`)}
+                          {s.waitMinutes > 0 && <span className="tl-wait"><Coffee size={13} /> {t(`wait ${s.waitMinutes} min for opening`, `खुल्न ${t.n(s.waitMinutes)} मिनेट प्रतीक्षा`)}</span>}
                         </div>
                         <span className="tl-dot num">{i + 1}</span>
                         <Link to={`/m/${s.monument.slug}`} className="tl-stop">

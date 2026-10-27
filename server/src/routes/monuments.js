@@ -98,6 +98,7 @@ r.get('/:slug', optionalAuth, ah(async (req, res) => {
       fees: { foreigner: m.fee_foreigner, saarc: m.fee_saarc, nepali: m.fee_nepali },
       quake2015: m.quake_2015, imagePage: m.image_page, sources: m.sources,
       festivals: m.festivals, gallery: m.gallery, model: m.model, faith: faithOf(m),
+      story_np: m.story_np, legend_np: m.legend_np, facts_np: m.facts_np, quake_np: m.quake_np,
       questionCount: cat.questions.filter((q) => q.monument_id === m.id).length,
     },
     parent: parent ? card(parent) : null, inside, nearby, reviews, me,

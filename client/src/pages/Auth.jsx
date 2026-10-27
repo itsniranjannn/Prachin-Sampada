@@ -24,7 +24,7 @@ export default function Auth({ mode }) {
     try {
       if (isLogin) await login(f.email, f.password);
       else await register(f);
-      nav(next, { replace: true });
+      nav(isLogin ? next : `/verify?next=${encodeURIComponent(next)}`, { replace: true });
     } catch (x) { setErr(x.message); } finally { setBusy(false); }
   };
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
@@ -44,7 +44,7 @@ export default function Auth({ mode }) {
           <h2 style={{ marginTop: '0.8rem' }}>{isLogin ? 'Sign in' : 'Create your passport'}</h2>
           {!isLogin && <div className="field"><label htmlFor="n">Name</label><input id="n" className="input" value={f.name} onChange={set('name')} autoComplete="name" required minLength={2} /></div>}
           <div className="field"><label htmlFor="e">Email</label><input id="e" className="input" type="email" value={f.email} onChange={set('email')} autoComplete="email" required /></div>
-          <div className="field"><label htmlFor="p">Password</label><input id="p" className="input" type="password" value={f.password} onChange={set('password')} autoComplete={isLogin ? 'current-password' : 'new-password'} required minLength={6} /><span className="cap">{isLogin ? '' : 'At least 6 characters.'}</span></div>
+          <div className="field"><label htmlFor="p">Password</label><input id="p" className="input" type="password" value={f.password} onChange={set('password')} autoComplete={isLogin ? 'current-password' : 'new-password'} required minLength={6} /><span className="cap">{isLogin ? <Link to="/forgot">Forgot your password?</Link> : 'At least 6 characters.'}</span></div>
           {!isLogin && (
             <div className="field"><label>What draws you? <span className="cap">(optional)</span></label>
               <div className="chips-row" style={{ marginTop: 0 }}>{INTERESTS.map(([k, l]) => <button type="button" key={k} className={`chip ${f.interests.includes(k) ? 'on' : ''}`} onClick={() => setF({ ...f, interests: f.interests.includes(k) ? f.interests.filter((x) => x !== k) : [...f.interests, k].slice(0, 6) })}>{l}</button>)}</div>

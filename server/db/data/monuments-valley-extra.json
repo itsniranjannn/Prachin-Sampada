@@ -61,7 +61,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Guhya means secret or hidden, and ishwari means goddess."
+    "explanation": "Guhya means secret or hidden, and ishwari means goddess.",
+    "q_np": "गुह्येश्वरीको 'गुह्य' शब्दको अर्थ के हो?",
+    "options_np": [
+     "सुनौलो",
+     "गोप्य वा लुकेको",
+     "नदी",
+     "पहाड"
+    ],
+    "explanation_np": "गुह्य भनेको गोप्य वा लुकेको र ईश्वरी भनेको देवी हो।"
    },
    {
     "q": "Which river flows past Guhyeshwari Temple?",
@@ -73,7 +81,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The temple stands on the southern bank of the Bagmati."
+    "explanation": "The temple stands on the southern bank of the Bagmati.",
+    "q_np": "गुह्येश्वरी मन्दिरको छेउमा कुन नदी बग्छ?",
+    "options_np": [
+     "विष्णुमती",
+     "बागमती",
+     "त्रिशूली",
+     "हनुमन्ते"
+    ],
+    "explanation_np": "मन्दिर बागमतीको दक्षिणी किनारमा छ।"
    },
    {
     "q": "What kind of sacred site is Guhyeshwari for Hindus?",
@@ -85,7 +101,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "It is counted as a Shakti pitha, a seat of the mother goddess."
+    "explanation": "It is counted as a Shakti pitha, a seat of the mother goddess.",
+    "q_np": "हिन्दूहरूका लागि गुह्येश्वरी कस्तो पवित्र स्थल हो?",
+    "options_np": [
+     "शक्तिपीठ",
+     "ज्योतिर्लिङ्ग",
+     "बौद्ध विहार",
+     "राजदरबार"
+    ],
+    "explanation_np": "यसलाई शक्तिपीठ, अर्थात् माता देवीको आसन मानिन्छ।"
    },
    {
     "q": "Which Malla king renovated the temple in the 17th century?",
@@ -97,7 +121,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Sources credit King Pratap Malla with its main renovation."
+    "explanation": "Sources credit King Pratap Malla with its main renovation.",
+    "q_np": "17औँ शताब्दीमा कुन मल्ल राजाले मन्दिरको जीर्णोद्धार गरे?",
+    "options_np": [
+     "यक्ष मल्ल",
+     "प्रताप मल्ल",
+     "भूपतीन्द्र मल्ल",
+     "सिद्धि नरसिंह मल्ल"
+    ],
+    "explanation_np": "स्रोतहरूले राजा प्रताप मल्लले यसको मुख्य जीर्णोद्धार गरेको बताउँछन्।"
    },
    {
     "q": "Buddhists consider the site sacred to which goddess?",
@@ -109,7 +141,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "Vajrayana Buddhists see Guhyeshwari as Vajrayogini in the form of Vajravarahi."
+    "explanation": "Vajrayana Buddhists see Guhyeshwari as Vajrayogini in the form of Vajravarahi.",
+    "q_np": "बौद्धहरू यो स्थललाई कुन देवीको पवित्र स्थल मान्छन्?",
+    "options_np": [
+     "तारा",
+     "हारिती",
+     "वज्रवाराही",
+     "प्रज्ञापारमिता"
+    ],
+    "explanation_np": "वज्रयान बौद्धहरू गुह्येश्वरीलाई वज्रवाराही रूपकी वज्रयोगिनी मान्छन्।"
    }
   ],
   "clues": [
@@ -127,9 +167,10 @@
   "festivals": [
    {
     "name": "Navaratri (Dashain)",
-    "name_np": "नवरात्रि",
+    "name_np": "नवरात्रि (दशैँ)",
     "month": "Ashwin",
-    "note": "The courtyard is crowded with worshippers during the nine nights of the goddess"
+    "note": "The courtyard is crowded with worshippers during the nine nights of the goddess",
+    "note_np": "देवीका नौ रातमा आँगन भक्तजनहरूले भरिन्छ।"
    }
   ],
   "gallery": [
@@ -203,7 +244,22 @@
     "sacred-grove"
    ],
    "notes": "Walled courtyard by the Bagmati; the central shrine has a gilded roof topped by four rising golden serpents"
-  }
+  },
+  "short_np": "बागमतीको किनारमा पशुपतिनाथको करिब १ किमी पूर्वमा रहेको शक्तिपीठ, हिन्दू र बौद्ध तान्त्रिक उपासकहरूका लागि पवित्र।",
+  "story_np": "पशुपतिनाथबाट बागमतीको किनारै किनार करिब एक किलोमिटर उकालो जानुहोस् र उपत्यकाका सबैभन्दा गोप्य मन्दिरहरूमध्ये एकमा पुग्नुहुन्छ। गुह्येश्वरीले आफ्नो नाम संस्कृत शब्द गुह्य, गोप्य, र ईश्वरी, देवीबाट पाएको हो। हिन्दू ग्रन्थहरूले शोकमग्न शिवले सतीको शरीर बोकेर संसारभरि घुम्दा उनको एक भाग यहीँ खसेको भन्छन्, त्यसैले यो शक्तिपीठ, मातृदेवीको आसन गनिन्छ। धेरै मानिसले गुह्येश्वरीलाई पशुपतिकी सहचरी देख्छन्, र तीर्थयात्रीहरू प्रायः दुवैको दर्शन सँगै गर्छन्। केन्द्रमा कुनै साधारण मूर्ति छैन। बरु, देवीलाई पवित्र जलको कलशमा, चाँदी र सुनले ढाकिएको, मूलमाथि पूजा गरिन्छ। माथि हेर्नुहोस् र छानामाथि उठेका सुनौला सर्पहरू देख्नुहुनेछ। बौद्धहरूले यही स्थानलाई वज्रवाराहीका रूपमा सम्मान गर्छन्। राजा प्रताप मल्लले १७औं शताब्दीमा मन्दिर जीर्णोद्धार गरे, र नवरात्रिमा आँगन भक्तजनले भरिन्छ।",
+  "legend_np": "सतीले पिता दक्षले शिवको अपमान गरेपछि प्राण त्यागिन्, र शोकमग्न देवता उनको शरीर बोकेर संसारभरि घुमे। यसका भागहरू विभिन्न ठाउँमा खसे, र हरेक ठाउँ शक्तिपीठ भयो। परम्पराअनुसार सतीको गोप्य अङ्ग बागमतीको किनारमा यहीँ खस्यो, त्यसैले देवीलाई गुह्येश्वरी, गोप्य देवी भनिन्छ।",
+  "facts_np": [
+   "यसको नाम संस्कृत शब्द गुह्य (गोप्य वा लुकेको) र ईश्वरी (देवी) बाट आएको हो।",
+   "यो पशुपति क्षेत्रको करिब १ किमी पूर्वमा, बागमतीको दक्षिणी किनारमा छ।",
+   "राजा प्रताप मल्लले १७औं शताब्दीमा मन्दिर जीर्णोद्धार गरे।",
+   "वज्रयान बौद्धहरू यस स्थललाई वज्रवाराहीको पवित्र स्थानका रूपमा श्रद्धा गर्छन्।",
+   "दैनिक तान्त्रिक विधिहरू नेवार कर्माचार्य पुजारीहरूले गर्छन्।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "ठूलो शिव मन्दिरको माथिल्लो भागमा, लुकेकी देवीलाई मूलमाथिको कलशमा पूजा गरिन्छ।",
+   "सुनका नाग मेरो छानाको पहरा दिन्छन्, र मेरो नामको अर्थ गोप्य देवी हो।"
+  ]
  },
  {
   "slug": "gokarneshwor-mahadev",
@@ -265,7 +321,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Mahadev is a name of Shiva; a Shiva linga is in the sanctum."
+    "explanation": "Mahadev is a name of Shiva; a Shiva linga is in the sanctum.",
+    "q_np": "गोकर्णेश्वर महादेव कुन देवतालाई समर्पित छ?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "गणेश",
+     "इन्द्र"
+    ],
+    "explanation_np": "महादेव शिवको नाम हो; गर्भगृहमा शिवलिङ्ग छ।"
    },
    {
     "q": "Which festival brings families here to honour their fathers?",
@@ -277,7 +341,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Gokarna Aunsi is Nepal's Father's Day."
+    "explanation": "Gokarna Aunsi is Nepal's Father's Day.",
+    "q_np": "कुन पर्वमा परिवारहरू बुवालाई सम्मान गर्न यहाँ आउँछन्?",
+    "options_np": [
+     "तीज",
+     "गोकर्ण औँसी",
+     "छठ",
+     "होली"
+    ],
+    "explanation_np": "गोकर्ण औँसी नेपालको बुवाको मुख हेर्ने दिन हो।"
    },
    {
     "q": "How many roofs does the temple have?",
@@ -289,7 +361,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "It is a tall three-roofed pagoda."
+    "explanation": "It is a tall three-roofed pagoda.",
+    "q_np": "मन्दिरमा कति वटा छाना छन्?",
+    "options_np": [
+     "एक",
+     "दुई",
+     "तीन",
+     "पाँच"
+    ],
+    "explanation_np": "यो अग्लो तीन तले पगोडा हो।"
    },
    {
     "q": "In which year did the present temple take its form?",
@@ -301,7 +381,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Sources date the present temple to 1582."
+    "explanation": "Sources date the present temple to 1582.",
+    "q_np": "अहिलेको मन्दिरले कुन वर्ष यो रूप लियो?",
+    "options_np": [
+     "1382",
+     "1582",
+     "1782",
+     "1934"
+    ],
+    "explanation_np": "स्रोतहरूले अहिलेको मन्दिर सन् 1582 को मान्छन्।"
    },
    {
     "q": "Which god is shown riding an elephant among the temple's statues?",
@@ -313,7 +401,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "Indra on his elephant is one of the well-known sculptures here."
+    "explanation": "Indra on his elephant is one of the well-known sculptures here.",
+    "q_np": "मन्दिरका मूर्तिहरूमध्ये कुन देवता हात्तीमा सवार देखाइएका छन्?",
+    "options_np": [
+     "इन्द्र",
+     "अग्नि",
+     "वरुण",
+     "यम"
+    ],
+    "explanation_np": "हात्तीमा सवार इन्द्र यहाँका प्रसिद्ध मूर्तिहरूमध्ये एक हुन्।"
    }
   ],
   "clues": [
@@ -333,15 +429,17 @@
   "festivals": [
    {
     "name": "Gokarna Aunsi (Kushe Aunsi)",
-    "name_np": "गोकर्ण औंसी",
+    "name_np": "गोकर्ण औँसी (कुशे औँसी)",
     "month": "Bhadra",
-    "note": "Father's Day: people bathe in the Bagmati and make offerings for their fathers"
+    "note": "Father's Day: people bathe in the Bagmati and make offerings for their fathers",
+    "note_np": "बुवाको मुख हेर्ने दिन: मानिसहरू बागमतीमा नुहाउँछन् र बुवाका नाममा भेटी चढाउँछन्"
    },
    {
     "name": "Maha Shivaratri",
     "name_np": "महाशिवरात्रि",
     "month": "Falgun",
-    "note": "Shiva's great night draws devotees to the linga"
+    "note": "Shiva's great night draws devotees to the linga",
+    "note_np": "शिवको महान् रातले भक्तजनलाई लिङ्गतर्फ तान्छ"
    }
   ],
   "gallery": [
@@ -418,7 +516,21 @@
     "forest"
    ],
    "notes": "Tall three-roofed pagoda by the Bagmati ghats, surrounded by many stone god statues, with a Nandi bull behind"
-  }
+  },
+  "short_np": "बागमतीको किनारमा तीन छाने शिव मन्दिर, मूर्तिहरू र नेपाली बुवाको मुख देखाउने दिन गोकर्ण औँसीका लागि प्रसिद्ध।",
+  "story_np": "तपाईं बौद्धनाथको उत्तरपूर्वमा बागमतीको किनारमा हुनुहुन्छ, जहाँ नदी सहरभन्दा सफा र हरियो बग्छ। तपाईंको अगाडि गोकर्णेश्वर महादेव, गोकर्णका स्वामी, को तीन छाने मन्दिर उठेको छ। हालको मन्दिरले 1582 मा आफ्नो रूप लियो, तर यहाँको पूजा त्योभन्दा धेरै पुरानो भएको मानिसहरू विश्वास गर्छन्। गर्भगृहभित्र शिवलिङ्ग छ, तर गोकर्णलाई विशेष बनाउने कुरा तपाईंको वरिपरि छ। आँगनमा बिस्तारै हिँड्नुहोस् र ढुङ्गाका आकृतिहरू हेर्नुहोस्: दुर्गा, गणेश, हनुमान, कृष्ण, हात्तीमा सवार इन्द्र, र पल्टिएका नारायण। मन्दिरको पछाडि धैर्यवान नन्दी बयल बस्छ। हरेक वर्ष भाद्र औँसीमा यो शान्त ठाउँ परिवारले भरिन्छ। यो गोकर्ण औँसी हो, नेपालीहरूले आफ्ना बुवाको सम्मान गर्ने दिन। जसका बुवाको निधन भइसकेको छ, तिनीहरू नदीमा नुहाउन र बुवाका लागि अर्पण गर्न आउँछन्। तल घाटमा कृपया सम्मानपूर्वक व्यवहार गर्नुहोस्: यहाँ अझै दाहसंस्कार हुन्छ।",
+  "legend_np": "एउटा वृत्तान्त अनुसार गोकर्ण, गाईको कान, नाम यहाँको भूमिको आकारबाट आएको हो। अर्को परम्पराले यस ठाउँलाई नेपाल महात्म्यको एउटा कथासँग जोड्छ, जसमा ब्रह्माले यही ठाउँमा शिवको महान् लिङ्ग प्रतिष्ठित गरेका थिए। गोकर्णेश्वर नगरपालिका आफैँले यो क्षेत्रलाई किन गोकर्ण भनिन्छ भन्ने दृढ प्रमाण नभएको उल्लेख गरेको छ।",
+  "facts_np": [
+   "हालको तीन छाने मन्दिर 1582 को हो।",
+   "आँगन हात्तीमा सवार इन्द्र र पल्टिएका नारायणसहित धेरै ढुङ्गाका मूर्तिका लागि प्रसिद्ध छ।",
+   "नेपालको बुवाको मुख हेर्ने दिन गोकर्ण औँसीमा, भाद्रको औँसीका दिन, यहाँ भीड लाग्छ।",
+   "मन्दिर परिसर 2015 को भूकम्पमा क्षतिबाट जोगियो।"
+  ],
+  "quake_np": "एउटा यात्रा गाइडका अनुसार मन्दिर परिसर 2015 को भूकम्पमा क्षतिबाट जोगिएको थियो।",
+  "clues_np": [
+   "बागमतीको हरियो किनारमा तीन तले छाना, जहाँ औँसीका दिन छोराछोरीले आफ्ना बुवालाई सम्झन्छन्।",
+   "ढुङ्गाका देवताहरूको मेरो चोकमा इन्द्र आफ्नो हात्तीमा सवार छन्, ठूलो सेतो स्तूपको उत्तर-पूर्वमा।"
+  ]
  },
  {
   "slug": "charumati-stupa",
@@ -482,7 +594,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "Tradition credits Charumati, daughter of Emperor Ashoka."
+    "explanation": "Tradition credits Charumati, daughter of Emperor Ashoka.",
+    "q_np": "कुन सम्राटकी छोरीले यो स्तूप बनाएको भनिन्छ?",
+    "options_np": [
+     "अशोक",
+     "अकबर",
+     "हर्ष",
+     "कनिष्क"
+    ],
+    "explanation_np": "परम्पराले यसको श्रेय सम्राट अशोककी छोरी चारुमतीलाई दिन्छ।"
    },
    {
     "q": "In which part of Kathmandu is the stupa?",
@@ -494,7 +614,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "It stands in Chabahil, near Boudhanath."
+    "explanation": "It stands in Chabahil, near Boudhanath.",
+    "q_np": "स्तूप काठमाडौंको कुन भागमा छ?",
+    "options_np": [
+     "ठमेल",
+     "चाबहिल",
+     "पाटन",
+     "कीर्तिपुर"
+    ],
+    "explanation_np": "यो बौद्धनाथ नजिकै चाबहिलमा अवस्थित छ।"
    },
    {
     "q": "Whom did Charumati marry, according to tradition?",
@@ -506,7 +634,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "She married the Nepali prince Devapala."
+    "explanation": "She married the Nepali prince Devapala.",
+    "q_np": "परम्परा अनुसार चारुमतीले कोसँग विवाह गरिन्?",
+    "options_np": [
+     "राजकुमार देवपाल",
+     "राजा मानदेव",
+     "राजकुमार सिद्धार्थ",
+     "राजा प्रताप मल्ल"
+    ],
+    "explanation_np": "उनले नेपालका राजकुमार देवपालसँग विवाह गरिन्।"
    },
    {
     "q": "What was reportedly found during the restoration begun in 2002?",
@@ -518,7 +654,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "A brick bearing her name was reported, with coins, seals and small images."
+    "explanation": "A brick bearing her name was reported, with coins, seals and small images.",
+    "q_np": "2002 मा सुरु भएको जीर्णोद्धारका बेला के भेटिएको बताइयो?",
+    "options_np": [
+     "सुनको मुकुट",
+     "चारुमतीको नाम लेखिएको इँटा",
+     "मल्लकालीन सिक्काको भण्डार",
+     "गाडिएको रथ"
+    ],
+    "explanation_np": "उनको नाम भएको इँटा, सिक्का, छाप र साना मूर्तिहरू भेटिएको जनाइयो।"
    },
    {
     "q": "What is another name for the stupa?",
@@ -530,7 +674,15 @@
     ],
     "answer_index": 0,
     "difficulty": 5,
-    "explanation": "It is also called Dhando Chaitya."
+    "explanation": "It is also called Dhando Chaitya.",
+    "q_np": "यस स्तूपको अर्को नाम के हो?",
+    "options_np": [
+     "ढन्दो चैत्य",
+     "कठेसिम्भु",
+     "अशोक स्तूप",
+     "नमोबुद्ध"
+    ],
+    "explanation_np": "यसलाई ढन्दो चैत्य पनि भनिन्छ।"
    }
   ],
   "clues": [
@@ -553,7 +705,8 @@
     "name": "Buddha Jayanti",
     "name_np": "बुद्ध जयन्ती",
     "month": "Baisakh",
-    "note": "Buddha's birthday; devotees circle the stupa and light butter lamps"
+    "note": "Buddha's birthday; devotees circle the stupa and light butter lamps",
+    "note_np": "बुद्धको जन्मदिन; भक्तजनहरू स्तूप परिक्रमा गर्छन् र घिउका बत्ती बाल्छन्"
    }
   ],
   "gallery": [
@@ -629,7 +782,22 @@
     "brick-courtyard"
    ],
    "notes": "Mid-sized white dome with painted eyes and gilded spire, ringed by small stone chaityas, beside a busy city road"
-  }
+  },
+  "short_np": "चाबहिलको प्राचीन स्तूप, जसको श्रेय परम्परा अनुसार भारतीय सम्राट अशोककी छोरी चारुमतीलाई दिइन्छ।",
+  "story_np": "व्यस्त चाबहिल सडकबाट बाहिर निस्कनुहोस् र तपाईंले उपत्यकाको सबैभन्दा पुरानो स्तूपमध्ये एक हुन सक्ने सेतो स्तूप भेट्नुहुन्छ। स्थानीय परम्परा अनुसार यो भारतीय सम्राट अशोककी छोरी चारुमतीले बनाएकी थिइन्, जसले देवपाल नामक नेपाली राजकुमारसँग विवाह गरेर यहीँ बसोबास गरिन्। पछि उनी बौद्ध भिक्षुणी बनिन्, र उनको विहारवरिपरि चाबहिल टोल विकसित भयो। चारै दिशा हेर्ने बुद्धका रङ्गीन आँखाहरूतिर हेर्नुहोस्, त्यसपछि आधारवरिपरि जम्मा भएका साना चैत्य, स्तूप र ढुङ्गाका मूर्तितर्फ तल हेर्नुहोस्। तीमध्ये केही लिच्छविकालका हुन्। लामो समयसम्म चारुमतीसँगको सम्बन्ध कथा मात्र थियो। त्यसपछि सन् 2002 मा सुरु भएको जीर्णोद्धार कार्यमा उनको नाम लेखिएको इँटा भेटिएको, साथै पुराना सिक्का, छाप र साना काँसाका मूर्ति पाइएको भनिन्छ। पुरातत्त्वविद्हरू भन्छन् कि यो सम्बन्धको पुष्टि हुन अझै बाँकी छ। सन् 2015 को भूकम्पपछि स्तूप फेरि मर्मत गरियो।",
+  "legend_np": "परम्परा अनुसार सम्राट अशोक आफ्नी छोरी चारुमतीसँग काठमाडौँ उपत्यकाको तीर्थयात्रामा आए। उनले देवपाल, स्थानीय राजकुमारसँग विवाह गरिन् र यहीँ बसिन्। पछिल्लो जीवनमा उनी भिक्षुणी बनिन् र यो स्तूप र एउटा विहार बनाइन्, जसवरिपरि चाबहिल बस्ती विकसित भयो।",
+  "facts_np": [
+   "यसलाई चाबहिल स्तूप र धन्दो चैत्य पनि भनिन्छ।",
+   "परम्पराले यसलाई बनाएको श्रेय सम्राट अशोककी छोरी चारुमतीलाई दिन्छ।",
+   "स्तूपमा दरार पर्न थालेपछि सन् 2002 को नोभेम्बर 17 मा जीर्णोद्धार सुरु भयो।",
+   "जीर्णोद्धारका बेला चारुमतीको नाम लेखिएको इँटा भेटिएको भनिन्छ; पुरातत्त्वविद्हरू यो सम्बन्धलाई अपुष्ट भन्छन्।",
+   "सन् 2015 को अप्रिलको भूकम्पपछि स्तूप फेरि जीर्णोद्धार गरियो।"
+  ],
+  "quake_np": "सन् 2015 को अप्रिलको भूकम्पमा स्तूपमा क्षति पुग्यो र फेरि जीर्णोद्धार गरियो।",
+  "clues_np": [
+   "एक सम्राटकी छोरी यहीँ विवाह गरेर बसिन्, र आँखा भएको एक स्तूपले उनको सम्झना जोगाएको छ।",
+   "चाबहिलको चौबाटोनजिक मेरो चर्किएको गुम्बज मर्मत गर्दा एक राजकुमारीको नाम लेखिएको इँटा भेटियो।"
+  ]
  },
  {
   "slug": "bajrayogini-temple-sankhu",
@@ -693,7 +861,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "It is dedicated to the tantric goddess Vajrayogini."
+    "explanation": "It is dedicated to the tantric goddess Vajrayogini.",
+    "q_np": "यो मन्दिरमा कुन देवीको पूजा गरिन्छ?",
+    "options_np": [
+     "बज्रयोगिनी",
+     "तलेजु",
+     "सरस्वती",
+     "लक्ष्मी"
+    ],
+    "explanation_np": "यो तान्त्रिक देवी बज्रयोगिनीलाई समर्पित छ।"
    },
    {
     "q": "Which town lies at the foot of the temple hill?",
@@ -705,7 +881,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "The temple stands on the forested hill above Sankhu."
+    "explanation": "The temple stands on the forested hill above Sankhu.",
+    "q_np": "मन्दिर रहेको डाँडाको फेदमा कुन सहर पर्छ?",
+    "options_np": [
+     "साँखु",
+     "ठिमी",
+     "बुङ्गमती",
+     "पनौती"
+    ],
+    "explanation_np": "मन्दिर साँखुमाथिको जङ्गलले ढाकेको डाँडामा छ।"
    },
    {
     "q": "According to legend, what shape was Sankhu built in?",
@@ -717,7 +901,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Vajrayogini told King Sankhadev to build it in the shape of a conch shell."
+    "explanation": "Vajrayogini told King Sankhadev to build it in the shape of a conch shell.",
+    "q_np": "किंवदन्ती अनुसार साँखु कुन आकारमा बनाइएको थियो?",
+    "options_np": [
+     "कमल",
+     "शङ्ख",
+     "तरवार",
+     "माछा"
+    ],
+    "explanation_np": "बज्रयोगिनीले राजा शङ्खदेवलाई शङ्खको आकारमा सहर बनाउन भनेकी थिइन्।"
    },
    {
     "q": "Which Malla king is credited with the main temple?",
@@ -729,7 +921,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "Sources attribute the main temple to King Pratap Malla."
+    "explanation": "Sources attribute the main temple to King Pratap Malla.",
+    "q_np": "मुख्य मन्दिर बनाउने श्रेय कुन मल्ल राजालाई दिइन्छ?",
+    "options_np": [
+     "प्रताप मल्ल",
+     "जयस्थिति मल्ल",
+     "यक्ष मल्ल",
+     "भूपतीन्द्र मल्ल"
+    ],
+    "explanation_np": "स्रोतहरूले मुख्य मन्दिरको श्रेय राजा प्रताप मल्ललाई दिन्छन्।"
    },
    {
     "q": "The oldest inscription found at Sankhu dates to which year?",
@@ -741,7 +941,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "An inscription of 538 CE is the oldest at Sankhu."
+    "explanation": "An inscription of 538 CE is the oldest at Sankhu.",
+    "q_np": "साँखुमा फेला परेको सबैभन्दा पुरानो शिलालेख कुन वर्षको हो?",
+    "options_np": [
+     "238 BCE",
+     "538 CE",
+     "1138 CE",
+     "1538 CE"
+    ],
+    "explanation_np": "538 CE को शिलालेख साँखुको सबैभन्दा पुरानो हो।"
    }
   ],
   "clues": [
@@ -762,13 +970,15 @@
     "name": "Bajrayogini Jatra",
     "name_np": "बज्रयोगिनी जात्रा",
     "month": "Chaitra",
-    "note": "Nine-day festival; the goddess is carried down to Sankhu in a chariot"
+    "note": "Nine-day festival; the goddess is carried down to Sankhu in a chariot",
+    "note_np": "नौ दिने चाड; देवीलाई रथमा राखेर साँखुमा ल्याइन्छ"
    },
    {
     "name": "Swasthani Brata (Madhav Narayan)",
-    "name_np": "स्वस्थानी व्रत",
+    "name_np": "स्वस्थानी व्रत (माधव नारायण)",
     "month": "Magh",
-    "note": "Month-long fast and worship of Madhav Narayan in Sankhu town, Poush to Magh full moon"
+    "note": "Month-long fast and worship of Madhav Narayan in Sankhu town, Poush to Magh full moon",
+    "note_np": "साँखु सहरमा पौषदेखि माघ पूर्णिमासम्म एक महिना लामो उपवास र माधव नारायणको पूजा"
    }
   ],
   "gallery": [
@@ -845,7 +1055,22 @@
     "brick-courtyard"
    ],
    "notes": "Three-roofed gilded pagoda in a small courtyard among pine trees, at the top of a long stone stairway"
-  }
+  },
+  "short_np": "साँखुको पुरानो नेवार सहरमाथिको जङ्गलमा रहेको डाँडाको मन्दिर, तान्त्रिक देवी वज्रयोगिनीको।",
+  "story_np": "साँखुमाथि पाइनका रुखहरू भएर जाने लामो ढुङ्गाको भर्‍याङ चढ्नुहोस् र तपाईं उपत्यकाका सबैभन्दा पवित्र नेवार बौद्ध मन्दिरहरूमध्ये एकमा पुग्नुहुन्छ। यो वज्रयोगिनीको मन्दिर हो, हिन्दूहरूले पनि पूजा गर्ने तान्त्रिक देवी। मुख्य तीन तले मन्दिर राजा प्रताप मल्लको समयमा बनेको हो, तर यो डाँडा त्यसअघि नै धेरै पहिलेदेखि पवित्र थियो। कथाअनुसार वज्रयोगिनीले आफ्नो घुमेको खुकुरीले साँखु उपत्यकाबाट एउटा ताल बगाइदिइन्, त्यसपछि राजा शङ्खदेवलाई शङ्खको आकारमा सहर बनाउन भनिन्। साँखुको सबैभन्दा पुरानो शिलालेख, सन् ५३८ को, यो कथालाई समर्थन गर्छ। वरिपरि हेर्नुहोस्: सुनले मढिएको धातुको काम, कुँदिएको काठ, पुरानो ढुङ्गाको धारा र प्रसिद्ध तिब्बती योगीहरूले ध्यान गरेका भनिने गुफाहरू छन्। भित्र, देवीको अनुहार रातो र तीन आँखा छन्। सन् २०१५ को भूकम्पले मुख्य मन्दिरलाई असुरक्षित बनायो, त्यसैले यसलाई टेको लगाइयो र पुनर्स्थापना गरियो। हरेक वसन्तमा उनको रथ साँखुमा तल झर्छ।",
+  "legend_np": "धेरै पहिले साँखु उपत्यका ताल थियो। देवी वज्रयोगिनीले आफ्नो घुमेको खुकुरीले पहाड काटेर पानी बगाइदिइन्। त्यसपछि उनी पुजारी जोगदेवसमक्ष देखा परिन् र राजा शङ्खदेवलाई शङ्ख, सङ्खा, आकारको सहर बनाउन भनिन्, जसबाट साँखुले आफ्नो नाम पायो।",
+  "facts_np": [
+   "मुख्य मन्दिर राजा प्रताप मल्लले बनाएको भनिने तीन तले भवन हो।",
+   "साँखुको सबैभन्दा पुरानो शिलालेख सन् ५३८ को हो।",
+   "यो स्थल नेपालको युनेस्को सम्भावित सूचीमा \"वज्रयोगिनी र साँखुको प्रारम्भिक बस्ती\" का रूपमा सूचीकृत छ।",
+   "मन्दिरनजिकका गुफाहरू तिब्बती गुरुहरू मारपा र मिलारेपासँग जोडिएका छन्।",
+   "२०१५ को भूकम्पपछि मन्दिर असुरक्षित घोषित गरियो र मर्मतको बेला मूर्तिहरू सुरक्षाका लागि सारिए।"
+  ],
+  "quake_np": "सन् २०१५ को भूकम्पले मन्दिरलाई असुरक्षित बनायो; मूर्तिहरू सुरक्षित राख्न सारिए, संरचनालाई काठले टेको लगाइयो, र पछि पुनर्स्थापना गरियो।",
+  "clues_np": [
+   "बाङ्गो चक्कु भएकी एक देवीले ताल खाली गरिन्, र उनको जङ्गलको भर्‍याङमुनि शङ्खको आकारको सहर बस्यो।",
+   "मेरो तीन तले मन्दिरलाई चीडका रुख, ढुङ्गाको लामो भर्‍याङ र तिब्बती योगीहरूका गुफाले घेरेका छन्।"
+  ]
  },
  {
   "slug": "doleshwor-mahadev",
@@ -909,7 +1134,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Mahadev is Shiva; a large linga is inside."
+    "explanation": "Mahadev is Shiva; a large linga is inside.",
+    "q_np": "डोलेश्वर महादेवमा कुन देवताको पूजा गरिन्छ?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "गणेश",
+     "भीमसेन"
+    ],
+    "explanation_np": "महादेव भनेको शिव हुन्; भित्र ठूलो शिवलिङ्ग छ।"
    },
    {
     "q": "Which Indian temple is Doleshwor believed to be linked to?",
@@ -921,7 +1154,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "It is believed to be the head of the Kedarnath bull."
+    "explanation": "It is believed to be the head of the Kedarnath bull.",
+    "q_np": "डोलेश्वरलाई भारतको कुन मन्दिरसँग सम्बन्धित मानिन्छ?",
+    "options_np": [
+     "सोमनाथ",
+     "केदारनाथ",
+     "काशी विश्वनाथ",
+     "जगन्नाथ पुरी"
+    ],
+    "explanation_np": "यो केदारनाथका साँढेको टाउको हो भन्ने विश्वास छ।"
    },
    {
     "q": "In what form did Shiva hide from the Pandavas?",
@@ -933,7 +1174,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Shiva took the form of a bull."
+    "explanation": "Shiva took the form of a bull.",
+    "q_np": "पाण्डवहरूबाट लुक्न शिवले कुन रूप लिए?",
+    "options_np": [
+     "बाघ",
+     "साँढे",
+     "सर्प",
+     "गरुड"
+    ],
+    "explanation_np": "शिवले साँढेको रूप लिएका थिए।"
    },
    {
     "q": "In which district is the temple?",
@@ -945,7 +1194,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "It is in Sipadol, Bhaktapur district."
+    "explanation": "It is in Sipadol, Bhaktapur district.",
+    "q_np": "मन्दिर कुन जिल्लामा छ?",
+    "options_np": [
+     "काठमाडौँ",
+     "ललितपुर",
+     "भक्तपुर",
+     "काभ्रेपलाञ्चोक"
+    ],
+    "explanation_np": "यो भक्तपुर जिल्लाको सिपाडोलमा छ।"
    },
    {
     "q": "In which year did the Kedarnath head priest declare the link publicly?",
@@ -957,7 +1214,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "The declaration was made in 2009."
+    "explanation": "The declaration was made in 2009.",
+    "q_np": "केदारनाथका मुख्य पुजारीले यो सम्बन्ध कुन वर्ष सार्वजनिक रूपमा घोषणा गरे?",
+    "options_np": [
+     "1991",
+     "2001",
+     "2009",
+     "2015"
+    ],
+    "explanation_np": "घोषणा 2009 मा गरिएको थियो।"
    }
   ],
   "clues": [
@@ -978,13 +1243,15 @@
     "name": "Maha Shivaratri",
     "name_np": "महाशिवरात्रि",
     "month": "Falgun",
-    "note": "Shiva's great night brings large crowds to Sipadol"
+    "note": "Shiva's great night brings large crowds to Sipadol",
+    "note_np": "शिवको महान् रातले सिपाडोलमा ठूलो भीड ल्याउँछ।"
    },
    {
     "name": "Shrawan month",
-    "name_np": "साउन महिना",
+    "name_np": "श्रावण महिना",
     "month": "Shrawan",
-    "note": "Devotees offer milk and bel leaves to the linga, especially on Mondays"
+    "note": "Devotees offer milk and bel leaves to the linga, especially on Mondays",
+    "note_np": "भक्तजनहरूले विशेष गरी सोमबार लिङ्गमा दूध र बेलपत्र चढाउँछन्।"
    }
   ],
   "gallery": [
@@ -1058,7 +1325,22 @@
     "forest"
    ],
    "notes": "Modest brick pagoda with a Shiva linga, among smaller shrines on a rural hillside of fields"
-  }
+  },
+  "short_np": "सिपाडोलको शिव मन्दिर, जुन धेरै तीर्थयात्रीले केदारनाथमा शरीर पूजिने साँढेको टाउको रहेको विश्वास गर्छन्।",
+  "story_np": "तपाईं भक्तपुर जिल्लाको सूर्यविनायकको दक्षिणमा रहेको शान्त गाउँ सिपाडोलमा आउनुभएको छ। यो साधारण पगोडा डोलेश्वर महादेव हो, र धेरै तीर्थयात्रीहरू यो भारतको केदारनाथसँग सम्बन्धित छ भन्ने विश्वास गर्छन्। कथा यस्तो छ। महाभारत युद्धपछि पाँच पाण्डव दाजुभाइले शिवको क्षमा चाहे, तर शिव साँढेको रूपमा तिनीहरूबाट लुके। भीमले जनावरलाई समात्दा त्यसको टाउको जमिनमा गाडियो। शरीर केदारनाथमा पूजा गरिन्छ, र टाउको, मानिसहरू भन्छन्, यहाँ प्रकट भयो। सन् २००९ मा केदारनाथका मुख्य पुजारीले डोलेश्वरलाई केदारनाथको शिर भनी सार्वजनिक घोषणा गरे, र तीर्थयात्रीको सङ्ख्या छिट्टै बढ्यो। इतिहासकारहरू बढी सावधान छन्: मन्दिर १२औं शताब्दीमा बनेको र राजा भूपतीन्द्र मल्लले जीर्णोद्धार गरेको भनिन्छ। भित्र ठूलो शिवलिङ्ग छ। शिवरात्रि वा श्रावणमा आउनुभयो भने गाउँ भक्तजनले भरिएको भेट्नुहुनेछ।",
+  "legend_np": "कुरुक्षेत्र युद्धपछि पाण्डवहरूले हत्याको प्रायश्चित्त गर्न शिवलाई खोजे। शिवले तिनीहरूबाट बच्न आफूलाई साँढे बनाए। भीमले उनलाई चिनेर साँढेलाई समाते, र त्यसको टाउको भूमिमा गाडियो। कुम्ल्याइ केदारनाथमा रह्यो, र टाउको डोलेश्वरमा प्रकट भएको विश्वास गरिन्छ।",
+  "facts_np": [
+   "यो भक्तपुर जिल्लाको सूर्यविनायक नगरपालिकाको सिपाडोलमा छ।",
+   "सन् २००९ मा केदारनाथका मुख्य पुजारीले डोलेश्वरलाई केदारनाथको शिर घोषणा गरे।",
+   "स्रोतहरूका अनुसार यो १२औं शताब्दीमा पहिलो पटक बनेको थियो र राजा भूपतीन्द्र मल्लले जीर्णोद्धार गरे।",
+   "परिसरमा रहेको ढुङ्गाको शिलालेख कन्नड भाषामा लेखिएको भन्ने रिपोर्ट छ।",
+   "शिवरात्रि र श्रावण महिनाले सबैभन्दा ठूलो भीड तान्छन्।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "हिमालयमा टाढा एउटा साँढेको शरीर पूजिन्छ, र तीर्थयात्रीहरू भन्छन् उसको टाउको मेरै गाउँमा छ।",
+   "सूर्यविनायकको गणेश मन्दिरको दक्षिणतिर, भागेको साँढेमाथि भीमको पकडको सम्झना मेरो लिङ्गमा गरिन्छ।"
+  ]
  },
  {
   "slug": "balkumari-temple-thimi",
@@ -1120,7 +1402,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Sindoor Jatra, part of Bisket, starts here."
+    "explanation": "Sindoor Jatra, part of Bisket, starts here.",
+    "q_np": "नेपाली नयाँ वर्षमा यही मन्दिरबाट कुन पर्व सुरु हुन्छ?",
+    "options_np": [
+     "इन्द्रजात्रा",
+     "सिन्दुरे जात्रा",
+     "गाईजात्रा",
+     "घोडेजात्रा"
+    ],
+    "explanation_np": "बिस्केटको भाग सिन्दुरे जात्रा यहीँबाट सुरु हुन्छ।"
    },
    {
     "q": "What is thrown into the air during Sindoor Jatra?",
@@ -1132,7 +1422,15 @@
     ],
     "answer_index": 2,
     "difficulty": 1,
-    "explanation": "Pilgrims throw red vermilion (sindoor)."
+    "explanation": "Pilgrims throw red vermilion (sindoor).",
+    "q_np": "सिन्दुरे जात्रामा हावामा के फ्याँकिन्छ?",
+    "options_np": [
+     "चामल",
+     "फूलका पात",
+     "सिन्दूर",
+     "सिक्का"
+    ],
+    "explanation_np": "तीर्थयात्रीहरूले रातो सिन्दूर फ्याँक्छन्।"
    },
    {
     "q": "Which bird sits on the pillar in front of the temple?",
@@ -1144,7 +1442,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "The peacock is Balkumari's vehicle."
+    "explanation": "The peacock is Balkumari's vehicle.",
+    "q_np": "मन्दिरअगाडिको स्तम्भमा कुन चरा बसेको छ?",
+    "options_np": [
+     "गरुड",
+     "मयूर",
+     "हाँस",
+     "काग"
+    ],
+    "explanation_np": "मयूर बालकुमारीको वाहन हो।"
    },
    {
     "q": "How many roofs does the temple have?",
@@ -1156,7 +1462,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "It has three storeys on a square base."
+    "explanation": "It has three storeys on a square base.",
+    "q_np": "मन्दिरमा कति वटा छाना छन्?",
+    "options_np": [
+     "एक",
+     "दुई",
+     "तीन",
+     "पाँच"
+    ],
+    "explanation_np": "यसमा वर्गाकार आधारमाथि तीन तला छन्।"
    },
    {
     "q": "According to legend, from which town was the goddess brought to Thimi?",
@@ -1168,7 +1482,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "A princess of Lubhu brought the goddess when she came to Thimi."
+    "explanation": "A princess of Lubhu brought the goddess when she came to Thimi.",
+    "q_np": "किंवदन्ती अनुसार देवीलाई ठिमीमा कुन सहरबाट ल्याइएको थियो?",
+    "options_np": [
+     "लुभू",
+     "साँखु",
+     "बुङमती",
+     "फर्पिङ"
+    ],
+    "explanation_np": "लुभूकी एक राजकुमारीले ठिमी आउँदा देवीलाई ल्याएकी थिइन्।"
    }
   ],
   "clues": [
@@ -1187,9 +1509,10 @@
   "festivals": [
    {
     "name": "Sindoor Jatra (Bisket)",
-    "name_np": "सिन्दूर जात्रा",
+    "name_np": "सिन्दुरे जात्रा (बिस्केट)",
     "month": "Baisakh",
-    "note": "On 2 Baisakh palanquins circle the temple amid clouds of vermilion powder"
+    "note": "On 2 Baisakh palanquins circle the temple amid clouds of vermilion powder",
+    "note_np": "2 बैशाखमा सिन्दूर अबिरको बादलबीच पालकीहरूले मन्दिर परिक्रमा गर्छन्"
    }
   ],
   "gallery": [
@@ -1255,7 +1578,22 @@
     "newar-houses"
    ],
    "notes": "Three-roofed brick pagoda in a town square; a metal peacock on a pillar in front and peacocks at the roof corners"
-  }
+  },
+  "short_np": "ठिमीको तीन छाने देवी मन्दिर, जहाँ नेपाली नयाँ वर्षमा सिन्दुर फ्याँक्ने सिन्दुर जात्रा सुरु हुन्छ।",
+  "story_np": "तपाईं काठमाडौँ र भक्तपुरबीचको पुरानो नेवार सहर ठिमीमा हुनुहुन्छ, देवी बालकुमारीको मन्दिरअगाडि उभिँदै। यो काठमाडौँ उपत्यकाका चार कुमारी मन्दिरमध्ये एक हो र सत्रौँ शताब्दीको हो। मन्दिरअगाडिको खम्बा हेर्नुहोस्: माथि धातुको मयूर बसेको छ। मयूर देवीको वाहन हो, र छानाका कुनामा एक समय अझ धेरै मयूर सजाइएका थिए। अब नेपाली नयाँ वर्षमा यो चोकको कल्पना गर्नुहोस्। बिस्केट पर्वको अंश सिन्दुर जात्रामा ठिमी र नजिकका गाउँबाट खट भनिने दर्जनौँ पालकी आउँछन्, प्रत्येकले एक देवता वा देवी बोकेको। मानिसहरूले तिनलाई मन्दिरवरिपरि घुमाउँछन् र भीडले रातो सिन्दुरको धूलो हावामा उडाउँछ, सारा चोक सुन्तला-रातो नहुन्जेल। स्थानीय किंवदन्ती अनुसार देवी ल्वहुबाट यहाँ आइन्, ठिमीका एक व्यापारीसँग प्रेम गर्ने राजकुमारीले ल्याएकी। 2015 मा मन्दिरबाट एउटा पुरानो भैरवको मूर्ति चोरी भयो।",
+  "legend_np": "ठिमीका एक व्यापारी ल्वहुकी राजकुमारीसँग प्रेममा परे। राजकुमारी गर्भवती भएपछि उनले उनलाई आफूसँग घर लैजान भनिन्। उनले राजकुमारीले देवी बालकुमारीलाई पनि ल्याउने सर्तमा मञ्जुर गरे। त्यसैले राजकुमारीले देवीलाई साथमा ल्याइन्, र बालकुमारीको वासस्थान ल्वहुबाट ठिमी सर्‍यो।",
+  "facts_np": [
+   "यो काठमाडौँ उपत्यकाका चार कुमारी मन्दिरमध्ये एक हो।",
+   "मन्दिर सत्रौँ शताब्दीको हो र वर्गाकार आधारमा तीन छाना छन्।",
+   "अगाडि देवीको वाहन मयूर माथि राखिएको खम्बा छ।",
+   "नेपाली नयाँ वर्षमा यहीँबाट सिन्दुर जात्रा सुरु हुन्छ, जहाँ सिन्दुर हावामा फ्याँकिन्छ।",
+   "2015 मा सत्रौँ शताब्दीको एउटा दिगु भैरवको मूर्ति मन्दिरबाट चोरी भयो।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "नयाँ वर्षमा मेरो चोक सिन्दूरको बादलमा पालकीहरू वरिपरि घुम्दा सुन्तला-रातो हुन्छ।",
+   "एउटा मयूरले स्तम्भमाथि मेरो ढोकाको रक्षा गर्छ, र लुभूकी एक राजकुमारीले मेरी देवीलाई यहाँ ल्याएकी भनिन्छ।"
+  ]
  },
  {
   "slug": "sheshnarayan-temple",
@@ -1319,7 +1657,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Narayan is Vishnu, here resting on the serpent Shesha."
+    "explanation": "Narayan is Vishnu, here resting on the serpent Shesha.",
+    "q_np": "शेषनारायणमा कुन देवताको पूजा गरिन्छ?",
+    "options_np": [
+     "शिव",
+     "विष्णु",
+     "ब्रह्मा",
+     "इन्द्र"
+    ],
+    "explanation_np": "नारायण विष्णु हुन्, यहाँ शेषनागमाथि शयन गरेका।"
    },
    {
     "q": "Near which town is Sheshnarayan?",
@@ -1331,7 +1677,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "It lies just before Pharping, south-west of Kathmandu."
+    "explanation": "It lies just before Pharping, south-west of Kathmandu.",
+    "q_np": "शेषनारायण कुन सहरनजिक छ?",
+    "options_np": [
+     "फर्पिङ",
+     "शङ्खु",
+     "ठिमी",
+     "कीर्तिपुर"
+    ],
+    "explanation_np": "यो काठमाडौंको दक्षिण-पश्चिममा फर्पिङभन्दा अलि अघि पर्छ।"
    },
    {
     "q": "Which of these is NOT one of the valley's four Narayan temples?",
@@ -1343,7 +1697,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "The four are Changu, Ichangu, Bishankhu and Sheshnarayan."
+    "explanation": "The four are Changu, Ichangu, Bishankhu and Sheshnarayan.",
+    "q_np": "यीमध्ये कुन उपत्यकाका चार नारायण मन्दिरमध्ये होइन?",
+    "options_np": [
+     "चाँगुनारायण",
+     "इचङ्गुनारायण",
+     "बुढानिलकण्ठ",
+     "विशङ्खुनारायण"
+    ],
+    "explanation_np": "चार नारायण चाँगु, इचङ्गु, विशङ्खु र शेषनारायण हुन्।"
    },
    {
     "q": "Which Buddhist master is linked to the cave above the temple?",
@@ -1355,7 +1717,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Yangleshö cave is linked to Guru Padmasambhava."
+    "explanation": "Yangleshö cave is linked to Guru Padmasambhava.",
+    "q_np": "मन्दिरमाथिको गुफासँग कुन बौद्ध गुरुको सम्बन्ध छ?",
+    "options_np": [
+     "मिलारेपा",
+     "पद्मसम्भव",
+     "अतिश",
+     "नागार्जुन"
+    ],
+    "explanation_np": "यङ्लेशो गुफा गुरु पद्मसम्भवसँग जोडिएको छ।"
    },
    {
     "q": "Which sun-god image lies in one of the ponds?",
@@ -1367,7 +1737,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "An image of Aditya lies partly underwater in a pond."
+    "explanation": "An image of Aditya lies partly underwater in a pond.",
+    "q_np": "कुन सूर्यदेवको मूर्ति पोखरीमा छ?",
+    "options_np": [
+     "सूर्यनारायण",
+     "आदित्य",
+     "मित्र",
+     "सावित्री"
+    ],
+    "explanation_np": "आदित्यको मूर्ति आंशिक रूपमा पोखरीको पानीमुनि छ।"
    }
   ],
   "clues": [
@@ -1458,7 +1836,22 @@
     "village"
    ],
    "notes": "Small pagoda pressed against a grey cliff face, with square green ponds in front and stairs up to a cave"
-  }
+  },
+  "short_np": "उपत्यकाको रक्षा गर्ने चार नारायण मन्दिरमध्ये एक, फर्पिङनजिकै चट्टानमुनि पोखरी र पवित्र गुफासहित।",
+  "story_np": "फर्पिङको पुरानो सहर पुग्नुअघि सडक खैरो चट्टानको भीरबाट गुज्रिन्छ। यसको फेदमा शान्त हरिया पोखरी र विष्णुको सानो मन्दिर छ। यो शेषनारायण हो, काठमाडौँ उपत्यकालाई चारै दिशाबाट रक्षा गर्छन् भनिने चार नारायण मन्दिरमध्ये एक; अरू चाँगु, इचङ्गु र विशङ्खु नारायण हुन्। परम्पराले चारैलाई लिच्छवि राजा विष्णुगुप्तसँग जोड्छ। तपाईंले देख्नुभएको मुख्य मन्दिर 17औँ शताब्दीको हो, तर आँगनलाई ध्यान दिएर हेर्नुहोस्: केही कुँदिएका ढुङ्गाका मूर्ति धेरै पुराना, लिच्छविकालका छन्। पोखरीमा कार्प माछा आधा डुबेका कुँदाइहरू, सूर्य देवता आदित्यको मूर्तिसहित, वरिपरि पौडिन्छन्। तपाईंको माथि भर्‍याङले यङ्लेशो गुफासम्म पुर्‍याउँछ, जहाँ बौद्धहरू गुरु पद्मसम्भवले ध्यान गरेको विश्वास गर्छन्। यसरी हिन्दू र बौद्धहरू यो शान्त ठाउँ साझा गर्छन्। स्थानीय विश्वासले त पवित्र बागमती नदीले यसनजिकैबाट यात्रा सुरु गर्छ भन्छ।",
+  "legend_np": "स्थानीय परम्परा अनुसार नेपालको सबैभन्दा पवित्र नदी बागमतीको एउटा मुहान यहाँ छ। बौद्धहरूले मन्दिरमाथिको सानो गुफामा, जसलाई अहिले यङ्लेशो भनिन्छ, गुरु पद्मसम्भव र उनकी सहचरीले ध्यान गरेको पनि विश्वास गर्छन्।",
+  "facts_np": [
+   "यो चाँगु, इचङ्गु र विशङ्खु नारायणसँगै उपत्यकाका चार नारायण मन्दिरमध्ये एक हो।",
+   "परम्परा अनुसार चारै लिच्छवि राजा विष्णुगुप्तको शासनकालमा बनेका थिए।",
+   "लोनली प्लानेटले हालको मुख्य मन्दिर 17औँ शताब्दीको भनेको छ।",
+   "कार्प माछा भएका र आदित्यको मूर्तिसहित आधा डुबेका कुँदाइ भएका पोखरीले यसलाई घेरेका छन्।",
+   "भर्‍याङले गुरु पद्मसम्भवसँग जोडिएको यङ्लेशो गुफासम्म पुर्‍याउँछ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "म एउटा खैरो चट्टानमुनि उपत्यकाको दक्षिण-पश्चिमी कुना कुरिरहेको छु, मेरा पोखरीमा माछाहरू पुराना ढुङ्गाका देवताहरू वरिपरि घुम्छन्।",
+   "तल सर्पमाथिका देवतालाई हिन्दुहरूले पूजा गर्छन्, र बौद्धहरू मेरो माथिको गुरुको गुफामा चढ्छन्।"
+  ]
  },
  {
   "slug": "akash-bhairab-temple",
@@ -1522,7 +1915,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "It stands on the west side of Indra Chowk."
+    "explanation": "It stands on the west side of Indra Chowk.",
+    "q_np": "आकाशभैरव मन्दिर काठमाडौंको कुन चोकमा छ?",
+    "options_np": [
+     "इन्द्रचोक",
+     "असन",
+     "ठमेल चोक",
+     "लगनखेल"
+    ],
+    "explanation_np": "यो इन्द्रचोकको पश्चिमपट्टि छ।"
    },
    {
     "q": "During which festival is Akash Bhairav's mask shown in the square?",
@@ -1534,7 +1935,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "The mask is enthroned in the square during Indra Jatra."
+    "explanation": "The mask is enthroned in the square during Indra Jatra.",
+    "q_np": "कुन चाडमा आकाशभैरवको मुखुन्डो चोकमा देखाइन्छ?",
+    "options_np": [
+     "तिहार",
+     "इन्द्रजात्रा",
+     "होली",
+     "ल्होसार"
+    ],
+    "explanation_np": "इन्द्रजात्राको बेला मुखुन्डो चोकमा सिंहासनमा राखिन्छ।"
    },
    {
     "q": "Which legendary king is Akash Bhairav identified with?",
@@ -1546,7 +1955,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "He is said to be the Kirati king Yalambar."
+    "explanation": "He is said to be the Kirati king Yalambar.",
+    "q_np": "आकाशभैरवलाई कुन पौराणिक राजासँग जोडिन्छ?",
+    "options_np": [
+     "यलम्बर",
+     "मानदेव",
+     "पृथ्वीनारायण शाह",
+     "जयस्थिति मल्ल"
+    ],
+    "explanation_np": "उनी किराँत राजा यलम्बर हुन् भनिन्छ।"
    },
    {
     "q": "What does the name \"Aju\" mean in Nepal Bhasa?",
@@ -1558,7 +1975,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "Aju is understood as \"first king\"."
+    "explanation": "Aju is understood as \"first king\".",
+    "q_np": "नेपाल भाषामा \"अजु\" नामको अर्थ के हो?",
+    "options_np": [
+     "आकाश",
+     "पहिलो राजा वा हजुरबा",
+     "सिंह",
+     "मुखुन्डो"
+    ],
+    "explanation_np": "अजुलाई \"पहिलो राजा\" भनेर बुझिन्छ।"
    },
    {
     "q": "Which animals guard the temple door?",
@@ -1570,7 +1995,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Two metal lions flank the entrance."
+    "explanation": "Two metal lions flank the entrance.",
+    "q_np": "मन्दिरको ढोकाको रक्षा कुन जनावरले गर्छन्?",
+    "options_np": [
+     "हात्ती",
+     "धातुका सिंह",
+     "गोरु",
+     "मयूर"
+    ],
+    "explanation_np": "प्रवेशद्वारका दुवैतिर धातुका दुई सिंह छन्।"
    }
   ],
   "clues": [
@@ -1589,9 +2022,10 @@
   "festivals": [
    {
     "name": "Indra Jatra",
-    "name_np": "इन्द्र जात्रा",
+    "name_np": "इन्द्रजात्रा",
     "month": "Bhadra",
-    "note": "The great mask is enthroned in Indra Chowk and decorated for eight days"
+    "note": "The great mask is enthroned in Indra Chowk and decorated for eight days",
+    "note_np": "विशाल मुखुन्डोलाई इन्द्रचोकमा सिंहासनमा राखी आठ दिनसम्म सजाइन्छ"
    }
   ],
   "gallery": [
@@ -1666,7 +2100,22 @@
     "stone-paved-plaza"
    ],
    "notes": "Brass-fronted three-storey building over shops in a market square; metal lions at the door, blue Bhairav mask upstairs"
-  }
+  },
+  "short_np": "इन्द्र चोकको आकाशभैरवको मन्दिर, जसको विशाल मुखुण्डो इन्द्रजात्रामा चोकमा ल्याइन्छ।",
+  "story_np": "कपडा व्यापारी र स्कुटरहरूका बीचमा व्यस्त इन्द्र चोकमा उभिनुहोस्, र पश्चिम तर्फको भवनमा हेर्नुहोस्। भुइँतलामा पसलहरू छन्, तर दुई धातुका सिंहले ढोकाको रक्षा गर्छन्, र भर्‍याङले माथि आकाशभैरव, आकाशका भैरव, को मन्दिरसम्म पुर्‍याउँछ। यहाँका मानिसहरूले उनलाई आजु, पहिलो राजा, पनि भन्छन् र नेपालका पौराणिक किराँती राजा यलम्बरसँग चिन्छन्। ठूला आँखा र खप्पर तथा सर्पको मुकुट भएको उनको ठूलो नीलो मुहार धेरै सय वर्षअघि जमिनबाट खनेर निकालिएको भनिन्छ। वर्षको अधिकांश समय उनलाई हेर्न माथि चढ्नुपर्छ। तर इन्द्रजात्राको बेला, विशाल मुखुण्डो बाहिर ल्याइन्छ र तलको चोकमा स्थापना गरिन्छ, र मिठाई, फूल र सिक्का लिएर भीड आउँछ। उनको शिरमा रहेको सानो मूर्तिमा ध्यान दिनुहोस्: बौद्धहरू त्यहाँ बुद्ध देख्छन् र हिन्दूहरू ब्रह्मा, त्यसैले सबैले उनको पूजा गर्न सक्छन्।",
+  "legend_np": "कथाअनुसार आकाशभैरव यलम्बर हुन्, तान्त्रिक पूजाबाट ठूलो शक्ति प्राप्त गरेका किराँती राजा। उनी महाभारत युद्धमा सामेल हुन निस्कँदा, कृष्णले उनलाई युद्धबाट टाढा राख्न उनको शिर काटिदिए भनिन्छ, र त्यो आकाशमा उडेर काठमाडौंमा खस्यो। मुखुण्डोले त्यही शिरलाई जनाउँछ भन्ने बुझिन्छ।",
+  "facts_np": [
+   "मन्दिर पुरानो काठमाडौंको इन्द्र चोकको पश्चिम छेउमा अवस्थित छ।",
+   "आकाशभैरवलाई पौराणिक किराँती राजा यलम्बरसँग चिनिन्छ।",
+   "उनको मुखुण्डो इन्द्रजात्राको चाडमा चोकमा प्रदर्शन गरिन्छ।",
+   "दुई धातुका सिंहले प्रवेशद्वारको रक्षा गर्छन्, र भुइँतला पसलहरूले प्रयोग गर्छन्।",
+   "सन् २००७ मा नेपालको सरकारी वायुसेवाले आकाशभैरवलाई दुई बोका बलि दियो, जसको प्रतीक यसका जहाजहरूमा देखिन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "आकाश देवताको निलो मुखुन्डो माथिल्लो तलाबाट कपडा बजारलाई हेर्छ, र वर्षमा एकपटक चोकमा झर्छ।",
+   "मेरो भुइँतलामा पसलहरू छन्, मेरो ढोकामा दुई धातुका सिंहले रक्षा गर्छन्, र मेरा देवता प्राचीन किराँत राजा हुन् भनिन्छ।"
+  ]
  },
  {
   "slug": "uma-maheshwar-kirtipur",
@@ -1729,7 +2178,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Uma is Parvati and Maheshwar is Shiva."
+    "explanation": "Uma is Parvati and Maheshwar is Shiva.",
+    "q_np": "उमा महेश्वरले कुन दिव्य जोडीलाई सम्मान गर्छ?",
+    "options_np": [
+     "राम र सीता",
+     "शिव र पार्वती",
+     "विष्णु र लक्ष्मी",
+     "कृष्ण र राधा"
+    ],
+    "explanation_np": "उमा भनेको पार्वती र महेश्वर भनेको शिव हुन्।"
    },
    {
     "q": "Which animals guard the temple entrance?",
@@ -1741,7 +2198,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Two stone elephants stand on the first plinth."
+    "explanation": "Two stone elephants stand on the first plinth.",
+    "q_np": "मन्दिरको प्रवेशद्वारमा कुन जनावरहरूले पहरा दिन्छन्?",
+    "options_np": [
+     "सिंह",
+     "हात्ती",
+     "साँढे",
+     "ग्रिफिन"
+    ],
+    "explanation_np": "पहिलो चौरमा दुईवटा ढुङ्गाका हात्ती उभिएका छन्।"
    },
    {
     "q": "What do locals call the temple?",
@@ -1753,7 +2218,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "Its local name is Kwacho Dega."
+    "explanation": "Its local name is Kwacho Dega.",
+    "q_np": "स्थानीयहरूले मन्दिरलाई के भन्छन्?",
+    "options_np": [
+     "क्वाछो देगः",
+     "मजु देगः",
+     "न्यातपोल",
+     "कुम्भेश्वर"
+    ],
+    "explanation_np": "यसको स्थानीय नाम क्वाछो देगः हो।"
    },
    {
     "q": "How many roofs does the temple have today?",
@@ -1765,7 +2238,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "It has three roofs on a four-stage plinth."
+    "explanation": "It has three roofs on a four-stage plinth.",
+    "q_np": "आजको मन्दिरमा कतिवटा छाना छन्?",
+    "options_np": [
+     "एउटा",
+     "दुईवटा",
+     "तीनवटा",
+     "पाँचवटा"
+    ],
+    "explanation_np": "यसमा चार तहको चौरमाथि तीनवटा छाना छन्।"
    },
    {
     "q": "In which year does Kirtipur Municipality date the temple?",
@@ -1777,7 +2258,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "The municipality gives 1655 AD (NS 775)."
+    "explanation": "The municipality gives 1655 AD (NS 775).",
+    "q_np": "कीर्तिपुर नगरपालिकाले मन्दिर कुन वर्षको भनेको छ?",
+    "options_np": [
+     "1555",
+     "1655",
+     "1755",
+     "1855"
+    ],
+    "explanation_np": "नगरपालिकाले 1655 ई. (ने.सं. 775) भनेको छ।"
    }
   ],
   "clues": [
@@ -1796,9 +2285,10 @@
   "festivals": [
    {
     "name": "Dashain (Mohani)",
-    "name_np": "दशैं (मोहनी)",
+    "name_np": "दशैँ (मोहनी)",
     "month": "Ashwin",
-    "note": "A special annual puja is held at the temple during Dashain"
+    "note": "A special annual puja is held at the temple during Dashain",
+    "note_np": "दशैँको बेला मन्दिरमा विशेष वार्षिक पूजा गरिन्छ।"
    }
   ],
   "gallery": [
@@ -1872,6 +2362,21 @@
     "himalaya-backdrop"
    ],
    "notes": "Three-roofed brick pagoda on four stepped plinths with two stone elephants at the stair, on a hilltop with valley views"
-  }
+  },
+  "short_np": "कीर्तिपुरको डाँडाको टुप्पोमा ढुङ्गाका हात्तीले रक्षा गरिएको तीन छाने शिव-पार्वती मन्दिर।",
+  "story_np": "तपाईं कीर्तिपुरको सबैभन्दा अग्लो बिन्दुमा, समुद्र सतहभन्दा करिब १,४१४ मिटरमा पुग्नुभएको छ। पहिले फर्केर हेर्नुहोस्: स्वच्छ दिनमा तपाईंको तल सम्पूर्ण काठमाडौँ उपत्यका फैलिएको छ, क्षितिजमा लाङटाङ र गौरीशङ्करजस्ता हिमाली चुचुराहरूसहित। अब मन्दिरतिर फर्कनुहोस्। स्थानीयले यसलाई क्वाछो देगः, डाँडामाथिको मन्दिर भन्छन्। यसको औपचारिक नाम, उमा महेश्वर, शिव र उनकी सहचरी पार्वतीलाई सँगै सम्मान गर्छ। कीर्तिपुर नगरपालिकाले यसलाई सन् १६५५ को मान्छ। चार इँटाका चौकी उक्लनुहोस् र प्रवेशद्वार रक्षा गरिरहेका दुईवटा ढुङ्गाका हात्तीलाई पार गर्नुहुनेछ। तीनवटा टायलले ढाकिएका छाना, बीसवटा कुँदिएका खम्बा र चुचुरोबाट पहिलो छानासम्म झुन्डिएको धातुको पताकातिर माथि हेर्नुहोस्। भित्र शिव र पार्वतीका मूर्ति छन्, सरस्वती र गणेशसहित। भूकम्पबारे स्रोतहरू एकमत छैनन्: एउटाले मन्दिरमा कुनै बेला चार छाना थिए र सन् १९३४ मा एउटा गुम्यो भन्छ; अर्कोले अघिल्लो भूकम्पले यसलाई पुनर्स्थापना नहुँदासम्म भग्नावशेष बनाएको थियो भन्छ।",
+  "legend_np": null,
+  "facts_np": [
+   "यो कीर्तिपुरको सबैभन्दा अग्लो बिन्दु, करिब १,४१४ मिटरमा छ।",
+   "कीर्तिपुर नगरपालिकाले यसको निर्माण सन् १६५५ (ने.सं. ७७५) को मान्छ।",
+   "पहिलो चौकीमा दुईवटा ढुङ्गाका हात्तीले प्रवेशद्वार रक्षा गर्छन्।",
+   "यसमा चार तहको इँटाको चौकीमाथि झिँगटीका टायलका तीन छाना छन्।",
+   "स्थानीयले यसलाई क्वाछो देगः भन्छन्, र यहाँबाट लाङटाङ र गौरीशङ्करसम्मको दृश्य देखिन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "नेवार डाँडा सहरको एकदमै टुप्पोमा दुईवटा ढुङ्गाका हात्तीले मेरा भर्‍याङमा पहरा दिन्छन्, पछाडि उपत्यकामाथि हिमाल देखिन्छन्।",
+   "शिव र पार्वतीले मेरा तीन छाना साझा गर्छन्, र स्थानीयहरूले मलाई सजिलै डाँडाको मन्दिर भन्छन्।"
+  ]
  }
 ]

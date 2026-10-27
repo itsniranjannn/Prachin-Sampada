@@ -27,11 +27,11 @@ export default function Monument() {
   const [stars, setStars] = useState(0);
   const [comment, setComment] = useState('');
   const { user } = useAuth();
-  const { theme, sound } = usePrefs();
+  const { theme, sound, nepali } = usePrefs();
   const toast = useToast();
   const nav = useNavigate();
   const [lightbox, setLightbox] = useState(false);
-  const [view, setView] = useState('scan');
+  const [view, setView] = useState(() => (new URLSearchParams(window.location.search).get('view') === 'model' ? 'model' : 'scan'));
   const { scrollY } = useScroll();
   const heroY = useTransform(scrollY, [0, 700], [0, 160]);
   const heroScale = useTransform(scrollY, [0, 700], [1.06, 1.16]);
@@ -44,12 +44,13 @@ export default function Monument() {
   useEffect(() => { setData(null); setErr(''); load(); /* eslint-disable-next-line */ }, [slug]);
 
   const m = data?.monument;
+  const pick = (np, en) => (nepali && np ? np : en);
   const chapters = useMemo(() => (m ? [
-    { title: 'Story', text: m.story },
-    ...(m.legend ? [{ title: 'Legend', text: m.legend }] : []),
-    ...(m.facts?.length ? [{ title: 'Did you know', text: m.facts.join(' ') }] : []),
-  ] : []), [m]);
-  const narrator = useNarrator(chapters);
+    { title: nepali ? 'कथा' : 'Story', text: pick(m.story_np, m.story) },
+    ...(m.legend ? [{ title: nepali ? 'किंवदन्ती' : 'Legend', text: pick(m.legend_np, m.legend) }] : []),
+    ...(m.facts?.length ? [{ title: nepali ? 'के तपाईंलाई थाहा छ?' : 'Did you know', text: (nepali && m.facts_np?.length ? m.facts_np : m.facts).join(' ') }] : []),
+  ] : []), [m, nepali]);
+  const narrator = useNarrator(chapters, nepali ? 'ne' : 'en');
 
   if (err) return <div className="page wrap"><div className="empty brick-wall"><h3>{err}</h3><Link to="/explore" className="btn">Back to the map</Link></div></div>;
   if (!data) return <PageLoader />;
@@ -91,7 +92,7 @@ export default function Monument() {
     m.deity && { k: 'Dedicated to', v: m.deity },
     { k: 'Style', v: m.architecture || TYPE_LABEL[m.type] },
     (m.open || m.close) && { k: 'Open', v: `${m.open || '—'} – ${m.close || '—'}` },
-    { k: 'Typical visit', v: `${m.visitMinutes} minutes` },
+    { k: t('Typical visit', 'सामान्य भ्रमण'), v: t(`${m.visitMinutes} minutes`, `${t.n(m.visitMinutes)} मिनेट`) },
   ].filter(Boolean);
   const photos = [
     m.image && { url: m.image, caption: m.name, author: m.imageCredit, license: '' },
@@ -112,7 +113,7 @@ export default function Monument() {
           <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.9, ease: [0.22, 0.9, 0.24, 1] }}>
             <nav className="mon-crumbs" aria-label="Breadcrumb">
               <Link to="/explore">Explore</Link><ChevronRight size={13} />
-              <Link to={`/explore?province=${m.province}`}>{m.province} Province</Link><ChevronRight size={13} />
+              <Link to={`/explore?province=${m.province}`}>{t(`${m.province} Province`, `${t.prov(m.province)} प्रदेश`)}</Link><ChevronRight size={13} />
               <span>{m.city}</span>
             </nav>
             <div className="row" style={{ gap: '0.4rem', marginBottom: '0.8rem' }}>
@@ -122,10 +123,10 @@ export default function Monument() {
             </div>
             <h1 style={{ marginBottom: '0.1em' }}>{m.name}</h1>
             <div className="mon-np" lang="ne">{m.name_np}</div>
-            <p className="lead" style={{ maxWidth: 640 }}>{m.short}</p>
+            <p className="lead" style={{ maxWidth: 640 }} lang={nepali && m.short_np ? 'ne' : undefined}>{pick(m.short_np, m.short)}</p>
             {data.parent && <p className="small">Part of <Link to={`/m/${data.parent.slug}`}>{data.parent.name}</Link></p>}
             <div className="mon-hero-tools">
-              {photos.length > 1 && <button className="btn light-ghost" onClick={() => setLightbox(true)}><Images size={16} /> {photos.length} photos</button>}
+              {photos.length > 1 && <button className="btn light-ghost" onClick={() => setLightbox(true)}><Images size={16} /> {t(`${photos.length} photos`, `${t.n(photos.length)} तस्बिर`)}</button>}
               <a className="btn light-ghost" href="#model">3D model</a>
               <a className="btn light-ghost" href="#story">Read the story</a>
             </div>
@@ -138,7 +139,7 @@ export default function Monument() {
           {/* audio guide */}
           <div className="card pad-l audio-card">
             <div className="row between">
-              <div className="row"><div><h4 style={{ margin: 0 }}>{t('Audio guide', 'श्रव्य मार्गदर्शक')}</h4><span className="cap">{chapters.length} short chapters · read aloud by your device</span></div></div>
+              <div className="row"><div><h4 style={{ margin: 0 }}>{t('Audio guide', 'श्रव्य मार्गदर्शक')}</h4><span className="cap">{t(`${chapters.length} short chapters · read aloud by your device`, `${t.n(chapters.length)} छोटा अध्याय · तपाईंको उपकरणले पढेर सुनाउँछ`)}</span></div></div>
               {narrator.supported ? (
                 <div className="row">
                   {narrator.playing && !narrator.paused ? <button className="btn sm" onClick={narrator.pause}><Pause size={15} /> Pause</button>
@@ -165,26 +166,26 @@ export default function Monument() {
 
           <article className="story" id="story">
             <h2>{t('The story', 'कथा')}</h2>
-            <p className="dropcap">{m.story}</p>
+            <p className="dropcap" lang={nepali && m.story_np ? 'ne' : undefined}>{pick(m.story_np, m.story)}</p>
             {m.legend && (
               <div className="legend-box mithila">
                 <div className="eyebrow">Legend · किंवदन्ती</div>
-                <p style={{ margin: 0 }}>{m.legend}</p>
+                <p style={{ margin: 0 }} lang={nepali && m.legend_np ? 'ne' : undefined}>{pick(m.legend_np, m.legend)}</p>
               </div>
             )}
             {m.facts?.length > 0 && (
               <>
                 <h3>{t('Did you know', 'के तपाईंलाई थाहा छ?')}</h3>
-                <ul className="facts">{m.facts.map((f) => <li key={f}>{f}</li>)}</ul>
+                <ul className="facts" lang={nepali && m.facts_np?.length ? 'ne' : undefined}>{(nepali && m.facts_np?.length === m.facts.length ? m.facts_np : m.facts).map((f) => <li key={f}>{f}</li>)}</ul>
               </>
             )}
             <ShrineVerse faith={m.faith} seed={m.id} />
-            {m.quake2015 && <div className="quake"><TriangleAlert size={18} /><div><b>2015 earthquake.</b> {m.quake2015}</div></div>}
+            {m.quake2015 && <div className="quake"><TriangleAlert size={18} /><div><b>{t('2015 earthquake.', '२०७२ को भूकम्प।')}</b> {pick(m.quake_np, m.quake2015)}</div></div>}
           </article>
 
           {photos.length > 1 && (
             <section className="gallery">
-              <div className="sec-head" style={{ marginBottom: '1rem' }}><div><div className="eyebrow">{t('Photographs', 'तस्बिरहरू')}</div><h3 style={{ margin: 0 }}>Every side of {m.name}</h3></div><span className="cap">Free-licensed photos from Wikimedia Commons</span></div>
+              <div className="sec-head" style={{ marginBottom: '1rem' }}><div><div className="eyebrow">{t('Photographs', 'तस्बिरहरू')}</div><h3 style={{ margin: 0 }}>{t(`Every side of ${m.name}`, `${m.name_np || m.name}का सबै पाटा`)}</h3></div><span className="cap">Free-licensed photos from Wikimedia Commons</span></div>
               <Gallery photos={photos} open={lightbox} setOpen={setLightbox} />
             </section>
           )}
@@ -193,7 +194,7 @@ export default function Monument() {
             <div className="model-head">
               <div>
                 <div className="eyebrow" style={{ marginBottom: '0.4rem' }}>{t('Turn it in 3D', 'थ्रीडीमा घुमाउनुहोस्')}</div>
-                <h3 style={{ margin: 0 }}>{m.name} and its surroundings</h3>
+                <h3 style={{ margin: 0 }}>{t(`${m.name} and its surroundings`, `${m.name_np || m.name} र वरिपरिको दृश्य`)}</h3>
                 <span className="cap">{showScan ? 'A 3D scan of the real monument. Press play, then drag to orbit and scroll to zoom.' : `${spec?.notes || `A ${TYPE_LABEL[m.type]?.toLowerCase() || 'temple'} built from its architecture.`} Drag to orbit, scroll to zoom.`}</span>
               </div>
               {siteScan && (
@@ -209,7 +210,7 @@ export default function Monument() {
             {!showScan && spec && (
               <div className="model-specs">
                 {spec.tiers > 1 && <span className="tag">{spec.tiers} {['pagoda', 'gumba', 'lake-shrine'].includes(spec.kind) ? 'roofs' : 'storeys'}</span>}
-                {spec.plinth_steps > 0 && <span className="tag">{spec.plinth_steps} plinth levels</span>}
+                {spec.plinth_steps > 0 && <span className="tag">{t(`${spec.plinth_steps} plinth levels`, `${t.n(spec.plinth_steps)} तह चौकी`)}</span>}
                 {(spec.features || []).slice(0, 6).map((x) => <span key={x} className="tag">{x.replace(/-/g, ' ')}</span>)}
               </div>
             )}
@@ -218,7 +219,7 @@ export default function Monument() {
           {detailScans.length > 0 && (
             <section className="scan-section">
               <div className="eyebrow">{t('Scanned at the site', 'स्थलमै स्क्यान गरिएको')}</div>
-              <h3 style={{ marginTop: 0 }}>Shrines and sculptures of {m.name} in 3D</h3>
+              <h3 style={{ marginTop: 0 }}>{t(`Shrines and sculptures of ${m.name} in 3D`, `${m.name_np || m.name}का मन्दिर र मूर्तिहरू थ्रीडीमा`)}</h3>
               <ScanDetails scans={detailScans} />
             </section>
           )}
@@ -295,13 +296,13 @@ export default function Monument() {
                 <div className="divider" />
                 <b>{t('Festivals here', 'यहाँका पर्व')}</b>
                 <div className="fest-list">
-                  {m.festivals.map((x) => <div key={x.name} className="fest-item"><span className="fest-month" lang="ne">{x.month}{x.name_np ? ` · ${x.name_np}` : ''}</span><b>{x.name}</b>{x.note && <span className="cap">{x.note}</span>}</div>)}
+                  {m.festivals.map((x) => <div key={x.name} className="fest-item"><span className="fest-month" lang="ne">{x.month}{x.name_np ? ` · ${x.name_np}` : ''}</span><b>{t.nepali && x.name_np ? x.name_np : x.name}</b>{x.note && <span className="cap">{t.nepali && x.note_np ? x.note_np : x.note}</span>}</div>)}
                 </div>
               </>
             )}
             <div className="divider" />
             <div className="grid" style={{ gap: '0.5rem' }}>
-              <Link className="btn" to={`/quiz?monument=${m.id}`}><Brain size={16} /> Quiz on this place ({m.questionCount})</Link>
+              <Link className="btn" to={`/quiz?monument=${m.id}`}><Brain size={16} /> {t(`Quiz on this place (${m.questionCount})`, `यस ठाउँबारे प्रश्नोत्तर (${t.n(m.questionCount)})`)}</Link>
               <Link className="btn ghost" to={`/walk?add=${m.id}`}><Route size={16} /> Add to a yatra</Link>
               <button className="btn ghost" onClick={fav}><Heart size={16} fill={data.me?.favorite ? 'currentColor' : 'none'} /> {data.me?.favorite ? 'Saved' : 'Save'}</button>
               <a className="btn ghost" href={`https://www.google.com/maps/dir/?api=1&destination=${m.lat},${m.lng}&travelmode=walking`} target="_blank" rel="noreferrer"><MapPin size={16} /> Directions</a>
@@ -316,7 +317,7 @@ export default function Monument() {
               {data.nearby.map((n) => (
                 <Link key={n.id} to={`/m/${n.slug}`} className="near">
                   {n.image && <img src={n.image} alt="" loading="lazy" />}
-                  <span><b>{n.name}</b><span className="cap">{fmtM(n.metres)} away</span></span>
+                  <span><b>{n.name}</b><span className="cap">{t(`${fmtM(n.metres)} away`, `${t.n(fmtM(n.metres))} टाढा`)}</span></span>
                   <ArrowRight size={15} />
                 </Link>
               ))}

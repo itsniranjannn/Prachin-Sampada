@@ -30,7 +30,7 @@ r.get('/quiz/next', optionalAuth, ah(async (req, res) => {
   const q = cat.questions.find((x) => x.id === pick.id);
   const m = cat.byId.get(q.monument_id);
   res.json({
-    question: { id: q.id, text: q.question, options: q.options, difficulty: q.difficulty, review: due.includes(q.id), limitMs: QUIZ_LIMIT_MS },
+    question: { id: q.id, text: q.question, text_np: q.question_np || null, options: q.options, options_np: q.options_np || null, difficulty: q.difficulty, review: due.includes(q.id), limitMs: QUIZ_LIMIT_MS },
     monument: card(m), rating, level: levelFor(rating),
   });
 }));
@@ -68,7 +68,7 @@ r.post('/quiz/answer', optionalAuth, ah(async (req, res) => {
     badges = await checkBadges(req.user.id);
   }
   res.json({
-    correct, answerIndex: q.answer_index, explanation: q.explanation,
+    correct, answerIndex: q.answer_index, explanation: q.explanation, explanation_np: q.explanation_np || null,
     rating: upd.player, delta: upd.delta, expected: Math.round(upd.expected * 100), level: levelFor(upd.player), badges,
   });
 }));
@@ -89,10 +89,10 @@ r.post('/game/start', ah(async (req, res) => {
   const id = crypto.randomBytes(9).toString('base64url');
   const rounds = picks.map((m) => {
     const clues = cat.clues.filter((c) => c.monument_id === m.id);
-    return { monumentId: m.id, clue: clues[seed % clues.length]?.clue || m.short_text, hint: `${m.city} · ${m.type}`, image: m.image_url, credit: m.image_credit, answered: false };
+    return { monumentId: m.id, clue: clues[seed % clues.length]?.clue || m.short_text, clue_np: clues[seed % clues.length]?.clue_np || null, hint: `${m.city} · ${m.type}`, image: m.image_url, credit: m.image_credit, answered: false };
   });
   games.set(id, { rounds, created: Date.now(), total: 0, scope });
-  res.json({ gameId: id, scope, rounds: rounds.map((x, i) => ({ index: i, clue: x.clue, image: x.image, credit: x.credit })), limitMs: 60000 });
+  res.json({ gameId: id, scope, rounds: rounds.map((x, i) => ({ index: i, clue: x.clue, clue_np: x.clue_np, image: x.image, credit: x.credit })), limitMs: 60000 });
 }));
 
 r.post('/game/guess', optionalAuth, ah(async (req, res) => {

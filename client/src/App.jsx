@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect } from 'react';
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Nav, Footer, PageLoader, SmoothScroll, ScrollProgress } from './components/Shell.jsx';
+import { Translator } from './components/Translator.jsx';
 import { useAuth } from './lib/auth.jsx';
 
 const Home = lazy(() => import('./pages/Home.jsx'));
@@ -18,6 +19,8 @@ const Auth = lazy(() => import('./pages/Auth.jsx'));
 const Admin = lazy(() => import('./pages/Admin.jsx'));
 const About = lazy(() => import('./pages/About.jsx'));
 const Credits = lazy(() => import('./pages/Credits.jsx'));
+const Verify = lazy(() => import('./pages/Verify.jsx'));
+const Forgot = lazy(() => import('./pages/Forgot.jsx'));
 const NotFound = lazy(() => import('./pages/NotFound.jsx'));
 
 function ScrollTop() {
@@ -41,6 +44,7 @@ export default function App() {
   return (
     <>
       <a href="#main" className="skip">Skip to content</a>
+      <Translator />
       <SmoothScroll enabled={!fullBleed} />
       <ScrollTop />
       <Nav />
@@ -62,6 +66,8 @@ export default function App() {
             <Route path="/admin" element={<RequireAuth admin><Admin /></RequireAuth>} />
             <Route path="/login" element={<Auth mode="login" />} />
             <Route path="/register" element={<Auth mode="register" />} />
+            <Route path="/verify" element={<RequireAuth><Verify /></RequireAuth>} />
+            <Route path="/forgot" element={<Forgot />} />
             <Route path="/about" element={<About />} />
             <Route path="/credits" element={<Credits />} />
             <Route path="*" element={<NotFound />} />

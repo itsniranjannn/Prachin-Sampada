@@ -29,7 +29,7 @@ function Dashboard() {
   return (
     <>
       <div className="kpis">{kpis.map(([k, v]) => <div key={k} className="kpi card"><span className="cap">{k}</span><b className="num">{v}</b></div>)}</div>
-      <div className="grid-2" style={{ marginTop: '1rem' }}>
+      <div className="grid-2" style={{ marginTop: "1rem", alignItems: "start" }}>
         <div className="card pad-l"><h5>Quiz answers, last 14 days</h5><Bars data={s.perDay} label={(d) => new Date(d.d).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })} value={(d) => d.n} /></div>
         <div className="card pad-l"><h5>Most stamped monuments</h5><Bars data={s.topStamped} label={(d) => d.name} value={(d) => d.n} /></div>
         <div className="card pad-l"><h5>Monuments by type</h5><Bars data={s.byType} label={(d) => TYPE_LABEL[d.type] || d.type} value={(d) => d.n} /></div>

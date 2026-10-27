@@ -10,7 +10,21 @@ CREATE TABLE users (
   rating INT NOT NULL DEFAULT 1000,            -- Elo rating used by the adaptive quiz
   answered INT NOT NULL DEFAULT 0,
   is_active TINYINT(1) NOT NULL DEFAULT 1,
+  email_verified TINYINT(1) NOT NULL DEFAULT 0,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB;
+
+-- one-time codes mailed to an address: 'verify' (confirm the email) and 'reset' (forgotten password)
+CREATE TABLE email_codes (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(150) NOT NULL,
+  purpose ENUM('verify','reset') NOT NULL,
+  code_hash CHAR(64) NOT NULL,                 -- HMAC of the code; the code itself is never stored
+  attempts TINYINT NOT NULL DEFAULT 0,
+  expires_at DATETIME NOT NULL,
+  consumed_at DATETIME NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_codes (email, purpose, id)
 ) ENGINE=InnoDB;
 
 CREATE TABLE monuments (
@@ -48,6 +62,11 @@ CREATE TABLE monuments (
   image_credit VARCHAR(255) NOT NULL DEFAULT '',
   tags VARCHAR(255) NOT NULL DEFAULT '',
   sources JSON NULL,
+  short_np VARCHAR(500) NULL,                  -- Nepali text shown when the Nepali toggle is on
+  story_np TEXT NULL,
+  legend_np TEXT NULL,
+  facts_np JSON NULL,
+  quake_np VARCHAR(900) NULL,
   festivals JSON NULL,                         -- [{name, name_np, month, note}]
   gallery JSON NULL,                           -- extra CC photos [{url, file_page, author, license, caption}]
   model JSON NULL,                             -- 3D model spec: kind, tiers, plinth, features, surroundings
@@ -63,6 +82,9 @@ CREATE TABLE questions (
   difficulty TINYINT NOT NULL DEFAULT 2,
   rating INT NOT NULL DEFAULT 950,             -- Elo rating, starts from difficulty
   explanation VARCHAR(400) NOT NULL DEFAULT '',
+  question_np VARCHAR(800) NULL,
+  options_np JSON NULL,
+  explanation_np VARCHAR(800) NULL,
   times_asked INT NOT NULL DEFAULT 0,
   times_correct INT NOT NULL DEFAULT 0,
   FOREIGN KEY (monument_id) REFERENCES monuments(id) ON DELETE CASCADE
@@ -72,6 +94,7 @@ CREATE TABLE clues (
   id INT AUTO_INCREMENT PRIMARY KEY,
   monument_id INT NOT NULL,
   clue VARCHAR(300) NOT NULL,
+  clue_np VARCHAR(500) NULL,
   FOREIGN KEY (monument_id) REFERENCES monuments(id) ON DELETE CASCADE
 ) ENGINE=InnoDB;
 

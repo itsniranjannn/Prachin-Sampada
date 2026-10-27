@@ -213,14 +213,14 @@ export default function Hunt() {
           </div>
           <div className="find-photo"><img src={round.image} alt="Mystery monument" /><span className="cap find-credit">{round.credit}</span></div>
           <div style={{ padding: '0.9rem 1rem 1rem' }}>
-            <div className="clue">“{round.clue}”</div>
+            <div className="clue" lang={t.nepali && round.clue_np ? 'ne' : undefined}>“{t.nepali && round.clue_np ? round.clue_np : round.clue}”</div>
             {!reveal && !mine && (
               <>
                 <p className="cap" style={{ margin: '0.7rem 0' }}>{pin ? 'Pin placed. Lock it before the clock runs out.' : 'Tap the map to place your pin.'}</p>
                 <button className="btn" disabled={!pin} onClick={lock}><MapPin size={16} /> Lock my guess</button>
               </>
             )}
-            {!reveal && mine && <p className="ok-text" style={{ marginTop: '0.7rem' }}><Check size={16} /> Locked in: +{mine.points} ({fmtM(mine.metres)} away). Waiting for the others…</p>}
+            {!reveal && mine && <p className="ok-text" style={{ marginTop: '0.7rem' }}><Check size={16} /> {t(`Locked in: +${mine.points} (${fmtM(mine.metres)} away). Waiting for the others…`, `पक्का भयो: +${t.n(mine.points)} (${t.n(fmtM(mine.metres))} टाढा)। अरूको प्रतीक्षा गर्दै…`)}</p>}
             {reveal && (
               <div style={{ marginTop: '0.6rem' }}>
                 <p style={{ margin: 0 }}>It was <Link to={`/m/${reveal.monument.slug}`} target="_blank"><b>{reveal.monument.name}</b></Link> <span lang="ne" className="np muted">{reveal.monument.name_np}</span></p>
@@ -269,7 +269,7 @@ export default function Hunt() {
               ))}
             </div>
             {final.ranking.length > 3 && <ol className="rest">{final.ranking.slice(3).map((p) => <li key={p.id}><span>{p.rank}. {p.name}</span><b className="num">{p.points}</b></li>)}</ol>}
-            {myRow && <p className="muted">You finished <b>#{final.ranking.find((p) => p.id === me)?.rank}</b> with {myRow.points} points.</p>}
+            {myRow && <p className="muted">{t('You finished', 'तपाईं')} <b>#{t.n(final.ranking.find((p) => p.id === me)?.rank)}</b> {t(`with ${myRow.points} points.`, `स्थानमा ${t.n(myRow.points)} अङ्कसहित सकाउनुभयो।`)}</p>}
             <div className="row" style={{ justifyContent: 'center' }}>
               <button className="btn lg diyo" onClick={leave}><Trophy size={17} /> New hunt</button>
               <Link className="btn ghost lg" to="/explore">Explore the winners’ map</Link>

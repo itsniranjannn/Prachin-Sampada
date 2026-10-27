@@ -15,8 +15,8 @@ export async function getCatalog() {
   if (cache && Date.now() - loadedAt < TTL) return cache;
   const [monuments, questions, clues, ratingRows] = await Promise.all([
     query('SELECT * FROM monuments ORDER BY id'),
-    query('SELECT id, monument_id, question, options, answer_index, difficulty, rating, explanation FROM questions'),
-    query('SELECT id, monument_id, clue FROM clues'),
+    query('SELECT id, monument_id, question, options, answer_index, difficulty, rating, explanation, question_np, options_np, explanation_np FROM questions'),
+    query('SELECT id, monument_id, clue, clue_np FROM clues'),
     query('SELECT monument_id, AVG(stars) AS avg, COUNT(*) AS n FROM ratings GROUP BY monument_id'),
   ]);
   const ratings = new Map(ratingRows.map((r) => [r.monument_id, { avg: Number(r.avg), n: Number(r.n) }]));
@@ -25,6 +25,7 @@ export async function getCatalog() {
     facts: parse(m.facts, []),
     sources: parse(m.sources, []),
     festivals: parse(m.festivals, []),
+    facts_np: parse(m.facts_np, []),
     gallery: parse(m.gallery, []),
     model: parse(m.model, null),
     unesco: !!m.unesco,
@@ -35,7 +36,7 @@ export async function getCatalog() {
     monuments: list,
     byId: new Map(list.map((m) => [m.id, m])),
     bySlug: new Map(list.map((m) => [m.slug, m])),
-    questions: questions.map((q) => ({ ...q, options: parse(q.options, []) })),
+    questions: questions.map((q) => ({ ...q, options: parse(q.options, []), options_np: parse(q.options_np, null) })),
     clues,
   };
   loadedAt = Date.now();
@@ -61,7 +62,7 @@ export function invalidateCatalog() {
 export const card = (m) => ({
   id: m.id, slug: m.slug, name: m.name, name_np: m.name_np, city: m.city, province: m.province, district: m.district, zone: m.zone_slug,
   lat: m.lat, lng: m.lng, type: m.type, religion: m.religion, deity: m.deity, unesco: m.unesco,
-  short: m.short_text, built: m.built_text, builtYear: m.built_year, dynasty: m.dynasty,
+  short: m.short_text, short_np: m.short_np || null, built: m.built_text, builtYear: m.built_year, dynasty: m.dynasty,
   image: m.image_url, imageCredit: m.image_credit, tags: m.tags, visitMinutes: m.visit_minutes,
   open: m.open_time, close: m.close_time, avgRating: m.avgRating, ratingCount: m.ratingCount,
   galleryCount: m.gallery?.length || 0, modelKind: m.model?.kind || null, model: m.model || null,

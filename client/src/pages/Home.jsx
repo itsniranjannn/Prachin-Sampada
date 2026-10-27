@@ -20,6 +20,7 @@ export const PROVINCES = [
   { key: 'Sudurpashchim', np: 'सुदूरपश्चिम', text: 'Shaileshwori, Ugratara and the high meadows of Khaptad.' },
 ];
 
+const MONTH_NP = { Baishakh: 'वैशाख', Jestha: 'जेष्ठ', Ashadh: 'असार', Shrawan: 'श्रावण', Bhadra: 'भाद्र', Ashwin: 'आश्विन', Kartik: 'कार्तिक', Mangsir: 'मंसिर', Poush: 'पौष', Magh: 'माघ', Falgun: 'फाल्गुण', Chaitra: 'चैत्र' };
 const NP_MONTHS = ['Baishakh', 'Jestha', 'Ashadh', 'Shrawan', 'Bhadra', 'Ashwin', 'Kartik', 'Mangsir', 'Poush', 'Magh', 'Falgun', 'Chaitra'];
 /** Nepali month that a Gregorian date mostly falls in (Baishakh starts mid-April). */
 export function currentNpMonth(d = new Date()) {
@@ -62,7 +63,7 @@ function Provinces({ data }) {
   const sx = useSpring(x, { stiffness: 120, damping: 30, mass: 0.4 });
   const narrow = typeof window !== 'undefined' && window.innerWidth <= 760;
   return (
-    <section ref={ref} className="hscroll" style={{ height: narrow ? 'auto' : `calc(100svh + ${dist}px)` }}>
+    <section ref={ref} className="hscroll" style={{ height: narrow ? 'auto' : `calc(${Math.max(window.innerHeight, 760)}px + ${dist}px)` }}>
       <div className="hscroll-sticky">
         <div className="wrap sec-head" style={{ marginBottom: '1.6rem' }}>
           <div>
@@ -153,7 +154,7 @@ function HeroShowcase({ t, meta }) {
         <div className="hero2-now">
           <AnimatePresence mode="wait">
             <motion.div key={cur.slug} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }} transition={{ duration: 0.5 }}>
-              <span className="cap">{cur.city} · {cur.province} Province</span>
+              <span className="cap">{cur.city} · {t(`${cur.province} Province`, `${t.prov(cur.province)} प्रदेश`)}</span>
               <b>{cur.name}</b>
               <span lang="ne" className="np">{cur.name_np}</span>
               <span className="row" style={{ gap: '0.5rem', marginTop: '0.6rem' }}>
@@ -272,7 +273,7 @@ export default function Home() {
             <div className="sec-head">
               <Reveal>
                 <div className="eyebrow">{t('Jatra and parva', 'जात्रा र पर्व')}</div>
-                <h2>Festivals coming up from {month}</h2>
+                <h2>{t(`Festivals coming up from ${month}`, `${MONTH_NP[month] || month} देखि आउने पर्वहरू`)}</h2>
                 <Epigraph index={13} />
               </Reveal>
               <p className="muted">Heritage is alive: chariots, lamps and fairs return to these courtyards every year.</p>
@@ -281,9 +282,9 @@ export default function Home() {
               {fests.map((f, i) => (
                 <Reveal key={`${f.slug}-${f.name}`} delay={i * 0.05}>
                   <div className="fest">
-                    <div className="fest-month" lang="ne">{f.month}{f.name_np ? ` · ${f.name_np}` : ''}</div>
-                    <h5>{f.name}</h5>
-                    <p className="small muted" style={{ margin: '0 0 0.5rem' }}>{f.note}</p>
+                    <div className="fest-month" lang="ne">{t.nepali ? (MONTH_NP[f.month] || f.month) : f.month}{f.name_np && !t.nepali ? ` · ${f.name_np}` : ''}</div>
+                    <h5>{t.nepali && f.name_np ? f.name_np : f.name}</h5>
+                    <p className="small muted" style={{ margin: '0 0 0.5rem' }}>{t.nepali && f.note_np ? f.note_np : f.note}</p>
                     <Link to={`/m/${f.slug}`}>{f.site} <ArrowRight size={13} /></Link>
                   </div>
                 </Reveal>

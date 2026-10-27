@@ -53,7 +53,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Kakrebihar is in the forest near Birendranagar, Surkhet, the capital of Karnali Province."
+    "explanation": "Kakrebihar is in the forest near Birendranagar, Surkhet, the capital of Karnali Province.",
+    "q_np": "काँक्रेविहार कुन जिल्लामा पर्छ?",
+    "options_np": [
+     "जुम्ला",
+     "सुर्खेत",
+     "दैलेख",
+     "बर्दिया"
+    ],
+    "explanation_np": "काँक्रेविहार कर्णाली प्रदेशको राजधानी वीरेन्द्रनगर, सुर्खेतनजिकको जङ्गलमा छ।"
    },
    {
     "q": "What style is the rebuilt stone temple at Kakrebihar?",
@@ -65,7 +73,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "The Department of Archaeology reassembled it as a stone shikhara temple."
+    "explanation": "The Department of Archaeology reassembled it as a stone shikhara temple.",
+    "q_np": "काँक्रेविहारमा पुनर्निर्माण गरिएको ढुङ्गाको मन्दिर कुन शैलीको हो?",
+    "options_np": [
+     "प्यागोडा",
+     "स्तूप",
+     "शिखर",
+     "गुम्बज"
+    ],
+    "explanation_np": "पुरातत्त्व विभागले यसलाई ढुङ्गाको शिखर शैलीको मन्दिरका रूपमा पुनः जोड्यो।"
    },
    {
     "q": "Craftsmen from which town helped reassemble the temple?",
@@ -77,7 +93,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "Eight craftsmen from Bhaktapur fitted the original stones back together from 2016."
+    "explanation": "Eight craftsmen from Bhaktapur fitted the original stones back together from 2016.",
+    "q_np": "मन्दिर पुनः जोड्न कुन सहरका सिपालुहरूले सहयोग गरे?",
+    "options_np": [
+     "भक्तपुर",
+     "पोखरा",
+     "जनकपुर",
+     "धनगढी"
+    ],
+    "explanation_np": "भक्तपुरका आठ जना सिपालुहरूले 2016 देखि मौलिक ढुङ्गाहरू फेरि जोडे।"
    },
    {
     "q": "Which kingdom is the site linked to by archaeologists?",
@@ -89,7 +113,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Kakrebihar is linked to the Khasa kingdom, which ruled western Nepal from Sinja and Jumla."
+    "explanation": "Kakrebihar is linked to the Khasa kingdom, which ruled western Nepal from Sinja and Jumla.",
+    "q_np": "पुरातत्त्वविद्हरूले यो स्थललाई कुन राज्यसँग जोडेका छन्?",
+    "options_np": [
+     "लिच्छवि",
+     "खस (खस मल्ल)",
+     "सेन",
+     "राणा"
+    ],
+    "explanation_np": "काँक्रेविहार सिँजा र जुम्लाबाट पश्चिम नेपालमा शासन गर्ने खस राज्यसँग जोडिएको छ।"
    },
    {
     "q": "Which king does the site signboard credit with building Kakrebihar around 1268 CE?",
@@ -101,7 +133,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "The signboard names Ashok Challa, though experts say the temple may be older."
+    "explanation": "The signboard names Ashok Challa, though experts say the temple may be older.",
+    "q_np": "स्थलको सूचना पाटीले करिब 1268 ई. मा काँक्रेविहार बनाएको श्रेय कुन राजालाई दिन्छ?",
+    "options_np": [
+     "पृथ्वी मल्ल",
+     "अशोक चल्ल",
+     "जितारी मल्ल",
+     "रिपु मल्ल"
+    ],
+    "explanation_np": "सूचना पाटीमा अशोक चल्लको नाम छ, तर विशेषज्ञहरूका अनुसार मन्दिर त्योभन्दा पुरानो हुन सक्छ।"
    }
   ],
   "clues": [
@@ -204,6 +244,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Surkhet Valley seen from the Kakrebihar hill"
    }
+  ],
+  "short_np": "सुर्खेत उपत्यकामाथिको सल्ला र साल जङ्गलमा रहेको खस कालको पुनःजोडिएको ढुङ्गाको शिखर मन्दिर, जहाँ बौद्ध र हिन्दू दुवै मूर्तिहरू छन्।",
+  "story_np": "तपाईं सल्ला र सालको जङ्गल हुँदै सुर्खेत उपत्यकामाथिको शान्त टिलामा उक्लनुभएको छ। तपाईंको अगाडिको ढुङ्गाको मन्दिर कुनै बेला टुक्राटुक्रा भएर थियो। सयौँ वर्षसम्म यसका कुँदिएका ढुङ्गाका टुक्राहरू यस डाँडाभरि छरिएका थिए, र यसलाई के ले ढाल्यो भन्ने कसैलाई पक्का थाहा छैन: कसैले सन् १८३३ को ठूलो भूकम्पलाई दोष दिन्छन्, कसैले चौधौं शताब्दीको आक्रमणकारी सेनालाई। पुरातत्त्वविद्हरूले यस स्थललाई खस राज्यसँग जोड्छन्, जसका राजाहरूका नाम चल्ल र मल्ल थिए र सिञ्जा र जुम्लाबाट शासन गर्थे। यहाँको साइनबोर्डले करिब १२६८ मा अशोक चल्ल नामका राजालाई श्रेय दिन्छ। वरपर छरिएका टुक्राहरू हेर्नुहोस्। उत्खनन गर्नेहरूले यहाँ बुद्धका मूर्ति भेट्टाए, तर गणेश, सरस्वती र शिवका पनि, त्यसैले धेरैले यसलाई दुई धर्मले साझा गरेको तीर्थस्थल ठान्छन्। सन् २०१६ देखि भक्तपुरका शिल्पीहरूले बाँकी रहेका ढुङ्गाहरू आकार-आकार मिलाएर फेरि जोडे र आज तपाईंले देख्ने शिखर बनाए। जानुअघि किनारासम्म हिँडेर हरियो उपत्यकातिर तल हेर्नुहोस्।",
+  "legend_np": "एउटा स्थानीय थारू कथाअनुसार यो डाँडा महाभारतका पाण्डव दाजुभाइको दरबार थियो। अर्को कथामा, देवर-भाउजू एउटा जोडीसँग एकै रातमा मन्दिर बनाउने होडबाजी गरे; हारेपछि उनीहरूले आफ्नै काम भत्काएर भागे, र ढुङ्गाहरू छरिएर रहे।",
+  "facts_np": [
+   "यस स्थलमा बुद्धका मूर्तिहरू र गणेश, सरस्वती र शिवलगायत हिन्दू देवदेवीका मूर्तिहरू फेला परे।",
+   "पुरातत्त्व विभागले सन् २००० मा यस स्थलको उत्खनन गर्‍यो र पछि मौलिक ढुङ्गाहरू प्रयोग गरेर मन्दिर पुनर्निर्माण गर्‍यो।",
+   "चन्द्र रञ्जितकारको नेतृत्वमा भक्तपुरका आठ शिल्पीहरूले सन् २०१६ मा सुरु भएको पुनर्स्थापनामा काम गरे, बजेट रु ८ करोड १८ लाख थियो।",
+   "पुनर्निर्मित शिखर मन्दिर करिब छ मिटर अग्लो छ।",
+   "यसको ढुङ्गाको वास्तुकला काठमाडौँ उपत्यकाका मन्दिरभन्दा पश्चिमको कुमाउँका मन्दिरहरूसँग मिल्दोजुल्दो छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "बुद्ध र गणेश दुवै उपत्यकाको राजधानीमाथिको यही जङ्गली डाँडाबाट खनेर निकालिएका थिए।",
+   "एउटा ढुङ्गाको शिखर सयौँ टुक्रामा छरिएको थियो, जबसम्म काठमाडौँ उपत्यकाका सिपालुहरूले त्यसलाई फेरि जोडिदिएनन्।"
   ]
  },
  {
@@ -259,7 +314,15 @@
     ],
     "answer_index": 2,
     "difficulty": 1,
-    "explanation": "It stands in Khalanga Bazaar, the headquarters of Jumla district."
+    "explanation": "It stands in Khalanga Bazaar, the headquarters of Jumla district.",
+    "q_np": "चन्दननाथ मन्दिर कुन जिल्लामा छ?",
+    "options_np": [
+     "मुगु",
+     "हुम्ला",
+     "जुम्ला",
+     "डोल्पा"
+    ],
+    "explanation_np": "यो जुम्ला जिल्लाको सदरमुकाम खलङ्गा बजारमा छ।"
    },
    {
     "q": "Which deity is worshipped as Chandannath?",
@@ -271,7 +334,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "The main idol is Dattatreya, also called Trimurti."
+    "explanation": "The main idol is Dattatreya, also called Trimurti.",
+    "q_np": "चन्दननाथको रूपमा कुन देवताको पूजा गरिन्छ?",
+    "options_np": [
+     "दत्तात्रेय",
+     "गणेश",
+     "हनुमान",
+     "नारायण"
+    ],
+    "explanation_np": "मुख्य मूर्ति दत्तात्रेयको हो, जसलाई त्रिमूर्ति पनि भनिन्छ।"
    },
    {
     "q": "What are the giant flag poles at the temple called?",
@@ -283,7 +354,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The red-painted timber poles with huge flags are called lingo."
+    "explanation": "The red-painted timber poles with huge flags are called lingo.",
+    "q_np": "मन्दिरका विशाल ध्वजा खम्बालाई के भनिन्छ?",
+    "options_np": [
+     "योसिन",
+     "लिङ्गो",
+     "ध्वज-खम्बा",
+     "लिङ्ग"
+    ],
+    "explanation_np": "ठूला झण्डा लगाइने रातो रङ लगाएका काठका खम्बालाई लिङ्गो भनिन्छ।"
    },
    {
     "q": "On which day are the lingo poles replaced each year?",
@@ -295,7 +374,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The change is made on Ghatasthapana, the first day of Dashain."
+    "explanation": "The change is made on Ghatasthapana, the first day of Dashain.",
+    "q_np": "लिङ्गो खम्बा हरेक वर्ष कुन दिन फेरिन्छ?",
+    "options_np": [
+     "महाशिवरात्रि",
+     "घटस्थापना",
+     "तिहार लक्ष्मी पूजा",
+     "बुद्ध जयन्ती"
+    ],
+    "explanation_np": "दशैँको पहिलो दिन घटस्थापनाका दिन परिवर्तन गरिन्छ।"
    },
    {
     "q": "Local tradition says Chandannath of Kashmir also introduced which crop to Jumla?",
@@ -307,7 +394,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "He is believed to have brought Marsi rice after finding Jumla's climate similar to Kashmir's."
+    "explanation": "He is believed to have brought Marsi rice after finding Jumla's climate similar to Kashmir's.",
+    "q_np": "स्थानीय परम्परा अनुसार कश्मिरका चन्दननाथले जुम्लामा कुन बाली पनि ल्याएका थिए?",
+    "options_np": [
+     "स्याउ",
+     "रातो मार्सी धान",
+     "फापर",
+     "सिमी"
+    ],
+    "explanation_np": "जुम्लाको हावापानी कश्मिरजस्तै भएको देखेपछि उनले मार्सी धान ल्याएको विश्वास गरिन्छ।"
    }
   ],
   "clues": [
@@ -317,21 +412,24 @@
   "festivals": [
    {
     "name": "Dashain (Ghatasthapana lingo change)",
-    "name_np": "दशैँ (घटस्थापना)",
+    "name_np": "दशैँ (घटस्थापनामा लिङ्गो परिवर्तन)",
     "month": "Ashwin",
-    "note": "The old lingo poles are taken down and new ones raised on the first day of Dashain."
+    "note": "The old lingo poles are taken down and new ones raised on the first day of Dashain.",
+    "note_np": "दशैँको पहिलो दिन पुराना लिङ्गो खम्बा झारिन्छन् र नयाँ उठाइन्छन्।"
    },
    {
     "name": "Krishna Janmashtami jatra",
     "name_np": "कृष्ण जन्माष्टमी जात्रा",
     "month": "Bhadra",
-    "note": "Large crowds gather in Jumla Bazaar on the last day of the jatra."
+    "note": "Large crowds gather in Jumla Bazaar on the last day of the jatra.",
+    "note_np": "जात्राको अन्तिम दिन जुम्ला बजारमा ठूलो भीड जम्मा हुन्छ।"
    },
    {
     "name": "Maha Shivaratri",
     "name_np": "महाशिवरात्रि",
     "month": "Falgun",
-    "note": "One of the major festivals that bring crowds to the temple."
+    "note": "One of the major festivals that bring crowds to the temple.",
+    "note_np": "मन्दिरमा भीड ल्याउने प्रमुख पर्वहरूमध्ये एक।"
    }
   ],
   "model": {
@@ -429,6 +527,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Khalanga Bazaar, home of the temples, seen from afar"
    }
+  ],
+  "short_np": "जुम्ला बजारको रक्षक मन्दिर, हरेक दशैँमा फेरिने अग्ला झण्डा-खम्बाका लागि प्रसिद्ध।",
+  "story_np": "तपाईं कर्णाली पहाडमा अग्लो रहेको जुम्लाको पुरानो बजार खलङ्गामा हुनुहुन्छ। पहिले माथि हेर्नुहोस्: भगवा रङका ठूला झण्डासहित ती अग्ला रातो खम्बाहरूलाई लिङ्गो भनिन्छ, र प्रत्येक पचास फिटभन्दा बढी लामो काठको हुन्छ। हरेक वर्ष दशैँको पहिलो दिन घटस्थापनामा जुम्लाका मानिसहरूले पुरानो लिङ्गो झार्छन् र नयाँ ठड्याउँछन्। फेर्दा खम्बा भाँचियो भने अनिष्ट हुन्छ भन्ने विश्वास छ, त्यसैले सारा सहर सास रोकेर हेर्छ। अब आँखा तल ल्याउनुहोस्, चम्किलो गुम्बजसहितको सानो सेतो मन्दिरमा। भित्र दत्तात्रेय छन्, जो यहाँ चन्दननाथका रूपमा पूजिन्छन्। स्थानीय विश्वास अनुसार चन्दननाथ नामका एक तपस्वी कश्मीरबाट यो मूर्ति बोकेर आए, र यी खेतमा फल्ने रातो मार्सी चामल पनि उनैले ल्याए। छेउमै भैरवनाथको मन्दिर छ। 2016 मा चोरहरूले यो मन्दिरबाट अठ्ठाइसवटा मूर्ति चोरे, र धेरै बरामद नभएसम्म सहरले आन्दोलन गर्‍यो।",
+  "legend_np": "एउटा कथा अनुसार घरमा दूध नदिने एउटी गाईले यही ठाउँमा उभिँदा दूध स्वतन्त्र रूपमा बगाउँथी, त्यसैले गाउँलेहरूले यो भूमि पवित्र रहेको थाहा पाए र त्यहीँ मन्दिर बनाए। अर्को कथाले कश्मीरका चन्दननाथले दत्तात्रेयको मूर्ति र रातो मार्सी चामल जुम्ला ल्याएको भन्छ।",
+  "facts_np": [
+   "लिङ्गो खम्बाहरू 52 फिटभन्दा बढी लामा छन् र हरेक वर्ष दशैँको पहिलो दिन घटस्थापनामा फेरिन्छन्।",
+   "राजा राजेन्द्रको वि.सं. 1881 को शाही आदेशले जुम्लामा श्री चन्दननाथको मन्दिर बनाउन 22 कामदार पठायो।",
+   "2016 को नोभेम्बरको एक रात मुख्य देवता दत्तात्रेयसहित 28 मूर्ति चोरी भए; प्रहरीले पछि 14 मूर्ति बरामद गर्‍यो।",
+   "स्थानीय परम्परा अनुसार कश्मीरका चन्दननाथले जुम्लाको रातो मार्सी चामल भित्र्याए।",
+   "मन्दिर चन्दननाथ-भैरवनाथ गुठी व्यवस्थापन समितिद्वारा सञ्चालित छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "यहाँ हरेक दशैँमा केसरी झण्डा लगाएका दुई अग्ला राता खम्बा फेरिन्छन्, र कसैले पनि ती भाँचिएको चाहँदैनन्।",
+   "कश्मिरका एक ऋषिले यो अग्लो बजारमा देवता र रातो चामल दुवै ल्याएको भनिन्छ।"
   ]
  },
  {
@@ -485,7 +598,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Sinja was the capital of the Khasa Malla kingdom of western Nepal."
+    "explanation": "Sinja was the capital of the Khasa Malla kingdom of western Nepal.",
+    "q_np": "सिँजा उपत्यकामा कुन राज्यको राजधानी थियो?",
+    "options_np": [
+     "लिच्छवि",
+     "खस मल्ल",
+     "गोरखा",
+     "विदेह"
+    ],
+    "explanation_np": "सिँजा पश्चिम नेपालको खस मल्ल राज्यको राजधानी थियो।"
    },
    {
     "q": "Which language is the Sinja Valley called the birthplace of?",
@@ -497,7 +618,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "Early written examples of Nepali in Devanagari were found on cliffs here and in Dullu."
+    "explanation": "Early written examples of Nepali in Devanagari were found on cliffs here and in Dullu.",
+    "q_np": "सिँजा उपत्यकालाई कुन भाषाको जन्मस्थल भनिन्छ?",
+    "options_np": [
+     "नेवारी",
+     "मैथिली",
+     "नेपाली",
+     "थारू"
+    ],
+    "explanation_np": "देवनागरीमा लेखिएका नेपाली भाषाका प्रारम्भिक नमूना यहाँ र दुल्लुका चट्टानहरूमा भेटिएका थिए।"
    },
    {
     "q": "In which district is the Sinja Valley?",
@@ -509,7 +638,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "Sinja is in Jumla district, Karnali Province."
+    "explanation": "Sinja is in Jumla district, Karnali Province.",
+    "q_np": "सिँजा उपत्यका कुन जिल्लामा पर्छ?",
+    "options_np": [
+     "जुम्ला",
+     "सुर्खेत",
+     "बाजुरा",
+     "डोटी"
+    ],
+    "explanation_np": "सिँजा कर्णाली प्रदेशको जुम्ला जिल्लामा पर्छ।"
    },
    {
     "q": "In which year was Sinja added to the UNESCO Tentative List?",
@@ -521,7 +658,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "It was added in the cultural category on 30 January 2008."
+    "explanation": "It was added in the cultural category on 30 January 2008.",
+    "q_np": "सिँजा युनेस्कोको सम्भावित सूचीमा कुन वर्ष थपियो?",
+    "options_np": [
+     "1979",
+     "1996",
+     "2008",
+     "2015"
+    ],
+    "explanation_np": "यो 30 जनवरी 2008 मा सांस्कृतिक श्रेणीमा थपिएको थियो।"
    },
    {
     "q": "Into how many small kingdoms did the Khasa kingdom split after the 14th century?",
@@ -533,7 +678,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "It fragmented into 22 kingdoms, the Baise Rajya."
+    "explanation": "It fragmented into 22 kingdoms, the Baise Rajya.",
+    "q_np": "14 औँ शताब्दीपछि खस राज्य कतिओटा साना राज्यमा विभाजित भयो?",
+    "options_np": [
+     "12",
+     "22",
+     "24",
+     "46"
+    ],
+    "explanation_np": "यो 22 राज्यमा टुक्रियो, जसलाई बाइसे राज्य भनिन्छ।"
    }
   ],
   "clues": [
@@ -629,6 +782,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Snow-covered forest above Sinja Valley in winter"
    }
+  ],
+  "short_np": "खस मल्ल राजाहरूको राजधानी रहेको जुम्लाको उच्च उपत्यका, जसलाई नेपाली भाषाको जन्मस्थल भनिन्छ।",
+  "story_np": "तपाईं जुम्लाको चौडा उपत्यका सिँजामा उभिनुभएको छ, जहाँ हिमा नदी सुख्खा डाँडा र पाखा खेतबीच बग्छ। यो शान्त र दुर्गम देखिन्छ, तर करिब बाह्रौँदेखि चौधौँ शताब्दीसम्म यो खस मल्ल राजाहरूको राजधानी थियो, जसको शक्ति पश्चिम नेपालभर फैलिएको थियो। हाट सिँजा गाउँनजिक एउटा किल्लाका भग्नावशेष छन्, जसलाई विद्वानहरूले उनीहरूको ग्रीष्मकालीन राजधानी यात्से भनी चिनाउँछन्। नदीपारिका चट्टानतिर हेर्नुहोस्: त्यहाँका गुफाहरूमा पुराना बौद्ध चैत्य छन्, र चट्टानमा अभिलेख कुँदिएका छन्। नेपाली भाषाका सबैभन्दा पुराना लिखित नमुनाहरूमध्ये केही यस्तै चट्टान र नजिकैको दुल्लुमा भेटिएका थिए, त्यसैले मानिसहरू सिँजालाई नेपालीको जन्मस्थल भन्छन्। हिँड्दा बाटो र पुलछेउ उभिएका कुँदिएका स्मारक स्तम्भ हेर्नुहोस्। मस्टो भनिने धामीहरूले अझै ढुङ्गाका देवालमा प्राचीन अनुष्ठान गर्छन्। सन् 2008 मा नेपालले यो उपत्यकालाई युनेस्कोको सम्भावित सूचीमा राख्यो।",
+  "legend_np": null,
+  "facts_np": [
+   "सिँजा खस राज्यको राजधानी थियो, जसले करिब 12औँदेखि 14औँ शताब्दीसम्म पश्चिम नेपालमा शासन गर्‍यो।",
+   "उपत्यकालाई प्रायः नेपाली भाषाको जन्मस्थल भनिन्छ; यसका चट्टान र नजिकैको दुल्लुमा 13औँ शताब्दीका देवनागरी अभिलेख भेटिएका थिए।",
+   "सन् 2008 को जनवरी 30 मा नेपालले सिँजा उपत्यकालाई युनेस्को विश्व सम्पदाको सम्भावित सूचीमा थप्यो।",
+   "14औँ शताब्दीपछि खस राज्य 22 वटा साना राज्य, बाइसे राज्यमा विभाजित भयो।",
+   "सिँजा खोला उपत्यकाबाट बग्छ र कालीकोट जिल्लामा कर्णालीमा मिसिन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "यस अग्लो उपत्यकाबाट शासन गर्ने राजाहरूले कुनै बेला हिमाली साम्राज्य चलाए, जाडोमा दुल्लुमा बस्थे।",
+   "यहाँ पहाडी नदीमाथिका चट्टानहरूमा राष्ट्रभाषाका सबैभन्दा पुराना लिखित शब्दहरू सुरक्षित छन्।"
   ]
  },
  {
@@ -686,7 +854,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "Shirasthan is in Dullu Municipality, Dailekh district."
+    "explanation": "Shirasthan is in Dullu Municipality, Dailekh district.",
+    "q_np": "शिरस्थान कुन जिल्लामा पर्छ?",
+    "options_np": [
+     "दैलेख",
+     "जुम्ला",
+     "अछाम",
+     "कालिकोट"
+    ],
+    "explanation_np": "शिरस्थान दैलेख जिल्लाको दुल्लु नगरपालिकामा पर्छ।"
    },
    {
     "q": "What keeps the sacred flames at Shirasthan burning?",
@@ -698,7 +874,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Gas seeping from the rocks feeds the flames, so the area is called Jwala Tirtha."
+    "explanation": "Gas seeping from the rocks feeds the flames, so the area is called Jwala Tirtha.",
+    "q_np": "शिरस्थानका पवित्र ज्वालाहरू के ले बलिरहेका छन्?",
+    "options_np": [
+     "घिउबत्ती",
+     "जमिनबाट निस्कने प्राकृतिक ग्यास",
+     "कोइलाको आगो",
+     "बिजुलीका बत्ती"
+    ],
+    "explanation_np": "चट्टानबाट रसेको ग्यासले ज्वाला बलिरहन्छ, त्यसैले यो क्षेत्रलाई ज्वाला तीर्थ भनिन्छ।"
    },
    {
     "q": "Which part of Sati is said to have fallen at Shirasthan?",
@@ -710,7 +894,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "Shir means head; her navel is said to have fallen at Nabhisthan."
+    "explanation": "Shir means head; her navel is said to have fallen at Nabhisthan.",
+    "q_np": "शिरस्थानमा सतीको कुन अङ्ग खसेको भनिन्छ?",
+    "options_np": [
+     "नाइटो",
+     "खुट्टा",
+     "शिर",
+     "देब्रे काँध"
+    ],
+    "explanation_np": "शिर भनेको टाउको हो; उनको नाइटो नाभिस्थानमा खसेको भनिन्छ।"
    },
    {
     "q": "The Panchakoshi pilgrimage of Dailekh links how many sacred sites?",
@@ -722,7 +914,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Pancha means five: Shirasthan, Nabhisthan, Dhuleshwar, Padukasthan and Dungeshwar."
+    "explanation": "Pancha means five: Shirasthan, Nabhisthan, Dhuleshwar, Padukasthan and Dungeshwar.",
+    "q_np": "दैलेखको पञ्चकोशी तीर्थले कतिवटा पवित्र स्थानलाई जोड्छ?",
+    "options_np": [
+     "तीन",
+     "पाँच",
+     "सात",
+     "बाह्र"
+    ],
+    "explanation_np": "पञ्च भनेको पाँच: शिरस्थान, नाभिस्थान, धुलेश्वर, पादुकास्थान र डुङ्गेश्वर।"
    },
    {
     "q": "Priests at Shirasthan belong to which ascetic sect?",
@@ -734,7 +934,15 @@
     ],
     "answer_index": 0,
     "difficulty": 5,
-    "explanation": "Scholar Marie Lecomte-Tilouine photographed the Nath ascetic priest of Sirasthan in 2003."
+    "explanation": "Scholar Marie Lecomte-Tilouine photographed the Nath ascetic priest of Sirasthan in 2003.",
+    "q_np": "शिरस्थानका पुजारीहरू कुन सन्न्यासी सम्प्रदायका हुन्?",
+    "options_np": [
+     "नाथ",
+     "दशनामी गिरि",
+     "कबीर पन्थ",
+     "रामानन्दी"
+    ],
+    "explanation_np": "विद्वान् मारी लेकोम्त-तिलुइनले 2003 मा सिरस्थानका नाथ सन्न्यासी पुजारीको फोटो खिचेकी थिइन्।"
    }
   ],
   "clues": [
@@ -838,6 +1046,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Sacrificial post area of the shrine"
    }
+  ],
+  "short_np": "दुल्लुको ज्वाला मन्दिर जहाँ चट्टानबाट प्राकृतिक ग्यास बल्छ, देवी सतीको शिर खसेको ठाउँका रूपमा पूजिने।",
+  "story_np": "चुपचाप आँगनमा पस्नुहोस् र पर्खालको छेउका चट्टानहरूमा हेर्नुहोस्। ढुङ्गाबाटै सानो ज्वाला बलिरहेको छ, न बत्ती न तेल। यो दुल्लुको रावतकोटमा रहेको शिरस्थान हो, दैलेखको पञ्चकोशी तीर्थयात्राका पाँच पवित्र स्थलमध्ये एक। जमिनबाट निस्कने ग्यासले यी ज्वालाहरू बलिरहेका छन्, र तीर्थयात्रीहरू सम्पूर्ण क्षेत्रलाई ज्वाला तीर्थ, आगोको स्थान, भन्छन्। नामको अर्थ शिरको स्थान हो। स्वस्थानीमा भनिएको हिन्दू परम्पराअनुसार, शिवले आफ्नी पत्नी सतीको शव बोकेर भौँतारिँदा उनको शिर यहीँ खस्यो; उनको नाभि नजिकैको नाभिस्थानमा खस्यो। वरिपरि पुराना कुँदिएका ढुङ्गाका मूर्तिहरूको सङ्कलन र बलि दिइने खम्बामा ध्यान दिनुहोस्। यहाँका पुजारी नाथ सम्प्रदायका तपस्वी हुन्। मानिसहरू भन्छन् जुम्लाको चन्दननाथ वा बडीमालिकाका पवित्र ज्वाला निभे यहीँबाट ल्याइएको आगोले फेरि बालिन्छ।",
+  "legend_np": "स्वस्थानीअनुसार, सतीको मृत्युपछि शिवले उनको शव संसारभर बोकेर हिँडे, र उनको शिर शिरस्थानमा खस्यो, जसले मन्दिरलाई यसको नाम दियो। उनको नाभि नजिकैको नाभिस्थानमा खस्यो।",
+  "facts_np": [
+   "शिरस्थान दैलेखको पञ्चकोशी तीर्थस्थलहरूमध्ये एक हो, नाभिस्थान, धुलेश्वर, पादुकास्थान र डुङ्गेश्वरसँगै।",
+   "यसका ज्वालाहरू प्राकृतिक ग्यासबाट बल्छन्, त्यसैले यस क्षेत्रलाई ज्वाला तीर्थ वा अग्नि तीर्थ पनि भनिन्छ।",
+   "स्थानीय परम्पराअनुसार चन्दननाथ (जुम्ला) र बडीमालिकाका ज्वाला निभेमा यहाँको ज्वालाबाट पुनः बालिन्छन्।",
+   "अनुसन्धानकर्ता मारी लेकोम्त-तिलुइनले सन् २००३ मा दस्तावेजीकरण गरेअनुसार मन्दिरका पुजारी नाथ सम्प्रदायका तपस्वी रहँदै आएका छन्।",
+   "यो स्थल नेपालको सांस्कृतिक सम्पदा स्मारकका रूपमा सूचीकृत छ (NP-DK-18, शिरस्थान (ज्वालादेवी) मठ)।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "यहाँ बत्ती वा तेल बिना नै खाली चट्टानबाट आगो उठ्छ, र ठाउँको नाम एक देवीको शिरमा आधारित छ।",
+   "जुम्ला वा बाजुराका पवित्र आगो निभेपछि मानिसहरू ज्वाला सापट माग्न यहाँ आउँछन् भनिन्छ।"
   ]
  },
  {
@@ -894,7 +1117,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "Kirti means fame or glory and stambha means pillar."
+    "explanation": "Kirti means fame or glory and stambha means pillar.",
+    "q_np": "'कीर्तिस्तम्भ' को अर्थ के हो?",
+    "options_np": [
+     "कीर्तिको खम्बा",
+     "पानीको धारा",
+     "राजसिंहासन",
+     "प्रार्थना चक्र"
+    ],
+    "explanation_np": "कीर्ति भनेको यश वा गौरव र स्तम्भ भनेको खम्बा हो।"
    },
    {
     "q": "Which king is the Dullu pillar associated with?",
@@ -906,7 +1137,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "It is associated with the Khasa Malla king Prithvi Malla."
+    "explanation": "It is associated with the Khasa Malla king Prithvi Malla.",
+    "q_np": "दुल्लुको खम्बा कुन राजासँग सम्बन्धित छ?",
+    "options_np": [
+     "पृथ्वीनारायण शाह",
+     "पृथ्वी मल्ल",
+     "जयस्थिति मल्ल",
+     "महेन्द्र"
+    ],
+    "explanation_np": "यो खस मल्ल राजा पृथ्वी मल्लसँग सम्बन्धित छ।"
    },
    {
     "q": "What Buddhist shape is carved near the top of the pillar?",
@@ -918,7 +1157,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "A small stepped chaitya is carved above the lettering."
+    "explanation": "A small stepped chaitya is carved above the lettering.",
+    "q_np": "खम्बाको माथिल्लो भागमा कुन बौद्ध आकृति कुँदिएको छ?",
+    "options_np": [
+     "कमलको आसन",
+     "चैत्य",
+     "धर्मचक्र",
+     "प्रार्थना ध्वजा"
+    ],
+    "explanation_np": "अक्षरहरूमाथि तहतह भएको सानो चैत्य कुँदिएको छ।"
    },
    {
     "q": "According to the inscription, who founded the Khasa Malla capital at Sinja?",
@@ -930,7 +1177,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "The genealogy names Nagaraja as the founder of the capital at Sinja."
+    "explanation": "The genealogy names Nagaraja as the founder of the capital at Sinja.",
+    "q_np": "अभिलेख अनुसार सिँजामा खस मल्ल राजधानी कसले स्थापना गरे?",
+    "options_np": [
+     "नागराज",
+     "रिपु मल्ल",
+     "अशोक चल्ल",
+     "बहादुर शाह"
+    ],
+    "explanation_np": "वंशावलीमा सिँजामा राजधानी स्थापना गर्ने व्यक्तिका रूपमा नागराजको नाम छ।"
    },
    {
     "q": "Which scholar recorded the Dullu stelae in the 1950s?",
@@ -942,7 +1197,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "Giuseppe Tucci recorded them during his work in western Nepal; they were re-photographed in 1969."
+    "explanation": "Giuseppe Tucci recorded them during his work in western Nepal; they were re-photographed in 1969.",
+    "q_np": "1950 को दशकमा दुल्लुका शिलालेखहरू कुन विद्वान्ले अभिलेखन गरे?",
+    "options_np": [
+     "ब्रायन हजसन",
+     "ज्युसेप्पे तुच्ची",
+     "सिल्भाँ लेवी",
+     "टोनी हागेन"
+    ],
+    "explanation_np": "ज्युसेप्पे तुच्चीले पश्चिम नेपालमा काम गर्दा तिनको अभिलेख राखे; 1969 मा तिनको फेरि तस्बिर खिचिएको थियो।"
    }
   ],
   "clues": [
@@ -1035,6 +1298,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "caption": "Small stone chaitya near the Kirtistambha"
    }
+  ],
+  "short_np": "दुल्लुमा रहेको १४औं शताब्दीको अभिलेख भएको ढुङ्गाको स्तम्भ, जसले खस मल्ल राजाहरूको वंशावली अभिलेख गरेको छ।",
+  "story_np": "तपाईं दुल्लुमा हुनुहुन्छ, जो कुनै बेला खस मल्ल राजाहरूको जाडो याममा बस्ने थलो थियो, जसको राजधानी माथि जुम्लाको सिञ्जा उपत्यकामा थियो। तपाईंको अगाडि, बारभित्र, गोलो टुप्पो भएको समतल खैरो ढुङ्गा उभिएको छ। यो कीर्तिस्तम्भ हो, कीर्तिको स्तम्भ। माथिपट्टि हेर्नुहोस् र ठूला अक्षरहरूको पङ्क्तिमाथि कुँदिएको सानो पाटे चैत्य, बौद्ध मन्दिरको आकार, देख्नुहुनेछ। त्यसमुनि, ढुङ्गाभरि लेखाइका पङ्क्तिमाथि पङ्क्ति छन्। यो स्तम्भ राजा पृथ्वी मल्लसँग सम्बन्धित छ र सन् १३५४ को मानिन्छ, र यसको अभिलेखले उनको वंशको वंशावली दिन्छ, जसमा सिञ्जामा राजधानी स्थापना गर्ने संस्थापकको रूपमा नागराजको नाम छ। इटालियन विद्वान् ज्युसेप्पे तुच्चीले सन् १९५० को दशकमा यी दुल्लुका ढुङ्गा अभिलेख गरे। नजिकै अरू कुँदिएका स्तम्भहरू पनि भेट्न सकिन्छ, र एउटा ढुङ्गाको पानी ट्याङ्की, जसको अभिलेखअनुसार पृथ्वी मल्लका एक मन्त्रीले सन् १३५८ मा बनाएका थिए।",
+  "legend_np": null,
+  "facts_np": [
+   "स्तम्भ राजा पृथ्वी मल्लसँग सम्बन्धित छ र सन् १३५४ को हो।",
+   "यसको अभिलेखले खस मल्ल वंशको वंशावली दिन्छ र सिञ्जामा राजधानीका संस्थापकका रूपमा नागराजको नाम लिन्छ।",
+   "इटालियन तिब्बतविद् ज्युसेप्पे तुच्चीले सन् १९५० को दशकमा दुल्लुका शिलालेख अभिलेख गरे; ती सन् १९६९ मा फेरि फोटो खिचिए।",
+   "माथि चैत्य भएको नजिकैको ढुङ्गाको पानी ट्याङ्की सन् १३५८ मा पृथ्वी मल्लका एक मन्त्रीले बनाएका थिए।",
+   "यो नेपालको सांस्कृतिक सम्पदा स्मारकका रूपमा सूचीकृत छ (NP-DK-05, पृथ्वी मल्लको कीर्तिस्तम्भ)।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "रेलिङपछाडिको एउटा चेप्टो खैरो ढुङ्गाले सानो कुँदिएको मन्दिरमुनि एक पहाडी वंशका पुर्खाहरूको सूची राखेको छ।",
+   "सिँजामा गर्मी बिताउने राजाहरू यही सहरमा जाडो बिताउँथे, र तीमध्ये एकले यहीँ ढुङ्गामा आफ्नो वंशवृक्ष छाडे।"
   ]
  },
  {
@@ -1091,7 +1369,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "Badimalika is in Triveni Municipality, Bajura district, Sudurpashchim."
+    "explanation": "Badimalika is in Triveni Municipality, Bajura district, Sudurpashchim.",
+    "q_np": "बडिमालिका मन्दिर कुन जिल्लामा छ?",
+    "options_np": [
+     "बाजुरा",
+     "बझाङ",
+     "डोटी",
+     "मुगु"
+    ],
+    "explanation_np": "बडिमालिका सुदूरपश्चिम प्रदेशको बाजुरा जिल्लाको त्रिवेणी नगरपालिकामा छ।"
    },
    {
     "q": "At roughly what altitude does the temple stand?",
@@ -1103,7 +1389,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "Sources give about 4,200 m; the Nepali Army cites 4,220 m."
+    "explanation": "Sources give about 4,200 m; the Nepali Army cites 4,220 m.",
+    "q_np": "मन्दिर करिब कति उचाइमा छ?",
+    "options_np": [
+     "1,200 m",
+     "2,500 m",
+     "4,200 m",
+     "6,000 m"
+    ],
+    "explanation_np": "स्रोतहरूले करिब 4,200 m भनेका छन्; नेपाली सेनाले 4,220 m उल्लेख गरेको छ।"
    },
    {
     "q": "Around which festival do most pilgrims visit Badimalika?",
@@ -1115,7 +1409,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "The main puja falls on the day before Janai Purnima."
+    "explanation": "The main puja falls on the day before Janai Purnima.",
+    "q_np": "बडिमालिका धेरैजसो तीर्थयात्री कुन चाडको वरिपरि पुग्छन्?",
+    "options_np": [
+     "तिहार",
+     "जनै पूर्णिमा",
+     "होली",
+     "छठ"
+    ],
+    "explanation_np": "मुख्य पूजा जनै पूर्णिमाको अघिल्लो दिन पर्छ।"
    },
    {
     "q": "Which part of Sati's body is said to have fallen here?",
@@ -1127,7 +1429,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "Tradition says her left shoulder fell on Mallagiri, now Malika."
+    "explanation": "Tradition says her left shoulder fell on Mallagiri, now Malika.",
+    "q_np": "सतीको शरीरको कुन अङ्ग यहाँ खसेको भनिन्छ?",
+    "options_np": [
+     "टाउको",
+     "नाभि",
+     "देब्रे काँध",
+     "दाहिने खुट्टा"
+    ],
+    "explanation_np": "परम्परा अनुसार उनको देब्रे काँध मल्लगिरि, अहिलेको मालिकामा खसेको थियो।"
    },
    {
     "q": "Who rebuilt the temple in 2025?",
@@ -1139,7 +1449,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "The Nepali Army rebuilt it between April and July 2025 for about Rs 20 million."
+    "explanation": "The Nepali Army rebuilt it between April and July 2025 for about Rs 20 million.",
+    "q_np": "सन् 2025 मा मन्दिर कसले पुनर्निर्माण गर्‍यो?",
+    "options_np": [
+     "युनेस्को",
+     "नेपाली सेना",
+     "बाजुरा जिल्ला कार्यालय",
+     "भारतको निजी ट्रस्ट"
+    ],
+    "explanation_np": "नेपाली सेनाले सन् 2025 को अप्रिलदेखि जुलाईसम्म करिब रु 20 मिलियन लागतमा पुनर्निर्माण गर्‍यो।"
    }
   ],
   "clues": [
@@ -1149,15 +1467,17 @@
   "festivals": [
    {
     "name": "Malika Chaturdashi (Janai Purnima fair)",
-    "name_np": "मालिका चतुर्दशी",
+    "name_np": "मालिका चतुर्दशी (जनै पूर्णिमा मेला)",
     "month": "Shrawan",
-    "note": "Main puja on Shrawan Shukla Chaturdashi, the day before Janai Purnima; the date can fall in Bhadra."
+    "note": "Main puja on Shrawan Shukla Chaturdashi, the day before Janai Purnima; the date can fall in Bhadra.",
+    "note_np": "मुख्य पूजा श्रावण शुक्ल चतुर्दशीमा, जनै पूर्णिमाको अघिल्लो दिन हुन्छ; मिति कहिलेकाहीँ भाद्रमा पर्न सक्छ।"
    },
    {
     "name": "Ganga Dashahara",
-    "name_np": "गंगा दशहरा",
+    "name_np": "गङ्गा दशहरा",
     "month": "Jestha",
-    "note": "A state-sponsored puja is held and many pilgrims visit."
+    "note": "A state-sponsored puja is held and many pilgrims visit.",
+    "note_np": "राज्यको तर्फबाट पूजा गरिन्छ र धेरै तीर्थयात्री आउँछन्।"
    }
   ],
   "model": {
@@ -1258,6 +1578,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Worship at Badimalika Temple"
    }
+  ],
+  "short_np": "बझाङमा करिब 4,200 मिटर उचाइमा रहेको शक्तिपीठ, जहाँ जनै पूर्णिमाको पूर्णिमा पर्वमा हजारौँ तीर्थयात्री उक्लिन्छन्।",
+  "story_np": "सास फेर्नुहोस्: तपाईं बझाङको घाँसे चुचुरोमा करिब चार हजार दुई सय मिटरको उचाइमा हुनुहुन्छ, र यो बडिमालिका हो, सुदूर पश्चिमका महान् देवी मन्दिरमध्ये एक। तीर्थयात्रीहरू खुला र प्रायः चिप्ला चरनहरू हुँदै, त्रिवेणी र 22 पाटनजस्ता ठाउँ पार गर्दै, घण्टौँ उक्लेर यहाँ पुग्छन्। हिन्दू परम्परा अनुसार शिवले सतीको शव बोक्दा उनको देब्रे काँध यही पर्वतमा खस्यो, जसलाई पहिले मल्लागिरि भनिन्थ्यो। मन्दिरवरिपरिका ठाडा संरचना हेर्नुहोस्: ती कृतज्ञ तीर्थयात्रीले चढाएका घण्टी र त्रिशूलले सजिएका छन्। स्थानीय किंवदन्ती अनुसार राजा दिपराज छत्याल यहाँ सिकार गर्दै गर्दा उनको धनु अदृश्य शक्तिले रोकियो, र त्यसपछि उनले जुम्लाका राजाको सहयोगमा देवीका लागि मन्दिर बनाए। यहाँ दुई पुजारी सेवामा छन्, एक कालीकोटका र एक बझाङका। 2025 मा नेपाली सेनाले सामग्री हेलिकप्टर र पैदलबाट ढुवानी गरेर यो मन्दिर पुनर्निर्माण गर्‍यो।",
+  "legend_np": "शिवले सतीको शव बोक्दा उनको देब्रे काँध मल्लागिरिमा खस्यो, जो मालिका बन्यो। पछिको एउटा कथाअनुसार राजा दिपराज छत्याललाई यहाँ सिकार गर्नबाट अदृश्य शक्तिले रोक्यो, उनले देवीको सपना देखे, र जुम्लाका राजासँग मिलेर उनको मन्दिर बनाए।",
+  "facts_np": [
+   "मन्दिर करिब 4,200 मिटरमा छ; नेपाली सेनाले 4,220 मिटर दिएको छ।",
+   "यसको मुख्य पूजा जनै पूर्णिमाको अघिल्लो दिन श्रावण शुक्ल चतुर्दशीमा गरिन्छ।",
+   "यहाँ दुई पुजारी छन्, एक कालीकोट जिल्लाको प्रतिनिधित्व गर्ने र अर्का बझाङ जिल्लाको।",
+   "नेपाली सेनाले प्राचीन स्मारक संरक्षण ऐन अन्तर्गत 2025 को अप्रिलदेखि जुलाईसम्ममा करिब रु 2 करोड लागतमा मन्दिर पुनर्निर्माण गर्‍यो।",
+   "मन्दिरका पुजारीका अनुसार एक वर्षमा 45,000 भन्दा बढी भक्तजनले दर्शन गरे।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "चार हजार मिटरभन्दा माथिको यो मन्दिरमा छिमेकी जिल्लाका दुई पुजारीले आलोपालो सेवा गर्छन्।",
+   "तीर्थयात्रीहरू 22 पाटनका चौरहरू पार गरेर एउटा खाली शिखरमा देवीका लागि घण्टी बजाउन पुग्छन्।"
   ]
  },
  {
@@ -1313,7 +1648,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "It stands on a hilltop about 4 km west of Dadeldhura bazaar."
+    "explanation": "It stands on a hilltop about 4 km west of Dadeldhura bazaar.",
+    "q_np": "यो उग्रतारा मन्दिर कुन जिल्लामा छ?",
+    "options_np": [
+     "डडेलधुरा",
+     "कञ्चनपुर",
+     "बैतडी",
+     "कैलाली"
+    ],
+    "explanation_np": "यो डडेलधुरा बजारभन्दा करिब 4 कि.मि. पश्चिममा एउटा डाँडामा अवस्थित छ।"
    },
    {
     "q": "What is the big fair held here on the full moon of Kartik called?",
@@ -1325,7 +1668,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The Dehijant fair is described as the biggest religious fair in Sudurpashchim."
+    "explanation": "The Dehijant fair is described as the biggest religious fair in Sudurpashchim.",
+    "q_np": "कार्तिक पूर्णिमामा यहाँ लाग्ने ठूलो मेलालाई के भनिन्छ?",
+    "options_np": [
+     "गौरा",
+     "देहिजन्त",
+     "बिस्केट",
+     "इन्द्रजात्रा"
+    ],
+    "explanation_np": "देहिजन्त मेला सुदूरपश्चिमको सबैभन्दा ठूलो धार्मिक मेलाका रूपमा वर्णन गरिन्छ।"
    },
    {
     "q": "According to local tradition, how was the goddess first found?",
@@ -1337,7 +1688,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "A Saud family farmer is said to have found the image while ploughing."
+    "explanation": "A Saud family farmer is said to have found the image while ploughing.",
+    "q_np": "स्थानीय परम्परा अनुसार देवी पहिलो पटक कसरी भेटिइन्?",
+    "options_np": [
+     "एक राजाको सपनामा",
+     "खेत जोत्दै गरेका एक किसानले",
+     "नदीको बाढीमा",
+     "ढलेको रूखमुनि"
+    ],
+    "explanation_np": "सौद परिवारका एक किसानले खेत जोत्दा मूर्ति भेटेका थिए भनिन्छ।"
    },
    {
     "q": "Which king of Doti is said to have renovated the temple?",
@@ -1349,7 +1708,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "Local accounts credit Naga Malla, king of Doti, with renovating it."
+    "explanation": "Local accounts credit Naga Malla, king of Doti, with renovating it.",
+    "q_np": "डोटीका कुन राजाले मन्दिरको जीर्णोद्धार गरेको भनिन्छ?",
+    "options_np": [
+     "नाग मल्ल",
+     "पृथ्वी मल्ल",
+     "रिपु मल्ल",
+     "भूपतीन्द्र मल्ल"
+    ],
+    "explanation_np": "स्थानीय वर्णन अनुसार डोटीका राजा नाग मल्लले यसको जीर्णोद्धार गरे।"
    },
    {
     "q": "Ugratara is counted among how many Shakti Peeths of the far west?",
@@ -1361,7 +1728,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "It is described as one of the nine Shakti Peeths of the region."
+    "explanation": "It is described as one of the nine Shakti Peeths of the region.",
+    "q_np": "उग्रतारा सुदूर पश्चिमका कतिओटा शक्तिपीठमध्ये एक मानिन्छ?",
+    "options_np": [
+     "पाँच",
+     "सात",
+     "नौ",
+     "बाह्र"
+    ],
+    "explanation_np": "यसलाई यस क्षेत्रका नौ शक्तिपीठमध्ये एक भनिन्छ।"
    }
   ],
   "clues": [
@@ -1371,9 +1746,10 @@
   "festivals": [
    {
     "name": "Dehijant fair",
-    "name_np": "देहीजाँत मेला",
+    "name_np": "देहिजन्त मेला",
     "month": "Kartik",
-    "note": "Held on Kartik Shukla Purnima with night-time puja; described as the biggest fair in the province."
+    "note": "Held on Kartik Shukla Purnima with night-time puja; described as the biggest fair in the province.",
+    "note_np": "कार्तिक शुक्ल पूर्णिमामा रातभर पूजासहित लाग्ने मेला; प्रदेशकै सबैभन्दा ठूलो मेला भनिन्छ।"
    }
   ],
   "model": {
@@ -1465,6 +1841,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "caption": "Ugratara Temple on its hilltop in Dadeldhura"
    }
+  ],
+  "short_np": "डडेलधुराको डाँडामाथिको देवी मन्दिर, सुदूर पश्चिमका नौ शक्तिपीठमध्ये एक र ठूलो देहिजन्ट मेलाको आयोजक स्थल।",
+  "story_np": "घाँसका बीचबाट पक्की बाटो उक्लनुहोस्, र तपाईं मानिसहरूले डडेलधुराको मुटु भन्ने डाँडामाथिको मन्दिरमा पुग्नुहुन्छ। तीन तर्फबाट जङ्गलले घेरेको छ, र चहकिलो गुलाबी र फिरोजी रङको मन्दिर तपाईंको अगाडि चरणबद्ध चौतारीमा उभिएको छ, भर्‍याङमा संरक्षक मूर्ति र सिंहहरूको पङ्क्ति छ। यो उग्रतारा हो, देवीको एक उग्र रूप, नेपालको सुदूर पश्चिमका नौ शक्तिपीठमध्ये एक। स्थानीय कथा एउटा खेतबाट सुरु हुन्छ: साउद परिवारका एक किसानले हलो जोत्दा उनको फाली ढुङ्गामा ठोक्कियो, र त्यही खोजबाट पहिलो मन्दिर बन्यो। पछि डोटीका राजा नागमल्लले यसको जीर्णोद्धार गरे। यहाँका मानिस विश्वास गर्छन् कि उग्रताराले सन्तान र धन दिन्छिन्, गाउँलाई विपत्तिबाट जोगाउँछिन्, र सम्पर्क टुटेका साथीहरूलाई पनि फेरि जोड्छिन्। कार्तिक पूर्णिमामा आउनुहोस् र देहिजन्टका लागि डाँडा भरिएको भेट्नुहुनेछ, जसलाई सुदूरपश्चिमको सबैभन्दा ठूलो धार्मिक मेला भनिन्छ।",
+  "legend_np": "साउद परिवारका एक किसानले खेत जोत्दा देवीको ढुङ्गाको मूर्तिमा हलोले ठोक्किएको भनिन्छ; त्यो ढुङ्गालाई जोगाइयो र त्यसमाथि मन्दिर बनाइयो।",
+  "facts_np": [
+   "मन्दिर डडेलधुरा बजारभन्दा करिब 4 कि.मि. पश्चिममा, अमरगढी नगरपालिका-7 मा छ।",
+   "यो सुदूर पश्चिमका नौ शक्तिपीठ र नौ भगवती मन्दिरमध्ये एक मानिन्छ।",
+   "स्थानीय भनाइ अनुसार साउद परिवारका किसानले स्थापना गरेपछि डोटीका राजा नागमल्लले मन्दिरको जीर्णोद्धार गरे।",
+   "कार्तिक पूर्णिमामा लाग्ने यसको देहिजन्ट मेलालाई प्रदेशकै सबैभन्दा ठूलो धार्मिक मेला भनिन्छ।",
+   "भक्तजन विश्वास गर्छन् कि देवीले सम्पर्क टुटेका साथी र आफन्तलाई पुनः जोड्छिन्।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "यहाँ हलोले ढुङ्गामा ठोक्कियो, र एक उग्र देवीले सुदूर पश्चिमको एक बजारमाथि डाँडामा घर पाइन्।",
+   "कार्तिक पूर्णिमामा गुलाबी र फिरोजा रङको यो डाँडा क्षेत्रकै सबैभन्दा ठूलो मेलाको आयोजक बन्छ।"
   ]
  },
  {
@@ -1521,7 +1912,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "Ajaymerukot was one of the capitals of the Doti kingdom."
+    "explanation": "Ajaymerukot was one of the capitals of the Doti kingdom.",
+    "q_np": "अजयमेरुकोटमा कुन राज्यको राजधानी थियो?",
+    "options_np": [
+     "डोटी",
+     "गोरखा",
+     "मकवानपुर",
+     "पाल्पा"
+    ],
+    "explanation_np": "अजयमेरुकोट डोटी राज्यका राजधानीहरूमध्ये एक थियो।"
    },
    {
     "q": "What is the name Ajaymeru often explained to mean?",
@@ -1533,7 +1932,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "It is linked to Sanskrit ajaya (invincible) and meru (mountain)."
+    "explanation": "It is linked to Sanskrit ajaya (invincible) and meru (mountain).",
+    "q_np": "अजयमेरु नामको अर्थ प्रायः के भनी व्याख्या गरिन्छ?",
+    "options_np": [
+     "सुनौलो ताल",
+     "अजेय पर्वत",
+     "शाही बगैँचा",
+     "नदी किल्ला"
+    ],
+    "explanation_np": "यो संस्कृत अजय (अजेय) र मेरु (पर्वत) सँग सम्बन्धित छ।"
    },
    {
     "q": "Where did the Doti capital move after Ajaymerukot was destroyed?",
@@ -1545,7 +1952,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "Following the 16th-century attack, the capital moved to Silgadhi, Doti."
+    "explanation": "Following the 16th-century attack, the capital moved to Silgadhi, Doti.",
+    "q_np": "अजयमेरुकोट ध्वस्त भएपछि डोटीको राजधानी कहाँ सरेको थियो?",
+    "options_np": [
+     "सिलगढी",
+     "धनगढी",
+     "जुम्ला",
+     "बैतडी"
+    ],
+    "explanation_np": "16 औं शताब्दीको आक्रमणपछि राजधानी डोटीको सिलगढीमा सरेको थियो।"
    },
    {
     "q": "In which year did the Department of Archaeology first excavate the main palace?",
@@ -1557,7 +1972,15 @@
     ],
     "answer_index": 3,
     "difficulty": 3,
-    "explanation": "The first detailed excavation of the palace area took place in 2025."
+    "explanation": "The first detailed excavation of the palace area took place in 2025.",
+    "q_np": "पुरातत्त्व विभागले मुख्य दरबारको उत्खनन पहिलो पटक कुन वर्षमा गर्‍यो?",
+    "options_np": [
+     "1979",
+     "2001",
+     "2015",
+     "2025"
+    ],
+    "explanation_np": "दरबार क्षेत्रको पहिलो विस्तृत उत्खनन 2025 मा भएको थियो।"
    },
    {
     "q": "Which earlier dynasty did the Doti kingdom grow out of?",
@@ -1569,7 +1992,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "Doti emerged after the fall of the Katyuri dynasty."
+    "explanation": "Doti emerged after the fall of the Katyuri dynasty.",
+    "q_np": "डोटी राज्य कुन पुरानो राजवंशबाट विकसित भएको थियो?",
+    "options_np": [
+     "लिच्छवि",
+     "कत्यूरी",
+     "सेन",
+     "चन्द"
+    ],
+    "explanation_np": "कत्यूरी राजवंशको पतनपछि डोटीको उदय भयो।"
    }
   ],
   "clues": [
@@ -1664,6 +2095,21 @@
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "caption": "Visitors at the excavated palace site on its ridge"
    }
+  ],
+  "short_np": "मध्यकालीन डोटीको राजधानीको डाँडामाथिका भग्नावशेष, कुँदिएका ढुङ्गाका मन्दिर र सन् २०२५ मा पहिलो पटक उत्खनन गरिएको दरबारसहित।",
+  "story_np": "तपाईं डडेलधुराको एउटा डाँडामा हुनुहुन्छ, जहाँ तीन तर्फबाट नदी घुमेर बगेको छ र माथि जाने एउटै मात्र बाटो छ। यो अजयमेरुकोट हो, पुरानो कत्यूरी राज्य टुक्रिएपछि उदाएको डोटी राज्यका राजधानीहरूमध्ये एक। नामको व्याख्या प्रायः अजय, अर्थात् अजेय, र मेरु, अर्थात् पर्वत, बाट गरिन्छ, र किन भन्ने तपाईं देख्न सक्नुहुन्छ। शिखर शैलीका थुप्रै तहका कुँदिएका ढुङ्गाका मन्दिर र ढुङ्गाका स्तम्भले अझै भारी पाटा थामिरहेको मण्डपलाई हेर्नुहोस्। एउटा छतमुनि उभिएर माथि हेर्नुहोस्, कमलको वरिपरि घुमिरहेका कुँदिएका ढुङ्गाका घेराहरू देख्नुहुनेछ। यी कुँदाइहरू भारतका जाद कलाकारहरूको काम हो भन्ने विश्वास गरिन्छ। सन् २०२५ मा पुरातत्त्व विभागले पहिलो पटक दरबारको उत्खनन गर्‍यो। उनीहरूले करिब चौध कोठा भएको दुई तले भवन र आठ ठाउँमा शिलालेख फेला पारे, जसमा राजा निरय पाल र नाग मल्लका नाम छन्। परम्पराअनुसार किल्ला सोह्रौं शताब्दीको आक्रमणमा ध्वस्त भयो, र राजधानी डोटीको सिलगढीमा सारियो।",
+  "legend_np": "स्थानीय परम्पराले नामलाई राजा अजय पालसँग जोड्छ, तर त्यस्ता शासकको कुनै अभिलेख फेला परेको छैन।",
+  "facts_np": [
+   "अजयमेरुकोट कत्यूरी वंशको पतनपछि उदाएको डोटी राज्यका राजधानीहरूमध्ये एक थियो।",
+   "सन् २०२५ को उत्खननमा राजा निरय पाल (शक १२५०) र राजा नाग मल्ल (शक १३०६) का अभिलेख सहित आठ ठाउँमा शिलालेख भेटिए।",
+   "मुख्य दरबार करिब १४ कोठा, मध्य करिडोर र ढुङ्गाको भर्‍याङ भएको दुई तले भवन थियो।",
+   "१६ औं शताब्दीमा ध्वस्त भएपछि डोटीको राजधानी सिलगढीमा सारियो।",
+   "डाँडा तीन तर्फबाट नदीले सुरक्षित छ, केवल एउटै पहुँच बाटो बाँकी छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "यस पहाडी डाँडाको तीनतिर नदीले घेरेको छ, जहाँ कुँदिएका ढुङ्गाका स्तम्भले हराएको शाही राजधानीलाई चिनाउँछन्।",
+   "2025 मा खन्नेहरूले चौध कोठे दरबार र ढुङ्गामा कुँदिएका आठ ठाउँका राजाहरूका नाम भेटे।"
   ]
  },
  {
@@ -1720,7 +2166,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The fort and town are named after Amar Singh Thapa."
+    "explanation": "The fort and town are named after Amar Singh Thapa.",
+    "q_np": "अमरगढी किल्लाको नाम कुन गोर्खाली सेनापतिका नामबाट राखिएको हो?",
+    "options_np": [
+     "भीमसेन थापा",
+     "अमरसिंह थापा",
+     "बलभद्र कुँवर",
+     "जङ्गबहादुर राणा"
+    ],
+    "explanation_np": "किल्ला र सहरको नाम अमरसिंह थापाका नामबाट रहेको हो।"
    },
    {
     "q": "In which district is Amargadhi Fort?",
@@ -1732,7 +2186,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "It overlooks Khalanga, headquarters of Dadeldhura district."
+    "explanation": "It overlooks Khalanga, headquarters of Dadeldhura district.",
+    "q_np": "अमरगढी किल्ला कुन जिल्लामा छ?",
+    "options_np": [
+     "डडेल्धुरा",
+     "डोटी",
+     "अछाम",
+     "कैलाली"
+    ],
+    "explanation_np": "यो डडेल्धुरा जिल्लाको सदरमुकाम खलङ्गामाथि छ।"
    },
    {
     "q": "Around which year was the fort built?",
@@ -1744,7 +2206,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "It dates from 1847 BS, about 1790 CE, during the unification campaign."
+    "explanation": "It dates from 1847 BS, about 1790 CE, during the unification campaign.",
+    "q_np": "किल्ला करिब कुन वर्षमा बनाइएको हो?",
+    "options_np": [
+     "1590",
+     "1790",
+     "1890",
+     "1950"
+    ],
+    "explanation_np": "यो 1847 वि.सं., अर्थात् करिब 1790 ई. मा, एकीकरण अभियानकै बेला बनेको हो।"
    },
    {
     "q": "At roughly what elevation does the fort stand?",
@@ -1756,7 +2226,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "Rising Nepal places it at about 6,500 feet on a cliff above Khalanga."
+    "explanation": "Rising Nepal places it at about 6,500 feet on a cliff above Khalanga.",
+    "q_np": "किल्ला करिब कति उचाइमा छ?",
+    "options_np": [
+     "1,500 फिट",
+     "3,500 फिट",
+     "6,500 फिट",
+     "10,500 फिट"
+    ],
+    "explanation_np": "राइजिङ नेपालका अनुसार यो खलङ्गामाथिको चट्टानमा करिब 6,500 फिटको उचाइमा छ।"
    },
    {
     "q": "On which Dashain day were cannons fired at the nearby Tudikhel?",
@@ -1768,7 +2246,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "A former resident recalls cannon fire at Tudikhel on Fulpati."
+    "explanation": "A former resident recalls cannon fire at Tudikhel on Fulpati.",
+    "q_np": "दशैँको कुन दिन नजिकैको टुँडिखेलमा तोप पड्काइन्थ्यो?",
+    "options_np": [
+     "घटस्थापना",
+     "फूलपाती",
+     "विजया दशमी",
+     "कोजाग्रत पूर्णिमा"
+    ],
+    "explanation_np": "एक पूर्व बासिन्दाले फूलपातीका दिन टुँडिखेलमा तोप पड्केको सम्झन्छन्।"
    }
   ],
   "clues": [
@@ -1778,9 +2264,10 @@
   "festivals": [
    {
     "name": "Fulpati (Bada Dashain)",
-    "name_np": "फूलपाती",
+    "name_np": "फूलपाती (बडा दशैँ)",
     "month": "Ashwin",
-    "note": "Cannons were traditionally fired from the nearby Tudikhel on Fulpati."
+    "note": "Cannons were traditionally fired from the nearby Tudikhel on Fulpati.",
+    "note_np": "परम्परागत रूपमा फूलपातीका दिन नजिकैको टुँडिखेलबाट तोप पड्काइन्थ्यो।"
    }
   ],
   "model": {
@@ -1869,6 +2356,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "caption": "Statue of Amar Singh Thapa at the fort"
    }
+  ],
+  "short_np": "डडेलधुरा बजारमाथिको १८औं शताब्दीको गोर्खाली किल्ला, सेनापति अमर सिंह थापासँग सम्बन्धित।",
+  "story_np": "रातो र सेतो रङ लगाइएका भर्‍याङहरू उक्लनुहोस् र यो ढल्किएको ढुङ्गाको भित्तामा हात राख्नुहोस्। तपाईं अमरगढीमा हुनुहुन्छ, जुन किल्लाले यस नगरपालिकाको नाम दिएको हो, खलङ्गामाथिको चट्टानमा करिब साढे छ हजार फिटको उचाइमा। यो करिब सन् १७९० मा, नेपाली संवत्मा १८४७ मा, बनेको थियो, जब राजा रणबहादुर शाहका गोर्खाली सेनाहरू बढ्दो राज्यमा डोटी समावेश गर्न पश्चिमतिर बढे। सेनापति अमर सिंह थापा र उनका अधिकारीहरूले निर्माणको निरीक्षण गरे, र पछि उनले यस क्षेत्रमा गोर्खाली शासन स्थापित गरे। प्रवेशद्वारमा उनको मूर्तिले आफू बाघको बच्चा हो, सुकेको कुकुर होइन भन्ने उनको प्रसिद्ध घोषणा बोकेको छ। साँघुरो ढुङ्गाको भर्‍याङ हिँड्नुहोस्, लुकेको ढोका खोज्नुहोस्, र सिपाहीहरू बसेका ढुङ्गाका कोठाभित्र हेर्नुहोस्। एक पुराना बासिन्दाले यहाँ तोपहरू भएको सम्झन्छन् जुन दशैँको फूलपातीमा नजिकैको परेड मैदानमा पड्काइन्थे। सन् २००९ देखि नगरपालिकाले किल्लाको हेरचाह गर्दै आएको छ।",
+  "legend_np": null,
+  "facts_np": [
+   "किल्ला राजा रणबहादुर शाहको एकीकरण अभियानका क्रममा वि.सं. १८४७ (करिब सन् १७९०) मा बनेको थियो।",
+   "अमर सिंह थापा, काजी जगत पाण्डे र कैयौँ कप्तान र सुब्बाहरूले यसको निर्माणको निरीक्षण गरे।",
+   "यसको आकार सिंहको टाउकोजस्तो र पर्खालहरूलाई केशरसँग तुलना गरिएको भनिन्छ।",
+   "किल्लामा सेवा गरेका एक बासिन्दाले पाँचवटा तोप, करिब ५० वटा राइफल र एक दर्जन भीमसेन-नाल बन्दुक सम्झे, जुन अहिले हराएका छन्।",
+   "अमरगढी नगरपालिकाले सन् २००९ को डिसेम्बरदेखि किल्लाको व्यवस्थापन गर्दै आएको छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "आफ्नै घमण्डमा बाघको बच्चा भन्ने एकले यो चट्टानमाथिको किल्ला र मुनिको सहरलाई आफ्नो नाम दिए।",
+   "1790 तिर गोर्खाली सेना पश्चिम लाग्दा बनेको ढल्केको ढुङ्गाको पर्खालमा रातो र सेतो भर्‍याङ चढ्छन्।"
   ]
  },
  {
@@ -1925,7 +2427,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "It is in Baitadi district, Sudurpashchim Province."
+    "explanation": "It is in Baitadi district, Sudurpashchim Province.",
+    "q_np": "यो त्रिपुरासुन्दरी मन्दिर कुन जिल्लामा छ?",
+    "options_np": [
+     "बैतडी",
+     "दार्चुला",
+     "डडेलधुरा",
+     "बझाङ"
+    ],
+    "explanation_np": "यो सुदूरपश्चिम प्रदेशको बैतडी जिल्लामा छ।"
    },
    {
     "q": "What local name is the goddess known by here?",
@@ -1937,7 +2447,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "She is known locally as Ransaini Bhagwati."
+    "explanation": "She is known locally as Ransaini Bhagwati.",
+    "q_np": "यहाँ देवी स्थानीय रूपमा कुन नामले चिनिन्छिन्?",
+    "options_np": [
+     "रणसैनी",
+     "शैलेश्वरी",
+     "उग्रतारा",
+     "मालिका"
+    ],
+    "explanation_np": "उनी स्थानीय रूपमा रणसैनी भगवतीका नामले चिनिन्छिन्।"
    },
    {
     "q": "What does \"Tripura Sundari\" mean?",
@@ -1949,7 +2467,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "The Sanskrit name means the beautiful woman of the three worlds."
+    "explanation": "The Sanskrit name means the beautiful woman of the three worlds.",
+    "q_np": "‘त्रिपुरा सुन्दरी’ को अर्थ के हो?",
+    "options_np": [
+     "नदीकी रानी",
+     "तीन लोककी सुन्दरी",
+     "पहाडकी आमा",
+     "वर्षाकी देवी"
+    ],
+    "explanation_np": "संस्कृत नामको अर्थ तीन लोककी सुन्दरी भन्ने हो।"
    },
    {
     "q": "During Ashadhi Jatra, where is the goddess carried by chariot?",
@@ -1961,7 +2487,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "She is taken by chariot to a temple in Kapadi village and brought back."
+    "explanation": "She is taken by chariot to a temple in Kapadi village and brought back.",
+    "q_np": "आषाढी जात्राका बेला देवीलाई रथमा कहाँ लगिन्छ?",
+    "options_np": [
+     "कपडी गाउँ",
+     "डडेलधुरा बजार",
+     "महाकाली नदी",
+     "पाटन"
+    ],
+    "explanation_np": "उनलाई रथमा राखेर कपडी गाउँको मन्दिरमा लगिन्छ र फेरि फर्काइन्छ।"
    },
    {
     "q": "How many roof tiers does the present temple have?",
@@ -1973,7 +2507,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "Photos show a porch roof topped by two smaller tiled roofs."
+    "explanation": "Photos show a porch roof topped by two smaller tiled roofs.",
+    "q_np": "अहिलेको मन्दिरमा कति तह छाना छन्?",
+    "options_np": [
+     "एक",
+     "दुई",
+     "तीन",
+     "पाँच"
+    ],
+    "explanation_np": "तस्बिरहरूमा पोर्चको छानामाथि दुई साना टायलका छाना देखिन्छन्।"
    }
   ],
   "clues": [
@@ -1983,21 +2525,24 @@
   "festivals": [
    {
     "name": "Ashadhi Jatra",
-    "name_np": "असारे जात्रा",
+    "name_np": "आषाढी जात्रा",
     "month": "Ashadh",
-    "note": "Night worship on Asar Shukla Ashtami; main jatra on Navami, with a chariot procession to Kapadi."
+    "note": "Night worship on Asar Shukla Ashtami; main jatra on Navami, with a chariot procession to Kapadi.",
+    "note_np": "असार शुक्ल अष्टमीमा रात्रिकालीन पूजा; नवमीमा मुख्य जात्रा, कपडीसम्म रथ यात्रासहित।"
    },
    {
     "name": "Bada Dashain",
     "name_np": "बडा दशैँ",
     "month": "Ashwin",
-    "note": "Special fair and worship of the goddess during Dashain."
+    "note": "Special fair and worship of the goddess during Dashain.",
+    "note_np": "दशैँका बेला देवीको विशेष मेला र पूजा।"
    },
    {
     "name": "Chaite Dashain",
     "name_np": "चैते दशैँ",
     "month": "Chaitra",
-    "note": "A fair is held at the temple."
+    "note": "A fair is held at the temple.",
+    "note_np": "मन्दिरमा मेला लाग्छ।"
    }
   ],
   "model": {
@@ -2096,6 +2641,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "caption": "The temple hill at Devikot with Himalayan peaks beyond"
    }
+  ],
+  "short_np": "बैतडीको डाँडामाथिको भगवती मन्दिर, नेपालका सात प्रमुख भगवती मन्दिरमध्ये एक, जहाँ महाकालीका दुवै किनारबाट तीर्थयात्री आउँछन्।",
+  "story_np": "तपाईं नेपालको पश्चिमी सीमा नजिक बैतडीका पहाडमा रहेको त्रिपुरासुन्दरीको घाँसे आँगनमा पुग्नुभएको छ। तपाईंको अगाडि तीन तले छाना भएको मन्दिर उठेको छ, जसको पोर्च रातो खम्बा र बाङ्गा मेहराबले अडिएको छ। स्थानीय रूपमा देवीलाई रणसैनी भनिन्छ, र भगवतीको उपाधिसहित उनी नेपालका सात प्रमुख भगवती मन्दिरमध्ये गनिन्छिन्। उनको नाम त्रिपुरासुन्दरीको अर्थ तीन लोककी सुन्दरी हो। आँगनवरिपरि हेर्नुहोस्: झण्डासहित अग्ला खम्बा, साना मन्दिर, र रूखका हाँगामा झुन्डिएका घण्टी, प्रत्येक तीर्थयात्रीको चढाइएको भेटी। मानिसहरू भन्छन्, यो मन्दिर डोटीका राजा नागी मल्लको शासनकालभन्दा पुरानो हो, यद्यपि कहिले स्थापना भएको ठ्याक्कै कसैलाई थाहा छैन। मध्य गर्मीमा असारी जात्रामा आउनुभयो भने देवीलाई रथमा राखेर कपाडी गाउँ लगिएको र फर्काइएको देख्नुहुनेछ, जहाँ नेपाल र महाकालीपारि भारतबाट भक्तजन आउँछन्।",
+  "legend_np": null,
+  "facts_np": [
+   "स्थानीय रूपमा देवीलाई रणसैनी भगवती भनिन्छ।",
+   "यो नेपालका सात प्रमुख भगवती मन्दिरमध्ये एक गनिन्छ।",
+   "मन्दिर डोटीका राजा नागी मल्लको शासनकालभन्दा पुरानो भएको विश्वास गरिन्छ।",
+   "असारी जात्रामा देवीलाई रथमा कपाडी गाउँ लगिन्छ र मन्दिरमा फर्काइन्छ।",
+   "नेपालले भ्रमण वर्ष 2020 का लागि यसलाई आफ्ना शीर्ष 100 पर्यटकीय गन्तव्यमा सूचीबद्ध गरेको थियो।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "उनको नामको अर्थ तीन लोककी सुन्दरी हो, तर यी सुदूर पश्चिमका पहाडमा उनलाई रणसैनी भनिन्छ।",
+   "हरेक मध्यगर्मीमा रथले यी देवीलाई कपडी गाउँसम्म लैजान्छ र फर्काउँछ, महाकाली पारिबाट आएका तीर्थयात्रीहरू सँगै।"
   ]
  },
  {
@@ -2152,7 +2712,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "It stands in Silgadhi, Doti district."
+    "explanation": "It stands in Silgadhi, Doti district.",
+    "q_np": "शैलेश्वरी मन्दिर कुन जिल्लामा छ?",
+    "options_np": [
+     "डोटी",
+     "अछाम",
+     "कैलाली",
+     "बझाङ"
+    ],
+    "explanation_np": "यो डोटी जिल्लाको सिलगढीमा अवस्थित छ।"
    },
    {
     "q": "What does \"shaila\" or \"shila\" in the goddess's name mean?",
@@ -2164,7 +2732,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Legend says Parvati emerged from a stone, so she is the goddess of the rock."
+    "explanation": "Legend says Parvati emerged from a stone, so she is the goddess of the rock.",
+    "q_np": "देवीको नाममा ‘शैल’ वा ‘शिला’ को अर्थ के हो?",
+    "options_np": [
+     "नदी",
+     "चट्टान",
+     "जङ्गल",
+     "चन्द्रमा"
+    ],
+    "explanation_np": "किंवदन्ती अनुसार पार्वती ढुङ्गाबाट प्रकट भइन्, त्यसैले उनी शिलाकी देवी हुन्।"
    },
    {
     "q": "Which Hindu scripture is said to mention the goddess Shaileshwori?",
@@ -2176,7 +2752,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "Nepal Philatelic Bureau notes say she is mentioned in the Skanda Purana."
+    "explanation": "Nepal Philatelic Bureau notes say she is mentioned in the Skanda Purana.",
+    "q_np": "देवी शैलेश्वरीको उल्लेख कुन हिन्दु धर्मग्रन्थमा रहेको भनिन्छ?",
+    "options_np": [
+     "स्कन्द पुराण",
+     "रामायण",
+     "ऋग्वेद",
+     "भगवद्गीता"
+    ],
+    "explanation_np": "नेपाल फिलाटेलिक ब्यूरोका टिप्पणीमा उनको उल्लेख स्कन्द पुराणमा भएको बताइएको छ।"
    },
    {
     "q": "In which year did Nepal issue a postage stamp showing this temple?",
@@ -2188,7 +2772,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "It appeared in the Visit Nepal series on 15 December 1985."
+    "explanation": "It appeared in the Visit Nepal series on 15 December 1985.",
+    "q_np": "नेपालले यस मन्दिर देखाइएको हुलाक टिकट कुन वर्ष जारी गर्‍यो?",
+    "options_np": [
+     "1965",
+     "1975",
+     "1985",
+     "1995"
+    ],
+    "explanation_np": "यो 15 डिसेम्बर 1985 मा भिजिट नेपाल शृङ्खलामा देखा परेको थियो।"
    },
    {
     "q": "In the legend, why did Parvati turn herself into stone?",
@@ -2200,7 +2792,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "She hid as a rock when Brahma, Vishnu and other gods came searching for Shiva."
+    "explanation": "She hid as a rock when Brahma, Vishnu and other gods came searching for Shiva.",
+    "q_np": "किंवदन्तीमा पार्वतीले आफूलाई ढुङ्गामा किन बदलिन्?",
+    "options_np": [
+     "शिवलाई खोज्दै देवताहरू आउँदा लुक्न",
+     "बाढी रोक्न",
+     "राक्षसलाई दण्ड दिन",
+     "खजाना जोगाउन"
+    ],
+    "explanation_np": "ब्रह्मा, विष्णु र अन्य देवताहरू शिवलाई खोज्दै आउँदा उनी चट्टान बनेर लुकिन्।"
    }
   ],
   "clues": [
@@ -2210,9 +2810,10 @@
   "festivals": [
    {
     "name": "Dashain",
-    "name_np": "दशैँ",
+    "name_np": "दशैं",
     "month": "Ashwin",
-    "note": "Special pujas are offered to the goddess during Dashain."
+    "note": "Special pujas are offered to the goddess during Dashain.",
+    "note_np": "दशैंको बेला देवीलाई विशेष पूजा चढाइन्छ।"
    }
   ],
   "model": {
@@ -2304,6 +2905,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Stone-paved courtyard of the temple after rain"
    }
+  ],
+  "short_np": "सिलगढीको देवी मन्दिर, स्कन्द पुराणमा नाम उल्लेख भएको भनिने, जहाँ पार्वती चट्टानबाट प्रकट भएकी थिइन् भन्ने विश्वास छ।",
+  "story_np": "तपाईं डोटीको पुरानो पहाडी सहर सिलगढीमा हुनुहुन्छ, ठूला रूखको छायाँमा रहेको ढुङ्गेनी आँगनमा उभिएर। अगाडि शैलेश्वरीको मन्दिर छ, नेपालको सुदूर पश्चिमी पहाडका सबैभन्दा प्रसिद्ध मन्दिरमध्ये एक। नाम ‘शैल’ वा ‘शिला’ बाट आएको हो, जसको अर्थ चट्टान हो। एउटा भनाइ अनुसार शिव र पार्वतीले यी पहाडलाई एकान्तवासका लागि रोजे, र ब्रह्मा, विष्णु र अन्य देवताहरू शिवलाई खोज्दै आउँदा लज्जित पार्वती ढुङ्गा बनेर लुकिन्। देवताहरूले उनलाई प्रार्थना गरेपछि उनी फेरि प्रकट भइन्, र त्यो चट्टानको शिलादेवी, पछि शैलेश्वरीका रूपमा पूजा हुन थाल्यो। सिंह र विशाल त्रिशूल भएको रङ्गीन ढोका हेर्नुहोस्, त्यसपछि मन्दिरभित्र जानुहोस् जहाँ भक्तजन दिनहुँ देवीसँग आफ्ना कष्ट हल्का गर्न र इच्छा पूरा गर्न प्रार्थना गर्न आउँछन्। सन् 1985 मा नेपालले यो मन्दिरलाई हुलाक टिकटमा सम्मान दियो। दशैँमा विशेष पूजाका लागि आँगन भक्तजनले भरिन्छ, र वार्षिक शैलेश्वरी मेलाले सहरमा सङ्गीत र उत्सव ल्याउँछ।",
+  "legend_np": "देवताहरू यी पहाडमा शिवलाई खोज्दै आउँदा पार्वतीले आफूलाई ढुङ्गाको रूपमा लुकाइन् भनिन्छ; उनीहरूले प्रार्थना गर्दा उनी चट्टानबाट प्रकट भइन्, र त्यो ढुङ्गाको शिलादेवी, पछि शैलेश्वरीका रूपमा पूजा गरियो।",
+  "facts_np": [
+   "देवी शैलेश्वरीको उल्लेख स्कन्द पुराणमा भएको भनिन्छ।",
+   "नेपालले सन् 1985 को डिसेम्बर 15 मा भिजिट नेपाल शृङ्खलामा मन्दिर देखाइएको हुलाक टिकट जारी गर्‍यो।",
+   "पार्वती ढुङ्गाबाट प्रकट भएकी भन्ने कथाबाट उनको नाम शिला (चट्टान) बाट आएको हो।",
+   "16औँ शताब्दीमा अजयमेरुकोट ध्वस्त भएपछि डोटीको राजधानी सिलगढी, यो मन्दिरवरिपरिको सहरमा सारियो।",
+   "दशैँमा विशेष पूजा हुन्छ, र वार्षिक शैलेश्वरी मेला लाग्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "यी सुदूर पश्चिमका पहाडमा एक देवी ढुङ्गा बनेर लुकिन्, र शहरको मन्दिरले अझै त्यही चट्टानको नाम बोकेको छ।",
+   "डोटीको पुरानो पहाडी शहरमा सिंह र विशाल त्रिशूलले रङ्गीन ढोका कुरेका छन्, जुन 1985 को हुलाक टिकटमा छापिएको थियो।"
   ]
  },
  {
@@ -2360,7 +2976,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "Ghodaghodi Lake is in Kailali district, Sudurpashchim."
+    "explanation": "Ghodaghodi Lake is in Kailali district, Sudurpashchim.",
+    "q_np": "घोडाघोडी ताल कुन जिल्लामा पर्छ?",
+    "options_np": [
+     "कैलाली",
+     "कञ्चनपुर",
+     "बर्दिया",
+     "बाँके"
+    ],
+    "explanation_np": "घोडाघोडी ताल सुदूरपश्चिम प्रदेशको कैलाली जिल्लामा छ।"
    },
    {
     "q": "What does \"ghoda\" in Ghodaghodi mean?",
@@ -2372,7 +2996,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Ghoda means horse; legend says Shiva and Parvati roamed here as horses."
+    "explanation": "Ghoda means horse; legend says Shiva and Parvati roamed here as horses.",
+    "q_np": "घोडाघोडीको \"घोडा\" को अर्थ के हो?",
+    "options_np": [
+     "कमल",
+     "घोडा",
+     "पानी",
+     "जङ्गल"
+    ],
+    "explanation_np": "घोडा भनेको अश्व हो; किंवदन्ती अनुसार शिव र पार्वती यहाँ घोडाको रूपमा घुमेका थिए।"
    },
    {
     "q": "What do devotees typically offer at the shrine?",
@@ -2384,7 +3016,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "Clay figures of horses, elephants and tigers are offered in return for wishes granted."
+    "explanation": "Clay figures of horses, elephants and tigers are offered in return for wishes granted.",
+    "q_np": "भक्तजनले मन्दिरमा सामान्यतया के चढाउँछन्?",
+    "options_np": [
+     "माटाका घोडा र हात्ती",
+     "घिउबत्ती मात्र",
+     "प्रार्थना चक्र",
+     "तालमा फालिने नरिवल"
+    ],
+    "explanation_np": "मनोकाङ्क्षा पूरा भएपछि माटाका घोडा, हात्ती र बाघका मूर्ति चढाइन्छ।"
    },
    {
     "q": "In which year did Ghodaghodi become a Ramsar site?",
@@ -2396,7 +3036,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "It was designated on 13 August 2003."
+    "explanation": "It was designated on 13 August 2003.",
+    "q_np": "घोडाघोडी कुन वर्षमा रामसार स्थल बन्यो?",
+    "options_np": [
+     "1987",
+     "1996",
+     "2003",
+     "2015"
+    ],
+    "explanation_np": "यो 13 अगस्ट 2003 मा रामसार स्थल घोषित भएको थियो।"
    },
    {
     "q": "Which community festival brings Tharu devotees to bathe in the lake?",
@@ -2408,7 +3056,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "The Ramsar listing notes the Tharu Agan Panchami festival held in December."
+    "explanation": "The Ramsar listing notes the Tharu Agan Panchami festival held in December.",
+    "q_np": "कुन सामुदायिक चाडले थारू भक्तजनलाई तालमा स्नान गर्न ल्याउँछ?",
+    "options_np": [
+     "अगन पञ्चमी",
+     "गाईजात्रा",
+     "ल्होसार",
+     "छठ"
+    ],
+    "explanation_np": "रामसार सूचीले डिसेम्बरमा मनाइने थारूहरूको अगन पञ्चमी चाडको उल्लेख गरेको छ।"
    }
   ],
   "clues": [
@@ -2418,15 +3074,17 @@
   "festivals": [
    {
     "name": "Agan Panchami",
-    "name_np": "अगहन पञ्चमी",
+    "name_np": "अगन पञ्चमी",
     "month": "Mangsir",
-    "note": "Tharu festival in December; devotees bathe in the lake and worship at the shrine."
+    "note": "Tharu festival in December; devotees bathe in the lake and worship at the shrine.",
+    "note_np": "डिसेम्बरमा मनाइने थारू चाड; भक्तजनले तालमा स्नान गर्छन् र मन्दिरमा पूजा गर्छन्।"
    },
    {
     "name": "Maghi",
     "name_np": "माघी",
     "month": "Magh",
-    "note": "A special fair is held at the temple."
+    "note": "A special fair is held at the temple.",
+    "note_np": "मन्दिरमा विशेष मेला लाग्छ।"
    }
   ],
   "model": {
@@ -2517,6 +3175,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Lotus-covered waters of Ghodaghodi Tal"
    }
+  ],
+  "short_np": "कैलालीको तालकिनारको मन्दिर जहाँ भक्तजनहरूले माटोका घोडा र हात्ती चढाउँछन्, कमल र चराहरूले भरिएको रामसार सूचीको तालको छेउमा।",
+  "story_np": "फराकिलो भर्‍याङ चढेर माथि पुगेर रोकिनुहोस्: तपाईंको वरिपरिका बारहरूमा सयौँ रातो र सेता कपडाका पट्टी बाँधिएका छन्, प्रत्येक एउटा प्रार्थना। यो कैलालीको जङ्गलमा एउटा तालको किनारमा रहेको घोडाघोडी मन्दिर हो। नाम घोडा शब्दबाट आएको हो। कथाअनुसार शिव र पार्वतीले एक समय घोडाको रूप लिएर यस तालको वरिपरि घुमेका थिए। अब भित्रको वेदीमा हेर्नुहोस्। घण्टी र दीपहरूका बीचमा सानो माटोका घोडा र हात्ती, कहिलेकाहीँ बाघ पनि, मनोकामना पूरा भएपछि भक्तजनहरूले ल्याएका राखिएका छन्। स्थानीय थारू समुदाय अगन पञ्चमीको चाडमा यहाँ भेला भई तालमा नुहाउँछन्। त्यसपछि पानीसम्म हिँडेर जानुहोस्। घोडाघोडी करिब तेह्र ताल र पोखरीहरूको सञ्जालको भाग हो, सन् २००३ देखि रामसार सिमसार, जहाँ कमलका पातले सतह ढाकेको छ र जङ्गलको छायामा मगर गोही, ऊदबिरालो र थुप्रै चराहरू बस्छन्।",
+  "legend_np": "शिव र पार्वती घोडा बनेर तालको वरिपरि घुमेको भनिन्छ, जसले घोडाघोडी (घोडा शब्दबाट) लाई यसको नाम दियो।",
+  "facts_np": [
+   "घोडाघोडी ताल क्षेत्रलाई १३ अगस्ट २००३ मा अन्तर्राष्ट्रिय महत्त्वको रामसार सिमसार घोषित गरिएको थियो; यसले २,५६३ हेक्टर क्षेत्र ओगट्छ।",
+   "यो स्थलमा करिब १३ ताल र पोखरीहरू छन्; यो सिवालिक फेदमा करिब २०५ मिटरमा अवस्थित छ।",
+   "भक्तजनहरूले मन्दिरमा घोडा, हात्ती र बाघका माटोका आकृतिहरू चढाउँछन्।",
+   "थारूहरूले यहाँ अगन पञ्चमीको चाड मनाउँछन् र तालमा नुहाउँछन्।",
+   "फेब्रुअरी २०२१ को सर्वेक्षणले यस क्षेत्रका १८ तालमा २६ मगर गोही रेकर्ड गरेको थियो।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "देवताहरू एकपटक यस कमलको तालको वरिपरि दौडिए, त्यसैले तीर्थयात्रीहरूले यसको मन्दिरमा साना माटाका घोडा चढाउँछन्।",
+   "चराचुरुङ्गी र गोही संरक्षण गरिएको तराईको तालको किनारका भर्‍याङमाथि रातो र सेतो कपडा फहराउँछ।"
   ]
  },
  {
@@ -2572,7 +3245,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The ashram lies inside Khaptad National Park in far-western Nepal."
+    "explanation": "The ashram lies inside Khaptad National Park in far-western Nepal.",
+    "q_np": "खप्तड बाबा आश्रम कुन राष्ट्रिय निकुञ्जले घेरिएको छ?",
+    "options_np": [
+     "रारा",
+     "खप्तड",
+     "बर्दिया",
+     "शे-फोक्सुण्डो"
+    ],
+    "explanation_np": "आश्रम सुदूरपश्चिम नेपालको खप्तड राष्ट्रिय निकुञ्जभित्र छ।"
    },
    {
     "q": "What profession did Khaptad Baba practise before renouncing the world?",
@@ -2584,7 +3265,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "He trained as a doctor in Calcutta and studied surgery in the UK."
+    "explanation": "He trained as a doctor in Calcutta and studied surgery in the UK.",
+    "q_np": "सांसारिक जीवन त्याग्नुअघि खप्तड बाबाले कुन पेसा अपनाएका थिए?",
+    "options_np": [
+     "वकिल",
+     "चिकित्सक",
+     "सैनिक",
+     "सङ्गीत शिक्षक"
+    ],
+    "explanation_np": "उनले कलकत्तामा डाक्टरी पढे र बेलायतमा शल्यचिकित्सा अध्ययन गरे।"
    },
    {
     "q": "In which year was Khaptad National Park established on his advice?",
@@ -2596,7 +3285,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The park was established in 1984."
+    "explanation": "The park was established in 1984.",
+    "q_np": "उनको सल्लाहमा खप्तड राष्ट्रिय निकुञ्ज कुन वर्ष स्थापना भयो?",
+    "options_np": [
+     "1973",
+     "1984",
+     "1996",
+     "2006"
+    ],
+    "explanation_np": "निकुञ्ज 1984 मा स्थापना भएको थियो।"
    },
    {
     "q": "Where was Khaptad Baba born?",
@@ -2608,7 +3305,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "He was born Shivanath Dogra into a Dogra family of Kashmir."
+    "explanation": "He was born Shivanath Dogra into a Dogra family of Kashmir.",
+    "q_np": "खप्तड बाबाको जन्म कहाँ भएको थियो?",
+    "options_np": [
+     "कश्मीर",
+     "वाराणसी",
+     "काठमाडौँ",
+     "डोटी"
+    ],
+    "explanation_np": "उनी कश्मीरको डोगरा परिवारमा शिवनाथ डोगराका रूपमा जन्मिएका थिए।"
    },
    {
     "q": "Which festival brings pilgrims to Khaptad each year?",
@@ -2620,7 +3325,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "The Ganga Dashahara fair is held once a year in the Jestha-Ashadh season."
+    "explanation": "The Ganga Dashahara fair is held once a year in the Jestha-Ashadh season.",
+    "q_np": "प्रत्येक वर्ष खप्तडमा कुन चाडले तीर्थयात्रीहरू ल्याउँछ?",
+    "options_np": [
+     "गङ्गा दशहरा",
+     "इन्द्रजात्रा",
+     "ल्होसार",
+     "होली"
+    ],
+    "explanation_np": "गङ्गा दशहरा मेला वर्षमा एक पटक जेठ-असार महिनाको मौसममा लाग्छ।"
    }
   ],
   "clues": [
@@ -2630,9 +3343,10 @@
   "festivals": [
    {
     "name": "Ganga Dashahara Mela",
-    "name_np": "गंगा दशहरा मेला",
+    "name_np": "गङ्गा दशहरा मेला",
     "month": "Jestha",
-    "note": "Annual pilgrim fair at Khaptad in the Jestha-Ashadh season."
+    "note": "Annual pilgrim fair at Khaptad in the Jestha-Ashadh season.",
+    "note_np": "खप्तडमा जेठ-असार महिनाको मौसममा लाग्ने वार्षिक तीर्थयात्री मेला।"
    }
   ],
   "model": {
@@ -2720,6 +3434,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Frost on the meadows of Khaptad National Park"
    }
+  ],
+  "short_np": "ऋषि खप्तड बाबाले करिब पचास वर्ष बिताएको वनको आश्रम, उनकै सल्लाहमा स्थापित राष्ट्रिय निकुञ्जभित्र।",
+  "story_np": "तपाईं गुराँस र सल्लाको जङ्गल हुँदै खप्तडको उच्च चौरमा हिँडेर आउनुभएको छ, र तपाईंको अगाडि रातो काठको बरन्डा भएको सादा सेतो पोतिएको घर छ। यो खप्तड बाबाको घर थियो, जसलाई स्वामी सच्चिदानन्द पनि भनिन्छ। काश्मीरमा शिवनाथ डोगराका रूपमा जन्मेका उनले कलकत्तामा डाक्टरी पढे र बेलायतमा शल्यक्रियाको अध्ययन गरे, त्यसपछि सबै त्यागेर संन्यासी भए। उनी नेपालका पहाडहरूमा घुमे र सन् १९४० को दशकमा ध्यान गर्न यो पठारमा बसोबास गरे, करिब पचास वर्ष बसे। भित्र, मानिसहरूले अझै पनि उनले प्रयोग गरेका सामान राखेका छन्: एउटा सितार, उनको सादा ओछ्यान, र बाबाकै मूर्तिहरू। उनकै सल्लाहमा सरकारले सन् १९८४ मा खप्तड राष्ट्रिय निकुञ्ज बनायो, यी चौरहरूलाई चितुवा, भालु र डाँफेका लागि जोगाउँदै। छोटो हिँडाइमा त्रिवेणी, पवित्र सङ्गम छ, र हरेक वर्ष जेठतिर तीर्थयात्रीहरू गङ्गा दशहराको मेलाका लागि माथि उक्लन्छन्।",
+  "legend_np": null,
+  "facts_np": [
+   "खप्तड बाबा सन् १८८० मा काश्मीरमा शिवनाथ डोगराका रूपमा जन्मे र संन्यास लिनुअघि डाक्टरी तालिम लिए।",
+   "उनले सन् १९४० को दशकमा खप्तड उपत्यकामा बसोबास गरे र त्यहाँ पचास वर्षभन्दा बढी बसे।",
+   "खप्तड राष्ट्रिय निकुञ्ज सन् १९८४ मा उनको सल्लाहमा स्थापना भयो; यो बझाङ, बाजुरा, अछाम र डोटीमा फैलिएर २२५ वर्ग किलोमिटर क्षेत्रफलमा छ।",
+   "आश्रममा बाबाका दुईवटा मूर्ति छन्, एउटा काठको र एउटा काँसाको, र उनले प्रयोग गरेका सामान, सितार र उनको ओछ्यानसहित।",
+   "गङ्गा दशहराको मेलाले जेठ-असारको मौसममा वर्षको एक पटक खप्तडमा तीर्थयात्रीहरू तान्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "कश्मीरी डाक्टरबाट सन्न्यासी बनेका एक जनाले आधा शताब्दी यही उच्च चौरको घरमा बिताए, र उनको वरिपरि राष्ट्रिय निकुञ्ज बन्यो।",
+   "संरक्षित जङ्गलको पठारभित्र रातो काठको बरन्डामा एउटा सितार र सादा ओछ्यान राखिएको छ।"
   ]
  },
  {
@@ -2775,7 +3504,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Baidyanath is a Shiva shrine; the name means lord of physicians."
+    "explanation": "Baidyanath is a Shiva shrine; the name means lord of physicians.",
+    "q_np": "बैद्यनाथ धाममा कुन देवताको पूजा गरिन्छ?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "गणेश",
+     "हनुमान"
+    ],
+    "explanation_np": "बैद्यनाथ शिवको मन्दिर हो; नामको अर्थ वैद्यहरूका स्वामी हो।"
    },
    {
     "q": "In which district is this Baidyanath Dham?",
@@ -2787,7 +3524,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "It is in Achham district, near Sanfebagar."
+    "explanation": "It is in Achham district, near Sanfebagar.",
+    "q_np": "यो बैद्यनाथ धाम कुन जिल्लामा छ?",
+    "options_np": [
+     "अछाम",
+     "डोटी",
+     "दैलेख",
+     "सुर्खेत"
+    ],
+    "explanation_np": "यो अछाम जिल्लामा, साँफेबगर नजिक छ।"
    },
    {
     "q": "What does \"baidya\" in Baidyanath mean?",
@@ -2799,7 +3544,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Shiva acted as a baidya, a healer, so the place is called Baidyanath."
+    "explanation": "Shiva acted as a baidya, a healer, so the place is called Baidyanath.",
+    "q_np": "बैद्यनाथमा ‘बैद्य’ को अर्थ के हो?",
+    "options_np": [
+     "राजा",
+     "चिकित्सक",
+     "नदी",
+     "शिक्षक"
+    ],
+    "explanation_np": "शिवले बैद्य, अर्थात् उपचारकर्ताको काम गरेकाले यो ठाउँ बैद्यनाथ कहलियो।"
    },
    {
     "q": "Which demon king is said to have meditated here?",
@@ -2811,7 +3564,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "In the legend, Ravana meditated here after failing at Kailash."
+    "explanation": "In the legend, Ravana meditated here after failing at Kailash.",
+    "q_np": "कुन दानव राजाले यहाँ तपस्या गरेको भनिन्छ?",
+    "options_np": [
+     "रावण",
+     "महिषासुर",
+     "कंस",
+     "हिरण्यकशिपु"
+    ],
+    "explanation_np": "किंवदन्तीमा रावणले कैलाशमा असफल भएपछि यहाँ तपस्या गरे।"
    },
    {
     "q": "Which two rivers meet at Baidyanath Dham?",
@@ -2823,7 +3584,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "The shrine is at the confluence of the Budhi Ganga and Saraswati."
+    "explanation": "The shrine is at the confluence of the Budhi Ganga and Saraswati.",
+    "q_np": "बैद्यनाथ धाममा कुन दुई नदी मिल्छन्?",
+    "options_np": [
+     "सेती र कर्णाली",
+     "बुढी गङ्गा र सरस्वती",
+     "भेरी र शारदा",
+     "महाकाली र चमेलिया"
+    ],
+    "explanation_np": "मन्दिर बुढी गङ्गा र सरस्वतीको सङ्गममा छ।"
    }
   ],
   "clues": [
@@ -2835,7 +3604,8 @@
     "name": "Maha Shivaratri",
     "name_np": "महाशिवरात्रि",
     "month": "Falgun",
-    "note": "Pilgrims from Nepal and India visit the shrine."
+    "note": "Pilgrims from Nepal and India visit the shrine.",
+    "note_np": "नेपाल र भारतबाट तीर्थयात्रीहरू मन्दिर दर्शन गर्न आउँछन्।"
    }
   ],
   "model": {
@@ -2900,6 +3670,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "The two-roofed stone shrine with its white Nandi bull"
    }
+  ],
+  "short_np": "अछामको साँफेबगर नजिक नदीहरूको सङ्गममा रहेको शिव मन्दिर, जहाँ शिवलाई दिव्य वैद्यका रूपमा पूजिन्छ र वैदिक विद्यार्थीहरू अध्ययन गर्छन्।",
+  "story_np": "तपाईं अछामको साँफेबगर नजिक हुनुहुन्छ, जहाँ बुढीगंगा र सरस्वती भेट्छन्, र तपाईंको अगाडि बैद्यनाथ धामको सानो दुईतले मन्दिर छ। ढोकातिर फर्केर बसेको सेतो नन्दी बयल हेर्नुहोस्, सधैँ आफ्ना स्वामी शिवलाई हेरिरहेको। नामको अर्थ वैद्यहरूका स्वामी हो, र त्यसको पछाडिको कथा स्कन्द पुराणमा भनिएको छ। कैलास पर्वतमा ध्यान गर्दा पनि शिवलाई देख्न नसकेका रावण यहाँ ध्यान गर्न आए। शिव प्रकट भए र उनको इच्छा पूरा गरे, यही ठाउँमा उनका नौ टाउका जोडिदिए, वैद्य बनेर। धेरै पछि, करिब 1383 मा, अछामका राजा अभय मल्लले यो ठाउँले सबै रोग निको पार्न सक्छ भनी लेखे। रातो र भगवा लुगामा विद्यार्थीहरू खोज्नुहोस्: मन्दिरले वेद विद्याश्रम नामक वैदिक विद्यालय चलाउँछ। शिवरात्रिमा आउनुभयो भने नेपाल र भारतबाट आएका तीर्थयात्री भेट्नुहुनेछ। स्थानीय किंवदन्तीले त एकीकरणका बेला यहाँ आएका गोरखाली सिपाही अन्धा भएर हतियार छाडी फर्कन बाध्य भएको पनि भन्छ।",
+  "legend_np": "कैलासमा शिवलाई देख्न नसकेका रावणले यहाँ ध्यान गरे; शिव वैद्यका रूपमा प्रकट भई उनका नौ टाउका फर्काइदिए, जसले यस ठाउँलाई बैद्यनाथ नाम दियो। पछिको एउटा किंवदन्ती अनुसार आक्रमण गर्न आएका गोरखाली सिपाही यहाँ अन्धा भए र हतियार छाडेर फर्किए।",
+  "facts_np": [
+   "बैद्यनाथ धाम अछाम जिल्लामा बुढीगंगा र सरस्वती नदीको सङ्गममा छ।",
+   "यो ठाउँ स्कन्द पुराणको मानस खण्डमा उल्लेख भएको भनिन्छ।",
+   "अछामका राजा अभय मल्लले वि.सं. 1440 मा यसलाई उल्लेख गर्दै यसले सबै रोग निको पार्न सक्छ भनेका थिए।",
+   "मन्दिरले वेद विद्याश्रम नामक वैदिक विद्यालय चलाउँछ, जसले 2020 मा सरकारबाट NPR 2 million प्राप्त गर्‍यो।",
+   "महाशिवरात्रिमा नेपाल र भारतका तीर्थयात्री दर्शन गर्न आउँछन्।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "एक दानव राजा यहाँ तपस्या गर्न आए, र देवता उपचारकको रूपमा प्रकट भए।",
+   "सुदूर पश्चिमका दुई नदी मिल्ने ठाउँमा रातो वस्त्र लगाएका वैदिक विद्यार्थीहरू सेतो साँढेको छेउमा मन्त्र पाठ गर्छन्।"
   ]
  },
  {
@@ -2955,7 +3740,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "It lies on the Mahakali, which forms Nepal's western border."
+    "explanation": "It lies on the Mahakali, which forms Nepal's western border.",
+    "q_np": "परशुराम धाम कुन नदीको किनारमा छ?",
+    "options_np": [
+     "कर्णाली",
+     "महाकाली",
+     "सेती",
+     "भेरी"
+    ],
+    "explanation_np": "यो नेपालको पश्चिमी सीमा बनाउने महाकाली नदीको किनारमा छ।"
    },
    {
     "q": "Parshuram is the incarnation of which god?",
@@ -2967,7 +3760,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Parshuram is the sixth incarnation (avatar) of Vishnu."
+    "explanation": "Parshuram is the sixth incarnation (avatar) of Vishnu.",
+    "q_np": "परशुराम कुन देवताका अवतार हुन्?",
+    "options_np": [
+     "शिव",
+     "विष्णु",
+     "ब्रह्मा",
+     "इन्द्र"
+    ],
+    "explanation_np": "परशुराम विष्णुका छैटौँ अवतार हुन्।"
    },
    {
     "q": "On which festival is the biggest fair held at Parshuram Dham?",
@@ -2979,7 +3780,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "A big fair is held every year on Maghe Sankranti, the first of Magh."
+    "explanation": "A big fair is held every year on Maghe Sankranti, the first of Magh.",
+    "q_np": "परशुराम धाममा सबैभन्दा ठूलो मेला कुन पर्वमा लाग्छ?",
+    "options_np": [
+     "माघे सङ्क्रान्ति",
+     "तिहार",
+     "तीज",
+     "होली"
+    ],
+    "explanation_np": "हरेक वर्ष माघ महिनाको पहिलो दिन माघे सङ्क्रान्तिमा ठूलो मेला लाग्छ।"
    },
    {
     "q": "How many deities from Dadeldhura and Doti are brought here for a holy dip at Maghe Sankranti?",
@@ -2991,7 +3800,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "By tradition, 22 deities are carried here for a holy bath."
+    "explanation": "By tradition, 22 deities are carried here for a holy bath.",
+    "q_np": "माघे सङ्क्रान्तिमा पवित्र स्नानका लागि डडेलधुरा र डोटीका कतिओटा देवता यहाँ ल्याइन्छन्?",
+    "options_np": [
+     "7",
+     "12",
+     "22",
+     "108"
+    ],
+    "explanation_np": "परम्परा अनुसार पवित्र स्नानका लागि 22 देवतालाई यहाँ बोकेर ल्याइन्छ।"
    },
    {
     "q": "Which Pandava is said to have built a Dharma Dwar here?",
@@ -3003,7 +3820,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "Legend says Yudhishthira held a ceremony here and built a Dharma Dwar."
+    "explanation": "Legend says Yudhishthira held a ceremony here and built a Dharma Dwar.",
+    "q_np": "कुन पाण्डवले यहाँ धर्मद्वार बनाएका थिए भनिन्छ?",
+    "options_np": [
+     "अर्जुन",
+     "भीम",
+     "युधिष्ठिर",
+     "सहदेव"
+    ],
+    "explanation_np": "किंवदन्ती अनुसार युधिष्ठिरले यहाँ अनुष्ठान गरे र धर्मद्वार बनाए।"
    }
   ],
   "clues": [
@@ -3013,9 +3838,10 @@
   "festivals": [
    {
     "name": "Maghe Sankranti fair",
-    "name_np": "माघे संक्रान्ति मेला",
+    "name_np": "माघे सङ्क्रान्ति मेला",
     "month": "Magh",
-    "note": "Big annual fair on Magh 1; 22 deities from Dadeldhura and Doti are brought for a holy dip."
+    "note": "Big annual fair on Magh 1; 22 deities from Dadeldhura and Doti are brought for a holy dip.",
+    "note_np": "माघ 1 गते लाग्ने ठूलो वार्षिक मेला; डडेलधुरा र डोटीका 22 देवतालाई पवित्र स्नानका लागि ल्याइन्छ।"
    }
   ],
   "model": {
@@ -3099,6 +3925,21 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0",
     "caption": "Ganesh temple at Parshuram Dham"
    }
+  ],
+  "short_np": "डडेलधुरामा महाकाली किनारको पवित्र स्नानस्थल, परशुरामको तपस्यासँग जोडिएको र माघे सङ्क्रान्ति मेलाका लागि प्रसिद्ध।",
+  "story_np": "तपाईं नेपालको पश्चिमी सीमा महाकाली नदीको फराकिलो, ढुङ्गैले भरिएको किनारमा, परशुराम धाममा आइपुग्नुभएको छ। पहिले माथि रङ्गीन विशाल मूर्तितिर हेर्नुहोस्: एक हातमा बन्चरो र छेउमा धनुष भएका दाह्री भएका ऋषि। यी विष्णुका छैटौँ अवतार परशुराम हुन्। किंवदन्ती अनुसार हैहय वंशका योद्धाहरूको वध गरेपछि प्रायश्चित्तका रूपमा उनी यहाँ ठूलो यज्ञ गर्न आए, र पछि महाभारतका युधिष्ठिरले पनि यहाँ अनुष्ठान गरे र धर्मद्वार, सही आचरणको ढोका बनाए। यो स्थल स्कन्द पुराणमा उल्लेख भएको भनिन्छ। गणेश, हनुमान र शिवका साना मन्दिरहरू भएर जाने बाटो हुँदै पानीसम्म ओर्लनुहोस्। प्रत्येक वर्ष माघ १ गते, माघे सङ्क्रान्तिमा यी किनारमा ठूलो मेला लाग्छ, र परम्परा अनुसार डडेलधुरा र डोटीका बाईस देवताहरूलाई नदीमा पवित्र स्नानका लागि यहाँ ल्याइन्छ।",
+  "legend_np": "हैहय क्षत्रियहरूको वध गरेपछि परशुरामले प्रायश्चित्तका रूपमा यहाँ यज्ञ गरेको भनिन्छ; पछि युधिष्ठिरले पनि यस्तै अनुष्ठान गरे र धर्मद्वार (सही आचरणको ढोका) बनाए।",
+  "facts_np": [
+   "परशुराम धाम डडेलधुराको परशुराम नगरपालिका-5 मा महाकाली नदीको किनारमा छ।",
+   "यो स्थल स्कन्द पुराणको मानस खण्डमा उल्लेख भएको भनिन्छ।",
+   "माघे सङ्क्रान्तिमा डडेलधुरा र डोटीका 22 देवतालाई परम्परागत रूपमा पवित्र स्नानका लागि यहाँ ल्याइन्छ।",
+   "पूर्व-पश्चिम राजमार्गको दैजीबाट यो करिब 30 कि.मि., लगभग दुई घण्टाको यात्रा हो।",
+   "भक्तजनले पूर्णिमा, औँसी र ग्रहणका दिनमा पनि यहाँ स्नान गर्छन्।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "बन्चरो बोकेका एक विशाल ऋषि नेपालको पश्चिमी सीमा नदीको ढुङ्गैढुङ्गे किनारमा पहरा दिइरहेका छन्।",
+   "हरेक माघे सङ्क्रान्तिमा बाइस गाउँका देवताहरूलाई नुहाउन यहाँ ओराल्ने गरिन्छ।"
   ]
  }
 ]

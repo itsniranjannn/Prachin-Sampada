@@ -35,7 +35,7 @@ export default function Quiz() {
   const [params] = useSearchParams();
   const monumentId = params.get('monument');
   const { user, refresh } = useAuth();
-  const { sound } = usePrefs();
+  const { sound, nepali } = usePrefs();
   const toast = useToast();
   const [phase, setPhase] = useState('intro'); // intro | q | done
   const [cur, setCur] = useState(null);
@@ -121,14 +121,14 @@ export default function Quiz() {
               <div className="eyebrow">Adaptive quiz trail · प्रश्नोत्तर यात्रा</div>
               <h1 style={{ fontSize: 'var(--fs-h2)' }}>{t('How well do you know your heritage?', 'आफ्नो सम्पदालाई कत्तिको चिन्नुहुन्छ?')}</h1>
             <Epigraph index={15} />
-              <p className="lead">{ROUND} questions that adapt to you. Get one right and the next is a little harder; miss one and it comes back later to help you remember.</p>
+              <p className="lead">{t(`${ROUND} questions that adapt to you. Get one right and the next is a little harder; miss one and it comes back later to help you remember.`, `तपाईंसँग मिल्दा ${t.n(ROUND)} प्रश्न। एउटा सही गर्दा अर्को अलि गाह्रो हुन्छ; एउटा छुट्यो भने सम्झन सजिलो होस् भनी पछि फर्किन्छ।`)}</p>
               <div className="level-row">
                 <Tiers rating={rating} />
                 <div>
                   <div className="cap">Your level</div>
                   <h3 style={{ margin: 0 }}>{level.label}</h3>
                   <div className="np muted" lang="ne">{level.np}</div>
-                  <div className="cap num">Rating {rating}{nextLevel ? ` · ${nextLevel.min - rating} to ${nextLevel.label}` : ' · top level'}</div>
+                  <div className="cap num">{t('Rating', 'रेटिङ')} {t.n(rating)}{nextLevel ? ` · ${t.n(nextLevel.min - rating)} ${t('to', 'बाँकी')} ${t.nepali && nextLevel.np ? nextLevel.np : nextLevel.label}` : t(' · top level', ' · उच्चतम तह')}</div>
                 </div>
               </div>
               {monumentId && <p className="tag sky" style={{ marginTop: '1rem' }}>Questions on one monument only</p>}
@@ -155,14 +155,14 @@ export default function Quiz() {
                 {cur.monument.image && <img src={cur.monument.image} alt="" />}
                 <span><b>{cur.monument.name}</b><span className="np cap" lang="ne">{cur.monument.name_np}</span></span>
               </Link>
-              <h2 className="quiz-q">{cur.question.text}</h2>
+              <h2 className="quiz-q" lang={nepali && cur.question.text_np ? 'ne' : undefined}>{nepali && cur.question.text_np ? cur.question.text_np : cur.question.text}</h2>
               <div className="options">
                 {cur.question.options.map((o, i) => {
                   const state = res ? (i === res.answerIndex ? 'right' : i === choice ? 'wrong' : 'dim') : '';
                   return (
                     <button key={i} className={`option ${state}`} onClick={() => answer(i)} disabled={!!res}>
                       <span className="opt-key">{res && i === res.answerIndex ? <Check size={16} /> : res && i === choice ? <XIcon size={16} /> : i + 1}</span>
-                      <span>{o}</span>
+                      <span>{nepali && cur.question.options_np?.[i] ? cur.question.options_np[i] : o}</span>
                     </button>
                   );
                 })}
@@ -171,12 +171,12 @@ export default function Quiz() {
                 {res && (
                   <motion.div className={`explain ${res.correct ? 'ok' : 'no'}`} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }}>
                     <div className="row between">
-                      <b className="stamp-font" style={{ fontSize: '1.3rem' }}>{res.correct ? 'शाबास! Correct' : choice === -1 ? 'Time is up' : 'Not quite'}</b>
+                      <b className="stamp-font" style={{ fontSize: '1.3rem' }}>{res.correct ? t('शाबास! Correct', 'शाबास! सही') : choice === -1 ? t('Time is up', 'समय सकियो') : t('Not quite', 'ठ्याक्कै होइन')}</b>
                       <span className={`delta num ${res.delta >= 0 ? 'up' : 'down'}`}>{res.delta >= 0 ? '+' : ''}{res.delta}</span>
                     </div>
-                    {res.explanation && <p style={{ margin: '0.4rem 0 0' }}>{res.explanation}</p>}
+                    {res.explanation && <p style={{ margin: '0.4rem 0 0' }}>{nepali && res.explanation_np ? res.explanation_np : res.explanation}</p>}
                     <div className="row between" style={{ marginTop: '0.9rem' }}>
-                      <span className="cap">You had a {res.expected}% predicted chance on this one.</span>
+                      <span className="cap">{t(`You had a ${res.expected}% predicted chance on this one.`, `यसमा तपाईंको सफलताको अनुमानित सम्भावना ${t.n(res.expected)}% थियो।`)}</span>
                       <button className="btn" onClick={() => (log.length >= ROUND ? setPhase('done') : next())}>{log.length >= ROUND ? t('See results', 'नतिजा हेर्नुहोस्') : t('Next', 'अर्को')} <ArrowRight size={16} /></button>
                     </div>
                   </motion.div>
@@ -198,7 +198,7 @@ export default function Quiz() {
                 <div>
                   <h3 style={{ margin: 0 }}>{level.label}</h3>
                   <div className="np" lang="ne">{level.np}</div>
-                  <div className="num">Rating {startRating} → <b>{rating}</b> ({rating - startRating >= 0 ? '+' : ''}{rating - startRating})</div>
+                  <div className="num">{t('Rating', 'रेटिङ')} {t.n(startRating)} → <b>{t.n(rating)}</b> ({rating - startRating >= 0 ? '+' : ''}{t.n(rating - startRating)})</div>
                 </div>
               </div>
               <ul className="log">

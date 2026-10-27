@@ -1,6 +1,6 @@
 // Procedural 3D heritage sites. Each site is built from its researched `model` spec (kind, roof tiers, plinth levels,
 // guardian sculptures, features and surroundings), using CC0 textures from Poly Haven for brick, tile, timber and stone.
-import { createContext, Suspense, useContext, useMemo, useRef, useState } from 'react';
+import { Component, createContext, Suspense, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, ContactShadows, useTexture, Environment, Lightformer, Bounds, Sparkles } from '@react-three/drei';
@@ -82,30 +82,57 @@ const Ball = ({ rad, p = [0, 0, 0], sc, m }) => (
   </mesh>
 );
 /** Hip roof over a w x d plan: four sloped faces meeting at a ridge (or a point when square). */
-function hipGeometry(w, d, h) {
+/** Pagoda roof surface: concave slopes (steep near the pinnacle, flattening to the eave) with upswept corners. */
+function curvedRoofGeometry(w, d, h, sag = 1.55, lift = 0.2, N = 16) {
   const hw = w / 2;
   const hd = d / 2;
-  const rx = Math.max(0, hw - hd);
-  const rz = Math.max(0, hd - hw);
-  const v = [[-hw, 0, -hd], [hw, 0, -hd], [hw, 0, hd], [-hw, 0, hd], [-rx, h, -rz], [rx, h, rz]];
-  const faces = rx >= rz
-    ? [[0, 4, 5, 1], [1, 5, 2], [2, 5, 4, 3], [3, 4, 0]]
-    : [[0, 4, 1], [1, 4, 5, 2], [2, 5, 3], [3, 5, 4, 0]];
   const pos = [];
   const uv = [];
-  faces.forEach((f) => {
-    const tris = f.length === 4 ? [[f[0], f[1], f[2]], [f[0], f[2], f[3]]] : [f];
-    tris.forEach((t) => t.forEach((i) => { pos.push(...v[i]); uv.push((v[i][0] + v[i][2]) / 2, v[i][1] * 1.5); }));
-  });
+  const idx = [];
+  for (let j = 0; j <= N; j += 1) {
+    for (let i = 0; i <= N; i += 1) {
+      const x = -hw + (w * i) / N;
+      const z = -hd + (d * j) / N;
+      const ax = Math.abs(x) / hw;
+      const az = Math.abs(z) / hd;
+      const s = Math.max(ax, az);
+      pos.push(x, h * (1 - s) ** sag + lift * h * (ax * az) ** 2.4, z);
+      uv.push((x + hw) / 2.2, (z + hd) / 2.2);
+    }
+  }
+  for (let j = 0; j < N; j += 1) {
+    for (let i = 0; i < N; i += 1) {
+      const a = j * (N + 1) + i;
+      const b = a + 1;
+      const c = a + (N + 1);
+      const e = c + 1;
+      idx.push(a, c, b, b, c, e);
+    }
+  }
   const g = new THREE.BufferGeometry();
   g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
   g.setAttribute('uv', new THREE.Float32BufferAttribute(uv, 2));
+  g.setIndex(idx);
   g.computeVertexNormals();
   return g;
 }
-function Roof({ w, d, h, y, m }) {
-  const geo = useMemo(() => hipGeometry(w, d, h), [w, d, h]);
-  return <mesh geometry={geo} position={[0, y, 0]} material={m} castShadow receiveShadow />;
+/** Roof over a w x d plan whose eave sits at height y. `sag` 1 is a straight slope; 1.5 is the Newar curve. */
+function Roof({ w, d, h, y, m, sag = 1.5, lift = 0.2, fascia = true }) {
+  const M = useM();
+  const geo = useMemo(() => curvedRoofGeometry(w, d, h, sag, lift), [w, d, h, sag, lift]);
+  return (
+    <group position={[0, y, 0]}>
+      <mesh geometry={geo} material={m} castShadow receiveShadow />
+      {fascia && (
+        <>
+          <Box s={[w, 0.09, 0.07]} p={[0, -0.03, d / 2]} m={M.dark} cast={false} />
+          <Box s={[w, 0.09, 0.07]} p={[0, -0.03, -d / 2]} m={M.dark} cast={false} />
+          <Box s={[0.07, 0.09, d]} p={[w / 2, -0.03, 0]} m={M.dark} cast={false} />
+          <Box s={[0.07, 0.09, d]} p={[-w / 2, -0.03, 0]} m={M.dark} cast={false} />
+        </>
+      )}
+    </group>
+  );
 }
 
 /** Gilded finial (gajur): bell, stacked umbrellas and a spike. */
@@ -405,29 +432,18 @@ function PagodaBody({ tiers = 3, w = 2.6, d = 2.6, y0 = 0, walls, roof, f, small
     out.push(<Box key={`w${i}`} s={[ww, wallH, dd]} p={[0, y + wallH / 2, 0]} m={wallMat(M, walls, ww / 1.2, wallH / 0.6, tint)} />);
     out.push(<Box key={`b${i}`} s={[ww + 0.06, 0.08, dd + 0.06]} p={[0, y + wallH - 0.04, 0]} m={M.dark} />);
     if (i === 0) {
-      out.push(<Box key="door" s={[0.62, 0.86, 0.06]} p={[0, y + 0.43, dd / 2 + 0.01]} m={f.has('golden-door') ? M.gold : M.dark} />);
-      out.push(<mesh key="torana" position={[0, y + 0.92, dd / 2 + 0.03]} material={M.gold}><torusGeometry args={[0.32, 0.04, 8, 24, Math.PI]} /></mesh>);
-      if (f.has('carved-windows')) [-1, 1].forEach((k) => out.push(<Box key={`cw${k}`} s={[0.42, 0.42, 0.06]} p={[k * ww * 0.3, y + 0.6, dd / 2 + 0.01]} m={M.dark} />));
+      out.push(<Doorway key="door" p={[0, y, dd / 2 + 0.01]} w={0.62} h={0.9 * wh} gold={f.has('golden-door')} />);
+      if (f.has('carved-windows') || ww > 2) [-1, 1].forEach((k) => out.push(<LatticeWindow key={`cw${k}`} p={[k * ww * 0.3, y + 0.6 * wh, dd / 2 + 0.01]} w={0.4} h={0.44} />));
     } else {
-      [[0, dd / 2 + 0.01, 0], [ww / 2 + 0.01, 0, Math.PI / 2], [0, -dd / 2 - 0.01, 0], [-ww / 2 - 0.01, 0, Math.PI / 2]].forEach(([x, z, ry], k) => out.push(
-        <Box key={`win${i}${k}`} s={[0.36, 0.3, 0.05]} p={[x, y + wallH * 0.5, z]} r={[0, ry, 0]} m={M.dark} />,
+      [[0, dd / 2 + 0.01, 0], [ww / 2 + 0.01, 0, Math.PI / 2], [0, -dd / 2 - 0.01, Math.PI], [-ww / 2 - 0.01, 0, -Math.PI / 2]].forEach(([x, z, ry], k) => out.push(
+        <LatticeWindow key={`win${i}${k}`} p={[x, y + wallH * 0.5, z]} r={ry} w={Math.min(0.5, ww * 0.3)} h={wallH * 0.62} bars={3} />,
       ));
     }
     const o = (0.42 + 0.08 * (tiers - i)) * ov;
     const rw = ww + 2 * o;
     const rd = dd + 2 * o;
     const rh = 0.5 + 0.04 * (tiers - i);
-    if (f.has('carved-struts') || !small) {
-      const n = 3;
-      [[0, 1], [0, -1], [1, 0], [-1, 0]].forEach(([sx, sz], side) => {
-        for (let k = 0; k < n; k += 1) {
-          const t = (k - (n - 1) / 2) / n;
-          const x = sx ? sx * (ww / 2 + 0.16) : t * ww * 1.1;
-          const z = sz ? sz * (dd / 2 + 0.16) : t * dd * 1.1;
-          out.push(<Box key={`st${i}-${side}-${k}`} s={[0.07, 0.6, 0.07]} p={[x, y + wallH + 0.02, z]} r={[sz * 0.6, 0, -sx * 0.6]} m={M.dark} />);
-        }
-      });
-    }
+    if (f.has('carved-struts') || !small) out.push(<EaveStruts key={`st${i}`} w={ww} d={dd} y={y + wallH + 0.02} n={Math.max(2, Math.round(ww * 1.1))} h={0.5 * Math.min(1.2, ov + 0.2)} />);
     out.push(<Roof key={`r${i}`} w={rw} d={rd} h={rh} y={y + wallH - 0.05} m={rm} />);
     [[1, 1], [1, -1], [-1, 1], [-1, -1]].forEach(([sx, sz], k) => out.push(
       <mesh key={`bell${i}${k}`} position={[sx * rw / 2 * 0.96, y + wallH - 0.14, sz * rd / 2 * 0.96]} material={M.gold}><coneGeometry args={[0.05, 0.14, 8]} /></mesh>,
@@ -728,17 +744,124 @@ function AshokaPillar({ f }) {
 }
 
 /* ---------- surroundings ---------- */
-function House({ p, r = 0, h = 2.4, w = 1.8, d = 1.6, plaster = false, M }) {
+/* ---------- kit v2: Newar architectural parts ---------- */
+const TIMBER = '#5a3418';
+const LATTICE = '#8f5a2c';
+
+/** Wooden window (ankhi jhyal): carved frame, dark opening, vertical slats and a sill. Faces +z; place on a wall. */
+function LatticeWindow({ p = [0, 0, 0], r = 0, w = 0.5, h = 0.55, bars = 4, detail = true }) {
+  const M = useM();
+  const wood = M.plain(TIMBER, { roughness: 0.8 });
+  const slat = M.plain(LATTICE, { roughness: 0.75 });
   return (
     <group position={p} rotation={[0, r, 0]}>
-      <Box s={[w, h, d]} p={[0, h / 2, 0]} m={plaster ? M.plain('#efe6d6', { roughness: 0.85 }) : wallMat(M, 'red-brick', w / 1.4, h / 1.2)} />
-      {Array.from({ length: Math.floor(h / 0.8) }, (_, s) => [-0.45, 0.45].map((x) => <Box key={`${s}${x}`} s={[0.28, 0.32, 0.04]} p={[x * w / 1.8, 0.55 + s * 0.8, d / 2 + 0.02]} m={M.dark} />))}
-      <mesh position={[0, h + 0.28, 0]} rotation={[0, 0, 0]} scale={[w / 1.8 + 0.15, 1, d / 1.6 + 0.2]} material={roofMat(M, plaster ? 'slate' : 'clay-tile')} castShadow>
-        <cylinderGeometry args={[0.01, 1.1, 0.56, 4, 1, false, Math.PI / 4]} />
+      <Box s={[w + 0.1, h + 0.1, 0.07]} p={[0, 0, 0.02]} m={wood} cast={false} />
+      <Box s={[w, h, 0.05]} p={[0, 0, 0.055]} m={M.plain('#1b0f08')} cast={false} />
+      {detail && Array.from({ length: bars }, (_, k) => <Box key={k} s={[0.025, h * 0.92, 0.03]} p={[-w / 2 + ((k + 0.5) * w) / bars, 0, 0.09]} m={slat} cast={false} />)}
+      {detail && <Box s={[w, 0.03, 0.03]} p={[0, h * 0.18, 0.09]} m={slat} cast={false} />}
+      <Box s={[w + 0.16, 0.05, 0.14]} p={[0, -h / 2 - 0.05, 0.08]} m={wood} cast={false} />
+    </group>
+  );
+}
+/** Newar triple window (tikijhya): a tall central lattice with two lower side lattices under a lean-to eave. */
+function TripleWindow({ p = [0, 0, 0], r = 0, w = 1.5, h = 0.8 }) {
+  const M = useM();
+  const wood = M.plain(TIMBER, { roughness: 0.8 });
+  const side = w * 0.3;
+  return (
+    <group position={p} rotation={[0, r, 0]}>
+      <Box s={[w + 0.12, h * 0.96, 0.1]} p={[0, 0, 0.02]} m={wood} cast={false} />
+      <LatticeWindow p={[0, 0.04, 0.04]} w={w * 0.34} h={h * 0.78} bars={5} />
+      <LatticeWindow p={[-w * 0.34, -0.04, 0.04]} w={side} h={h * 0.6} bars={4} />
+      <LatticeWindow p={[w * 0.34, -0.04, 0.04]} w={side} h={h * 0.6} bars={4} />
+      <mesh position={[0, h * 0.58, 0.2]} rotation={[-0.42, 0, 0]} material={M.mat('roof', 2, 1, { color: '#8a5e4c' })} castShadow>
+        <boxGeometry args={[w + 0.3, 0.05, 0.42]} />
       </mesh>
     </group>
   );
 }
+/** Carved timber struts (tunala) holding an eave: slanted brackets on all four sides. */
+function EaveStruts({ w, d, y, n = 4, h = 0.5, color = TIMBER }) {
+  const M = useM();
+  const wood = M.plain(color, { roughness: 0.8 });
+  const out = [];
+  [[0, 1], [0, -1], [1, 0], [-1, 0]].forEach(([sx, sz], side) => {
+    const len = sx ? d : w;
+    for (let k = 0; k < n; k += 1) {
+      const t = ((k + 0.5) / n - 0.5) * len * 0.86;
+      const x = sx ? sx * (w / 2 + h * 0.34) : t;
+      const z = sz ? sz * (d / 2 + h * 0.34) : t;
+      out.push(
+        <group key={`${side}-${k}`} position={[x, y, z]} rotation={[0, sx ? (sx * Math.PI) / 2 : (sz > 0 ? 0 : Math.PI), 0]}>
+          <Box s={[0.07, h, 0.07]} p={[0, -h / 2 + 0.02, 0]} r={[0.62, 0, 0]} m={wood} cast={false} />
+          <Ball rad={0.05} p={[0, -0.02, 0.02]} m={wood} />
+        </group>,
+      );
+    }
+  });
+  return <group>{out}</group>;
+}
+/** Doorway with a carved frame and a gilded or timber leaf; optional torana arch. Faces +z. */
+function Doorway({ p = [0, 0, 0], r = 0, w = 0.8, h = 1.2, gold = false, arch = true }) {
+  const M = useM();
+  const leaf = gold ? M.gold : M.plain('#4a2a16', { roughness: 0.8 });
+  return (
+    <group position={p} rotation={[0, r, 0]}>
+      <Box s={[w + 0.16, h + 0.1, 0.08]} p={[0, h / 2, 0.02]} m={M.plain(TIMBER, { roughness: 0.8 })} cast={false} />
+      <Box s={[w, h, 0.06]} p={[0, h / 2, 0.06]} m={leaf} cast={false} />
+      <Box s={[0.02, h, 0.03]} p={[0, h / 2, 0.1]} m={M.plain('#2a1810')} cast={false} />
+      {arch && <mesh position={[0, h + 0.06, 0.07]} material={M.gold}><torusGeometry args={[w / 2 + 0.06, 0.04, 8, 24, Math.PI]} /></mesh>}
+    </group>
+  );
+}
+/** A row of pillars carrying a beam: the open pillared ground floor of a Newar temple or rest house (phalcha). */
+function Arcade({ p = [0, 0, 0], r = 0, w = 4, h = 1.1, n = 5, color = TIMBER }) {
+  const M = useM();
+  const wood = M.plain(color, { roughness: 0.8 });
+  return (
+    <group position={p} rotation={[0, r, 0]}>
+      {Array.from({ length: n }, (_, k) => {
+        const x = -w / 2 + (k * w) / (n - 1);
+        return (
+          <group key={k} position={[x, 0, 0]}>
+            <Cyl rt={0.07} rb={0.09} h={h} p={[0, h / 2, 0]} m={wood} seg={10} />
+            <Box s={[0.22, 0.1, 0.22]} p={[0, h, 0]} m={wood} />
+            <Box s={[0.16, 0.06, 0.16]} p={[0, 0.03, 0]} m={M.stone} />
+          </group>
+        );
+      })}
+      <Box s={[w + 0.3, 0.14, 0.2]} p={[0, h + 0.12, 0]} m={wood} />
+    </group>
+  );
+}
+/** Newar brick house: shop opening below, three-part windows above, tiled hip roof with fascia. */
+function NewarHouse({ p = [0, 0, 0], r = 0, w = 2.2, d = 1.8, storeys = 3, tint = null, plaster = false, detail = true, shop = true }) {
+  const M = useM();
+  const sh = 0.85;
+  const walls = plaster ? M.plain(tint || '#efe6d6', { roughness: 0.85 }) : wallMat(M, 'red-brick', w / 1.1, storeys, tint);
+  const parts = [];
+  parts.push(<Box key="body" s={[w, sh * storeys, d]} p={[0, (sh * storeys) / 2, 0]} m={walls} />);
+  parts.push(<Box key="plinth" s={[w + 0.06, 0.12, d + 0.06]} p={[0, 0.06, 0]} m={M.stone} cast={false} />);
+  if (shop) {
+    parts.push(<Box key="shop" s={[w * 0.62, sh * 0.62, 0.05]} p={[0, sh * 0.34, d / 2 + 0.01]} m={M.plain('#1b0f08')} cast={false} />);
+    parts.push(<Box key="shopl" s={[w * 0.66, 0.07, 0.09]} p={[0, sh * 0.67, d / 2 + 0.03]} m={M.plain(TIMBER)} cast={false} />);
+  }
+  for (let s = 1; s < storeys; s += 1) {
+    const y = s * sh + sh * 0.5;
+    parts.push(<Box key={`band${s}`} s={[w + 0.05, 0.05, d + 0.05]} p={[0, s * sh, 0]} m={M.plain(TIMBER)} cast={false} />);
+    if (detail && w > 1.7) parts.push(<TripleWindow key={`tw${s}`} p={[0, y, d / 2 + 0.01]} w={w * 0.62} h={sh * 0.62} />);
+    else parts.push(<LatticeWindow key={`lw${s}`} p={[0, y, d / 2 + 0.01]} w={w * 0.36} h={sh * 0.5} detail={detail} />);
+    parts.push(<LatticeWindow key={`sw${s}`} p={[w / 2 + 0.01, y, 0]} r={Math.PI / 2} w={d * 0.34} h={sh * 0.45} detail={false} />);
+  }
+  parts.push(<Roof key="roof" w={w + 0.5} d={d + 0.5} h={0.55 + storeys * 0.06} y={sh * storeys} m={roofMat(M, 'clay-tile')} sag={1.15} lift={0.1} />);
+  return <group position={p} rotation={[0, r, 0]}>{parts}</group>;
+}
+
+/** Background house for plazas and villages. */
+function House({ p, r = 0, h = 2.4, w = 1.8, d = 1.6, plaster = false, M, tint = null }) {
+  return <NewarHouse p={p} r={r} w={Math.max(1.5, w)} d={Math.max(1.3, d)} storeys={Math.max(2, Math.round(h / 0.85))} plaster={plaster} tint={tint} detail={false} />;
+}
+
 function Surroundings({ list, radius = 10, dusk }) {
   const M = useM();
   const s = new Set(list || []);
@@ -910,20 +1033,34 @@ export const DEFAULT_SPECS = {
 const NYATAPOLA = { kind: 'pagoda', tiers: 5, plinth_steps: 5, plinth_shape: 'square', footprint_m: [25, 25], walls: 'red-brick', roof: 'clay-tile', features: ['gilded-pinnacle', 'carved-struts', 'guardian-pairs-on-stairs'], surroundings: ['stone-paved-plaza', 'newar-houses'] };
 
 /** Viewer for one site, with day and dusk lighting, auto-turn and drag to orbit. */
+class ModelBoundary extends Component {
+  state = { broke: false };
+  static getDerivedStateFromError() { return { broke: true }; }
+  componentDidCatch(e) { console.error('3D model failed, showing the generic model instead:', e); this.props.onBroke?.(); }
+  render() { return this.state.broke ? null : this.props.children; }
+}
+
 export function SiteViewer({ spec, type, slug, height = 440, initialDusk = false }) {
+  const qs = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : new URLSearchParams();
+  const cam = (qs.get('cam') || '9,6.5,12').split(',').map(Number);
   const s = { ...(spec || DEFAULT_SPECS[type] || DEFAULT_SPECS.pagoda), slug };
-  const [dusk, setDusk] = useState(initialDusk);
-  const [spin, setSpin] = useState(true);
+  const [dusk, setDusk] = useState(initialDusk || qs.get('dusk') === '1');
+  const [spin, setSpin] = useState(qs.get('still') !== '1');
+  const [broke, setBroke] = useState(false);
+  const ready = useLandmarks();
+  if (broke) s.slug = null;
   return (
-    <div className="model-viewer" style={{ height }}>
-      <Canvas shadows dpr={[1, 1.8]} camera={{ position: [9, 6.5, 12], fov: 36 }} gl={{ antialias: true, toneMappingExposure: 1.2 }}>
+    <div className="model-viewer" style={{ height }} data-ready={ready ? '1' : '0'}>
+      <ModelBoundary key={String(broke)} onBroke={() => setBroke(true)}>
+      <Canvas shadows dpr={[1, 1.8]} camera={{ position: cam.length === 3 && cam.every(Number.isFinite) ? cam : [9, 6.5, 12], fov: 36 }} gl={{ antialias: true, toneMappingExposure: 1.2 }}>
         <Suspense fallback={null}>
           <MatProvider>
-            <Scene spec={s} dusk={dusk} spin={spin} />
+            {ready && <Scene spec={s} dusk={dusk} spin={spin} />}
           </MatProvider>
         </Suspense>
         <OrbitControls makeDefault enablePan={false} minDistance={4} maxDistance={40} maxPolarAngle={1.5} />
       </Canvas>
+      </ModelBoundary>
       <div className="model-tools">
         <button className={`chip ${!dusk ? 'on' : ''}`} onClick={() => setDusk(false)}>Day</button>
         <button className={`chip ${dusk ? 'on' : ''}`} onClick={() => setDusk(true)}>Dusk aarti</button>
@@ -972,7 +1109,9 @@ function HeroInner() {
 /** Compact, transparent model for the map: the monument alone on a stone disc, turning slowly. */
 export function SiteMini({ spec, type, slug }) {
   const s = { ...(spec || DEFAULT_SPECS[type] || DEFAULT_SPECS.pagoda), slug };
+  const ready = useLandmarks();
   const L = LANDMARKS[slug];
+  if (!ready) return null;
   return (
     <Canvas dpr={[1, 1.6]} camera={{ position: [9, 7, 12], fov: 34 }} gl={{ antialias: true, alpha: true }}>
       <Suspense fallback={null}>
@@ -1578,4 +1717,31 @@ const LANDMARKS = {
   dharahara: { Main: DharaMain, Env: () => <PlazaEnv radius={14} list={['stone-paved-plaza', 'city-street']} /> },
   'kumbheshwar-temple': { Main: KumbhMain, Env: () => <PlazaEnv radius={14} list={['brick-courtyard', 'newar-houses']} /> },
 };
+
+/* The parts every hand-built landmark file may use. Files in ./landmarks/ each export a default function that takes
+   this kit and returns { 'site-slug': { Main, Env } }. They are loaded lazily and one at a time, so a broken file only
+   loses its own sites. */
+const KIT = {
+  useM, wallMat, roofMat, lighten, THREE,
+  Box, Cyl, Ball, Roof, Gajur, Lion, Elephant, Wrestler, Griffin, Goddess, GUARDS, Garuda, PillarStatue, BellPavilion, Nandi,
+  Lingam, Trident, Chaitya, Tree, SacredTree, Diyo, PrayerFlags, PrayerWheels, eyesTexture, Plinth, PagodaBody, StupaBody,
+  spireGeometry, Spire, ShikharaBody, PalaceBody, DomeTemple, Gumba, Pond, Gate, Fort, Cave, Ruins, AshokaPillar, House,
+  NewarHouse, LatticeWindow, TripleWindow, EaveStruts, Doorway, Arcade, Surroundings, Frame, Water, Tank, Chhatri, OnionDome,
+  Monkey, ringOf, GroundDisc, silverMat, whiteMat, brickMat, Terrace, Monument, curvedRoofGeometry, TIMBER, LATTICE,
+};
+const lazyFiles = import.meta.glob('./landmarks/*.jsx');
+let loading = null;
+function loadLandmarks() {
+  if (!loading) {
+    loading = Promise.all(Object.entries(lazyFiles).map(([name, load]) => load()
+      .then((mod) => { Object.assign(LANDMARKS, mod.default(KIT)); })
+      .catch((e) => console.error(`landmark file ${name} failed:`, e)))).then(() => true);
+  }
+  return loading;
+}
+function useLandmarks() {
+  const [ok, setOk] = useState(false);
+  useEffect(() => { let on = true; loadLandmarks().then(() => { if (on) setOk(true); }); return () => { on = false; }; }, []);
+  return ok;
+}
 export const hasLandmark = (slug) => !!LANDMARKS[slug];

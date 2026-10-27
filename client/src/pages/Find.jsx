@@ -106,7 +106,7 @@ export default function Find() {
               <span className="cap find-credit">{round.credit}</span>
             </div>
             <div style={{ padding: '0.9rem 1rem 1rem' }}>
-              <div className="clue">“{round.clue}”</div>
+              <div className="clue" lang={t.nepali && round.clue_np ? 'ne' : undefined}>“{t.nepali && round.clue_np ? round.clue_np : round.clue}”</div>
               {!result ? (
                 <>
                   {hint && <div className="tag sky" style={{ marginTop: '0.6rem' }}>Hint used: −100</div>}
@@ -122,7 +122,7 @@ export default function Find() {
                     <b className="stamp-font" style={{ fontSize: '1.4rem', color: result.points >= 600 ? 'var(--ok)' : 'var(--warn)' }}>{result.perfect ? 'पुग्यो! Perfect' : result.points >= 600 ? 'शाबास!' : 'Close enough?'}</b>
                     <span className="delta up num">+{result.points}</span>
                   </div>
-                  <p style={{ margin: '0.3rem 0' }}>It was <Link to={`/m/${result.monument.slug}`}><b>{result.monument.name}</b></Link> <span lang="ne" className="np muted">{result.monument.name_np}</span>. You were {fmtM(result.metres)} away.</p>
+                  <p style={{ margin: '0.3rem 0' }}>{t('It was', 'त्यो थियो')} <Link to={`/m/${result.monument.slug}`}><b>{result.monument.name}</b></Link> <span lang="ne" className="np muted">{result.monument.name_np}</span>. {t(`You were ${fmtM(result.metres)} away.`, `तपाईं ${t.n(fmtM(result.metres))} टाढा हुनुहुन्थ्यो।`)}</p>
                   <div className="cap">Distance {result.distPart} · speed {result.speedPart}{result.penalty ? ` · hint −${result.penalty}` : ''}</div>
                   <button className="btn" style={{ marginTop: '0.8rem' }} onClick={next}>{i + 1 < game.rounds.length ? 'Next round' : 'See results'} <ArrowRight size={16} /></button>
                 </motion.div>
@@ -139,7 +139,7 @@ export default function Find() {
             <div className="find-sum">
               {results.map((r, k) => (
                 <Link key={k} to={`/m/${r.monument.slug}`} className="find-sum-row">
-                  <img src={r.monument.image} alt="" /><span><b>{r.monument.name}</b><span className="cap">{fmtM(r.metres)} away</span></span><b className="num">{r.points}</b>
+                  <img src={r.monument.image} alt="" /><span><b>{r.monument.name}</b><span className="cap">{t(`${fmtM(r.metres)} away`, `${t.n(fmtM(r.metres))} टाढा`)}</span></span><b className="num">{r.points}</b>
                 </Link>
               ))}
             </div>

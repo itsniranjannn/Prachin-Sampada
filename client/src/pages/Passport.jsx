@@ -61,14 +61,18 @@ export default function Passport() {
             <h1 style={{ fontSize: 'var(--fs-h2)', color: 'var(--milk)', margin: 0 }}>{u.name}</h1>
             <div className="np" lang="ne" style={{ color: 'var(--lilac-300)' }}>{u.level.np} · {u.level.label}</div>
             <div className="pass-stats">
-              <span><b className="num">{d.stats.stamps}</b>/{d.stats.total} stamps</span>
+              <span><b className="num">{t.n(d.stats.stamps)}</b>/{t.n(d.stats.total)} {t('stamps', 'छाप')}</span>
               <span><b className="num">{u.rating}</b> quiz rating</span>
-              <span><b className="num">{d.stats.quizCorrect}</b>/{d.stats.quizAnswered} correct</span>
+              <span><b className="num">{t.n(d.stats.quizCorrect)}</b>/{t.n(d.stats.quizAnswered)} {t('correct', 'सही')}</span>
               <span><b className="num">{d.stats.bestGame}</b> best Find score</span>
             </div>
           </div>
           <div className="pass-tiers"><Tiers rating={u.rating} size={1.1} /></div>
         </motion.div>
+
+        {!u.emailVerified && (
+          <div className="verify-bar"><span><b>{t('Confirm your email.', 'आफ्नो इमेल प्रमाणित गर्नुहोस्।')}</b> {t('Enter the code we sent so you can reset your password later.', 'पछि पासवर्ड रिसेट गर्न सकिने गरी हामीले पठाएको कोड लेख्नुहोस्।')}</span><Link className="btn sm" to="/verify">{t('Enter the code', 'कोड लेख्नुहोस्')}</Link></div>
+        )}
 
         {d.stats.reviewsDue > 0 && (
           <Link to="/quiz" className="review-due"><Repeat size={18} /> <span><b>{d.stats.reviewsDue} question{d.stats.reviewsDue > 1 ? 's' : ''} ready for review.</b> Missed facts come back on a schedule so they stick.</span><Brain size={18} /></Link>

@@ -52,7 +52,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Prithvi Narayan Shah, who began the unification of Nepal, was born in the palace's Dhuni Pati in 1723."
+    "explanation": "Prithvi Narayan Shah, who began the unification of Nepal, was born in the palace's Dhuni Pati in 1723.",
+    "q_np": "सन् 1723 मा गोरखा दरबारमा जन्मिएका भावी राजा को थिए?",
+    "options_np": [
+     "राम शाह",
+     "पृथ्वीनारायण शाह",
+     "त्रिभुवन",
+     "जंगबहादुर राणा"
+    ],
+    "explanation_np": "नेपाल एकीकरण सुरु गर्ने पृथ्वीनारायण शाह सन् 1723 मा दरबारको धुनीपाटीमा जन्मिएका थिए।"
    },
    {
     "q": "Which yogi gives his name to the cave shrine near the palace?",
@@ -64,7 +72,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "The cave is believed to be where Gorakhnath meditated; a fair is held there on Baisakh Purnima."
+    "explanation": "The cave is believed to be where Gorakhnath meditated; a fair is held there on Baisakh Purnima.",
+    "q_np": "दरबार नजिकैको गुफा मन्दिरले कुन योगीको नाम बोकेको छ?",
+    "options_np": [
+     "मत्स्येन्द्रनाथ",
+     "गोरखनाथ",
+     "शंकराचार्य",
+     "पद्मसम्भव"
+    ],
+    "explanation_np": "यो गुफामा गोरखनाथले तपस्या गरेको विश्वास गरिन्छ; बैशाख पूर्णिमामा यहाँ मेला लाग्छ।"
    },
    {
     "q": "About how thick are the palace walls?",
@@ -76,7 +92,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "The walls of the fortified palace are about three feet thick."
+    "explanation": "The walls of the fortified palace are about three feet thick.",
+    "q_np": "दरबारका भित्ताहरू करिब कति बाक्लो छन्?",
+    "options_np": [
+     "छ इन्च",
+     "एक फिट",
+     "तीन फिट",
+     "दस फिट"
+    ],
+    "explanation_np": "किल्लाजस्तो दरबारका भित्ताहरू करिब तीन फिट बाक्लो छन्।"
    },
    {
     "q": "Which Himalayan peaks can be seen to the north from the palace?",
@@ -88,7 +112,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "The palace is a viewpoint for Manaslu, Himalchuli, Annapurna and Ganesh peaks."
+    "explanation": "The palace is a viewpoint for Manaslu, Himalchuli, Annapurna and Ganesh peaks.",
+    "q_np": "दरबारबाट उत्तरतर्फ कुन हिमालका चुचुरा देखिन्छन्?",
+    "options_np": [
+     "सगरमाथा र ल्होत्से",
+     "कञ्चनजङ्घा र जन्नु",
+     "मनास्लु, हिमालचुली, अन्नपूर्ण र गणेश",
+     "धौलागिरि र साइपाल"
+    ],
+    "explanation_np": "दरबार मनास्लु, हिमालचुली, अन्नपूर्ण र गणेश हिमाल हेर्ने स्थान हो।"
    },
    {
     "q": "Under what name is the site on Nepal's UNESCO Tentative List?",
@@ -100,7 +132,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "It was added in 1996 as 'The medieval palace complex of Gorkha' (reference 842)."
+    "explanation": "It was added in 1996 as 'The medieval palace complex of Gorkha' (reference 842).",
+    "q_np": "नेपालको युनेस्को अस्थायी सूचीमा यो स्थल कुन नामले छ?",
+    "options_np": [
+     "गोरखा किल्ला",
+     "गोरखाको मध्यकालीन दरबार परिसर",
+     "शाह दरबार गोरखा",
+     "गोरखकाली सम्पदा क्षेत्र"
+    ],
+    "explanation_np": "यसलाई सन् 1996 मा ‘गोरखाको मध्यकालीन दरबार परिसर’ (सन्दर्भ 842) नामले थपिएको थियो।"
    }
   ],
   "clues": [
@@ -120,7 +160,8 @@
     "name": "Baisakh Purnima fair",
     "name_np": "बैशाख पूर्णिमा मेला",
     "month": "Baisakh",
-    "note": "Annual fair held on the full-moon day of Baisakh at the Gorakhnath cave near the palace."
+    "note": "Annual fair held on the full-moon day of Baisakh at the Gorakhnath cave near the palace.",
+    "note_np": "दरबार नजिकैको गोरखनाथ गुफामा बैशाख महिनाको पूर्णिमाका दिन लाग्ने वार्षिक मेला।"
    }
   ],
   "model": {
@@ -203,6 +244,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Inner courtyard of the palace with visitors"
    }
+  ],
+  "short_np": "गोरखाका शाह राजाहरूको डाँडामाथिको किल्ला-दरबार र नेपाल एकीकरण गर्ने पृथ्वीनारायण शाहको जन्मस्थल।",
+  "story_np": "सास फेर्नुहोस्: तपाईं करिब एक हजार मिटर अग्लो चुचुरोमा पुग्नुभएको छ, र तपाईंको अगाडि रहेको किल्लाबन्द दरबार नै आधुनिक नेपालको सुरुवात भएको ठाउँ हो। गोरखाका राजा राम शाहले यो दरबार बनाए, र 1723 मा यहीँ, धुनी पाटी भनिने भागमा, पृथ्वीनारायण शाहको जन्म भयो। करिब तीन फिट बाक्लो यिनै पर्खालबाट उनी नेपाल एकीकरण गर्ने अभियानमा निस्किए। कुँदिएका झ्याल र भुइँ थाम्ने काठका धरनहरू हेर्नुहोस्; ती उपत्यकाका नेवार शिल्पीहरूले बनाएका हुन्। परिसरभित्र कालिका र गोरखकालीका मन्दिर छन्, र नजिकै योगी गोरखनाथले ध्यान गरेको भनिने गुफा छ, जहाँ हरेक वैशाख पूर्णिमामा मेला लाग्छ। दक्षिणतिर एकीकरणदेखि निरन्तर बलिरहेको अखण्ड ज्योति छ। अब उत्तरतिर फर्कनुहोस्। खुला दिनमा मनास्लु, हिमालचुली, अन्नपूर्ण र गणेश हिमाल क्षितिजमा लाइन लागेर देखिन्छन्। 2015 को भूकम्पले दरबारमा क्षति पुर्‍यायो, र पुरातत्त्व विभागले नोभेम्बर 2017 मा पुनर्निर्माण कार्य सुरु गर्‍यो।",
+  "legend_np": "दरबारमुनिको गुफा मत्स्येन्द्रनाथका शिष्य योगी गोरखनाथले आश्रय लिएर ध्यान गरेको स्थान मानिन्छ; गोरखा राज्य र गोरखाली जातिले उनैबाट नाम पाएका हुन्।",
+  "facts_np": [
+   "नेपाल एकीकरण अभियान सुरु गर्ने पृथ्वीनारायण शाहको जन्म 1723 मा यही दरबारमा भएको थियो।",
+   "दरबार करिब 1,000 मिटर उचाइको डाँडामा छ, गोरखा बजारबाट करिब एक घण्टाको पैदल दूरीमा।",
+   "यसका पर्खाल करिब तीन फिट बाक्लो छन् र भुइँहरू बाहिर निस्किएका काठका धरनमा अडिएका छन्।",
+   "युनेस्कोले 1996 देखि 'गोरखाको मध्यकालीन दरबार परिसर' लाई नेपालको अस्थायी सूचीमा राखेको छ।",
+   "2015 को भूकम्पपछिको पुनर्निर्माण पुरातत्त्व विभागको नेतृत्वमा 15 नोभेम्बर 2017 मा सुरु भएको थियो।"
+  ],
+  "quake_np": "सन् 2015 अप्रिलको भूकम्पले दरबारलाई आंशिक क्षति पुर्‍यायो। पुरातत्त्व विभागद्वारा पुनर्निर्माण 15 नोभेम्बर 2017 मा सुरु भयो र 2022 मा पनि जारी थियो।",
+  "clues_np": [
+   "धेरै साना राज्यलाई जोडेर एक राष्ट्र बनाउने राजा पहाडको डाँडामाथिका मेरा बाक्लो भित्ताभित्र जन्मिएका थिए।",
+   "मेरो लामो भ्याङ्ग चढ्दै जाऊ; माथि देवी मन्दिर, योगीको गुफा र कहिल्यै नबुझिने ज्वाला तिमीलाई पर्खिरहेका छन्।"
   ]
  },
  {
@@ -258,7 +314,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Mana means heart and kamana means wish; the goddess is believed to grant devotees' wishes."
+    "explanation": "Mana means heart and kamana means wish; the goddess is believed to grant devotees' wishes.",
+    "q_np": "मनकामना नामको अर्थ के हो?",
+    "options_np": [
+     "पहाडकी आमा",
+     "मनको कामना",
+     "सुनौलो छाना",
+     "नदी देवी"
+    ],
+    "explanation_np": "मन भनेको हृदय र कामना भनेको इच्छा; देवीले भक्तजनका इच्छा पूरा गर्छिन् भन्ने विश्वास छ।"
    },
    {
     "q": "Since 1998, how do most pilgrims reach the temple from Kurintar?",
@@ -270,7 +334,15 @@
     ],
     "answer_index": 2,
     "difficulty": 1,
-    "explanation": "The Manakamana cable car opened on 24 November 1998 and covers 2.8 km in about 10 minutes."
+    "explanation": "The Manakamana cable car opened on 24 November 1998 and covers 2.8 km in about 10 minutes.",
+    "q_np": "1998 देखि धेरैजसो तीर्थयात्री कुरिनटारबाट मन्दिर कसरी पुग्छन्?",
+    "options_np": [
+     "हेलिकप्टरबाट",
+     "र्याक रेलमार्गबाट",
+     "केबलकारबाट",
+     "डुङ्गाबाट"
+    ],
+    "explanation_np": "मनकामना केबलकार 24 नोभेम्बर 1998 मा सञ्चालनमा आयो र 2.8 कि.मि. दूरी करिब 10 मिनेटमा पार गर्छ।"
    },
    {
     "q": "By tradition, the temple priest must descend from which person?",
@@ -282,7 +354,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The priest must be a descendant of Lakhan Thapa Magar, who founded the shrine."
+    "explanation": "The priest must be a descendant of Lakhan Thapa Magar, who founded the shrine.",
+    "q_np": "परम्परा अनुसार मन्दिरका पुजारी कसका सन्तान हुनुपर्छ?",
+    "options_np": [
+     "राम शाह",
+     "लखन थापा मगर",
+     "पृथ्वीनारायण शाह",
+     "अर्मन रायमाझी"
+    ],
+    "explanation_np": "पुजारी यस मन्दिरका स्थापक लखन थापा मगरका सन्तान हुनुपर्छ।"
    },
    {
     "q": "Between which two rivers does Kafakdada hill rise?",
@@ -294,7 +374,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The temple sits on Kafakdada hill at the confluence of the Trishuli and Marsyangdi."
+    "explanation": "The temple sits on Kafakdada hill at the confluence of the Trishuli and Marsyangdi.",
+    "q_np": "काफकदाँडा कुन दुई नदीको बीचमा उठेको छ?",
+    "options_np": [
+     "सेती र मादी",
+     "त्रिशूली र मर्स्याङ्दी",
+     "कालीगण्डकी र म्याग्दी",
+     "बागमती र विष्णुमती"
+    ],
+    "explanation_np": "मन्दिर त्रिशूली र मर्स्याङ्दीको सङ्गमस्थलमा काफकदाँडामा अवस्थित छ।"
    },
    {
     "q": "About how much gold was used to plate the roof, door, finial and windows during the 2015-2018 restoration?",
@@ -306,7 +394,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "About 14 kg of gold, costing around NPR 90 million, was used."
+    "explanation": "About 14 kg of gold, costing around NPR 90 million, was used.",
+    "q_np": "2015-2018 को जीर्णोद्धारमा छाना, ढोका, गजुर र झ्यालमा करिब कति सुन चढाइएको थियो?",
+    "options_np": [
+     "2 केजी",
+     "14 केजी",
+     "50 केजी",
+     "140 केजी"
+    ],
+    "explanation_np": "करिब 14 केजी सुन प्रयोग गरियो, जसको लागत करिब नेपाली रुपैयाँ 9 करोड थियो।"
    }
   ],
   "clues": [
@@ -404,6 +500,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "The gilded two-tier pagoda after restoration"
    }
+  ],
+  "short_np": "त्रिशूली र मर्स्याङ्दी नदीमाथि इच्छा पूरा गर्ने देवीको डाँडामाथिको पगोडा, केबुलकारका लागि प्रसिद्ध।",
+  "story_np": "त्रिशूली र मर्स्याङ्दी नदीको सङ्गमभन्दा 1,300 मिटर माथि रहेको काफकडाँडामा स्वागत छ। यस मन्दिरको नामले नै यसको वचन बताउँछ: मन भनेको हृदय र कामना भनेको इच्छा हो, र तीर्थयात्रीहरू विश्वास गर्छन् कि देवी भगवतीले भक्तजनका इच्छा पूरा गर्छिन्। कथा सत्रौँ शताब्दी र गोरखा दरबारसम्म पुग्छ। भनिन्छ, रानीसँग दैवी शक्ति थियो, जुन उनका मगर पुजारी लखन थापालाई मात्र थाहा थियो। राजाको मृत्यु भएपछि रानी उनीसँगै चितामा सती गइन्, र फर्किने वचन दिइन्। महिनौँपछि एक किसानको हलोले एउटा ढुङ्गा चिर्‍यो जसबाट रगत र दूध बग्यो, र लखन थापाले त्यही ठाउँमा मन्दिर बनाए। आजसम्म पुजारी उनै वंशज हुनुपर्छ। दुई तले छानातिर हेर्नुहोस्: सन् 2015 को भूकम्पले मन्दिरलाई ढल्काएपछि पुनर्निर्माणकर्ताहरूले छाना, ढोका र झ्यालहरू करिब चौध किलोग्राम सुनले सजाए। सन् 1998 अघि तीर्थयात्रीहरू तीन घण्टा हिँड्थे; अब केबुलकारले तपाईंलाई करिब दश मिनेटमा माथि पुर्‍याउँछ।",
+  "legend_np": "गोरखाकी एक रानी, जससँग गोप्य दैवी शक्ति थियो, पतिको मृत्यु भएपछि सती गइन् र आफ्ना पुजारी लखन थापा मगरलाई पुनः देखा पर्ने वचन दिइन्। छ महिनापछि एक किसानले ढुङ्गा चिर्दा त्यसबाट रगत र दूध बग्यो; लखन थापाको अनुष्ठानले त्यो बग्न रोक्यो र उनले त्यहीँ मन्दिर बनाए।",
+  "facts_np": [
+   "मन्दिर गोरखाको शहीद लखन गाउँपालिकामा काफकडाँडामा करिब 1,300 मिटरमा अवस्थित छ।",
+   "परम्परा अनुसार पुजारी लखन थापाका मगर वंशज नै हुनुपर्छ।",
+   "पृथ्वीनारायण शाहले सन् 1764-65 मा मनकामनाको पूजा गर्न र हरेक दिन परेवालाई दाना खुवाउन गुठी स्थापना गरे।",
+   "सन् 1998 को नोभेम्बर 24 मा सञ्चालनमा आएको मनकामना केबुलकार कुरिन्टारबाट 2.8 कि.मि. करिब 10 मिनेटमा चल्छ।",
+   "सन् 2015 को भूकम्पपछि मन्दिर पुनर्निर्माण गरी सुनले मोहोरिएको थियो, काम सन् 2018 को सेप्टेम्बरमा सकियो।"
+  ],
+  "quake_np": "सन् 2015 को अप्रिलको भूकम्पले छानामा दरार पारेको थियो र मन्दिरलाई उत्तरपूर्वतर्फ 9-12 इन्च ढल्काएको थियो। पुरातत्त्व विभागअन्तर्गतको पुनर्निर्माण सन् 2015 को जुनमा सुरु भई सन् 2018 को सेप्टेम्बरमा सकियो, जसमा करिब रु. 130-140 मिलियन खर्च भयो।",
+  "clues_np": [
+   "मेरो नामले मन र कामनालाई जोड्छ, र एउटा केबलकारले मानिसलाई मेरो सुनौलो छानासम्म पुर्‍याउँछ।",
+   "एक किसानको खेतमा दूध बगाएको ढुङ्गाले एक मगर पुजारीलाई दुई नदी मिल्ने ठाउँमाथि मेरो मन्दिर बनाउन डोर्‍यायो।"
   ]
  },
  {
@@ -461,7 +572,15 @@
     ],
     "answer_index": 2,
     "difficulty": 1,
-    "explanation": "Muktinath stands at about 3,800 m, making it one of the world's highest temples."
+    "explanation": "Muktinath stands at about 3,800 m, making it one of the world's highest temples.",
+    "q_np": "मुक्तिनाथ मन्दिर समुद्र सतहभन्दा करिब कति उचाइमा छ?",
+    "options_np": [
+     "1,300 m",
+     "2,200 m",
+     "3,800 m",
+     "5,400 m"
+    ],
+    "explanation_np": "मुक्तिनाथ करिब 3,800 m को उचाइमा छ, जसले यसलाई विश्वका सबैभन्दा अग्ला मन्दिरमध्ये एक बनाउँछ।"
    },
    {
     "q": "How many water spouts surround the main shrine?",
@@ -473,7 +592,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "108 bull-headed spouts, the Mukti Dhara, enclose the courtyard."
+    "explanation": "108 bull-headed spouts, the Mukti Dhara, enclose the courtyard.",
+    "q_np": "मुख्य मन्दिरको वरिपरि कतिवटा धारा छन्?",
+    "options_np": [
+     "12",
+     "51",
+     "108",
+     "1,008"
+    ],
+    "explanation_np": "108 वटा गोरुको मुखाकृतिका धारा, मुक्तिधाराले चोक घेरेका छन्।"
    },
    {
     "q": "What do Tibetan Buddhists call Muktinath?",
@@ -485,7 +612,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "Chumig Gyatsa means 'Hundred Waters' or 'Hundred Springs'."
+    "explanation": "Chumig Gyatsa means 'Hundred Waters' or 'Hundred Springs'.",
+    "q_np": "तिब्बती बौद्धहरू मुक्तिनाथलाई के भन्छन्?",
+    "options_np": [
+     "चुमिग ग्यात्सा",
+     "थुब्छेन",
+     "तेङ्बोचे",
+     "लो गेकर"
+    ],
+    "explanation_np": "चुमिग ग्यात्सा भनेको 'सय धारा' वा 'सय मूल' हो।"
    },
    {
     "q": "Which queen is credited with building the present shrine around 1815?",
@@ -497,7 +632,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "The 1814-15 construction is credited to Queen Subarna Prabha Devi, who made a pilgrimage around 1807."
+    "explanation": "The 1814-15 construction is credited to Queen Subarna Prabha Devi, who made a pilgrimage around 1807.",
+    "q_np": "लगभग 1815 मा वर्तमान मन्दिर बनाउने श्रेय कुन रानीलाई दिइन्छ?",
+    "options_np": [
+     "राजेन्द्र लक्ष्मी",
+     "सुवर्ण प्रभा देवी",
+     "ललित त्रिपुरा सुन्दरी",
+     "चम्पावती"
+    ],
+    "explanation_np": "1814-15 को निर्माणको श्रेय रानी सुवर्ण प्रभा देवीलाई दिइन्छ, जसले करिब 1807 मा तीर्थयात्रा गरेकी थिइन्।"
    },
    {
     "q": "Which mountain pass rises just above the Muktinath valley?",
@@ -509,7 +652,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "Muktinath lies at the foot of the Thorong La pass."
+    "explanation": "Muktinath lies at the foot of the Thorong La pass.",
+    "q_np": "मुक्तिनाथ उपत्यकाको ठीक माथि कुन हिमाली भञ्ज्याङ उठेको छ?",
+    "options_np": [
+     "थोरङ ला",
+     "लार्क्या ला",
+     "कोरा ला",
+     "नाङ्पा ला"
+    ],
+    "explanation_np": "मुक्तिनाथ थोरङ ला भञ्ज्याङको फेदमा पर्छ।"
    }
   ],
   "clues": [
@@ -607,6 +758,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "The three-tiered pagoda in its courtyard"
    }
+  ],
+  "short_np": "विश्वका सबैभन्दा अग्ला मन्दिरमध्ये एक, ३,८०० मिटरमा, हिन्दूहरूका लागि विष्णुको वासस्थान र बौद्धहरूका लागि छुमिग ज्ञाछा।",
+  "story_np": "तपाईं थोराङ ला भञ्ज्याङको फेदमा ३,८०० मिटरमा पुग्नुभएको छ, र हावा पातलो र चिसो छ। यो मुक्तिनाथ हो, मुक्तिका स्वामी, जहाँ शताब्दीयौंदेखि हिन्दू र बौद्ध दुवै हिँडेर आउँछन्। हिन्दूहरू विष्णुकहाँ आउँछन्, जो यहीँ प्रकट भएका भनिन्छ; यो श्री वैष्णव परम्पराका १०८ दिव्य देशमध्ये एक र नेपालका चार धाममध्ये एक हो। बौद्धहरू यस ठाउँलाई छुमिग ज्ञाछा, अर्थात् सय धारा, भन्छन्, जसलाई अवलोकितेश्वर र पद्मसम्भवसँग जोडिन्छ। तपाईंको अगाडि रहेको तीन तले छाना र सुनौलो गजुर भएको सानो पगोडा सन् १८१५ तिर बनेको हो र रानी सुवर्ण प्रभा देवीलाई श्रेय दिइन्छ। अब यसको वरिपरि घुम्नुहोस्। एक सय आठ वटा गोरुको टाउको आकारका धाराबाट चिसो पानी बग्छ, र साहसी तीर्थयात्रीहरू हरेक धारामुनि दगुरेर नुहाउँछन्। नजिकै ज्वाला माईको मन्दिरमा धर्तीबाट आएको प्राकृतिक ग्यासले सानो ज्योति बलिरहन्छ, यसरी एउटै पवित्र स्थानमा आगो र पानी भेट्छन्।",
+  "legend_np": "पवित्र वनका पपलर रुखहरू तिब्बततर्फ जाँदै गर्दा यहाँ भएर गएका चौरासी सिद्धहरूका लट्ठीबाट उम्रेका भनिन्छ। बौद्धहरूको विश्वासअनुसार पद्मसम्भवले तिब्बत जानुअघि म्हार्मे ल्हाखाङ गुम्बामा आफ्नो एउटा मूर्ति छाडेका थिए।",
+  "facts_np": [
+   "करिब ३,८०० मिटरमा रहेको मुक्तिनाथ विश्वका सबैभन्दा अग्ला मन्दिरहरूमध्ये एक हो।",
+   "यसको आँगन गोरुको टाउको आकारका १०८ पानीका धाराले घेरिएको छ, जसलाई मुक्ति धारा भनिन्छ।",
+   "यो श्री वैष्णव सम्प्रदायका १०८ दिव्य देशमध्ये र ५१ शक्तिपीठमध्ये गनिन्छ।",
+   "तिब्बती बौद्धहरू यसलाई छुमिग ज्ञाछा, 'सय पानी', भन्छन्।",
+   "नजिकैको ज्वाला माई मन्दिरमा जमिनबाट आउने प्राकृतिक ग्यासले बलेको ज्योति रहेको छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "सुक्खा हिमाली उपत्यकामा अवस्थित यहाँ तीर्थयात्रीहरू एक सय आठ चिसा धाराहरूमा दौडिँदै नुहाउँछन्।",
+   "हिन्दूहरू मलाई मुक्तिका स्वामी भन्छन् र बौद्धहरू सय मूल; नजिकै पानीको छेउमा ज्वाला बलिरहेको छ।"
   ]
  },
  {
@@ -663,7 +829,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The temple is on an island in Phewa Lake, so the only way to visit is by boat."
+    "explanation": "The temple is on an island in Phewa Lake, so the only way to visit is by boat.",
+    "q_np": "आगन्तुकहरू तालबाराही मन्दिरमा कसरी पुग्छन्?",
+    "options_np": [
+     "केबुलकारबाट",
+     "डुङ्गाबाट",
+     "लामो पुलबाट",
+     "बाँधको किनारै हिँडेर"
+    ],
+    "explanation_np": "मन्दिर फेवाताल भित्रको टापुमा भएकाले डुङ्गाबाट मात्र पुग्न सकिन्छ।"
    },
    {
     "q": "In which lake does the temple stand?",
@@ -675,7 +849,15 @@
     ],
     "answer_index": 2,
     "difficulty": 1,
-    "explanation": "The temple is on a small island in Phewa (Fewa) Lake, Pokhara."
+    "explanation": "The temple is on a small island in Phewa (Fewa) Lake, Pokhara.",
+    "q_np": "मन्दिर कुन तालमा अवस्थित छ?",
+    "options_np": [
+     "बेगनास",
+     "रारा",
+     "फेवा",
+     "रुपा"
+    ],
+    "explanation_np": "मन्दिर पोखराको फेवा तालको सानो टापुमा छ।"
    },
    {
     "q": "Which king of Kaski is said to have first built a thatched shrine on the island?",
@@ -687,7 +869,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "Local folklore credits King Kulmandan Shah of Kaski with the first thatched hut."
+    "explanation": "Local folklore credits King Kulmandan Shah of Kaski with the first thatched hut.",
+    "q_np": "कास्कीका कुन राजाले टापुमा पहिलो पटक छाप्रोको मन्दिर बनाएको भनिन्छ?",
+    "options_np": [
+     "कुलमन्दन शाह",
+     "सिद्धि नारायण शाह",
+     "राम शाह",
+     "खड्गमान मल्ल"
+    ],
+    "explanation_np": "स्थानीय किंवदन्तीले कास्कीका राजा कुलमन्दन शाहलाई पहिलो छाप्रोको श्रेय दिन्छ।"
    },
    {
     "q": "Which king rebuilt the temple in its present form in 2017 BS?",
@@ -699,7 +889,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "King Mahendra rebuilt the temple in 2017 BS."
+    "explanation": "King Mahendra rebuilt the temple in 2017 BS.",
+    "q_np": "कुन राजाले 2017 वि.सं. मा मन्दिरलाई हालको स्वरूपमा पुनर्निर्माण गरे?",
+    "options_np": [
+     "त्रिभुवन",
+     "महेन्द्र",
+     "वीरेन्द्र",
+     "पृथ्वीनारायण शाह"
+    ],
+    "explanation_np": "राजा महेन्द्रले 2017 वि.सं. मा मन्दिर पुनर्निर्माण गरे।"
    },
    {
     "q": "In which two Nepali months do devotees especially visit?",
@@ -711,7 +909,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Wikipedia notes devotees visit especially in Baisakh and Kartik."
+    "explanation": "Wikipedia notes devotees visit especially in Baisakh and Kartik.",
+    "q_np": "कुन दुई नेपाली महिनामा भक्तजन विशेष गरी दर्शन गर्न जान्छन्?",
+    "options_np": [
+     "माघ र फागुन",
+     "वैशाख र कात्तिक",
+     "श्रावण र भाद्र",
+     "पौष र चैत"
+    ],
+    "explanation_np": "विकिपिडियाका अनुसार भक्तजन विशेष गरी वैशाख र कात्तिकमा दर्शन गर्न आउँछन्।"
    }
   ],
   "clues": [
@@ -731,7 +937,8 @@
     "name": "Dashain (Ghatasthapana)",
     "name_np": "दशैँ (घटस्थापना)",
     "month": "Ashwin",
-    "note": "Regular puja was set to resume on Ghatasthapana when the goddess's power returned to the old stone after rebuilding."
+    "note": "Regular puja was set to resume on Ghatasthapana when the goddess's power returned to the old stone after rebuilding.",
+    "note_np": "पुनर्निर्माणपछि पुरानो ढुङ्गामा देवीको शक्ति फर्केपछि घटस्थापनाका दिनदेखि नियमित पूजा पुनः सुरु गर्ने भनिएको थियो।"
    }
   ],
   "model": {
@@ -814,6 +1021,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "caption": "The island temple with the Himalayan range behind"
    }
+  ],
+  "short_np": "फेवा तालमा रहेको देवी वाराहीको सानो टापु पगोडा, पोखराको सबैभन्दा महत्त्वपूर्ण धार्मिक स्मारक, डुङ्गाबाट मात्र पुगिन्छ।",
+  "story_np": "लेकसाइडको किनारा टाढा सर्दै जाँदा केही क्षण डुङ्गामा शान्त बस्नुहोस्। अगाडि, फेवा तालको बीचमा रहेको सानो रूखले ढाकेको टापुमा तालबाराहीको पगोडा उभिएको छ, पोखराको सबैभन्दा महत्त्वपूर्ण धार्मिक स्मारक। ताल भनेको सरोवर, र वाराही मातृदेवी हुन् जसलाई यहाँ नारीशक्तिको प्रतीकका रूपमा पूजा गरिन्छ। स्थानीय विश्वासअनुसार यहाँ कुनै भवन बन्नुभन्दा धेरै अघिदेखि यस टिलामा रहेको ढुङ्गालाई देवीका रूपमा पूजा गरिन्थ्यो, र कास्कीका राजा कुलमण्डन शाहले पहिलो पटक त्यसलाई सामान्य छाप्रोमुनि ओत दिएका थिए। राजा महेन्द्रले वि.सं. २०१७ मा मन्दिर पुनर्निर्माण गरे। सन् २०१५ को भूकम्पले यसलाई करिब तीन इन्च दक्षिणतिर ढल्काएपछि, भक्तपुर र ललितपुरका शिल्पीहरूले यसको पुरानै रूप कायम राखेर फेरि पुनर्निर्माण गरे। घाटमा ओर्लनुहोस्, घण्टको आवाज र फड्फडाउने परेवा सुन्नुहोस्, र पछाडि फर्केर हेर्नुहोस्: स्वच्छ बिहान तपाईंको पछाडि पानीमाथि अन्नपूर्ण हिमशृङ्खला तैरिरहेको देखिन्छ।",
+  "legend_np": "स्थानीय लोककथाअनुसार, कास्कीका राजा कुलमण्डन शाहले तालको टिलामा देवीका रूपमा पूजा गरिएको ढुङ्गामाथि छाप्रो बनाएर मन्दिरको स्थापना गरेका थिए।",
+  "facts_np": [
+   "मन्दिर फेवा तालको सानो टापुमा छ र वाराही घाटबाट करिब पाँच मिनेटमा डुङ्गाबाट मात्र पुगिन्छ।",
+   "भक्तजनहरू विशेष गरी नेपाली महिना वैशाख र कार्तिकमा दर्शन गर्न आउँछन्।",
+   "सन् २०१५ को भूकम्पले मन्दिरलाई करिब तीन इन्च दक्षिणतिर ढल्कायो।",
+   "पुनर्निर्माण वि.सं. २०८० (सन् २०२३) मा पुरातत्त्व विभागको नेतृत्वमा सुरु भयो, करिब १.५ करोड रुपैयाँ लागतमा, अधिकांश भक्तजनको दानबाट।",
+   "पुनर्निर्माणका बेला नजिकैको हवन कुण्डमा रहेको चाँदीको मूर्तिमा पूजा जारी रह्यो।"
+  ],
+  "quake_np": "सन् २०१५ को भूकम्पले मन्दिरलाई करिब तीन इन्च दक्षिणतिर ढल्कायो र केही भाग पानीमा डुबायो। पुनर्निर्माण सन् २०२३ मा सुरु भई २०२६ मा सम्पन्न भएको बताइएको छ, घटस्थापनामा पुनः खुला गर्ने तय गरिएको छ।",
+  "clues_np": [
+   "अन्नपूर्णको काखको सानो हरियो टापुमा रहेको मेरो ढोकासम्म पुग्न जुत्ता होइन, डुङ्गाको चप्पु चाहिन्छ।",
+   "कास्कीका एक राजाले यहाँ पवित्र ढुङ्गालाई पराल ओढाएर जोगाएका थिए; आज त्यही ठाउँमा वराहमुखी माता देवीको प्यागोडा उभिएको छ।"
   ]
  },
  {
@@ -869,7 +1091,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Bindhyabasini is regarded as a manifestation of Durga (Yogamaya)."
+    "explanation": "Bindhyabasini is regarded as a manifestation of Durga (Yogamaya).",
+    "q_np": "बिन्ध्यबासिनी कुन देवीको रूप हुन्?",
+    "options_np": [
+     "लक्ष्मी",
+     "दुर्गा",
+     "सरस्वती",
+     "गङ्गा"
+    ],
+    "explanation_np": "बिन्ध्यबासिनीलाई दुर्गा (योगमाया) को रूप मानिन्छ।"
    },
    {
     "q": "In what architectural style is the present temple built?",
@@ -881,7 +1111,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "The current temple is a white shikhara-style building."
+    "explanation": "The current temple is a white shikhara-style building.",
+    "q_np": "अहिलेको मन्दिर कुन वास्तुकलाको शैलीमा बनेको छ?",
+    "options_np": [
+     "पगोडा",
+     "स्तूप",
+     "शिखर",
+     "गुम्बा"
+    ],
+    "explanation_np": "अहिलेको मन्दिर सेतो शिखर शैलीको भवन हो।"
    },
    {
     "q": "From which Indian place is the goddess's statue said to have been brought?",
@@ -893,7 +1131,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Envoys brought the statue from the Bindhyabasini temple at Vindhyachal, Uttar Pradesh."
+    "explanation": "Envoys brought the statue from the Bindhyabasini temple at Vindhyachal, Uttar Pradesh.",
+    "q_np": "देवीको मूर्ति भारतको कुन ठाउँबाट ल्याइएको भनिन्छ?",
+    "options_np": [
+     "वाराणसी",
+     "विन्ध्याचल",
+     "हरिद्वार",
+     "पुरी"
+    ],
+    "explanation_np": "दूतहरूले उत्तर प्रदेशको विन्ध्याचलस्थित बिन्ध्यबासिनी मन्दिरबाट मूर्ति ल्याएका थिए।"
    },
    {
     "q": "Which disaster in 1949 is said to have started at the temple?",
@@ -905,7 +1151,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "Most of Pokhara was destroyed in the 1949 fire, allegedly begun during an offering at the temple."
+    "explanation": "Most of Pokhara was destroyed in the 1949 fire, allegedly begun during an offering at the temple.",
+    "q_np": "सन् 1949 को कुन विपत्ति मन्दिरबाट सुरु भएको भनिन्छ?",
+    "options_np": [
+     "बाढी",
+     "पहिरो",
+     "पोखराको ठूलो आगलागी",
+     "भूकम्प"
+    ],
+    "explanation_np": "सन् 1949 को आगलागीले पोखराको धेरै भाग नष्ट पार्‍यो, जुन मन्दिरमा चढाउने क्रममा सुरु भएको भनिन्छ।"
    },
    {
     "q": "Which king appointed a new priest of the temple in June 1815?",
@@ -917,7 +1171,15 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "Girvan Yuddha Bikram Shah appointed Kahindra Padhya Poudel as priest in 1815."
+    "explanation": "Girvan Yuddha Bikram Shah appointed Kahindra Padhya Poudel as priest in 1815.",
+    "q_np": "सन् 1815 को जुनमा कुन राजाले मन्दिरको नयाँ पुजारी नियुक्त गरे?",
+    "options_np": [
+     "पृथ्वीनारायण शाह",
+     "रणबहादुर शाह",
+     "गीर्वाणयुद्ध विक्रम शाह",
+     "राजेन्द्र विक्रम शाह"
+    ],
+    "explanation_np": "गीर्वाणयुद्ध विक्रम शाहले सन् 1815 मा कहीन्द्र पाध्या पौडेललाई पुजारी नियुक्त गरे।"
    }
   ],
   "clues": [
@@ -1012,6 +1274,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Devotees worshipping in the complex"
    }
+  ],
+  "short_np": "पोखराका सबैभन्दा पुराना मन्दिरमध्ये एक: पुरानो पोखराको मिरुवाको डाँडामा बिन्ध्यबासिनी देवीको सेतो शिखर।",
+  "story_np": "पुरानो पोखराको यो सानो डाँडामा ढुङ्गाका सिँढी चढ्दै जानुभयो भने तपाईं सहरकै सबैभन्दा पुराना मन्दिरमध्ये एकमा पुग्नुहुन्छ। तपाईंको अगाडि रहेको सेतो शिखर दुर्गाको रूप बिन्ध्यबासिनीको हो। उनको कथा मथुराबाट सुरु हुन्छ, जहाँ उनी अत्याचारी कंसबाट बचेर आकाशमा उडेकी बालिकाका रूपमा जन्मिएकी थिइन्, र पछि भारतको विन्ध्य पर्वतमा बसोबास गरिन्। किंवदन्ती अनुसार कास्कीका राजा सिद्धि नारायण शाहले आफ्नो राज्यमा उनको उपस्थिति ल्याउने सपना देखे। उनका दूतहरूले विन्ध्याचलबाट मूर्ति ल्याए, तर यही डाँडामा त्यो सार्नै नसकिने भयो, र यहीँ मन्दिर स्थापना गरियो। ढोकामा रहेका दुई सुनौला सिंह र गणेश मन्दिरछेउको सिन्दुर रङ्गको हनुमान हेर्नुहोस्। वरिपरि सरस्वती, शिव र विष्णुका मन्दिर तथा एउटा संस्कृत विद्यालय छन्। दुःखको कुरा, 1949 को पोखराको ठूलो आगलागी यहीँ चढाउने क्रममा सुरु भएको भनिन्छ।",
+  "legend_np": "कास्कीका राजा सिद्धि नारायण शाह (वा अर्को वृत्तान्त अनुसार पर्वतका राजा खड्गमान मल्ल) ले भारतको विन्ध्याचलबाट देवीलाई ल्याउनुपर्ने सपना देखे। उनका दूतहरूले फर्काएर ल्याएको मूर्ति यही डाँडामा फेरि उठाउन सकिएन, जसलाई देवीले रोजेको निवास मानियो।",
+  "facts_np": [
+   "मन्दिर पोखराको वडा नं. 2, मिरुवामा छ र दुर्गाको स्वरूप बिन्ध्यबासिनीलाई समर्पित छ।",
+   "मन्दिर करिब 1760 को दशकमा स्थापना भएको थियो; 1815 मा राजा गीर्वाणयुद्ध विक्रम शाहले यसका पुजारी नियुक्त गरे।",
+   "1949 को आगलागीमा पोखराको धेरैजसो भाग नष्ट भयो, जुन मन्दिरमा चढाउने क्रममा सुरु भएको भनिन्छ।",
+   "अपाङ्ग तथा वृद्ध तीर्थयात्रीका लागि 12 जनाको लिफ्ट 7 मार्च 2019 मा नेपालका राष्ट्रपतिले उद्घाटन गरेका थिए।",
+   "परिसर बिन्ध्यबासिनी धार्मिक क्षेत्र विकास समितिद्वारा सञ्चालित छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "टाढा पहाडबाट बोकेर ल्याइएको एउटा मूर्तिले पुरानो पोखराको माथिको यो उचाइमा एक पाइला पनि अगाडि बढ्न मानेन।",
+   "दुई सुनौला सिंहले मेरो सेतो शिखरको रक्षा गर्छन्, र सन् 1949 मा सहरलाई ढाकेको आगो मेरै वेदीबाट सुरु भएको भनिन्छ।"
   ]
  },
  {
@@ -1067,7 +1344,15 @@
     ],
     "answer_index": 2,
     "difficulty": 1,
-    "explanation": "The temple is dedicated to Goddess Kali in her form as Bhadrakali, a goddess of power."
+    "explanation": "The temple is dedicated to Goddess Kali in her form as Bhadrakali, a goddess of power.",
+    "q_np": "भद्रकाली कुन देवीको रूप हो?",
+    "options_np": [
+     "लक्ष्मी",
+     "सरस्वती",
+     "काली",
+     "अन्नपूर्णाका रूपमा पार्वती"
+    ],
+    "explanation_np": "यो मन्दिर शक्तिकी देवी भद्रकालीका रूपमा रहेकी कालीलाई समर्पित छ।"
    },
    {
     "q": "How many steps lead up the eastern side of the hill?",
@@ -1079,7 +1364,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "The eastern way has 292 steps; the southern route has 265."
+    "explanation": "The eastern way has 292 steps; the southern route has 265.",
+    "q_np": "डाँडाको पूर्वी भागमा कति ओटा सिँढी छन्?",
+    "options_np": [
+     "108",
+     "265",
+     "292",
+     "365"
+    ],
+    "explanation_np": "पूर्वी बाटोमा 292 सिँढी छन्; दक्षिणी बाटोमा 265।"
    },
    {
     "q": "Which festival draws the biggest crowds here?",
@@ -1091,7 +1384,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Dashain is the temple's most important festival."
+    "explanation": "Dashain is the temple's most important festival.",
+    "q_np": "यहाँ कुन चाडमा सबैभन्दा बढी भीड हुन्छ?",
+    "options_np": [
+     "होली",
+     "दशैं",
+     "तिहार",
+     "बुद्ध जयन्ती"
+    ],
+    "explanation_np": "दशैं यस मन्दिरको सबैभन्दा महत्त्वपूर्ण चाड हो।"
    },
    {
     "q": "How was the goddess's statue found, according to the temple's story?",
@@ -1103,7 +1404,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "The goddess told the priest to dig into the hill, where her statue was found."
+    "explanation": "The goddess told the priest to dig into the hill, where her statue was found.",
+    "q_np": "मन्दिरको कथा अनुसार देवीको मूर्ति कसरी भेटिएको थियो?",
+    "options_np": [
+     "फेवाताल बाट बगेर आएको",
+     "भारतबाट ल्याइएको",
+     "देवीले पुजारीलाई भनेपछि डाँडा खनेर निकालिएको",
+     "राजाले कुँदेको"
+    ],
+    "explanation_np": "देवीले पुजारीलाई डाँडा खन्न भनिन्, जहाँ उनको मूर्ति भेटियो।"
    },
    {
     "q": "What was the hill called before the temple was founded?",
@@ -1115,7 +1424,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "Wikipedia records that the hill was previously known as 'Mudule Thumko'."
+    "explanation": "Wikipedia records that the hill was previously known as 'Mudule Thumko'.",
+    "q_np": "मन्दिर स्थापना हुनुअघि यो डाँडा के भनिन्थ्यो?",
+    "options_np": [
+     "सराङकोट",
+     "मुदुले थुम्को",
+     "कहुँदाँडा",
+     "मटेपानी"
+    ],
+    "explanation_np": "विकिपिडियाका अनुसार यो डाँडा पहिले ‘मुदुले थुम्को’ भनेर चिनिन्थ्यो।"
    }
   ],
   "clues": [
@@ -1133,9 +1450,10 @@
   "festivals": [
    {
     "name": "Dashain",
-    "name_np": "दशैँ",
+    "name_np": "दशैं",
     "month": "Ashwin",
-    "note": "The temple's most important festival, when thousands of devotees come to worship the goddess."
+    "note": "The temple's most important festival, when thousands of devotees come to worship the goddess.",
+    "note_np": "मन्दिरको सबैभन्दा महत्त्वपूर्ण चाड, जब हजारौँ भक्तजन देवीको पूजा गर्न आउँछन्।"
    }
   ],
   "model": {
@@ -1219,6 +1537,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Stone lion guard in the temple grounds"
    }
+  ],
+  "short_np": "पोखरा पूर्वको कुन्दहारमा रहेको देवी भद्रकालीको डाँडामाथिको पगोडा, रूखहरूबीच करिब 300 ढुङ्गाका भर्‍याङबाट पुगिने।",
+  "story_np": "उक्लिँदै गर्दा भर्‍याङ गन्नुहोस्: पूर्वबाट 292 वटा छन्, दक्षिणबाट 265 वटा, र दुवैले तपाईंलाई हरिया जङ्गलबीचबाट पोखराको पूर्वी भागमा पर्ने कुन्दहारको सानो डाँडाको टुप्पोसम्म पुर्‍याउँछन्। यहाँ, करिब 2,930 फिटको उचाइमा, शक्ति र बलकी देवी, काली र दुर्गाको एक रूप, भद्रकालीको मन्दिर छ। सन् 1817 मा मन्दिर स्थापना हुनुअघि मानिसहरू यो डाँडालाई मुदुले थुम्को भन्थे। भक्तजनले सुनाउने कथा सरल तर प्रभावशाली छ: देवीले एक पुजारीसँग बोलेर डाँडा खन्न भनिन्, र त्यहाँ उनले देवीको मूर्ति भेटे। त्यसयता यहाँ उनको भद्रकालीका रूपमा पूजा हुन्छ। मन्दिर परिसर 135 रोपनीमा फैलिएको छ, जहाँ एउटा सानो गणेश मन्दिर र ढुङ्गाको सिंहले रखवारी गरिरहेको छ। दशैँमा आउनुहोस्, हजारौँ भक्तजनले यी शान्त बाटाहरू भरिदिन्छन्।",
+  "legend_np": "देवी भद्रकालीले एक पुजारीलाई डाँडा खन्न भनिन्, जहाँ उनले देवीको मूर्ति भेटे; त्यसयता यहाँ भद्रकालीका रूपमा पूजा गरिँदै आएको छ।",
+  "facts_np": [
+   "मन्दिर पोखरा पूर्वको कुन्दहारमा रहेको सानो डाँडाको टुप्पोमा करिब 2,930 फिट (करिब 890 मिटर) को उचाइमा छ।",
+   "पूर्वी बाटोमा 292 वटा र दक्षिणी बाटोमा 265 वटा भर्‍याङ छन्।",
+   "मन्दिर क्षेत्र करिब 135 रोपनीमा फैलिएको छ।",
+   "मन्दिर स्थापना हुनुअघि यो डाँडा ‘मुदुले थुम्को’ का नामले चिनिन्थ्यो।",
+   "दशैँ यसको सबैभन्दा महत्त्वपूर्ण पर्व हो, जसले हजारौँ भक्तजनलाई तान्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "एक पुजारीले पोखराको पूर्वमा रहेको रुखैरुखले ढाकेको थुम्को खने र भित्र एक उग्र देवी पर्खिरहेकी भेटे।",
+   "पूर्वबाट 292 वा दक्षिणबाट 265 सिँढी रोज्नुहोस् र मेरो डाँडामाथिको सानो मन्दिरमा पुग्नुहोस्।"
   ]
  },
  {
@@ -1274,7 +1607,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "Bindhyabasini is a form of Durga, regarded as a protector of Bandipur."
+    "explanation": "Bindhyabasini is a form of Durga, regarded as a protector of Bandipur.",
+    "q_np": "बिन्ध्यबासिनीलाई कुन देवीको रूपमा पूजा गरिन्छ?",
+    "options_np": [
+     "दुर्गा",
+     "सरस्वती",
+     "सीता",
+     "तारा"
+    ],
+    "explanation_np": "बिन्ध्यबासिनी दुर्गाको एक रूप हुन्, जसलाई बन्दिपुरकी रक्षक मानिन्छ।"
    },
    {
     "q": "From which Kathmandu Valley city did the Newar traders who built up Bandipur come?",
@@ -1286,7 +1627,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "Newar traders from Bhaktapur settled Bandipur after 1768."
+    "explanation": "Newar traders from Bhaktapur settled Bandipur after 1768.",
+    "q_np": "बन्दिपुरलाई समृद्ध बनाउने नेवार व्यापारीहरू काठमाडौं उपत्यकाको कुन सहरबाट आएका थिए?",
+    "options_np": [
+     "कीर्तिपुर",
+     "पाटन",
+     "भक्तपुर",
+     "ठिमी"
+    ],
+    "explanation_np": "भक्तपुरका नेवार व्यापारीहरू 1768 पछि बन्दिपुरमा बसोबास गर्न आए।"
    },
    {
     "q": "Which trade route made Bandipur prosperous?",
@@ -1298,7 +1647,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Its malaria-free location made it an important stop on the India-Tibet trade route."
+    "explanation": "Its malaria-free location made it an important stop on the India-Tibet trade route.",
+    "q_np": "कुन व्यापारिक मार्गले बन्दिपुरलाई समृद्ध बनायो?",
+    "options_np": [
+     "रेशम मार्ग",
+     "भारत-तिब्बत व्यापार मार्ग",
+     "बङ्गालतर्फको नुन मार्ग",
+     "काराकोरम मार्ग"
+    ],
+    "explanation_np": "औलोमुक्त अवस्थितिले यसलाई भारत-तिब्बत व्यापार मार्गको महत्त्वपूर्ण विश्रामस्थल बनायो।"
    },
    {
     "q": "In which district is Bandipur?",
@@ -1310,7 +1667,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "Bandipur is a hilltop town in Tanahun District, Gandaki Province."
+    "explanation": "Bandipur is a hilltop town in Tanahun District, Gandaki Province.",
+    "q_np": "बन्दिपुर कुन जिल्लामा पर्छ?",
+    "options_np": [
+     "गोरखा",
+     "लमजुङ",
+     "तनहुँ",
+     "स्याङ्जा"
+    ],
+    "explanation_np": "बन्दिपुर गण्डकी प्रदेशको तनहुँ जिल्लामा रहेको पहाडी टाकुरामाथिको सहर हो।"
    },
    {
     "q": "Why did Bandipur's trade decline in the 1970s?",
@@ -1322,7 +1687,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "The Prithvi Highway followed the Marsyangdi valley, leaving Bandipur isolated on the ridge."
+    "explanation": "The Prithvi Highway followed the Marsyangdi valley, leaving Bandipur isolated on the ridge.",
+    "q_np": "1970 को दशकमा बन्दिपुरको व्यापार किन घट्यो?",
+    "options_np": [
+     "भूकम्पले",
+     "तलको उपत्यकामा पृथ्वी राजमार्ग बनेकाले",
+     "बजार जलेकाले",
+     "तिब्बतसँगको सीमा बन्द भएकाले"
+    ],
+    "explanation_np": "पृथ्वी राजमार्ग मर्स्याङदी उपत्यकाको छेउछेउ बनेकाले बन्दिपुर थाकथलोमा एक्लिन पुग्यो।"
    }
   ],
   "clues": [
@@ -1340,9 +1713,10 @@
   "festivals": [
    {
     "name": "New Year chariot procession",
-    "name_np": "नयाँ वर्ष रथ यात्रा",
+    "name_np": "नयाँ वर्षको रथयात्रा",
     "month": "Baisakh",
-    "note": "An image of the goddess is placed in a chariot and pulled during the New Year celebration (travel guide)."
+    "note": "An image of the goddess is placed in a chariot and pulled during the New Year celebration (travel guide).",
+    "note_np": "नयाँ वर्षको उत्सवमा देवीको मूर्तिलाई रथमा राखेर तानिन्छ (यात्रा गाइड)।"
    }
   ],
   "model": {
@@ -1425,6 +1799,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "caption": "The temple in its square"
    }
+  ],
+  "short_np": "तनहुँको बन्दिपुरको संरक्षित डाँडाको व्यापारिक बजारको शिरमा रहेको देवी बिन्ध्यबासिनीको नेवारी पगोडा।",
+  "story_np": "बन्दिपुरको मुख्य सडकको लम्बाइमा हिँड्नुहोस्, झ्यालमा ढोका भएका अग्ला नेवारी घर र तिनका बरन्डामुनिका पसलहरू पार गर्दै, र उत्तरी छेउमा तपाईं एउटा सानो चोकमा पुग्नुहुन्छ जहाँ बीचमा पगोडा छ। यो दुर्गाको रूप बिन्ध्यबासिनीको मन्दिर हो। सन् १७६८ मा पृथ्वीनारायण शाहले काठमाडौं उपत्यका जितेपछि भक्तपुरका नेवार व्यापारीहरू आउनुअघि बन्दिपुर मगर गाउँ थियो। महाभारत श्रृङ्खलाको यो भञ्ज्याङमा मलेरियाको डर नभएकाले उनीहरूले यसलाई भारत-तिब्बत व्यापार मार्गको व्यस्त विश्रामस्थल बनाए र आफ्ना मन्दिर र वास्तुकला साथै ल्याए। कुँदिएका छानाका टेको र इँटाको काम हेर्नुहोस्, जसले उपत्यकाका पुराना पगोडाहरूको झल्को दिन्छन्। सन् २०१५ को भूकम्पले मन्दिरलाई क्षति पुर्‍यायो, र यसलाई पुनर्निर्माण गरिएको छ। स्थानीयहरू अझै हरेक दिन पूजा गर्न आउँछन्, र नयाँ वर्षमा देवीको मूर्तिलाई रथमा राखेर सहरभरि तानिन्छ।",
+  "legend_np": null,
+  "facts_np": [
+   "बन्दिपुर करिब १,०३० मिटरमा महाभारत श्रृङ्खलाको भञ्ज्याङमा अवस्थित छ, मर्स्याङ्दी उपत्यकाभन्दा करिब ७०० मिटर माथि।",
+   "सन् १७६८ मा पृथ्वीनारायण शाहले काठमाडौं उपत्यका जितेपछि भक्तपुरका नेवार व्यापारीहरूले बन्दिपुरको विकास गरे।",
+   "मन्दिर बन्दिपुर बजारको उत्तरी छेउको चोकमा अवस्थित छ।",
+   "यो २०७२ साल (सन् २०१५) को भूकम्पपछि पुनर्निर्माण गरिएको थियो।",
+   "सन् १९९८ देखि बन्दिपुर पृथ्वी राजमार्गको दुम्रेबाट ८ कि.मी. सडकले जोडिएको छ।"
+  ],
+  "quake_np": "कमन्सका फोटोग्राफरको विवरणअनुसार, सन् २०१५ (२०७२ साल) को भूकम्पमा क्षति भई पछि पुनर्निर्माण गरिएको।",
+  "clues_np": [
+   "पुरानो तिब्बत व्यापार मार्गमा भक्तपुर शैलीका व्यापारिक घरहरू भएको टाकुरे बजारको छेउमा एउटा पगोडाले रक्षा गरेको छ।",
+   "तलको उपत्यकामा राजमार्ग बनेपछि मेरो सहर थाकथलोमै छुट्यो, तर नयाँ वर्षमा देवी अझै रथमा सवार हुन्छिन्।"
   ]
  },
  {
@@ -1480,7 +1869,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Khadga means sword; Khadga Devi is the goddess of the sword."
+    "explanation": "Khadga means sword; Khadga Devi is the goddess of the sword.",
+    "q_np": "'खड्ग' शब्दको अर्थ के हो?",
+    "options_np": [
+     "घण्ट",
+     "तरबार",
+     "दीप",
+     "ढोल"
+    ],
+    "explanation_np": "खड्ग भनेको तरबार हो; खड्गदेवी तरबारकी देवी हुन्।"
    },
    {
     "q": "During which festival is Khadga Jatra held?",
@@ -1492,7 +1889,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "Khadga Jatra takes place during Dashain."
+    "explanation": "Khadga Jatra takes place during Dashain.",
+    "q_np": "खड्ग जात्रा कुन चाडमा हुन्छ?",
+    "options_np": [
+     "तिहार",
+     "होली",
+     "दशैँ",
+     "तीज"
+    ],
+    "explanation_np": "खड्ग जात्रा दशैँको बेला हुन्छ।"
    },
    {
     "q": "Which king is the sacred sword believed to have belonged to?",
@@ -1504,7 +1909,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The sword is believed to have belonged to King Mukunda Sen."
+    "explanation": "The sword is believed to have belonged to King Mukunda Sen.",
+    "q_np": "पवित्र खड्ग कुन राजाको थियो भन्ने विश्वास गरिन्छ?",
+    "options_np": [
+     "पृथ्वीनारायण शाह",
+     "मुकुन्द सेन",
+     "राम शाह",
+     "आमे पाल"
+    ],
+    "explanation_np": "यो खड्ग राजा मुकुन्द सेनको थियो भन्ने विश्वास छ।"
    },
    {
     "q": "On which day of Dashain does the temple open?",
@@ -1516,7 +1929,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "The temple opens only on Fulpati."
+    "explanation": "The temple opens only on Fulpati.",
+    "q_np": "दशैँको कुन दिन मन्दिर खुल्छ?",
+    "options_np": [
+     "घटस्थापना",
+     "फूलपाती",
+     "विजया दशमी",
+     "कोजाग्रत पूर्णिमा"
+    ],
+    "explanation_np": "मन्दिर फूलपातीका दिन मात्र खुल्छ।"
    },
    {
     "q": "Which communities carry the sword in procession during Khadga Jatra?",
@@ -1528,7 +1949,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "Magar and Bishwokarma communities parade the sacred sword through town."
+    "explanation": "Magar and Bishwokarma communities parade the sacred sword through town.",
+    "q_np": "खड्ग जात्रामा कुन समुदायले खड्ग बोकेर शोभायात्रा गर्छन्?",
+    "options_np": [
+     "गुरुङ र थकाली",
+     "मगर र विश्वकर्मा",
+     "शेर्पा र तामाङ",
+     "थारु र राई"
+    ],
+    "explanation_np": "मगर र विश्वकर्मा समुदायले पवित्र खड्ग बोकेर सहरभर परिक्रमा गराउँछन्।"
    }
   ],
   "clues": [
@@ -1548,7 +1977,8 @@
     "name": "Khadga Jatra",
     "name_np": "खड्ग जात्रा",
     "month": "Ashwin",
-    "note": "During Dashain a sacred sword is worshipped and paraded through Bandipur; the temple opens on Fulpati."
+    "note": "During Dashain a sacred sword is worshipped and paraded through Bandipur; the temple opens on Fulpati.",
+    "note_np": "दशैँमा पवित्र खड्गको पूजा गरी बन्दीपुरभर परिक्रमा गराइन्छ; फूलपातीका दिन मन्दिर खुल्छ।"
    }
   ],
   "model": {
@@ -1631,6 +2061,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "The temple seen across the open ground"
    }
+  ],
+  "short_np": "बन्दीपुर बजारमाथिको डाँडामा रहेको मन्दिर, जसले राजा मुकुन्द सेनको भनिएको पवित्र खड्ग जोगाएको छ र दशैँमा यसको यात्रा गरिन्छ।",
+  "story_np": "बन्दीपुरको पुरानो बजारभन्दा अलि माथि उक्लनुहोस् र घरहरू ठूला पिपलका रूखले छाया पारेको खुला चौरमा परिणत हुन्छन्। तपाईंको अगाडिको रातो इँटाको मन्दिर तरवारकी देवी खड्गदेवीको थलो हो। खड्ग भनेको तरवार, र यहाँ राखिएको निधि सोह्रौं शताब्दीका राजा मुकुन्द सेनको भनिएको तरवार हो; परम्परा अनुसार यो स्वयं भगवान् शिवको उपहार थियो। वर्षको अधिकांश समय ढोका बन्द रहन्छ। दशैँको फूलपातीमा ढोका खुल्छ, जब सहरले खड्ग जात्रा मनाउँछ। तब मगर र विश्वकर्मा समुदायका मानिसहरूले पवित्र तरवार सडकमा जुलुस गर्दै लैजान्छन्, र हिन्दू भक्तजनहरू पूजा गर्न आउँछन्। मन्दिर बन्दीपुरका नेवार श्रेष्ठ परिवारहरूका लागि विशेष महत्त्वको छ। पुरानो पाटी, विश्राम गृहको छेउमा उभिनुहोस्, भञ्ज्याङतिर हेर्नुहोस्, र उत्सवको दिनका ढोल र फलामको चमकको कल्पना गर्नुहोस्।",
+  "legend_np": "मन्दिरमा राखिएको तरवार राजा मुकुन्द सेनको हो र भगवान् शिवको उपहार हो भन्ने विश्वास छ।",
+  "facts_np": [
+   "दशैँमा हुने खड्ग जात्रा खड्गदेवी मन्दिरको धार्मिक पूजामा केन्द्रित हुन्छ।",
+   "जात्राका बेला मगर र विश्वकर्मा समुदायले पवित्र तरवारलाई बन्दीपुरभर जुलुस गराउँछन्।",
+   "तरवार राजा मुकुन्द सेनको हो भन्ने विश्वास छ।",
+   "मन्दिर दशैँ पर्वको एक दिन, फूलपातीमा मात्र खुल्छ।",
+   "गर्भगृहमा खड्गमाईको मूर्ति छ, र नजिकै पाटी र ठूला पिपलका रूखहरू छन्।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "ठूलो शरद् चाडको एक दिन मात्र मेरा ढोका खुल्छन्, जब एक पुराना राजाको तरबार सडकभर डुलाइन्छ।",
+   "नेवार बजारमाथिका ठूला पीपलका रूखमुनि एउटी देवीले शिवको उपहार मानिने हतियार राखेकी छन्।"
   ]
  },
  {
@@ -1687,7 +2132,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "Ame Pal, founder of the Kingdom of Lo, built the walled city from 1380."
+    "explanation": "Ame Pal, founder of the Kingdom of Lo, built the walled city from 1380.",
+    "q_np": "सन् 1380 मा लोमान्थाङको स्थापना कसले गरे?",
+    "options_np": [
+     "अमे पाल",
+     "राम शाह",
+     "पद्मसम्भव",
+     "मुकुन्द सेन"
+    ],
+    "explanation_np": "लो राज्यका संस्थापक अमे पालले सन् 1380 देखि यो पर्खालले घेरिएको सहर बनाए।"
    },
    {
     "q": "Until which year was Upper Mustang closed to foreign visitors?",
@@ -1699,7 +2152,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "Upper Mustang was a closed territory until 1992."
+    "explanation": "Upper Mustang was a closed territory until 1992.",
+    "q_np": "माथिल्लो मुस्ताङ कुन वर्षसम्म विदेशी आगन्तुकका लागि बन्द थियो?",
+    "options_np": [
+     "1950",
+     "1972",
+     "1992",
+     "2008"
+    ],
+    "explanation_np": "माथिल्लो मुस्ताङ सन् 1992 सम्म निषेधित क्षेत्र थियो।"
    },
    {
     "q": "Which monastery in Lo Manthang is famous for the world's largest collection of painted mandalas?",
@@ -1711,7 +2172,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Jampa (Maitreya) Lhakhang holds the largest collection of wall-painted mandalas."
+    "explanation": "Jampa (Maitreya) Lhakhang holds the largest collection of wall-painted mandalas.",
+    "q_np": "लोमान्थाङको कुन गुम्बा चित्रित मण्डलहरूको विश्वकै सबैभन्दा ठूलो सङ्ग्रहका लागि प्रसिद्ध छ?",
+    "options_np": [
+     "थुबचेन ल्हाखाङ",
+     "जम्पा ल्हाखाङ",
+     "छोएदे गुम्बा",
+     "कग छोदे"
+    ],
+    "explanation_np": "जम्पा (मैत्रेय) ल्हाखाङमा भित्तामा चित्रित मण्डलहरूको सबैभन्दा ठूलो सङ्ग्रह छ।"
    },
    {
     "q": "How many wooden pillars now support the main hall of Thubchen Lhakhang?",
@@ -1723,7 +2192,15 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "The hall rests on 35 wooden pillars, originally 42."
+    "explanation": "The hall rests on 35 wooden pillars, originally 42.",
+    "q_np": "थुबचेन ल्हाखाङको मुख्य हललाई अहिले कति वटा काठका खम्बाले थाम्छन्?",
+    "options_np": [
+     "12",
+     "24",
+     "35",
+     "108"
+    ],
+    "explanation_np": "हल 35 वटा काठका खम्बामा अडेको छ, पहिले 42 वटा थिए।"
    },
    {
     "q": "In which year did the king of Mustang lose his title?",
@@ -1735,7 +2212,15 @@
     ],
     "answer_index": 3,
     "difficulty": 3,
-    "explanation": "The title ended when Nepal was declared a republic in 2008."
+    "explanation": "The title ended when Nepal was declared a republic in 2008.",
+    "q_np": "मुस्ताङका राजाले कुन वर्ष आफ्नो पदवी गुमाए?",
+    "options_np": [
+     "1768",
+     "1951",
+     "1990",
+     "2008"
+    ],
+    "explanation_np": "नेपाल गणतन्त्र घोषित भएपछि सन् 2008 मा पदवी समाप्त भयो।"
    }
   ],
   "clues": [
@@ -1756,9 +2241,10 @@
   "festivals": [
    {
     "name": "Tiji",
-    "name_np": "तीजी",
+    "name_np": "टिजी",
     "month": "Baisakh",
-    "note": "Spring masked-dance festival in Lo Manthang (about May; dates follow the Tibetan lunar calendar)."
+    "note": "Spring masked-dance festival in Lo Manthang (about May; dates follow the Tibetan lunar calendar).",
+    "note_np": "लोमान्थाङमा वसन्त ऋतुमा हुने मुखुण्डो नृत्यको पर्व (करिब मे; मिति तिब्बती चन्द्र पात्रो अनुसार हुन्छ)।"
    }
   ],
   "model": {
@@ -1849,6 +2335,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Rooftop view over the red monasteries"
    }
+  ],
+  "short_np": "माथिल्लो मुस्ताङमा रहेको लो राज्यको चौधौँ शताब्दीको गढीबन्द राजधानी, जहाँ राजदरबार र पन्ध्रौँ शताब्दीका चित्रित गुम्बा छन्।",
+  "story_np": "यो माटाको पर्खालको एक मात्र ढोकाबाट छिर्नुभयो भने तपाईं छ सय वर्षभन्दा बढी टिकेको एउटा राज्यको राजधानीभित्र पुग्नुहुन्छ। लो राज्यका संस्थापक योद्धा अमे पालले 1380 मा यो गढीबन्द सहर बनाए, र 2008 मा नेपाल गणतन्त्र नहुँदासम्म उनका सन्ततिले यहींबाट शासन गरे। तपाईंको वरिपरि सपाट छानामा दाउरा थुपारिएका सेता घर, साँघुरा गल्ली र तिनमाथि धेरै कुना भएको राजदरबार छन्। अब गुम्बाका ठूला रातो पर्खाल खोज्नुहोस्। पन्ध्रौँ शताब्दीको थुबचेन ल्हाखाङ पैँतीसवटा काठका स्तम्भमा अडिएको छ, र यसका भित्तेचित्र फिरोजा, मलाकाइट र सुनले झिलिमिली छन्। मैत्रेय मन्दिर जम्पा ल्हाखाङमा संसारकै सबैभन्दा ठूलो चित्रित मण्डलको सङ्ग्रह रहेको भनिन्छ। पर्खाल बाहिर खिइएका पहाडी भीरका मरुभूमिमा हरिया जौका खेत फैलिएका छन्। माथिल्लो मुस्ताङ 1992 सम्म बाहिरीहरूका लागि बन्द थियो, र विदेशीहरूलाई अझै पनि यहाँ आउन विशेष अनुमतिपत्र चाहिन्छ।",
+  "legend_np": null,
+  "facts_np": [
+   "लोमान्थाङ 1380 मा अमे पालले स्थापना गरेका थिए, जसले सहरको पर्खाल निर्माणको निरीक्षण गरे।",
+   "मुस्ताङका अन्तिम राजा जिग्मे दोर्जे पल्बार बिस्टाले 2008 मा नेपाल गणतन्त्र हुँदा आफ्नो उपाधि गुमाए।",
+   "जम्पा ल्हाखाङमा यसका भित्तामा चित्रित मण्डलहरूको संसारकै सबैभन्दा ठूलो सङ्ग्रह रहेको वर्णन गरिन्छ।",
+   "माथिल्लो मुस्ताङ 1992 सम्म बाहिरीहरूका लागि बन्द थियो; विदेशीहरूलाई दस दिनका लागि US$500 पर्ने विशेष अनुमतिपत्र चाहिन्छ।",
+   "2015 मा क्षति भएको राजदरबार गेर्डा हेन्केल फाउन्डेसनको सहयोगमा 2073 BS सम्ममा पुनर्स्थापना गरियो।"
+  ],
+  "quake_np": "सन् 2015 अप्रिलको भूकम्पले राजदरबारमा क्षति पुर्‍यायो, जुन पछि गेर्डा हेन्केल फाउन्डेसनको सहयोगमा पुनर्स्थापना गरियो, र जम्पा ल्हाखाङका 500 वर्ष पुराना भित्तेचित्रमा गम्भीर क्षति पुर्‍यायो।",
+  "clues_np": [
+   "मेरो एक मात्र ढोकाबाट भित्र पस, अनि हिमालयको हराएको राज्यको माटोले बनेको राजधानी भेट्नेछौ, जहाँ छ शताब्दीसम्म एउटै वंशले शासन गर्‍यो।",
+   "मेरा रातो मन्दिरहरूले पन्ध्रौँ शताब्दीका भित्ते चित्र र हजार जति चित्रित मण्डल लुकाएका छन्, सन् 1992 मा पर्यटकका लागि खुलेको बन्द भूमिमा।"
   ]
  },
  {
@@ -1905,7 +2406,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "Beni refers to the meeting point of two rivers."
+    "explanation": "Beni refers to the meeting point of two rivers.",
+    "q_np": "कागबेनी नाममा ‘बेनी’ को अर्थ के हो?",
+    "options_np": [
+     "किल्ला",
+     "गुम्बा",
+     "नदीहरूको सङ्गम",
+     "गाउँको ढोका"
+    ],
+    "explanation_np": "बेनीले दुई नदी मिल्ने ठाउँलाई जनाउँछ।"
    },
    {
     "q": "In which year was Kag Chode monastery founded?",
@@ -1917,7 +2426,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Sources date its founding to 1429 CE."
+    "explanation": "Sources date its founding to 1429 CE.",
+    "q_np": "काग छोडे गुम्बा कुन वर्षमा स्थापना भएको थियो?",
+    "options_np": [
+     "1229",
+     "1429",
+     "1729",
+     "1929"
+    ],
+    "explanation_np": "स्रोतहरूले यसको स्थापना 1429 ई. मा भएको बताउँछन्।"
    },
    {
     "q": "What are the kheni figures at Kagbeni's gates believed to do?",
@@ -1929,7 +2446,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "The kheni are protectors against evil spirits, known as ghost eaters."
+    "explanation": "The kheni are protectors against evil spirits, known as ghost eaters.",
+    "q_np": "कागबेनीका ढोकामा रहेका खेनी आकृतिहरूले के गर्ने विश्वास गरिन्छ?",
+    "options_np": [
+     "वर्षा ल्याउने",
+     "यात्रु गन्ने",
+     "भूत खाने र गाउँको रक्षा गर्ने",
+     "तिब्बतसँगको सीमा चिनाउने"
+    ],
+    "explanation_np": "खेनी भूत खाने भनेर चिनिने, दुष्ट आत्माबाट रक्षा गर्ने संरक्षक हुन्।"
    },
    {
     "q": "Which major river flows past Kagbeni?",
@@ -1941,7 +2466,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Kagbeni lies in the valley of the Kali Gandaki."
+    "explanation": "Kagbeni lies in the valley of the Kali Gandaki.",
+    "q_np": "कागबेनी नजिकबाट कुन ठूलो नदी बग्छ?",
+    "options_np": [
+     "सेती",
+     "कालीगण्डकी",
+     "मर्स्याङ्दी",
+     "त्रिशूली"
+    ],
+    "explanation_np": "कागबेनी कालीगण्डकीको उपत्यकामा अवस्थित छ।"
    },
    {
     "q": "Which Buddhist tradition does Kag Chode monastery follow?",
@@ -1953,7 +2486,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "Lonely Planet describes it as a Sakyapa monastery."
+    "explanation": "Lonely Planet describes it as a Sakyapa monastery.",
+    "q_np": "काग छोडे गुम्बाले कुन बौद्ध परम्परा अनुसरण गर्छ?",
+    "options_np": [
+     "गेलुग",
+     "ञिङमा",
+     "साक्य",
+     "काग्यु"
+    ],
+    "explanation_np": "लोनली प्लानेटले यसलाई साक्यपा गुम्बाका रूपमा वर्णन गरेको छ।"
    }
   ],
   "clues": [
@@ -2052,6 +2593,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Kag Chode monastery building"
    }
+  ],
+  "short_np": "माथिल्लो मुस्ताङको प्रवेशद्वारमा रहेको मध्यकालीन किल्लाबन्दी गाउँ, जसको टुप्पोमा पन्ध्रौँ शताब्दीको रातो सक्य गुम्बा कागचोदे छ।",
+  "story_np": "कागबेनीमा स्वागत छ, माटोका इँटाका घर र साँघुरा सुरुङ भएको गाउँ, जहाँ दुई नदीको सङ्गममा कालीगण्डकी उपत्यका प्राचीन लो राज्यतर्फ खुल्छ। बेनी भनेको सङ्गम हो, र मुक्तिनाथतर्फ जाने तीर्थयात्रीहरू यी ढुङ्गैले भरिएका किनारमा रोकिन्छन्; हिन्दू परिवारहरूले यहाँ आफ्ना पितृहरूका लागि श्राद्ध गर्छन्। नदीमाथिको डाँडाका ढाडमा रहेका रगतजस्ता रातो पर्खालतिर हेर्नुहोस्। त्यो कागचोदे थुप्तेन साम्फेल लिङ हो, सन् 1429 मा स्थापित सक्य गुम्बा, जसलाई भिक्षु तेन्पाई ग्यल्चेनको काम भनी सम्झिइन्छ। यसका कुटेको माटोका पर्खाल भूकम्प र आक्रमणकारी दुवैको प्रतिरोध गर्न बनाइएका थिए। नजिकै कागखर, स्थानीय राजाको पुरानो दरबारका भत्किँदै गरेका माटोका धुरीहरू छन्। गाउँका ढोकामा खेनी खोज्नुहोस्, कुँदिएका पुरुष र महिला संरक्षक, जसलाई भूतभक्षक भनिन्छ र जसले धेरै पहिले मानव पहरेदारको ठाउँ लिए। यहाँबाट उत्तरतिर माथिल्लो मुस्ताङ सुरु हुन्छ, जहाँ विदेशी पर्यटकलाई अघि बढ्न विशेष अनुमतिपत्र चाहिन्छ।",
+  "legend_np": "गाउँको ढोकामा रहेका पुरुष र महिलाका कुँदिएका जोडी मूर्ति खेनीले कागबेनीलाई दुष्ट र अलौकिक शक्तिबाट जोगाउँछन् भन्ने विश्वास गरिन्छ, जसले उनीहरूलाई ‘भूतभक्षक’ नाम दिएको हो।",
+  "facts_np": [
+   "‘रातो गुम्बा’ भनिने कागचोदे थुप्तेन साम्फेल लिङ सन् 1429 मा स्थापना भएको थियो र सक्य परम्परासँग सम्बन्धित छ।",
+   "कागबेनी कालीगण्डकी उपत्यकामा, मुक्तिनाथतिर मोडिने ठाउँनजिक, जोमसोमबाट लो मन्थाङ जाने बाटोमा पर्छ।",
+   "कागबेनीभन्दा उत्तर यात्रा गर्न विदेशी पर्यटकलाई माथिल्लो मुस्ताङको विशेष अनुमतिपत्र चाहिन्छ।",
+   "सन् 2011 को जनगणनाले गाउँमा 555 जना गणना गरेको थियो।",
+   "सन् 2023 को अगस्टमा कागबेनी खोलामा आएको बाढीले क्षेत्रमा क्षति पुर्‍यायो र गुम्बालाई जोखिममा पार्‍यो।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "भूत खाने उपनाम पाएका माटोका रक्षकहरूले मेरा ढोका कुरेका छन्, जहाँबाट यात्रीहरू कुनै बेला निषेधित राज्यतर्फ उत्तर लाग्थे।",
+   "मेरो रगतजस्तो रातो गुम्बा 1429 देखि नदीहरू मिल्ने ठाउँमाथि उभिएको छ, र तीर्थयात्रीहरू सय धाराको बाटोमा यहाँ विश्राम गर्छन्।"
   ]
  },
  {
@@ -2108,7 +2664,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Galeshwor is a Shiva shrine with a self-manifested jyotirlinga."
+    "explanation": "Galeshwor is a Shiva shrine with a self-manifested jyotirlinga.",
+    "q_np": "गलेश्वर कुन देवतालाई समर्पित छ?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "गणेश",
+     "सूर्य"
+    ],
+    "explanation_np": "गलेश्वर स्वयम्भू ज्योतिर्लिङ्ग भएको शिव मन्दिर हो।"
    },
    {
     "q": "Which big river flows past Galeshwor?",
@@ -2120,7 +2684,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "The temple stands at the confluence of the Rahughat river and the Kali Gandaki."
+    "explanation": "The temple stands at the confluence of the Rahughat river and the Kali Gandaki.",
+    "q_np": "गलेश्वरको छेउबाट कुन ठूलो नदी बग्छ?",
+    "options_np": [
+     "कालीगण्डकी",
+     "कोशी",
+     "कर्णाली",
+     "बागमती"
+    ],
+    "explanation_np": "मन्दिर राहुघाट खोला र कालीगण्डकीको सङ्गममा अवस्थित छ।"
    },
    {
     "q": "According to legend, which part of Sati's body fell here?",
@@ -2132,7 +2704,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "Gala means neck; Sati's neck is said to have fallen here, giving the name Galeshwor."
+    "explanation": "Gala means neck; Sati's neck is said to have fallen here, giving the name Galeshwor.",
+    "q_np": "किंवदन्ती अनुसार सतीको शरीरको कुन अङ्ग यहाँ खस्यो?",
+    "options_np": [
+     "टाउको",
+     "हात",
+     "गला",
+     "खुट्टा"
+    ],
+    "explanation_np": "गला भनेको घाँटी हो; सतीको घाँटी यहाँ खसेको भनिन्छ, जसबाट गलेश्वर नाम रहेको हो।"
    },
    {
     "q": "Galeshwor is popularly called the gateway to which pilgrimage site?",
@@ -2144,7 +2724,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Pilgrims stop here on the way up the Kali Gandaki to Muktinath."
+    "explanation": "Pilgrims stop here on the way up the Kali Gandaki to Muktinath.",
+    "q_np": "गलेश्वरलाई लोकप्रिय रूपमा कुन तीर्थस्थलको प्रवेशद्वार भनिन्छ?",
+    "options_np": [
+     "पशुपतिनाथ",
+     "मुक्तिनाथ",
+     "लुम्बिनी",
+     "गोसाइँकुण्ड"
+    ],
+    "explanation_np": "कालीगण्डकी माथि मुक्तिनाथ जाने तीर्थयात्रीहरू यहाँ रोकिन्छन्।"
    },
    {
     "q": "What is unusual about the pool beside the temple, according to locals?",
@@ -2156,7 +2744,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "The pool reportedly neither dries in winter nor fills completely in the monsoon."
+    "explanation": "The pool reportedly neither dries in winter nor fills completely in the monsoon.",
+    "q_np": "स्थानीयहरूका अनुसार मन्दिरछेउको कुण्डबारे के असामान्य कुरा छ?",
+    "options_np": [
+     "यसको पानी तातो छ",
+     "यसको सतह वर्षभरि उस्तै रहन्छ",
+     "यो दशैँमा रातो हुन्छ",
+     "यसमा पवित्र माछा छन्"
+    ],
+    "explanation_np": "भनिन्छ, यो कुण्ड जाडोमा सुक्दैन र वर्षामा पूरै भरिँदैन।"
    }
   ],
   "clues": [
@@ -2177,19 +2773,22 @@
     "name": "Maha Shivaratri",
     "name_np": "महाशिवरात्रि",
     "month": "Falgun",
-    "note": "Largest fair of the year; devotees from five districts offer puja and light a great lamp (mahadeep)."
+    "note": "Largest fair of the year; devotees from five districts offer puja and light a great lamp (mahadeep).",
+    "note_np": "वर्षको सबैभन्दा ठूलो मेला; पाँच जिल्लाका भक्तजनले पूजा गर्छन् र महादीप बाल्छन्।"
    },
    {
     "name": "Shrawan Mondays",
-    "name_np": "साउने सोमबार",
+    "name_np": "श्रावण सोमबार",
     "month": "Shrawan",
-    "note": "Fairs are held on the Mondays of Shrawan."
+    "note": "Fairs are held on the Mondays of Shrawan.",
+    "note_np": "श्रावणका सोमबारहरूमा मेला लाग्छ।"
    },
    {
     "name": "Bala Chaturdashi",
     "name_np": "बाला चतुर्दशी",
     "month": "Mangsir",
-    "note": "A fair is held at the temple on Bala Chaturdashi."
+    "note": "A fair is held at the temple on Bala Chaturdashi.",
+    "note_np": "बाला चतुर्दशीमा मन्दिरमा मेला लाग्छ।"
    }
   ],
   "model": {
@@ -2282,6 +2881,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "caption": "Image of Vishnu at the temple"
    }
+  ],
+  "short_np": "बेनी उत्तरमा राहुघाट र कालीगण्डकीको संगमस्थलको विशाल चट्टानमाथिको नदीकिनारको शिव मन्दिर: 'मुक्तिनाथको प्रवेशद्वार'।",
+  "story_np": "नदीहरूलाई सुन्नुहोस्। यहाँ, बेनीको करिब तीन किलोमिटर उत्तरमा, राहुघाट खोला खैरो कालीगण्डकीमा मिसिन्छ, र तिनीहरूको मिलनस्थलको एउटै विशाल चट्टानमाथि शिवको मन्दिर गलेश्वर उभिएको छ। भित्र स्वयम्भू, अर्थात् आफैँ प्रकट भएको, मानिने ज्योतिर्लिङ्ग छ। नाम एउटा कथाबाट आएको हो: शिवले आफ्नी पत्नी सतीको शव बोकेर हिमालतर्फ जाँदा, उनको गर्धन, नेपालीमा गला, यहाँ खस्यो र शिवको रूप धारण गर्‍यो। त्यसैले तीर्थयात्रीहरू यस ठाउँलाई मुक्तिनाथको प्रवेशद्वार भन्छन्; धेरैजना कालीगण्डकी उपत्यकातर्फ माथि जानुअघि यहाँ रोकिन्छन्। मन्दिरको छेउमा, चट्टानहरूका बीचमा, एउटा लामो साँघुरो पोखरी छ। मानिसहरू भन्छन् यो जाडोमा कहिल्यै सुक्दैन र वर्षामा कहिल्यै उर्लिँदैन। महाशिवरात्रिमा बिहान चार बजेदेखि नै म्याग्दी, बाग्लुङ, मुस्ताङ, पर्वत र कास्कीबाट आएका भक्तजनहरूको भीड जम्न थाल्छ, ठूलो दीप बाल्न र प्रार्थना गर्न। सन् २०२५ को अन्त्यतिर एक दाताले मन्दिरको गजुरमा सुन पानी चढाए।",
+  "legend_np": "शिवले सतीको शव बोकेर हिमालतर्फ जाँदा, उनको गर्धन (गला) यही ठाउँमा खस्यो र शिवको रूप लियो; त्यसैले यसको नाम गलेश्वर, 'गर्धनका स्वामी', पर्‍यो।",
+  "facts_np": [
+   "गलेश्वर म्याग्दी जिल्लाको सदरमुकाम बेनीको करिब ३ कि.मी. उत्तरमा, बेनी नगरपालिका वडा ९ मा अवस्थित छ।",
+   "मन्दिर राहुघाट (राहु) खोला कालीगण्डकीमा मिसिने ठाउँमा छ।",
+   "यो मुक्तिनाथको प्रवेशद्वारका रूपमा चिनिन्छ र हिन्दू तथा बौद्ध दुवैले यसको दर्शन गर्छन्।",
+   "स्थानीय विकास कोषका अनुसार महाशिवरात्रि २०८१ साल मा ५०,००० भन्दा बढी भक्तजन आउने अपेक्षा गरिएको थियो।",
+   "मन्दिरको छेउको पोखरीमा वर्षभरि पानीको सतह उही रहन्छ भनिन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "यस नदी सङ्गममा एक देवीको घाँटी खसेको भनिन्छ, र अहिले एउटा विशाल चट्टानमाथि शिवको मन्दिर छ।",
+   "मुस्ताङका सय मूल जाने तीर्थयात्री पहिले मकहाँ रोकिन्छन्, म म्याग्दीको सदरमुकामभन्दा अलि उत्तरमा छु।"
   ]
  },
  {
@@ -2338,7 +2952,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Devghat is at the junction of the Trishuli and Kali (Krishna) Gandaki."
+    "explanation": "Devghat is at the junction of the Trishuli and Kali (Krishna) Gandaki.",
+    "q_np": "देवघाटमा कुन दुई नदी मिल्छन्?",
+    "options_np": [
+     "सेती र मादी",
+     "त्रिशूली र कालीगण्डकी",
+     "बागमती र विष्णुमती",
+     "अरुण र तमोर"
+    ],
+    "explanation_np": "देवघाट त्रिशूली र कालीगण्डकी (कृष्णगण्डकी) को सङ्गममा छ।"
    },
    {
     "q": "On which festival do the biggest crowds bathe at Devghat?",
@@ -2350,7 +2972,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "The Makar (Maghe) Sankranti mela is one of the largest in Nepal."
+    "explanation": "The Makar (Maghe) Sankranti mela is one of the largest in Nepal.",
+    "q_np": "देवघाटमा कुन चाडमा सबैभन्दा धेरै भीड नुहाउन आउँछ?",
+    "options_np": [
+     "तिहार",
+     "माघे सङ्क्रान्ति",
+     "बुद्ध जयन्ती",
+     "तीज"
+    ],
+    "explanation_np": "मकर (माघे) सङ्क्रान्तिको मेला नेपालकै सबैभन्दा ठूला मेलामध्ये एक हो।"
    },
    {
     "q": "What are the sacred stones found in the Kali Gandaki called?",
@@ -2362,7 +2992,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "Shaligram stones are worshipped as Vishnu."
+    "explanation": "Shaligram stones are worshipped as Vishnu.",
+    "q_np": "कालीगण्डकीमा पाइने पवित्र ढुङ्गालाई के भनिन्छ?",
+    "options_np": [
+     "शालिग्राम",
+     "शिवलिङ्ग",
+     "मणि",
+     "रुद्राक्ष"
+    ],
+    "explanation_np": "शालिग्राम ढुङ्गालाई विष्णुका रूपमा पूजा गरिन्छ।"
    },
    {
     "q": "What is the river called below the Devghat confluence?",
@@ -2374,7 +3012,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "After the confluence the combined river is called the Narayani."
+    "explanation": "After the confluence the combined river is called the Narayani.",
+    "q_np": "देवघाटको सङ्गमपछि नदीलाई के भनिन्छ?",
+    "options_np": [
+     "कोसी",
+     "नारायणी",
+     "राप्ती",
+     "कर्णाली"
+    ],
+    "explanation_np": "सङ्गमपछि मिलेको नदीलाई नारायणी भनिन्छ।"
    },
    {
     "q": "Which sage is said to have had his ashram at Devghat?",
@@ -2386,7 +3032,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "Sage Vasistha is believed to have established his ashram and done tapasya here."
+    "explanation": "Sage Vasistha is believed to have established his ashram and done tapasya here.",
+    "q_np": "कुन ऋषिले देवघाटमा आश्रम बनाएको भनिन्छ?",
+    "options_np": [
+     "व्यास",
+     "वाल्मीकि",
+     "वशिष्ठ",
+     "अगस्त्य"
+    ],
+    "explanation_np": "ऋषि वशिष्ठले यहाँ आश्रम स्थापना गरी तपस्या गरेको विश्वास गरिन्छ।"
    }
   ],
   "clues": [
@@ -2405,9 +3059,10 @@
   "festivals": [
    {
     "name": "Maghe Sankranti (Makar Snan)",
-    "name_np": "माघे संक्रान्ति (मकर स्नान)",
+    "name_np": "माघे सङ्क्रान्ति (मकर स्नान)",
     "month": "Magh",
-    "note": "Two-day mela starting the day before Sankranti; pilgrims bathe at the confluence."
+    "note": "Two-day mela starting the day before Sankranti; pilgrims bathe at the confluence.",
+    "note_np": "सङ्क्रान्तिको अघिल्लो दिनदेखि सुरु हुने दुई दिने मेला; तीर्थयात्रीहरू सङ्गममा स्नान गर्छन्।"
    }
   ],
   "model": {
@@ -2500,6 +3155,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Pashupati (Shiva) temple at Devghat Dham at night"
    }
+  ],
+  "short_np": "नारायणगढ नजिक त्रिशूली र कालीगण्डकीको पवित्र सङ्गम, माघे सङ्क्रान्तिको स्नान मेलाका लागि प्रसिद्ध।",
+  "story_np": "ढुङ्गाका भर्‍याङमा उभिएर दुई विशाल नदी एक हुँदै गरेको हेर्नुहोस्। उत्तर-पश्चिमबाट मुक्तिनाथ नजिकबाट सुरु भएको कालीगण्डकी आउँछ; उत्तर-पूर्वबाट गोसाइँकुण्डले पोषित त्रिशूली आउँछ। यहाँ देवघाटमा तिनीहरू भेटिन्छन् र नारायणीका रूपमा सँगै बग्छन्। हिन्दूहरूले यस ठाउँलाई हरिहर क्षेत्र भन्छन्, शिव र विष्णु दुवैका लागि पवित्र, र तिनीहरू विष्णु स्वयंका रूपमा पूजिने शालिग्राम ढुङ्गा खोज्न गिट्टीमा खोज्छन्। ऋषि वशिष्ठले यहीँ आफ्नो आश्रम बनाएको भनिन्छ, र तपाईंले यहाँ मन्दिर, शान्त आश्रम र देवी सीतासँग जोडिएको गुफा पनि भेट्टाउनुहुनेछ। धेरै वृद्ध हिन्दूहरू आफ्नो अन्तिम वर्ष यी पानीको छेउमा बिताउन आउँछन्। हल्लिने झोलुङ्गे पुल तरेर तपाईं तनहुँबाट चितवनमा पुग्नुहुन्छ। जनवरीमा माघे सङ्क्रान्तिमा आउनुभयो भने भीडमा सामेल हुनुहोस्: लाखौँ तीर्थयात्री सङ्गममा नुहाउँछन्, नेपालका सबैभन्दा ठूला मेलाहरूमध्ये एकमा। यो मेला कहिले सुरु भयो भन्ने कसैलाई थाहा छैन।",
+  "legend_np": "ऋषि वशिष्ठले देवघाटमा आफ्नो आश्रम स्थापना गरी तपस्या गरेका थिए भन्ने विश्वास छ।",
+  "facts_np": [
+   "देवघाट त्रिशूली र काली (कृष्ण) गण्डकी नदीको सङ्गममा, नारायणगढबाट करिब ७ किमी टाढा छ।",
+   "सङ्गमपछि दुवै नदी मिलेर बग्ने नदीलाई नारायणी भनिन्छ।",
+   "यहाँको मकर (माघे) सङ्क्रान्तिको मेला नेपालका सबैभन्दा ठूला धार्मिक मेलाहरूमध्ये एक हो; एउटा प्रतिवेदनले तीन लाखभन्दा बढी आगन्तुकको अनुमान गरेको थियो।",
+   "ऐतिहासिक झोलुङ्गे पुलले सहरको तनहुँ र चितवन पट्टिलाई जोड्छ।",
+   "तीर्थयात्रीहरू नुहाउँछन् र शालिग्राम ढुङ्गा खोज्छन्, जसलाई हिन्दूहरू विष्णुका रूपमा पूजा गर्छन्।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "मुस्ताङबाट आएको एउटा नदी र गोसाइँकुण्डबाट आएको अर्को नदी मेरा भर्‍याङमुनि मिल्छन्, र एउटा झोलुङ्गे पुलले दुई जिल्ला जोड्छ।",
+   "माघ महिनामा, जहाँ शिव र विष्णु सँगै पूजिन्छन्, मेरा किनारमा नुहाउन तीर्थयात्रीको भीड लाग्छ।"
   ]
  },
  {
@@ -2555,7 +3225,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Siddha Gufa is a natural karst cave in limestone."
+    "explanation": "Siddha Gufa is a natural karst cave in limestone.",
+    "q_np": "सिद्ध गुफा कस्तो सम्पदा स्थल हो?",
+    "options_np": [
+     "डाँडामाथिको किल्ला",
+     "चूनढुङ्गाको प्राकृतिक गुफा",
+     "बौद्ध गुम्बा",
+     "शाही दरबार"
+    ],
+    "explanation_np": "सिद्ध गुफा चूनढुङ्गामा बनेको प्राकृतिक कार्स्ट गुफा हो।"
    },
    {
     "q": "Near which highway bazaar is the cave's trailhead?",
@@ -2567,7 +3245,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "The cave is about 30 minutes' walk up from Bimal Bazaar on the Prithvi Highway."
+    "explanation": "The cave is about 30 minutes' walk up from Bimal Bazaar on the Prithvi Highway.",
+    "q_np": "गुफामा पुग्ने बाटो कुन राजमार्गको बजार नजिकबाट सुरु हुन्छ?",
+    "options_np": [
+     "मुग्लिन",
+     "बिमलनगर",
+     "दुम्रे",
+     "खैरेनीटार"
+    ],
+    "explanation_np": "पृथ्वी राजमार्गको बिमल बजारबाट गुफा करिब 30 मिनेट उकालो हिँडेपछि पुगिन्छ।"
    },
    {
     "q": "Which animals cluster on the cave walls?",
@@ -2579,7 +3265,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "Clusters of bats cling to the walls inside."
+    "explanation": "Clusters of bats cling to the walls inside.",
+    "q_np": "गुफाका भित्तामा कुन जनावरहरू झुम्मिएर बस्छन्?",
+    "options_np": [
+     "चमेरा",
+     "उल्लु",
+     "सर्प",
+     "बाँदर"
+    ],
+    "explanation_np": "भित्र भित्तामा चमेराका समूह झुण्डिएका हुन्छन्।"
    },
    {
     "q": "To which god are the cave's formations and shrine dedicated?",
@@ -2591,7 +3285,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Pilgrims treat the formations as symbols of Shiva, and a small Shiva shrine stands inside."
+    "explanation": "Pilgrims treat the formations as symbols of Shiva, and a small Shiva shrine stands inside.",
+    "q_np": "गुफाका आकृति र मन्दिर कुन देवतालाई समर्पित छन्?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "ब्रह्मा",
+     "इन्द्र"
+    ],
+    "explanation_np": "तीर्थयात्रीहरूले आकृतिहरूलाई शिवका प्रतीक मान्छन्, र भित्र सानो शिव मन्दिर छ।"
    },
    {
     "q": "According to local lore, in which year was the cave discovered?",
@@ -2603,7 +3305,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "A woman collecting herbs is said to have found it in 1989; it was surveyed in 1990-91."
+    "explanation": "A woman collecting herbs is said to have found it in 1989; it was surveyed in 1990-91.",
+    "q_np": "स्थानीय कथन अनुसार गुफा कुन वर्ष भेटिएको थियो?",
+    "options_np": [
+     "1951",
+     "1972",
+     "1989",
+     "2005"
+    ],
+    "explanation_np": "जडीबुटी टिप्न गएकी एक महिलाले सन् 1989 मा भेटेको भनिन्छ; 1990-91 मा सर्वेक्षण गरिएको थियो।"
    }
   ],
   "clues": [
@@ -2706,6 +3416,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Steps on the trail up to the cave"
    }
+  ],
+  "short_np": "बन्दीपुरको बाटोमा बिमलनगरमाथि रहेको विशाल चुनढुङ्गाको गुफा, जहाँ स्ट्यालाक्टाइटहरू छन् र शिवभक्त तीर्थयात्रीहरूले पूज्छन्।",
+  "story_np": "आफ्नो हेडल्याम्प बाल्नुहोस् र आँखालाई अँध्यारोमा अभ्यस्त हुन दिनुहोस्। तपाईं सिद्ध गुफाभित्र हुनुहुन्छ, नेपालका सबैभन्दा ठूला गुफामध्ये एक, जुन बन्दीपुर जाने पुरानो बाटोमा बिमलनगरमाथिको पहाडमा खुल्छ। स्थानीय भनाइ अनुसार 1989 मा जडीबुटी टिप्दै गरेकी एक महिलाले संयोगले यसको मुख भेटिन्, र जर्मन गुफा अन्वेषकहरूले 1990 र 1991 मा यसको नक्सा बनाए। विकिपिडियाले यसको गहिराइ 437 मिटर र उचाइ करिब 50 मिटर दिएको छ, जहाँ 2,500 मानिस अटाउन सक्छन् भनिन्छ। पर्खालमा हेर्नुहोस्: खैरो र सेतो चुनढुङ्गाका तह, र गाइडहरूले हात्ती, सर्पका टाउका, पुतली र कछुवासँग तुलना गर्ने आकृतिहरू। तीर्थयात्रीका लागि यी आकृति शिवका चिन्ह हुन्, र भित्र एउटा सानो मन्दिर छ, साथै ध्यानीहरू कहिलेकाहीँ बस्ने आश्रय पनि। सुन्नुहोस् पनि; माथिको अँध्यारोमा चमेरा झुन्डिएका छन्। चिप्लो बाटो र भर्‍याङमा होसियार भई हिँड्नुहोस्, र उज्यालोमा तथा हरिया मर्स्याङ्दीका डाँडामा फर्कनुहोस्।",
+  "legend_np": "तीर्थयात्रीहरू गुफाका चट्टानी आकृतिलाई शिवका प्राकृतिक प्रतीक मान्छन्, र यसको नाम 'सिद्ध' (सिद्धि प्राप्त तपस्वी) ले संकेत गरेझैं गुफा लामो समयदेखि ध्यानीहरूले प्रयोग गर्दै आएका छन्।",
+  "facts_np": [
+   "विकिपिडियाले गुफाको गहिराइ 437 मिटर र उचाइ 50 मिटर दिएको छ, जहाँ करिब 2,500 मानिस अटाउन सक्छन्।",
+   "स्थानीय भनाइ अनुसार यो 1989 मा जडीबुटी सङ्कलन गर्दै गरेकी एक महिलाले भेटेकी थिइन्; जर्मन गुफा विशेषज्ञहरूले 1990-91 मा यसको सर्वेक्षण गरे।",
+   "Showcaves.com ले 758 मिटर मार्ग र 105 मिटर ठाडो दायरा सूचीबद्ध गर्दै यसलाई नेपालको ज्ञात सबैभन्दा गहिरो गुफा भनेको छ।",
+   "पृथ्वी राजमार्गको बिमल बजारबाट गुफाको प्रवेशद्वार उकालो करिब 30 मिनेटको पैदल दूरीमा छ।",
+   "भित्र चमेराहरू बस्छन्, र एउटा सानो शिव मन्दिर छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "एक जडीबुटी टिप्ने मानिस सन् 1989 मा नेवार पहाडी बस्तीतर्फको बाटोको आधा दूरीमा मेरो अँध्यारो मुखमा ठोक्किए।",
+   "टर्च लिएर आऊ: मभित्र छतबाट ढुङ्गाका हात्ती, सर्पका टाउका र कछुवा सुतिरहेका चमेराका बीचमा झुण्डिएका छन्।"
   ]
  },
  {
@@ -2761,7 +3486,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The presiding deity is Kalika, a fierce form of Shakti."
+    "explanation": "The presiding deity is Kalika, a fierce form of Shakti.",
+    "q_np": "बागलुङको यस मन्दिरमा कुन देवीको पूजा गरिन्छ?",
+    "options_np": [
+     "सरस्वती",
+     "कालिका (काली)",
+     "लक्ष्मी",
+     "अन्नपूर्णा"
+    ],
+    "explanation_np": "मुख्य देवी कालिका हुन्, जो शक्तिको उग्र रूप हुन्।"
    },
    {
     "q": "How many entrances does the temple courtyard have?",
@@ -2773,7 +3506,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "The courtyard has four entrances, one in each cardinal direction."
+    "explanation": "The courtyard has four entrances, one in each cardinal direction.",
+    "q_np": "मन्दिरको चोकमा कति ओटा प्रवेशद्वार छन्?",
+    "options_np": [
+     "एउटा",
+     "दुई",
+     "चार",
+     "आठ"
+    ],
+    "explanation_np": "चोकमा चार दिशामा एक-एक गरी चार प्रवेशद्वार छन्।"
    },
    {
     "q": "In which Nepali month is the main festival, Chaite Dashain, held?",
@@ -2785,7 +3526,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Chaite Dashain falls on the eighth day of the bright fortnight of Chaitra."
+    "explanation": "Chaite Dashain falls on the eighth day of the bright fortnight of Chaitra.",
+    "q_np": "मुख्य चाड चैते दशैं नेपाली कुन महिनामा मनाइन्छ?",
+    "options_np": [
+     "असोज",
+     "चैत",
+     "माघ",
+     "श्रावण"
+    ],
+    "explanation_np": "चैते दशैं चैत्र शुक्ल पक्षको अष्टमीका दिन पर्छ।"
    },
    {
     "q": "How did the king of Parbat receive the goddess's image, according to folklore?",
@@ -2797,7 +3546,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Pratap Narayan Singh Malla received it in the dowry of Manimukunda Sen's daughter."
+    "explanation": "Pratap Narayan Singh Malla received it in the dowry of Manimukunda Sen's daughter.",
+    "q_np": "लोककथा अनुसार पर्वतका राजाले देवीको मूर्ति कसरी पाए?",
+    "options_np": [
+     "नदीमा भेटिएको",
+     "दाइजोको रूपमा",
+     "युद्धमा जितेको",
+     "तिब्बतबाट ल्याइएको"
+    ],
+    "explanation_np": "प्रताप नारायण सिंह मल्लले मणिमुकुन्द सेनकी छोरीको दाइजोमा यो पाएका थिए।"
    },
    {
     "q": "Which offering was stopped at the temple in April 2016?",
@@ -2809,7 +3566,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "Pigeon sacrifice ended on 13 April 2016 because the pigeon symbolises peace."
+    "explanation": "Pigeon sacrifice ended on 13 April 2016 because the pigeon symbolises peace.",
+    "q_np": "अप्रिल 2016 मा मन्दिरमा कुन चढाउने चलन बन्द गरियो?",
+    "options_np": [
+     "बोकाको बलि",
+     "परेवाको बलि",
+     "नरिवल चढाउने",
+     "चामल चढाउने"
+    ],
+    "explanation_np": "परेवा शान्तिको प्रतीक भएकाले 13 अप्रिल 2016 मा परेवाको बलि बन्द गरियो।"
    }
   ],
   "clues": [
@@ -2827,15 +3592,17 @@
   "festivals": [
    {
     "name": "Chaite Dashain",
-    "name_np": "चैते दशैँ",
+    "name_np": "चैते दशैं",
     "month": "Chaitra",
-    "note": "Main festival on Chaitra Shukla Ashtami; devotees light oil lamps, perform puja and some marry here."
+    "note": "Main festival on Chaitra Shukla Ashtami; devotees light oil lamps, perform puja and some marry here.",
+    "note_np": "चैत्र शुक्ल अष्टमीका दिन मनाइने मुख्य चाड; भक्तजनले तेलका बत्ती बाल्छन्, पूजा गर्छन् र कसैकसैले यहीँ विवाह गर्छन्।"
    },
    {
     "name": "Dashain",
-    "name_np": "दशैँ",
+    "name_np": "दशैं",
     "month": "Ashwin",
-    "note": "Celebrated from the bright fortnight of Ashwin to the full moon."
+    "note": "Celebrated from the bright fortnight of Ashwin to the full moon.",
+    "note_np": "असोजको शुक्ल पक्षदेखि पूर्णिमासम्म मनाइन्छ।"
    }
   ],
   "model": {
@@ -2927,6 +3694,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "The temple courtyard and forest"
    }
+  ],
+  "short_np": "बागलुङको ठूलो कालिका मन्दिर, कालीगण्डकीमाथिको पवित्र वनभित्रको तीनतले पगोडा, चैते दशैँ मेलाका लागि प्रसिद्ध।",
+  "story_np": "बागलुङ बजारको छेउको जङ्गलको छायाँमा पस्नुहोस् र चारै दिशाका लागि एक-एक वटा गरी चार ढोका भएको आँगन भेट्नुहुनेछ। यसको बीचमा उग्र देवी काली कालिका भगवतीको रातो तीनतले पगोडा उभिएको छ। यस ठाउँको कथा एउटा विवाहबाट सुरु हुन्छ। पर्वतका राजा प्रताप नारायण सिंह मल्लले राजा मणिमुकुन्द सेनकी छोरीसँग विवाह गरे र दाइजोको अंशका रूपमा कालिकाको मूर्ति पाए। घर फर्किने बाटोमा जन्ती यही जङ्गलमा रात बिताउन रोकिए। बिहान कसैले मूर्ति उठाउन सकेनन्, त्यसैले राजाले त्यही ठाउँमा मन्दिर बनाए। तपाईंको वरिपरि शिव, राधाकृष्ण र लक्ष्मीनारायणका साना मन्दिरहरू छन्। चैत्रमा चैते दशैँमा आउनुहोस्, जब हजारौँ मानिसले तेलका बत्ती बाल्छन् र केही जोडीले देवीको आशीर्वादका लागि यहीँ विवाह पनि गर्छन्। सन् 2016 को अप्रिलदेखि परेवाको बलि दिइँदैन; बरु तिनलाई स्वतन्त्र छोडिन्छ।",
+  "legend_np": "पर्वतका राजा प्रताप नारायण सिंह मल्लले राजा मणिमुकुन्द सेनबाट दाइजोमा देवीको मूर्ति पाए। उनको जन्ती यही जङ्गलमा रातभर आराम गर्दा भोलिपल्ट बिहान मूर्ति हल्लाउन सकिएन, त्यसैले उनले त्यहीँ मन्दिर बनाए।",
+  "facts_np": [
+   "मन्दिर बागलुङ सहरको दक्षिणपूर्वमा, कालीगण्डकी नदीमाथि छ।",
+   "यसको आँगनमा चार प्रवेशद्वार छन्, प्रत्येक दिशामा एक-एक।",
+   "चैत्र शुक्ल पक्षको अष्टमीमा पर्ने चैते दशैँ यसको सबैभन्दा ठूलो पर्व हो।",
+   "सन् 2016 को अप्रिल 13 मा परेवाको बलि बन्द गरियो; अब परेवा मन्दिर परिसरमा छोडिन्छन्।",
+   "मन्दिर संरक्षित कालिका भगवती गुठी वनले घेरिएको छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "दाइजोमा आएकी एक देवीले जन्ती बास बसेको जङ्गल छोड्न मानिनन्।",
+   "चार ढोकाले मेरो रातो तीन छाने पगोडासम्म पुर्‍याउँछन्, जुन कालीगण्डकी किनारको एउटा बजारछेउ छ; चैतमा जोडीहरू आशीर्वाद लिन यहाँ विवाह गर्छन्।"
   ]
  },
  {
@@ -2982,7 +3764,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Gupteshwor Mahadev means the hidden Lord Shiva; a Shiva lingam is worshipped inside."
+    "explanation": "Gupteshwor Mahadev means the hidden Lord Shiva; a Shiva lingam is worshipped inside.",
+    "q_np": "गुप्तेश्वर गुफाभित्र कुन देवताको पूजा गरिन्छ?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "गणेश",
+     "हनुमान"
+    ],
+    "explanation_np": "गुप्तेश्वर महादेव भनेको लुकेका भगवान् शिव हुन्; भित्र शिवलिङ्गको पूजा गरिन्छ।"
    },
    {
     "q": "Which famous waterfall can be seen from inside the cave?",
@@ -2994,7 +3784,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "A lower passage leads behind Devi's Fall (Patale Chhango), across the road."
+    "explanation": "A lower passage leads behind Devi's Fall (Patale Chhango), across the road.",
+    "q_np": "गुफाभित्रबाट कुन प्रसिद्ध झरना देख्न सकिन्छ?",
+    "options_np": [
+     "ह्याङ्जा झरना",
+     "देवीको झरना",
+     "रुपसे झरना",
+     "झुम्दी झरना"
+    ],
+    "explanation_np": "तल्लो बाटोले सडकको पारि रहेको देवीको झरना (पाताले छाँगो) को पछाडिसम्म पुर्‍याउँछ।"
    },
    {
     "q": "In which part of Pokhara is the cave?",
@@ -3006,7 +3804,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "The cave is in Pokhara-17, Chhorepatan."
+    "explanation": "The cave is in Pokhara-17, Chhorepatan.",
+    "q_np": "गुफा पोखराको कुन भागमा छ?",
+    "options_np": [
+     "लेकसाइड",
+     "छोरेपाटन",
+     "बिन्ध्यबासिनी",
+     "महेन्द्रपुल"
+    ],
+    "explanation_np": "गुफा पोखरा-17, छोरेपाटनमा छ।"
    },
    {
     "q": "In which year was the entrance staircase built?",
@@ -3018,7 +3824,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "Showcaves.com records the staircase at the entrance as built in 1991."
+    "explanation": "Showcaves.com records the staircase at the entrance as built in 1991.",
+    "q_np": "प्रवेशद्वारको भर्‍याङ कुन वर्षमा बनाइएको थियो?",
+    "options_np": [
+     "1950",
+     "1976",
+     "1991",
+     "2015"
+    ],
+    "explanation_np": "Showcaves.com ले प्रवेशद्वारको भर्‍याङ 1991 मा बनेको भनी उल्लेख गरेको छ।"
    },
    {
     "q": "Which river, draining Phewa Lake, flows through the cave?",
@@ -3030,7 +3844,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "Wikipedia notes the river draining Phewa Tal through the cave is the Pardi Khola."
+    "explanation": "Wikipedia notes the river draining Phewa Tal through the cave is the Pardi Khola.",
+    "q_np": "फेवा तालको निकास भएर गुफाभित्र बग्ने नदी कुन हो?",
+    "options_np": [
+     "सेती",
+     "पर्दी खोला",
+     "बिजयपुर खोला",
+     "मादी"
+    ],
+    "explanation_np": "विकिपिडियाका अनुसार फेवा तालबाट निस्केर गुफाभित्र बग्ने खोला पर्दी खोला हो।"
    }
   ],
   "clues": [
@@ -3134,6 +3956,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Stairs at the cave entrance"
    }
+  ],
+  "short_np": "पोखराको छोरेपाटनमा रहेको शिवको गुफा मन्दिर, जसको तल्लो बाटोबाट तपाईं देवीको झरना पछाडिबाट खस्दै गरेको हेर्न सक्नुहुन्छ।",
+  "story_np": "छोरेपाटनको घुमाउरो भर्‍याङबाट तल झर्दै जानुहोस् र सहरको कोलाहल बगिरहेको पानीको गुञ्जनमा हराउँछ। तपाईं गुप्तेश्वर महादेव, लुकेका शिवको गुफामा प्रवेश गर्दै हुनुहुन्छ। पहिलो कोठामा, फलामको जालीभित्र, तीर्थयात्रीहरू पूजा गर्न आउने शिवलिङ्ग छ, सायद प्रकृतिले नै स्तम्भका रूपमा आकार दिएको। यहाँका मानिसहरू भन्छन् गुफा सन् १९५० मा भेटिएको थियो, र तपाईंले अहिले प्रयोग गर्नुभएको प्रवेशको भर्‍याङ सन् १९९१ मा बनाइएको थियो। मौसमले दिएमा, तल जान जारी राख्नुहोस्। एउटा चिसो, साँघुरो बाटो करिब बीस मिटर तल नदीसम्म झर्छ, र अचानक तपाईं सडकपारिको झरना, देवीको झरना, को पछाडि उभिनुहुन्छ, अँध्यारोमा फेवा तालको पानी गर्जिँदै बगेको हेर्दै। सन् १९७० को दशकमा बेलायती गुफा अनुसन्धानकर्ताहरू यहाँ बाटाहरूको नक्सा बनाउन र ठूला पात-नाके चमेरा र फल खाने चमेरा लगायतका बासिन्दाहरू गन्न आएका थिए। रेलिङ समात्नुहोस् र चिसो हावाको आनन्द लिनुहोस्।",
+  "legend_np": null,
+  "facts_np": [
+   "गुफा पोखरा-१७, छोरेपाटनमा, देवी (डेविस) फल्सको अगाडि पर्छ।",
+   "फेवा तालको निकास (पर्दी खोला) देवीको झरनाको पानी गुफाभित्र भएर बग्छ।",
+   "Showcaves.com का अनुसार यो सन् १९५० मा पत्ता लागेको थियो र यसको प्रवेशको भर्‍याङ सन् १९९१ मा बनाइएको थियो।",
+   "सन् १९७६ को बेलायती अभियानले भित्र बस्ने ठूला हिमाली पात-नाके चमेरा र फल खाने चमेराहरू दर्ज गरेको थियो।",
+   "Showcaves.com ले गुफाको लम्बाइ करिब २,९५० मिटर र ठाडो दायरा ४८ मिटर रहेको उल्लेख गरेको छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "व्यस्त सडकमुनि घुमाउरो बाटो झरेर लुकेका भगवान्‍लाई भेट, अनि अझै अगाडि बढेर एउटा प्रसिद्ध झरनालाई पछाडिबाट हेर।",
+   "एउटा ठूलो तालको निकास मेरो अगाडिपट्टि जमिनमुनि हराउँछ, र म तीर्थयात्रीलाई त्यो कहाँ जान्छ भनेर देखाउँछु।"
   ]
  }
 ]

@@ -74,7 +74,7 @@ export function ShlokaRotator({ interval = 10000 }) {
 export function Epigraph({ index = 0, faith }) {
   const s = useMemo(() => (faith ? verseFor(faith, index) : SHLOKAS[index % SHLOKAS.length]), [faith, index]);
   return (
-    <p className="epigraph" lang="sa" title={`${s.en} (${s.src})`}>
+    <p className="epigraph" lang="sa" title={s.en}>
       <span>{s.dev[0].replace(/[।॥]\s*$/, '')}</span>
       <small>{s.src}</small>
     </p>

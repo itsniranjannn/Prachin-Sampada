@@ -48,9 +48,10 @@
   "festivals": [
    {
     "name": "Sindure Jatra",
-    "name_np": "सिन्दुरे जात्रा",
+    "name_np": "सिन्दूर जात्रा",
     "month": "Baisakh",
-    "note": "Vermilion-smeared procession from the nearby Bhairabi Temple to the Taleju temple beside the palace."
+    "note": "Vermilion-smeared procession from the nearby Bhairabi Temple to the Taleju temple beside the palace.",
+    "note_np": "नजिकैको भैरवी मन्दिरबाट दरबार छेउको तलेजु मन्दिरसम्म सिन्दूर दलेर निकालिने जात्रा।"
    }
   ],
   "quiz": [
@@ -64,7 +65,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Saat Tale means seven-storey; the main palace has seven floors."
+    "explanation": "Saat Tale means seven-storey; the main palace has seven floors.",
+    "q_np": "नुवाकोट दरबारलाई 'सात तले' किन भनिन्छ?",
+    "options_np": [
+     "यसमा सातवटा चोक छन्",
+     "यसमा सात तल्ला छन्",
+     "यो बनाउन सात वर्ष लाग्यो",
+     "यसमा सातवटा ढोका छन्"
+    ],
+    "explanation_np": "सात तले भनेको सात तल्ला हो; मुख्य दरबारमा सात तल्ला छन्।"
    },
    {
     "q": "Which king moved his capital from Gorkha to Nuwakot after 1744?",
@@ -76,7 +85,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Prithvi Narayan Shah conquered Nuwakot in 1801 BS and based his unification campaign here."
+    "explanation": "Prithvi Narayan Shah conquered Nuwakot in 1801 BS and based his unification campaign here.",
+    "q_np": "1744 पछि कुन राजाले आफ्नो राजधानी गोरखाबाट नुवाकोट सारे?",
+    "options_np": [
+     "जयप्रकाश मल्ल",
+     "पृथ्वीनारायण शाह",
+     "रणबहादुर शाह",
+     "मुकुन्द सेन"
+    ],
+    "explanation_np": "पृथ्वीनारायण शाहले 1801 वि.सं. मा नुवाकोट जितेर यहीँबाट एकीकरण अभियान सञ्चालन गरे।"
    },
    {
     "q": "Which floors of the palace were used as a prison?",
@@ -88,7 +105,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "The fifth and sixth floors held prisoners, including the King of Tanahun."
+    "explanation": "The fifth and sixth floors held prisoners, including the King of Tanahun.",
+    "q_np": "दरबारका कुन तल्लाहरू कारागारका रूपमा प्रयोग गरिन्थे?",
+    "options_np": [
+     "भुइँ र पहिलो",
+     "दोस्रो र तेस्रो",
+     "पाँचौँ र छैटौँ",
+     "सातौँ मात्र"
+    ],
+    "explanation_np": "पाँचौँ र छैटौँ तल्लामा तनहुँका राजासहित कैदीहरू राखिएका थिए।"
    },
    {
     "q": "Where did the craftsmen who built the palace come from?",
@@ -100,7 +125,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "Craftsmen from Lalitpur built the palace in the Kathmandu style."
+    "explanation": "Craftsmen from Lalitpur built the palace in the Kathmandu style.",
+    "q_np": "दरबार बनाउने सिपालुहरू कहाँबाट आएका थिए?",
+    "options_np": [
+     "गोरखा",
+     "ललितपुर",
+     "तिब्बत",
+     "पाल्पा"
+    ],
+    "explanation_np": "ललितपुरका सिपालुहरूले दरबार काठमाडौँ शैलीमा बनाए।"
    },
    {
     "q": "How thick are the walls of the main palace?",
@@ -112,7 +145,15 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "The palace was built like a fort with walls about 6 feet thick."
+    "explanation": "The palace was built like a fort with walls about 6 feet thick.",
+    "q_np": "मुख्य दरबारका भित्ता कति बाक्लो छन्?",
+    "options_np": [
+     "करिब 1 फिट",
+     "करिब 3 फिट",
+     "करिब 6 फिट",
+     "करिब 12 फिट"
+    ],
+    "explanation_np": "दरबार किल्ला जस्तै बनेको छ, र भित्ताहरू करिब 6 फिट बाक्लो छन्।"
    }
   ],
   "clues": [
@@ -212,6 +253,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "The palace after the 2015 earthquake"
    }
+  ],
+  "short_np": "सात तले डाँडाको दरबार, जसलाई पृथ्वीनारायण शाहले नेपाल एकीकरणको आधारका रूपमा प्रयोग गरे।",
+  "story_np": "तपाईं नुवाकोटको डाँडामा उभिएर सात तले दरबार, सात तले दरबारतिर हेर्दै हुनुहुन्छ। पृथ्वीनारायण शाहले सन् १७४४ मा नुवाकोट कब्जा गरेपछि उनले गोरखाबाट राजधानी यहीँ सारे, किनभने यो डाँडा काठमाडौँ उपत्यका र तिब्बतबीचको पुरानो व्यापारिक बाटोमा पर्छ। हरेक तलाको आफ्नै काम थियो। दरबारिया र पहरेदारहरू भुइँतलामा बस्थे, राजाले पहिलो तलामा बैठक गर्थे, शाही जोडी दोस्रो तलामा सुत्थे, सिपाहीहरू माथि पहरा दिन्थे, र पाँचौँ र छैटौँ तला कब्जामा परेका राजाहरूका लागि कारागार थिए। भित्ताहरू कति बाक्ला छन् हेर्नुहोस्, करिब छ फिट, घरभन्दा बढी किल्ला। ललितपुरका शिल्पीहरूले तपाईंले देख्ने झ्यालहरू कुँदेका थिए। दक्षिण-पूर्वमा रङ्गमहल, पुरानो नाट्यशाला, र पूर्वमा पहरा घरतिर हेर्नुहोस्। सन् २०१५ को भूकम्पले परिसरलाई ठूलो क्षति पुर्‍यायो, र पुनर्स्थापना त्यसयता चलिरहेको छ।",
+  "legend_np": null,
+  "facts_np": [
+   "पृथ्वीनारायण शाहले वि.सं. १८०१ (१७४४-४५) मा नुवाकोट जितेपछि राजधानी गोरखाबाट यहाँ सारे।",
+   "मुख्य दरबारमा सात तला छन्, त्यसैले स्थानीयले यसलाई सात तले दरबार भन्छन्।",
+   "यसको जगको नाप ८४ गुणा ३६ फिट र भित्ताहरू करिब ६ फिट बाक्लो छन्।",
+   "पाँचौँ र छैटौँ तला कारागारका रूपमा प्रयोग गरिन्थे; तनहुँका राजालाई यहीँ राखिएको थियो।",
+   "दरबार सन् २००८ देखि नेपालको युनेस्को अस्थायी सूचीमा छ।"
+  ],
+  "quake_np": "सन् २०१५ अप्रिलको भूकम्पले दरबार परिसरलाई ध्वस्त पार्‍यो; त्यसयता पुनर्स्थापना हुँदै आएको छ, महामारीका कारण काम ढिलो भएको छ।",
+  "clues_np": [
+   "एक विजेताले आफ्नो पहाडी राजधानी छाडेर यही डाँडाबाट शासन गरे; पहरेदारको कोठामाथि सात तल्ला गनिन्छन्।",
+   "त्रिशूली उपत्यकामाथिको यो इँटाको मीनारको पाँचौँ र छैटौँ तल्लामा राजाहरू कैदी भएर बसेका थिए।"
   ]
  },
  {
@@ -262,9 +318,10 @@
   "festivals": [
    {
     "name": "Sindure Jatra (Bhairavi Jatra)",
-    "name_np": "सिन्दुरे जात्रा",
+    "name_np": "सिन्दुरे जात्रा (भैरवी जात्रा)",
     "month": "Baisakh",
-    "note": "Procession to the Taleju temple in which participants smear each other with vermilion; animal sacrifices are offered."
+    "note": "Procession to the Taleju temple in which participants smear each other with vermilion; animal sacrifices are offered.",
+    "note_np": "तलेजु मन्दिरसम्म जुलुस निस्कन्छ, जसमा सहभागीहरूले एकअर्कालाई सिन्दूर दल्छन्; पशुबलि चढाइन्छ।"
    }
   ],
   "quiz": [
@@ -278,7 +335,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The temple is dedicated to Bhairavi, consort of Bhairav."
+    "explanation": "The temple is dedicated to Bhairavi, consort of Bhairav.",
+    "q_np": "नुवाकोटको यस मन्दिरमा कुन देवीको पूजा गरिन्छ?",
+    "options_np": [
+     "तलेजु",
+     "भैरवी",
+     "कुमारी",
+     "मनकामना"
+    ],
+    "explanation_np": "मन्दिर भैरवको शक्ति भैरवीलाई समर्पित छ।"
    },
    {
     "q": "What is smeared on people during the temple's main festival?",
@@ -290,7 +355,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "The Sindure Jatra is named after sindur, the red vermilion powder."
+    "explanation": "The Sindure Jatra is named after sindur, the red vermilion powder.",
+    "q_np": "मन्दिरको मुख्य पर्वमा मानिसहरूलाई के दलिन्छ?",
+    "options_np": [
+     "रङ्गीन पानी",
+     "सिन्दूर",
+     "खरानी",
+     "बेसारको लेप"
+    ],
+    "explanation_np": "सिन्दुरे जात्राको नाम रातो अबिर सिन्दूरबाट रहेको हो।"
    },
    {
     "q": "Which direction does the main door face?",
@@ -302,7 +375,15 @@
     ],
     "answer_index": 3,
     "difficulty": 3,
-    "explanation": "The main door of the temple faces west."
+    "explanation": "The main door of the temple faces west.",
+    "q_np": "मुख्य ढोका कुन दिशातर्फ फर्केको छ?",
+    "options_np": [
+     "उत्तर",
+     "पूर्व",
+     "दक्षिण",
+     "पश्चिम"
+    ],
+    "explanation_np": "मन्दिरको मुख्य ढोका पश्चिमतर्फ फर्केको छ।"
    },
    {
     "q": "Who installed the temple's copper roof in 1793?",
@@ -314,7 +395,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "Bahadur Shah installed the roof and a victory copper plate in 1793."
+    "explanation": "Bahadur Shah installed the roof and a victory copper plate in 1793.",
+    "q_np": "सन् 1793 मा मन्दिरमा तामाको छाना कसले राखे?",
+    "options_np": [
+     "पृथ्वीनारायण शाह",
+     "बहादुर शाह",
+     "जंगबहादुर राणा",
+     "रणजित मल्ल"
+    ],
+    "explanation_np": "बहादुर शाहले सन् 1793 मा छाना र विजयको तामापत्र राखेका थिए।"
    },
    {
     "q": "What is the temple's hereditary priest called?",
@@ -326,7 +415,15 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "The priest is called the Dhami, and the post passes to his eldest son."
+    "explanation": "The priest is called the Dhami, and the post passes to his eldest son.",
+    "q_np": "मन्दिरको वंशानुगत पुजारीलाई के भनिन्छ?",
+    "options_np": [
+     "राजोपाध्याय",
+     "भट्ट",
+     "धामी",
+     "लामा"
+    ],
+    "explanation_np": "पुजारीलाई धामी भनिन्छ, र यो पद जेठो छोरालाई सर्छ।"
    }
   ],
   "clues": [
@@ -412,6 +509,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
     "caption": "Lane leading up to the temple"
    }
+  ],
+  "short_np": "नुवाकोटको सात तले दरबारको ठीक दक्षिणमा रहेको भैरवी देवीको पगोडा मन्दिर, सिन्दुरे जात्राको थलो।",
+  "story_np": "सात तले दरबारबाट करिब दुई सय मिटर दक्षिणतिर हिँड्नुभयो भने तपाईं भैरवका शक्ति भैरवी देवीको मन्दिरमा पुग्नुहुन्छ। यहाँका मानिसहरू धेरै तल बग्ने त्रिशूली गण्डकी नदीका नाममा उनलाई गण्डकी भैरवी पनि भन्छन्। मुख्य ढोकातिर फर्कनुहोस्: त्यो पश्चिमतर्फ खुल्छ। दुई जोडी सिंहले यसको रक्षा गर्छन्, एक जोडी धातुको र एक जोडी ढुङ्गाको, र सिँढीका दुवैतिर सिन्दुर, अर्थात् रातो अबिरले हात भरिएका दुई महिला उभिएका छन्। यो मन्दिरको महान् पर्व सिन्दुरे जात्राको सङ्केत हो, जब भीडले एकअर्कालाई रातो पोतिदिन्छ। माथि तामाको छानातिर हेर्नुहोस्। बहादुर शाहले 1793 मा यसलाई मर्मत गरे र त्यही वर्ष तिब्बत र चीनमाथि नेपालको विजय घोषणा गर्ने तामाको पाता यहाँ राखे, र कब्जा गरिएका हतियार माथिल्लो तल्लामा भण्डारण गरे। 2015 को भूकम्पले यो मन्दिर ध्वस्त पार्‍यो, र अगस्ट 2020 मा पुनर्स्थापना सकिएपछिको रूपमा तपाईं यसलाई हेर्दै हुनुहुन्छ।",
+  "legend_np": "यस मन्दिरका पुजारी, धामी भनिने, परम्परागत रूपमा राजाको अनुमति बिना त्रिशूली र ताडी नदी पार गर्न निषेधित थिए; उनको मृत्यु भएपछि उनको जेठो छोराले उनको ठाउँ लिन्छ।",
+  "facts_np": [
+   "मन्दिर सात तले नुवाकोट दरबारबाट करिब 200 मिटर दक्षिणमा छ।",
+   "1793 मा बहादुर शाहले यहाँ नेपाल-चीन युद्धमा नेपालको विजय घोषणा गर्ने तामाको पाता राखे, र कब्जा गरिएका हतियार दोस्रो तल्लामा भण्डारण गरे।",
+   "हालको तामाको छाना बहादुर शाहले 1793 मा राखेका थिए।",
+   "मुख्य ढोका पश्चिमतर्फ फर्केको छ र धातुको एक जोडी तथा ढुङ्गाको एक जोडी सिंहले रक्षा गरेका छन्।",
+   "2015 अप्रिलको भूकम्पले ध्वस्त भएको मन्दिर अगस्ट 2020 मा पुनर्स्थापना गरियो।"
+  ],
+  "quake_np": "सन् 2015 अप्रिलको भूकम्पले मन्दिरलाई ध्वस्त बनायो; पुनर्स्थापना अगस्ट 2020 मा सम्पन्न भयो।",
+  "clues_np": [
+   "मेरो भ्याङ्गछेउ दुई ढुङ्गाका महिलाले रातो अबिर बोकेका छन्, र हरेक वसन्तमा मेरो सम्मानमा भीड रातो हुन्छ।",
+   "तिब्बतमाथि विजयको घोषणा गर्ने तामापत्र मेरा भित्तामा ठोकियो, र कब्जा गरिएका हतियार माथिल्लो तलामा राखिए।"
   ]
  },
  {
@@ -464,7 +576,8 @@
     "name": "Janai Purnima",
     "name_np": "जनै पूर्णिमा",
     "month": "Shrawan",
-    "note": "Around 10,000 pilgrims bathe in the lake on the Shrawan full moon and take its water home."
+    "note": "Around 10,000 pilgrims bathe in the lake on the Shrawan full moon and take its water home.",
+    "note_np": "श्रावणको पूर्णिमामा करिब 10,000 तीर्थयात्री तालमा स्नान गर्छन् र त्यसको पानी घर लैजान्छन्।"
    }
   ],
   "quiz": [
@@ -478,7 +591,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Legend says Shiva struck the mountain with his trident to get water after swallowing poison."
+    "explanation": "Legend says Shiva struck the mountain with his trident to get water after swallowing poison.",
+    "q_np": "गोसाइँकुण्ड कुन देवताले बनाएको भनिन्छ?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "ब्रह्मा",
+     "इन्द्र"
+    ],
+    "explanation_np": "किंवदन्ती अनुसार विष खाएपछि शिवले पानी निकाल्न त्रिशूलले पहाडमा प्रहार गरे।"
    },
    {
     "q": "At about what altitude does Gosaikunda lie?",
@@ -490,7 +611,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "The lake is at 4,380 m in Langtang National Park."
+    "explanation": "The lake is at 4,380 m in Langtang National Park.",
+    "q_np": "गोसाइँकुण्ड करिब कति उचाइमा छ?",
+    "options_np": [
+     "1,380 मि.",
+     "2,380 मि.",
+     "4,380 मि.",
+     "6,380 मि."
+    ],
+    "explanation_np": "ताल लाङटाङ राष्ट्रिय निकुञ्जमा 4,380 मि. मा छ।"
    },
    {
     "q": "On which festival do thousands of pilgrims bathe at the lake?",
@@ -502,7 +631,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "The big pilgrimage happens on Janai Purnima, the Shrawan full moon."
+    "explanation": "The big pilgrimage happens on Janai Purnima, the Shrawan full moon.",
+    "q_np": "कुन चाडमा हजारौँ तीर्थयात्री तालमा स्नान गर्छन्?",
+    "options_np": [
+     "दशैं",
+     "तिहार",
+     "जनै पूर्णिमा",
+     "होली"
+    ],
+    "explanation_np": "ठूलो तीर्थयात्रा जनै पूर्णिमा, श्रावणको पूर्णिमामा हुन्छ।"
    },
    {
     "q": "Which pond in Patan is believed to be connected to Gosaikunda?",
@@ -514,7 +651,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "Legend links the spring of the Kumbheshwar temple pond to Gosaikunda."
+    "explanation": "Legend links the spring of the Kumbheshwar temple pond to Gosaikunda.",
+    "q_np": "पाटनको कुन पोखरी गोसाइँकुण्डसँग जोडिएको मानिन्छ?",
+    "options_np": [
+     "रानी पोखरी",
+     "कुम्भेश्वरको पोखरी",
+     "नाग पोखरी",
+     "सिद्ध पोखरी"
+    ],
+    "explanation_np": "किंवदन्तीले कुम्भेश्वर मन्दिरको पोखरीको मूललाई गोसाइँकुण्डसँग जोड्छ।"
    },
    {
     "q": "In which year was the Gosaikunda lake complex listed as a Ramsar site?",
@@ -526,7 +671,15 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "It was designated a Ramsar wetland on 29 September 2007."
+    "explanation": "It was designated a Ramsar wetland on 29 September 2007.",
+    "q_np": "गोसाइँकुण्ड ताल क्षेत्र कुन वर्ष रामसार क्षेत्रको सूचीमा परेको थियो?",
+    "options_np": [
+     "1997",
+     "2003",
+     "2007",
+     "2015"
+    ],
+    "explanation_np": "यो 29 सेप्टेम्बर 2007 मा रामसार सिमसारका रूपमा तोकिएको थियो।"
    }
   ],
   "clues": [
@@ -625,6 +778,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "caption": "Wide view of the lake basin"
    }
+  ],
+  "short_np": "4,380 मिटरमा रहेको पवित्र उच्च हिमाली ताल, शिवको त्रिशूलले बनाएको भनिने, जहाँ जनै पूर्णिमामा हजारौँले स्नान गर्छन्।",
+  "story_np": "सास फेर्नुहोस्। तपाईं 4,380 मिटरमा, लाङटाङ राष्ट्रिय निकुञ्जभित्रको पवित्र ताल गोसाइँकुण्डको छेउमा हुनुहुन्छ। हिन्दूहरू भन्छन् कि देवताहरूले समुद्र मन्थन गर्दा शिवले संसार बचाउन घातक विष निले। उनको घाँटी पोल्यो, त्यसैले उनले यही पहाडमा आफ्नो त्रिशूल रोपे, र चिसो पानी बाहिर उत्पन्न भएर तपाईंको अगाडिको ताल बन्यो। पानीको शान्तता र वरिपरिको नाङ्गो चट्टान हेर्नुहोस्। हरेक जाडोमा करिब छ महिनासम्म सतह ठोस जम्छ। अगस्टमा, जनै पूर्णिमाको दिन किनार हजारौँ तीर्थयात्रीले भरिन्छ, जो धुन्चेबाट दुई-तीन दिन हिँडेर माथि आउँछन्, यहाँ नुहाउन र पानी घरसम्म लैजान। तल पाटनमा मानिसहरू विश्वास गर्छन् कि कुम्भेश्वरको पोखरी यही तालबाट भरिन्छ। सन् 2007 देखि तपाईंको वरिपरिका तालहरू अन्तर्राष्ट्रिय महत्त्वको रामसार सिमसारका रूपमा संरक्षित छन्।",
+  "legend_np": "समुद्र मन्थनका बेला शिवले विष निले; आफ्नो पोलिरहेको घाँटी चिसो पार्न उनले त्रिशूलले पहाडमा प्रहार गरे, र निस्केको पानीले गोसाइँकुण्ड बन्यो।",
+  "facts_np": [
+   "ताल 4,380 मिटरमा छ र यसको सतह क्षेत्रफल 13.8 हेक्टर छ।",
+   "1,030 हेक्टरको गोसाइँकुण्ड ताल क्षेत्र सन् 2007 को सेप्टेम्बर 29 मा रामसार स्थल घोषित भयो।",
+   "जाडोमा ताल करिब छ महिनासम्म जमेको रहन्छ।",
+   "किंवदन्ती अनुसार पाटनको कुम्भेश्वर पोखरीलाई पानी दिने मुहान गोसाइँकुण्डसँग जोडिएको छ।",
+   "नेवारहरूका बीच यो तालाई सिलु भनिन्छ, जुन एउटा प्रसिद्ध गीत र चलचित्रको विषय हो।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "घाँटी पोलेका एक देवताले यस पहाडमा त्रिशूलले प्रहार गरे, र चिसो पानी बाहिर बगेर आयो।",
+   "वर्षको आधा समय म जमेको हुन्छु; अगस्टको एक पूर्णिमामा हजारौँ मानिस मलाई नुहाउन दिनौँ हिँडेर चढ्छन्।"
   ]
  },
  {
@@ -676,9 +844,10 @@
   "festivals": [
    {
     "name": "Dashain (Khadga Jatra)",
-    "name_np": "दशैँ (खड्ग जात्रा)",
+    "name_np": "दशैँ (खड्गजात्रा)",
     "month": "Ashwin",
-    "note": "Dolakha's Dashain begins with puja at the Bhimeshwor temple, followed by the town's sword (Khadga) procession."
+    "note": "Dolakha's Dashain begins with puja at the Bhimeshwor temple, followed by the town's sword (Khadga) procession.",
+    "note_np": "दोलखाको दशैँ भीमेश्वर मन्दिरमा पूजाबाट सुरु हुन्छ, त्यसपछि सहरको खड्गजात्रा निस्किन्छ।"
    }
   ],
   "quiz": [
@@ -692,7 +861,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The idol sits in a roofless shrine, open to the sky."
+    "explanation": "The idol sits in a roofless shrine, open to the sky.",
+    "q_np": "दोलखा भीमसेनको मन्दिरबारे के असामान्य कुरा छ?",
+    "options_np": [
+     "यो पानीमुनि छ",
+     "यसमा छाना छैन",
+     "यो सुनको बनेको छ",
+     "यो गुफाभित्र छ"
+    ],
+    "explanation_np": "मूर्ति छाना नभएको, आकाशतर्फ खुला मन्दिरमा रहेको छ।"
    },
    {
     "q": "Bhimsen is especially worshipped here as the god of what?",
@@ -704,7 +881,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Bhindyo is the patron god of trade, commerce and fortune for the Newar business community."
+    "explanation": "Bhindyo is the patron god of trade, commerce and fortune for the Newar business community.",
+    "q_np": "यहाँ भीमसेनलाई विशेष गरी कुन कुराका देवताका रूपमा पूजा गरिन्छ?",
+    "options_np": [
+     "वर्षा",
+     "व्यापार र भाग्य",
+     "युद्ध मात्र",
+     "विद्या"
+    ],
+    "explanation_np": "भिन्द्योलाई नेवार व्यापारी समुदायका लागि व्यापार, वाणिज्य र भाग्यका संरक्षक देवता मानिन्छ।"
    },
    {
     "q": "What shape is the stone idol?",
@@ -716,7 +901,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "The idol is a triangular-shaped black stone."
+    "explanation": "The idol is a triangular-shaped black stone.",
+    "q_np": "ढुङ्गाको मूर्ति कुन आकारको छ?",
+    "options_np": [
+     "गोलो",
+     "चौकोर",
+     "त्रिकोणाकार",
+     "मानव आकारको"
+    ],
+    "explanation_np": "मूर्ति त्रिकोणाकार कालो ढुङ्गा हो।"
    },
    {
     "q": "What is believed to happen to the idol before a national disaster?",
@@ -728,7 +921,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Drops of sweat on the idol are read as a warning, e.g. before the 1934 earthquake."
+    "explanation": "Drops of sweat on the idol are read as a warning, e.g. before the 1934 earthquake.",
+    "q_np": "राष्ट्रिय विपत्तिअघि मूर्तिलाई के हुने विश्वास गरिन्छ?",
+    "options_np": [
+     "यो रातो हुन्छ",
+     "यसमा पसिना आउँछ",
+     "यो चर्कन्छ",
+     "यो घण्टा झैँ बज्छ"
+    ],
+    "explanation_np": "मूर्तिमा देखिने पसिनाका थोपालाई चेतावनी मानिन्छ, जस्तै 1934 को भूकम्पअघि।"
    },
    {
     "q": "An inscription records a renovation of the temple in which year?",
@@ -740,7 +941,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "An inscription dated 1611 AD mentions the renovation."
+    "explanation": "An inscription dated 1611 AD mentions the renovation.",
+    "q_np": "एउटा शिलालेखले मन्दिरको जीर्णोद्धार कुन वर्षमा भएको उल्लेख गर्छ?",
+    "options_np": [
+     "1311 AD",
+     "1611 AD",
+     "1811 AD",
+     "1934 AD"
+    ],
+    "explanation_np": "1611 AD को शिलालेखमा जीर्णोद्धारको उल्लेख छ।"
    }
   ],
   "clues": [
@@ -834,6 +1043,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "caption": "Stone steps and lane in old Dolakha bazaar"
    }
+  ],
+  "short_np": "पुरानो दोलखा बजारको छानारहित नेवारी मन्दिर, जसको त्रिकोणाकार ढुङ्गाको भीमसेनको मूर्तिले राष्ट्रिय विपत्तिअघि पसिना आउँछ भनिन्छ।",
+  "story_np": "पुरानो दोलखा बजारको जालीदार ढोकाबाट प्रवेश गर्नुहोस् र माथि हेर्नुहोस्: छाना छैन। यहाँका नेवारहरूले भिन्द्यो भन्ने भीमसेनको मूर्ति कालो ढुङ्गाको त्रिकोणाकार खण्डका रूपमा खुला आकाशमुनि बसेको छ। व्यापारीहरू राम्रो व्यापारका लागि उनको प्रार्थना गर्छन्, र हरेक हप्ता करिब पाँच हजार मानिस आउँछन्। भक्तजनहरू भन्छन् ढुङ्गाले एक दिनमा तीन मुहार देखाउँछ: बिहान भीमेश्वर, दिनभर महादेव र साँझ नारायण। स्थानीय कथाअनुसार बाह्र भरियाले एक पटक यही ढुङ्गाको सहारामा खाना पकाउने आगो बालेका थिए; उनीहरूको भात पाकेन, र एकजनाले डल्लाले ढुङ्गामा हिर्काउँदा, त्यसले रगत मिसिएको दूध बगायो। यो मूर्ति पसिना आउनका लागि प्रसिद्ध छ। सन् १९३४ को भूकम्पअघि र सन् २००१ को शाही हत्याकाण्डअघि थोपा देखिएको बताइन्छ, र पुजारीले पसिना कपासमा सोसेर दरबारमा पठाउँथे, जसले दुर्भाग्य टार्न भेटीसहित जवाफ दिन्थ्यो।",
+  "legend_np": "बाह्र भरियाले त्रिकोणाकार ढुङ्गालाई चुलोको भागका रूपमा प्रयोग गरे। ढुङ्गा छोएको ठाउँमा उनीहरूको भात काँचै रह्यो; एकजना भरियाले डल्लाले हिर्काए, ढुङ्गा चर्कियो र रगतले लपेटिएको दूध बग्यो, र उनीहरूले बुझे कि त्यो भीमसेन हो।",
+  "facts_np": [
+   "मन्दिरमा छाना छैन; त्रिकोणाकार ढुङ्गाको मूर्ति खुला आकाशमुनि उभिएको छ।",
+   "सन् १६११ को एउटा शिलालेखले मन्दिरको जीर्णोद्धार अभिलेख गरेको छ; यसको स्थापनाको मिति अज्ञात छ।",
+   "मूर्ति बिहान भीमेश्वर, दिनमा महादेव र साँझ नारायणको रूपमा देखा पर्छ भन्ने विश्वास गरिन्छ।",
+   "मूर्तिबाट पसिना आउनुलाई अशुभ सङ्केत मानिन्छ; यो सन् १९३४ मा, सन् २००१ को शाही हत्याकाण्डअघि र २० फेब्रुअरी २०२० मा देखिएको बताइएको थियो।",
+   "मन्दिरमा हरेक हप्ता करिब ५,००० भक्तजन आउँछन्।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "मेरा देवता टाउकोमाथि छाना बिना बस्छन्, र व्यापारीहरू सौदाअघि उनीसँग प्रार्थना गर्छन्।",
+   "मेरो कालो त्रिकोणाकार ढुङ्गामा पसिनाका थोपा देखिँदा सारा देश चिन्तित हुन्छ।"
   ]
  },
  {
@@ -885,13 +1109,15 @@
     "name": "Dashain",
     "name_np": "दशैँ",
     "month": "Ashwin",
-    "note": "The summit is especially crowded with pilgrims during Dashain."
+    "note": "The summit is especially crowded with pilgrims during Dashain.",
+    "note_np": "दशैँको बेला शिखरमा तीर्थयात्रीको विशेष भीड हुन्छ।"
    },
    {
     "name": "Janai Purnima",
     "name_np": "जनै पूर्णिमा",
     "month": "Shrawan",
-    "note": "Pilgrims from across Nepal climb to the shrine at Janai Purnima."
+    "note": "Pilgrims from across Nepal climb to the shrine at Janai Purnima.",
+    "note_np": "जनै पूर्णिमामा नेपालभरिबाट तीर्थयात्रीहरू मन्दिर चढ्छन्।"
    }
   ],
   "quiz": [
@@ -905,7 +1131,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "The shrine is dedicated to Kalinchowk Bhagawati."
+    "explanation": "The shrine is dedicated to Kalinchowk Bhagawati.",
+    "q_np": "कालिञ्चोकमा कुन देवीको पूजा गरिन्छ?",
+    "options_np": [
+     "भगवती",
+     "सरस्वती",
+     "लक्ष्मी",
+     "तलेजु"
+    ],
+    "explanation_np": "यो मन्दिर कालिञ्चोक भगवतीलाई समर्पित छ।"
    },
    {
     "q": "In which district is Kalinchowk?",
@@ -917,7 +1151,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Kalinchowk Rural Municipality is in Dolakha District."
+    "explanation": "Kalinchowk Rural Municipality is in Dolakha District.",
+    "q_np": "कालिञ्चोक कुन जिल्लामा पर्छ?",
+    "options_np": [
+     "सिन्धुपाल्चोक",
+     "दोलखा",
+     "रामेछाप",
+     "काभ्रेपलाञ्चोक"
+    ],
+    "explanation_np": "कालिञ्चोक गाउँपालिका दोलखा जिल्लामा पर्छ।"
    },
    {
     "q": "In which year did the cable car to Kalinchowk open?",
@@ -929,7 +1171,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "A cable car was added in 2018 for the growing number of visitors."
+    "explanation": "A cable car was added in 2018 for the growing number of visitors.",
+    "q_np": "कालिञ्चोकको केबुलकार कुन वर्षमा सञ्चालनमा आयो?",
+    "options_np": [
+     "2008",
+     "2012",
+     "2018",
+     "2022"
+    ],
+    "explanation_np": "बढ्दो आगन्तुकका लागि 2018 मा केबुलकार थपियो।"
    },
    {
     "q": "About how high is the shrine?",
@@ -941,7 +1191,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "The shrine is at 3,842 m above sea level."
+    "explanation": "The shrine is at 3,842 m above sea level.",
+    "q_np": "मन्दिर करिब कति उचाइमा छ?",
+    "options_np": [
+     "1,842 मि.",
+     "2,842 मि.",
+     "3,842 मि.",
+     "4,842 मि."
+    ],
+    "explanation_np": "मन्दिर समुद्र सतहभन्दा 3,842 मि. उचाइमा छ।"
    },
    {
     "q": "Kalinchowk lies inside which protected area?",
@@ -953,7 +1211,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "It is part of the Gaurishankar Conservation Area."
+    "explanation": "It is part of the Gaurishankar Conservation Area.",
+    "q_np": "कालिञ्चोक कुन संरक्षित क्षेत्रभित्र पर्छ?",
+    "options_np": [
+     "लाङटाङ राष्ट्रिय निकुञ्ज",
+     "गौरीशङ्कर संरक्षण क्षेत्र",
+     "मकालु बरुण राष्ट्रिय निकुञ्ज",
+     "शिवपुरी राष्ट्रिय निकुञ्ज"
+    ],
+    "explanation_np": "यो गौरीशङ्कर संरक्षण क्षेत्रको भाग हो।"
    }
   ],
   "clues": [
@@ -1046,6 +1312,20 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "The summit shrine area"
    }
+  ],
+  "short_np": "दोलखाको ३,८४२ मिटरमा रहेको देवी भगवतीको डाँडाको मन्दिर, त्रिशूल, घण्ट र प्रार्थना ध्वजाले भरिएको।",
+  "story_np": "तपाईं दोलखाको कालिञ्चोकको शिखरमा ३,८४२ मिटरको उचाइमा हुनुहुन्छ, र देवी भगवतीको मन्दिर ठीक तपाईंको अगाडि छ। यहाँ कुनै भव्य भवन छैन। बरु, कालो फलामका त्रिशूलहरूको जङ्गल, घण्टहरू, र भक्तजनहरूले देवीको वरिपरि बाँधेका रातो, पहेँलो र निलो झन्डाका बाक्ला तहहरू हेर्नुहोस्। यो डाँडो गौरीशङ्कर संरक्षण क्षेत्रमा पर्छ, सुनकोशी र तामाकोशी नदीका स्रोतहरू नजिक। पुस्तौँदेखि तीर्थयात्रीहरू कुरी गाउँबाट पैदल उक्लन्थे, ढुङ्गाका भर्‍याङमा डेढ घण्टा। सन् २०१८ देखि केबल कारले त्यो चढाइ केही मिनेटमा गर्छ, र जाडोमा भिरालाहरू सेता हुन्छन् र मानिसहरू हिउँमा खेल्न आउँछन्। स्वच्छ दिनमा, फर्केर हेर्नुहोस्: गौरीशङ्कर र जुगल र गणेश हिमालका हिउँले ढाकिएका चुचुराहरू क्षितिजमा पङ्क्तिबद्ध छन्। दशैँ र जनै पूर्णिमामा शिखर भक्तजनहरूले भरिन्छ।",
+  "legend_np": null,
+  "facts_np": [
+   "मन्दिर दोलखाको कालिञ्चोक गाउँपालिका वडा १ मा ३,८४२ मिटरमा छ।",
+   "यो गौरीशङ्कर संरक्षण क्षेत्रमा, सुनकोशी र तामाकोशी नदीको उद्गम नजिक पर्छ।",
+   "कुरी गाउँबाट केबल कार सन् २०१८ मा सञ्चालनमा आयो; हिँडेर चढ्न करिब डेढ घण्टा लाग्छ।",
+   "जाडोमा यो क्षेत्र हिउँ, स्कीइङ र गौरीशङ्कर, जुगल र गणेश हिमालको दृश्यका लागि लोकप्रिय छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "न छाना, न मीनार: 3,800 मि. नजिकको हिमाली शिखरमा फलामका त्रिशूलको झुण्ड र फहराइरहेका कपडा मात्र।",
+   "तीर्थयात्रीहरू पहिले कुरी गाउँबाट घण्टौँ हिँडेर चढ्थे; 2018 देखि केबुलले मिनेटमै माथि पुर्‍याउँछ।"
   ]
  },
  {
@@ -1105,7 +1385,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The prince gave his body to a starving tigress and her cubs."
+    "explanation": "The prince gave his body to a starving tigress and her cubs.",
+    "q_np": "नमोबुद्धको किंवदन्तीको केन्द्रमा कुन जनावर छ?",
+    "options_np": [
+     "हात्ती",
+     "बाघिनी",
+     "सर्प",
+     "मृग"
+    ],
+    "explanation_np": "राजकुमारले भोकाएकी बाघिनी र उसका बच्चाहरूलाई आफ्नो शरीर दान गरे।"
    },
    {
     "q": "What does 'Namo Buddha' mean?",
@@ -1117,7 +1405,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Namo means homage, so the name means homage to the Buddha."
+    "explanation": "Namo means homage, so the name means homage to the Buddha.",
+    "q_np": "‘नमोबुद्ध’ को अर्थ के हो?",
+    "options_np": [
+     "बुद्धको जन्मस्थल",
+     "बुद्धलाई नमन",
+     "बुद्धको मार्ग",
+     "बुद्धको दाह्रा"
+    ],
+    "explanation_np": "नमो भनेको नमन हो, त्यसैले नामको अर्थ बुद्धलाई नमन हो।"
    },
    {
     "q": "What is the name of the prince in the legend?",
@@ -1129,7 +1425,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Prince Mahasattva was an earlier incarnation of Shakyamuni Buddha."
+    "explanation": "Prince Mahasattva was an earlier incarnation of Shakyamuni Buddha.",
+    "q_np": "किंवदन्तीका राजकुमारको नाम के हो?",
+    "options_np": [
+     "सिद्धार्थ",
+     "महासत्त्व",
+     "अशोक",
+     "मञ्जुश्री"
+    ],
+    "explanation_np": "राजकुमार महासत्त्व शाक्यमुनि बुद्धको अघिल्लो जन्म थिए।"
    },
    {
     "q": "In which district is Namo Buddha?",
@@ -1141,7 +1445,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Namo Buddha is in Kavrepalanchok District."
+    "explanation": "Namo Buddha is in Kavrepalanchok District.",
+    "q_np": "नमोबुद्ध कुन जिल्लामा छ?",
+    "options_np": [
+     "ललितपुर",
+     "काभ्रेपलाञ्चोक",
+     "सिन्धुपाल्चोक",
+     "मकवानपुर"
+    ],
+    "explanation_np": "नमोबुद्ध काभ्रेपलाञ्चोक जिल्लामा छ।"
    },
    {
     "q": "Which monastery stands on the hill above the stupa?",
@@ -1153,7 +1465,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "The Karma Kagyu Thrangu Tashi Yangtse Monastery is beside the site of the sacrifice."
+    "explanation": "The Karma Kagyu Thrangu Tashi Yangtse Monastery is beside the site of the sacrifice.",
+    "q_np": "स्तूपमाथिको डाँडामा कुन गुम्बा छ?",
+    "options_np": [
+     "कोपन",
+     "थ्राङ्गु ताशी याङ्त्से",
+     "तेङबोचे",
+     "शेचेन"
+    ],
+    "explanation_np": "कर्म काग्यु परम्पराको थ्राङ्गु ताशी याङ्त्से गुम्बा त्याग गरिएको स्थलको छेउमा छ।"
    }
   ],
   "clues": [
@@ -1250,6 +1570,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "The stupa and its surroundings"
    }
+  ],
+  "short_np": "भोकले मरन लागेकी बाघिनी र उनका बच्चालाई आफ्नो शरीर दिने राजकुमार, बुद्धको पूर्वजन्म, को स्मारक स्तूप।",
+  "story_np": "तपाईं काठमाडौँबाट 52 किलोमिटर दक्षिणपूर्वमा रहेको नमोबुद्धमा हुनुहुन्छ, र यो सेतो स्तूपले बौद्ध धर्मको सबैभन्दा मार्मिक कथाहरूमध्ये एक सम्हालेको छ। धेरै पहिले, महासत्त्व नामका राजकुमार, बुद्धको पूर्वजन्म, आफ्ना दाजुभाइसँग यी डाँडामा हिँडे। उनीहरूले एउटी बाघिनी भेटे, जो भोकले यति कमजोर थिई कि उसले आफ्ना बच्चालाई दूध खुवाउन सक्दैनथी। करुणाले गर्दा राजकुमारले आफ्नो शरीर अर्पण गरे ताकि तिनीहरू बाँच्न सकून्। तपाईंको अगाडिको स्तूपमा उनका अस्थि अवशेष रहेको भनिन्छ, र नामको अर्थ बुद्धलाई नमन हो। प्रार्थना झण्डामुनि, साना सेता चैत्यहरू पार गर्दै यसलाई घडीको दिशामा परिक्रमा गर्नुहोस्। अनि सिँढी चढेर जङ्गलमा जानुहोस्। माथि, विशाल थ्राङ्गु ताशी याङ्त्से गुम्बाको छेउमा, राजकुमार खाइएको भनिने ठाउँ छ, जहाँ बाघिनी र उनका बच्चाको नक्काशी छ। हरेक तिब्बती बौद्ध परम्पराका तीर्थयात्री अझै यहाँ आउँछन्।",
+  "legend_np": "शाक्यमुनि बुद्धका पूर्व अवतार राजकुमार महासत्त्वले भोकले आतुर, बच्चालाई खुवाउन नसक्ने एउटी बाघिनी भेटे र तिनीहरूलाई बचाउन आफ्नो शरीर दिए; स्तूपमा उनका अस्थि अवशेष राखिएको भनिन्छ।",
+  "facts_np": [
+   "नमोबुद्ध काठमाडौँबाट करिब 52 किलोमिटर दक्षिणपूर्व, काभ्रेपलाञ्चोक जिल्लामा छ।",
+   "स्तूपमा राजकुमार महासत्त्वका अस्थि अवशेष रहेको भनिन्छ।",
+   "यो काठमाडौँ उपत्यकावरिपरिका तीन सबैभन्दा महत्त्वपूर्ण स्तूप र तीर्थस्थलमध्ये एक मानिन्छ।",
+   "कर्मा कग्यु थ्राङ्गु ताशी याङ्त्से गुम्बा स्तूपमाथिको डाँडामा छ।",
+   "तिब्बतीमा यो स्थललाई टक्मो लुजिन भनिन्छ, जसको अर्थ 'बाघिनीलाई शरीर-दान' हो।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "एक राजकुमारले धर्काहरू भएकी भोकी आमा बिरालीलाई देखे र आफूसँग भएको एक मात्र खाना दिए: आफैँलाई।",
+   "तिब्बतीमा मेरो नामको अर्थ ‘बाघिनीलाई शरीर दान’ हो; मेरो सेतो गुम्बजमा उदार राजकुमारको अस्थि राखिएको भनिन्छ।"
   ]
  },
  {
@@ -1302,7 +1637,8 @@
     "name": "Makar Mela",
     "name_np": "मकर मेला",
     "month": "Magh",
-    "note": "Held every 12 years in Magh at the river confluence below the temple."
+    "note": "Held every 12 years in Magh at the river confluence below the temple.",
+    "note_np": "हरेक 12 वर्षमा माघमा मन्दिरमुनिको नदीको सङ्गममा लाग्छ।"
    }
   ],
   "quiz": [
@@ -1316,7 +1652,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Mahadev is a name of Shiva; the temple was built over a Shiva lingam."
+    "explanation": "Mahadev is a name of Shiva; the temple was built over a Shiva lingam.",
+    "q_np": "इन्द्रेश्वर महादेवमा कुन देवताको पूजा गरिन्छ?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "गणेश",
+     "केवल इन्द्र"
+    ],
+    "explanation_np": "महादेव शिवको नाम हो; मन्दिर शिवलिङ्गमाथि बनाइएको हो।"
    },
    {
     "q": "In which town is the temple?",
@@ -1328,7 +1672,15 @@
     ],
     "answer_index": 2,
     "difficulty": 1,
-    "explanation": "Indreshwar Mahadev stands in Panauti, Kavrepalanchok."
+    "explanation": "Indreshwar Mahadev stands in Panauti, Kavrepalanchok.",
+    "q_np": "मन्दिर कुन सहरमा छ?",
+    "options_np": [
+     "बनेपा",
+     "धुलिखेल",
+     "पनौती",
+     "भक्तपुर"
+    ],
+    "explanation_np": "इन्द्रेश्वर महादेव काभ्रेपलाञ्चोकको पनौतीमा अवस्थित छ।"
    },
    {
     "q": "In which year was the first temple built here?",
@@ -1340,7 +1692,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "It was originally built over a lingam in 1294."
+    "explanation": "It was originally built over a lingam in 1294.",
+    "q_np": "यहाँ पहिलो मन्दिर कुन वर्षमा बनेको थियो?",
+    "options_np": [
+     "1094",
+     "1294",
+     "1594",
+     "1794"
+    ],
+    "explanation_np": "यो मूलतः 1294 मा लिङ्गमाथि बनाइएको थियो।"
    },
    {
     "q": "Who hang pots and pans on the upper roof?",
@@ -1352,7 +1712,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "They are offerings from young couples hoping for a happy family life."
+    "explanation": "They are offerings from young couples hoping for a happy family life.",
+    "q_np": "माथिल्लो छानामा भाँडाकुँडा कसले झुन्ड्याउँछन्?",
+    "options_np": [
+     "व्यापारीहरू",
+     "नवविवाहित जोडीहरू",
+     "सैनिकहरू",
+     "पुजारीहरू"
+    ],
+    "explanation_np": "ती सुखी पारिवारिक जीवनको आशा गर्ने नवविवाहित जोडीहरूले चढाएका भेटी हुन्।"
    },
    {
     "q": "How often is Panauti's Makar Mela held?",
@@ -1364,7 +1732,15 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "The Makar Mela takes place every 12 years in the month of Magh."
+    "explanation": "The Makar Mela takes place every 12 years in the month of Magh.",
+    "q_np": "पनौतीको मकर मेला कति समयमा लाग्छ?",
+    "options_np": [
+     "हरेक वर्ष",
+     "हरेक 6 वर्षमा",
+     "हरेक 12 वर्षमा",
+     "हरेक 25 वर्षमा"
+    ],
+    "explanation_np": "मकर मेला हरेक 12 वर्षमा माघ महिनामा लाग्छ।"
    }
   ],
   "clues": [
@@ -1460,6 +1836,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Temple bell said to date from the 18th century"
    }
+  ],
+  "short_np": "पनौतीको तीन छाने शिव पगोडा, सन् 1294 मा पहिलो पटक बनेको र प्रायः नेपालको सबैभन्दा पुरानो बाँचेको मन्दिर भनिने।",
+  "story_np": "तिब्बत र भारतबीचको नुन बाटोमा पर्ने पुरानो व्यापारिक सहर पनौतीमा र यसको ठूलो इन्द्रेश्वर महादेव मन्दिरमा स्वागत छ। तपाईं नेपालको सबैभन्दा ठूला र अग्ला पगोडा मन्दिरमध्ये एक हेर्दै हुनुहुन्छ, तीन छाना अग्लो। यही ठाउँमा सन् 1294 मा शिवलिङ्गमाथि पहिलो पटक मन्दिर उठाइएको थियो, त्यसैले धेरैले यसलाई देशको सबैभन्दा पुरानो बाँचेको मन्दिर भन्छन्। यसको वरिपरि बिस्तारै हिँड्नुहोस् र तल्ला दुई तलाका छानाका टेकाहरू ध्यानले हेर्नुहोस्; यसको कुँदाइ जहीँ पनि पाइने उत्कृष्ट नेवार काष्ठकलामध्ये हो। अब माथि हेर्नुहोस्। माथिल्लो छानामा झुण्डिएका भाँडाकुँडा देख्नुभयो? ती खुसी र समृद्ध घरको आशा गर्ने नवविवाहित जोडीहरूले चढाएका हुन्। ढोकाको सामु ढुङ्गाको साँढे, नन्दी, आफ्ना स्वामीको प्रतीक्षा गर्दैछ। यो मन्दिर सन् 2015 को भूकम्पबाट राम्रो अवस्थामा बाँच्यो। हरेक बाह्र वर्षमा माघमा लाग्ने पनौतीको मकर मेलाले नजिकैको नदी सङ्गमलाई तीर्थयात्रीले भरिदिन्छ।",
+  "legend_np": "स्थानीय परम्परा अनुसार शिवले आफैँ यहाँ लिङ्ग सिर्जना गरे; पनौतीको लुकेको ‘तेस्रो नदी’ यही मन्दिरबाट सुरु भई तलको सङ्गमसम्म बग्छ भनिन्छ।",
+  "facts_np": [
+   "मन्दिर पहिलो पटक सन् 1294 मा लिङ्गमाथि बनाइएको थियो।",
+   "यो तीन छाना भएको नेपालको सबैभन्दा ठूला र अग्ला पगोडा मन्दिरमध्ये एक हो।",
+   "माथिल्लो तलामा झुण्ड्याइएका भाँडाकुँडा नवविवाहित जोडीहरूले चढाएका भेटी हुन्।",
+   "पनौतीको मध्यकालीन परिसर सन् 1996 मा नेपालको युनेस्को सम्भावित सूचीमा राखियो।",
+   "मन्दिर सन् 2015 को भूकम्पबाट राम्रो अवस्थामा बाँच्यो।"
+  ],
+  "quake_np": "विकिपिडियाका अनुसार मन्दिर सन् 2015 को भूकम्पबाट राम्रो अवस्थामा बाँच्यो, यद्यपि लोनली प्लानेटले केही देखिने क्षति उल्लेख गरेको छ।",
+  "clues_np": [
+   "मेरो माथिल्लो छानामा भान्साका भाँडाकुँडा झुन्डिएका छन्, सुखी घरको आशा गर्ने नवविवाहितका उपहार।",
+   "नुनको पुरानो बाटोमा 1294 मा लिङ्गमाथि उठाइएको म प्रायः देशकै सबैभन्दा पुरानो जीवित मन्दिर भनिन्छु।"
   ]
  },
  {
@@ -1512,7 +1903,8 @@
     "name": "Chandeshwori Jatra",
     "name_np": "चण्डेश्वरी जात्रा",
     "month": "Baisakh",
-    "note": "Banepa's chariot festival around Baisakh Purnima, opening with the pre-dawn Mata Puja (Chirag Yatra)."
+    "note": "Banepa's chariot festival around Baisakh Purnima, opening with the pre-dawn Mata Puja (Chirag Yatra).",
+    "note_np": "वैशाख पूर्णिमाको वरिपरि मनाइने बनेपाको रथयात्रा, जुन बिहानैको माता पूजा (चिराग यात्रा) बाट सुरु हुन्छ।"
    }
   ],
   "quiz": [
@@ -1526,7 +1918,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The goddess takes her name from killing the demon Chanda."
+    "explanation": "The goddess takes her name from killing the demon Chanda.",
+    "q_np": "देवी चण्डेश्वरीले कुन राक्षसलाई पराजित गरिन्?",
+    "options_np": [
+     "महिषासुर",
+     "चण्ड",
+     "भस्मासुर",
+     "रावण"
+    ],
+    "explanation_np": "चण्ड राक्षसलाई मारेकाले देवीको नाम चण्डेश्वरी रहेको हो।"
    },
    {
     "q": "Near which town is the temple?",
@@ -1538,7 +1938,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The temple is about 1 km north-east of Banepa."
+    "explanation": "The temple is about 1 km north-east of Banepa.",
+    "q_np": "मन्दिर कुन सहरको नजिक छ?",
+    "options_np": [
+     "धुलिखेल",
+     "बनेपा",
+     "पनौती",
+     "नाला"
+    ],
+    "explanation_np": "मन्दिर बनेपाको करिब 1 किमि उत्तरपूर्वमा छ।"
    },
    {
     "q": "What grew from the demon's belly, according to the legend?",
@@ -1550,7 +1958,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "A lingam grew from Chanda's belly; it is in the small shrine in front of the temple."
+    "explanation": "A lingam grew from Chanda's belly; it is in the small shrine in front of the temple.",
+    "q_np": "किंवदन्ती अनुसार राक्षसको पेटबाट के उम्रियो?",
+    "options_np": [
+     "कमल",
+     "शिवलिङ्ग",
+     "पिपलको रुख",
+     "मूल"
+    ],
+    "explanation_np": "चण्डको पेटबाट लिङ्ग उम्रियो; त्यो मन्दिरअगाडिको सानो मन्दिरमा छ।"
    },
    {
     "q": "Which deity is shown in the temple's very large wall painting?",
@@ -1562,7 +1978,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "A huge painting of Bhairav decorates one wall, said to be the largest in Nepal Mandala."
+    "explanation": "A huge painting of Bhairav decorates one wall, said to be the largest in Nepal Mandala.",
+    "q_np": "मन्दिरको अत्यन्त ठूलो भित्ते चित्रमा कुन देवता देखाइएका छन्?",
+    "options_np": [
+     "गणेश",
+     "भैरव",
+     "हनुमान",
+     "कृष्ण"
+    ],
+    "explanation_np": "एउटा भित्तामा भैरवको विशाल चित्र सजिएको छ, जुन नेपाल मण्डलमै सबैभन्दा ठूलो भनिन्छ।"
    },
    {
     "q": "Which scripture tells the story of Chandeshwori?",
@@ -1574,7 +1998,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "The Nepal Mahatmya of the Skanda Purana mentions the goddess's story."
+    "explanation": "The Nepal Mahatmya of the Skanda Purana mentions the goddess's story.",
+    "q_np": "कुन शास्त्रले चण्डेश्वरीको कथा सुनाउँछ?",
+    "options_np": [
+     "रामायण",
+     "स्कन्द पुराणको नेपाल माहात्म्य",
+     "ऋग्वेद",
+     "गोपालराजवंशावली"
+    ],
+    "explanation_np": "स्कन्द पुराणको नेपाल माहात्म्यले देवीको कथाको उल्लेख गर्छ।"
    }
   ],
   "clues": [
@@ -1670,6 +2102,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "caption": "Shrines surrounding the main temple"
    }
+  ],
+  "short_np": "बनेपामाथि रहेको तीन छाने सुनौलो पगोडा, जहाँ देवीले चण्ड दानवलाई मारेकी भनिन्छ।",
+  "story_np": "बनेपा सहरको करिब एक किलोमिटर उत्तर-पूर्व, पुण्यमाता खोलाको छेउछेउको गल्लीमा लागिरहनुहोस्, र जङ्गलको किनारबाट चण्डेश्वरीका सुनौला छानाहरू उठेको देखिन्छ। १७ औं शताब्दीको मानिने यो मन्दिर चण्ड दानवलाई पराजित गर्ने मातृदेवीको सम्मानमा बनेको हो। शिवले चण्डलाई केवल नारीले मात्र मार्न सक्ने वरदान दिएका थिए, र उसले संसारलाई आतङ्कित पारेको थियो। देवताहरू चराको रूपमा यो जङ्गलमा लुके, र देवी एउटा रुखभित्र पसिन्। चण्डले रुख काटेपछि, उनी विशाल सिंहमाथि चढेर बाहिर निस्किन् र उसलाई वध गरिन्। शिवका भक्त दानवको पेटबाट शिवलिङ्ग उम्रियो; यसलाई तपाईं मुख्य मन्दिरको ठीक अगाडिको सानो मन्दिरमा देख्न सक्नुहुन्छ। अब पर्खालमा रहेको भैरवको विशाल चित्र खोज्नुहोस्, जसलाई पुरानो नेपाल मण्डलकै सबैभन्दा ठूलो भनिन्छ। स्थानीयहरू भन्छन् नदीका चट्टानहरूमा अझै युद्धका चिन्ह छन्।",
+  "legend_np": "चण्ड दानवलाई केवल नारीले मात्र मार्न सक्थ्यो। बनेपाको जङ्गलमा लुकेकी मातृदेवी उसले काटेको रुखबाट निस्किन्, सिंहमा चढेर बाहिर आइन् र उसलाई मारिन्; उसको पेटबाट शिवलिङ्ग उम्रियो, जो अहिले मन्दिरको अगाडिको सानो मन्दिरमा छ।",
+  "facts_np": [
+   "मन्दिर बनेपाको करिब १ कि.मी. उत्तर-पूर्वमा पुण्यमाता खोलाको छेउमा पर्छ।",
+   "यो १७ औं शताब्दीमा बनेको मानिन्छ।",
+   "एउटा भित्तेचित्रमा चण्डेश्वरीले चण्ड दानवको वध गरेको देखाइएको छ।",
+   "एउटा पर्खालमा रहेको भैरवको चित्र नेपाल मण्डलकै सबैभन्दा ठूलो भनिन्छ।",
+   "अगाडिको सानो मन्दिरमा रहेको शिवलिङ्ग दानवको पेटबाट उम्रेको भनिन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "स्त्रीको हातबाट मात्र मर्ने एक राक्षसले यहाँ रुख काट्यो, र सिंहमा सवार देवी बाहिर उफ्रिइन्।",
+   "जङ्गलमाथि सुनौला छाना, र एउटा भित्तामा पुरानो नेपाल मण्डलकै सबैभन्दा ठूलो चित्रित भैरव।"
   ]
  },
  {
@@ -1721,13 +2168,15 @@
     "name": "Dashain",
     "name_np": "दशैँ",
     "month": "Ashwin",
-    "note": "Thousands of devotees come to offer prayers and sacrifices."
+    "note": "Thousands of devotees come to offer prayers and sacrifices.",
+    "note_np": "हजारौँ भक्तजन पूजा र बलि चढाउन आउँछन्।"
    },
    {
     "name": "Chaite Dashain",
     "name_np": "चैते दशैँ",
     "month": "Chaitra",
-    "note": "Second major pilgrimage season of the year at the temple."
+    "note": "Second major pilgrimage season of the year at the temple.",
+    "note_np": "मन्दिरमा वर्षको दोस्रो ठूलो तीर्थयात्रा मौसम।"
    }
   ],
   "quiz": [
@@ -1741,7 +2190,15 @@
     ],
     "answer_index": 3,
     "difficulty": 1,
-    "explanation": "The black stone idol shows the goddess with 18 arms."
+    "explanation": "The black stone idol shows the goddess with 18 arms.",
+    "q_np": "पलाञ्चोकमा देवीको मूर्तिमा कतिवटा हात छन्?",
+    "options_np": [
+     "4",
+     "8",
+     "10",
+     "18"
+    ],
+    "explanation_np": "कालो ढुङ्गाको मूर्तिमा देवीलाई 18 हातसहित देखाइएको छ।"
    },
    {
     "q": "Palanchok Bhagawati is regarded as what to the other Bhagawatis of Nepal?",
@@ -1753,7 +2210,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Devotees consider her the elder sister of all Bhagawati goddesses in Nepal."
+    "explanation": "Devotees consider her the elder sister of all Bhagawati goddesses in Nepal.",
+    "q_np": "पलाञ्चोक भगवतीलाई नेपालका अन्य भगवतीहरूकी के मानिन्छ?",
+    "options_np": [
+     "आमा",
+     "जेठी दिदी",
+     "छोरी",
+     "संरक्षक"
+    ],
+    "explanation_np": "भक्तजनहरू उनलाई नेपालका सबै भगवती देवीहरूकी जेठी दिदी मान्छन्।"
    },
    {
     "q": "Which highway town is the temple near?",
@@ -1765,7 +2230,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "The temple is about 7 km north of Panchkhal on the Araniko Highway."
+    "explanation": "The temple is about 7 km north of Panchkhal on the Araniko Highway.",
+    "q_np": "मन्दिर कुन राजमार्गको बजारनजिक छ?",
+    "options_np": [
+     "पाँचखाल",
+     "हेटौँडा",
+     "चरिकोट",
+     "धुन्चे"
+    ],
+    "explanation_np": "मन्दिर अरनिको राजमार्गमा पाँचखालबाट करिब 7 कि.मि. उत्तरमा छ।"
    },
    {
     "q": "Which king does tradition credit with founding the temple?",
@@ -1777,7 +2250,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "The temple is believed to date from the reign of Manadeva (464-505 AD)."
+    "explanation": "The temple is believed to date from the reign of Manadeva (464-505 AD).",
+    "q_np": "परम्पराले मन्दिर स्थापनाको श्रेय कुन राजालाई दिन्छ?",
+    "options_np": [
+     "मानदेव",
+     "अंशुवर्मा",
+     "यक्ष मल्ल",
+     "पृथ्वीनारायण शाह"
+    ],
+    "explanation_np": "मन्दिर राजा मानदेव (464-505 ई.) को शासनकालको मानिन्छ।"
    },
    {
     "q": "What is the idol made of?",
@@ -1789,7 +2270,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "The three-foot idol is carved from black stone."
+    "explanation": "The three-foot idol is carved from black stone.",
+    "q_np": "मूर्ति केबाट बनेको छ?",
+    "options_np": [
+     "सुन",
+     "काठ",
+     "कालो ढुङ्गा",
+     "माटो"
+    ],
+    "explanation_np": "तीन फिट अग्लो मूर्ति कालो ढुङ्गा कुँदेर बनाइएको हो।"
    }
   ],
   "clues": [
@@ -1882,6 +2371,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Palanchok Bhagawati shrine"
    }
+  ],
+  "short_np": "अठार हात भएकी देवी भगवतीको डाँडाको पगोडा, नेपालका सबै भगवतीकी जेठी दिदीका रूपमा पूजिने।",
+  "story_np": "तपाईं पाँचखालबाट अरनिको राजमार्गमा सात किलोमिटर उत्तरमा रहेको पलाञ्चोक डाँडाको १,५६३ मिटर उचाइको शिखरमा उक्लनुभएको छ। तपाईंको अगाडि पलाञ्चोक भगवतीको मन्दिर छ, जसलाई भक्तजनहरूले नेपालका सबै भगवती देवीकी जेठी दिदी भन्छन्। परम्पराअनुसार मन्दिर करिब पन्ध्र सय वर्षअघि शासन गरेका लिच्छवि राजा मानदेवसम्म पुग्छ। गर्भगृहभित्र हेर्नुहोस्। देवी कालो ढुङ्गाबाट कुँदिएकी छिन्, करिब तीन फिट मात्र अग्ली, तर उनका अठारवटा हात छन्, हरेक भक्तजनलाई खतरा र दुर्भाग्यबाट जोगाउन तयार। मङ्गलबार र शनिबार उनका विशेष दिन हुन्, र दशैँ र चैते दशैँमा हजारौँ तीर्थयात्री भेटी लिएर यहाँ लाइन लाग्छन्। अब फर्केर हेर्नुहोस्। यो डाँडाबाट उत्तरी आकाशभरि फैलिएको हिमालय देखिन्छ। सन् २०१५ को भूकम्पले मन्दिरलाई अलिकति ढल्काएको थियो, र मर्मतसम्भार हुँदा त्यसपछिका वर्षहरू मन्दिर टेको लगाएर बित्यो।",
+  "legend_np": null,
+  "facts_np": [
+   "मन्दिर पाँचखालबाट करिब ७ किमी उत्तर, पलाञ्चोक डाँडामा १,५६३ मिटरमा छ।",
+   "देवीको कालो ढुङ्गाको मूर्ति करिब तीन फिट अग्लो छ र यसका १८ हात छन्।",
+   "परम्पराले मन्दिरलाई राजा मानदेव (४६४-५०५ ई.) सँग जोड्छ।",
+   "पलाञ्चोक भगवतीलाई नेपालका अन्य भगवती मन्दिरहरूकी जेठी दिदी मानिन्छ।",
+   "क्षमा अनुष्ठान वैशाख र जेठको पूर्णिमामा गरिन्छ।"
+  ],
+  "quake_np": "सन् २०१५ अप्रिलको भूकम्पले मुख्य मन्दिरलाई अलिकति ढल्कायो; सन् २०१८ मा मर्मतका लागि यो टेको लगाइएको थियो। नजिकैको कालिका भगवती मन्दिर ध्वस्त भयो।",
+  "clues_np": [
+   "अरनिको राजमार्गमाथिको डाँडामा अठार हात भएकी एउटी सानी कालो ढुङ्गाकी देवीले हिमालतिर हेरिरहेकी छन्।",
+   "भक्तजनहरू मेरी देवीलाई देशभरका आफ्ना नामका सबै देवीकी जेठी दिदी भन्छन्।"
   ]
  },
  {
@@ -1935,19 +2439,22 @@
     "name": "Maha Shivaratri",
     "name_np": "महाशिवरात्रि",
     "month": "Falgun",
-    "note": "One of the best-attended fairs at the cave."
+    "note": "One of the best-attended fairs at the cave.",
+    "note_np": "गुफामा सबैभन्दा धेरै मानिस जम्मा हुने मेलाहरूमध्ये एक।"
    },
    {
     "name": "Bala Chaturdashi",
-    "name_np": "बालाचतुर्दशी",
+    "name_np": "बाला चतुर्दशी",
     "month": "Mangsir",
-    "note": "Large religious fair held at Halesi."
+    "note": "Large religious fair held at Halesi.",
+    "note_np": "हलेसीमा लाग्ने ठूलो धार्मिक मेला।"
    },
    {
     "name": "Ram Navami",
     "name_np": "रामनवमी",
     "month": "Chaitra",
-    "note": "Devotees throng the cave on Ram Navami."
+    "note": "Devotees throng the cave on Ram Navami.",
+    "note_np": "रामनवमीका दिन भक्तजनहरू गुफामा भीड लगाउँछन्।"
    }
   ],
   "quiz": [
@@ -1961,7 +2468,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Shiva hid in the cave to escape Bhasmasur."
+    "explanation": "Shiva hid in the cave to escape Bhasmasur.",
+    "q_np": "शिवले हलेसी गुफामा कुन दानवबाट लुकेको भनिन्छ?",
+    "options_np": [
+     "रावण",
+     "भस्मासुर",
+     "महिषासुर",
+     "चण्ड"
+    ],
+    "explanation_np": "शिव भस्मासुरबाट बच्न गुफामा लुकेका थिए।"
    },
    {
     "q": "What nickname is given to Halesi Mahadev?",
@@ -1973,7 +2488,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "The cave is nicknamed 'the Pashupatinath of the east'."
+    "explanation": "The cave is nicknamed 'the Pashupatinath of the east'.",
+    "q_np": "हलेसी महादेवलाई कुन उपनाम दिइन्छ?",
+    "options_np": [
+     "नेपालको काशी",
+     "पूर्वको पशुपतिनाथ",
+     "पहाडको लुम्बिनी",
+     "देवताहरूको प्रवेशद्वार"
+    ],
+    "explanation_np": "गुफालाई ‘पूर्वको पशुपतिनाथ’ भनिन्छ।"
    },
    {
     "q": "Buddhists know the cave as Maratika and link it with which master?",
@@ -1985,7 +2508,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Padmasambhava and Mandarava are said to have attained long life here."
+    "explanation": "Padmasambhava and Mandarava are said to have attained long life here.",
+    "q_np": "बौद्धहरू यो गुफालाई मरतिका भन्छन् र कुन गुरुसँग जोड्छन्?",
+    "options_np": [
+     "मिलारेपा",
+     "पद्मसम्भव",
+     "अतिश",
+     "नागार्जुन"
+    ],
+    "explanation_np": "पद्मसम्भव र मन्दारवाले यहाँ दीर्घायु प्राप्त गरेको भनिन्छ।"
    },
    {
     "q": "Which direction does the cave's half-moon entrance face?",
@@ -1997,7 +2528,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "The entrance is shaped like a half moon and faces east."
+    "explanation": "The entrance is shaped like a half moon and faces east.",
+    "q_np": "गुफाको अर्धचन्द्राकार प्रवेशद्वार कुन दिशातर्फ फर्केको छ?",
+    "options_np": [
+     "उत्तर",
+     "पूर्व",
+     "दक्षिण",
+     "पश्चिम"
+    ],
+    "explanation_np": "प्रवेशद्वार अर्धचन्द्रको आकारको छ र पूर्वतर्फ फर्केको छ।"
    },
    {
     "q": "Between which two rivers does Halesi lie?",
@@ -2009,7 +2548,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "The cave lies between the Dudh Koshi and Sun Koshi rivers."
+    "explanation": "The cave lies between the Dudh Koshi and Sun Koshi rivers.",
+    "q_np": "हलेसी कुन दुई नदीको बीचमा पर्छ?",
+    "options_np": [
+     "अरुण र तमोर",
+     "दूधकोशी र सुनकोशी",
+     "त्रिशूली र बुढीगण्डकी",
+     "बागमती र विष्णुमती"
+    ],
+    "explanation_np": "गुफा दूधकोशी र सुनकोशी नदीका बीचमा पर्छ।"
    }
   ],
   "clues": [
@@ -2103,6 +2650,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Outer premises of Halesi Mahadev"
    }
+  ],
+  "short_np": "खोटाङको पवित्र गुफा, हिन्दूले शिवको लुक्ने ठाउँका रूपमा र बौद्धले दीर्घायुको गुफाका रूपमा पूज्ने।",
+  "story_np": "सिँढी ओर्लेर गुफाको मुखमा उभिनुहोस्। यसको प्रवेशद्वार अर्धचन्द्रको आकारको छ र पूर्वतिर, बिहानको घामतिर, फर्केको छ। तपाईं दूधकोशी र सुनकोशी नदीको बीचमा रहेको खोटाङका डाँडामा हलेसीमा हुनुहुन्छ, र तीन धर्मले यो गुफा बाँडेका छन्। हिन्दूहरूले यसलाई हलेसी महादेव, पूर्वको पशुपतिनाथ, भन्छन्। उनीहरू भन्छन्, जे छोए पनि खरानी बनाउन सक्ने भस्मासुर दानवबाट बच्न शिव छ हजार वर्ष यहीँ भित्र लुकेका थिए। अँध्यारोमा प्राकृतिक ढुङ्गाको शिवलिङ्ग खोज्नुहोस्। बौद्धहरू यो ठाउँलाई मारातिका भन्छन्, जहाँ गुरु पद्मसम्भव र उनकी सहचरी मन्दारवाले दीर्घायुको शक्ति पाएका भनिन्छ, त्यसैले माथिको डाँडामा भिक्षुहरू र गुम्बा देख्नुहुन्छ। किराती राईहरूका लागि यो पूर्खाको घर हो, जहाँ उनीहरूका पुर्खा बसेका थिए। शिवरात्रि र बाला चतुर्दशीमा गुफा तीर्थयात्रीले भरिन्छ।",
+  "legend_np": "शिव भस्मासुर दानवबाट बच्न यस गुफामा 6,000 वर्ष लुकेका थिए। बौद्धहरूका लागि, पद्मसम्भव र मन्दारवाले यहाँ दीर्घायुको विद्याधर सिद्धि प्राप्त गरे।",
+  "facts_np": [
+   "गुफाको प्रवेशद्वार अर्धचन्द्राकार छ र पूर्वतिर फर्केको छ।",
+   "गुफा सतहभन्दा करिब 67 फिट तल छ र यसको व्यास करिब 193 फिट छ, यसमुनि अर्को गुफा पनि छ।",
+   "यो दूधकोशी र सुनकोशी नदीबीच, सगरमाथाबाट करिब 185 किलोमिटर दक्षिणपश्चिममा छ।",
+   "हिमालयी साहित्यमा यो बाह्रौँ शताब्दीदेखि नै उल्लेख भएको पाइन्छ।",
+   "किराती राईहरू हलेसीलाई आफ्ना पुर्खा रैछकुलेको पूर्खौली स्थान मान्छन्।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "एक देवता छ हजार वर्षसम्म मेरो अँध्यारोमा लुके, जसको स्पर्शले सबै कुरा खरानी बनाउने एक दानवबाट।",
+   "मेरो मुख सूर्योदयतिर फर्केको अर्धचन्द्र हो; हिन्दू, बौद्ध र किराँत राई सबैले मलाई पवित्र मान्छन्।"
   ]
  },
  {
@@ -2162,7 +2724,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The temple is on a hilltop in Taplejung District."
+    "explanation": "The temple is on a hilltop in Taplejung District.",
+    "q_np": "पाथीभरा देवी मन्दिर कुन जिल्लामा छ?",
+    "options_np": [
+     "इलाम",
+     "ताप्लेजुङ",
+     "पाँचथर",
+     "संखुवासभा"
+    ],
+    "explanation_np": "मन्दिर ताप्लेजुङ जिल्लाको एउटा डाँडामा छ।"
    },
    {
     "q": "What did the shepherds of the legend lose?",
@@ -2174,7 +2744,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "They lost hundreds of sheep, which returned after they offered a sacrifice."
+    "explanation": "They lost hundreds of sheep, which returned after they offered a sacrifice.",
+    "q_np": "किंवदन्तीका गोठालाहरूले के गुमाएका थिए?",
+    "options_np": [
+     "आफ्नो बाटो",
+     "सयौँ भेडा",
+     "सुनको घण्टी",
+     "आफ्नो गाउँ"
+    ],
+    "explanation_np": "उनीहरूले सयौँ भेडा गुमाएका थिए, जुन बलि चढाएपछि फर्किए।"
    },
    {
     "q": "What do the Limbu people call the hill?",
@@ -2186,7 +2764,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "Limbus see the Mukkumlung hill as a form of the goddess Yuma Sammang."
+    "explanation": "Limbus see the Mukkumlung hill as a form of the goddess Yuma Sammang.",
+    "q_np": "लिम्बू जातिले यो डाँडालाई के भन्छन्?",
+    "options_np": [
+     "मुक्कुमलुङ",
+     "सवालुङ",
+     "तेङ्बोचे",
+     "सिंहगढ"
+    ],
+    "explanation_np": "लिम्बूहरू मुक्कुमलुङ डाँडालाई देवी युमा साम्मङको रूप मान्छन्।"
    },
    {
     "q": "About how high is the temple?",
@@ -2198,7 +2784,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "The temple is at 3,794 m above sea level."
+    "explanation": "The temple is at 3,794 m above sea level.",
+    "q_np": "मन्दिर करिब कति उचाइमा छ?",
+    "options_np": [
+     "1,794 मि.",
+     "2,794 मि.",
+     "3,794 मि.",
+     "4,794 मि."
+    ],
+    "explanation_np": "मन्दिर समुद्र सतहबाट 3,794 मि. को उचाइमा छ।"
    },
    {
     "q": "In which year was the summit rock replaced by a statue of Durga?",
@@ -2210,7 +2804,15 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "The development committee replaced the sacred rock with a statue in 2001."
+    "explanation": "The development committee replaced the sacred rock with a statue in 2001.",
+    "q_np": "शिखरको चट्टानलाई दुर्गाको मूर्तिले कुन वर्ष प्रतिस्थापन गरियो?",
+    "options_np": [
+     "1950",
+     "1990",
+     "2001",
+     "2015"
+    ],
+    "explanation_np": "विकास समितिले 2001 मा पवित्र चट्टानलाई मूर्तिले प्रतिस्थापन गर्‍यो।"
    }
   ],
   "clues": [
@@ -2303,6 +2905,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Building in the temple area on a misty day"
    }
+  ],
+  "short_np": "ताप्लेजुङको 3,794 मिटर टुप्पोमा रहेको शक्तिपीठ, हिन्दूका लागि दुर्गा र लिम्बूका लागि मुक्कुम्लुङका रूपमा पवित्र।",
+  "story_np": "तपाईं ताप्लेजुङमा 3,794 मिटर माथि पाथीभराको टुप्पोमा पुग्नुभएको छ, फुङलिङ बजारको उत्तरपूर्वतिर लामो उकालो। एउटा ठूलो घण्ट बजाउनुहोस् र यसको गुञ्जन डाँडाहरूभर प्रतिध्वनित हुँदै गरेको सुन्नुहोस्। यहाँ कुनै मूर्ति उभिनुभन्दा धेरै पहिले लिम्बू जातिले यो डाँडाको ठूलो चट्टानलाई पूजा गर्थे, र उनीहरूले पूरै मुक्कुम्लुङ डाँडालाई आफ्नी देवी युमा साम्माङको रूप मान्थे। हिन्दूले त्यही चट्टानलाई दुर्गाका रूपमा देखे, र आज पाथीभरा शक्तिपीठहरूमध्ये गनिन्छ। स्थानीय किंवदन्तीले यही ठाउँमा सयौँ भेडा गुमाएका गोठालाहरूको कथा भन्छ। सपनामा देवीले उनीहरूसँग बलि र मन्दिर मागिन्; उनीहरूले मानेपछि हराएको बथान फर्कियो। सन् 2001 देखि चट्टानको ठाउँमा दुर्गाको मूर्ति उभिएको छ। स्पष्ट बिहान पूर्वतिर हेर्नुहोस्: कञ्चनजङ्घाको सेतो पर्खालले आकाश भरिन्छ। नेपाल र भारतभरिका तीर्थयात्रीहरू उनले आफ्ना इच्छा पूरा गर्छिन् भन्ने विश्वासमा यहाँ उक्लन्छन्।",
+  "legend_np": "यहाँ चराउँदा गोठालाहरूले सयौँ भेडा गुमाए। देवी उनीहरूको सपनामा देखा परिन् र बलि तथा मन्दिर मागिन्; उनीहरूले चढाएपछि हराएको बथान फर्कियो, र मन्दिरमा बलि दिने चलन सुरु भयो।",
+  "facts_np": [
+   "मन्दिर 3,794 मिटरमा, फुङलिङबाट करिब 19.4 कि.मि. उत्तरपूर्वमा छ।",
+   "लिम्बूहरूले यो डाँडालाई मुक्कुम्लुङ, देवी युमा साम्माङको प्राकृतिक रूप मानेर पूजा गर्छन्।",
+   "सन् 2001 मा टुप्पोको पवित्र चट्टानलाई दुर्गाको मूर्तिले प्रतिस्थापन गरियो।",
+   "यो शक्तिपीठहरूमध्ये एक हो र कञ्चनजङ्घा पदयात्राको एउटा शाखा बाटो हो।",
+   "मन्दिरबाट कञ्चनजङ्घा र कुम्भकर्ण देख्न सकिन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "यस शिखरमा सपनामा आएकी देवीलाई भेटी चढाएपछि मात्र गोठालाहरूका हराएका बगाल फर्किए।",
+   "लिम्बूहरू यो डाँडालाई मुक्कुमलुङ भन्छन्; यसको टुप्पोबाट संसारको तेस्रो अग्लो हिमालको सेतो पर्खाल देखिन्छ।"
   ]
  },
  {
@@ -2356,13 +2973,15 @@
     "name": "Kartik Purnima",
     "name_np": "कार्तिक पूर्णिमा",
     "month": "Kartik",
-    "note": "Special fair; pilgrims from India especially come at this full moon."
+    "note": "Special fair; pilgrims from India especially come at this full moon.",
+    "note_np": "विशेष मेला; यस पूर्णिमामा विशेष गरी भारतबाट तीर्थयात्री आउँछन्।"
    },
    {
     "name": "Makar Sankranti",
-    "name_np": "माघे संक्रान्ति",
+    "name_np": "मकर सङ्क्रान्ति",
     "month": "Magh",
-    "note": "Pilgrims from the hills of Nepal bathe at the confluence."
+    "note": "Pilgrims from the hills of Nepal bathe at the confluence.",
+    "note_np": "नेपालका पहाडी भेगका तीर्थयात्रीहरू सङ्गममा स्नान गर्छन्।"
    }
   ],
   "quiz": [
@@ -2376,7 +2995,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Varaha, the boar incarnation, is the main deity."
+    "explanation": "Varaha, the boar incarnation, is the main deity.",
+    "q_np": "बराहक्षेत्रमा विष्णुको कुन अवतारको पूजा गरिन्छ?",
+    "options_np": [
+     "नरसिंह",
+     "वराह (सुँगुर)",
+     "मत्स्य (माछा)",
+     "राम"
+    ],
+    "explanation_np": "वराह, सुँगुर अवतार, मुख्य देवता हुन्।"
    },
    {
     "q": "Which two rivers meet at Barahachhetra?",
@@ -2388,7 +3015,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "The site lies at the confluence of the Koka and Koshi rivers."
+    "explanation": "The site lies at the confluence of the Koka and Koshi rivers.",
+    "q_np": "बराहक्षेत्रमा कुन दुई नदी मिल्छन्?",
+    "options_np": [
+     "कोका र कोशी",
+     "अरुण र तमोर",
+     "बागमती र कमला",
+     "सेती र काली"
+    ],
+    "explanation_np": "यो स्थान कोका र कोशी नदीको सङ्गममा अवस्थित छ।"
    },
    {
     "q": "Barahachhetra is counted among which group of Nepali pilgrimage sites?",
@@ -2400,7 +3035,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "It is one of the Char Dham of Nepal."
+    "explanation": "It is one of the Char Dham of Nepal.",
+    "q_np": "बराहक्षेत्र नेपालका कुन तीर्थस्थल समूहमा गनिन्छ?",
+    "options_np": [
+     "शक्तिपीठ",
+     "चार धाम",
+     "अष्टमातृका",
+     "सप्तपुरी"
+    ],
+    "explanation_np": "यो नेपालका चार धाममध्ये एक हो।"
    },
    {
     "q": "Who rebuilt the temple after the 1934 earthquake?",
@@ -2412,7 +3055,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "Juddha Shumsher rebuilt the temple in 1991 BS."
+    "explanation": "Juddha Shumsher rebuilt the temple in 1991 BS.",
+    "q_np": "1934 को भूकम्पपछि मन्दिर कसले पुनर्निर्माण गरे?",
+    "options_np": [
+     "जंगबहादुर राणा",
+     "चन्द्र शमशेर",
+     "जुद्ध शमशेर",
+     "राजा त्रिभुवन"
+    ],
+    "explanation_np": "जुद्ध शमशेरले 1991 वि.सं. मा मन्दिर पुनर्निर्माण गरे।"
    },
    {
     "q": "What do Limbu people call Barahachhetra?",
@@ -2424,7 +3075,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "In Yakthung Limbu belief it is Mouksik:Sawalung, the winter home of Dungdung Sammang."
+    "explanation": "In Yakthung Limbu belief it is Mouksik:Sawalung, the winter home of Dungdung Sammang.",
+    "q_np": "लिम्बू जनजातिले बराहक्षेत्रलाई के भन्छन्?",
+    "options_np": [
+     "मुक्कुम्लुङ",
+     "माउक्सिक:सावालुङ",
+     "यलम्बर",
+     "फकफोक"
+    ],
+    "explanation_np": "याक्थुङ लिम्बू विश्वासमा यो माउक्सिक:सावालुङ हो, दुङदुङ साम्माङको जाडोको बासस्थान।"
    }
   ],
   "clues": [
@@ -2518,6 +3177,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Temple complex above the river"
    }
+  ],
+  "short_np": "नेपालका चार धाममध्ये एक: कोका र कोशीको संगमस्थलमा विष्णुको वराह अवतारका सेता गुम्बज भएका मन्दिरहरू।",
+  "story_np": "सुन्नुहोस्: तपाईंको तल, कोका खोला मिसिने ठाउँमा, शक्तिशाली सप्तकोशी पहाडबाट गर्जिँदै निस्किन्छ। तपाईं बराहक्षेत्रमा हुनुहुन्छ, नेपालका चार महान् तीर्थधाममध्ये एक, पुराणमा र महाभारतमा समेत प्रशंसित। कथा भन्छ, एक दानवले पृथ्वीलाई पाताल तर्फ तान्दा, भगवान् विष्णुले वराह, शक्तिशाली बँगुर, को रूप लिए र उनलाई आफ्नो दाह्रामा उठाएर माथि ल्याए। त्यसपछि उनी आफ्नी पत्नी लक्ष्मीसँग यहाँ कोशीको छेउमा विश्राम गरे। पृथ्वी बोकेका वराहको ठूलो मूर्ति खोज्नुहोस्। तपाईंले देख्ने सेतो गुम्बज भएको मन्दिर अपेक्षाकृत नयाँ हो; सन् १९३४ को भूकम्पले पुरानो मन्दिर ढाल्यो, र जुद्ध शमशेरले यसलाई पुनर्निर्माण गराए। तैपनि तपाईंको वरिपरि पन्ध्र सय वर्षभन्दा पुराना मूर्तिहरू भेटिएका छन्। लिम्बू समुदायले यस ठाउँलाई मौक्सिक सावालुङ्ग भन्छन्, देवता डुङ्डुङ सम्माङको जाडोको बासस्थान। कार्तिक पूर्णिमा र माघे संक्रान्तिमा नदीमा नुहाउन भीड आउँछ।",
+  "legend_np": "पृथ्वीलाई पातालमा तानिँदै गर्दा, विष्णुले बँगुर वराहको रूप लिई उनलाई दाह्रामा उठाएर बाहिर ल्याए, त्यसपछि लक्ष्मीसँग कोशीको किनारमा बसे; ठाउँको नाम त्यही अवतारबाट राखिएको हो।",
+  "facts_np": [
+   "बराहक्षेत्र नेपालका चार धाम (चार महान् तीर्थस्थल) मध्ये एक हो।",
+   "यो सुनसरी जिल्लामा कोका र कोशी नदीको संगमस्थलमा पर्छ।",
+   "हालको मन्दिर जुद्ध शमशेरले १९९० साल (सन् १९३४) को भूकम्पपछि १९९१ साल मा पुनर्निर्माण गरेका थिए।",
+   "परिसरमा नौवटा मन्दिर छन्, र यहाँ १,५०० वर्षभन्दा पुराना मूर्तिहरू भेटिएका छन्।",
+   "लिम्बूहरू यसलाई मौक्सिक:सावालुङ्ग भन्छन्, देवता डुङ्डुङ सम्माङको जाडोको निवास।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "सुँगुरको रूपमा एक देवताले डुब्दै गरेको पृथ्वीलाई दाह्राले उठाए, अनि यहाँ नदीको किनारमा पत्नीसँग विश्राम गरे।",
+   "कोका ठूलो कोशीमा मिसिने ठाउँमा सेता गुम्बज उभिएका छन्, चार महान् धाममध्ये एकमा।"
   ]
  },
  {
@@ -2568,9 +3242,10 @@
   "festivals": [
    {
     "name": "Mani Rimdu",
-    "name_np": "मानि रिम्दु",
+    "name_np": "मानी रिम्दु",
     "month": "Kartik",
-    "note": "The Sherpas' most important festival, held in the tenth Tibetan month (October-November) with masked dances."
+    "note": "The Sherpas' most important festival, held in the tenth Tibetan month (October-November) with masked dances.",
+    "note_np": "शेर्पाहरूको सबैभन्दा महत्त्वपूर्ण चाड, तिब्बती पात्रोको दसौँ महिना (अक्टोबर-नोभेम्बर) मा मुकुण्डो नाचसहित मनाइन्छ।"
    }
   ],
   "quiz": [
@@ -2584,7 +3259,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "It is a Tibetan Buddhist monastery of the Sherpa community."
+    "explanation": "It is a Tibetan Buddhist monastery of the Sherpa community.",
+    "q_np": "तेङ्बोचे गुम्बा कुन समुदायले बनाएको र हेरचाह गर्ने हो?",
+    "options_np": [
+     "नेवार",
+     "शेर्पा",
+     "थारु",
+     "मगर"
+    ],
+    "explanation_np": "यो शेर्पा समुदायको तिब्बती बौद्ध गुम्बा हो।"
    },
    {
     "q": "In which year was Tengboche Monastery founded?",
@@ -2596,7 +3279,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Lama Gulu founded it in 1916."
+    "explanation": "Lama Gulu founded it in 1916.",
+    "q_np": "तेङ्बोचे गुम्बा कुन वर्षमा स्थापना भएको थियो?",
+    "options_np": [
+     "1816",
+     "1916",
+     "1953",
+     "1989"
+    ],
+    "explanation_np": "लामा गुलुले 1916 मा यसको स्थापना गरेका थिए।"
    },
    {
     "q": "What destroyed the monastery in January 1989?",
@@ -2608,7 +3299,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "An electrical short circuit started a fire on 19 January 1989."
+    "explanation": "An electrical short circuit started a fire on 19 January 1989.",
+    "q_np": "1989 को जनवरीमा गुम्बालाई केले नष्ट गर्‍यो?",
+    "options_np": [
+     "हिमपहिरो",
+     "आगलागी",
+     "भूकम्प",
+     "बाढी"
+    ],
+    "explanation_np": "19 जनवरी 1989 मा बिजुलीको सर्ट सर्किटबाट आगो लागेको थियो।"
    },
    {
     "q": "Which festival with masked dances is held at Tengboche?",
@@ -2620,7 +3319,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Mani Rimdu is held here in the tenth Tibetan month."
+    "explanation": "Mani Rimdu is held here in the tenth Tibetan month.",
+    "q_np": "तेङ्बोचेमा मुकुण्डो नाचसहित कुन चाड मनाइन्छ?",
+    "options_np": [
+     "ल्होसार",
+     "मानी रिम्दु",
+     "टिजी",
+     "दुम्जे"
+    ],
+    "explanation_np": "मानी रिम्दु यहाँ तिब्बती पात्रोको दसौँ महिनामा मनाइन्छ।"
    },
    {
     "q": "Tengboche was founded with links to which mother monastery in Tibet?",
@@ -2632,7 +3339,15 @@
     ],
     "answer_index": 0,
     "difficulty": 5,
-    "explanation": "Its mother monastery is Rongbuk, on the north side of Everest."
+    "explanation": "Its mother monastery is Rongbuk, on the north side of Everest.",
+    "q_np": "तेङ्बोचेको स्थापना तिब्बतको कुन मातृ गुम्बासँगको सम्बन्धमा भएको थियो?",
+    "options_np": [
+     "रोङ्बुक",
+     "शाक्य",
+     "ताशिलुन्पो",
+     "डेपुङ"
+    ],
+    "explanation_np": "यसको मातृ गुम्बा सगरमाथाको उत्तरतर्फ रहेको रोङ्बुक हो।"
    }
   ],
   "clues": [
@@ -2730,6 +3445,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Stupa and mani stones at Tengboche"
    }
+  ],
+  "short_np": "खुम्बुको सबैभन्दा ठूलो गुम्बा, एभरेस्ट मार्गमा ३,८६७ मिटरमा, पछाडि एभरेस्ट र अमा दब्लम सहित।",
+  "story_np": "बिस्तारै सास लिनुहोस्; तपाईं ३,८६७ मिटरमा, दूधकोशी र इम्जा नदीको सङ्गममाथिको टिलामा हुनुहुन्छ। तपाईंको अगाडि टेङबोचे गुम्बा छ, खुम्बुको सबैभन्दा ठूलो गुम्बा र निङ्मा परम्पराका शेर्पा भिक्षुहरूको घर। लामा गुलुले यसलाई सन् १९१६ मा स्थापना गरे, एभरेस्टको तिब्बती पट्टिको रोङ्बुक गुम्बाको आशीर्वादसहित। यसको जीवन नाटकीय रहेको छ। सन् १९३४ को भूकम्पले यसलाई पूरै ढाल्यो, र सन् १९८९ जनवरीमा बिजुलीको आगलागीले यसका पुराना धर्मग्रन्थ, मूर्ति र भित्तेचित्रहरू नष्ट गर्‍यो। भिक्षु, शेर्पा र संसारभरिका मित्रहरूले यसलाई पुनर्निर्माण गरे, र यो सन् १९९३ मा फेरि प्रतिष्ठित गरियो। रङ्गीन ढोकाबाट प्रार्थना कक्षमा हिँड्नुहोस्, जहाँ दुई तलामा उठेको बुद्ध छन्। अभियानहरू यहाँ बत्ती बालेर सुरक्षित आरोहणको कामना गर्न रोकिन्छन्। अब बाहिर निस्केर उपत्यकामाथि हेर्नुहोस्: एभरेस्ट, ल्होत्से र अमा दब्लमको तीखो चुचुरो छानाको ठीक पछाडि उभिएका छन्।",
+  "legend_np": "पाङ्बोचे गुम्बाका संस्थापक लामा सङ्वा दोर्जेले टेङबोचेमा गुम्बाको पूर्वदर्शन गरेका र यहाँ ध्यान गर्दा चट्टानमा आफ्नो पाइलाको छाप छाडेका थिए भनिन्छ; सन् १९८९ को आगलागीमा त्यो ढुङ्गा चर्कियो।",
+  "facts_np": [
+   "टेङबोचे ३,८६७ मिटरमा छ र खुम्बु क्षेत्रको सबैभन्दा ठूलो गुम्बा हो।",
+   "यो सन् १९१६ मा लामा गुलुले स्थापना गरे, तिब्बतको रोङ्बुक गुम्बासँग सम्बन्धित।",
+   "यो सन् १९३४ को भूकम्पले र फेरि १९ जनवरी १९८९ मा आगलागीले नष्ट गर्‍यो।",
+   "पुनर्निर्मित गुम्बा सन् १९९३ मा प्रतिष्ठित गरियो।",
+   "मानी रिम्दु पर्व यहाँ हरेक शरदमा मनाइन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "पृथ्वीको सबैभन्दा अग्लो शिखरतिर लाग्नुअघि आरोहीहरू यहाँ बत्ती बाल्छन्; त्यो शिखर मेरो छानामाथि झुलुक्क देखिन्छ।",
+   "1934 मा हल्लिएर ढलेँ, 1989 मा जलेँ, संसारभरिको सहयोगले फेरि उठेँ र 1993 मा पुनः प्रतिष्ठा गरियो।"
   ]
  },
  {
@@ -2780,13 +3510,15 @@
     "name": "Dashain",
     "name_np": "दशैँ",
     "month": "Ashwin",
-    "note": "Biggest crowds of the year; a fair is held on the eve of Dashain and animal sacrifices are offered."
+    "note": "Biggest crowds of the year; a fair is held on the eve of Dashain and animal sacrifices are offered.",
+    "note_np": "वर्षको सबैभन्दा ठूलो भीड; दशैँको पूर्वसन्ध्यामा मेला लाग्छ र पशुबलि चढाइन्छ।"
    },
    {
     "name": "Teej",
     "name_np": "तीज",
     "month": "Bhadra",
-    "note": "Many women devotees visit during Teej."
+    "note": "Many women devotees visit during Teej.",
+    "note_np": "तीजमा धेरै महिला भक्तजन दर्शन गर्न आउँछन्।"
    }
   ],
   "quiz": [
@@ -2800,7 +3532,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Danta means tooth; Sati's tooth is believed to have fallen here."
+    "explanation": "Danta means tooth; Sati's tooth is believed to have fallen here.",
+    "q_np": "दन्तकालीमा ‘दन्त’ को अर्थ के हो?",
+    "options_np": [
+     "हात",
+     "दाँत",
+     "आँखा",
+     "कपाल"
+    ],
+    "explanation_np": "दन्त भनेको दाँत; यहाँ सतीको दाँत खसेको विश्वास गरिन्छ।"
    },
    {
     "q": "In which city is Dantakali Temple?",
@@ -2812,7 +3552,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The temple is on Bijayapur hill in Dharan."
+    "explanation": "The temple is on Bijayapur hill in Dharan.",
+    "q_np": "दन्तकाली मन्दिर कुन सहरमा छ?",
+    "options_np": [
+     "विराटनगर",
+     "धरान",
+     "इटहरी",
+     "इलाम"
+    ],
+    "explanation_np": "मन्दिर धरानको बिजयपुर डाँडामा छ।"
    },
    {
     "q": "Dantakali is counted as one of the what?",
@@ -2824,7 +3572,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "It is a Shakti Peeth, a place where part of Sati's body fell."
+    "explanation": "It is a Shakti Peeth, a place where part of Sati's body fell.",
+    "q_np": "दन्तकालीलाई कुनमध्ये एक मानिन्छ?",
+    "options_np": [
+     "चार धाम",
+     "शक्तिपीठ",
+     "ज्योतिर्लिङ्ग",
+     "अष्ट भैरव"
+    ],
+    "explanation_np": "यो शक्तिपीठ हो, अर्थात् सतीको शरीरको अङ्ग खसेको ठाउँ।"
    },
    {
     "q": "Which scripture mentions this temple?",
@@ -2836,7 +3592,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "The Swasthani Bratakatha mentions Dantakali."
+    "explanation": "The Swasthani Bratakatha mentions Dantakali.",
+    "q_np": "कुन धर्मग्रन्थमा यस मन्दिरको उल्लेख छ?",
+    "options_np": [
+     "स्वस्थानी व्रतकथा",
+     "भगवद्गीता",
+     "रामायण",
+     "गोपालराजवंशावली"
+    ],
+    "explanation_np": "स्वस्थानी व्रतकथामा दन्तकालीको उल्लेख छ।"
    },
    {
     "q": "Which earthquake brought down the temple's dome-style roof?",
@@ -2848,7 +3612,15 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "The 1988 earthquake toppled the gumbaj roof, and the temple was restored as a pagoda."
+    "explanation": "The 1988 earthquake toppled the gumbaj roof, and the temple was restored as a pagoda.",
+    "q_np": "कुन भूकम्पले मन्दिरको गुम्बज शैलीको छाना ढाल्यो?",
+    "options_np": [
+     "1834",
+     "1934",
+     "1988",
+     "2015"
+    ],
+    "explanation_np": "सन् 1988 को भूकम्पले गुम्बजको छाना ढाल्यो, र मन्दिर पगोडा शैलीमा पुनर्निर्माण गरियो।"
    }
   ],
   "clues": [
@@ -2940,6 +3712,20 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "The temple on the slopes of Bijayapur"
    }
+  ],
+  "short_np": "धरानको बिजयपुर डाँडामा रहेको शक्तिपीठ, जहाँ सती देवीको दाँत खसेको भनिन्छ।",
+  "story_np": "धरानमाथिको बिजयपुर डाँडाका सिँढी चढ्नुहोस् र मेहराब आकारको रातो ढोकामुनि पार गर्नुहोस्। तपाईं दन्तकालीमा आइपुग्नुभएको छ, शक्तिपीठहरूमध्ये एक, जहाँ सती देवीका अङ्गहरू पृथ्वीमा खसेका थिए। सतीले प्राण त्यागेपछि शोकाकुल शिव उनको शव बोकेर संसारभर घुमे, र अङ्गहरू देशभर खसे। यहाँ, भक्तजनको विश्वास अनुसार, उनको दाँत खस्यो: दन्तको अर्थ दाँत हो, त्यसैले यो कालीको दाँतको मन्दिर हो। धेरै नेपाली परिवारले हरेक जाडोमा पढ्ने स्वस्थानी व्रतकथामा यो ठाउँको उल्लेख छ। भवनले एक कठिन शताब्दी बिताएको छ। 1934 को भूकम्पले ढाल्नुअघि यो पगोडा थियो। यो गुम्बजको छानासहित फर्कियो, जसलाई 1988 को भूकम्पले पालैपालो ढालिदियो, र त्यसपछि तपाईंले देख्नुभएको पगोडा रूपमा पुनर्निर्माण गरियो। बुढासुब्बा र पिण्डेश्वर दुवै छोटो पैदल दूरीमा छन्। दशैँमा भक्तजनको लाइन डाँडाभर तलसम्म फैलिन्छ।",
+  "legend_np": "शिवले सतीको मृत शरीर बोकेर संसारभर घुम्दा उनको दाँत (दन्त) यही ठाउँमा खस्यो, र यो शक्तिपीठ बन्यो।",
+  "facts_np": [
+   "मन्दिरको नाम दन्त (दाँत) र कालीबाट आएको हो; सतीको दाँत खसेको मानिने ठाउँलाई यसले जनाउँछ।",
+   "यो स्वस्थानी व्रतकथामा उल्लेख गरिएको छ।",
+   "1934 को भूकम्पसम्म यो पगोडा थियो, त्यसपछि गुम्बजको छाना भयो जुन 1988 को भूकम्पमा ढल्यो।",
+   "यो बिजयपुर डाँडामा पिण्डेश्वरबाट करिब 1 किलोमिटर र बुढासुब्बाबाट 1.5 किलोमिटर दूरीमा छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "शोकाकुल देवताले पत्नीको शरीर बोकेर संसार घुम्दा यही डाँडामा उनको दाँत खसेको भनिन्छ।",
+   "पगोडा, त्यसपछि गुम्बज, फेरि पगोडा: सन् 1934 र 1988 का दुई भूकम्पले मेरो छाना बदलिरहे।"
   ]
  },
  {
@@ -2997,7 +3783,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "He is believed to be the spirit of the last Limbu king of Bijaypur."
+    "explanation": "He is believed to be the spirit of the last Limbu king of Bijaypur.",
+    "q_np": "बुढासुब्बालाई कुन समुदायका राजा मानिन्छ?",
+    "options_np": [
+     "नेवार",
+     "लिम्बू",
+     "शेर्पा",
+     "थारू"
+    ],
+    "explanation_np": "उनलाई विजयपुरका अन्तिम लिम्बू राजाको आत्मा मानिन्छ।"
    },
    {
     "q": "What is special about the bamboo at Budha Subba?",
@@ -3009,7 +3803,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Legend says tuftless bamboo sprouted from the bows of Shiva and Parvati."
+    "explanation": "Legend says tuftless bamboo sprouted from the bows of Shiva and Parvati.",
+    "q_np": "बुढासुब्बाको बाँसको के विशेषता छ?",
+    "options_np": [
+     "यो सुनौलो छ",
+     "यसको टुप्पोमा झुप्पा हुँदैन",
+     "यो कहिल्यै बढ्दैन",
+     "यो हरेक वर्ष फुल्छ"
+    ],
+    "explanation_np": "किंवदन्ती अनुसार शिव र पार्वतीका धनुषबाट झुप्पा नभएको बाँस उम्रिएको थियो।"
    },
    {
     "q": "What do couples tie to the bamboo today?",
@@ -3021,7 +3823,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Name-writing was stopped, so lovers now tie sacred threads."
+    "explanation": "Name-writing was stopped, so lovers now tie sacred threads.",
+    "q_np": "आजकल जोडीहरूले बाँसमा के बाँध्छन्?",
+    "options_np": [
+     "घण्टी",
+     "रङ्गीन धागो",
+     "सिक्का",
+     "फूल"
+    ],
+    "explanation_np": "नाम लेख्न बन्द गरिएकाले अब प्रेमीहरू पवित्र धागो बाँध्छन्।"
    },
    {
     "q": "In which year was the Limbu king Buddhi Karna Raya Khebang killed?",
@@ -3033,7 +3843,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "He was killed in 1773 after being lured to Bijaypur for negotiation."
+    "explanation": "He was killed in 1773 after being lured to Bijaypur for negotiation.",
+    "q_np": "लिम्बू राजा बुद्धिकर्ण राय खेबाङ कुन वर्षमा मारिए?",
+    "options_np": [
+     "1744",
+     "1773",
+     "1816",
+     "1846"
+    ],
+    "explanation_np": "उनलाई वार्ताका लागि विजयपुर बोलाइएपछि 1773 मा मारिएको थियो।"
    },
    {
     "q": "Which historian described Bijaypur as a capital of Limbuwan?",
@@ -3045,7 +3863,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "Kirat historian Iman Singh Chemjong described Bijaypur as the Limbuwan capital."
+    "explanation": "Kirat historian Iman Singh Chemjong described Bijaypur as the Limbuwan capital.",
+    "q_np": "कुन इतिहासकारले विजयपुरलाई लिम्बुवानको राजधानीका रूपमा वर्णन गरे?",
+    "options_np": [
+     "बाबुराम आचार्य",
+     "इमानसिंह चेम्जोङ",
+     "डोरबहादुर विष्टा",
+     "महेशचन्द्र रेग्मी"
+    ],
+    "explanation_np": "किरात इतिहासकार इमानसिंह चेम्जोङले विजयपुरलाई लिम्बुवानको राजधानी भनेका छन्।"
    }
   ],
   "clues": [
@@ -3136,6 +3962,20 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "North view of the temple"
    }
+  ],
+  "short_np": "धरानको बाँसघारीभित्रको किराँत मन्दिर, विजयपुरका अन्तिम लिम्बू राजाको समाधि भनिने।",
+  "story_np": "धरानको विजयपुर डाँडाको बाँसघारीभित्र पस्नुहोस् र हावामा बाँसका ठाँटहरू चर्कँदै गरेको सुन्नुहोस्। यो बुढासुब्बा हो, किराँत जातिको मन्दिर, र यसको कथा दुःखद छ। विजयपुर कुनै समय लिम्बूवान राज्यको राजधानी थियो। सन् 1773 मा यसका अन्तिम लिम्बू राजा बुद्धिकर्ण राय खेबाङलाई वार्ताका लागि यहाँ बोलाइयो र गोर्खाली राजाले पठाएका हत्याराहरूले मारे। मानिसहरू भन्छन् उनको आत्मा उनको समाधिनजिकै बस्यो, मित्रवत् र सहयोगी, र स्थानीय लिम्बूहरूले उनलाई बुढा सुब्बा, शुभ भाग्य ल्याउने पुराना राजाका रूपमा पूजा गर्न थाले। अब बाँसलाई नजिकबाट हेर्नुहोस्। कसैले भन्छन्, लिम्बू राजा र रानीको भेषमा शिव र पार्वतीले यहीँ आफ्ना सिकारका धनुष रोपेका थिए, र यी बाँस तिनैबाट टुप्पोमा झुप्पा बिना उम्रे। जवान जोडीहरू बाँसका ठाँटमा आफ्ना नाम कुँद्थे; आज तिनीहरू रङ्गीन धागो बाँध्छन् र आफ्नो माया टिकिरहोस् भन्ने आशा गर्छन्।",
+  "legend_np": "याक्थुङ राजा र रानी थेबा साम्माङ र युमा साम्माङको रूपमा शिव र पार्वतीले सिकार खेल्दा यहाँ भुइँमा आफ्ना धनुष रोपे; ती धनुषबाट झुप्पा नभएको बाँस उम्रियो।",
+  "facts_np": [
+   "यो मन्दिर विजयपुरका अन्तिम लिम्बू राजा बुद्धिकर्ण राय खेबाङको समाधि भनिन्छ, जसलाई सन् 1773 मा मारिएको थियो।",
+   "इतिहासकार इमानसिंह चेमजोङका अनुसार विजयपुर लिम्बूवान राज्यको एक राजधानी थियो।",
+   "यहाँको बाँस टुप्पोमा झुप्पा बिना उम्रन्छ, जसलाई किंवदन्तीले शिव र पार्वतीका धनुषसँग जोड्छ।",
+   "जोडीहरूले एक समय बाँसमा आफ्ना नाम लेख्थे; मन्दिर समितिले यो रोक्यो, र अब धागो बाँधिन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "प्रेमीहरूले कुनै बेला मेरो बाँसमा नाम कुँदे; अहिले झुप्पा नहुने बाँसका डाँठमा उनीहरू रङ्गीन धागो बाँध्छन्।",
+   "शान्तिवार्तामा बोलाइएका एक लिम्बू राजा यो डाँडाबाट कहिल्यै फर्किएनन्; यहाँ उनको दयालु आत्माको पूजा गरिन्छ।"
   ]
  },
  {
@@ -3185,21 +4025,24 @@
   "festivals": [
    {
     "name": "Shrawan Mondays (Bol Bam)",
-    "name_np": "साउने सोमबार (बोल बम)",
+    "name_np": "श्रावण सोमबार (बोल बम)",
     "month": "Shrawan",
-    "note": "Devotees walk from Barahachhetra with Saptakoshi water to pour on Shiva every Monday."
+    "note": "Devotees walk from Barahachhetra with Saptakoshi water to pour on Shiva every Monday.",
+    "note_np": "भक्तजनहरू हरेक सोमबार बराहक्षेत्रबाट सप्तकोशीको जल बोकेर पैदल हिँडी शिवमाथि चढाउँछन्।"
    },
    {
     "name": "Maha Shivaratri",
     "name_np": "महाशिवरात्रि",
     "month": "Falgun",
-    "note": "Major night of Shiva worship at the temple."
+    "note": "Major night of Shiva worship at the temple.",
+    "note_np": "मन्दिरमा शिव पूजाको प्रमुख रात।"
    },
    {
     "name": "Bala Chaturdashi",
-    "name_np": "बालाचतुर्दशी",
+    "name_np": "बाला चतुर्दशी",
     "month": "Mangsir",
-    "note": "Annual festival observed at the temple."
+    "note": "Annual festival observed at the temple.",
+    "note_np": "मन्दिरमा मनाइने वार्षिक चाड।"
    }
   ],
   "quiz": [
@@ -3213,7 +4056,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Pindeshwor Babadham is a Shiva temple."
+    "explanation": "Pindeshwor Babadham is a Shiva temple.",
+    "q_np": "पिण्डेश्वरमा कुन देवताको पूजा गरिन्छ?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "गणेश",
+     "दुर्गा"
+    ],
+    "explanation_np": "पिण्डेश्वर बाबाधाम शिव मन्दिर हो।"
    },
    {
     "q": "In which month do pilgrims walk to the temple every Monday?",
@@ -3225,7 +4076,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Devotees come every Monday of Shrawan carrying holy water."
+    "explanation": "Devotees come every Monday of Shrawan carrying holy water.",
+    "q_np": "कुन महिनामा तीर्थयात्रीहरू हरेक सोमबार मन्दिरसम्म पैदल हिँड्छन्?",
+    "options_np": [
+     "कार्तिक",
+     "श्रावण",
+     "माघ",
+     "चैत्र"
+    ],
+    "explanation_np": "भक्तजन श्रावणका हरेक सोमबार पवित्र जल बोकेर आउँछन्।"
    },
    {
     "q": "From where do the pilgrims carry their holy water?",
@@ -3237,7 +4096,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "They fetch water from the Saptakoshi at Barahachhetra."
+    "explanation": "They fetch water from the Saptakoshi at Barahachhetra.",
+    "q_np": "तीर्थयात्रीहरू पवित्र जल कहाँबाट बोक्छन्?",
+    "options_np": [
+     "गोसाइँकुण्ड",
+     "बराहक्षेत्र (सप्तकोशी नदी)",
+     "बागमती नदी",
+     "रारा ताल"
+    ],
+    "explanation_np": "उनीहरू बराहक्षेत्रमा सप्तकोशीबाट जल ल्याउँछन्।"
    },
    {
     "q": "What chant do the Shrawan pilgrims call out?",
@@ -3249,7 +4116,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The pilgrims walk chanting 'Bol Bam'."
+    "explanation": "The pilgrims walk chanting 'Bol Bam'.",
+    "q_np": "श्रावणका तीर्थयात्रीहरूले कुन जयकारा लगाउँछन्?",
+    "options_np": [
+     "जय श्री राम",
+     "बोल बम",
+     "ॐ मणि पद्मे हुम्",
+     "हर हर गङ्गे"
+    ],
+    "explanation_np": "तीर्थयात्रीहरू 'बोल बम' भन्दै हिँड्छन्।"
    },
    {
     "q": "In how many chapters of the Skanda Purana is the temple said to appear?",
@@ -3261,7 +4136,15 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "Local scholar Prem Prasad Parajuli says it appears in 18 chapters."
+    "explanation": "Local scholar Prem Prasad Parajuli says it appears in 18 chapters.",
+    "q_np": "मन्दिरको उल्लेख स्कन्द पुराणका कति अध्यायमा भएको भनिन्छ?",
+    "options_np": [
+     "3",
+     "7",
+     "18",
+     "108"
+    ],
+    "explanation_np": "स्थानीय विद्वान् प्रेम प्रसाद पराजुलीका अनुसार यो 18 अध्यायमा आउँछ।"
    }
   ],
   "clues": [
@@ -3355,6 +4238,20 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "Another view of the temple"
    }
+  ],
+  "short_np": "धरानको शिव मन्दिर जहाँ श्रावणमा तीर्थयात्रीहरू बराहक्षेत्रबाट खालि खुट्टा कोशीको पानी बोकेर शिवलिङ्गमा चढाउन हिँड्छन्।",
+  "story_np": "तपाईं धरानको पिण्डेश्वर बाबाधाममा हुनुहुन्छ, भगवान् शिवको मन्दिर जो वर्षा महिना श्रावणमा जीवन्त हुन्छ। त्यस महिनाको हरेक सोमबार, हजारौँ भक्तजन 'बोल बम' जप्दै हिँडेर आइपुग्छन्, धेरैजना खालि खुट्टा। उनीहरू बराहक्षेत्रबाट बीस किलोमिटरभन्दा बढी हिँडेका हुन्छन्, सप्तकोशी नदीको पवित्र जलको घडा बोकेर, यहाँ शिवलाई चढाउन। भक्तजनहरू भन्छन् बराहक्षेत्रमा कोशी र कोकाको पानी चढाएर, त्यसपछि यहाँ पिण्डेश्वरमा कौशिकी किनारको पानी चढाए मनोकामना पूरा हुन्छ। सुन्तला रङको शिखर र त्रिशूलमा माथि हेर्नुहोस्, अनि छेउको मेहराबहरूको लामो पङ्क्तिमा। भित्र, तेलका दीपहरू कहिल्यै निभ्न दिइँदैन। एक स्थानीय विद्वान भन्छन् यो ठाउँ स्कन्द पुराणका अठारह अध्यायमा देखा पर्छ, र मानिसहरू यसलाई रुद्राक्ष मालाको उत्पत्तिसँग पनि जोड्छन्। दन्तकाली र बुढासुब्बा डाँडामाथि नै छन्, त्यसैले धेरै तीर्थयात्रीहरू तीनवटै सँगै दर्शन गर्छन्।",
+  "legend_np": "स्थानीय विश्वासले यो स्थललाई रुद्राक्ष मालाको उत्पत्तिसँग जोड्छ र यो स्कन्द पुराणका १८ अध्यायमा देखा पर्छ भन्छ।",
+  "facts_np": [
+   "श्रावणको हरेक सोमबार, भक्तजनहरू बराहक्षेत्रबाट सप्तकोशीको पानी बोकेर २० कि.मी. भन्दा बढी हिँड्छन्, धेरैजना खालि खुट्टा।",
+   "मन्दिरमा तेलका दीपहरू निरन्तर बलिरहन्छन्।",
+   "महाशिवरात्रि र बाला चतुर्दशी पनि यहाँका प्रमुख चाड हुन्।",
+   "धरान बजारको वरिपरि पिण्डेश्वर रथयात्रा, रथको चाड, दोस्रो पटक मार्च २०२६ मा मनाइएको थियो।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "वर्षा महिनाको हरेक सोमबार खाली खुट्टा भक्तजनहरू नदीबाट मेरो लिङ्गका लागि जल बोकेर बीस किलोमिटर हिँड्छन्।",
+   "मेरो सुन्तला रङको शिखरपछाडि मेहराबको लामो पङ्क्ति छ, र भित्र तेलका दियाहरू कहिल्यै निभ्न दिइँदैन।"
   ]
  },
  {
@@ -3407,7 +4304,8 @@
     "name": "Victory festival",
     "name_np": "विजय उत्सव",
     "month": "Magh",
-    "note": "Celebrated at the fort on Magh 10, the date given for the Gorkhali attack of VS 1819."
+    "note": "Celebrated at the fort on Magh 10, the date given for the Gorkhali attack of VS 1819.",
+    "note_np": "वि.सं. 1819 को गोरखाली आक्रमणको मिति मानिएको माघ 10 गते गढीमा मनाइन्छ।"
    }
   ],
   "quiz": [
@@ -3421,7 +4319,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The fort was the stronghold of the Sen kings of Makwanpur."
+    "explanation": "The fort was the stronghold of the Sen kings of Makwanpur.",
+    "q_np": "एकीकरणअघि मकवानपुरगढीबाट कुन वंशले शासन गर्‍यो?",
+    "options_np": [
+     "मल्ल",
+     "सेन",
+     "लिच्छवि",
+     "राणा"
+    ],
+    "explanation_np": "गढी मकवानपुरका सेन राजाहरूको किल्ला थियो।"
    },
    {
     "q": "Which Gorkha king married a Makwanpur princess and later captured the fort?",
@@ -3433,7 +4339,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Prithvi Narayan Shah married Indra Kumari and took Makwanpur in 1762-63."
+    "explanation": "Prithvi Narayan Shah married Indra Kumari and took Makwanpur in 1762-63.",
+    "q_np": "कुन गोरखा राजाले मकवानपुरकी राजकुमारीसँग विवाह गरी पछि गढी कब्जा गरे?",
+    "options_np": [
+     "राम शाह",
+     "पृथ्वीनारायण शाह",
+     "रणबहादुर शाह",
+     "गीर्वाणयुद्ध विक्रम शाह"
+    ],
+    "explanation_np": "पृथ्वीनारायण शाहले इन्द्रकुमारीसँग विवाह गरे र 1762-63 मा मकवानपुर लिए।"
    },
    {
     "q": "Against whom was the 1816 Battle of Makwanpur fought?",
@@ -3445,7 +4359,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The 1816 battle was part of the Anglo-Nepalese War."
+    "explanation": "The 1816 battle was part of the Anglo-Nepalese War.",
+    "q_np": "1816 को मकवानपुरको युद्ध कसको विरुद्ध लडिएको थियो?",
+    "options_np": [
+     "तिब्बत",
+     "बेलायती इस्ट इन्डिया कम्पनी",
+     "मुगल",
+     "सिक्किम"
+    ],
+    "explanation_np": "1816 को युद्ध अङ्ग्रेज-नेपाल युद्धको भाग थियो।"
    },
    {
     "q": "What is the name of the famous old cannon at the fort?",
@@ -3457,7 +4379,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "The historic cannon displayed at the fort is called Kali Top."
+    "explanation": "The historic cannon displayed at the fort is called Kali Top.",
+    "q_np": "गढीको प्रसिद्ध पुरानो तोपको नाम के हो?",
+    "options_np": [
+     "कालीतोप",
+     "बाघतोप",
+     "चण्डीतोप",
+     "रामतोप"
+    ],
+    "explanation_np": "गढीमा प्रदर्शनमा राखिएको ऐतिहासिक तोपलाई कालीतोप भनिन्छ।"
    },
    {
     "q": "In which year did Nepal issue a stamp featuring Makwanpur Gadhi?",
@@ -3469,7 +4399,15 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "The Government of Nepal issued the stamp in 2015."
+    "explanation": "The Government of Nepal issued the stamp in 2015.",
+    "q_np": "नेपालले मकवानपुरगढी भएको हुलाक टिकट कुन वर्ष जारी गर्‍यो?",
+    "options_np": [
+     "1990",
+     "2005",
+     "2015",
+     "2020"
+    ],
+    "explanation_np": "नेपाल सरकारले 2015 मा टिकट जारी गरेको थियो।"
    }
   ],
   "clues": [
@@ -3550,6 +4488,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "caption": "Another cannon displayed at the fort"
    }
+  ],
+  "short_np": "हेटौँडा नजिकको सेन राजाहरूको डाँडाको ढुङ्गाको किल्ला, जसका लागि सन् १७६२-६३ मा गोर्खा र सन् १८१६ मा अङ्ग्रेजहरूले लडे।",
+  "story_np": "तपाईं हेटौँडाको पूर्वको डाँडामा करिब १,००० मिटर माथि मकवानपुरगढीभित्र उभिनुभएको छ। नेपाल एकीकरण हुनुअघि यो ढुङ्गाको किल्ला मकवानपुरका सेन राजाहरूको गढ थियो। भित्तामा हात फेर्नुहोस्: यो कुनै बेला करिब २५ फिट अग्लो र ७ फिट बाक्लो थियो, आक्रमणकारी रोक्न बाहिर १० फिट गहिरो खाल्डो थियो। सेन र शाह नातेदार थिए। राजा हेमकर्ण सेनकी छोरी इन्द्र कुमारीले गोरखाका पृथ्वीनारायण शाहसँग विवाह गरिन्। तैपनि पारिवारिक सम्बन्धले शान्ति कायम राखेन। पृथ्वीनारायण शाहका सेनाहरूले सन् १७६२ मा यो किल्ला आक्रमण गरी कब्जा गरे, र अर्को वर्ष बङ्गालका नवाब मीर कासिमको सेनाविरुद्ध यहीँ फेरि लडे। सन् १८१६ मा, ब्रिटिश ईस्ट इन्डिया कम्पनीसँगको युद्धमा यसले फेरि लडाइँ देख्यो। काली तोप भनिने पुरानो फलामको तोप खोज्नुहोस्। सन् २०१५ मा नेपाल हुलाकले यो किल्लालाई हुलाक टिकटमा राख्यो।",
+  "legend_np": "एकान्तिपुरले एउटा कथा रिपोर्ट गर्छ कि हेमकर्ण सेनले ज्वाइँ पृथ्वीनारायण शाहलाई दाइजोमा सेतो हात्ती दिने वचन दिएका थिए, तर उनका छोरा दिग्बन्धन सेनले दिन इन्कार गरे, जसले विजयअघि सम्बन्ध बिगारेको थियो।",
+  "facts_np": [
+   "किल्ला नेपाल एकीकरणअघि मकवानपुरको सेन वंशको मुख्य गढ थियो।",
+   "मकवानपुरका युद्धहरू यहाँ सन् १७६२, १७६३ र १८१६ मा लडिए।",
+   "यसको पर्खाल करिब २५ फिट अग्लो र ७ फिट चौडा, १० फिट गहिरो सुरक्षात्मक खाल्डोसहित भनिएको छ।",
+   "यो करिब १,०१७ मिटरमा छ, हेटौँडाबाट करिब १६-१७ किमी।",
+   "नेपाल सरकारले सन् २०१५ मा यो किल्ला भएको हुलाक टिकट जारी गर्‍यो।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "एक गोरखा राजाले यो डाँडाको किल्लाकी राजकुमारीसँग विवाह गरे, अनि सेना लिएर फर्केर त्यसलाई कब्जा गरे।",
+   "1762, 1763 र 1816 का तीन युद्धको प्रतिध्वनि हेटौँडामाथिको मेरा 25 फिट अग्ला ढुङ्गाका पर्खालमा गुञ्जिए।"
   ]
  },
  {
@@ -3609,7 +4562,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The fort is in the hills of Chitwan District."
+    "explanation": "The fort is in the hills of Chitwan District.",
+    "q_np": "उपरदाङगढी कुन जिल्लामा छ?",
+    "options_np": [
+     "मकवानपुर",
+     "चितवन",
+     "धादिङ",
+     "तनहुँ"
+    ],
+    "explanation_np": "किल्ला चितवन जिल्लाको पहाडी भेगमा छ।"
    },
    {
     "q": "Upardang Gadhi was the historic capital of which valley?",
@@ -3621,7 +4582,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Before unification, the Chitwan valley kingdom's capital was at Upardanggadhi."
+    "explanation": "Before unification, the Chitwan valley kingdom's capital was at Upardanggadhi.",
+    "q_np": "उपरदाङगढी कुन उपत्यकाको ऐतिहासिक राजधानी थियो?",
+    "options_np": [
+     "काठमाडौँ उपत्यका",
+     "चितवन उपत्यका",
+     "पोखरा उपत्यका",
+     "दाङ उपत्यका"
+    ],
+    "explanation_np": "एकीकरणअघि चितवन उपत्यका राज्यको राजधानी उपरदाङगढीमा थियो।"
    },
    {
     "q": "Until about when was the fort Chitwan's district headquarters?",
@@ -3633,7 +4602,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "The headquarters moved to Bharatpur after the early 1960s."
+    "explanation": "The headquarters moved to Bharatpur after the early 1960s.",
+    "q_np": "किल्ला करिब कहिलेसम्म चितवनको जिल्ला सदरमुकाम थियो?",
+    "options_np": [
+     "1860 को दशक",
+     "1910 को दशक",
+     "1960 को दशकको सुरुसम्म",
+     "1990 को दशक"
+    ],
+    "explanation_np": "1960 को दशकको सुरुपछि सदरमुकाम भरतपुर सरेको थियो।"
    },
    {
     "q": "About how high is Upardang Gadhi?",
@@ -3645,7 +4622,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "The fort is about 1,275 m above sea level."
+    "explanation": "The fort is about 1,275 m above sea level.",
+    "q_np": "उपरदाङगढी करिब कति उचाइमा छ?",
+    "options_np": [
+     "275 m",
+     "1,275 m",
+     "2,275 m",
+     "3,275 m"
+    ],
+    "explanation_np": "किल्ला समुद्र सतहबाट करिब 1,275 m माथि छ।"
    },
    {
     "q": "Which grandson of Prithvi Narayan Shah is credited by one source with building the fort?",
@@ -3657,7 +4642,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "Nepal Traveller credits Shatrubhanjan Shah, son of Bahadur Shah."
+    "explanation": "Nepal Traveller credits Shatrubhanjan Shah, son of Bahadur Shah.",
+    "q_np": "एउटा स्रोतले पृथ्वीनारायण शाहका कुन नातिलाई किल्ला निर्माणको श्रेय दिन्छ?",
+    "options_np": [
+     "रणबहादुर शाह",
+     "शत्रुभञ्जन शाह",
+     "भीमसेन थापा",
+     "बहादुर शाह"
+    ],
+    "explanation_np": "नेपाल ट्राभलरले बहादुर शाहका छोरा शत्रुभञ्जन शाहलाई श्रेय दिएको छ।"
    }
   ],
   "clues": [
@@ -3744,6 +4737,21 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "caption": "View around Upardanggadhi"
    }
+  ],
+  "short_np": "चितवन उपत्यकामाथिको ढुङ्गाको डाँडे किल्ला, एक समय उपत्यकाको राजधानी र 1960 को दशकसम्म चितवनको जिल्ला सदरमुकाम।",
+  "story_np": "तपाईं चितवनको उत्तरी डाँडामा 1,275 मिटर उचाइको उपरदाङगढीमा चढ्नुभएको छ, भरतपुरबाट करिब एक घण्टाको सवारीमा। तल हेर्नुहोस्: सारा चितवन उपत्यका तल फैलिएको छ, र यही कारणले यहाँ किल्ला बनाइएको थियो। नेपाल एकीकरणअघि यो उपत्यका आफ्नै सानो राज्य थियो, र यसको ऐतिहासिक राजधानी यहीँ उपरदाङमा थियो। होचा ढुङ्गाका पर्खालसँगै हिँड्नुहोस्। इतिहासकारहरू कसले बनाए भन्नेमा पूर्ण सहमत छैनन्। एउटा वृत्तान्तले पृथ्वीनारायण शाहका नाति शत्रुभञ्जन शाहलाई श्रेय दिन्छ, जसले बेलायतसँगको युद्धमा किल्ला बलियो बनाए; अर्कोले यसलाई अघिका सेन राजाहरूसँग जोड्छ। भित्र पुरानो हतियार घर, इनार र सानो मन्दिर खोज्नुहोस्। 1960 को दशकको सुरुवातसम्म यो चितवनको जिल्ला सदरमुकाम थियो, र त्यसपछि पनि लामो समय यहीँ मालपोत उठाइन्थ्यो। यस स्थलबाट तोप र गोला बरामद भएका छन्, र पुरातत्त्व विभागसँग मिलेर 2023 मा पुनर्स्थापना सुरु भयो।",
+  "legend_np": null,
+  "facts_np": [
+   "नेपाल एकीकरणअघि उपरदाङगढी चितवन उपत्यका राज्यको ऐतिहासिक राजधानी थियो।",
+   "किल्ला समुद्री सतहबाट करिब 1,275 मिटर उचाइमा छ।",
+   "भरतपुर सरेसम्म, 1960 को दशकको सुरुवातसम्म, यो चितवनको जिल्ला सदरमुकाम थियो।",
+   "किल्लाबाट तोप, गोला र पुराना हतियार बरामद भएका छन्।",
+   "पुरातत्त्व विभागसँगको समन्वयमा नवीकरण 2023 मा सुरु भयो।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "डाँडामाथिका मेरा ढुङ्गाका पर्खालबाट मैले एक पटक राजधानी भएर शासन गरेको पूरै जङ्गली उपत्यका देखिन्छ।",
+   "1960 को दशकसम्म जिल्लाका अधिकारीहरू मेरा पर्खालभित्र काम गर्थे, त्यसपछि उनीहरू भरतपुरको समथर भूमिमा झरे।"
   ]
  }
 ]

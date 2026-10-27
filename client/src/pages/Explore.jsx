@@ -7,7 +7,7 @@ import { TYPE_LABEL } from '../components/MonumentCard.jsx';
 import { api } from '../lib/api.js';
 import { useAuth } from '../lib/auth.jsx';
 import { useNarrator } from '../lib/speech.js';
-import { useT } from '../lib/prefs.jsx';
+import { useT, usePrefs } from '../lib/prefs.jsx';
 
 // Nepal story: west to east along the great pilgrim sites; any stop missing from the data is skipped
 const STORY_ORDER = [/maya devi|lumbini/i, /^muktinath/i, /^gorkha durbar/i, /^swayambhu/i, /^pashupati/i, /^boudha/i, /^patan durbar/i, /^bhaktapur durbar/i, /^janaki/i, /^tengboche/i, /^pathibhara/i];
@@ -39,6 +39,7 @@ export default function Explore() {
   const map = useRef(null);
   const { user } = useAuth();
   const t = useT();
+  const { nepali } = usePrefs();
 
   useEffect(() => { api('/monuments').then((d) => setAll(d.results)).catch(() => setAll([])); }, []);
   useEffect(() => { if (!faith) { setFaithIds(null); return; } api(`/monuments?faith=${faith}`).then((d) => setFaithIds(new Set(d.results.map((m) => m.id)))).catch(() => setFaithIds(null)); }, [faith]);
@@ -58,7 +59,7 @@ export default function Explore() {
     if (!all) return [];
     const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
     const out = all.filter((m) => (!type || m.type === type) && (!religion || m.religion === religion || m.religion === 'Both') && (!city || m.city === city) && (!unesco || m.unesco) && (!province || m.province === province) && (!faithIds || faithIds.has(m.id))
-      && terms.every((w) => `${m.name} ${m.name_np} ${m.deity || ''} ${m.tags} ${m.short}`.toLowerCase().includes(w)));
+      && terms.every((w) => `${m.name} ${m.name_np} ${m.deity || ''} ${m.tags} ${m.short} ${m.short_np || ''}`.toLowerCase().includes(w)));
     if (!me) return out;
     return out.map((m) => ({ ...m, metres: metresBetween(me, m) })).sort((a, b) => a.metres - b.metres);
   }, [all, q, type, religion, city, unesco, province, faithIds, me]);
@@ -75,8 +76,8 @@ export default function Explore() {
 
   // valley story: cinematic tour of the UNESCO zones
   const storyStops = useMemo(() => STORY_ORDER.map((re) => all?.find((m) => re.test(m.name))).filter(Boolean), [all]);
-  const chapters = useMemo(() => storyStops.map((m) => ({ title: m.name, text: `${m.name}. ${m.short}` })), [storyStops]);
-  const narrator = useNarrator(chapters);
+  const chapters = useMemo(() => storyStops.map((m) => ({ title: m.name, text: nepali && m.short_np ? `${m.name_np}। ${m.short_np}` : `${m.name}. ${m.short}` })), [storyStops, nepali]);
+  const narrator = useNarrator(chapters, nepali ? 'ne' : 'en');
   const go = (i) => {
     const m = storyStops[i];
     if (!m) return;
@@ -186,7 +187,7 @@ export default function Explore() {
               {story >= 0 && <div className="eyebrow" style={{ marginBottom: '0.2rem' }}>Nepal story · {story + 1} of {storyStops.length}</div>}
               <h3 style={{ margin: 0 }}>{sel.name}</h3>
               <div className="np muted" lang="ne">{sel.name_np}</div>
-              <p className="small" style={{ margin: '0.5rem 0 0.8rem' }}>{sel.short}</p>
+              <p className="small" style={{ margin: '0.5rem 0 0.8rem' }} lang={nepali && sel.short_np ? 'ne' : undefined}>{nepali && sel.short_np ? sel.short_np : sel.short}</p>
               <div className="row">
                 <Link className="btn sm" to={`/m/${sel.slug}`}>Open the story <ArrowRight size={15} /></Link>
                 <Link className="btn ghost sm" to={`/m/${sel.slug}#model`}>Full 3D view</Link>

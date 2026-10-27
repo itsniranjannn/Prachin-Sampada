@@ -43,7 +43,7 @@ export function attachHunts(io) {
           code, hostId: socket.id, status: 'lobby', roundIndex: -1, roundSeconds: Math.max(20, Math.min(90, Number(roundSeconds) || 45)),
           rounds: pickRounds(pool, n, seed).map((m, i) => {
             const clues = cat.clues.filter((c) => c.monument_id === m.id);
-            return { monumentId: m.id, clue: clues[(seed + i) % clues.length].clue };
+            return { monumentId: m.id, clue: clues[(seed + i) % clues.length].clue, clue_np: clues[(seed + i) % clues.length].clue_np || null };
           }),
           players: new Map(), created: Date.now(), timer: null, roundStarted: 0,
         };
@@ -144,7 +144,7 @@ export function attachHunts(io) {
 }
 
 function roundPayload(room) {
-  return { index: room.roundIndex, clue: room.rounds[room.roundIndex].clue, image: room.rounds[room.roundIndex].image, credit: room.rounds[room.roundIndex].credit, endsAt: room.roundStarted + room.roundSeconds * 1000 };
+  return { index: room.roundIndex, clue: room.rounds[room.roundIndex].clue, clue_np: room.rounds[room.roundIndex].clue_np, image: room.rounds[room.roundIndex].image, credit: room.rounds[room.roundIndex].credit, endsAt: room.roundStarted + room.roundSeconds * 1000 };
 }
 
 async function nextRound(io, room) {

@@ -59,7 +59,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "The Kathmandu Valley site, with seven monument zones, was inscribed in 1979."
+    "explanation": "The Kathmandu Valley site, with seven monument zones, was inscribed in 1979.",
+    "q_np": "यो दरबार क्षेत्र सहितको काठमाडौं उपत्यका कुन वर्षमा युनेस्को विश्व सम्पदा सूचीमा सूचीकृत भयो?",
+    "options_np": [
+     "1959",
+     "1979",
+     "1991",
+     "2006"
+    ],
+    "explanation_np": "सात सम्पदा क्षेत्र भएको काठमाडौं उपत्यका 1979 मा सूचीकृत भएको थियो।"
    },
    {
     "q": "What does the Nepali name 'Hanuman Dhoka' refer to?",
@@ -71,7 +79,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "'Dhoka' means gate, and a stone Hanuman statue guards the palace entrance."
+    "explanation": "'Dhoka' means gate, and a stone Hanuman statue guards the palace entrance.",
+    "q_np": "नेपाली नाम 'हनुमानढोका' ले केलाई जनाउँछ?",
+    "options_np": [
+     "नदीको घाट",
+     "हनुमानको मूर्तिले रक्षा गरेको ढोका",
+     "शाही हात्तीसार",
+     "बाँदरको बजार"
+    ],
+    "explanation_np": "'ढोका' भनेको द्वार हो, र ढुङ्गाको हनुमान मूर्तिले दरबारको प्रवेशद्वार जोगाएको छ।"
    },
    {
     "q": "Which ancient wooden structure in the square collapsed in the 2015 earthquake?",
@@ -83,7 +99,15 @@
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "Kasthamandap was destroyed in 2015, while Kumari Ghar, Taleju and Jagannath survived."
+    "explanation": "Kasthamandap was destroyed in 2015, while Kumari Ghar, Taleju and Jagannath survived.",
+    "q_np": "2015 को भूकम्पमा यस क्षेत्रको कुन प्राचीन काठको संरचना ढल्यो?",
+    "options_np": [
+     "कुमारी घर",
+     "तलेजु मन्दिर",
+     "कास्थमण्डप",
+     "जगन्नाथ मन्दिर"
+    ],
+    "explanation_np": "कास्थमण्डप 2015 मा ध्वस्त भयो, जबकि कुमारी घर, तलेजु र जगन्नाथ जोगिए।"
    },
    {
     "q": "Which king added four lookout towers to the palace in 1768?",
@@ -95,7 +119,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Prithvi Narayan Shah added the towers, including the nine-storey Basantapur tower."
+    "explanation": "Prithvi Narayan Shah added the towers, including the nine-storey Basantapur tower.",
+    "q_np": "1768 मा कुन राजाले दरबारमा चारवटा लुक्ने झ्याल भएका बुर्जा थपे?",
+    "options_np": [
+     "प्रताप मल्ल",
+     "पृथ्वीनारायण शाह",
+     "जंगबहादुर राणा",
+     "महेन्द्र मल्ल"
+    ],
+    "explanation_np": "पृथ्वीनारायण शाहले नौतले बसन्तपुर बुर्जा सहित ती बुर्जाहरू थपे।"
    },
    {
     "q": "How many other Durbar Squares in the valley share this UNESCO listing?",
@@ -107,7 +139,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "Patan and Bhaktapur Durbar Squares are the other two."
+    "explanation": "Patan and Bhaktapur Durbar Squares are the other two.",
+    "q_np": "उपत्यकाका अरू कतिवटा दरबार क्षेत्रले यही युनेस्को सूचीलाई साझा गर्छन्?",
+    "options_np": [
+     "कुनै पनि होइन",
+     "एक",
+     "दुई",
+     "पाँच"
+    ],
+    "explanation_np": "पाटन र भक्तपुर दरबार क्षेत्र अरू दुई हुन्।"
    }
   ],
   "clues": [
@@ -127,21 +167,24 @@
   "festivals": [
    {
     "name": "Indra Jatra",
-    "name_np": "इन्द्र जात्रा",
+    "name_np": "इन्द्रजात्रा",
     "month": "Bhadra",
-    "note": "Masked dances, the Kumari chariot and the raised Indra pole fill the old royal square"
+    "note": "Masked dances, the Kumari chariot and the raised Indra pole fill the old royal square",
+    "note_np": "मुखुन्डो नाच, कुमारी रथ र उठाइएको इन्द्रध्वजले पुरानो शाही चोक भरिन्छ"
    },
    {
     "name": "Dashain",
-    "name_np": "दशैं",
+    "name_np": "दशैँ",
     "month": "Ashwin",
-    "note": "Main Durga festival; the Phulpati procession reaches Hanuman Dhoka on the seventh day"
+    "note": "Main Durga festival; the Phulpati procession reaches Hanuman Dhoka on the seventh day",
+    "note_np": "दुर्गाको मुख्य चाड; सातौं दिनमा फूलपातीको जुलुस हनुमानढोका पुग्छ"
    },
    {
     "name": "Gai Jatra",
     "name_np": "गाईजात्रा",
     "month": "Bhadra",
-    "note": "Families who lost someone that year parade cows and costumed children through the square"
+    "note": "Families who lost someone that year parade cows and costumed children through the square",
+    "note_np": "त्यस वर्ष कसैको मृत्यु भएका परिवारहरूले गाई र भेषधारी बालबालिकासहित चोकमा जुलुस निकाल्छन्"
    }
   ],
   "gallery": [
@@ -228,7 +271,21 @@
     "city-street"
    ],
    "notes": "Brick palace with a white nine-storey Basantapur tower; tall Maju Dega on nine steps and gilded three-roofed Taleju"
-  }
+  },
+  "short_np": "काठमाडौंको पुरानो शाही केन्द्र, जहाँ पगोडा मन्दिरहरूका बीच मल्ल र शाह राजाहरूको राज्याभिषेक हुन्थ्यो।",
+  "story_np": "तपाईं काठमाडौंको पुरानो शाही केन्द्रमा उभिनुभएको छ। शताब्दीयौंसम्म यस सहरका राजाहरूले तपाईंको अगाडिको दरबारबाट शासन गरे, र वरिपरिका मन्दिरहरू उनीहरूले देवताहरूलाई दिएका उपहार थिए। कुँदिएका काठका झ्याल र छानाका टेकोहरू हेर्नुहोस्: यो नेवार शिल्पकला हो, प्रायः १६ औं देखि १८ औं शताब्दीका मल्ल राजाहरूको समयको। पछि नेपाल एकीकरण गर्ने शाह राजाहरूले यो दरबारलाई आफ्नो राजधानीको गद्दी बनाइराखे र दक्षिणतर्फ अग्लो नौ तले बसन्तपुर दरबार थपे। सन् १९७९ मा यो चोक काठमाडौं उपत्यका विश्व सम्पदा स्थलका सात स्मारक क्षेत्रमध्ये एक बन्यो। त्यसपछि, २५ अप्रिल २०१५ मा, शक्तिशाली भूकम्पले यसका धेरै मन्दिरहरू ढाल्यो, पुरानो कास्थमण्डप समेत। आज तपाईंले देख्ने धेरै कुरा परम्परागत इँटा, काठ र प्रविधि प्रयोग गरी होसियारीपूर्वक पुनर्निर्माण गरिएको हो। हिँड्दा हेर्नुहोस् दैनिक जीवन कसरी चलिरहेको छ: ढुकुरहरू, व्यापारीहरू, घण्टी बजाउँदै पूजा गर्नेहरू र मन्दिरका भर्‍याङमा खेल्ने बालबालिका। आफ्नो समय लिनुहोस्, र चोकलाई एक-एक मन्दिर गरी आफ्नो कथा सुनाउन दिनुहोस्।",
+  "legend_np": null,
+  "facts_np": [
+   "यो काठमाडौं उपत्यकाका तीन शाही दरबार क्षेत्रमध्ये एक हो, सबै सन् १९७९ मा सूचीकृत युनेस्को विश्व सम्पदा स्थलको अंश।",
+   "यो चोकले आफ्नो नेपाली नाम, हनुमानढोका, दरबारको ढोकामा रहेको हनुमानको ढुङ्गाको मूर्तिबाट पाएको हो।",
+   "२५ अप्रिल २०१५ को भूकम्पले यहाँका कास्थमण्डप लगायत धेरै भवनहरूलाई भग्नावशेषमा परिणत गर्‍यो।",
+   "पृथ्वीनारायण शाहले सन् १७६८ मा दरबारमा चारवटा अवलोकन टावर थपे, जसमा नौ तले बसन्तपुर टावर पनि पर्छ।"
+  ],
+  "quake_np": "सन् २०१५ अप्रिलको भूकम्पले चोकलाई गम्भीर क्षति पुर्‍यायो, कास्थमण्डप, माजुदेगः र अन्य मन्दिरहरू ढले; अधिकांश पछि पुनर्निर्माण गरिएका छन्।",
+  "clues_np": [
+   "राजाहरूले एकपटक यहीँबाट शासन गर्थे; अहिले पगोडाहरूबीचका ढुङ्गामा परेवा र तीर्थयात्री साझा बस्छन्।",
+   "बाँदर देवताको ढोकाको नामबाट चिनिने यो शाही चोक 2015 मा कडासँग हल्लियो र फेरि उभियो।"
+  ]
  },
  {
   "slug": "kasthamandap",
@@ -288,7 +345,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Kastha means wood and mandap means shelter or pavilion."
+    "explanation": "Kastha means wood and mandap means shelter or pavilion.",
+    "q_np": "'काष्ठमण्डप' को अर्थ के हो?",
+    "options_np": [
+     "सुनको छाना",
+     "काठले बनेको आश्रयस्थल",
+     "देवीको घर",
+     "ढुङ्गाको मीनार"
+    ],
+    "explanation_np": "काष्ठ भनेको काठ र मण्डप भनेको आश्रय वा चौतारी हो।"
    },
    {
     "q": "Which city is popularly said to be named after Kasthamandap?",
@@ -300,7 +365,15 @@
     ],
     "answer_index": 2,
     "difficulty": 1,
-    "explanation": "The name Kathmandu is traditionally derived from Kasthamandap."
+    "explanation": "The name Kathmandu is traditionally derived from Kasthamandap.",
+    "q_np": "कुन सहरको नाम काष्ठमण्डपबाट रहेको भनिन्छ?",
+    "options_np": [
+     "पाटन",
+     "भक्तपुर",
+     "काठमाडौँ",
+     "कीर्तिपुर"
+    ],
+    "explanation_np": "काठमाडौँ नाम परम्परागत रूपमा काष्ठमण्डपबाट निस्केको मानिन्छ।"
    },
    {
     "q": "Post-2015 scientific dating placed its construction in which century?",
@@ -312,7 +385,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Radiocarbon and OSL tests on foundation soils pointed to the 7th century CE."
+    "explanation": "Radiocarbon and OSL tests on foundation soils pointed to the 7th century CE.",
+    "q_np": "2015 पछिको वैज्ञानिक कालनिर्धारणले यसको निर्माण कुन शताब्दीमा भएको देखायो?",
+    "options_np": [
+     "ई.पू. 3औँ शताब्दी",
+     "7औँ शताब्दी",
+     "12औँ शताब्दी",
+     "17औँ शताब्दी"
+    ],
+    "explanation_np": "जगको माटोमाथि गरिएको रेडियोकार्बन र OSL परीक्षणले 7औँ शताब्दीतिर सङ्केत गर्‍यो।"
    },
    {
     "q": "Which yogi has a shrine inside Kasthamandap?",
@@ -324,7 +405,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "A shrine to the yogi Gorakhnath (Gorakshanath) was added inside."
+    "explanation": "A shrine to the yogi Gorakhnath (Gorakshanath) was added inside.",
+    "q_np": "काष्ठमण्डपभित्र कुन योगीको मन्दिर छ?",
+    "options_np": [
+     "गोरखनाथ",
+     "पद्मसम्भव",
+     "नागार्जुन",
+     "मिलारेपा"
+    ],
+    "explanation_np": "भित्र योगी गोरखनाथ (गोरक्षनाथ) को मन्दिर थपिएको थियो।"
    },
    {
     "q": "Which UK universities helped excavate the site after the 2015 earthquake?",
@@ -336,7 +425,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "Durham University and the University of Stirling worked with Nepal's Department of Archaeology."
+    "explanation": "Durham University and the University of Stirling worked with Nepal's Department of Archaeology.",
+    "q_np": "2015 को भूकम्पपछि स्थल उत्खनन गर्न बेलायतका कुन विश्वविद्यालयहरूले सहयोग गरे?",
+    "options_np": [
+     "अक्सफोर्ड र क्याम्ब्रिज",
+     "डरहम र स्टर्लिङ",
+     "एडिनबरा र लिड्स",
+     "UCL र ब्रिस्टल"
+    ],
+    "explanation_np": "डरहम विश्वविद्यालय र स्टर्लिङ विश्वविद्यालयले नेपालको पुरातत्त्व विभागसँग मिलेर काम गरे।"
    }
   ],
   "clues": [
@@ -424,7 +521,21 @@
     "newar-houses"
    ],
    "notes": "Broad, squat three-roof timber pavilion with an open pillared ground floor and a Gorakhnath shrine in the middle"
-  }
+  },
+  "short_np": "काठमाडौँलाई नाम दिएको भनिने ‘काठको आश्रय’, सन् २०१५ को भूकम्पपछि पुनर्निर्माण गरिएको।",
+  "story_np": "तपाईं काष्ठमण्डप हेर्दै हुनुहुन्छ, जसको नामको अर्थ ‘काठले ढाकेको आश्रय’ हो। धेरै मानिस काठमाडौँ सहरले यही भवनबाट नाम पाएको विश्वास गर्छन्। सयौँ वर्षसम्म यो यात्री र व्यापारीहरू भेला हुने सार्वजनिक सत्तल थियो, र पछि यसभित्र योगी गोरखनाथको मन्दिर थपियो। सन् २०१५ अप्रिल २५ मा तीन तले काठको पुरानो भवन पूरै ढल्यो। त्यो त्रासदीले एउटा खोजतिर डोर्‍यायो: नेपालको पुरातत्त्व विभागका पुरातत्त्वविद्हरूले डरहम र स्टर्लिङ विश्वविद्यालयसँग मिलेर जगको माटोको काल निर्धारण गरे र भवन ७औं शताब्दी, लिच्छविकालसम्म पुग्ने पत्ता लगाए। उनीहरूले चौधौं शताब्दीका राजा जयस्थिति मल्लको उल्लेख भएका ताम्रपत्र अभिलेख पनि फेला पारे। स्थानीय बासिन्दाहरूले आफैँ पुनर्निर्माण गर्नुपर्ने जिद्दी गरे, र काम सन् २०१८ नोभेम्बरमा सुरु भयो। नयाँ काठलाई ध्यान दिएर हेर्नुहोस्: यो समुदायले परम्परागत जोडाइ विधिले उठाएको हो, र मन्दिर औपचारिक रूपमा सन् २०२२ अप्रिलमा उद्घाटन गरियो।",
+  "legend_np": "एउटा लोकप्रिय कथाअनुसार गोरखनाथ एक पटक मत्स्येन्द्रनाथको रथ यात्रा हेर्न भेष बदलेर आएका थिए। एक तान्त्रिकले उनलाई चिने र वरदान नदिएसम्म जान दिएनन्। त्यसपछि यही ठाउँमा एउटा विशाल रूख उम्रियो, र सम्पूर्ण आश्रय त्यही एउटै रूखको काठबाट बनेको थियो। केही कथाले त्यो रूख इच्छा पूरा गर्ने कल्पवृक्ष नै थियो भन्छन्।",
+  "facts_np": [
+   "संस्कृतमा यसको नामको अर्थ ‘काठले ढाकेको आश्रय’ हो।",
+   "सन् २०१५ पछिको रेडियोकार्बन र OSL काल निर्धारणले यो सन् ७औं शताब्दीमा बनेको सुझाउँछ।",
+   "चौधौं शताब्दीका राजा जयस्थिति मल्लको नाम उल्लेख भएका ताम्रपत्र अभिलेख यसको एउटा खम्बाभित्र फेला परे।",
+   "पुनर्निर्माण सन् २०१८ नोभेम्बर ८ मा सुरु भयो र पुनर्निर्मित मन्दिर सन् २०२२ अप्रिलमा उद्घाटन गरियो।"
+  ],
+  "quake_np": "भवन सन् २०१५ अप्रिल २५ मा पूरै ढल्यो; यसलाई स्थानीय समुदायले सन् २०१८ देखि पुनर्निर्माण गर्‍यो र सन् २०२२ मा उद्घाटन गरियो।",
+  "clues_np": [
+   "किंवदन्ती अनुसार एउटै रूखले मेरा सबै काठ दियो, र सहरले मेरै नाम सापटी लियो।",
+   "मल्ल राजाहरूभन्दा पुरानो बटुवाको विश्रामस्थल म 2015 मा ढलेँ र छिमेकीहरूले मलाई फेरि उठाए।"
+  ]
  },
  {
   "slug": "taleju-temple",
@@ -482,7 +593,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The temple is dedicated to Taleju Bhawani, the Malla royal goddess."
+    "explanation": "The temple is dedicated to Taleju Bhawani, the Malla royal goddess.",
+    "q_np": "तलेजु मन्दिरमा कुन देवीको पूजा गरिन्छ?",
+    "options_np": [
+     "सरस्वती",
+     "तलेजु भवानी",
+     "लक्ष्मी",
+     "हारीती"
+    ],
+    "explanation_np": "मन्दिर मल्ल राजाहरूकी कुलदेवी तलेजु भवानीलाई समर्पित छ।"
    },
    {
     "q": "When is the Taleju Temple opened to the public?",
@@ -494,7 +613,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Its doors open to the public once a year, during Dashain."
+    "explanation": "Its doors open to the public once a year, during Dashain.",
+    "q_np": "तलेजु मन्दिर सर्वसाधारणका लागि कहिले खुल्छ?",
+    "options_np": [
+     "हरेक शनिबार",
+     "दशैँमा मात्र",
+     "तिहारमा मात्र",
+     "कहिल्यै खुल्दैन"
+    ],
+    "explanation_np": "यसका ढोका वर्षमा एक पटक, दशैँका बेला सर्वसाधारणका लागि खुल्छन्।"
    },
    {
     "q": "Which king built the temple in 1564?",
@@ -506,7 +633,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "King Mahendra Malla built it in 1564."
+    "explanation": "King Mahendra Malla built it in 1564.",
+    "q_np": "सन् 1564 मा कुन राजाले मन्दिर बनाए?",
+    "options_np": [
+     "प्रताप मल्ल",
+     "महेन्द्र मल्ल",
+     "पृथ्वीनारायण शाह",
+     "जयस्थिति मल्ल"
+    ],
+    "explanation_np": "राजा महेन्द्र मल्लले यसलाई सन् 1564 मा बनाए।"
    },
    {
     "q": "Which living goddess is linked to Taleju?",
@@ -518,7 +653,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "The Kumari is regarded as Taleju's human embodiment."
+    "explanation": "The Kumari is regarded as Taleju's human embodiment.",
+    "q_np": "कुन जीवित देवी तलेजुसँग जोडिएकी छन्?",
+    "options_np": [
+     "कुमारी",
+     "अजिमा",
+     "डाकिनी",
+     "योगिनी"
+    ],
+    "explanation_np": "कुमारीलाई तलेजुको मानव रूप मानिन्छ।"
    },
    {
     "q": "Where is the Taleju necklace associated with this temple now displayed?",
@@ -530,7 +673,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "The necklace left Nepal by 1976 and is now held by the Art Institute of Chicago."
+    "explanation": "The necklace left Nepal by 1976 and is now held by the Art Institute of Chicago.",
+    "q_np": "यस मन्दिरसँग सम्बन्धित तलेजुको हार अहिले कहाँ प्रदर्शनीमा छ?",
+    "options_np": [
+     "ब्रिटिश म्युजियम",
+     "आर्ट इन्स्टिच्युट अफ शिकागो",
+     "लुभ्र",
+     "राष्ट्रिय संग्रहालय, छाउनी"
+    ],
+    "explanation_np": "हार सन् 1976 सम्ममा नेपालबाट बाहिरियो र अहिले आर्ट इन्स्टिच्युट अफ शिकागोमा छ।"
    }
   ],
   "clues": [
@@ -550,9 +701,10 @@
   "festivals": [
    {
     "name": "Dashain",
-    "name_np": "दशैं",
+    "name_np": "दशैँ",
     "month": "Ashwin",
-    "note": "The only time each year the temple is opened to the public, on Navami"
+    "note": "The only time each year the temple is opened to the public, on Navami",
+    "note_np": "वर्षमा एक पटक मात्र, नवमीका दिन मन्दिर सर्वसाधारणका लागि खुल्छ"
    }
   ],
   "gallery": [
@@ -625,7 +777,21 @@
     "newar-houses"
    ],
    "notes": "Three gilded roofs on a 12-stage brick plinth; a wall on the 8th stage with 12 miniature temples; about 35 m tall"
-  }
+  },
+  "short_np": "मल्ल राजाहरूकी राजकीय देवीको मन्दिर, जुन वर्षमा एक पटक मात्र दशैँमा आम जनताका लागि खुल्छ।",
+  "story_np": "चोकको उत्तरपूर्वमा रहेका अग्ला सुनौला छानाहरू हेर्नुहोस्। यो तलेजु मन्दिर हो, जुन 1564 मा राजा महेन्द्र मल्लले मल्ल वंशकी राजकीय संरक्षक देवी तलेजु भवानीका लागि बनाएका थिए। तलेजु राजाहरूकी आफ्नै रक्षक भएकाले उनको मन्दिर सहरभन्दा धेरै माथि पिँढीदार चौकीमा बनाइयो, र यसका सुनौला छानाले तलका सबैलाई राजकीय शक्तिको घोषणा गर्थे। यहाँका अधिकांश मन्दिरभन्दा फरक, यसका ढोका बन्द रहन्छन्। तलेजु मन्दिर वर्षमा एक पटक मात्र, दशैँको महान् पर्वमा, आम जनताका लागि खुल्छ। भित्र देवी र उनको मानव अवतार कुमारी, चोकको पारि बस्ने जीवित देवी, का मन्दिर छन्। 2015 मा नजिकका मन्दिर ढल्दा तलेजु भूकम्पमा बाँच्यो। यहाँ उभिँदा कल्पना गर्नुहोस्, मल्ल राजाहरू निजी पूजाका लागि यी सिँढी चढिरहेका छन्, यो चौकीमाथिकी देवीले आफ्नो राज्य सुरक्षित राखेकी छन् भन्ने विश्वासका साथ।",
+  "legend_np": "किंवदन्ती अनुसार तलेजु हरेक रात राजा जय प्रकाश मल्लसँग पासा खेल्न आउँथिन्, कसैलाई नभन्ने सर्तमा। राजाकी छोरीले गोप्य रूपमा उनको पछि लागेपछि क्रुद्ध देवी अन्तर्धान भइन्। पछि उनी सपनामा देखा परिन् र राजालाई आफू एक सानी शाक्य बालिकामा फर्कने बताइन्। परम्परा अनुसार, यसैबाट काठमाडौँमा राजकीय कुमारीको चलन सुरु भएको हो।",
+  "facts_np": [
+   "यो 1564 मा राजा महेन्द्र मल्लले बनाएका थिए।",
+   "तलेजु भवानी मल्ल वंशकी राजकीय संरक्षक देवी थिइन्।",
+   "मन्दिर वर्षमा एक पटक मात्र, दशैँमा आम जनताका लागि खुल्छ।",
+   "यहाँ एक समय राखिएको सत्रौँ शताब्दीको एउटा हार अहिले शिकागोको आर्ट इन्स्टिच्युटमा छ, र नेपालका अभियन्ताहरू यसको फिर्ती चाहन्छन्।"
+  ],
+  "quake_np": "नजिकका संरचनाहरू ढल्दा पनि मन्दिर 2015 को भूकम्पमा बाँच्यो।",
+  "clues_np": [
+   "मेरी राजकीय देवीले सर्वसाधारणलाई वर्षमा एक पटक मात्र, दशैँ आउँदा भित्र पस्न दिन्छिन्।",
+   "म चोकको उत्तर-पूर्वमा अग्लो उभिएको छु, राजाहरूका आफ्नै रक्षकका लागि सन् 1564 मा बनाइएको।"
+  ]
  },
  {
   "slug": "kumari-ghar",
@@ -688,7 +854,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "The house is the residence of the Royal Kumari of Kathmandu."
+    "explanation": "The house is the residence of the Royal Kumari of Kathmandu.",
+    "q_np": "कुमारी घरमा को बस्छन्?",
+    "options_np": [
+     "पशुपतिका प्रधान पुजारी",
+     "राजकीय कुमारी, जीवित देवी",
+     "काठमाडौंका मेयर",
+     "बौद्ध भिक्षुणीहरू"
+    ],
+    "explanation_np": "यो घर काठमाडौंकी राजकीय कुमारीको निवास हो।"
    },
    {
     "q": "The Kumari is believed to embody which goddess?",
@@ -700,7 +874,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "She is venerated as a living embodiment of Taleju Bhawani, a form of Durga."
+    "explanation": "She is venerated as a living embodiment of Taleju Bhawani, a form of Durga.",
+    "q_np": "कुमारीलाई कुन देवीको अवतार मानिन्छ?",
+    "options_np": [
+     "तलेजु",
+     "लक्ष्मी",
+     "सरस्वती",
+     "तारा"
+    ],
+    "explanation_np": "उनलाई दुर्गाको रूप तलेजु भवानीको जीवित स्वरूपका रूपमा पूजा गरिन्छ।"
    },
    {
     "q": "In which year was Kumari Ghar built?",
@@ -712,7 +894,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "It was built in 1757 under Jaya Prakash Malla."
+    "explanation": "It was built in 1757 under Jaya Prakash Malla.",
+    "q_np": "कुमारी घर कुन वर्षमा बनाइएको थियो?",
+    "options_np": [
+     "1564",
+     "1670",
+     "1757",
+     "1832"
+    ],
+    "explanation_np": "यो 1757 मा जयप्रकाश मल्लको पालामा बनाइएको थियो।"
    },
    {
     "q": "During which festival is the Kumari carried through the city on a chariot?",
@@ -724,7 +914,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Indra Jatra features the Kumari's chariot procession."
+    "explanation": "Indra Jatra features the Kumari's chariot procession.",
+    "q_np": "कुन चाडमा कुमारीलाई रथमा राखी सहरभर घुमाइन्छ?",
+    "options_np": [
+     "तिहार",
+     "इन्द्रजात्रा",
+     "होली",
+     "ल्होसार"
+    ],
+    "explanation_np": "इन्द्रजात्रामा कुमारीको रथयात्रा हुन्छ।"
    },
    {
     "q": "From which Newar community is the Royal Kumari traditionally chosen?",
@@ -736,7 +934,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "The Royal Kumari is chosen from girls of the Shakya community."
+    "explanation": "The Royal Kumari is chosen from girls of the Shakya community.",
+    "q_np": "राजकीय कुमारी परम्परागत रूपमा कुन नेवार समुदायबाट छानिन्छिन्?",
+    "options_np": [
+     "शाक्य",
+     "ज्यापु",
+     "श्रेष्ठ",
+     "मानन्धर"
+    ],
+    "explanation_np": "राजकीय कुमारी शाक्य समुदायका बालिकाहरूबाट छानिन्छिन्।"
    }
   ],
   "clues": [
@@ -755,9 +961,10 @@
   "festivals": [
    {
     "name": "Indra Jatra",
-    "name_np": "इन्द्र जात्रा",
+    "name_np": "इन्द्रजात्रा",
     "month": "Bhadra",
-    "note": "The Kumari leaves her house and is pulled through old Kathmandu on a chariot"
+    "note": "The Kumari leaves her house and is pulled through old Kathmandu on a chariot",
+    "note_np": "कुमारी आफ्नो घरबाट निस्किन्छिन् र पुरानो काठमाडौंमा रथमा तानिन्छिन्"
    }
   ],
   "gallery": [
@@ -829,7 +1036,21 @@
     "newar-houses"
    ],
    "notes": "Three-storey brick house with deeply carved latticed windows round a small inner courtyard; white lions guard the door"
-  }
+  },
+  "short_np": "काठमाडौँकी राजकीय कुमारीको घर, जीवित देवीका रूपमा पूजिने एक बालिका।",
+  "story_np": "सिंह पहरेदार भएको ढोकाबाट शान्त आँगनभित्र पस्नुहोस्। यो कुमारी घर हो, काठमाडौँकी राजकीय कुमारीको निवास, नेवार शाक्य समुदायकी एक बालिका, जसलाई देवी तलेजुको जीवित स्वरूपका रूपमा पूजा गरिन्छ। तीनतले यो भवन राजा जयप्रकाश मल्लको पालामा सन् 1757 मा बनाइएको थियो। तपाईंको वरिपरि रहेका सुन्दर कुँदिएका काठका झ्यालहरूतिर हेर्नुहोस्। कहिलेकाहीँ कुमारी तीमध्ये कुनै एउटामा छोटो समयका लागि देखा पर्छिन्, र भक्तजनहरू एक झलकका लागि धैर्यसाथ पर्खिन्छन्। कृपया उनको फोटो नखिच्नुहोस्; यो अनुमति छैन। कुमारी यो घरबाट विरलै बाहिर निस्कन्छिन्। उनको सबैभन्दा ठूलो सार्वजनिक उपस्थिति इन्द्रजात्रामा हुन्छ, जब उनलाई रथमा राखेर सहरभर घुमाइन्छ। राजतन्त्रका दिनमा राजाले हरेक वर्ष टीका लिन उनको सामु शिर झुकाउँथे; आज नेपालका राष्ट्रपतिले यस्तै भूमिका निर्वाह गर्छन्। सन् 2015 को भूकम्पले चोकवरिपरिका मन्दिरहरू ध्वस्त पार्दा यो घर सुरक्षित उभिएको थियो।",
+  "legend_np": "एक रात राजा जयप्रकाश मल्लले देवी तलेजुसँग गुपचुप चौसर खेलिरहँदा उनकी छोरीले पछ्याएपछि त्यो खेल टुङ्गियो। तलेजु रिसाएर अन्तर्ध्यान भइन्, त्यसपछि सपनामा फर्किएर भनिन्: अबदेखि उनी शाक्य समुदायकी एक बालिकाभित्र बस्नेछिन्। उनको सम्मानमा एक बालिका छानियो र सिंहासनमा बसालियो, र कुमारी परम्पराको सुरुवात भयो।",
+  "facts_np": [
+   "यो घर राजा जयप्रकाश मल्लको पालामा सन् 1757 मा बनाइएको थियो।",
+   "राजकीय कुमारी नेवार शाक्य समुदायबाट छानिन्छिन्।",
+   "इन्द्रजात्राका बेला कुमारीलाई रथमा राखेर काठमाडौँभर तानिन्छ।",
+   "सन् 2015 को भूकम्पमा घरमा कुनै क्षति पुगेन।"
+  ],
+  "quake_np": "सन् 2015 मा वरिपरिका मन्दिरहरूको भग्नावशेषबीच कुमारी घर सुरक्षित उभिएको थियो।",
+  "clues_np": [
+   "बालिकाको रूपमा एक देवीले मेरा कुँदिएका झ्यालबाट हेर्छिन्; कृपया क्यामेरा तल राख्नुहोस्।",
+   "1757 मा बनेको मेरो चोकमा इन्द्रजात्रामा रथ चढ्ने एक जनाको एक झलकको प्रतीक्षा हुन्छ।"
+  ]
  },
  {
   "slug": "kal-bhairav",
@@ -891,7 +1112,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Bhairav is a fierce manifestation of Shiva."
+    "explanation": "Bhairav is a fierce manifestation of Shiva.",
+    "q_np": "कालभैरव कुन देवताको उग्र रूप हो?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "ब्रह्मा",
+     "इन्द्र"
+    ],
+    "explanation_np": "भैरव शिवको उग्र रूप हो।"
    },
    {
     "q": "What was believed to happen to someone who lied before Kal Bhairav?",
@@ -903,7 +1132,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Popular belief held that liars would vomit blood and die immediately."
+    "explanation": "Popular belief held that liars would vomit blood and die immediately.",
+    "q_np": "कालभैरवको अगाडि झूट बोल्नेलाई के हुन्छ भन्ने विश्वास गरिन्थ्यो?",
+    "options_np": [
+     "ऊ अन्धो हुन्छ",
+     "ऊ तुरुन्तै मर्छ",
+     "ऊ धनी हुन्छ",
+     "उसको स्वर हराउँछ"
+    ],
+    "explanation_np": "प्रचलित विश्वास अनुसार झूट बोल्नेले रगत बान्ता गरेर तुरुन्तै मर्थ्यो।"
    },
    {
     "q": "How many arms does the Kal Bhairav figure have?",
@@ -915,7 +1152,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "The figure is described as six-armed, standing on a demon."
+    "explanation": "The figure is described as six-armed, standing on a demon.",
+    "q_np": "कालभैरवको मूर्तिमा कतिवटा हात छन्?",
+    "options_np": [
+     "दुई",
+     "चार",
+     "छ",
+     "दश"
+    ],
+    "explanation_np": "मूर्तिलाई राक्षसमाथि उभिएको छ हात भएको रूपमा वर्णन गरिन्छ।"
    },
    {
     "q": "Which king is credited with placing the image in the square?",
@@ -927,7 +1172,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "Tradition says Pratap Malla installed it after it was found in a paddy field."
+    "explanation": "Tradition says Pratap Malla installed it after it was found in a paddy field.",
+    "q_np": "यो मूर्ति चोकमा राख्ने श्रेय कुन राजालाई दिइन्छ?",
+    "options_np": [
+     "प्रताप मल्ल",
+     "महेन्द्र मल्ल",
+     "यक्ष मल्ल",
+     "पृथ्वीनारायण शाह"
+    ],
+    "explanation_np": "परम्परा अनुसार धानखेतमा भेटिएपछि प्रताप मल्लले यसलाई स्थापना गरेका थिए।"
    },
    {
     "q": "Where was the image said to have been found?",
@@ -939,7 +1192,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "According to legend, the stone was discovered in a paddy field."
+    "explanation": "According to legend, the stone was discovered in a paddy field.",
+    "q_np": "मूर्ति कहाँ भेटिएको भनिन्छ?",
+    "options_np": [
+     "नदीमा",
+     "धानखेतमा",
+     "गुफामा",
+     "दरबारको पर्खालभित्र"
+    ],
+    "explanation_np": "किंवदन्ती अनुसार ढुङ्गा धानखेतमा भेटिएको थियो।"
    }
   ],
   "clues": [
@@ -957,15 +1218,17 @@
   "festivals": [
    {
     "name": "Dashain",
-    "name_np": "दशैं",
+    "name_np": "दशैँ",
     "month": "Ashwin",
-    "note": "Animal sacrifices are still offered before the image during Dashain"
+    "note": "Animal sacrifices are still offered before the image during Dashain",
+    "note_np": "दशैँमा अझै पनि मूर्तिअगाडि पशुबलि चढाइन्छ"
    },
    {
     "name": "Indra Jatra",
-    "name_np": "इन्द्र जात्रा",
+    "name_np": "इन्द्रजात्रा",
     "month": "Bhadra",
-    "note": "Masked dances, the Kumari chariot and the raised Indra pole fill the old royal square"
+    "note": "Masked dances, the Kumari chariot and the raised Indra pole fill the old royal square",
+    "note_np": "मुखुन्डो नाच, कुमारी रथ र उठाइएको इन्द्रध्वजले पुरानो शाही चोक भरिन्छ"
    }
   ],
   "gallery": [
@@ -1036,7 +1299,21 @@
     "stone-paved-plaza"
    ],
    "notes": "Huge black six-armed stone Bhairav with gold crown and skull garland, trampling a demon, behind a low railing"
-  }
+  },
+  "short_np": "डरलाग्दो छ भुजे भैरव; उनको अगाडि पल्टनु कुनै समय तत्काल मृत्युको कारण हुन्छ भन्ने विश्वास थियो।",
+  "story_np": "जङ्गली आँखा र खप्परको मुकुट भएको विशाल, कालो आकृतिको सामना गर्नुहोस्। यो कालभैरव हो, दुष्टको विनाश गर्ने शिवको भयानक रूप। उनका छ वटा हात छन् र खुट्टामुनि एउटा दानवलाई कुल्चिएका छन्। परम्पराअनुसार यो मूर्ति धानखेतमा भेटिएको थियो र १७ औं शताब्दीमा राजा प्रताप मल्लले चोकमा ल्याएका थिए, र यो एउटै ढुङ्गाबाट कुँदिएको भनिन्छ। लामो समयसम्म मानिसहरूले विश्वास गर्थे कि कालभैरवको अगाडि झूट बोल्ने जो कोही तत्कालै मर्छ। राजदरबारका भारदारहरू यहाँ वफादारीको शपथ खान्थे, र साक्षीहरूलाई उनको अगाडि गवाही दिन ल्याइन्थ्यो। उनका चरणमा चढाइएका फूल, चामल र अबिरको भेटी र भक्तजनहरूले बालेका दीपहरू हेर्नुहोस्। आज पनि धेरै मानिसलाई उनको आँखामा हेरेर झूट बोल्न गाह्रो लाग्छ। दशैंमा यहाँ अझै पशुबलि चढाइन्छ।",
+  "legend_np": "मानिसहरू भन्थे कालभैरवको अगाडि कोही पनि झूट बोलेर बाँच्न सक्दैन। उनको अगाडि झूट बोल्ने जो कोहीले रगत बान्ता गरेर तत्कालै मर्थ्यो। त्यसैले राजाको समयमा भारदारहरूले उनको अगाडि वफादारीको शपथ खान्थे र फौजदारी मुद्दाका साक्षीहरूलाई उनको उपस्थितिमा गवाही दिन लगाइन्थ्यो। भनिन्छ, उनको दृष्टिको डरले नै दोषीलाई स्वीकार गर्न लगाउन प्रायः पर्याप्त हुन्थ्यो।",
+  "facts_np": [
+   "कालभैरव शिवको उग्र रूप हुन्।",
+   "परम्पराअनुसार धानखेतमा भेटिएपछि राजा प्रताप मल्लले मूर्तिलाई चोकमा राखेका थिए।",
+   "मूर्ति एउटै ढुङ्गाबाट कुँदिएको मानिन्छ।",
+   "छ हात भएका देवता दानवमाथि उभिएका छन् र खप्परको माला लगाएका छन्।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "मेरा छ हातको अगाडि साँचो मात्र बोल, पुरानो भनाइले यही चेतावनी दिन्छ।",
+   "कालो वर्णको, खप्परको मुकुट लगाएको म धानखेतमा भेटिएको थिएँ र शाही चोकमा ल्याइएँ।"
+  ]
  },
  {
   "slug": "jagannath-temple",
@@ -1094,7 +1371,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Its wooden struts carry erotic carved scenes."
+    "explanation": "Its wooden struts carry erotic carved scenes.",
+    "q_np": "जगन्नाथ मन्दिरका छाना थाम्ने टुँडालहरू केका लागि प्रसिद्ध छन्?",
+    "options_np": [
+     "सुनको पात",
+     "कामकलाका कुँदाइ",
+     "रङ्गिएका आँखा",
+     "घण्ट"
+    ],
+    "explanation_np": "यसका काठका टुँडालमा कामकलाका दृश्य कुँदिएका छन्।"
    },
    {
     "q": "Jagannath is a form of which god?",
@@ -1106,7 +1391,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Jagannath is worshipped as a form of Vishnu/Krishna."
+    "explanation": "Jagannath is worshipped as a form of Vishnu/Krishna.",
+    "q_np": "जगन्नाथ कुन देवताको रूप हुन्?",
+    "options_np": [
+     "शिव",
+     "विष्णु",
+     "गणेश",
+     "इन्द्र"
+    ],
+    "explanation_np": "जगन्नाथ विष्णु वा कृष्णको रूपमा पूजिन्छन्।"
    },
    {
     "q": "How many roofs does the temple have?",
@@ -1118,7 +1411,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "It is a two-tiered pagoda on a three-tiered plinth."
+    "explanation": "It is a two-tiered pagoda on a three-tiered plinth.",
+    "q_np": "मन्दिरमा कतिवटा छाना छन्?",
+    "options_np": [
+     "एउटा",
+     "दुईवटा",
+     "तीनवटा",
+     "पाँचवटा"
+    ],
+    "explanation_np": "यो तीन तहको चौरमाथि बनेको दुई छाने प्यागोडा हो।"
    },
    {
     "q": "A folk belief says the erotic carvings protect the temple from what?",
@@ -1130,7 +1431,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "One popular belief holds that they ward off lightning."
+    "explanation": "One popular belief holds that they ward off lightning.",
+    "q_np": "लोकविश्वास अनुसार ती कामकलाका कुँदाइले मन्दिरलाई केबाट जोगाउँछन्?",
+    "options_np": [
+     "बाढी",
+     "चट्याङ",
+     "चोर",
+     "घुन"
+    ],
+    "explanation_np": "एउटा प्रचलित विश्वास अनुसार तिनले चट्याङलाई टाढै राख्छन्।"
    },
    {
     "q": "After which earthquake was the temple rebuilt in 1936?",
@@ -1142,7 +1451,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "The 1934 Nepal–Bihar earthquake damaged its upper roof and walls."
+    "explanation": "The 1934 Nepal–Bihar earthquake damaged its upper roof and walls.",
+    "q_np": "कुन भूकम्पपछि मन्दिर 1936 मा पुनर्निर्माण गरियो?",
+    "options_np": [
+     "1833",
+     "1934",
+     "1988",
+     "2015"
+    ],
+    "explanation_np": "1934 को नेपाल–बिहार भूकम्पले यसको माथिल्लो छाना र भित्ताहरूलाई क्षति पुर्‍याएको थियो।"
    }
   ],
   "clues": [
@@ -1226,7 +1543,21 @@
     "market-houses"
    ],
    "notes": "Two-roofed brick pagoda on a three-stepped plinth, its roof struts carved with small erotic scenes, beside the palace gate"
-  }
+  },
+  "short_np": "छानाका टेकामा कुँदिएका कामुक चित्रका लागि प्रसिद्ध १६औं शताब्दीको पगोडा।",
+  "story_np": "दरबारको ढोकाको नजिक रहेको यो दुई तले पगोडालाई वरिपरि हिँड्नुहोस् र छानालाई थाम्ने ढल्किएका काठका टेकातिर हेर्नुहोस्। तपाईंले साना कुँदिएका दृश्यहरू देख्नुहुनेछ, कतिपय खुला रूपमा कामुक। यो जगन्नाथ मन्दिर हो, चोकका सबैभन्दा पुराना संरचनाहरूमध्ये एक, विष्णुको रूप जगन्नाथलाई समर्पित। यो सामान्यतया राजा महेन्द्र मल्लको शासनकालमा करिब सन् १५६३ को मानिन्छ, यद्यपि राजा प्रताप मल्लले पछि आफूले बनाएको दाबी गरे, र इतिहासकारहरूले अझै मितिबारे बहस गर्छन्। कामुक कुँदाइ किन? कसैलाई पक्का थाहा छैन। कसैले यिनले जीवन र उर्वरताको उत्सव मनाउँछन् भन्छन्; एउटा लोकप्रिय लोकविश्वासअनुसार यिनले मन्दिरलाई चट्याङबाट जोगाउँछन्। माथिल्लो छाना सन् १९३४ को ठूलो भूकम्पमा क्षतिग्रस्त भयो र मन्दिर सन् १९३६ मा मौलिक सामग्री प्रयोग गरेर पुनर्निर्माण गरियो। सन् २०१५ मा, वरपरका अरू मन्दिरहरू ढल्दा, जगन्नाथ बाँचिरह्यो।",
+  "legend_np": null,
+  "facts_np": [
+   "मन्दिर सामान्यतया महेन्द्र मल्लको शासनकालमा करिब सन् १५६३ को मानिन्छ; प्रताप मल्लले पछि आफ्नो दाबी गरे।",
+   "यसका छानाका टेकाहरूमा प्रसिद्ध कामुक कुँदाइहरू छन्।",
+   "यो सन् १९३४ को भूकम्पमा क्षतिग्रस्त भयो र सन् १९३६ मा मौलिक सामग्रीले पुनर्निर्माण गरियो।",
+   "यो सन् २०१५ को भूकम्पमा बाँच्यो।"
+  ],
+  "quake_np": "मन्दिर सन् २०१५ को भूकम्पमा बाँच्यो।",
+  "clues_np": [
+   "मेरा छाना थाम्ने टुँडालतिर हेर, तर सायद बालबालिकासँग होइन।",
+   "दुई छाना, तीन तहका चौर, र मलाई साँच्चै कुन मल्ल राजाले बनाए भन्ने विवाद।"
+  ]
  },
  {
   "slug": "hanuman-dhoka-palace",
@@ -1284,7 +1615,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Dhoka means door or gate; the palace is named after the Hanuman gate."
+    "explanation": "Dhoka means door or gate; the palace is named after the Hanuman gate.",
+    "q_np": "नेपालीमा ‘ढोका’ को अर्थ के हो?",
+    "options_np": [
+     "मन्दिर",
+     "ढोका वा द्वार",
+     "राजा",
+     "चोक"
+    ],
+    "explanation_np": "ढोका भनेको द्वार हो; दरबारको नाम हनुमान द्वारबाट रहेको हो।"
    },
    {
     "q": "Which god's statue guards the palace gate?",
@@ -1296,7 +1635,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "A stone Hanuman, dated 1672, stands at the entrance."
+    "explanation": "A stone Hanuman, dated 1672, stands at the entrance.",
+    "q_np": "दरबारको प्रवेशद्वारमा कुन देवताको मूर्तिले रक्षा गरेको छ?",
+    "options_np": [
+     "गणेश",
+     "हनुमान",
+     "गरुड",
+     "भैरव"
+    ],
+    "explanation_np": "सन् 1672 को मितिको ढुङ्गाको हनुमान प्रवेशद्वारमा उभिएका छन्।"
    },
    {
     "q": "Until what year did the royal family live in this palace?",
@@ -1308,7 +1655,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "They lived here until 1886 before moving to Narayanhiti Palace."
+    "explanation": "They lived here until 1886 before moving to Narayanhiti Palace.",
+    "q_np": "शाही परिवार कुन वर्षसम्म यो दरबारमा बस्यो?",
+    "options_np": [
+     "1769",
+     "1886",
+     "1951",
+     "2008"
+    ],
+    "explanation_np": "नारायणहिटी दरबार सर्नुअघि उनीहरू सन् 1886 सम्म यहीँ बसे।"
    },
    {
     "q": "Which king was crowned in Nasal Chowk in 1975?",
@@ -1320,7 +1675,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "King Birendra's coronation took place in Nasal Chowk in 1975."
+    "explanation": "King Birendra's coronation took place in Nasal Chowk in 1975.",
+    "q_np": "सन् 1975 मा नासल चोकमा कुन राजाको राज्याभिषेक भयो?",
+    "options_np": [
+     "त्रिभुवन",
+     "महेन्द्र",
+     "वीरेन्द्र",
+     "ज्ञानेन्द्र"
+    ],
+    "explanation_np": "राजा वीरेन्द्रको राज्याभिषेक सन् 1975 मा नासल चोकमा भएको थियो।"
    },
    {
     "q": "How many languages appear on Pratap Malla's famous stone inscription here?",
@@ -1332,7 +1695,15 @@
     ],
     "answer_index": 3,
     "difficulty": 5,
-    "explanation": "The inscription is in fifteen languages."
+    "explanation": "The inscription is in fifteen languages.",
+    "q_np": "यहाँको प्रताप मल्लको प्रसिद्ध ढुङ्गे शिलालेखमा कति भाषा छन्?",
+    "options_np": [
+     "पाँच",
+     "नौ",
+     "बाह्र",
+     "पन्ध्र"
+    ],
+    "explanation_np": "शिलालेख पन्ध्र भाषामा छ।"
    }
   ],
   "clues": [
@@ -1350,15 +1721,17 @@
   "festivals": [
    {
     "name": "Dashain",
-    "name_np": "दशैं",
+    "name_np": "दशैँ",
     "month": "Ashwin",
-    "note": "Main Durga festival; the Phulpati procession reaches Hanuman Dhoka on the seventh day"
+    "note": "Main Durga festival; the Phulpati procession reaches Hanuman Dhoka on the seventh day",
+    "note_np": "मुख्य दुर्गा पर्व; सातौँ दिन फूलपाती जुलुस हनुमान ढोका पुग्छ"
    },
    {
     "name": "Indra Jatra",
-    "name_np": "इन्द्र जात्रा",
+    "name_np": "इन्द्रजात्रा",
     "month": "Bhadra",
-    "note": "The tall Indra pole (lingo) is raised in front of the palace to open the festival"
+    "note": "The tall Indra pole (lingo) is raised in front of the palace to open the festival",
+    "note_np": "पर्व सुरु गर्न दरबारअगाडि अग्लो इन्द्रध्वज (लिङ्गो) उठाइन्छ"
    }
   ],
   "gallery": [
@@ -1440,7 +1813,21 @@
     "stone-paved-plaza"
    ],
    "notes": "Red-cloaked Hanuman under an umbrella beside the painted gate; brick wings with carved windows and the nine-storey tower"
-  }
+  },
+  "short_np": "मल्ल र शाह राजाहरूको राजदरबार, हनुमानले रक्षा गरेको ढोकाबाट प्रवेश गरिने।",
+  "story_np": "तपाईंको अगाडि यो सारा चोकलाई नाम दिने ढोका छ। 1672 को मानिएको बाँदर देवता हनुमानको ढुङ्गाको मूर्तिले प्रवेशद्वारको रक्षा गर्छ, रातो कपडाले बेरिएको, छाताले छाया पारिएको र अनुहारमा रातो लेप लगाइएको। उनको छेउमा 1673 को एउटा मूर्तिले आधा मानव र आधा सिंह नरसिंहलाई दानवलाई च्यातिरहेको देखाउँछ। ढोकापारि मल्ल राजाहरू र पछि शाह राजाहरूको राजदरबार छ, जुन चोक भनिने आँगनहरूवरिपरि बनेको छ। सबैभन्दा पुरानो पूर्वी भाग सोह्रौँ शताब्दीको मध्यतिरको हो, र राजा प्रताप मल्लले सत्रौँ शताब्दीमा यसलाई विस्तार गरे। नसल चोकमा 1975 मा राजा वीरेन्द्रको राज्याभिषेक भएको थियो। शाही परिवार 1886 सम्म यहीँ बस्यो, त्यसपछि नारायणहिटी दरबार सरे। आज दरबारका केही भाग सङ्ग्रहालय हुन्। 2015 को भूकम्पमा यो गम्भीर क्षतिग्रस्त भएको थियो र चरणबद्ध रूपमा पुनर्स्थापना गरिएको छ।",
+  "legend_np": "दरबार बाहिर प्रताप मल्लले पन्ध्र भाषामा लेखाएको ढुङ्गे शिलालेख छ। यो जलद्रोणी, अर्थात् पानी पिउने ढुङ्गाको धारा हो। आफ्नो विद्वत्तामा गर्व गर्ने र आफूलाई कविन्द्र, कविहरूका राजा, भन्ने प्रताप मल्लले यो स्थापना गराएका थिए। किंवदन्ती अनुसार कसैले पन्धवटै भाषा पढेर बुझ्यो भने यसको धाराबाट पानीको सट्टा दूध बग्नेछ।",
+  "facts_np": [
+   "ढोकामा रहेको हनुमानको मूर्ति 1672 को मानिन्छ।",
+   "राजा वीरेन्द्रको 1975 मा नसल चोकमा राज्याभिषेक भएको थियो।",
+   "शाही परिवार 1886 सम्म यहीँ बस्यो, त्यसपछि नारायणहिटी दरबार सरे।",
+   "नजिकैको एउटा ढुङ्गे शिलालेख पन्ध्र भाषामा लेखिएको छ।"
+  ],
+  "quake_np": "दरबारका भवनहरू 2015 को भूकम्पमा गम्भीर क्षतिग्रस्त भए र त्यसयता चरणबद्ध रूपमा पुनर्स्थापना गरिएका छन्।",
+  "clues_np": [
+   "रातो पोशाक लगाएको बाँदर देवताले मेरो ढोकामा पहरा दिन्छन्।",
+   "सन् 1886 मा परिवार बाहिरिनुअघिसम्म मेरा चोकहरूमा राजाहरूको राज्याभिषेक हुन्थ्यो।"
+  ]
  },
  {
   "slug": "maju-dega",
@@ -1501,7 +1888,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Maju Dega is a Shiva temple."
+    "explanation": "Maju Dega is a Shiva temple.",
+    "q_np": "माजु देग कुन देवतालाई समर्पित छ?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "गणेश",
+     "कृष्ण"
+    ],
+    "explanation_np": "माजु देग शिवको मन्दिर हो।"
    },
    {
     "q": "How many tiers does its brick plinth have?",
@@ -1513,7 +1908,15 @@
     ],
     "answer_index": 3,
     "difficulty": 2,
-    "explanation": "It stands on a nine-tiered brick plinth."
+    "explanation": "It stands on a nine-tiered brick plinth.",
+    "q_np": "यसको इँटाको चौघेरामा कति तह छन्?",
+    "options_np": [
+     "तीन",
+     "पाँच",
+     "सात",
+     "नौ"
+    ],
+    "explanation_np": "यो नौ तहको इँटाको चौघेरामाथि उभिएको छ।"
    },
    {
     "q": "Who built Maju Dega?",
@@ -1525,7 +1928,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Riddhi Lakshmi, mother of Bhupatindra Malla, built it in 1692."
+    "explanation": "Riddhi Lakshmi, mother of Bhupatindra Malla, built it in 1692.",
+    "q_np": "माजु देग कसले बनाए?",
+    "options_np": [
+     "राजा प्रताप मल्ल",
+     "रानीमाता रिद्धिलक्ष्मी",
+     "भीमसेन थापा",
+     "राजा महेन्द्र मल्ल"
+    ],
+    "explanation_np": "भूपतीन्द्र मल्लकी आमा रिद्धिलक्ष्मीले यसलाई 1692 मा बनाइन्।"
    },
    {
     "q": "Which 1971 film was shot on its premises?",
@@ -1537,7 +1948,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "Hare Rama Hare Krishna was filmed here."
+    "explanation": "Hare Rama Hare Krishna was filmed here.",
+    "q_np": "1971 को कुन चलचित्र यसको परिसरमा खिचिएको थियो?",
+    "options_np": [
+     "शोले",
+     "हरे राम हरे कृष्ण",
+     "सेभेन इयर्स इन टिबेट",
+     "लिटिल बुद्ध"
+    ],
+    "explanation_np": "हरे राम हरे कृष्ण यहीँ खिचिएको थियो।"
    },
    {
     "q": "When did reconstruction of Maju Dega begin after the 2015 earthquake?",
@@ -1549,7 +1968,15 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "Kathmandu Metropolitan City began reconstruction in October 2018."
+    "explanation": "Kathmandu Metropolitan City began reconstruction in October 2018.",
+    "q_np": "2015 को भूकम्पपछि माजु देगको पुनर्निर्माण कहिले सुरु भयो?",
+    "options_np": [
+     "2015",
+     "2016",
+     "2018",
+     "2022"
+    ],
+    "explanation_np": "काठमाडौं महानगरपालिकाले अक्टोबर 2018 मा पुनर्निर्माण सुरु गर्‍यो।"
    }
   ],
   "clues": [
@@ -1634,7 +2061,21 @@
     "market-houses"
    ],
    "notes": "Three-roofed Shiva temple raised on a very tall nine-stepped brick plinth where people sit to watch the square"
-  }
+  },
+  "short_np": "नौ अग्ला खुड्किलामाथिको अग्लो शिव मन्दिर, सन् 2015 मा ध्वस्त भई पुनर्निर्माण गरिएको।",
+  "story_np": "तपाईंको अगाडि रहेको अग्लो खुड्किलाहरू भएको चौतारीमा खुला भए उक्लनुहोस्, र तपाईं बुझ्नुहुनेछ किन माजु देग लामो समयदेखि चोकको जीवन हेर्ने मनपर्ने ठाउँ हो। यो शिव मन्दिर सन् 1692 मा राजा भूपतीन्द्र मल्लकी आमा, राजमाता रिद्धि लक्ष्मीले बनाएकी थिइन्। यो नौ तहको इँटाको चौतारीमाथि उभिएको छ र तीन छानासहित उठेको छ, जसले यसलाई दरबार क्षेत्रको सबैभन्दा सजिलै देखिने मन्दिरमध्ये एक बनाउँछ। भित्र शिवलिङ्ग छ। दशकौँसम्म यात्रीहरू यसका खुड्किलामा आराम गर्थे; यहाँ केही हदसम्म खिचिएको सन् 1971 को भारतीय चलचित्र ‘हरे रामा हरे कृष्णा’ मा पनि यो देखिन्छ। सन् 2015 को अप्रिल 25 मा भूकम्पले मन्दिर पूरै ढाल्यो। पुनर्निर्माण सन् 2018 को अक्टोबरमा सुरु भयो, र आज मन्दिर इँट र कुँदिएका काठले पुनर्निर्माण भई पुरानै चौतारीमाथि फेरि उभिएको छ। यहाँबाट चोकभर हेर्नुहोस् र मल्ल दरबारले किन यो दृश्यलाई महत्त्व दिन्थ्यो बुझ्नुहुनेछ।",
+  "legend_np": null,
+  "facts_np": [
+   "यो सन् 1692 मा राजमाता रिद्धि लक्ष्मीले बनाएकी थिइन्।",
+   "मन्दिर नौ तहको इँटाको चौतारीमाथि उभिएको छ।",
+   "सन् 1971 को चलचित्र ‘हरे रामा हरे कृष्णा’ यसको परिसरमा खिचिएको थियो।",
+   "यो सन् 2015 मा पूर्ण रूपमा ध्वस्त भयो; पुनर्निर्माण सन् 2018 को अक्टोबरमा सुरु भयो।"
+  ],
+  "quake_np": "सन् 2015 को भूकम्पमा मन्दिर पूर्ण रूपमा ढल्यो; पुनर्निर्माण सन् 2018 को अक्टोबरमा सुरु भयो र त्यसपछि यो फेरि बनिसकेको छ।",
+  "clues_np": [
+   "नौ विशाल सिँढीले मेरो शिवलिङ्गसम्म पुर्‍याउँछन्, र यात्रीहरूलाई तिनमा बस्न मन पर्छ।",
+   "एक रानीमाताले 1692 मा मलाई उठाइन्; 1971 को एउटा बलिउड चलचित्रले मेरा सिँढी सापटी लियो।"
+  ]
  },
  {
   "slug": "ashok-binayak",
@@ -1696,7 +2137,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "Binayak (Vinayak) is a name of Ganesh."
+    "explanation": "Binayak (Vinayak) is a name of Ganesh.",
+    "q_np": "अशोक विनायकमा कुन देवताको पूजा गरिन्छ?",
+    "options_np": [
+     "गणेश",
+     "हनुमान",
+     "शिव",
+     "बुद्ध"
+    ],
+    "explanation_np": "विनायक (बिनायक) गणेशको नाम हो।"
    },
    {
     "q": "Which day of the week draws the most worshippers here?",
@@ -1708,7 +2157,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Tuesday is considered Ganesh's day."
+    "explanation": "Tuesday is considered Ganesh's day.",
+    "q_np": "यहाँ हप्ताको कुन दिन सबैभन्दा धेरै भक्तजन आउँछन्?",
+    "options_np": [
+     "आइतबार",
+     "मङ्गलबार",
+     "शुक्रबार",
+     "शनिबार"
+    ],
+    "explanation_np": "मङ्गलबारलाई गणेशको दिन मानिन्छ।"
    },
    {
     "q": "What is unusual about the shrine's roof?",
@@ -1720,7 +2177,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The roof lacks the usual gajur, which is said to explain the name 'Maru'."
+    "explanation": "The roof lacks the usual gajur, which is said to explain the name 'Maru'.",
+    "q_np": "मन्दिरको छानाबारे के असामान्य कुरा छ?",
+    "options_np": [
+     "यो सिसाको बनेको छ",
+     "यसमा गजुर छैन",
+     "यसमा नौ तले छन्",
+     "यो निलो रङले रङ्गाइएको छ"
+    ],
+    "explanation_np": "छानामा सामान्य गजुर हुँदैन, जसले 'मरु' नामको व्याख्या गर्छ भनिन्छ।"
    },
    {
     "q": "Which animal statue faces the shrine across the lane?",
@@ -1732,7 +2197,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The mouse is Ganesh's vehicle."
+    "explanation": "The mouse is Ganesh's vehicle.",
+    "q_np": "गल्लीको पारि मन्दिरतर्फ फर्केको कुन जनावरको मूर्ति छ?",
+    "options_np": [
+     "सिंह",
+     "मुसो",
+     "गोरु",
+     "मयूर"
+    ],
+    "explanation_np": "मुसो गणेशको वाहन हो।"
    },
    {
     "q": "Which of these is NOT one of the valley's four main Ganesh shrines?",
@@ -1744,7 +2217,15 @@
     ],
     "answer_index": 3,
     "difficulty": 5,
-    "explanation": "The four are Ashok, Chandra, Surya and Jal Binayak; Kamal Binayak is a separate, popular temple."
+    "explanation": "The four are Ashok, Chandra, Surya and Jal Binayak; Kamal Binayak is a separate, popular temple.",
+    "q_np": "यीमध्ये कुन उपत्यकाका चार मुख्य गणेश मन्दिरमध्ये होइन?",
+    "options_np": [
+     "चन्द्र विनायक",
+     "सूर्य विनायक",
+     "जल विनायक",
+     "कमल विनायक"
+    ],
+    "explanation_np": "चारवटा अशोक, चन्द्र, सूर्य र जल विनायक हुन्; कमल विनायक छुट्टै लोकप्रिय मन्दिर हो।"
    }
   ],
   "clues": [
@@ -1761,15 +2242,17 @@
   "festivals": [
    {
     "name": "Dashain",
-    "name_np": "दशैं",
+    "name_np": "दशैँ",
     "month": "Ashwin",
-    "note": "The Ganesh image is dressed in a silver or metal cover for the festival"
+    "note": "The Ganesh image is dressed in a silver or metal cover for the festival",
+    "note_np": "चाडको लागि गणेशको मूर्तिलाई चाँदी वा धातुको कवच पहिर्याइन्छ"
    },
    {
     "name": "Indra Jatra",
-    "name_np": "इन्द्र जात्रा",
+    "name_np": "इन्द्रजात्रा",
     "month": "Bhadra",
-    "note": "The image is again decorated with its metal cover"
+    "note": "The image is again decorated with its metal cover",
+    "note_np": "मूर्तिलाई फेरि धातुको कवचले सजाइन्छ"
    }
   ],
   "gallery": [
@@ -1840,7 +2323,21 @@
     "newar-houses"
    ],
    "notes": "Tiny single-roof shrine plated in gold with no pinnacle on top, hung with bells, on a lane corner by Kasthamandap"
-  }
+  },
+  "short_np": "सानो सुनौलो गणेश मन्दिर, उपत्यकाका चार प्रमुखमध्ये एक, जसको छानामा गजुर छैन।",
+  "story_np": "कास्थमण्डपको छेउमा रहेको यो सानो सुनौलो मन्दिरलाई बेवास्ता गरेर हिँड्न सजिलो छ, तर स्थानीयहरू कहिल्यै त्यसो गर्दैनन्। यो अशोक विनायक हो, जसलाई मरु गणेश पनि भनिन्छ, र यो काठमाडौं उपत्यकाका चार सबैभन्दा महत्त्वपूर्ण गणेश मन्दिरमध्ये एक हो। अरू तीन चन्द्र विनायक, सूर्य विनायक र जल विनायक हुन्। गजमुख देवता गणेशले बाधा हटाउँछन्, त्यसैले धेरै मानिस यात्रा, परीक्षा वा नयाँ व्यापार अगाडि यहाँ रोकिन्छन्। मङ्गलबार गणेशको दिन हो, र त्यसैबेला भीड सबैभन्दा धेरै हुन्छ। छानामा हेर्नुहोस्: अधिकांश मन्दिरभन्दा फरक, यसमा माथिको टुप्पो, गजुर, छैन। स्थानीयहरू भन्छन् यही गजुर नहुनुले टोलको नाम, मरु, पर्‍यो, जसको नेवारीमा अर्थ 'छैन' हुन्छ। सम्पूर्ण बाहिरी भाग सुनले मढिएको छ। साँघुरो गल्लीको पारि, गणेशको वफादार वाहन, मुसाको सानो मूर्ति खोज्नुहोस्।",
+  "legend_np": null,
+  "facts_np": [
+   "यो काठमाडौं उपत्यकाका चार प्रमुख गणेश मन्दिरमध्ये एक हो।",
+   "यसको छानामा गजुर छैन; नेवारीमा 'मरु' को अर्थ 'छैन' हो भनिन्छ।",
+   "गणेशको दिन मङ्गलबारमा सबैभन्दा धेरै भक्तजन आउँछन्।",
+   "गणेशको वाहन मुसाको मूर्ति गल्लीको पारि मन्दिरतर्फ फर्केको छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "सानो, सुनौलो र टुप्पो नभएको मैले आफ्नो टोललाई 'नभएको' भन्ने अर्थ दिने नाम दिएँ।",
+   "मङ्गलबार यहाँ रोकिएर विघ्न हर्ताबाट सहज बाटोको कामना गर; मेरो मुसो गल्लीको पारि पर्खिरहेको छ।"
+  ]
  },
  {
   "slug": "swayambhunath",
@@ -1902,7 +2399,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Monkeys living on the hill gave it the name Monkey Temple."
+    "explanation": "Monkeys living on the hill gave it the name Monkey Temple.",
+    "q_np": "धेरै आगन्तुकहरूले स्वयम्भूनाथलाई कुन उपनाम दिएका छन्?",
+    "options_np": [
+     "सुनको मन्दिर",
+     "बाँदर मन्दिर",
+     "बाघ मन्दिर",
+     "आकाश मन्दिर"
+    ],
+    "explanation_np": "डाँडामा बस्ने बाँदरहरूले गर्दा यसलाई बाँदर मन्दिर भनिएको हो।"
    },
    {
     "q": "What does 'Swayambhu' mean?",
@@ -1914,7 +2419,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "The name means self-arising or self-sprung."
+    "explanation": "The name means self-arising or self-sprung.",
+    "q_np": "'स्वयम्भू' को अर्थ के हो?",
+    "options_np": [
+     "ठूलो पहाड",
+     "स्वयम् उत्पन्न",
+     "ज्ञानको आँखा",
+     "सेतो कमल"
+    ],
+    "explanation_np": "यो नामको अर्थ आफैँ उत्पन्न भएको हो।"
    },
    {
     "q": "According to legend, who drained the lake that once filled the valley?",
@@ -1926,7 +2439,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "Manjushri cut a gorge with his sword, draining the lake."
+    "explanation": "Manjushri cut a gorge with his sword, draining the lake.",
+    "q_np": "किंवदन्ती अनुसार उपत्यकामा भरिएको ताल कसले खाली गराए?",
+    "options_np": [
+     "मञ्जुश्री",
+     "इन्द्र",
+     "हनुमान",
+     "पद्मसम्भव"
+    ],
+    "explanation_np": "मञ्जुश्रीले आफ्नो खड्गले गल्छेँडो काटेर ताल बगाइदिए।"
    },
    {
     "q": "Which king built the long eastern stairway?",
@@ -1938,7 +2459,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "Pratap Malla built the eastern stairway in the 17th century."
+    "explanation": "Pratap Malla built the eastern stairway in the 17th century.",
+    "q_np": "लामो पूर्वी भर्‍याङ कुन राजाले बनाए?",
+    "options_np": [
+     "प्रताप मल्ल",
+     "पृथ्वीनारायण शाह",
+     "मानदेव",
+     "अशोक"
+    ],
+    "explanation_np": "प्रताप मल्लले 17औँ शताब्दीमा पूर्वी भर्‍याङ बनाए।"
    },
    {
     "q": "What do the 13 rings of the spire represent?",
@@ -1950,7 +2479,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "They symbolise the 13 stages before reaching nirvana."
+    "explanation": "They symbolise the 13 stages before reaching nirvana.",
+    "q_np": "शिखरका 13 वटा तहले केलाई जनाउँछन्?",
+    "options_np": [
+     "13 जना मल्ल राजा",
+     "ज्ञानप्राप्तितर्फका 13 चरण",
+     "नेवारी वर्षका 13 महिना",
+     "उपत्यकाका 13 नदी"
+    ],
+    "explanation_np": "तिनले निर्वाणमा पुग्नुअघिका 13 चरणलाई जनाउँछन्।"
    }
   ],
   "clues": [
@@ -1974,13 +2511,15 @@
     "name": "Buddha Jayanti",
     "name_np": "बुद्ध जयन्ती",
     "month": "Baisakh",
-    "note": "Buddha’s birthday; pilgrims climb the hill and circle the stupa"
+    "note": "Buddha’s birthday; pilgrims climb the hill and circle the stupa",
+    "note_np": "बुद्धको जन्मदिन; तीर्थयात्रीहरू डाँडा चढेर स्तूपको परिक्रमा गर्छन्।"
    },
    {
     "name": "Gunla",
-    "name_np": "गुंला",
+    "name_np": "गुँला",
     "month": "Shrawan",
-    "note": "Newar Buddhist holy month; devotees walk up to the stupa each morning with music"
+    "note": "Newar Buddhist holy month; devotees walk up to the stupa each morning with music",
+    "note_np": "नेवार बौद्धहरूको पवित्र महिना; भक्तजनहरू हरेक बिहान बाजागाजासहित स्तूपसम्म हिँड्छन्।"
    }
   ],
   "gallery": [
@@ -2066,7 +2605,21 @@
     "monks-houses"
    ],
    "notes": "White dome on a wooded hilltop; gilded harmika with painted eyes and a 13-ring spire; two white shikharas and a big vajra"
-  }
+  },
+  "short_np": "‘स्वयम्भू’, उपत्यकालाई हेरिरहेको डाँडाको चैत्य, बौद्ध, हिन्दू र बाँदरहरू सबैको प्रिय।",
+  "story_np": "तपाईं डाँडाको टुप्पोमा पुग्नुभएको छ, र स्वयम्भूनाथको विशाल सेतो गुम्बज तपाईंको अगाडि उठेको छ। स्वयम्भू भनेको ‘आफैँ उत्पन्न’ हो। सुनौलो टावरतिर हेर्नुहोस्: हरेक तिर, बुद्धका आँखाहरूले चारै दिशामा उपत्यकातिर हेरिरहेका छन्। त्यसमाथि, तेह्रवटा सुनौला घेराहरूले ज्ञान प्राप्तिको मार्गका तेह्र चरणलाई प्रतिनिधित्व गर्छन्। यो नेपालका सबैभन्दा पुराना र पवित्र बौद्ध स्थलहरूमध्ये एक हो, तैपनि हिन्दूहरूले पनि यहाँ पूजा गर्छन्, र तपाईंले दुवै धर्मका मन्दिरहरू पास-पासै भेट्नुहुनेछ। लिच्छवि राजाहरूले यहाँ काम गराएका थिए, र १७औं शताब्दीमा राजा प्रताप मल्लले धेरै आगन्तुकले चढ्ने लामो पूर्वी भर्‍याङ बनाए। आफ्ना सामानको ध्यान राख्नुहोस्: डाँडामा बाँदरका झुण्ड बस्छन्, त्यसैले यात्रीहरूले यसलाई बाँदर मन्दिर भन्छन्। चैत्यको घडीको दिशामा परिक्रमा गर्नुहोस्, प्रार्थना चक्र घुमाउनुहोस्, र काठमाडौँको एक उत्कृष्ट दृश्यको आनन्द लिनुहोस्।",
+  "legend_np": "धेरै पहिले, काठमाडौँ उपत्यका एउटा विशाल ताल थियो। एक बुद्धले त्यसमा कमलको बीउ रोपे, र हजार पत्ती भएको कमल फक्र्यो, आफैँ जन्मेको ज्योतिले चम्किँदै, स्वयम्भू। बोधिसत्त्व मञ्जुश्रीले तीर्थयात्रीहरू त्यहाँ पुगून् भन्ने चाहे, त्यसैले उनले आफ्नो खड्गले डाँडाहरू काटेर खोँच बनाए। पानी बग्यो, उपत्यका उर्वर भूमि भयो, र कमल डाँडा भयो।",
+  "facts_np": [
+   "स्वयम्भू भनेको ‘आफैँ उत्पन्न’ वा ‘आफैँ प्रकट भएको’ हो।",
+   "यो सन् १९७९ मा काठमाडौँ उपत्यका विश्व सम्पदा स्थलको अंशका रूपमा सूचीकृत भयो।",
+   "राजा प्रताप मल्लले १७औं शताब्दीमा लामो पूर्वी भर्‍याङ बनाए।",
+   "चुचुराका १३ वटा सुनौला घेराहरूले ज्ञान प्राप्तिका १३ चरणलाई प्रतिनिधित्व गर्छन्।"
+  ],
+  "quake_np": "परिसर सन् २०१५ मा क्षतिग्रस्त भयो; चर्किएको प्रतापपुर शिखर सन् २०१७ मा भत्काइयो र त्यो र अनन्तपुर शिखर पुनर्निर्माण गरियो।",
+  "clues_np": [
+   "मेरो डाँडाको टुप्पोबाट रङ्गिएका आँखाले सारा उपत्यका हेर्छन्, मुनि बाँदरहरूले खाजा चोर्छन्।",
+   "किंवदन्ती अनुसार म एउटा तालमाथिको झिलिमिली कमल थिएँ, जबसम्म खड्गले पानी बगाइदिएन।"
+  ]
  },
  {
   "slug": "boudhanath",
@@ -2129,7 +2682,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "Tibetan refugees settled here after the 1959 uprising."
+    "explanation": "Tibetan refugees settled here after the 1959 uprising.",
+    "q_np": "सन् 1959 पछि बौद्धनाथ वरिपरि ठूलो सङ्ख्यामा कुन समुदाय बसोबास गर्न थाल्यो?",
+    "options_np": [
+     "तिब्बती शरणार्थी",
+     "भारतीय व्यापारी",
+     "शेर्पा किसान",
+     "युरोपेली भिक्षु"
+    ],
+    "explanation_np": "सन् 1959 को विद्रोहपछि तिब्बती शरणार्थीहरू यहाँ बसोबास गर्न थाले।"
    },
    {
     "q": "In which direction should you walk around the stupa?",
@@ -2141,7 +2702,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Pilgrims circle stupas clockwise."
+    "explanation": "Pilgrims circle stupas clockwise.",
+    "q_np": "स्तूपको परिक्रमा कुन दिशामा गर्नुपर्छ?",
+    "options_np": [
+     "वामावर्त",
+     "दक्षिणावर्त",
+     "जता पनि",
+     "सिधै पार गरेर"
+    ],
+    "explanation_np": "तीर्थयात्रीहरू स्तूपको परिक्रमा घडीको दिशामा (दक्षिणावर्त) गर्छन्।"
    },
    {
     "q": "When did Boudhanath reopen after post-earthquake restoration?",
@@ -2153,7 +2722,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "It reopened in November 2016 after about 18 months of work."
+    "explanation": "It reopened in November 2016 after about 18 months of work.",
+    "q_np": "भूकम्पपछिको पुनर्स्थापनापछि बौद्धनाथ कहिले पुनः खुल्यो?",
+    "options_np": [
+     "मे 2015",
+     "नोभेम्बर 2016",
+     "अप्रिल 2021",
+     "2024"
+    ],
+    "explanation_np": "करिब 18 महिनाको कामपछि यो नोभेम्बर 2016 मा पुनः खुल्यो।"
    },
    {
     "q": "What is the Newar name of the stupa?",
@@ -2165,7 +2742,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "Newars call it Khasti (Khasa) Chaitya."
+    "explanation": "Newars call it Khasti (Khasa) Chaitya.",
+    "q_np": "स्तूपको नेवारी नाम के हो?",
+    "options_np": [
+     "खस्ति चैत्य",
+     "जना बहाः",
+     "मरु सत्तल",
+     "न्हु पुखु"
+    ],
+    "explanation_np": "नेवारहरू यसलाई खस्ति (खास) चैत्य भन्छन्।"
    },
    {
     "q": "In the Tibetan legend, what does 'Jarung Khashor' refer to?",
@@ -2177,7 +2762,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "'Jarung' (let it be done) slipped from the king's tongue, 'khashor'."
+    "explanation": "'Jarung' (let it be done) slipped from the king's tongue, 'khashor'.",
+    "q_np": "तिब्बती किंवदन्तीमा ‘जारुङ खाशोर’ ले केलाई जनाउँछ?",
+    "options_np": [
+     "ड्रागनको गुफा",
+     "राजाको मुखबाट ‘चिप्लिएको’ अनुमति",
+     "हिमाली भञ्ज्याङ",
+     "पवित्र नदी"
+    ],
+    "explanation_np": "‘जारुङ’ (होस् भन्ने) राजाको मुखबाट चिप्लिएको थियो, अर्थात् ‘खाशोर’।"
    }
   ],
   "clues": [
@@ -2200,13 +2793,15 @@
     "name": "Losar",
     "name_np": "ल्होसार",
     "month": "Falgun",
-    "note": "Tibetan New Year; crowds circle the stupa and new prayer flags are hung"
+    "note": "Tibetan New Year; crowds circle the stupa and new prayer flags are hung",
+    "note_np": "तिब्बती नयाँ वर्ष; भीडले स्तूपको परिक्रमा गर्छ र नयाँ प्रार्थना झण्डा टाँगिन्छ"
    },
    {
     "name": "Buddha Jayanti",
     "name_np": "बुद्ध जयन्ती",
     "month": "Baisakh",
-    "note": "Buddha’s birthday; butter lamps are lit and the stupa is circled all day"
+    "note": "Buddha’s birthday; butter lamps are lit and the stupa is circled all day",
+    "note_np": "बुद्धको जन्मदिन; घिउबत्ती बालिन्छ र दिनभर स्तूपको परिक्रमा गरिन्छ"
    }
   ],
   "gallery": [
@@ -2291,7 +2886,21 @@
     "stone-paved-plaza"
    ],
    "notes": "Huge white dome on a three-level stepped mandala plinth; gilded harmika with eyes and 13 steps; flags radiate to a ring of houses"
-  }
+  },
+  "short_np": "संसारका सबैभन्दा ठूला स्तूपमध्ये एक, काठमाडौँको तिब्बती बौद्ध समुदायको मुटु।",
+  "story_np": "यो विशाल सेतो गुम्बजको वरिपरि घडीको दिशामा हिँडिरहेका तीर्थयात्रीको धारमा सामेल हुनुहोस्। बौद्धनाथ नेपालको सबैभन्दा ठूलो गोलाकार स्तूप हो र संसारकै ठूलामध्ये एक। माथिबाट हेर्दा यो एउटा विशाल मण्डल बनेको देखिन्छ। यो तिब्बत र भारतबीचको प्राचीन व्यापारिक मार्गमा पर्थ्यो, र तिब्बती व्यापारीहरूले सयौँ वर्षसम्म यहाँ विश्राम गरे र प्रार्थना गरे। 1959 पछि धेरै तिब्बती शरणार्थी यसको वरिपरि बसोबास गरे र पचासभन्दा बढी गुम्बा बनाए, त्यसैले आज तपाईंले तिब्बती प्रार्थना सुन्नुहुन्छ, घिउबत्तीको गन्ध पाउनुहुन्छ र मरुन चीवरमा भिक्षुहरू देख्नुहुन्छ। नेवार वंशावलीहरूले यहाँको पहिलो स्तूपलाई लिच्छवि राजाहरूसँग जोड्छन्, यद्यपि वर्तमान संरचना सम्भवतः चौधौँ शताब्दीको हो। 2015 मा भूकम्पले यसको माथिल्लो भागमा गम्भीर क्षति पुर्‍यायो। त्यो भत्काइयो, बलियो बनाइयो र पुनर्निर्माण गरियो, र स्तूप नोभेम्बर 2016 मा पुनः खुल्यो। सुनौला शिखरका आँखा हेर्नुहोस्, अनि आफ्नो परिक्रमा पूरा गर्दै प्रार्थना चक्र घुमाउनुहोस्।",
+  "legend_np": "एउटा तिब्बती किंवदन्तीले सम्वरी नामकी कुखुरा पाल्ने महिलाको कथा भन्छ, जसले आफ्नो कमाइ जोगाएर ठूलो स्तूप बनाइन्। उनले राजासँग जग्गा मागिन्, र राजाले 'जारुङ!' – 'गर्न दिइयो!' भने। ईर्ष्यालु सरदारहरूले यो कति विशाल हुने देखेपछि राजाले आफ्नो वचन फिर्ता लिन सकेनन्; त्यो उनको जिब्रोबाट 'चिप्लिएको' (खाशोर) थियो। त्यसैले स्तूप जारुङ खाशोर भयो।",
+  "facts_np": [
+   "यो नेपालको सबैभन्दा ठूलो गोलाकार स्तूप हो।",
+   "यो 1979 मा काठमाडौँ उपत्यका विश्व सम्पदा स्थलको अंशका रूपमा सूचीकृत भएको थियो।",
+   "1959 पछि तिब्बती शरणार्थीहरूले स्तूपवरिपरि 50 भन्दा बढी गुम्बा बनाए।",
+   "2015 को क्षतिपछि माथिल्लो भाग पुनर्निर्माण गरियो र स्तूप नोभेम्बर 2016 मा पुनः खुल्यो।"
+  ],
+  "quake_np": "2015 को भूकम्पले स्तूपको माथिल्लो भागमा क्षति पुर्‍यायो, जुन भत्काएर पुनर्निर्माण गरियो; यो नोभेम्बर 2016 मा पुनः खुल्यो।",
+  "clues_np": [
+   "बटुको बत्ती, मानी र मरुन रङका चीवर मेरो विशाल सेतो मण्डल वरिपरि घुम्छन्।",
+   "एक कुखुरापालक महिलाको सपना, एक राजाको मुखबाट चिप्लिएको बोली: मेरो तिब्बती नामले कथा भन्छ।"
+  ]
  },
  {
   "slug": "pashupatinath",
@@ -2349,7 +2958,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Pashupati is a form of Shiva, Lord of all beings."
+    "explanation": "Pashupati is a form of Shiva, Lord of all beings.",
+    "q_np": "पशुपतिनाथ कुन देवतालाई समर्पित छ?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "बुद्ध",
+     "गणेश"
+    ],
+    "explanation_np": "पशुपति शिवको एक रूप हुन्, सबै प्राणीका स्वामी।"
    },
    {
     "q": "On which river does the temple stand?",
@@ -2361,7 +2978,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Pashupatinath lies on the banks of the Bagmati."
+    "explanation": "Pashupatinath lies on the banks of the Bagmati.",
+    "q_np": "मन्दिर कुन नदीको किनारमा छ?",
+    "options_np": [
+     "विष्णुमती",
+     "बागमती",
+     "कोशी",
+     "त्रिशूली"
+    ],
+    "explanation_np": "पशुपतिनाथ बागमतीको किनारमा अवस्थित छ।"
    },
    {
     "q": "Which festival draws the largest crowds of Shiva devotees here?",
@@ -2373,7 +2998,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "Maha Shivaratri is Shiva's great night."
+    "explanation": "Maha Shivaratri is Shiva's great night.",
+    "q_np": "यहाँ कुन चाडमा शिवभक्तहरूको सबैभन्दा ठूलो भीड लाग्छ?",
+    "options_np": [
+     "महाशिवरात्रि",
+     "ल्होसार",
+     "इन्द्रजात्रा",
+     "गाईजात्रा"
+    ],
+    "explanation_np": "महाशिवरात्रि शिवको महान् रात हो।"
    },
    {
     "q": "How many doors does the main temple have, all covered in silver?",
@@ -2385,7 +3018,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "It has four main doors covered with silver sheets."
+    "explanation": "It has four main doors covered with silver sheets.",
+    "q_np": "मुख्य मन्दिरमा चाँदीले मोडिएका कतिओटा ढोका छन्?",
+    "options_np": [
+     "दुई",
+     "चार",
+     "छ",
+     "आठ"
+    ],
+    "explanation_np": "यसमा चाँदीका पाताले मोडिएका चार मुख्य ढोका छन्।"
    },
    {
     "q": "In the Mahabharata legend, which part of Shiva-as-bull appeared at Pashupatinath?",
@@ -2397,7 +3038,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "The head is said to have appeared at Pashupatinath, the hump at Kedarnath."
+    "explanation": "The head is said to have appeared at Pashupatinath, the hump at Kedarnath.",
+    "q_np": "महाभारतको किंवदन्तीमा साँढे बनेका शिवको कुन भाग पशुपतिनाथमा प्रकट भयो?",
+    "options_np": [
+     "कुम्लो",
+     "टाउको",
+     "पाखुरा",
+     "नाभि"
+    ],
+    "explanation_np": "टाउको पशुपतिनाथमा र कुम्लो केदारनाथमा प्रकट भएको भनिन्छ।"
    }
   ],
   "clues": [
@@ -2419,19 +3068,22 @@
     "name": "Maha Shivaratri",
     "name_np": "महाशिवरात्रि",
     "month": "Falgun",
-    "note": "Shiva’s great night; huge crowds and sadhus from Nepal and India"
+    "note": "Shiva’s great night; huge crowds and sadhus from Nepal and India",
+    "note_np": "शिवको महान् रात; नेपाल र भारतबाट ठूलो भीड र साधुहरू आउँछन्"
    },
    {
     "name": "Teej",
     "name_np": "तीज",
     "month": "Bhadra",
-    "note": "Women in red fast and queue to worship Shiva for their families"
+    "note": "Women in red fast and queue to worship Shiva for their families",
+    "note_np": "रातो वस्त्र लगाएका महिलाहरू व्रत बस्छन् र परिवारको कल्याणका लागि शिवको पूजा गर्न लाइन लाग्छन्"
    },
    {
     "name": "Bala Chaturdashi",
-    "name_np": "बालाचतुर्दशी",
+    "name_np": "बाला चतुर्दशी",
     "month": "Mangsir",
-    "note": "Seeds are scattered for departed relatives and lamps lit through the night"
+    "note": "Seeds are scattered for departed relatives and lamps lit through the night",
+    "note_np": "दिवङ्गत आफन्तका नाममा बीउ छरिन्छ र रातभर बत्ती बालिन्छ"
    }
   ],
   "gallery": [
@@ -2516,7 +3168,21 @@
     "stone-paved-plaza"
    ],
    "notes": "Two-tier gilded pagoda on a square plinth with four silver doors; a huge gilded Nandi bull faces the west door"
-  }
+  },
+  "short_np": "नेपालको सबैभन्दा पवित्र शिव मन्दिर, पवित्र बागमती नदीको किनारमा दाहसंस्कार घाटसहित।",
+  "story_np": "तपाईं पशुपतिनाथमा पवित्र बागमती नदीको किनारमा हुनुहुन्छ, नेपालको सबैभन्दा पवित्र र दक्षिण एसियाका सबैभन्दा महत्त्वपूर्ण शिव मन्दिरमध्ये एक। यसको अस्तित्व 400 ई. जत्तिकै पहिले अभिलेखित छ। मुख्य पगोडामा सुनौलो तामाका दुई छाना, सुनको गजुर र चाँदीले मोडिएका चार ढोका छन्। भित्र प्राणीमात्रका स्वामी पशुपतिका रूपमा शिवको चारमुखे ढुङ्गाको लिङ्ग छ। मुख्य मन्दिरमा हिन्दूलाई मात्र प्रवेश छ, तर तपाईं नदीपारिबाट हेर्न सक्नुहुन्छ। परिसर करिब 246 हेक्टरमा फैलिएको छ र सयौँ साना मन्दिर छन्। नदीका किनारमा तपाईंले हिन्दूहरूको दाहसंस्कार गरिने घाट देख्नुहुनेछ, जसले विश्वासीहरूका लागि यो जीवन यात्रा समाप्त गर्ने पवित्र ठाउँ हो भन्ने मार्मिक सम्झना दिन्छ। हरेक साँझ पुजारीहरूले बत्ती र मन्त्रसहित आरती गर्छन्। महाशिवरात्रि पर्वले ठूलो भीड तान्छ। सन् 2015 मा मुख्य मन्दिर भूकम्पबाट प्रायः सुरक्षित रह्यो।",
+  "legend_np": "महाभारतको कथामा पाण्डव भाइहरूले युद्धपछि शिवसँग क्षमा माग्न खोजे। शिव साँढे बनेर तिनीहरूबाट लुके र जमिनमा भासिए, अनि हिमालयभर अंश अंशमा देखा परे: कुम केदारनाथमा देखा पर्‍यो, र उनको शिर, भनिन्छ, यहाँ पशुपतिनाथमा प्रकट भयो। अन्य अंश रुद्रनाथ, तुङ्गनाथ र मध्यमहेश्वरमा देखा परेको भनिन्छ, त्यसैले तीर्थयात्रीहरूले यो मन्दिरलाई ती मन्दिरहरूसँग जोड्छन्।",
+  "facts_np": [
+   "मन्दिर परिसर करिब 246 हेक्टरमा फैलिएको छ र 518 वटा साना मन्दिर तथा देवस्थल समावेश छन्।",
+   "मुख्य पगोडा 23.7 मिटर अग्लो छ र चाँदीले मोडिएका चार ढोका छन्।",
+   "लिङ्ग छुन चार जना पुजारीलाई मात्र अनुमति छ; भट्ट पुजारीहरूले दैनिक पूजा गर्छन्।",
+   "यसको अस्तित्व 400 ई. जत्तिकै पहिले अभिलेखित छ, र हालको रूप सन् 1692 को जीर्णोद्धारबाट आएको हो।"
+  ],
+  "quake_np": "सन् 2015 मा मुख्य मन्दिर प्रायः प्रभावित भएन, यद्यपि फराकिलो पशुपति क्षेत्रका दर्जनौँ संरचनामा क्षति पुग्यो र पछि पुनर्स्थापना गरियो।",
+  "clues_np": [
+   "चाँदीका ढोकाहरूले एक पवित्र नदीको किनारमा चतुर्मुखी लिङ्ग कुरेका छन्, जहाँ साँझ आरती गरिन्छ।",
+   "मेरा नदीकिनारका घाटबाट धुवाँ उठ्छ, र मेरो सुनको छाना भएको गर्भगृहमा हिन्दुहरूलाई मात्र प्रवेश छ।"
+  ]
  },
  {
   "slug": "budhanilkantha",
@@ -2578,7 +3244,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "It depicts Vishnu reclining on a serpent."
+    "explanation": "It depicts Vishnu reclining on a serpent.",
+    "q_np": "बूढानीलकण्ठको शयन मुद्राको मूर्तिले कुन देवतालाई चित्रित गर्छ?",
+    "options_np": [
+     "शिव",
+     "विष्णु",
+     "बुद्ध",
+     "ब्रह्मा"
+    ],
+    "explanation_np": "यसले शेषनागमाथि सुतेका विष्णुलाई चित्रित गर्छ।"
    },
    {
     "q": "What does 'Budhanilkantha' literally mean?",
@@ -2590,7 +3264,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "It means Old Blue Throat, a title of Shiva."
+    "explanation": "It means Old Blue Throat, a title of Shiva.",
+    "q_np": "'बूढानीलकण्ठ' को शाब्दिक अर्थ के हो?",
+    "options_np": [
+     "सुतेका देवता",
+     "बूढा नीलो घाँटी",
+     "तैरिने ढुङ्गा",
+     "जलका स्वामी"
+    ],
+    "explanation_np": "यसको अर्थ बूढा नीलो घाँटी हो, जुन शिवको उपाधि हो।"
    },
    {
     "q": "Which festival marks Vishnu waking from his four-month sleep?",
@@ -2602,7 +3284,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "Haribodhini Ekadashi in Kartik draws thousands of pilgrims."
+    "explanation": "Haribodhini Ekadashi in Kartik draws thousands of pilgrims.",
+    "q_np": "कुन चाडले विष्णु चार महिनाको निद्राबाट ब्यूँझिएको दिनलाई जनाउँछ?",
+    "options_np": [
+     "हरिबोधिनी एकादशी",
+     "तीज",
+     "दशैँ",
+     "बुद्ध जयन्ती"
+    ],
+    "explanation_np": "कार्तिकको हरिबोधिनी एकादशीमा हजारौं तीर्थयात्री आउँछन्।"
    },
    {
     "q": "About how long is the stone statue?",
@@ -2614,7 +3304,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The statue is about 5 metres long."
+    "explanation": "The statue is about 5 metres long.",
+    "q_np": "ढुङ्गाको मूर्ति करिब कति लामो छ?",
+    "options_np": [
+     "1 मिटर",
+     "5 मिटर",
+     "15 मिटर",
+     "25 मिटर"
+    ],
+    "explanation_np": "मूर्ति करिब 5 मिटर लामो छ।"
    },
    {
     "q": "Which sacred lake is the pool's spring traditionally linked to?",
@@ -2626,7 +3324,15 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "Legend connects the spring to Gosaikunda, hence the Shiva name."
+    "explanation": "Legend connects the spring to Gosaikunda, hence the Shiva name.",
+    "q_np": "कुण्डको मूल परम्परागत रूपमा कुन पवित्र तालसँग जोडिएको छ?",
+    "options_np": [
+     "फेवा",
+     "रारा",
+     "गोसाइँकुण्ड",
+     "तौदह"
+    ],
+    "explanation_np": "किंवदन्तीले मूललाई गोसाइँकुण्डसँग जोड्छ, त्यसैले शिवको नाम रहेको हो।"
    }
   ],
   "clues": [
@@ -2645,13 +3351,15 @@
     "name": "Haribodhini Ekadashi",
     "name_np": "हरिबोधिनी एकादशी",
     "month": "Kartik",
-    "note": "Thousands come for the day Vishnu is believed to wake from his four-month sleep"
+    "note": "Thousands come for the day Vishnu is believed to wake from his four-month sleep",
+    "note_np": "विष्णु चार महिनाको निद्राबाट ब्यूँझिन्छन् भन्ने विश्वास गरिने दिनमा हजारौं आउँछन्"
    },
    {
     "name": "Harishayani Ekadashi",
     "name_np": "हरिशयनी एकादशी",
     "month": "Ashadh",
-    "note": "A fair marks the day Vishnu is believed to begin his four-month sleep"
+    "note": "A fair marks the day Vishnu is believed to begin his four-month sleep",
+    "note_np": "विष्णु चार महिनाको निद्रामा जान्छन् भन्ने विश्वास गरिने दिनमा मेला लाग्छ"
    }
   ],
   "gallery": [
@@ -2723,7 +3431,21 @@
     "garden-lawn"
    ],
    "notes": "A 5 m black stone Vishnu reclining on a coiled many-headed serpent, lying in a 13 m rectangular sunken pool"
-  }
+  },
+  "short_np": "शिवपुरी डाँडामुनिको पवित्र पोखरीमा तैरिरहेको विशाल सुतेको विष्णु।",
+  "story_np": "उपत्यकाको उत्तरी छेउमा शिवपुरी डाँडाको फेदमा नेपालको सबैभन्दा आश्चर्यजनक मूर्तिहरूमध्ये एउटा छ। लामो भुइँमुनिको पोखरीमा विष्णु भगवान् ब्रह्माण्डीय सर्पको कुण्डलीमा पल्टिएका छन्, मानौँ पानीमाथि सुतिरहेका होऊन्। मूर्ति करिब पाँच मिटर लामो छ, एउटै कालो ढुङ्गाको खण्डबाट कुँदिएको, र नेपालको सबैभन्दा ठूलो ढुङ्गाको कुँदाइ मानिन्छ। यो १,४०० वर्षभन्दा पुरानो हो भन्ने विश्वास गरिन्छ। आफ्ना चार हातमा विष्णुले चक्र, गदा, शङ्ख र रत्न समातेका छन्। अनौठो कुरा, बूढानीलकण्ठ नामको अर्थ 'पुरानो नीलो कण्ठ' हो, शिवको उपाधि, किनभने पोखरीलाई पानी दिने मूल गोसाइँकुण्डको पवित्र तालसँग जोडिएको भनिन्छ। हरेक वर्ष अक्टोबर वा नोभेम्बरमा हरिबोधिनी एकादशीमा, हजारौँ तीर्थयात्रीहरू विष्णुको चार महिनाको निद्राबाट जाग्ने उत्सव मनाउन आउँछन्। शताब्दीयौंसम्म नेपालका राजाहरू एउटा भविष्यवाणीको डरले यहाँ कहिल्यै आएनन्।",
+  "legend_np": "राजा प्रताप मल्लले दर्शन देखेको भनिन्छ: उनी कहिल्यै बूढानीलकण्ठ गए भने चाँडै मर्नेछन्। त्यसपछि, सुतेका विष्णुलाई हेर्ने नेपालको जुनसुकै राजाले पनि त्यही भाग्य भोग्छ भन्ने विश्वास गरियो। उनीपछिका शाही परिवारका सदस्यहरू त्यो भविष्यवाणीको डरले मन्दिरमा कहिल्यै गएनन्, यद्यपि बूढानीलकण्ठ उपत्यकाका सबैभन्दा प्रिय विष्णु मन्दिरहरूमध्ये एक हो।",
+  "facts_np": [
+   "सुतेका विष्णु करिब ५ मिटर लामो छन् र एउटै ढुङ्गाबाट कुँदिएका छन्।",
+   "यो करिब १३ मिटर लामो भुइँमुनिको पोखरीमा अवस्थित छ।",
+   "नामको अर्थ 'पुरानो नीलो कण्ठ' हो, शिवको उपाधि।",
+   "कात्तिक (अक्टोबर–नोभेम्बर) मा हरिबोधिनी एकादशीमा यहाँ हजारौँ भेला हुन्छन्।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "मेरो कुण्डमा एक विशाल देवता सर्पमाथि सुतेका छन्, तर मेरो नाम उनका नीलकण्ठ साथीको हो।",
+   "नेपालका राजाहरू एउटा भविष्यवाणीको डरले शताब्दीसम्म मदेखि टाढै रहे।"
+  ]
  },
  {
   "slug": "bagh-bhairab-kirtipur",
@@ -2782,7 +3504,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Bagh means tiger in Nepali."
+    "explanation": "Bagh means tiger in Nepali.",
+    "q_np": "यस मन्दिरमा भैरवलाई कुन जनावरको रूपमा पूजा गरिन्छ?",
+    "options_np": [
+     "हात्ती",
+     "बाघ",
+     "सर्प",
+     "साँढे"
+    ],
+    "explanation_np": "बाघभैरवमा बाघ भनेको व्याघ्र हो।"
    },
    {
     "q": "In which town is the temple located?",
@@ -2794,7 +3524,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Bagh Bhairab is the guardian deity of Kirtipur."
+    "explanation": "Bagh Bhairab is the guardian deity of Kirtipur.",
+    "q_np": "मन्दिर कुन सहरमा अवस्थित छ?",
+    "options_np": [
+     "भक्तपुर",
+     "कीर्तिपुर",
+     "पाटन",
+     "ठिमी"
+    ],
+    "explanation_np": "बाघभैरव कीर्तिपुरका संरक्षक देवता हुन्।"
    },
    {
     "q": "Swords from which battle are displayed on the temple?",
@@ -2806,7 +3544,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "Swords from Prithvi Narayan Shah's army at the Battle of Kirtipur are displayed."
+    "explanation": "Swords from Prithvi Narayan Shah's army at the Battle of Kirtipur are displayed.",
+    "q_np": "मन्दिरमा कुन युद्धका तरबारहरू राखिएका छन्?",
+    "options_np": [
+     "कीर्तिपुरको युद्ध",
+     "नालापानीको युद्ध",
+     "प्लासीको युद्ध",
+     "मकवानपुरको युद्ध"
+    ],
+    "explanation_np": "कीर्तिपुर युद्धमा पृथ्वीनारायण शाहको सेनाका तरबारहरू राखिएका छन्।"
    },
    {
     "q": "How many times do devotees believe one should circle the temple for blessings?",
@@ -2818,7 +3564,15 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "Circling 108 times is believed to bring success and good health."
+    "explanation": "Circling 108 times is believed to bring success and good health.",
+    "q_np": "आशीर्वादका लागि मन्दिरलाई कति पटक परिक्रमा गर्नुपर्छ भन्ने भक्तहरूको विश्वास छ?",
+    "options_np": [
+     "7",
+     "21",
+     "108",
+     "1000"
+    ],
+    "explanation_np": "108 पटक परिक्रमा गरे सफलता र असल स्वास्थ्य मिल्छ भन्ने विश्वास छ।"
    },
    {
     "q": "Who traditionally renews the clay image every 20–30 years?",
@@ -2830,7 +3584,15 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "Only a Bajracharya priest may perform this renewal."
+    "explanation": "Only a Bajracharya priest may perform this renewal.",
+    "q_np": "माटोको मूर्ति हरेक 20–30 वर्षमा परम्परागत रूपमा कसले नवीकरण गर्छन्?",
+    "options_np": [
+     "ब्राह्मण पुजारी",
+     "वज्राचार्य बौद्ध पुजारी",
+     "राजा",
+     "तिब्बती भिक्षु"
+    ],
+    "explanation_np": "वज्राचार्य पुजारीले मात्र यो नवीकरण गर्न पाउँछन्।"
    }
   ],
   "clues": [
@@ -2848,9 +3610,10 @@
   "festivals": [
    {
     "name": "Bagh Bhairab Jatra",
-    "name_np": "बाघ भैरव जात्रा",
+    "name_np": "बाघभैरव जात्रा",
     "month": "Bhadra",
-    "note": "On 1 Bhadra a new image is made and carried round town with music and a Lakhey dance"
+    "note": "On 1 Bhadra a new image is made and carried round town with music and a Lakhey dance",
+    "note_np": "भदौ 1 गते नयाँ मूर्ति बनाइन्छ र बाजागाजा तथा लाखे नाचसहित सहरभर घुमाइन्छ।"
    }
   ],
   "gallery": [
@@ -2924,7 +3687,21 @@
     "hilltop"
    ],
    "notes": "Three-roofed brick pagoda whose upper walls are hung with old swords and shields, in a brick square on Kirtipur hill"
-  }
+  },
+  "short_np": "कीर्तिपुरका बाघ देवता, गोर्खा सेनाविरुद्ध टिकेको डाँडाको सहरका रक्षक।",
+  "story_np": "तपाईं कीर्तिपुरको पुरानो डाँडाको सहरमा उक्लनुभएको छ, र यहाँ यसका रक्षक बाघ भैरव, बाघको रूपमा रहेका भैरव देवता, उभिएका छन्। स्थानीयले उनलाई अजुदेउ, बज्यै देवता भन्छन् र उनले सहरको रक्षा गर्छन् भन्ने विश्वास गर्छन्। मन्दिर १६औं शताब्दीको हो। यसका भित्ताहरू हेर्नुहोस्: यहाँ कीर्तिपुरको युद्धमा पृथ्वीनारायण शाहको सेनाले प्रयोग गरेको भनिएका तरवारहरू झुन्ड्याइएका छन्, जब गोर्खाका राजाले नेपाल एकीकरणको बाटोमा यो सहर लिन लडे। भित्र, देवताको मूर्ति माटोको बनेको छ, र यो हरेक बीस देखि तीस वर्षमा नवीकरण गरिन्छ, जुन काम बज्राचार्य बौद्ध पुजारीले गर्छन्। हरेक वर्ष, मध्य अगस्टमा भाद्रको पहिलो दिन, सहरले बाजा र लाखे नृत्यसहित बाघ भैरव जात्रा मनाउँछ। भक्तजनहरू भन्छन् कि मन्दिरलाई १०८ पटक परिक्रमा गर्दा सफलता र स्वास्थ्य मिल्छ।",
+  "legend_np": "भेडा चराइरहेका गोठालाहरूले एक पटक माटोको बाघ बनाए। एक केटो बाघको जिब्रो बनाउन पात खोज्न गयो। ऊ फर्किंदा, एउटा भेडा हराएको थियो र जिब्रो नभएको बाघको मुख खुला थियो। सहरवासीहरूले भैरव माटोको बाघमा प्रवेश गरेको विश्वास गरे, र त्यसको वरिपरि मन्दिर बनाए। देवताको मूर्तिमा अझै जिब्रो छैन भनिन्छ।",
+  "facts_np": [
+   "बाघ भैरव शिवको रूप भैरव हो, बाघको आकारमा।",
+   "१८औं शताब्दीको कीर्तिपुर युद्धका भनिएका तरवारहरू मन्दिरमा प्रदर्शन गरिएका छन्।",
+   "माटोको मूर्ति हरेक २०–३० वर्षमा बज्राचार्य पुजारीले नवीकरण गर्छन्।",
+   "बाघ भैरव जात्रा भाद्रको पहिलो दिन (मध्य अगस्ट) मा मनाइन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "गोठालाहरूले मलाई माटोले बनाए र मेरो जिब्रो बनाउन बिर्से; त्यसपछि एउटा भेडा हरायो।",
+   "एक प्रसिद्ध घेराबन्दीका पुराना तरबार डाँडामाथिको नेवार सहरमा मेरा भित्तामा झुण्डिएका छन्।"
+  ]
  },
  {
   "slug": "seto-machindranath",
@@ -2988,7 +3765,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Seto means white; the deity's face is white."
+    "explanation": "Seto means white; the deity's face is white.",
+    "q_np": "सेतो मछिन्द्रनाथमा ‘सेतो’ को अर्थ के हो?",
+    "options_np": [
+     "रातो",
+     "सेतो",
+     "पुरानो",
+     "महान्"
+    ],
+    "explanation_np": "सेतो भनेको उज्यालो रङ; देवताको अनुहार सेतो छ।"
    },
    {
     "q": "Buddhists worship Seto Machindranath as which bodhisattva?",
@@ -3000,7 +3785,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "He is worshipped as Avalokiteshvara, also called Karunamaya."
+    "explanation": "He is worshipped as Avalokiteshvara, also called Karunamaya.",
+    "q_np": "बौद्धहरूले सेतो मछिन्द्रनाथलाई कुन बोधिसत्त्वका रूपमा पूजा गर्छन्?",
+    "options_np": [
+     "मञ्जुश्री",
+     "अवलोकितेश्वर",
+     "मैत्रेय",
+     "वज्रपाणि"
+    ],
+    "explanation_np": "उनलाई अवलोकितेश्वर, अर्थात् करुणामयका रूपमा पूजा गरिन्छ।"
    },
    {
     "q": "In which month is the chariot festival held?",
@@ -3012,7 +3805,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "The five-day chariot procession takes place in Chaitra."
+    "explanation": "The five-day chariot procession takes place in Chaitra.",
+    "q_np": "रथयात्रा कुन महिनामा हुन्छ?",
+    "options_np": [
+     "चैत्र",
+     "कार्तिक",
+     "श्रावण",
+     "माघ"
+    ],
+    "explanation_np": "पाँच दिने रथयात्रा चैत्र महिनामा हुन्छ।"
    },
    {
     "q": "Who attends the deity's annual bathing ceremony?",
@@ -3024,7 +3825,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "The living goddess Kumari attends the bathing ritual."
+    "explanation": "The living goddess Kumari attends the bathing ritual.",
+    "q_np": "देवताको वार्षिक स्नान समारोहमा को उपस्थित हुन्छ?",
+    "options_np": [
+     "प्रधानमन्त्री",
+     "कुमारी",
+     "दलाई लामा",
+     "राजगुरु"
+    ],
+    "explanation_np": "जीवित देवी कुमारी स्नान अनुष्ठानमा उपस्थित हुन्छिन्।"
    },
    {
     "q": "What was Jana Bahal originally called?",
@@ -3036,7 +3845,15 @@
     ],
     "answer_index": 0,
     "difficulty": 5,
-    "explanation": "It was Kanak Chaitya Mahavihar, after a chaitya of Kanakmuni Buddha."
+    "explanation": "It was Kanak Chaitya Mahavihar, after a chaitya of Kanakmuni Buddha.",
+    "q_np": "जना बहाल मूल रूपमा के नामले चिनिन्थ्यो?",
+    "options_np": [
+     "कनक चैत्य महाविहार",
+     "हिरण्यवर्ण महाविहार",
+     "क्वाबहाः",
+     "इतुम बहाल"
+    ],
+    "explanation_np": "कनकमुनि बुद्धको चैत्यका नामबाट यो कनक चैत्य महाविहार थियो।"
    }
   ],
   "clues": [
@@ -3055,9 +3872,10 @@
   "festivals": [
    {
     "name": "Seto Machindranath Jatra",
-    "name_np": "सेतो मच्छिन्द्रनाथ जात्रा",
+    "name_np": "सेतो मछिन्द्रनाथ जात्रा",
     "month": "Chaitra",
-    "note": "Jana Baha Dyah Jatra: a tall chariot is pulled through old Kathmandu for five days"
+    "note": "Jana Baha Dyah Jatra: a tall chariot is pulled through old Kathmandu for five days",
+    "note_np": "जना बहाः द्यः जात्रा: पाँच दिनसम्म पुरानो काठमाडौँका बाटोमा अग्लो रथ तानिन्छ"
    }
   ],
   "gallery": [
@@ -3133,7 +3951,21 @@
     "market-houses"
    ],
    "notes": "Two gilded roofs over a brass-plated front with toranas, standing in a small courtyard crowded with chaityas and pillars"
-  }
+  },
+  "short_np": "सेतो करुणामयको लुकेको आँगनको मन्दिर, बौद्ध र हिन्दू दुवैले समान रूपमा पूज्ने।",
+  "story_np": "व्यस्त केल टोलबाट, असन र इन्द्रचोकबीच, एउटा ढोकाबाट छिरेर शान्त आँगनमा पस्नुहोस्। बीचमा सेतो मछिन्द्रनाथको मन्दिर छ, जसलाई नेवारहरूले जनबहा द्यः वा करुणामय, अर्थात् दयालु, भन्छन्। बौद्धहरू उनलाई करुणाका बोधिसत्व अवलोकितेश्वर मान्छन्; हिन्दूहरूले पनि उनलाई पूज्छन्। मन्दिर करिब दशौँ शताब्दीको मानिन्छ। आँगनवरिपरि धेरै साना मन्दिर, धातुका मूर्ति र प्रार्थनाका दीप, र माला फेर्दै प्रार्थना गर्ने भक्तजनलाई ध्यान दिनुहोस्। देवताको सेतो अनुहार हरेक वर्ष फेरि रङ्गाइन्छ। जाडोमा हुने स्नान समारोहमा मूर्तिलाई पानी, दूध, घिउ र मधुले नुहाइन्छ, र जीवित देवी कुमारी उपस्थित हुन्छिन्। हरेक वसन्तमा, चैत्र महिनामा, देवता अग्लो रथमा पाँच दिनसम्म पुरानो काठमाडौँमा घुम्छन्, असन, हनुमान ढोका र लगनबाट भीडले तान्दै। यहाँको दैनिक पूजा बिहान करिब चार बजे सुरु हुन्छ।",
+  "legend_np": "राजा यक्ष मल्लको समयमा मृत्युका देवता यम स्वयम्भूमा पूजा गर्न आएका थिए, र राजा तथा उनका तान्त्रिक गुरुले अमरत्व मागेर उनलाई बन्दी बनाए। यमले अवलोकितेश्वरसँग सहायता मागे। सेतो देवता पानीबाट उठे र राजालाई आफ्ना लागि मन्दिर बनाउन र हरेक वर्ष रथमा तान्न भने, र मानिसहरूलाई सुख र दीर्घायुको आशीर्वाद दिए।",
+  "facts_np": [
+   "देवतालाई बौद्धहरूले अवलोकितेश्वरका रूपमा पूज्छन् र हिन्दूहरूले श्रद्धा गर्छन्।",
+   "उनको रथयात्रा चैत्र महिनामा पाँच दिन चल्छ।",
+   "कुमारी देवताको वार्षिक स्नान अनुष्ठानमा उपस्थित हुन्छिन्।",
+   "आँगनको मूल नाम कनक चैत्य महाविहार थियो, कनकमुनि बुद्धको चैत्यपछि।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "केल टोलनजिकको चोकमा सेतो अनुहार भएका करुणामय देवता बस्छन् र हरेक वसन्तमा अग्लो रथमा सवार हुन्छन्।",
+   "बौद्ध र हिन्दू दुवैले मेरो चोक साझा गर्छन्; वर्षमा एक पटक मलाई दूध, घिउ र मौले नुहाइन्छ।"
+  ]
  },
  {
   "slug": "rani-pokhari",
@@ -3195,7 +4027,15 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "Rani means queen and pokhari means pond."
+    "explanation": "Rani means queen and pokhari means pond.",
+    "q_np": "‘रानी पोखरी’ को अर्थ के हो?",
+    "options_np": [
+     "राजाको दरबार",
+     "रानीको पोखरी",
+     "शाही बगैँचा",
+     "पवित्र नदी"
+    ],
+    "explanation_np": "रानी भनेको महारानी र पोखरी भनेको तलाउ।"
    },
    {
     "q": "Who built Rani Pokhari?",
@@ -3207,7 +4047,15 @@
     ],
     "answer_index": 0,
     "difficulty": 2,
-    "explanation": "King Pratap Malla built it in 1670."
+    "explanation": "King Pratap Malla built it in 1670.",
+    "q_np": "रानी पोखरी कसले बनाए?",
+    "options_np": [
+     "प्रताप मल्ल",
+     "भीमसेन थापा",
+     "जङ्गबहादुर राणा",
+     "महेन्द्र मल्ल"
+    ],
+    "explanation_np": "राजा प्रताप मल्लले 1670 मा यसलाई बनाए।"
    },
    {
     "q": "Why was the pond built?",
@@ -3219,7 +4067,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "It consoled the queen after their son was killed by an elephant."
+    "explanation": "It consoled the queen after their son was killed by an elephant.",
+    "q_np": "यो पोखरी किन बनाइएको थियो?",
+    "options_np": [
+     "सेनाका लागि खानेपानी जम्मा गर्न",
+     "छोरा गुमाएकी रानीलाई सान्त्वना दिन",
+     "युद्धको विजयको उत्सव मनाउन",
+     "शाही डुङ्गा सयरका लागि"
+    ],
+    "explanation_np": "हात्तीले छोरालाई मारेपछि रानीलाई सान्त्वना दिन यो बनाइएको थियो।"
    },
    {
     "q": "On which day does the central temple open to the public?",
@@ -3231,7 +4087,15 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "The temple opens only on Bhai Tika, the last day of Tihar."
+    "explanation": "The temple opens only on Bhai Tika, the last day of Tihar.",
+    "q_np": "केन्द्रमा रहेको मन्दिर कुन दिन सर्वसाधारणका लागि खुल्छ?",
+    "options_np": [
+     "तिहारको भाइटीका",
+     "बुद्ध जयन्ती",
+     "नयाँ वर्ष",
+     "हरेक सोमबार"
+    ],
+    "explanation_np": "मन्दिर तिहारको अन्तिम दिन भाइटीकाका दिन मात्र खुल्छ।"
    },
    {
     "q": "Which statue stands on the pond's southern bank?",
@@ -3243,7 +4107,15 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "The elephant bears images of Pratap Malla and his two sons."
+    "explanation": "The elephant bears images of Pratap Malla and his two sons.",
+    "q_np": "पोखरीको दक्षिणी किनारमा कुन मूर्ति उभिएको छ?",
+    "options_np": [
+     "राजा र उनका छोराहरूसहितको ढुङ्गाको हात्ती",
+     "सुनको गरुड",
+     "काँसाको सिंह",
+     "विशाल हनुमान"
+    ],
+    "explanation_np": "हात्तीमाथि प्रताप मल्ल र उनका दुई छोराका मूर्ति छन्।"
    }
   ],
   "clues": [
@@ -3263,13 +4135,15 @@
     "name": "Bhai Tika",
     "name_np": "भाइटीका",
     "month": "Kartik",
-    "note": "Last day of Tihar, the only day the central temple is opened to the public"
+    "note": "Last day of Tihar, the only day the central temple is opened to the public",
+    "note_np": "तिहारको अन्तिम दिन, केन्द्रको मन्दिर सर्वसाधारणका लागि खुल्ने एक मात्र दिन"
    },
    {
     "name": "Chhath",
     "name_np": "छठ",
     "month": "Kartik",
-    "note": "Devotees offer prayers to the setting and rising sun from the water’s edge"
+    "note": "Devotees offer prayers to the setting and rising sun from the water’s edge",
+    "note_np": "भक्तजनहरू पानीको किनारबाट अस्ताउँदो र उदाउँदो सूर्यलाई अर्घ्य दिन्छन्"
    }
   ],
   "gallery": [
@@ -3349,7 +4223,21 @@
     "garden-lawn"
    ],
    "notes": "Big rectangular tank with a small white temple in the middle joined to the bank by a causeway; stone elephant on the south bank"
-  }
+  },
+  "short_np": "शोकको राजकीय पोखरी, छोरा गुमाएकी रानीलाई सान्त्वना दिन सन् 1670 मा बनाइएको।",
+  "story_np": "आधुनिक काठमाडौँको व्यस्त मुटुमा पानीको शान्त वर्गाकार छ: रानी पोखरी, रानीको पोखरी। यसलाई सन् 1670 मा राजा प्रताप मल्लले आफ्नी रानीलाई सान्त्वना दिन बनाएका थिए, जो छोरा हात्तीको कुल्चिनाले मरेपछि शोकले विह्वल थिइन्। पोखरीलाई पवित्र बनाउन राजाले गोसाइँकुण्ड, मुक्तिनाथ, बदरीनाथ र केदारनाथ लगायत नेपाल र भारतका पवित्र स्थानबाट पानी ल्याउन लगाएका थिए। पोखरी करिब 180 गुणा 140 मिटर छ। बीचमा, पुलबाट पुगिने, शिखर शैलीमा पुनर्निर्माण गरिएको शिव मन्दिर उभिएको छ। दक्षिणी किनारमा प्रताप मल्ल र उनका दुई छोराका मूर्ति बोकेको ढुङ्गाको हात्ती खोज्नुहोस्। सन् 2015 को भूकम्पले यस स्थलमा क्षति पुर्‍यायो, र कंक्रिट प्रयोग गर्ने प्रस्ताव आएपछि यसको पुनर्स्थापना विवादित बन्यो। विरोधपछि यसलाई परम्परागत शैलीमा पुनर्निर्माण गरियो, सन् 2020 मा सकियो, र सन् 2025 मा सर्वसाधारणका लागि खोलियो। केन्द्रीय मन्दिर वर्षमा एक पटक मात्र, तिहारको भाइटीकामा खुल्छ।",
+  "legend_np": null,
+  "facts_np": [
+   "राजा प्रताप मल्लले शोकमा डुबेकी रानीका लागि यसलाई सन् 1670 मा बनाए।",
+   "यसलाई पवित्र बनाउन गोसाइँकुण्ड र मुक्तिनाथजस्ता पवित्र स्थानका पानी हालिएको थियो।",
+   "दक्षिणी किनारको ढुङ्गाको हात्तीले प्रताप मल्ल र उनका दुई छोराका मूर्ति बोकेको छ।",
+   "केन्द्रीय मन्दिर तिहारको भाइटीकामा मात्र सर्वसाधारणका लागि खुल्छ।"
+  ],
+  "quake_np": "सन् 2015 मा पोखरी र यसको केन्द्रीय मन्दिरमा क्षति पुग्यो; विवादित पुनर्स्थापनापछि परम्परागत पुनर्निर्माण सन् 2020 को अक्टोबरमा सकियो।",
+  "clues_np": [
+   "एक राजाले एक आमाको शोक हल्का पार्न पवित्र तालहरूको पानीले मलाई भरे।",
+   "मेरो टापुको मन्दिरमा बाटोबाट पुगिन्छ र त्यो भाइटीकाका दिन मात्र खुल्छ।"
+  ]
  },
  {
   "slug": "dharahara",
@@ -3411,7 +4299,15 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "Mukhtiyar Bhimsen Thapa built it under Queen Lalit Tripurasundari's commission."
+    "explanation": "Mukhtiyar Bhimsen Thapa built it under Queen Lalit Tripurasundari's commission.",
+    "q_np": "1832 मा मूल धरहरा कसले बनाए?",
+    "options_np": [
+     "भीमसेन थापा",
+     "जंगबहादुर राणा",
+     "पृथ्वीनारायण शाह",
+     "प्रताप मल्ल"
+    ],
+    "explanation_np": "मुख्तियार भीमसेन थापाले रानी ललित त्रिपुरासुन्दरीको आदेशमा यो बनाए।"
    },
    {
     "q": "What was the tower's original military use?",
@@ -3423,7 +4319,15 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "Bugles were blown from the top to call soldiers together."
+    "explanation": "Bugles were blown from the top to call soldiers together.",
+    "q_np": "धरहराको मूल सैन्य प्रयोग के थियो?",
+    "options_np": [
+     "बारुद भण्डारण",
+     "सैनिकलाई बोलाउन बिगुल बजाइने गस्ती स्तम्भ",
+     "कारागार",
+     "शाही निवास"
+    ],
+    "explanation_np": "सैनिकहरूलाई जम्मा गर्न माथिबाट बिगुल बजाइन्थ्यो।"
    },
    {
     "q": "On which date did the rebuilt Dharahara fully open to the public?",
@@ -3435,7 +4339,15 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "It fully opened on Constitution Day, 19 September 2024."
+    "explanation": "It fully opened on Constitution Day, 19 September 2024.",
+    "q_np": "पुनर्निर्मित धरहरा कुन मितिमा सर्वसाधारणका लागि पूर्ण रूपमा खुल्यो?",
+    "options_np": [
+     "25 अप्रिल 2015",
+     "24 अप्रिल 2021",
+     "19 सेप्टेम्बर 2024",
+     "1 जनवरी 2020"
+    ],
+    "explanation_np": "यो संविधान दिवस, 19 सेप्टेम्बर 2024 मा पूर्ण रूपमा खुल्यो।"
    },
    {
     "q": "Which Rana prime minister restored the tower after the 1934 earthquake?",
@@ -3447,7 +4359,15 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "Bricks from the old tower even bore Juddha Shumsher's name."
+    "explanation": "Bricks from the old tower even bore Juddha Shumsher's name.",
+    "q_np": "1934 को भूकम्पपछि कुन राणा प्रधानमन्त्रीले धरहरा पुनर्निर्माण गरे?",
+    "options_np": [
+     "चन्द्र शमशेर",
+     "जुद्ध शमशेर",
+     "मोहन शमशेर",
+     "वीर शमशेर"
+    ],
+    "explanation_np": "पुरानो धरहराका इँटाहरूमा जुद्ध शमशेरको नाम समेत लेखिएको थियो।"
    },
    {
     "q": "Which architectural styles inspired the original Dharahara?",
@@ -3459,7 +4379,15 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "It was designed in Mughal and European styles."
+    "explanation": "It was designed in Mughal and European styles.",
+    "q_np": "मूल धरहरालाई कुन वास्तुकला शैलीहरूले प्रेरित गरेका थिए?",
+    "options_np": [
+     "नेवार र तिब्बती",
+     "मुगल र युरोपेली",
+     "चिनियाँ र जापानी",
+     "गोथिक र बाइजेन्टाइन"
+    ],
+    "explanation_np": "यो मुगल र युरोपेली शैलीमा डिजाइन गरिएको थियो।"
    }
   ],
   "clues": [
@@ -3546,6 +4474,20 @@
     "garden-lawn"
    ],
    "notes": "Tall white minaret-style tower with a balcony near the top and a bronze mast on the roof, rebuilt next to the old stump"
-  }
+  },
+  "short_np": "भीमसेन थापाको दृष्टिस्तम्भ, भूकम्पमा दुई पटक ढलेको र लचकताको प्रतीकका रूपमा पुनर्निर्माण गरिएको।",
+  "story_np": "सुन्धाराको माथि उठेको सेतो मिनार जस्तो स्तम्भमा हेर्नुहोस्। यो धरहरा हो, सन् १८३२ मा नेपालका शक्तिशाली मुख्तियार भीमसेन थापाले रानी ललित त्रिपुरासुन्दरीको आदेशमा पहिलो पटक बनाएका थिए। यसको शैलीले मुगल र युरोपेली वास्तुकलाबाट प्रेरणा लिएको छ। यो सैन्य दृष्टिस्तम्भका रूपमा काम गर्थ्यो: महत्त्वपूर्ण केही हुँदा सिपाहीहरूलाई जम्मा गर्न माथिबाट बिगुल फुकिन्थ्यो। सन् १९३४ को महाभूकम्पले यसका नौ तलामध्ये दुई तला मात्र बाँकी राख्यो, र राणा प्रधानमन्त्री जुद्ध शमशेरले यसलाई पुनर्स्थापना गराए। त्यसपछि, २५ अप्रिल २०१५ को दिउँसो, स्तम्भ ढल्यो, केवल आधार मात्र बाँकी राखेर; भग्नावशेषबाट १८० शव फेला पारियो। नेपालले पुनर्निर्माण गर्ने रोज्यो। निर्माण सन् २०१८ मा सुरु भयो, भूकम्प-प्रतिरोधी नयाँ स्तम्भ २४ अप्रिल २०२१ मा उद्घाटन गरियो, र संविधान दिवस, १९ सेप्टेम्बर २०२४ मा यो जनताका लागि पूर्ण रूपमा खुल्यो। यसको फेदनजिक, गिलासको घेराले पुरानो स्तम्भका अवशेषहरू सुरक्षित राखेको छ।",
+  "legend_np": null,
+  "facts_np": [
+   "भीमसेन थापाले रानी ललित त्रिपुरासुन्दरीका लागि सन् १८३२ मा मूल स्तम्भ बनाएका थिए।",
+   "राष्ट्रिय महत्त्वका घटना हुँदा सिपाहीहरूलाई बोलाउन माथिबाट बिगुल फुकिन्थ्यो।",
+   "सन् २०१५ को भूकम्पले स्तम्भ ढाल्यो; यसको भग्नावशेषबाट १८० शव निकालिए।",
+   "पुनर्निर्मित स्तम्भ संविधान दिवस, १९ सेप्टेम्बर २०२४ मा जनताका लागि पूर्ण रूपमा खुल्यो।"
+  ],
+  "quake_np": "स्तम्भ २५ अप्रिल २०१५ मा ढल्यो र केवल आधार बाँकी रह्यो; सन् २०१८ देखि भूकम्प-प्रतिरोधी नयाँ स्तम्भ बनाइयो र सेप्टेम्बर २०२४ मा पूर्ण रूपमा खुल्यो।",
+  "clues_np": [
+   "म 1934 मा र फेरि 2015 मा ढलेको सेतो मीनार हुँ, र अझै सुन्धारामाथि उभिएको छु।",
+   "एकपटक मेरो टुप्पाबाट बिगुल बजेर नजिकैको खुला मैदानमा सैनिकहरू जम्मा हुन्थे।"
+  ]
  }
 ]

@@ -23,8 +23,16 @@ export function PrefsProvider({ children }) {
 
 export const usePrefs = () => useContext(PrefCtx);
 
-/** Bilingual label helper: shows Nepali first when the Nepali toggle is on. */
+export const PROV_NP = { Koshi: 'कोशी', Madhesh: 'मधेश', Bagmati: 'बागमती', Gandaki: 'गण्डकी', Lumbini: 'लुम्बिनी', Karnali: 'कर्णाली', Sudurpashchim: 'सुदूरपश्चिम' };
+const DIGITS = '०१२३४५६७८९';
+
+/** Bilingual helper. t(en, np) picks the text for the current language; t.nepali, t.n(number) (Devanagari digits)
+ *  and t.prov(province) help with generated sentences. */
 export function useT() {
   const { nepali } = usePrefs();
-  return (en, np) => (nepali && np ? np : en);
+  const t = (en, np) => (nepali && np ? np : en);
+  t.nepali = nepali;
+  t.n = (x) => (nepali ? String(x).replace(/\d/g, (d) => DIGITS[d]) : x);
+  t.prov = (p) => (nepali ? PROV_NP[p] || p : p);
+  return t;
 }
