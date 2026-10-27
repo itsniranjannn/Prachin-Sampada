@@ -3,7 +3,7 @@
 import { Component, createContext, Suspense, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, ContactShadows, useTexture, Environment, Lightformer, Bounds, Sparkles } from '@react-three/drei';
+import { OrbitControls, ContactShadows, useTexture, Environment, Lightformer, Bounds, useBounds, Sparkles } from '@react-three/drei';
 
 const TEX = {
   brick: '/textures/red_brick_03.jpg', herring: '/textures/herringbone_brick.jpg', roof: '/textures/clay_roof_tiles_02.jpg',
@@ -11,7 +11,7 @@ const TEX = {
   stone: '/textures/stone_tiles.jpg', grass: '/textures/sparse_grass.jpg', rock: '/textures/rock_wall_10.jpg', ochre: '/textures/yellow_plaster.jpg',
 };
 const FLAG = ['#2f6db5', '#f2efe6', '#c0392b', '#2e8b57', '#e2b33c'];
-const GOLD = { color: '#d6a53a', metalness: 0.9, roughness: 0.28 };
+const GOLD = { color: '#f1c24a', metalness: 0.55, roughness: 0.3, emissive: '#6b4a08', emissiveIntensity: 0.35 };
 const COPPER = { color: '#b8693a', metalness: 0.8, roughness: 0.35 };
 const DARKWOOD = '#3a2416';
 const STONE = '#e2d8c4';
@@ -33,7 +33,7 @@ function MatProvider({ children }) {
       return cache.get(id);
     };
     const plain = (color, opts = {}) => mat(null, 1, 1, { color, ...opts });
-    return { mat, plain, gold: plain(GOLD.color, GOLD), copper: plain(COPPER.color, COPPER), dark: plain(DARKWOOD, { roughness: 0.8 }), stone: mat('granite', 1, 1, { color: STONE }) };
+    return { mat, plain, gold: plain(GOLD.color, GOLD), copper: plain(COPPER.color, COPPER), dark: plain(DARKWOOD, { roughness: 0.8 }), stone: mat('stone', 2, 2, { color: '#ffffff', roughness: 0.95 }) };
   }, [t]);
   return <MatCtx.Provider value={api}>{children}</MatCtx.Provider>;
 }
@@ -1004,7 +1004,7 @@ function Scene({ spec, dusk, spin, fit = true }) {
   return (
     <>
       <color attach="background" args={[bg]} />
-      <fog attach="fog" args={[bg, 26, 85]} />
+      <fog attach="fog" args={[bg, 55, 190]} />
       <hemisphereLight args={[dusk ? '#8a74c8' : '#fff3e0', dusk ? '#3a2030' : '#8a6a50', dusk ? 1.1 : 0.8]} />
       <ambientLight intensity={dusk ? 0.35 : 0.15} color={dusk ? '#ffd2a8' : '#ffffff'} />
       <directionalLight position={dusk ? [-8, 6, 6] : [8, 12, 6]} intensity={dusk ? 1.8 : 3} color={dusk ? '#ffad7a' : '#fff1d6'} castShadow shadow-mapSize={[2048, 2048]} shadow-camera-left={-14} shadow-camera-right={14} shadow-camera-top={14} shadow-camera-bottom={-14} shadow-bias={-0.0004} />
@@ -1015,7 +1015,7 @@ function Scene({ spec, dusk, spin, fit = true }) {
         <Lightformer form="ring" intensity={1} color="#ffd9a0" position={[5, 2, -3]} scale={2} />
       </Environment>
       <Spin on={spin}>
-        {fit ? <Bounds fit clip observe margin={1.25}>{inner}</Bounds> : inner}
+        {fit ? (L ? <Bounds margin={1.2}><FrameFit>{inner}</FrameFit></Bounds> : <Bounds fit clip observe margin={1.25}>{inner}</Bounds>) : inner}
         {L ? <L.Env /> : <Surroundings list={spec.surroundings} radius={radius} dusk={dusk} />}
       </Spin>
       <ContactShadows position={[0, 0.02, 0]} opacity={0.4} scale={radius * 2.4} blur={2.4} far={8} />
@@ -1044,7 +1044,7 @@ export function SiteViewer({ spec, type, slug, height = 440, initialDusk = false
   const qs = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : new URLSearchParams();
   const cam = (qs.get('cam') || '9,6.5,12').split(',').map(Number);
   const s = { ...(spec || DEFAULT_SPECS[type] || DEFAULT_SPECS.pagoda), slug };
-  const [dusk, setDusk] = useState(initialDusk || qs.get('dusk') === '1');
+  const [dusk, setDusk] = useState(qs.has('dusk') ? qs.get('dusk') === '1' : initialDusk);
   const [spin, setSpin] = useState(qs.get('still') !== '1');
   const [broke, setBroke] = useState(false);
   const ready = useLandmarks();
@@ -1141,7 +1141,23 @@ const silverMat = (M) => M.plain('#d4d6da', { metalness: 0.9, roughness: 0.28 })
 const whiteMat = (M) => M.plain('#f7f4ee', { roughness: 0.82 });
 const brickMat = (M, rx = 2, ry = 1) => wallMat(M, 'red-brick', rx, ry);
 /** Invisible box that tells the camera how much of the scene to frame. */
-const Frame = ({ s, p = [0, s[1] / 2, 0] }) => <mesh position={p} visible={false}><boxGeometry args={s} /></mesh>;
+const Frame = ({ s, p = [0, s[1] / 2, 0] }) => <mesh position={p} visible={false} userData={{ isFrame: true }}><boxGeometry args={s} /></mesh>;
+/** Fits the camera to the <Frame> boxes a landmark declares (not to ground slabs or scenery inside Main). */
+function FrameFit({ children }) {
+  const g = useRef();
+  const api = useBounds();
+  useEffect(() => {
+    const t = setTimeout(() => {
+      if (!g.current) return;
+      g.current.updateWorldMatrix(true, true);
+      let box = null;
+      g.current.traverse((o) => { if (o.userData?.isFrame) { const b = new THREE.Box3().setFromObject(o); box = box ? box.union(b) : b; } });
+      api.refresh(box || g.current).clip().fit();
+    }, 80);
+    return () => clearTimeout(t);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  return <group ref={g}>{children}</group>;
+}
 const Water = ({ w, d, p, r = 0, color = '#5b7f80' }) => (
   <mesh rotation={[-Math.PI / 2, 0, r]} position={p} receiveShadow><planeGeometry args={[w, d]} /><meshStandardMaterial color={color} metalness={0.35} roughness={0.12} /></mesh>
 );
@@ -1722,7 +1738,7 @@ const LANDMARKS = {
    this kit and returns { 'site-slug': { Main, Env } }. They are loaded lazily and one at a time, so a broken file only
    loses its own sites. */
 const KIT = {
-  useM, wallMat, roofMat, lighten, THREE,
+  useM, wallMat, roofMat, lighten, THREE, useMemo, useRef, useEffect, useState,
   Box, Cyl, Ball, Roof, Gajur, Lion, Elephant, Wrestler, Griffin, Goddess, GUARDS, Garuda, PillarStatue, BellPavilion, Nandi,
   Lingam, Trident, Chaitya, Tree, SacredTree, Diyo, PrayerFlags, PrayerWheels, eyesTexture, Plinth, PagodaBody, StupaBody,
   spireGeometry, Spire, ShikharaBody, PalaceBody, DomeTemple, Gumba, Pond, Gate, Fort, Cave, Ruins, AshokaPillar, House,
