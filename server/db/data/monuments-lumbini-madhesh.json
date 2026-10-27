@@ -1,0 +1,3540 @@
+[
+ {
+  "slug": "maya-devi-temple-lumbini",
+  "name": "Maya Devi Temple",
+  "name_np": "मायादेवी मन्दिर",
+  "alt_names": [
+   "Mayadevi Temple",
+   "Birthplace of the Buddha"
+  ],
+  "city": "Lumbini",
+  "zone": null,
+  "province": "Lumbini",
+  "district": "Rupandehi",
+  "lat": 27.469609,
+  "lng": 83.275831,
+  "coord_source": "OpenStreetMap way 343151593 (temple building centroid); Wikidata Q15238480 gives 27.469554, 83.275788",
+  "type": "archaeological-site",
+  "religion": "Buddhist",
+  "deity": "Maya Devi (mother of the Buddha); nativity of Siddhartha Gautama",
+  "built_year": 2003,
+  "built_century_text": "Sacred space first marked in the 6th century BCE (timber shrine found 2013); brick temple of Ashoka's time c. 249 BCE; rebuilt 1939 under Kaiser Shumsher; present protective temple built 2003 by the Lumbini Development Trust",
+  "dynasty": "Maurya (original brick shrine)",
+  "architecture": "Plain white rectangular protective building raised over the excavated brick foundations of earlier shrines. Inside, a raised walkway circles the ruins down to the marker stone of the Buddha's birth and the worn stone nativity sculpture.",
+  "unesco": true,
+  "short": "The temple over the marker stone that Buddhists venerate as the exact spot where Siddhartha Gautama, the Buddha, was born.",
+  "story": "Take off your shoes and step inside quietly. Under this plain white roof lies one of the most sacred spots on earth for Buddhists. Tradition says Queen Maya Devi was travelling to her parents' home in Devdaha when she stopped in the Lumbini garden, held the branch of a sal tree, and gave birth to Prince Siddhartha, who became the Buddha. Walk the raised path and look down at the old brick foundations. Emperor Ashoka's builders laid bricks here around 249 BCE, and in 2013 archaeologists working under this floor found traces of a timber shrine from the sixth century BCE, among the earliest Buddhist shrines known in South Asia. Follow the line of pilgrims to a small stone under glass: the marker stone of the birth. Nearby is the worn nativity sculpture, showing Maya holding the branch with her sister Prajapati at her side. Outside, the Puskarini pond is where Maya is said to have bathed before the birth.",
+  "legend": "Before the birth, Queen Maya dreamed that a white elephant carrying a lotus entered her right side, a sign interpreted as the coming of a great ruler or a Buddha. She gave birth standing, holding a sal branch in the Lumbini garden, and died seven days later.",
+  "facts": [
+   "The temple houses the marker stone and the nativity sculpture linked to the Buddha's birth.",
+   "Excavations by UNESCO, Durham University, Nepal's Department of Archaeology and the Lumbini Development Trust began in 2010.",
+   "In 2013 the team reported a timber shrine dated to the 6th century BCE beneath the brick temple.",
+   "The present temple building was completed in 2003 by the Lumbini Development Trust.",
+   "Lumbini was inscribed as a UNESCO World Heritage Site in 1997."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 700,
+   "entry_fee_nepali_npr": 20,
+   "visit_minutes": 45,
+   "hours_note": "No official opening hours are published by the Lumbini Development Trust; guidebooks disagree. Shoes are removed before entering.",
+   "fee_note": "Lumbini Development Trust conservation fee per day: Nepali NPR 20, Indian NPR 80, SAARC and Myanmar NPR 700, other nationals NPR 1,000 (raised in 2026). Monks, nuns, persons with disabilities and residents of the three nearby districts are exempt. Still camera USD 3 for foreigners."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Buddha Jayanti",
+    "name_np": "बुद्ध जयन्ती",
+    "month": "Baisakh",
+    "note": "Full-moon day of Baisakh marking the Buddha's birth; pilgrims gather in the Sacred Garden around the temple."
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/1_Lumbini%2C_Maya_Devi_Temple.jpg/1280px-1_Lumbini%2C_Maya_Devi_Temple.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:1_Lumbini,_Maya_Devi_Temple.jpg",
+   "author": "Ricky Partel",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "palace",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": 12,
+   "footprint_m": [
+    40,
+    30
+   ],
+   "walls": "white-plaster",
+   "roof": "flat",
+   "colors": [
+    "#F2F0EA",
+    "#B5643C",
+    "#4F7A3A"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "prayer-flags",
+    "sacred-tree",
+    "stone-pillar",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "garden-lawn",
+    "pond",
+    "sacred-grove",
+    "plains-fields"
+   ],
+   "notes": "Low, boxy white building with a small raised upper block and pinnacle; red-brick ruins, the Ashoka pillar and a pond with a prayer-flag-hung bodhi tree beside it. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "Whose birth does the Maya Devi Temple commemorate?",
+    "options": [
+     "Emperor Ashoka",
+     "Siddhartha Gautama, the Buddha",
+     "King Janak",
+     "Guru Rinpoche"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Buddhists venerate the marker stone inside as the birthplace of Siddhartha Gautama."
+   },
+   {
+    "q": "In which district is Lumbini?",
+    "options": [
+     "Kapilvastu",
+     "Palpa",
+     "Rupandehi",
+     "Nawalparasi"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Lumbini lies in Rupandehi District of Lumbini Province."
+   },
+   {
+    "q": "In what year was Lumbini inscribed as a UNESCO World Heritage Site?",
+    "options": [
+     "1979",
+     "1997",
+     "2003",
+     "2013"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "UNESCO inscribed Lumbini in 1997."
+   },
+   {
+    "q": "What did archaeologists report finding beneath the temple in 2013?",
+    "options": [
+     "A gold reliquary",
+     "A 6th-century BCE timber shrine",
+     "A Mughal coin hoard",
+     "A buried Ashoka pillar"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The excavation found postholes of a timber shrine dated to the 6th century BCE."
+   },
+   {
+    "q": "Which tree is Maya said to have held while giving birth?",
+    "options": [
+     "Peepal",
+     "Banyan",
+     "Sal",
+     "Mango"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The nativity sculpture shows Maya holding a branch of a sal tree."
+   }
+  ],
+  "clues": [
+   "Under a plain white roof, pilgrims file past a small stone said to mark where a prince was born.",
+   "A queen on her way to her parents' home stopped in a garden here, and the world gained a teacher."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Maya_Devi_Temple,_Lumbini",
+   "https://en.wikipedia.org/wiki/Lumbini",
+   "https://www.wikidata.org/wiki/Q15238480",
+   "https://www.openstreetmap.org/way/343151593",
+   "https://lumbinidevtrust.gov.np/page/2_669b8de37d303",
+   "https://ekantipur.com/lumbini-pradesh/2026/05/17/en/arbitrary-increase-in-mayadevi-temple-entry-fee-locals-protest-against-high-entry-fee-42-00.html",
+   "https://www.historyhit.com/locations/maya-devi-temple/",
+   "https://commons.wikimedia.org/wiki/Category:Maya_Devi_Temple,_Lumbini"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Evening_view_of_Maya_Devi_Temple%2C_Lumbini.jpg/1280px-Evening_view_of_Maya_Devi_Temple%2C_Lumbini.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Evening_view_of_Maya_Devi_Temple,_Lumbini.jpg",
+    "author": "Arjun Bhadra Khanal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The white temple in evening light"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Marker_stone_of_exact_birth_place_of_Buddha.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Marker_stone_of_exact_birth_place_of_Buddha.jpg",
+    "author": "Jonas Maria E. at en.wikipedia",
+    "license": "Public domain",
+    "license_url": null,
+    "caption": "The marker stone of the Buddha's birth inside the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Exact_Birth_Place_of_the_Buddha_lumbini_IMG_20160201_151524.jpg/1280px-Exact_Birth_Place_of_the_Buddha_lumbini_IMG_20160201_151524.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Exact_Birth_Place_of_the_Buddha_lumbini_IMG_20160201_151524.jpg",
+    "author": "Ricky Partel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Pilgrims at the birth spot inside the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ancient_Wall_outside_Maya_Devi_Temple.jpg/1280px-Ancient_Wall_outside_Maya_Devi_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ancient_Wall_outside_Maya_Devi_Temple.jpg",
+    "author": "Santosh Khatiwada",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Ancient brick foundations outside the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Maya_Devi_Temple_and_Ashoka_Pillar%2C_Lumbini%2C_Rupandehi%2C_Nepal.jpg/1280px-Maya_Devi_Temple_and_Ashoka_Pillar%2C_Lumbini%2C_Rupandehi%2C_Nepal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Maya_Devi_Temple_and_Ashoka_Pillar,_Lumbini,_Rupandehi,_Nepal.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple with the Ashoka pillar in the Sacred Garden"
+   }
+  ]
+ },
+ {
+  "slug": "ashoka-pillar-lumbini",
+  "name": "Ashoka Pillar, Lumbini",
+  "name_np": "लुम्बिनीको अशोक स्तम्भ",
+  "alt_names": [
+   "Lumbini pillar inscription",
+   "Rummindei pillar",
+   "Paderia inscription",
+   "Ashok Stambha"
+  ],
+  "city": "Lumbini",
+  "zone": null,
+  "province": "Lumbini",
+  "district": "Rupandehi",
+  "lat": 27.469681,
+  "lng": 83.275668,
+  "coord_source": "OpenStreetMap node 4285950089; Wikidata Q85782651 gives 27.469650, 83.275594",
+  "type": "pillar",
+  "religion": "Buddhist",
+  "deity": null,
+  "built_year": -249,
+  "built_century_text": "3rd century BCE (traditionally c. 249 BCE), set up by the Mauryan emperor Ashoka on his visit to the Buddha's birthplace; inscription found in December 1896",
+  "dynasty": "Maurya",
+  "architecture": "Polished sandstone monolith standing inside a low railing beside the Maya Devi Temple. The lower part, buried for centuries, carries a five-line Brahmi inscription in Prakrit; a later inscription of King Ripu Malla is cut higher up. The horse capital described by Xuanzang is lost.",
+  "unesco": true,
+  "short": "Emperor Ashoka's stone pillar whose Brahmi inscription declares that the Buddha Shakyamuni was born here.",
+  "story": "Stand by the railing and look at this smooth grey column. Around 249 BCE the Mauryan emperor Ashoka came here on pilgrimage, twenty years after his coronation, and had this pillar raised. For centuries it lay half buried and forgotten, until December 1896, when a Nepali team led by General Khadga Shumsher Rana dug around its base, with the archaeologist Alois Führer close by. Low down they found five lines of Brahmi script that say, in short: the king came himself and worshipped, because here the Buddha Shakyamuni was born. He also made the village of Lumbini free of taxes, paying only an eighth share. Those words turned a forgotten mound into the recognised birthplace of the Buddha. Look higher and you may spot a later line, Om mani padme hum, carved for King Ripu Malla in the fourteenth century. The Chinese pilgrim Xuanzang saw a horse on top; today the crown is gone.",
+  "legend": null,
+  "facts": [
+   "The Brahmi inscription was uncovered in December 1896 by General Khadga Shumsher Rana's team, with Alois Anton Führer.",
+   "It records that Ashoka visited twenty years after his anointing because the Buddha Shakyamuni was born here.",
+   "The inscription says Ashoka made Lumbini village tax-free, paying only an eighth share of produce.",
+   "A later inscription on the pillar reads 'Om mani padme hum' with the name of King Ripu Malla, dated Saka 1234.",
+   "Ashoka scholar Harry Falk calls the inscription's authenticity 'beyond dispute'."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 700,
+   "entry_fee_nepali_npr": 20,
+   "visit_minutes": 20,
+   "hours_note": "Stands in the Sacred Garden next to the Maya Devi Temple; no official opening hours published.",
+   "fee_note": "Covered by the Lumbini Development Trust conservation fee for the Sacred Garden and Maya Devi Temple (Nepali NPR 20, Indian NPR 80, SAARC and Myanmar NPR 700, others NPR 1,000)."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Buddha Jayanti",
+    "name_np": "बुद्ध जयन्ती",
+    "month": "Baisakh",
+    "note": "Baisakh full-moon celebration of the Buddha's birth in the Sacred Garden around the pillar."
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/BRP_Lumbini_Ashoka_pillar.jpg/1280px-BRP_Lumbini_Ashoka_pillar.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:BRP_Lumbini_Ashoka_pillar.jpg",
+   "author": "Bibek Raj Pandeya",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "pillar",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 6,
+   "footprint_m": [
+    6,
+    6
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#8C8478",
+    "#B5643C",
+    "#F2F0EA"
+   ],
+   "features": [
+    "stone-pillar",
+    "fence-railing",
+    "prayer-flags"
+   ],
+   "surroundings": [
+    "garden-lawn",
+    "brick-courtyard",
+    "sacred-grove"
+   ],
+   "notes": "Plain round grey stone shaft with no capital, inside a small square railing, often hung with prayer scarves; the white Maya Devi Temple right behind. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "Which emperor set up the pillar at Lumbini?",
+    "options": [
+     "Kanishka",
+     "Ashoka",
+     "Chandragupta II",
+     "Harsha"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The Mauryan emperor Ashoka raised it during his pilgrimage in the 3rd century BCE."
+   },
+   {
+    "q": "In which script is the pillar's main inscription written?",
+    "options": [
+     "Devanagari",
+     "Kharosthi",
+     "Brahmi",
+     "Ranjana"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The five-line inscription is in Brahmi script in a Prakrit language."
+   },
+   {
+    "q": "In what year was the inscription uncovered?",
+    "options": [
+     "1856",
+     "1896",
+     "1934",
+     "1997"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "It was dug out in December 1896."
+   },
+   {
+    "q": "What tax privilege did Ashoka grant Lumbini village according to the inscription?",
+    "options": [
+     "Paying an eighth share only",
+     "Paying a half share",
+     "No privilege",
+     "Free salt"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "The village was made free of taxes and paying only an eighth share of produce."
+   },
+   {
+    "q": "Whose name appears in the later 'Om mani padme hum' inscription?",
+    "options": [
+     "Prithvi Narayan Shah",
+     "Ripu Malla",
+     "Jayasthiti Malla",
+     "Mukunda Sen"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "The medieval line wishes long victory to Prince Ripu Malla, dated Saka 1234."
+   }
+  ],
+  "clues": [
+   "Five lines of ancient script low on my stone shaft tell the world whose birthplace this is.",
+   "A Chinese pilgrim saw a horse on my head; lightning and time took it away."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lumbini_pillar_inscription",
+   "https://en.wikipedia.org/wiki/Lumbini",
+   "https://en.wikipedia.org/wiki/Pillars_of_Ashoka",
+   "https://www.wikidata.org/wiki/Q85782651",
+   "https://www.openstreetmap.org/node/4285950089",
+   "https://lumbinidevtrust.gov.np/page/2_669b8de37d303",
+   "https://commons.wikimedia.org/wiki/Category:Ashoka_pillar_(Lumbini)"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Lumbini_-_Pillar_Edict_in_Brahmi_Script%2C_Lumbini_%289241396121%29.jpg/1280px-Lumbini_-_Pillar_Edict_in_Brahmi_Script%2C_Lumbini_%289241396121%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Lumbini_-_Pillar_Edict_in_Brahmi_Script,_Lumbini_(9241396121).jpg",
+    "author": "Photo Dharma from Penang, Malaysia",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "The Brahmi inscription of Ashoka on the pillar"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Lumbini_pillar_Medieval_inscription.jpg/1280px-Lumbini_pillar_Medieval_inscription.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Lumbini_pillar_Medieval_inscription.jpg",
+    "author": "David Lowry",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "King Ripu Malla's later inscription higher on the shaft"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ashoka_Pillar%2C_Mayadevi_Temple%2C_Lumbini.jpg/1280px-Ashoka_Pillar%2C_Mayadevi_Temple%2C_Lumbini.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ashoka_Pillar,_Mayadevi_Temple,_Lumbini.jpg",
+    "author": "Rangan Datta Wiki",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The pillar inside its railing beside the Maya Devi Temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Lumbini_pillar_excavation_1896.jpg/1280px-Lumbini_pillar_excavation_1896.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Lumbini_pillar_excavation_1896.jpg",
+    "author": "Alois Anton Führer (26 November 1853, Limburg an der Lahn, G",
+    "license": "Public domain",
+    "license_url": null,
+    "caption": "The pillar during the 1896 excavation"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Ashoka_Pillar_Lumbini_Nepal_1956.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ashoka_Pillar_Lumbini_Nepal_1956.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "license_url": null,
+    "caption": "The pillar photographed in 1956"
+   }
+  ]
+ },
+ {
+  "slug": "tilaurakot",
+  "name": "Tilaurakot",
+  "name_np": "तिलौराकोट",
+  "alt_names": [
+   "Kapilavastu",
+   "Kapilvastu (I) Tilaurakot",
+   "Ancient Shakya capital"
+  ],
+  "city": "Taulihawa",
+  "zone": null,
+  "province": "Lumbini",
+  "district": "Kapilvastu",
+  "lat": 27.575915,
+  "lng": 83.054724,
+  "coord_source": "OpenStreetMap relation 19990298 (archaeological site centroid); Wikidata Q3417973 gives only 27.58, 83.08",
+  "type": "archaeological-site",
+  "religion": "Buddhist",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Settled from about 1000 BCE; first urban phase radiocarbon-dated to about 570 BCE and earthen wall to about 450 BCE; occupied into the Kushan period (to about the 3rd century CE)",
+  "dynasty": "Shakya",
+  "architecture": "Fortified city mound of about 500 x 400 m on the Banganga river, laid out on a grid. Excavated brick walls, an inner walled complex over 100 x 100 m with monumental gateways on the north and west, a tower on the south wall, a moat, ponds and stupa mounds survive among sal forest.",
+  "unesco": false,
+  "short": "Brick ruins of a walled ancient city widely identified with Kapilavastu, where Prince Siddhartha grew up.",
+  "story": "Walk through the gap in these old brick walls and imagine a busy town around you. Many scholars believe this was Kapilavastu, capital of the Shakya clan, where Prince Siddhartha lived for his first twenty-nine years before he left to seek enlightenment. Archaeologists have found that a planned town stood here by about 570 BCE, with streets running north to south and east to west, and an earlier wooden fence built against the floods of the Banganga river beside you. Find the east gate, its brick jambs still standing in the grass. Inside the walls was a second walled complex over a hundred metres across, perhaps the palace that the Chinese pilgrims Faxian and Xuanzang described. South of the citadel, digging in 2012 turned up nine tonnes of iron slag from ancient workshops. Listen to the birds in the sal trees and remember that a prince once walked these lanes.",
+  "legend": null,
+  "facts": [
+   "It lies on the bank of the Banganga river, about 27 km west of Lumbini.",
+   "P. C. Mukherji of the Archaeological Survey of India first excavated it in 1899.",
+   "The fortified citadel measures about 500 by 400 metres and follows a grid plan.",
+   "Excavations in 2012 uncovered 9 tonnes of iron slag dated to around 400 BCE.",
+   "Nepal placed it on the UNESCO World Heritage Tentative List in 1996."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 90,
+   "hours_note": "Open-air archaeological site near Taulihawa, the district headquarters; no official hours published. The Kapilvastu Museum is nearby.",
+   "fee_note": "No current official fee schedule found; one report says there is no entry-fee system at Tilaurakot. Check locally."
+  },
+  "earthquake_2015": null,
+  "festivals": [],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Suddhodana_Palace-east_gate.JPG/1280px-Suddhodana_Palace-east_gate.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Suddhodana_Palace-east_gate.JPG",
+   "author": "DiverDave",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "ruins",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": 3,
+   "footprint_m": [
+    500,
+    400
+   ],
+   "walls": "red-brick",
+   "roof": "none",
+   "colors": [
+    "#A0522D",
+    "#5E7D3A",
+    "#C9B48A"
+   ],
+   "features": [
+    "sacred-tree",
+    "shiva-lingam"
+   ],
+   "surroundings": [
+    "forest",
+    "river",
+    "plains-fields",
+    "pond"
+   ],
+   "notes": "Low red-brick wall stubs and a gateway gap in a rectangular walled enclosure under tall sal trees, with a moat and river at one side. Wall height estimated."
+  },
+  "quiz": [
+   {
+    "q": "Tilaurakot is widely identified with which ancient city?",
+    "options": [
+     "Pataliputra",
+     "Kapilavastu",
+     "Vaishali",
+     "Kushinagar"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Most scholars follow P. C. Mukherji in identifying Tilaurakot with Kapilavastu, the Shakya capital."
+   },
+   {
+    "q": "Which river flows beside Tilaurakot?",
+    "options": [
+     "Rapti",
+     "Banganga",
+     "Narayani",
+     "Kali Gandaki"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The site lies on the bank of the Banganga river."
+   },
+   {
+    "q": "According to tradition, how many years did Siddhartha live at Kapilavastu before leaving?",
+    "options": [
+     "7",
+     "16",
+     "29",
+     "35"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "He is said to have spent his first 29 years as a prince here."
+   },
+   {
+    "q": "Who carried out the first excavation at Tilaurakot in 1899?",
+    "options": [
+     "Alois Führer",
+     "P. C. Mukherji",
+     "Alexander Cunningham",
+     "Robin Coningham"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "P. C. Mukherji excavated the site for the Archaeological Survey of India in 1899."
+   },
+   {
+    "q": "What did excavators find south of the citadel in 2012?",
+    "options": [
+     "A gold crown",
+     "Nine tonnes of iron slag",
+     "An Ashoka pillar",
+     "A Roman coin"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "The Lohasariya mound yielded about 9 tonnes of iron slag dated from around 400 BCE."
+   }
+  ],
+  "clues": [
+   "I am said to be the home a prince left at twenty-nine, walking away from palace life to seek an end to suffering.",
+   "My brick walls sit in a sal forest by the Banganga, and pilgrims argue whether I or a site across the border was the Shakya capital."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tilaurakot",
+   "https://en.wikipedia.org/wiki/Kapilavastu_(ancient_city)",
+   "https://www.wikidata.org/wiki/Q3417973",
+   "https://www.openstreetmap.org/relation/19990298",
+   "https://kathmandupost.com/travel/2019/09/21/seven-historical-sites-in-kapilvastu-that-you-probably-didn-t-know-about",
+   "https://dur.ac.uk/departments/academic/archaeology/research/archaeology-research-projects/tilaurakot/",
+   "https://commons.wikimedia.org/wiki/Category:Tilaurakot"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Tilaurakot%2C_Taulihawa_Kapilbastu_Lumbini_Zone_Western_Nepal_1%2C_Rajesh_Dhungana.jpg/1280px-Tilaurakot%2C_Taulihawa_Kapilbastu_Lumbini_Zone_Western_Nepal_1%2C_Rajesh_Dhungana.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tilaurakot,_Taulihawa_Kapilbastu_Lumbini_Zone_Western_Nepal_1,_Rajesh_Dhungana.jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Excavated brick walls of the ancient city"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Tilaurakot%2C_Kapilvastu_Ancient_Shakya_Capital_01.jpg/1280px-Tilaurakot%2C_Kapilvastu_Ancient_Shakya_Capital_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tilaurakot,_Kapilvastu_Ancient_Shakya_Capital_01.jpg",
+    "author": "Sabina Bajracharya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Ruins inside the citadel"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tilaurakot%2C_Kapilvastu_Ancient_Shakya_Capital_05.jpg/1280px-Tilaurakot%2C_Kapilvastu_Ancient_Shakya_Capital_05.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tilaurakot,_Kapilvastu_Ancient_Shakya_Capital_05.jpg",
+    "author": "Sabina Bajracharya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Brick foundations among the trees"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Shiva_Linga_Tilaurakot_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%283%29.jpg/1280px-Shiva_Linga_Tilaurakot_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%283%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Shiva_Linga_Tilaurakot_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_(3).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "A Shiva linga venerated at the site"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Samai_Mai_Temple_Anandabag_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Samai_Mai_Temple_Anandabag_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Samai_Mai_Temple_Anandabag_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Samai Mai temple on a mound south of the citadel"
+   }
+  ]
+ },
+ {
+  "slug": "kudan-nigrodharama",
+  "name": "Kudan (Nigrodharama)",
+  "name_np": "कुदान (न्यग्रोधाराम)",
+  "alt_names": [
+   "Nigrodharam",
+   "Nyigrodharama",
+   "Lori-ki Kudan"
+  ],
+  "city": "Taulihawa",
+  "zone": null,
+  "province": "Lumbini",
+  "district": "Kapilvastu",
+  "lat": 27.527994,
+  "lng": 83.04056,
+  "coord_source": "OpenStreetMap relation 19980399 (Kudan religious site centroid)",
+  "type": "archaeological-site",
+  "religion": "Buddhist",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Buddhist monastic site traditionally dated to the Buddha's lifetime; excavation reported a wooden post-hole dated to the 8th century BCE; visible brick stupas are later",
+  "dynasty": "Shakya (tradition)",
+  "architecture": "Excavated brick stupa mounds and monastery foundations in open grassland, with a well and the remains of a large pond. A small Hindu shrine with a Shiva linga sits on top of the main stupa mound, reached by a stair hung with prayer flags.",
+  "unesco": false,
+  "short": "Ruined stupas at Kudan, identified with Nigrodharama, where the Buddha is said to have met his father after enlightenment.",
+  "story": "You are standing at Kudan, a short ride south of Taulihawa, in grassland dotted with old brick mounds. Buddhist tradition identifies this place with Nigrodharama, the banyan grove monastery near Kapilavastu. It is said that King Suddhodana built a great vihara here so he could meet his son again, for the first time since the prince had become the Buddha. Here, the story goes, the Buddha taught his family, among them his wife Yashodhara and his young son Rahula. Climb the stair, decorated with fluttering prayer flags, to the top of the main stupa mound. Notice the small Shiva shrine perched there: Hindu and Buddhist devotion have long shared this ground. In 2016 a team from Durham University, UNESCO and Nepal's archaeology department reported a wooden post-hole here, which some link to the Buddha's first sermon on his visit home. Look across the fields toward Tilaurakot, the old city he once left behind.",
+  "legend": "King Suddhodana built a large vihara in the banyan grove to receive his son, now the Buddha, who preached here to the Shakyas, including Yashodhara and Rahula.",
+  "facts": [
+   "The Lumbini Development Trust places Kudan about 3 km south of Taulihawa and identifies it with Nigrodharama.",
+   "Tradition says the Buddha met his father, King Suddhodana, here for the first time after his enlightenment.",
+   "In 2016 excavators reported a post-hole that some believe marks the Buddha's first sermon on his visit home.",
+   "Surviving remains include three stupas, a well and the ruins of a large pond.",
+   "A small Shiva shrine stands on top of the main stupa mound."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 40,
+   "hours_note": "Open-air site; no official hours published.",
+   "fee_note": "No official entry fee found."
+  },
+  "earthquake_2015": null,
+  "festivals": [],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kudan_%28Ancient_Nigrodharama%29%2C_Kapilvastu%2C_Nepal.jpg/1280px-Kudan_%28Ancient_Nigrodharama%29%2C_Kapilvastu%2C_Nepal.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kudan_(Ancient_Nigrodharama),_Kapilvastu,_Nepal.jpg",
+   "author": "Afzal Khan Visuals",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "ruins",
+   "tiers": 1,
+   "plinth_steps": 3,
+   "plinth_shape": "square",
+   "height_m": 6,
+   "footprint_m": [
+    40,
+    30
+   ],
+   "walls": "red-brick",
+   "roof": "none",
+   "colors": [
+    "#9C5B3B",
+    "#7A8F3E",
+    "#2F6FB0"
+   ],
+   "features": [
+    "prayer-flags",
+    "shiva-lingam",
+    "sacred-tree",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "plains-fields",
+    "forest",
+    "pond"
+   ],
+   "notes": "Stepped red-brick stupa mound with a railed stair strung with prayer flags to a tiny shrine on top; a second low brick block beside it; big trees behind. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "Kudan is traditionally identified with which ancient monastery?",
+    "options": [
+     "Jetavana",
+     "Nigrodharama",
+     "Nalanda",
+     "Veluvana"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Kudan is identified with Nigrodharama, the banyan grove monastery near Kapilavastu."
+   },
+   {
+    "q": "Whom did the Buddha meet here, according to tradition?",
+    "options": [
+     "Emperor Ashoka",
+     "His father, King Suddhodana",
+     "King Bimbisara",
+     "The sage Asita"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Suddhodana built a vihara here to meet his son after his enlightenment."
+   },
+   {
+    "q": "In which district is Kudan?",
+    "options": [
+     "Rupandehi",
+     "Kapilvastu",
+     "Dang",
+     "Banke"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Kudan lies near Taulihawa in Kapilvastu District."
+   },
+   {
+    "q": "What kind of shrine stands on top of Kudan's main stupa mound?",
+    "options": [
+     "A Jain shrine",
+     "A Shiva shrine",
+     "A mosque",
+     "A Tibetan gompa"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "A small Shiva shrine with a linga sits on the main mound."
+   },
+   {
+    "q": "What did excavators report at Kudan in 2016?",
+    "options": [
+     "A gold coin hoard",
+     "A post-hole linked by some to a sermon",
+     "An Ashoka inscription",
+     "A royal seal"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "A post-hole was reported that some believe marks where the Buddha preached on his visit home."
+   }
+  ],
+  "clues": [
+   "A king built a monastery in a banyan grove here so he could greet his enlightened son.",
+   "A Hindu shrine now crowns my Buddhist brick mound, a short ride south of the district headquarters."
+  ],
+  "sources": [
+   "https://lumbinidevtrust.gov.np/page/2_667f8489290b3",
+   "https://kathmandupost.com/travel/2019/09/21/seven-historical-sites-in-kapilvastu-that-you-probably-didn-t-know-about",
+   "https://kathmandupost.com/national/2016/01/31/buddha-post-hole-found-in-nigrodharam-area",
+   "https://nepaltraveller.com/sidetrack/kudan-archeological-site",
+   "https://www.openstreetmap.org/relation/19980399",
+   "https://commons.wikimedia.org/wiki/Category:Nigrodharama"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Nigrodharama.jpg/1280px-Nigrodharama.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Nigrodharama.jpg",
+    "author": "User:BPG",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "caption": "Brick foundations of the Nigrodharama monastery"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Nigrodharama1.jpg/1280px-Nigrodharama1.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Nigrodharama1.jpg",
+    "author": "User:BPG",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "caption": "Panorama of the excavated mounds"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Shiva_Temple_Kudan_Ancient_Place_Buddha_Kapilbastu_Lumbini_Zone_Rajesh_Dhungana.jpg/1280px-Shiva_Temple_Kudan_Ancient_Place_Buddha_Kapilbastu_Lumbini_Zone_Rajesh_Dhungana.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Shiva_Temple_Kudan_Ancient_Place_Buddha_Kapilbastu_Lumbini_Zone_Rajesh_Dhungana.jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The Shiva shrine on top of the main stupa"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Shiva_Linga_Kudan_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_%281%29.jpg/1280px-Shiva_Linga_Kudan_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Shiva_Linga_Kudan_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The Shiva linga worshipped on the mound"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Nigrodharam_Kudan_Taulihawa_Kapilbastu_Nepal_Rajesh_Dhungana_%283%29.jpg/1280px-Nigrodharam_Kudan_Taulihawa_Kapilbastu_Nepal_Rajesh_Dhungana_%283%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Nigrodharam_Kudan_Taulihawa_Kapilbastu_Nepal_Rajesh_Dhungana_(3).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Excavated brickwork at Kudan"
+   }
+  ]
+ },
+ {
+  "slug": "gotihawa",
+  "name": "Gotihawa",
+  "name_np": "गोटिहवा",
+  "alt_names": [
+   "Khemavati",
+   "Gotihawa Ashoka Pillar",
+   "Krakuchhanda Buddha birthplace"
+  ],
+  "city": "Taulihawa",
+  "zone": null,
+  "province": "Lumbini",
+  "district": "Kapilvastu",
+  "lat": 27.528399,
+  "lng": 83.014972,
+  "coord_source": "OpenStreetMap node 5237478021 (Gotihawa stupa); Wikidata Q3425576 gives only 27.51, 83.03",
+  "type": "pillar",
+  "religion": "Buddhist",
+  "deity": "Krakuchhanda (Kakusandha) Buddha",
+  "built_year": null,
+  "built_century_text": "Ashoka's pillar of the 3rd century BCE beside a brick stupa; excavation in 1993-94 found remains going back to about 900 BCE",
+  "dynasty": "Maurya (pillar)",
+  "architecture": "The broken lower stump of a polished Ashokan sandstone pillar, without inscription, stands in a fenced enclosure beside the excavated brick base of a stupa associated with Krakuchhanda Buddha.",
+  "unesco": false,
+  "short": "Village with Ashoka's broken pillar and a brick stupa, revered as the birthplace of Krakuchhanda Buddha.",
+  "story": "Look at the stump of polished stone in front of you. It is all that stands here of a pillar raised by Emperor Ashoka in the third century BCE, and unlike the one at Lumbini it carries no inscription. Buddhist tradition says this village, once called Khemavati, was the birthplace of Krakuchhanda Buddha, known in Pali as Kakusandha, one of the Buddhas said to have come before Siddhartha Gautama. Ashoka is believed to have stopped here on his pilgrimage to Lumbini. Turn to the brick mound beside the pillar: it is the base of a stupa, generally linked with the nirvana of Krakuchhanda. Scholars have suggested that the broken pillar pieces now lying at Nigali Sagar, a few kilometres away, may originally have stood on this very base. Excavations in 1993 and 1994 found pottery and brickwork going back to around 900 BCE. Pause in the quiet fields and picture pilgrims on the same road two thousand years ago.",
+  "legend": "Theravada tradition says Krakuchhanda Buddha was born in the Khemavati park here, son of the chaplain Aggidatta of King Khemankara.",
+  "facts": [
+   "Ancient Khemavati is identified with modern Gotihawa.",
+   "The Ashoka pillar here has no surviving inscription.",
+   "Scholars have suggested its base was the original base of the Nigali Sagar pillar fragments.",
+   "A 1993-94 excavation found relics dating back to about 900 BCE.",
+   "Krakuchhanda is counted as the 25th of the 29 Buddhas in the Buddhavamsa."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Open-air site about 4 km from Taulihawa; no official hours published.",
+   "fee_note": "No official entry fee found."
+  },
+  "earthquake_2015": null,
+  "festivals": [],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Gotihawa_Ashok_Pillar_Buddha_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Gotihawa_Ashok_Pillar_Buddha_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%281%29.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Gotihawa_Ashok_Pillar_Buddha_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_(1).jpg",
+   "author": "Rajesh Dhungana",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "pillar",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "round",
+   "height_m": 3,
+   "footprint_m": [
+    20,
+    20
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#7D7468",
+    "#9C5B3B",
+    "#7A8F3E"
+   ],
+   "features": [
+    "stone-pillar",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "plains-fields",
+    "village"
+   ],
+   "notes": "Short broken stone pillar stump in a railing, next to a low round red-brick stupa base, in flat farmland. Heights estimated."
+  },
+  "quiz": [
+   {
+    "q": "Which earlier Buddha is said to have been born at Gotihawa?",
+    "options": [
+     "Kanakamuni",
+     "Krakuchhanda",
+     "Dipankara",
+     "Maitreya"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Gotihawa is identified with Khemavati, birthplace of Krakuchhanda (Kakusandha) Buddha."
+   },
+   {
+    "q": "What was Gotihawa's ancient name?",
+    "options": [
+     "Khemavati",
+     "Devadaha",
+     "Ramagrama",
+     "Sravasti"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Modern Gotihawa was known as Khemavati."
+   },
+   {
+    "q": "Which emperor set up the pillar at Gotihawa?",
+    "options": [
+     "Ashoka",
+     "Kanishka",
+     "Samudragupta",
+     "Harsha"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Ashoka erected a pillar here in the 3rd century BCE."
+   },
+   {
+    "q": "Which pillar's fragments may originally have stood on Gotihawa's base?",
+    "options": [
+     "Lumbini",
+     "Nigali Sagar",
+     "Sarnath",
+     "Vaishali"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Scholars have suggested the Nigali Sagar fragments came from the Gotihawa base."
+   },
+   {
+    "q": "In which district is Gotihawa?",
+    "options": [
+     "Nawalparasi",
+     "Kapilvastu",
+     "Palpa",
+     "Rupandehi"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Gotihawa lies near Taulihawa in Kapilvastu District."
+   }
+  ],
+  "clues": [
+   "An emperor's pillar here carries no words, only a broken stump beside a brick stupa.",
+   "Once called Khemavati, I am honoured as the birthplace of a Buddha who came long before Siddhartha."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gotihawa",
+   "https://en.wikipedia.org/wiki/Kakusandha_Buddha",
+   "https://en.wikipedia.org/wiki/Nigali_Sagar",
+   "https://www.wikidata.org/wiki/Q3425576",
+   "https://www.openstreetmap.org/node/5237478021",
+   "https://kathmandupost.com/travel/2019/09/21/seven-historical-sites-in-kapilvastu-that-you-probably-didn-t-know-about",
+   "https://commons.wikimedia.org/wiki/Category:Ashoka_Pillar,_Gotihawa"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Gotihawa_Achok_Pillar_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Gotihawa_Achok_Pillar_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gotihawa_Achok_Pillar_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The pillar stump and stupa base in the fields"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Gotihawa_Achok_Pillar_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%283%29.jpg/1280px-Gotihawa_Achok_Pillar_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%283%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gotihawa_Achok_Pillar_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_(3).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Close view of the polished pillar stump"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Gotihawa_Achok_Pillar_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%2818%29.jpg/1280px-Gotihawa_Achok_Pillar_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%2818%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gotihawa_Achok_Pillar_Taulihawa_Kapilbastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_(18).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The pillar site and its surroundings"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Gotihawa_Ashok_Pillar_Buddha_Kapilvastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%284%29.jpg/1280px-Gotihawa_Ashok_Pillar_Buddha_Kapilvastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_%284%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gotihawa_Ashok_Pillar_Buddha_Kapilvastu_Lumbini_Zone_Nepal_Rajesh_Dhungana_(4).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The fenced pillar enclosure"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Nigli_Sagar_Historical_Pond_Gotihawa_Kapilbastu_Buddha_Nepal_Rajesh_Dhungana.jpg/1280px-Nigli_Sagar_Historical_Pond_Gotihawa_Kapilbastu_Buddha_Nepal_Rajesh_Dhungana.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Nigli_Sagar_Historical_Pond_Gotihawa_Kapilbastu_Buddha_Nepal_Rajesh_Dhungana.jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "A historic pond in the Gotihawa area"
+   }
+  ]
+ },
+ {
+  "slug": "ramagrama-stupa",
+  "name": "Ramagrama Stupa",
+  "name_np": "रामग्राम स्तूप",
+  "alt_names": [
+   "Ramgram Stupa",
+   "Ramagrama Relic Stupa"
+  ],
+  "city": "Ramgram (Parasi)",
+  "zone": null,
+  "province": "Lumbini",
+  "district": "Nawalparasi (West)",
+  "lat": 27.497778,
+  "lng": 83.681111,
+  "coord_source": "Wikidata Q7288751 (P625); OpenStreetMap node 5303966021 gives 27.497795, 83.681444",
+  "type": "stupa",
+  "religion": "Buddhist",
+  "deity": "Relics of Gautama Buddha",
+  "built_year": null,
+  "built_century_text": "Original relic stupa traditionally raised by the Koliyas after the Buddha's death; Nepal's Department of Archaeology dates the present structure between the Mauryan and Gupta periods",
+  "dynasty": "Koliya (tradition)",
+  "architecture": "Unexcavated brick stupa buried under a grassy earthen mound about 10 m high and 23.5 m across. Geophysical survey shows a square Kushan-era monastery buried beside it. A large bodhi tree hung with prayer flags grows at the foot of the mound.",
+  "unesco": false,
+  "short": "A grassy mound hiding a brick stupa believed to be the only original Buddha relic stupa never opened.",
+  "story": "What looks like a gentle green hill in front of you is in fact a stupa. Buddhist texts say that when the Buddha died, his ashes were divided among eight kingdoms, and the Koliyas of Ramagrama, his mother's people, built a stupa over their share. About three centuries later Emperor Ashoka set out to open the eight stupas and spread the relics among thousands of new ones. The Mahavamsa says that when he reached Ramagrama, a naga, a serpent guardian, stopped him. That is why this is believed to be the only one of the eight never opened. Nepal's archaeologists think the brick core under the grass is still intact. A survey also found a square monastery buried nearby; its bricks kept crops from growing, so the spot became known as the unlucky field. Walk slowly around the mound, under the prayer flags on the bodhi tree, and remember that relics may lie a few metres beneath your feet.",
+  "legend": "When Ashoka came to take the relics, a powerful naga guarding the stupa prevented him, so the Ramagrama stupa alone kept its original relics.",
+  "facts": [
+   "It is one of eight stupas built over the Buddha's divided ashes, according to Buddhist texts.",
+   "Nepali archaeologists consider it the only intact original stupa enshrining the Buddha's relics.",
+   "The stupa complex is about 10 m high and 23.5 m in diameter.",
+   "A geophysical survey revealed a buried square Kushan-era monastery beside the mound.",
+   "It was added to UNESCO's World Heritage Tentative List on 23 May 1996."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 40,
+   "hours_note": "Open-air site managed with the Lumbini Development Trust; no official hours published.",
+   "fee_note": "No official entry fee found."
+  },
+  "earthquake_2015": null,
+  "festivals": [],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ramgram_Stupa_2.jpg/1280px-Ramgram_Stupa_2.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ramgram_Stupa_2.jpg",
+   "author": "Sukrat Gaud",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "stupa",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "round",
+   "height_m": 10,
+   "footprint_m": [
+    23.5,
+    23.5
+   ],
+   "walls": "red-brick",
+   "roof": "none",
+   "colors": [
+    "#3E8E2F",
+    "#2C4F1E",
+    "#D9473B"
+   ],
+   "features": [
+    "prayer-flags",
+    "sacred-tree",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "garden-lawn",
+    "plains-fields",
+    "sacred-grove"
+   ],
+   "notes": "A smooth round grass-covered mound, no visible brick, with a large bodhi tree hung with prayer flags at its foot. Model as a green earthen dome."
+  },
+  "quiz": [
+   {
+    "q": "Which people built the original Ramagrama stupa, according to Buddhist texts?",
+    "options": [
+     "Shakyas",
+     "Koliyas",
+     "Mallas",
+     "Licchavis"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Ramagrama was a city of the Koliya kingdom, the Buddha's mother's people."
+   },
+   {
+    "q": "Why is Ramagrama special among the eight relic stupas?",
+    "options": [
+     "It is the tallest",
+     "It is believed never to have been opened",
+     "It is made of marble",
+     "It is in India"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is believed to be the only one of the eight original relic stupas left undisturbed."
+   },
+   {
+    "q": "According to the Mahavamsa, what stopped Ashoka from taking the relics?",
+    "options": [
+     "A flood",
+     "A naga guardian",
+     "An earthquake",
+     "A Koliya army"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "A powerful naga guarding the stupa prevented him."
+   },
+   {
+    "q": "Roughly how wide is the stupa mound?",
+    "options": [
+     "5 m",
+     "23.5 m",
+     "60 m",
+     "100 m"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The stupa complex measures about 23.5 m in diameter and 10 m high."
+   },
+   {
+    "q": "Why was the buried monastery's area called the 'unlucky field'?",
+    "options": [
+     "Snakes lived there",
+     "Bricks below stopped crops growing",
+     "It flooded every year",
+     "It was cursed by a king"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "Dense brickwork under the surface prevented crops from growing."
+   }
+  ],
+  "clues": [
+   "I look like a grassy hill, but an emperor once came to open me and a serpent sent him away.",
+   "Of eight mounds built over a teacher's ashes, I am said to be the only one never opened."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ramagrama_stupa",
+   "https://www.wikidata.org/wiki/Q7288751",
+   "https://www.openstreetmap.org/node/5303966021",
+   "https://commons.wikimedia.org/wiki/Category:Ramagrama_stupa"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ramagrama_Stupa.jpg/1280px-Ramagrama_Stupa.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ramagrama_Stupa.jpg",
+    "author": "Sukrat Gaud",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The grass-covered relic stupa mound"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ramgram_Stupa_Entry_View.jpg/1280px-Ramgram_Stupa_Entry_View.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ramgram_Stupa_Entry_View.jpg",
+    "author": "Sukrat Gaud",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The approach to the stupa from the entrance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Ramgram_Stupa_Gate_Statue.jpg/1280px-Ramgram_Stupa_Gate_Statue.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ramgram_Stupa_Gate_Statue.jpg",
+    "author": "Sukrat Gaud",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Gate and statue near the stupa"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Ramagrama_stupa_in_Nawalparasi.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ramagrama_stupa_in_Nawalparasi.jpg",
+    "author": "Ravijung",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The mound and the bodhi tree with prayer flags"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ramgram_Stupa_5.jpg/1280px-Ramgram_Stupa_5.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ramgram_Stupa_5.jpg",
+    "author": "Sukrat Gaud",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Another view of the Ramagrama mound"
+   }
+  ]
+ },
+ {
+  "slug": "rishikesh-temple-ridi",
+  "name": "Rishikesh Temple, Ridi",
+  "name_np": "ऋषिकेश मन्दिर, रिडी",
+  "alt_names": [
+   "Rishikeshav Temple",
+   "Rishikesh Complex of Ruru Kshetra",
+   "Ruru Kshetra",
+   "Ridi Dham"
+  ],
+  "city": "Ridi",
+  "zone": null,
+  "province": "Lumbini",
+  "district": "Palpa",
+  "lat": 27.934339,
+  "lng": 83.437586,
+  "coord_source": "OpenStreetMap node 3464974411 (Rishikesh place of worship)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Rishikesh (Hrishikesha), a form of Vishnu",
+  "built_year": null,
+  "built_century_text": "16th century tradition: founded by Mukunda Sen, first king of Palpa (reigned c. 1518-1553), who is said to have found the image in the Kali Gandaki; the complex mixes medieval and Sen-period styles",
+  "dynasty": "Sen (Palpa)",
+  "architecture": "Temple complex of brick buildings with carved timber windows and struts, rows of hanging bells, ochre and red painted shrines and a paved courtyard above the ghats of the Kali Gandaki. The black stone image of Rishikesh stands in a tiled sanctum.",
+  "unesco": false,
+  "short": "Riverside Vishnu temple at Ridi, where the Ridi Khola meets the Kali Gandaki, famed for the Maghe Sankranti fair.",
+  "story": "Listen to the two rivers below you. Here at Ridi the Ridi Khola joins the Kali Gandaki, at the meeting point of Palpa, Gulmi and Syangja, and Hindu tradition counts this place, Ruru Kshetra, among the four holy dhams of Nepal. Climb the stone steps into the courtyard and ring one of the brass bells. Inside the small tiled sanctum stands a black stone image of Rishikesh, a form of Lord Vishnu, dressed in yellow and heavy with garlands. Legend says Mukunda Sen, the first king of Palpa, found this very image while taking a holy dip in the Kali Gandaki, and built the temple to house it. Look at the river stones: shaligrams, the fossil stones honoured as symbols of Vishnu, are found along this bank. Each Maghe Sankranti the town fills for the Ridi Mela, when pilgrims bathe for three days, called Jethi, Maili and Kanchhi Sankranti, hoping for moksha. The ghats are also an old cremation site.",
+  "legend": "King Mukunda Sen of Palpa is said to have found the image of Rishikesh in the Kali Gandaki while bathing and founded the temple for it.",
+  "facts": [
+   "Ruru Kshetra lies at the confluence of the Ridi Khola and the Kali Gandaki, where Gulmi, Palpa and Syangja meet.",
+   "It is counted as one of the Char Dham of Nepal.",
+   "The Rishikesh Complex of Ruru Kshetra was added to UNESCO's Tentative List on 30 January 2008.",
+   "The Ridi Mela at Maghe Sankranti has three bathing days: Jethi, Maili and Kanchhi Sankranti.",
+   "UNESCO's entry notes the tradition of Bhaktini Amas, female mendicants, at the site."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Active temple; no official hours published.",
+   "fee_note": "No entry fee found; it is a working place of worship."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Ridi Mela (Maghe Sankranti)",
+    "name_np": "रिडी मेला (माघे संक्रान्ति)",
+    "month": "Magh",
+    "note": "Three-day bathing fair in the Kali Gandaki with worship at the Rishikesh temple."
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rishikesh_Mandir%2C_Palpa%2C_Nepal_03.jpg/1280px-Rishikesh_Mandir%2C_Palpa%2C_Nepal_03.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Rishikesh_Mandir,_Palpa,_Nepal_03.jpg",
+   "author": "Acharya Bipin",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": 9,
+   "footprint_m": [
+    30,
+    25
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#B5653F",
+    "#E8B730",
+    "#A52A2A"
+   ],
+   "features": [
+    "bell",
+    "carved-windows",
+    "carved-struts",
+    "gilded-pinnacle",
+    "ghat-steps",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "river",
+    "riverbank-ghats",
+    "stone-paved-plaza",
+    "village",
+    "forest"
+   ],
+   "notes": "Brick temple buildings with carved windows, frames of hanging bells and ochre domed shrines on a paved courtyard above river ghats in a steep green valley. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "Which god is worshipped as Rishikesh at Ridi?",
+    "options": [
+     "Shiva",
+     "Vishnu",
+     "Ganesh",
+     "Surya"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Rishikesh (Hrishikesha) is a name of Vishnu."
+   },
+   {
+    "q": "Which big river flows past Ridi?",
+    "options": [
+     "Koshi",
+     "Kali Gandaki",
+     "Bagmati",
+     "Rapti"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Ridi lies at the confluence of the Ridi Khola and the Kali Gandaki."
+   },
+   {
+    "q": "Which king is said to have found the image and founded the temple?",
+    "options": [
+     "Mukunda Sen",
+     "Prithvi Narayan Shah",
+     "Ram Shah",
+     "Jayasthiti Malla"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Tradition credits Mukunda Sen, first king of Palpa."
+   },
+   {
+    "q": "During which festival is the Ridi Mela held?",
+    "options": [
+     "Dashain",
+     "Maghe Sankranti",
+     "Holi",
+     "Tihar"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The fair takes place at Maghe Sankranti."
+   },
+   {
+    "q": "When was the Rishikesh Complex added to UNESCO's Tentative List?",
+    "options": [
+     "1996",
+     "2008",
+     "2015",
+     "1979"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "It was added on 30 January 2008."
+   }
+  ],
+  "clues": [
+   "Three districts meet where a small stream joins a great river, and a king pulled a god out of the water here.",
+   "In the month of Magh, pilgrims bathe here three days running: the eldest, the middle and the youngest day."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ruru_Kshetra",
+   "https://en.wikipedia.org/wiki/Rishikesh_Complex_of_Ruru_Kshetra",
+   "https://en.wikipedia.org/wiki/Mukunda_Sen",
+   "https://whc.unesco.org/en/tentativelists/5259",
+   "https://ekantipur.com/lumbini-pradesh/2026/01/15/en/crowds-gather-at-ridi-ruru-area-the-confluence-of-palpa-gulmi-and-syangja-to-celebrate-sankranti-bathing-and-fair-21-59.html",
+   "https://www.openstreetmap.org/node/3464974411",
+   "https://commons.wikimedia.org/wiki/Category:Rishikesh_Temple,_Palpa"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Rishikeshdham_Temple.jpg/1280px-Rishikeshdham_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rishikeshdham_Temple.jpg",
+    "author": "Siddhant2057",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The black stone image of Rishikesh in its sanctum"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rishikesh_Mandir%2C_Palpa%2C_Nepal_04.jpg/1280px-Rishikesh_Mandir%2C_Palpa%2C_Nepal_04.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rishikesh_Mandir,_Palpa,_Nepal_04.jpg",
+    "author": "Acharya Bipin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Brick shrines and rows of temple bells"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Rishikesh_Mandir%2C_Palpa%2C_Nepal_01.jpg/1280px-Rishikesh_Mandir%2C_Palpa%2C_Nepal_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rishikesh_Mandir,_Palpa,_Nepal_01.jpg",
+    "author": "Acharya Bipin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Steps leading up into the temple complex"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Rishikesh_Mandir%2C_Palpa%2C_Nepal_02.jpg/1280px-Rishikesh_Mandir%2C_Palpa%2C_Nepal_02.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rishikesh_Mandir,_Palpa,_Nepal_02.jpg",
+    "author": "Acharya Bipin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Old brick and timber buildings of Ridi"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Rishikeshav_inside_Rishikeshav_Temple%2C_Palpa.jpg/1280px-Rishikeshav_inside_Rishikeshav_Temple%2C_Palpa.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rishikeshav_inside_Rishikeshav_Temple,_Palpa.jpg",
+    "author": "Prakat Shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The deity Rishikeshav inside the temple"
+   }
+  ]
+ },
+ {
+  "slug": "rani-mahal-palpa",
+  "name": "Rani Mahal",
+  "name_np": "रानीमहल",
+  "alt_names": [
+   "Ranighat Palace",
+   "Ranighat Durbar",
+   "Taj Mahal of Nepal"
+  ],
+  "city": "Tansen",
+  "zone": null,
+  "province": "Lumbini",
+  "district": "Palpa",
+  "lat": 27.926708,
+  "lng": 83.527799,
+  "coord_source": "OpenStreetMap node 3359338503; Wikidata Q13185406 gives 27.926400, 83.527800",
+  "type": "palace",
+  "religion": "Other",
+  "deity": null,
+  "built_year": 1893,
+  "built_century_text": "Late 19th century: built from 1893 by General Khadga Shumsher Rana in memory of his wife Tej Kumari Devi; abandoned in 1902; restored by the Government of Nepal from 2017",
+  "dynasty": "Rana",
+  "architecture": "European-style Rana palace on a rocky bank of the Kali Gandaki: a two-storey main block with arched windows, columns and a pitched red roof, above terraces of white balustraded buildings and stairways that step down to the river.",
+  "unesco": false,
+  "short": "A white Rana palace on the Kali Gandaki, built by Khadga Shumsher for his late wife and called the Taj Mahal of Nepal.",
+  "story": "You have come down a long valley road to a palace that seems to grow out of the riverbank. In 1892 Tej Kumari Devi, youngest wife of General Khadga Shumsher Rana, died here in Palpa. Khadga Shumsher had been banished from Kathmandu after a failed plot against Prime Minister Bir Shumsher, and he turned his grief into this building. The design is said to be by a British architect, with workers brought from India, soldiers and local villagers, some of them forced to labour. It took about four years. He named the forest Rani Ban and the riverbank Rani Ghat. Look at the grand white terraces stepping down to the grey-green Kali Gandaki. That is why people call it the Taj Mahal of Nepal: both were built for a lost love beside a river. In 1902 Khadga Shumsher fled to India, and the palace slowly fell to ruin until the government restored it from 2017 and opened a museum inside.",
+  "legend": null,
+  "facts": [
+   "General Khadga Shumsher Rana began the palace in 1893 in memory of his wife Tej Kumari Devi.",
+   "It took around four years to build, reportedly to a British architect's design.",
+   "Khadga Shumsher fled to India with his family in 1902, abandoning the palace.",
+   "The Government of Nepal restored it from 2017 and set up a museum inside.",
+   "It is about half an hour by road from Tansen."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": 50,
+   "visit_minutes": 60,
+   "hours_note": "No official opening hours found.",
+   "fee_note": "A news report says entry, once free, now costs NPR 50 per person; separate foreigner rates were not found."
+  },
+  "earthquake_2015": null,
+  "festivals": [],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Palpa%2C_Ranighat_Palace%2C_Nepal.jpg/1280px-Palpa%2C_Ranighat_Palace%2C_Nepal.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Palpa,_Ranighat_Palace,_Nepal.jpg",
+   "author": "Vyacheslav Argenberg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "palace",
+   "tiers": 2,
+   "plinth_steps": 4,
+   "plinth_shape": "rectangular",
+   "height_m": 15,
+   "footprint_m": [
+    80,
+    50
+   ],
+   "walls": "white-plaster",
+   "roof": "clay-tile",
+   "colors": [
+    "#F4F4F0",
+    "#2E8FD0",
+    "#C0504D"
+   ],
+   "features": [
+    "arched-windows",
+    "fence-railing",
+    "ghat-steps"
+   ],
+   "surroundings": [
+    "river",
+    "forest",
+    "riverbank-ghats"
+   ],
+   "notes": "Two-storey colonnaded main block (blue trim, red pitched roof) on top of stepped white terraces with balustrades dropping to a wide brown river. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "Who built Rani Mahal?",
+    "options": [
+     "Jung Bahadur Rana",
+     "Khadga Shumsher Rana",
+     "Chandra Shumsher Rana",
+     "King Mahendra"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "General Khadga Shumsher Rana built it from 1893."
+   },
+   {
+    "q": "Which river flows below Rani Mahal?",
+    "options": [
+     "Trishuli",
+     "Kali Gandaki",
+     "Seti",
+     "Karnali"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The palace stands on the bank of the Kali Gandaki."
+   },
+   {
+    "q": "Why is Rani Mahal called the Taj Mahal of Nepal?",
+    "options": [
+     "It is made of marble",
+     "It was built in memory of a beloved wife beside a river",
+     "It has four minarets",
+     "It was built by Mughals"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Like the Taj Mahal, it was built for a lost love beside a river."
+   },
+   {
+    "q": "In which year did Khadga Shumsher flee to India, abandoning the palace?",
+    "options": [
+     "1885",
+     "1902",
+     "1934",
+     "1951"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "He fled with his family in 1902."
+   },
+   {
+    "q": "What was the name of the queen remembered by the palace?",
+    "options": [
+     "Tej Kumari Devi",
+     "Rajendra Laxmi",
+     "Lalit Tripura Sundari",
+     "Yogamaya"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Tej Kumari Devi, his youngest wife, died in 1892."
+   }
+  ],
+  "clues": [
+   "A banished general built me for his late wife where white terraces meet a great gorge river.",
+   "People compare me to a famous tomb in Agra, though no one is buried here."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ranighat_Palace",
+   "https://www.wikidata.org/wiki/Q13185406",
+   "https://www.openstreetmap.org/node/3359338503",
+   "https://nepaltraveller.com/news/rani-mahal-is-the-choice-on-valentines-day",
+   "https://commons.wikimedia.org/wiki/Category:Rani_Mahal,_Palpa_District"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Rani_Mahal%2C_Kaligandaki%2C_Palpa.jpg/1280px-Rani_Mahal%2C_Kaligandaki%2C_Palpa.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rani_Mahal,_Kaligandaki,_Palpa.jpg",
+    "author": "Arjun Bhadra Khanal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The palace above the Kali Gandaki river"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Rani_Mahal_of_Palpa.JPG/1280px-Rani_Mahal_of_Palpa.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rani_Mahal_of_Palpa.JPG",
+    "author": "Gaurab",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Rani Mahal on the riverbank"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Ranimahal_front_view.jpg/1280px-Ranimahal_front_view.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ranimahal_front_view.jpg",
+    "author": "Mynameisrabin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Front view of the main palace block"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/RANI_MAHAL_PALPA.jpg/1280px-RANI_MAHAL_PALPA.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:RANI_MAHAL_PALPA.jpg",
+    "author": "Rebellion12345",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "A close view of the palace buildings"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rani_Mahal.JPG/1280px-Rani_Mahal.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rani_Mahal.JPG",
+    "author": "Sailesh.baidya",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Panorama of the palace and the river gorge"
+   }
+  ]
+ },
+ {
+  "slug": "tansen-durbar",
+  "name": "Tansen Durbar",
+  "name_np": "तानसेन दरबार",
+  "alt_names": [
+   "Palpa Durbar",
+   "Palpa Durbar & Museum",
+   "Palpa Palace",
+   "Palpa Museum"
+  ],
+  "city": "Tansen",
+  "zone": null,
+  "province": "Lumbini",
+  "district": "Palpa",
+  "lat": 27.867361,
+  "lng": 83.545139,
+  "coord_source": "Wikidata Q19678683 (P625)",
+  "type": "palace",
+  "religion": "Other",
+  "deity": null,
+  "built_year": 1927,
+  "built_century_text": "Early 20th century: Wikipedia and Wikidata give 1927 under Pratap Shumsher Rana (a museum report gives 1903); destroyed in a Maoist attack in the mid-2000s, rebuilt, and opened as a museum (formally inaugurated 29 May 2019)",
+  "dynasty": "Rana",
+  "architecture": "Large three-storey Rana palace in neoclassical style around a courtyard, with deep red walls, white pilasters and window hoods, green latticed windows and a central balcony porch over the entrance, with corner towers.",
+  "unesco": false,
+  "short": "Red-and-white Rana governors' palace in the heart of Tansen, rebuilt after its destruction and now the Palpa Museum.",
+  "story": "Stand in the open square and look at the long red facade in front of you, picked out with white columns and green latticed windows. This is Tansen Durbar, built for the Rana governors who ran western Nepal from Palpa. Wikipedia credits Pratap Shumsher Rana and the year 1927. For decades this was the seat of Rana power in the western hills. Then, during the Maoist conflict in the mid-2000s, the palace was destroyed in an attack on Tansen. What you see now is a rebuilding that follows the old design. Since 2019 it has been formally open as the Palpa Durbar Museum, run under Tansen Municipality, so you can walk the corridors that governors once paced. Step back and notice the central balcony over the entrance; it is the focal point of the whole facade. Then wander downhill into Tansen's lanes of old Newar houses.",
+  "legend": null,
+  "facts": [
+   "It was the seat of the Rana governors of Palpa during the Rana period.",
+   "Wikipedia dates it to 1927 under Pratap Shumsher Jang Bahadur Rana.",
+   "The palace was destroyed by Maoists during the civil war and later rebuilt.",
+   "The Palpa Durbar Museum was formally inaugurated on 29 May 2019.",
+   "The museum is closed on Tuesdays."
+  ],
+  "visit": {
+   "open": "10:00",
+   "close": "16:30",
+   "entry_fee_foreigner_npr": 100,
+   "entry_fee_saarc_npr": 50,
+   "entry_fee_nepali_npr": 15,
+   "visit_minutes": 60,
+   "hours_note": "Wednesday to Sunday 10:00-16:30; Monday 10:00-14:30; closed Tuesday (2019 report).",
+   "fee_note": "2019 museum fees: students NPR 5, Nepali visitors NPR 15, SAARC NPR 50, other foreigners NPR 100. May have changed."
+  },
+  "earthquake_2015": null,
+  "festivals": [],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Palpa_Durbar_%26_Museum_01.jpg/1280px-Palpa_Durbar_%26_Museum_01.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Palpa_Durbar_%26_Museum_01.jpg",
+   "author": "Acharya Bipin",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "palace",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": 14,
+   "footprint_m": [
+    60,
+    40
+   ],
+   "walls": "red-brick",
+   "roof": "slate",
+   "colors": [
+    "#A8322D",
+    "#F2F0EA",
+    "#2E6B4A"
+   ],
+   "features": [
+    "arched-windows",
+    "carved-windows"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "city-street",
+    "newar-houses",
+    "forest"
+   ],
+   "notes": "Long curved three-storey facade painted deep red with white pilasters and window hoods, green lattice windows, a pillared porch with balcony at centre and taller corner blocks. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "Who used Tansen Durbar as their seat?",
+    "options": [
+     "Malla kings",
+     "Rana governors",
+     "Sen kings",
+     "British residents"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It was the seat of the Rana governors in Palpa."
+   },
+   {
+    "q": "Which Rana is credited with building it in 1927?",
+    "options": [
+     "Pratap Shumsher",
+     "Khadga Shumsher",
+     "Juddha Shumsher",
+     "Bir Shumsher"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Wikipedia credits Pratap Shumsher Jang Bahadur Rana."
+   },
+   {
+    "q": "What happened to the palace during the Maoist conflict?",
+    "options": [
+     "It became a school",
+     "It was destroyed in an attack",
+     "It was sold",
+     "Nothing"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It was destroyed by Maoists and later rebuilt."
+   },
+   {
+    "q": "On which day is the Palpa Durbar Museum closed?",
+    "options": [
+     "Saturday",
+     "Sunday",
+     "Tuesday",
+     "Friday"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "The 2019 schedule lists Tuesday as the closing day."
+   },
+   {
+    "q": "When was the museum formally inaugurated?",
+    "options": [
+     "2008",
+     "2015",
+     "2019",
+     "2023"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "It was formally inaugurated on 29 May 2019."
+   }
+  ],
+  "clues": [
+   "Rana governors ruled the western hills from my red halls; I burned in a civil war and rose again as a museum.",
+   "Green lattice windows line my long red facade on the main square of a hill town in Palpa."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tansen_Durbar",
+   "https://www.wikidata.org/wiki/Q19678683",
+   "https://nepaltraveller.com/news/120",
+   "https://commons.wikimedia.org/wiki/Category:Tansen_Durbar"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Palpa10.JPG/1280px-Palpa10.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Palpa10.JPG",
+    "author": "जनक राज भट्ट",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Palpa Darbar seen from the square"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Palpa_Durbar_%26_Museum_13.jpg/1280px-Palpa_Durbar_%26_Museum_13.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Palpa_Durbar_%26_Museum_13.jpg",
+    "author": "Acharya Bipin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Wide view of the rebuilt palace"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Palpa_Durbar_%26_Museum_06.jpg/1280px-Palpa_Durbar_%26_Museum_06.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Palpa_Durbar_%26_Museum_06.jpg",
+    "author": "Acharya Bipin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Detail of the red facade and windows"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Palpa_Durbar_%2CTansen_Palpa_01.jpg/1280px-Palpa_Durbar_%2CTansen_Palpa_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Palpa_Durbar_,Tansen_Palpa_01.jpg",
+    "author": "Acharya Bipin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The palace in the centre of Tansen"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Palpa_Durbar_%26_Museum_12.jpg/1280px-Palpa_Durbar_%26_Museum_12.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Palpa_Durbar_%26_Museum_12.jpg",
+    "author": "Acharya Bipin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The museum courtyard side of the palace"
+   }
+  ]
+ },
+ {
+  "slug": "swargadwari",
+  "name": "Swargadwari",
+  "name_np": "स्वर्गद्वारी",
+  "alt_names": [
+   "Sworgadwari",
+   "Swargadwari Ashram",
+   "Gateway to Heaven"
+  ],
+  "city": "Bhingri",
+  "zone": null,
+  "province": "Lumbini",
+  "district": "Pyuthan",
+  "lat": 28.121034,
+  "lng": 82.674323,
+  "coord_source": "OpenStreetMap way 804148107 (religious site centroid); English Wikipedia gives 28.1213, 82.673486. Wikidata Q13187340 longitude (84.6744) appears wrong.",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Swargadwari Mahaprabhu (Swami Hamsananda); Vishnu and Shiva shrines; sacred fire (yajna)",
+  "built_year": 1895,
+  "built_century_text": "Late 19th century: established as a pilgrimage centre by Swami Hamsananda (Narayan Gautam), who is said to have lit the continuous sacrificial fire on Baisakh full moon 1952 BS (1895 CE)",
+  "dynasty": null,
+  "architecture": "Hilltop ashram of white and pink plastered temples with stepped slate roofs and small gilded pinnacles, set behind dry-stone walls and railings among palms and pines at about 2,100 m.",
+  "unesco": false,
+  "short": "Hilltop ashram in Pyuthan where a sacred fire is said to have burned since 1895, honouring cows and Swami Hamsananda.",
+  "story": "Catch your breath: you have climbed to about 2,100 metres, and the hills of Pyuthan roll away below you. Swargadwari means gateway to heaven. Local belief says the five Pandava brothers worshipped Shiva here for the last time before climbing to heaven. The ashram you see was founded by a guru called Swami Hamsananda, born Narayan Gautam, who spent much of his life in these hills herding and milking thousands of cows. That is why cows are honoured here so specially. Accounts say that on the full moon of Baisakh in 1952 BS, around 1895, he started an unbroken fire sacrifice for world peace, and devotees say the flame has been kept burning ever since. Walk past the stone walls to the white temple with its slate roof and gold pinnacle, and look in at the main image. If you come on Baisakh or Kartik full moon, you will share the hill with crowds of pilgrims.",
+  "legend": "The Pandavas are believed to have worshipped Mahadev here for the last time before ascending to heaven in the Dwapara Yuga.",
+  "facts": [
+   "Wikipedia gives its altitude as about 2,100 m; other sources say 2,121 m or 2,300 m.",
+   "It is said to have been founded by Swami Hamsananda (Narayan Gautam), who herded thousands of cows here.",
+   "Devotees hold that a sacrificial fire lit in 1895 has burned continuously since.",
+   "It is listed in Nepal's national inventory of cultural and historic heritage sites.",
+   "After the civil war, donations of fodder fell so low that the resident cattle were at risk of starving."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 120,
+   "hours_note": "Hilltop pilgrimage site reached by a steep road or trail from Bhingri side; no official hours published.",
+   "fee_note": "No entry fee found."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Baisakh Purnima",
+    "name_np": "बैशाख पूर्णिमा",
+    "month": "Baisakh",
+    "note": "Full-moon fair marking the day the sacred fire is said to have been lit in 1895."
+   },
+   {
+    "name": "Kartik Purnima",
+    "name_np": "कार्तिक पूर्णिमा",
+    "month": "Kartik",
+    "note": "Kartik full-moon pilgrimage fair at the ashram."
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Swargadwari_temple.jpg/1280px-Swargadwari_temple.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Swargadwari_temple.jpg",
+   "author": "Niraj Subedi",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 10,
+   "footprint_m": [
+    60,
+    40
+   ],
+   "walls": "white-plaster",
+   "roof": "slate",
+   "colors": [
+    "#F2F0EA",
+    "#E3A5B0",
+    "#6E6A63"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "fence-railing",
+    "flags-red",
+    "trident"
+   ],
+   "surroundings": [
+    "hilltop",
+    "forest",
+    "village"
+   ],
+   "notes": "White two-tier temple with grey slate roofs and a gold finial, pink side shrines, dry-stone walls and tall palm trees on a hilltop. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "What does 'Swargadwari' mean?",
+    "options": [
+     "River of gold",
+     "Gateway to heaven",
+     "Abode of snow",
+     "Hill of cows"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Swarga means heaven and dwar means gate."
+   },
+   {
+    "q": "In which district is Swargadwari?",
+    "options": [
+     "Rolpa",
+     "Pyuthan",
+     "Dang",
+     "Gulmi"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Swargadwari is in Pyuthan District, Lumbini Province."
+   },
+   {
+    "q": "Which animals are especially honoured at Swargadwari?",
+    "options": [
+     "Elephants",
+     "Cows",
+     "Monkeys",
+     "Peacocks"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The founder herded thousands of cows, and the site commemorates their special role in Hinduism."
+   },
+   {
+    "q": "Which epic heroes are said to have worshipped here before going to heaven?",
+    "options": [
+     "The Pandavas",
+     "Rama and Lakshmana",
+     "The Kauravas",
+     "The Saptarishi"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Local belief links the site to the Pandavas' last worship of Shiva."
+   },
+   {
+    "q": "In about which year is the continuous sacred fire said to have been lit?",
+    "options": [
+     "1768",
+     "1895",
+     "1951",
+     "1990"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Accounts date it to Baisakh full moon 1952 BS, about 1895 CE."
+   }
+  ],
+  "clues": [
+   "A cowherd guru lit a fire on a hilltop, and devotees say it has never gone out.",
+   "My name promises a door to heaven, and five epic brothers are said to have prayed here on their way."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Swargadwari",
+   "https://kathmandupost.com/travel/2020/01/18/gateway-to-heaven-and-beyond",
+   "https://nepaltraveller.com/sidetrack/swargadwari-pyuthanthe-gateway-that-keeps-its-promises",
+   "https://www.openstreetmap.org/way/804148107",
+   "https://commons.wikimedia.org/wiki/Category:Swargadwari"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Swargdwari.jpg/1280px-Swargdwari.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Swargdwari.jpg",
+    "author": "Niraj Subedi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The main image of the Swargadwari temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/View_of_Swargadwari_Temple_Phythan.jpg/1280px-View_of_Swargadwari_Temple_Phythan.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:View_of_Swargadwari_Temple_Phythan.jpg",
+    "author": "Bishal Budhathoki",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple complex on its hilltop"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sunrise_view_from_swargadwari.JPG/1280px-Sunrise_view_from_swargadwari.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Sunrise_view_from_swargadwari.JPG",
+    "author": "Araz cafle",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Sunrise from Swargadwari"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/View_of_mountain_range_from_swargadwari.JPG/1280px-View_of_mountain_range_from_swargadwari.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:View_of_mountain_range_from_swargadwari.JPG",
+    "author": "Araz cafle",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Mountain view from the ashram"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Swargadwari.jpg/1280px-Swargadwari.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Swargadwari.jpg",
+    "author": "Niraj Subedi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Another view of Swargadwari"
+   }
+  ]
+ },
+ {
+  "slug": "bageshwori-temple-nepalgunj",
+  "name": "Bageshwori Temple",
+  "name_np": "बागेश्वरी मन्दिर",
+  "alt_names": [
+   "Bageshwari Temple",
+   "Bageshwari Mandir, Nepalgunj"
+  ],
+  "city": "Nepalgunj",
+  "zone": null,
+  "province": "Lumbini",
+  "district": "Banke",
+  "lat": 28.061796,
+  "lng": 81.623814,
+  "coord_source": "OpenStreetMap node 1323518139 (Bageshwari Temple)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Bageshwori (Bhagawati, Shakti Peetha of Sati's tongue)",
+  "built_year": null,
+  "built_century_text": "Shrine identified after Banke and the 'Naya Muluk' districts were returned to Nepal (1860); rebuilt several times, notably after 2025 BS and 2033 BS (1968 and 1976 CE)",
+  "dynasty": null,
+  "architecture": "Modern three-tier pagoda-style temple with copper-sheathed roofs edged in red, gilded pillars and rows of bells around the sanctum, set in a paved courtyard. Beside it lies the Siddha Pokhari pond with a Mahadev shrine in the middle.",
+  "unesco": false,
+  "short": "Busy Shakti Peetha in central Nepalgunj where Sati's tongue is believed to have fallen, beside the Siddha Pokhari pond.",
+  "story": "Step off the busy streets of Nepalgunj into this bright courtyard and listen to the bells. Devotees believe this is the spot where the tongue of the goddess Sati fell to earth, making it one of her Shakti Peethas. In Nepali, tongue is jibro, and local tradition says the goddess's name changed from Bakyeshwari, lady of speech, to Bageshwari. The story goes that a holy man and his disciple, on their way to Pashupati, spent a night here, and the goddess told the guru in a dream that her seat was in a hollow in the ground. Pilgrims still look into that hollow. The chief priests trace their line back to that disciple. Walk round to the Siddha Pokhari pond. In its middle stands a Mahadev temple whose image of Shiva has a moustache, which locals say is the only one of its kind. Come at Dashain, when soldiers and police carry in the Fulpati on Saptami.",
+  "legend": "A wandering holy man bound for Pashupati dreamed that the goddess's seat lay in a hollow here; the temple was founded on that spot, and Sati's tongue is believed to have fallen there.",
+  "facts": [
+   "It stands in Gharbari Tol, ward 2 of Nepalgunj, Banke District.",
+   "Devotees count it among the Shakti Peethas, where Sati's tongue is believed to have fallen.",
+   "The chief priests are said to descend from the disciple who came with the founding holy man.",
+   "During Dashain the army and police bring in the Fulpati on Saptami.",
+   "The Mahadev temple in the Siddha Pokhari has an image of Shiva with a moustache."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 40,
+   "hours_note": "Active temple in the city centre; no official hours published.",
+   "fee_note": "No entry fee found."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Dashain",
+    "name_np": "दशैँ",
+    "month": "Ashwin",
+    "note": "Huge crowds on Saptami, Ashtami and Navami; the Fulpati arrives on Saptami and sacrifices are offered on Ashtami."
+   },
+   {
+    "name": "Maha Shivaratri",
+    "name_np": "महाशिवरात्रि",
+    "month": "Falgun",
+    "note": "Crowds worship at the Mahadev temple in the Siddha Pokhari."
+   },
+   {
+    "name": "Teej",
+    "name_np": "तीज",
+    "month": "Bhadra",
+    "note": "Women gather at the temple during Teej."
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Bageshwari_Temple.jpg/1280px-Bageshwari_Temple.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Bageshwari_Temple.jpg",
+   "author": "Ricky Partel",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": 15,
+   "footprint_m": [
+    20,
+    20
+   ],
+   "walls": "ochre-plaster",
+   "roof": "copper",
+   "colors": [
+    "#E8721C",
+    "#C8102E",
+    "#E7E3D6"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "bell",
+    "lion-statues",
+    "trident",
+    "flags-red"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "pond",
+    "city-street",
+    "market-houses"
+   ],
+   "notes": "Three stacked pale metal roofs trimmed in red with a gold pinnacle and red flag; orange-red pillared ground floor hung with bells; lion statues at the steps. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "In which city is Bageshwori Temple?",
+    "options": [
+     "Butwal",
+     "Nepalgunj",
+     "Dhangadhi",
+     "Tulsipur"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is in central Nepalgunj, Banke District."
+   },
+   {
+    "q": "Which part of Sati is believed to have fallen here?",
+    "options": [
+     "Tongue",
+     "Eye",
+     "Hand",
+     "Heart"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Tradition says Sati's tongue (jibro) fell here, making it a Shakti Peetha."
+   },
+   {
+    "q": "What is unusual about the Mahadev image in the Siddha Pokhari?",
+    "options": [
+     "It is made of gold",
+     "It has a moustache",
+     "It has five faces",
+     "It floats"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Locals say it is the only Mahadev with a moustache."
+   },
+   {
+    "q": "Who carries in the Fulpati on Dashain Saptami?",
+    "options": [
+     "Priests only",
+     "Army and police",
+     "School children",
+     "The mayor"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The army and police bring the Fulpati into the temple."
+   },
+   {
+    "q": "Where was the founding holy man travelling to when he dreamed of the goddess?",
+    "options": [
+     "Muktinath",
+     "Pashupati",
+     "Janakpur",
+     "Lumbini"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "He and his disciple were on their way to Pashupati."
+   }
+  ],
+  "clues": [
+   "A goddess of speech is said to have left her tongue here, in a hollow you can still look into.",
+   "Beside my courtyard, a pond holds a Shiva with a moustache in a western Terai city."
+  ],
+  "sources": [
+   "https://ne.wikipedia.org/wiki/बागेश्वरी_मन्दिर,_नेपालगन्ज",
+   "https://www.wikidata.org/wiki/Q13183892",
+   "https://www.openstreetmap.org/node/1323518139",
+   "https://commons.wikimedia.org/wiki/File:Bageshwari_Temple.jpg"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Bageshwari_Temple%2C_Nepalgunj%2C_Nepal.jpg/1280px-Bageshwari_Temple%2C_Nepalgunj%2C_Nepal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bageshwari_Temple,_Nepalgunj,_Nepal.jpg",
+    "author": "Mohan K. Duwal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple in the heart of Nepalgunj"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Jungeshwor_Mahadev%28Bageshwari_Temple%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Jungeshwor_Mahadev(Bageshwari_Temple).jpg",
+    "author": "Aradhya Shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The Mahadev shrine in the pond beside the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Bageshwori_Temple_Nepalgunj_Banke_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Bageshwori_Temple_Nepalgunj_Banke_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bageshwori_Temple_Nepalgunj_Banke_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The pagoda roofs of Bageshwori temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bageshwori_Temple_%281%29.JPG/1280px-Bageshwori_Temple_%281%29.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bageshwori_Temple_(1).JPG",
+    "author": "Bijay chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Devotees in the temple courtyard"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Bageshwori_Mandir.JPG/1280px-Bageshwori_Mandir.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bageshwori_Mandir.JPG",
+    "author": "Raajiv Kilana Shrestha",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Another view of the temple"
+   }
+  ]
+ },
+ {
+  "slug": "janaki-mandir",
+  "name": "Janaki Mandir",
+  "name_np": "जानकी मन्दिर",
+  "alt_names": [
+   "Janaki Temple",
+   "Nau Lakha Mandir",
+   "Sita Mandir",
+   "Ram Janaki Temple"
+  ],
+  "city": "Janakpur",
+  "zone": null,
+  "province": "Madhesh",
+  "district": "Dhanusha",
+  "lat": 26.730411,
+  "lng": 85.92566,
+  "coord_source": "OpenStreetMap node 3595105449 (Janaki Mandir); Wikidata Q3161830 gives 26.730400, 85.925700",
+  "type": "palace",
+  "religion": "Hindu",
+  "deity": "Sita (Janaki), with Rama",
+  "built_year": 1910,
+  "built_century_text": "Completed in 1910 CE by Queen Vrisha Bhanu of Orchha (Tikamgarh); on the spot where a golden image of Sita was reportedly found in 1657 by the saint Shurkishordas",
+  "dynasty": null,
+  "architecture": "Three-storey palace-like temple built entirely of stone and marble, fully white, over about 1,480 square metres. Its facade rises in domes, turrets and latticed windows; 60 rooms are decorated with coloured glass, engravings and paintings, and walls carry Madhubani paintings.",
+  "unesco": false,
+  "short": "Gleaming white marble temple of Sita in Janakpur, called the Nau Lakha Mandir after its nine-lakh building cost.",
+  "story": "Shade your eyes: the white marble glows in the Terai sun. This is the Janaki Mandir, the temple of Sita, called Janaki because she was the daughter of King Janak of Mithila. People also call it the Nau Lakha Mandir, the nine-lakh temple, because its building is said to have cost about nine lakh coins. It was completed in 1910 by Queen Vrisha Bhanu of Orchha in central India. Tradition says that in 1657 the saint Shurkishordas found a golden image of Sita on this very spot, and that King Janak once worshipped Shiva's bow here. Look up at the domes and turrets, then step inside, where the temple holds some 60 rooms decorated with coloured glass, engravings and paintings, and Madhubani art on the walls. Next door is the wedding pavilion where, Hindus believe, Sita chose Rama as her husband. Come at Vivaha Panchami to see that wedding re-enacted.",
+  "legend": "The Sita Swayamvara, in which Sita chose Rama after he broke Shiva's bow, is believed to have taken place here; King Janak is said to have worshipped the bow on this site.",
+  "facts": [
+   "Queen Vrisha Bhanu of Orchha (Tikamgarh) built the temple in 1910.",
+   "It is called Nau Lakha Mandir because building it cost about nine lakh coins.",
+   "The three-storey temple covers about 1,480 square metres and is built of stone and marble.",
+   "It was placed on UNESCO's World Heritage Tentative List in 2008.",
+   "Nepal has declared the temple area a protected monument zone under the Ancient Monuments Preservation Act, 1956."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 60,
+   "hours_note": "Active temple in central Janakpur; no official hours published.",
+   "fee_note": "No official entry fee schedule found for the temple."
+  },
+  "earthquake_2015": "Reports on 26 April 2015 said the temple had partly collapsed in the April 2015 earthquake.",
+  "festivals": [
+   {
+    "name": "Vivaha Panchami",
+    "name_np": "विवाह पञ्चमी",
+    "month": "Mangsir",
+    "note": "Celebrates the wedding of Rama and Sita; the marriage is re-enacted in Janakpur."
+   },
+   {
+    "name": "Ram Navami",
+    "name_np": "राम नवमी",
+    "month": "Chaitra",
+    "note": "Rama's birthday draws thousands of pilgrims to the temple."
+   },
+   {
+    "name": "Dashain",
+    "name_np": "दशैँ",
+    "month": "Ashwin",
+    "note": "Major festival when the temple is crowded with worshippers."
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Janaki_Temple_Janakpurdham_%2CNepal.jpg/1280px-Janaki_Temple_Janakpurdham_%2CNepal.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Janaki_Temple_Janakpurdham_,Nepal.jpg",
+   "author": "Rashikafle",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "dome-temple",
+   "tiers": 3,
+   "plinth_steps": 2,
+   "plinth_shape": "rectangular",
+   "height_m": 25,
+   "footprint_m": [
+    50,
+    30
+   ],
+   "walls": "white-plaster",
+   "roof": "white-dome",
+   "colors": [
+    "#F7F5EF",
+    "#E07B2A",
+    "#C9302C"
+   ],
+   "features": [
+    "domes-multiple",
+    "minaret-turrets",
+    "arched-windows",
+    "carved-windows",
+    "flags-red"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "garden-lawn",
+    "city-street",
+    "pond"
+   ],
+   "notes": "Symmetrical white marble facade with a big central dome, many small domed turrets (chhatris) and arched latticed windows, orange flags on top. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "To which goddess is Janaki Mandir dedicated?",
+    "options": [
+     "Durga",
+     "Sita",
+     "Lakshmi",
+     "Parvati"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Janaki is a name of Sita, daughter of King Janak."
+   },
+   {
+    "q": "Why is it called the Nau Lakha Mandir?",
+    "options": [
+     "It has nine lakh bricks",
+     "It cost about nine lakh coins",
+     "Nine lakh pilgrims built it",
+     "It is nine storeys tall"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Its construction cost about nine lakh coins."
+   },
+   {
+    "q": "Who built the present temple?",
+    "options": [
+     "Jung Bahadur Rana",
+     "Queen Vrisha Bhanu of Orchha",
+     "King Janak",
+     "Amar Singh Thapa"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Queen Vrisha Bhanu of Orchha completed it in 1910."
+   },
+   {
+    "q": "Which festival re-enacts the wedding of Rama and Sita here?",
+    "options": [
+     "Teej",
+     "Vivaha Panchami",
+     "Holi",
+     "Chhath"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Vivaha Panchami in Mangsir celebrates their marriage."
+   },
+   {
+    "q": "In what year was a golden image of Sita reportedly found on the site?",
+    "options": [
+     "1657",
+     "1769",
+     "1910",
+     "1934"
+    ],
+    "answer_index": 0,
+    "difficulty": 5,
+    "explanation": "Shurkishordas is said to have found it in 1657."
+   }
+  ],
+  "clues": [
+   "Nine lakh coins built my white marble walls for a princess who chose her husband by a broken bow.",
+   "A queen from central India finished me in 1910 in the old capital of Mithila."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Janaki_Mandir",
+   "https://www.wikidata.org/wiki/Q3161830",
+   "https://www.openstreetmap.org/node/3595105449",
+   "https://commons.wikimedia.org/wiki/Category:Janaki_Mandir"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Janaki_temple_janakpurdham_nepal.jpg/1280px-Janaki_temple_janakpurdham_nepal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Janaki_temple_janakpurdham_nepal.jpg",
+    "author": "Crish mandal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple illuminated at night"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/2009-03_Janakpur_05.jpg/1280px-2009-03_Janakpur_05.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:2009-03_Janakpur_05.jpg",
+    "author": "Ralf Lotys (Sicherlich)",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "caption": "The white facade of Janaki Mandir"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Inside_view_of_the_Janki_Mandir_of_Janakpur%2C_Nepal..JPG/1280px-Inside_view_of_the_Janki_Mandir_of_Janakpur%2C_Nepal..JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Inside_view_of_the_Janki_Mandir_of_Janakpur,_Nepal..JPG",
+    "author": "User:Adutta.np",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Inside the temple of Ram and Sita"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Interior_View_of_Janaki_Temple%2C_Janakpur-September_22%2C_2016-IMG_7460-Pano.jpg/1280px-Interior_View_of_Janaki_Temple%2C_Janakpur-September_22%2C_2016-IMG_7460-Pano.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Interior_View_of_Janaki_Temple,_Janakpur-September_22,_2016-IMG_7460-Pano.jpg",
+    "author": "Bijay chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Panorama of the inner courtyard"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Janaki_Mandir_of_Janakpurdham%2C_Nepal.jpg/1280px-Janaki_Mandir_of_Janakpurdham%2C_Nepal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Janaki_Mandir_of_Janakpurdham,_Nepal.jpg",
+    "author": "Aditya Pal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Wide view of the temple front"
+   }
+  ]
+ },
+ {
+  "slug": "ram-mandir-janakpur",
+  "name": "Ram Mandir, Janakpur",
+  "name_np": "राम मन्दिर, जनकपुर",
+  "alt_names": [
+   "Ram Temple Janakpur",
+   "Rajdevi Mandir complex"
+  ],
+  "city": "Janakpur",
+  "zone": null,
+  "province": "Madhesh",
+  "district": "Dhanusha",
+  "lat": 26.72837,
+  "lng": 85.92686,
+  "coord_source": "English Wikipedia article coordinates (Wikidata Q127425128 has none); an OpenStreetMap 'ram mandir' point (node 6972975189) lies 30 m away",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Rama",
+  "built_year": 1782,
+  "built_century_text": "First built in the 17th century by Chaturbhuj Giri; rebuilt in 1782 by the Gorkhali general Amar Singh Thapa",
+  "dynasty": "Shah (Gorkhali rebuilding)",
+  "architecture": "Two-tiered Nepali pagoda temple of exposed red brick with carved timber struts, rows of small bells under the eaves and a gilded pinnacle, standing in a paved courtyard with stone columns. The Rajdevi Shakti temple shares the complex.",
+  "unesco": false,
+  "short": "One of Janakpur's oldest temples, a red-brick pagoda to Rama rebuilt in 1782 by General Amar Singh Thapa.",
+  "story": "Here, in the plains of Mithila, you are looking at something unusual: a hill-style Nepali pagoda. This is the Ram Mandir, one of the oldest temples in Janakpur. Its first shrine is credited to a holy man named Chaturbhuj Giri in the seventeenth century. In 1782 the Gorkhali general Amar Singh Thapa rebuilt it in the pagoda style you see today, with two brick storeys, carved timber struts and a gilded pinnacle. Count the little bells hanging under the roof edges; they ring when the wind blows. The temple stands directly in front of the sacred Dhanush Sagar, one of Janakpur's many holy ponds, so take a moment to look across the water. Inside the same complex is the Rajdevi Mandir, a Shakti shrine. Janakpur believes Sita was born and married here, so a temple to her husband Rama feels very much at home a short walk from the Janaki Mandir.",
+  "legend": null,
+  "facts": [
+   "It is one of the oldest Hindu temples in Janakpur.",
+   "Chaturbhuj Giri is credited with building the first temple in the 17th century.",
+   "The Gorkhali general Amar Singh Thapa rebuilt it in 1782.",
+   "It is built in traditional Nepali pagoda style, unlike most Terai temples.",
+   "It stands in front of the Dhanush Sagar pond and includes the Rajdevi Shakti temple."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Active temple near the Janaki Mandir; no official hours published.",
+   "fee_note": "No entry fee found."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Ram Navami",
+    "name_np": "राम नवमी",
+    "month": "Chaitra",
+    "note": "Rama's birthday, celebrated across Janakpur's temples."
+   },
+   {
+    "name": "Vivaha Panchami",
+    "name_np": "विवाह पञ्चमी",
+    "month": "Mangsir",
+    "note": "Janakpur celebrates the wedding of Rama and Sita."
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Main_Mandir_of_Ram_Mandir%2C_Janakpur-September_22%2C_2016-IMG_7622.jpg/1280px-Main_Mandir_of_Ram_Mandir%2C_Janakpur-September_22%2C_2016-IMG_7622.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Main_Mandir_of_Ram_Mandir,_Janakpur-September_22,_2016-IMG_7622.jpg",
+   "author": "Bijay chaurasia",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 12,
+   "footprint_m": [
+    12,
+    12
+   ],
+   "walls": "red-brick",
+   "roof": "copper",
+   "colors": [
+    "#A9512F",
+    "#5B4636",
+    "#C9A54A"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "bell",
+    "carved-windows"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "pond",
+    "city-street"
+   ],
+   "notes": "Compact two-tier brick pagoda with dark timber struts, fringe of small bells and a tall gilded spire, beside squat red stone columns on a pale paved court. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "Which god is worshipped in Janakpur's Ram Mandir?",
+    "options": [
+     "Krishna",
+     "Rama",
+     "Shiva",
+     "Hanuman"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The temple is devoted to Lord Rama."
+   },
+   {
+    "q": "Who rebuilt the Ram Mandir in 1782?",
+    "options": [
+     "Bhimsen Thapa",
+     "Amar Singh Thapa",
+     "Jung Bahadur Rana",
+     "Prithvi Narayan Shah"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The Gorkhali general Amar Singh Thapa rebuilt it."
+   },
+   {
+    "q": "What architectural style is the Ram Mandir?",
+    "options": [
+     "Shikhara",
+     "Nepali pagoda",
+     "Mughal dome",
+     "Stupa"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It is built in the traditional Nepalese pagoda style."
+   },
+   {
+    "q": "Which pond lies directly in front of the temple?",
+    "options": [
+     "Ganga Sagar",
+     "Dhanush Sagar",
+     "Rani Pokhari",
+     "Siddha Pokhari"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The temple faces the sacred Dhanush Sagar."
+   },
+   {
+    "q": "Which Shakti shrine is inside the Ram Mandir complex?",
+    "options": [
+     "Rajdevi Mandir",
+     "Guhyeshwari",
+     "Kankali",
+     "Bageshwori"
+    ],
+    "answer_index": 0,
+    "difficulty": 5,
+    "explanation": "The Rajdevi Mandir, a Shaktipeetha, is within the complex."
+   }
+  ],
+  "clues": [
+   "A Gorkhali general rebuilt me in 1782 as a hill-style pagoda on the plains of Mithila.",
+   "I face a sacred pond named after a famous bow, a short walk from a white marble palace-temple."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ram_Mandir,_Janakpur",
+   "https://en.wikipedia.org/wiki/Janaki_Mandir",
+   "https://www.wikidata.org/wiki/Q127425128",
+   "https://commons.wikimedia.org/wiki/Category:Ram_Mandir,_Janakpur"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Gajur_of_Ram_Mandir%2C_Janakpur-September_22%2C_2016-IMG_7623.jpg/1280px-Gajur_of_Ram_Mandir%2C_Janakpur-September_22%2C_2016-IMG_7623.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gajur_of_Ram_Mandir,_Janakpur-September_22,_2016-IMG_7623.jpg",
+    "author": "Bijay chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The gilded pinnacle (gajur) of the Ram Mandir"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Eastern_entrance_of_Rajdevi_Temple%2C_Janakpur-September_22%2C_2016-IMG_7608.jpg/1280px-Eastern_entrance_of_Rajdevi_Temple%2C_Janakpur-September_22%2C_2016-IMG_7608.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Eastern_entrance_of_Rajdevi_Temple,_Janakpur-September_22,_2016-IMG_7608.jpg",
+    "author": "Bijay chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Eastern entrance of the Rajdevi temple in the complex"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ram_Mandir%2C_Janakpur-September_22%2C_2016-IMG_7610.jpg/1280px-Ram_Mandir%2C_Janakpur-September_22%2C_2016-IMG_7610.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ram_Mandir,_Janakpur-September_22,_2016-IMG_7610.jpg",
+    "author": "Bijay chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Inside the Ram Mandir complex"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Ram_Mandir%2C_Janakpur-September_22%2C_2016-IMG_7615.jpg/1280px-Ram_Mandir%2C_Janakpur-September_22%2C_2016-IMG_7615.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ram_Mandir,_Janakpur-September_22,_2016-IMG_7615.jpg",
+    "author": "Bijay chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Shrines in the temple courtyard"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ram_Mandir%2C_Janakpur-September_22%2C_2016-IMG_7638.jpg/1280px-Ram_Mandir%2C_Janakpur-September_22%2C_2016-IMG_7638.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ram_Mandir,_Janakpur-September_22,_2016-IMG_7638.jpg",
+    "author": "Bijay chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Another view of the Ram Mandir complex"
+   }
+  ]
+ },
+ {
+  "slug": "dhanusha-dham",
+  "name": "Dhanusha Dham (Dhanush Mandir)",
+  "name_np": "धनुषाधाम (धनुष मन्दिर)",
+  "alt_names": [
+   "Dhanushadham",
+   "Dhanush Mandir",
+   "Dhanusha Dham Temple"
+  ],
+  "city": "Dhanushadham",
+  "zone": null,
+  "province": "Madhesh",
+  "district": "Dhanusha",
+  "lat": 26.83066,
+  "lng": 86.057003,
+  "coord_source": "OpenStreetMap node 4422055489 (Dhanush Mandir)",
+  "type": "shikhara",
+  "religion": "Hindu",
+  "deity": "Fragment of Shiva's bow (Dhanush), with Rama and Sita",
+  "built_year": null,
+  "built_century_text": null,
+  "dynasty": null,
+  "architecture": "Small modern Terai temple: a low painted enclosure wall in yellow, red and blue with an entrance shrine topped by a small domed shikhara and gilded finial, under a large spreading tree. A fossilised piece said to be part of the bow is venerated inside.",
+  "unesco": false,
+  "short": "Village shrine where a piece of Shiva's bow, broken by Rama to win Sita, is believed to have fallen and turned to stone.",
+  "story": "You have travelled out from Janakpur into the villages of Dhanusha, the district that takes its name from the object honoured here. In the Ramayana, King Janak promised his daughter Sita to whoever could string the mighty bow of Shiva. Prince Rama lifted it, bent it, and snapped it in two. Hindus believe that one piece of that broken bow fell at this spot, and inside the Dhanush Mandir devotees honour a fossilised fragment said to be part of it. Walk through the bright gate painted with the words Sita Ram and pause under the great tree that shades the shrine. Even the district's name, Dhanusha, comes from the bow. Visit in Magh, when the Makar Mela is held on Sundays and, according to Janakpur's heritage catalogue, hundreds of thousands of devotees crowd Dhanushadham. It is a quiet, rural stop on the Ramayana trail around Janakpur.",
+  "legend": "When Rama broke Shiva's bow at Sita's swayamvara in Janakpur, a piece of it is believed to have fallen here, where it lies as a fossil.",
+  "facts": [
+   "It is believed to be where a piece of Shiva's bow fell after Rama broke it at Sita's swayamvara.",
+   "Devotees venerate a fossilised fragment said to come from the bow.",
+   "The Makar Mela, held on Sundays in Magh, draws huge crowds.",
+   "It lies in Dhanushadham Municipality, north-east of Janakpur in Dhanusha District.",
+   "Dhanusha District takes its name from the dhanush, or bow."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Village temple; no official hours published. Sources disagree on distance from Janakpur (about 15 to 40 km).",
+   "fee_note": "No entry fee found."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Makar Mela",
+    "name_np": "मकर मेला",
+    "month": "Magh",
+    "note": "Fair held on Sundays of Magh; hundreds of thousands of devotees visit Dhanushadham."
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Dhanush_Mandir%2C_Dhanushadham_Janakpur.jpg/1280px-Dhanush_Mandir%2C_Dhanushadham_Janakpur.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Dhanush_Mandir,_Dhanushadham_Janakpur.jpg",
+   "author": "Aditya Pal",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "shikhara",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 7,
+   "footprint_m": [
+    40,
+    25
+   ],
+   "walls": "ochre-plaster",
+   "roof": "flat",
+   "colors": [
+    "#F2C230",
+    "#C0392B",
+    "#2D6FB5"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "bell",
+    "sacred-tree"
+   ],
+   "surroundings": [
+    "village",
+    "plains-fields",
+    "sacred-grove"
+   ],
+   "notes": "Long low yellow wall with red base and blue trim, a central gateway shrine with a small yellow dome and gold finial, all under one huge shady tree. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "What object is venerated at Dhanusha Dham?",
+    "options": [
+     "A footprint of Buddha",
+     "A piece of Shiva's bow",
+     "Sita's necklace",
+     "Hanuman's mace"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "A fragment believed to be from Shiva's bow, broken by Rama, is honoured here."
+   },
+   {
+    "q": "Who broke Shiva's bow to win Sita?",
+    "options": [
+     "Lakshmana",
+     "Ravana",
+     "Rama",
+     "Parashurama"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Rama broke the bow at Sita's swayamvara."
+   },
+   {
+    "q": "Which district is named after the bow?",
+    "options": [
+     "Mahottari",
+     "Dhanusha",
+     "Siraha",
+     "Sarlahi"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Dhanusha comes from dhanush, meaning bow."
+   },
+   {
+    "q": "When is the Makar Mela held at Dhanushadham?",
+    "options": [
+     "Saturdays of Baisakh",
+     "Sundays of Magh",
+     "Every full moon",
+     "Only at Dashain"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Janakpur's heritage catalogue says it is held on Sundays in Magh."
+   },
+   {
+    "q": "In what state is the bow fragment said to be preserved?",
+    "options": [
+     "Gold-plated",
+     "Fossilised stone",
+     "Wooden",
+     "Iron"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "It is described as a fossilised bow piece."
+   }
+  ],
+  "clues": [
+   "A prince snapped a god's weapon to win a bride, and a piece is said to have landed here.",
+   "A whole district shares my name, which simply means 'bow'."
+  ],
+  "sources": [
+   "https://janakpurmun.gov.np/sites/janakpurmun.gov.np/files/documents/Janakpur-Heritage-Catalogue-design-hz8wr4.pdf",
+   "https://sacredsites.com/asia/nepal/janakpur.html",
+   "https://embed.wionews.com/photos/janakpur-to-dhanusha-dham-top-hindu-pilgrimage-sites-in-nepal-linked-to-the-ramayana-1757595619323",
+   "https://ne.wikipedia.org/wiki/धनुषाधाम",
+   "https://www.openstreetmap.org/node/4422055489"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Dhanush%28bow%29_of_lord_Ram_at_Dhanush_Mandir%2C_Dhanushadham_Janakpur.jpg/1280px-Dhanush%28bow%29_of_lord_Ram_at_Dhanush_Mandir%2C_Dhanushadham_Janakpur.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dhanush(bow)_of_lord_Ram_at_Dhanush_Mandir,_Dhanushadham_Janakpur.jpg",
+    "author": "Aditya Pal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The stone 'bow' fragment venerated in the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Dhanushadham_Govindapur_Janakpur_Dhanusha_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Dhanushadham_Govindapur_Janakpur_Dhanusha_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dhanushadham_Govindapur_Janakpur_Dhanusha_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The Dhanushadham temple area"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Dhanushadham_Govindapur_Janakpur_Dhanusha_Nepal_Rajesh_Dhungana_%282%29.jpg/1280px-Dhanushadham_Govindapur_Janakpur_Dhanusha_Nepal_Rajesh_Dhungana_%282%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dhanushadham_Govindapur_Janakpur_Dhanusha_Nepal_Rajesh_Dhungana_(2).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Shrines at Dhanushadham"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Dhanushadham_Govindapur_Janakpur_Dhanusha_Nepal_Rajesh_Dhungana_%283%29.jpg/1280px-Dhanushadham_Govindapur_Janakpur_Dhanusha_Nepal_Rajesh_Dhungana_%283%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dhanushadham_Govindapur_Janakpur_Dhanusha_Nepal_Rajesh_Dhungana_(3).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Another view of Dhanushadham"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Dhanushadham_Govindapur_Janakpur_Dhanusha_Nepal_Rajesh_Dhungana_%289%29.jpg/1280px-Dhanushadham_Govindapur_Janakpur_Dhanusha_Nepal_Rajesh_Dhungana_%289%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dhanushadham_Govindapur_Janakpur_Dhanusha_Nepal_Rajesh_Dhungana_(9).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Surroundings of the Dhanush temple"
+   }
+  ]
+ },
+ {
+  "slug": "gadhimai-temple",
+  "name": "Gadhimai Temple",
+  "name_np": "गढीमाई मन्दिर",
+  "alt_names": [
+   "Gadhimai Mandir",
+   "Gadhimai Devi Temple, Bariyarpur"
+  ],
+  "city": "Bariyarpur (Mahagadhimai)",
+  "zone": null,
+  "province": "Madhesh",
+  "district": "Bara",
+  "lat": 26.993022,
+  "lng": 85.046952,
+  "coord_source": "OpenStreetMap way 315262567 (Gadhimai Temple); Wikidata Q5516371 gives 26.993200, 85.046600",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Gadhimai, an aspect of Kali",
+  "built_year": null,
+  "built_century_text": "The Gadhimai festival is said to have begun around 1759; the temple building is modern",
+  "dynasty": null,
+  "architecture": "Small cream-painted shrine with arched openings decorated with relief tigers, a balustraded roof terrace and a stepped two-tier tiled roof in red and gold, set under large trees in an open fairground.",
+  "unesco": false,
+  "short": "Shrine of the goddess Gadhimai in Bara, home of a five-yearly festival known for mass animal sacrifice.",
+  "story": "You are in Bariyarpur, about seven kilometres east of Kalaiya and close to the Indian border. The modest shrine in front of you belongs to Gadhimai, honoured as an aspect of Kali, the goddess of power. Look for the painted tigers marching across its walls. Every five years this quiet place is overwhelmed by the Gadhimai festival, which is said to have begun around 1759, when a local landlord named Bhagwan Chaudhary dreamed in jail that a blood offering to the goddess would set him free. Pilgrims from Nepal and India bring coconuts, sweets and red cloth, and many also bring animals. The festival has been called the largest animal sacrifice event in the world, and it has drawn strong protests from animal rights groups and many Nepali Hindus. In 2019 Nepal's Supreme Court ordered an end to live sacrifices, but reports say the order has been widely ignored. The most recent festival began on 2 December 2024.",
+  "legend": "The festival is said to have begun when Bhagwan Chaudhary, imprisoned, dreamed that Gadhimai would free him if he offered her a blood sacrifice.",
+  "facts": [
+   "The temple is in Mahagadhimai Municipality, about 7 km east of Kalaiya in Bara District.",
+   "The Gadhimai festival is held every five years and is said to date from around 1759.",
+   "An estimated 250,000 or more animals were sacrificed during the 2009 festival.",
+   "Nepal's Supreme Court ordered an end to live animal sacrifice in 2019, but the order is widely ignored.",
+   "The 2024 festival started on 2 December."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Village temple; no official hours published. Festival years bring very large crowds.",
+   "fee_note": "No entry fee found."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Gadhimai Mela",
+    "name_np": "गढीमाई मेला",
+    "month": "Mangsir",
+    "note": "Held every five years (most recently from 2 Dec 2024); notorious for mass animal sacrifice."
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Gadhimai_Temple_%282%29.JPG/1280px-Gadhimai_Temple_%282%29.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Gadhimai_Temple_(2).JPG",
+   "author": "बिप्लब आनन्द",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": 9,
+   "footprint_m": [
+    10,
+    8
+   ],
+   "walls": "white-plaster",
+   "roof": "clay-tile",
+   "colors": [
+    "#EFE6D2",
+    "#B7472A",
+    "#E1B12C"
+   ],
+   "features": [
+    "flags-red",
+    "fence-railing",
+    "sacred-tree",
+    "lamps-diyo"
+   ],
+   "surroundings": [
+    "sacred-grove",
+    "plains-fields",
+    "village"
+   ],
+   "notes": "Cream shrine with ogee arches and big relief tigers on the walls, a white balustrade terrace and a small two-tier red-and-gold tiled roof, under tall trees. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "Gadhimai is considered an aspect of which goddess?",
+    "options": [
+     "Lakshmi",
+     "Saraswati",
+     "Kali",
+     "Sita"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Gadhimai is worshipped as an aspect of Kali, goddess of power."
+   },
+   {
+    "q": "How often is the Gadhimai festival held?",
+    "options": [
+     "Every year",
+     "Every five years",
+     "Every twelve years",
+     "Every leap year"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It takes place every five years."
+   },
+   {
+    "q": "In which district is the Gadhimai Temple?",
+    "options": [
+     "Parsa",
+     "Bara",
+     "Rautahat",
+     "Sarlahi"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It is in Bariyarpur, Mahagadhimai Municipality, Bara District."
+   },
+   {
+    "q": "Which court ordered an end to live animal sacrifice at the festival in 2019?",
+    "options": [
+     "Supreme Court of Nepal",
+     "Bara District Court",
+     "Supreme Court of India",
+     "UN tribunal"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "Nepal's Supreme Court issued the order in 2019."
+   },
+   {
+    "q": "According to tradition, who started the festival after a dream in jail?",
+    "options": [
+     "Bhagwan Chaudhary",
+     "Jung Bahadur Rana",
+     "Nanyadeva",
+     "Amar Singh Thapa"
+    ],
+    "answer_index": 0,
+    "difficulty": 5,
+    "explanation": "Feudal lord Bhagwan Chaudhary is said to have dreamed of offering a sacrifice to be freed."
+   }
+  ],
+  "clues": [
+   "Painted tigers prowl my walls, and every fifth year crowds of pilgrims flood my fields.",
+   "A prisoner's dream around 1759 is said to have begun a festival here that animal-rights campaigners fight to stop."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gadhimai_Temple",
+   "https://en.wikipedia.org/wiki/Gadhimai_festival",
+   "https://newsonair.gov.in/gadhimai-mahotsav-continues-to-be-the-worlds-biggest-animal-slaughter-event",
+   "https://www.wikidata.org/wiki/Q5516371",
+   "https://www.openstreetmap.org/way/315262567",
+   "https://commons.wikimedia.org/wiki/Category:Gadhimai_Temple"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gadhimai_Temple_%281%29.JPG/1280px-Gadhimai_Temple_%281%29.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gadhimai_Temple_(1).JPG",
+    "author": "बिप्लब आनन्द",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Devotees at the Gadhimai shrine"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Gadhimai_Temple_%283%29.JPG/1280px-Gadhimai_Temple_%283%29.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gadhimai_Temple_(3).JPG",
+    "author": "बिप्लब आनन्द",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The shrine and its tiled roof"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gadhimai_Temple_%285%29.JPG/1280px-Gadhimai_Temple_%285%29.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gadhimai_Temple_(5).JPG",
+    "author": "बिप्लब आनन्द",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The temple grounds at Bariyarpur"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Gadhimai_Temple_%286%29.JPG/1280px-Gadhimai_Temple_%286%29.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gadhimai_Temple_(6).JPG",
+    "author": "बिप्लब आनन्द",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Pilgrims around the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Arena_for_Gadhimai_buffalo_sacrifice_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Arena_for_Gadhimai_buffalo_sacrifice_01.jpg",
+    "author": "Wolf Gordon Clifton / Animal People, Inc.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "caption": "The walled arena used during the Gadhimai festival"
+   }
+  ]
+ },
+ {
+  "slug": "chhinnamasta-bhagawati",
+  "name": "Chhinnamasta Bhagawati Temple",
+  "name_np": "छिन्नमस्ता भगवती मन्दिर",
+  "alt_names": [
+   "Chinnamasta Bhagawati",
+   "Sakhada Bhagawati",
+   "Shakhadeswori",
+   "Sakhreswari Bhagawati"
+  ],
+  "city": "Rajbiraj",
+  "zone": null,
+  "province": "Madhesh",
+  "district": "Saptari",
+  "lat": 26.451079,
+  "lng": 86.731189,
+  "coord_source": "OpenStreetMap node 5037212575 (Chinnamasta Bhagawati); English Wikipedia gives 26.451111, 86.731111",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Chhinnamasta Bhagawati (headless form of the goddess)",
+  "built_year": null,
+  "built_century_text": "Founded in the late 13th century by King Shaktisimhadeva (Shakrasimhadeva) of the Karnat dynasty after his overthrow in 1295; damaged by Tughlaq armies in 1324; the present building is modern",
+  "dynasty": "Karnat (Simraungadh)",
+  "architecture": "Three-tier pagoda-style temple with red sheet roofs edged in white, bands of red and yellow under the eaves and a lotus finial, inside a railed queueing yard with a hanging bell and covered pavilions.",
+  "unesco": false,
+  "short": "Saptari's oldest and most revered shrine, founded by a dethroned Karnat king, where the goddess's image has lost its head.",
+  "story": "You are about ten kilometres from Rajbiraj, close to the Indian border, at the most revered shrine in Saptari. Its old name is Sakhada Bhagawati. The story begins in Simraungadh, capital of the Karnat kings of Mithila. In 1295 King Shaktisimhadeva, also called Shakrasimhadeva, was overthrown by his own minister. He came here to spend his last years in forest retreat, cleared the jungle, and set up his goddess, named after him as Sakhreswari. His fort stood nearby, at a place still called Gadhi Gaachhi. In 1324 the armies of Sultan Ghiyasuddin Tughlaq crossed this land on their way to Simraungadh and damaged the temple and its image. Because the goddess's image is headless, people call her Chhinnamasta, she whose head is severed. Step under the red tiered roofs and ring the great bell. At Bada Dashain, thousands of devotees from Nepal and India come here.",
+  "legend": null,
+  "facts": [
+   "It was founded in the 13th century by Shaktisimhadeva, fifth ruler of the Karnat dynasty.",
+   "Shaktisimhadeva was overthrown in a coup by his minister Chadeshwar Thakur in 1295.",
+   "Tughlaq armies damaged the temple and its idol in 1324.",
+   "The name Chhinnamasta refers to the goddess's missing head.",
+   "It is about 10 km from Rajbiraj, in Chhinnamasta Rural Municipality."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 40,
+   "hours_note": "Active temple; no official hours published.",
+   "fee_note": "No entry fee found."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Bada Dashain",
+    "name_np": "बडा दशैँ",
+    "month": "Ashwin",
+    "note": "Thousands of devotees from Nepal and India come to worship Bhagawati."
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Chinnamasta_Bhagawati_Temple_NP_SAP_01.jpg/1280px-Chinnamasta_Bhagawati_Temple_NP_SAP_01.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Chinnamasta_Bhagawati_Temple_NP_SAP_01.jpg",
+   "author": "Bijay chaurasia",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 14,
+   "footprint_m": [
+    14,
+    14
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#C8402E",
+    "#F2F0EA",
+    "#E8B730"
+   ],
+   "features": [
+    "bell",
+    "fence-railing",
+    "flags-red"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "village",
+    "plains-fields"
+   ],
+   "notes": "Three stacked red roofs with white edges and yellow bands, a pink-and-green lotus finial with trident on top; railings and a blue tin-roofed pavilion in front. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "In which district is Chhinnamasta Bhagawati Temple?",
+    "options": [
+     "Siraha",
+     "Saptari",
+     "Sunsari",
+     "Dhanusha"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is in Saptari District, about 10 km from Rajbiraj."
+   },
+   {
+    "q": "What does the name Chhinnamasta refer to?",
+    "options": [
+     "Ten arms",
+     "A severed head",
+     "A golden crown",
+     "A lion mount"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The goddess's image is headless, so she is called Chhinnamasta."
+   },
+   {
+    "q": "Which dynasty's king founded the temple?",
+    "options": [
+     "Malla",
+     "Karnat",
+     "Sen",
+     "Licchavi"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Shaktisimhadeva of the Karnat dynasty of Simraungadh founded it."
+   },
+   {
+    "q": "Whose armies damaged the temple in 1324?",
+    "options": [
+     "Mughal",
+     "Tughlaq",
+     "British",
+     "Gorkhali"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Ghiyasuddin Tughlaq's armies passed through on their way to Simraungadh."
+   },
+   {
+    "q": "What was the temple's historical name?",
+    "options": [
+     "Sakhada Bhagawati",
+     "Kankali Mai",
+     "Bageshwori",
+     "Rajdevi"
+    ],
+    "answer_index": 0,
+    "difficulty": 5,
+    "explanation": "It was known as Sakhada (Sakhreswari) Bhagawati after the king's nickname."
+   }
+  ],
+  "clues": [
+   "A king who lost his throne in 1295 came here to live in the forest and set up his goddess.",
+   "Invading armies passed by in 1324, and the goddess here has been honoured without her head ever since."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chinnamasta_Bhagawati_Temple",
+   "https://en.wikipedia.org/wiki/Simraungadh",
+   "https://www.wikidata.org/wiki/Q13181099",
+   "https://www.openstreetmap.org/node/5037212575",
+   "https://commons.wikimedia.org/wiki/Category:Chinnamasta_Bhagawati_Temple,_Saptari"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Chinnamasta_Bhagawati_Temple%2C_Saptari.jpg/1280px-Chinnamasta_Bhagawati_Temple%2C_Saptari.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chinnamasta_Bhagawati_Temple,_Saptari.jpg",
+    "author": "बिप्लब आनन्द",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The temple of Chhinnamasta Bhagawati"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Chhinamasta.JPG/1280px-Chhinamasta.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chhinamasta.JPG",
+    "author": "बिप्लब आनन्द",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Another view of the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Chinnamasta_Bhagawati_Temple_NP_SAP_02.jpg/1280px-Chinnamasta_Bhagawati_Temple_NP_SAP_02.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chinnamasta_Bhagawati_Temple_NP_SAP_02.jpg",
+    "author": "Bijay chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The tiered roofs and lotus finial"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Chhinnamasta_Temple%2C_Saptari-WLV-0807.jpg/1280px-Chhinnamasta_Temple%2C_Saptari-WLV-0807.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chhinnamasta_Temple,_Saptari-WLV-0807.jpg",
+    "author": "Bijay Chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple compound in Saptari"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Chinnamasta_Bhagwati_Temple_Rajbiraj_%284%29.JPG/1280px-Chinnamasta_Bhagwati_Temple_Rajbiraj_%284%29.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chinnamasta_Bhagwati_Temple_Rajbiraj_(4).JPG",
+    "author": "Bijay chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Devotees at the temple"
+   }
+  ]
+ },
+ {
+  "slug": "simraungadh-ranivas",
+  "name": "Simraungadh and Ranivas Temple",
+  "name_np": "सिम्रौनगढ र रानीवास मन्दिर",
+  "alt_names": [
+   "Simroungarh",
+   "Simraongarh",
+   "Ranivas Ram Janaki Mandir",
+   "Raniwas Temple",
+   "Mahal Sarai"
+  ],
+  "city": "Simraungadh",
+  "zone": null,
+  "province": "Madhesh",
+  "district": "Bara",
+  "lat": 26.889392,
+  "lng": 85.114597,
+  "coord_source": "OpenStreetMap way 659614567 ('Rani Was temple'); Wikidata Q21013701 (municipality) gives 26.889339, 85.116815",
+  "type": "shikhara",
+  "religion": "Hindu",
+  "deity": "Rama and Sita (Ranivas temple); Kankali Mai nearby",
+  "built_year": 1878,
+  "built_century_text": "Capital of the Karnat kings of Mithila from 1097 CE to the early 14th century; the present Ranivas Ram Janaki temple was built in 1878 by Jagat Jung Rana on ruins believed to be the old palace",
+  "dynasty": "Karnat (capital); Rana (Ranivas temple)",
+  "architecture": "White shikhara temple with red and green bands, an arcaded colonnade around the sanctum, small corner spires and a gilded trident finial, raised on a stepped plinth among crumbling brick palace walls and arches of the Ranivas complex.",
+  "unesco": false,
+  "short": "Medieval capital of the Karnat kings of Mithila, where a Rana-era Ram Janaki temple rises from ancient palace ruins.",
+  "story": "Stand among these broken brick arches and imagine a royal city. From 1097 this was Simraungadh, capital of the Karnat kings, founded by Nanyadeva, whose realm covered Tirhut or Mithila on both sides of today's border. The city sat inside earthen ramparts and ditches roughly seven and a half kilometres long, and the Tibetan monk Dharmasvamin passed through in the thirteenth century. In front of you is the white Ranivas temple, also called the Ram Janaki Mandir. Its story is tragic. In 1877 Prime Minister Jung Bahadur Rana died at Patharghat in Rautahat after a hunt near here. His queen Hiranya Garbha Devi, before committing sati, wished for a temple, and their son Jagat Jung Rana built this one in 1878. People believe it stands on the old palace of the Karnat kings. Look inside at the bronze images of Rama and Sita, then visit the Kankali temple and the great Jharokhar pond nearby.",
+  "legend": null,
+  "facts": [
+   "Nanyadeva established the Karnat dynasty at Simraungadh in 1097 CE.",
+   "The fortified city's main enclosure is about 7.5 km north-south and 4.5 km east-west.",
+   "Jagat Jung Rana built the Ranivas Ram Janaki temple in 1878 at the wish of his mother Hiranya Garbha Devi.",
+   "The Ranivas complex is said to cover 600 bighas.",
+   "The nearby Jharokhar pond, about 800 years old, once covered 52 bighas."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 90,
+   "hours_note": "Ranivas lies about 1 km north of Simraungadh market and 2 km from the Indian border; no official hours published.",
+   "fee_note": "No entry fee found."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Ram Navami",
+    "name_np": "राम नवमी",
+    "month": "Chaitra",
+    "note": "Thousands of worshippers from Nepal and India gather at Simraungadh's Kankali temple."
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Raniwas_Temple.jpg/1280px-Raniwas_Temple.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Raniwas_Temple.jpg",
+   "author": "Gaurav Dhwaj Khadka",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200,
+   "verified_via": "WebFetch HTTP 200 + Commons API imageinfo"
+  },
+  "model": {
+   "kind": "shikhara",
+   "tiers": 2,
+   "plinth_steps": 3,
+   "plinth_shape": "square",
+   "height_m": 18,
+   "footprint_m": [
+    16,
+    16
+   ],
+   "walls": "white-plaster",
+   "roof": "stone-spire",
+   "colors": [
+    "#F2F0EA",
+    "#B03A2E",
+    "#6FAF8A"
+   ],
+   "features": [
+    "trident",
+    "arched-windows",
+    "gilded-pinnacle"
+   ],
+   "surroundings": [
+    "village",
+    "plains-fields",
+    "brick-courtyard"
+   ],
+   "notes": "White curved shikhara spire striped red and green with small corner spires, over an arcaded white colonnade on a stepped plinth; ruined brick palace arches around it. Height estimated."
+  },
+  "quiz": [
+   {
+    "q": "Which dynasty made Simraungadh its capital?",
+    "options": [
+     "Malla",
+     "Karnat",
+     "Sen",
+     "Rana"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The Karnat dynasty ruled Mithila from Simraungadh from 1097 CE."
+   },
+   {
+    "q": "Who founded the Karnat dynasty in 1097?",
+    "options": [
+     "Nanyadeva",
+     "Harisimhadeva",
+     "Shiva Singh",
+     "Ram Shah"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Nanyadeva established the kingdom in 1097 CE."
+   },
+   {
+    "q": "Who built the Ranivas Ram Janaki temple in 1878?",
+    "options": [
+     "Jung Bahadur Rana",
+     "Jagat Jung Rana",
+     "Chandra Shumsher",
+     "King Surendra"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Jagat Jung Rana built it at the wish of his mother."
+   },
+   {
+    "q": "In which district is Simraungadh?",
+    "options": [
+     "Parsa",
+     "Bara",
+     "Rautahat",
+     "Saptari"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Simraungadh is a municipality in Bara District."
+   },
+   {
+    "q": "Which Tibetan monk visited Simraungadh in the 13th century?",
+    "options": [
+     "Milarepa",
+     "Dharmasvamin",
+     "Atisha",
+     "Marpa"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "Dharmasvamin passed through during the reign of Rama Singh Deva."
+   }
+  ],
+  "clues": [
+   "Kings of Mithila ruled from here behind earthen ramparts until invaders came in the 14th century.",
+   "A prime minister's widow, before going to the pyre, asked for a temple; her son raised it here on palace ruins."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Simraungadh",
+   "https://www.wikidata.org/wiki/Q21013701",
+   "https://www.openstreetmap.org/way/659614567",
+   "https://commons.wikimedia.org/wiki/Category:Simraungadh"
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Ram_Janaki_Temple_at_Ranibas.jpg/1280px-Ram_Janaki_Temple_at_Ranibas.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ram_Janaki_Temple_at_Ranibas.jpg",
+    "author": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Images of Rama, Sita and Lakshmana in the Ranivas temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Ranivas_Dwarpal.jpg/960px-Ranivas_Dwarpal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ranivas_Dwarpal.jpg",
+    "author": "Scyfie",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "A door-guardian statue at Ranivas"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Jharokhar_Pokhari_Simroungarh.jpg/1280px-Jharokhar_Pokhari_Simroungarh.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Jharokhar_Pokhari_Simroungarh.jpg",
+    "author": "Scyfie",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Jharokhar Pokhari, the great medieval pond"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/12th_century_Stone_Inscription_from_Simroungarh_in_Tirhuta_script.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:12th_century_Stone_Inscription_from_Simroungarh_in_Tirhuta_script.jpg",
+    "author": "Bharat Shah",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "A 12th-century inscription in Tirhuta script from Simraungadh"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Pillar_at_Simroungarh.jpg/1280px-Pillar_at_Simroungarh.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Pillar_at_Simroungarh.jpg",
+    "author": "Scyfie",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "An old stone pillar at Simraungadh"
+   }
+  ]
+ }
+]

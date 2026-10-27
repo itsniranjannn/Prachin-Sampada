@@ -40,7 +40,7 @@ function MatProvider({ children }) {
 const useM = () => useContext(MatCtx);
 
 function wallMat(M, walls, rx = 2, ry = 1) {
-  if (walls === 'white-plaster' || walls === 'whitewashed-stone') return M.mat('plaster', rx, ry, { color: '#f4efe6' });
+  if (walls === 'white-plaster' || walls === 'whitewashed-stone') return M.mat('plaster', rx, ry, { color: '#ffffff', roughness: 0.75 });
   if (walls === 'ochre-plaster') return M.mat('ochre', rx, ry, { color: '#e6c78f' });
   if (walls === 'stone') return M.mat('granite', rx, ry, { color: STONE });
   if (walls === 'timber') return M.mat('wood', rx, ry, { color: '#8a5a3a' });
@@ -419,7 +419,7 @@ function StupaBody({ y0 = 0, scale = 1, f, colors }) {
   const M = useM();
   const eyes = useMemo(() => eyesTexture(), []);
   const grass = colors?.[0] && /^#[4-7][0-9a-f]8/i.test(colors[0]);
-  const domeMat = grass ? M.mat('grass', 3, 3, { color: '#7a9a50' }) : M.mat('plaster', 3, 2, { color: '#f6f1e6' });
+  const domeMat = grass ? M.mat('grass', 3, 3, { color: '#7a9a50' }) : M.mat('plaster', 3, 2, { color: '#ffffff', roughness: 0.75 });
   const harm = new THREE.MeshStandardMaterial({ map: eyes, roughness: 0.8 });
   const plain = M.plain('#d9b55a', { metalness: 0.6, roughness: 0.35 });
   return (
@@ -510,7 +510,11 @@ function PalaceBody({ w = 8, d = 2.6, storeys = 3, walls, roof, f, p = [0, 0, 0]
     out.push(<Box key="gd" s={[0.7, 1.05, 0.08]} p={[-w * 0.3, 0.52, d / 2 + 0.03]} m={M.gold} />);
     out.push(<mesh key="gt" position={[-w * 0.3, 1.12, d / 2 + 0.05]} material={M.gold}><torusGeometry args={[0.42, 0.06, 8, 24, Math.PI]} /></mesh>);
   }
-  out.push(<Roof key="roof" w={w + 0.7} d={d + 0.9} h={0.8} y={sh * storeys - 0.04} m={roofMat(M, roof)} />);
+  if (roof === 'flat') {
+    out.push(<Box key="slab" s={[w + 0.2, 0.16, d + 0.2]} p={[0, sh * storeys + 0.08, 0]} m={wm} />);
+    out.push(<Box key="top" s={[w * 0.35, sh * 0.8, d * 0.6]} p={[0, sh * storeys + 0.16 + sh * 0.4, 0]} m={wm} />);
+    if (f.has('gilded-pinnacle')) out.push(<Gajur key="gj" y={sh * storeys + 0.16 + sh * 0.8} s={0.7} />);
+  } else out.push(<Roof key="roof" w={w + 0.7} d={d + 0.9} h={0.8} y={sh * storeys - 0.04} m={roofMat(M, roof)} />);
   return <group position={p} rotation={[0, r, 0]}>{out}</group>;
 }
 
@@ -559,7 +563,7 @@ function DomeTemple({ walls, colors, f }) {
 
 function Gumba({ f, colors }) {
   const M = useM();
-  const wm = M.mat('plaster', 3, 2, { color: '#f2ede2' });
+  const wm = M.mat('plaster', 3, 2, { color: '#ffffff', roughness: 0.75 });
   const band = M.plain(colors?.[1] && colors[1] !== '#f5f2ea' ? colors[1] : '#7a1f1f', { roughness: 0.9 });
   return (
     <group>
