@@ -19,12 +19,16 @@ test('AT-01 health check', async () => {
   assert.equal(r.data.ok, true);
 });
 
-test('AT-02 catalog metadata: 42 monuments, 7 UNESCO zones', async () => {
+test('AT-02 catalog metadata: 100+ sites in all seven provinces, UNESCO sites, filters by province', async () => {
   const r = await call('/monuments/meta');
   assert.equal(r.status, 200);
-  assert.ok(r.data.monuments >= 42);
-  assert.equal(r.data.unescoZones, 7);
-  assert.ok(r.data.questions >= 200);
+  assert.ok(r.data.monuments >= 100);
+  assert.ok(r.data.unescoZones >= 7);
+  assert.ok(r.data.questions >= 500);
+  assert.equal(r.data.provinces.length, 7);
+  assert.ok(r.data.provinces.every((p) => p.count > 0 && p.image), 'every province has sites and a cover photo');
+  const k = await call('/monuments?province=Karnali');
+  assert.ok(k.data.total > 0 && k.data.results.every((m) => m.province === 'Karnali'));
 });
 
 test('AT-03 search and filters', async () => {

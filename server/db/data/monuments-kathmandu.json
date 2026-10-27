@@ -121,7 +121,106 @@
    "https://www.wikidata.org/wiki/Q6122177",
    "https://www.bhaktapur.com/entry-fees-of-the-heritage-sites-in-nepal/",
    "https://ghalegroup.com/nepal-attractions-fees-timings/"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Indra Jatra",
+    "name_np": "इन्द्र जात्रा",
+    "month": "Bhadra",
+    "note": "Masked dances, the Kumari chariot and the raised Indra pole fill the old royal square"
+   },
+   {
+    "name": "Dashain",
+    "name_np": "दशैं",
+    "month": "Ashwin",
+    "note": "Main Durga festival; the Phulpati procession reaches Hanuman Dhoka on the seventh day"
+   },
+   {
+    "name": "Gai Jatra",
+    "name_np": "गाईजात्रा",
+    "month": "Bhadra",
+    "note": "Families who lost someone that year parade cows and costumed children through the square"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Kathmandu-Durbar_Square-06-Mahavishnu-Kuh-Vishnu-Pratapamalla-Jagannath-2007-gje.jpg/1280px-Kathmandu-Durbar_Square-06-Mahavishnu-Kuh-Vishnu-Pratapamalla-Jagannath-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Durbar_Square-06-Mahavishnu-Kuh-Vishnu-Pratapamalla-Jagannath-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Temples and Pratap Malla's pillar in the square, 2007"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Kathmandu-Durbar_Square-25-Kageshwor-Taleju-Indrapur-Kala_Bhairav-Jagannath-2015-gje.jpg/1280px-Kathmandu-Durbar_Square-25-Kageshwor-Taleju-Indrapur-Kala_Bhairav-Jagannath-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Durbar_Square-25-Kageshwor-Taleju-Indrapur-Kala_Bhairav-Jagannath-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Taleju's roofs above the Kageshwor and Indrapur temples, 2015"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kathmandu-Basantapur_Chowk-46-Basantapur_Durbar-2015-gje.jpg/1280px-Kathmandu-Basantapur_Chowk-46-Basantapur_Durbar-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Basantapur_Chowk-46-Basantapur_Durbar-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Basantapur tower of the old royal palace, 2015"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Kathmandu-Durbar_Square-02-abends-2007-gje.jpg/1280px-Kathmandu-Durbar_Square-02-abends-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Durbar_Square-02-abends-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The square in the evening, 2007"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Kathmandu-Durbar_Square-32-Maju_Dega-Shiva_Parvati-Erdbebenschaden-2015-gje.jpg/1280px-Kathmandu-Durbar_Square-32-Maju_Dega-Shiva_Parvati-Erdbebenschaden-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Durbar_Square-32-Maju_Dega-Shiva_Parvati-Erdbebenschaden-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Earthquake damage around Maju Dega, 2015"
+   }
+  ],
+  "model": {
+   "kind": "square",
+   "tiers": 3,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    250,
+    150
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#c9a227"
+   ],
+   "features": [
+    "carved-struts",
+    "carved-windows",
+    "gilded-pinnacle",
+    "garuda-pillar",
+    "stone-pillar",
+    "bell",
+    "lion-statues",
+    "watchtower"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "newar-houses",
+    "market-houses",
+    "city-street"
+   ],
+   "notes": "Brick palace with a white nine-storey Basantapur tower; tall Maju Dega on nine steps and gilded three-roofed Taleju"
+  }
  },
  {
   "slug": "kasthamandap",
@@ -243,7 +342,57 @@
    "https://thehimalayantimes.com/nepal/president-bhandari-inaugurates-reconstructed-kashthamandap-temple",
    "https://www.sharesansar.com/newsdetail/rebuilding-of-kasthamandap-nears-final-phase-to-be-inaugurated-within-a-few-days-2021-11-23",
    "https://www.thelongestwayhome.com/travel-guides/nepal/kathmandu/kasthamandap.html"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kasthamandap.jpg/1280px-Kasthamandap.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kasthamandap.jpg",
+    "author": "Wonker",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "The original timber pavilion at Maru Tole, before 2015"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Kasthamandap_%28l%29_%26_Maju_Deval_%28r%29%2C_with_Swayambhunath_in_the_Distance_%285198441288%29.jpg/1280px-Kasthamandap_%28l%29_%26_Maju_Deval_%28r%29%2C_with_Swayambhunath_in_the_Distance_%285198441288%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kasthamandap_(l)_&_Maju_Deval_(r),_with_Swayambhunath_in_the_Distance_(5198441288).jpg",
+    "author": "Greg Willis from Denver, CO, usa",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Kasthamandap and Maju Dega, with Swayambhu hill beyond"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    20,
+    20
+   ],
+   "walls": "timber",
+   "roof": "clay-tile",
+   "colors": [
+    "#4a3020",
+    "#8b3a2b",
+    "#c9a227"
+   ],
+   "features": [
+    "carved-struts",
+    "gilded-pinnacle",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "market-houses",
+    "newar-houses"
+   ],
+   "notes": "Broad, squat three-roof timber pavilion with an open pillared ground floor and a Gorakhnath shrine in the middle"
+  }
  },
  {
   "slug": "taleju-temple",
@@ -363,7 +512,80 @@
    "https://www.wikidata.org/wiki/Q83776242",
    "https://www.openstreetmap.org/way/1414600808",
    "https://thelongestwayhome.com/travel-guides/nepal/temples-buildings-destroyed-nepal-earthquake-2015.html"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Dashain",
+    "name_np": "दशैं",
+    "month": "Ashwin",
+    "note": "The only time each year the temple is opened to the public, on Navami"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Kathmandu-Taleju-06-2007-gje.jpg/1280px-Kathmandu-Taleju-06-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Taleju-06-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Taleju Temple's gilded roofs, 2007"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kathmandu-Taleju-10-2013-gje.jpg/1280px-Kathmandu-Taleju-10-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Taleju-10-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Taleju Temple on its stepped plinth, 2013"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Kathmandu-Taleju-16-2015-gje.jpg/1280px-Kathmandu-Taleju-16-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Taleju-16-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Taleju Temple in 2015"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kathmandu-Hanuman_Dhoka-02-vom_Basantapur_Bhavan-Taleju-2013-gje.jpg/1280px-Kathmandu-Hanuman_Dhoka-02-vom_Basantapur_Bhavan-Taleju-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Hanuman_Dhoka-02-vom_Basantapur_Bhavan-Taleju-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Taleju seen from the Basantapur palace wing"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 12,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    30,
+    30
+   ],
+   "walls": "red-brick",
+   "roof": "gilded-copper",
+   "colors": [
+    "#c9a227",
+    "#8b3a2b",
+    "#4a3020"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "toran",
+    "bell"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "newar-houses"
+   ],
+   "notes": "Three gilded roofs on a very tall stepped brick plinth inside a walled compound; the highest temple of the square"
+  }
  },
  {
   "slug": "kumari-ghar",
@@ -487,7 +709,87 @@
    "https://www.openstreetmap.org/node/2659104413",
    "https://www.atlasobscura.com/places/kumari-ghar",
    "https://www.hinduismtoday.com/hpi/2015/05/13/nepal-s-living-goddess-devotees-were-unscathed-by-earthquake/"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Indra Jatra",
+    "name_np": "इन्द्र जात्रा",
+    "month": "Bhadra",
+    "note": "The Kumari leaves her house and is pulled through old Kathmandu on a chariot"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Kathmandu-Kumarihaus-20-Innenhof-2013-gje.jpg/1280px-Kathmandu-Kumarihaus-20-Innenhof-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Kumarihaus-20-Innenhof-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Inner courtyard of the Kumari house, 2013"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Kathmandu-Kumarihaus-22-Fenster-2013-gje.jpg/1280px-Kathmandu-Kumarihaus-22-Fenster-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Kumarihaus-22-Fenster-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Carved windows overlooking the courtyard"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Kathmandu-Kumarihaus-24-Schnitzerei-2013-gje.jpg/1280px-Kathmandu-Kumarihaus-24-Schnitzerei-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Kumarihaus-24-Schnitzerei-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Wood carving detail"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Kumari_Ghar%2C_Kathmandu_Durbar_Square.jpg/1280px-Kumari_Ghar%2C_Kathmandu_Durbar_Square.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kumari_Ghar,_Kathmandu_Durbar_Square.jpg",
+    "author": "Faj2323",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Kumari Ghar facing Durbar Square"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dharma_dhatu_mandal.jpg/1280px-Dharma_dhatu_mandal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dharma_dhatu_mandal.jpg",
+    "author": "Manish dangol",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Dharmadhatu mandala inside the courtyard"
+   }
+  ],
+  "model": {
+   "kind": "courtyard",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    25,
+    25
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#f2efe6"
+   ],
+   "features": [
+    "carved-windows",
+    "lion-statues",
+    "toran"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "newar-houses"
+   ],
+   "notes": "Three-storey brick house with deeply carved latticed windows round a small inner courtyard; white lions guard the door"
+  }
  },
  {
   "slug": "kal-bhairav",
@@ -609,7 +911,92 @@
    "https://www.wikidata.org/wiki/Q106208411",
    "https://www.openstreetmap.org/way/196261745",
    "https://nepalitimes.com/the-mystery-of-the-black-bhairab"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Dashain",
+    "name_np": "दशैं",
+    "month": "Ashwin",
+    "note": "Animal sacrifices are still offered before the image during Dashain"
+   },
+   {
+    "name": "Indra Jatra",
+    "name_np": "इन्द्र जात्रा",
+    "month": "Bhadra",
+    "note": "Masked dances, the Kumari chariot and the raised Indra pole fill the old royal square"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kathmandu-Kal_Bhairav-02-2007-gje.jpg/1280px-Kathmandu-Kal_Bhairav-02-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Kal_Bhairav-02-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The six-armed Kal Bhairav image, 2007"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Kathmandu-Kal_Bhairav-24-Opfergaben-2013-gje.jpg/1280px-Kathmandu-Kal_Bhairav-24-Opfergaben-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Kal_Bhairav-24-Opfergaben-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Offerings at Kal Bhairav's feet, 2013"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Kathmandu-Kal_Bhairav-16-abends-2007-gje.jpg/1280px-Kathmandu-Kal_Bhairav-16-abends-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Kal_Bhairav-16-abends-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Kal Bhairav in the evening"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Kathmandu-Kal_Bhairav-06-Vishnu-Indrapur-Degutale-2015-gje.jpg/1280px-Kathmandu-Kal_Bhairav-06-Vishnu-Indrapur-Degutale-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Kal_Bhairav-06-Vishnu-Indrapur-Degutale-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Kal Bhairav with Vishnu, Indrapur and Degutale temples behind"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Kathmandu-Kal_Bhairav-22-2013-gje.jpg/1280px-Kathmandu-Kal_Bhairav-22-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Kal_Bhairav-22-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Kal Bhairav, 2013"
+   }
+  ],
+  "model": {
+   "kind": "statue",
+   "tiers": 0,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    4,
+    2
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#1f1f1f",
+    "#c9a227",
+    "#a02020"
+   ],
+   "features": [
+    "idol-visible",
+    "fence-railing",
+    "lamps-diyo"
+   ],
+   "surroundings": [
+    "stone-paved-plaza"
+   ],
+   "notes": "Huge black six-armed stone Bhairav with gold crown and skull garland, trampling a demon, behind a low railing"
+  }
  },
  {
   "slug": "jagannath-temple",
@@ -727,7 +1114,55 @@
    "https://www.kvptnepal.org/project/jagannath-temple",
    "https://nepaltraveller.com/sidetrack/jagannath-temple-a-fusion-of-art-and-spirituality",
    "https://thelongestwayhome.com/travel-guides/nepal/temples-buildings-destroyed-nepal-earthquake-2015.html"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Kathmandu-Jagannath-20-vierkoepfige_Gottheit-2013-gje.jpg/1280px-Kathmandu-Jagannath-20-vierkoepfige_Gottheit-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Jagannath-20-vierkoepfige_Gottheit-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Four-headed deity carved on a roof strut"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Jagannath_Temple%2C_Kathmandu_17_May_2019.jpg/1280px-Jagannath_Temple%2C_Kathmandu_17_May_2019.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Jagannath_Temple,_Kathmandu_17_May_2019.jpg",
+    "author": "Alexey Komarov",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Jagannath Temple in May 2019"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 3,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    12,
+    12
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#c9a227"
+   ],
+   "features": [
+    "carved-struts",
+    "gilded-pinnacle"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "market-houses"
+   ],
+   "notes": "Two-roofed brick pagoda on a three-stepped plinth, its roof struts carved with small erotic scenes, beside the palace gate"
+  }
  },
  {
   "slug": "hanuman-dhoka-palace",
@@ -845,7 +1280,103 @@
    "https://www.wikidata.org/wiki/Q12947124",
    "https://www.openstreetmap.org/node/11365076769",
    "https://whc.unesco.org/en/list/121"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Dashain",
+    "name_np": "दशैं",
+    "month": "Ashwin",
+    "note": "Main Durga festival; the Phulpati procession reaches Hanuman Dhoka on the seventh day"
+   },
+   {
+    "name": "Indra Jatra",
+    "name_np": "इन्द्र जात्रा",
+    "month": "Bhadra",
+    "note": "The tall Indra pole (lingo) is raised in front of the palace to open the festival"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kathmandu-Hanuman_Dhoka-Eingang-04-2007-gje.jpg/1280px-Kathmandu-Hanuman_Dhoka-Eingang-04-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Hanuman_Dhoka-Eingang-04-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Palace entrance by the Hanuman statue, 2007"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kathmandu-Hanuman_Dhoka-Nasal_Chowk-02-Pancamukhi_Hanuman_Mandir-2007-gje.jpg/1280px-Kathmandu-Hanuman_Dhoka-Nasal_Chowk-02-Pancamukhi_Hanuman_Mandir-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Hanuman_Dhoka-Nasal_Chowk-02-Pancamukhi_Hanuman_Mandir-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Nasal Chowk and the five-roofed Panchamukhi Hanuman temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Kathmandu-Hanuman_Dhoka-Lohan_Chowk-02-2013-gje.jpg/1280px-Kathmandu-Hanuman_Dhoka-Lohan_Chowk-02-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Hanuman_Dhoka-Lohan_Chowk-02-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Lohan Chowk courtyard, 2013"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kathmandu-Hanuman_Dhoka-Nasal_Chowk-42-Fenster-2013-gje.jpg/1280px-Kathmandu-Hanuman_Dhoka-Nasal_Chowk-42-Fenster-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Hanuman_Dhoka-Nasal_Chowk-42-Fenster-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Carved window in Nasal Chowk"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kathmandu-Hanuman_Dhoka-aussen-02-Inschrift_Pratapamallas-2013-gje.jpg/1280px-Kathmandu-Hanuman_Dhoka-aussen-02-Inschrift_Pratapamallas-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Hanuman_Dhoka-aussen-02-Inschrift_Pratapamallas-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Pratap Malla's stone inscription outside the palace"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Kathmandu-Hanuman_Dhoka-Erdbebenschaden-02-2015-gje.jpg/1280px-Kathmandu-Hanuman_Dhoka-Erdbebenschaden-02-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Hanuman_Dhoka-Erdbebenschaden-02-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Earthquake damage to the palace, 2015"
+   }
+  ],
+  "model": {
+   "kind": "palace",
+   "tiers": 9,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    150,
+    100
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#c0392b"
+   ],
+   "features": [
+    "carved-windows",
+    "carved-struts",
+    "watchtower",
+    "lion-statues",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "brick-courtyard",
+    "stone-paved-plaza"
+   ],
+   "notes": "Red-cloaked Hanuman under an umbrella beside the painted gate; brick wings with carved windows and the nine-storey tower"
+  }
  },
  {
   "slug": "maju-dega",
@@ -966,7 +1497,64 @@
    "https://www.openstreetmap.org/way/183562980",
    "https://thehimalayantimes.com/kathmandu/reconstruction-of-quake-damaged-maju-dega-temple-begins",
    "https://commons.wikimedia.org/wiki/File:Maju_Dega_Temple,_Hanuman_Dhoka_Durbar_Square.jpg"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Kathmandu-Maju_Dega-02-Kamadev-Narayana-2007-gje.jpg/1280px-Kathmandu-Maju_Dega-02-Kamadev-Narayana-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Maju_Dega-02-Kamadev-Narayana-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Maju Dega with the Kamadev and Narayan temples, 2007"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kathmandu-Maju_Dega-06-Kamadev-Narayana-2013-gje.jpg/1280px-Kathmandu-Maju_Dega-06-Kamadev-Narayana-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Maju_Dega-06-Kamadev-Narayana-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Maju Dega's stepped plinth, 2013"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kathmandu-Maju_Dega-12-Erdbebenschaden-2015-gje.jpg/1280px-Kathmandu-Maju_Dega-12-Erdbebenschaden-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Maju_Dega-12-Erdbebenschaden-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Ruins of Maju Dega after the 2015 earthquake"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 9,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    24,
+    24
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#c9a227"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "shiva-lingam"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "market-houses"
+   ],
+   "notes": "Three-roofed Shiva temple raised on a very tall nine-stepped brick plinth where people sit to watch the square"
+  }
  },
  {
   "slug": "ashok-binayak",
@@ -1087,7 +1675,51 @@
    "https://en.wikipedia.org/wiki/Ashok_Binayak_Temple",
    "https://www.openstreetmap.org/node/2084347901",
    "https://www.thelongestwayhome.com/travel-guides/nepal/kathmandu/ashok-binayak-maru-ganesh.html"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Dashain",
+    "name_np": "दशैं",
+    "month": "Ashwin",
+    "note": "The Ganesh image is dressed in a silver or metal cover for the festival"
+   },
+   {
+    "name": "Indra Jatra",
+    "name_np": "इन्द्र जात्रा",
+    "month": "Bhadra",
+    "note": "The image is again decorated with its metal cover"
+   }
+  ],
+  "gallery": [],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    3,
+    3
+   ],
+   "walls": "red-brick",
+   "roof": "gilded-copper",
+   "colors": [
+    "#c9a227",
+    "#a02020",
+    "#8b3a2b"
+   ],
+   "features": [
+    "idol-visible",
+    "bell"
+   ],
+   "surroundings": [
+    "city-street",
+    "newar-houses"
+   ],
+   "notes": "Tiny single-roof shrine plated in gold with no pinnacle on top, hung with bells, on a lane corner by Kasthamandap"
+  }
  },
  {
   "slug": "swayambhunath",
@@ -1213,7 +1845,58 @@
    "https://kathmandupost.com/miscellaneous/2017/01/18/pratappur-temple-demolished",
    "https://thehimalayantimes.com/kathmandu/all-can-enter-swayambhunath-stupa-for-free-on-buddha-jayanti/",
    "https://www.bhaktapur.com/entry-fees-of-the-heritage-sites-in-nepal/"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Buddha Jayanti",
+    "name_np": "बुद्ध जयन्ती",
+    "month": "Baisakh",
+    "note": "Buddha’s birthday; pilgrims climb the hill and circle the stupa"
+   },
+   {
+    "name": "Gunla",
+    "name_np": "गुंला",
+    "month": "Shrawan",
+    "note": "Newar Buddhist holy month; devotees walk up to the stupa each morning with music"
+   }
+  ],
+  "gallery": [],
+  "model": {
+   "kind": "stupa",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "round",
+   "height_m": null,
+   "footprint_m": [
+    30,
+    30
+   ],
+   "walls": "white-plaster",
+   "roof": "white-dome",
+   "colors": [
+    "#f4f1ea",
+    "#c9a227",
+    "#2b4c8c"
+   ],
+   "features": [
+    "dome-white",
+    "harmika",
+    "buddha-eyes",
+    "gilded-pinnacle",
+    "prayer-flags",
+    "prayer-wheels",
+    "chaityas",
+    "bell"
+   ],
+   "surroundings": [
+    "hilltop",
+    "forest",
+    "monks-houses"
+   ],
+   "notes": "White dome on a wooded hilltop; gilded harmika with painted eyes and a 13-ring spire; two white shikharas and a big vajra"
+  }
  },
  {
   "slug": "boudhanath",
@@ -1339,7 +2022,57 @@
    "https://kathmandupost.com/valley/2016/10/31/boudhanath-rebuilding-nears-completion",
    "https://radionepalonline.com/2022/09/08/323963.html",
    "https://www.bhaktapur.com/entry-fees-of-the-heritage-sites-in-nepal/"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Losar",
+    "name_np": "ल्होसार",
+    "month": "Falgun",
+    "note": "Tibetan New Year; crowds circle the stupa and new prayer flags are hung"
+   },
+   {
+    "name": "Buddha Jayanti",
+    "name_np": "बुद्ध जयन्ती",
+    "month": "Baisakh",
+    "note": "Buddha’s birthday; butter lamps are lit and the stupa is circled all day"
+   }
+  ],
+  "gallery": [],
+  "model": {
+   "kind": "stupa",
+   "tiers": 1,
+   "plinth_steps": 3,
+   "plinth_shape": "square",
+   "height_m": 36,
+   "footprint_m": [
+    100,
+    100
+   ],
+   "walls": "white-plaster",
+   "roof": "white-dome",
+   "colors": [
+    "#f4f1ea",
+    "#c9a227",
+    "#b5332e"
+   ],
+   "features": [
+    "dome-white",
+    "harmika",
+    "buddha-eyes",
+    "gilded-pinnacle",
+    "prayer-flags",
+    "prayer-wheels",
+    "lamps-diyo"
+   ],
+   "surroundings": [
+    "monks-houses",
+    "market-houses",
+    "stone-paved-plaza"
+   ],
+   "notes": "Huge white dome on a three-level stepped mandala plinth; gilded harmika with eyes and 13 steps; flags radiate to a ring of houses"
+  }
  },
  {
   "slug": "pashupatinath",
@@ -1459,7 +2192,63 @@
    "https://ghalegroup.com/nepal-attractions-fees-timings/",
    "https://www.bhaktapur.com/entry-fees-of-the-heritage-sites-in-nepal/",
    "https://eastmojo.com/neighbourhood-watch/nepal/2023/06/15/71-heritage-sites-damaged-in-2015-nepal-quake-restored-report/"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Maha Shivaratri",
+    "name_np": "महाशिवरात्रि",
+    "month": "Falgun",
+    "note": "Shiva’s great night; huge crowds and sadhus from Nepal and India"
+   },
+   {
+    "name": "Teej",
+    "name_np": "तीज",
+    "month": "Bhadra",
+    "note": "Women in red fast and queue to worship Shiva for their families"
+   },
+   {
+    "name": "Bala Chaturdashi",
+    "name_np": "बालाचतुर्दशी",
+    "month": "Mangsir",
+    "note": "Seeds are scattered for departed relatives and lamps lit through the night"
+   }
+  ],
+  "gallery": [],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 23.7,
+   "footprint_m": [
+    22,
+    22
+   ],
+   "walls": "red-brick",
+   "roof": "gilded-copper",
+   "colors": [
+    "#c9a227",
+    "#8b3a2b",
+    "#c0c0c0"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "nandi-bull",
+    "trident",
+    "bell",
+    "shiva-lingam"
+   ],
+   "surroundings": [
+    "riverbank-ghats",
+    "river",
+    "sacred-grove",
+    "stone-paved-plaza"
+   ],
+   "notes": "Two-tier gilded pagoda on a square plinth with four silver doors; a huge gilded Nandi bull faces the west door"
+  }
  },
  {
   "slug": "budhanilkantha",
@@ -1580,7 +2369,52 @@
    "https://en.wikipedia.org/wiki/Budhanilkantha_Temple",
    "https://www.wikidata.org/wiki/Q1001415",
    "https://www.openstreetmap.org/way/85552443"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Haribodhini Ekadashi",
+    "name_np": "हरिबोधिनी एकादशी",
+    "month": "Kartik",
+    "note": "Thousands come for the day Vishnu is believed to wake from his four-month sleep"
+   },
+   {
+    "name": "Harishayani Ekadashi",
+    "name_np": "हरिशयनी एकादशी",
+    "month": "Ashadh",
+    "note": "A fair marks the day Vishnu is believed to begin his four-month sleep"
+   }
+  ],
+  "gallery": [],
+  "model": {
+   "kind": "statue",
+   "tiers": 0,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    13,
+    8
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#3a3a3a",
+    "#4a6a6a",
+    "#d9822b"
+   ],
+   "features": [
+    "idol-visible",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "pond",
+    "forest",
+    "garden-lawn"
+   ],
+   "notes": "A 5 m black stone Vishnu reclining on a coiled many-headed serpent, lying in a 13 m rectangular sunken pool"
+  }
  },
  {
   "slug": "bagh-bhairab-kirtipur",
@@ -1699,7 +2533,48 @@
    "https://www.wikidata.org/wiki/Q19680989",
    "https://nepalitimes.com/the-city-of-good-deeds",
    "https://honeyguideapps.com/blog/bagh-bhairav-temple-kirtipur-nepal"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Bagh Bhairab Jatra",
+    "name_np": "बाघ भैरव जात्रा",
+    "month": "Bhadra",
+    "note": "On 1 Bhadra a new image is made and carried round town with music and a Lakhey dance"
+   }
+  ],
+  "gallery": [],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    15,
+    10
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#c9a227"
+   ],
+   "features": [
+    "carved-struts",
+    "gilded-pinnacle",
+    "toran",
+    "bell"
+   ],
+   "surroundings": [
+    "brick-courtyard",
+    "newar-houses",
+    "hilltop"
+   ],
+   "notes": "Three-roofed brick pagoda whose upper walls are hung with old swords and shields, in a brick square on Kirtipur hill"
+  }
  },
  {
   "slug": "seto-machindranath",
@@ -1824,7 +2699,50 @@
    "https://www.wikidata.org/wiki/Q17060445",
    "https://www.wikidata.org/wiki/Q23833903",
    "https://www.openstreetmap.org/way/111984917"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Seto Machindranath Jatra",
+    "name_np": "सेतो मच्छिन्द्रनाथ जात्रा",
+    "month": "Chaitra",
+    "note": "Jana Baha Dyah Jatra: a tall chariot is pulled through old Kathmandu for five days"
+   }
+  ],
+  "gallery": [],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    10,
+    10
+   ],
+   "walls": "red-brick",
+   "roof": "gilded-copper",
+   "colors": [
+    "#c9a227",
+    "#8b3a2b",
+    "#b08d57"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "toran",
+    "golden-door",
+    "lion-statues",
+    "chaityas",
+    "bell"
+   ],
+   "surroundings": [
+    "brick-courtyard",
+    "newar-houses",
+    "market-houses"
+   ],
+   "notes": "Two gilded roofs over a brass-plated front with toranas, standing in a small courtyard crowded with chaityas and pillars"
+  }
  },
  {
   "slug": "rani-pokhari",
@@ -1946,7 +2864,61 @@
    "https://www.wikidata.org/wiki/Q5300315",
    "https://kathmandupost.com/visual-stories/2025/03/24/ranipokhari",
    "https://english.onlinekhabar.com/ranipokhari-open-to-the-public.html"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Bhai Tika",
+    "name_np": "भाइटीका",
+    "month": "Kartik",
+    "note": "Last day of Tihar, the only day the central temple is opened to the public"
+   },
+   {
+    "name": "Chhath",
+    "name_np": "छठ",
+    "month": "Kartik",
+    "note": "Devotees offer prayers to the setting and rising sun from the water’s edge"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rani_pokhari_ca_1950.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rani_pokhari_ca_1950.jpg",
+    "author": "Karrattul",
+    "license": "Public domain",
+    "license_url": null,
+    "caption": "Bird's-eye view of Rani Pokhari, around 1950"
+   }
+  ],
+  "model": {
+   "kind": "pond",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    180,
+    140
+   ],
+   "walls": "white-plaster",
+   "roof": "stone-spire",
+   "colors": [
+    "#4f7b6b",
+    "#ecebe4",
+    "#8b3a2b"
+   ],
+   "features": [
+    "elephant-statues",
+    "fence-railing",
+    "ghat-steps"
+   ],
+   "surroundings": [
+    "city-street",
+    "garden-lawn"
+   ],
+   "notes": "Big rectangular tank with a small white temple in the middle joined to the bank by a causeway; stone elephant on the south bank"
+  }
  },
  {
   "slug": "dharahara",
@@ -2070,6 +3042,38 @@
    "https://kathmandupost.com/kathmandu/2024/11/24/dharahara-begins-charging-entry-fees",
    "https://english.onlinekhabar.com/dharahara-entry-fee-introduced-from-today-charges-apply-for-photography-as-well.html",
    "https://myrepublica.nagariknetwork.com/news/dharahara-generates-revenue-of-nearly-rs-50-million-11-39.html"
-  ]
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [],
+  "gallery": [],
+  "model": {
+   "kind": "pillar",
+   "tiers": 22,
+   "plinth_steps": 1,
+   "plinth_shape": "round",
+   "height_m": 72,
+   "footprint_m": [
+    20,
+    20
+   ],
+   "walls": "white-plaster",
+   "roof": "white-dome",
+   "colors": [
+    "#f2f0ea",
+    "#b08d57",
+    "#9a9a9a"
+   ],
+   "features": [
+    "minaret-turrets",
+    "arched-windows",
+    "watchtower"
+   ],
+   "surroundings": [
+    "city-street",
+    "garden-lawn"
+   ],
+   "notes": "Tall white minaret-style tower with a balcony near the top and a bronze mast on the roof, rebuilt next to the old stump"
+  }
  }
 ]
