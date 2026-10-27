@@ -149,7 +149,7 @@ export default function Explore() {
               {(q || type || religion || city || unesco || province || faith) && <button className="link-btn" onClick={() => { setQ(''); setType(''); setReligion(''); setCity(''); setUnesco(false); setProvince(''); setFaith(''); map.current?.reset(); }}>Clear filters</button>}
             </div>
             {locMsg && <p className="loc-msg cap">{locMsg}{me && <> <button className="link-btn" onClick={() => { setMe(null); setLocMsg(''); }}>Stop</button></>}</p>}
-            <div className="explore-list">
+            <div className="explore-list thin-scroll" data-lenis-prevent>
               {!all && Array.from({ length: 5 }).map((_, i) => <div key={i} className="skeleton" style={{ height: 76, marginBottom: 8 }} />)}
               {all && !list.length && <div className="empty small"><p>No monument matches. Try another word or clear the filters.</p></div>}
               {list.map((m) => (
