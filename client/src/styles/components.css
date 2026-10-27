@@ -778,3 +778,12 @@ input[type='range'], input[type='checkbox'], input[type='radio'] { accent-color:
 @media (max-width: 760px) { .map-model-stage { width: 160px; height: 150px; } }
 
 .nav.over-dark .logo-rule, .footer .logo-rule, :root[data-theme='dark'] .logo-rule { background: linear-gradient(transparent, var(--sand) 25%, var(--sand) 75%, transparent); opacity: 0.4; }
+
+/* Sketchfab scans */
+.scan-frame { margin: 0; }
+.scan-frame iframe { width: 100%; border: 0; border-radius: 16px; background: #120a14; display: block; }
+.scan-frame figcaption { display: flex; flex-wrap: wrap; gap: 0.3rem; align-items: center; margin-top: 0.55rem; }
+.scan-frame figcaption a { color: inherit; }
+.model-head .seg { flex: none; }
+.scan-section { margin-top: 2.4rem; }
+.scan-details .chips-row { margin: 0 0 0.8rem; }

@@ -12,6 +12,8 @@ import { MonumentCard, TYPE_LABEL } from '../components/MonumentCard.jsx';
 import { PageLoader } from '../components/Shell.jsx';
 import MapView from '../components/MapView.jsx';
 import { Gallery } from '../components/Gallery.jsx';
+import { ScanFrame, ScanDetails } from '../components/ScanViewer.jsx';
+import { SCANS } from '../data/scans.js';
 import { ShrineVerse } from '../components/Shloka.jsx';
 
 const SiteViewer = lazy(() => import('../three/site.jsx').then((x) => ({ default: x.SiteViewer })));
@@ -29,6 +31,7 @@ export default function Monument() {
   const toast = useToast();
   const nav = useNavigate();
   const [lightbox, setLightbox] = useState(false);
+  const [view, setView] = useState('scan');
   const { scrollY } = useScroll();
   const heroY = useTransform(scrollY, [0, 700], [0, 160]);
   const heroScale = useTransform(scrollY, [0, 700], [1.06, 1.16]);
@@ -95,6 +98,10 @@ export default function Monument() {
     ...(m.gallery || []).map((g) => ({ url: g.url, caption: g.caption, author: g.author, license: g.license })),
   ].filter(Boolean);
   const spec = m.model;
+  const scans = SCANS[m.slug] || [];
+  const siteScan = scans.find((x) => x.kind === 'site');
+  const detailScans = scans.filter((x) => x !== siteScan);
+  const showScan = siteScan && view === 'scan';
   const hasFees = m.fees && [m.fees.foreigner, m.fees.saarc, m.fees.nepali].some((x) => x != null);
 
   return (
@@ -187,11 +194,19 @@ export default function Monument() {
               <div>
                 <div className="eyebrow" style={{ marginBottom: '0.4rem' }}>{t('Turn it in 3D', 'थ्रीडीमा घुमाउनुहोस्')}</div>
                 <h3 style={{ margin: 0 }}>{m.name} and its surroundings</h3>
-                <span className="cap">{spec?.notes || `A ${TYPE_LABEL[m.type]?.toLowerCase() || 'temple'} built from its architecture.`} Drag to orbit, scroll to zoom.</span>
+                <span className="cap">{showScan ? 'A 3D scan of the real monument. Press play, then drag to orbit and scroll to zoom.' : `${spec?.notes || `A ${TYPE_LABEL[m.type]?.toLowerCase() || 'temple'} built from its architecture.`} Drag to orbit, scroll to zoom.`}</span>
               </div>
+              {siteScan && (
+                <div className="seg" role="tablist" aria-label="3D view">
+                  <button role="tab" aria-selected={view === 'scan'} className={view === 'scan' ? 'on' : ''} onClick={() => setView('scan')}>Real scan</button>
+                  <button role="tab" aria-selected={view === 'model'} className={view === 'model' ? 'on' : ''} onClick={() => setView('model')}>Reconstruction</button>
+                </div>
+              )}
             </div>
-            <Suspense fallback={<div className="skeleton" style={{ height: 440, margin: '1rem' }} />}><SiteViewer spec={spec} type={m.type} slug={m.slug} initialDusk={theme === 'dark'} /></Suspense>
-            {spec && (
+            {showScan
+              ? <div style={{ padding: '0 1rem 1rem' }}><ScanFrame scan={siteScan} /></div>
+              : <Suspense fallback={<div className="skeleton" style={{ height: 440, margin: '1rem' }} />}><SiteViewer spec={spec} type={m.type} slug={m.slug} initialDusk={theme === 'dark'} /></Suspense>}
+            {!showScan && spec && (
               <div className="model-specs">
                 {spec.tiers > 1 && <span className="tag">{spec.tiers} {['pagoda', 'gumba', 'lake-shrine'].includes(spec.kind) ? 'roofs' : 'storeys'}</span>}
                 {spec.plinth_steps > 0 && <span className="tag">{spec.plinth_steps} plinth levels</span>}
@@ -199,6 +214,14 @@ export default function Monument() {
               </div>
             )}
           </div>
+
+          {detailScans.length > 0 && (
+            <section className="scan-section">
+              <div className="eyebrow">{t('Scanned at the site', 'स्थलमै स्क्यान गरिएको')}</div>
+              <h3 style={{ marginTop: 0 }}>Shrines and sculptures of {m.name} in 3D</h3>
+              <ScanDetails scans={detailScans} />
+            </section>
+          )}
 
           {data.inside.length > 0 && (
             <section style={{ marginTop: '2.5rem' }}>
