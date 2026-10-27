@@ -1,0 +1,3104 @@
+[
+ {
+  "slug": "kakrebihar",
+  "name": "Kakrebihar",
+  "name_np": "काँक्रे विहार",
+  "alt_names": [
+   "Kankre Bihar",
+   "Kakre Vihar",
+   "Kakrevihar"
+  ],
+  "city": "Birendranagar",
+  "zone": null,
+  "lat": 28.564529,
+  "lng": 81.621302,
+  "coord_source": "OpenStreetMap node 11028003793 (Kakrebihar Mandir); Wikidata Q13179941 P625 (28.916667, 82.066667) is low-precision and falls outside Surkhet Valley, so it was not used",
+  "type": "shikhara",
+  "religion": "Both",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Often dated to the 12th century; archaeologists quoted by the Nepali Times say 13th-14th century, and a signboard credits Ashok Challa (c. 1268 CE). Later ruined; reassembled by the Department of Archaeology from 2016.",
+  "dynasty": "Khas Malla (Khasa kingdom)",
+  "architecture": "Stone shikhara temple on a forested hillock, reassembled by the Department of Archaeology from excavated carved blocks; its walls, facades, spires and wells resemble Kumaoni temples of the same era. Surrounded by scattered carved stone fragments and ruins.",
+  "unesco": false,
+  "short": "A reassembled stone shikhara temple of the Khasa era in a pine and sal forest above Surkhet Valley, with Buddhist and Hindu images.",
+  "story": "You have climbed through pine and sal forest to a quiet hillock above Surkhet Valley. The stone temple in front of you once lay in pieces. For centuries its carved blocks were scattered across this hill, and nobody is fully sure what brought it down: some blame the great earthquake of 1833, others an invading army in the fourteenth century. Archaeologists link the site to the Khasa kingdom, whose kings bore the names Challa and Malla and ruled from Sinja and Jumla. The signboard here credits a king called Ashok Challa, around 1268. Look at the scattered fragments around you. Excavators found Buddha images here, but also Ganesh, Saraswati and Shiva, so many people see it as a shrine shared by two faiths. From 2016, craftsmen from Bhaktapur fitted the surviving stones back together, shape by shape, into the shikhara you see today. Before you leave, walk to the edge and look down over the green valley.",
+  "legend": "A local Tharu tale says the hill was a palace of the Pandava brothers of the Mahabharata. Another tells of a brother-in-law and sister-in-law who raced another pair to finish a temple in one night; when they lost, they broke their own work and fled, leaving the stones scattered.",
+  "facts": [
+   "Statues of the Buddha and of Hindu deities including Ganesh, Saraswati and Shiva were found at the site.",
+   "The Department of Archaeology excavated the site in 2000 and later rebuilt the temple using its original stones.",
+   "Eight craftsmen from Bhaktapur, led by Chandra Ranjitkar, worked on the restoration that began in 2016, with a budget of Rs 81.8 million.",
+   "The rebuilt shikhara temple is about six metres tall.",
+   "Its stone architecture resembles temples in Kumaon, to the west, rather than those of the Kathmandu Valley."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 60,
+   "hours_note": "Forest site about a 10-minute drive from Birendranagar; no official opening hours found.",
+   "fee_note": "No published entry fee found."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "In which district is Kakrebihar located?",
+    "options": [
+     "Jumla",
+     "Surkhet",
+     "Dailekh",
+     "Bardiya"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Kakrebihar is in the forest near Birendranagar, Surkhet, the capital of Karnali Province."
+   },
+   {
+    "q": "What style is the rebuilt stone temple at Kakrebihar?",
+    "options": [
+     "Pagoda",
+     "Stupa",
+     "Shikhara",
+     "Dome"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The Department of Archaeology reassembled it as a stone shikhara temple."
+   },
+   {
+    "q": "Craftsmen from which town helped reassemble the temple?",
+    "options": [
+     "Bhaktapur",
+     "Pokhara",
+     "Janakpur",
+     "Dhangadhi"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Eight craftsmen from Bhaktapur fitted the original stones back together from 2016."
+   },
+   {
+    "q": "Which kingdom is the site linked to by archaeologists?",
+    "options": [
+     "Licchavi",
+     "Khasa (Khas Malla)",
+     "Sen",
+     "Rana"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Kakrebihar is linked to the Khasa kingdom, which ruled western Nepal from Sinja and Jumla."
+   },
+   {
+    "q": "Which king does the site signboard credit with building Kakrebihar around 1268 CE?",
+    "options": [
+     "Prithvi Malla",
+     "Ashok Challa",
+     "Jitari Malla",
+     "Ripu Malla"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "The signboard names Ashok Challa, though experts say the temple may be older."
+   }
+  ],
+  "clues": [
+   "Buddha and Ganesh were both dug out of this forested hill above a valley capital.",
+   "A stone spire once lay in hundreds of pieces until craftsmen from the Kathmandu Valley fitted it back together."
+  ],
+  "festivals": [],
+  "model": {
+   "kind": "shikhara",
+   "tiers": 1,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": 6,
+   "footprint_m": [
+    6,
+    6
+   ],
+   "walls": "stone",
+   "roof": "stone-spire",
+   "colors": [
+    "#b39a78",
+    "#8a7356",
+    "#3f5a2e"
+   ],
+   "features": [
+    "idol-visible",
+    "stone-pillar"
+   ],
+   "surroundings": [
+    "hilltop",
+    "forest"
+   ],
+   "notes": "Tan sandstone shikhara with a ribbed curving spire and amalaka top on a stepped platform, carved blocks around it, in pine and sal forest on a hilltop."
+  },
+  "province": "Karnali",
+  "district": "Surkhet",
+  "sources": [
+   "https://nepalitimes.com/buddhist-relics-in-western-nepal",
+   "https://kathmandupost.com/national/2016/03/16/kakre-bihar-temple-being-restored",
+   "https://en.wikipedia.org/wiki/Surkhet_District#Kakrebihar",
+   "https://ne.wikipedia.org/wiki/काँक्रे_विहार",
+   "https://www.wikidata.org/wiki/Q13179941",
+   "https://www.openstreetmap.org/node/11028003793",
+   "https://commons.wikimedia.org/wiki/Category:Kakrebihar"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Kakre_Bihar_Temple.jpg/1280px-Kakre_Bihar_Temple.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kakre_Bihar_Temple.jpg",
+   "author": "Gaurav Dhwaj Khadka",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kakrebihar_After_Renovation.jpg/1280px-Kakrebihar_After_Renovation.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kakrebihar_After_Renovation.jpg",
+    "author": "Gr8lujah",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Kakrebihar temple after its renovation"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kakrebihar_34.jpg/1280px-Kakrebihar_34.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kakrebihar_34.jpg",
+    "author": "Janak Poudel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Ruins of the old temple before reconstruction"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kakrebihar_6.jpg/1280px-Kakrebihar_6.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kakrebihar_6.jpg",
+    "author": "Janak Poudel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Carved stone fragments found at the site"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Stone_Buddha_statute_of_Kankre_Vihar.jpg/1280px-Stone_Buddha_statute_of_Kankre_Vihar.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Stone_Buddha_statute_of_Kankre_Vihar.jpg",
+    "author": "Rajivkilanashrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone Buddha image at Kakrebihar"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Entrance_gate%2C_Kakrebihar.jpg/1280px-Entrance_gate%2C_Kakrebihar.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Entrance_gate,_Kakrebihar.jpg",
+    "author": "Geetakrawal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Entrance gate to the Kakrebihar forest"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Surkhet_Valley_from_Kakrebihar.jpg/1280px-Surkhet_Valley_from_Kakrebihar.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Surkhet_Valley_from_Kakrebihar.jpg",
+    "author": "Janak Poudel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Surkhet Valley seen from the Kakrebihar hill"
+   }
+  ]
+ },
+ {
+  "slug": "chandannath-temple",
+  "name": "Chandannath Temple",
+  "name_np": "चन्दननाथ मन्दिर",
+  "alt_names": [
+   "Chandannath Dattatreya",
+   "Chandannath-Bhairavnath"
+  ],
+  "city": "Khalanga, Jumla",
+  "zone": null,
+  "lat": 29.274208,
+  "lng": 82.183514,
+  "coord_source": "Wikidata Q5070967 P625",
+  "type": "dome-temple",
+  "religion": "Hindu",
+  "deity": "Dattatreya (Chandannath), with Bhairav (Bhairavnath) in the neighbouring shrine",
+  "built_year": null,
+  "built_century_text": "Tradition places its founding in the Kalyal (Kallala) dynasty period. A royal order of King Rajendra dated VS 1881 (c. 1824 CE) sent 22 workers to build the temple of Shri Chandannath at Jumla.",
+  "dynasty": "Kalyal (traditional founding); rebuilt under the Shah kings",
+  "architecture": "Small whitewashed square shrine with a yellow cornice band, crowned by a metal-clad onion dome and finial. Beside it stand very tall red-painted timber poles (lingo) carrying huge triangular saffron flags, shared with the adjoining Bhairavnath temple.",
+  "unesco": false,
+  "short": "The guardian temple of Jumla bazaar, famous for the towering flag poles that are replaced every Dashain.",
+  "story": "You are in Khalanga, the old bazaar of Jumla, high in the Karnali hills. Look up first: those towering red poles with their enormous saffron flags are called lingo, and each is more than fifty feet of timber. Every year, on Ghatasthapana, the first day of Dashain, the people of Jumla take the old lingo down and raise a new one. They believe misfortune will follow if a pole breaks during the change, so the whole town holds its breath. Now lower your eyes to the little whitewashed shrine with its shining dome. Inside is Dattatreya, honoured here as Chandannath. Local belief says an ascetic named Chandannath came from Kashmir carrying this image, and that he also brought the red Marsi rice that grows in these fields. Next door stands Bhairavnath. In 2016 thieves stole twenty-eight idols from this temple, and the town protested until many were recovered.",
+  "legend": "One story says a cow that gave no milk at home let her milk flow freely whenever she stood on this spot, so villagers knew the ground was holy and built the temple there. Another credits Chandannath of Kashmir with bringing the image of Dattatreya and red Marsi rice to Jumla.",
+  "facts": [
+   "The lingo poles are more than 52 feet long and are replaced every year on Ghatasthapana, the first day of Dashain.",
+   "A royal order of King Rajendra dated VS 1881 sent 22 workers to build the temple of Shri Chandannath at Jumla.",
+   "On a night in November 2016, 28 idols including the main deity Dattatreya were stolen; police later recovered 14 idols.",
+   "Local tradition says Chandannath of Kashmir introduced Jumla's red Marsi rice.",
+   "The temple is managed by the Chandannath-Bhairavnath Guthi Management Committee."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "In Khalanga Bazaar opposite the District Administration Office; no published opening hours.",
+   "fee_note": "No entry fee reported."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "In which district is Chandannath Temple?",
+    "options": [
+     "Mugu",
+     "Humla",
+     "Jumla",
+     "Dolpa"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "It stands in Khalanga Bazaar, the headquarters of Jumla district."
+   },
+   {
+    "q": "Which deity is worshipped as Chandannath?",
+    "options": [
+     "Dattatreya",
+     "Ganesh",
+     "Hanuman",
+     "Narayan"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "The main idol is Dattatreya, also called Trimurti."
+   },
+   {
+    "q": "What are the giant flag poles at the temple called?",
+    "options": [
+     "Yosin",
+     "Lingo",
+     "Dhwaja-khamba",
+     "Linga"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The red-painted timber poles with huge flags are called lingo."
+   },
+   {
+    "q": "On which day are the lingo poles replaced each year?",
+    "options": [
+     "Maha Shivaratri",
+     "Ghatasthapana",
+     "Tihar Laxmi Puja",
+     "Buddha Jayanti"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The change is made on Ghatasthapana, the first day of Dashain."
+   },
+   {
+    "q": "Local tradition says Chandannath of Kashmir also introduced which crop to Jumla?",
+    "options": [
+     "Apples",
+     "Red Marsi rice",
+     "Buckwheat",
+     "Beans"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "He is believed to have brought Marsi rice after finding Jumla's climate similar to Kashmir's."
+   }
+  ],
+  "clues": [
+   "Two towering red poles with saffron flags are swapped every Dashain here, and nobody wants them to snap.",
+   "A sage from Kashmir is said to have brought both the god and the red rice to this high bazaar."
+  ],
+  "festivals": [
+   {
+    "name": "Dashain (Ghatasthapana lingo change)",
+    "name_np": "दशैँ (घटस्थापना)",
+    "month": "Ashwin",
+    "note": "The old lingo poles are taken down and new ones raised on the first day of Dashain."
+   },
+   {
+    "name": "Krishna Janmashtami jatra",
+    "name_np": "कृष्ण जन्माष्टमी जात्रा",
+    "month": "Bhadra",
+    "note": "Large crowds gather in Jumla Bazaar on the last day of the jatra."
+   },
+   {
+    "name": "Maha Shivaratri",
+    "name_np": "महाशिवरात्रि",
+    "month": "Falgun",
+    "note": "One of the major festivals that bring crowds to the temple."
+   }
+  ],
+  "model": {
+   "kind": "dome-temple",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    5,
+    5
+   ],
+   "walls": "white-plaster",
+   "roof": "copper",
+   "colors": [
+    "#f2f0ea",
+    "#b8a26a",
+    "#e0b030"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "flags-red"
+   ],
+   "surroundings": [
+    "market-houses",
+    "terraced-fields",
+    "village"
+   ],
+   "notes": "Small white cube shrine with a yellow band under a big metal onion dome; beside it two very tall red timber poles carrying giant saffron triangular flags."
+  },
+  "province": "Karnali",
+  "district": "Jumla",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chandannath_Temple",
+   "https://kathmandupost.com/national/2016/11/28/28-ancient-idols-stolen-from-chandannath",
+   "https://kathmandupost.com/national/2017/01/04/14-chandannath-idols-recovered",
+   "https://nepalica.hadw-bw.de/nepal/catitems/viewitem/9062/487",
+   "https://www.wikidata.org/wiki/Q5070967",
+   "https://commons.wikimedia.org/wiki/Category:Chandannath_Temple"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Chandan_nath%2CJumla.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Chandan_nath,Jumla.JPG",
+   "author": "Sunil Dongol",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Channdannath_and_Bhairabnath.jpg/1280px-Channdannath_and_Bhairabnath.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Channdannath_and_Bhairabnath.jpg",
+    "author": "Prashant Shahi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The giant lingo flag poles of Chandannath and Bhairabnath"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Snowy_Chandannath_and_Bhairabnath.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Snowy_Chandannath_and_Bhairabnath.jpg",
+    "author": "Prashant Shahi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Chandannath and Bhairabnath temples during snowfall"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Chandannath_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chandannath_Temple.jpg",
+    "author": "Prashant Shahi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple's golden dome after heavy snowfall"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Hanuman_Temple_beside_Chandannath_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Hanuman_Temple_beside_Chandannath_Temple.jpg",
+    "author": "Prashant Shahi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Hanuman statue beside Chandannath Temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Jumla_Jatra.jpg/1280px-Jumla_Jatra.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Jumla_Jatra.jpg",
+    "author": "Prashant Shahi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Crowd at the Janmashtami jatra in Jumla Bazaar"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Chandannath_and_Bhairabnath_Temple.jpg/1280px-Chandannath_and_Bhairabnath_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chandannath_and_Bhairabnath_Temple.jpg",
+    "author": "Prashant Shahi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Khalanga Bazaar, home of the temples, seen from afar"
+   }
+  ]
+ },
+ {
+  "slug": "sinja-valley",
+  "name": "Sinja Valley",
+  "name_np": "सिँजा उपत्यका",
+  "alt_names": [
+   "Semja",
+   "Yatse",
+   "Kanakasundari"
+  ],
+  "city": "Hat Sinja, Jumla",
+  "zone": null,
+  "lat": 29.398,
+  "lng": 81.996,
+  "coord_source": "Wikidata Q7524492 P625 (valley centre, given to 3 decimals only)",
+  "type": "archaeological-site",
+  "religion": "Both",
+  "deity": "Kanakasundari (local goddess temple); Masto shrines",
+  "built_year": null,
+  "built_century_text": "Capital of the Khasa Malla kingdom from about the 12th to the 14th century; shikhara temples at Tarpibada date from the 13th-15th century.",
+  "dynasty": "Khasa Malla",
+  "architecture": "Open mountain valley with the ruins of a medieval fortress (identified as Yatse) near Hat Sinja, temples such as Kanakasundari, stone dewal shrines, carved stone and timber memorial pillars, Buddhist cave chaityas and cliff inscriptions above the Hima River.",
+  "unesco": false,
+  "short": "The high Jumla valley that was the capital of the Khasa Malla kings and is called the birthplace of the Nepali language.",
+  "story": "You are standing in Sinja, a wide valley in Jumla where the Hima River runs between dry hills and terraced fields. It looks peaceful and remote, but from about the twelfth to the fourteenth century this was the capital of the Khasa Malla kings, whose power stretched across western Nepal. Near the village of Hat Sinja are the ruins of a fortress that scholars identify as Yatse, their summer seat. Look across the river at the cliffs: caves there hold old Buddhist chaityas, and the rock carries inscriptions. Some of the earliest written examples of the Nepali language were found on cliffs like these and in nearby Dullu, which is why people call Sinja the birthplace of Nepali. As you walk, watch for carved memorial pillars standing by paths and bridges. Shamans called Masto still perform ancient rites in the stone dewals. In 2008 Nepal placed this valley on its UNESCO tentative list.",
+  "legend": null,
+  "facts": [
+   "Sinja was the capital of the Khasa kingdom, which ruled western Nepal from about the 12th to the 14th century.",
+   "The valley is often called the birthplace of the Nepali language; 13th-century Devanagari inscriptions were found on its cliffs and in nearby Dullu.",
+   "Nepal added the Sinja Valley to the UNESCO World Heritage Tentative List on 30 January 2008.",
+   "After the 14th century the Khasa kingdom broke up into 22 small kingdoms, the Baise Rajya.",
+   "The Sinja River flows through the valley and joins the Karnali in Kalikot district."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 180,
+   "hours_note": "Open valley and village landscape in Jumla district; no opening hours.",
+   "fee_note": "No entry fee reported."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Which kingdom had its capital in the Sinja Valley?",
+    "options": [
+     "Licchavi",
+     "Khasa Malla",
+     "Gorkha",
+     "Videha"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Sinja was the capital of the Khasa Malla kingdom of western Nepal."
+   },
+   {
+    "q": "Which language is the Sinja Valley called the birthplace of?",
+    "options": [
+     "Newari",
+     "Maithili",
+     "Nepali",
+     "Tharu"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Early written examples of Nepali in Devanagari were found on cliffs here and in Dullu."
+   },
+   {
+    "q": "In which district is the Sinja Valley?",
+    "options": [
+     "Jumla",
+     "Surkhet",
+     "Bajura",
+     "Doti"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Sinja is in Jumla district, Karnali Province."
+   },
+   {
+    "q": "In which year was Sinja added to the UNESCO Tentative List?",
+    "options": [
+     "1979",
+     "1996",
+     "2008",
+     "2015"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "It was added in the cultural category on 30 January 2008."
+   },
+   {
+    "q": "Into how many small kingdoms did the Khasa kingdom split after the 14th century?",
+    "options": [
+     "12",
+     "22",
+     "24",
+     "46"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "It fragmented into 22 kingdoms, the Baise Rajya."
+   }
+  ],
+  "clues": [
+   "Kings who ruled from this high valley once ruled a mountain empire, wintering in Dullu.",
+   "Cliffs above a mountain river here hold some of the oldest written words of the national language."
+  ],
+  "festivals": [],
+  "model": {
+   "kind": "ruins",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    400,
+    200
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#a88f6a",
+    "#4f6b3a",
+    "#2f6fb3"
+   ],
+   "features": [
+    "stone-pillar",
+    "rock-face"
+   ],
+   "surroundings": [
+    "river",
+    "terraced-fields",
+    "village",
+    "forest"
+   ],
+   "notes": "Wide dry-hill valley floor with a river and terraces; carved wooden and stone memorial pillars topped with human figures stand by a stone footbridge."
+  },
+  "province": "Karnali",
+  "district": "Jumla",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sinja_Valley",
+   "https://whc.unesco.org/en/tentativelists/5263",
+   "https://danam.cats.uni-heidelberg.de/heritage-foucus-area-sinja-valley",
+   "https://en.wikipedia.org/wiki/Khasa_Kingdom",
+   "https://www.wikidata.org/wiki/Q7524492",
+   "https://commons.wikimedia.org/wiki/Category:Sinja_Valley"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Sinja_Valley%2C_Karnali.jpg/1280px-Sinja_Valley%2C_Karnali.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Sinja_Valley,_Karnali.jpg",
+   "author": "Punyapaudel",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Hima_River%2C_Sinja_Valley%2C_karnali.jpg/1280px-Hima_River%2C_Sinja_Valley%2C_karnali.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Hima_River,_Sinja_Valley,_karnali.jpg",
+    "author": "Sumoon Rewolf",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The Hima River flowing through Sinja Valley"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Narakot_Sinja_Valley.JPG/1280px-Narakot_Sinja_Valley.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Narakot_Sinja_Valley.JPG",
+    "author": "Soraj Shahi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Narakot and the open floor of Sinja Valley"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sinja_Valley.JPG/1280px-Sinja_Valley.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Sinja_Valley.JPG",
+    "author": "Priyankar Chand",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Terraced fields and villages of Sinja Valley"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Sinja_valley.JPG/1280px-Sinja_valley.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Sinja_valley.JPG",
+    "author": "Soraj Shahi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Sinja Valley from the hillside"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Sinja_Valley_in_Winter.jpg/1280px-Sinja_Valley_in_Winter.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Sinja_Valley_in_Winter.jpg",
+    "author": "asoqpathak",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Snow-covered forest above Sinja Valley in winter"
+   }
+  ]
+ },
+ {
+  "slug": "shirasthan-dullu",
+  "name": "Shirasthan (Jwala Mandir), Dullu",
+  "name_np": "शिरस्थान",
+  "alt_names": [
+   "Shristhan",
+   "Sirasthan",
+   "Shirsthan (Jwaladevi) Math",
+   "Jwalaghar"
+  ],
+  "city": "Dullu",
+  "zone": null,
+  "lat": 28.840998,
+  "lng": 81.676516,
+  "coord_source": "OpenStreetMap node 11033774721 (Shirasthan Mandir / Sheetal, Kali and Badi Jwala)",
+  "type": "courtyard",
+  "religion": "Hindu",
+  "deity": "Jwala Devi (Sati), worshipped as natural gas flames",
+  "built_year": null,
+  "built_century_text": "Age of the shrine unknown; scholar Marie Lecomte-Tilouine notes the ritual layout of Dullu's flame shrines already existed in the Khasa Malla period (12th-14th century).",
+  "dynasty": null,
+  "architecture": "A small hillside shrine complex: a whitewashed single-storey building with a low pitched roof, a beaten-earth courtyard with a sacrificial post, collections of old carved stone images, and natural gas flames burning from rock niches.",
+  "unesco": false,
+  "short": "A flame shrine in Dullu where natural gas burns from the rocks, honoured as the place where the head of the goddess Sati fell.",
+  "story": "Step quietly into the courtyard and look down at the rocks by the wall. A small flame is burning straight out of the stone, with no wick and no oil. This is Shirasthan, in Rawatkot of Dullu, one of the five sacred sites of the Panchakoshi pilgrimage of Dailekh. Gas seeping from the ground keeps these flames alight, and pilgrims call the whole area Jwala Tirtha, the place of fire. The name means the place of the head. Hindu tradition, told in the Swasthani, says that as Shiva wandered carrying the body of his wife Sati, her head fell here; her navel fell at Nabhisthan nearby. Notice the collections of old carved stone images around you and the post where sacrifices are made. Its priest is an ascetic of the Nath sect. People say that when the sacred flames at Chandannath in Jumla or at Badimalika go out, they are lit again with fire carried from this place.",
+  "legend": "According to the Swasthani, Shiva carried the body of Sati across the world after her death, and her head fell at Shirasthan, giving the shrine its name. Her navel fell at nearby Nabhisthan.",
+  "facts": [
+   "Shirasthan is one of the Panchakoshi pilgrimage sites of Dailekh, with Nabhisthan, Dhuleshwar, Padukasthan and Dungeshwar.",
+   "Its flames burn from natural gas, so the area is also called Jwala Tirtha or Agni Tirtha.",
+   "Local tradition says flames at Chandannath (Jumla) and Badimalika are relit from the flame here when they go out.",
+   "The shrine's priest has been an ascetic of the Nath sect, as documented by researcher Marie Lecomte-Tilouine in 2003.",
+   "The site is listed as a cultural heritage monument of Nepal (NP-DK-18, Shirsthan (Jwaladevi) Math)."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Village shrine in Rawatkot, Dullu Municipality; no published opening hours.",
+   "fee_note": "No entry fee reported."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "In which district is Shirasthan?",
+    "options": [
+     "Dailekh",
+     "Jumla",
+     "Achham",
+     "Kalikot"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Shirasthan is in Dullu Municipality, Dailekh district."
+   },
+   {
+    "q": "What keeps the sacred flames at Shirasthan burning?",
+    "options": [
+     "Ghee lamps",
+     "Natural gas from the ground",
+     "Coal fires",
+     "Electric lamps"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Gas seeping from the rocks feeds the flames, so the area is called Jwala Tirtha."
+   },
+   {
+    "q": "Which part of Sati is said to have fallen at Shirasthan?",
+    "options": [
+     "Navel",
+     "Feet",
+     "Head",
+     "Left shoulder"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Shir means head; her navel is said to have fallen at Nabhisthan."
+   },
+   {
+    "q": "The Panchakoshi pilgrimage of Dailekh links how many sacred sites?",
+    "options": [
+     "Three",
+     "Five",
+     "Seven",
+     "Twelve"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Pancha means five: Shirasthan, Nabhisthan, Dhuleshwar, Padukasthan and Dungeshwar."
+   },
+   {
+    "q": "Priests at Shirasthan belong to which ascetic sect?",
+    "options": [
+     "Nath",
+     "Dashnami Giri",
+     "Kabir Panth",
+     "Ramanandi"
+    ],
+    "answer_index": 0,
+    "difficulty": 5,
+    "explanation": "Scholar Marie Lecomte-Tilouine photographed the Nath ascetic priest of Sirasthan in 2003."
+   }
+  ],
+  "clues": [
+   "Fire rises from bare rock here without wick or oil, and the place is named for a goddess's head.",
+   "When the sacred fires of Jumla or Bajura go out, people say they come here to borrow a flame."
+  ],
+  "festivals": [],
+  "model": {
+   "kind": "courtyard",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": 4,
+   "footprint_m": [
+    15,
+    12
+   ],
+   "walls": "white-plaster",
+   "roof": "slate",
+   "colors": [
+    "#f0eee8",
+    "#b0603a",
+    "#6e6a62"
+   ],
+   "features": [
+    "lamps-diyo",
+    "trident",
+    "idol-visible",
+    "rock-face"
+   ],
+   "surroundings": [
+    "village",
+    "terraced-fields",
+    "hilltop"
+   ],
+   "notes": "Low whitewashed shrine house with a stone-slate roof over a red earth courtyard; small flames flicker from dark rock niches heaped with rice and flowers."
+  },
+  "province": "Karnali",
+  "district": "Dailekh",
+  "sources": [
+   "https://english.onlinekhabar.com/panchakoshi-in-dailekh-pilgrimage.html",
+   "https://seechac.org/dullu-the-sacred-capital-of-the-khas-malla-emperors-western-nepal/?lang=en",
+   "https://en.wikipedia.org/wiki/List_of_monuments_in_Dailekh,_Nepal",
+   "https://www.openstreetmap.org/node/11033774721",
+   "https://commons.wikimedia.org/wiki/File:Holy_Flame.jpg"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Holy_Flame.jpg/1280px-Holy_Flame.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Holy_Flame.jpg",
+   "author": "Girisumit1990",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Place_for_worship.jpg/1280px-Place_for_worship.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Place_for_worship.jpg",
+    "author": "Girisumit1990",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Courtyard of the Shirasthan shrine with its whitewashed building"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flame_outside_Temple.jpg/1280px-Flame_outside_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Flame_outside_Temple.jpg",
+    "author": "Girisumit1990",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Natural gas flame burning from a rock niche"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Another_holy_flame.jpg/1280px-Another_holy_flame.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Another_holy_flame.jpg",
+    "author": "Girisumit1990",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Another of the sacred flames at Shirasthan"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Collections_of_carved_statues.jpg/1280px-Collections_of_carved_statues.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Collections_of_carved_statues.jpg",
+    "author": "Girisumit1990",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Old carved stone images kept at the shrine"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Collections_of_carved_stones.jpg/1280px-Collections_of_carved_stones.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Collections_of_carved_stones.jpg",
+    "author": "Girisumit1990",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Collection of carved stones at Shirasthan"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Place_for_animal_sacrifice.jpg/1280px-Place_for_animal_sacrifice.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Place_for_animal_sacrifice.jpg",
+    "author": "Girisumit1990",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Sacrificial post area of the shrine"
+   }
+  ]
+ },
+ {
+  "slug": "dullu-kirtistambha",
+  "name": "Prithvi Malla's Kirtistambha, Dullu",
+  "name_np": "पृथ्वी मल्लको कीर्तिस्तम्भ, दुल्लु",
+  "alt_names": [
+   "Kirti Khamba",
+   "Kritikhamba",
+   "Dullu stone pillar"
+  ],
+  "city": "Dullu",
+  "zone": null,
+  "lat": 28.860043,
+  "lng": 81.604254,
+  "coord_source": "OpenStreetMap node 11033774850 (Kirtistambha / Damupal shila); node 9687948463 \"Kritikhamba\" lies 10 m away",
+  "type": "pillar",
+  "religion": "Both",
+  "deity": null,
+  "built_year": 1354,
+  "built_century_text": "Mid-14th century: the pillar is associated with King Prithvi Malla and dated 1354 CE according to anthropologist Pat Caplan; a nearby stone water tank inscribed by one of his ministers is dated 1358.",
+  "dynasty": "Khasa Malla",
+  "architecture": "A flat upright stone stele with a rounded top, carved near the top with a stepped Buddhist chaitya above a line of large letters, and covered below with rows of inscription. It stands inside a protective metal railing in Dullu bazaar.",
+  "unesco": false,
+  "short": "An inscribed 14th-century stone pillar in Dullu that records the family tree of the Khasa Malla kings.",
+  "story": "You are standing in Dullu, once the winter seat of the Khasa Malla kings, whose capital lay up in the Sinja Valley of Jumla. In front of you, behind its railing, rises a flat grey stone with a rounded top. This is a kirtistambha, a pillar of fame. Look near the top and you will see a small stepped chaitya, the Buddhist shrine shape, carved above a line of large letters. Below it, row after row of writing fills the stone. The pillar is associated with King Prithvi Malla and dated to 1354, and its inscription sets out the genealogy of his dynasty, naming Nagaraja as the founder who set up the capital at Sinja. The Italian scholar Giuseppe Tucci recorded these Dullu stones in the 1950s. Nearby you can find more carved pillars, and a stone water tank whose inscription says one of Prithvi Malla's ministers built it in 1358.",
+  "legend": null,
+  "facts": [
+   "The pillar is associated with King Prithvi Malla and dated 1354 CE.",
+   "Its inscription gives the genealogy of the Khasa Malla dynasty and names Nagaraja as the founder of the capital at Sinja.",
+   "Italian Tibetologist Giuseppe Tucci recorded the Dullu stelae in the 1950s; they were re-photographed in 1969.",
+   "A nearby stone water tank with a chaitya on top was built in 1358 by one of Prithvi Malla's ministers.",
+   "It is listed as a cultural heritage monument of Nepal (NP-DK-05, Prithivi Malla's Kirtistambha)."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 20,
+   "hours_note": "Open-air monument in Dullu bazaar, viewable at any time.",
+   "fee_note": "No entry fee reported."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "What does \"kirtistambha\" mean?",
+    "options": [
+     "Pillar of fame",
+     "Water spout",
+     "Royal throne",
+     "Prayer wheel"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Kirti means fame or glory and stambha means pillar."
+   },
+   {
+    "q": "Which king is the Dullu pillar associated with?",
+    "options": [
+     "Prithvi Narayan Shah",
+     "Prithvi Malla",
+     "Jayasthiti Malla",
+     "Mahendra"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It is associated with the Khasa Malla king Prithvi Malla."
+   },
+   {
+    "q": "What Buddhist shape is carved near the top of the pillar?",
+    "options": [
+     "A lotus throne",
+     "A chaitya",
+     "A dharma wheel",
+     "A prayer flag"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "A small stepped chaitya is carved above the lettering."
+   },
+   {
+    "q": "According to the inscription, who founded the Khasa Malla capital at Sinja?",
+    "options": [
+     "Nagaraja",
+     "Ripu Malla",
+     "Ashok Challa",
+     "Bahadur Shah"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "The genealogy names Nagaraja as the founder of the capital at Sinja."
+   },
+   {
+    "q": "Which scholar recorded the Dullu stelae in the 1950s?",
+    "options": [
+     "Brian Hodgson",
+     "Giuseppe Tucci",
+     "Sylvain Levi",
+     "Toni Hagen"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "Giuseppe Tucci recorded them during his work in western Nepal; they were re-photographed in 1969."
+   }
+  ],
+  "clues": [
+   "A flat grey stone behind a railing lists a mountain dynasty's ancestors under a tiny carved shrine.",
+   "Kings who summered in Sinja wintered in this town, and one of them left his family tree in stone here."
+  ],
+  "festivals": [],
+  "model": {
+   "kind": "pillar",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    0.8,
+    0.3
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#6f7470",
+    "#a9aaa4",
+    "#c8ccd0"
+   ],
+   "features": [
+    "stone-pillar",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "village",
+    "hilltop"
+   ],
+   "notes": "Tall flat grey stone slab with a rounded top and a carved chaitya at the top, caged in a silver metal railing beside village houses."
+  },
+  "province": "Karnali",
+  "district": "Dailekh",
+  "sources": [
+   "https://www.gold.ac.uk/global-change/people/pat-caplan/nepal-photo-gallery/dullu/",
+   "https://bridges.monash.edu/articles/figure/Dulla_inscriptions/3846762",
+   "https://en.wikipedia.org/wiki/List_of_monuments_in_Dailekh,_Nepal",
+   "https://www.openstreetmap.org/node/11033774850",
+   "https://commons.wikimedia.org/wiki/Category:Prithivi_Malla's_Kirtistambha_(Dullu)"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF%E0%A4%96%E0%A4%AE%E0%A5%8D%E0%A4%AE.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF%E0%A4%96%E0%A4%AE%E0%A5%8D%E0%A4%AE.jpg",
+   "author": "Rameshti",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/%E0%A4%95%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%96%E0%A4%AE%E0%A5%8D%E0%A4%AC.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%95%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%96%E0%A4%AE%E0%A5%8D%E0%A4%AC.jpg",
+    "author": "Rameshti",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Carved chaitya and large lettering at the top of the pillar"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF%E0%A4%96%E0%A4%AE%E0%A5%8D%E0%A4%AC.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF%E0%A4%96%E0%A4%AE%E0%A5%8D%E0%A4%AC.jpg",
+    "author": "Rameshti",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Inscribed face of the pillar behind its protective railing"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%80%E0%A4%96%E0%A4%AE%E0%A5%8D%E0%A4%AC.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%80%E0%A4%96%E0%A4%AE%E0%A5%8D%E0%A4%AC.jpg",
+    "author": "Rameshti",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Small carved stone pillars nearby in Dullu"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%96%E0%A4%AE%E0%A5%8D%E0%A4%AE.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%96%E0%A4%AE%E0%A5%8D%E0%A4%AE.jpg",
+    "author": "Rameshti",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Stacked carved stone fragment kept behind a railing"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%80%E0%A4%96%E0%A4%AE%E0%A5%8D%E0%A4%AE.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%80%E0%A4%96%E0%A4%AE%E0%A5%8D%E0%A4%AE.jpg",
+    "author": "Rameshti",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Small stone chaitya near the Kirtistambha"
+   }
+  ]
+ },
+ {
+  "slug": "badimalika-temple",
+  "name": "Badimalika Temple",
+  "name_np": "बडिमालिका मन्दिर",
+  "alt_names": [
+   "Badi Malika",
+   "Malika Devi",
+   "Mallagiri"
+  ],
+  "city": "Martadi",
+  "zone": null,
+  "lat": 29.346916,
+  "lng": 81.477488,
+  "coord_source": "Wikidata Q13183742 P625 (matches OSM way 844729311, landuse=religious \"Badimalika\")",
+  "type": "shikhara",
+  "religion": "Hindu",
+  "deity": "Bhagawati (Malika Devi)",
+  "built_year": 2025,
+  "built_century_text": "Ancient pilgrimage site of uncertain date, linked in legend to King Dipraj Chhatyal and the Jumla kings. The old shrine was demolished and a new temple was built by the Nepali Army between April and July 2025.",
+  "dynasty": null,
+  "architecture": "High-altitude ridge-top shrine. Photos from 2018 show a small whitewashed square shrine with a pyramidal roof inside dry-stone walls, an open white pavilion, and stone frames hung with hundreds of bells and tridents. The 2025 rebuild used sal wood, stone and mud.",
+  "unesco": false,
+  "short": "A Shakti shrine at about 4,200 m in Bajura, where tens of thousands of pilgrims climb for the full-moon festival of Janai Purnima.",
+  "story": "Catch your breath: you are at roughly four thousand two hundred metres on a grassy ridge in Bajura, and this is Badimalika, one of the great goddess shrines of the far west. Pilgrims climb for hours over open, often slippery pastures, past places such as Triveni and the 22 Patan meadows, to reach this spot. Hindu tradition says that when Shiva carried the body of Sati, her left shoulder fell on this mountain, once called Mallagiri. Look at the frames around the shrine: they are hung with bells and tridents left by grateful pilgrims. Local legend tells of King Dipraj Chhatyal, whose bow was stopped by an unseen force while he hunted here, and who then built a temple for the goddess with help from the king of Jumla. Two priests serve here, one from Kalikot and one from Bajura. In 2025 the Nepali Army rebuilt the shrine, carrying materials up by helicopter and on foot.",
+  "legend": "When Sati's body was carried by Shiva, her left shoulder fell on Mallagiri, which became Malika. A later tale says King Dipraj Chhatyal was stopped from hunting here by an unseen force, dreamed of the goddess, and built her temple together with the king of Jumla.",
+  "facts": [
+   "The temple stands at about 4,200 metres; the Nepali Army gives 4,220 m.",
+   "Its main puja is held on Shrawan Shukla Chaturdashi, the day before Janai Purnima.",
+   "It is served by two priests, one representing Kalikot district and the other Bajura district.",
+   "The Nepali Army rebuilt the temple from April to July 2025 at a cost of about Rs 20 million, under the Ancient Monument Preservation Act.",
+   "More than 45,000 devotees visited in one year, according to the temple priest."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 120,
+   "hours_note": "Reached only on foot over high trails; the main pilgrimage season is around Janai Purnima. Snow and weather limit access in winter.",
+   "fee_note": "No entry fee reported."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "In which district is Badimalika Temple?",
+    "options": [
+     "Bajura",
+     "Bajhang",
+     "Doti",
+     "Mugu"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Badimalika is in Triveni Municipality, Bajura district, Sudurpashchim."
+   },
+   {
+    "q": "At roughly what altitude does the temple stand?",
+    "options": [
+     "1,200 m",
+     "2,500 m",
+     "4,200 m",
+     "6,000 m"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Sources give about 4,200 m; the Nepali Army cites 4,220 m."
+   },
+   {
+    "q": "Around which festival do most pilgrims visit Badimalika?",
+    "options": [
+     "Tihar",
+     "Janai Purnima",
+     "Holi",
+     "Chhath"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The main puja falls on the day before Janai Purnima."
+   },
+   {
+    "q": "Which part of Sati's body is said to have fallen here?",
+    "options": [
+     "Head",
+     "Navel",
+     "Left shoulder",
+     "Right foot"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Tradition says her left shoulder fell on Mallagiri, now Malika."
+   },
+   {
+    "q": "Who rebuilt the temple in 2025?",
+    "options": [
+     "UNESCO",
+     "Nepali Army",
+     "Bajura District Office",
+     "A private trust from India"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The Nepali Army rebuilt it between April and July 2025 for about Rs 20 million."
+   }
+  ],
+  "clues": [
+   "Two priests from neighbouring districts share duty at this shrine above four thousand metres.",
+   "Pilgrims cross the meadows of 22 Patan to ring bells for the goddess on a bare summit."
+  ],
+  "festivals": [
+   {
+    "name": "Malika Chaturdashi (Janai Purnima fair)",
+    "name_np": "मालिका चतुर्दशी",
+    "month": "Shrawan",
+    "note": "Main puja on Shrawan Shukla Chaturdashi, the day before Janai Purnima; the date can fall in Bhadra."
+   },
+   {
+    "name": "Ganga Dashahara",
+    "name_np": "गंगा दशहरा",
+    "month": "Jestha",
+    "note": "A state-sponsored puja is held and many pilgrims visit."
+   }
+  ],
+  "model": {
+   "kind": "shikhara",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    5,
+    5
+   ],
+   "walls": "whitewashed-stone",
+   "roof": "stone-spire",
+   "colors": [
+    "#f2f2ee",
+    "#6d6a63",
+    "#2f6fd0"
+   ],
+   "features": [
+    "bell",
+    "trident",
+    "flags-red",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "hilltop",
+    "snow-peaks",
+    "himalaya-backdrop"
+   ],
+   "notes": "Small white shrine with a pyramid roof inside dry-stone walls on a bare grassy summit; stone frames crowded with bells and tridents. Based on pre-2025 photos."
+  },
+  "province": "Sudurpashchim",
+  "district": "Bajura",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Badimalika_Temple",
+   "https://thehimalayantimes.com/nepal/nepali-army-constructs-temple-at-badimalika-pilgrimage-site-in-bajura",
+   "https://english.ratopati.com/story/74271/badimalika-fair-from-bhadra-1-preparations-begin",
+   "https://thehimalayantimes.com/nepal/badimalikas-high-altitude-appeal-grows-beyond-the-annual-pilgrimage",
+   "https://www.buddhaair.com/blog/complete-guide-to-badimalika-trek",
+   "https://www.wikidata.org/wiki/Q13183742",
+   "https://commons.wikimedia.org/wiki/Category:Badimalika_Temple"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Badimalika_Temple%2C_Bajura%2C_Nepal.jpg/1280px-Badimalika_Temple%2C_Bajura%2C_Nepal.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Badimalika_Temple,_Bajura,_Nepal.jpg",
+   "author": "sigdelsanjog",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Badimalika_Temple_4186M%2C_Bajura%2C_Nepal.jpg/1280px-Badimalika_Temple_4186M%2C_Bajura%2C_Nepal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Badimalika_Temple_4186M,_Bajura,_Nepal.jpg",
+    "author": "sigdelsanjog",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The hilltop shrine and stone walls before the 2025 rebuilding"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Beautiful_Collection_of_Bells_seen_at_Badimalika_Temple%2C_Bajura%2C_Nepal.jpg/1280px-Beautiful_Collection_of_Bells_seen_at_Badimalika_Temple%2C_Bajura%2C_Nepal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Beautiful_Collection_of_Bells_seen_at_Badimalika_Temple,_Bajura,_Nepal.jpg",
+    "author": "sigdelsanjog",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Rows of bells offered by pilgrims"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Trishulas%2C_Mahadev%27s_weapon_seen_on_top_of_Badimalika_Temple%2C_Bajura%2C_Nepal.jpg/1280px-Trishulas%2C_Mahadev%27s_weapon_seen_on_top_of_Badimalika_Temple%2C_Bajura%2C_Nepal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Trishulas,_Mahadev%27s_weapon_seen_on_top_of_Badimalika_Temple,_Bajura,_Nepal.jpg",
+    "author": "sigdelsanjog",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Tridents offered on top of the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Prayers_raising_Nepal%27s_Flag_in_front_of_Badimalika_Temple%2C_Bajura.jpg/1280px-Prayers_raising_Nepal%27s_Flag_in_front_of_Badimalika_Temple%2C_Bajura.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Prayers_raising_Nepal%27s_Flag_in_front_of_Badimalika_Temple,_Bajura.jpg",
+    "author": "sigdelsanjog",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Pilgrims raising a flag in front of the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/%E0%A4%AC%E0%A4%A1%E0%A4%BF%E0%A4%AE%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0%E0%A4%95%E0%A5%8B_%E0%A4%AC%E0%A4%BE%E0%A4%9F%E0%A5%8B.JPG/1280px-%E0%A4%AC%E0%A4%A1%E0%A4%BF%E0%A4%AE%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0%E0%A4%95%E0%A5%8B_%E0%A4%AC%E0%A4%BE%E0%A4%9F%E0%A5%8B.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%AC%E0%A4%A1%E0%A4%BF%E0%A4%AE%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0%E0%A4%95%E0%A5%8B_%E0%A4%AC%E0%A4%BE%E0%A4%9F%E0%A5%8B.JPG",
+    "author": "Punya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The high pastures on the trail to Badimalika"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/%E0%A4%AC%E0%A4%A1%E0%A4%BF%E0%A4%AE%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0%E0%A4%AE%E0%A4%BE_%E0%A4%AA%E0%A5%82%E0%A4%9C%E0%A4%BE_%E0%A4%97%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%AC%E0%A4%A1%E0%A4%BF%E0%A4%AE%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0%E0%A4%AE%E0%A4%BE_%E0%A4%AA%E0%A5%82%E0%A4%9C%E0%A4%BE_%E0%A4%97%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87.JPG",
+    "author": "Punya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Worship at Badimalika Temple"
+   }
+  ]
+ },
+ {
+  "slug": "ugratara-temple-dadeldhura",
+  "name": "Ugratara Temple, Dadeldhura",
+  "name_np": "उग्रतारा मन्दिर, डडेलधुरा",
+  "alt_names": [
+   "Ugratara Bhagawati",
+   "Ugra Tara"
+  ],
+  "city": "Dadeldhura (Amargadhi)",
+  "zone": null,
+  "lat": 29.334619,
+  "lng": 80.603599,
+  "coord_source": "OpenStreetMap way 842712043 (Ugratara Mandir building), centroid",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Ugratara (a form of the goddess Parvati / Bhagawati)",
+  "built_year": null,
+  "built_century_text": "Founding date unknown. Tradition says a Saud family farmer found the idol while ploughing; Naga Malla of Doti later renovated it, and King Birendra helped a later renovation. Since rebuilt with cement and concrete.",
+  "dynasty": "Doti (Malla) kings, per local tradition",
+  "architecture": "Hilltop temple compound in a modern concrete version of the pagoda style: a pink and turquoise painted sanctum on a stepped platform with guardian and lion figures along the stairs, long arcaded halls with carved bracket pillars, and small tiered pagoda roofs, all ringed by prayer flags.",
+  "unesco": false,
+  "short": "The hilltop goddess temple of Dadeldhura, counted among the nine Shakti Peeths of the far west and host of the great Dehijant fair.",
+  "story": "Walk up the paved path through the grass, and you reach the hilltop temple that people call the heart of Dadeldhura. Forest closes in on three sides, and the bright pink and turquoise temple rises in front of you on its stepped platform, with guardian figures and lions lining the stairs. This is Ugratara, a fierce form of the goddess, counted among the nine Shakti Peeths of Nepal's far west. The local story begins in a field: a farmer of the Saud family was ploughing when his blade struck a stone, and from that discovery came the first temple. Later, Naga Malla, a king of Doti, renovated it. People here believe Ugratara brings fertility and wealth, protects villages from disaster, and even reunites friends who have lost touch. Come on the full moon of Kartik and you will find the hill packed for Dehijant, described as the biggest religious fair in Sudurpashchim.",
+  "legend": "A farmer of the Saud family is said to have struck the goddess's stone image with his plough while working his field; The stone was protected and a temple built over it.",
+  "facts": [
+   "The temple is about 4 km west of Dadeldhura bazaar, in Amargadhi Municipality-7.",
+   "It is counted among the nine Shakti Peeths and nine Bhagawati temples of the far west.",
+   "Local accounts say Naga Malla, king of Doti, renovated the temple after it was founded by a Saud family farmer.",
+   "Its Dehijant fair on the full moon of Kartik is described as the biggest religious fair in the province.",
+   "Devotees believe the goddess reunites friends and relatives who have lost touch."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "About a 20-25 minute walk or 8-10 minute drive from Dadeldhura bazaar; no published opening hours.",
+   "fee_note": "No entry fee reported."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "In which district is this Ugratara Temple?",
+    "options": [
+     "Dadeldhura",
+     "Kanchanpur",
+     "Baitadi",
+     "Kailali"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It stands on a hilltop about 4 km west of Dadeldhura bazaar."
+   },
+   {
+    "q": "What is the big fair held here on the full moon of Kartik called?",
+    "options": [
+     "Gaura",
+     "Dehijant",
+     "Bisket",
+     "Indra Jatra"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The Dehijant fair is described as the biggest religious fair in Sudurpashchim."
+   },
+   {
+    "q": "According to local tradition, how was the goddess first found?",
+    "options": [
+     "In a dream of a king",
+     "By a farmer ploughing his field",
+     "In a river flood",
+     "Under a fallen tree"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "A Saud family farmer is said to have found the image while ploughing."
+   },
+   {
+    "q": "Which king of Doti is said to have renovated the temple?",
+    "options": [
+     "Naga Malla",
+     "Prithvi Malla",
+     "Ripu Malla",
+     "Bhupatindra Malla"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "Local accounts credit Naga Malla, king of Doti, with renovating it."
+   },
+   {
+    "q": "Ugratara is counted among how many Shakti Peeths of the far west?",
+    "options": [
+     "Five",
+     "Seven",
+     "Nine",
+     "Twelve"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "It is described as one of the nine Shakti Peeths of the region."
+   }
+  ],
+  "clues": [
+   "A plough struck a stone here, and a fierce goddess got a hilltop home above a far-western bazaar.",
+   "On the Kartik full moon this pink-and-turquoise hilltop hosts the region's biggest fair."
+  ],
+  "festivals": [
+   {
+    "name": "Dehijant fair",
+    "name_np": "देहीजाँत मेला",
+    "month": "Kartik",
+    "note": "Held on Kartik Shukla Purnima with night-time puja; described as the biggest fair in the province."
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 1,
+   "plinth_steps": 6,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    10,
+    10
+   ],
+   "walls": "white-plaster",
+   "roof": "copper",
+   "colors": [
+    "#e8a3b5",
+    "#3bb3a8",
+    "#d9d4c8"
+   ],
+   "features": [
+    "guardian-pairs-on-stairs",
+    "lion-statues",
+    "bell",
+    "prayer-flags",
+    "toran"
+   ],
+   "surroundings": [
+    "hilltop",
+    "forest",
+    "garden-lawn"
+   ],
+   "notes": "Pink and turquoise painted sanctum atop wide striped steps lined with guardian statues and lions, an ornate arch with lions above the door, prayer flags all around."
+  },
+  "province": "Sudurpashchim",
+  "district": "Dadeldhura",
+  "sources": [
+   "https://nepaltraveller.com/travel/pilgrimage-sites/ugratara-temple",
+   "https://ekantipur.com/sudurpaschim-pradesh/2025/10/27/en/ugratara-temple-shaktipeeth-made-of-bleeding-stones-26-57.html",
+   "https://dineshkhabar.com/article/104589",
+   "https://www.openstreetmap.org/way/842712043",
+   "https://commons.wikimedia.org/wiki/Category:Ugratara_Temple,_Dadeldhura,_Nepal"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Ugratara_Temple%2C_Dadeldhura%2C_Nepal.jpg/1280px-Ugratara_Temple%2C_Dadeldhura%2C_Nepal.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ugratara_Temple,_Dadeldhura,_Nepal.jpg",
+   "author": "Gunjan Raj Giri",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Ugratara_Temple_Dadeldhura_20151230_120955.jpg/1280px-Ugratara_Temple_Dadeldhura_20151230_120955.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ugratara_Temple_Dadeldhura_20151230_120955.jpg",
+    "author": "Ricky Partel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The hilltop temple compound with its paved approach"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ugratara_temple_Dadeldhura_Nepal.JPG/1280px-Ugratara_temple_Dadeldhura_Nepal.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ugratara_temple_Dadeldhura_Nepal.JPG",
+    "author": "Sanjayapirk",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Pink-painted side hall with carved bracket pillars"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Ugratara_Bhagabati_Temple.jpg/1280px-Ugratara_Bhagabati_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ugratara_Bhagabati_Temple.jpg",
+    "author": "Yadav Singh Dhami",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Devotees at the temple veranda"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Ugratara_Temple_Dadeldhura_20151230_135100.jpg/1280px-Ugratara_Temple_Dadeldhura_20151230_135100.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ugratara_Temple_Dadeldhura_20151230_135100.jpg",
+    "author": "Ricky Partel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Painted entrance gate with the goddess and lions"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ugratara_temple_Dadeldhura_.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ugratara_temple_Dadeldhura_.jpg",
+    "author": "रमेश सिंह बोहरा",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Ugratara Temple on its hilltop in Dadeldhura"
+   }
+  ]
+ },
+ {
+  "slug": "ajaymerukot",
+  "name": "Ajaymerukot",
+  "name_np": "अजयमेरुकोट",
+  "alt_names": [
+   "Ajayameru Kot",
+   "Ajameru Fort",
+   "Ajaymeru Palace"
+  ],
+  "city": "Dadeldhura",
+  "zone": null,
+  "lat": 29.304,
+  "lng": 80.591,
+  "coord_source": "Wikidata Q65395572 P625 (given to 3 decimals only; the site is described as about 3.3 km from Dadeldhura, so treat as approximate)",
+  "type": "fort",
+  "religion": "Hindu",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Founded by the 13th-14th century as a capital of the Doti kingdom that followed the Katyuri dynasty; inscriptions of King Niraya Pal (Saka 1250) and King Nag Malla (Saka 1306) were found. Destroyed in an attack in the 16th century.",
+  "dynasty": "Doti (Katyuri successors: Pal and Malla kings)",
+  "architecture": "Hilltop palace-fort ruins: dry-stone walls of a two-storey palace of about 14 rooms with a central corridor and stone stair, carved stone shikhara shrines, pillared stone mandapas with concentric carved ceilings, defensive towers, wells and a stable.",
+  "unesco": false,
+  "short": "Ridge-top ruins of a medieval Doti capital, with carved stone shrines and a palace excavated for the first time in 2025.",
+  "story": "You are on a ridge in Dadeldhura, where a river curls around three sides and only one path leads up. This was Ajaymerukot, one of the capitals of the Doti kingdom that rose after the old Katyuri realm broke apart. The name is often explained as ajaya, invincible, and meru, mountain, and you can see why. Look at the carved stone shrines with their stacked shikhara towers, and the pavilion whose stone pillars still hold up a heavy lintel. Stand beneath one ceiling and look up at rings of carved stone circling a lotus. The carvings are believed to be the work of Jaad artists from India. In 2025 the Department of Archaeology excavated the palace for the first time. They found a two-storey building with about fourteen rooms and inscriptions in eight places, naming kings Niraya Pal and Nag Malla. Tradition says the fort was destroyed in a sixteenth-century attack, and the capital moved to Silgadhi in Doti.",
+  "legend": "Local tradition links the name to a King Ajay Pal, but no record of such a ruler has been found.",
+  "facts": [
+   "Ajaymerukot was one of the capitals of the Doti kingdom that emerged after the fall of the Katyuri dynasty.",
+   "The 2025 excavation found inscriptions in eight places, including records of King Niraya Pal (Saka 1250) and King Nag Malla (Saka 1306).",
+   "The main palace was a two-storey building with about 14 rooms, a central corridor and a stone staircase.",
+   "After its destruction in the 16th century the Doti capital moved to Silgadhi.",
+   "The ridge is protected by a river on three sides, leaving only one approach."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 90,
+   "hours_note": "Open hilltop archaeological site in Ajaymeru Rural Municipality; reconstruction works were under way from 2025.",
+   "fee_note": "No entry fee reported."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Which kingdom had a capital at Ajaymerukot?",
+    "options": [
+     "Doti",
+     "Gorkha",
+     "Makwanpur",
+     "Palpa"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Ajaymerukot was one of the capitals of the Doti kingdom."
+   },
+   {
+    "q": "What is the name Ajaymeru often explained to mean?",
+    "options": [
+     "Golden lake",
+     "Invincible mountain",
+     "Royal garden",
+     "River fort"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It is linked to Sanskrit ajaya (invincible) and meru (mountain)."
+   },
+   {
+    "q": "Where did the Doti capital move after Ajaymerukot was destroyed?",
+    "options": [
+     "Silgadhi",
+     "Dhangadhi",
+     "Jumla",
+     "Baitadi"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Following the 16th-century attack, the capital moved to Silgadhi, Doti."
+   },
+   {
+    "q": "In which year did the Department of Archaeology first excavate the main palace?",
+    "options": [
+     "1979",
+     "2001",
+     "2015",
+     "2025"
+    ],
+    "answer_index": 3,
+    "difficulty": 3,
+    "explanation": "The first detailed excavation of the palace area took place in 2025."
+   },
+   {
+    "q": "Which earlier dynasty did the Doti kingdom grow out of?",
+    "options": [
+     "Licchavi",
+     "Katyuri",
+     "Sen",
+     "Chand"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Doti emerged after the fall of the Katyuri dynasty."
+   }
+  ],
+  "clues": [
+   "A river wraps three sides of this ridge, where carved stone towers mark a lost royal seat.",
+   "Diggers in 2025 found a fourteen-room palace and kings' names cut into stone in eight places."
+  ],
+  "festivals": [],
+  "model": {
+   "kind": "ruins",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": 3,
+   "footprint_m": [
+    30,
+    20
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#8d8b84",
+    "#b39f80",
+    "#7a6a4a"
+   ],
+   "features": [
+    "stone-pillar",
+    "carved-windows"
+   ],
+   "surroundings": [
+    "hilltop",
+    "river",
+    "forest",
+    "terraced-fields"
+   ],
+   "notes": "Grey dry-stone palace walls on a dry ridge, beside two small stacked-stone shikhara shrines and a pillared stone pavilion with a heavy lintel."
+  },
+  "province": "Sudurpashchim",
+  "district": "Dadeldhura",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ajaymerukot",
+   "https://risingnepaldaily.com/news/57537",
+   "https://ekantipur.com/en/news/2025/02/20/historical-ajaymerukot-is-being-excavated-41-05.html",
+   "https://www.wikidata.org/wiki/Q65395572",
+   "https://commons.wikimedia.org/wiki/Category:Ajaymerukot"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ajayamerukot._Dadeldhura_Pal.jpg/1280px-Ajayamerukot._Dadeldhura_Pal.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ajayamerukot._Dadeldhura_Pal.jpg",
+   "author": "कत्यूरी राजाका वंशज",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Ajayamerukot.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ajayamerukot.jpg",
+    "author": "रमेश सिंह बोहरा",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Ruined stone mandapa with carved pillars"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dadeldhura_Ajayameharu_kot_Baithak.jpg/1280px-Dadeldhura_Ajayameharu_kot_Baithak.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dadeldhura_Ajayameharu_kot_Baithak.jpg",
+    "author": "कत्यूरी राजाका वंशज",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Pillared stone pavilion known as the royal baithak"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Ajamerukot-Dadeldhura-%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%A8_%E0%A4%A1%E0%A5%8B%E0%A4%9F%E0%A5%80_%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%87%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A5%8B_%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A5%8D_%E0%A4%B5%E0%A4%82%E0%A4%B6%E0%A4%9C_%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A4%AF_%E0%A4%AA%E0%A4%BE%E0%A4%B2_%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%95%E0%A5%8B_%E0%A4%95%E0%A5%8B%E0%A4%9F_%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%B2_%E0%A4%85%E0%A4%9C%E0%A4%AF%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A5%81.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ajamerukot-Dadeldhura-%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%A8_%E0%A4%A1%E0%A5%8B%E0%A4%9F%E0%A5%80_%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%87%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A5%8B_%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A5%8D_%E0%A4%B5%E0%A4%82%E0%A4%B6%E0%A4%9C_%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A4%AF_%E0%A4%AA%E0%A4%BE%E0%A4%B2_%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%95%E0%A5%8B_%E0%A4%95%E0%A5%8B%E0%A4%9F_%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%B2_%E0%A4%85%E0%A4%9C%E0%A4%AF%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A5%81.jpg",
+    "author": "Kartikeyapur dynasty",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Dry-stone palace walls and a carved pillar fragment"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ajayamerukot100.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ajayamerukot100.jpg",
+    "author": "रमेश सिंह बोहरा",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Carved concentric stone ceiling inside a shrine"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ajameru_Fort%2C_%E0%A4%85%E0%A4%9C%E0%A4%AF%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A5%81_%E0%A4%95%E0%A5%8B%E0%A4%9F_%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%B2.jpg/1280px-Ajameru_Fort%2C_%E0%A4%85%E0%A4%9C%E0%A4%AF%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A5%81_%E0%A4%95%E0%A5%8B%E0%A4%9F_%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%B2.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ajameru_Fort,_%E0%A4%85%E0%A4%9C%E0%A4%AF%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A5%81_%E0%A4%95%E0%A5%8B%E0%A4%9F_%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%B2.jpg",
+    "author": "कत्यूरी राजाका वंशज",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Visitors at the excavated palace site on its ridge"
+   }
+  ]
+ },
+ {
+  "slug": "amargadhi-fort",
+  "name": "Amargadhi Fort",
+  "name_np": "अमरगढी किल्ला",
+  "alt_names": [
+   "Amargadhi Killa",
+   "Amar Gadi",
+   "Amargarhi"
+  ],
+  "city": "Dadeldhura (Khalanga)",
+  "zone": null,
+  "lat": 29.299523,
+  "lng": 80.585827,
+  "coord_source": "OpenStreetMap way 842555328 (Amargadhi Killa), centroid",
+  "type": "fort",
+  "religion": "Other",
+  "deity": null,
+  "built_year": 1790,
+  "built_century_text": "Built in 1847 BS (about 1790 CE) during the Gorkhali unification campaign under King Rana Bahadur Shah, with construction supervised by Amar Singh Thapa and other commanders.",
+  "dynasty": "Shah",
+  "architecture": "Hilltop fort on a cliff above Khalanga, built of stone and timber: high battered stone walls, a stone stairway and concealed doorway, and stone-walled rooms around an inner yard. A statue of Amar Singh Thapa stands at the entrance.",
+  "unesco": false,
+  "short": "The 18th-century Gorkhali fort above Dadeldhura bazaar, linked to commander Amar Singh Thapa.",
+  "story": "Climb the red-and-white painted steps and put your hand on this sloping stone wall. You are at Amargadhi, the fort that gives this municipality its name, perched on a cliff above Khalanga at about six and a half thousand feet. It was built around 1790, in 1847 by the Nepali calendar, as Gorkhali armies of King Rana Bahadur Shah pushed west to bring Doti into the growing kingdom. Commander Amar Singh Thapa and his officers supervised the work, and afterwards he established Gorkhali rule over the region. At the entrance his statue carries his famous boast that he is a tiger's cub, not a scavenging dog. Walk the narrow stone stair, find the hidden door, and look into the stone rooms where soldiers once lived. An old resident remembers cannons here that were fired at the nearby parade ground on Fulpati during Dashain. Since 2009 the municipality has cared for the fort.",
+  "legend": null,
+  "facts": [
+   "The fort was built in 1847 BS (about 1790 CE) during the unification campaign of King Rana Bahadur Shah.",
+   "Amar Singh Thapa, Kaji Jagat Pandey and several captains and subbas supervised its construction.",
+   "Its shape is said to resemble a lion's head, with its walls likened to a mane.",
+   "A resident who served at the fort recalled five cannons, about 50 rifles and a dozen Bhimsen-nal guns, which are now missing.",
+   "Amargadhi Municipality has managed the fort since December 2009."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "On the cliff above Khalanga bazaar, Amargadhi Municipality-5; photography has at times been restricted.",
+   "fee_note": "No published entry fee found."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Which Gorkhali commander is Amargadhi Fort named after?",
+    "options": [
+     "Bhimsen Thapa",
+     "Amar Singh Thapa",
+     "Balbhadra Kunwar",
+     "Jung Bahadur Rana"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The fort and town are named after Amar Singh Thapa."
+   },
+   {
+    "q": "In which district is Amargadhi Fort?",
+    "options": [
+     "Dadeldhura",
+     "Doti",
+     "Achham",
+     "Kailali"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It overlooks Khalanga, headquarters of Dadeldhura district."
+   },
+   {
+    "q": "Around which year was the fort built?",
+    "options": [
+     "1590",
+     "1790",
+     "1890",
+     "1950"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It dates from 1847 BS, about 1790 CE, during the unification campaign."
+   },
+   {
+    "q": "At roughly what elevation does the fort stand?",
+    "options": [
+     "1,500 ft",
+     "3,500 ft",
+     "6,500 ft",
+     "10,500 ft"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "Rising Nepal places it at about 6,500 feet on a cliff above Khalanga."
+   },
+   {
+    "q": "On which Dashain day were cannons fired at the nearby Tudikhel?",
+    "options": [
+     "Ghatasthapana",
+     "Fulpati",
+     "Vijaya Dashami",
+     "Kojagrat Purnima"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "A former resident recalls cannon fire at Tudikhel on Fulpati."
+   }
+  ],
+  "clues": [
+   "A tiger's cub, by his own boast, gave his name to this cliff-top stronghold and the town below it.",
+   "Red-and-white steps climb a sloping stone wall built when Gorkhali armies marched west around 1790."
+  ],
+  "festivals": [
+   {
+    "name": "Fulpati (Bada Dashain)",
+    "name_np": "फूलपाती",
+    "month": "Ashwin",
+    "note": "Cannons were traditionally fired from the nearby Tudikhel on Fulpati."
+   }
+  ],
+  "model": {
+   "kind": "fort",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    60,
+    40
+   ],
+   "walls": "stone",
+   "roof": "slate",
+   "colors": [
+    "#a07a55",
+    "#c0392b",
+    "#f2f2f2"
+   ],
+   "features": [
+    "watchtower",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "hilltop",
+    "forest",
+    "market-houses"
+   ],
+   "notes": "Tall battered brown stone wall on a cliff edge, climbed by steps painted in red and white stripes; a small slate-roofed guard house on top."
+  },
+  "province": "Sudurpashchim",
+  "district": "Dadeldhura",
+  "sources": [
+   "https://risingnepaldaily.com/news/42081",
+   "https://en.wikipedia.org/wiki/Amargadhi",
+   "https://dineshkhabar.com/node/40208",
+   "https://www.openstreetmap.org/way/842555328",
+   "https://commons.wikimedia.org/wiki/Category:Amargadhi"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amar_Gadi.jpg/1280px-Amar_Gadi.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Amar_Gadi.jpg",
+   "author": "Rajivkilanashrestha",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Wall_of_Amargadi.jpg/1280px-Wall_of_Amargadi.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Wall_of_Amargadi.jpg",
+    "author": "Rajivkilanashrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Thick stone wall of the fort"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Hidden_Door_of_Amargadi.jpg/1280px-Hidden_Door_of_Amargadi.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Hidden_Door_of_Amargadi.jpg",
+    "author": "Rajivkilanashrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "A concealed doorway in the fort walls"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Amargadhi_killA.jpg/1280px-Amargadhi_killA.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Amargadhi_killA.jpg",
+    "author": "Mensahme01",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone-walled barrack rooms inside the fort"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Amargadhi_Killa.jpg/1280px-Amargadhi_Killa.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Amargadhi_Killa.jpg",
+    "author": "रमेश सिंह बोहरा",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Narrow stone stairway leading into the fort"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Amarsingh_Thapa.JPG/1280px-Amarsingh_Thapa.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Amarsingh_Thapa.JPG",
+    "author": "Rajiv Timalsina",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Statue of Amar Singh Thapa at the fort"
+   }
+  ]
+ },
+ {
+  "slug": "tripurasundari-temple-baitadi",
+  "name": "Tripurasundari Temple, Baitadi",
+  "name_np": "त्रिपुरासुन्दरी मन्दिर, बैतडी",
+  "alt_names": [
+   "Ransaini Bhagwati",
+   "Tripura Sundari Bhagawati",
+   "Devikot"
+  ],
+  "city": "Baitadi (Tripurasundari)",
+  "zone": null,
+  "lat": 29.55777,
+  "lng": 80.39326,
+  "coord_source": "Wikidata Q134311703 P625",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Tripura Sundari (Ransaini Bhagwati)",
+  "built_year": null,
+  "built_century_text": "Founding date unknown; it is believed to have been built long before the reign of the Doti king Nagi Malla. The present building is a modern multi-roofed pagoda.",
+  "dynasty": null,
+  "architecture": "Three-roofed pagoda-style temple on a low stone platform: a wide front porch of red-painted pillars and cusped arches under a gabled roof with carved trim, topped by two diminishing tiled roofs and a gilded finial. The grassy courtyard holds small shrines, bells and tall flag poles.",
+  "unesco": false,
+  "short": "A hilltop Bhagwati temple in Baitadi, one of the seven prominent Bhagwati shrines of Nepal, drawing pilgrims from both sides of the Mahakali.",
+  "story": "You have reached the grassy courtyard of Tripurasundari, in the hills of Baitadi near Nepal's western border. In front of you rises a temple with three stacked roofs, its porch held up by red pillars and pointed arches. Locally the goddess is called Ransaini, and with the title Bhagwati she is counted among the seven prominent Bhagwati temples of Nepal. Her name, Tripura Sundari, means the beautiful one of the three worlds. Look around the courtyard: tall poles with flags, small shrines, and bells hanging from the branches of a tree, each one a pilgrim's offering. People say the temple is older than the reign of King Nagi Malla of Doti, though no one knows exactly when it was founded. Come during Ashadhi Jatra in midsummer and you will see the goddess carried on a chariot to the village of Kapadi and back, with devotees arriving from Nepal and from India across the Mahakali.",
+  "legend": null,
+  "facts": [
+   "Locally the goddess is known as Ransaini Bhagwati.",
+   "It is counted among the seven prominent Bhagwati temples of Nepal.",
+   "The temple is believed to predate the reign of the Doti king Nagi Malla.",
+   "During Ashadhi Jatra the goddess is carried by chariot to Kapadi village and returned to the temple.",
+   "Nepal listed it among its top 100 tourist destinations for Visit Nepal 2020."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Hilltop temple in Baitadi district; no published opening hours.",
+   "fee_note": "No entry fee reported."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "In which district is this Tripurasundari Temple?",
+    "options": [
+     "Baitadi",
+     "Darchula",
+     "Dadeldhura",
+     "Bajhang"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It is in Baitadi district, Sudurpashchim Province."
+   },
+   {
+    "q": "What local name is the goddess known by here?",
+    "options": [
+     "Ransaini",
+     "Shaileshwori",
+     "Ugratara",
+     "Malika"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "She is known locally as Ransaini Bhagwati."
+   },
+   {
+    "q": "What does \"Tripura Sundari\" mean?",
+    "options": [
+     "Queen of the river",
+     "Beautiful one of the three worlds",
+     "Mother of the hills",
+     "Goddess of rain"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The Sanskrit name means the beautiful woman of the three worlds."
+   },
+   {
+    "q": "During Ashadhi Jatra, where is the goddess carried by chariot?",
+    "options": [
+     "Kapadi village",
+     "Dadeldhura bazaar",
+     "The Mahakali river",
+     "Patan"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "She is taken by chariot to a temple in Kapadi village and brought back."
+   },
+   {
+    "q": "How many roof tiers does the present temple have?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "Five"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Photos show a porch roof topped by two smaller tiled roofs."
+   }
+  ],
+  "clues": [
+   "Her name means the beauty of three worlds, but on these far-western hills she is called Ransaini.",
+   "Each midsummer a chariot carries this goddess to Kapadi village and back, with pilgrims from across the Mahakali."
+  ],
+  "festivals": [
+   {
+    "name": "Ashadhi Jatra",
+    "name_np": "असारे जात्रा",
+    "month": "Ashadh",
+    "note": "Night worship on Asar Shukla Ashtami; main jatra on Navami, with a chariot procession to Kapadi."
+   },
+   {
+    "name": "Bada Dashain",
+    "name_np": "बडा दशैँ",
+    "month": "Ashwin",
+    "note": "Special fair and worship of the goddess during Dashain."
+   },
+   {
+    "name": "Chaite Dashain",
+    "name_np": "चैते दशैँ",
+    "month": "Chaitra",
+    "note": "A fair is held at the temple."
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    14,
+    10
+   ],
+   "walls": "timber",
+   "roof": "clay-tile",
+   "colors": [
+    "#c0392b",
+    "#9a5b3c",
+    "#e8e4dc"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "bell",
+    "flags-red",
+    "sacred-tree"
+   ],
+   "surroundings": [
+    "hilltop",
+    "garden-lawn",
+    "himalaya-backdrop"
+   ],
+   "notes": "Wide porch of red pillars and white cusped arches under a carved gable, topped by two smaller tiled pagoda roofs and a finial; grassy yard with flag poles."
+  },
+  "province": "Sudurpashchim",
+  "district": "Baitadi",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tripura_Sundari_Temple,_Nepal",
+   "https://dineshkhabar.com/node/139011",
+   "https://nepaltraveller.com/sidetrack/tripura-sundari-temple-a-sacred-shakti-peeth-in-the-hills-of-nepal",
+   "https://www.wikidata.org/wiki/Q134311703",
+   "https://commons.wikimedia.org/wiki/Category:Tripurasundari_temple,_Baitadi"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Front_view_of_Tripurasundari_temple%2C_Baitadi.jpg/1280px-Front_view_of_Tripurasundari_temple%2C_Baitadi.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Front_view_of_Tripurasundari_temple,_Baitadi.jpg",
+   "author": "Nirajan pant",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Tripurasundari_temple%2C_Baitadi.jpg/1280px-Tripurasundari_temple%2C_Baitadi.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tripurasundari_temple,_Baitadi.jpg",
+    "author": "Nirajan pant",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple with flag poles and small shrines in its courtyard"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Backside_view_of_Tripurasundari_temple%2C_Baitadi.jpg/1280px-Backside_view_of_Tripurasundari_temple%2C_Baitadi.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Backside_view_of_Tripurasundari_temple,_Baitadi.jpg",
+    "author": "Nirajan pant",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Rear view of the tiered temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Ghanta_at_the_Tripurasundari_temple.jpg/1280px-Ghanta_at_the_Tripurasundari_temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ghanta_at_the_Tripurasundari_temple.jpg",
+    "author": "Nirajan pant",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Bells hung in a tree in the temple courtyard"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Main_entrance_gate_of_Tripurasundari_temple.jpg/1280px-Main_entrance_gate_of_Tripurasundari_temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Main_entrance_gate_of_Tripurasundari_temple.jpg",
+    "author": "Nirajan pant",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Main entrance gate of the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Tripurasundari_Temple%2C_Baitadi%2C_Nepal.jpg/1280px-Tripurasundari_Temple%2C_Baitadi%2C_Nepal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tripurasundari_Temple,_Baitadi,_Nepal.jpg",
+    "author": "Nirajan pant",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple's tiered roofs seen up close"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Tripurasundari.jpg/1280px-Tripurasundari.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tripurasundari.jpg",
+    "author": "Thehimalayanhealer",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The temple hill at Devikot with Himalayan peaks beyond"
+   }
+  ]
+ },
+ {
+  "slug": "shaileshwori-temple-doti",
+  "name": "Shaileshwori Temple, Silgadhi",
+  "name_np": "शैलेश्वरी मन्दिर, सिलगढी",
+  "alt_names": [
+   "Shaileshwari",
+   "Saileshwori",
+   "Shiladevi"
+  ],
+  "city": "Silgadhi (Dipayal Silgadhi)",
+  "zone": null,
+  "lat": 29.266829,
+  "lng": 80.980876,
+  "coord_source": "OpenStreetMap node 10538870509 (Shaileshwori Mandir)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Shaileshwori (a form of Parvati)",
+  "built_year": null,
+  "built_century_text": "Date unknown; the goddess is said to be mentioned in the Skanda Purana. Silgadhi became the Doti capital after Ajaymerukot fell in the 16th century.",
+  "dynasty": null,
+  "architecture": "A small temple compound shaded by old trees on a stone-paved courtyard: a whitewashed and painted shrine hall with a red-trimmed gable, carved timber front and a small tiered tower roof, entered through a painted gateway guarded by lion statues and a large trident.",
+  "unesco": false,
+  "short": "The goddess temple of Silgadhi, said to be named in the Skanda Purana, where Parvati is believed to have emerged from a rock.",
+  "story": "You are in Silgadhi, the old hill town of Doti, standing on a stone courtyard shaded by great trees. Ahead is the temple of Shaileshwori, one of the most famous shrines of Nepal's far-western hills. The name comes from shaila or shila, meaning rock. One telling says Shiva and Parvati chose these hills as a retreat, and when Brahma, Vishnu and the other gods came searching for Shiva, Parvati, embarrassed, hid by turning into stone. When the gods prayed to her, she emerged again, and the rock came to be worshipped as Shiladevi, later Shaileshwori. Look at the painted gateway with its lions and its giant trident, then step through to the shrine where devotees come every day to ask the goddess to ease their troubles and grant their wishes. Nepal honoured this temple on a postage stamp in 1985. During Dashain the courtyard fills with devotees for special pujas, and the annual Shaileshwori Mela brings music and celebration to the town.",
+  "legend": "Parvati is said to have hidden herself as a stone when the gods came looking for Shiva in these hills; when they prayed to her she emerged from the rock, and the stone was worshipped as Shiladevi, later known as Shaileshwori.",
+  "facts": [
+   "The goddess Shaileshwori is said to be mentioned in the Skanda Purana.",
+   "Nepal issued a postage stamp showing the temple on 15 December 1985 in its Visit Nepal series.",
+   "Her name comes from shila (rock), from the legend that Parvati emerged from a stone.",
+   "After Ajaymerukot was destroyed in the 16th century, the Doti capital moved to Silgadhi, the town around this temple.",
+   "Special pujas are held during Dashain, and an annual Shaileshwori Mela takes place."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "In Silgadhi town, Dipayal Silgadhi Municipality-6; no published opening hours.",
+   "fee_note": "No entry fee reported."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "In which district is Shaileshwori Temple?",
+    "options": [
+     "Doti",
+     "Achham",
+     "Kailali",
+     "Bajhang"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It stands in Silgadhi, Doti district."
+   },
+   {
+    "q": "What does \"shaila\" or \"shila\" in the goddess's name mean?",
+    "options": [
+     "River",
+     "Rock",
+     "Forest",
+     "Moon"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Legend says Parvati emerged from a stone, so she is the goddess of the rock."
+   },
+   {
+    "q": "Which Hindu scripture is said to mention the goddess Shaileshwori?",
+    "options": [
+     "Skanda Purana",
+     "Ramayana",
+     "Rigveda",
+     "Bhagavad Gita"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Nepal Philatelic Bureau notes say she is mentioned in the Skanda Purana."
+   },
+   {
+    "q": "In which year did Nepal issue a postage stamp showing this temple?",
+    "options": [
+     "1965",
+     "1975",
+     "1985",
+     "1995"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "It appeared in the Visit Nepal series on 15 December 1985."
+   },
+   {
+    "q": "In the legend, why did Parvati turn herself into stone?",
+    "options": [
+     "To hide when the gods came looking for Shiva",
+     "To stop a flood",
+     "To punish a demon",
+     "To guard a treasure"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "She hid as a rock when Brahma, Vishnu and other gods came searching for Shiva."
+   }
+  ],
+  "clues": [
+   "A goddess hid as a stone in these far-western hills, and the town shrine still bears the name of the rock.",
+   "Lions and a giant trident guard a painted gate in the old hill town of Doti, pictured on a 1985 stamp."
+  ],
+  "festivals": [
+   {
+    "name": "Dashain",
+    "name_np": "दशैँ",
+    "month": "Ashwin",
+    "note": "Special pujas are offered to the goddess during Dashain."
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    12,
+    8
+   ],
+   "walls": "white-plaster",
+   "roof": "clay-tile",
+   "colors": [
+    "#e9b8c0",
+    "#c0392b",
+    "#3a8fc2"
+   ],
+   "features": [
+    "lion-statues",
+    "trident",
+    "bell",
+    "toran",
+    "flags-red"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "sacred-grove",
+    "market-houses"
+   ],
+   "notes": "Pink and red painted shrine hall with a triangular gable and small tiered tower, behind a painted gate with two lions and a giant trident, under big trees."
+  },
+  "province": "Sudurpashchim",
+  "district": "Doti",
+  "sources": [
+   "https://istampgallery.com/visit-nepal-series-1985/",
+   "https://nepaltraveller.com/sidetrack/shaileshwori-temple-dotis-peaceful-hideaway",
+   "https://risingnepaldaily.com/news/57537",
+   "https://www.openstreetmap.org/node/10538870509",
+   "https://commons.wikimedia.org/wiki/File:Shree_Shaileshwori_Temple.jpg"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Shree_Shaileshwori_Temple.jpg/1280px-Shree_Shaileshwori_Temple.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Shree_Shaileshwori_Temple.jpg",
+   "author": "Gaurav Dhwaj Khadka",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Saileshwori_Doti1.jpg/1280px-Saileshwori_Doti1.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Saileshwori_Doti1.jpg",
+    "author": "Sanjib Chaudhary",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Painted gateway with lions and a giant trident before the shrine"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Shaileshwori_Temple.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Shaileshwori_Temple.JPG",
+    "author": "Subbik",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The temple's gabled shrine and small tiered tower in 2010"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Shree_Shaileshwori_Temple_1.jpg/1280px-Shree_Shaileshwori_Temple_1.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Shree_Shaileshwori_Temple_1.jpg",
+    "author": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Shaileshwori Temple in Silgadhi"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Saileshwori_Doti2.jpg/1280px-Saileshwori_Doti2.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Saileshwori_Doti2.jpg",
+    "author": "Sanjib Chaudhary",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple compound under old trees"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Saileswori_Temple..jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Saileswori_Temple..jpg",
+    "author": "Bsnt Balayar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone-paved courtyard of the temple after rain"
+   }
+  ]
+ },
+ {
+  "slug": "ghodaghodi-temple",
+  "name": "Ghodaghodi Temple and Lake",
+  "name_np": "घोडाघोडी मन्दिर र ताल",
+  "alt_names": [
+   "Ghodaghodi Tal",
+   "Ghorighora Temple",
+   "Ghodaghodi Lake Area"
+  ],
+  "city": "Sukhad (Ghodaghodi Municipality)",
+  "zone": null,
+  "lat": 28.684167,
+  "lng": 80.945278,
+  "coord_source": "Wikidata Q5556813 P625 (Ghodaghodi Tal, the lake); the temple stands on the lake shore and is not separately mapped in OSM",
+  "type": "lake-shrine",
+  "religion": "Hindu",
+  "deity": "Ghodaghodi deity (linked in legend to Shiva and Parvati in the form of horses)",
+  "built_year": null,
+  "built_century_text": "Date of the shrine unknown; the present building is modern. The surrounding lake complex was designated a Ramsar wetland on 13 August 2003.",
+  "dynasty": null,
+  "architecture": "A small yellow-painted, flat-roofed shrine raised on a broad flight of steps on the lake shore, its fences hung thick with red and white cloth offerings. Inside, a tiled altar holds clay figures of horses and elephants beside an image of the goddess.",
+  "unesco": false,
+  "short": "A lakeside shrine in Kailali where devotees leave clay horses and elephants, beside a Ramsar-listed lake of lotus and birds.",
+  "story": "Climb the broad steps and pause at the top: the fences around you are tied with hundreds of strips of red and white cloth, each one a prayer. This is the Ghodaghodi temple, on the shore of a lake in the forests of Kailali. The name comes from ghoda, horse. Legend says Shiva and Parvati once took the form of horses and roamed around this lake. Now look at the altar inside. Among the bells and lamps stand little clay horses and elephants, sometimes tigers too, brought by devotees in return for wishes granted. Local Tharu people gather here for the Agan Panchami festival and bathe in the lake. Walk down to the water afterwards. Ghodaghodi is part of a network of about thirteen lakes and ponds, a Ramsar wetland since 2003, where lotus leaves cover the surface and mugger crocodiles, otters and many birds live in the shade of the forest.",
+  "legend": "Shiva and Parvati are said to have turned into horses and roamed the area around the lake, giving Ghodaghodi (from ghoda, horse) its name.",
+  "facts": [
+   "Ghodaghodi Lake Area was designated a Ramsar wetland of international importance on 13 August 2003; it covers 2,563 hectares.",
+   "The site includes about 13 lakes and ponds; it lies at about 205 m in the Siwalik foothills.",
+   "Devotees offer clay figures of horses, elephants and tigers at the shrine.",
+   "Tharu people hold the Agan Panchami festival here and bathe in the lake.",
+   "A February 2021 survey recorded 26 mugger crocodiles across 18 lakes in the area."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 60,
+   "hours_note": "In Ghodaghodi Municipality, Kailali; open-air lake and shrine with no published hours.",
+   "fee_note": "No published entry fee found."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "In which district is Ghodaghodi Tal?",
+    "options": [
+     "Kailali",
+     "Kanchanpur",
+     "Bardiya",
+     "Banke"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Ghodaghodi Lake is in Kailali district, Sudurpashchim."
+   },
+   {
+    "q": "What does \"ghoda\" in Ghodaghodi mean?",
+    "options": [
+     "Lotus",
+     "Horse",
+     "Water",
+     "Forest"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Ghoda means horse; legend says Shiva and Parvati roamed here as horses."
+   },
+   {
+    "q": "What do devotees typically offer at the shrine?",
+    "options": [
+     "Clay horses and elephants",
+     "Butter lamps only",
+     "Prayer wheels",
+     "Coconuts thrown in the lake"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Clay figures of horses, elephants and tigers are offered in return for wishes granted."
+   },
+   {
+    "q": "In which year did Ghodaghodi become a Ramsar site?",
+    "options": [
+     "1987",
+     "1996",
+     "2003",
+     "2015"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "It was designated on 13 August 2003."
+   },
+   {
+    "q": "Which community festival brings Tharu devotees to bathe in the lake?",
+    "options": [
+     "Agan Panchami",
+     "Gai Jatra",
+     "Lhosar",
+     "Chhath"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "The Ramsar listing notes the Tharu Agan Panchami festival held in December."
+   }
+  ],
+  "clues": [
+   "Gods once galloped around this lotus lake, so pilgrims leave little clay horses at its shrine.",
+   "Red and white cloth flutters above steps by a lowland lake protected for its birds and crocodiles."
+  ],
+  "festivals": [
+   {
+    "name": "Agan Panchami",
+    "name_np": "अगहन पञ्चमी",
+    "month": "Mangsir",
+    "note": "Tharu festival in December; devotees bathe in the lake and worship at the shrine."
+   },
+   {
+    "name": "Maghi",
+    "name_np": "माघी",
+    "month": "Magh",
+    "note": "A special fair is held at the temple."
+   }
+  ],
+  "model": {
+   "kind": "courtyard",
+   "tiers": 1,
+   "plinth_steps": 8,
+   "plinth_shape": "rectangular",
+   "height_m": 4,
+   "footprint_m": [
+    10,
+    8
+   ],
+   "walls": "ochre-plaster",
+   "roof": "flat",
+   "colors": [
+    "#e6c95a",
+    "#c0392b",
+    "#f2f2f2"
+   ],
+   "features": [
+    "flags-red",
+    "bell",
+    "idol-visible",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "lake",
+    "forest",
+    "sacred-grove"
+   ],
+   "notes": "Small yellow flat-roofed shrine on top of a wide flight of steps, fences hung with red and white cloth strips, beside a lotus-covered lake in forest."
+  },
+  "province": "Sudurpashchim",
+  "district": "Kailali",
+  "sources": [
+   "https://rsis.ramsar.org/ris/1314",
+   "https://en.wikipedia.org/wiki/Ghodaghodi_Tal",
+   "https://nepaltraveller.com/travel/cities/ghodaghodi-playground-of-the-gods",
+   "https://www.wikidata.org/wiki/Q5556813",
+   "https://commons.wikimedia.org/wiki/Category:Ghodaghodi_Temple"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Ghodaghodi_Temple_Sikhada_Ghodaghodi_Ghodaghodi_Lake_Kailali_Nepal_Rajesh_Dhungana_%282%29.jpg/1280px-Ghodaghodi_Temple_Sikhada_Ghodaghodi_Ghodaghodi_Lake_Kailali_Nepal_Rajesh_Dhungana_%282%29.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ghodaghodi_Temple_Sikhada_Ghodaghodi_Ghodaghodi_Lake_Kailali_Nepal_Rajesh_Dhungana_(2).jpg",
+   "author": "Rajesh Dhungana",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ghodaghodi_Temple_Sikhada_Ghodaghodi_Ghodaghodi_Lake_Kailali_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Ghodaghodi_Temple_Sikhada_Ghodaghodi_Ghodaghodi_Lake_Kailali_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ghodaghodi_Temple_Sikhada_Ghodaghodi_Ghodaghodi_Lake_Kailali_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Shrine interior hung with red and white cloth offerings"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ghodaghodi_Temple_Sikhada_Ghodaghodi_Ghodaghodi_Lake_Kailali_Nepal_Rajesh_Dhungana_%286%29.jpg/1280px-Ghodaghodi_Temple_Sikhada_Ghodaghodi_Ghodaghodi_Lake_Kailali_Nepal_Rajesh_Dhungana_%286%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ghodaghodi_Temple_Sikhada_Ghodaghodi_Ghodaghodi_Lake_Kailali_Nepal_Rajesh_Dhungana_(6).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Clay horses and elephants offered to the deity"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ghodaghodi_Lake.JPG/1280px-Ghodaghodi_Lake.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ghodaghodi_Lake.JPG",
+    "author": "Ganesh Paudel",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Ghodaghodi Lake, the Ramsar wetland beside the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Ghoda_Ghodi_Lake_surrounded_by_mist.jpg/1280px-Ghoda_Ghodi_Lake_surrounded_by_mist.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ghoda_Ghodi_Lake_surrounded_by_mist.jpg",
+    "author": "सुयाेग सत्याल",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The lake surrounded by morning mist"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Ghodaghodi_Taal.jpg/1280px-Ghodaghodi_Taal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ghodaghodi_Taal.jpg",
+    "author": "MITESHSTHA",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Lotus-covered waters of Ghodaghodi Tal"
+   }
+  ]
+ },
+ {
+  "slug": "khaptad-baba-ashram",
+  "name": "Khaptad Baba Ashram",
+  "name_np": "खप्तड बाबा आश्रम",
+  "alt_names": [
+   "Khaptad Swami hermitage",
+   "Swami Sachchidananda Ashram"
+  ],
+  "city": "Khaptad National Park (nearest towns Silgadhi and Mangalsen)",
+  "zone": null,
+  "lat": 29.386189,
+  "lng": 81.137163,
+  "coord_source": "OpenStreetMap way 480999246 (Khaptad Baba Ashram building), centroid",
+  "type": "monastery",
+  "religion": "Hindu",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Hermitage of Khaptad Baba (Swami Sachchidananda), who settled in the Khaptad valley in the 1940s and lived there for about fifty years; Khaptad National Park was established on his advice in 1984.",
+  "dynasty": null,
+  "architecture": "A simple single-storey hermitage on an open grassy plateau ringed by fir forest: whitewashed stone walls, a long red-painted timber veranda, and a low pitched roof of stone slates, with a small outbuilding and a stone-ringed clearing in front.",
+  "unesco": false,
+  "short": "The forest hermitage where the sage Khaptad Baba lived for some fifty years, inside the national park founded on his advice.",
+  "story": "You have walked up through rhododendron and fir to the high meadows of Khaptad, and in front of you is a modest whitewashed house with a red wooden veranda. This was the home of Khaptad Baba, also called Swami Sachchidananda. Born Shivanath Dogra in Kashmir, he trained as a doctor in Calcutta and studied surgery in Britain before giving it all up to become a renunciate. He wandered the mountains of Nepal and, in the 1940s, settled on this plateau to meditate, staying for about fifty years. Inside, people still keep the things he used: a sitar, his simple bed, and statues of the Baba himself. It was on his advice that the government created Khaptad National Park in 1984, protecting these meadows for leopards, bears and pheasants. A short walk away is Triveni, a sacred confluence, and every year around Jestha pilgrims climb up for the Ganga Dashahara fair.",
+  "legend": null,
+  "facts": [
+   "Khaptad Baba was born Shivanath Dogra in Kashmir in 1880 and trained as a doctor before taking sannyas.",
+   "He settled in the Khaptad valley in the 1940s and lived there for more than fifty years.",
+   "Khaptad National Park was established in 1984 on his advice; it covers 225 square kilometres across Bajhang, Bajura, Achham and Doti.",
+   "The ashram keeps two statues of the Baba, one wooden and one bronze, and objects he used, including a sitar and his bed.",
+   "The Ganga Dashahara fair draws pilgrims to Khaptad once a year in the Jestha-Ashadh season."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 60,
+   "hours_note": "Reached on foot inside Khaptad National Park, near the park headquarters; snow can block trails in winter.",
+   "fee_note": "National park entry fees apply; amounts not verified."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Which national park surrounds Khaptad Baba Ashram?",
+    "options": [
+     "Rara",
+     "Khaptad",
+     "Bardiya",
+     "Shey Phoksundo"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The ashram lies inside Khaptad National Park in far-western Nepal."
+   },
+   {
+    "q": "What profession did Khaptad Baba practise before renouncing the world?",
+    "options": [
+     "Lawyer",
+     "Doctor",
+     "Soldier",
+     "Teacher of music"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "He trained as a doctor in Calcutta and studied surgery in the UK."
+   },
+   {
+    "q": "In which year was Khaptad National Park established on his advice?",
+    "options": [
+     "1973",
+     "1984",
+     "1996",
+     "2006"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The park was established in 1984."
+   },
+   {
+    "q": "Where was Khaptad Baba born?",
+    "options": [
+     "Kashmir",
+     "Varanasi",
+     "Kathmandu",
+     "Doti"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "He was born Shivanath Dogra into a Dogra family of Kashmir."
+   },
+   {
+    "q": "Which festival brings pilgrims to Khaptad each year?",
+    "options": [
+     "Ganga Dashahara",
+     "Indra Jatra",
+     "Lhosar",
+     "Holi"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "The Ganga Dashahara fair is held once a year in the Jestha-Ashadh season."
+   }
+  ],
+  "clues": [
+   "A Kashmiri doctor turned hermit lived half a century in this house on a high meadow, and a national park grew around him.",
+   "A sitar and a simple bed are kept on a red wooden veranda deep inside a protected forest plateau."
+  ],
+  "festivals": [
+   {
+    "name": "Ganga Dashahara Mela",
+    "name_np": "गंगा दशहरा मेला",
+    "month": "Jestha",
+    "note": "Annual pilgrim fair at Khaptad in the Jestha-Ashadh season."
+   }
+  ],
+  "model": {
+   "kind": "courtyard",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": 5,
+   "footprint_m": [
+    14,
+    8
+   ],
+   "walls": "whitewashed-stone",
+   "roof": "slate",
+   "colors": [
+    "#efeee9",
+    "#8e3b2e",
+    "#4a5a3a"
+   ],
+   "features": [
+    "fence-railing"
+   ],
+   "surroundings": [
+    "forest",
+    "hilltop",
+    "garden-lawn"
+   ],
+   "notes": "Long low white stone house with a red timber veranda and slate roof, alone on a grassy meadow edged by dark fir trees; white stones mark a circle in front."
+  },
+  "province": "Sudurpashchim",
+  "district": "Doti",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Khaptad_Baba",
+   "https://en.wikipedia.org/wiki/Khaptad_National_Park",
+   "https://www.buddhaair.com/blog/Spiritual-Khaptad",
+   "https://www.openstreetmap.org/way/480999246",
+   "https://commons.wikimedia.org/wiki/File:Khaptad_Baba_Ashram.jpg"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Baba_hermitage_-_Khaptad_National_Park.jpg/1280px-Baba_hermitage_-_Khaptad_National_Park.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Baba_hermitage_-_Khaptad_National_Park.jpg",
+   "author": "Plamichhane",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Khaptad_Baba_Ashram.jpg/1280px-Khaptad_Baba_Ashram.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Khaptad_Baba_Ashram.jpg",
+    "author": "Dipalmalla",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The ashram among fir trees on the Khaptad plateau"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Khaptad_Baba_Ashram_2.jpg/1280px-Khaptad_Baba_Ashram_2.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Khaptad_Baba_Ashram_2.jpg",
+    "author": "Redpandamoon",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Wooden veranda of the ashram where the hermit lived"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/%E0%A4%B8%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%B0.jpg/1280px-%E0%A4%B8%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%B0.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%B8%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%B0.jpg",
+    "author": "जनक राज भट्ट",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Khaptad Baba's sitar, kept in the ashram"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/%E0%A4%96%E0%A4%AA%E0%A5%8D%E0%A4%A4%E0%A4%A1%E0%A4%AC%E0%A4%BE%E0%A4%AC%E0%A4%BE_%E0%A4%AC%E0%A5%87%E0%A4%A1%28%E0%A4%AC%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE%29.jpg/1280px-%E0%A4%96%E0%A4%AA%E0%A5%8D%E0%A4%A4%E0%A4%A1%E0%A4%AC%E0%A4%BE%E0%A4%AC%E0%A4%BE_%E0%A4%AC%E0%A5%87%E0%A4%A1%28%E0%A4%AC%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%96%E0%A4%AA%E0%A5%8D%E0%A4%A4%E0%A4%A1%E0%A4%AC%E0%A4%BE%E0%A4%AC%E0%A4%BE_%E0%A4%AC%E0%A5%87%E0%A4%A1(%E0%A4%AC%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE).jpg",
+    "author": "जनक राज भट्ट",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Khaptad Baba's bed, preserved in the ashram"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Khaptad_National_Park12.jpg/1280px-Khaptad_National_Park12.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Khaptad_National_Park12.jpg",
+    "author": "Utsab Raj Giri",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Frost on the meadows of Khaptad National Park"
+   }
+  ]
+ },
+ {
+  "slug": "baidyanath-dham-achham",
+  "name": "Baidyanath Dham, Achham",
+  "name_np": "बैद्यनाथ धाम, अछाम",
+  "alt_names": [
+   "Baijnath",
+   "Baidhyanath Dham"
+  ],
+  "city": "Sanfebagar",
+  "zone": null,
+  "lat": 29.234449,
+  "lng": 81.216046,
+  "coord_source": "APPROXIMATE: OpenStreetMap node 6985223989 (Sanfebagar town); the shrine itself is not mapped in OSM and its Wikidata item Q104848853 wrongly carries the coordinates of Deoghar, India",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Shiva (as Baidyanath, lord of physicians)",
+  "built_year": null,
+  "built_century_text": "Ancient pilgrimage site said to be named in the Skanda Purana (Manas Khanda); mentioned by Abhaya Malla, king of Achham, in 1440 BS (c. 1383 CE). Seventeenth-century inscriptions mention the Shah kings.",
+  "dynasty": "Achham Malla (earliest record)",
+  "architecture": "A compact two-roofed pagoda-style shrine with a whitewashed stone ground storey, two dark metal-sheet roofs and a gilded finial, standing in a paved and lawned compound with a white Nandi bull, small shrines and pavilions, beside a Vedic school.",
+  "unesco": false,
+  "short": "A Shiva shrine at a river confluence near Sanfebagar, Achham, where Shiva is worshipped as the divine healer and Vedic students study.",
+  "story": "You are near Sanfebagar in Achham, where the Budhi Ganga meets the Saraswati, and in front of you is the compact two-roofed shrine of Baidyanath Dham. Notice the white Nandi bull facing the door, always watching his lord Shiva. The name means lord of physicians, and the story behind it is told in the Skanda Purana. Ravana, unable to see Shiva after meditating at Mount Kailash, came here to meditate instead. Shiva appeared and granted his wish, attaching his nine heads at this place, acting as a healer, a baidya. Long afterwards, around 1383, King Abhaya Malla of Achham wrote that this place could cure all diseases. Look for students in red and saffron: the shrine runs a Vedic school, the Ved Vidyashram. Come at Shivaratri and you will find pilgrims from Nepal and from India. Local legend even says Gorkhali soldiers who came here during unification were blinded and had to retreat, leaving their weapons behind.",
+  "legend": "Ravana, failing to see Shiva at Kailash, meditated here; Shiva appeared as a healer and restored his nine heads, giving the place its name Baidyanath. A later legend says invading Gorkhali soldiers were struck blind here and retreated, leaving their weapons.",
+  "facts": [
+   "Baidyanath Dham stands at the confluence of the Budhi Ganga and Saraswati rivers in Achham district.",
+   "The place is said to be mentioned in the Manas Khanda of the Skanda Purana.",
+   "King Abhaya Malla of Achham mentioned it in 1440 BS, saying it could cure all diseases.",
+   "The shrine runs a Vedic school, the Ved Vidyashram, which received NPR 2 million from the government in 2020.",
+   "Pilgrims from Nepal and India visit during Maha Shivaratri."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Near Sanfebagar, Achham; no published opening hours.",
+   "fee_note": "No entry fee reported."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Which god is worshipped at Baidyanath Dham?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Ganesh",
+     "Hanuman"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Baidyanath is a Shiva shrine; the name means lord of physicians."
+   },
+   {
+    "q": "In which district is this Baidyanath Dham?",
+    "options": [
+     "Achham",
+     "Doti",
+     "Dailekh",
+     "Surkhet"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It is in Achham district, near Sanfebagar."
+   },
+   {
+    "q": "What does \"baidya\" in Baidyanath mean?",
+    "options": [
+     "King",
+     "Doctor",
+     "River",
+     "Teacher"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Shiva acted as a baidya, a healer, so the place is called Baidyanath."
+   },
+   {
+    "q": "Which demon king is said to have meditated here?",
+    "options": [
+     "Ravana",
+     "Mahishasura",
+     "Kamsa",
+     "Hiranyakashipu"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "In the legend, Ravana meditated here after failing at Kailash."
+   },
+   {
+    "q": "Which two rivers meet at Baidyanath Dham?",
+    "options": [
+     "Seti and Karnali",
+     "Budhi Ganga and Saraswati",
+     "Bheri and Sharda",
+     "Mahakali and Chameliya"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The shrine is at the confluence of the Budhi Ganga and Saraswati."
+   }
+  ],
+  "clues": [
+   "A demon king came here to meditate, and the god appeared as a healer.",
+   "Vedic students in red chant beside a white bull where two far-western rivers meet."
+  ],
+  "festivals": [
+   {
+    "name": "Maha Shivaratri",
+    "name_np": "महाशिवरात्रि",
+    "month": "Falgun",
+    "note": "Pilgrims from Nepal and India visit the shrine."
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    5,
+    5
+   ],
+   "walls": "whitewashed-stone",
+   "roof": "copper",
+   "colors": [
+    "#e8e6e0",
+    "#3d3b38",
+    "#d4a640"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "nandi-bull",
+    "bell"
+   ],
+   "surroundings": [
+    "river",
+    "garden-lawn",
+    "forest"
+   ],
+   "notes": "Small square stone shrine painted white with two dark metal pagoda roofs and a gold finial; a white Nandi bull on a plinth faces the door across a lawn."
+  },
+  "province": "Sudurpashchim",
+  "district": "Achham",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Baidyanath_Dham_(Nepal)",
+   "https://commons.wikimedia.org/wiki/File:BaidyanathDham_Achham1.jpg",
+   "https://commons.wikimedia.org/wiki/File:Baidhyanath_Dham.jpg",
+   "https://www.openstreetmap.org/node/6985223989"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/BaidyanathDham_Achham1.jpg/1280px-BaidyanathDham_Achham1.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:BaidyanathDham_Achham1.jpg",
+   "author": "Sanjib Chaudhary",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/BaidyanathDham_Achham2.jpg/1280px-BaidyanathDham_Achham2.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:BaidyanathDham_Achham2.jpg",
+    "author": "Sanjib Chaudhary",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Vedic school students in red gathered before the shrine"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Baidhyanath_Dham.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Baidhyanath_Dham.jpg",
+    "author": "Manoj Nath Yogi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The two-roofed stone shrine with its white Nandi bull"
+   }
+  ]
+ },
+ {
+  "slug": "parshuram-dham-dadeldhura",
+  "name": "Parshuram Dham",
+  "name_np": "परशुराम धाम",
+  "alt_names": [
+   "Parashuram Dham",
+   "Parshuram Kund"
+  ],
+  "city": "Jogbudha (Parshuram Municipality)",
+  "zone": null,
+  "lat": 29.150385,
+  "lng": 80.270578,
+  "coord_source": "OpenStreetMap node 7874069330 (Parshuram mandir, Parashuram-7, on the Mahakali bank)",
+  "type": "ghat",
+  "religion": "Hindu",
+  "deity": "Parshuram (sixth incarnation of Vishnu)",
+  "built_year": null,
+  "built_century_text": "Ancient pilgrimage site said to be named in the Manas Khanda of the Skanda Purana; dates of the present shrines and the large Parshuram statue are not published.",
+  "dynasty": null,
+  "architecture": "A riverside pilgrimage ground on the rocky banks of the Mahakali: small painted shrines (Ganesh, Hanuman, Shiva) among trees along paved paths, an arched gateway, a small white shrine above the bathing place, and a towering painted statue of Parshuram holding an axe and bow on a stepped plinth.",
+  "unesco": false,
+  "short": "A sacred bathing place on the Mahakali in Dadeldhura, linked to Parshuram's penance and famous for its Maghe Sankranti fair.",
+  "story": "You have come down to the wide, stony banks of the Mahakali River, the western border of Nepal, to Parshuram Dham. Look up first at the giant painted statue: a bearded sage with an axe in one hand and a bow beside him. This is Parshuram, the sixth incarnation of Vishnu. Legend says that after slaying the warriors of the Haihaya clan he came here to perform a great sacrifice as penance, and that later Yudhishthira of the Mahabharata also held a ceremony here and built a Dharma Dwar, a gate of right conduct. The site is said to be named in the Skanda Purana. Walk along the paths past small shrines of Ganesh, Hanuman and Shiva, then down to the water. Every year on Maghe Sankranti, the first of Magh, a great fair fills these banks, and by tradition twenty-two deities from Dadeldhura and Doti are carried here for a holy dip in the river.",
+  "legend": "After killing the Haihaya Kshatriyas, Parshuram is said to have performed a yagya here in penance; Yudhishthira later held a similar ceremony and built a Dharma Dwar (gate of right conduct).",
+  "facts": [
+   "Parshuram Dham lies on the banks of the Mahakali River in Parshuram Municipality-5, Dadeldhura.",
+   "The site is said to be mentioned in the Manas Khanda of the Skanda Purana.",
+   "On Maghe Sankranti, 22 deities from Dadeldhura and Doti are traditionally brought here for a holy dip.",
+   "It is about 30 km, roughly a two-hour ride, from Daiji on the East-West Highway.",
+   "Devotees also bathe here on full-moon, new-moon and eclipse days."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 90,
+   "hours_note": "Open riverside site, about 30 km from Daiji on the East-West Highway; biggest crowds on Maghe Sankranti.",
+   "fee_note": "No entry fee reported."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "On the banks of which river is Parshuram Dham?",
+    "options": [
+     "Karnali",
+     "Mahakali",
+     "Seti",
+     "Bheri"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It lies on the Mahakali, which forms Nepal's western border."
+   },
+   {
+    "q": "Parshuram is the incarnation of which god?",
+    "options": [
+     "Shiva",
+     "Vishnu",
+     "Brahma",
+     "Indra"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Parshuram is the sixth incarnation (avatar) of Vishnu."
+   },
+   {
+    "q": "On which festival is the biggest fair held at Parshuram Dham?",
+    "options": [
+     "Maghe Sankranti",
+     "Tihar",
+     "Teej",
+     "Holi"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "A big fair is held every year on Maghe Sankranti, the first of Magh."
+   },
+   {
+    "q": "How many deities from Dadeldhura and Doti are brought here for a holy dip at Maghe Sankranti?",
+    "options": [
+     "7",
+     "12",
+     "22",
+     "108"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "By tradition, 22 deities are carried here for a holy bath."
+   },
+   {
+    "q": "Which Pandava is said to have built a Dharma Dwar here?",
+    "options": [
+     "Arjuna",
+     "Bhima",
+     "Yudhishthira",
+     "Sahadeva"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "Legend says Yudhishthira held a ceremony here and built a Dharma Dwar."
+   }
+  ],
+  "clues": [
+   "A giant sage with an axe watches over the stony bank of Nepal's western border river.",
+   "Each Maghe Sankranti, twenty-two village gods are carried down here to bathe."
+  ],
+  "festivals": [
+   {
+    "name": "Maghe Sankranti fair",
+    "name_np": "माघे संक्रान्ति मेला",
+    "month": "Magh",
+    "note": "Big annual fair on Magh 1; 22 deities from Dadeldhura and Doti are brought for a holy dip."
+   }
+  ],
+  "model": {
+   "kind": "statue",
+   "tiers": 1,
+   "plinth_steps": 5,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    8,
+    6
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#e88f6a",
+    "#2e8b57",
+    "#c8a46a"
+   ],
+   "features": [
+    "idol-visible",
+    "ghat-steps",
+    "flags-red",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "river",
+    "riverbank-ghats",
+    "forest",
+    "garden-lawn"
+   ],
+   "notes": "Towering painted statue of a bearded sage with an axe and tall bow on a stepped plinth, near small pink and orange shrines under trees by a stony river bank."
+  },
+  "province": "Sudurpashchim",
+  "district": "Dadeldhura",
+  "sources": [
+   "https://english.onlinekhabar.com/parashuram-dham.html",
+   "https://ekantipur.com/sudurpaschim-pradesh/2026/01/14/en/preparations-for-the-parshuram-mela-are-complete-03-47.html",
+   "https://en.wikipedia.org/wiki/Parshuram,_Dadeldhura",
+   "https://www.openstreetmap.org/node/7874069330",
+   "https://commons.wikimedia.org/wiki/File:Farshanam.png"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Farshanam.png/1280px-Farshanam.png",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Farshanam.png",
+   "author": "Mukesh061",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Dhamparashuram.png/1280px-Dhamparashuram.png",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dhamparashuram.png",
+    "author": "Mukesh061",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "caption": "Shrines and paths among the trees of Parshuram Dham"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Parshuram_Dham_Dadeldhura-1.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Parshuram_Dham_Dadeldhura-1.jpg",
+    "author": "कत्यूरी राजाका वंशज",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Bathing place on the rocky bank of the Mahakali River"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hanumantemple.jpg/1280px-Hanumantemple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Hanumantemple.jpg",
+    "author": "Mukesh061",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "caption": "Gateway flanked by small Hanuman and Shiva shrines"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ganeshmandir.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ganeshmandir.jpg",
+    "author": "Mukesh061",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "caption": "Ganesh temple at Parshuram Dham"
+   }
+  ]
+ }
+]
