@@ -1,0 +1,2518 @@
+[
+ {
+  "slug": "patan-durbar-square",
+  "name": "Patan Durbar Square",
+  "name_np": "पाटन दरबार क्षेत्र",
+  "city": "Lalitpur",
+  "zone": null,
+  "lat": 27.673399,
+  "lng": 85.325056,
+  "type": "square",
+  "religion": "Both",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Ancient crossroads; most present buildings date from the 17th century under Siddhi Narasimha Malla and Srinivasa Malla",
+  "dynasty": "Malla",
+  "architecture": "Newar brick-and-timber palace complex with pagoda and shikhara temples facing the royal palace",
+  "unesco": true,
+  "short": "The red-brick royal square of the Malla kings of Lalitpur, packed with temples, courtyards and carvings.",
+  "story": "You are standing in the heart of old Lalitpur, the city the Newars call Yala. This brick-paved square grew from an ancient crossroads into the royal seat of the Malla kings, and most of what surrounds you was built in the 1600s under King Siddhi Narasimha Malla and his son Srinivasa. Look east and you will see the long palace, divided into courtyards such as Mul Chowk, Sundari Chowk and Keshav Narayan Chowk, today home to the Patan Museum. Facing it, a line of temples turns its doorways toward the palace, so the gods and the kings looked at each other across the square. Hindu and Buddhist traditions share this space easily; Patan is said to hold 136 bahals and 55 major temples. In April 2015 a powerful earthquake brought down temples here, including Char Narayan and Hari Shankar, and much has since been rebuilt with salvaged original parts. Take your time, look up at the carved roof struts, and listen for the great bell.",
+  "legend": null,
+  "facts": [
+   "Patan Durbar Square is one of seven Monument Zones of the Kathmandu Valley UNESCO World Heritage Site, inscribed in 1979.",
+   "Most of the present architecture dates from the 17th century, under Siddhi Narasimha Malla and Srinivasa Malla.",
+   "The main temples stand opposite the western face of the palace, with their entrances facing east toward it.",
+   "The square was heavily damaged in the April 2015 earthquake and reopened to visitors in June 2015."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 250,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 120,
+   "note": "Open-air public square. Foreign visitors buy one ticket at the entrances, which also covers the Patan Museum; Nepali citizens enter the square free. Fees from travel guides, not an official 2026 tariff."
+  },
+  "earthquake_2015": "The April 2015 earthquake heavily damaged the square; Char Narayan and Hari Shankar temples collapsed and were later rebuilt using salvaged original elements.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Patan_Durbar_Square-2644.jpg/1280px-Patan_Durbar_Square-2644.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Patan_Durbar_Square-2644.jpg",
+   "author": "Bijay Chaurasia",
+   "license": "CC BY-SA 4.0"
+  },
+  "quiz": [
+   {
+    "q": "Which dynasty built most of the palace and temples in Patan Durbar Square?",
+    "options": [
+     "Licchavi",
+     "Malla",
+     "Shah",
+     "Rana"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The Malla kings of Lalitpur ruled from this palace; most present buildings date from their 17th-century reigns."
+   },
+   {
+    "q": "What is the Newar name for the city of Lalitpur?",
+    "options": [
+     "Yen",
+     "Khwopa",
+     "Yala",
+     "Kirtipur"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Lalitpur is locally known as Yala in Nepal Bhasa."
+   },
+   {
+    "q": "In which year was the Kathmandu Valley, including Patan Durbar Square, inscribed as a UNESCO World Heritage Site?",
+    "options": [
+     "1972",
+     "1979",
+     "1991",
+     "2006"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The Kathmandu Valley site, with its seven Monument Zones, was inscribed in 1979."
+   },
+   {
+    "q": "Which way do the entrances of the main temples in the square face?",
+    "options": [
+     "North",
+     "South",
+     "East, toward the palace",
+     "West, away from the palace"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The main temples stand opposite the palace and their entrances face east toward it."
+   },
+   {
+    "q": "Which two temples in the square collapsed in the 2015 earthquake and were later rebuilt?",
+    "options": [
+     "Krishna Mandir and Bhimsen",
+     "Char Narayan and Hari Shankar",
+     "Vishwanath and Taleju",
+     "Kumbheshwar and Mahabouddha"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Char Narayan and Hari Shankar collapsed in April 2015 and were rebuilt using salvaged bricks and carvings."
+   }
+  ],
+  "clues": [
+   "Gods on one side, kings on the other, and red brick beneath your feet: find the old royal heart of Yala.",
+   "Three famous courtyards line my eastern edge, and a great bell hangs among my temples."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
+   "https://whc.unesco.org/en/list/121/",
+   "https://www.openstreetmap.org/node/2230569085",
+   "https://kathmandupost.com/miscellaneous/2015/06/11/patan-durbar-square-opens-to-public-from-today",
+   "https://wmf.org/node/17515",
+   "https://www.thirdrockadventures.com/blog/heritage-sites-in-nepal-and-entrance-fees-to-visit"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [
+   {
+    "name": "Krishna Janmashtami",
+    "name_np": "कृष्ण जन्माष्टमी",
+    "month": "Bhadra",
+    "note": "Krishna's birthday; devotees queue and sing hymns through the night at Krishna Mandir"
+   },
+   {
+    "name": "Rato Machhindranath Jatra",
+    "name_np": "रातो मच्छिन्द्रनाथ जात्रा",
+    "month": "Baisakh",
+    "note": "The god's tall chariot is pulled through Patan over several weeks"
+   },
+   {
+    "name": "Dashain",
+    "name_np": "दशैं",
+    "month": "Ashwin",
+    "note": "Main Durga festival; Taleju shrines and Durga temples draw worship and offerings"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Patan-Palastplatz-02-von_oben-2007-gje.jpg/1280px-Patan-Palastplatz-02-von_oben-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Palastplatz-02-von_oben-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Patan Durbar Square seen from above, 2007"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Patan-Palastplatz-08-Harishankar-zwei_Tempel-Narayana-Krishna-2013-gje.jpg/1280px-Patan-Palastplatz-08-Harishankar-zwei_Tempel-Narayana-Krishna-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Palastplatz-08-Harishankar-zwei_Tempel-Narayana-Krishna-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Hari Shankar and neighbouring temples on the square"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Patan-Palastplatz-34-Krishna-Vishwanath-Bhimsen-Palast-2015-gje.jpg/1280px-Patan-Palastplatz-34-Krishna-Vishwanath-Bhimsen-Palast-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Palastplatz-34-Krishna-Vishwanath-Bhimsen-Palast-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Krishna Mandir, Vishwanath and Bhimsen temples beside the palace"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Patan-Palastplatz-24-Degutale-Talejuglocke-Cyasilim-2015-gje.jpg/1280px-Patan-Palastplatz-24-Degutale-Talejuglocke-Cyasilim-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Palastplatz-24-Degutale-Talejuglocke-Cyasilim-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Degutale temple, Taleju Bell and Chyasin Dega on the square"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Patan-Palastplatz-10-Yoganarendramallasaeule-2013-gje.jpg/1280px-Patan-Palastplatz-10-Yoganarendramallasaeule-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Palastplatz-10-Yoganarendramallasaeule-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Pillar of King Yoganarendra Malla facing the palace"
+   }
+  ],
+  "model": {
+   "kind": "square",
+   "tiers": 3,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    160,
+    70
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#5a3a28",
+    "#c9a227"
+   ],
+   "features": [
+    "carved-struts",
+    "carved-windows",
+    "gilded-pinnacle",
+    "garuda-pillar",
+    "stone-pillar",
+    "bell",
+    "lion-statues",
+    "water-spouts"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "newar-houses",
+    "market-houses"
+   ],
+   "notes": "Long brick palace on the east side; a row of pagodas and the stone Krishna Mandir face it, with a king on a tall pillar"
+  }
+ },
+ {
+  "slug": "krishna-mandir",
+  "name": "Krishna Mandir",
+  "name_np": "कृष्ण मन्दिर",
+  "city": "Lalitpur",
+  "zone": "patan-durbar-square",
+  "lat": 27.673623,
+  "lng": 85.324964,
+  "type": "shikhara",
+  "religion": "Hindu",
+  "deity": "Krishna",
+  "built_year": 1637,
+  "built_century_text": "17th century (1637, King Siddhi Narasimha Malla)",
+  "dynasty": "Malla",
+  "architecture": "Three-storey stone shikhara in the Granthakuta style with 21 golden pinnacles",
+  "unesco": true,
+  "short": "A 17th-century stone shikhara with 21 golden pinnacles and carved scenes from the Mahabharata and Ramayana.",
+  "story": "In front of you rises a temple made almost entirely of stone, unusual in a valley of brick and timber pagodas. This is Krishna Mandir, built in 1637 by King Siddhi Narasimha Malla in a local shikhara style called Granthakuta. Count the pinnacles if you can: there are 21, all gilded. The temple has three storeys. On the first floor sits the main shrine of Krishna, with Radha and Rukmini on either side. The second floor is dedicated to Shiva and the third to Lokeshwor, the compassionate Avalokiteshvara, a quiet sign of how Hindu and Buddhist worship meet in Patan. Now step closer to the beams above the pillars. The first-floor carvings tell stories from the Mahabharata, and the second-floor carvings illustrate the Ramayana. On Krishnashtami, Krishna's birthday, thousands of devotees crowd this square. The temple was damaged in the 2015 earthquake and restored in 2018. Look across to the column topped by Garuda, kneeling toward his lord.",
+  "legend": "It is said that one night King Siddhi Narasimha Malla saw Lord Krishna and his consort Radha standing in front of the royal palace. Moved by the vision, he ordered a temple to be built on the very spot where they had appeared, and Krishna Mandir rose there, facing the palace across the square. Even today, the main entrance of the temple looks toward the royal palace, as if Krishna were still keeping watch over the king.",
+  "facts": [
+   "Built in 1637 by King Siddhi Narasimha Malla (some sources give 1667, but the king had abdicated by 1661).",
+   "It has 21 golden pinnacles above three storeys.",
+   "First-floor beam carvings show the Mahabharata; second-floor carvings show the Ramayana.",
+   "The upper floors are dedicated to Shiva and to Lokeshwor (Avalokiteshvara)."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 250,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 20,
+   "note": "Viewed from the square; covered by the Patan Durbar Square ticket. Entry to the sanctum is generally restricted to Hindus."
+  },
+  "earthquake_2015": "Damaged in the April 2015 earthquake and restored in 2018.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Patan-Krishna_Mandir-08-2013-gje.jpg/1280px-Patan-Krishna_Mandir-08-2013-gje.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Krishna_Mandir-08-2013-gje.jpg",
+   "author": "Gerd Eichmann",
+   "license": "CC BY-SA 4.0"
+  },
+  "quiz": [
+   {
+    "q": "Which king built Krishna Mandir?",
+    "options": [
+     "Srinivasa Malla",
+     "Siddhi Narasimha Malla",
+     "Yoganarendra Malla",
+     "Prithvi Narayan Shah"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "King Siddhi Narasimha Malla built the temple in 1637."
+   },
+   {
+    "q": "How many golden pinnacles crown Krishna Mandir?",
+    "options": [
+     "5",
+     "9",
+     "21",
+     "108"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The temple is topped by 21 golden pinnacles."
+   },
+   {
+    "q": "What is the name of the local shikhara style used for Krishna Mandir?",
+    "options": [
+     "Granthakuta",
+     "Bhumija",
+     "Nagara-Dravida",
+     "Gajaprishtha"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "It was built in the local variety of shikhara called Granthakuta."
+   },
+   {
+    "q": "Which epic is carved on the beams above the first-floor pillars?",
+    "options": [
+     "Ramayana",
+     "Mahabharata",
+     "Bhagavata Purana",
+     "Jataka tales"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The first floor shows the Mahabharata; the second floor shows the Ramayana."
+   },
+   {
+    "q": "To whom is the third floor of Krishna Mandir dedicated?",
+    "options": [
+     "Shiva",
+     "Ganesh",
+     "Lokeshwor (Avalokiteshvara)",
+     "Taleju"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "The first floor holds Krishna, the second Shiva and the third Lokeshwor."
+   }
+  ],
+  "clues": [
+   "Stone, not brick: twenty-one golden spires and two great epics carved in my beams.",
+   "A king saw a divine couple before his palace and raised me where they stood."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Krishna_Mandir,_Patan",
+   "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
+   "https://www.openstreetmap.org/way/120443307",
+   "https://nepaltraveller.com/sidetrack/krishna-mandir-a-marble-of-stone-carving"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [
+   {
+    "name": "Krishna Janmashtami",
+    "name_np": "कृष्ण जन्माष्टमी",
+    "month": "Bhadra",
+    "note": "Krishna's birthday; devotees queue and sing hymns through the night at Krishna Mandir"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Patan-KrishnaMandir-GoldenPinnacle.jpg/1280px-Patan-KrishnaMandir-GoldenPinnacle.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-KrishnaMandir-GoldenPinnacle.jpg",
+    "author": "sailesh.baidya (Sailesh Raj Baidya)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Gilded pinnacles atop Krishna Mandir"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Patan-Krishna_Mandir-14-Szene_aus_dem_Ramayana-gje.jpg/1280px-Patan-Krishna_Mandir-14-Szene_aus_dem_Ramayana-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Krishna_Mandir-14-Szene_aus_dem_Ramayana-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone frieze with a scene from the Ramayana"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Krisnna_Temple_and_Garuda_at_Patan.jpg/1280px-Krisnna_Temple_and_Garuda_at_Patan.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Krisnna_Temple_and_Garuda_at_Patan.jpg",
+    "author": "Nirmal Dulal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Krishna Mandir with the Garuda statue on its pillar"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Steps_to_Krishna_Mandir.jpg/1280px-Steps_to_Krishna_Mandir.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Steps_to_Krishna_Mandir.jpg",
+    "author": "Kumud.parajuli",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone steps leading up to Krishna Mandir"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Krishna_mandir_at_Night_%283917510265%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Krishna_mandir_at_Night_(3917510265).jpg",
+    "author": "Prashant Shrestha from Kathmandu, Nepal",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Krishna Mandir lit up at night"
+   }
+  ],
+  "model": {
+   "kind": "shikhara",
+   "tiers": 3,
+   "plinth_steps": 3,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    12,
+    12
+   ],
+   "walls": "stone",
+   "roof": "stone-spire",
+   "colors": [
+    "#a8957a",
+    "#c9a227",
+    "#6b5a45"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "garuda-pillar",
+    "stone-pillar",
+    "lion-statues",
+    "guardian-pairs-on-stairs"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "newar-houses"
+   ],
+   "notes": "Grey stone tower ringed by open pillared pavilions with 21 small spires; Garuda kneels on a pillar in front"
+  }
+ },
+ {
+  "slug": "patan-museum",
+  "name": "Patan Museum (Keshav Narayan Chowk)",
+  "name_np": "पाटन संग्रहालय",
+  "city": "Lalitpur",
+  "zone": "patan-durbar-square",
+  "lat": 27.673444,
+  "lng": 85.325335,
+  "type": "museum",
+  "religion": "Both",
+  "deity": null,
+  "built_year": 1734,
+  "built_century_text": "Palace courtyard in its present form from 1734 (Malla period); museum opened in 1997",
+  "dynasty": "Malla",
+  "architecture": "Restored Malla palace quadrangle (Keshav Narayan Chowk) with a gilded doorway, adapted as a museum",
+  "unesco": true,
+  "short": "A Malla royal courtyard turned into a museum of Hindu and Buddhist sacred art.",
+  "story": "Walk through the golden doorway and you enter Keshav Narayan Chowk, the northern courtyard of the old Malla palace. The palace was built on the site of a Buddhist monastery, renovated many times, and its present appearance dates from 1734. After the 1934 earthquake destroyed the east wing it was rebuilt, and for a while the building even housed a public school. Restoration began in 1982, led by the Austrian architect Götz Hagmüller, and in 1997 King Birendra opened the Patan Museum here. The collection, curated by the scholar Mary Shepherd Slusser, explains the sacred art and iconography of Hinduism and Buddhism. Most objects are cast bronzes and gilt copper repoussé, crafts for which Patan's metalworkers are famous. As you move between galleries, notice how the old timber windows frame the courtyard. In 2017 the restored Sundari Chowk, with the royal Tusha Hiti bath, was added to the museum. When you need a pause, the museum café is a pleasant spot.",
+  "legend": null,
+  "facts": [
+   "The museum was inaugurated in 1997 by King Birendra Bir Bikram Shah.",
+   "It occupies Keshav Narayan Chowk, a courtyard of the Malla royal palace whose present appearance dates from 1734.",
+   "The restoration, begun in 1982, was led by Austrian architect Götz Hagmüller; the collection was curated by Mary Shepherd Slusser.",
+   "Most exhibits are cast bronzes and gilt copper repoussé work, crafts Patan is famous for."
+  ],
+  "visit": {
+   "open": "10:30",
+   "close": "17:30",
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 250,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 90,
+   "note": "Foreigner and SAARC fees are the combined Patan Durbar Square + Museum ticket. Nepali citizen fee conflicts between sources (NPR 30 on Wikipedia, NPR 100 in a 2024 listing). Some sources report shorter Saturday hours and closure on public holidays; the official site does not yet publish fees or hours."
+  },
+  "earthquake_2015": "Keshav Narayan Chowk was listed among the palace structures with minor damage after the April 2015 earthquake.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Keshav_Narayan_Chowk%2C_Patan_Durbar_Square.jpg/1280px-Keshav_Narayan_Chowk%2C_Patan_Durbar_Square.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Keshav_Narayan_Chowk,_Patan_Durbar_Square.jpg",
+   "author": "Shadow Ayush",
+   "license": "CC BY-SA 4.0"
+  },
+  "quiz": [
+   {
+    "q": "In which year did the Patan Museum open?",
+    "options": [
+     "1979",
+     "1997",
+     "2007",
+     "2015"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "King Birendra inaugurated the Patan Museum in 1997."
+   },
+   {
+    "q": "Which palace courtyard houses the Patan Museum?",
+    "options": [
+     "Mul Chowk",
+     "Sundari Chowk",
+     "Keshav Narayan Chowk",
+     "Nasal Chowk"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The museum quadrangle is Keshav Narayan Chowk."
+   },
+   {
+    "q": "Which architect led the restoration of the palace for the museum?",
+    "options": [
+     "Götz Hagmüller",
+     "Niels Gutschow",
+     "Le Corbusier",
+     "Arniko"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "The Austrian architect Götz Hagmüller restored the building."
+   },
+   {
+    "q": "Which crafts make up most of the collection?",
+    "options": [
+     "Thangka paintings and textiles",
+     "Cast bronzes and gilt copper repoussé",
+     "Terracotta pottery",
+     "Weapons and armour"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Most objects are cast bronzes and gilt copper repoussé, crafts Patan is renowned for."
+   },
+   {
+    "q": "What destroyed the east wing of the palace, which was later rebuilt?",
+    "options": [
+     "A fire in 1662",
+     "The 1934 earthquake",
+     "The 1768 Gorkha conquest",
+     "The 2015 earthquake"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The east wing was destroyed in the 1934 earthquake and later rebuilt."
+   }
+  ],
+  "clues": [
+   "Once a royal home, once a schoolhouse, now a treasury of bronze gods behind a golden door.",
+   "An Austrian architect gave me new life, and a king opened my doors in 1997."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Patan_Museum",
+   "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
+   "https://patanmuseum.gov.np/",
+   "https://www.openstreetmap.org/node/1904110313",
+   "https://thehimalayantimes.com/ampArticle/111543"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Patan_Museum%2C_The_Museum_behind_the_Golden_Door_1.jpg/1280px-Patan_Museum%2C_The_Museum_behind_the_Golden_Door_1.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan_Museum,_The_Museum_behind_the_Golden_Door_1.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Golden door at the entrance of the Patan Museum"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/2023_-_Patan_Museum_-_Keshav_Narayan_Chowk_%26_Bidya_Mandira_-_img_0.jpg/1280px-2023_-_Patan_Museum_-_Keshav_Narayan_Chowk_%26_Bidya_Mandira_-_img_0.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:2023_-_Patan_Museum_-_Keshav_Narayan_Chowk_%26_Bidya_Mandira_-_img_0.jpg",
+    "author": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Keshav Narayan Chowk courtyard, 2023"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Wooden_Window_inside_Patan_Museum-IMG_3651.jpg/1280px-Wooden_Window_inside_Patan_Museum-IMG_3651.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Wooden_Window_inside_Patan_Museum-IMG_3651.jpg",
+    "author": "Bijay chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Carved wooden window inside the museum"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Mangal_Hiti_viewed_from_Patan_Museum.jpg/1280px-Mangal_Hiti_viewed_from_Patan_Museum.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mangal_Hiti_viewed_from_Patan_Museum.jpg",
+    "author": "Bidhan Rajkarnikar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Mangal Hiti seen from the Patan Museum"
+   }
+  ],
+  "model": {
+   "kind": "palace",
+   "tiers": 3,
+   "plinth_steps": 0,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    40,
+    40
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#c9a227",
+    "#4a3020"
+   ],
+   "features": [
+    "golden-door",
+    "carved-windows",
+    "carved-struts",
+    "gilded-pinnacle"
+   ],
+   "surroundings": [
+    "brick-courtyard",
+    "stone-paved-plaza"
+   ],
+   "notes": "Brick palace wing on the square with a gilded copper door and gilded window above it; square inner courtyard"
+  }
+ },
+ {
+  "slug": "bhimsen-temple",
+  "name": "Bhimsen Temple",
+  "name_np": "भीमसेन मन्दिर",
+  "city": "Lalitpur",
+  "zone": "patan-durbar-square",
+  "lat": 27.673873,
+  "lng": 85.325182,
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Bhimsen",
+  "built_year": 1680,
+  "built_century_text": "17th century (1680, King Srinivasa Malla)",
+  "dynasty": "Malla",
+  "architecture": "Newar pagoda known for three interconnected golden windows on its upper facade",
+  "unesco": true,
+  "short": "A Malla-era pagoda to Bhimsen, the Pandava hero worshipped by Newar traders as a god of business.",
+  "story": "At the northern end of the square stands the temple of Bhimsen, built by King Srinivasa Malla in 1680. Bhimsen is Bhima, the second of the five Pandava brothers in the Mahabharata, famous for his strength and courage. Here in Patan, though, he has another role: Newar merchants and traders worship him as a god of business and trade, so you may see shopkeepers stopping to pray. Look up at the facade and find its pride, three interconnected golden windows gleaming above the square. The temple is a working shrine, so visitors are not allowed inside and photography inside is not permitted; enjoy it from the square instead. Notice how it sits in line with Vishwanath Temple and Krishna Mandir, all facing the palace across the bricks. The 2015 earthquake left the temple partially damaged, and it has been repaired since. Before you move on, stand back far enough to see the whole building and imagine the merchants who have prayed here for over three centuries.",
+  "legend": null,
+  "facts": [
+   "Built by King Srinivasa Malla in 1680.",
+   "Renowned for its three interconnected golden windows.",
+   "Newars worship Bhimsen, the Pandava hero, as a god of business and trade.",
+   "Tourists are not allowed inside, and photography inside is not permitted."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 250,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 15,
+   "note": "Exterior viewing only; covered by the Patan Durbar Square ticket."
+  },
+  "earthquake_2015": "Partially damaged in the April 2015 earthquake and later repaired.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Patan_Bhimsen_Temple_Patan_Durbar_Square_Patan_Lalitpur_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Patan_Bhimsen_Temple_Patan_Durbar_Square_Patan_Lalitpur_Nepal_Rajesh_Dhungana_%281%29.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Patan_Bhimsen_Temple_Patan_Durbar_Square_Patan_Lalitpur_Nepal_Rajesh_Dhungana_(1).jpg",
+   "author": "Rajesh Dhungana",
+   "license": "CC BY-SA 4.0"
+  },
+  "quiz": [
+   {
+    "q": "Who is Bhimsen in Hindu epic tradition?",
+    "options": [
+     "A Pandava brother from the Mahabharata",
+     "A king of Lanka",
+     "A form of Shiva",
+     "A Buddhist monk"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Bhimsen is Bhima, second of the five Pandava brothers."
+   },
+   {
+    "q": "Newars worship Bhimsen especially as the god of what?",
+    "options": [
+     "Rain",
+     "Business and trade",
+     "War",
+     "Learning"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "In the Newar tradition Bhimsen is a patron of business and trade."
+   },
+   {
+    "q": "Which king built the Bhimsen Temple of Patan?",
+    "options": [
+     "Siddhi Narasimha Malla",
+     "Srinivasa Malla",
+     "Jayasthiti Malla",
+     "Vishnu Malla"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Srinivasa Malla built it in 1680."
+   },
+   {
+    "q": "What feature is the temple most renowned for?",
+    "options": [
+     "Erotic roof struts",
+     "Three interconnected golden windows",
+     "A stone linga",
+     "Twenty-one pinnacles"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Its three interconnected golden windows are its best-known feature."
+   },
+   {
+    "q": "In what year was the temple built?",
+    "options": [
+     "1627",
+     "1637",
+     "1680",
+     "1736"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "Wikipedia dates the temple to 1680 under Srinivasa Malla."
+   }
+  ],
+  "clues": [
+   "A mighty Pandava keeps the accounts of Patan's merchants behind three golden windows.",
+   "I stand at the northern end of the temple row; you may admire me, but you may not enter."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
+   "https://www.openstreetmap.org/way/326472980",
+   "https://kathmandupost.com/miscellaneous/2015/06/11/patan-durbar-square-opens-to-public-from-today"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bhimsen_Temple%2C_with_Vishwanath_Temple_in_back_%288094976148%29.jpg/1280px-Bhimsen_Temple%2C_with_Vishwanath_Temple_in_back_%288094976148%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhimsen_Temple,_with_Vishwanath_Temple_in_back_(8094976148).jpg",
+    "author": "Greg Willis from Denver, CO, usa",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Bhimsen Temple with Vishwanath Temple behind"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Bhimsen_temple_and_water_taps_at_Patan_Durbar_Square_1.jpg/1280px-Bhimsen_temple_and_water_taps_at_Patan_Durbar_Square_1.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhimsen_temple_and_water_taps_at_Patan_Durbar_Square_1.jpg",
+    "author": "Manoguru",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Bhimsen Temple and the stone water taps nearby"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Bhimsen_Temple_%E2%80%93_Patan_-_01.jpg/1280px-Bhimsen_Temple_%E2%80%93_Patan_-_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhimsen_Temple_%E2%80%93_Patan_-_01.jpg",
+    "author": "Maesi64",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Bhimsen Temple, Patan Durbar Square"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Bhimsen_temple_patan_GP_%282%29.JPG/1280px-Bhimsen_temple_patan_GP_%282%29.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhimsen_temple_patan_GP_(2).JPG",
+    "author": "Ganesh Paudel",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Bhimsen Temple, upper facade"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Patan-Bhimsen-10-Baustelle-gje.jpg/1280px-Patan-Bhimsen-10-Baustelle-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Bhimsen-10-Baustelle-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Bhimsen Temple under reconstruction"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    10,
+    8
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#c9a227",
+    "#4a3020"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "carved-windows",
+    "lion-statues"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "newar-houses"
+   ],
+   "notes": "Rectangular brick pagoda whose first floor carries a projecting balcony of three joined gilded windows"
+  }
+ },
+ {
+  "slug": "vishwanath-temple",
+  "name": "Vishwanath Temple",
+  "name_np": "विश्वनाथ मन्दिर",
+  "city": "Lalitpur",
+  "zone": "patan-durbar-square",
+  "lat": 27.6737,
+  "lng": 85.325177,
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Shiva",
+  "built_year": 1627,
+  "built_century_text": "17th century (1627, reign of Siddhi Narasimha Malla)",
+  "dynasty": "Malla",
+  "architecture": "Newar pagoda with carved roof struts, guarded by two stone elephants",
+  "unesco": true,
+  "short": "A Shiva pagoda guarded by stone elephants, with Nandi the bull waiting on the other side.",
+  "story": "Between Krishna Mandir and Bhimsen Temple stands Vishwanath, a temple to Lord Shiva built in 1627 during the reign of Siddhi Narasimha Malla. Start at the front steps, where two stone elephants stand guard at the entrance. Then walk around to the other side: there sits a sculpture of Nandi the bull, Shiva's faithful vehicle. Inside, out of sight, a stone linga is enshrined, the abstract form in which Shiva is worshipped. Now tilt your head back and study the carved wooden roof struts. Among the many figures you may spot erotic scenes, imagery widespread on Shiva temples in India and common in the Kathmandu Valley, often read as symbols of creation and fertility. The temple was partially damaged in the April 2015 earthquake and has since been repaired. It is one of the oldest temples on this row, built a decade before Krishna Mandir, so you are looking at nearly four centuries of devotion. Pause here, and watch how locals touch the steps as they pass.",
+  "legend": null,
+  "facts": [
+   "Built in 1627 during the reign of Siddhi Narasimha Malla.",
+   "Two stone elephants guard the front entrance.",
+   "A sculpture of Nandi, Shiva's bull, sits on the opposite side.",
+   "It stands between Krishna Mandir and Bhimsen Temple, with a stone linga inside."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 250,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 15,
+   "note": "Exterior viewing; covered by the Patan Durbar Square ticket."
+  },
+  "earthquake_2015": "Partially damaged in the April 2015 earthquake and later repaired.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bishwanath_Temple%2C_Patan.jpg/1280px-Bishwanath_Temple%2C_Patan.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Bishwanath_Temple,_Patan.jpg",
+   "author": "Safalphotos",
+   "license": "CC BY-SA 4.0"
+  },
+  "quiz": [
+   {
+    "q": "To which god is Vishwanath Temple dedicated?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Krishna",
+     "Ganesh"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Vishwanath, \"Lord of the Universe\", is a name of Shiva."
+   },
+   {
+    "q": "Which animals guard the front entrance?",
+    "options": [
+     "Lions",
+     "Elephants",
+     "Griffins",
+     "Horses"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Two stone elephants flank the entrance."
+   },
+   {
+    "q": "What sits on the opposite side of the temple?",
+    "options": [
+     "A Garuda",
+     "A Nandi bull",
+     "A lion",
+     "A peacock"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Nandi, Shiva's vehicle, is sculpted on the other side."
+   },
+   {
+    "q": "In what year was Vishwanath Temple built?",
+    "options": [
+     "1592",
+     "1627",
+     "1680",
+     "1734"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "It dates to 1627, during Siddhi Narasimha Malla's reign."
+   },
+   {
+    "q": "Between which two temples does Vishwanath stand?",
+    "options": [
+     "Krishna Mandir and Bhimsen",
+     "Taleju and Mul Chowk",
+     "Kumbheshwar and Golden Temple",
+     "Hari Shankar and Char Narayan"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Vishwanath is located between Krishna Mandir and Bhimsen Temple."
+   }
+  ],
+  "clues": [
+   "Two elephants at my door and a bull at my back: I keep the Lord of the Universe.",
+   "I am the middle sibling of the temple row, a decade older than the stone shikhara beside me."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
+   "https://www.openstreetmap.org/way/328903213",
+   "https://kathmandupost.com/miscellaneous/2015/06/11/patan-durbar-square-opens-to-public-from-today"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [
+   {
+    "name": "Maha Shivaratri",
+    "name_np": "महाशिवरात्रि",
+    "month": "Falgun",
+    "note": "Night of Shiva; devotees offer worship at Shiva shrines"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Vishwanath_Temple_Elephants_and_Durbar_Square_%288094975626%29.jpg/1280px-Vishwanath_Temple_Elephants_and_Durbar_Square_%288094975626%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Vishwanath_Temple_Elephants_and_Durbar_Square_(8094975626).jpg",
+    "author": "Greg Willis from Denver, CO, usa",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Stone elephants guarding Vishwanath Temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Patan-Vishwanath-10-Erdgeschoss-2007-gje.jpg/1280px-Patan-Vishwanath-10-Erdgeschoss-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Vishwanath-10-Erdgeschoss-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Ground floor of Vishwanath Temple, 2007"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Patan-Vishwanath-11-Erdgeschoss-Relief-2007-gje.jpg/1280px-Patan-Vishwanath-11-Erdgeschoss-Relief-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Vishwanath-11-Erdgeschoss-Relief-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Carved relief on the ground floor"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Patan-Vishwanath-22-Elefanten-Erdbebenschaden-2015-gje.jpg/1280px-Patan-Vishwanath-22-Elefanten-Erdbebenschaden-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Vishwanath-22-Elefanten-Erdbebenschaden-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone elephants after the 2015 earthquake"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Vishwanath_Temple%2C_patan_durbar.jpg/1280px-Vishwanath_Temple%2C_patan_durbar.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Vishwanath_Temple,_patan_durbar.jpg",
+    "author": "Deeplove thapa1",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Vishwanath Temple on Patan Durbar Square"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    10,
+    10
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#c9a227"
+   ],
+   "features": [
+    "elephant-statues",
+    "nandi-bull",
+    "shiva-lingam",
+    "carved-struts",
+    "gilded-pinnacle"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "newar-houses"
+   ],
+   "notes": "Two-roofed Shiva pagoda with a pillared ground-floor arcade; stone elephants flank the front stairs, a stone Nandi behind"
+  }
+ },
+ {
+  "slug": "taleju-bell",
+  "name": "Taleju Bell",
+  "name_np": "तलेजु घण्ट",
+  "city": "Lalitpur",
+  "zone": "patan-durbar-square",
+  "lat": 27.673038,
+  "lng": 85.324907,
+  "type": "statue",
+  "religion": "Hindu",
+  "deity": "Taleju",
+  "built_year": 1736,
+  "built_century_text": "18th century (1736, King Vishnu Malla)",
+  "dynasty": "Malla",
+  "architecture": "Large cast bronze bell hung in a frame on a raised plinth",
+  "unesco": true,
+  "short": "The great bronze bell of the Malla kings, named for the royal goddess Taleju.",
+  "story": "Near the palace front hangs a great bronze bell. This is the Taleju Bell, named for Taleju Bhawani, the royal goddess of the Malla kings. Travel guides record that King Vishnu Malla and his queen set it up in 1736, after an earlier bell installed in 1703 had been moved to the Rato Machhindranath Temple. Royal bells like this one sounded during worship of the goddess and served as a public signal, a way to call people to the palace. Look at the frame that holds it and the plinth beneath, and notice how the bell lines up beside the main temples of the square. Imagine its deep voice rolling across the rooftops of Yala in Malla times, when news and royal summons travelled by sound rather than screens. Few objects in the square connect you so directly to daily palace life. Admire it closely and take in the craftsmanship of the casting. From here, the entrances to Mul Chowk and the Taleju temples are only a few steps away.",
+  "legend": null,
+  "facts": [
+   "Named after Taleju Bhawani, the personal deity of the Malla kings.",
+   "Travel sources date it to 1736 and credit King Vishnu Malla.",
+   "An earlier bell installed in 1703 was reportedly moved to the Rato Machhindranath Temple.",
+   "It stands in alignment beside the main temples facing the palace."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 250,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 10,
+   "note": "Open-air monument in the square; covered by the Patan Durbar Square ticket. The 1736 date comes from travel guides, not a scholarly source."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Taleju_Bell_at_Patan_Durbar_Square.jpg/1280px-Taleju_Bell_at_Patan_Durbar_Square.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Taleju_Bell_at_Patan_Durbar_Square.jpg",
+   "author": "Harsh Mahaseth",
+   "license": "CC BY-SA 4.0"
+  },
+  "quiz": [
+   {
+    "q": "After which goddess is the great bell named?",
+    "options": [
+     "Kumari",
+     "Taleju Bhawani",
+     "Durga Bhawani",
+     "Lakshmi"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is named for Taleju Bhawani, royal goddess of the Mallas."
+   },
+   {
+    "q": "Which king is credited with installing the bell?",
+    "options": [
+     "Siddhi Narasimha Malla",
+     "Srinivasa Malla",
+     "Vishnu Malla",
+     "Ranajit Malla"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Sources credit King Vishnu Malla."
+   },
+   {
+    "q": "In what year was the bell installed, according to most sources?",
+    "options": [
+     "1637",
+     "1680",
+     "1736",
+     "1934"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Most sources give 1736."
+   },
+   {
+    "q": "Where was an earlier bell from 1703 reportedly moved?",
+    "options": [
+     "Kumbheshwar Temple",
+     "Rato Machhindranath Temple",
+     "Golden Temple",
+     "Swayambhunath"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "Accounts say the 1703 bell was moved to the Rato Machhindranath Temple."
+   },
+   {
+    "q": "Besides worship, what was a royal bell like this used for?",
+    "options": [
+     "Telling the tides",
+     "Summoning people to the palace",
+     "Measuring rainfall",
+     "Scaring away birds"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Royal bells also served to call the public to the palace."
+   }
+  ],
+  "clues": [
+   "I have no shrine inside me, yet I speak for a goddess whenever I am struck.",
+   "Hung near the palace front in 1736, my bronze voice once called all of Yala."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
+   "https://www.openstreetmap.org/way/199775523",
+   "https://backpackandsnorkel.com/Nepal/Day3/5329k-TalejuBell/",
+   "https://www.nepaltraveller.com/sidetrack/friday-facts-patan-durbar-square"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Big_Bell_Nepal.JPG/1280px-Big_Bell_Nepal.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Big_Bell_Nepal.JPG",
+    "author": "Kuber Sodari",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The big Taleju Bell in its frame"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Bell_of_Patan.jpg/1280px-Bell_of_Patan.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bell_of_Patan.jpg",
+    "author": "Rupson singh1",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Taleju Bell, Patan Durbar Square"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Big_Bell%2C_Patan_Durbar_Square.jpg/1280px-Big_Bell%2C_Patan_Durbar_Square.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Big_Bell,_Patan_Durbar_Square.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Taleju Bell on its raised stone plinth"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Patan_darbar_front_bell_on_sunset.jpg/1280px-Patan_darbar_front_bell_on_sunset.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan_darbar_front_bell_on_sunset.jpg",
+    "author": "Pkatuwal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Taleju Bell at sunset"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Patan-Palastplatz-24-Degutale-Talejuglocke-Cyasilim-2015-gje.jpg/1280px-Patan-Palastplatz-24-Degutale-Talejuglocke-Cyasilim-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Palastplatz-24-Degutale-Talejuglocke-Cyasilim-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Taleju Bell between Degutale and Chyasin Dega"
+   }
+  ],
+  "model": {
+   "kind": "statue",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    3,
+    2
+   ],
+   "walls": "stone",
+   "roof": "clay-tile",
+   "colors": [
+    "#5a4a32",
+    "#8b3a2b",
+    "#9c8a6e"
+   ],
+   "features": [
+    "bell",
+    "stone-pillar",
+    "gilded-pinnacle"
+   ],
+   "surroundings": [
+    "stone-paved-plaza"
+   ],
+   "notes": "Big bronze bell under a small tiled roof with three gilded finials, held by two stone pillars on a tall carved stone plinth"
+  }
+ },
+ {
+  "slug": "mul-chowk",
+  "name": "Mul Chowk",
+  "name_np": "मूल चोक",
+  "city": "Lalitpur",
+  "zone": "patan-durbar-square",
+  "lat": 27.672997,
+  "lng": 85.325208,
+  "type": "courtyard",
+  "religion": "Hindu",
+  "deity": "Taleju Bhawani",
+  "built_year": null,
+  "built_century_text": "17th century; rebuilt by Srinivasa Malla after a fire in 1662 (c. 1665-1666)",
+  "dynasty": "Malla",
+  "architecture": "Two-storey Newar palace courtyard with the gilded Bidya Mandir at its centre and Taleju temples around it",
+  "unesco": true,
+  "short": "The largest and most sacred courtyard of Patan palace, ringed by shrines of the royal goddess Taleju.",
+  "story": "You are now in Mul Chowk, the central and largest of the three main courtyards of Patan's royal palace. This was the ritual heart of the Malla court. The original buildings burned in 1662 and were rebuilt within a few years by King Srinivasa Malla. In the centre stands a small gilded shrine, the Bidya Mandir, and around the courtyard rise temples of Taleju Bhawani, the kings' personal goddess: the triple-roofed Taleju temple to the north and the Taleju Bhawani shrine on the south side. Look at the doorway to the Taleju shrine on the southern side. It is flanked by two river goddesses, Ganga standing on a tortoise and Jamuna on a makara, a mythical water creature. Their gilded forms are among the finest metalwork in the palace. The courtyard's temples were restored in 2014, and its walls and buildings needed repair again after the 2015 earthquake. Stand quietly for a moment and picture the royal rituals once performed on these flagstones.",
+  "legend": null,
+  "facts": [
+   "Mul Chowk is the central and largest of the palace's three main courtyards.",
+   "A small gilded temple, the Bidya Mandir, stands at its centre.",
+   "The Taleju shrine doorway is flanked by Ganga on a tortoise and Jamuna on a makara.",
+   "After a fire in 1662 the courtyard was rebuilt by Srinivasa Malla."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 250,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 20,
+   "note": "Coordinates are the midpoint between the OSM-mapped Taleju temples on its north and south sides (no named OSM feature for the courtyard). Access hours vary; covered by the Patan Durbar Square ticket."
+  },
+  "earthquake_2015": "Walls and buildings around the courtyard were damaged in the April 2015 earthquake and later repaired; the South Taleju temple was the subject of post-quake structural restoration.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Mul_Chowk%2C_Patan_%281%29.jpg/1280px-Mul_Chowk%2C_Patan_%281%29.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Mul_Chowk,_Patan_(1).jpg",
+   "author": "Radosław Botev",
+   "license": "CC BY 3.0 pl"
+  },
+  "quiz": [
+   {
+    "q": "Mul Chowk is the largest of how many main palace courtyards in Patan?",
+    "options": [
+     "Two",
+     "Three",
+     "Five",
+     "Seven"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The three main courtyards are Mul Chowk, Sundari Chowk and Keshav Narayan Chowk."
+   },
+   {
+    "q": "What stands at the centre of Mul Chowk?",
+    "options": [
+     "A stepwell",
+     "The gilded Bidya Mandir",
+     "A statue of King Yoganarendra Malla",
+     "A stupa"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The small gilded Bidya temple stands in the middle."
+   },
+   {
+    "q": "Which goddess, personal deity of the Malla kings, is honoured by temples around Mul Chowk?",
+    "options": [
+     "Taleju Bhawani",
+     "Saraswati",
+     "Kumari",
+     "Harati"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Taleju temples surround the courtyard."
+   },
+   {
+    "q": "On what creature does the river goddess Ganga stand at the Taleju doorway?",
+    "options": [
+     "A makara",
+     "A tortoise",
+     "A lion",
+     "A peacock"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Ganga stands on a tortoise; Jamuna stands on a makara."
+   },
+   {
+    "q": "What happened to Mul Chowk in 1662?",
+    "options": [
+     "It was built for the first time",
+     "It burned and was later rebuilt by Srinivasa Malla",
+     "It was destroyed by an earthquake",
+     "It was converted into a museum"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "The original buildings burned in 1662 and were rebuilt by Srinivasa Malla."
+   }
+  ],
+  "clues": [
+   "The royal goddess keeps her temples on my north and south, and two river goddesses guard her door.",
+   "I am the middle and the biggest of three, the ritual heart of a Malla palace."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
+   "https://www.lonelyplanet.com/pois/1432406",
+   "https://www.openstreetmap.org/way/120443289",
+   "https://www.openstreetmap.org/way/120443314",
+   "https://cultureincrisis.org/projects/structural-assessment-and-restoration-of-the-south-tajelu-temple-and-other-structures-at-patan-royal-palace-affected-by-the-april-2015-nepal-earthquake"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [
+   {
+    "name": "Dashain",
+    "name_np": "दशैं",
+    "month": "Ashwin",
+    "note": "Main Durga festival; Taleju shrines and Durga temples draw worship and offerings"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Mool_Chowk_%28Main_courtyard_%29_Patan_Durbar_Square_Patan_Lalitpur_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Mool_Chowk_%28Main_courtyard_%29_Patan_Durbar_Square_Patan_Lalitpur_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mool_Chowk_(Main_courtyard_)_Patan_Durbar_Square_Patan_Lalitpur_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Mul Chowk, the main palace courtyard"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Dashain_Ghar_Mool_Chowk_Patan_Durbar_Square_Patan_Lalitpur_Nepal_Rajesh_Dhungana_%287%29.jpg/1280px-Dashain_Ghar_Mool_Chowk_Patan_Durbar_Square_Patan_Lalitpur_Nepal_Rajesh_Dhungana_%287%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dashain_Ghar_Mool_Chowk_Patan_Durbar_Square_Patan_Lalitpur_Nepal_Rajesh_Dhungana_(7).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Dashain Ghar in Mul Chowk"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Golden_door%2C_Mul_Chowk%2C_Patan_Durbar_Square.jpg/1280px-Golden_door%2C_Mul_Chowk%2C_Patan_Durbar_Square.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Golden_door,_Mul_Chowk,_Patan_Durbar_Square.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Golden door of the Taleju shrine in Mul Chowk"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Patan-Palast-Mul_Chowk-18-2015-gje.jpg/1280px-Patan-Palast-Mul_Chowk-18-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Palast-Mul_Chowk-18-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Mul Chowk, Patan palace, 2015"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Mul_Chowk_%E2%80%93_Royal_Palace_Patan_%E2%80%93_01.jpg/1280px-Mul_Chowk_%E2%80%93_Royal_Palace_Patan_%E2%80%93_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mul_Chowk_%E2%80%93_Royal_Palace_Patan_%E2%80%93_01.jpg",
+    "author": "Maesi64",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Mul Chowk, Royal Palace of Patan"
+   }
+  ],
+  "model": {
+   "kind": "courtyard",
+   "tiers": 2,
+   "plinth_steps": 0,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    30,
+    30
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#c9a227",
+    "#4a3020"
+   ],
+   "features": [
+    "golden-door",
+    "carved-windows",
+    "carved-struts",
+    "gilded-pinnacle",
+    "lion-statues"
+   ],
+   "surroundings": [
+    "brick-courtyard"
+   ],
+   "notes": "Two-storey brick courtyard with a small gilded temple in the middle and a tall Taleju temple rising over one wing"
+  }
+ },
+ {
+  "slug": "sundari-chowk-tusha-hiti",
+  "name": "Sundari Chowk and Tusha Hiti",
+  "name_np": "सुन्दरी चोक र तुषा हिटी",
+  "city": "Lalitpur",
+  "zone": "patan-durbar-square",
+  "lat": 27.672717,
+  "lng": 85.325137,
+  "type": "courtyard",
+  "religion": "Hindu",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "17th century (King Siddhi Narasimha Malla; sources give 1626, 1627 or 1647 for Tusha Hiti)",
+  "dynasty": "Malla",
+  "architecture": "Palace courtyard containing a sunken, octagonal stone royal bath with a gilt copper spout and 72 stone deity images",
+  "unesco": true,
+  "short": "A royal courtyard hiding Tusha Hiti, the sunken stone bath of King Siddhi Narasimha Malla.",
+  "story": "Step into Sundari Chowk, the southern courtyard of the palace, and look down. Sunk about one and a half metres below your feet is Tusha Hiti, the royal bath credited to King Siddhi Narasimha Malla in the 17th century. The basin is octagonal, a nod to the king's devotion to the eight Nagas, and two stone serpents run around its rim. Its walls hold 72 stone images of gods and goddesses, among them the Ashtamatrikas, the Ashta Bhairavas and the ten avatars of Vishnu. Water once poured from a gilt copper spout showing Vishnu and Lakshmi riding Garuda. The spout you see is a replica; the original was stolen in 2010, later recovered, and its top part is now in the National Museum. A small replica of Krishna Mandir sits on the main axis of the bath. Legend says the king bathed here at dawn and meditated on a nearby stone slab. Today no water flows. Sundari Chowk became part of the Patan Museum in 2017.",
+  "legend": "According to legend, King Siddhi Narasimha Malla rose early each morning, bathed in Tusha Hiti and then meditated for hours on the stone slab beside it. Attendants brought towels and wraps while the queen watched from the carved windows above, and afterward the king lay on a stone bed to be massaged with oils. Some historians doubt the story, arguing the bath was meant for ritual offerings of water to the gods rather than royal bathing.",
+  "facts": [
+   "Tusha Hiti is about 5.3 m long, 4 m wide and sits 150 cm below the courtyard.",
+   "The bath holds 72 stone sculptures of deities, including the ten avatars of Vishnu.",
+   "The original gilt spout was stolen in 2010 and recovered; its top portion is in the National Museum of Nepal.",
+   "The bath appeared in the films Arabian Nights (1974) and Little Buddha (1993)."
+  ],
+  "visit": {
+   "open": "10:30",
+   "close": "17:30",
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 250,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "note": "Sundari Chowk has been part of the Patan Museum since 2017; hours follow the museum and access is via the museum ticket. Nepali fee unverified."
+  },
+  "earthquake_2015": "After the April 2015 earthquake the bath's water became polluted, and by 2019 no water was flowing from the spout.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Sundari_chowk_and_Tusha_Hiti_in_the_middle.jpg/1280px-Sundari_chowk_and_Tusha_Hiti_in_the_middle.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Sundari_chowk_and_Tusha_Hiti_in_the_middle.jpg",
+   "author": "Suraj Belbase",
+   "license": "CC BY-SA 4.0"
+  },
+  "quiz": [
+   {
+    "q": "What is Tusha Hiti?",
+    "options": [
+     "A royal sunken bath",
+     "A watchtower",
+     "A Buddhist monastery",
+     "A city gate"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Tusha Hiti is the sunken royal bath in Sundari Chowk."
+   },
+   {
+    "q": "Which king is credited with building Tusha Hiti?",
+    "options": [
+     "Siddhi Narasimha Malla",
+     "Srinivasa Malla",
+     "Vishnu Malla",
+     "Jayasthiti Malla"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "King Siddhi Narasimha Malla is credited with it."
+   },
+   {
+    "q": "What shape is the bath's basin?",
+    "options": [
+     "Circular",
+     "Octagonal",
+     "Triangular",
+     "Cross-shaped"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The octagonal shape reflects the king's devotion to the eight Nagas."
+   },
+   {
+    "q": "Which deities ride Garuda on the original gilt spout?",
+    "options": [
+     "Shiva and Parvati",
+     "Vishnu and Lakshmi",
+     "Krishna and Radha",
+     "Rama and Sita"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The spout shows Vishnu and Lakshmi riding Garuda."
+   },
+   {
+    "q": "How many stone sculptures of deities does Tusha Hiti house today?",
+    "options": [
+     "24",
+     "36",
+     "72",
+     "108"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "Tusha Hiti houses 72 stone sculptures of deities."
+   }
+  ],
+  "clues": [
+   "Eight sides, two serpents and seventy-two gods line a bath where a king once greeted the dawn.",
+   "My golden spout was stolen and found again, yet no water flows from me today."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tusha_Hiti",
+   "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
+   "https://en.wikipedia.org/wiki/Patan_Museum",
+   "https://www.openstreetmap.org/way/199772294",
+   "https://www.openstreetmap.org/node/10034234966"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Sundari_Chowk%2C_Patan_Durbar_Square.jpg/1280px-Sundari_Chowk%2C_Patan_Durbar_Square.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Sundari_Chowk,_Patan_Durbar_Square.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Sundari Chowk courtyard"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Sundari_Chowk%2C_Patan_Durbar_Square2.jpg/1280px-Sundari_Chowk%2C_Patan_Durbar_Square2.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Sundari_Chowk,_Patan_Durbar_Square2.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Carved wooden facade of Sundari Chowk"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Ganesh_-_Wood_Caarving%2C_Sundari_Chowk%2C_Patan_Durbar_Square.jpg/1280px-Ganesh_-_Wood_Caarving%2C_Sundari_Chowk%2C_Patan_Durbar_Square.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ganesh_-_Wood_Caarving,_Sundari_Chowk,_Patan_Durbar_Square.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Ganesh woodcarving in Sundari Chowk"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Patan-Palast-Sundhara_Chowk-02-Brunnen-gje.jpg/1280px-Patan-Palast-Sundhara_Chowk-02-Brunnen-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Palast-Sundhara_Chowk-02-Brunnen-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Tusha Hiti, the sunken royal bath"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Slightly_cusped_Tusha_Hiti_step-well_%2CGilt_Bronze_water_Spout_06.jpg/1280px-Slightly_cusped_Tusha_Hiti_step-well_%2CGilt_Bronze_water_Spout_06.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Slightly_cusped_Tusha_Hiti_step-well_,Gilt_Bronze_water_Spout_06.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Gilt bronze water spout of Tusha Hiti"
+   }
+  ],
+  "model": {
+   "kind": "courtyard",
+   "tiers": 3,
+   "plinth_steps": 0,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    30,
+    30
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#9c8a6e",
+    "#c9a227"
+   ],
+   "features": [
+    "water-spouts",
+    "carved-windows",
+    "carved-struts",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "brick-courtyard"
+   ],
+   "notes": "Brick palace courtyard around a sunken stone bath lined with small deity carvings and a gilded spout"
+  }
+ },
+ {
+  "slug": "golden-temple",
+  "name": "Golden Temple (Hiranya Varna Mahavihar)",
+  "name_np": "हिरण्यवर्ण महाविहार",
+  "city": "Lalitpur",
+  "zone": null,
+  "lat": 27.675224,
+  "lng": 85.324711,
+  "type": "bahal",
+  "religion": "Buddhist",
+  "deity": "Shakyamuni Buddha",
+  "built_year": 1409,
+  "built_century_text": "Traditionally founded in the 12th century; in its current form since 1409",
+  "dynasty": "Malla",
+  "architecture": "Newar Buddhist bahal (monastery courtyard) with a three-roofed gilt pagoda shrine and a central Swayambhu chaitya",
+  "unesco": false,
+  "short": "Kwa Bahal, a gleaming Buddhist monastery where a boy priest under twelve tends the shrine of the Buddha.",
+  "story": "Slip through the stone gate guarded by a pair of lions and you enter Hiranya Varna Mahavihar, the Gold-coloured Great Monastery, known locally as Kwa Bahal and to visitors as the Golden Temple. Tradition says it was founded in the 12th century; its current form dates from 1409. As you pass the gate, look up to find a Kalachakra mandala on the ceiling. In the courtyard, golden elephants stand on tortoises, and at the centre is a small chaitya identified with Swayambhu, believed older than the temple itself. Opposite rises the main shrine with three gilded roofs, its facade showing scenes from the Buddha's life. Inside sits a silver image of Shakyamuni Buddha, called Kwabaju. Now look for the priest: he is a boy, always under twelve, who serves for a month, walking the neighbourhood in silence each morning and evening while ringing a bell. The monastery also keeps an 800-year-old Prajnaparamita text. Remember to take off your shoes before entering.",
+  "legend": "According to legend, the Golden Temple was built at a spot where a rat was seen chasing a cat, an upside-down omen that marked the place as special and worthy of a monastery. The story is still remembered in the neighbourhood, and rats were still being fed at the site as recently as 1994. Visitors who notice small offerings of food in the courtyard may be seeing the last echoes of that tradition.",
+  "facts": [
+   "Also called Kwa Bahal; the name means \"Gold-coloured Great Monastery\".",
+   "The chief priest is a boy under twelve who serves for one month.",
+   "It keeps an approximately 800-year-old Prajnaparamita manuscript, restored every three years.",
+   "Its courtyard buildings were damaged in 2015 and restoration started in July 2021."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 100,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "note": "Separate ticket from Durbar Square. Foreigner fee of NPR 100 reported by two undated travel accounts; an older guide gives NPR 50. Remove shoes before entering."
+  },
+  "earthquake_2015": "The courtyard buildings sustained structural damage in the 2015 earthquake; restoration began in July 2021.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Golden_Temple_%28Kwa_Bahal%29_01.jpg/1280px-Golden_Temple_%28Kwa_Bahal%29_01.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Golden_Temple_(Kwa_Bahal)_01.jpg",
+   "author": "Nabin K. Sapkota",
+   "license": "CC BY-SA 4.0"
+  },
+  "quiz": [
+   {
+    "q": "What is the local Newar name of the Golden Temple?",
+    "options": [
+     "Kwa Bahal",
+     "Ta Bahal",
+     "Nag Bahal",
+     "I Baha"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Hiranya Varna Mahavihar is known locally as Kwa Bahal."
+   },
+   {
+    "q": "How old is the chief priest (Bapacha) of the Golden Temple?",
+    "options": [
+     "Over 60",
+     "Always under twelve",
+     "Exactly 21",
+     "Any age"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The Bapacha is a boy, always under twelve, who serves for a month."
+   },
+   {
+    "q": "What does the legend say happened at the site?",
+    "options": [
+     "A cat chased a rat",
+     "A rat chased a cat",
+     "A snake swallowed a frog",
+     "A monkey stole a bell"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Legend says it was built where a rat was seen chasing a cat."
+   },
+   {
+    "q": "What is the main image in the shrine, also called Kwabaju?",
+    "options": [
+     "A gold Tara",
+     "A silver Shakyamuni Buddha",
+     "A bronze Avalokiteshvara",
+     "A stone Ganesh"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The main image is a large silver Shakyamuni Buddha known as Kwabaju."
+   },
+   {
+    "q": "Since what year has the monastery existed in its current form?",
+    "options": [
+     "1192",
+     "1409",
+     "1637",
+     "1934"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "Founded traditionally in the 12th century, it has been in its current form since 1409."
+   }
+  ],
+  "clues": [
+   "Here a rat once chased a cat, and today a child priest rings his bell in silence.",
+   "Gold-coloured and great, I am a monastery courtyard just north of the royal square."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hiranya_Varna_Mahavihar",
+   "https://www.openstreetmap.org/relation/4624856",
+   "https://thelongestwayhome.com/travel-guides/nepal/golden-temple-patan.html",
+   "https://eap.bl.uk/item/EAP838-1-1-5-28"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Bells_%26_Coutryard_-_Kwa_Baha_%28Golden_Temple%29_%288094977504%29.jpg/1280px-Bells_%26_Coutryard_-_Kwa_Baha_%28Golden_Temple%29_%288094977504%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bells_%26_Coutryard_-_Kwa_Baha_(Golden_Temple)_(8094977504).jpg",
+    "author": "Greg Willis from Denver, CO, usa",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Bells and courtyard of Kwa Bahal"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Courtyard_of_golden_temple.jpg/1280px-Courtyard_of_golden_temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Courtyard_of_golden_temple.jpg",
+    "author": "Anim Shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Courtyard of the Golden Temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Entry_to_golden_temple.jpg/1280px-Entry_to_golden_temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Entry_to_golden_temple.jpg",
+    "author": "Anim Shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Entrance to the Golden Temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Diyo_%28Oil_lamp%29_at_Golden_Temple.jpg/1280px-Diyo_%28Oil_lamp%29_at_Golden_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Diyo_(Oil_lamp)_at_Golden_Temple.jpg",
+    "author": "Nirmal Dulal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Butter lamps (diyo) at the Golden Temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Patan-Hiranyabarna_Mahavihar-30-Cella-2013-gje.jpg/1280px-Patan-Hiranyabarna_Mahavihar-30-Cella-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Patan-Hiranyabarna_Mahavihar-30-Cella-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Main shrine (cella) of Hiranya Varna Mahavihar"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    25,
+    20
+   ],
+   "walls": "red-brick",
+   "roof": "gilded-copper",
+   "colors": [
+    "#c9a227",
+    "#8b3a2b",
+    "#4a3020"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "golden-door",
+    "bell",
+    "chaityas",
+    "lamps-diyo",
+    "carved-windows"
+   ],
+   "surroundings": [
+    "brick-courtyard",
+    "newar-houses"
+   ],
+   "notes": "Enclosed monastery courtyard: a three-roofed gilded-copper pagoda shrine with a small gilded chaitya in the yard"
+  }
+ },
+ {
+  "slug": "kumbheshwar-temple",
+  "name": "Kumbheshwar Temple",
+  "name_np": "कुम्भेश्वर मन्दिर",
+  "city": "Lalitpur",
+  "zone": null,
+  "lat": 27.676581,
+  "lng": 85.326046,
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Shiva",
+  "built_year": 1392,
+  "built_century_text": "14th century (c. 1392, King Jayasthiti Malla)",
+  "dynasty": "Malla",
+  "architecture": "Free-standing five-tiered Newar pagoda with fine woodcarving, set in a complex with sacred ponds",
+  "unesco": false,
+  "short": "Patan's oldest temple: a five-roofed Shiva pagoda whose ponds are said to be fed from Gosainkunda.",
+  "story": "About 200 metres north of Durbar Square you reach Kumbheshwar, built around 1392 by King Jayasthiti Malla and considered the oldest temple in Patan. Count the roofs: five. It is one of only two free-standing five-storey temples in the valley; the other is the famous Nyatapola in Bhaktapur. Kumbheshwar is dedicated to Shiva, and a large Nandi, his bull, kneels in front, facing the temple. Walk through the complex and you will find other shrines, including Bagalamukhi and Ulmanta Bhairava, along with two hiti ponds. Many believe the spring that feeds these ponds flows all the way from Gosainkunda, the sacred lake 43 kilometres north of Kathmandu. So on Janai Purnima, devotees take a dip here, which is said to equal bathing in Gosainkunda itself, and the courtyard fills with pilgrims. The upper part of the temple suffered in the 2015 earthquake. As you leave, look again at the tall tiers and notice the graceful proportions and fine woodcarving the temple is famous for.",
+  "legend": "It is popularly believed that the spring filling the ponds of Kumbheshwar originates in Gosainkunda, the holy lake in the mountains 43 km north of Kathmandu. Because of this hidden underground link, a ritual dip here during the festival of Janai Purnima is said to bring the same merit as bathing in Gosainkunda itself. For pilgrims who cannot make the long mountain trek, Kumbheshwar offers the blessing much closer to home.",
+  "facts": [
+   "Built around 1392 by King Jayasthiti Malla, making it Patan's oldest temple.",
+   "One of two free-standing five-storey temples in the valley, along with Nyatapola in Bhaktapur.",
+   "A large Nandi bull faces the temple, marking it as a Shiva shrine.",
+   "Its ponds are believed to be fed from Gosainkunda and draw crowds at Janai Purnima."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "note": "Active temple complex; no entry ticket is reported in travel guides (unverified). Busiest during Janai Purnima."
+  },
+  "earthquake_2015": "A structural study reports that the temple's top tier collapsed in the April 2015 earthquake.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Kumbheshwar_Temple_%2892152%29.jpg/1280px-Kumbheshwar_Temple_%2892152%29.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kumbheshwar_Temple_(92152).jpg",
+   "author": "Janak Bhatta",
+   "license": "CC BY 4.0"
+  },
+  "quiz": [
+   {
+    "q": "How many roofs (storeys) does Kumbheshwar Temple have?",
+    "options": [
+     "Two",
+     "Three",
+     "Five",
+     "Nine"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "It is a five-storey pagoda."
+   },
+   {
+    "q": "To which god is Kumbheshwar dedicated?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Ganesh",
+     "Buddha"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is a Shiva temple, as the Nandi bull in front shows."
+   },
+   {
+    "q": "Which other Kathmandu Valley temple is a free-standing five-storey pagoda?",
+    "options": [
+     "Nyatapola, Bhaktapur",
+     "Kasthamandap, Kathmandu",
+     "Changu Narayan",
+     "Pashupatinath"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Nyatapola in Bhaktapur is the only other free-standing five-storey temple."
+   },
+   {
+    "q": "From which lake is the spring water of the temple ponds believed to come?",
+    "options": [
+     "Phewa",
+     "Rara",
+     "Gosainkunda",
+     "Taudaha"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Popular belief holds the water comes from Gosainkunda."
+   },
+   {
+    "q": "Which king built Kumbheshwar Temple around 1392?",
+    "options": [
+     "Jayasthiti Malla",
+     "Siddhi Narasimha Malla",
+     "Yaksha Malla",
+     "Amshuverma"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "King Jayasthiti Malla built it around 1392."
+   }
+  ],
+  "clues": [
+   "Five roofs tall and older than the palace temples, I have a twin only in Bhaktapur.",
+   "A bull kneels before me, and my ponds whisper of a lake high in the mountains."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kumbheshwar_Temple",
+   "https://www.openstreetmap.org/node/1759661519",
+   "https://link.springer.com/content/pdf/10.1007/978-3-319-99441-3_143.pdf",
+   "https://www.thelongestwayhome.com/travel-guides/nepal/kumbeshwar-temple-complex-patan.html"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [
+   {
+    "name": "Janai Purnima",
+    "name_np": "जनै पूर्णिमा",
+    "month": "Shrawan",
+    "note": "Fair at the sacred ponds; a silver-gold linga is set in the pond for worship"
+   },
+   {
+    "name": "Maha Shivaratri",
+    "name_np": "महाशिवरात्रि",
+    "month": "Falgun",
+    "note": "Night of Shiva; devotees offer worship at Shiva shrines"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kumbheshwar_Temple_%28Mahadev%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kumbheshwar_Temple_(Mahadev).jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Five-tiered Kumbheshwar Temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Kumbheshwar_Temple_%28Mahadev%29%2C_Patan.jpg/1280px-Kumbheshwar_Temple_%28Mahadev%29%2C_Patan.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kumbheshwar_Temple_(Mahadev),_Patan.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Kumbheshwar Temple under restoration scaffolding"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Crowd_queuing_Kumbheshwar_temple_Janai_Purnima.jpg/1280px-Crowd_queuing_Kumbheshwar_temple_Janai_Purnima.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Crowd_queuing_Kumbheshwar_temple_Janai_Purnima.jpg",
+    "author": "Perrine Aguiar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Devotees queuing on Janai Purnima"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Crowd_surronding_pond_Kumbheshwar_temple_Janai_Purnima.jpg/1280px-Crowd_surronding_pond_Kumbheshwar_temple_Janai_Purnima.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Crowd_surronding_pond_Kumbheshwar_temple_Janai_Purnima.jpg",
+    "author": "Perrine Aguiar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Crowd around the sacred pond on Janai Purnima"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Women_lighting_candles_Kumbheshwar_temple_Janai_Purnima.jpg/1280px-Women_lighting_candles_Kumbheshwar_temple_Janai_Purnima.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Women_lighting_candles_Kumbheshwar_temple_Janai_Purnima.jpg",
+    "author": "Perrine Aguiar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Women lighting candles on Janai Purnima"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 5,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    10,
+    10
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#c9a227"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "nandi-bull",
+    "shiva-lingam",
+    "water-spouts",
+    "chaityas"
+   ],
+   "surroundings": [
+    "pond",
+    "brick-courtyard",
+    "newar-houses"
+   ],
+   "notes": "Slender five-roofed brick pagoda in a courtyard with a walled sacred pond beside it; Nandi bull facing the door"
+  }
+ },
+ {
+  "slug": "mahabouddha-temple",
+  "name": "Mahabouddha Temple (Temple of a Thousand Buddhas)",
+  "name_np": "महाबौद्ध मन्दिर",
+  "city": "Lalitpur",
+  "zone": null,
+  "lat": 27.668998,
+  "lng": 85.327142,
+  "type": "shikhara",
+  "religion": "Buddhist",
+  "deity": "Buddha",
+  "built_year": null,
+  "built_century_text": "Late 16th century (Wikipedia dates it to 1585; other accounts give c. 1564 to 1610); rebuilt after the 1934 earthquake",
+  "dynasty": "Malla",
+  "architecture": "Terracotta-clad shikhara modelled on the Mahabodhi Temple at Bodh Gaya, its tiles bearing Buddha images",
+  "unesco": false,
+  "short": "A terracotta shikhara inspired by Bodh Gaya, its tiles covered with countless small Buddhas.",
+  "story": "Follow the narrow lanes south-east of Durbar Square and suddenly a tall terracotta tower appears, squeezed into a tiny courtyard. This is Mahabouddha, the Temple of a Thousand Buddhas. Its design is loosely based on the Mahabodhi Temple at Bodh Gaya in India, where the Buddha attained enlightenment. Step close and look at the surface: it is clad in terracotta tiles, and each tile carries a small image of the Buddha, which is how the temple earned its nickname. Wikipedia dates the temple to 1585, while other accounts place its beginning a little earlier and its completion around 1610. Local tradition credits a Patan priest, Abhaya Raj Shakya, who was inspired by a pilgrimage to Bodh Gaya. The great earthquake of 1934 destroyed the temple, and it was rebuilt afterward. Because the courtyard is so cramped, the best views come from the rooftops of the surrounding workshops, many of which sell Patan's famous metal statues. Ask politely, and you may be invited up.",
+  "legend": "Tradition says the priest Abhaya Raj Shakya began the temple after returning from a pilgrimage to Bodh Gaya, but he died soon after laying its foundation. His sons carried on the work for years, and the temple was finally completed by the family, a devotion that lasted across generations. Some accounts say one son nearly gave up before a goddess appeared and urged him to finish the work his father had begun.",
+  "facts": [
+   "Its design is loosely based on the Mahabodhi Temple in Bodh Gaya, India.",
+   "The nickname comes from the many terracotta tiles each bearing a Buddha image.",
+   "Wikipedia dates the temple to 1585; other accounts give c. 1564 to 1610.",
+   "It was rebuilt after the 1934 Nepal-India earthquake."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 20,
+   "note": "No entry ticket reported in travel guides (unverified). Best views from neighbouring rooftops."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Mahabuddha%2C_Patan_2016-04-10b.jpg/1280px-Mahabuddha%2C_Patan_2016-04-10b.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Mahabuddha,_Patan_2016-04-10b.jpg",
+   "author": "Christopher J. Fynn",
+   "license": "CC BY-SA 4.0"
+  },
+  "quiz": [
+   {
+    "q": "Which famous temple inspired the design of Mahabouddha?",
+    "options": [
+     "Mahabodhi Temple, Bodh Gaya",
+     "Angkor Wat",
+     "Borobudur",
+     "Shwedagon Pagoda"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It is loosely based on the Mahabodhi Temple at Bodh Gaya."
+   },
+   {
+    "q": "Why is Mahabouddha called the Temple of a Thousand Buddhas?",
+    "options": [
+     "It holds 1,000 statues inside",
+     "Its terracotta tiles bear Buddha images",
+     "It was built by 1,000 monks",
+     "It took 1,000 years to build"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Each terracotta tile carries a small Buddha image."
+   },
+   {
+    "q": "What material clads the temple?",
+    "options": [
+     "Marble",
+     "Gilt copper",
+     "Terracotta",
+     "Wood"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "It is covered in terracotta tiles."
+   },
+   {
+    "q": "Which disaster destroyed the temple, leading to its rebuilding?",
+    "options": [
+     "The 1934 earthquake",
+     "A 1662 fire",
+     "The 1768 conquest",
+     "The 1988 earthquake"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "It was rebuilt after the 1934 Nepal-India earthquake."
+   },
+   {
+    "q": "Which architectural form is Mahabouddha?",
+    "options": [
+     "Pagoda",
+     "Stupa",
+     "Shikhara",
+     "Gumba"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "It is a shikhara-style Newar Buddhist temple."
+   }
+  ],
+  "clues": [
+   "A pilgrim brought Bodh Gaya home to Patan; now countless clay faces gaze from my tiles.",
+   "I hide in a cramped courtyard, so climb a neighbour's roof to see my full height."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mahabouddha_Temple",
+   "https://www.openstreetmap.org/node/564129617",
+   "https://www.thelongestwayhome.com/travel-guides/nepal/mahaboudha-temple-patan.html"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Mahabuddha%2C_Patan_2016-04-10a.jpg/1280px-Mahabuddha%2C_Patan_2016-04-10a.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mahabuddha,_Patan_2016-04-10a.jpg",
+    "author": "Christopher J. Fynn",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Mahabouddha Temple in its narrow courtyard"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Mahabuddha%2C_Patan_2016-04-10c.jpg/1280px-Mahabuddha%2C_Patan_2016-04-10c.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mahabuddha,_Patan_2016-04-10c.jpg",
+    "author": "Christopher J. Fynn",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Terracotta shikhara of Mahabouddha"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Mahabouddha_Mandir%2C_Patan%2C_Lalitpur%2C_Nepal_04.jpg/1280px-Mahabouddha_Mandir%2C_Patan%2C_Lalitpur%2C_Nepal_04.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mahabouddha_Mandir,_Patan,_Lalitpur,_Nepal_04.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Mahabouddha Temple, Patan"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Entrance_Gate_of_Mahabouddha_Mandir%2C_Patan%2C_Lalitpur%2C_Nepal_05.jpg/1280px-Entrance_Gate_of_Mahabouddha_Mandir%2C_Patan%2C_Lalitpur%2C_Nepal_05.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Entrance_Gate_of_Mahabouddha_Mandir,_Patan,_Lalitpur,_Nepal_05.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Entrance gate of Mahabouddha"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Mahaboudha_temple_also_known_as_temple_of_a_thousand.jpg/1280px-Mahaboudha_temple_also_known_as_temple_of_a_thousand.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mahaboudha_temple_also_known_as_temple_of_a_thousand.jpg",
+    "author": "Prakat Shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Tiles with Buddha images on the tower"
+   }
+  ],
+  "model": {
+   "kind": "shikhara",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    8,
+    8
+   ],
+   "walls": "red-brick",
+   "roof": "stone-spire",
+   "colors": [
+    "#a0522d",
+    "#c9a227",
+    "#6b4a35"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "brick-courtyard",
+    "newar-houses"
+   ],
+   "notes": "Tall terracotta tower covered in small Buddha tiles, squeezed into a tiny courtyard hemmed in by houses"
+  }
+ },
+ {
+  "slug": "rato-machhindranath-temple",
+  "name": "Rato Machhindranath Temple (Ta Bahal, Patan)",
+  "name_np": "रातो मच्छिन्द्रनाथ मन्दिर",
+  "city": "Lalitpur",
+  "zone": null,
+  "lat": 27.67032,
+  "lng": 85.322889,
+  "type": "pagoda",
+  "religion": "Both",
+  "deity": "Rato Machhindranath (Bunga Dyah / Karunamaya)",
+  "built_year": 1673,
+  "built_century_text": "Present temple from 1673; a temple has stood on the site since at least 1408",
+  "dynasty": "Malla",
+  "architecture": "Three-tiered Newar pagoda in the centre of the Ta Bahal courtyard",
+  "unesco": false,
+  "short": "Patan home of Bunga Dyah, the red rain god honoured by Nepal's longest chariot festival.",
+  "story": "South of Durbar Square, in the open courtyard of Ta Bahal, stands the three-tiered temple of Rato Machhindranath. The present building dates from 1673, though a temple has stood here since at least 1408. The deity has many names. Newars call him Bunga Dyah or Karunamaya, the compassionate one, a form of the Bodhisattva Avalokiteshvara; Hindus know him as Machhindranath. Rato means red, the colour of his image. He is believed to bring the monsoon rains. Each year, in the Rato Machhindranath Jatra, his image leaves this temple and rides a chariot about 60 feet tall, built at Pulchowk, on a month-long journey through the streets to Jawalakhel. It is the longest chariot festival in Nepal, and it ends with Bhoto Jatra, when a jewelled vest is held up for all to see. The god divides his year between Patan and his other home in Bungamati. Walk slowly around the courtyard, a place where Hindu and Buddhist devotion truly meet.",
+  "legend": "During a twelve-year drought, the sage Gorakhnath sat meditating on the serpents that bring rain. Only the arrival of his teacher Machhindranath could make him rise, so envoys brought Machhindranath to the valley. Gorakhnath stood to greet him, the serpents were freed and the rain returned. The clever king of Lalitpur then kept the god in his city, and every year since, the people of Patan have pulled his chariot through the streets to pray for good rains.",
+  "facts": [
+   "The present temple dates from 1673; a temple has occupied the site since at least 1408.",
+   "Rato means \"red\", the colour of the deity's image.",
+   "His chariot festival is the longest in Nepal, ending with Bhoto Jatra at Jawalakhel.",
+   "The deity spends about six months of the year in Bungamati and the rest in Patan."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 20,
+   "note": "Active temple in an open courtyard; no entry ticket reported (unverified). Chosen over the Bungamati temple as the Patan seat of the deity."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Rato_Machhindranath_Temple%2C_Patan%2C_Lalitpur_01.jpg/1280px-Rato_Machhindranath_Temple%2C_Patan%2C_Lalitpur_01.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Rato_Machhindranath_Temple,_Patan,_Lalitpur_01.jpg",
+   "author": "Suraj Belbase",
+   "license": "CC BY-SA 4.0"
+  },
+  "quiz": [
+   {
+    "q": "What does \"Rato\" mean in Rato Machhindranath?",
+    "options": [
+     "Great",
+     "Red",
+     "Old",
+     "Holy"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Rato is Nepali for red, the colour of the deity's image."
+   },
+   {
+    "q": "What is the deity believed to bring?",
+    "options": [
+     "Wealth",
+     "Monsoon rain",
+     "Victory in war",
+     "Children"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Bunga Dyah is popularly believed to bring the monsoon rains."
+   },
+   {
+    "q": "Which ceremony concludes the chariot festival at Jawalakhel?",
+    "options": [
+     "Indra Jatra",
+     "Bhoto Jatra",
+     "Bisket Jatra",
+     "Ghode Jatra"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The festival ends with Bhoto Jatra, the display of a jewelled vest."
+   },
+   {
+    "q": "In which courtyard does the Patan temple stand?",
+    "options": [
+     "Kwa Bahal",
+     "Ta Bahal",
+     "Nag Bahal",
+     "Mul Chowk"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The temple stands in the centre of the Ta Bahal courtyard."
+   },
+   {
+    "q": "From what year does the present Patan temple date?",
+    "options": [
+     "1408",
+     "1592",
+     "1673",
+     "1934"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "The current building dates from 1673; an earlier temple stood there by 1408."
+   }
+  ],
+  "clues": [
+   "Red-faced and rain-bringing, I leave home each year to ride Nepal's longest chariot procession through Patan.",
+   "I share my year between this courtyard and a village on a spur above the Bagmati."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rato_Machindranath_Jatra",
+   "https://en.wikipedia.org/wiki/Bungamati",
+   "https://www.lonelyplanet.com/points-of-interest/rato-machhendranath-temple/1432440",
+   "https://www.webpages.uidaho.edu/arch499/nonwest/nepal/Temples%20of%20Patan.htm",
+   "https://www.openstreetmap.org/way/206482247"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [
+   {
+    "name": "Rato Machhindranath Jatra",
+    "name_np": "रातो मच्छिन्द्रनाथ जात्रा",
+    "month": "Baisakh",
+    "note": "The god's tall chariot is pulled through Patan over several weeks"
+   },
+   {
+    "name": "Bhoto Jatra",
+    "name_np": "भोटो जात्रा",
+    "month": "Jestha",
+    "note": "Closing day of the chariot festival: the jewelled vest is shown at Jawalakhel"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Rato_Machhindranath_Temple%2C_Patan%2C_Lalitpur_02.jpg/1280px-Rato_Machhindranath_Temple%2C_Patan%2C_Lalitpur_02.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rato_Machhindranath_Temple,_Patan,_Lalitpur_02.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Rato Machhindranath Temple in Ta Bahal"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Rato_Machhindranath_Temple%2C_Patan%2C_Lalitpur_03.jpg/1280px-Rato_Machhindranath_Temple%2C_Patan%2C_Lalitpur_03.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rato_Machhindranath_Temple,_Patan,_Lalitpur_03.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Tiered roofs of Rato Machhindranath Temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Tympanum_and_Lion_of_Rato_Machhindranath_Temple%2C_Patan%2C_Lalitpur_06.jpg/1280px-Tympanum_and_Lion_of_Rato_Machhindranath_Temple%2C_Patan%2C_Lalitpur_06.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tympanum_and_Lion_of_Rato_Machhindranath_Temple,_Patan,_Lalitpur_06.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Tympanum and stone lion at the temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Rato_Machhindranath_Temple%2C_Machhendre_bahal%2C_Patan.jpg/1280px-Rato_Machhindranath_Temple%2C_Machhendre_bahal%2C_Patan.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rato_Machhindranath_Temple,_Machhendre_bahal,_Patan.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Rato Machhindranath Temple, Machhendra Bahal"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bungadyah_rath.jpg/1280px-Bungadyah_rath.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bungadyah_rath.jpg",
+    "author": "Kamal Ratna Tuladhar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Chariot (rath) of Bunga Dyah during the jatra"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    12,
+    10
+   ],
+   "walls": "red-brick",
+   "roof": "copper",
+   "colors": [
+    "#8b3a2b",
+    "#c9a227",
+    "#4a3020"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "lion-statues",
+    "bell",
+    "stone-pillar",
+    "toran"
+   ],
+   "surroundings": [
+    "brick-courtyard",
+    "newar-houses"
+   ],
+   "notes": "Three-roofed pagoda standing alone in a large open brick courtyard, guarded by stone lions, with pillars around it"
+  }
+ },
+ {
+  "slug": "lagankhel-ashok-stupa",
+  "name": "Lagankhel Ashok Stupa (Southern Stupa)",
+  "name_np": "लगनखेल अशोक स्तूप",
+  "city": "Lalitpur",
+  "zone": null,
+  "lat": 27.664924,
+  "lng": 85.323327,
+  "type": "stupa",
+  "religion": "Buddhist",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Traditionally attributed to Emperor Ashoka (c. 3rd century BCE); date unproven",
+  "dynasty": "unknown",
+  "architecture": "Large grass-covered hemispherical brick-and-earth mound crowned by a small harmika and spire",
+  "unesco": false,
+  "short": "The largest of Patan's four Ashoka stupas, a grassy mound marking the old city's southern edge.",
+  "story": "Climb the small rise just south of the Lagankhel bus park and you meet the largest of Patan's four Ashoka stupas. Local tradition says the Mauryan emperor Ashoka visited the valley around 249 BCE and raised four stupas at the cardinal points of the city: north, south, east and west. This is the southern one, known locally as Lagan Thura. Historians treat the Ashoka connection as tradition rather than proven fact, but the stupas are undeniably old. They were originally built from stacked bricks and over the centuries became grassy mounds, which is what you see here, crowned by a small spire. The historian Niels Gutschow suggests they marked the limits of the ancient town's sacred space. Because it sits on higher ground, this stupa has long dominated the local skyline. Walk clockwise around it, as Buddhists do, and look back toward the old city. Then imagine three more mounds like it standing guard at the other edges of ancient Yala.",
+  "legend": "Legend says Emperor Ashoka came to the Kathmandu Valley with his daughter Charumati and, to sanctify the city of Patan, raised four stupas at its cardinal points: north, south, east and west. The southern one at Lagankhel is the largest of the four, and together they are said to enclose the sacred city. Charumati is also linked by tradition to the Charumati Vihara at Chabahil in Kathmandu.",
+  "facts": [
+   "It is the southern and largest of Patan's four stupas traditionally attributed to Emperor Ashoka.",
+   "The Ashoka attribution (c. 249 BCE) is local tradition, not proven by archaeology.",
+   "The stupas were originally brick and have become grassy mounds over time.",
+   "The other three stand at Pulchowk (west), Ibahi (north) and Teta (east)."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 15,
+   "note": "Open-air monument; no entry ticket reported (unverified)."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Ashok_Stupa%2C_Lagankhel%2C_Patan3.jpg/1280px-Ashok_Stupa%2C_Lagankhel%2C_Patan3.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ashok_Stupa,_Lagankhel,_Patan3.jpg",
+   "author": "Shadow Ayush",
+   "license": "CC BY-SA 4.0"
+  },
+  "quiz": [
+   {
+    "q": "Which emperor is traditionally credited with building Patan's four stupas?",
+    "options": [
+     "Kanishka",
+     "Ashoka",
+     "Chandragupta",
+     "Harsha"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Tradition credits the Mauryan emperor Ashoka."
+   },
+   {
+    "q": "How many Ashoka stupas are there around Patan?",
+    "options": [
+     "Two",
+     "Four",
+     "Seven",
+     "Twelve"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "There are four, at the cardinal points of the old city."
+   },
+   {
+    "q": "Which of the four is the Lagankhel stupa?",
+    "options": [
+     "Northern",
+     "Southern",
+     "Eastern",
+     "Western"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Lagankhel is the southern and largest stupa."
+   },
+   {
+    "q": "Which daughter of Ashoka is linked to his legendary visit to the valley?",
+    "options": [
+     "Sanghamitra",
+     "Charumati",
+     "Bhrikuti",
+     "Yashodhara"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Legend says Ashoka visited with his daughter Charumati."
+   },
+   {
+    "q": "Which is the western Ashoka stupa of Patan?",
+    "options": [
+     "Lagankhel",
+     "Teta",
+     "Pulchowk",
+     "Ibahi"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "The western stupa stands beside the main road at Pulchowk."
+   }
+  ],
+  "clues": [
+   "An emperor from Magadha is said to have planted four of us; I am the biggest, guarding the south.",
+   "Once stacked brick, now a green hill beside a busy bus park."
+  ],
+  "sources": [
+   "https://www.lonelyplanet.com/points-of-interest/lagan-southern-stupa/1508250",
+   "https://archive.nepalitimes.com/news.php?id=1678",
+   "https://english.onlinekhabar.com/biggest-stupas-in-kathmandu.html",
+   "https://en.wikipedia.org/wiki/Lalitpur,_Nepal",
+   "https://www.openstreetmap.org/way/124177646"
+  ],
+  "province": "Bagmati",
+  "district": "Lalitpur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/LAGAN_THURA_-_SOUTHERN_STUPA.JPG/1280px-LAGAN_THURA_-_SOUTHERN_STUPA.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:LAGAN_THURA_-_SOUTHERN_STUPA.JPG",
+    "author": "Samir limbu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Lagan Thur, the southern Ashok stupa"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Buddha_statue_of_ashok_stupa.JPG/1280px-Buddha_statue_of_ashok_stupa.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Buddha_statue_of_ashok_stupa.JPG",
+    "author": "Samir limbu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Buddha statue at the Ashok stupa"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Ashok_Stupa.jpg/1280px-Ashok_Stupa.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ashok_Stupa.jpg",
+    "author": "Dinesh 2016",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Grass-covered dome of the southern stupa"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Lagankhel_stupa%281%29.jpg/1280px-Lagankhel_stupa%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Lagankhel_stupa(1).jpg",
+    "author": "Rai shreya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Lagankhel stupa"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Ashok_Stupa%2C_Lagankhel1.jpg/1280px-Ashok_Stupa%2C_Lagankhel1.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ashok_Stupa,_Lagankhel1.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Ashok Stupa, Lagankhel"
+   }
+  ],
+  "model": {
+   "kind": "stupa",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "round",
+   "height_m": null,
+   "footprint_m": [
+    30,
+    30
+   ],
+   "walls": "red-brick",
+   "roof": "none",
+   "colors": [
+    "#6b8e3a",
+    "#c9a227",
+    "#f5f2ea"
+   ],
+   "features": [
+    "harmika",
+    "gilded-pinnacle",
+    "prayer-flags",
+    "prayer-wheels",
+    "chaityas"
+   ],
+   "surroundings": [
+    "city-street",
+    "newar-houses"
+   ],
+   "notes": "Low wide grass-covered mound with a small white harmika and gilded spire, prayer flags, and a ring wall of prayer wheels"
+  }
+ }
+]

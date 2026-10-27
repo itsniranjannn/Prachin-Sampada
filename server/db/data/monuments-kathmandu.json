@@ -1,0 +1,2075 @@
+[
+ {
+  "slug": "kathmandu-durbar-square",
+  "name": "Kathmandu Durbar Square",
+  "name_np": "काठमाडौं दरबार क्षेत्र",
+  "alt_names": [
+   "Hanuman Dhoka Durbar Square",
+   "Basantapur Durbar Square"
+  ],
+  "city": "Kathmandu",
+  "zone": null,
+  "lat": 27.704075,
+  "lng": 85.307083,
+  "coord_source": "Wikidata Q6122177 (P625)",
+  "type": "square",
+  "religion": "Both",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Malla-era core, mostly 16th–18th century CE; later Shah and Rana additions",
+  "dynasty": "Malla",
+  "architecture": "Royal palace square of Newar pagoda temples, palace courtyards and Rana-era neoclassical wings",
+  "unesco": true,
+  "short": "The old royal heart of Kathmandu, where Malla and Shah kings were crowned among pagoda temples.",
+  "story": "You are standing in the old royal heart of Kathmandu. For centuries, the kings of this city ruled from the palace in front of you, and the temples around you were their gifts to the gods. Look at the carved wooden windows and roof struts: this is Newar craftsmanship, mostly from the Malla kings of the 16th to 18th centuries. Later, the Shah kings who unified Nepal kept this palace as their seat and added the tall nine-storey Basantapur tower to the south. In 1979, this square became one of the seven monument zones of the Kathmandu Valley World Heritage Site. Then, on 25 April 2015, a powerful earthquake brought down several of its temples, including the ancient Kasthamandap. Much of what you see today has been carefully rebuilt using traditional brick, timber and techniques. As you walk, notice how daily life carries on: pigeons, vendors, worshippers ringing bells, and children playing on temple steps. Take your time, and let the square tell you its story one shrine at a time.",
+  "legend": null,
+  "facts": [
+   "It is one of three royal Durbar Squares in the Kathmandu Valley, all part of a UNESCO World Heritage Site inscribed in 1979.",
+   "The square takes its Nepali name, Hanuman Dhoka, from a stone statue of Hanuman at the palace gate.",
+   "The 25 April 2015 earthquake reduced several buildings here to rubble, including Kasthamandap.",
+   "Prithvi Narayan Shah added four lookout towers to the palace in 1768, including the nine-storey Basantapur tower."
+  ],
+  "visit": {
+   "open": "09:00",
+   "close": "19:00",
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 120,
+   "hours_note": "The square is a public space; ticketed hours as listed by a travel operator. Museum hours differ.",
+   "fee_note": "Children under 10 free. Confirm locally."
+  },
+  "earthquake_2015": "The April 2015 earthquake severely damaged the square, toppling Kasthamandap, Maju Dega and other temples; most have since been rebuilt.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Kathmandu-Durbar_Square-12-Mini-Vishnu-Pratapamalla-Jagannath-2013-gje.jpg/1280px-Kathmandu-Durbar_Square-12-Mini-Vishnu-Pratapamalla-Jagannath-2013-gje.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Durbar_Square-12-Mini-Vishnu-Pratapamalla-Jagannath-2013-gje.jpg",
+   "author": "Gerd Eichmann",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "In which year was the Kathmandu Valley, including this square, inscribed as a UNESCO World Heritage Site?",
+    "options": [
+     "1959",
+     "1979",
+     "1991",
+     "2006"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The Kathmandu Valley site, with seven monument zones, was inscribed in 1979."
+   },
+   {
+    "q": "What does the Nepali name 'Hanuman Dhoka' refer to?",
+    "options": [
+     "A river ford",
+     "A gate guarded by a Hanuman statue",
+     "A royal elephant stable",
+     "A market for monkeys"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "'Dhoka' means gate, and a stone Hanuman statue guards the palace entrance."
+   },
+   {
+    "q": "Which ancient wooden structure in the square collapsed in the 2015 earthquake?",
+    "options": [
+     "Kumari Ghar",
+     "Taleju Temple",
+     "Kasthamandap",
+     "Jagannath Temple"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Kasthamandap was destroyed in 2015, while Kumari Ghar, Taleju and Jagannath survived."
+   },
+   {
+    "q": "Which king added four lookout towers to the palace in 1768?",
+    "options": [
+     "Pratap Malla",
+     "Prithvi Narayan Shah",
+     "Jung Bahadur Rana",
+     "Mahendra Malla"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Prithvi Narayan Shah added the towers, including the nine-storey Basantapur tower."
+   },
+   {
+    "q": "How many other Durbar Squares in the valley share this UNESCO listing?",
+    "options": [
+     "None",
+     "One",
+     "Two",
+     "Five"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "Patan and Bhaktapur Durbar Squares are the other two."
+   }
+  ],
+  "clues": [
+   "Kings once ruled from here; now pigeons and pilgrims share the stones between pagodas.",
+   "Named after a monkey god's gate, this royal plaza shook hard in 2015 and rose again."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kathmandu_Durbar_Square",
+   "https://en.wikipedia.org/wiki/Hanuman_Dhoka",
+   "https://whc.unesco.org/en/list/121",
+   "https://www.wikidata.org/wiki/Q6122177",
+   "https://www.bhaktapur.com/entry-fees-of-the-heritage-sites-in-nepal/",
+   "https://ghalegroup.com/nepal-attractions-fees-timings/"
+  ]
+ },
+ {
+  "slug": "kasthamandap",
+  "name": "Kasthamandap",
+  "name_np": "काष्ठमण्डप",
+  "alt_names": [
+   "Maru Satta"
+  ],
+  "city": "Kathmandu",
+  "zone": "kathmandu-durbar-square",
+  "lat": 27.703957,
+  "lng": 85.305762,
+  "coord_source": "OpenStreetMap way 183558418 (centroid); matches Wikidata Q6374805",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Gorakhnath",
+  "built_year": null,
+  "built_century_text": "c. 7th century CE (radiocarbon/OSL dating after 2015)",
+  "dynasty": "Licchavi",
+  "architecture": "Three-storey timber public shelter (mandapa) in Newar pagoda style; rebuilt 2018–2021",
+  "unesco": true,
+  "short": "The 'wooden shelter' said to have given Kathmandu its name, rebuilt after the 2015 earthquake.",
+  "story": "You are looking at Kasthamandap, whose name means 'wood-covered shelter'. Many people believe the city of Kathmandu takes its name from this very building. For centuries it was a public rest house where travellers and traders gathered, and later a shrine to the yogi Gorakhnath was added inside. On 25 April 2015 the old three-storey timber hall collapsed completely. That tragedy led to a discovery: archaeologists from Nepal's Department of Archaeology, working with Durham and Stirling universities, dated soil from the foundations and found the building went back to the 7th century, the Licchavi era. They also recovered copper-plate inscriptions mentioning the 14th-century king Jayasthiti Malla. Local residents insisted on rebuilding it themselves, and work began in November 2018. Look closely at the fresh timber: it was raised by the community using traditional joinery, and the temple was formally inaugurated in April 2022.",
+  "legend": "A popular legend says Gorakhnath once came to watch the Machhindranath chariot festival in disguise. A tantric recognised him and would not let him go until he granted a boon. A great tree then sprang up on this spot, and the entire shelter was built from the wood of that single tree. Some tellings say the tree was the wish-granting Kalpavriksha itself.",
+  "facts": [
+   "Its name means 'wood-covered shelter' in Sanskrit.",
+   "Post-2015 radiocarbon and OSL dating suggest it was built in the 7th century CE.",
+   "Copper-plate inscriptions naming the 14th-century king Jayasthiti Malla were found in one of its pillars.",
+   "Reconstruction began on 8 November 2018 and the rebuilt temple was inaugurated in April 2022."
+  ],
+  "visit": {
+   "open": "09:00",
+   "close": "19:00",
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 20,
+   "fee_note": "Covered by the Kathmandu (Basantapur) Durbar Square ticket; fees as published by the site (SAARC rate effective Shrawan 2080 BS / mid-2023). Children under 10 free. Confirm locally."
+  },
+  "earthquake_2015": "The building collapsed completely on 25 April 2015; it was rebuilt by the local community from 2018 and inaugurated in 2022.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Kasthamandap_Kathmandu_%282023%29.jpg/1280px-Kasthamandap_Kathmandu_%282023%29.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kasthamandap_Kathmandu_(2023).jpg",
+   "author": "Chainwit.",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "What does 'Kasthamandap' mean?",
+    "options": [
+     "Golden roof",
+     "Wood-covered shelter",
+     "House of the goddess",
+     "Stone tower"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Kastha means wood and mandap means shelter or pavilion."
+   },
+   {
+    "q": "Which city is popularly said to be named after Kasthamandap?",
+    "options": [
+     "Patan",
+     "Bhaktapur",
+     "Kathmandu",
+     "Kirtipur"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "The name Kathmandu is traditionally derived from Kasthamandap."
+   },
+   {
+    "q": "Post-2015 scientific dating placed its construction in which century?",
+    "options": [
+     "3rd century BCE",
+     "7th century CE",
+     "12th century CE",
+     "17th century CE"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Radiocarbon and OSL tests on foundation soils pointed to the 7th century CE."
+   },
+   {
+    "q": "Which yogi has a shrine inside Kasthamandap?",
+    "options": [
+     "Gorakhnath",
+     "Padmasambhava",
+     "Nagarjuna",
+     "Milarepa"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "A shrine to the yogi Gorakhnath (Gorakshanath) was added inside."
+   },
+   {
+    "q": "Which UK universities helped excavate the site after the 2015 earthquake?",
+    "options": [
+     "Oxford and Cambridge",
+     "Durham and Stirling",
+     "Edinburgh and Leeds",
+     "UCL and Bristol"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "Durham University and the University of Stirling worked with Nepal's Department of Archaeology."
+   }
+  ],
+  "clues": [
+   "Legend says one single tree gave all my timber, and the city borrowed my name.",
+   "A traveller's rest house older than the Malla kings, I fell in 2015 and was raised again by my neighbours."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kasthamandap",
+   "https://www.wikidata.org/wiki/Q6374805",
+   "https://www.openstreetmap.org/way/183558418",
+   "https://thehimalayantimes.com/nepal/president-bhandari-inaugurates-reconstructed-kashthamandap-temple",
+   "https://www.sharesansar.com/newsdetail/rebuilding-of-kasthamandap-nears-final-phase-to-be-inaugurated-within-a-few-days-2021-11-23",
+   "https://www.thelongestwayhome.com/travel-guides/nepal/kathmandu/kasthamandap.html"
+  ]
+ },
+ {
+  "slug": "taleju-temple",
+  "name": "Taleju Temple",
+  "name_np": "तलेजु मन्दिर",
+  "city": "Kathmandu",
+  "zone": "kathmandu-durbar-square",
+  "lat": 27.704951,
+  "lng": 85.307922,
+  "coord_source": "OpenStreetMap way 1414600808 (tagged wikidata=Q83776242); Wikidata gives 27.704871, 85.308008",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Taleju Bhawani",
+  "built_year": 1564,
+  "built_century_text": "16th century CE (1564)",
+  "dynasty": "Malla",
+  "architecture": "Multi-roofed Newar pagoda on a high stepped plinth with a golden torana",
+  "unesco": true,
+  "short": "Temple of the Malla kings' royal goddess, opened to the public only once a year at Dashain.",
+  "story": "Look up at the high gilded roofs in the north-east of the square. This is the Taleju Temple, built in 1564 by King Mahendra Malla for Taleju Bhawani, the royal patron goddess of the Malla dynasty. Taleju was the kings' own protector, so her temple was raised high above the city on a stepped plinth, and its gilded roofs once announced royal power to everyone below. Unlike most temples here, its doors stay shut. The Taleju Temple opens to the public only once a year, during the great festival of Dashain. Inside are shrines to the goddess and to her human embodiment, the Kumari, the living goddess who lives just across the square. In 2015, when nearby temples collapsed, Taleju survived the earthquake. As you stand here, imagine the Malla kings climbing these steps in private worship, believing that the goddess on this platform kept their kingdom safe.",
+  "legend": "Legend says Taleju used to visit King Jaya Prakash Malla each night to play a dice game, on condition that he told no one. When the king's daughter secretly followed him, the angry goddess vanished. She later appeared in a dream, telling the king she would return in a young Shakya girl. This, tradition says, is how the custom of the royal Kumari began in Kathmandu.",
+  "facts": [
+   "It was built in 1564 by King Mahendra Malla.",
+   "Taleju Bhawani was the royal patron goddess of the Malla dynasty.",
+   "The temple is opened to the public only once a year, during Dashain.",
+   "A 17th-century necklace once kept here is now in the Art Institute of Chicago, and campaigners in Nepal seek its return."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 10,
+   "hours_note": "Viewed from outside; interior opens only during Dashain.",
+   "fee_note": "Covered by the Kathmandu (Basantapur) Durbar Square ticket; fees as published by the site (SAARC rate effective Shrawan 2080 BS / mid-2023). Children under 10 free. Confirm locally."
+  },
+  "earthquake_2015": "The temple survived the 2015 earthquake while nearby structures collapsed.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Kathmandu-Taleju-12-Palast-2014-gje.jpg/1280px-Kathmandu-Taleju-12-Palast-2014-gje.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Taleju-12-Palast-2014-gje.jpg",
+   "author": "Gerd Eichmann",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Which goddess is worshipped in the Taleju Temple?",
+    "options": [
+     "Saraswati",
+     "Taleju Bhawani",
+     "Lakshmi",
+     "Hariti"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The temple is dedicated to Taleju Bhawani, the Malla royal goddess."
+   },
+   {
+    "q": "When is the Taleju Temple opened to the public?",
+    "options": [
+     "Every Saturday",
+     "Only during Dashain",
+     "Only during Tihar",
+     "Never"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Its doors open to the public once a year, during Dashain."
+   },
+   {
+    "q": "Which king built the temple in 1564?",
+    "options": [
+     "Pratap Malla",
+     "Mahendra Malla",
+     "Prithvi Narayan Shah",
+     "Jayasthiti Malla"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "King Mahendra Malla built it in 1564."
+   },
+   {
+    "q": "Which living goddess is linked to Taleju?",
+    "options": [
+     "The Kumari",
+     "The Ajima",
+     "The Dakini",
+     "The Yogini"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "The Kumari is regarded as Taleju's human embodiment."
+   },
+   {
+    "q": "Where is the Taleju necklace associated with this temple now displayed?",
+    "options": [
+     "British Museum",
+     "Art Institute of Chicago",
+     "Louvre",
+     "National Museum, Chhauni"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "The necklace left Nepal by 1976 and is now held by the Art Institute of Chicago."
+   }
+  ],
+  "clues": [
+   "My royal goddess lets the public in only once a year, when Dashain comes.",
+   "I tower over the north-east of the square, raised in 1564 for the kings' own protector."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Taleju_Temple,_Kathmandu",
+   "https://en.wikipedia.org/wiki/Hanuman_Dhoka",
+   "https://en.wikipedia.org/wiki/Kumari_(goddess)",
+   "https://www.wikidata.org/wiki/Q83776242",
+   "https://www.openstreetmap.org/way/1414600808",
+   "https://thelongestwayhome.com/travel-guides/nepal/temples-buildings-destroyed-nepal-earthquake-2015.html"
+  ]
+ },
+ {
+  "slug": "kumari-ghar",
+  "name": "Kumari Ghar",
+  "name_np": "कुमारी घर",
+  "alt_names": [
+   "Kumari Bahal",
+   "Kumari Chowk",
+   "House of the Living Goddess"
+  ],
+  "city": "Kathmandu",
+  "zone": "kathmandu-durbar-square",
+  "lat": 27.70377,
+  "lng": 85.306524,
+  "coord_source": "OpenStreetMap node 2659104413",
+  "type": "courtyard",
+  "religion": "Both",
+  "deity": "Kumari (Taleju)",
+  "built_year": 1757,
+  "built_century_text": "18th century CE (1757)",
+  "dynasty": "Malla",
+  "architecture": "Three-storey Newar bahal-style residence around a carved courtyard",
+  "unesco": true,
+  "short": "Home of Kathmandu's Royal Kumari, a young girl revered as a living goddess.",
+  "story": "Step through the lion-guarded doorway into a quiet courtyard. This is Kumari Ghar, the home of the Royal Kumari of Kathmandu, a young girl from the Newar Shakya community who is worshipped as a living embodiment of the goddess Taleju. The three-storey building was built in 1757 under King Jaya Prakash Malla. Look up at the richly carved wooden windows around you. Sometimes the Kumari appears briefly at one of them, and devotees wait patiently for a glimpse. Please do not photograph her; it is not permitted. The Kumari rarely leaves this house. Her biggest public appearance comes during the Indra Jatra festival, when she is carried through the city in a chariot. In the days of the monarchy, the king would bow before her each year to receive a tika; today the president of Nepal performs a similar role. When the 2015 earthquake shattered temples around the square, this house stood unharmed.",
+  "legend": "One night, King Jaya Prakash Malla's secret game of dice with the goddess Taleju ended when his daughter followed him. Taleju vanished in anger, then returned in a dream: from now on, she said, she would live within a young girl of the Shakya community. To honour her, a girl was chosen and enthroned, and the tradition of the Kumari began.",
+  "facts": [
+   "The house was built in 1757 under King Jaya Prakash Malla.",
+   "The Royal Kumari is chosen from the Newar Shakya community.",
+   "During Indra Jatra the Kumari is pulled through Kathmandu on a chariot.",
+   "The house stood undamaged in the 2015 earthquake."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 15,
+   "hours_note": "Courtyard can usually be entered in daytime; photographing the Kumari is not allowed.",
+   "fee_note": "Covered by the Kathmandu (Basantapur) Durbar Square ticket; fees as published by the site (SAARC rate effective Shrawan 2080 BS / mid-2023). Children under 10 free. Confirm locally."
+  },
+  "earthquake_2015": "Kumari Ghar stood unharmed in 2015 amid the rubble of surrounding temples.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Entrance_of_Kumari_House-_Basantpur_Durbar_Square%2C_Kathmandu_Nepal-0366.jpg/1280px-Entrance_of_Kumari_House-_Basantpur_Durbar_Square%2C_Kathmandu_Nepal-0366.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Entrance_of_Kumari_House-_Basantpur_Durbar_Square,_Kathmandu_Nepal-0366.jpg",
+   "author": "Bijay chaurasia",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Who lives in Kumari Ghar?",
+    "options": [
+     "The head priest of Pashupati",
+     "The Royal Kumari, a living goddess",
+     "The mayor of Kathmandu",
+     "Buddhist nuns"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The house is the residence of the Royal Kumari of Kathmandu."
+   },
+   {
+    "q": "The Kumari is believed to embody which goddess?",
+    "options": [
+     "Taleju",
+     "Lakshmi",
+     "Saraswati",
+     "Tara"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "She is venerated as a living embodiment of Taleju Bhawani, a form of Durga."
+   },
+   {
+    "q": "In which year was Kumari Ghar built?",
+    "options": [
+     "1564",
+     "1670",
+     "1757",
+     "1832"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "It was built in 1757 under Jaya Prakash Malla."
+   },
+   {
+    "q": "During which festival is the Kumari carried through the city on a chariot?",
+    "options": [
+     "Tihar",
+     "Indra Jatra",
+     "Holi",
+     "Losar"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Indra Jatra features the Kumari's chariot procession."
+   },
+   {
+    "q": "From which Newar community is the Royal Kumari traditionally chosen?",
+    "options": [
+     "Shakya",
+     "Jyapu",
+     "Shrestha",
+     "Manandhar"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "The Royal Kumari is chosen from girls of the Shakya community."
+   }
+  ],
+  "clues": [
+   "A goddess in a girl's form watches from my carved windows; please keep your camera down.",
+   "Built in 1757, my courtyard waits for a glimpse of someone who rides a chariot at Indra Jatra."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kumari_(goddess)",
+   "https://en.wikipedia.org/wiki/Kathmandu_Durbar_Square",
+   "https://www.openstreetmap.org/node/2659104413",
+   "https://www.atlasobscura.com/places/kumari-ghar",
+   "https://www.hinduismtoday.com/hpi/2015/05/13/nepal-s-living-goddess-devotees-were-unscathed-by-earthquake/"
+  ]
+ },
+ {
+  "slug": "kal-bhairav",
+  "name": "Kal Bhairav",
+  "name_np": "काल भैरव",
+  "alt_names": [
+   "Kaal Bhairav",
+   "Kala Bhairava"
+  ],
+  "city": "Kathmandu",
+  "zone": "kathmandu-durbar-square",
+  "lat": 27.704719,
+  "lng": 85.307097,
+  "coord_source": "OpenStreetMap way 196261745 (tagged wikidata=Q106208411); Wikidata gives 27.704722, 85.307222",
+  "type": "statue",
+  "religion": "Hindu",
+  "deity": "Bhairav (fierce form of Shiva)",
+  "built_year": null,
+  "built_century_text": "Installed in the square in the 17th century (reign of Pratap Malla, 1641–1674)",
+  "dynasty": "Malla",
+  "architecture": "Large open-air stone relief, painted, said to be carved from a single stone",
+  "unesco": true,
+  "short": "A fearsome six-armed Bhairav; lying before him was once believed to bring instant death.",
+  "story": "Face the huge, dark figure with wild eyes and a crown of skulls. This is Kal Bhairav, the terrifying form of Shiva who destroys evil. He has six arms and tramples a demon under his feet. According to tradition, the image was found in a paddy field and brought to the square by King Pratap Malla in the 17th century, and it is said to be carved from a single stone. For a long time, people believed that anyone who told a lie in front of Kal Bhairav would die on the spot. Royal courtiers swore oaths of loyalty here, and witnesses were brought before him to testify. Notice the offerings of flowers, rice and red powder at his feet, and the lamps lit by worshippers. Even today, many people find it hard to look him in the eye while saying something untrue. During Dashain, animal sacrifices are still offered here.",
+  "legend": "People said that no one could lie in front of Kal Bhairav and live. Anyone who spoke a falsehood before him would vomit blood and die on the spot. So, in the days of the kings, courtiers swore their loyalty before him and witnesses in criminal cases were made to testify in his presence. Fear of his gaze, it is said, was often enough to make the guilty confess.",
+  "facts": [
+   "Kal Bhairav is a fierce form of Shiva.",
+   "Tradition says King Pratap Malla placed the image in the square after it was found in a paddy field.",
+   "The figure is believed to be carved from a single stone.",
+   "The six-armed god stands on a demon and wears a garland of skulls."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 10,
+   "hours_note": "Open-air image, visible at all times.",
+   "fee_note": "Covered by the Kathmandu (Basantapur) Durbar Square ticket; fees as published by the site (SAARC rate effective Shrawan 2080 BS / mid-2023). Children under 10 free. Confirm locally."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bhairab_statue_at_Hanumandhoka%2C_Basantapur.jpg/1280px-Bhairab_statue_at_Hanumandhoka%2C_Basantapur.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Bhairab_statue_at_Hanumandhoka,_Basantapur.jpg",
+   "author": "Ronishash",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Kal Bhairav is a fierce form of which god?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Brahma",
+     "Indra"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Bhairav is a fierce manifestation of Shiva."
+   },
+   {
+    "q": "What was believed to happen to someone who lied before Kal Bhairav?",
+    "options": [
+     "They would go blind",
+     "They would die on the spot",
+     "They would be rich",
+     "They would lose their voice"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Popular belief held that liars would vomit blood and die immediately."
+   },
+   {
+    "q": "How many arms does the Kal Bhairav figure have?",
+    "options": [
+     "Two",
+     "Four",
+     "Six",
+     "Ten"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The figure is described as six-armed, standing on a demon."
+   },
+   {
+    "q": "Which king is credited with placing the image in the square?",
+    "options": [
+     "Pratap Malla",
+     "Mahendra Malla",
+     "Yaksha Malla",
+     "Prithvi Narayan Shah"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "Tradition says Pratap Malla installed it after it was found in a paddy field."
+   },
+   {
+    "q": "Where was the image said to have been found?",
+    "options": [
+     "In a river",
+     "In a paddy field",
+     "In a cave",
+     "Inside a palace wall"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "According to legend, the stone was discovered in a paddy field."
+   }
+  ],
+  "clues": [
+   "Speak only the truth before my six arms, or so the old saying warns.",
+   "Black-skinned, skull-crowned, I was found in a rice field and brought to the royal square."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kaal_Bhairav,_Kathmandu",
+   "https://www.wikidata.org/wiki/Q106208411",
+   "https://www.openstreetmap.org/way/196261745",
+   "https://nepalitimes.com/the-mystery-of-the-black-bhairab"
+  ]
+ },
+ {
+  "slug": "jagannath-temple",
+  "name": "Jagannath Temple",
+  "name_np": "जगन्नाथ मन्दिर",
+  "city": "Kathmandu",
+  "zone": "kathmandu-durbar-square",
+  "lat": 27.704631,
+  "lng": 85.307232,
+  "coord_source": "OpenStreetMap way 169429518 ('Jagan Nath Temple') centroid",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Jagannath (Vishnu/Krishna)",
+  "built_year": 1563,
+  "built_century_text": "16th century CE (c. 1563; attribution debated)",
+  "dynasty": "Malla",
+  "architecture": "Two-roofed Newar pagoda on a three-tiered plinth with carved erotic roof struts",
+  "unesco": true,
+  "short": "A 16th-century pagoda famous for the erotic carvings on its roof struts.",
+  "story": "Walk around this two-roofed pagoda near the palace gate and look up at the slanting wooden struts that hold up the roof. You will notice small carved scenes, some of them openly erotic. This is the Jagannath Temple, one of the oldest structures in the square, dedicated to Jagannath, a form of Vishnu. It is usually dated to around 1563, in the reign of King Mahendra Malla, although King Pratap Malla later claimed to have built it, and historians still debate the date. Why the erotic carvings? Nobody knows for sure. Some people say they celebrate life and fertility; a popular folk belief says they protect the temple from lightning. The upper roof was damaged in the great earthquake of 1934 and the temple was rebuilt in 1936 using original materials. In 2015, when other temples fell around it, Jagannath survived.",
+  "legend": null,
+  "facts": [
+   "The temple is commonly dated to about 1563, during Mahendra Malla's reign; Pratap Malla later claimed it.",
+   "Its roof struts carry well-known erotic carvings.",
+   "It was damaged in the 1934 earthquake and rebuilt in 1936 with original materials.",
+   "It survived the 2015 earthquake."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 10,
+   "hours_note": "Viewed from outside in the open square.",
+   "fee_note": "Covered by the Kathmandu (Basantapur) Durbar Square ticket; fees as published by the site (SAARC rate effective Shrawan 2080 BS / mid-2023). Children under 10 free. Confirm locally."
+  },
+  "earthquake_2015": "The temple survived the 2015 earthquake.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Jagannath_Temple_at_Hanumandhoka_Durbar_Square.jpg/1280px-Jagannath_Temple_at_Hanumandhoka_Durbar_Square.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Jagannath_Temple_at_Hanumandhoka_Durbar_Square.jpg",
+   "author": "Suraj Belbase",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "What are the Jagannath Temple's roof struts best known for?",
+    "options": [
+     "Gold leaf",
+     "Erotic carvings",
+     "Painted eyes",
+     "Bells"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Its wooden struts carry erotic carved scenes."
+   },
+   {
+    "q": "Jagannath is a form of which god?",
+    "options": [
+     "Shiva",
+     "Vishnu",
+     "Ganesh",
+     "Indra"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Jagannath is worshipped as a form of Vishnu/Krishna."
+   },
+   {
+    "q": "How many roofs does the temple have?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "Five"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "It is a two-tiered pagoda on a three-tiered plinth."
+   },
+   {
+    "q": "A folk belief says the erotic carvings protect the temple from what?",
+    "options": [
+     "Floods",
+     "Lightning",
+     "Thieves",
+     "Termites"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "One popular belief holds that they ward off lightning."
+   },
+   {
+    "q": "After which earthquake was the temple rebuilt in 1936?",
+    "options": [
+     "1833",
+     "1934",
+     "1988",
+     "2015"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "The 1934 Nepal–Bihar earthquake damaged its upper roof and walls."
+   }
+  ],
+  "clues": [
+   "Look up at my roof struts, but maybe not with the children.",
+   "Two roofs, three plinth steps, and a quarrel over which Malla king really built me."
+  ],
+  "sources": [
+   "https://www.openstreetmap.org/way/169429518",
+   "https://www.kvptnepal.org/project/jagannath-temple",
+   "https://nepaltraveller.com/sidetrack/jagannath-temple-a-fusion-of-art-and-spirituality",
+   "https://thelongestwayhome.com/travel-guides/nepal/temples-buildings-destroyed-nepal-earthquake-2015.html"
+  ]
+ },
+ {
+  "slug": "hanuman-dhoka-palace",
+  "name": "Hanuman Dhoka Palace",
+  "name_np": "हनुमान ढोका दरबार",
+  "city": "Kathmandu",
+  "zone": "kathmandu-durbar-square",
+  "lat": 27.704099,
+  "lng": 85.307449,
+  "coord_source": "OpenStreetMap node 11365076769; Wikidata Q12947124 gives 27.704167, 85.3075",
+  "type": "palace",
+  "religion": "Secular",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Mid-16th century CE, expanded in the 17th–19th centuries",
+  "dynasty": "Malla",
+  "architecture": "Malla palace of multiple courtyards (chowks) with Shah towers and Rana-era wings",
+  "unesco": true,
+  "short": "The royal palace of Malla and Shah kings, entered through a gate guarded by Hanuman.",
+  "story": "Before you is the gate that gives this whole square its name. A stone statue of Hanuman, the monkey god, dated to 1672, guards the entrance, wrapped in red cloth and shaded by an umbrella, his face smeared with red paste. Beside him, a 1673 sculpture shows Narasimha, half-man and half-lion, tearing apart a demon. Beyond the gate lies the royal palace of the Malla kings, and later the Shah kings, built around courtyards called chowks. The oldest eastern wing dates to the mid-16th century, and King Pratap Malla expanded it in the 17th. In Nasal Chowk, King Birendra was crowned in 1975. The royal family lived here until 1886, when they moved to Narayanhiti Palace. Today, parts of the palace are a museum. It was badly damaged in the 2015 earthquake and has been restored in phases.",
+  "legend": "Outside the palace stands Pratap Malla's stone inscription written in fifteen languages. It is a jaladroni, a drinking fountain stone. It was set up by Pratap Malla, a king proud of his learning who styled himself Kavindra, king of poets. Legend says that if anyone ever reads and understands all fifteen languages, milk instead of water will flow from its spout.",
+  "facts": [
+   "The Hanuman statue at the gate is dated to 1672.",
+   "King Birendra was crowned in Nasal Chowk in 1975.",
+   "The royal family lived here until 1886, then moved to Narayanhiti Palace.",
+   "A nearby stone inscription is written in fifteen languages."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 60,
+   "hours_note": "Palace museum hours vary; check at the site office.",
+   "fee_note": "Covered by the Kathmandu (Basantapur) Durbar Square ticket; fees as published by the site (SAARC rate effective Shrawan 2080 BS / mid-2023). Children under 10 free. Confirm locally."
+  },
+  "earthquake_2015": "The palace buildings were severely damaged in the 2015 earthquake and have been restored in phases since.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Hanuman_Dhoka_Durbar_Square_Kathmandu_%282023%29_01.jpg/1280px-Hanuman_Dhoka_Durbar_Square_Kathmandu_%282023%29_01.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Hanuman_Dhoka_Durbar_Square_Kathmandu_(2023)_01.jpg",
+   "author": "Chainwit.",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "What does 'dhoka' mean in Nepali?",
+    "options": [
+     "Temple",
+     "Door or gate",
+     "King",
+     "Courtyard"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Dhoka means door or gate; the palace is named after the Hanuman gate."
+   },
+   {
+    "q": "Which god's statue guards the palace gate?",
+    "options": [
+     "Ganesh",
+     "Hanuman",
+     "Garuda",
+     "Bhairav"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "A stone Hanuman, dated 1672, stands at the entrance."
+   },
+   {
+    "q": "Until what year did the royal family live in this palace?",
+    "options": [
+     "1769",
+     "1886",
+     "1951",
+     "2008"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "They lived here until 1886 before moving to Narayanhiti Palace."
+   },
+   {
+    "q": "Which king was crowned in Nasal Chowk in 1975?",
+    "options": [
+     "Tribhuvan",
+     "Mahendra",
+     "Birendra",
+     "Gyanendra"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "King Birendra's coronation took place in Nasal Chowk in 1975."
+   },
+   {
+    "q": "How many languages appear on Pratap Malla's famous stone inscription here?",
+    "options": [
+     "Five",
+     "Nine",
+     "Twelve",
+     "Fifteen"
+    ],
+    "answer_index": 3,
+    "difficulty": 5,
+    "explanation": "The inscription is in fifteen languages."
+   }
+  ],
+  "clues": [
+   "A red-cloaked monkey god keeps watch at my door.",
+   "Kings were crowned in my courtyards until the family moved out in 1886."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hanuman_Dhoka",
+   "https://www.wikidata.org/wiki/Q12947124",
+   "https://www.openstreetmap.org/node/11365076769",
+   "https://whc.unesco.org/en/list/121"
+  ]
+ },
+ {
+  "slug": "maju-dega",
+  "name": "Maju Dega",
+  "name_np": "माजु देग",
+  "alt_names": [
+   "Maju Deval",
+   "Maju Dewal"
+  ],
+  "city": "Kathmandu",
+  "zone": "kathmandu-durbar-square",
+  "lat": 27.704277,
+  "lng": 85.306202,
+  "coord_source": "OpenStreetMap way 183562980 ('Maju Dega Mandir') centroid",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Shiva",
+  "built_year": 1692,
+  "built_century_text": "Late 17th century CE (1692)",
+  "dynasty": "Malla",
+  "architecture": "Three-roofed Newar pagoda on a nine-tiered brick plinth",
+  "unesco": true,
+  "short": "A towering Shiva temple on nine tall steps, destroyed in 2015 and rebuilt.",
+  "story": "Climb the tall stepped plinth in front of you, if it is open, and you will understand why Maju Dega has long been a favourite seat for watching life in the square. This Shiva temple was built in 1692 by Riddhi Lakshmi, the queen mother of King Bhupatindra Malla. It stands on a nine-tiered brick plinth and rises in three roofs, making it one of the most visible temples in Durbar Square. Inside is a Shiva linga. For decades, travellers rested on its steps; it even appears in the 1971 Indian film Hare Rama Hare Krishna, filmed partly here. On 25 April 2015 the temple collapsed completely in the earthquake. Reconstruction began in October 2018, and today the temple stands again on its old plinth, rebuilt with brick and carved timber. Look out across the square from here and you can see why the Malla court valued this view.",
+  "legend": null,
+  "facts": [
+   "It was built in 1692 by Queen Mother Riddhi Lakshmi.",
+   "The temple stands on a nine-tiered brick plinth.",
+   "The 1971 film Hare Rama Hare Krishna was filmed on its premises.",
+   "It was completely destroyed in 2015; reconstruction began in October 2018."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 15,
+   "fee_note": "Covered by the Kathmandu (Basantapur) Durbar Square ticket; fees as published by the site (SAARC rate effective Shrawan 2080 BS / mid-2023). Children under 10 free. Confirm locally."
+  },
+  "earthquake_2015": "The temple collapsed completely in the 2015 earthquake; reconstruction began in October 2018 and it has since been rebuilt.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Maju_Dega_Temple%2C_Hanuman_Dhoka_Durbar_Square.jpg/1280px-Maju_Dega_Temple%2C_Hanuman_Dhoka_Durbar_Square.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Maju_Dega_Temple,_Hanuman_Dhoka_Durbar_Square.jpg",
+   "author": "Safalphotos",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "To which god is Maju Dega dedicated?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Ganesh",
+     "Krishna"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Maju Dega is a Shiva temple."
+   },
+   {
+    "q": "How many tiers does its brick plinth have?",
+    "options": [
+     "Three",
+     "Five",
+     "Seven",
+     "Nine"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "It stands on a nine-tiered brick plinth."
+   },
+   {
+    "q": "Who built Maju Dega?",
+    "options": [
+     "King Pratap Malla",
+     "Queen Mother Riddhi Lakshmi",
+     "Bhimsen Thapa",
+     "King Mahendra Malla"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Riddhi Lakshmi, mother of Bhupatindra Malla, built it in 1692."
+   },
+   {
+    "q": "Which 1971 film was shot on its premises?",
+    "options": [
+     "Sholay",
+     "Hare Rama Hare Krishna",
+     "Seven Years in Tibet",
+     "Little Buddha"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Hare Rama Hare Krishna was filmed here."
+   },
+   {
+    "q": "When did reconstruction of Maju Dega begin after the 2015 earthquake?",
+    "options": [
+     "2015",
+     "2016",
+     "2018",
+     "2022"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "Kathmandu Metropolitan City began reconstruction in October 2018."
+   }
+  ],
+  "clues": [
+   "Nine giant steps lead up to my Shiva linga, and travellers love to sit on them.",
+   "A queen mother raised me in 1692; a 1971 Bollywood film borrowed my stairs."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Maju_Dega",
+   "https://www.openstreetmap.org/way/183562980",
+   "https://thehimalayantimes.com/kathmandu/reconstruction-of-quake-damaged-maju-dega-temple-begins",
+   "https://commons.wikimedia.org/wiki/File:Maju_Dega_Temple,_Hanuman_Dhoka_Durbar_Square.jpg"
+  ]
+ },
+ {
+  "slug": "ashok-binayak",
+  "name": "Ashok Binayak",
+  "name_np": "अशोक विनायक",
+  "alt_names": [
+   "Maru Ganesh",
+   "Ashok Vinayak"
+  ],
+  "city": "Kathmandu",
+  "zone": "kathmandu-durbar-square",
+  "lat": 27.70419,
+  "lng": 85.30597,
+  "coord_source": "OpenStreetMap node 2084347901 ('Maru Ganesh'), on the east side of Kasthamandap. Wikidata Q21079429's coordinate (26.7286, 85.9247) is wrong and was not used.",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Ganesh",
+  "built_year": null,
+  "built_century_text": "Date unknown",
+  "dynasty": "unknown",
+  "architecture": "Small single-roofed shrine plated in gold, with no gajur (pinnacle)",
+  "unesco": true,
+  "short": "A tiny golden Ganesh shrine, one of the valley's four most important, with no pinnacle on its roof.",
+  "story": "It is easy to walk past this small golden shrine beside Kasthamandap, but locals never do. This is Ashok Binayak, also called Maru Ganesh, and it is one of the four most important Ganesh shrines in the Kathmandu Valley. The other three are Chandra Binayak, Surya Binayak and Jal Binayak. Ganesh, the elephant-headed god, removes obstacles, so many people stop here before a journey, an exam or a new business. Tuesday is Ganesh's day, and that is when the crowds are biggest. Look at the roof: unlike most temples, it has no gajur, the pointed pinnacle on top. Local people say this missing pinnacle gave the neighbourhood its name, Maru, which in Newari means 'does not have'. The whole exterior is plated in gold. Across the narrow lane, look for a small statue of a mouse, Ganesh's loyal vehicle.",
+  "legend": null,
+  "facts": [
+   "It is one of the four principal Ganesh shrines of the Kathmandu Valley.",
+   "Its roof has no gajur (pinnacle); 'Maru' is said to mean 'does not have' in Newari.",
+   "Tuesday, Ganesh's day, draws the most worshippers.",
+   "A statue of a mouse, Ganesh's vehicle, faces the shrine across the lane."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 10,
+   "hours_note": "Shrine visible from the street at all times.",
+   "fee_note": "Covered by the Kathmandu (Basantapur) Durbar Square ticket; fees as published by the site (SAARC rate effective Shrawan 2080 BS / mid-2023). Children under 10 free. Confirm locally."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Ashok_Vinayak_at_Hanuman-Dhoka_Durbar_Square.jpg/1280px-Ashok_Vinayak_at_Hanuman-Dhoka_Durbar_Square.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ashok_Vinayak_at_Hanuman-Dhoka_Durbar_Square.jpg",
+   "author": "Suraj Belbase",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Which god is worshipped at Ashok Binayak?",
+    "options": [
+     "Ganesh",
+     "Hanuman",
+     "Shiva",
+     "Buddha"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Binayak (Vinayak) is a name of Ganesh."
+   },
+   {
+    "q": "Which day of the week draws the most worshippers here?",
+    "options": [
+     "Sunday",
+     "Tuesday",
+     "Friday",
+     "Saturday"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Tuesday is considered Ganesh's day."
+   },
+   {
+    "q": "What is unusual about the shrine's roof?",
+    "options": [
+     "It is made of glass",
+     "It has no gajur (pinnacle)",
+     "It has nine tiers",
+     "It is painted blue"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The roof lacks the usual gajur, which is said to explain the name 'Maru'."
+   },
+   {
+    "q": "Which animal statue faces the shrine across the lane?",
+    "options": [
+     "A lion",
+     "A mouse",
+     "A bull",
+     "A peacock"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The mouse is Ganesh's vehicle."
+   },
+   {
+    "q": "Which of these is NOT one of the valley's four main Ganesh shrines?",
+    "options": [
+     "Chandra Binayak",
+     "Surya Binayak",
+     "Jal Binayak",
+     "Kamal Binayak"
+    ],
+    "answer_index": 3,
+    "difficulty": 5,
+    "explanation": "The four are Ashok, Chandra, Surya and Jal Binayak; Kamal Binayak is a separate, popular temple."
+   }
+  ],
+  "clues": [
+   "Small, golden and missing my pinnacle, I gave my neighbourhood a name that means 'does not have'.",
+   "Stop here on a Tuesday and ask the remover of obstacles for a smooth road; my mouse waits across the lane."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ashok_Binayak_Temple",
+   "https://www.openstreetmap.org/node/2084347901",
+   "https://www.thelongestwayhome.com/travel-guides/nepal/kathmandu/ashok-binayak-maru-ganesh.html"
+  ]
+ },
+ {
+  "slug": "swayambhunath",
+  "name": "Swayambhunath",
+  "name_np": "स्वयम्भूनाथ",
+  "alt_names": [
+   "Swayambhu",
+   "Monkey Temple"
+  ],
+  "city": "Kathmandu",
+  "zone": null,
+  "lat": 27.714939,
+  "lng": 85.290391,
+  "coord_source": "OpenStreetMap way 201223707 (place of worship) centroid; Wikidata Q12946982 gives 27.715, 85.29 (low precision)",
+  "type": "stupa",
+  "religion": "Both",
+  "deity": "Adi-Buddha (Swayambhu)",
+  "built_year": null,
+  "built_century_text": "Ancient; Licchavi-era works recorded c. 5th century CE",
+  "dynasty": "Licchavi",
+  "architecture": "Hilltop hemispherical stupa with gilded harmika painted with the Buddha's eyes and a 13-ring spire",
+  "unesco": true,
+  "short": "The 'self-arisen' hilltop stupa watching over the valley, beloved by Buddhists, Hindus and monkeys.",
+  "story": "You have reached the top of the hill, and the great white dome of Swayambhunath rises in front of you. Swayambhu means 'self-arisen'. Look up at the golden tower: on each side, the eyes of the Buddha gaze out over the valley in all four directions. Above them, thirteen gilded rings represent the thirteen stages on the path to enlightenment. This is one of the oldest and most sacred Buddhist sites in Nepal, yet Hindus worship here too, and you will find shrines of both faiths side by side. Licchavi kings carried out works here, and in the 17th century King Pratap Malla built the long eastern stairway that many visitors climb. Watch your belongings: troops of monkeys live on the hill, which is why travellers call it the Monkey Temple. Walk clockwise around the stupa, spin the prayer wheels, and enjoy one of the best views of Kathmandu.",
+  "legend": "Long ago, the Kathmandu Valley was a great lake. A Buddha sowed a lotus seed in it, and a thousand-petalled lotus bloomed, glowing with a self-born light, Swayambhu. The bodhisattva Manjushri wanted pilgrims to reach it, so he cut a gorge through the hills with his sword. The water drained away, the valley became fertile land, and the lotus became the hill.",
+  "facts": [
+   "Swayambhu means 'self-arisen' or 'self-sprung'.",
+   "It was inscribed as part of the Kathmandu Valley World Heritage Site in 1979.",
+   "King Pratap Malla built the long eastern stairway in the 17th century.",
+   "The 13 gilded rings of the spire represent 13 stages towards enlightenment."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 200,
+   "entry_fee_saarc_npr": 50,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 90,
+   "hours_note": "Open roughly sunrise to sunset.",
+   "fee_note": "Rs 200 foreigners / Rs 50 SAARC reported by The Himalayan Times and a fee table; one undated guide lists Rs 500. Confirm locally."
+  },
+  "earthquake_2015": "The complex was damaged in 2015; the cracked Pratappur shikhara was demolished in 2017 and it and the Anantapur shikhara were rebuilt.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Swayambhunath_2018.jpg/1280px-Swayambhunath_2018.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Swayambhunath_2018.jpg",
+   "author": "Nabin K. Sapkota",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "What nickname do many visitors give Swayambhunath?",
+    "options": [
+     "Golden Temple",
+     "Monkey Temple",
+     "Tiger Temple",
+     "Sky Temple"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Monkeys living on the hill gave it the name Monkey Temple."
+   },
+   {
+    "q": "What does 'Swayambhu' mean?",
+    "options": [
+     "Great mountain",
+     "Self-arisen",
+     "Eye of wisdom",
+     "White lotus"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The name means self-arising or self-sprung."
+   },
+   {
+    "q": "According to legend, who drained the lake that once filled the valley?",
+    "options": [
+     "Manjushri",
+     "Indra",
+     "Hanuman",
+     "Padmasambhava"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Manjushri cut a gorge with his sword, draining the lake."
+   },
+   {
+    "q": "Which king built the long eastern stairway?",
+    "options": [
+     "Pratap Malla",
+     "Prithvi Narayan Shah",
+     "Manadeva",
+     "Ashoka"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "Pratap Malla built the eastern stairway in the 17th century."
+   },
+   {
+    "q": "What do the 13 rings of the spire represent?",
+    "options": [
+     "13 Malla kings",
+     "13 stages towards enlightenment",
+     "13 months of the Newar year",
+     "13 rivers of the valley"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "They symbolise the 13 stages before reaching nirvana."
+   }
+  ],
+  "clues": [
+   "Painted eyes watch the whole valley from my hilltop while monkeys steal snacks below.",
+   "Legend says I was a glowing lotus on a lake before a sword drained the water away."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Swayambhunath",
+   "https://whc.unesco.org/en/list/121",
+   "https://www.wikidata.org/wiki/Q12946982",
+   "https://www.openstreetmap.org/way/201223707",
+   "https://english.onlinekhabar.com/reconstruction-of-pratappur-anantapur-temples-over.html",
+   "https://kathmandupost.com/miscellaneous/2017/01/18/pratappur-temple-demolished",
+   "https://thehimalayantimes.com/kathmandu/all-can-enter-swayambhunath-stupa-for-free-on-buddha-jayanti/",
+   "https://www.bhaktapur.com/entry-fees-of-the-heritage-sites-in-nepal/"
+  ]
+ },
+ {
+  "slug": "boudhanath",
+  "name": "Boudhanath Stupa",
+  "name_np": "बौद्धनाथ",
+  "alt_names": [
+   "Boudha",
+   "Khasti Chaitya",
+   "Jarung Khashor"
+  ],
+  "city": "Kathmandu",
+  "zone": null,
+  "lat": 27.721427,
+  "lng": 85.362008,
+  "coord_source": "OpenStreetMap way 56688296 centroid; Wikidata Q889902 gives 27.721389, 85.361944",
+  "type": "stupa",
+  "religion": "Buddhist",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Present structure likely 14th century CE; tradition dates a stupa here to the 5th–6th century",
+  "dynasty": "Licchavi",
+  "architecture": "Massive mandala-plan spherical stupa on three terraces, with harmika eyes and a 13-step spire",
+  "unesco": true,
+  "short": "One of the world's largest stupas, the heart of Kathmandu's Tibetan Buddhist community.",
+  "story": "Join the stream of pilgrims walking clockwise around this enormous white dome. Boudhanath is the largest spherical stupa in Nepal and one of the largest in the world. Seen from above, it forms a giant mandala. It stood on the ancient trade route between Tibet and India, and Tibetan merchants rested and prayed here for centuries. After 1959, many Tibetan refugees settled around it and built more than fifty monasteries, so today you will hear Tibetan prayers, smell butter lamps and see monks in maroon robes. Newar chronicles link the first stupa here to Licchavi kings, although the present structure probably dates from the 14th century. In 2015 the earthquake badly damaged its upper section. It was taken down, reinforced and rebuilt, and the stupa reopened in November 2016. Look up at the eyes on the gilded tower, then spin the prayer wheels as you complete your circle.",
+  "legend": "A Tibetan legend tells of Samvari, a poultry woman who saved her earnings to build a great stupa. She asked the king for land, and he said 'Jarung!' – 'Let it be done!' When jealous nobles saw how huge it would be, the king could not take back his word; it had 'slipped from his tongue' (khashor). So the stupa became Jarung Khashor.",
+  "facts": [
+   "It is the largest spherical stupa in Nepal.",
+   "It was inscribed as part of the Kathmandu Valley World Heritage Site in 1979.",
+   "After 1959, Tibetan refugees built more than 50 monasteries around the stupa.",
+   "After 2015 damage, the upper part was rebuilt and the stupa reopened in November 2016."
+  ],
+  "visit": {
+   "open": "00:00",
+   "close": "23:59",
+   "entry_fee_foreigner_npr": 400,
+   "entry_fee_saarc_npr": 100,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 75,
+   "hours_note": "The stupa area is open at all hours; mornings and evenings are busiest with pilgrims.",
+   "fee_note": "Rs 400 foreigners / Rs 100 SAARC (Radio Nepal 2022; fee table). Confirm locally."
+  },
+  "earthquake_2015": "The 2015 earthquake damaged the upper part of the stupa, which was dismantled and rebuilt; it reopened in November 2016.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Boudha_Stupa_2018_04.jpg/1280px-Boudha_Stupa_2018_04.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Boudha_Stupa_2018_04.jpg",
+   "author": "Nabin K. Sapkota",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Which community settled in large numbers around Boudhanath after 1959?",
+    "options": [
+     "Tibetan refugees",
+     "Indian traders",
+     "Sherpa farmers",
+     "European monks"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Tibetan refugees settled here after the 1959 uprising."
+   },
+   {
+    "q": "In which direction should you walk around the stupa?",
+    "options": [
+     "Anticlockwise",
+     "Clockwise",
+     "Either way",
+     "Straight across"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Pilgrims circle stupas clockwise."
+   },
+   {
+    "q": "When did Boudhanath reopen after post-earthquake restoration?",
+    "options": [
+     "May 2015",
+     "November 2016",
+     "April 2021",
+     "2024"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "It reopened in November 2016 after about 18 months of work."
+   },
+   {
+    "q": "What is the Newar name of the stupa?",
+    "options": [
+     "Khasti Chaitya",
+     "Jana Baha",
+     "Maru Satta",
+     "Nhu Pukhu"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "Newars call it Khasti (Khasa) Chaitya."
+   },
+   {
+    "q": "In the Tibetan legend, what does 'Jarung Khashor' refer to?",
+    "options": [
+     "A dragon's lair",
+     "A king's permission that 'slipped from his tongue'",
+     "A mountain pass",
+     "A sacred river"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "'Jarung' (let it be done) slipped from the king's tongue, 'khashor'."
+   }
+  ],
+  "clues": [
+   "Butter lamps, prayer wheels and maroon robes circle my giant white mandala.",
+   "A poultry woman's dream, a king's slip of the tongue: my Tibetan name tells the tale."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Boudha_Stupa",
+   "https://whc.unesco.org/en/list/121",
+   "https://www.wikidata.org/wiki/Q889902",
+   "https://www.openstreetmap.org/way/56688296",
+   "https://kathmandupost.com/valley/2016/10/31/boudhanath-rebuilding-nears-completion",
+   "https://radionepalonline.com/2022/09/08/323963.html",
+   "https://www.bhaktapur.com/entry-fees-of-the-heritage-sites-in-nepal/"
+  ]
+ },
+ {
+  "slug": "pashupatinath",
+  "name": "Pashupatinath Temple",
+  "name_np": "पशुपतिनाथ मन्दिर",
+  "city": "Kathmandu",
+  "zone": null,
+  "lat": 27.710495,
+  "lng": 85.348645,
+  "coord_source": "Wikidata Q380384 (P625)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Pashupati (Shiva)",
+  "built_year": null,
+  "built_century_text": "Recorded by c. 400 CE; present form renovated in 1692",
+  "dynasty": "Licchavi",
+  "architecture": "Two-roofed gilded Newar pagoda with four silver-plated doors, in a large riverside temple precinct",
+  "unesco": true,
+  "short": "Nepal's holiest Shiva temple, on the sacred Bagmati River with its cremation ghats.",
+  "story": "You are on the banks of the sacred Bagmati River at Pashupatinath, the holiest Shiva temple in Nepal and one of the most important in South Asia. Its existence is recorded as early as 400 CE. The main pagoda has two gilded copper roofs, a golden pinnacle and four doors covered in silver. Inside is a four-faced stone linga of Shiva as Pashupati, Lord of all living beings. Only Hindus may enter the main temple, but you can watch from across the river. The precinct covers about 246 hectares and holds hundreds of smaller shrines. Along the river you will see the ghats where Hindus are cremated, a moving reminder that, for believers, this is a sacred place to end life's journey. Each evening, priests perform the aarti with lamps and chanting. The festival of Maha Shivaratri draws huge crowds. In 2015, the main temple came through the earthquake largely unharmed.",
+  "legend": "In the Mahabharata legend, the Pandava brothers sought Shiva's forgiveness after their war. Shiva hid from them as a bull and sank into the earth, reappearing in parts across the Himalaya: the hump appeared at Kedarnath, and his head, it is said, emerged here at Pashupatinath. The other parts are said to have appeared at Rudranath, Tungnath and Madhyamaheshwar, which is why pilgrims link this temple with those shrines.",
+  "facts": [
+   "The temple precinct covers about 246 hectares and includes 518 smaller temples and shrines.",
+   "The main pagoda is 23.7 metres tall with four silver-covered doors.",
+   "Only four priests may touch the linga; the Bhatta priests perform daily worship.",
+   "Its existence is recorded as early as 400 CE, and the present form dates to a 1692 renovation."
+  ],
+  "visit": {
+   "open": "04:00",
+   "close": "21:00",
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 1000,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 90,
+   "hours_note": "Complex hours as listed by a travel operator; the main temple interior is open to Hindus only.",
+   "fee_note": "Indian nationals enter free; other SAARC nationals pay Rs 1000 per published fee tables. Confirm locally."
+  },
+  "earthquake_2015": "The main temple was largely unaffected in 2015, though dozens of structures in the wider Pashupati area were damaged and later restored.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Pashupatinath_Temple-2020.jpg/1280px-Pashupatinath_Temple-2020.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Pashupatinath_Temple-2020.jpg",
+   "author": "Bijay Chaurasia",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Pashupatinath is dedicated to which god?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Buddha",
+     "Ganesh"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Pashupati is a form of Shiva, Lord of all beings."
+   },
+   {
+    "q": "On which river does the temple stand?",
+    "options": [
+     "Bishnumati",
+     "Bagmati",
+     "Koshi",
+     "Trishuli"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Pashupatinath lies on the banks of the Bagmati."
+   },
+   {
+    "q": "Which festival draws the largest crowds of Shiva devotees here?",
+    "options": [
+     "Maha Shivaratri",
+     "Losar",
+     "Indra Jatra",
+     "Gai Jatra"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Maha Shivaratri is Shiva's great night."
+   },
+   {
+    "q": "How many doors does the main temple have, all covered in silver?",
+    "options": [
+     "Two",
+     "Four",
+     "Six",
+     "Eight"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "It has four main doors covered with silver sheets."
+   },
+   {
+    "q": "In the Mahabharata legend, which part of Shiva-as-bull appeared at Pashupatinath?",
+    "options": [
+     "Hump",
+     "Head",
+     "Arms",
+     "Navel"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "The head is said to have appeared at Pashupatinath, the hump at Kedarnath."
+   }
+  ],
+  "clues": [
+   "Silver doors guard a four-faced linga on the banks of a holy river where the evening lamps are waved.",
+   "Smoke rises from my riverside ghats, and only Hindus may step into my golden-roofed sanctum."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pashupatinath_Temple",
+   "https://whc.unesco.org/en/list/121",
+   "https://www.wikidata.org/wiki/Q380384",
+   "https://ghalegroup.com/nepal-attractions-fees-timings/",
+   "https://www.bhaktapur.com/entry-fees-of-the-heritage-sites-in-nepal/",
+   "https://eastmojo.com/neighbourhood-watch/nepal/2023/06/15/71-heritage-sites-damaged-in-2015-nepal-quake-restored-report/"
+  ]
+ },
+ {
+  "slug": "budhanilkantha",
+  "name": "Budhanilkantha Temple",
+  "name_np": "बूढानीलकण्ठ मन्दिर",
+  "alt_names": [
+   "Narayanthan"
+  ],
+  "city": "Kathmandu",
+  "locality": "Budhanilkantha Municipality (Kathmandu District)",
+  "zone": null,
+  "lat": 27.778126,
+  "lng": 85.362341,
+  "coord_source": "OpenStreetMap way 85552443 (tagged wikidata=Q1001415); Wikidata gives 27.778056, 85.362222",
+  "type": "statue",
+  "religion": "Hindu",
+  "deity": "Vishnu (Jalashayana Narayan)",
+  "built_year": null,
+  "built_century_text": "Statue believed to be over 1,400 years old (c. 7th century CE)",
+  "dynasty": "Licchavi",
+  "architecture": "Open-air temple: a 5 m reclining Vishnu carved from a single stone in a 13 m sunken pool",
+  "unesco": false,
+  "short": "A giant sleeping Vishnu floats in a sacred pool beneath Shivapuri hill.",
+  "story": "At the foot of Shivapuri hill, at the northern edge of the valley, lies one of Nepal's most astonishing sculptures. In a long sunken pool, the god Vishnu reclines on the coils of a cosmic serpent, as if asleep on the waters. The statue is about five metres long, carved from a single block of black stone, and is considered the largest stone carving in Nepal. It is believed to be more than 1,400 years old. In his four hands Vishnu holds a discus, a club, a conch shell and a gem. Strangely, the name Budhanilkantha means 'Old Blue Throat', a title of Shiva, because the spring feeding the pool is said to be linked with the sacred lake of Gosaikunda. Each year, on Haribodhini Ekadashi in October or November, thousands of pilgrims come to celebrate Vishnu waking from his four-month sleep. For centuries, Nepal's kings never came here, fearing a prophecy.",
+  "legend": "King Pratap Malla is said to have had a vision: if he ever visited Budhanilkantha, he would die early. From then on, it was believed that any king of Nepal who looked upon the sleeping Vishnu would meet the same fate. Royal family members after him never visited the temple, out of fear of the prophecy, even though Budhanilkantha is one of the valley's best-loved shrines of Vishnu.",
+  "facts": [
+   "The reclining Vishnu is about 5 metres long and carved from a single stone.",
+   "It lies in a recessed pool about 13 metres long.",
+   "The name means 'Old Blue Throat', a title of Shiva.",
+   "Thousands gather here for Haribodhini Ekadashi in Kartik (Oct–Nov)."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 0,
+   "entry_fee_saarc_npr": 0,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 45,
+   "hours_note": "Hours not verified; best visited in the morning puja time.",
+   "fee_note": "No entry fee is reported; the inner enclosure is for Hindu worshippers, and others view from the railing."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Budhanilkantha_Narayan_Murti_%282023%29_-_IMG_03.jpg/1280px-Budhanilkantha_Narayan_Murti_%282023%29_-_IMG_03.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Budhanilkantha_Narayan_Murti_(2023)_-_IMG_03.jpg",
+   "author": "Chainwit.",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Which god does the reclining statue at Budhanilkantha depict?",
+    "options": [
+     "Shiva",
+     "Vishnu",
+     "Buddha",
+     "Brahma"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It depicts Vishnu reclining on a serpent."
+   },
+   {
+    "q": "What does 'Budhanilkantha' literally mean?",
+    "options": [
+     "Sleeping god",
+     "Old Blue Throat",
+     "Floating stone",
+     "Water lord"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It means Old Blue Throat, a title of Shiva."
+   },
+   {
+    "q": "Which festival marks Vishnu waking from his four-month sleep?",
+    "options": [
+     "Haribodhini Ekadashi",
+     "Teej",
+     "Dashain",
+     "Buddha Jayanti"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Haribodhini Ekadashi in Kartik draws thousands of pilgrims."
+   },
+   {
+    "q": "About how long is the stone statue?",
+    "options": [
+     "1 metre",
+     "5 metres",
+     "15 metres",
+     "25 metres"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The statue is about 5 metres long."
+   },
+   {
+    "q": "Which sacred lake is the pool's spring traditionally linked to?",
+    "options": [
+     "Phewa",
+     "Rara",
+     "Gosaikunda",
+     "Taudaha"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "Legend connects the spring to Gosaikunda, hence the Shiva name."
+   }
+  ],
+  "clues": [
+   "A giant god sleeps on a serpent in my pool, yet my name belongs to his blue-throated colleague.",
+   "Kings of Nepal stayed away from me for centuries, fearing a prophecy."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Budhanilkantha_Temple",
+   "https://www.wikidata.org/wiki/Q1001415",
+   "https://www.openstreetmap.org/way/85552443"
+  ]
+ },
+ {
+  "slug": "bagh-bhairab-kirtipur",
+  "name": "Bagh Bhairab Temple, Kirtipur",
+  "name_np": "बाघभैरव मन्दिर",
+  "city": "Kathmandu",
+  "locality": "Kirtipur (Kathmandu District)",
+  "zone": null,
+  "lat": 27.679443,
+  "lng": 85.276464,
+  "coord_source": "Wikidata Q19680989 (P625) / English Wikipedia",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Bagh Bhairab (Bhairav as a tiger)",
+  "built_year": null,
+  "built_century_text": "16th century CE",
+  "dynasty": "Malla",
+  "architecture": "Newar pagoda-style temple in Kirtipur's old town",
+  "unesco": false,
+  "short": "Kirtipur's tiger god, guarding a hilltop town that held out against the Gorkha army.",
+  "story": "You have climbed into the old hilltop town of Kirtipur, and here stands its guardian, Bagh Bhairab, the god Bhairav in the form of a tiger. Locals call him Ajudeu, the grandfather god, and believe he protects the town. The temple dates back to the 16th century. Look at its walls: hanging here are swords said to have been used by Prithvi Narayan Shah's army in the Battle of Kirtipur, when the Gorkha king fought to take this town on his way to unifying Nepal. Inside, the god's image is made of clay, and it is renewed every twenty to thirty years, a task performed by a Bajracharya Buddhist priest. Every year, on the first day of Bhadra in mid-August, the town celebrates the Bagh Bhairab Jatra with music and a Lakhey dance. Devotees say that walking around the temple 108 times brings success and good health.",
+  "legend": "Shepherd boys grazing their sheep once modelled a tiger from clay. One boy went to find a leaf to make its tongue. When he returned, a sheep was missing and the tongueless tiger's mouth was open. The townsfolk believed Bhairav had entered the clay tiger, and they built a temple around it. The image of the god, it is said, still has no tongue.",
+  "facts": [
+   "Bagh Bhairab is Bhairav, a form of Shiva, in the shape of a tiger.",
+   "Swords said to be from the 18th-century Battle of Kirtipur are displayed on the temple.",
+   "The clay image is renewed every 20–30 years by a Bajracharya priest.",
+   "The Bagh Bhairab Jatra is held on the first day of Bhadra (mid-August)."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 0,
+   "entry_fee_saarc_npr": 0,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 30,
+   "hours_note": "Hours not verified.",
+   "fee_note": "No entry fee reported for the temple itself."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Bagh_Bhairab_Temple%2C_%E0%A4%AC%E0%A4%BE%E0%A4%98_%E0%A4%AD%E0%A5%88%E0%A4%B0%E0%A4%B5_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0%2C_Kirtipur%2C_Kathmandu.jpg/1280px-Bagh_Bhairab_Temple%2C_%E0%A4%AC%E0%A4%BE%E0%A4%98_%E0%A4%AD%E0%A5%88%E0%A4%B0%E0%A4%B5_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0%2C_Kirtipur%2C_Kathmandu.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Bagh_Bhairab_Temple,_%E0%A4%AC%E0%A4%BE%E0%A4%98_%E0%A4%AD%E0%A5%88%E0%A4%B0%E0%A4%B5_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0,_Kirtipur,_Kathmandu.jpg",
+   "author": "Shadow Ayush",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "In what animal form is Bhairav worshipped at this temple?",
+    "options": [
+     "Elephant",
+     "Tiger",
+     "Snake",
+     "Bull"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Bagh means tiger in Nepali."
+   },
+   {
+    "q": "In which town is the temple located?",
+    "options": [
+     "Bhaktapur",
+     "Kirtipur",
+     "Patan",
+     "Thimi"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Bagh Bhairab is the guardian deity of Kirtipur."
+   },
+   {
+    "q": "Swords from which battle are displayed on the temple?",
+    "options": [
+     "Battle of Kirtipur",
+     "Battle of Nalapani",
+     "Battle of Plassey",
+     "Battle of Makwanpur"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Swords from Prithvi Narayan Shah's army at the Battle of Kirtipur are displayed."
+   },
+   {
+    "q": "How many times do devotees believe one should circle the temple for blessings?",
+    "options": [
+     "7",
+     "21",
+     "108",
+     "1000"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "Circling 108 times is believed to bring success and good health."
+   },
+   {
+    "q": "Who traditionally renews the clay image every 20–30 years?",
+    "options": [
+     "A Brahmin priest",
+     "A Bajracharya Buddhist priest",
+     "The king",
+     "Tibetan monks"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "Only a Bajracharya priest may perform this renewal."
+   }
+  ],
+  "clues": [
+   "Shepherd boys made me from clay and forgot my tongue; then a sheep went missing.",
+   "Old swords from a famous siege hang on my walls in a hilltop Newar town."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bagh_Bhairab_Temple",
+   "https://www.wikidata.org/wiki/Q19680989",
+   "https://nepalitimes.com/the-city-of-good-deeds",
+   "https://honeyguideapps.com/blog/bagh-bhairav-temple-kirtipur-nepal"
+  ]
+ },
+ {
+  "slug": "seto-machindranath",
+  "name": "Seto Machindranath Temple (Jana Bahal)",
+  "name_np": "सेतो मछिन्द्रनाथ मन्दिर",
+  "alt_names": [
+   "Jana Bahal",
+   "Janabaha Dyo",
+   "Karunamaya",
+   "Machhindra Bahal"
+  ],
+  "city": "Kathmandu",
+  "zone": null,
+  "lat": 27.706686,
+  "lng": 85.31021,
+  "coord_source": "OpenStreetMap way 111984917 ('Janma Dyo', place of worship) inside Jana Baha courtyard (way 351926363)",
+  "type": "pagoda",
+  "religion": "Both",
+  "deity": "Seto Machindranath (Avalokiteshvara / Karunamaya)",
+  "built_year": null,
+  "built_century_text": "Believed established c. 10th century CE; present temple Malla era",
+  "dynasty": "Malla",
+  "architecture": "Multi-roofed Newar pagoda standing in the middle of a Buddhist bahal courtyard",
+  "unesco": false,
+  "short": "A hidden courtyard temple of the white Karunamaya, revered by Buddhists and Hindus alike.",
+  "story": "Slip off busy Kel Tol, between Asan and Indra Chowk, through a gateway into a calm courtyard. In the middle stands the temple of Seto Machindranath, the White Machindranath, known to Newars as Janabaha Dyo or Karunamaya, the compassionate one. Buddhists see him as Avalokiteshvara, the bodhisattva of compassion; Hindus worship him too. The temple is believed to go back to around the 10th century. Notice the many small shrines, metal statues and prayer lamps around the courtyard, and worshippers counting beads as they pray. The deity's white face is repainted every year. In the bathing ceremony in winter, the image is washed with water, milk, ghee and honey, and the living goddess Kumari attends. Each spring, during Chaitra, the deity rides a towering chariot through old Kathmandu for five days, pulled by crowds through Asan, Hanuman Dhoka and Lagan. Daily rituals here start around four in the morning.",
+  "legend": "In the days of King Yaksha Malla, Yama, the god of death, came to worship at Swayambhu and was captured by the king and his tantric guru, who demanded immortality. Yama prayed to Avalokiteshvara for help. The white god rose from the water and told the king to build him a temple and pull him in a chariot each year, blessing people with happiness and long life.",
+  "facts": [
+   "The deity is worshipped as Avalokiteshvara by Buddhists and revered by Hindus.",
+   "His chariot procession runs for five days in the month of Chaitra.",
+   "The Kumari attends the deity's annual bathing ritual.",
+   "The courtyard was originally called Kanak Chaitya Mahavihar, after a chaitya of Kanakmuni Buddha."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 0,
+   "entry_fee_saarc_npr": 0,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 20,
+   "hours_note": "Daily rituals begin around 04:00; closing time not verified.",
+   "fee_note": "No entry fee reported."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kathmandu-Janbahal-20-Seto_Machindranath-2015-gje.jpg/1280px-Kathmandu-Janbahal-20-Seto_Machindranath-2015-gje.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kathmandu-Janbahal-20-Seto_Machindranath-2015-gje.jpg",
+   "author": "Gerd Eichmann",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "What does 'Seto' mean in Seto Machindranath?",
+    "options": [
+     "Red",
+     "White",
+     "Old",
+     "Great"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Seto means white; the deity's face is white."
+   },
+   {
+    "q": "Buddhists worship Seto Machindranath as which bodhisattva?",
+    "options": [
+     "Manjushri",
+     "Avalokiteshvara",
+     "Maitreya",
+     "Vajrapani"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "He is worshipped as Avalokiteshvara, also called Karunamaya."
+   },
+   {
+    "q": "In which month is the chariot festival held?",
+    "options": [
+     "Chaitra",
+     "Kartik",
+     "Shrawan",
+     "Magh"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "The five-day chariot procession takes place in Chaitra."
+   },
+   {
+    "q": "Who attends the deity's annual bathing ceremony?",
+    "options": [
+     "The Prime Minister",
+     "The Kumari",
+     "The Dalai Lama",
+     "The Raj Guru"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The living goddess Kumari attends the bathing ritual."
+   },
+   {
+    "q": "What was Jana Bahal originally called?",
+    "options": [
+     "Kanak Chaitya Mahavihar",
+     "Hiranya Varna Mahavihar",
+     "Kwa Bahal",
+     "Itum Bahal"
+    ],
+    "answer_index": 0,
+    "difficulty": 5,
+    "explanation": "It was Kanak Chaitya Mahavihar, after a chaitya of Kanakmuni Buddha."
+   }
+  ],
+  "clues": [
+   "A white-faced compassionate god waits in a courtyard off Kel Tol and rides a towering chariot each spring.",
+   "Buddhists and Hindus share my courtyard; once a year I am bathed in milk, ghee and honey."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Seto_Machindranath",
+   "https://en.wikipedia.org/wiki/Jana_bahal",
+   "https://www.wikidata.org/wiki/Q17060445",
+   "https://www.wikidata.org/wiki/Q23833903",
+   "https://www.openstreetmap.org/way/111984917"
+  ]
+ },
+ {
+  "slug": "rani-pokhari",
+  "name": "Rani Pokhari",
+  "name_np": "रानी पोखरी",
+  "alt_names": [
+   "Queen's Pond",
+   "Nhu Pukhu"
+  ],
+  "city": "Kathmandu",
+  "zone": null,
+  "lat": 27.707847,
+  "lng": 85.315447,
+  "coord_source": "Wikidata Q5300315 (P625) / English Wikipedia",
+  "type": "pond",
+  "religion": "Hindu",
+  "deity": "Shiva (central temple)",
+  "built_year": 1670,
+  "built_century_text": "17th century CE (1670)",
+  "dynasty": "Malla",
+  "architecture": "Large square artificial tank with a central shikhara-style Shiva temple reached by a causeway",
+  "unesco": false,
+  "short": "A king's pond of grief, built in 1670 to console a queen who had lost her son.",
+  "story": "In the busy heart of modern Kathmandu lies a quiet square of water: Rani Pokhari, the Queen's Pond. It was built in 1670 by King Pratap Malla to console his queen, who was overcome with grief after their son was trampled to death by an elephant. To make the pond holy, the king had water brought from sacred places in Nepal and India, including Gosaikunda, Muktinath, Badrinath and Kedarnath. The pond measures about 180 by 140 metres. In the middle, reached by a causeway, stands a Shiva temple, rebuilt in shikhara style. On the southern bank, look for a stone elephant carrying images of Pratap Malla and his two sons. The 2015 earthquake damaged the site, and its restoration became controversial when concrete was proposed. After protests, it was rebuilt in the traditional style, finished in 2020, and opened to the public in 2025. The central temple opens only once a year, on Bhai Tika during Tihar.",
+  "legend": null,
+  "facts": [
+   "King Pratap Malla built it in 1670 for his grieving queen.",
+   "Water from holy sites such as Gosaikunda and Muktinath was poured in to sanctify it.",
+   "A stone elephant on the south bank carries images of Pratap Malla and his two sons.",
+   "The central temple opens to the public only on Bhai Tika during Tihar."
+  ],
+  "visit": {
+   "open": "05:00",
+   "close": "16:00",
+   "entry_fee_foreigner_npr": 0,
+   "entry_fee_saarc_npr": 0,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 30,
+   "hours_note": "Hours per Kathmandu Metropolitan City at the March 2025 opening.",
+   "fee_note": "Free entry announced at opening in 2025."
+  },
+  "earthquake_2015": "The pond and its central temple were damaged in 2015; after a disputed restoration, traditional reconstruction finished in October 2020.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Rani_Pokhari_2020-IMG_0226.jpg/1280px-Rani_Pokhari_2020-IMG_0226.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Rani_Pokhari_2020-IMG_0226.jpg",
+   "author": "Bijay Chaurasia",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "What does 'Rani Pokhari' mean?",
+    "options": [
+     "King's Palace",
+     "Queen's Pond",
+     "Royal Garden",
+     "Holy River"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Rani means queen and pokhari means pond."
+   },
+   {
+    "q": "Who built Rani Pokhari?",
+    "options": [
+     "Pratap Malla",
+     "Bhimsen Thapa",
+     "Jung Bahadur Rana",
+     "Mahendra Malla"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "King Pratap Malla built it in 1670."
+   },
+   {
+    "q": "Why was the pond built?",
+    "options": [
+     "To store drinking water for the army",
+     "To console a queen who lost her son",
+     "To celebrate a war victory",
+     "For royal boating"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It consoled the queen after their son was killed by an elephant."
+   },
+   {
+    "q": "On which day does the central temple open to the public?",
+    "options": [
+     "Bhai Tika during Tihar",
+     "Buddha Jayanti",
+     "New Year",
+     "Every Monday"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "The temple opens only on Bhai Tika, the last day of Tihar."
+   },
+   {
+    "q": "Which statue stands on the pond's southern bank?",
+    "options": [
+     "A stone elephant with the king and his sons",
+     "A golden Garuda",
+     "A bronze lion",
+     "A giant Hanuman"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "The elephant bears images of Pratap Malla and his two sons."
+   }
+  ],
+  "clues": [
+   "A king filled me with water from holy lakes to ease a mother's grief.",
+   "My island shrine is reached by a causeway and opens only on Bhai Tika."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rani_Pokhari",
+   "https://www.wikidata.org/wiki/Q5300315",
+   "https://kathmandupost.com/visual-stories/2025/03/24/ranipokhari",
+   "https://english.onlinekhabar.com/ranipokhari-open-to-the-public.html"
+  ]
+ },
+ {
+  "slug": "dharahara",
+  "name": "Dharahara",
+  "name_np": "धरहरा",
+  "alt_names": [
+   "Bhimsen Stambha",
+   "Bhimsen Tower"
+  ],
+  "city": "Kathmandu",
+  "zone": null,
+  "lat": 27.700545,
+  "lng": 85.312169,
+  "coord_source": "OpenStreetMap node 11622074774 ('Dharahara (Bhimsen Isthamba)', man_made=tower); Wikidata Q5269090 gives 27.7006, 85.3117",
+  "type": "tower",
+  "religion": "Secular",
+  "deity": null,
+  "built_year": 1832,
+  "built_century_text": "Original 1832; rebuilt after 1934; new tower opened 2021–2024",
+  "dynasty": "Shah",
+  "architecture": "Minaret-style tower in Mughal and European style; rebuilt in 2018–2024 as an earthquake-resistant tower with a bronze mast",
+  "unesco": false,
+  "short": "Bhimsen Thapa's watchtower, fallen twice in earthquakes and rebuilt as a symbol of resilience.",
+  "story": "Look up at the white minaret-like tower rising above Sundhara. This is Dharahara, first built in 1832 by Bhimsen Thapa, Nepal's powerful Mukhtiyar, under the commission of Queen Lalit Tripurasundari. Its style borrows from Mughal and European architecture. It served as a military watchtower: when something important happened, bugles were blown from the top to call soldiers together. The great earthquake of 1934 left only two of its nine storeys standing, and Rana prime minister Juddha Shumsher had it restored. Then, at lunchtime on 25 April 2015, the tower collapsed, leaving only its base; 180 bodies were recovered from the rubble. Nepal chose to rebuild. Construction began in 2018, the new earthquake-resistant tower was inaugurated on 24 April 2021, and it fully opened to the public on Constitution Day, 19 September 2024. Near its foot, a glass enclosure protects the remains of the old tower.",
+  "legend": null,
+  "facts": [
+   "Bhimsen Thapa built the original tower in 1832 for Queen Lalit Tripurasundari.",
+   "Bugles were blown from the top to summon soldiers when events of national importance occurred.",
+   "The 2015 earthquake toppled the tower; 180 bodies were retrieved from its debris.",
+   "The rebuilt tower fully opened to the public on 19 September 2024, Constitution Day."
+  ],
+  "visit": {
+   "open": "10:30",
+   "close": "17:00",
+   "entry_fee_foreigner_npr": 1000,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 200,
+   "visit_minutes": 60,
+   "hours_note": "Hours reported July 2025; closed on Wednesdays. Hours have changed several times.",
+   "fee_note": "Fees introduced November 2024 (Nepali Rs 200, SAARC Rs 500, others Rs 1000); 50% discount for Nepali students, seniors, children and people with disabilities."
+  },
+  "earthquake_2015": "The tower collapsed on 25 April 2015 leaving only its base; a new earthquake-resistant tower was built from 2018 and fully opened in September 2024.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dharahara_with_Mountain_Range.jpg/1280px-Dharahara_with_Mountain_Range.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Dharahara_with_Mountain_Range.jpg",
+   "author": "Safalphotos",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Who built the original Dharahara in 1832?",
+    "options": [
+     "Bhimsen Thapa",
+     "Jung Bahadur Rana",
+     "Prithvi Narayan Shah",
+     "Pratap Malla"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Mukhtiyar Bhimsen Thapa built it under Queen Lalit Tripurasundari's commission."
+   },
+   {
+    "q": "What was the tower's original military use?",
+    "options": [
+     "Storing gunpowder",
+     "A watchtower from which bugles summoned soldiers",
+     "A prison",
+     "A royal residence"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Bugles were blown from the top to call soldiers together."
+   },
+   {
+    "q": "On which date did the rebuilt Dharahara fully open to the public?",
+    "options": [
+     "25 April 2015",
+     "24 April 2021",
+     "19 September 2024",
+     "1 January 2020"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "It fully opened on Constitution Day, 19 September 2024."
+   },
+   {
+    "q": "Which Rana prime minister restored the tower after the 1934 earthquake?",
+    "options": [
+     "Chandra Shumsher",
+     "Juddha Shumsher",
+     "Mohan Shumsher",
+     "Bir Shumsher"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Bricks from the old tower even bore Juddha Shumsher's name."
+   },
+   {
+    "q": "Which architectural styles inspired the original Dharahara?",
+    "options": [
+     "Newar and Tibetan",
+     "Mughal and European",
+     "Chinese and Japanese",
+     "Gothic and Byzantine"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "It was designed in Mughal and European styles."
+   }
+  ],
+  "clues": [
+   "I am a white minaret that fell in 1934 and again in 2015, and I still rise above Sundhara.",
+   "Once, bugles sounded from my top to gather soldiers on the parade ground nearby."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dharahara",
+   "https://www.wikidata.org/wiki/Q5269090",
+   "https://www.openstreetmap.org/node/11622074774",
+   "https://kathmandupost.com/kathmandu/2024/11/24/dharahara-begins-charging-entry-fees",
+   "https://english.onlinekhabar.com/dharahara-entry-fee-introduced-from-today-charges-apply-for-photography-as-well.html",
+   "https://myrepublica.nagariknetwork.com/news/dharahara-generates-revenue-of-nearly-rs-50-million-11-39.html"
+  ]
+ }
+]

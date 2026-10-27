@@ -1,0 +1,3749 @@
+[
+ {
+  "slug": "nuwakot-durbar",
+  "name": "Nuwakot Durbar (Saat Tale Durbar)",
+  "name_np": "नुवाकोट दरबार",
+  "alt_names": [
+   "Nuwakot Palace",
+   "Saat Talle Durbar",
+   "Sat-talle Durbar",
+   "Seven-storey Palace"
+  ],
+  "city": "Bidur",
+  "province": "Bagmati",
+  "district": "Nuwakot",
+  "zone": null,
+  "lat": 27.913761,
+  "lng": 85.164754,
+  "coord_source": "Wikidata Q24960303 (P625)",
+  "type": "palace",
+  "religion": "Hindu",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "18th century; the present palace was built after Prithvi Narayan Shah conquered Nuwakot in 1801 BS (1744-45). Wikidata gives inception c. 1750.",
+  "dynasty": "Shah",
+  "architecture": "Seven-storey brick fort-palace with 6-foot-thick walls on an 84 x 36 ft plinth, carved Newar windows (aankhi jhyal) and a glazed-tile roof, built by craftsmen from Lalitpur in Kathmandu style. Annexes include Ranga Mahal and the Garad Ghar.",
+  "unesco": false,
+  "short": "Seven-storey hilltop palace that Prithvi Narayan Shah used as his base for the unification of Nepal.",
+  "story": "You are standing on the ridge of Nuwakot, looking up at the Saat Tale Durbar, the seven-storey palace. After Prithvi Narayan Shah captured Nuwakot in 1744, he moved his capital here from Gorkha, because this ridge sits on the old trade route between the Kathmandu Valley and Tibet. Each floor had a job. Courtiers and guards waited on the ground floor, the king held meetings on the first, the royal couple slept on the second, soldiers kept watch higher up, and the fifth and sixth floors served as a prison for captured kings. Notice how thick the walls are, about six feet, more fort than home. Craftsmen from Lalitpur carved the windows you see. Look south-east to the Ranga Mahal, the old theatre hall, and east to the guard house. The 2015 earthquake badly damaged the complex, and restoration has been under way since.",
+  "legend": null,
+  "facts": [
+   "Prithvi Narayan Shah moved his capital from Gorkha to Nuwakot after conquering it in 1801 BS (1744-45).",
+   "The main palace has seven storeys, which is why locals call it Saat Tale (seven-storey) Durbar.",
+   "Its plinth measures 84 by 36 feet and its walls are about 6 feet thick.",
+   "The fifth and sixth floors were used as a prison; the King of Tanahun was held here.",
+   "The palace has been on Nepal's UNESCO Tentative List since 2008."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 90,
+   "hours_note": "No official opening hours found in sources; the palace was under post-earthquake restoration.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": "The April 2015 earthquake devastated the palace complex; it has been under restoration since, with work slowed by the pandemic.",
+  "festivals": [
+   {
+    "name": "Sindure Jatra",
+    "name_np": "सिन्दुरे जात्रा",
+    "month": "Baisakh",
+    "note": "Vermilion-smeared procession from the nearby Bhairabi Temple to the Taleju temple beside the palace."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Why is Nuwakot Durbar called 'Saat Tale'?",
+    "options": [
+     "It has seven courtyards",
+     "It has seven storeys",
+     "It took seven years to build",
+     "It has seven gates"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Saat Tale means seven-storey; the main palace has seven floors."
+   },
+   {
+    "q": "Which king moved his capital from Gorkha to Nuwakot after 1744?",
+    "options": [
+     "Jayaprakash Malla",
+     "Prithvi Narayan Shah",
+     "Rana Bahadur Shah",
+     "Mukunda Sen"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Prithvi Narayan Shah conquered Nuwakot in 1801 BS and based his unification campaign here."
+   },
+   {
+    "q": "Which floors of the palace were used as a prison?",
+    "options": [
+     "Ground and first",
+     "Second and third",
+     "Fifth and sixth",
+     "Seventh only"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The fifth and sixth floors held prisoners, including the King of Tanahun."
+   },
+   {
+    "q": "Where did the craftsmen who built the palace come from?",
+    "options": [
+     "Gorkha",
+     "Lalitpur",
+     "Tibet",
+     "Palpa"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Craftsmen from Lalitpur built the palace in the Kathmandu style."
+   },
+   {
+    "q": "How thick are the walls of the main palace?",
+    "options": [
+     "About 1 foot",
+     "About 3 feet",
+     "About 6 feet",
+     "About 12 feet"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "The palace was built like a fort with walls about 6 feet thick."
+   }
+  ],
+  "clues": [
+   "A conqueror left his hill capital to rule from this ridge, counting seven floors above the guards' room.",
+   "Kings once sat as prisoners on the fifth and sixth floors of this brick tower above the Trishuli valley."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nuwakot_Palace",
+   "https://www.wikidata.org/wiki/Q24960303",
+   "https://whc.unesco.org/en/tentativelists/5260/",
+   "https://en.setopati.com/social/162959",
+   "https://commons.wikimedia.org/wiki/Category:Nuwakot_Palace"
+  ],
+  "model": {
+   "kind": "palace",
+   "tiers": 7,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": 25,
+   "footprint_m": [
+    25.6,
+    11
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#B5653F",
+    "#3B2A22",
+    "#8C8C8C"
+   ],
+   "features": [
+    "carved-windows",
+    "watchtower"
+   ],
+   "surroundings": [
+    "hilltop",
+    "brick-courtyard",
+    "village",
+    "himalaya-backdrop"
+   ],
+   "notes": "Tall narrow seven-storey brick tower with rows of dark carved windows and a small tiled lookout room on top; small pagoda temple at its side."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Nuwakot_Darbar_01.JPG/1280px-Nuwakot_Darbar_01.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Nuwakot_Darbar_01.JPG",
+   "author": "Krish Dulal",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Saat_Talle_Durbar_view.jpg/1280px-Saat_Talle_Durbar_view.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Saat_Talle_Durbar_view.jpg",
+    "author": "Rajivkilanashrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The seven-storey palace seen from the courtyard"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nuwakot_Durbar_Area.jpg/1280px-Nuwakot_Durbar_Area.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Nuwakot_Durbar_Area.jpg",
+    "author": "Sueracepant",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Ranga Mahal and Garad Ghar in front of the palace"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/A_big_window_at_Sat_Talle_Durbar_-_Flickr_-_askmeaks.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:A_big_window_at_Sat_Talle_Durbar_-_Flickr_-_askmeaks.jpg",
+    "author": "Abhishek Singh from Pune, India",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Large carved window of the Saat Tale Durbar"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Temple_of_Taleju.jpg/1280px-Temple_of_Taleju.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Temple_of_Taleju.jpg",
+    "author": "Rajivkilanashrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Taleju temple beside the palace complex"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ancient_Nuwakot_bazar.jpg/1280px-Ancient_Nuwakot_bazar.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ancient_Nuwakot_bazar.jpg",
+    "author": "Sueracepant",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Old Nuwakot bazaar with the palace rising above it"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Nuwakot_Durbar_after_Earthquake.jpg/1280px-Nuwakot_Durbar_after_Earthquake.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Nuwakot_Durbar_after_Earthquake.jpg",
+    "author": "SusantBasnet14",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The palace after the 2015 earthquake"
+   }
+  ]
+ },
+ {
+  "slug": "bhairabi-temple-nuwakot",
+  "name": "Bhairabi Temple, Nuwakot",
+  "name_np": "भैरवी मन्दिर (नुवाकोट)",
+  "alt_names": [
+   "Bhairavi Temple",
+   "Gandaki Bhairavi",
+   "Barahi Temple"
+  ],
+  "city": "Bidur",
+  "province": "Bagmati",
+  "district": "Nuwakot",
+  "zone": null,
+  "lat": 27.912583,
+  "lng": 85.16375,
+  "coord_source": "Wikidata Q106506210 (P625)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Bhairavi",
+  "built_year": null,
+  "built_century_text": "18th century; sources differ, some credit Jagat Jaya Malla and others the reign of Prithvi Narayan Shah. Bahadur Shah added the copper roof in 1793.",
+  "dynasty": "Malla / Shah (disputed)",
+  "architecture": "West-facing pagoda temple of traditional brick and carved timber with a copper roof installed in 1793. Pairs of metal and stone lions guard the main door; two female figures holding vermilion flank the main stair. Ashtamatrika sculptures are kept inside.",
+  "unesco": false,
+  "short": "Pagoda temple of the goddess Bhairavi just south of Nuwakot's seven-storey palace, home of the Sindure Jatra.",
+  "story": "Walk about two hundred metres south of the seven-storey palace and you reach the temple of the goddess Bhairavi, consort of Bhairav. People here also call her Gandaki Bhairavi, after the Trishuli Gandaki river flowing far below. Face the main door: it opens to the west. Two pairs of lions guard it, one cast in metal and one carved in stone, and on either side of the stair stand two women with their hands full of sindur, red vermilion. That is a clue to the temple's great festival, the Sindure Jatra, when the crowd smears one another red. Look up at the copper roof. Bahadur Shah fixed it in 1793 and, in the same year, placed a copper plate here announcing Nepal's victory over Tibet and China, storing captured weapons on the upper floor. The 2015 earthquake devastated this temple, and you are seeing it after restoration finished in August 2020.",
+  "legend": "The temple's priest, called the Dhami, was traditionally forbidden to cross the Trishuli and Tadi rivers without the king's permission; when he dies, his eldest son takes his place.",
+  "facts": [
+   "The temple lies about 200 m south of the seven-storey Nuwakot Palace.",
+   "In 1793 Bahadur Shah installed a copper plate here declaring Nepal's victory in the Sino-Nepalese War, and stored captured weapons on the second storey.",
+   "The current copper roof was installed by Bahadur Shah in 1793.",
+   "The main door faces west and is guarded by a metal pair and a stone pair of lions.",
+   "Devastated by the April 2015 earthquake, the temple was restored in August 2020."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Active temple; no official hours found in sources.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": "The April 2015 earthquake devastated the temple; restoration was completed in August 2020.",
+  "festivals": [
+   {
+    "name": "Sindure Jatra (Bhairavi Jatra)",
+    "name_np": "सिन्दुरे जात्रा",
+    "month": "Baisakh",
+    "note": "Procession to the Taleju temple in which participants smear each other with vermilion; animal sacrifices are offered."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which goddess is worshipped at this Nuwakot temple?",
+    "options": [
+     "Taleju",
+     "Bhairavi",
+     "Kumari",
+     "Manakamana"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The temple is dedicated to Bhairavi, consort of Bhairav."
+   },
+   {
+    "q": "What is smeared on people during the temple's main festival?",
+    "options": [
+     "Coloured water",
+     "Sindur (vermilion)",
+     "Ash",
+     "Turmeric paste"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The Sindure Jatra is named after sindur, the red vermilion powder."
+   },
+   {
+    "q": "Which direction does the main door face?",
+    "options": [
+     "North",
+     "East",
+     "South",
+     "West"
+    ],
+    "answer_index": 3,
+    "difficulty": 3,
+    "explanation": "The main door of the temple faces west."
+   },
+   {
+    "q": "Who installed the temple's copper roof in 1793?",
+    "options": [
+     "Prithvi Narayan Shah",
+     "Bahadur Shah",
+     "Jung Bahadur Rana",
+     "Ranjit Malla"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Bahadur Shah installed the roof and a victory copper plate in 1793."
+   },
+   {
+    "q": "What is the temple's hereditary priest called?",
+    "options": [
+     "Rajopadhyaya",
+     "Bhatta",
+     "Dhami",
+     "Lama"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "The priest is called the Dhami, and the post passes to his eldest son."
+   }
+  ],
+  "clues": [
+   "Two stone women hold red powder beside my steps, and every spring the crowd turns red in my honour.",
+   "A copper plate announcing a victory over Tibet was fixed to my walls, and captured weapons were stored upstairs."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bhairabi_Temple,_Nuwakot",
+   "https://www.wikidata.org/wiki/Q106506210",
+   "https://en.setopati.com/social/162959",
+   "https://www.lonelyplanet.com/nepal/nuwakot/attractions/bhairabi-temple/a/poi-sig/1505871/1317534",
+   "https://commons.wikimedia.org/wiki/Category:Bhairabi_Temple,_Nuwakot"
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 12,
+   "footprint_m": [
+    10,
+    10
+   ],
+   "walls": "red-brick",
+   "roof": "copper",
+   "colors": [
+    "#7A4A32",
+    "#B23A2A",
+    "#C9A227"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "lion-statues",
+    "guardian-pairs-on-stairs",
+    "bell"
+   ],
+   "surroundings": [
+    "hilltop",
+    "brick-courtyard",
+    "village"
+   ],
+   "notes": "Squat two-roof pagoda with wide dark eaves edged in red, gilded finial, and lion pairs on a low walled courtyard."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Pray_Nuwakot.jpg/1280px-Pray_Nuwakot.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Pray_Nuwakot.jpg",
+   "author": "Sueracepant",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/The_Barahi_temple_-_Flickr_-_askmeaks.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:The_Barahi_temple_-_Flickr_-_askmeaks.jpg",
+    "author": "Abhishek Singh from Pune, India",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "The Bhairabi (Barahi) temple and its roof struts"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Vairab_mandira%2Cnuwakot.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Vairab_mandira,nuwakot.JPG",
+    "author": "Sunil Dongol",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Bhairabi Temple on the east side of the palace area"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Nuwakot_Durbar_Square.jpg/1280px-Nuwakot_Durbar_Square.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Nuwakot_Durbar_Square.jpg",
+    "author": "Arksarkar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Nuwakot Durbar Square around the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Way_to_Barahi_Temple_-_Flickr_-_askmeaks.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Way_to_Barahi_Temple_-_Flickr_-_askmeaks.jpg",
+    "author": "Abhishek Singh from Pune, India",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Lane leading up to the temple"
+   }
+  ]
+ },
+ {
+  "slug": "gosaikunda",
+  "name": "Gosaikunda",
+  "name_np": "गोसाइँकुण्ड",
+  "alt_names": [
+   "Gosainkunda",
+   "Gosaikunda Lake",
+   "Silu"
+  ],
+  "city": "Dhunche",
+  "province": "Bagmati",
+  "district": "Rasuwa",
+  "zone": null,
+  "lat": 28.08275,
+  "lng": 85.413611,
+  "coord_source": "Wikidata Q2565308 (P625)",
+  "type": "lake-shrine",
+  "religion": "Hindu",
+  "deity": "Shiva",
+  "built_year": null,
+  "built_century_text": "Natural alpine lake revered since ancient times; the Gosaikunda lake complex was designated a Ramsar wetland on 29 September 2007.",
+  "dynasty": null,
+  "architecture": "Glacial lake of 13.8 ha at 4,380 m in Langtang National Park, one of a group of lakes covering 1,030 ha. Small stone shrines and cairns stand on its shore; it is frozen for about six months a year.",
+  "unesco": false,
+  "short": "Sacred high-altitude lake at 4,380 m, said to have been made by Shiva's trident, where thousands bathe at Janai Purnima.",
+  "story": "Catch your breath. You are at 4,380 metres, beside the sacred lake of Gosaikunda in Langtang National Park. Hindus say that when the gods churned the ocean, Shiva swallowed a deadly poison to save the world. His throat burned, so he thrust his trident into this mountainside, and cold water gushed out to form the lake in front of you. Look at the stillness of the water and the bare rock around it. For roughly six months each winter the surface freezes solid. In August, on the full moon of Janai Purnima, the shore fills with thousands of pilgrims who walk two or three days up from Dhunche to bathe here and carry the water home. Down in Patan, people believe the pond at Kumbheshwar is fed by this same lake. Since 2007 the lakes around you have been protected as a Ramsar wetland of international importance.",
+  "legend": "During the churning of the ocean (Samudra Manthan) Shiva swallowed poison; to cool his burning throat he struck the mountain with his trident, and the water that sprang out formed Gosaikunda.",
+  "facts": [
+   "The lake lies at 4,380 m and has a surface area of 13.8 ha.",
+   "The Gosaikunda lake complex, 1,030 ha in size, was designated a Ramsar site on 29 September 2007.",
+   "The lake stays frozen for about six months in winter.",
+   "Legend says the spring feeding the Kumbheshwar pond in Patan is connected to Gosaikunda.",
+   "Among Newars the lake is called Silu, the subject of a well-known song and film."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 3000,
+   "entry_fee_saarc_npr": 1500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 120,
+   "hours_note": "Open-air site reached by a 2-3 day trek from Dhunche; best visited outside the frozen winter months.",
+   "fee_note": "Langtang National Park entry fee: foreigners NPR 3,000 and SAARC NPR 1,500 (plus 13% VAT); Nepali citizens free per most sources."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Janai Purnima",
+    "name_np": "जनै पूर्णिमा",
+    "month": "Shrawan",
+    "note": "Around 10,000 pilgrims bathe in the lake on the Shrawan full moon and take its water home."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which god is said to have created Gosaikunda?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Brahma",
+     "Indra"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Legend says Shiva struck the mountain with his trident to get water after swallowing poison."
+   },
+   {
+    "q": "At about what altitude does Gosaikunda lie?",
+    "options": [
+     "1,380 m",
+     "2,380 m",
+     "4,380 m",
+     "6,380 m"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The lake is at 4,380 m in Langtang National Park."
+   },
+   {
+    "q": "On which festival do thousands of pilgrims bathe at the lake?",
+    "options": [
+     "Dashain",
+     "Tihar",
+     "Janai Purnima",
+     "Holi"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The big pilgrimage happens on Janai Purnima, the Shrawan full moon."
+   },
+   {
+    "q": "Which pond in Patan is believed to be connected to Gosaikunda?",
+    "options": [
+     "Rani Pokhari",
+     "Kumbheshwar pond",
+     "Nag Pokhari",
+     "Siddha Pokhari"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Legend links the spring of the Kumbheshwar temple pond to Gosaikunda."
+   },
+   {
+    "q": "In which year was the Gosaikunda lake complex listed as a Ramsar site?",
+    "options": [
+     "1997",
+     "2003",
+     "2007",
+     "2015"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "It was designated a Ramsar wetland on 29 September 2007."
+   }
+  ],
+  "clues": [
+   "A god with a burning throat struck this mountainside with his trident, and cold water rushed out.",
+   "Half the year I lie frozen; on one August full moon thousands climb for days to bathe in me."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gosaikunda",
+   "https://www.wikidata.org/wiki/Q2565308",
+   "https://thehimalayantimes.com/nepal/10000-visit-gosainkunda-this-year-on-janai-purnima-festival",
+   "https://english.onlinekhabar.com/seeking-holy-water-in-nepals-himalayas.html",
+   "https://www.thelongestwayhome.com/travel-guides/nepal/permit-entry-fees-national-parks.html",
+   "https://commons.wikimedia.org/wiki/Category:Gosainkunda_Lake"
+  ],
+  "model": {
+   "kind": "pond",
+   "tiers": 0,
+   "plinth_steps": 0,
+   "plinth_shape": "round",
+   "height_m": 0,
+   "footprint_m": [
+    500,
+    300
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#3E5566",
+    "#E8ECEF",
+    "#6B6B6B"
+   ],
+   "features": [
+    "rock-face"
+   ],
+   "surroundings": [
+    "lake",
+    "snow-peaks",
+    "himalaya-backdrop"
+   ],
+   "notes": "Dark still lake in a bowl of bare grey rock and snow, with small stone cairns and a tiny shrine on the shore."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Gosaikund-lake.JPG/1280px-Gosaikund-lake.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Gosaikund-lake.JPG",
+   "author": "Nischitbaral",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Clouds_over_the_sacred_lake_Gosaikunda.jpg/1280px-Clouds_over_the_sacred_lake_Gosaikunda.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Clouds_over_the_sacred_lake_Gosaikunda.jpg",
+    "author": "Ravi Mulmi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Clouds drifting over the sacred lake"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Frozen_Gosaikund.jpg/1280px-Frozen_Gosaikund.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Frozen_Gosaikund.jpg",
+    "author": "AjayKumarShrestha",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Gosaikunda frozen in winter"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Water_cairns%2C_Gosaikunda_%284934408014%29.jpg/1280px-Water_cairns%2C_Gosaikunda_%284934408014%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Water_cairns,_Gosaikunda_(4934408014).jpg",
+    "author": "Felix Dance",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Stone cairns standing in the water"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Gosai_Kunda.jpg/1280px-Gosai_Kunda.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gosai_Kunda.jpg",
+    "author": "Sunderkri",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The lake and surrounding slopes"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/BhairavKunda.jpg/1280px-BhairavKunda.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:BhairavKunda.jpg",
+    "author": "Nishan Pandit",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Bhairav Kunda, one of the neighbouring lakes"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Gosaikunda_001.jpg/1280px-Gosaikunda_001.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gosaikunda_001.jpg",
+    "author": "Nirmal Dulal",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Wide view of the lake basin"
+   }
+  ]
+ },
+ {
+  "slug": "dolakha-bhimsen-temple",
+  "name": "Dolakha Bhimsen Temple",
+  "name_np": "दोलखा भीमसेन मन्दिर",
+  "alt_names": [
+   "Bhimeshwor Temple",
+   "Bhimeshwar Temple",
+   "Bhimsenthan",
+   "Bhindyo"
+  ],
+  "city": "Dolakha (Bhimeshwor Municipality)",
+  "province": "Bagmati",
+  "district": "Dolakha",
+  "zone": null,
+  "lat": 27.649,
+  "lng": 86.0892,
+  "coord_source": "Wikidata Q19679215 (P625, precision about 0.001 deg); not mapped as a named object in OpenStreetMap",
+  "type": "courtyard",
+  "religion": "Hindu",
+  "deity": "Bhimsen (Bhimeshwor / Bhindyo)",
+  "built_year": null,
+  "built_century_text": "Founding date unknown; an inscription dated 1611 AD records a renovation of the temple.",
+  "dynasty": null,
+  "architecture": "Roofless shrine: the triangular black stone idol sits open to the sky inside a walled brick-and-stone enclosure entered through a metal grille gate flanked by stone guardian figures, with a tall pillar topped by a statue rising behind the gate.",
+  "unesco": false,
+  "short": "Roofless Newar shrine in old Dolakha bazaar whose triangular stone idol of Bhimsen is said to sweat before national disasters.",
+  "story": "Step through the grille gate in old Dolakha bazaar and look up: there is no roof. The idol of Bhimsen, called Bhindyo by the Newars of this town, sits open to the sky, a triangular block of black stone. Traders pray to him for good business, and around five thousand people come every week. Devotees say the stone shows three faces in a day: Bhimeshwor in the morning, Mahadev through the day and Narayan in the evening. Local legend says twelve porters once built a cooking fire against this stone; their rice would not cook, and when one hit the stone with his ladle, it bled milk mixed with blood. The idol is famous for sweating. Drops reportedly appeared before the 1934 earthquake and before the 2001 royal massacre, and the priest would soak the sweat in cotton and send it to the palace, which replied with offerings to turn away misfortune.",
+  "legend": "Twelve porters used the triangular stone as part of their cooking stove. Their rice stayed raw where it touched the stone; one porter struck it with his ladle, the stone cracked and bled blood-coated milk, and they realised it was Bhimsen.",
+  "facts": [
+   "The temple is roofless; the triangular stone idol stands open to the sky.",
+   "An inscription dated 1611 AD records a renovation of the temple; its founding date is unknown.",
+   "The idol is believed to appear as Bhimeshwor in the morning, Mahadev by day and Narayan in the evening.",
+   "Sweating of the idol is read as a bad omen; it was reported in 1934, before the 2001 royal massacre and on 20 February 2020.",
+   "The temple draws around 5,000 worshippers every week."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Active temple about 4.5 km east of Charikot; no official hours found in sources.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Dashain (Khadga Jatra)",
+    "name_np": "दशैँ (खड्ग जात्रा)",
+    "month": "Ashwin",
+    "note": "Dolakha's Dashain begins with puja at the Bhimeshwor temple, followed by the town's sword (Khadga) procession."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "What is unusual about the shrine of Dolakha Bhimsen?",
+    "options": [
+     "It is underwater",
+     "It has no roof",
+     "It is made of gold",
+     "It is inside a cave"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The idol sits in a roofless shrine, open to the sky."
+   },
+   {
+    "q": "Bhimsen is especially worshipped here as the god of what?",
+    "options": [
+     "Rain",
+     "Trade and fortune",
+     "War only",
+     "Learning"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Bhindyo is the patron god of trade, commerce and fortune for the Newar business community."
+   },
+   {
+    "q": "What shape is the stone idol?",
+    "options": [
+     "Round",
+     "Square",
+     "Triangular",
+     "Human-shaped"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The idol is a triangular-shaped black stone."
+   },
+   {
+    "q": "What is believed to happen to the idol before a national disaster?",
+    "options": [
+     "It turns red",
+     "It sweats",
+     "It cracks",
+     "It rings like a bell"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Drops of sweat on the idol are read as a warning, e.g. before the 1934 earthquake."
+   },
+   {
+    "q": "An inscription records a renovation of the temple in which year?",
+    "options": [
+     "1311 AD",
+     "1611 AD",
+     "1811 AD",
+     "1934 AD"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "An inscription dated 1611 AD mentions the renovation."
+   }
+  ],
+  "clues": [
+   "My god lives with no roof over his head, and merchants pray to him before a deal.",
+   "When drops of sweat appear on my black three-cornered stone, the whole country worries."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dolakha_Bhimsen_Temple",
+   "https://www.wikidata.org/wiki/Q19679215",
+   "https://thehimalayantimes.com/kathmandu/atonement-worship-bhimeshwor-temple-prasad-sent-prez",
+   "https://english.onlinekhabar.com/the-legendary-khadga-jatra-of-dolakha.html",
+   "https://commons.wikimedia.org/wiki/Category:Bhimeshwar_Temple"
+  ],
+  "model": {
+   "kind": "courtyard",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": 6,
+   "footprint_m": [
+    15,
+    12
+   ],
+   "walls": "red-brick",
+   "roof": "none",
+   "colors": [
+    "#A0472F",
+    "#3A2E28",
+    "#C9A227"
+   ],
+   "features": [
+    "stone-pillar",
+    "bell",
+    "guardian-pairs-on-stairs",
+    "idol-visible",
+    "prayer-flags"
+   ],
+   "surroundings": [
+    "newar-houses",
+    "market-houses",
+    "hilltop"
+   ],
+   "notes": "Open-roofed walled brick enclosure with a grille gate guarded by two stone figures and a tall pillar with a statue on top."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Dolakha_Bhimsen.jpg/1280px-Dolakha_Bhimsen.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Dolakha_Bhimsen.jpg",
+   "author": "Shadow Ayush",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Dolakha_bhimsen_Temple.jpg/1280px-Dolakha_bhimsen_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dolakha_bhimsen_Temple.jpg",
+    "author": "Krish Dulal",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Entrance gate with stone guardians and bells"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Bhimeshwor_Dolakha1.JPG/1280px-Bhimeshwor_Dolakha1.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhimeshwor_Dolakha1.JPG",
+    "author": "Ganesh Paudel",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The temple enclosure walls seen from below"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Bhimeshwor_1.JPG/1280px-Bhimeshwor_1.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhimeshwor_1.JPG",
+    "author": "Nawaraj Ghimire",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The idol of Bhimeshwor"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Bhimeswar_temple_periphery.JPG/1280px-Bhimeswar_temple_periphery.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhimeswar_temple_periphery.JPG",
+    "author": "Suresh Uprety",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Devotees in the temple periphery"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Bhimeshwor_Dolakha2.JPG/1280px-Bhimeshwor_Dolakha2.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhimeshwor_Dolakha2.JPG",
+    "author": "Ganesh Paudel",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Stone steps and lane in old Dolakha bazaar"
+   }
+  ]
+ },
+ {
+  "slug": "kalinchowk-bhagawati",
+  "name": "Kalinchowk Bhagawati Temple",
+  "name_np": "कालिञ्चोक भगवती",
+  "alt_names": [
+   "Kalinchok Bhagwati",
+   "Kalinchowk Bhagwati Shrine",
+   "Kalinchok"
+  ],
+  "city": "Kuri (Kalinchowk Rural Municipality)",
+  "province": "Bagmati",
+  "district": "Dolakha",
+  "zone": null,
+  "lat": 27.757778,
+  "lng": 86.041389,
+  "coord_source": "Wikidata Q13357831 (P625)",
+  "type": "sculpture",
+  "religion": "Hindu",
+  "deity": "Bhagawati (Kalinchowk Bhagawati)",
+  "built_year": null,
+  "built_century_text": "Founding date not documented in the sources consulted; a cable car from Kuri village was added in 2018.",
+  "dynasty": null,
+  "architecture": "Open-air summit shrine at 3,842 m: a small low enclosure crowded with iron tridents, bells and layers of prayer flags and cloth offerings, with a holy pond inside the temple area. Reached by stone steps from Kuri village or by cable car.",
+  "unesco": false,
+  "short": "Hilltop shrine of the goddess Bhagawati at 3,842 m in Dolakha, crowded with tridents, bells and prayer flags.",
+  "story": "You are standing at 3,842 metres, on the summit of Kalinchowk in Dolakha, and the shrine of the goddess Bhagawati is right in front of you. There is no grand building here. Instead, look at the forest of black iron tridents, the bells, and the thick layers of red, yellow and blue flags that devotees have tied around the goddess. This hilltop lies in the Gaurishankar Conservation Area, near the sources of the Sun Koshi and Tamakoshi rivers. For generations pilgrims climbed up from Kuri village on foot, an hour and a half of stone steps. Since 2018 a cable car does the climb in minutes, and in winter the slopes turn white and people come to play in the snow. On a clear day, turn around: the snow peaks of Gaurishankar and the Jugal and Ganesh ranges line the horizon. At Dashain and Janai Purnima the summit is packed with worshippers.",
+  "legend": null,
+  "facts": [
+   "The shrine stands at 3,842 m in ward 1 of Kalinchowk Rural Municipality, Dolakha.",
+   "It lies in the Gaurishankar Conservation Area, near where the Sun Koshi and Tamakoshi rivers are sourced.",
+   "A cable car from Kuri village opened in 2018; walking up takes about an hour and a half.",
+   "In winter the area is popular for snow, skiing and views of Gaurishankar, Jugal and Ganesh Himal."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 60,
+   "hours_note": "Open-air summit shrine; the cable car from Kuri has its own operating hours and fares (not verified).",
+   "fee_note": "No temple entry fee found in sources; the area lies in Gaurishankar Conservation Area, whose fees were not verified."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Dashain",
+    "name_np": "दशैँ",
+    "month": "Ashwin",
+    "note": "The summit is especially crowded with pilgrims during Dashain."
+   },
+   {
+    "name": "Janai Purnima",
+    "name_np": "जनै पूर्णिमा",
+    "month": "Shrawan",
+    "note": "Pilgrims from across Nepal climb to the shrine at Janai Purnima."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which goddess is worshipped at Kalinchowk?",
+    "options": [
+     "Bhagawati",
+     "Saraswati",
+     "Lakshmi",
+     "Taleju"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "The shrine is dedicated to Kalinchowk Bhagawati."
+   },
+   {
+    "q": "In which district is Kalinchowk?",
+    "options": [
+     "Sindhupalchok",
+     "Dolakha",
+     "Ramechhap",
+     "Kavrepalanchok"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Kalinchowk Rural Municipality is in Dolakha District."
+   },
+   {
+    "q": "In which year did the cable car to Kalinchowk open?",
+    "options": [
+     "2008",
+     "2012",
+     "2018",
+     "2022"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "A cable car was added in 2018 for the growing number of visitors."
+   },
+   {
+    "q": "About how high is the shrine?",
+    "options": [
+     "1,842 m",
+     "2,842 m",
+     "3,842 m",
+     "4,842 m"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The shrine is at 3,842 m above sea level."
+   },
+   {
+    "q": "Kalinchowk lies inside which protected area?",
+    "options": [
+     "Langtang National Park",
+     "Gaurishankar Conservation Area",
+     "Makalu Barun National Park",
+     "Shivapuri National Park"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "It is part of the Gaurishankar Conservation Area."
+   }
+  ],
+  "clues": [
+   "No roof, no tower: only a thicket of iron tridents and fluttering cloth on a snowy summit near 3,800 m.",
+   "Pilgrims once climbed for hours from Kuri village; since 2018 a cable lifts them up in minutes."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kalinchowk_Bhagwati_Temple",
+   "https://www.wikidata.org/wiki/Q13357831",
+   "https://nepaltraveller.com/sidetrack/kalinchowk-dolakha-a-himalayan-escape-of-snow-spirituality-and-scenic-beauty",
+   "https://commons.wikimedia.org/wiki/Category:Kalinchowk_Bhagwati_Shrine"
+  ],
+  "model": {
+   "kind": "statue",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 4,
+   "footprint_m": [
+    6,
+    6
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#C0392B",
+    "#F1C40F",
+    "#2E86C1"
+   ],
+   "features": [
+    "trident",
+    "bell",
+    "prayer-flags",
+    "flags-red",
+    "rock-face"
+   ],
+   "surroundings": [
+    "hilltop",
+    "snow-peaks",
+    "himalaya-backdrop"
+   ],
+   "notes": "Tiny open shrine buried under layered red, yellow and blue cloth with tall black iron tridents sticking up, on a bare rocky summit."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Kalinchowk_Bhagawati_temple.jpg/1280px-Kalinchowk_Bhagawati_temple.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kalinchowk_Bhagawati_temple.jpg",
+   "author": "Janak Bhatta",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Kalinchowk_Bhagawati_temple2.jpg/1280px-Kalinchowk_Bhagawati_temple2.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kalinchowk_Bhagawati_temple2.jpg",
+    "author": "Janak Bhatta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Holy bell at the shrine"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Holy_Pond_inside_the_Kalinchwok_Temple.jpg/1280px-Holy_Pond_inside_the_Kalinchwok_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Holy_Pond_inside_the_Kalinchwok_Temple.jpg",
+    "author": "Saroj Pandey",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Holy pond inside the temple area"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Kalinchok_climbing_steps2.JPG/1280px-Kalinchok_climbing_steps2.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kalinchok_climbing_steps2.JPG",
+    "author": "Ganesh Paudel",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Stone steps climbing from Kuri Bazaar"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Kalinchok2.JPG/1280px-Kalinchok2.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kalinchok2.JPG",
+    "author": "Ganesh Paudel",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Himalayan range seen from Kalinchowk"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kalinchowk_Bhagwati_Shrine.JPG/1280px-Kalinchowk_Bhagwati_Shrine.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kalinchowk_Bhagwati_Shrine.JPG",
+    "author": "Nikesh balami",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The summit shrine area"
+   }
+  ]
+ },
+ {
+  "slug": "namobuddha",
+  "name": "Namo Buddha Stupa",
+  "name_np": "नमोबुद्ध स्तूप",
+  "alt_names": [
+   "Namobuddha",
+   "Namura",
+   "Takmo Lujin"
+  ],
+  "city": "Namobuddha",
+  "province": "Bagmati",
+  "district": "Kavrepalanchok",
+  "zone": null,
+  "lat": 27.573236,
+  "lng": 85.582567,
+  "coord_source": "OpenStreetMap node 553340076 (Namo Buddha Stupa); Wikidata Q96394821 is the municipality",
+  "type": "stupa",
+  "religion": "Buddhist",
+  "deity": "Shakyamuni Buddha (as Prince Mahasattva)",
+  "built_year": null,
+  "built_century_text": "Date of construction not documented in the sources consulted; the stupa is said to hold the bone relics of Prince Mahasattva, an earlier incarnation of the Buddha.",
+  "dynasty": null,
+  "architecture": "Whitewashed dome stupa on a square stepped base with a gilded spire and Buddha eyes, surrounded by smaller white chaityas and strings of prayer flags. A stairway leads up to the Thrangu Tashi Yangtse (Namo Buddha) Monastery on the hilltop.",
+  "unesco": false,
+  "short": "Stupa marking where a prince, an earlier life of the Buddha, gave his body to feed a starving tigress and her cubs.",
+  "story": "You are at Namo Buddha, 52 kilometres south-east of Kathmandu, and this white stupa holds one of the most moving stories in Buddhism. Long ago, a prince named Mahasattva, an earlier life of the Buddha, walked these hills with his brothers. They came upon a tigress so weak from hunger that she could not feed her cubs. Out of compassion, the prince offered his own body so they could live. The stupa in front of you is said to hold his bone relics, and the name means homage to the Buddha. Walk clockwise around it under the prayer flags, past the smaller white chaityas. Then climb the stairway into the woods. Up there, beside the large Thrangu Tashi Yangtse monastery, is the spot where the prince is said to have been eaten, with a carving of the tigress and her cubs. Pilgrims of every Tibetan Buddhist tradition still come here.",
+  "legend": "Prince Mahasattva, an earlier incarnation of Shakyamuni Buddha, found a starving tigress unable to feed her cubs and gave his own body to save them; the stupa is said to enshrine his bone relics.",
+  "facts": [
+   "Namo Buddha lies about 52 km south-east of Kathmandu in Kavrepalanchok District.",
+   "The stupa is said to house the bone relics of Prince Mahasattva.",
+   "It is considered one of the three most important stupas and pilgrimage sites around the Kathmandu Valley.",
+   "The Karma Kagyu Thrangu Tashi Yangtse Monastery stands on the hill above the stupa.",
+   "In Tibetan the site is called Takmo Lujin, meaning 'tigress body-gift'."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 90,
+   "hours_note": "Open-air stupa; no official hours found in sources.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": null,
+  "festivals": [],
+  "quiz": [
+   {
+    "q": "What animal is central to the legend of Namo Buddha?",
+    "options": [
+     "Elephant",
+     "Tigress",
+     "Snake",
+     "Deer"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The prince gave his body to a starving tigress and her cubs."
+   },
+   {
+    "q": "What does 'Namo Buddha' mean?",
+    "options": [
+     "Birthplace of Buddha",
+     "Homage to the Buddha",
+     "Path of Buddha",
+     "Tooth of Buddha"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Namo means homage, so the name means homage to the Buddha."
+   },
+   {
+    "q": "What is the name of the prince in the legend?",
+    "options": [
+     "Siddhartha",
+     "Mahasattva",
+     "Ashoka",
+     "Manjushri"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Prince Mahasattva was an earlier incarnation of Shakyamuni Buddha."
+   },
+   {
+    "q": "In which district is Namo Buddha?",
+    "options": [
+     "Lalitpur",
+     "Kavrepalanchok",
+     "Sindhupalchok",
+     "Makwanpur"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Namo Buddha is in Kavrepalanchok District."
+   },
+   {
+    "q": "Which monastery stands on the hill above the stupa?",
+    "options": [
+     "Kopan",
+     "Thrangu Tashi Yangtse",
+     "Tengboche",
+     "Shechen"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The Karma Kagyu Thrangu Tashi Yangtse Monastery is beside the site of the sacrifice."
+   }
+  ],
+  "clues": [
+   "A prince saw a hungry mother cat with stripes and gave her the only food he had: himself.",
+   "In Tibetan my name means 'tigress body-gift'; my white dome is said to keep the generous prince's bones."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Namo_Buddha",
+   "https://en.wikipedia.org/wiki/Thrangu_Tashi_Yangtse_Monastery,_Nepal",
+   "https://www.openstreetmap.org/node/553340076",
+   "https://www.voatibetan.com/a/2145831.html",
+   "https://commons.wikimedia.org/wiki/File:NamobuddhaStupa.jpg"
+  ],
+  "model": {
+   "kind": "stupa",
+   "tiers": 1,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": 12,
+   "footprint_m": [
+    14,
+    14
+   ],
+   "walls": "white-plaster",
+   "roof": "white-dome",
+   "colors": [
+    "#F4F4F2",
+    "#C9A227",
+    "#B03A2E"
+   ],
+   "features": [
+    "dome-white",
+    "harmika",
+    "buddha-eyes",
+    "gilded-pinnacle",
+    "prayer-flags",
+    "chaityas",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "hilltop",
+    "forest",
+    "monks-houses",
+    "stone-paved-plaza"
+   ],
+   "notes": "White dome on a square railed base with a gilded spire, prayer flags strung radially from the top, and a row of small white chaityas beside it."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/NamobuddhaStupa.jpg/1280px-NamobuddhaStupa.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:NamobuddhaStupa.jpg",
+   "author": "Prasanna Bajracharya",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Namura_stupa.jpg/1280px-Namura_stupa.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Namura_stupa.jpg",
+    "author": "Kamal Ratna Tuladhar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Main stupa of Namura with smaller stupas around it"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Namo_Buddha-IMG_6397.jpg/1280px-Namo_Buddha-IMG_6397.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Namo_Buddha-IMG_6397.jpg",
+    "author": "Wang Lama Humla",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stupas and prayer flags on the hill"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Namobuddha_feeding_tigers.jpg/1280px-Namobuddha_feeding_tigers.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Namobuddha_feeding_tigers.jpg",
+    "author": "Lusifor ,manoj shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Carving of the prince feeding the tigress and cubs"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Namobuddha_main_hall.jpg/1280px-Namobuddha_main_hall.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Namobuddha_main_hall.jpg",
+    "author": "Lusifor ,manoj shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Main prayer hall of the monastery"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Namobuddha_Stupa%2C_Namobuddha.jpg/1280px-Namobuddha_Stupa%2C_Namobuddha.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Namobuddha_Stupa,_Namobuddha.jpg",
+    "author": "Creepanta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The stupa and its surroundings"
+   }
+  ]
+ },
+ {
+  "slug": "indreshwar-mahadev-panauti",
+  "name": "Indreshwar Mahadev Temple",
+  "name_np": "इन्द्रेश्वर महादेव मन्दिर",
+  "alt_names": [
+   "Indreshwor Mahadev",
+   "Indreswor Temple",
+   "Indreshwar Temple, Panauti"
+  ],
+  "city": "Panauti",
+  "province": "Bagmati",
+  "district": "Kavrepalanchok",
+  "zone": null,
+  "lat": 27.585253,
+  "lng": 85.517566,
+  "coord_source": "Wikidata Q108544599 (P625)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Shiva (Indreshwar Mahadev)",
+  "built_year": 1294,
+  "built_century_text": "First built over a lingam in 1294, often called the oldest surviving temple in Nepal; Lonely Planet notes the present shrine dates mainly from the 15th century.",
+  "dynasty": null,
+  "architecture": "Three-tiered Newar pagoda of brick and carved timber on a stepped stone plinth, one of the largest and tallest pagoda temples in Nepal. The roof struts of the two lower storeys carry fine woodcarving, and the upper section is hung with pots and pans offered by newly-wed couples.",
+  "unesco": false,
+  "short": "Three-roofed Shiva pagoda in Panauti, first built in 1294 and often called Nepal's oldest surviving temple.",
+  "story": "Welcome to Panauti, an old trading town on the salt route between Tibet and India, and to its great temple of Indreshwar Mahadev. You are looking at one of the largest and tallest pagoda temples in Nepal, three roofs high. A temple was first raised on this spot over a Shiva lingam in 1294, which is why many call it the oldest surviving temple in the country. Walk slowly around it and study the roof struts on the lower two storeys; their carving is among the finest Newar woodwork anywhere. Now look higher. See the pots and pans hanging from the upper roof? They were offered by young married couples hoping for a happy, prosperous home. Facing the door, a stone bull, Nandi, waits for his master. This temple came through the 2015 earthquake in good condition. Every twelve years in Magh, the town's Makar Mela fills the river confluence nearby with pilgrims.",
+  "legend": "Local tradition holds that Shiva created the lingam here himself; the hidden 'third river' of Panauti is said to begin at this temple and flow to the confluence below.",
+  "facts": [
+   "The temple was first built over a lingam in 1294.",
+   "It is one of the largest and tallest pagoda temples in Nepal, with three roofs.",
+   "Pots and pans hung on the upper storey are offerings from young married couples.",
+   "Panauti's medieval complex was placed on Nepal's UNESCO Tentative List in 1996.",
+   "The temple survived the 2015 earthquake in good condition."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Active temple in Panauti town, 32 km south-east of Kathmandu; no official hours found in sources.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": "Wikipedia reports the temple survived the 2015 earthquake in good condition, though Lonely Planet notes some visible damage.",
+  "festivals": [
+   {
+    "name": "Makar Mela",
+    "name_np": "मकर मेला",
+    "month": "Magh",
+    "note": "Held every 12 years in Magh at the river confluence below the temple."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which god is worshipped at Indreshwar Mahadev?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Ganesh",
+     "Indra only"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Mahadev is a name of Shiva; the temple was built over a Shiva lingam."
+   },
+   {
+    "q": "In which town is the temple?",
+    "options": [
+     "Banepa",
+     "Dhulikhel",
+     "Panauti",
+     "Bhaktapur"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Indreshwar Mahadev stands in Panauti, Kavrepalanchok."
+   },
+   {
+    "q": "In which year was the first temple built here?",
+    "options": [
+     "1094",
+     "1294",
+     "1594",
+     "1794"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "It was originally built over a lingam in 1294."
+   },
+   {
+    "q": "Who hang pots and pans on the upper roof?",
+    "options": [
+     "Traders",
+     "Young married couples",
+     "Soldiers",
+     "Priests"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "They are offerings from young couples hoping for a happy family life."
+   },
+   {
+    "q": "How often is Panauti's Makar Mela held?",
+    "options": [
+     "Every year",
+     "Every 6 years",
+     "Every 12 years",
+     "Every 25 years"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "The Makar Mela takes place every 12 years in the month of Magh."
+   }
+  ],
+  "clues": [
+   "Kitchen pots and pans hang from my upper roof, gifts from newly-weds hoping for a happy home.",
+   "Raised over a lingam in 1294 on the old salt road, I am often called the country's oldest surviving temple."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Panauti",
+   "https://www.wikidata.org/wiki/Q108544599",
+   "https://www.lonelyplanet.com/points-of-interest/indreshwar-mahadev-temple/1432726",
+   "https://www.windhorsetours.com/sights/panauti",
+   "https://nepalitimes.com/creation-to-destruction-then-revival",
+   "https://commons.wikimedia.org/wiki/Category:Indreshwar_Temple,_Panauti"
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": 20,
+   "footprint_m": [
+    14,
+    14
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#9C5B3B",
+    "#4A3426",
+    "#C9A227"
+   ],
+   "features": [
+    "carved-struts",
+    "gilded-pinnacle",
+    "nandi-bull",
+    "lion-statues",
+    "bell",
+    "carved-windows"
+   ],
+   "surroundings": [
+    "brick-courtyard",
+    "newar-houses",
+    "river"
+   ],
+   "notes": "Tall three-roofed brick pagoda with deep tiled eaves and carved struts, on a stepped stone plinth in an open paved courtyard."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Indreshwar_Mahadev_Temple_in_Panauti.jpg/1280px-Indreshwar_Mahadev_Temple_in_Panauti.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Indreshwar_Mahadev_Temple_in_Panauti.jpg",
+   "author": "Prakat Shrestha",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Indreshower_Temple%2C_Panauti.JPG/1280px-Indreshower_Temple%2C_Panauti.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Indreshower_Temple,_Panauti.JPG",
+    "author": "Ram kumar kc",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The three-roofed temple from the courtyard"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Statue_of_bull_in_front_of_Mahadev_temple.jpg/1280px-Statue_of_bull_in_front_of_Mahadev_temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Statue_of_bull_in_front_of_Mahadev_temple.jpg",
+    "author": "Roman Raghu Shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone bull (Nandi) facing the temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Door_of_Indreshwor_mahadev.jpg/1280px-Door_of_Indreshwor_mahadev.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Door_of_Indreshwor_mahadev.jpg",
+    "author": "Roman Raghu Shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Carved door of the temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Wooden_carved_sculpture_20180918_113835.jpg/1280px-Wooden_carved_sculpture_20180918_113835.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Wooden_carved_sculpture_20180918_113835.jpg",
+    "author": "Roman Raghu Shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Wooden carved strut figure"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Indreshowor_mahadev_bell.jpg/1280px-Indreshowor_mahadev_bell.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Indreshowor_mahadev_bell.jpg",
+    "author": "Lusifor ,manoj shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Temple bell said to date from the 18th century"
+   }
+  ]
+ },
+ {
+  "slug": "chandeshwori-temple-banepa",
+  "name": "Chandeshwori Temple",
+  "name_np": "चण्डेश्वरी मन्दिर",
+  "alt_names": [
+   "Chandeshwari Temple",
+   "Chandeswori Temple",
+   "Chandeshwori Mai"
+  ],
+  "city": "Banepa",
+  "province": "Bagmati",
+  "district": "Kavrepalanchok",
+  "zone": null,
+  "lat": 27.635833,
+  "lng": 85.532222,
+  "coord_source": "Wikidata Q5071024 (P625)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Chandeshwori (form of Parvati, slayer of the demon Chanda)",
+  "built_year": null,
+  "built_century_text": "Believed to have been built in the 17th century; the story of the goddess is told in the Nepal Mahatmya of the Skanda Purana.",
+  "dynasty": null,
+  "architecture": "Three-roofed pagoda with gilded metal roofs and carved struts, set in a stone-paved courtyard with stone pillars, small shikhara shrines and a lingam shrine in front. A mural shows the goddess slaying Chanda, and a wall painting of Bhairav is said to be the largest in Nepal Mandala.",
+  "unesco": false,
+  "short": "Three-roofed golden pagoda above Banepa where the goddess is said to have killed the demon Chanda.",
+  "story": "Follow the lane about a kilometre north-east of Banepa town, along the Punyamata river, and the golden roofs of Chandeshwori rise from the forest edge. This temple, believed to date from the 17th century, honours the mother goddess who defeated the demon Chanda. Shiva had given Chanda a boon that only a woman could kill him, and he terrorised the world. The gods hid in this forest as birds, and the goddess slipped into a tree. When Chanda cut the tree down, she burst out on a great lion and slew him. From the belly of the demon, a devotee of Shiva, a lingam grew; you can see it in the small shrine just in front of the main temple. Now find the huge painting of Bhairav on one of the walls, said to be the largest in the old Nepal Mandala. Locals say the rocks by the river still bear marks of the battle.",
+  "legend": "The demon Chanda could be killed only by a woman. Hiding in the Banepa forest, the mother goddess emerged from a tree he cut down, rode out on a lion and killed him; a Shiva lingam grew from his belly, now in the shrine before the temple.",
+  "facts": [
+   "The temple lies about 1 km north-east of Banepa along the Punyamata river.",
+   "It is believed to have been built in the 17th century.",
+   "A mural shows Chandeshwori slaying the demon Chanda.",
+   "A painting of Bhairav on one wall is said to be the largest in the Nepal Mandala.",
+   "The lingam in the small shrine in front is said to have grown from the demon's belly."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Active temple; no official hours found in sources.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Chandeshwori Jatra",
+    "name_np": "चण्डेश्वरी जात्रा",
+    "month": "Baisakh",
+    "note": "Banepa's chariot festival around Baisakh Purnima, opening with the pre-dawn Mata Puja (Chirag Yatra)."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which demon did the goddess Chandeshwori defeat?",
+    "options": [
+     "Mahishasur",
+     "Chanda",
+     "Bhasmasur",
+     "Ravana"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The goddess takes her name from killing the demon Chanda."
+   },
+   {
+    "q": "Near which town is the temple?",
+    "options": [
+     "Dhulikhel",
+     "Banepa",
+     "Panauti",
+     "Nala"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The temple is about 1 km north-east of Banepa."
+   },
+   {
+    "q": "What grew from the demon's belly, according to the legend?",
+    "options": [
+     "A lotus",
+     "A Shiva lingam",
+     "A pipal tree",
+     "A spring"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "A lingam grew from Chanda's belly; it is in the small shrine in front of the temple."
+   },
+   {
+    "q": "Which deity is shown in the temple's very large wall painting?",
+    "options": [
+     "Ganesh",
+     "Bhairav",
+     "Hanuman",
+     "Krishna"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "A huge painting of Bhairav decorates one wall, said to be the largest in Nepal Mandala."
+   },
+   {
+    "q": "Which scripture tells the story of Chandeshwori?",
+    "options": [
+     "Ramayana",
+     "Nepal Mahatmya of the Skanda Purana",
+     "Rigveda",
+     "Gopalarajavamshavali"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "The Nepal Mahatmya of the Skanda Purana mentions the goddess's story."
+   }
+  ],
+  "clues": [
+   "A demon who could only die by a woman's hand chopped down a tree here, and a lion-riding goddess leapt out.",
+   "Golden roofs above a forest, and on one wall the biggest painted Bhairav of the old Nepal Mandala."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chandeshwori_Temple",
+   "https://www.wikidata.org/wiki/Q5071024",
+   "https://nepaltraveller.com/sidetrack/chandeshwori-jatra-banepas-enduring-festival-of-devotion-and-divine-victory",
+   "https://kathmandupost.com/art-culture/2025/05/03/a-town-in-step-with-its-ancestors",
+   "https://commons.wikimedia.org/wiki/Category:Chandeshwori_temple,_Banepa"
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 15,
+   "footprint_m": [
+    10,
+    10
+   ],
+   "walls": "red-brick",
+   "roof": "gilded-copper",
+   "colors": [
+    "#C9A227",
+    "#7A3B2E",
+    "#9E9E9E"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "stone-pillar",
+    "bell",
+    "shiva-lingam",
+    "toran"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "forest",
+    "sacred-grove",
+    "river"
+   ],
+   "notes": "Three gilded roofs stacked on a brick pagoda, with a long hanging pennant from the pinnacle, stone pillars topped with figures and white shikhara shrines in front."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Chandeshwari_Temple.JPG/1280px-Chandeshwari_Temple.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Chandeshwari_Temple.JPG",
+   "author": "Brian Dell",
+   "license": "Public domain",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Chandeshwori_Temple%2C_Banepa%2C_Nepal.jpg/1280px-Chandeshwori_Temple%2C_Banepa%2C_Nepal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chandeshwori_Temple,_Banepa,_Nepal.jpg",
+    "author": "Algosig",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Entrance gate of the temple complex"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Chandeswori_temple_with_chandeswori_forest.JPG/1280px-Chandeswori_temple_with_chandeswori_forest.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chandeswori_temple_with_chandeswori_forest.JPG",
+    "author": "Rajesh2044",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The temple against Chandeshwori forest"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Door_Aculpture_at_Chandeshwori_Temple_Banepa.jpg/1280px-Door_Aculpture_at_Chandeshwori_Temple_Banepa.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Door_Aculpture_at_Chandeshwori_Temple_Banepa.jpg",
+    "author": "Rupendra Neupane",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Carved sculpture on the temple door"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Banepa_jatra2.JPG/1280px-Banepa_jatra2.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Banepa_jatra2.JPG",
+    "author": "MaharjanAshok58",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Banepa Jatra procession"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Chandeswori_temple_surrounding.JPG/1280px-Chandeswori_temple_surrounding.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chandeswori_temple_surrounding.JPG",
+    "author": "Rajesh2044",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Shrines surrounding the main temple"
+   }
+  ]
+ },
+ {
+  "slug": "palanchok-bhagawati",
+  "name": "Palanchok Bhagawati Temple",
+  "name_np": "पलाञ्चोक भगवती मन्दिर",
+  "alt_names": [
+   "Palanchowk Bhagawati",
+   "Palanchok Bhagwati"
+  ],
+  "city": "Panchkhal",
+  "province": "Bagmati",
+  "district": "Kavrepalanchok",
+  "zone": null,
+  "lat": 27.628611,
+  "lng": 85.673889,
+  "coord_source": "Wikidata Q7126679 (P625)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Bhagawati (eighteen-armed Durga)",
+  "built_year": null,
+  "built_century_text": "Believed (by tradition) to date from the reign of the Licchavi king Manadeva (464-505 AD); not firmly documented.",
+  "dynasty": "Licchavi (traditional attribution)",
+  "architecture": "Pagoda-style temple with two tiled roofs edged in red cloth frills and a tall gilded pinnacle, on a hilltop courtyard. Inside is a three-foot black stone image of the goddess with 18 arms.",
+  "unesco": false,
+  "short": "Hilltop pagoda of the 18-armed goddess Bhagawati, revered as the elder sister of all Bhagawatis in Nepal.",
+  "story": "You have climbed to the summit of Palanchok hill, 1,563 metres up, seven kilometres north of Panchkhal on the Araniko Highway. In front of you is the temple of Palanchok Bhagawati, whom devotees call the elder sister of all the Bhagawati goddesses of Nepal. Tradition says the shrine goes back to the Licchavi king Manadeva, who ruled about fifteen hundred years ago. Peer into the sanctum. The goddess is carved from black stone, only about three feet tall, yet she has eighteen arms, each ready to protect her devotees from danger and misfortune. Tuesdays and Saturdays are her special days, and at Dashain and Chaite Dashain thousands of pilgrims queue here with offerings. Now turn around. From this hilltop you can see the Himalaya stretching across the northern sky. The 2015 earthquake left the temple leaning slightly, and it spent the following years under scaffolding while repairs were carried out.",
+  "legend": null,
+  "facts": [
+   "The temple stands at 1,563 m on Palanchok hill, about 7 km north of Panchkhal.",
+   "Its black stone idol of the goddess is about three feet tall and has 18 arms.",
+   "Tradition dates the temple to King Manadeva (464-505 AD).",
+   "Palanchok Bhagawati is regarded as the elder sister of the other Bhagawati shrines of Nepal.",
+   "The Kshama ritual is held on the full moons of Baisakh and Jestha."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Active temple; Tuesdays and Saturdays are the busiest worship days.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": "The April 2015 earthquake left the main temple slightly tilted; it was under scaffolding for repairs in 2018. The nearby Kalika Bhagawati temple was razed.",
+  "festivals": [
+   {
+    "name": "Dashain",
+    "name_np": "दशैँ",
+    "month": "Ashwin",
+    "note": "Thousands of devotees come to offer prayers and sacrifices."
+   },
+   {
+    "name": "Chaite Dashain",
+    "name_np": "चैते दशैँ",
+    "month": "Chaitra",
+    "note": "Second major pilgrimage season of the year at the temple."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "How many arms does the goddess's idol at Palanchok have?",
+    "options": [
+     "4",
+     "8",
+     "10",
+     "18"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "The black stone idol shows the goddess with 18 arms."
+   },
+   {
+    "q": "Palanchok Bhagawati is regarded as what to the other Bhagawatis of Nepal?",
+    "options": [
+     "Their mother",
+     "Their elder sister",
+     "Their daughter",
+     "Their guardian"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Devotees consider her the elder sister of all Bhagawati goddesses in Nepal."
+   },
+   {
+    "q": "Which highway town is the temple near?",
+    "options": [
+     "Panchkhal",
+     "Hetauda",
+     "Charikot",
+     "Dhunche"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "The temple is about 7 km north of Panchkhal on the Araniko Highway."
+   },
+   {
+    "q": "Which king does tradition credit with founding the temple?",
+    "options": [
+     "Manadeva",
+     "Amshuverma",
+     "Yaksha Malla",
+     "Prithvi Narayan Shah"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "The temple is believed to date from the reign of Manadeva (464-505 AD)."
+   },
+   {
+    "q": "What is the idol made of?",
+    "options": [
+     "Gold",
+     "Wood",
+     "Black stone",
+     "Clay"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The three-foot idol is carved from black stone."
+   }
+  ],
+  "clues": [
+   "A small black-stone goddess with eighteen arms watches the Himalaya from a hilltop above the Araniko Highway.",
+   "Devotees call my goddess the eldest sister of all her namesakes across the country."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Palanchok_Bhagawati_Temple",
+   "https://www.wikidata.org/wiki/Q7126679",
+   "https://english.onlinekhabar.com/steeped-in-history-and-legend-palanchok-bhagwati.html",
+   "https://commons.wikimedia.org/wiki/Category:Palanchok_Bhagawati_Temple"
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 12,
+   "footprint_m": [
+    9,
+    9
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#6E6A64",
+    "#B22222",
+    "#C9A227"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "trident",
+    "bell"
+   ],
+   "surroundings": [
+    "hilltop",
+    "brick-courtyard",
+    "himalaya-backdrop",
+    "village"
+   ],
+   "notes": "Two-roof pagoda with grey tile roofs trimmed by red cloth frills and a tall slender gilded spire, in a hilltop courtyard."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Palanchowk_Bhagawati_Temple.jpg/1280px-Palanchowk_Bhagawati_Temple.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Palanchowk_Bhagawati_Temple.jpg",
+   "author": "Gaurav_Dhwaj_Khadka",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Palanchok_Bhagawati.jpg/1280px-Palanchok_Bhagawati.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Palanchok_Bhagawati.jpg",
+    "author": "Krish Dulal",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Devotees in the temple courtyard"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Palanchowk-bhagawati_%E0%A4%95%E0%A4%BE%E0%A4%AD%E0%A5%8D%E0%A4%B0%E0%A5%87_%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Palanchowk-bhagawati_%E0%A4%95%E0%A4%BE%E0%A4%AD%E0%A5%8D%E0%A4%B0%E0%A5%87_%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2.jpg",
+    "author": "Akt1860",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Palanchok Bhagawati temple, Kavre"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/%E0%A4%AA%E0%A4%B2%E0%A4%BE%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A5%8B%E0%A4%95_%E0%A4%AD%E0%A4%97%E0%A4%B5%E0%A4%A4%E0%A5%80_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%AA%E0%A4%B2%E0%A4%BE%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A5%8B%E0%A4%95_%E0%A4%AD%E0%A4%97%E0%A4%B5%E0%A4%A4%E0%A5%80_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0.jpg",
+    "author": "Punya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple and its pinnacle"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Palanchok.jpg/1280px-Palanchok.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Palanchok.jpg",
+    "author": "Krish Dulal",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Hilltop setting of the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/%E0%A4%AA%E0%A4%B2%E0%A4%BE%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A5%8B%E0%A4%95_%E0%A4%AD%E0%A4%97%E0%A4%B5%E0%A4%A4%E0%A5%80.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%AA%E0%A4%B2%E0%A4%BE%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A5%8B%E0%A4%95_%E0%A4%AD%E0%A4%97%E0%A4%B5%E0%A4%A4%E0%A5%80.JPG",
+    "author": "Punya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Palanchok Bhagawati shrine"
+   }
+  ]
+ },
+ {
+  "slug": "halesi-mahadev",
+  "name": "Halesi Mahadev (Halesi-Maratika Caves)",
+  "name_np": "हलेसी महादेव",
+  "alt_names": [
+   "Haleshi Mahadev",
+   "Maratika Caves",
+   "Halase",
+   "Pashupatinath of the East"
+  ],
+  "city": "Mahadevasthan (Halesi Tuwachung)",
+  "province": "Koshi",
+  "district": "Khotang",
+  "zone": null,
+  "lat": 27.190061,
+  "lng": 86.622392,
+  "coord_source": "Wikidata Q6755052 (P625)",
+  "type": "cave",
+  "religion": "Both",
+  "deity": "Shiva (Mahadev); Padmasambhava and Mandarava for Buddhists; ancestral deity of the Kirati Rai",
+  "built_year": null,
+  "built_century_text": "Natural cave; referred to in Himalayan literature as early as the 12th century, in the Kathang Zanglingma biography of Padmasambhava.",
+  "dynasty": null,
+  "architecture": "Natural limestone cave with an east-facing half-moon entrance, about 67 ft below the surface, round in plan with a 193 ft diameter and a second cave beneath. Shrines and railings fill the cave mouth; a Buddhist monastery stands on the hill nearby.",
+  "unesco": false,
+  "short": "Sacred cave in Khotang revered by Hindus as Shiva's hiding place and by Buddhists as the cave of long life.",
+  "story": "Go down the steps and stand at the mouth of the cave. Its entrance is shaped like a half moon and faces east, toward the morning sun. You are at Halesi, in the hills of Khotang, between the Dudh Koshi and Sun Koshi rivers, and three faiths share this cave. Hindus call it Halesi Mahadev, the Pashupatinath of the east. They say Shiva hid inside for six thousand years to escape the demon Bhasmasur, who could burn anything he touched to ash. Look for the natural stone lingam in the darkness. Buddhists know the place as Maratika, where Guru Padmasambhava and his consort Mandarava are said to have gained the power of long life, so you will see monks and a monastery on the hill above. For the Kirati Rai people it is an ancestral home, where their forefather once lived. On Shivaratri and Bala Chaturdashi the cave fills with pilgrims.",
+  "legend": "Shiva hid in this cave for 6,000 years to escape the demon Bhasmasur. For Buddhists, Padmasambhava and Mandarava attained the vidyadhara of longevity here.",
+  "facts": [
+   "The cave entrance is half-moon shaped and faces east.",
+   "The cave is about 67 ft below the surface and has a diameter of about 193 ft, with another cave beneath it.",
+   "It lies between the Dudh Koshi and Sun Koshi rivers, about 185 km south-west of Mount Everest.",
+   "It is mentioned in Himalayan literature as far back as the 12th century.",
+   "The Kirati Rai regard Halesi as an ancestral place of their forefather Raechhakule."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 60,
+   "hours_note": "Natural cave temple reachable by jeep or motorcycle; no official hours found in sources.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Maha Shivaratri",
+    "name_np": "महाशिवरात्रि",
+    "month": "Falgun",
+    "note": "One of the best-attended fairs at the cave."
+   },
+   {
+    "name": "Bala Chaturdashi",
+    "name_np": "बालाचतुर्दशी",
+    "month": "Mangsir",
+    "note": "Large religious fair held at Halesi."
+   },
+   {
+    "name": "Ram Navami",
+    "name_np": "रामनवमी",
+    "month": "Chaitra",
+    "note": "Devotees throng the cave on Ram Navami."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which demon is Shiva said to have hidden from in the Halesi cave?",
+    "options": [
+     "Ravana",
+     "Bhasmasur",
+     "Mahishasur",
+     "Chanda"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Shiva hid in the cave to escape Bhasmasur."
+   },
+   {
+    "q": "What nickname is given to Halesi Mahadev?",
+    "options": [
+     "Kashi of Nepal",
+     "Pashupatinath of the east",
+     "Lumbini of the hills",
+     "Gateway of the gods"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The cave is nicknamed 'the Pashupatinath of the east'."
+   },
+   {
+    "q": "Buddhists know the cave as Maratika and link it with which master?",
+    "options": [
+     "Milarepa",
+     "Padmasambhava",
+     "Atisha",
+     "Nagarjuna"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Padmasambhava and Mandarava are said to have attained long life here."
+   },
+   {
+    "q": "Which direction does the cave's half-moon entrance face?",
+    "options": [
+     "North",
+     "East",
+     "South",
+     "West"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The entrance is shaped like a half moon and faces east."
+   },
+   {
+    "q": "Between which two rivers does Halesi lie?",
+    "options": [
+     "Arun and Tamor",
+     "Dudh Koshi and Sun Koshi",
+     "Trishuli and Budhi Gandaki",
+     "Bagmati and Bishnumati"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "The cave lies between the Dudh Koshi and Sun Koshi rivers."
+   }
+  ],
+  "clues": [
+   "A god hid in my darkness for six thousand years from a demon whose touch turned everything to ash.",
+   "My mouth is a half moon facing sunrise; Hindus, Buddhists and Kirati Rai all call me sacred."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Halesi-Maratika_Caves",
+   "https://www.wikidata.org/wiki/Q6755052",
+   "https://commons.wikimedia.org/wiki/Category:Halesi_~_Maratika_caves"
+  ],
+  "model": {
+   "kind": "cave",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "round",
+   "height_m": 20,
+   "footprint_m": [
+    59,
+    59
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#6F6A5E",
+    "#2B2620",
+    "#FFFFFF"
+   ],
+   "features": [
+    "rock-face",
+    "shiva-lingam",
+    "fence-railing",
+    "prayer-flags",
+    "bell"
+   ],
+   "surroundings": [
+    "cave-mouth",
+    "hilltop",
+    "village",
+    "forest",
+    "monks-houses"
+   ],
+   "notes": "Huge dark overhanging grey rock mouth with white-railed stone steps descending into it and small shrines inside."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Halesi_~_Maratika_cave_entrance.jpg/1280px-Halesi_~_Maratika_cave_entrance.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Halesi_~_Maratika_cave_entrance.jpg",
+   "author": "Christopher J. Fynn",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/View_of_Maratika_~_Halesi.jpg/1280px-View_of_Maratika_~_Halesi.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:View_of_Maratika_~_Halesi.jpg",
+    "author": "Christopher J. Fynn",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Halesi village and hillside around the caves"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/%E0%A4%B9%E0%A4%B2%E0%A5%87%E0%A4%B8%E0%A5%80_%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A6%E0%A5%87%E0%A4%B5.JPG/1280px-%E0%A4%B9%E0%A4%B2%E0%A5%87%E0%A4%B8%E0%A5%80_%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A6%E0%A5%87%E0%A4%B5.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%B9%E0%A4%B2%E0%A5%87%E0%A4%B8%E0%A5%80_%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A6%E0%A5%87%E0%A4%B5.JPG",
+    "author": "Punya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Natural lingam of Mahadev inside the cave"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Maratika_Chimey_Takten_Choling_Monastery.jpg/1280px-Maratika_Chimey_Takten_Choling_Monastery.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Maratika_Chimey_Takten_Choling_Monastery.jpg",
+    "author": "Christopher J. Fynn",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Maratika Chimey Takten Choling Monastery"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Cave_Haleshi_Mahadev_%282%29.jpg/1280px-Cave_Haleshi_Mahadev_%282%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Cave_Haleshi_Mahadev_(2).jpg",
+    "author": "Pratap Baniya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Cave opening towards the sky"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/%E0%A4%B9%E0%A4%B2%E0%A5%87%E0%A4%B8%E0%A5%80_%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A6%E0%A5%87%E0%A4%B5_%E0%A4%AC%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%B0%E0%A5%80_%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B8%E0%A4%B0.jpg/1280px-%E0%A4%B9%E0%A4%B2%E0%A5%87%E0%A4%B8%E0%A5%80_%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A6%E0%A5%87%E0%A4%B5_%E0%A4%AC%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%B0%E0%A5%80_%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B8%E0%A4%B0.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%B9%E0%A4%B2%E0%A5%87%E0%A4%B8%E0%A5%80_%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A6%E0%A5%87%E0%A4%B5_%E0%A4%AC%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%B0%E0%A5%80_%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B8%E0%A4%B0.jpg",
+    "author": "Punya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Outer premises of Halesi Mahadev"
+   }
+  ]
+ },
+ {
+  "slug": "pathibhara-devi",
+  "name": "Pathibhara Devi Temple",
+  "name_np": "पाथीभरा देवी मन्दिर",
+  "alt_names": [
+   "Pathivara",
+   "Mukkumlung",
+   "Mukumlung Temple"
+  ],
+  "city": "Phungling (Taplejung)",
+  "province": "Koshi",
+  "district": "Taplejung",
+  "zone": null,
+  "lat": 27.429444,
+  "lng": 87.767722,
+  "coord_source": "Wikidata Q7144777 (P625)",
+  "type": "sculpture",
+  "religion": "Hindu",
+  "deity": "Pathibhara Devi (Durga); revered by Limbu people as Yuma Sammang on Mukkumlung hill",
+  "built_year": null,
+  "built_century_text": "Ancient hilltop sacred rock revered by Limbu and Hindu devotees; the Pathibhara Area Development Committee formed in 1995, and in 2001 the rock was replaced by a statue of Durga.",
+  "dynasty": null,
+  "architecture": "Open-air hilltop shrine at 3,794 m: a richly dressed statue of the goddess under a canopy, surrounded by tridents, huge bells and lines of prayer flags, with small shelter buildings on the stony summit.",
+  "unesco": false,
+  "short": "Shaktipeeth on a 3,794 m summit in Taplejung, sacred to Hindus as Durga and to Limbus as Mukkumlung.",
+  "story": "You have reached the summit of Pathibhara, 3,794 metres up in Taplejung, a long climb north-east of Phungling bazaar. Ring one of the great bells and listen to it echo across the ridges. Long before any statue stood here, the Limbu people revered a great rock on this hilltop, and they saw the whole Mukkumlung hill as a form of their goddess Yuma Sammang. Hindus saw the same rock as Durga, and today Pathibhara is counted among the Shakti Peethas. Local legend tells of shepherds who lost hundreds of sheep on this very spot. In a dream the goddess asked them for a sacrifice and a shrine; when they obeyed, the lost flock came back. Since 2001 a statue of Durga has stood in place of the rock. Look east on a clear morning: the white wall of Kanchenjunga fills the sky. Pilgrims from across Nepal and India climb here believing she grants their wishes.",
+  "legend": "Shepherds lost hundreds of sheep while grazing here. The goddess appeared in their dream and asked for a sacrifice and a shrine; when they offered it, the lost herd returned, and the custom of sacrifice at the temple began.",
+  "facts": [
+   "The temple stands at 3,794 m, about 19.4 km north-east of Phungling.",
+   "Limbus revere the hill as Mukkumlung, a natural form of the goddess Yuma Sammang.",
+   "In 2001 the sacred rock on the summit was replaced with a statue of Durga.",
+   "It is one of the Shakti Peethas and a side route of the Kanchenjunga trek.",
+   "Kanchenjunga and Kumbhakarna can be seen from the temple."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 60,
+   "hours_note": "Open-air summit shrine; temperatures can drop to around -2 to 1 C. No official hours found in sources.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": null,
+  "festivals": [],
+  "quiz": [
+   {
+    "q": "In which district is Pathibhara Devi Temple?",
+    "options": [
+     "Ilam",
+     "Taplejung",
+     "Panchthar",
+     "Sankhuwasabha"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The temple is on a hilltop in Taplejung District."
+   },
+   {
+    "q": "What did the shepherds of the legend lose?",
+    "options": [
+     "Their way",
+     "Hundreds of sheep",
+     "A golden bell",
+     "Their village"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "They lost hundreds of sheep, which returned after they offered a sacrifice."
+   },
+   {
+    "q": "What do the Limbu people call the hill?",
+    "options": [
+     "Mukkumlung",
+     "Sawalung",
+     "Tengboche",
+     "Sinhagadh"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Limbus see the Mukkumlung hill as a form of the goddess Yuma Sammang."
+   },
+   {
+    "q": "About how high is the temple?",
+    "options": [
+     "1,794 m",
+     "2,794 m",
+     "3,794 m",
+     "4,794 m"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The temple is at 3,794 m above sea level."
+   },
+   {
+    "q": "In which year was the summit rock replaced by a statue of Durga?",
+    "options": [
+     "1950",
+     "1990",
+     "2001",
+     "2015"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "The development committee replaced the sacred rock with a statue in 2001."
+   }
+  ],
+  "clues": [
+   "Shepherds' lost flock returned only after a dream-goddess was given her offering on this summit.",
+   "Limbus call this hill Mukkumlung; from its top the white wall of the world's third-highest mountain looms."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pathibhara_Devi_Temple",
+   "https://www.wikidata.org/wiki/Q7144777",
+   "https://commons.wikimedia.org/wiki/Category:Pathibhara_Temple"
+  ],
+  "model": {
+   "kind": "statue",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 3,
+   "footprint_m": [
+    5,
+    5
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#C0392B",
+    "#D4AC0D",
+    "#F5F5F5"
+   ],
+   "features": [
+    "idol-visible",
+    "trident",
+    "bell",
+    "prayer-flags",
+    "flags-red"
+   ],
+   "surroundings": [
+    "hilltop",
+    "snow-peaks",
+    "himalaya-backdrop",
+    "forest"
+   ],
+   "notes": "Golden-faced goddess dressed in red cloth under a red canopy, ringed by tridents, big bells and prayer flags on a misty stone summit."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Pathibhara_2014.JPG/1280px-Pathibhara_2014.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Pathibhara_2014.JPG",
+   "author": "Avista7",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Mt._Kanchanjunga_n_Mt._Kumbhakarna_as_seen_from_Pathivara_temple%2C_Taplejung.jpg/1280px-Mt._Kanchanjunga_n_Mt._Kumbhakarna_as_seen_from_Pathivara_temple%2C_Taplejung.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mt._Kanchanjunga_n_Mt._Kumbhakarna_as_seen_from_Pathivara_temple,_Taplejung.jpg",
+    "author": "Shrestha Aajib",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Kanchenjunga and Kumbhakarna seen from the temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Buddhist_Prayer_Flags_at_Pathibhara_Devi_Temple.jpg/1280px-Buddhist_Prayer_Flags_at_Pathibhara_Devi_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Buddhist_Prayer_Flags_at_Pathibhara_Devi_Temple.jpg",
+    "author": "Salman Gurung",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Buddhist prayer flags at the temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Huge_bell_at_Pathibhara_Devi_temple.jpg/1280px-Huge_bell_at_Pathibhara_Devi_temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Huge_bell_at_Pathibhara_Devi_temple.jpg",
+    "author": "Salman Gurung",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Huge bell at Pathibhara Devi temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Mountain_on_which_Pathibhara_Temple_is_located.jpg/1280px-Mountain_on_which_Pathibhara_Temple_is_located.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mountain_on_which_Pathibhara_Temple_is_located.jpg",
+    "author": "Nepalsom",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The mountain on which the temple stands"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Pathibhara_Temple_Area_2018_1.jpg/1280px-Pathibhara_Temple_Area_2018_1.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Pathibhara_Temple_Area_2018_1.jpg",
+    "author": "Pratap Baniya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Building in the temple area on a misty day"
+   }
+  ]
+ },
+ {
+  "slug": "barahachhetra",
+  "name": "Barahachhetra",
+  "name_np": "बराहक्षेत्र",
+  "alt_names": [
+   "Barahakshetra",
+   "Varahakshetra",
+   "Baraha Kshetra",
+   "Mouksik:Sawalung"
+  ],
+  "city": "Barahakshetra (near Dharan)",
+  "province": "Koshi",
+  "district": "Sunsari",
+  "zone": null,
+  "lat": 26.876614,
+  "lng": 87.165846,
+  "coord_source": "OpenStreetMap node 3116761691 ('Bahara Chhetra'); Wikidata Q4858196 gives only 26.83, 87.18",
+  "type": "dome-temple",
+  "religion": "Hindu",
+  "deity": "Varaha (boar incarnation of Vishnu) with Lakshmi",
+  "built_year": null,
+  "built_century_text": "Ancient tirtha mentioned in the Brahma, Varaha and Skanda Puranas and the Mahabharata; the present main temple was rebuilt by Juddha Shumsher in 1991 BS (c. 1934-35) after the 1990 BS (1934) earthquake.",
+  "dynasty": "Rana (present building)",
+  "architecture": "Group of whitewashed dome-roofed temples on terraces above the Saptakoshi river, including the main Varaha temple and shrines of Lakshmi, Panchayan, Guruvaraha, Suryavaraha, Kokavaraha and Nageshwar, with pilgrim rest houses. Statues over 1,500 years old have been found here.",
+  "unesco": false,
+  "short": "One of Nepal's Char Dham: white-domed temples of Vishnu's boar incarnation where the Koka meets the Koshi.",
+  "story": "Listen: below you, the mighty Saptakoshi thunders out of the hills where the Koka river joins it. You are at Barahachhetra, one of the four great pilgrimage dhams of Nepal, praised in the Puranas and even in the Mahabharata. The story says that when a demon dragged the earth down toward the underworld, Lord Vishnu took the form of Varaha, a mighty boar, and lifted her back up on his tusk. Then he rested here beside the Koshi with his wife Lakshmi. Find the large image of Varaha holding the earth. The white domed temple you see is fairly new; the 1934 earthquake brought the old one down, and Juddha Shumsher had it rebuilt. Yet statues more than fifteen hundred years old have been found around you. Limbu people call this place Mouksik Sawalung, the winter home of the god Dungdung Sammang. At Kartik Purnima and Makar Sankranti, crowds come to bathe in the river.",
+  "legend": "When the earth was being dragged into Patala, Vishnu took the form of the boar Varaha and lifted her out on his tusk, then sat with Lakshmi on the bank of the Koshi; the place is named after that incarnation.",
+  "facts": [
+   "Barahachhetra is one of the Char Dham (four great pilgrimage sites) of Nepal.",
+   "It lies at the confluence of the Koka and Koshi rivers in Sunsari District.",
+   "The present temple was rebuilt by Juddha Shumsher in 1991 BS after the 1990 BS (1934) earthquake.",
+   "There are nine temples in the complex, and statues over 1,500 years old have been found here.",
+   "Limbus call it Mouksik:Sawalung, the winter residence of the god Dungdung Sammang."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 90,
+   "hours_note": "Active pilgrimage site; no official hours found in sources.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Kartik Purnima",
+    "name_np": "कार्तिक पूर्णिमा",
+    "month": "Kartik",
+    "note": "Special fair; pilgrims from India especially come at this full moon."
+   },
+   {
+    "name": "Makar Sankranti",
+    "name_np": "माघे संक्रान्ति",
+    "month": "Magh",
+    "note": "Pilgrims from the hills of Nepal bathe at the confluence."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which incarnation of Vishnu is worshipped at Barahachhetra?",
+    "options": [
+     "Narasimha",
+     "Varaha (boar)",
+     "Matsya (fish)",
+     "Rama"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Varaha, the boar incarnation, is the main deity."
+   },
+   {
+    "q": "Which two rivers meet at Barahachhetra?",
+    "options": [
+     "Koka and Koshi",
+     "Arun and Tamor",
+     "Bagmati and Kamala",
+     "Seti and Kali"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "The site lies at the confluence of the Koka and Koshi rivers."
+   },
+   {
+    "q": "Barahachhetra is counted among which group of Nepali pilgrimage sites?",
+    "options": [
+     "Shakti Peethas",
+     "Char Dham",
+     "Ashta Matrika",
+     "Saptapuri"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "It is one of the Char Dham of Nepal."
+   },
+   {
+    "q": "Who rebuilt the temple after the 1934 earthquake?",
+    "options": [
+     "Jung Bahadur Rana",
+     "Chandra Shumsher",
+     "Juddha Shumsher",
+     "King Tribhuvan"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "Juddha Shumsher rebuilt the temple in 1991 BS."
+   },
+   {
+    "q": "What do Limbu people call Barahachhetra?",
+    "options": [
+     "Mukkumlung",
+     "Mouksik:Sawalung",
+     "Yalambar",
+     "Phakphok"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "In Yakthung Limbu belief it is Mouksik:Sawalung, the winter home of Dungdung Sammang."
+   }
+  ],
+  "clues": [
+   "A god in the shape of a boar lifted the sinking earth on his tusk, then rested with his wife beside the river here.",
+   "White domes stand where the Koka pours into the great Koshi, at one of the four great dhams."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Baraha_Kshetra",
+   "https://www.wikidata.org/wiki/Q4858196",
+   "https://www.openstreetmap.org/node/3116761691",
+   "https://commons.wikimedia.org/wiki/File:Barahachhetra_temple_of_Sunsari.jpg"
+  ],
+  "model": {
+   "kind": "dome-temple",
+   "tiers": 1,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": 15,
+   "footprint_m": [
+    12,
+    12
+   ],
+   "walls": "white-plaster",
+   "roof": "white-dome",
+   "colors": [
+    "#F2F2F0",
+    "#9C6B3E",
+    "#5D7A3A"
+   ],
+   "features": [
+    "dome-white",
+    "domes-multiple",
+    "gilded-pinnacle",
+    "fence-railing",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "river",
+    "forest",
+    "riverbank-ghats",
+    "hilltop"
+   ],
+   "notes": "Cluster of white domed temples with small spires on terraces, a brown-roofed pavilion in front, and a wide grey river under forested hills."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Barahachhetra_temple_of_Sunsari.jpg/1280px-Barahachhetra_temple_of_Sunsari.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Barahachhetra_temple_of_Sunsari.jpg",
+   "author": "Qrystal45",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Statue_of_Baraha.jpg/1280px-Statue_of_Baraha.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Statue_of_Baraha.jpg",
+    "author": "Pushpendra khadka",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Statue of Varaha"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Baraha_with_Earth.jpg/1280px-Baraha_with_Earth.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Baraha_with_Earth.jpg",
+    "author": "Pushpendra khadka",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Varaha lifting the Earth"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Barahakshetra_Temple_Main_Gate.jpg/1280px-Barahakshetra_Temple_Main_Gate.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Barahakshetra_Temple_Main_Gate.jpg",
+    "author": "Pushpendra khadka",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Main gate of the Barahakshetra temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Barahachhetra_sapta_koshi.JPG/1280px-Barahachhetra_sapta_koshi.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Barahachhetra_sapta_koshi.JPG",
+    "author": "Manoj.ktr",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The Saptakoshi river at Barahachhetra"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Barahakshetra_Baraha_Dharan_Sunsari_Koshi_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Barahakshetra_Baraha_Dharan_Sunsari_Koshi_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Barahakshetra_Baraha_Dharan_Sunsari_Koshi_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Temple complex above the river"
+   }
+  ]
+ },
+ {
+  "slug": "tengboche-monastery",
+  "name": "Tengboche Monastery",
+  "name_np": "टेङबोचे गुम्बा",
+  "alt_names": [
+   "Thyangboche Monastery",
+   "Dawa Choling Gompa",
+   "Tengboche Gompa"
+  ],
+  "city": "Tengboche (Khumbu Pasang Lhamu Rural Municipality)",
+  "province": "Koshi",
+  "district": "Solukhumbu",
+  "zone": null,
+  "lat": 27.836,
+  "lng": 86.763944,
+  "coord_source": "Wikidata Q7699760 (P625); OpenStreetMap relation 13050800 centroid is 27.836149, 86.763775",
+  "type": "monastery",
+  "religion": "Buddhist",
+  "deity": "Shakyamuni Buddha (with Manjushri and Maitreya)",
+  "built_year": 1916,
+  "built_century_text": "Founded in 1916 by Lama Gulu; destroyed by the 1934 earthquake and rebuilt, burnt in a fire on 19 January 1989, rebuilt with international help and reconsecrated in 1993.",
+  "dynasty": null,
+  "architecture": "Stone-masonry Tibetan Buddhist gompa with a large courtyard; the Dokhang prayer hall holds a two-storey statue of Shakyamuni flanked by Manjushri and Maitreya. A rebuilt painted entrance gate, mani stones and chortens surround it. Largest gompa in the Khumbu.",
+  "unesco": false,
+  "short": "The largest gompa in the Khumbu, at 3,867 m on the Everest trail, with Everest and Ama Dablam behind it.",
+  "story": "Take a slow breath; you are at 3,867 metres, on a knoll above the meeting of the Dudh Koshi and Imja rivers. In front of you is Tengboche Monastery, the largest gompa in the Khumbu and home to Sherpa monks of the Nyingma tradition. Lama Gulu founded it in 1916, with blessings from the Rongbuk monastery on the Tibetan side of Everest. Its life has been dramatic. The 1934 earthquake flattened it, and in January 1989 an electrical fire destroyed its old scriptures, statues and murals. Monks, Sherpas and friends from around the world rebuilt it, and it was consecrated again in 1993. Walk through the painted gate and into the prayer hall, where a Buddha rises through two floors. Expeditions stop here to light candles and ask for a safe climb. Now step outside and look up the valley: Everest, Lhotse and the sharp peak of Ama Dablam stand right behind the roof.",
+  "legend": "Lama Sangwa Dorje, founder of the Pangboche monastery, is said to have foreseen a monastery at Tengboche and left his footprint on a rock while meditating here; the stone fractured in the 1989 fire.",
+  "facts": [
+   "Tengboche stands at 3,867 m and is the largest gompa in the Khumbu region.",
+   "It was founded in 1916 by Lama Gulu, linked to the Rongbuk Monastery in Tibet.",
+   "It was destroyed by the 1934 earthquake and again by fire on 19 January 1989.",
+   "The rebuilt monastery was consecrated in 1993.",
+   "The Mani Rimdu festival is held here each autumn."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 3000,
+   "entry_fee_saarc_npr": 1500,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 60,
+   "hours_note": "Reached on foot on the Everest Base Camp trail from Lukla via Namche (about 3-4 days). No official hours found in sources.",
+   "fee_note": "Fees are Sagarmatha National Park entry (foreigners NPR 3,000, SAARC NPR 1,500; Nepali fee reported as free or NPR 100) plus a NPR 2,000 Khumbu Pasang Lhamu rural municipality fee for foreigners."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Mani Rimdu",
+    "name_np": "मानि रिम्दु",
+    "month": "Kartik",
+    "note": "The Sherpas' most important festival, held in the tenth Tibetan month (October-November) with masked dances."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which community built and looks after Tengboche Monastery?",
+    "options": [
+     "Newar",
+     "Sherpa",
+     "Tharu",
+     "Magar"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is a Tibetan Buddhist monastery of the Sherpa community."
+   },
+   {
+    "q": "In which year was Tengboche Monastery founded?",
+    "options": [
+     "1816",
+     "1916",
+     "1953",
+     "1989"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Lama Gulu founded it in 1916."
+   },
+   {
+    "q": "What destroyed the monastery in January 1989?",
+    "options": [
+     "An avalanche",
+     "A fire",
+     "An earthquake",
+     "A flood"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "An electrical short circuit started a fire on 19 January 1989."
+   },
+   {
+    "q": "Which festival with masked dances is held at Tengboche?",
+    "options": [
+     "Losar",
+     "Mani Rimdu",
+     "Tiji",
+     "Dumje"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Mani Rimdu is held here in the tenth Tibetan month."
+   },
+   {
+    "q": "Tengboche was founded with links to which mother monastery in Tibet?",
+    "options": [
+     "Rongbuk",
+     "Sakya",
+     "Tashilhunpo",
+     "Drepung"
+    ],
+    "answer_index": 0,
+    "difficulty": 5,
+    "explanation": "Its mother monastery is Rongbuk, on the north side of Everest."
+   }
+  ],
+  "clues": [
+   "Climbers light candles here before heading for the highest summit on earth, which peeks over my roof.",
+   "Shaken down in 1934 and burnt in 1989, I rose again with help from around the world and was reconsecrated in 1993."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tengboche_Monastery",
+   "https://www.wikidata.org/wiki/Q7699760",
+   "https://www.openstreetmap.org/relation/13050800",
+   "https://www.thelongestwayhome.com/travel-guides/nepal/permit-entry-fees-national-parks.html",
+   "https://thehimalayantimes.com/nepal/local-govt-imposes-rs-2000-entry-fee-foreigners-visiting-mt-everest-region",
+   "https://commons.wikimedia.org/wiki/Category:Tengboche_Monastery"
+  ],
+  "model": {
+   "kind": "gumba",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": 15,
+   "footprint_m": [
+    25,
+    20
+   ],
+   "walls": "whitewashed-stone",
+   "roof": "flat",
+   "colors": [
+    "#F2F2F0",
+    "#6E2C2C",
+    "#C9A227"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "prayer-flags",
+    "toran",
+    "chaityas",
+    "carved-windows",
+    "lion-statues"
+   ],
+   "surroundings": [
+    "hilltop",
+    "snow-peaks",
+    "himalaya-backdrop",
+    "monks-houses",
+    "forest"
+   ],
+   "notes": "Three-storey whitewashed stone gompa with rows of dark maroon-framed windows, gilded roof finial, white chorten and an ornate painted gate with snow lions; Ama Dablam behind."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Tengboche_Monastery_with_Views_of_Mount_Everest%2C_Lhotse_and_Ama_Dablam.jpg/1280px-Tengboche_Monastery_with_Views_of_Mount_Everest%2C_Lhotse_and_Ama_Dablam.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Tengboche_Monastery_with_Views_of_Mount_Everest,_Lhotse_and_Ama_Dablam.jpg",
+   "author": "Rohit Sharma",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Tengboche_Gompa-1.JPG/1280px-Tengboche_Gompa-1.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tengboche_Gompa-1.JPG",
+    "author": "Moralist",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Exterior of Tengboche Gompa"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Tengboche_Gompa-2.JPG/1280px-Tengboche_Gompa-2.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tengboche_Gompa-2.JPG",
+    "author": "Moralist",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The gompa seen from the inner courtyard"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Tengboche_Monastery_Gate.jpg/1280px-Tengboche_Monastery_Gate.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tengboche_Monastery_Gate.jpg",
+    "author": "Niklassletteland",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Painted entrance gate of the monastery"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Tengboche_Monastery1.jpg/1280px-Tengboche_Monastery1.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tengboche_Monastery1.jpg",
+    "author": "Steve Hicks",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Murals and paintings inside the monastery"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Stupa_and_mani_stones_at_Tengboche_Monastery.jpg/1280px-Stupa_and_mani_stones_at_Tengboche_Monastery.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Stupa_and_mani_stones_at_Tengboche_Monastery.jpg",
+    "author": "Faj2323",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stupa and mani stones at Tengboche"
+   }
+  ]
+ },
+ {
+  "slug": "dantakali-temple-dharan",
+  "name": "Dantakali Temple",
+  "name_np": "दन्तकाली मन्दिर",
+  "alt_names": [
+   "Dantakali Shaktipeeth",
+   "Dantakali Mandir"
+  ],
+  "city": "Dharan",
+  "province": "Koshi",
+  "district": "Sunsari",
+  "zone": null,
+  "lat": 26.8186,
+  "lng": 87.2909,
+  "coord_source": "Wikidata Q60786069 (P625, precision 0.0001 deg)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Dantakali (form of Sati / Kali)",
+  "built_year": null,
+  "built_century_text": "Founder unknown; scriptures say a king of Bengal repaired it. A pagoda until the 1934 earthquake, rebuilt with a dome, damaged again in the 1988 earthquake and restored to pagoda form.",
+  "dynasty": null,
+  "architecture": "Small two-roofed pagoda with grey roofs, red-orange walls and a gilded pinnacle inside a whitewashed walled compound entered through an arched red gateway on Bijayapur hill. The pagoda form was restored after the 1988 earthquake toppled an earlier dome (gumbaj) roof.",
+  "unesco": false,
+  "short": "Shakti Peeth on Bijayapur hill in Dharan, said to mark where the tooth of the goddess Sati fell.",
+  "story": "Climb the steps of Bijayapur hill above Dharan and pass under the arched red gate. You have come to Dantakali, one of the Shakti Peethas, the places where pieces of the goddess Sati fell to earth. When Sati gave up her life, grieving Shiva wandered the world carrying her body, and parts of it dropped across the land. Here, devotees believe, fell her tooth: danta means tooth, so this is the temple of the tooth of Kali. The Swasthani Bratakatha, a scripture many Nepali families read each winter, mentions this place. The building has had a hard century. It was a pagoda until the earthquake of 1934 knocked it down. It came back with a dome roof, which the 1988 earthquake toppled in turn, and then it was rebuilt as the pagoda you see. Budhasubba and Pindeshwor are both a short walk away. At Dashain the queue of worshippers stretches down the hill.",
+  "legend": "As Shiva carried the dead body of Sati across the world, her tooth (danta) fell at this spot, making it a Shakti Peeth.",
+  "facts": [
+   "The temple's name comes from danta (tooth) and Kali; it marks where Sati's tooth is believed to have fallen.",
+   "It is mentioned in the Swasthani Bratakatha.",
+   "It was a pagoda until the 1934 earthquake, then had a dome roof that fell in the 1988 earthquake.",
+   "It lies about 1 km from Pindeshwor and 1.5 km from Budhasubba on Bijayapur hill."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Active temple; no official hours found in sources.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Dashain",
+    "name_np": "दशैँ",
+    "month": "Ashwin",
+    "note": "Biggest crowds of the year; a fair is held on the eve of Dashain and animal sacrifices are offered."
+   },
+   {
+    "name": "Teej",
+    "name_np": "तीज",
+    "month": "Bhadra",
+    "note": "Many women devotees visit during Teej."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "What does 'danta' in Dantakali mean?",
+    "options": [
+     "Hand",
+     "Tooth",
+     "Eye",
+     "Hair"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Danta means tooth; Sati's tooth is believed to have fallen here."
+   },
+   {
+    "q": "In which city is Dantakali Temple?",
+    "options": [
+     "Biratnagar",
+     "Dharan",
+     "Itahari",
+     "Ilam"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The temple is on Bijayapur hill in Dharan."
+   },
+   {
+    "q": "Dantakali is counted as one of the what?",
+    "options": [
+     "Char Dham",
+     "Shakti Peethas",
+     "Jyotirlingas",
+     "Ashta Bhairav"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It is a Shakti Peeth, a place where part of Sati's body fell."
+   },
+   {
+    "q": "Which scripture mentions this temple?",
+    "options": [
+     "Swasthani Bratakatha",
+     "Bhagavad Gita",
+     "Ramayana",
+     "Gopalarajavamshavali"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "The Swasthani Bratakatha mentions Dantakali."
+   },
+   {
+    "q": "Which earthquake brought down the temple's dome-style roof?",
+    "options": [
+     "1834",
+     "1934",
+     "1988",
+     "2015"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "The 1988 earthquake toppled the gumbaj roof, and the temple was restored as a pagoda."
+   }
+  ],
+  "clues": [
+   "When a grieving god carried his wife's body across the world, her tooth is said to have dropped on this hill.",
+   "Pagoda, then dome, then pagoda again: two earthquakes, in 1934 and 1988, keep changing my roof."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dantakali_Temple",
+   "https://www.wikidata.org/wiki/Q60786069",
+   "https://kathmandupost.com/travel/2019/11/08/are-you-planning-a-trip-to-dharan-here-are-seven-places-around-the-city-you-would-want-to-visit",
+   "https://nepaltraveller.com/sidetrack/dantakali-temple",
+   "https://commons.wikimedia.org/wiki/Category:Dantakali_Temple"
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 10,
+   "footprint_m": [
+    8,
+    8
+   ],
+   "walls": "ochre-plaster",
+   "roof": "slate",
+   "colors": [
+    "#C8553D",
+    "#B8B8B0",
+    "#E2B33C"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "toran",
+    "bell"
+   ],
+   "surroundings": [
+    "hilltop",
+    "city-street",
+    "forest"
+   ],
+   "notes": "Small two-roof pagoda with grey roofs, red-orange walls and gold pinnacle, seen through a red arched gate with a yellow nameboard in a whitewashed wall."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Front_View_Of_Dantakali_Temple_Of_Dharan.jpg/1280px-Front_View_Of_Dantakali_Temple_Of_Dharan.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Front_View_Of_Dantakali_Temple_Of_Dharan.jpg",
+   "author": "Shalgina.dangi",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Dantakali_Temple_As_Seen_Through_The_Main_Gate.jpg/1280px-Dantakali_Temple_As_Seen_Through_The_Main_Gate.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dantakali_Temple_As_Seen_Through_The_Main_Gate.jpg",
+    "author": "Shalgina.dangi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple seen through the main gate"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Side_View_Of_Dantakali_Temple_Of_Dharan.jpg/1280px-Side_View_Of_Dantakali_Temple_Of_Dharan.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Side_View_Of_Dantakali_Temple_Of_Dharan.jpg",
+    "author": "Shalgina.dangi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Side view of Dantakali Temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Dantakali_dharan.jpg/1280px-Dantakali_dharan.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dantakali_dharan.jpg",
+    "author": "Gunjan Raj Giri",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Dantakali temple in Dharan"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Dantakali_Shaktipeeth_in_Dharan.jpg/1280px-Dantakali_Shaktipeeth_in_Dharan.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dantakali_Shaktipeeth_in_Dharan.jpg",
+    "author": "Tdo1993",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Dantakali Shaktipeeth"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Dantakali_Temple_02.jpg/1280px-Dantakali_Temple_02.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dantakali_Temple_02.jpg",
+    "author": "Bijay Shah",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple on the slopes of Bijayapur"
+   }
+  ]
+ },
+ {
+  "slug": "budha-subba-temple",
+  "name": "Budha Subba Temple",
+  "name_np": "बुढासुब्बा मन्दिर",
+  "alt_names": [
+   "Budhasubba",
+   "Budha Subba Kirant Temple"
+  ],
+  "city": "Dharan",
+  "province": "Koshi",
+  "district": "Sunsari",
+  "zone": null,
+  "lat": 26.823268,
+  "lng": 87.293656,
+  "coord_source": "OpenStreetMap node 9796128091 ('Budha Subba Kirant Temple'); Wikidata Q4985069 gives only 26.82, 87.3",
+  "type": "sculpture",
+  "religion": "Other",
+  "deity": "Budha Subba (spirit of the Limbu king Buddhi Karna Raya Khebang); also linked with Shiva and Parvati as Theba Sammang and Yuma Sammang",
+  "built_year": null,
+  "built_century_text": "Said to be the tomb of Buddhi Karna Raya Khebang, last Limbu king of Bijaypur, killed in 1773; date of the shrine itself not documented.",
+  "dynasty": null,
+  "architecture": "Small Kirat shrine on Bijayapur hill: an open pavilion with a low hipped roof and red pillars beside a yellow arched shrine, set in a grove of tuftless bamboo hung with sacred threads and bells.",
+  "unesco": false,
+  "short": "Kirat shrine in a bamboo grove in Dharan, said to be the tomb of the last Limbu king of Bijaypur.",
+  "story": "Step into the bamboo grove on Bijayapur hill in Dharan and listen to the stems creak in the wind. This is Budha Subba, a shrine of the Kirat people, and its story is a sad one. Bijaypur was once a capital of the Limbuwan kingdom. In 1773 its last Limbu king, Buddhi Karna Raya Khebang, was lured here for talks and killed by assassins sent by the Gorkhali king. People say his spirit stayed near his tomb, friendly and helpful, and local Limbus began to worship him as the old king, the Budha Subba, who brings good luck. Now look closely at the bamboo. Some say Shiva and Parvati, disguised as a Limbu king and queen, once planted their hunting bows here, and these bamboos grew from them without tufts at the top. Young couples used to carve their names on the stems; today they tie colourful threads instead and hope their love lasts.",
+  "legend": "Shiva and Parvati, in the guise of the Yakthung king and queen Theba Sammang and Yuma Sammang, stuck their bows into the ground here while hunting; tuftless bamboo sprouted from the bows.",
+  "facts": [
+   "The shrine is said to be the tomb of Buddhi Karna Raya Khebang, the last Limbu king of Bijaypur, killed in 1773.",
+   "Bijaypur was a capital of the Limbuwan kingdom according to historian Iman Singh Chemjong.",
+   "The bamboo here grows without a tuft at the top, which legend links to Shiva and Parvati's bows.",
+   "Couples once wrote their names on the bamboo; the temple committee stopped this, and threads are tied instead."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Active shrine in Dharan-14; no official hours found in sources.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": null,
+  "festivals": [],
+  "quiz": [
+   {
+    "q": "Which community's king is Budha Subba believed to be?",
+    "options": [
+     "Newar",
+     "Limbu",
+     "Sherpa",
+     "Tharu"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "He is believed to be the spirit of the last Limbu king of Bijaypur."
+   },
+   {
+    "q": "What is special about the bamboo at Budha Subba?",
+    "options": [
+     "It is golden",
+     "It grows without a tuft at the top",
+     "It never grows",
+     "It flowers every year"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Legend says tuftless bamboo sprouted from the bows of Shiva and Parvati."
+   },
+   {
+    "q": "What do couples tie to the bamboo today?",
+    "options": [
+     "Bells",
+     "Colourful threads",
+     "Coins",
+     "Flowers"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Name-writing was stopped, so lovers now tie sacred threads."
+   },
+   {
+    "q": "In which year was the Limbu king Buddhi Karna Raya Khebang killed?",
+    "options": [
+     "1744",
+     "1773",
+     "1816",
+     "1846"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "He was killed in 1773 after being lured to Bijaypur for negotiation."
+   },
+   {
+    "q": "Which historian described Bijaypur as a capital of Limbuwan?",
+    "options": [
+     "Baburam Acharya",
+     "Iman Singh Chemjong",
+     "Dor Bahadur Bista",
+     "Mahesh Chandra Regmi"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "Kirat historian Iman Singh Chemjong described Bijaypur as the Limbuwan capital."
+   }
+  ],
+  "clues": [
+   "Lovers once carved names on my bamboo; now they tie bright threads to stems that grow with no tuft.",
+   "A Limbu king lured to peace talks never left this hill; his kindly spirit is worshipped here instead."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Budha_Subba_Temple",
+   "https://www.wikidata.org/wiki/Q4985069",
+   "https://www.openstreetmap.org/node/9796128091",
+   "https://commons.wikimedia.org/wiki/File:Budha_Subba_Temple_Front_View.jpg"
+  ],
+  "model": {
+   "kind": "statue",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": 5,
+   "footprint_m": [
+    10,
+    6
+   ],
+   "walls": "timber",
+   "roof": "flat",
+   "colors": [
+    "#E3C832",
+    "#B22222",
+    "#6B8E23"
+   ],
+   "features": [
+    "bell",
+    "sacred-tree",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "sacred-grove",
+    "forest",
+    "hilltop"
+   ],
+   "notes": "Low open pavilion with a pale green hipped roof and red posts beside a bright yellow arched shrine, inside a bamboo grove hung with threads."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Budha_Subba_Temple_Front_View.jpg/1280px-Budha_Subba_Temple_Front_View.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Budha_Subba_Temple_Front_View.jpg",
+   "author": "Pushpendra khadka",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Colorful_Threads_%283965274345%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Colorful_Threads_(3965274345).jpg",
+    "author": "Prashant Shrestha from Kathmandu, Nepal",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Colourful threads tied by visitors"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Bells_at_a_Temple.jpg/1280px-Bells_at_a_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bells_at_a_Temple.jpg",
+    "author": "Lordsamp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Temple bells at Budhasubba"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Side_View_Of_Budhasubba_Temple_Of_Dharan.jpg/1280px-Side_View_Of_Budhasubba_Temple_Of_Dharan.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Side_View_Of_Budhasubba_Temple_Of_Dharan.jpg",
+    "author": "Shalgina.dangi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Side view of the shrine"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Budhasubba_Dharan.jpg/1280px-Budhasubba_Dharan.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Budhasubba_Dharan.jpg",
+    "author": "Janak Bhatta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Tuftless bamboo grove at the temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Budha_Subba_Temple_North_View.jpg/1280px-Budha_Subba_Temple_North_View.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Budha_Subba_Temple_North_View.jpg",
+    "author": "Pushpendra khadka",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "North view of the temple"
+   }
+  ]
+ },
+ {
+  "slug": "pindeshwor-babadham",
+  "name": "Pindeshwor Babadham",
+  "name_np": "पिण्डेश्वर बाबाधाम",
+  "alt_names": [
+   "Pindeshwor Temple",
+   "Pindeshwar Mahadev",
+   "Pindeshwor Shivalaya"
+  ],
+  "city": "Dharan",
+  "province": "Koshi",
+  "district": "Sunsari",
+  "zone": null,
+  "lat": 26.8133,
+  "lng": 87.2946,
+  "coord_source": "Wikidata Q60751045 (P625, precision 0.0001 deg)",
+  "type": "shikhara",
+  "religion": "Hindu",
+  "deity": "Shiva (Pindeshwor)",
+  "built_year": null,
+  "built_century_text": "Founding date not documented in the sources consulted; local scholar Prem Prasad Parajuli says the temple is mentioned in 18 chapters of the Skanda Purana.",
+  "dynasty": null,
+  "architecture": "Orange-painted shikhara-style Shiva temple with a tall spire and trident, joined to a long arcaded hall of arched openings, in a walled compound in Dharan-14. Oil lamps are kept burning continuously inside.",
+  "unesco": false,
+  "short": "Shiva temple in Dharan where Shrawan pilgrims walk barefoot from Barahachhetra carrying Koshi water to pour on the lingam.",
+  "story": "You are at Pindeshwor Babadham in Dharan, a temple of Lord Shiva that comes alive in the monsoon month of Shrawan. Every Monday of that month, thousands of devotees arrive on foot, many barefoot, chanting Bol Bam. They have walked more than twenty kilometres from Barahachhetra, carrying pots of holy water from the Saptakoshi river, to pour over Shiva here. Devotees say wishes come true if you offer Koshi and Koka water at Barahachhetra, then water from the Kaushiki bank here at Pindeshwor. Look up at the orange spire and its trident, then at the long row of arches beside it. Inside, oil lamps are never allowed to go out. A local scholar says this place appears in eighteen chapters of the Skanda Purana, and people also link it to the origin of rudraksha beads. Dantakali and Budhasubba are just up the hill, so many pilgrims visit all three together.",
+  "legend": "Local belief links the site to the origin of rudraksha beads and says it appears in 18 chapters of the Skanda Purana.",
+  "facts": [
+   "On every Monday of Shrawan, devotees carry Saptakoshi water from Barahachhetra, many walking barefoot over 20 km.",
+   "Oil lamps are kept burning continuously in the temple.",
+   "Maha Shivaratri and Bala Chaturdashi are also major festivals here.",
+   "A Pindeshwor Rath Yatra chariot festival around Dharan Bazaar was held for the second time in March 2026."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Active temple in Dharan-14; very crowded on Shrawan Mondays. No official hours found in sources.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Shrawan Mondays (Bol Bam)",
+    "name_np": "साउने सोमबार (बोल बम)",
+    "month": "Shrawan",
+    "note": "Devotees walk from Barahachhetra with Saptakoshi water to pour on Shiva every Monday."
+   },
+   {
+    "name": "Maha Shivaratri",
+    "name_np": "महाशिवरात्रि",
+    "month": "Falgun",
+    "note": "Major night of Shiva worship at the temple."
+   },
+   {
+    "name": "Bala Chaturdashi",
+    "name_np": "बालाचतुर्दशी",
+    "month": "Mangsir",
+    "note": "Annual festival observed at the temple."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which god is worshipped at Pindeshwor?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Ganesh",
+     "Durga"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Pindeshwor Babadham is a Shiva temple."
+   },
+   {
+    "q": "In which month do pilgrims walk to the temple every Monday?",
+    "options": [
+     "Kartik",
+     "Shrawan",
+     "Magh",
+     "Chaitra"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Devotees come every Monday of Shrawan carrying holy water."
+   },
+   {
+    "q": "From where do the pilgrims carry their holy water?",
+    "options": [
+     "Gosaikunda",
+     "Barahachhetra (Saptakoshi river)",
+     "Bagmati river",
+     "Rara Lake"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "They fetch water from the Saptakoshi at Barahachhetra."
+   },
+   {
+    "q": "What chant do the Shrawan pilgrims call out?",
+    "options": [
+     "Jai Shri Ram",
+     "Bol Bam",
+     "Om Mani Padme Hum",
+     "Har Har Gange"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The pilgrims walk chanting 'Bol Bam'."
+   },
+   {
+    "q": "In how many chapters of the Skanda Purana is the temple said to appear?",
+    "options": [
+     "3",
+     "7",
+     "18",
+     "108"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "Local scholar Prem Prasad Parajuli says it appears in 18 chapters."
+   }
+  ],
+  "clues": [
+   "Every Monday of the monsoon month, barefoot crowds walk twenty kilometres from a river with water for my lingam.",
+   "Behind my orange spire runs a long row of arches, and inside, the oil lamps are never allowed to go out."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pindeshwor_Temple",
+   "https://www.wikidata.org/wiki/Q60751045",
+   "https://en.himalpress.com/devotees-throng-pindeshwar-temple-in-pictures/",
+   "https://ekantipur.com/koshi-pradesh/2026/03/19/en/pindeshwor-rath-yatra-in-dharan-23-49.html",
+   "https://commons.wikimedia.org/wiki/Category:Pindeshwor_Temple"
+  ],
+  "model": {
+   "kind": "shikhara",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 15,
+   "footprint_m": [
+    30,
+    10
+   ],
+   "walls": "ochre-plaster",
+   "roof": "stone-spire",
+   "colors": [
+    "#E07B39",
+    "#B5452E",
+    "#F2D16B"
+   ],
+   "features": [
+    "trident",
+    "arched-windows",
+    "shiva-lingam",
+    "lamps-diyo",
+    "flags-red"
+   ],
+   "surroundings": [
+    "city-street",
+    "garden-lawn",
+    "hilltop"
+   ],
+   "notes": "Orange pointed shikhara spire with a trident, attached to a long low orange hall with a row of arched openings."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Pindeshwor_Temple-Dharan_15.jpg/1280px-Pindeshwor_Temple-Dharan_15.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Pindeshwor_Temple-Dharan_15.jpg",
+   "author": "Bijay Shah",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Panorama_View_Of_Pindeswari_Temple_Of_Dharan.jpg/1280px-Panorama_View_Of_Pindeswari_Temple_Of_Dharan.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Panorama_View_Of_Pindeswari_Temple_Of_Dharan.jpg",
+    "author": "Shalgina.dangi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Panorama of the Pindeshwor temple complex"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Pindeshwar_Mahadev.jpg/1280px-Pindeshwar_Mahadev.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Pindeshwar_Mahadev.jpg",
+    "author": "Rishavkhatri",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Pindeshwar Mahadev"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Pindeshwar_Temple_01.jpg/1280px-Pindeshwar_Temple_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Pindeshwar_Temple_01.jpg",
+    "author": "Prabina Karki",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Pindeshwar Temple, Dharan"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pindeshwor_Temple-Dharan_16.jpg/1280px-Pindeshwor_Temple-Dharan_16.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Pindeshwor_Temple-Dharan_16.jpg",
+    "author": "Bijay Shah",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Pindeshwor temple courtyard"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Pindeshwor_Temple-Dharan_17.jpg/1280px-Pindeshwor_Temple-Dharan_17.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Pindeshwor_Temple-Dharan_17.jpg",
+    "author": "Bijay Shah",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Another view of the temple"
+   }
+  ]
+ },
+ {
+  "slug": "makwanpur-gadhi",
+  "name": "Makwanpur Gadhi",
+  "name_np": "मकवानपुरगढी",
+  "alt_names": [
+   "Makawanpurgadhi",
+   "Makwanpur Fort",
+   "Makwanpurgadhi"
+  ],
+  "city": "Hetauda (Makwanpurgadhi Rural Municipality)",
+  "province": "Bagmati",
+  "district": "Makwanpur",
+  "zone": null,
+  "lat": 27.411027,
+  "lng": 85.147508,
+  "coord_source": "Wikidata Q109905451 (P625)",
+  "type": "fort",
+  "religion": "Other",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Stronghold of the Sen kings of Makwanpur; Wikipedia credits Tula Sen, while Ekantipur says Luhang built it in VS 1622 (c. 1565). Captured by Gorkha in VS 1819 (1762-63).",
+  "dynasty": "Sen",
+  "architecture": "Hilltop stone fort at about 1,017 m, surrounded by a wall about 25 ft high and 7 ft wide and a 10-ft-deep defensive ditch, enclosing the ruined walls of the Sen palace. Old cannons such as the 'Kali Top' are displayed in the grounds.",
+  "unesco": false,
+  "short": "Hilltop stone fort of the Sen kings near Hetauda, fought over by Gorkha in 1762-63 and by the British in 1816.",
+  "story": "You are standing inside Makwanpur Gadhi, about 1,000 metres up on a ridge east of Hetauda. Before Nepal was unified, this stone fort was the stronghold of the Sen kings of Makwanpur. Run your hand along the wall: it once rose about 25 feet and was 7 feet thick, with a ditch 10 feet deep outside to stop attackers. The Sens and the Shahs were family. King Hemkarna Sen's daughter, Indra Kumari, married Prithvi Narayan Shah of Gorkha. Yet family ties did not keep the peace. Prithvi Narayan Shah's forces attacked and took this fort in 1762, and fought here again the next year against the army of Mir Kasim, the Nawab of Bengal. In 1816 it saw battle once more, in the war with the British East India Company. Look for the old iron cannon called Kali Top. In 2015 Nepal Post put this fort on a postage stamp.",
+  "legend": "Ekantipur reports a story that Hemkarna Sen promised a white elephant as dowry to his son-in-law Prithvi Narayan Shah, but his son Digbandhan Sen refused to hand it over, souring relations before the conquest.",
+  "facts": [
+   "The fort was the main stronghold of the Sen dynasty of Makwanpur before Nepal's unification.",
+   "Battles of Makwanpur were fought here in 1762, 1763 and 1816.",
+   "Its wall is described as about 25 ft high and 7 ft wide, with a 10-ft-deep defensive ditch.",
+   "It sits at about 1,017 m, roughly 16-17 km from Hetauda.",
+   "The Government of Nepal issued a postage stamp featuring the fort in 2015."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 60,
+   "hours_note": "Open-air ruins on the Kanti Rajpath road; no official hours found in sources.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": null,
+  "festivals": [
+   {
+    "name": "Victory festival",
+    "name_np": "विजय उत्सव",
+    "month": "Magh",
+    "note": "Celebrated at the fort on Magh 10, the date given for the Gorkhali attack of VS 1819."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which dynasty ruled from Makwanpur Gadhi before unification?",
+    "options": [
+     "Malla",
+     "Sen",
+     "Licchavi",
+     "Rana"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The fort was the stronghold of the Sen kings of Makwanpur."
+   },
+   {
+    "q": "Which Gorkha king married a Makwanpur princess and later captured the fort?",
+    "options": [
+     "Ram Shah",
+     "Prithvi Narayan Shah",
+     "Rana Bahadur Shah",
+     "Girvan Yuddha Bikram Shah"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Prithvi Narayan Shah married Indra Kumari and took Makwanpur in 1762-63."
+   },
+   {
+    "q": "Against whom was the 1816 Battle of Makwanpur fought?",
+    "options": [
+     "Tibet",
+     "The British East India Company",
+     "The Mughals",
+     "Sikkim"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The 1816 battle was part of the Anglo-Nepalese War."
+   },
+   {
+    "q": "What is the name of the famous old cannon at the fort?",
+    "options": [
+     "Kali Top",
+     "Bagh Top",
+     "Chandi Top",
+     "Ram Top"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "The historic cannon displayed at the fort is called Kali Top."
+   },
+   {
+    "q": "In which year did Nepal issue a stamp featuring Makwanpur Gadhi?",
+    "options": [
+     "1990",
+     "2005",
+     "2015",
+     "2020"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "The Government of Nepal issued the stamp in 2015."
+   }
+  ],
+  "clues": [
+   "A Gorkha king married a princess of this hilltop fort, then came back with an army to capture it.",
+   "Three battles in 1762, 1763 and 1816 echoed off my 25-foot stone walls above Hetauda."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Makwanpur_Gadhi",
+   "https://en.wikipedia.org/wiki/Makwanpurgadhi",
+   "https://www.wikidata.org/wiki/Q109905451",
+   "https://english.ratopati.com/story/82642/arent-you-going-to-visit-hetauda-during-dashain-and-tihar-holidays",
+   "https://ekantipur.com/bagmati-pradesh/2026/01/24/en/victory-festival-celebrated-at-makwanpur-fort-20-35.html",
+   "https://nepaltraveller.com/sidetrack/exploring-makwanpur"
+  ],
+  "model": {
+   "kind": "fort",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": 7.6,
+   "footprint_m": [
+    40,
+    30
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#5E5A50",
+    "#7A8B4A",
+    "#3F3B35"
+   ],
+   "features": [],
+   "surroundings": [
+    "hilltop",
+    "terraced-fields",
+    "forest"
+   ],
+   "notes": "Roofless ruined rectangle of thick dark rubble-stone walls with a grassy interior and a narrow ditch, on a green ridge above terraced fields."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ruin_Makwanpur_Gadi_Palace.JPG/1280px-Ruin_Makwanpur_Gadi_Palace.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ruin_Makwanpur_Gadi_Palace.JPG",
+   "author": "Rajivkilanashrestha",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Makwanpur_Gadhi.JPG/1280px-Makwanpur_Gadhi.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Makwanpur_Gadhi.JPG",
+    "author": "Krish Dulal",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Stone walls of the fort above the fields"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Kali_Top.JPG/1280px-Kali_Top.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kali_Top.JPG",
+    "author": "Krish Dulal",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Kali Top, the historic cannon of the fort"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Makwanpurgadhi_staircase.jpg/1280px-Makwanpurgadhi_staircase.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Makwanpurgadhi_staircase.jpg",
+    "author": "Subodhpaudel123",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Staircase leading up to the fort"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Cannon_makwanpur.JPG/1280px-Cannon_makwanpur.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Cannon_makwanpur.JPG",
+    "author": "Krish Dulal",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Another cannon displayed at the fort"
+   }
+  ]
+ },
+ {
+  "slug": "upardang-gadhi",
+  "name": "Upardang Gadhi",
+  "name_np": "उपरदाङगढी",
+  "alt_names": [
+   "Upardanggadhi",
+   "Upardanggarhi",
+   "Danggarhi"
+  ],
+  "city": "Ichchhakamana Rural Municipality (near Bharatpur)",
+  "province": "Bagmati",
+  "district": "Chitwan",
+  "zone": null,
+  "lat": 27.761667,
+  "lng": 84.582778,
+  "coord_source": "Wikidata Q109658342 (P625)",
+  "type": "fort",
+  "religion": "Other",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Sources differ: Nepal Traveller credits Shatrubhanjan Shah, grandson of Prithvi Narayan Shah, during the war with the British; Ekantipur links it to the Sen era. It was Chitwan's headquarters until the early 1960s.",
+  "dynasty": "Shah (disputed; some sources say Sen)",
+  "architecture": "Hilltop fort at about 1,275 m enclosed by a carved stone wall, with a weapon house (Kot Ghar), a well, a two-room house, a gate, a wooden bridge and a temple inside; the Department of Archaeology notes its walls, defensive ditch and entry tunnel.",
+  "unesco": false,
+  "short": "Stone hill fort above the Chitwan valley, once the valley's capital and Chitwan's district headquarters until the 1960s.",
+  "story": "You have climbed to Upardang Gadhi, 1,275 metres up in the hills of northern Chitwan, about an hour's ride from Bharatpur. Look down: the whole Chitwan valley spreads out below, and this is why the fort was built here. Before Nepal's unification, this valley was its own small kingdom, and its historic capital was right here at Upardang. Walk along the low stone walls. Historians do not fully agree on who built them. One account credits Shatrubhanjan Shah, grandson of Prithvi Narayan Shah, who strengthened the fort during the war with the British; another links it to the earlier Sen kings. Inside, find the old weapon house, the well and the small temple. Until the early 1960s this was Chitwan's district headquarters, and land revenue was collected here long after. Cannons and shells have been recovered from the site, and restoration began in 2023 with the Department of Archaeology.",
+  "legend": null,
+  "facts": [
+   "Before Nepal's unification, Upardanggadhi was the historic capital of the Chitwan valley kingdom.",
+   "The fort sits at about 1,275 m above sea level.",
+   "It was Chitwan's district headquarters until the early 1960s, before the move to Bharatpur.",
+   "Cannons, shells and old weapons have been recovered from the fort.",
+   "Renovation in coordination with the Department of Archaeology began in 2023."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 60,
+   "hours_note": "Open-air hill fort in ward 7 of Ichchhakamana Rural Municipality, about an hour by road from Bharatpur; no official hours found.",
+   "fee_note": "No published entry fee found in the sources consulted."
+  },
+  "earthquake_2015": null,
+  "festivals": [],
+  "quiz": [
+   {
+    "q": "In which district is Upardang Gadhi?",
+    "options": [
+     "Makwanpur",
+     "Chitwan",
+     "Dhading",
+     "Tanahun"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The fort is in the hills of Chitwan District."
+   },
+   {
+    "q": "Upardang Gadhi was the historic capital of which valley?",
+    "options": [
+     "Kathmandu Valley",
+     "Chitwan Valley",
+     "Pokhara Valley",
+     "Dang Valley"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Before unification, the Chitwan valley kingdom's capital was at Upardanggadhi."
+   },
+   {
+    "q": "Until about when was the fort Chitwan's district headquarters?",
+    "options": [
+     "The 1860s",
+     "The 1910s",
+     "The early 1960s",
+     "The 1990s"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The headquarters moved to Bharatpur after the early 1960s."
+   },
+   {
+    "q": "About how high is Upardang Gadhi?",
+    "options": [
+     "275 m",
+     "1,275 m",
+     "2,275 m",
+     "3,275 m"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The fort is about 1,275 m above sea level."
+   },
+   {
+    "q": "Which grandson of Prithvi Narayan Shah is credited by one source with building the fort?",
+    "options": [
+     "Rana Bahadur Shah",
+     "Shatrubhanjan Shah",
+     "Bhimsen Thapa",
+     "Bahadur Shah"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "Nepal Traveller credits Shatrubhanjan Shah, son of Bahadur Shah."
+   }
+  ],
+  "clues": [
+   "From my stone walls high in the hills you can see the whole jungle valley I once ruled as its capital.",
+   "District officials worked inside my walls until the 1960s, when they moved down to the plains at Bharatpur."
+  ],
+  "sources": [
+   "https://www.wikidata.org/wiki/Q109658342",
+   "https://en.wikipedia.org/wiki/Chitwan_Valley",
+   "https://www.nepaltraveller.com/news/renovation-of-upardanggarhi-chitwans-historical-fort",
+   "https://ekantipur.com/news/2026/01/08/en/chandi-cannon-rises-above-danggarhi-photos-08-57.html",
+   "https://commons.wikimedia.org/wiki/Category:Upardanggadhi"
+  ],
+  "model": {
+   "kind": "fort",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": 2,
+   "footprint_m": [
+    60,
+    40
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#4A4540",
+    "#B49A62",
+    "#6E7C5A"
+   ],
+   "features": [],
+   "surroundings": [
+    "hilltop",
+    "forest"
+   ],
+   "notes": "Low dark stone walls outlining rectangular rooms and a compound on a dry grassy hilltop, with hazy forested ridges behind."
+  },
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Upardanggadhi_Chitwan_20180303_095440.jpg/1280px-Upardanggadhi_Chitwan_20180303_095440.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Upardanggadhi_Chitwan_20180303_095440.jpg",
+   "author": "Bharatadhikarimb",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Upardanggadhi.jpg/1280px-Upardanggadhi.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Upardanggadhi.jpg",
+    "author": "Dhrubaadhikary",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Upardanggadhi fort, Chitwan"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Upardanggadhi_Chitwan_20180303_092501.jpg/1280px-Upardanggadhi_Chitwan_20180303_092501.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Upardanggadhi_Chitwan_20180303_092501.jpg",
+    "author": "Bharatadhikarimb",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Remains inside the fort"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Upardanggadhi_Chitwan_20180303_103959.jpg/1280px-Upardanggadhi_Chitwan_20180303_103959.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Upardanggadhi_Chitwan_20180303_103959.jpg",
+    "author": "Bharatadhikarimb",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone walls of the fort"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Upardanggadhi_Chitwan_20180303_104006.jpg/1280px-Upardanggadhi_Chitwan_20180303_104006.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Upardanggadhi_Chitwan_20180303_104006.jpg",
+    "author": "Bharatadhikarimb",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Fort grounds on the hilltop"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Upardanggadhi_Chitwan_20180303_104630.jpg/1280px-Upardanggadhi_Chitwan_20180303_104630.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Upardanggadhi_Chitwan_20180303_104630.jpg",
+    "author": "Bharatadhikarimb",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "View around Upardanggadhi"
+   }
+  ]
+ }
+]

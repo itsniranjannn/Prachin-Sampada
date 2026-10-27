@@ -1,0 +1,152 @@
+/* Hamro Prachin Sampada design tokens.
+   Palette pairs (from the brief): Plum + Milk, Wine Red + Light Sand, Persian + Ghost, Lilac + Lavender + Midnight.
+   Roles: Milk is the page, Plum is the text and the deep surfaces, Wine Red is the call to action, Persian carries links
+   and info, Lilac and Lavender light up dark surfaces, Light Sand draws ornament lines, Midnight is the night sky.
+   Contrast (WCAG): plum-900 on milk 15.6:1, wine-700 on milk 10.6:1, milk on wine-700 10.6:1, persian-700 on milk 12.9:1,
+   lilac-300 on night-950 11.4:1, sand on plum-800 12.1:1. Lilac-500 is never body text on milk (2.6:1). */
+:root {
+  --plum-950: #1a0b17;
+  --plum-900: #261024;
+  --plum-800: #381932;
+  --plum-700: #4e2546;
+  --plum-600: #6a3560;
+  --plum-300: #b48aa9;
+
+  --wine-800: #5e0117;
+  --wine-700: #81021f;
+  --wine-600: #9c1a35;
+  --wine-300: #d98a9a;
+  --wine-100: #f7dfe3;
+
+  --lilac-600: #8d5cf0;
+  --lilac-500: #ae7fff;
+  --lilac-300: #d2b8ff;
+  --lilac-100: #f4e7f1;
+
+  --persian-800: #1b1060;
+  --persian-700: #27187e;
+  --persian-500: #4a3ab0;
+  --persian-100: #e3e0f7;
+
+  --night-950: #000022;
+  --night-900: #010044;
+  --ghost: #f7f7ff;
+
+  --milk: #fff3e6;
+  --milk-card: #fffaf4;
+  --sand: #f6ebcf;
+  --sand-100: #fbf5e6;
+  --sand-600: #c9b27a;
+  --sand-700: #a8915a;
+  --ink: #261024;
+  --ink-3: #6b5566;
+  --tulsi: #2f7a4f;
+
+  /* prayer-flag categorical palette for Buddhist sites, always in canonical order */
+  --flag-1: #2f6db5;
+  --flag-2: #e9e4d8;
+  --flag-3: #c0392b;
+  --flag-4: #2e8b57;
+  --flag-5: #e2b33c;
+
+  /* semantic (light) */
+  --bg: var(--milk);
+  --bg-2: var(--sand);
+  --card: var(--milk-card);
+  --card-2: #fbeedd;
+  --text: var(--ink);
+  --muted: var(--ink-3);
+  --line: rgba(56, 25, 50, 0.12);
+  --line-strong: rgba(56, 25, 50, 0.26);
+  --brand: var(--plum-800);
+  --brand-ink: var(--milk);
+  --primary: var(--wine-700);
+  --primary-ink: var(--milk);
+  --accent: var(--wine-700);
+  --link: var(--persian-700);
+  --orn: var(--sand-600);
+  --info: var(--persian-700);
+  --ok: var(--tulsi);
+  --warn: #9a5b00;
+  --err: var(--wine-600);
+  --focus: var(--lilac-600);
+  --header: rgba(255, 243, 230, 0.8);
+  --dark-band: var(--plum-900);
+
+  /* type: Cormorant Garamond (display), Jost (UI and body), Martel (Devanagari display and shlokas),
+     Hind (Nepali body) */
+  --font-display: 'Cormorant Garamond', 'Martel', Georgia, serif;
+  --font-heading: 'Cormorant Garamond', 'Martel', Georgia, serif;
+  --font-body: 'Jost', 'Hind', system-ui, sans-serif;
+  --font-np: 'Hind', 'Jost', sans-serif;
+  --font-np-display: 'Martel', 'Hind', serif;
+  --font-script: 'Martel', serif;
+  --font-stamp: 'Cormorant Garamond', serif;
+
+  /* scale: Cormorant runs small, so display sizes are set larger than usual */
+  --fs-hero: clamp(3rem, 1.6rem + 5.6vw, 6.4rem);
+  --fs-h1: clamp(2.6rem, 1.7rem + 3.6vw, 4.8rem);
+  --fs-h2: clamp(2.1rem, 1.5rem + 2.2vw, 3.4rem);
+  --fs-h3: clamp(1.55rem, 1.3rem + 0.8vw, 2rem);
+  --fs-h4: 1.2rem;
+  --fs-h5: 1.04rem;
+  --fs-eyebrow: 0.74rem;
+  --fs-body: 1.02rem;
+  --fs-small: 0.9rem;
+  --fs-cap: 0.8rem;
+
+  --radius-s: 8px;
+  --radius: 14px;
+  --radius-l: 20px;
+  --radius-xl: 28px;
+  --arch: 999px 999px var(--radius) var(--radius);
+  --shadow-1: 0 1px 2px rgba(38, 16, 36, 0.06), 0 4px 12px rgba(38, 16, 36, 0.05);
+  --shadow-2: 0 18px 40px -18px rgba(38, 16, 36, 0.35), 0 3px 8px rgba(38, 16, 36, 0.06);
+  --shadow-3: 0 40px 80px -30px rgba(26, 11, 23, 0.55);
+  --glow: 0 0 0 4px rgba(174, 127, 255, 0.28);
+  --ease: cubic-bezier(0.22, 0.9, 0.24, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --wrap: 1240px;
+  --nav-h: 76px;
+}
+
+/* dark: Ratri (midnight and plum, lilac light) */
+:root[data-theme='dark'] {
+  --bg: #0b0420;
+  --bg-2: #120a2e;
+  --card: #170d33;
+  --card-2: #1f1440;
+  --text: #fff3e6;
+  --muted: #c1b3cf;
+  --line: rgba(210, 184, 255, 0.14);
+  --line-strong: rgba(210, 184, 255, 0.3);
+  --brand: var(--plum-800);
+  --primary: var(--lilac-500);
+  --primary-ink: var(--night-950);
+  --accent: var(--lilac-300);
+  --link: var(--lilac-300);
+  --orn: rgba(246, 235, 207, 0.45);
+  --info: var(--lilac-300);
+  --ok: #6fcf97;
+  --warn: #f2c26b;
+  --err: #ff8fa3;
+  --header: rgba(11, 4, 32, 0.8);
+  --dark-band: #06021a;
+  color-scheme: dark;
+}
+
+/* Dhoop (sun) mode: high contrast and larger type for reading outdoors */
+:root[data-theme='dhoop'] {
+  --bg: #ffffff;
+  --bg-2: #f7f7ff;
+  --card: #ffffff;
+  --card-2: #f7f7ff;
+  --text: #000;
+  --muted: #2b1b29;
+  --line: rgba(0, 0, 0, 0.28);
+  --line-strong: rgba(0, 0, 0, 0.5);
+  --link: var(--persian-800);
+  --fs-body: 1.14rem;
+  --fs-small: 1rem;
+  --header: rgba(255, 255, 255, 0.97);
+}
