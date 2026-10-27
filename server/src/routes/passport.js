@@ -23,7 +23,7 @@ r.post('/stamp/:slug', requireAuth, ah(async (req, res) => {
   if (pos && Number.isFinite(Number(pos.lat)) && Number.isFinite(Number(pos.lng))) {
     const p = { lat: Number(pos.lat), lng: Number(pos.lng), accuracy: Math.min(150, Number(pos.accuracy) || 0) };
     if (!isAtSite(p, m)) {
-      return res.status(422).json({ error: `You are about ${Math.round(haversine(p, m))} m away. Get closer to stamp with GPS, or stamp manually.`, metres: Math.round(haversine(p, m)) });
+      return res.status(422).json({ error: `You are about ${(() => { const d = Math.round(haversine(p, m)); return d >= 1000 ? `${(d / 1000).toFixed(d >= 10000 ? 0 : 1)} km` : `${d} m`; })()} away. Get within about 60 m to stamp with GPS, or use "I am here".`, metres: Math.round(haversine(p, m)) });
     }
     method = 'gps';
   }

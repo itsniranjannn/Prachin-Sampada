@@ -70,7 +70,7 @@ export default function Monument() {
     setBusy('stamp');
     navigator.geolocation.getCurrentPosition(
       (p) => send({ lat: p.coords.latitude, lng: p.coords.longitude, accuracy: p.coords.accuracy }),
-      () => { setBusy(''); toast('Location was not shared. You can still stamp with "I am here".', 'err'); },
+      (e) => { setBusy(''); toast(e.code === 1 ? 'Location permission is blocked. Allow it in the browser address bar, or stamp with "I am here".' : 'Could not get a GPS fix. Move to open sky and retry, or stamp with "I am here".', 'err', 6000); },
       { enableHighAccuracy: true, timeout: 12000 },
     );
   };
@@ -143,7 +143,7 @@ export default function Monument() {
               {narrator.supported ? (
                 <div className="row">
                   {narrator.playing && !narrator.paused ? <button className="btn sm" onClick={narrator.pause}><Pause size={15} /> Pause</button>
-                    : <button className="btn sm diyo" onClick={() => (narrator.paused ? narrator.resume() : narrator.play(narrator.chapter || 0))}><Play size={15} /> {narrator.paused ? t('Resume', 'जारी राख्नुहोस्') : t('Listen', 'सुन्नुहोस्')}</button>}
+                    : <button className="btn sm diyo" onClick={() => (narrator.paused ? narrator.resume() : narrator.play(narrator.progress >= 1 ? 0 : narrator.chapter || 0))}><Play size={15} /> {narrator.paused ? t('Resume', 'जारी राख्नुहोस्') : t('Listen', 'सुन्नुहोस्')}</button>}
                   {narrator.playing && <button className="icon-btn" onClick={narrator.stop} aria-label="Stop"><Square size={14} /></button>}
                 </div>
               ) : <span className="cap">Your browser has no speech voice; read the story below.</span>}
@@ -156,6 +156,7 @@ export default function Monument() {
                 </button>
               ))}
             </div>
+            {narrator.noVoice && <p className="cap error-text" style={{ marginTop: '0.6rem' }}>This device has no Nepali voice installed, so it cannot read Nepali aloud. Switch to English, or add a Nepali or Hindi voice in your system speech settings.</p>}
             {narrator.supported && (
               <label className="cap row" style={{ marginTop: '0.6rem' }}>Speed
                 <input type="range" min="0.7" max="1.3" step="0.05" value={narrator.rate} onChange={(e) => narrator.setRate(Number(e.target.value))} aria-label="Reading speed" />

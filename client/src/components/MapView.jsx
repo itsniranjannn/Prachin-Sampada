@@ -62,9 +62,12 @@ const MapView = forwardRef(function MapView({
     } catch (e) { setFailed(true); return undefined; }
     map.current = m;
     if (interactive) m.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'bottom-right');
-    const t = setTimeout(() => { if (!m.isStyleLoaded()) setFailed(true); }, 12000);
+    let ready = false;
+    const t = setTimeout(() => { if (!ready) setFailed(true); }, 15000);
     m.on('load', () => {
+      ready = true;
       clearTimeout(t);
+      setFailed(false);
       setLoaded(true);
       // warm golden-hour feel: tint 3D buildings with brick and timber
       const layers = m.getStyle().layers || [];
@@ -77,7 +80,7 @@ const MapView = forwardRef(function MapView({
       }
       if (m.getLayer('background')) m.setPaintProperty('background', 'background-color', '#f6ebcf');
     });
-    m.on('error', (e) => { if (String(e?.error?.message || '').includes('style')) setFailed(true); });
+    m.on('error', (e) => { if (!ready && String(e?.error?.message || '').includes('style')) setFailed(true); });
     m.on('click', (e) => cb.current.onMapClick?.({ lat: e.lngLat.lat, lng: e.lngLat.lng }));
     m.on('zoomend', () => setZoomStep(Math.floor(m.getZoom() * 2) / 2));
     // keep the canvas matched to its box (panels, page transitions and rotation change it)

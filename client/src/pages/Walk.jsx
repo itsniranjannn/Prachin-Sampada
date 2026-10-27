@@ -10,6 +10,7 @@ import { useToast, announceBadges } from '../lib/toast.jsx';
 import { useT } from '../lib/prefs.jsx';
 import { Loader } from '../components/Shell.jsx';
 import { Epigraph } from '../components/Shloka.jsx';
+import { Dropdown, TimePicker } from '../components/Pickers.jsx';
 
 const STARTS = [
   { key: 'kds', name: 'Basantapur (Kathmandu Durbar Sq.)', lat: 27.7041, lng: 85.3069 },
@@ -55,6 +56,7 @@ export default function Walk() {
   useEffect(() => { api('/monuments').then((d) => setAll(d.results)).catch(() => {}); }, []);
 
   const run = async () => {
+    if (endTime <= startTime) { setErr('The end time must be later than the start time (same day).'); return; }
     setBusy(true); setErr('');
     try {
       const body = { start: { lat: start.lat, lng: start.lng }, startTime, endTime, returnToStart: ret, ...(mode === 'places' ? { monumentIds: picked } : { interests }) };
@@ -85,32 +87,34 @@ export default function Walk() {
   const gmaps = plan?.stops.length ? `https://www.google.com/maps/dir/?api=1&origin=${start.lat},${start.lng}&destination=${plan.stops.at(-1).monument.lat},${plan.stops.at(-1).monument.lng}&waypoints=${plan.stops.slice(0, -1).map((s) => `${s.monument.lat},${s.monument.lng}`).join('|')}&travelmode=walking` : '#';
   const filtered = all.filter((m) => !picked.includes(m.id) && (!q || `${m.name} ${m.name_np} ${m.city}`.toLowerCase().includes(q.toLowerCase()))).slice(0, 6);
 
-  const locate = () => navigator.geolocation?.getCurrentPosition((p) => { setStart({ key: 'me', name: 'My location', lat: p.coords.latitude, lng: p.coords.longitude }); setPlan(null); }, () => toast('Location was not shared', 'err'), { enableHighAccuracy: true, timeout: 9000 });
+  const locate = () => !navigator.geolocation ? toast('This browser has no location support. Pick a place from the list.', 'err') : navigator.geolocation.getCurrentPosition((p) => { setStart({ key: 'me', name: 'My location', lat: p.coords.latitude, lng: p.coords.longitude }); setPlan(null); }, (e) => toast(e.code === 1 ? 'Location permission is blocked. Allow it in the browser address bar, or pick a place from the list.' : 'Could not find your location. Pick a place from the list or tap the map.', 'err', 6000), { enableHighAccuracy: true, timeout: 9000 });
 
   return (
     <div className="page walk">
       <div className="wrap">
         <div className="page-head">
           <div className="eyebrow">Heritage yatra planner · यात्रा योजना</div>
-          <h1 style={{ fontSize: 'var(--fs-h2)' }}>{t('Plan the best yatra for the hours you have', 'तपाईंसँग भएको समयमा उत्तम यात्रा')}</h1>
+          <h1 style={{ fontSize: 'var(--fs-h2)', maxWidth: '24ch', textWrap: 'balance' }}>{t('Plan the best yatra for the hours you have', 'तपाईंसँग भएको समयमा उत्तम यात्रा')}</h1>
             <Epigraph index={3} />
           <p className="lead" style={{ maxWidth: 720 }}>Start in any heritage town in Nepal, then pick places or just your interests. The planner chooses what fits, orders it for the shortest walk, waits for opening times and tells you when a taxi beats walking.</p>
         </div>
         <div className="walk-grid">
           <div className="card pad-l walk-form">
             <h5>1 · Where do you start?</h5>
-            <div className="chips-row">
-              {STARTS.map((s) => <button key={s.key} className={`chip ${start.key === s.key ? 'on' : ''}`} onClick={() => { setStart(s); setPlan(null); }}>{s.name.split(' (')[0]}</button>)}
-              <button className={`chip ${start.key === 'me' ? 'on' : ''}`} onClick={locate}><Locate size={13} /> My location</button>
-              <button className={`chip ${pickOnMap ? 'on' : ''}`} onClick={() => setPickOnMap(!pickOnMap)}><MapPin size={13} /> Tap the map</button>
+            <div className="start-row">
+              <Dropdown id="start-place" label="Starting place" value={start.key} display={start.key === 'me' || start.key === 'map' ? start.name : undefined}
+                options={STARTS.map((s) => ({ value: s.key, label: s.name }))}
+                onChange={(k) => { setStart(STARTS.find((x) => x.key === k)); setPlan(null); setPickOnMap(false); }} />
+              <button type="button" className={`chip ${start.key === 'me' ? 'on' : ''}`} onClick={locate}><Locate size={13} /> My location</button>
+              <button type="button" className={`chip ${pickOnMap ? 'on' : ''}`} onClick={() => setPickOnMap(!pickOnMap)}><MapPin size={13} /> Tap the map</button>
             </div>
             {pickOnMap && <p className="cap" style={{ marginTop: '0.4rem' }}>Tap anywhere on the map to set your start.</p>}
             <p className="cap" style={{ marginTop: '0.4rem' }}>Start: <b>{start.name}</b></p>
 
             <h5 style={{ marginTop: '1.2rem' }}>2 · Your time window</h5>
             <div className="row">
-              <label className="field" style={{ flex: 1 }}><span className="cap">From</span><input className="input" type="time" value={startTime} onChange={(e) => setStartTime(e.target.value)} /></label>
-              <label className="field" style={{ flex: 1 }}><span className="cap">Until</span><input className="input" type="time" value={endTime} onChange={(e) => setEndTime(e.target.value)} /></label>
+              <div className="field" style={{ flex: 1 }}><span className="cap">From</span><TimePicker label="From" value={startTime} onChange={setStartTime} /></div>
+              <div className="field" style={{ flex: 1 }}><span className="cap">Until</span><TimePicker label="Until" value={endTime} onChange={setEndTime} /></div>
             </div>
             <label className="row cap" style={{ marginTop: '0.6rem' }}><input type="checkbox" checked={ret} onChange={(e) => setRet(e.target.checked)} /> Come back to the start at the end</label>
 

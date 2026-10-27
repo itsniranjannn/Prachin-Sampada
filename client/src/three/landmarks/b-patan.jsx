@@ -11,9 +11,9 @@ export default function make(K) {
   /* ------------------------------------------------------------------ textures and materials */
   const brickM = (M, rx = 2, ry = 1, c = '#e6b097') => M.mat('brick', rx, ry, { color: c });
   const stoneM = (M, rx = 1, ry = 1, c = '#d6c9ad') => M.mat('plaster', rx * 2, ry * 2, { color: c, roughness: 0.95 });
-  const tileM = (M, c = '#bb8466', rx = 3, ry = 3) => M.mat('roof', rx, ry, { color: c });
+  const tileM = (M, c = '#cf9a72', rx = 3, ry = 3) => M.mat('roof', rx, ry, { color: c });
   const timberM = (M, c = '#4a2a16') => M.plain(c, { roughness: 0.8 });
-  const paveM = (M, rx, ry, c = '#e4b9a2') => M.mat('herring', rx, ry, { color: c });
+  const paveM = (M, rx, ry, c = '#e2c4ae') => M.mat('herring', rx, ry, { color: c });
 
   const mk = (w, h, fn) => {
     const c = document.createElement('canvas');
@@ -458,7 +458,7 @@ export default function make(K) {
       <group>
         <Inst items={wb} m={brickM(M, 2, 2, '#d99d80')} cast />
         <Inst items={wp} m={M.plain('#e9dcc6', { roughness: 0.9 })} cast />
-        <Inst items={rf} m={tileM(M, '#b27a60', 2, 2)} kind="cone4" cast />
+        <Inst items={rf} m={tileM(M, '#c28a66', 2, 2)} kind="cone4" cast />
         <Inst items={fr} m={timberM(M)} />
         <Inst items={lt} m={latMat()} />
       </group>
@@ -507,7 +507,7 @@ export default function make(K) {
         <Inst items={dk} m={M.plain('#1b0f08')} />
         <Inst items={tri} m={timberM(M)} />
         <Inst items={st} m={timberM(M)} />
-        <HipRoof w={len} d={d} h={roofH} y={H} ov={0.95} m={tileM(M, '#bb8466', 4, 4)} />
+        <HipRoof w={len} d={d} h={roofH} y={H} ov={0.95} m={tileM(M, '#cf9a72', 4, 4)} />
         {doors.map((q, i) => (
           <group key={i} position={[q.x, 0, d / 2]}>
             <Box s={[1.5, 1.7, 0.1]} p={[0, 0.9, 0.03]} m={timberM(M, '#3a1e10')} />
@@ -690,9 +690,7 @@ export default function make(K) {
               <mesh rotation={[-Math.PI / 2, 0, 0]} position={[4, -0.01, 8]} receiveShadow material={paveM(M, 22, 8)}><planeGeometry args={[84, 36]} /></mesh>
               <mesh rotation={[-Math.PI / 2, 0, 0]} position={[4, -0.02, 8]} receiveShadow material={M.mat('stone', 40, 20, { color: '#e3d6bd' })}><planeGeometry args={[140, 80]} /></mesh>
               <GroundDisc r={110} y={-0.05} m={M.mat('grass', 40, 40, { color: '#b9bd90' })} />
-              {[[-60, -70, 26, 14], [-10, -85, 40, 20], [50, -75, 30, 15], [90, -30, 24, 12], [-95, -20, 28, 13]].map(([x, z, r, h], i) => (
-                <mesh key={i} position={[x, h / 2 - 2, z]} material={M.mat('grass', 6, 3, { color: '#8fa86a' })}><coneGeometry args={[r, h, 9]} /></mesh>
-              ))}
+<Backdrop />
               <Town list={town} />
             </>
           )}
@@ -711,6 +709,34 @@ export default function make(K) {
           ))}
           {has('taleju') && <group {...at('taleju', Math.PI)}><TalejuTemple lod={lod} /></group>}
         </group>
+      </group>
+    );
+  }
+
+  /** Valley rim hills with the snowy Himalaya behind (north, -z) and a second ring of Newar houses around the square. */
+  function Backdrop() {
+    const M = useM();
+    const hill = M.plain('#58744b', { roughness: 1, flatShading: true });
+    const far = M.plain('#7d8fa3', { roughness: 1, flatShading: true });
+    const snow = M.plain('#f2f5fa', { roughness: 0.6 });
+    const peaks = [[-120, -190, 50, 60], [-50, -210, 60, 80], [30, -200, 55, 66], [100, -195, 50, 58], [165, -170, 46, 50], [-175, -150, 44, 48]];
+    const hills = [[-85, -110, 38, 26], [-20, -125, 50, 32], [55, -115, 40, 26], [110, -75, 34, 22], [-120, -60, 34, 20], [-100, 70, 40, 22], [120, 70, 36, 20]];
+    const ring = useMemo(() => [
+      ...houseRow(-36, -16.5, 3.5, 0.3, 18, 0, 11, 4),
+      ...houseRow(-42, -6, 0, 3.7, 6, Math.PI / 2, 13, 4),
+      ...houseRow(51, -6, 0, 3.7, 7, -Math.PI / 2, 15, 4),
+      ...houseRow(-34, 41, 3.7, 0, 18, Math.PI, 17, 4),
+    ], []);
+    return (
+      <group>
+        {hills.map(([x, z, r, h], i) => <mesh key={`h${i}`} position={[x, h / 2 - 3, z]} material={hill}><coneGeometry args={[r, h, 7]} /></mesh>)}
+        {peaks.map(([x, z, r, h], i) => (
+          <group key={`p${i}`} position={[x, -3, z]}>
+            <mesh position={[0, h / 2, 0]} material={far}><coneGeometry args={[r, h, 6]} /></mesh>
+            <mesh position={[0, h * 0.72, 0]} material={snow}><coneGeometry args={[r * 0.56, h * 0.56, 6]} /></mesh>
+          </group>
+        ))}
+        <Town list={ring} sh={1.0} />
       </group>
     );
   }
@@ -740,9 +766,7 @@ export default function make(K) {
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[4, -0.01, 8]} receiveShadow material={paveM(M, 22, 8)}><planeGeometry args={[84, 36]} /></mesh>
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[4, -0.02, 8]} receiveShadow material={M.mat('stone', 40, 20, { color: '#e3d6bd' })}><planeGeometry args={[140, 80]} /></mesh>
         <GroundDisc r={110} y={-0.05} m={M.mat('grass', 40, 40, { color: '#b9bd90' })} />
-        {[[-60, -70, 26, 14], [-10, -85, 40, 20], [50, -75, 30, 15], [90, -30, 24, 12], [-95, -20, 28, 13]].map(([x, z, r, h], i) => (
-          <mesh key={i} position={[x, h / 2 - 2, z]} material={M.mat('grass', 6, 3, { color: '#8fa86a' })}><coneGeometry args={[r, h, 9]} /></mesh>
-        ))}
+<Backdrop />
         <SquareTown />
       </group></group>
     );
@@ -807,7 +831,7 @@ export default function make(K) {
       });
       return { fr, lt, dk, st, cols, outF, outL };
     }, [faces, storeys, sh, ground, H, d, w, zc, Ls]);
-    const tile = tileM(M, '#bb8466', 4, 4);
+    const tile = tileM(M, '#cf9a72', 4, 4);
     const bm = brickM(M, 4, storeys * 1.2, tint);
     return (
       <group>

@@ -62,6 +62,26 @@ export default function make(K) {
   };
   const useCMat = (key, w, h, draw) => useMemo(() => new THREE.MeshStandardMaterial({ map: cv(w, h, draw), roughness: 0.9 }), [key]); // eslint-disable-line
 
+  let PAVER = null;
+  /** Sandy herringbone brick paving of the Bhaktapur squares. */
+  const paverMat = (rep = 40) => {
+    if (!PAVER) {
+      const t = cv(256, 256, (g, w, h) => {
+        g.fillStyle = '#c99a6c'; g.fillRect(0, 0, w, h);
+        for (let r = 0; r < 32; r += 1) {
+          for (let c = 0; c < 16; c += 1) {
+            g.fillStyle = shade('#d9ab7c', (R(r * 17 + c, 9) - 0.5) * 0.22);
+            const x = c * 16; const y = r * 8;
+            if ((r + c) % 2) g.fillRect(x + 1, y + 1, 14, 6); else { g.fillRect(x + 4, y, 8, 8); g.fillStyle = 'rgba(120,80,50,0.25)'; g.fillRect(x + 4, y, 1, 8); }
+          }
+        }
+      });
+      t.repeat.set(rep, rep);
+      PAVER = new THREE.MeshStandardMaterial({ map: t, roughness: 0.95 });
+    }
+    return PAVER;
+  };
+
   /** Newar house, two meshes: a painted front and a tiled roof. Faces +z. */
   function Bld({ p = [0, 0, 0], r = 0, w = 2.8, d = 2.2, st = 3, base = '#b8664a', plaster = false, roof = '#8a5e4c', ov = 0.3 }) {
     const M = useM();
@@ -431,8 +451,8 @@ export default function make(K) {
   /** Vatsala Durga: stone shikhara on a three-step plinth, pillared porch, animal guardians up the stairs. Faces +z. */
   function VatsalaT() {
     const M = useM();
-    const st = M.mat('granite', 2, 2, { color: '#ffffff' });
-    const dk = M.mat('granite', 2, 2, { color: '#d8d0c2' });
+    const st = M.plain('#c4bcab', { roughness: 0.9 });
+    const dk = M.plain('#a8a090', { roughness: 0.9 });
     const lv = [{ w: 5.4, d: 5.4 }, { w: 4.8, d: 4.8 }, { w: 4.2, d: 4.2 }];
     return (
       <group>
@@ -518,8 +538,10 @@ export default function make(K) {
             <group position={[13.5, 0, 1.5]} rotation={[0, -0.25, 0]}><BrickShik /></group>
             <group position={[10.5, 0, -10.5]}><OctaMandap s={1.0} /></group>
             <group position={[-17.6, 0, 1]} rotation={[0, 0.35, 0]}>
-              <Box s={[4.6, 0.5, 4.6]} p={[0, 0.25, 0]} m={M.mat('brick', 3, 1, { color: '#f2c2a6' })} />
-              <Pag y0={0.5} tiers={[{ w: 2.6, d: 2.6, wh: 1.2, ov: 0.95, rh: 0.7 }, { w: 1.9, d: 1.9, wh: 0.9, ov: 0.75, rh: 0.65 }]} porch={4} finial={0.9} />
+              {[0, 1, 2].map((i) => <Box key={i} s={[6.2 - i * 0.8, 0.22, 6.2 - i * 0.8]} p={[0, 0.11 + i * 0.22, 0]} m={M.mat('brick', 3, 1, { color: '#f2c2a6' })} />)}
+              <Stairs w={1.8} z0={3.9} z1={2.5} y1={0.66} n={3} m={M.stone} />
+              {[-1, 1].map((k) => <group key={k} position={[k * 1.3, 0.2, 3.3]} scale={1.2}><Lion m={M.stone} /></group>)}
+              <Pag y0={0.66} tiers={[{ w: 2.6, d: 2.6, wh: 1.2, ov: 0.95, rh: 0.7 }, { w: 1.9, d: 1.9, wh: 0.9, ov: 0.75, rh: 0.65 }]} porch={4} finial={0.9} />
             </group>
           </>
         )}
@@ -529,8 +551,8 @@ export default function make(K) {
   function DurbarMain() {
     return (
       <group>
-        <group scale={0.62} position={[1.3, 0, 2.6]}><SquareThings /></group>
-        <Frame s={[22, 6.2, 13]} p={[0, 3.1, 0]} />
+        <group scale={0.85} position={[1.5, 0, 3]}><SquareThings /></group>
+        <Frame s={[30, 8, 14]} p={[0, 4, -1]} />
       </group>
     );
   }
@@ -538,7 +560,7 @@ export default function make(K) {
     const M = useM();
     return (
       <group>
-        <Floor r={44} />
+        <Floor r={44} mat={paverMat(44)} />
         <Hills />
         <ArcadedHall x={-27} z={-2} ry={Math.PI / 2} n={9} />
         <Row x={-3} z={-16.5} ry={0} n={14} step={3.1} seed={3} smin={3} smax={4} />
@@ -568,7 +590,7 @@ export default function make(K) {
   function PalaceEnv() {
     return (
       <group>
-        <Floor r={40} />
+        <Floor r={40} mat={paverMat(40)} />
         <Hills />
         <Row x={0} z={-17} ry={0} n={11} step={3.1} seed={4} smin={3} smax={4} />
         <Row x={-22} z={-4} ry={Math.PI / 2} n={5} step={3.2} seed={6} smin={2} smax={3} plasterP={0.8} />
@@ -595,7 +617,7 @@ export default function make(K) {
   function GoldenEnv() {
     return (
       <group>
-        <Floor r={34} />
+        <Floor r={34} mat={paverMat(34)} />
         <group position={[6, 0, 5.4]} rotation={[0, Math.PI, 0]}><KingPillar /></group>
         <group position={[12, 0, 9]} rotation={[0, 0.3, 0]}><VatsalaT /></group>
         <Hills r={60} />
@@ -617,7 +639,7 @@ export default function make(K) {
   function VatsalaEnv() {
     return (
       <group>
-        <Floor r={36} />
+        <Floor r={36} mat={paverMat(36)} />
         <Hills />
         <group position={[4, 0, -10]}><Palace55 /></group>
         <group position={[-8.5, 0, -10]}><GGate s={0.95} /></group>
@@ -681,7 +703,7 @@ export default function make(K) {
     const M = useM();
     return (
       <group>
-        <Floor r={44} />
+        <Floor r={44} mat={paverMat(44)} />
         <Hills seed={4} />
         {focus !== 'nyat' && <group position={[20, 0, 10]} rotation={[0, -Math.PI / 2, 0]}><NyatBody /></group>}
         {focus !== 'bhair' && <group position={[17, 0, 7]} rotation={[0, -Math.PI / 2, 0]}><BhairBody /></group>}
@@ -831,7 +853,7 @@ export default function make(K) {
     const M = useM();
     return (
       <group>
-        <Floor r={44} />
+        <Floor r={44} mat={paverMat(44)} />
         <Hills seed={6} />
         <Row x={-9.5} z={-0.4} n={4} step={3.4} seed={21} smin={3} smax={4} plasterP={0} />
         <Row x={9.5} z={-0.4} n={4} step={3.4} seed={22} smin={3} smax={4} plasterP={0} />
@@ -856,7 +878,7 @@ export default function make(K) {
     const M = useM();
     return (
       <group>
-        <Floor r={44} />
+        <Floor r={44} mat={paverMat(44)} />
         <Hills seed={6} />
         <Row x={-13} z={-3} ry={Math.PI / 2} n={5} step={3.3} seed={31} smin={3} smax={4} />
         <Row x={13} z={-3} ry={-Math.PI / 2} n={5} step={3.3} seed={32} smin={3} smax={4} />
@@ -884,87 +906,139 @@ export default function make(K) {
       </group>
     );
   }
-  /* --- Siddha Pokhari --- */
+  /* --- Siddha Pokhari: big rectangular tank, white stepped coping, brick walkway, small red-roofed pavilions, peepal tree --- */
+  function PokPav({ p, s = 1, r = 0 }) {
+    const M = useM();
+    return (
+      <group position={p} rotation={[0, r, 0]} scale={s}>
+        <Box s={[3.4, 0.5, 3.0]} p={[0, 0.25, 0]} m={M.plain('#efeae0')} />
+        <Box s={[2.6, 1.25, 2.2]} p={[0, 1.1, -0.2]} m={M.plain('#f3eee4', { roughness: 0.9 })} />
+        {[-1, 0, 1].map((x) => <Box key={x} s={[0.5, 0.9, 0.05]} p={[x * 0.8, 1.2, 0.92]} m={M.plain('#5a3418')} />)}
+        {[-1.3, 1.3].map((x) => <Cyl key={x} rt={0.09} h={1.3} p={[x, 1.15, 1.2]} m={M.plain('#a0482e')} seg={8} />)}
+        <Roof w={4.4} d={3.8} h={0.9} y={1.75} m={M.mat('roof', 3, 3, { color: '#b05a3c' })} sag={1.15} fascia={false} />
+      </group>
+    );
+  }
   function SiddhaMain() {
     const M = useM();
-    const W = 26; const D = 12;
-    const wall = M.plain('#f1ede4', { roughness: 0.85 });
+    const W = 32; const D = 17;
+    const wall = M.plain('#f3efe6', { roughness: 0.85 });
+    const walk = M.plain('#b98e66', { roughness: 1 });
+    const tr = M.plain('#4a3a2a', { roughness: 1 });
     return (
       <group>
-        <Water w={W} d={D} p={[0, 0.02, 0]} color="#4f7a6a" />
-        {[[0, D / 2 + 0.2, W + 1.4, 0.4], [0, -D / 2 - 0.2, W + 1.4, 0.4]].map(([x, z, w, d], i) => <Box key={i} s={[w, 0.5, d]} p={[x, 0.2, z]} m={wall} />)}
-        {[-1, 1].map((k) => <Box key={k} s={[0.4, 0.5, D]} p={[k * (W / 2 + 0.2), 0.2, 0]} m={wall} />)}
-        <Box s={[W + 3, 0.02, 2]} p={[0, 0.005, D / 2 + 1.5]} m={M.mat('herring', 10, 1, { color: '#e4b898' })} cast={false} />
-        <Box s={[W + 3, 0.02, 2]} p={[0, 0.005, -D / 2 - 1.5]} m={M.mat('herring', 10, 1, { color: '#e4b898' })} cast={false} />
-        <Pavilion p={[-8, 0.2, -D / 2 - 2.2]} s={0.9} />
-        <Pavilion p={[2, 0.2, -D / 2 - 2.2]} s={0.9} />
-        <Pavilion p={[10, 0.2, -D / 2 - 2.2]} s={0.9} />
-        <group position={[W / 2 + 2, 0, -D / 2 + 1]}><Tree p={[0, 0, 0]} s={2.6} /></group>
-        <group position={[-W / 2 - 1.5, 0, D / 2 + 1]}><Tree p={[0, 0, 0]} s={2.2} /></group>
-        <Frame s={[W + 4, 4, D + 7]} p={[0, 2, 0]} />
+        <Water w={W} d={D} p={[0, 0.02, 0]} color="#5c8c5a" />
+        {[0, 1].map((k) => (
+          <group key={k}>
+            {[1, -1].map((q) => <Box key={q} s={[W + 1.4 + k * 0.9, 0.3 + k * 0.1, 0.5]} p={[0, 0.15 + k * 0.12, q * (D / 2 + 0.25 + k * 0.4)]} m={wall} />)}
+            {[1, -1].map((q) => <Box key={q} s={[0.5, 0.3 + k * 0.1, D]} p={[q * (W / 2 + 0.25 + k * 0.4), 0.15 + k * 0.12, 0]} m={wall} />)}
+          </group>
+        ))}
+        {[1, -1].map((q) => <Box key={q} s={[W + 9, 0.04, 3.6]} p={[0, 0.02, q * (D / 2 + 2.8)]} m={walk} cast={false} />)}
+        {[1, -1].map((q) => <Box key={q} s={[3.6, 0.04, D]} p={[q * (W / 2 + 2.8), 0.02, 0]} m={walk} cast={false} />)}
+        {[0, 1, 2].map((k) => <Box key={k} s={[5, 0.12, 0.5]} p={[-6, 0.06, D / 2 - 0.2 - k * 0.45]} m={wall} cast={false} />)}
+        {[-12, -3, 6, 13].map((x, i) => <PokPav key={x} p={[x, 0, -D / 2 - 3.2]} s={0.85 + (i % 2) * 0.1} />)}
+        <PokPav p={[W / 2 + 3.2, 0, -2]} r={-Math.PI / 2} s={0.9} />
+        <PokPav p={[-W / 2 - 3.2, 0, 3]} r={Math.PI / 2} s={0.9} />
+        <group position={[W / 2 + 4, 0, D / 2 - 1]}>
+          <Cyl rt={0.55} rb={1.1} h={3.4} p={[0, 1.7, 0]} m={tr} seg={10} />
+          <Tree p={[0, 2.4, 0]} s={3.4} kind="broad" />
+        </group>
+        <group position={[-W / 2 - 4, 0, -D / 2 - 1]}><Tree p={[0, 0, 0]} s={3.0} kind="broad" /></group>
+        <Frame s={[W + 10, 4, D + 10]} p={[0, 2, 0]} />
       </group>
     );
   }
   function SiddhaEnv() {
+    const M = useM();
     return (
       <group>
-        <Floor r={44} tint="#c9b08c" rx={12} />
-        <Hills seed={7} h={7} />
-        {Array.from({ length: 22 }, (_, i) => { const a = (i / 22) * Math.PI * 2; if (front(a)) return null; return <Tree key={i} p={[Math.cos(a) * (24 + (i % 3) * 3), 0, Math.sin(a) * (22 + (i % 3) * 3)]} s={1.6 + R(i, 3)} kind={i % 4 ? 'broad' : 'pine'} />; })}
-        <Row x={0} z={-30} n={12} step={3.2} seed={41} smin={2} smax={3} />
-        <Row x={-30} z={0} ry={Math.PI / 2} n={7} step={3.2} seed={42} smin={2} smax={3} />
+        <Floor r={52} mat={M.plain('#a89468', { roughness: 1 })} />
+        <Hills seed={7} h={8} r={70} />
+        {Array.from({ length: 34 }, (_, i) => { const a = (i / 34) * Math.PI * 2; if (front(a)) return null; return <Tree key={i} p={[Math.cos(a) * (28 + (i % 3) * 3), 0, Math.sin(a) * (22 + (i % 3) * 3)]} s={1.8 + R(i, 3) * 1.4} kind={i % 5 ? 'broad' : 'pine'} />; })}
+        <Row x={-6} z={-36} n={14} step={3.2} seed={41} smin={2} smax={3} />
+        <Row x={-38} z={2} ry={Math.PI / 2} n={7} step={3.2} seed={42} smin={2} smax={3} />
+        <group position={[-20, 0, -30]}>
+          <Cyl rt={0.12} rb={0.35} h={16} p={[0, 8, 0]} m={M.plain('#c8c8c8')} seg={4} />
+          {[0, 1, 2, 3].map((k) => <Box key={k} s={[0.9 - k * 0.15, 0.3, 0.9 - k * 0.15]} p={[0, 4 + k * 3, 0]} m={M.plain('#c24a3a')} cast={false} />)}
+        </group>
       </group>
     );
   }
 
-  /* --- Dakshinkali --- */
+  /* --- Dakshinkali: shrine in a forested ravine, tin roofs, red valance, teal railings, stream pool --- */
   function DakshinMain() {
     const M = useM();
-    const grey = M.plain('#8a9096', { metalness: 0.5, roughness: 0.5 });
     const red = M.plain('#c2362b', { roughness: 0.9 });
-    const green = M.plain('#2f8a6a');
+    const teal = M.plain('#2f9a84', { roughness: 0.6 });
     const st = stoneM(M);
+    const tinM = useCMat('tin', 128, 128, (g, w, h) => { g.fillStyle = '#9aa0a6'; g.fillRect(0, 0, w, h); for (let i = 0; i < 16; i += 1) { g.fillStyle = i % 2 ? '#b4b9be' : '#7e848a'; g.fillRect(i * 8, 0, 8, h); } });
     return (
       <group>
-        <Box s={[16, 0.3, 11]} p={[0, 0.15, -1]} m={M.mat('stone', 4, 3, { color: '#e0d6c4' })} />
-        <group position={[0, 0.3, -3.4]}>
-          <Box s={[8, 1.6, 3.4]} p={[0, 0.8, 0]} m={M.mat('granite', 3, 1, { color: '#f0e8d8' })} />
-          <Box s={[8.4, 0.08, 4]} p={[0, 1.7, 0.1]} m={red} />
-          <Roof w={9} d={4.8} h={0.95} y={1.65} m={grey} sag={1.05} lift={0} fascia={false} />
-          <Box s={[1.8, 1.5, 1.8]} p={[0, 2.8, 0]} m={M.plain('#3a2a20')} />
-          <Box s={[2.2, 0.15, 2.2]} p={[0, 3.6, 0]} m={red} />
-          <Roof w={2.8} d={2.8} h={0.5} y={3.6} m={M.plain('#2a2a2e', { metalness: 0.4 })} sag={1.2} fascia={false} />
-          <Gajur y={4.05} s={0.5} />
-          {[-2.8, -1.4, 0, 1.4, 2.8].map((x) => <Box key={x} s={[0.5, 1.1, 0.05]} p={[x, 0.8, 1.72]} m={M.plain('#1a0e07')} />)}
+        <Box s={[18, 0.4, 13]} p={[0, 0.2, -0.5]} m={M.plain('#c4b9a4', { roughness: 0.95 })} />
+        <Box s={[18.2, 0.8, 0.5]} p={[0, 0.0, 6.2]} m={M.mat('granite', 6, 1, { color: '#cbbfa8' })} />
+        <group position={[0, 0.4, -4.4]}>
+          <Box s={[9, 1.7, 3.6]} p={[0, 0.85, 0]} m={M.mat('granite', 3, 1, { color: '#e8dfd0' })} />
+          {[-3.6, -1.8, 0, 1.8, 3.6].map((x) => <Box key={x} s={[0.55, 1.1, 0.06]} p={[x, 0.75, 1.82]} m={M.plain('#1a0e07')} />)}
+          <Roof w={10} d={5.6} h={1.15} y={1.7} m={tinM} sag={1.0} lift={0} fascia={false} />
+          <Box s={[10, 0.18, 0.05]} p={[0, 1.65, 2.82]} m={red} cast={false} />
+          {Array.from({ length: 26 }, (_, i) => <Box key={i} s={[0.28, 0.32, 0.03]} p={[-4.7 + i * 0.376, 1.4, 2.84]} m={red} cast={false} />)}
+          <Box s={[3.6, 1.3, 2.6]} p={[0, 3.0, -0.2]} m={M.plain('#6a3a24')} />
+          <Box s={[4.4, 0.12, 3.4]} p={[0, 3.75, -0.2]} m={red} />
+          {Array.from({ length: 12 }, (_, i) => <Box key={i} s={[0.3, 0.3, 0.03]} p={[-1.98 + i * 0.36, 3.55, 1.5]} m={red} cast={false} />)}
+          <Roof w={4.6} d={3.4} h={0.8} y={3.75} m={tinM} sag={1.1} lift={0} fascia={false} />
+          <group position={[0, 4.55, -0.2]}>
+            <Box s={[0.7, 0.55, 0.7]} p={[0, 0.27, 0]} m={M.plain('#2a2a2e')} />
+            <mesh position={[0, 0.8, 0]} material={tinM} castShadow><coneGeometry args={[0.65, 0.5, 4]} /></mesh>
+            <Gajur y={1.0} s={0.4} />
+          </group>
         </group>
-        {/* sacrificial pool with steps and green railing */}
-        <Water w={7} d={3.4} p={[-3.6, 0.0, 2.6]} color="#6a8f86" />
-        {Array.from({ length: 5 }, (_, k) => <Box key={k} s={[3, 0.1 + 0.06 * k, 0.6]} p={[3.8, 0.05 + 0.03 * k, 1.2 + k * 0.6]} m={st} />)}
-        <Box s={[14, 0.5, 0.1]} p={[0, 0.8, 5.1]} m={green} />
-        {Array.from({ length: 15 }, (_, i) => <Box key={i} s={[0.06, 0.5, 0.06]} p={[-7 + i, 0.55, 5.1]} m={green} />)}
-        <Pavilion p={[-6.2, 0.3, -4.4]} s={0.8} />
-        <PrayerFlags from={[-7, 4, -4]} to={[7, 3.4, -4]} n={26} />
-        <PrayerFlags from={[-7, 3.6, 2]} to={[7, 3.2, 3]} n={26} />
-        <Box s={[0.2, 4.2, 0.2]} p={[-7, 2.1, -4]} m={M.plain('#d6a53a')} />
-        <Box s={[0.2, 3.8, 0.2]} p={[7, 1.9, -4]} m={M.plain('#d6a53a')} />
-        <Frame s={[17, 5.5, 12]} p={[0, 2.7, 0]} />
+        <group position={[-6.2, 0.4, 0.2]}>
+          <Box s={[4.2, 1.0, 3.4]} p={[0, 0.5, 0]} m={M.plain('#e6e0d2')} />
+          {[-1.6, -0.5, 0.5, 1.6].map((x) => <Box key={x} s={[0.45, 1.4, 0.4]} p={[x, 1.6, 1.4]} m={M.plain('#a8442a')} />)}
+          <Box s={[3.9, 1.2, 0.2]} p={[0, 1.55, -1.5]} m={M.plain('#6a3a24')} />
+          <Roof w={5.2} d={4.4} h={1.0} y={2.2} m={M.mat('roof', 3, 3, { color: '#b05a3c' })} sag={1.15} fascia={false} />
+          <Gajur y={3.15} s={0.35} />
+        </group>
+        <Water w={8} d={3.6} p={[-1.0, 0.43, 2.4]} color="#6f9a8c" />
+        {[0.6, 4.4].map((z, i) => <Box key={i} s={[8.4, 0.35, 0.3]} p={[-1.0, 0.55, z]} m={teal} />)}
+        {Array.from({ length: 6 }, (_, k) => <Box key={k} s={[3.4, 0.12 + 0.07 * k, 0.55]} p={[5.6, 0.4 + 0.04 * k, 0.6 + k * 0.55]} m={st} />)}
+        <Cyl rt={0.08} rb={0.2} h={0.6} p={[-1, 0.7, 2.4]} m={st} seg={8} />
+        <Box s={[17.4, 0.1, 0.1]} p={[0, 1.15, 6.3]} m={teal} />
+        <Box s={[17.4, 0.1, 0.1]} p={[0, 0.8, 6.3]} m={teal} />
+        {Array.from({ length: 24 }, (_, i) => <Box key={i} s={[0.07, 0.75, 0.07]} p={[-8.6 + i * 0.75, 0.82, 6.3]} m={teal} />)}
+        <Box s={[0.14, 4.6, 0.14]} p={[-8, 2.3, -1.5]} m={M.plain('#d6a53a')} />
+        <Box s={[0.14, 4.2, 0.14]} p={[8, 2.1, -1.5]} m={M.plain('#d6a53a')} />
+        <Cyl rt={0.09} h={5.2} p={[7.2, 2.6, 2]} m={M.plain('#80909a')} seg={6} />
+        <PrayerFlags from={[-8, 4.4, -1.5]} to={[8, 3.9, -1.5]} n={30} />
+        <PrayerFlags from={[-8, 3.8, 5]} to={[8, 3.4, 5]} n={28} />
+        <Frame s={[19, 6, 14]} p={[0, 2.8, 0]} />
       </group>
     );
   }
   function DakshinEnv() {
     const M = useM();
+    const slope = (cx, cz, Rr, H, n, seed, kind) => Array.from({ length: n }, (_, i) => {
+      const a = R(i, seed) * Math.PI * 2; const d = R(i, seed + 1) * Rr * 0.85; const y = H * (1 - d / Rr) - 1.2;
+      return <Tree key={`${seed}${i}`} p={[cx + Math.cos(a) * d, y, cz + Math.sin(a) * d]} s={1.7 + R(i, seed + 2) * 1.3} kind={(i % kind) ? 'pine' : 'broad'} />;
+    });
     return (
       <group>
-        <Floor r={30} mat={M.mat('rock', 6, 6, { color: '#cdbfa6' })} />
-        {[[-30, -26, 16, 20], [26, -30, 18, 24], [0, -44, 24, 30], [-44, 6, 16, 18]].map(([x, z, rr, h], i) => (
-          <mesh key={i} position={[x, h / 2 - 1, z]} material={M.mat('grass', 6, 6, { color: '#7a9c52' })} receiveShadow><coneGeometry args={[rr, h, 14]} /></mesh>
-        ))}
-        {Array.from({ length: 50 }, (_, i) => { const a = (i / 50) * Math.PI * 2; const r = 13 + R(i, 2) * 9; if (front(a)) return null; return <Tree key={i} p={[Math.cos(a) * r, 0, Math.sin(a) * r - 2]} s={1.6 + R(i, 5) * 1.2} kind={i % 3 ? 'pine' : 'broad'} />; })}
-        <Hills seed={9} h={14} col="#5f8040" r={60} />
-        {[0, 1, 2, 3].map((k) => <mesh key={k} rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.002 * k, 8.5 - k * 1.3]} material={M.mat('grass', 8, 1, { color: k % 2 ? '#a8b860' : '#8aa04e' })}><planeGeometry args={[70, 0.9]} /></mesh>)}
-      </group>
+        <Floor r={30} mat={M.plain('#a79c84', { roughness: 1 })} />
+        <mesh position={[0, 11, -42]} material={M.mat('grass', 6, 6, { color: '#6a8a46' })} receiveShadow><coneGeometry args={[28, 24, 16]} /></mesh>
+        <mesh position={[-36, 8, -10]} material={M.mat('grass', 6, 6, { color: '#6a8a46' })} receiveShadow><coneGeometry args={[18, 18, 14]} /></mesh>
+        <mesh position={[36, 9, -14]} material={M.mat('grass', 6, 6, { color: '#6a8a46' })} receiveShadow><coneGeometry args={[19, 20, 14]} /></mesh>
+        {slope(0, -42, 28, 24, 46, 3, 3)}
+        {slope(-36, -10, 18, 18, 22, 5, 3)}
+        {slope(36, -14, 19, 20, 24, 8, 3)}
+        <Box s={[22, 2.4, 1]} p={[0, 1.2, -8.2]} m={M.plain('#8f8670', { roughness: 1 })} />
+        <Bld p={[-14, 3.2, -14]} w={4} d={3} st={3} plaster base="#e8d890" roof="#a8442a" />
+        {[0, 1, 2, 3, 4].map((k) => <mesh key={k} rotation={[-Math.PI / 2, 0, 0]} position={[44, 3 + k * 2.4, -30 - k * 1.5]} material={M.mat('grass', 8, 1, { color: k % 2 ? '#c8c060' : '#98ac58' })}><planeGeometry args={[18 - k * 2, 1.3]} /></mesh>)}
+        <Hills seed={9} h={14} col="#5f8040" r={64} />
+              </group>
     );
   }
+
 
   /* --- Adinath Lokeshwar, Chobhar --- */
   function PotWall({ w, h, p, r = 0 }) {

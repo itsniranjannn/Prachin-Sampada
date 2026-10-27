@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { Dropdown } from '../components/Pickers.jsx';
 import { Link } from 'react-router-dom';
 import { LayoutDashboard, Landmark, Users, Trophy, Plus, Pencil, Trash2, X, Save, Search, Brain, ImagePlus } from 'lucide-react';
 import { api, getToken } from '../lib/api.js';
@@ -144,8 +145,8 @@ function MonumentForm({ initial, onClose, onSaved }) {
           {F({ k: 'name', label: 'Name', required: true })}{F({ k: 'name_np', label: 'Name in Nepali', lang: 'ne' })}
           {F({ k: 'slug', label: 'Slug (URL)', required: true, pattern: '[a-z0-9-]{3,80}' })}{F({ k: 'city', label: 'City', required: true })}
           {F({ k: 'lat', label: 'Latitude', type: 'number', step: 'any', required: true })}{F({ k: 'lng', label: 'Longitude', type: 'number', step: 'any', required: true })}
-          <div className="field"><label htmlFor="f-type">Type</label><select id="f-type" className="select" value={f.type} onChange={set('type')}>{TYPES.map((t) => <option key={t} value={t}>{TYPE_LABEL[t]}</option>)}</select></div>
-          <div className="field"><label htmlFor="f-rel">Religion</label><select id="f-rel" className="select" value={f.religion} onChange={set('religion')}>{['Hindu', 'Buddhist', 'Both', 'Secular'].map((t) => <option key={t}>{t}</option>)}</select></div>
+          <div className="field"><label htmlFor="f-type">Type</label><Dropdown id="f-type" value={f.type} options={TYPES.map((t) => ({ value: t, label: TYPE_LABEL[t] }))} onChange={(v) => set('type')({ target: { value: v } })} /></div>
+          <div className="field"><label htmlFor="f-rel">Religion</label><Dropdown id="f-rel" value={f.religion} options={['Hindu', 'Buddhist', 'Both', 'Secular'].map((t) => ({ value: t, label: t }))} onChange={(v) => set('religion')({ target: { value: v } })} /></div>
           {F({ k: 'deity', label: 'Deity' })}{F({ k: 'zone_slug', label: 'Inside zone (slug)' })}
           {F({ k: 'built_year', label: 'Built year', type: 'number' })}{F({ k: 'built_text', label: 'Built (text)' })}
           {F({ k: 'dynasty', label: 'Era / dynasty' })}{F({ k: 'visit_minutes', label: 'Typical visit (min)', type: 'number' })}

@@ -1131,12 +1131,13 @@ export default function make(K) {
   /* ===================== 9. Lo Manthang walled city ===================== */
   const loH = (x, z) => {
     const r = Math.hypot(x, z * 0.9);
-    return smooth(30, 90, r) * (r - 28) * 0.55 * (0.5 + fbm(x * 0.05, z * 0.05)) + fbm(x * 0.12, z * 0.12) * 0.5 * smooth(14, 40, r);
+    const ridge = smooth(26, 70, -z) * (-z - 24) * 0.75 * (0.6 + fbm(x * 0.06, z * 0.06) * 1.1) + smooth(30, 80, Math.abs(x)) * (Math.abs(x) - 30) * 0.45 * (0.5 + fbm(x * 0.05 + 3, z * 0.05));
+    return ridge + smooth(30, 90, r) * (r - 28) * 0.2 + fbm(x * 0.12, z * 0.12) * 0.5 * smooth(14, 40, r);
   };
   function LoMain() {
     const M = useM();
-    const mud = M.mat('ochre', 3, 1, { color: '#c4a77a' });
-    const wallM = M.mat('ochre', 8, 1, { color: '#e0bf8c' });
+    const mud = M.plain('#b9a37c', { roughness: 1 });
+    const wallM = M.plain('#d4c3a2', { roughness: 1 });
     const white = M.plain('#e9e3d4', { roughness: 0.95 });
     const red = M.plain('#a9362a', { roughness: 0.95 });
     const dark = M.plain('#2a1a10');
@@ -1163,6 +1164,7 @@ export default function make(K) {
       }
       return { b, wood, win };
     }, []);
+    const crenel = useMemo(() => { const a = []; for (let i = 0; i < 38; i += 2) { const x = -hw + 0.6 + i * ((W - 1.2) / 37); a.push({ p: [x, 1.68, -hd], s: [0.32, 0.3, 0.5] }); a.push({ p: [x, 1.68, hd], s: [0.32, 0.3, 0.5] }); } for (let i = 0; i < 26; i += 2) { const z = -hd + 0.7 + i * ((D - 1.4) / 25); a.push({ p: [-hw, 1.68, z], s: [0.5, 0.3, 0.32] }); a.push({ p: [hw, 1.68, z], s: [0.5, 0.3, 0.32] }); } return a; }, []);
     const base = M.plain('#ffffff', { roughness: 0.95 });
     const bigRed = (w, d, h, x, z, k) => (
       <group key={k} position={[x, 0, z]}>
@@ -1181,7 +1183,9 @@ export default function make(K) {
         {/* the earthen wall with its single gate, its corner bastions and the watchtower */}
         {[[0, -hd, W, 0.5], [0, hd, W, 0.5]].map(([x, z, w, d], k) => <Box key={k} s={[w, 1.5, d]} p={[x, 0.75, z]} m={wallM} />)}
         {[[-hw, 0], [hw, 0]].map(([x, z], k) => <Box key={`v${k}`} s={[0.5, 1.5, D]} p={[x, 0.75, z]} m={wallM} />)}
-        {[[-hw, -hd], [hw, -hd], [-hw, hd], [hw, hd]].map(([x, z], k) => <group key={`c${k}`} position={[x, 0, z]}><Cyl rt={0.55} rb={0.7} h={2.1} p={[0, 1.05, 0]} m={wallM} seg={10} /><Cyl rt={0.62} h={0.14} p={[0, 2.15, 0]} m={mud} seg={10} /></group>)}
+        {[[-hw, -hd], [hw, -hd], [-hw, hd], [hw, hd]].map(([x, z], k) => <group key={`c${k}`} position={[x, 0, z]}><Box s={[1.1, 2.2, 1.1]} p={[0, 1.1, 0]} m={wallM} /><Box s={[1.25, 0.14, 1.25]} p={[0, 2.25, 0]} m={mud} /></group>)}
+        <Inst items={crenel} m={wallM} />
+        {[-4.7, 4.7].map((x) => <group key={x} position={[x, 0, -hd]}><Box s={[0.8, 1.9, 0.8]} p={[0, 0.95, 0]} m={wallM} /><Box s={[0.95, 0.12, 0.95]} p={[0, 1.95, 0]} m={mud} /></group>)}
         <Box s={[W + 0.2, 0.14, 0.6]} p={[0, 1.55, -hd]} m={mud} cast={false} />
         <group position={[-3, 0, hd]}>
           <Box s={[2.2, 2.7, 1.3]} p={[0, 1.35, 0]} m={wallM} />
@@ -1218,10 +1222,11 @@ export default function make(K) {
     const M = useM();
     const cf = useMemo(() => (x, z, y) => {
       const n = fbm(x * 0.2, z * 0.2); const band = Math.sin(y * 0.9 + n * 3) > 0.2;
-      if (y < 0.5) return n > 0.55 ? '#d6b57c' : '#c9a468';
-      return band ? '#a58460' : '#85694c';
+      if (y < 0.5) return n > 0.55 ? '#cdb07c' : '#bf9d66';
+      if (y < 4) return band ? '#b49670' : '#a08560';
+      return band ? '#96785a' : '#7a6048';
     }, []);
-    const fields = useMemo(() => { const r = prng(23); const a = []; for (let i = 0; i < 48; i += 1) { const ang = r() * Math.PI * 2; const rad = 13.5 + r() * 15; const x = Math.cos(ang) * rad * 1.15; const z = Math.sin(ang) * rad * 0.95; if (Math.abs(x + 3) < 3.2 && z > 0) continue; a.push({ x, z, w: 2.6 + r() * 3.6, d: 2.2 + r() * 3, c: ['#6f9a3a', '#8db048', '#c9b84a', '#5a8a3a', '#d8c45a'][Math.floor(r() * 5)], rot: r() * 0.4 }); } return a; }, []);
+    const fields = useMemo(() => { const r = prng(23); const a = []; for (let i = 0; i < 70; i += 1) { const ang = r() * Math.PI * 2; const rad = 13 + r() * 17; const x = Math.cos(ang) * rad * 1.15; const z = Math.sin(ang) * rad * 0.95; if (Math.abs(x + 3) < 3.2 && z > 0) continue; a.push({ x, z, w: 2.6 + r() * 3.6, d: 2.2 + r() * 3, c: ['#5f9a2e', '#7fb83c', '#c9b84a', '#4a8a2e', '#9ac44a'][Math.floor(r() * 5)], rot: r() * 0.4 }); } return a; }, []);
     return (
       <group>
         <Terrain w={170} d={170} nx={113} nz={113} hf={loH} cf={cf} />
@@ -1231,7 +1236,7 @@ export default function make(K) {
         <Ribbon pts={[[-3, 7], [-4, 16], [-12, 28], [-30, 44], [-46, 60]]} w={2.4} y={0.025} color="#b9a07a" metal={0} rough={1} seg={20} />
         <Ribbon pts={[[-70, 18], [-45, 22], [-22, 16], [-6, 24], [20, 20], [50, 30], [80, 26]]} w={3.4} y={0.012} color="#8aa09c" seg={30} />
         {Array.from({ length: 50 }, (_, k) => { const r = prng(k + 40); const x = (r() - 0.5) * 130; const z = -20 - r() * 45; return <Rock key={k} p={[x, loH(x, z) + 0.3, z]} s={[1 + r() * 2, 0.8 + r() * 1.2, 1 + r() * 2]} seed={k} c="#a88a68" detail={0} />; })}
-        <Range p={[0, -4, -118]} w={290} d={64} snowAt={50} lo="#8a7058" hi="#a89478" seed={19}
+        <Range p={[0, -4, -100]} w={290} d={64} snowAt={50} lo="#7a6048" hi="#9a8468" seed={19}
           peaks={[{ x: -100, z: 0, h: 82, s: 36 }, { x: -55, z: 4, h: 104, s: 38 }, { x: -8, z: 0, h: 118, s: 44 }, { x: 44, z: 4, h: 100, s: 38 }, { x: 96, z: 0, h: 78, s: 34 }]} />
       </group>
     );
@@ -1534,8 +1539,8 @@ export default function make(K) {
   };
   function SiddhaMain() {
     const M = useM();
-    const lime = crag('#a9a89b');
-    const moss = crag('#7e9566');
+    const lime = crag('#8f8a7a');
+    const moss = crag('#5f7a4a');
     const inner = M.mat('rock', 3, 2, { color: '#b8956a', side: THREE.BackSide });
     const cream = M.plain('#e0cfa8', { roughness: 0.7 });
     const stone = slabMat('#cfc7b6', 2, 2);
@@ -1564,6 +1569,9 @@ export default function make(K) {
         <mesh position={[0, 1.5, -2.9]} rotation={[Math.PI / 2, 0, 0]} material={inner}><cylinderGeometry args={[2.1, 2.1, 9.5, 28, 1, true]} /></mesh>
         <Box s={[4.0, 0.3, 9.5]} p={[0, 0.15, -2.9]} m={M.plain('#6a5038', { roughness: 1 })} />
         <Box s={[4.4, 4.4, 0.2]} p={[0, 2.1, -7.8]} m={M.plain('#1a120c')} />
+        <mesh position={[0, 1.5, 0.95]} material={M.plain('#0d0907')}><circleGeometry args={[1.9, 24, 0, Math.PI]} /></mesh>
+        <Rock p={[2.6, 1.0, 1.2]} s={[1.1, 1.8, 1.0]} seed={51} m={moss} />
+        <Rock p={[-2.7, 1.2, 1.1]} s={[1.0, 2.2, 1.0]} seed={52} m={lime} />
         <Inst items={st.down} geo="cone" seg={7} m={cream} cast={false} />
         <Inst items={st.up} geo="cone" seg={7} m={cream} cast={false} />
         <Ball rad={1.0} sc={[1.2, 0.8, 1.0]} p={[-1.3, 0.8, -5.4]} m={cream} />

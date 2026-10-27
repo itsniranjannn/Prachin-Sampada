@@ -736,15 +736,15 @@ export default function make(K) {
       <group>
         <GroundDisc r={16} y={-0.05} m={M.plain('#a39d8a', { roughness: 1 })} />
         <GroundDisc r={90} y={-12} m={M.plain('#6c7f9a', { roughness: 1 })} />
-        {/* Kanchenjunga massif and its snowy neighbours */}
-        <Peak p={[-12, -12, -46]} r={30} h={56} snow={0.55} seg={7} />
-        <Peak p={[20, -12, -44]} r={22} h={44} snow={0.52} seg={6} rock="#85848d" />
-        <Peak p={[-40, -12, -40]} r={20} h={36} snow={0.5} seg={6} rock="#85848d" />
-        <Peak p={[46, -12, -38]} r={20} h={30} snow={0.45} seg={6} rock="#8a8a94" />
-        {/* dark forested ridges falling away, hazy blue */}
-        {[[-40, -2, 14], [40, -4, 10], [0, -6, -24], [-52, -8, -10], [52, -8, -14]].map(([x, z, r], k) => <HillM key={k} p={[x, -12, z]} r={r} h={9 + k * 1.5} m={M.plain(k % 2 ? '#4c6a6a' : '#566f78', { roughness: 1 })} />)}
-        {Array.from({ length: 22 }, (_, k) => { const a = rnd(k) * Math.PI * 2; const r = 15 + rnd(k + 9) * 10; return <Tree key={k} p={[Math.cos(a) * r, -3 - (r - 15) * 0.4, Math.sin(a) * r]} s={2.2 + rnd(k) * 1.4} kind="pine" />; })}
-        {[[-20, 6, -26, 6], [18, 7, -30, 6]].map(([x, y, z, r], k) => <mesh key={`c${k}`} position={[x, y - 4, z]} scale={[1.8, 0.35, 1]}><sphereGeometry args={[r, 14, 10]} /><meshStandardMaterial color="#ffffff" transparent opacity={0.65} roughness={1} /></mesh>)}
+        {/* the distant Kanchenjunga range: a long jagged snow wall, hazy blue below, seen across deep valleys */}
+        {[[-60, -84, 20, 46, 0.6], [-36, -92, 20, 56, 0.62], [-12, -96, 24, 68, 0.64], [14, -98, 22, 62, 0.62], [40, -92, 20, 50, 0.58], [64, -84, 20, 42, 0.54], [-82, -78, 18, 36, 0.5], [86, -76, 18, 34, 0.48]].map(([x, z, r, h, sn], k) => <Peak key={k} p={[x, -14, z]} r={r} h={h} snow={sn} seg={6 + (k % 2)} rock={k % 2 ? '#6d6f94' : '#7a7aa0'} />)}
+        {/* forested blue ridges stepping down from the summit */}
+        {[[-70, -58, 24, 7], [-20, -64, 30, 8], [40, -60, 26, 7], [86, -54, 22, 6], [-50, -36, 18, 5], [56, -34, 18, 5]].map(([x, z, r, h], k) => <HillM key={`r${k}`} p={[x, -12, z]} r={r} h={h} m={M.plain(k % 2 ? '#4a5f7e' : '#55698a', { roughness: 1 })} />)}
+        {[[-40, -2, 18], [42, -4, 14], [0, -6, -22], [-56, -8, -6], [56, -8, -10]].map(([x, z, r], k) => <HillM key={k} p={[x, -12, z]} r={r} h={9 + k * 1.2} m={M.plain(k % 2 ? '#3f5c58' : '#486a62', { roughness: 1 })} />)}
+        {/* rhododendron and fir clinging round the summit, a gnarled tree by the shelter */}
+        {Array.from({ length: 22 }, (_, k) => { const a = rnd(k) * Math.PI * 2; const r = 15 + rnd(k + 9) * 10; return <Tree key={k} p={[Math.cos(a) * r, -3 - (r - 15) * 0.4, Math.sin(a) * r]} s={2.0 + rnd(k) * 1.2} kind="pine" />; })}
+        <Tree p={[8.5, 0, -3.5]} s={2.2} kind="broad" />
+        {[[-24, 4, -38, 7], [26, 3, -34, 6]].map(([x, y, z, r], k) => <mesh key={`c${k}`} position={[x, y - 4, z]} scale={[2.2, 0.3, 1]}><sphereGeometry args={[r, 14, 10]} /><meshStandardMaterial color="#ffffff" transparent opacity={0.5} roughness={1} /></mesh>)}
       </group>
     );
   }

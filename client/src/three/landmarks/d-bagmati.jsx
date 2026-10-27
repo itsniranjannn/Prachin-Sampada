@@ -667,11 +667,11 @@ export default function make(K) {
     return (
       <group>
         <GroundDisc r={22} m={M.plain('#e2d6c2', { roughness: 0.95 })} />
-        <GroundDisc r={95} y={-0.04} m={M.plain('#8fae6a', { roughness: 1 })} />
+        <GroundDisc r={95} y={-0.04} m={M.plain('#6f9158', { roughness: 1 })} />
         {/* the dense forested hill the temple stands against */}
-        <GreenHill p={[0, -0.5, -40]} r={30} h={22} col="#6a9a58" sz={0.7} />
-        <GreenHill p={[-36, -0.5, -22]} r={14} h={13} col="#78a460" />
-        <GreenHill p={[36, -0.5, -24]} r={15} h={14} col="#6f9e58" />
+        <GreenHill p={[0, -0.5, -40]} r={30} h={22} col="#3c6a3a" sz={0.7} />
+        <GreenHill p={[-36, -0.5, -22]} r={14} h={13} col="#487a40" />
+        <GreenHill p={[36, -0.5, -24]} r={15} h={14} col="#41723d" />
         {Array.from({ length: 80 }, (_, i) => {
           const x = (rnd(i, 1) - 0.5) * 52;
           const z = -22 - rnd(i, 2) * 34;
@@ -739,7 +739,7 @@ export default function make(K) {
           return <Tree key={i} p={[Math.cos(a) * r, -((r - 8.5) / 17.5) * 16, Math.sin(a) * r]} s={1.2 + rnd(i, 3) * 0.7} kind={i % 3 ? 'broad' : 'pine'} />;
         })}
         <Town n={30} r0={22} r1={44} drop={0.6} skip={(a) => a > 0.05 && a < 1.5} hs={0.8} />
-        <Range n={9} R={62} y={-14} hMin={22} hMax={36} rock="#8088a0" cap={0.5} />
+        <Range n={9} R={80} y={-14} hMin={16} hMax={28} rock="#8a97b0" cap={0.6} />
       </group>
     );
   }
@@ -892,9 +892,9 @@ export default function make(K) {
         {/* terraced paddy fields stepping down the slope */}
         {[0, 1, 2, 3].map((k) => <mesh key={k} position={[0, -1.1 - k * 1.2, 0]} material={M.plain(k % 2 ? '#b0be66' : '#8aa84e', { roughness: 1 })} receiveShadow><cylinderGeometry args={[14 + k * 3.2, 14 + k * 3.2, 0.5, 52, 1, true]} /></mesh>)}
         {/* the forested ridge rising behind the shrines */}
-        <GreenHill p={[0, -0.4, -36]} r={28} h={15} col="#6a9a58" sz={0.6} />
-        <GreenHill p={[-32, -0.4, -14]} r={12} h={11} col="#78a460" />
-        <GreenHill p={[34, -0.4, -16]} r={13} h={12} col="#6f9e58" />
+        <GreenHill p={[0, -0.4, -36]} r={28} h={15} col="#3c6a3a" sz={0.6} />
+        <GreenHill p={[-32, -0.4, -14]} r={12} h={11} col="#487a40" />
+        <GreenHill p={[34, -0.4, -16]} r={13} h={12} col="#41723d" />
         {Array.from({ length: 60 }, (_, i) => {
           const x = (rnd(i, 1) - 0.5) * 50;
           const z = -20 - rnd(i, 2) * 30;
@@ -1026,7 +1026,7 @@ export default function make(K) {
     const cairns = [[-5, -2, 0], [-4.5, -1.6, 1], [-1.5, -3.2, 2], [3, -1.6, 3], [3.6, -1.9, 4], [2.4, -1.4, 5], [6.5, -3, 6], [-7, -5, 7], [0.8, -6, 8], [5, -5.4, 9], [-3, 0.6, 10], [-5.6, -2.4, 11]];
     return (
       <group>
-        <Water w={18} d={12} p={[0, -0.05, -3]} color="#243f52" />
+        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.05, -3]} scale={[1.25, 0.9, 1]} receiveShadow><circleGeometry args={[10, 48]} /><meshStandardMaterial color="#2b4d66" roughness={0.25} metalness={0} /></mesh>
         {/* flat stones and low islets rising from the water, each carrying cairns */}
         {isl.map(([x, z, s], k) => <mesh key={k} position={[x, -0.08, z]} scale={[s, 0.32, s * 0.8]} rotation={[0, k, 0]} material={k % 2 ? rock : dkRock} castShadow receiveShadow><icosahedronGeometry args={[1, 1]} /></mesh>)}
         {cairns.map(([x, z, k]) => <Cairn key={k} p={[x, 0.15, z]} s={1.15 + rnd(k, 3) * 0.7} seed={k} />)}
@@ -1050,17 +1050,37 @@ export default function make(K) {
   }
   function GosaiEnv() {
     const M = useM();
-    const rock = M.plain('#55545c', { roughness: 1, flatShading: true });
+    const rock = M.plain('#4e4a49', { roughness: 1, flatShading: true });
+    const snow2 = M.plain('#eef2f7', { roughness: 0.7, flatShading: true });
     return (
       <group>
-        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.12, -3]} material={M.plain('#243f52', { roughness: 0.1, metalness: 0.35 })} receiveShadow><circleGeometry args={[18, 48]} /></mesh>
-        <GroundDisc r={60} y={-0.5} m={M.plain('#8d8c90', { roughness: 1 })} />
-        {/* bare grey peaks ringing the bowl, snowy on top */}
-        {Array.from({ length: 22 }, (_, i) => {
-          const a = Math.PI * (0.02 + rnd(i, 1) * 1.0) + (i % 2 ? 0 : 0);
-          const r = 19 + rnd(i, 2) * 5;
-          const h = 9 + rnd(i, 3) * 12;
-          return <Mountain key={i} p={[Math.cos(a) * r * 1.15, -0.6, -Math.sin(a) * r - 3]} r={h * (0.28 + rnd(i, 4) * 0.12)} h={h} rock={rock} cap={0.55} />;
+        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.12, -3]} material={M.plain('#2b4d66', { roughness: 0.25 })} receiveShadow><circleGeometry args={[18, 48]} /></mesh>
+        <GroundDisc r={60} y={-0.5} m={M.plain('#cfd0d4', { roughness: 1 })} />
+        {/* broad snow-plastered ridges with dark rock ribs ringing the bowl, no cast shadow on the lake */}
+        {Array.from({ length: 26 }, (_, i) => {
+          const a = Math.PI * (-0.04 + rnd(i, 1) * 1.08);
+          const r = 21 + rnd(i, 2) * 6;
+          const h = 7 + rnd(i, 3) * 13;
+          const w = h * (0.55 + rnd(i, 4) * 0.35);
+          const x = Math.cos(a) * r * 1.2; const z = -Math.sin(a) * r - 3;
+          return (
+            <group key={i} position={[x, -0.6, z]} rotation={[0, rnd(i, 6) * 3, 0]}>
+              <mesh position={[0, h / 2, 0]} scale={[1, 1, 0.8]} material={rock}><coneGeometry args={[w, h, 5]} /></mesh>
+              <mesh position={[0, h * 0.63, 0]} scale={[1, 1, 0.8]} material={snow2}><coneGeometry args={[w * 0.8, h * 0.74, 5]} /></mesh>
+              <mesh position={[w * 0.14, h * 0.4, w * 0.3]} rotation={[0.25, 0.3, 0]} material={rock}><coneGeometry args={[w * 0.16, h * 0.55, 4]} /></mesh>
+            </group>
+          );
+        })}
+        {/* shore: dark boulders dusted with snow */}
+        {Array.from({ length: 26 }, (_, i) => {
+          const a = Math.PI * (0.02 + (i / 26) * 1.0) + rnd(i, 8) * 0.1;
+          const r = 15.2 + rnd(i, 9) * 2.2;
+          const sc = 0.8 + rnd(i, 10) * 1.3;
+          return (
+            <group key={`b${i}`} position={[Math.cos(a) * r * 1.12, 0.1, -Math.sin(a) * r * 0.9 - 3]}>
+              <mesh scale={[sc, sc * 0.55, sc * 0.8]} rotation={[0, i, 0]} material={i % 3 ? rock : snow2}><icosahedronGeometry args={[1, 0]} /></mesh>
+            </group>
+          );
         })}
         <Range n={9} R={74} y={-1} hMin={30} hMax={46} rock="#8a8e9a" cap={0.62} seed={3} />
       </group>

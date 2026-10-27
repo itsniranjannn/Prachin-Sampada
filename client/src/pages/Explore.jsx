@@ -106,7 +106,7 @@ export default function Explore() {
         setLocMsg(inNepal ? 'Sorted by distance from you. Places that pulse are within a short walk.' : 'You seem to be outside Nepal, so the list is sorted by distance anyway.');
         map.current?.flyTo(pos.lng, pos.lat, inNepal ? 14 : 7, { pitch: 50 });
       },
-      () => setLocMsg('Location was not shared. You can still explore the whole map.'),
+      (er) => setLocMsg(er.code === 1 ? 'Location permission is blocked. Allow it in the browser address bar, or explore the whole map.' : 'Could not get your location. You can still explore the whole map.'),
       { enableHighAccuracy: true, timeout: 9000 },
     );
   };
