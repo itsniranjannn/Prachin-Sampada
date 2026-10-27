@@ -629,7 +629,7 @@ function Gate({ f }) {
   );
 }
 
-function Fort({ tiers = 5, walls, roof, f }) {
+function Fort({ tiers = 5, walls, roof, f, tibetan = false }) {
   const M = useM();
   const wm = wallMat(M, walls || 'stone', 6, 1);
   const s = 9;
@@ -645,7 +645,9 @@ function Fort({ tiers = 5, walls, roof, f }) {
       ))}
       <Box s={[1.4, 1.2, 0.6]} p={[0, 0.6, s / 2]} m={M.dark} />
       <group position={[0, 0, -0.6]}>
-        <PagodaBody tiers={Math.min(Math.max(tiers, 3), 7)} w={3} d={3} walls={walls === 'stone' ? 'red-brick' : walls} roof={roof} f={f} />
+        {tibetan
+          ? <group scale={0.8}><Gumba f={f} colors={['#f2ede2', '#8a2a22']} /></group>
+          : <PagodaBody tiers={Math.min(Math.max(tiers, 3), 7)} w={3} d={3} walls={walls === 'stone' ? 'red-brick' : walls} roof={roof} f={f} />}
       </group>
     </group>
   );
@@ -751,7 +753,7 @@ function Surroundings({ list, radius = 10, dusk }) {
       </group>
     )));
   }
-  if (s.has('desert-cliffs')) out.push(...[[-18, -16, 8], [16, -20, 10], [-4, -26, 12]].map(([x, z, h], k) => <mesh key={`dc${k}`} position={[x, h / 2 - 1, z]} rotation={[0, k, 0]} material={M.mat('rock', 3, 3, { color: '#b98a5a' })}><cylinderGeometry args={[6, 8, h, 7]} /></mesh>));
+  if (s.has('desert-cliffs')) out.push(...[[-30, -30, 9], [28, -34, 11], [-2, -44, 13]].map(([x, z, h], k) => <mesh key={`dc${k}`} position={[x, h / 2 - 1, z]} rotation={[0, k, 0]} material={M.mat('rock', 3, 3, { color: '#c49a6a' })}><cylinderGeometry args={[7, 10, h, 7]} /></mesh>));
   if (s.has('plains-fields')) out.push(...[[-14, -10], [14, -12], [-16, 10], [16, 8]].map(([x, z], k) => <mesh key={`pf${k}`} rotation={[-Math.PI / 2, 0, 0]} position={[x, 0.004, z]} material={M.plain(k % 2 ? '#c8b45a' : '#7fa04a', { roughness: 1 })}><planeGeometry args={[9, 7]} /></mesh>));
   if (dusk) out.push(<Sparkles key="sp" count={70} scale={[radius * 2, 6, radius * 2]} position={[0, 3, 0]} size={2.4} speed={0.3} color="#ffcf8a" />);
   return <group>{out}</group>;
@@ -796,7 +798,7 @@ function Monument({ spec, dusk }) {
   else if (kind === 'pillar') body = <AshokaPillar f={f} />;
   else if (kind === 'pond') body = <Pond f={f} />;
   else if (kind === 'gate') body = <Gate f={f} />;
-  else if (kind === 'fort') body = <Fort tiers={tiers} walls={spec.walls} roof={spec.roof} f={f} />;
+  else if (kind === 'fort') body = <Fort tiers={tiers} walls={spec.walls} roof={spec.roof} f={f} tibetan={!!spec.surroundings?.includes('desert-cliffs')} />;
   else if (kind === 'cave') body = <Cave f={f} />;
   else if (kind === 'ruins') body = <Ruins />;
   else if (kind === 'statue') body = f.has('bell') ? <BellPavilion p={[0, 0, 0]} s={1.6} /> : <group><Box s={[1.2, 1, 1.2]} p={[0, 0.5, 0]} m={M.stone} /><group position={[0, 1, 0]} scale={2.4}><Goddess m={roofMat(M, spec.roof === 'gilded-copper' ? 'gilded-copper' : 'stone-spire')} /></group></group>;

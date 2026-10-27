@@ -1,0 +1,3139 @@
+[
+ {
+  "slug": "gorkha-durbar",
+  "name": "Gorkha Durbar",
+  "name_np": "गोरखा दरबार",
+  "alt_names": [
+   "Gorkha Palace",
+   "Medieval Palace Complex of Gorkha"
+  ],
+  "city": "Gorkha",
+  "zone": null,
+  "lat": 28.0044,
+  "lng": 84.6289,
+  "coord_source": "Wikidata P625 (Q66133854)",
+  "type": "palace",
+  "religion": "Hindu",
+  "deity": "Gorakhkali and Kalika (temples within the palace); Gorakhnath (cave shrine)",
+  "built_year": null,
+  "built_century_text": "Built by King Ram Shah of Gorkha; Wikipedia dates it to the 16th century while other sources place Ram Shah's reign in the 17th century. The Kalika temple inside is dated to the 17th century.",
+  "dynasty": "Shah (Kingdom of Gorkha)",
+  "architecture": "Fortified hilltop palace in Newar style, built mainly of brick, stone and timber. Walls are about three feet thick, floors rest on projecting wooden beams, and the wings rise over several levels with carved windows and struts. The Kalika temple has wood carvings of birds, animals and deities.",
+  "unesco": false,
+  "short": "Hilltop fortress-palace of the Shah kings of Gorkha and birthplace of Prithvi Narayan Shah, unifier of Nepal.",
+  "story": "Catch your breath: you have climbed to a ridge about a thousand metres high, and the fortified palace in front of you is where modern Nepal began. King Ram Shah of Gorkha built this durbar, and in 1723 Prithvi Narayan Shah was born here, in the part called Dhuni Pati. From these walls, some three feet thick, he set out on the campaigns that unified Nepal. Look at the carved windows and the timber beams that carry the floors; Newar craftsmen from the valley shaped them. Inside the compound stand the temples of Kalika and Gorakhkali, and nearby is the cave where the yogi Gorakhnath is said to have meditated, which draws a fair every Baisakh Purnima. To the south burns the eternal flame, kept alight since unification. Now turn north. On a clear day Manaslu, Himalchuli, Annapurna and Ganesh Himal line the horizon. The 2015 earthquake damaged the palace, and restoration work by the Department of Archaeology began in November 2017.",
+  "legend": "The cave below the palace is believed to be the place where the yogi Gorakhnath, a disciple of Matsyendranath, sheltered and meditated; the Gorkha kingdom and the Gorkhali people take their name from him.",
+  "facts": [
+   "Prithvi Narayan Shah, who began the unification of Nepal, was born in the palace in 1723.",
+   "The palace sits on a hilltop at about 1,000 m, roughly an hour's walk from Gorkha bazaar.",
+   "Its walls are about three feet thick and its floors are carried on extended wooden beams.",
+   "UNESCO has listed 'The medieval palace complex of Gorkha' on Nepal's Tentative List since 1996.",
+   "Reconstruction after the 2015 earthquake began on 15 November 2017 under the Department of Archaeology."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 120,
+   "hours_note": "Reached by a steep stone stairway (about an hour on foot) from Gorkha bazaar. Opening hours not confirmed in a reliable source.",
+   "fee_note": "No current official fee schedule found; check at the gate. Visitor numbers come from the Gorkha Museum."
+  },
+  "earthquake_2015": "The April 2015 earthquake partially damaged the palace. Reconstruction by the Department of Archaeology started on 15 November 2017 and was still ongoing in 2022.",
+  "quiz": [
+   {
+    "q": "Which future king was born in Gorkha Durbar in 1723?",
+    "options": [
+     "Ram Shah",
+     "Prithvi Narayan Shah",
+     "Tribhuvan",
+     "Jung Bahadur Rana"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Prithvi Narayan Shah, who began the unification of Nepal, was born in the palace's Dhuni Pati in 1723."
+   },
+   {
+    "q": "Which yogi gives his name to the cave shrine near the palace?",
+    "options": [
+     "Matsyendranath",
+     "Gorakhnath",
+     "Shankaracharya",
+     "Padmasambhava"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The cave is believed to be where Gorakhnath meditated; a fair is held there on Baisakh Purnima."
+   },
+   {
+    "q": "About how thick are the palace walls?",
+    "options": [
+     "Six inches",
+     "One foot",
+     "Three feet",
+     "Ten feet"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The walls of the fortified palace are about three feet thick."
+   },
+   {
+    "q": "Which Himalayan peaks can be seen to the north from the palace?",
+    "options": [
+     "Everest and Lhotse",
+     "Kanchenjunga and Jannu",
+     "Manaslu, Himalchuli, Annapurna and Ganesh",
+     "Dhaulagiri and Api"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The palace is a viewpoint for Manaslu, Himalchuli, Annapurna and Ganesh peaks."
+   },
+   {
+    "q": "Under what name is the site on Nepal's UNESCO Tentative List?",
+    "options": [
+     "Gorkha Fort",
+     "The medieval palace complex of Gorkha",
+     "Shah Durbar Gorkha",
+     "Gorakhkali Heritage Area"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "It was added in 1996 as 'The medieval palace complex of Gorkha' (reference 842)."
+   }
+  ],
+  "clues": [
+   "A king who joined many small states into one nation was born behind my thick walls on a mountain ridge.",
+   "Climb my long stairway and a goddess temple, a yogi's cave and a flame that never goes out are waiting at the top."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gorkha_Palace",
+   "https://www.wikidata.org/wiki/Q66133854",
+   "https://whc.unesco.org/en/tentativelists/842/",
+   "https://commons.wikimedia.org/wiki/Category:Gorkha_Palace"
+  ],
+  "province": "Gandaki",
+  "district": "Gorkha",
+  "festivals": [
+   {
+    "name": "Baisakh Purnima fair",
+    "name_np": "बैशाख पूर्णिमा मेला",
+    "month": "Baisakh",
+    "note": "Annual fair held on the full-moon day of Baisakh at the Gorakhnath cave near the palace."
+   }
+  ],
+  "model": {
+   "kind": "palace",
+   "tiers": 3,
+   "plinth_steps": 2,
+   "plinth_shape": "rectangular",
+   "height_m": 15,
+   "footprint_m": [
+    60,
+    20
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#9b3a2e",
+    "#5a4632",
+    "#c9b79a"
+   ],
+   "features": [
+    "carved-windows",
+    "carved-struts",
+    "gilded-pinnacle"
+   ],
+   "surroundings": [
+    "hilltop",
+    "forest",
+    "himalaya-backdrop",
+    "snow-peaks",
+    "village"
+   ],
+   "notes": "Long red-brick palace with dark carved wooden windows and low tiled pagoda roofs on a narrow wooded ridge top, stone ramparts below, white peaks to the north."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Gorkha_Palace_2026_08.jpg/1280px-Gorkha_Palace_2026_08.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Gorkha_Palace_2026_08.jpg",
+   "author": "Sonika Aryal",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Gorkha_Palace_NP-GK-01_01.jpg/1280px-Gorkha_Palace_NP-GK-01_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gorkha_Palace_NP-GK-01_01.jpg",
+    "author": "Bibek Shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Carved wooden window and door on the palace facade"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gorkha_Palace_2026_02.jpg/1280px-Gorkha_Palace_2026_02.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gorkha_Palace_2026_02.jpg",
+    "author": "Sonika Aryal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Devotees gathered in the palace courtyard"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gorkha_Palace_Premises_01.jpg/1280px-Gorkha_Palace_Premises_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gorkha_Palace_Premises_01.jpg",
+    "author": "Sonika Aryal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone ramparts and walls of the palace premises"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Gorkha_Palace_2026_11.jpg/1280px-Gorkha_Palace_2026_11.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gorkha_Palace_2026_11.jpg",
+    "author": "Sonika Aryal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The palace crowning its forested ridge"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Gorkha_Palace_NP-GK-01_07.jpg/1280px-Gorkha_Palace_NP-GK-01_07.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gorkha_Palace_NP-GK-01_07.jpg",
+    "author": "Bibek Shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Inner courtyard of the palace with visitors"
+   }
+  ]
+ },
+ {
+  "slug": "manakamana-temple",
+  "name": "Manakamana Temple",
+  "name_np": "मनकामना मन्दिर",
+  "alt_names": [
+   "Manakamana Bhagawati",
+   "Manakamana Mai"
+  ],
+  "city": "Manakamana (Gorkha)",
+  "zone": null,
+  "lat": 27.904224,
+  "lng": 84.583992,
+  "coord_source": "OpenStreetMap node/1727432206 (tagged wikidata Q2385286)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Goddess Bhagawati (Manakamana), regarded as an incarnation of Lakshmi",
+  "built_year": 1678,
+  "built_century_text": "Founded in 1678 according to Wikipedia; tradition places its origin in the 17th century under the Gorkha kings Ram Shah or Prithvipati Shah. Rebuilt and gilded between June 2015 and September 2018.",
+  "dynasty": "Shah (Kingdom of Gorkha)",
+  "architecture": "Two-storey Nepalese pagoda with an ambulatory around the sanctum, carved timber struts and windows. After the 2018 restoration, the roof, door, finial and windows were gold-plated with about 14 kg of gold; limestone, surkhi, brick and wood were used.",
+  "unesco": false,
+  "short": "Hilltop pagoda of the wish-fulfilling goddess above the Trishuli and Marsyangdi rivers, famous for its cable car.",
+  "story": "Welcome to Kafakdada hill, 1,300 metres above the meeting of the Trishuli and Marsyangdi rivers. The name of this temple is its promise: mana means heart and kamana means wish, and pilgrims believe the goddess Bhagawati grants the wishes of the faithful. The story goes back to the 17th century and the Gorkha court. The queen, it is said, had divine powers known only to her Magar priest, Lakhan Thapa. After the king died and she followed him onto the funeral pyre, she promised to return. Months later a farmer's plough split a stone that ran with blood and milk, and Lakhan Thapa built a shrine on that spot. To this day the priest must be his descendant. Look up at the two-tiered roof: after the 2015 earthquake tilted the temple, restorers gilded its roof, door and windows with about fourteen kilograms of gold. Before 1998 pilgrims walked for three hours; now the cable car lifts you in about ten minutes.",
+  "legend": "A Gorkha queen with secret divine powers committed sati after her husband's death, promising her priest Lakhan Thapa Magar she would reappear. Six months later a farmer split a stone that poured blood and milk; Lakhan Thapa's rituals stopped the flow and he built the shrine there.",
+  "facts": [
+   "The temple stands at about 1,300 m on Kafakdada hill in Shahid Lakhan Rural Municipality, Gorkha.",
+   "By tradition the priest must be a Magar descendant of Lakhan Thapa.",
+   "Prithvi Narayan Shah set up a trust in 1764-65 to worship Manakamana and feed the pigeons every day.",
+   "The Manakamana cable car, opened on 24 November 1998, runs 2.8 km from Kurintar in about 10 minutes.",
+   "After the 2015 earthquake the temple was rebuilt and gold-plated, work finishing in September 2018."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 90,
+   "hours_note": "Temple hours not confirmed in a reliable source. The cable car usually runs about 9:00-17:00 with a lunch break from noon to 13:30 (Wikipedia).",
+   "fee_note": "No separate temple entry fee found; the cable car from Kurintar is ticketed separately."
+  },
+  "earthquake_2015": "The April 2015 earthquake cracked the roof and tilted the temple 9-12 inches to the north-east. Reconstruction under the Department of Archaeology began in June 2015 and was finished in September 2018, costing about NPR 130-140 million.",
+  "quiz": [
+   {
+    "q": "What does the name Manakamana mean?",
+    "options": [
+     "Mountain mother",
+     "Heart's wish",
+     "Golden roof",
+     "River goddess"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Mana means heart and kamana means wish; the goddess is believed to grant devotees' wishes."
+   },
+   {
+    "q": "Since 1998, how do most pilgrims reach the temple from Kurintar?",
+    "options": [
+     "Helicopter",
+     "Rack railway",
+     "Cable car",
+     "Boat"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "The Manakamana cable car opened on 24 November 1998 and covers 2.8 km in about 10 minutes."
+   },
+   {
+    "q": "By tradition, the temple priest must descend from which person?",
+    "options": [
+     "Ram Shah",
+     "Lakhan Thapa Magar",
+     "Prithvi Narayan Shah",
+     "Arman Rayamajhi"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The priest must be a descendant of Lakhan Thapa Magar, who founded the shrine."
+   },
+   {
+    "q": "Between which two rivers does Kafakdada hill rise?",
+    "options": [
+     "Seti and Madi",
+     "Trishuli and Marsyangdi",
+     "Kali Gandaki and Myagdi",
+     "Bagmati and Bishnumati"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The temple sits on Kafakdada hill at the confluence of the Trishuli and Marsyangdi."
+   },
+   {
+    "q": "About how much gold was used to plate the roof, door, finial and windows during the 2015-2018 restoration?",
+    "options": [
+     "2 kg",
+     "14 kg",
+     "50 kg",
+     "140 kg"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "About 14 kg of gold, costing around NPR 90 million, was used."
+   }
+  ],
+  "clues": [
+   "My name joins the heart and the wish, and a gondola carries people up to my golden roof.",
+   "A stone that bled milk in a farmer's field led a Magar priest to build my shrine above two meeting rivers."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Manakamana_Temple",
+   "https://www.openstreetmap.org/node/1727432206",
+   "https://www.wikidata.org/wiki/Q2385286",
+   "https://commons.wikimedia.org/wiki/Category:Manakamana_Temple,_Gorkha"
+  ],
+  "province": "Gandaki",
+  "district": "Gorkha",
+  "festivals": [],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": 15,
+   "footprint_m": [
+    12,
+    12
+   ],
+   "walls": "timber",
+   "roof": "gilded-copper",
+   "colors": [
+    "#d4a62a",
+    "#3b2a20",
+    "#a8322a"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "bell",
+    "lamps-diyo",
+    "carved-windows",
+    "golden-door"
+   ],
+   "surroundings": [
+    "hilltop",
+    "stone-paved-plaza",
+    "village",
+    "himalaya-backdrop"
+   ],
+   "notes": "Compact two-tier pagoda with fully gilded roofs and dark carved timber, ringed by a railing and crowds, on a paved hilltop with a cable-car station nearby."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Gorkha_Manakamana_Temple.jpg/1280px-Gorkha_Manakamana_Temple.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Gorkha_Manakamana_Temple.jpg",
+   "author": "Bhupendra Shrestha",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Artistic_view_of_Manakamana_temple.JPG/1280px-Artistic_view_of_Manakamana_temple.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Artistic_view_of_Manakamana_temple.JPG",
+    "author": "Anish Bista",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Carved roof struts and gilded details of the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bell_in_the_manakamana_Temple%2C_Nepal.JPG/1280px-Bell_in_the_manakamana_Temple%2C_Nepal.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bell_in_the_manakamana_Temple,_Nepal.JPG",
+    "author": "Pranaya mulepati",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Historic bell hung in the temple compound"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Diyos_and_lakhbattis_at_the_Manakamana_temple.JPG/1280px-Diyos_and_lakhbattis_at_the_Manakamana_temple.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Diyos_and_lakhbattis_at_the_Manakamana_temple.JPG",
+    "author": "Anish Bista",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Oil lamps and wicks offered by devotees"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Manakamana_Mai_Temple.jpg/1280px-Manakamana_Mai_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Manakamana_Mai_Temple.jpg",
+    "author": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Pilgrims crowding the courtyard during renovation"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Manakamana_Temple_Mankamana_Gorkha_Nepal_Rajesh_Dhungana_%2813%29.jpg/1280px-Manakamana_Temple_Mankamana_Gorkha_Nepal_Rajesh_Dhungana_%2813%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Manakamana_Temple_Mankamana_Gorkha_Nepal_Rajesh_Dhungana_(13).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The gilded two-tier pagoda after restoration"
+   }
+  ]
+ },
+ {
+  "slug": "muktinath-temple",
+  "name": "Muktinath Temple",
+  "name_np": "मुक्तिनाथ मन्दिर",
+  "alt_names": [
+   "Muktinath",
+   "Chumig Gyatsa",
+   "Mukti Kshetra",
+   "Thiru Saligramam"
+  ],
+  "city": "Ranipauwa (Muktinath)",
+  "zone": null,
+  "lat": 28.816667,
+  "lng": 83.870833,
+  "coord_source": "Wikidata P625 (Q1025465)",
+  "type": "pagoda",
+  "religion": "Both",
+  "deity": "Vishnu as Muktinarayan (Hindu); Avalokiteshvara (Buddhist)",
+  "built_year": 1815,
+  "built_century_text": "Present shrine built in 1814 or 1815 and credited to Queen Subarna Prabha Devi of Nepal; tradition says it replaced an earlier clay temple built by the kings of Jumla. The site itself is mentioned in the Vishnu Purana's Gandaki Mahatmya.",
+  "dynasty": "Shah",
+  "architecture": "Small Newar-style pagoda with a three-tiered roof crowned by a golden brass pinnacle, standing in a courtyard enclosed by 108 bull-headed water spouts (Mukti Dhara) of copper or brass, inside a sacred poplar grove.",
+  "unesco": false,
+  "short": "One of the world's highest temples, at 3,800 m, sacred to Hindus as Vishnu's abode and to Buddhists as Chumig Gyatsa.",
+  "story": "You have reached 3,800 metres, at the foot of the Thorong La pass, and the air is thin and cold. This is Muktinath, the Lord of Liberation, and both Hindus and Buddhists have walked here for centuries. Hindus come to Vishnu, who is said to have revealed himself here; it is one of the 108 Divya Desams of the Sri Vaishnava tradition and one of Nepal's Char Dham. Buddhists know the place as Chumig Gyatsa, the Hundred Springs, linked with Avalokiteshvara and with Padmasambhava. The small pagoda in front of you, with its three-tiered roof and golden pinnacle, was built around 1815 and is credited to Queen Subarna Prabha Devi. Now walk around it. One hundred and eight bull-headed spouts pour icy water, and brave pilgrims run beneath every one. Nearby, at the Jwala Mai shrine, a small flame burns on natural gas from the earth, so fire and water meet in one holy place.",
+  "legend": "The poplar trees of the sacred grove are said to have grown from the staffs of the eighty-four siddhas who passed through on their way to Tibet. Buddhists hold that Padmasambhava left a statue of himself at the Mharme Lhakhang Gompa before departing for Tibet.",
+  "facts": [
+   "At about 3,800 m, Muktinath is one of the world's highest temples.",
+   "Its courtyard is enclosed by 108 water spouts shaped like bull heads, called the Mukti Dhara.",
+   "It is counted among the 108 Divya Desam of Sri Vaishnavism and among the 51 Shakta pithas.",
+   "Tibetan Buddhists call it Chumig Gyatsa, the 'Hundred Waters'.",
+   "The nearby Jwala Mai temple shelters a flame fed by natural gas from the ground."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 90,
+   "hours_note": "High-altitude site reached by road or trail from Jomsom via Ranipauwa; opening hours not confirmed in a reliable source.",
+   "fee_note": "No temple entry fee found. Muktinath lies in the Annapurna Conservation Area, which requires a separate permit for foreign visitors."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "About how high is Muktinath Temple above sea level?",
+    "options": [
+     "1,300 m",
+     "2,200 m",
+     "3,800 m",
+     "5,400 m"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Muktinath stands at about 3,800 m, making it one of the world's highest temples."
+   },
+   {
+    "q": "How many water spouts surround the main shrine?",
+    "options": [
+     "12",
+     "51",
+     "108",
+     "1,008"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "108 bull-headed spouts, the Mukti Dhara, enclose the courtyard."
+   },
+   {
+    "q": "What do Tibetan Buddhists call Muktinath?",
+    "options": [
+     "Chumig Gyatsa",
+     "Thubchen",
+     "Tengboche",
+     "Lo Gekar"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Chumig Gyatsa means 'Hundred Waters' or 'Hundred Springs'."
+   },
+   {
+    "q": "Which queen is credited with building the present shrine around 1815?",
+    "options": [
+     "Rajendra Lakshmi",
+     "Subarna Prabha Devi",
+     "Lalit Tripura Sundari",
+     "Champawati"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The 1814-15 construction is credited to Queen Subarna Prabha Devi, who made a pilgrimage around 1807."
+   },
+   {
+    "q": "Which mountain pass rises just above the Muktinath valley?",
+    "options": [
+     "Thorong La",
+     "Larkya La",
+     "Kora La",
+     "Nangpa La"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Muktinath lies at the foot of the Thorong La pass."
+   }
+  ],
+  "clues": [
+   "Pilgrims dash through a hundred and eight icy streams here, high in a dry mountain valley.",
+   "Hindus call me the Lord of Liberation and Buddhists call me the Hundred Springs; a flame burns beside water nearby."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Muktinath",
+   "https://www.wikidata.org/wiki/Q1025465",
+   "https://commons.wikimedia.org/wiki/Category:Muktinath_Temple"
+  ],
+  "province": "Gandaki",
+  "district": "Mustang",
+  "festivals": [],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 9,
+   "footprint_m": [
+    6,
+    6
+   ],
+   "walls": "timber",
+   "roof": "copper",
+   "colors": [
+    "#4a3b2c",
+    "#c9a23a",
+    "#b8b0a0"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "water-spouts",
+    "bell",
+    "prayer-flags",
+    "sacred-tree",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "sacred-grove",
+    "pond",
+    "desert-cliffs",
+    "snow-peaks"
+   ],
+   "notes": "Small dark three-roofed pagoda inside a stone-walled yard ringed by a line of 108 brass bull-head spouts and two ponds, poplar grove, bare brown mountains."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Muktinath_Temple_%281%29.jpg/1280px-Muktinath_Temple_%281%29.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Muktinath_Temple_(1).jpg",
+   "author": "Faj2323",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/108_water_sources_-_Muktinath%2C_Nepal_-_panoramio.jpg/1280px-108_water_sources_-_Muktinath%2C_Nepal_-_panoramio.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:108_water_sources_-_Muktinath,_Nepal_-_panoramio.jpg",
+    "author": "Sergey Ashmarin",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The 108 water spouts of the Mukti Dhara"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Inside_Muktinath_Temple.jpg/1280px-Inside_Muktinath_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Inside_Muktinath_Temple.jpg",
+    "author": "Raunak Maskay",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Inside the main shrine"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Main_Muktinath_temple_and_ponds_c.2016.jpg/1280px-Main_Muktinath_temple_and_ponds_c.2016.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Main_Muktinath_temple_and_ponds_c.2016.jpg",
+    "author": "Nima t100",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Main temple and holy ponds"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Burning_candles_at_Muktinath-Temple_%28Nepal%2C_Region_of_Mustang%29.JPG/1280px-Burning_candles_at_Muktinath-Temple_%28Nepal%2C_Region_of_Mustang%29.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Burning_candles_at_Muktinath-Temple_(Nepal,_Region_of_Mustang).JPG",
+    "author": "Polyflux",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Butter lamps burning at the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Muktinath_Temple_Mustang.jpg/1280px-Muktinath_Temple_Mustang.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Muktinath_Temple_Mustang.jpg",
+    "author": "Gaurav.aryal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The three-tiered pagoda in its courtyard"
+   }
+  ]
+ },
+ {
+  "slug": "tal-barahi-temple",
+  "name": "Tal Barahi Temple",
+  "name_np": "तालबाराही मन्दिर",
+  "alt_names": [
+   "Lake Temple",
+   "Barahi Temple",
+   "Taal Barahi"
+  ],
+  "city": "Pokhara",
+  "zone": null,
+  "lat": 28.207452,
+  "lng": 83.953443,
+  "coord_source": "OpenStreetMap node/11812281742",
+  "type": "lake-shrine",
+  "religion": "Hindu",
+  "deity": "Goddess Barahi (Varahi), a form of the mother goddess (Ajima)",
+  "built_year": null,
+  "built_century_text": "Local belief dates the shrine to 1669 BS, when King Kulmandan Shah of Kaski is said to have built a thatched hut over a sacred stone on the island. King Mahendra rebuilt it in its current form in 2017 BS; rebuilt again in 2023-2026 after earthquake damage.",
+  "dynasty": "Shah (Kaski kings); rebuilt under King Mahendra",
+  "architecture": "Small two-storey pagoda on an island in Phewa Lake, with carved wooden struts, windows and doors and a gilded pinnacle. Wikipedia notes an original stone structure with a two-storey roof; the 2023-26 rebuild used wood and brick in the old form, with Bhaktapur and Lalitpur artisans.",
+  "unesco": false,
+  "short": "A small island pagoda of the goddess Barahi in Phewa Lake, Pokhara's most important religious monument, reached only by boat.",
+  "story": "Sit still in the boat for a moment as the shore of Lakeside drifts away. Ahead, on a small wooded island in the middle of Phewa Lake, rises the pagoda of Tal Barahi, the most important religious monument in Pokhara. Tal means lake, and Barahi is the mother goddess who is worshipped here as a symbol of female power. Local belief says that a stone on this mound was worshipped as the goddess long before any building stood here, and that King Kulmandan Shah of Kaski first sheltered it under a simple thatched hut. King Mahendra rebuilt the temple in 2017 BS. After the 2015 earthquake left it leaning about three inches to the south, craftsmen from Bhaktapur and Lalitpur rebuilt it again, keeping its old form. Step ashore at the landing, hear the bells and the flapping pigeons, and look back: on a clear morning the Annapurna range floats above the water behind you.",
+  "legend": "According to local folklore, King Kulmandan Shah of Kaski founded the temple by building a thatched hut over a stone on a mound in the lake, which had been worshipped as the goddess.",
+  "facts": [
+   "The temple stands on a small island in Phewa Lake and can be reached only by boat, about five minutes from Barahi Ghat.",
+   "Devotees especially visit in the Nepali months of Baisakh and Kartik.",
+   "The 2015 earthquake tilted the temple about three inches to the south.",
+   "Reconstruction began in 2080 BS (2023) under the Department of Archaeology at a cost of about NPR 15 million, mostly from devotees' donations.",
+   "During reconstruction, worship continued at a silver idol at the nearby Havan Kund."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 60,
+   "hours_note": "Reached by boat from Barahi Ghat in Lakeside, Pokhara. Opening hours not confirmed in a reliable source.",
+   "fee_note": "No temple entry fee found; boat fare is paid separately at the ghat."
+  },
+  "earthquake_2015": "The 2015 earthquake tilted the temple about three inches to the south and left parts submerged. Reconstruction began in 2023 and was reported complete in 2026, with reopening set for Ghatasthapana.",
+  "quiz": [
+   {
+    "q": "How do visitors reach Tal Barahi Temple?",
+    "options": [
+     "By cable car",
+     "By boat",
+     "By a long bridge",
+     "On foot along a dam"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The temple is on an island in Phewa Lake, so the only way to visit is by boat."
+   },
+   {
+    "q": "In which lake does the temple stand?",
+    "options": [
+     "Begnas",
+     "Rara",
+     "Phewa",
+     "Rupa"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "The temple is on a small island in Phewa (Fewa) Lake, Pokhara."
+   },
+   {
+    "q": "Which king of Kaski is said to have first built a thatched shrine on the island?",
+    "options": [
+     "Kulmandan Shah",
+     "Siddhi Narayan Shah",
+     "Ram Shah",
+     "Khadgaman Malla"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Local folklore credits King Kulmandan Shah of Kaski with the first thatched hut."
+   },
+   {
+    "q": "Which king rebuilt the temple in its present form in 2017 BS?",
+    "options": [
+     "Tribhuvan",
+     "Mahendra",
+     "Birendra",
+     "Prithvi Narayan Shah"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "King Mahendra rebuilt the temple in 2017 BS."
+   },
+   {
+    "q": "In which two Nepali months do devotees especially visit?",
+    "options": [
+     "Magh and Falgun",
+     "Baisakh and Kartik",
+     "Shrawan and Bhadra",
+     "Poush and Chaitra"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Wikipedia notes devotees visit especially in Baisakh and Kartik."
+   }
+  ],
+  "clues": [
+   "You need oars, not shoes, to reach my door on a little green island under the Annapurnas.",
+   "A Kaski king once sheltered a sacred stone here with straw; today a pagoda of the boar-faced mother goddess stands in its place."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tal_Barahi_Temple",
+   "https://www.openstreetmap.org/node/11812281742",
+   "https://english.ratopati.com/story/82487/reconstruction-of-talbarahi-temple-completed-open-to-devotees-from-ghatasthapana",
+   "https://commons.wikimedia.org/wiki/Category:Tal_Barahi_Temple"
+  ],
+  "province": "Gandaki",
+  "district": "Kaski",
+  "festivals": [
+   {
+    "name": "Dashain (Ghatasthapana)",
+    "name_np": "दशैँ (घटस्थापना)",
+    "month": "Ashwin",
+    "note": "Regular puja was set to resume on Ghatasthapana when the goddess's power returned to the old stone after rebuilding."
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": 9,
+   "footprint_m": [
+    6,
+    6
+   ],
+   "walls": "timber",
+   "roof": "clay-tile",
+   "colors": [
+    "#6b6a66",
+    "#3e2f25",
+    "#c9a23a"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "bell",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "lake",
+    "forest",
+    "himalaya-backdrop",
+    "snow-peaks"
+   ],
+   "notes": "Tiny two-roofed grey-roofed dark-timber pagoda with a gold pinnacle on a tree-covered island in a green lake, boats at a small landing, Annapurna peaks behind."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Barahi_island_Temple.jpg/1280px-Barahi_island_Temple.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Barahi_island_Temple.jpg",
+   "author": "Bibek28",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Barahi_Temple_%289191444126%29_%28cropped%29.jpg/1280px-Barahi_Temple_%289191444126%29_%28cropped%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Barahi_Temple_(9191444126)_(cropped).jpg",
+    "author": "দেবর্ষি রায় from Brno, Czech Republic",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "The island temple seen from Phewa Lake"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Aves_en_Barahi_Temple_%288512791125%29.jpg/1280px-Aves_en_Barahi_Temple_%288512791125%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Aves_en_Barahi_Temple_(8512791125).jpg",
+    "author": "Carlos Adampol Galindo from DF, México",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Birds perched on the temple roof"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Barahi_mandir_Pokhara.jpg/1280px-Barahi_mandir_Pokhara.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Barahi_mandir_Pokhara.jpg",
+    "author": "Bibek Raj Pandeya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Close view of the temple and its carvings"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/NP_Pokhara_0905_%2820%29_%2817258352855%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:NP_Pokhara_0905_(20)_(17258352855).jpg",
+    "author": "Diego Tirira from Quito, Ecuador",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Boats moored at the island landing"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Phewa_Lake_and_The_Accompaniments%21.jpg/1280px-Phewa_Lake_and_The_Accompaniments%21.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Phewa_Lake_and_The_Accompaniments!.jpg",
+    "author": "Gauravpkr",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The island temple with the Himalayan range behind"
+   }
+  ]
+ },
+ {
+  "slug": "bindhyabasini-temple-pokhara",
+  "name": "Bindhyabasini Temple",
+  "name_np": "बिन्ध्यबासिनी मन्दिर",
+  "alt_names": [
+   "Bindhyawasini Temple",
+   "Bindabasini Temple"
+  ],
+  "city": "Pokhara",
+  "zone": null,
+  "lat": 28.237778,
+  "lng": 83.984167,
+  "coord_source": "Wikidata P625 (Q16254765)",
+  "type": "shikhara",
+  "religion": "Hindu",
+  "deity": "Goddess Bindhyabasini, a manifestation of Durga (Yogamaya)",
+  "built_year": null,
+  "built_century_text": "Established around the 1760s; the temple itself is recorded as built in 1842 BS on 47 ropani of land. In June 1815 King Girvan Yuddha Bikram Shah appointed its priest. The present building is a later shikhara rebuild.",
+  "dynasty": "Kaski kings (tradition); Shah",
+  "architecture": "White shikhara-style temple on a hilltop platform, approached by stone stairways from the east, north and south-east. Two golden metal lions flank the gate, and the complex holds shrines to Saraswati, Shiva, Hanuman, Ganesh and Vishnu.",
+  "unesco": false,
+  "short": "One of Pokhara's oldest temples: a white shikhara of goddess Bindhyabasini on a hill in Miruwa, old Pokhara.",
+  "story": "Climb the stone stairs to this small hill in old Pokhara and you arrive at one of the city's oldest temples. The white shikhara in front of you belongs to Bindhyabasini, a form of Durga. Her story begins in Mathura, where she was born as the baby who escaped the tyrant Kamsa and rose into the sky, later making her home in the Vindhya hills of India. Legend says a king of Kaski, Siddhi Narayan Shah, dreamed of bringing her presence to his kingdom. His envoys carried a statue home from Vindhyachal, but on this hilltop it became impossible to move, so the temple was founded right here. Notice the two golden lions at the gate and the sindoor-red Hanuman by the Ganesh shrine. Around you are shrines to Saraswati, Shiva and Vishnu, and a Sanskrit school. Sadly, Pokhara's great fire of 1949 is said to have started here during an offering.",
+  "legend": "King Siddhi Narayan Shah of Kaski (or, in other accounts, King Khadgaman Malla of Parbat) dreamed he should bring the goddess from Vindhyachal in India. The statue his envoys carried back could not be lifted again on this hilltop, which was taken as the goddess's chosen home.",
+  "facts": [
+   "The temple is in Ward 2, Miruwa, of Pokhara and is dedicated to Bindhyabasini, a manifestation of Durga.",
+   "The temple was established around the 1760s; in 1815 King Girvan Yuddha Bikram Shah appointed its priest.",
+   "Most of Pokhara was destroyed in a 1949 fire that allegedly began at the temple during an offering.",
+   "A 12-person lift for disabled and elderly pilgrims was inaugurated by the President of Nepal on 7 March 2019.",
+   "The complex is managed by the Bindhyabasini Dharmik Chhetra Bikash Samiti."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Hilltop temple reached by stone stairways, with a lift for elderly and disabled visitors. Hours not confirmed in a reliable source.",
+   "fee_note": "No entry fee found in sources."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Bindhyabasini is a manifestation of which goddess?",
+    "options": [
+     "Lakshmi",
+     "Durga",
+     "Saraswati",
+     "Ganga"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Bindhyabasini is regarded as a manifestation of Durga (Yogamaya)."
+   },
+   {
+    "q": "In what architectural style is the present temple built?",
+    "options": [
+     "Pagoda",
+     "Stupa",
+     "Shikhara",
+     "Gumba"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The current temple is a white shikhara-style building."
+   },
+   {
+    "q": "From which Indian place is the goddess's statue said to have been brought?",
+    "options": [
+     "Varanasi",
+     "Vindhyachal",
+     "Haridwar",
+     "Puri"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Envoys brought the statue from the Bindhyabasini temple at Vindhyachal, Uttar Pradesh."
+   },
+   {
+    "q": "Which disaster in 1949 is said to have started at the temple?",
+    "options": [
+     "A flood",
+     "A landslide",
+     "A great fire of Pokhara",
+     "An earthquake"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Most of Pokhara was destroyed in the 1949 fire, allegedly begun during an offering at the temple."
+   },
+   {
+    "q": "Which king appointed a new priest of the temple in June 1815?",
+    "options": [
+     "Prithvi Narayan Shah",
+     "Rana Bahadur Shah",
+     "Girvan Yuddha Bikram Shah",
+     "Rajendra Bikram Shah"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "Girvan Yuddha Bikram Shah appointed Kahindra Padhya Poudel as priest in 1815."
+   }
+  ],
+  "clues": [
+   "A statue carried from distant hills refused to move another step on this rise above old Pokhara.",
+   "Two golden lions guard my white spire, and a fire that swept the city in 1949 is said to have begun at my altar."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bindhyabasini_Temple",
+   "https://www.wikidata.org/wiki/Q16254765",
+   "https://commons.wikimedia.org/wiki/Category:Bindhayawasini_Temple"
+  ],
+  "province": "Gandaki",
+  "district": "Kaski",
+  "festivals": [],
+  "model": {
+   "kind": "shikhara",
+   "tiers": 1,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": 12,
+   "footprint_m": [
+    7,
+    7
+   ],
+   "walls": "white-plaster",
+   "roof": "white-dome",
+   "colors": [
+    "#f2f2ef",
+    "#c0302a",
+    "#c9a23a"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "lion-statues",
+    "bell",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "hilltop",
+    "stone-paved-plaza",
+    "city-street",
+    "sacred-tree"
+   ],
+   "notes": "Bulbous white plastered shikhara with a red band and gold finial, a small carved porch in front, two golden lions at the gate on a paved hilltop."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Bindabashini_Temple_01.JPG/1280px-Bindabashini_Temple_01.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Bindabashini_Temple_01.JPG",
+   "author": "Prabina Karki",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Bindabasini_mandir.jpg/1280px-Bindabasini_mandir.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bindabasini_mandir.jpg",
+    "author": "Herogurung",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Devotees queueing at the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Bindhyabasini_Temple_%289048739188%29.jpg/1280px-Bindhyabasini_Temple_%289048739188%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bindhyabasini_Temple_(9048739188).jpg",
+    "author": "দেবর্ষি রায় from Brno, Czech Republic",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "The temple in its hilltop setting"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bindabasini_temple.jpg/1280px-Bindabasini_temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bindabasini_temple.jpg",
+    "author": "Premkgurung",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The white shikhara and its entrance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Bindhyabasini_Temple_Complex_and_Devotees_02.jpg/1280px-Bindhyabasini_Temple_Complex_and_Devotees_02.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bindhyabasini_Temple_Complex_and_Devotees_02.jpg",
+    "author": "Goutam1962",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Temple complex with devotees"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Bindhyabasini_Temple_Complex_and_Devotees_115.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bindhyabasini_Temple_Complex_and_Devotees_115.jpg",
+    "author": "Goutam1962",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Devotees worshipping in the complex"
+   }
+  ]
+ },
+ {
+  "slug": "bhadrakali-temple-pokhara",
+  "name": "Bhadrakali Temple",
+  "name_np": "भद्रकाली मन्दिर",
+  "alt_names": [
+   "Bhadrakali Temple, Pokhara",
+   "Mudule Thumko"
+  ],
+  "city": "Pokhara",
+  "zone": null,
+  "lat": 28.2125,
+  "lng": 84.007083,
+  "coord_source": "Wikidata P625 (Q97357162)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Goddess Bhadrakali (Kali/Durga)",
+  "built_year": null,
+  "built_century_text": "Wikipedia and Wikidata give its founding year as 1817 (the calendar era is not stated); the hill was earlier known as Mudule Thumko.",
+  "dynasty": null,
+  "architecture": "Small tiered pagoda-roofed shrine with a gilded pinnacle on a brick and stone platform atop a forested hillock, with a Ganesh shrine, a kuti and stone lion guardians in the grounds.",
+  "unesco": false,
+  "short": "A hilltop pagoda of the goddess Bhadrakali in Kundahar, east Pokhara, reached by nearly 300 stone steps through the trees.",
+  "story": "Count the steps as you climb: from the east there are 292 of them, from the south 265, and both lead you up through green woods to the top of a small hill in Kundahar, on the eastern side of Pokhara. Up here, at about 2,930 feet, stands the temple of Bhadrakali, the goddess of power and strength, a form of Kali and Durga. Before the temple was founded in 1817, people called this hill Mudule Thumko. The story told by devotees is simple and striking: the goddess spoke to a priest and told him to dig into the hill, and there he found her image. Since then she has been worshipped here as Bhadrakali. The temple grounds spread over 135 ropani, with a small Ganesh shrine and a stone lion keeping watch. Come during Dashain and thousands of worshippers fill these quiet paths.",
+  "legend": "The goddess Bhadrakali told a priest to dig into the hill, where he found her statue; since then it has been worshipped here as Bhadrakali.",
+  "facts": [
+   "The temple stands atop a small hill in Kundahar, east Pokhara, at about 2,930 ft (about 890 m).",
+   "The eastern approach has 292 steps and the southern approach 265 steps.",
+   "The temple area covers about 135 ropani.",
+   "Before the temple was founded, the hill was known as 'Mudule Thumko'.",
+   "Dashain is its most important festival, drawing thousands of devotees."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Local buses run from Mahendrapul and Khaukhola; opening hours not confirmed in a reliable source.",
+   "fee_note": "No entry fee found in sources."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Bhadrakali is a form of which goddess?",
+    "options": [
+     "Lakshmi",
+     "Saraswati",
+     "Kali",
+     "Parvati as Annapurna"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "The temple is dedicated to Goddess Kali in her form as Bhadrakali, a goddess of power."
+   },
+   {
+    "q": "How many steps lead up the eastern side of the hill?",
+    "options": [
+     "108",
+     "265",
+     "292",
+     "365"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The eastern way has 292 steps; the southern route has 265."
+   },
+   {
+    "q": "Which festival draws the biggest crowds here?",
+    "options": [
+     "Holi",
+     "Dashain",
+     "Tihar",
+     "Buddha Jayanti"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Dashain is the temple's most important festival."
+   },
+   {
+    "q": "How was the goddess's statue found, according to the temple's story?",
+    "options": [
+     "Washed up from Phewa Lake",
+     "Brought from India",
+     "Dug out of the hill after the goddess told a priest",
+     "Carved by a king"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The goddess told the priest to dig into the hill, where her statue was found."
+   },
+   {
+    "q": "What was the hill called before the temple was founded?",
+    "options": [
+     "Sarangkot",
+     "Mudule Thumko",
+     "Kahun Danda",
+     "Matepani"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "Wikipedia records that the hill was previously known as 'Mudule Thumko'."
+   }
+  ],
+  "clues": [
+   "A priest dug into a wooded mound in east Pokhara and found a fierce goddess waiting inside.",
+   "Choose 292 steps from the east or 265 from the south to reach my small hilltop shrine."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bhadrakali_Temple",
+   "https://www.wikidata.org/wiki/Q97357162",
+   "https://www.openstreetmap.org/way/343226046",
+   "https://commons.wikimedia.org/wiki/Category:Bhadrakali_Temple,_Pokhara"
+  ],
+  "province": "Gandaki",
+  "district": "Kaski",
+  "festivals": [
+   {
+    "name": "Dashain",
+    "name_np": "दशैँ",
+    "month": "Ashwin",
+    "note": "The temple's most important festival, when thousands of devotees come to worship the goddess."
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": 10,
+   "footprint_m": [
+    6,
+    6
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8c3a2b",
+    "#3e2f25",
+    "#c9a23a"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "bell",
+    "lion-statues",
+    "fence-railing"
+   ],
+   "surroundings": [
+    "hilltop",
+    "forest",
+    "stone-paved-plaza",
+    "city-street"
+   ],
+   "notes": "Small two-roofed red-brick pagoda with gold finial on a raised stone platform at the top of a tree-covered hillock, long stone stairs climbing to it."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bhadrakali_Temple%2CPokhara.JPG/1280px-Bhadrakali_Temple%2CPokhara.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Bhadrakali_Temple,Pokhara.JPG",
+   "author": "Bibek28",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Bhadrakali_Temple_Apr_2022.jpg/1280px-Bhadrakali_Temple_Apr_2022.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhadrakali_Temple_Apr_2022.jpg",
+    "author": "Thapa.lakshman",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple in April 2022"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Bhadrakali_mandhir_premises.jpg/1280px-Bhadrakali_mandhir_premises.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhadrakali_mandhir_premises.jpg",
+    "author": "Thapa.lakshman",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Temple premises with a flowering tree"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bhadrakali_Temple_Kaski.JPG/1280px-Bhadrakali_Temple_Kaski.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhadrakali_Temple_Kaski.JPG",
+    "author": "Urzen23",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Close view of the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Bhadrakalientrance.jpg/1280px-Bhadrakalientrance.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhadrakalientrance.jpg",
+    "author": "Himalayanwalkers",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone stairway entrance to the hill"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Lion_guard_at_Bhadrakali_Temple%2C_Kundahar%2C_Pokhara.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Lion_guard_at_Bhadrakali_Temple,_Kundahar,_Pokhara.jpg",
+    "author": "Ramnam",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone lion guard in the temple grounds"
+   }
+  ]
+ },
+ {
+  "slug": "bindebasini-temple-bandipur",
+  "name": "Bindebasini Temple, Bandipur",
+  "name_np": "बिन्ध्यबासिनी मन्दिर, बन्दिपुर",
+  "alt_names": [
+   "Bindhyabasini Temple Bandipur",
+   "Bindabasini Temple"
+  ],
+  "city": "Bandipur",
+  "zone": null,
+  "lat": 27.937806,
+  "lng": 84.407078,
+  "coord_source": "OpenStreetMap way/341126519",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Goddess Bindhyabasini, a form of Durga",
+  "built_year": null,
+  "built_century_text": "Construction date not documented in the sources found; Bandipur bazaar itself grew after Newar traders from Bhaktapur settled here following 1768. The temple was rebuilt after the 2072 BS (2015) earthquake.",
+  "dynasty": null,
+  "architecture": "Two-tiered Newar pagoda of brick and carved timber on a stepped base, standing in the stone-paved square at the northern end of Bandipur bazaar, framed by two- and three-storey Newar trading houses with shuttered windows.",
+  "unesco": false,
+  "short": "A Newar pagoda of goddess Bindhyabasini at the head of Bandipur's preserved hilltop trading bazaar in Tanahun.",
+  "story": "Walk the length of Bandipur's main street, past tall Newar houses with shuttered windows and shops under their verandas, and at the northern end you reach a small square with a pagoda at its heart. This is the temple of Bindhyabasini, a form of Durga. Bandipur was a Magar village until Newar traders from Bhaktapur arrived after Prithvi Narayan Shah conquered the Kathmandu Valley in 1768. Safe from malaria on this saddle of the Mahabharat range, they turned it into a busy stop on the India-Tibet trade route and brought their temples and architecture with them. Look at the carved roof struts and the brickwork, which echo the old pagodas of the valley. The 2015 earthquake damaged the temple, and it has been rebuilt. Locals still come to worship every day, and at the New Year an image of the goddess is pulled through town on a chariot.",
+  "legend": null,
+  "facts": [
+   "Bandipur sits at about 1,030 m on a saddle of the Mahabharat range, some 700 m above the Marsyangdi valley.",
+   "Newar traders from Bhaktapur developed Bandipur after Prithvi Narayan Shah conquered the Kathmandu Valley in 1768.",
+   "The temple stands in the square at the northern end of Bandipur bazaar.",
+   "It was rebuilt after the 2072 BS (2015) earthquake.",
+   "Since 1998 Bandipur has been linked by an 8 km road from Dumre on the Prithvi Highway."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Open-air temple in the bazaar square; no fixed hours documented.",
+   "fee_note": "No entry fee found in sources."
+  },
+  "earthquake_2015": "Damaged in the 2015 (2072 BS) earthquake and rebuilt afterwards, according to the Commons photographer's description.",
+  "quiz": [
+   {
+    "q": "Bindhyabasini is worshipped as a form of which goddess?",
+    "options": [
+     "Durga",
+     "Saraswati",
+     "Sita",
+     "Tara"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Bindhyabasini is a form of Durga, regarded as a protector of Bandipur."
+   },
+   {
+    "q": "From which Kathmandu Valley city did the Newar traders who built up Bandipur come?",
+    "options": [
+     "Kirtipur",
+     "Patan",
+     "Bhaktapur",
+     "Thimi"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Newar traders from Bhaktapur settled Bandipur after 1768."
+   },
+   {
+    "q": "Which trade route made Bandipur prosperous?",
+    "options": [
+     "The Silk Road",
+     "The India-Tibet trade route",
+     "The salt route to Bengal",
+     "The Karakoram route"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Its malaria-free location made it an important stop on the India-Tibet trade route."
+   },
+   {
+    "q": "In which district is Bandipur?",
+    "options": [
+     "Gorkha",
+     "Lamjung",
+     "Tanahun",
+     "Syangja"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Bandipur is a hilltop town in Tanahun District, Gandaki Province."
+   },
+   {
+    "q": "Why did Bandipur's trade decline in the 1970s?",
+    "options": [
+     "An earthquake",
+     "The Prithvi Highway was built along the valley below",
+     "The bazaar burned down",
+     "The border with Tibet closed"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The Prithvi Highway followed the Marsyangdi valley, leaving Bandipur isolated on the ridge."
+   }
+  ],
+  "clues": [
+   "A pagoda guards the end of a hilltop street of Bhaktapur-style trading houses on an old Tibet trade route.",
+   "When the highway was built in the valley below, my town was left behind on its ridge, but the goddess still rides her chariot at New Year."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bandipur_Rural_Municipality",
+   "https://www.openstreetmap.org/way/341126519",
+   "https://www.yakandyeti.com/bandipur",
+   "https://commons.wikimedia.org/wiki/File:Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_(1).jpg"
+  ],
+  "province": "Gandaki",
+  "district": "Tanahun",
+  "festivals": [
+   {
+    "name": "New Year chariot procession",
+    "name_np": "नयाँ वर्ष रथ यात्रा",
+    "month": "Baisakh",
+    "note": "An image of the goddess is placed in a chariot and pulled during the New Year celebration (travel guide)."
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": 10,
+   "footprint_m": [
+    6,
+    6
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8a3b2a",
+    "#3b2c22",
+    "#c9a23a"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "carved-windows",
+    "bell"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "newar-houses",
+    "market-houses",
+    "hilltop"
+   ],
+   "notes": "Two-roofed brick and dark-timber pagoda on a stepped base in a small paved square at the end of a street of tall Newar shophouses."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_%283%29.jpg/1280px-Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_%283%29.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_(3).jpg",
+   "author": "Rajesh Dhungana",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple at the head of Bandipur bazaar"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Bandipur_%E2%80%93_Bindhybashini-Temple_-_01.jpg/1280px-Bandipur_%E2%80%93_Bindhybashini-Temple_-_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bandipur_%E2%80%93_Bindhybashini-Temple_-_01.jpg",
+    "author": "Maesi64",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Front view of the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_%282%29.jpg/1280px-Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_%282%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_(2).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple with the bazaar houses"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_%285%29.jpg/1280px-Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_%285%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bindyabasini_Temple_Bandipur_Tanahu_Nepal_Rajesh_Dhungana_(5).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Pagoda roofs and carved struts"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Bindyabasini_Temple_of_Bandipur.JPG/1280px-Bindyabasini_Temple_of_Bandipur.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bindyabasini_Temple_of_Bandipur.JPG",
+    "author": "Raajiv Kilana Shrestha",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The temple in its square"
+   }
+  ]
+ },
+ {
+  "slug": "khadga-devi-temple-bandipur",
+  "name": "Khadga Devi Temple",
+  "name_np": "खड्गदेवी मन्दिर",
+  "alt_names": [
+   "Khadga Mai Temple",
+   "Khadgamai"
+  ],
+  "city": "Bandipur",
+  "zone": null,
+  "lat": 27.938683,
+  "lng": 84.407774,
+  "coord_source": "OpenStreetMap node/6026620786",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Khadga Devi, goddess of the sacred sword",
+  "built_year": null,
+  "built_century_text": "Construction date not documented in the sources found. The sword kept here is believed to have belonged to the 16th-century king Mukunda Sen.",
+  "dynasty": null,
+  "architecture": "Two-storey red-brick shrine with a pitched tiled roof topped by a small lantern and pinnacle, entered up a short flight of stone steps; set in a wide open ground with rest houses (pati) and large pipal trees above Bandipur bazaar.",
+  "unesco": false,
+  "short": "Hilltop shrine above Bandipur bazaar that guards a sacred sword said to have belonged to King Mukunda Sen, paraded at Dashain.",
+  "story": "Climb a little above Bandipur's old bazaar and the houses give way to a wide open ground, shaded by great pipal trees. The red-brick shrine in front of you is the home of Khadga Devi, the goddess of the sword. Khadga means sword, and the treasure kept here is a blade believed to have belonged to Mukunda Sen, a king of the 16th century; tradition says it was a gift from Lord Shiva himself. For most of the year the doors stay shut. They open on Fulpati, during Dashain, when the town holds its Khadga Jatra. Then members of the Magar and Bishwokarma communities carry the sacred sword in procession through the streets, and Hindu devotees come to worship it. The temple is especially important to Bandipur's Newar Shrestha families. Stand by the pati, the old rest house, look out over the ridge, and imagine the drums and the flash of steel on festival day.",
+  "legend": "The sword kept in the temple is believed to have belonged to King Mukunda Sen and to have been a gift from Lord Shiva.",
+  "facts": [
+   "Khadga Jatra, held during Dashain, centres on a religious service at the Khadga Devi temple.",
+   "Magar and Bishwokarma communities parade a sacred sword through Bandipur during the jatra.",
+   "The sword is believed to have belonged to King Mukunda Sen.",
+   "The temple opens only on Fulpati, one day of the Dashain festival.",
+   "A statue of Khadgamai stands in the sanctum, with pati rest houses and big pipal trees nearby."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Short uphill walk from Bandipur bazaar. The shrine is opened only on Fulpati during Dashain; the grounds can be visited at other times.",
+   "fee_note": "No entry fee found in sources."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "What does the word 'khadga' mean?",
+    "options": [
+     "Bell",
+     "Sword",
+     "Lamp",
+     "Drum"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Khadga means sword; Khadga Devi is the goddess of the sword."
+   },
+   {
+    "q": "During which festival is Khadga Jatra held?",
+    "options": [
+     "Tihar",
+     "Holi",
+     "Dashain",
+     "Teej"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Khadga Jatra takes place during Dashain."
+   },
+   {
+    "q": "Which king is the sacred sword believed to have belonged to?",
+    "options": [
+     "Prithvi Narayan Shah",
+     "Mukunda Sen",
+     "Ram Shah",
+     "Ame Pal"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The sword is believed to have belonged to King Mukunda Sen."
+   },
+   {
+    "q": "On which day of Dashain does the temple open?",
+    "options": [
+     "Ghatasthapana",
+     "Fulpati",
+     "Vijaya Dashami",
+     "Kojagrat Purnima"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The temple opens only on Fulpati."
+   },
+   {
+    "q": "Which communities carry the sword in procession during Khadga Jatra?",
+    "options": [
+     "Gurung and Thakali",
+     "Magar and Bishwokarma",
+     "Sherpa and Tamang",
+     "Tharu and Rai"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "Magar and Bishwokarma communities parade the sacred sword through town."
+   }
+  ],
+  "clues": [
+   "My doors open on just one day of the great autumn festival, when an old king's blade is carried through the streets.",
+   "Under big pipal trees above a Newar bazaar, a goddess keeps a weapon said to be a gift from Shiva."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Khadga_Jatra",
+   "https://www.openstreetmap.org/node/6026620786",
+   "https://www.yakandyeti.com/bandipur",
+   "https://commons.wikimedia.org/wiki/File:Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_(1).jpg"
+  ],
+  "province": "Gandaki",
+  "district": "Tanahun",
+  "festivals": [
+   {
+    "name": "Khadga Jatra",
+    "name_np": "खड्ग जात्रा",
+    "month": "Ashwin",
+    "note": "During Dashain a sacred sword is worshipped and paraded through Bandipur; the temple opens on Fulpati."
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 1,
+   "plinth_steps": 2,
+   "plinth_shape": "rectangular",
+   "height_m": 9,
+   "footprint_m": [
+    9,
+    7
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#c0482e",
+    "#7a3324",
+    "#d9b44a"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-windows",
+    "bell",
+    "sacred-tree"
+   ],
+   "surroundings": [
+    "hilltop",
+    "stone-paved-plaza",
+    "village",
+    "sacred-grove"
+   ],
+   "notes": "Boxy two-storey bright red-brick shrine with a single pitched tiled roof and small top lantern, steps up to a central door, in a wide paved ground with pipal trees."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_%287%29.jpg/1280px-Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_%287%29.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_(7).jpg",
+   "author": "Rajesh Dhungana",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The shrine in its wide hilltop ground"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_%282%29.jpg/1280px-Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_%282%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_(2).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Side view of the red-brick temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_%284%29.jpg/1280px-Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_%284%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_(4).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Temple building and entrance steps"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_%285%29.jpg/1280px-Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_%285%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_(5).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone steps leading up to the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_%289%29.jpg/1280px-Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_%289%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Khadga_Mai_Temple_Bandipur_Tanahu_Gandaki_Pradesh_Nepal_Rajesh_Dhungana_(9).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple seen across the open ground"
+   }
+  ]
+ },
+ {
+  "slug": "lo-manthang-walled-city",
+  "name": "Lo Manthang Walled City",
+  "name_np": "लोमान्थाङ",
+  "alt_names": [
+   "Lo Manthang",
+   "Lomanthang",
+   "Capital of the Kingdom of Lo"
+  ],
+  "city": "Lo Manthang",
+  "zone": null,
+  "lat": 29.18273,
+  "lng": 83.95677,
+  "coord_source": "Wikidata P625 of Lo Manthang Palace (Q105753160), at the centre of the walled city",
+  "type": "fort",
+  "religion": "Buddhist",
+  "deity": "Shakyamuni Buddha (Thubchen), Maitreya (Jampa Lhakhang)",
+  "built_year": 1380,
+  "built_century_text": "Founded in 1380 by Ame Pal, first king of Lo, who built the city wall; the four-storey royal palace is dated to 1440. Thubchen and Jampa Lhakhang monasteries date from the 15th century.",
+  "dynasty": "Kings of Lo (Bista line descended from Ame Pal)",
+  "architecture": "Compact fortified town of whitewashed and ochre mud-brick houses inside a rammed-earth and stone wall entered by one gate. The nine-cornered royal palace is of mud, stone and wood; red-walled Thubchen (37.2 x 24 m, 12 m high, 35 wooden pillars) and Jampa Lhakhang hold 15th-century murals.",
+  "unesco": false,
+  "short": "The 14th-century walled capital of the Kingdom of Lo in Upper Mustang, with a royal palace and 15th-century painted monasteries.",
+  "story": "Pass through the single gate in this earthen wall and you are inside the capital of a kingdom that lasted more than six hundred years. Ame Pal, the warrior who founded the Kingdom of Lo, built this walled city in 1380, and his descendants ruled from here until Nepal became a republic in 2008. Around you are whitewashed houses with firewood stacked on their flat roofs, narrow alleys, and above them the many-cornered royal palace. Now look for the great red walls of the monasteries. Thubchen Lhakhang, from the 15th century, is held up by thirty-five wooden pillars, and its murals glow with turquoise, malachite and gold. Jampa Lhakhang, the Maitreya temple, holds what is said to be the world's largest collection of painted mandalas. Outside the wall stretch green barley fields in a desert of eroded cliffs. Upper Mustang was closed to outsiders until 1992, and foreigners still need a special permit to come here.",
+  "legend": null,
+  "facts": [
+   "Lo Manthang was founded in 1380 by Ame Pal, who oversaw construction of the city wall.",
+   "The last raja of Mustang, Jigme Dorje Palbar Bista, lost his title when Nepal became a republic in 2008.",
+   "Jampa Lhakhang contains what is described as the world's largest collection of mandalas painted on its walls.",
+   "Upper Mustang was closed to outsiders until 1992; foreigners need a special permit costing US$500 for ten days.",
+   "The royal palace, damaged in 2015, was restored with help from the Gerda Henkel Foundation by 2073 BS."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 240,
+   "hours_note": "Remote high-altitude town (about 3,800 m) reached by jeep road or multi-day trek from Jomsom; monastery opening times vary.",
+   "fee_note": "Foreigners need an Upper Mustang restricted-area permit: US$500 for ten days, then US$50 per day (Wikipedia). Monastery fees not confirmed."
+  },
+  "earthquake_2015": "The April 2015 earthquake damaged the royal palace, later restored with the Gerda Henkel Foundation, and severely damaged the 500-year-old wall paintings of Jampa Lhakhang.",
+  "quiz": [
+   {
+    "q": "Who founded Lo Manthang in 1380?",
+    "options": [
+     "Ame Pal",
+     "Ram Shah",
+     "Padmasambhava",
+     "Mukunda Sen"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Ame Pal, founder of the Kingdom of Lo, built the walled city from 1380."
+   },
+   {
+    "q": "Until which year was Upper Mustang closed to foreign visitors?",
+    "options": [
+     "1950",
+     "1972",
+     "1992",
+     "2008"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Upper Mustang was a closed territory until 1992."
+   },
+   {
+    "q": "Which monastery in Lo Manthang is famous for the world's largest collection of painted mandalas?",
+    "options": [
+     "Thubchen Lhakhang",
+     "Jampa Lhakhang",
+     "Choede Gompa",
+     "Kag Chode"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Jampa (Maitreya) Lhakhang holds the largest collection of wall-painted mandalas."
+   },
+   {
+    "q": "How many wooden pillars now support the main hall of Thubchen Lhakhang?",
+    "options": [
+     "12",
+     "24",
+     "35",
+     "108"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "The hall rests on 35 wooden pillars, originally 42."
+   },
+   {
+    "q": "In which year did the king of Mustang lose his title?",
+    "options": [
+     "1768",
+     "1951",
+     "1990",
+     "2008"
+    ],
+    "answer_index": 3,
+    "difficulty": 3,
+    "explanation": "The title ended when Nepal was declared a republic in 2008."
+   }
+  ],
+  "clues": [
+   "Walk through my only gate into the earthen capital of a vanished Himalayan kingdom, ruled by one line of kings for six centuries.",
+   "My red temples hide 15th-century murals and a thousand painted mandalas, deep in a closed land opened to visitors in 1992."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lo_Manthang",
+   "https://en.wikipedia.org/wiki/Lo_Manthang_Palace",
+   "https://en.wikipedia.org/wiki/Thubchen_Lhakang_Monastery",
+   "https://en.wikipedia.org/wiki/Jampa_Lhakang_Monastery",
+   "https://en.wikipedia.org/wiki/Upper_Mustang",
+   "https://www.wikidata.org/wiki/Q105753160",
+   "https://commons.wikimedia.org/wiki/Category:Lo_Manthang"
+  ],
+  "province": "Gandaki",
+  "district": "Mustang",
+  "festivals": [
+   {
+    "name": "Tiji",
+    "name_np": "तीजी",
+    "month": "Baisakh",
+    "note": "Spring masked-dance festival in Lo Manthang (about May; dates follow the Tibetan lunar calendar)."
+   }
+  ],
+  "model": {
+   "kind": "fort",
+   "tiers": 4,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": 12,
+   "footprint_m": [
+    300,
+    200
+   ],
+   "walls": "whitewashed-stone",
+   "roof": "flat",
+   "colors": [
+    "#e8e2d4",
+    "#a8322a",
+    "#9c8a6a"
+   ],
+   "features": [
+    "watchtower",
+    "prayer-flags",
+    "chaityas",
+    "prayer-wheels"
+   ],
+   "surroundings": [
+    "desert-cliffs",
+    "terraced-fields",
+    "monks-houses",
+    "snow-peaks"
+   ],
+   "notes": "Dense block of flat-roofed white and grey mud houses inside an earthen wall, with a tall many-cornered palace and big blood-red monastery halls, ringed by green fields in brown desert."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Lo_Manthang%2C_The_Historic_Walled_City_of_Upper_Mustang.jpg/1280px-Lo_Manthang%2C_The_Historic_Walled_City_of_Upper_Mustang.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Lo_Manthang,_The_Historic_Walled_City_of_Upper_Mustang.jpg",
+   "author": "Pratikshyabhatta",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lo_Manthang_Royal_Palace.JPG/1280px-Lo_Manthang_Royal_Palace.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Lo_Manthang_Royal_Palace.JPG",
+    "author": "Wimbex",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The royal palace inside the walled city"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Mustang-Lo_Manthang-17-Thubchen_Lhakhang-2015-gje.jpg/1280px-Mustang-Lo_Manthang-17-Thubchen_Lhakhang-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mustang-Lo_Manthang-17-Thubchen_Lhakhang-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Red walls of Thubchen Lhakhang"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Mustang-Lo_Manthang-40-Jampa_Lhakhang-gje.jpg/1280px-Mustang-Lo_Manthang-40-Jampa_Lhakhang-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mustang-Lo_Manthang-40-Jampa_Lhakhang-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Jampa Lhakhang monastery building"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Mustang-Lo_Manthang-30-Choede_Lhakhang-Weltenhueter_Sued_Virudhaka_mit_Schwert_und_Vollbart-gje.jpg/1280px-Mustang-Lo_Manthang-30-Choede_Lhakhang-Weltenhueter_Sued_Virudhaka_mit_Schwert_und_Vollbart-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mustang-Lo_Manthang-30-Choede_Lhakhang-Weltenhueter_Sued_Virudhaka_mit_Schwert_und_Vollbart-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Mural of a guardian king in Choede Lhakhang"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Alley_in_Lo_Manthang.jpg/1280px-Alley_in_Lo_Manthang.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Alley_in_Lo_Manthang.jpg",
+    "author": "Carsten.nebel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Whitewashed houses along an alley"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mustang-Lo_Manthang-06-Dachausflug-gje.jpg/1280px-Mustang-Lo_Manthang-06-Dachausflug-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mustang-Lo_Manthang-06-Dachausflug-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Rooftop view over the red monasteries"
+   }
+  ]
+ },
+ {
+  "slug": "kagbeni-kag-chode-monastery",
+  "name": "Kagbeni and Kag Chode Monastery",
+  "name_np": "कागबेनी गुम्बा",
+  "alt_names": [
+   "Kag Chode Thupten Samphel Ling",
+   "Red Monastery of Kagbeni",
+   "Kagbeni Gompa"
+  ],
+  "city": "Kagbeni",
+  "zone": null,
+  "lat": 28.837647,
+  "lng": 83.783574,
+  "coord_source": "OpenStreetMap node/297420323 (Kagbeni Gompa)",
+  "type": "monastery",
+  "religion": "Buddhist",
+  "deity": "Buddha (Sakya tradition monastery)",
+  "built_year": 1429,
+  "built_century_text": "Kag Chode Thupten Samphel Ling monastery was founded in 1429 CE, credited to the monk Tenpai Gyaltsen; its old wing is described as about 500 years old. The ruined Kag Khar fort-palace is older by local tradition.",
+  "dynasty": null,
+  "architecture": "Red-painted Tibetan-style gompa of rammed earth and timber on a spur above the Kali Gandaki, with an old wing and a newer building. The village is a tight cluster of flat-roofed mud-brick houses, chortens, and the four-storey adobe ruin of Kag Khar.",
+  "unesco": false,
+  "short": "Medieval fortified village at the gate of Upper Mustang, crowned by the red 15th-century Sakya monastery of Kag Chode.",
+  "story": "Welcome to Kagbeni, a village of mud-brick houses and narrow tunnels at the meeting of two rivers, where the Kali Gandaki valley opens towards the old Kingdom of Lo. Beni means confluence, and pilgrims bound for Muktinath stop on these stony banks; Hindu families perform shraddha rites here for their ancestors. Look up at the blood-red walls on the spur above the river. That is Kag Chode Thupten Samphel Ling, a Sakya monastery founded in 1429 and remembered as the work of the monk Tenpai Gyaltsen. Its rammed-earth walls were built to resist both earthquakes and attackers. Nearby stand the crumbling adobe towers of Kag Khar, the old palace of a local king. At the village gates, look for the kheni, carved male and female guardians called ghost eaters, who replaced human sentries long ago. North of here begins Upper Mustang, where foreign visitors need a special permit to continue.",
+  "legend": "The kheni, a pair of male and female carved figures at the village gates, are believed to guard Kagbeni against evil and supernatural forces, earning them the name 'ghost eaters'.",
+  "facts": [
+   "Kag Chode Thupten Samphel Ling, the 'Red Monastery', was founded in 1429 and belongs to the Sakya tradition.",
+   "Kagbeni lies in the Kali Gandaki valley, on the trail from Jomsom to Lo Manthang near the turn to Muktinath.",
+   "Foreign visitors need a special Upper Mustang permit to travel north of Kagbeni.",
+   "The 2011 census counted 555 people in the village.",
+   "An August 2023 flood on the Kagbeni river damaged the area and threatened the monastery."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 90,
+   "hours_note": "Village on the Jomsom-Muktinath road, high in the Kali Gandaki valley; monastery visiting hours not confirmed.",
+   "fee_note": "Kagbeni is within the Annapurna Conservation Area; travel north of the village needs the Upper Mustang permit. Monastery fee not confirmed."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "What does 'beni' mean in the name Kagbeni?",
+    "options": [
+     "Fort",
+     "Monastery",
+     "Confluence of rivers",
+     "Village gate"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Beni refers to the meeting point of two rivers."
+   },
+   {
+    "q": "In which year was Kag Chode monastery founded?",
+    "options": [
+     "1229",
+     "1429",
+     "1729",
+     "1929"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Sources date its founding to 1429 CE."
+   },
+   {
+    "q": "What are the kheni figures at Kagbeni's gates believed to do?",
+    "options": [
+     "Bring rain",
+     "Count travellers",
+     "Eat ghosts and guard the village",
+     "Mark the border with Tibet"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The kheni are protectors against evil spirits, known as ghost eaters."
+   },
+   {
+    "q": "Which major river flows past Kagbeni?",
+    "options": [
+     "Seti",
+     "Kali Gandaki",
+     "Marsyangdi",
+     "Trishuli"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Kagbeni lies in the valley of the Kali Gandaki."
+   },
+   {
+    "q": "Which Buddhist tradition does Kag Chode monastery follow?",
+    "options": [
+     "Gelug",
+     "Nyingma",
+     "Sakya",
+     "Kagyu"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "Lonely Planet describes it as a Sakyapa monastery."
+   }
+  ],
+  "clues": [
+   "Clay guardians nicknamed ghost eaters watch my gates, where travellers turn north into a once-forbidden kingdom.",
+   "My blood-red monastery has stood above a river meeting since 1429, and pilgrims rest here on the way to the hundred springs."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kagbeni",
+   "https://www.openstreetmap.org/node/297420323",
+   "https://www.insidehimalayas.com/secrets-and-history-of-kagbeni-mustang/",
+   "https://www.lonelyplanet.com/nepal/tatopani-to-marpha/hotels/eagle-nest-guest-house/a/poi-sle/1506805/1341927",
+   "https://teahouse.buddhistdoor.net/floods-in-mustang-nepal-threaten-historic-monastery-of-kag-chode-thupten-samphel-ling/",
+   "https://nepaltraveller.com/sidetrack/a-beautiful-tibetan-village-kagbeni",
+   "https://commons.wikimedia.org/wiki/Category:Kagbeni"
+  ],
+  "province": "Gandaki",
+  "district": "Mustang",
+  "festivals": [],
+  "model": {
+   "kind": "gumba",
+   "tiers": 2,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": 10,
+   "footprint_m": [
+    30,
+    20
+   ],
+   "walls": "ochre-plaster",
+   "roof": "flat",
+   "colors": [
+    "#9e2b25",
+    "#d8cfbd",
+    "#7d6a52"
+   ],
+   "features": [
+    "prayer-flags",
+    "prayer-wheels",
+    "chaityas"
+   ],
+   "surroundings": [
+    "village",
+    "river",
+    "desert-cliffs",
+    "terraced-fields",
+    "snow-peaks"
+   ],
+   "notes": "Large flat-roofed blood-red monastery block on a spur above a grey braided river, over a huddle of mud houses and ruined adobe towers, bare brown cliffs behind."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kag_Chode_Gompa%2C_Kagbeni.jpg/1280px-Kag_Chode_Gompa%2C_Kagbeni.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kag_Chode_Gompa,_Kagbeni.jpg",
+   "author": "Sgnpkd",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/A_kheni_%28ghost_eater%29_in_Kagbeni_-_note_what_hes_wielding._%284523541547%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:A_kheni_(ghost_eater)_in_Kagbeni_-_note_what_hes_wielding._(4523541547).jpg",
+    "author": "Greg Willis from Denver, CO, usa",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "A kheni (ghost eater) guardian figure in Kagbeni"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/A_traditional_chorten_in_Kagbeni_Mustang-WLV-0781.jpg/1280px-A_traditional_chorten_in_Kagbeni_Mustang-WLV-0781.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:A_traditional_chorten_in_Kagbeni_Mustang-WLV-0781.jpg",
+    "author": "Bijay Chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "A traditional chorten in Kagbeni"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Kagbeni_Monastery.jpg/1280px-Kagbeni_Monastery.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kagbeni_Monastery.jpg",
+    "author": "Jmhullot",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "caption": "The red monastery of Kagbeni"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Kagbeni_Mustang_%28144%29.jpg/1280px-Kagbeni_Mustang_%28144%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kagbeni_Mustang_(144).jpg",
+    "author": "Nabin K. Sapkota",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Kagbeni village in the Kali Gandaki valley"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Kag_chode%2CBuddhist_Temple_at_Kagbeni%2C_Mustang%2C_Nepal.jpg/1280px-Kag_chode%2CBuddhist_Temple_at_Kagbeni%2C_Mustang%2C_Nepal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kag_chode,Buddhist_Temple_at_Kagbeni,_Mustang,_Nepal.jpg",
+    "author": "Nyoupaneroshan",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Kag Chode monastery building"
+   }
+  ]
+ },
+ {
+  "slug": "galeshwor-dham",
+  "name": "Galeshwor Dham",
+  "name_np": "गलेश्वर धाम",
+  "alt_names": [
+   "Galeshwar Temple",
+   "Galeshwor Mahadev",
+   "Galeshwar Shivalaya"
+  ],
+  "city": "Beni (Myagdi)",
+  "zone": null,
+  "lat": 28.372324,
+  "lng": 83.568233,
+  "coord_source": "OpenStreetMap node/5300595245 (Galeshwar Mandir)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Shiva as Galeshwor, a self-manifested jyotirlinga",
+  "built_year": null,
+  "built_century_text": "Worship at the site is described as ancient; the date of the present temple building is not documented in the sources found. A donor gilded its pinnacle (gajur) in Mangsir 2082 BS (2025).",
+  "dynasty": null,
+  "architecture": "Two-tiered pagoda-roofed Shiva temple standing on a single huge rock of about three ropani at the river's edge, with stone steps down to the water and a narrow rock pool beside it whose level is said to stay constant all year.",
+  "unesco": false,
+  "short": "Riverside Shiva shrine on a great rock where the Rahughat meets the Kali Gandaki, north of Beni: the 'gateway to Muktinath'.",
+  "story": "Listen to the rivers. Here, about three kilometres north of Beni, the Rahughat stream rushes into the grey Kali Gandaki, and on a single enormous rock at their meeting stands Galeshwor, a temple of Shiva. Inside is a jyotirlinga believed to be swayambhu, self-manifested. The name comes from a legend: as Shiva carried the body of his wife Sati towards the Himalaya, her neck, gala in Nepali, fell here and took the form of Shiva. That is why pilgrims call this place the gateway to Muktinath; many stop here before heading up the Kali Gandaki valley. Beside the temple, between the rocks, lies a long narrow pool. People say it never dries in winter and never overflows in the monsoon. On Maha Shivaratri, crowds start gathering at four in the morning, coming from Myagdi, Baglung, Mustang, Parbat and Kaski to light a great lamp and offer prayers. In late 2025 a donor gilded the temple's pinnacle.",
+  "legend": "While Shiva carried the body of Sati towards the Himalaya, her neck (gala) fell at this spot and took the form of Shiva; hence the name Galeshwor, 'Lord of the neck'.",
+  "facts": [
+   "Galeshwor lies about 3 km north of Beni, the headquarters of Myagdi district, in Beni Municipality ward 9.",
+   "The temple stands where the Rahughat (Rahu) river joins the Kali Gandaki.",
+   "It is known as the gateway to Muktinath and is visited by both Hindus and Buddhists.",
+   "More than 50,000 devotees were expected on Maha Shivaratri 2081 BS, according to the local development fund.",
+   "The pool beside the temple is said to keep the same water level all year round."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Beside the Beni-Jomsom road; daily worship is held. Opening hours not documented.",
+   "fee_note": "No entry fee found in sources."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "To which god is Galeshwor dedicated?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Ganesh",
+     "Surya"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Galeshwor is a Shiva shrine with a self-manifested jyotirlinga."
+   },
+   {
+    "q": "Which big river flows past Galeshwor?",
+    "options": [
+     "Kali Gandaki",
+     "Koshi",
+     "Karnali",
+     "Bagmati"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "The temple stands at the confluence of the Rahughat river and the Kali Gandaki."
+   },
+   {
+    "q": "According to legend, which part of Sati's body fell here?",
+    "options": [
+     "Her head",
+     "Her hand",
+     "Her neck",
+     "Her foot"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Gala means neck; Sati's neck is said to have fallen here, giving the name Galeshwor."
+   },
+   {
+    "q": "Galeshwor is popularly called the gateway to which pilgrimage site?",
+    "options": [
+     "Pashupatinath",
+     "Muktinath",
+     "Lumbini",
+     "Gosaikunda"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Pilgrims stop here on the way up the Kali Gandaki to Muktinath."
+   },
+   {
+    "q": "What is unusual about the pool beside the temple, according to locals?",
+    "options": [
+     "Its water is hot",
+     "Its level stays the same all year",
+     "It turns red at Dashain",
+     "It holds sacred fish"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The pool reportedly neither dries in winter nor fills completely in the monsoon."
+   }
+  ],
+  "clues": [
+   "A goddess's neck is said to have fallen at this river meeting, and a shrine of Shiva now sits on one giant rock.",
+   "Pilgrims bound for the hundred springs of Mustang pause at me first, just north of Myagdi's headquarters."
+  ],
+  "sources": [
+   "https://ekantipur.com/pradesh-4/2025/02/26/crowd-of-devotees-at-galeshwar-temple-49-15.html",
+   "https://ekantipur.com/gandaki-pradesh/2025/11/20/en/galeshwar-temple-shines-with-golden-light-in-gajur-27-08.html",
+   "https://www.openstreetmap.org/node/5300595245",
+   "https://hopnepal.com/blog/myagdi-district-gandaki-province",
+   "https://commons.wikimedia.org/wiki/File:Galeshwor.jpg"
+  ],
+  "province": "Gandaki",
+  "district": "Myagdi",
+  "festivals": [
+   {
+    "name": "Maha Shivaratri",
+    "name_np": "महाशिवरात्रि",
+    "month": "Falgun",
+    "note": "Largest fair of the year; devotees from five districts offer puja and light a great lamp (mahadeep)."
+   },
+   {
+    "name": "Shrawan Mondays",
+    "name_np": "साउने सोमबार",
+    "month": "Shrawan",
+    "note": "Fairs are held on the Mondays of Shrawan."
+   },
+   {
+    "name": "Bala Chaturdashi",
+    "name_np": "बाला चतुर्दशी",
+    "month": "Mangsir",
+    "note": "A fair is held at the temple on Bala Chaturdashi."
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 2,
+   "plinth_shape": "square",
+   "height_m": 10,
+   "footprint_m": [
+    8,
+    8
+   ],
+   "walls": "ochre-plaster",
+   "roof": "clay-tile",
+   "colors": [
+    "#b8402e",
+    "#e3c873",
+    "#c9a23a"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "shiva-lingam",
+    "bell",
+    "trident",
+    "ghat-steps",
+    "rock-face"
+   ],
+   "surroundings": [
+    "river",
+    "riverbank-ghats",
+    "forest",
+    "village"
+   ],
+   "notes": "Two-roofed pagoda with red roofs, cream-yellow walls and a gold pinnacle perched on a huge riverside rock in a steep green gorge, stone steps down to a grey river."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Galeshwor.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Galeshwor.jpg",
+   "author": "PawilStha",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Beni_galeshwor.jpg/1280px-Beni_galeshwor.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Beni_galeshwor.jpg",
+    "author": "Amrit Poudel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple seen from the Beni side"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Temple_galeshwor.jpg/1280px-Temple_galeshwor.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Temple_galeshwor.jpg",
+    "author": "Amrit Poudel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The pagoda temple on its rock"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Steps_from_river_to_Galeshwor_temple_-_panoramio.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Steps_from_river_to_Galeshwor_temple_-_panoramio.jpg",
+    "author": "Nirmal Raj Joshi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Steps leading down from the temple to the river"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Viewing_north_from_Galeshwor_temple_-_panoramio.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Viewing_north_from_Galeshwor_temple_-_panoramio.jpg",
+    "author": "Nirmal Raj Joshi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Looking north up the valley from the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Swostika_at_Galeshwor_temple_-_panoramio.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Swostika_at_Galeshwor_temple_-_panoramio.jpg",
+    "author": "Nirmal Raj Joshi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Swastika mosaic at the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Lord_Bishnu_in_Galeshwor_temple_-_panoramio.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Lord_Bishnu_in_Galeshwor_temple_-_panoramio.jpg",
+    "author": "Nirmal Raj Joshi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Image of Vishnu at the temple"
+   }
+  ]
+ },
+ {
+  "slug": "devghat-dham",
+  "name": "Devghat Dham",
+  "name_np": "देवघाट धाम",
+  "alt_names": [
+   "Devghat",
+   "Harihar Kshetra",
+   "Devaghat"
+  ],
+  "city": "Devghat (near Narayangadh)",
+  "zone": null,
+  "lat": 27.742939,
+  "lng": 84.423081,
+  "coord_source": "OpenStreetMap node/9798944138 (Devghat Dham)",
+  "type": "ghat",
+  "religion": "Hindu",
+  "deity": "Shiva and Vishnu (Harihar); Vishnu worshipped as Shaligram",
+  "built_year": null,
+  "built_century_text": "An ancient pilgrimage site; the start of its Makar Sankranti bathing fair is unknown. Its many temples, ashrams and the suspension bridge are of various modern dates.",
+  "dynasty": null,
+  "architecture": "A riverside pilgrimage town of small Hindu temples, ashrams, caves and bathing ghats along the meeting of the Trishuli and Kali Gandaki, joined across the river by a long suspension bridge linking Tanahun and Chitwan.",
+  "unesco": false,
+  "short": "Sacred confluence of the Trishuli and Kali Gandaki near Narayangadh, famed for its Maghe Sankranti bathing fair.",
+  "story": "Stand on the stone steps and watch two great rivers become one. From the north-west comes the Kali Gandaki, which began near Muktinath; from the north-east comes the Trishuli, fed by Gosaikunda. Here at Devghat they meet and flow on together as the Narayani. Hindus call this place Harihar Kshetra, holy to both Shiva and Vishnu, and they search the gravel for Shaligram stones, worshipped as Vishnu himself. The sage Vasistha is said to have made his ashram here, and you will find temples, quiet ashrams and even a cave linked to the goddess Sita. Many elderly Hindus come to spend their last years beside these waters. Cross the swaying suspension bridge and you step from Tanahun into Chitwan. If you come on Maghe Sankranti in January, join the crowd: hundreds of thousands of pilgrims bathe at the confluence in one of the largest melas in Nepal. Nobody knows when this festival began.",
+  "legend": "The sage Vasistha is believed to have established his ashram and performed his austerities at Devghat.",
+  "facts": [
+   "Devghat lies at the confluence of the Trishuli and Kali (Krishna) Gandaki rivers, about 7 km from Narayangadh.",
+   "Below the confluence the combined river is known as the Narayani.",
+   "Its Makar (Maghe) Sankranti mela is one of the largest religious fairs in Nepal; one report estimated over three lakh visitors.",
+   "A historic suspension bridge links the Tanahun and Chitwan sides of the town.",
+   "Pilgrims bathe and seek Shaligram stones, which Hindus worship as Vishnu."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 120,
+   "hours_note": "Open riverside pilgrimage area reached by bus or taxi from Narayangadh (about 7 km).",
+   "fee_note": "No entry fee found in sources."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Which two rivers meet at Devghat?",
+    "options": [
+     "Seti and Madi",
+     "Trishuli and Kali Gandaki",
+     "Bagmati and Bishnumati",
+     "Arun and Tamor"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Devghat is at the junction of the Trishuli and Kali (Krishna) Gandaki."
+   },
+   {
+    "q": "On which festival do the biggest crowds bathe at Devghat?",
+    "options": [
+     "Tihar",
+     "Maghe Sankranti",
+     "Buddha Jayanti",
+     "Teej"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The Makar (Maghe) Sankranti mela is one of the largest in Nepal."
+   },
+   {
+    "q": "What are the sacred stones found in the Kali Gandaki called?",
+    "options": [
+     "Shaligram",
+     "Lingam",
+     "Mani",
+     "Rudraksha"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Shaligram stones are worshipped as Vishnu."
+   },
+   {
+    "q": "What is the river called below the Devghat confluence?",
+    "options": [
+     "Koshi",
+     "Narayani",
+     "Rapti",
+     "Karnali"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "After the confluence the combined river is called the Narayani."
+   },
+   {
+    "q": "Which sage is said to have had his ashram at Devghat?",
+    "options": [
+     "Vyasa",
+     "Valmiki",
+     "Vasistha",
+     "Agastya"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "Sage Vasistha is believed to have established his ashram and done tapasya here."
+   }
+  ],
+  "clues": [
+   "A river from Mustang and a river from Gosaikunda meet below my steps, and a swinging bridge joins two districts.",
+   "In the month of Magh, pilgrims crowd my banks to bathe where Shiva and Vishnu are honoured together."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Devghat",
+   "https://www.openstreetmap.org/node/9798944138",
+   "https://ekantipur.com/bagmati-pradesh/2025/01/14/en/at-devghat-the-crowd-of-makarsanaan-from-early-morning-49-12.html",
+   "https://nepaltraveller.com/travel/pilgrimage-sites/devghat",
+   "https://commons.wikimedia.org/wiki/File:%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%98%E0%A4%BE%E0%A4%9F_(Devghat).jpg"
+  ],
+  "province": "Gandaki",
+  "district": "Tanahun",
+  "festivals": [
+   {
+    "name": "Maghe Sankranti (Makar Snan)",
+    "name_np": "माघे संक्रान्ति (मकर स्नान)",
+    "month": "Magh",
+    "note": "Two-day mela starting the day before Sankranti; pilgrims bathe at the confluence."
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": 8,
+   "footprint_m": [
+    120,
+    60
+   ],
+   "walls": "white-plaster",
+   "roof": "clay-tile",
+   "colors": [
+    "#5f8a7a",
+    "#d9d2c0",
+    "#b8402e"
+   ],
+   "features": [
+    "ghat-steps",
+    "trident",
+    "bell",
+    "lamps-diyo",
+    "shiva-lingam"
+   ],
+   "surroundings": [
+    "river",
+    "riverbank-ghats",
+    "forest",
+    "village",
+    "plains-fields"
+   ],
+   "notes": "Wide river junction with sandbanks; on the point a cluster of small temples and ashrams among trees, stone bathing steps, and a long suspension bridge across the water."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%98%E0%A4%BE%E0%A4%9F_%28Devghat%29.jpg/1280px-%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%98%E0%A4%BE%E0%A4%9F_%28Devghat%29.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%98%E0%A4%BE%E0%A4%9F_(Devghat).jpg",
+   "author": "Prakash Gopali85",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Devghat_suspension_bridge.jpg/1280px-Devghat_suspension_bridge.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Devghat_suspension_bridge.jpg",
+    "author": "Nepalpicturesque",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "caption": "Suspension bridge across the river at Devghat"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Devghat_Dham4.jpg/1280px-Devghat_Dham4.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Devghat_Dham4.jpg",
+    "author": "Janak Bhatta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Confluence of the rivers at Devghat"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Devghat_temple.jpg/1280px-Devghat_temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Devghat_temple.jpg",
+    "author": "Pranish subedi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "A temple at Devghat"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Bageshwori_Temple_Devghat_Chitwan_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Bageshwori_Temple_Devghat_Chitwan_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bageshwori_Temple_Devghat_Chitwan_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Bageshwori Temple in the Devghat forest"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0.JPG/1280px-%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0.JPG",
+    "author": "चिरञ्जीविखतिवडाः",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Vidyeshwar temple at Mahesh Sanskrit Gurukul, Devghat"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Pashupati_Temple_in_Devghat.jpg/1280px-Pashupati_Temple_in_Devghat.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Pashupati_Temple_in_Devghat.jpg",
+    "author": "Nawrj",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Pashupati (Shiva) temple at Devghat Dham at night"
+   }
+  ]
+ },
+ {
+  "slug": "siddha-cave-bimalnagar",
+  "name": "Siddha Cave",
+  "name_np": "सिद्ध गुफा",
+  "alt_names": [
+   "Siddha Gufa",
+   "Siddha Gufa, Bimalnagar"
+  ],
+  "city": "Bimalnagar (Bandipur)",
+  "zone": null,
+  "lat": 27.94838,
+  "lng": 84.41852,
+  "coord_source": "Wikidata P625 (Q16920737)",
+  "type": "cave",
+  "religion": "Hindu",
+  "deity": "Shiva (rock formations venerated as his symbols; small shrine inside)",
+  "built_year": null,
+  "built_century_text": "A natural limestone (karst) cave. Local lore says a woman collecting herbs found it in 1989; German speleologists explored and surveyed it in 1990 and 1991.",
+  "dynasty": null,
+  "architecture": "Natural karst cave in layered limestone, entered from a forested slope above the Prithvi Highway. Wikipedia gives it 437 m deep and 50 m high; showcaves.com records 758 m of passages and 105 m vertical range. Stalactites and stalagmites fill the chambers.",
+  "unesco": false,
+  "short": "Huge limestone cave above Bimalnagar on the trail to Bandipur, full of stalactites and venerated by Shiva pilgrims.",
+  "story": "Switch on your headlamp and let your eyes adjust. You are inside Siddha Gufa, one of the largest caves in Nepal, which opens high on the hillside above Bimalnagar, on the old trail up to Bandipur. Local lore says a woman gathering herbs stumbled on the entrance in 1989, and German cave explorers mapped it in 1990 and 1991. Wikipedia gives its depth as 437 metres and its height as about 50 metres, enough room, it is said, for 2,500 people. Look at the walls: layers of brown and white limestone, and formations that guides compare to an elephant, snake heads, butterflies and turtles. For pilgrims, these shapes are signs of Shiva, and a small shrine stands inside, along with a shelter where meditators sometimes stay. Listen too; clusters of bats hang in the darkness above you. Watch your step on the slippery path and ladders, and come back out to daylight and the green Marsyangdi hills.",
+  "legend": "Pilgrims regard the cave's rock formations as natural symbols of Shiva, and the cave has long been used by meditators, as its name 'Siddha' (an accomplished ascetic) suggests.",
+  "facts": [
+   "Wikipedia gives the cave a depth of 437 m and a height of 50 m, with room for about 2,500 people.",
+   "Local lore says it was found in 1989 by a woman collecting herbs; German speleologists surveyed it in 1990-91.",
+   "Showcaves.com lists 758 m of passages and a vertical range of 105 m, calling it Nepal's deepest known cave.",
+   "The entrance is about 30 minutes' walk uphill from Bimal Bazaar on the Prithvi Highway.",
+   "Bats roost inside, and there is a small Shiva shrine."
+  ],
+  "visit": {
+   "open": "10:00",
+   "close": "17:00",
+   "entry_fee_foreigner_npr": 100,
+   "entry_fee_saarc_npr": 100,
+   "entry_fee_nepali_npr": 100,
+   "visit_minutes": 90,
+   "hours_note": "Open daily all year 10:00-17:00 (showcaves.com, 2025 information). The path inside is dark and slippery; helmet and headlamp are provided.",
+   "fee_note": "NPR 100 per adult plus NPR 100 for a compulsory guide (showcaves.com, 2025); the Kathmandu Post reported Rs 200 for a guided tour in 2019. No separate rate for foreigners found."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "What kind of heritage site is Siddha Gufa?",
+    "options": [
+     "A hilltop fort",
+     "A natural limestone cave",
+     "A Buddhist monastery",
+     "A royal palace"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Siddha Gufa is a natural karst cave in limestone."
+   },
+   {
+    "q": "Near which highway bazaar is the cave's trailhead?",
+    "options": [
+     "Mugling",
+     "Bimalnagar",
+     "Dumre",
+     "Khairenitar"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The cave is about 30 minutes' walk up from Bimal Bazaar on the Prithvi Highway."
+   },
+   {
+    "q": "Which animals cluster on the cave walls?",
+    "options": [
+     "Bats",
+     "Owls",
+     "Snakes",
+     "Monkeys"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Clusters of bats cling to the walls inside."
+   },
+   {
+    "q": "To which god are the cave's formations and shrine dedicated?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Brahma",
+     "Indra"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Pilgrims treat the formations as symbols of Shiva, and a small Shiva shrine stands inside."
+   },
+   {
+    "q": "According to local lore, in which year was the cave discovered?",
+    "options": [
+     "1951",
+     "1972",
+     "1989",
+     "2005"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "A woman collecting herbs is said to have found it in 1989; it was surveyed in 1990-91."
+   }
+  ],
+  "clues": [
+   "A herb gatherer stumbled on my dark mouth in 1989, halfway up the trail to a Newar hill town.",
+   "Bring a torch: inside me, stone elephants, snake heads and turtles hang from the roof among sleeping bats."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Siddha_Cave",
+   "https://www.wikidata.org/wiki/Q16920737",
+   "https://showcaves.com/english/np/showcaves/Siddha.html",
+   "https://kathmandupost.com/travel/2019/09/06/finding-faces-in-siddha-gufa",
+   "https://commons.wikimedia.org/wiki/Category:Siddha_cave,_Bandipur"
+  ],
+  "province": "Gandaki",
+  "district": "Tanahun",
+  "festivals": [],
+  "model": {
+   "kind": "cave",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": 50,
+   "footprint_m": [
+    60,
+    437
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#8a6a45",
+    "#d8c7a3",
+    "#2b2420"
+   ],
+   "features": [
+    "rock-face",
+    "fence-railing",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "cave-mouth",
+    "forest",
+    "hilltop"
+   ],
+   "notes": "Dark mouth in a mossy limestone cliff reached by steep stairs, opening into a vast brown-and-cream chamber hung with stalactites."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Siddha_Gufa-Cave_Bimal_Nagar%2C_Nepal-WLV-1986.jpg/1280px-Siddha_Gufa-Cave_Bimal_Nagar%2C_Nepal-WLV-1986.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Siddha_Gufa-Cave_Bimal_Nagar,_Nepal-WLV-1986.jpg",
+   "author": "Bijay Chaurasia",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Siddha_Cave.jpg/1280px-Siddha_Cave.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Siddha_Cave.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Sign at the cave giving its length and height"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Siddha_Gufa-Cave_Bimal_Nagar%2C_Nepal-WLV-1940.jpg/1280px-Siddha_Gufa-Cave_Bimal_Nagar%2C_Nepal-WLV-1940.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Siddha_Gufa-Cave_Bimal_Nagar,_Nepal-WLV-1940.jpg",
+    "author": "Bijay Chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Visitors at the cave entrance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bandipur_Cave_9916.JPG/1280px-Bandipur_Cave_9916.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bandipur_Cave_9916.JPG",
+    "author": "Indra Rai",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Stalactite formations inside the cave"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bandipur_Cave_9928.JPG/1280px-Bandipur_Cave_9928.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bandipur_Cave_9928.JPG",
+    "author": "Indra Rai",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Flowstone formations on the cave walls"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Siddha_Gufa-Cave_Bimal_Nagar%2C_Nepal-WLV-1957.jpg/1280px-Siddha_Gufa-Cave_Bimal_Nagar%2C_Nepal-WLV-1957.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Siddha_Gufa-Cave_Bimal_Nagar,_Nepal-WLV-1957.jpg",
+    "author": "Bijay Chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Shrine inside the cave"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Siddha_Gufa-Cave_Bimal_Nagar%2C_Nepal-WLV-1936.jpg/1280px-Siddha_Gufa-Cave_Bimal_Nagar%2C_Nepal-WLV-1936.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Siddha_Gufa-Cave_Bimal_Nagar,_Nepal-WLV-1936.jpg",
+    "author": "Bijay Chaurasia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Steps on the trail up to the cave"
+   }
+  ]
+ },
+ {
+  "slug": "kalika-bhagawati-temple-baglung",
+  "name": "Kalika Bhagawati Temple",
+  "name_np": "कालिका भगवती मन्दिर, बागलुङ",
+  "alt_names": [
+   "Baglung Kalika",
+   "Baglung Kalika Bhagawati Temple"
+  ],
+  "city": "Baglung",
+  "zone": null,
+  "lat": 28.2559,
+  "lng": 83.613578,
+  "coord_source": "Wikidata P625 (Q60761465)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Goddess Kalika (Kali)",
+  "built_year": null,
+  "built_century_text": "Founded, according to local folklore, by King Pratap Narayan Singh Malla of Parbat after his marriage to a daughter of King Manimukunda Sen; no firm construction date is documented in the sources found.",
+  "dynasty": "Malla kings of Parbat (tradition)",
+  "architecture": "Three-tiered red pagoda with a broad lower roof over an ambulatory, set in a paved courtyard with entrances on all four cardinal sides, surrounded by smaller shrines to Shiva, Radha Krishna and Lakshmi Narayan inside a protected guthi forest.",
+  "unesco": false,
+  "short": "Baglung's great Kali temple, a three-tiered pagoda in a sacred forest above the Kali Gandaki, famed for its Chaite Dashain fair.",
+  "story": "Step into the shade of the forest on the edge of Baglung bazaar and you will find a courtyard with four gateways, one for each direction. At its centre rises the red three-tiered pagoda of Kalika Bhagawati, the fierce goddess Kali. The story of this place begins with a wedding. King Pratap Narayan Singh Malla of Parbat married the daughter of King Manimukunda Sen and received an image of Kalika as part of her dowry. On the way home the wedding party sheltered in this forest for the night. In the morning, no one could lift the idol, so the king built a temple on the spot. Around you are smaller shrines to Shiva, Radha Krishna and Lakshmi Narayan. Come in Chaitra for Chaite Dashain, when thousands light oil lamps and some couples even marry here for the goddess's blessing. Since April 2016 pigeons are no longer sacrificed; they are set free instead.",
+  "legend": "King Pratap Narayan Singh Malla of Parbat received the goddess's idol as dowry from King Manimukunda Sen. When his wedding party rested overnight in this forest, the idol could not be moved the next morning, so he built the temple there.",
+  "facts": [
+   "The temple stands south-east of Baglung town, above the Kali Gandaki River.",
+   "Its courtyard has four entrances, one in each cardinal direction.",
+   "Chaite Dashain, on the eighth day of the bright fortnight of Chaitra, is its biggest festival.",
+   "On 13 April 2016 pigeon sacrifice was stopped; pigeons are now released in the temple grounds.",
+   "The temple is surrounded by the protected Kalika Bhagawati Guthi Forest."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Next to Baglung bazaar; opening hours not documented in the sources found.",
+   "fee_note": "No entry fee found in sources."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Which goddess is worshipped at this Baglung temple?",
+    "options": [
+     "Saraswati",
+     "Kalika (Kali)",
+     "Lakshmi",
+     "Annapurna"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The presiding deity is Kalika, a fierce form of Shakti."
+   },
+   {
+    "q": "How many entrances does the temple courtyard have?",
+    "options": [
+     "One",
+     "Two",
+     "Four",
+     "Eight"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The courtyard has four entrances, one in each cardinal direction."
+   },
+   {
+    "q": "In which Nepali month is the main festival, Chaite Dashain, held?",
+    "options": [
+     "Ashwin",
+     "Chaitra",
+     "Magh",
+     "Shrawan"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Chaite Dashain falls on the eighth day of the bright fortnight of Chaitra."
+   },
+   {
+    "q": "How did the king of Parbat receive the goddess's image, according to folklore?",
+    "options": [
+     "Found in the river",
+     "As part of a dowry",
+     "Won in battle",
+     "Brought from Tibet"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Pratap Narayan Singh Malla received it in the dowry of Manimukunda Sen's daughter."
+   },
+   {
+    "q": "Which offering was stopped at the temple in April 2016?",
+    "options": [
+     "Goat sacrifice",
+     "Pigeon sacrifice",
+     "Coconut offering",
+     "Rice offering"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Pigeon sacrifice ended on 13 April 2016 because the pigeon symbolises peace."
+   }
+  ],
+  "clues": [
+   "A goddess who arrived as a bride's dowry refused to leave the forest where the wedding party camped.",
+   "Four gates lead to my red three-roofed pagoda beside a Kali Gandaki bazaar; in Chaitra, couples marry here for blessings."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kalika_Bhagawati_Temple",
+   "https://www.wikidata.org/wiki/Q60761465",
+   "https://www.openstreetmap.org/way/910969785",
+   "https://commons.wikimedia.org/wiki/Category:Kalika_Bhagawati_Temple"
+  ],
+  "province": "Gandaki",
+  "district": "Baglung",
+  "festivals": [
+   {
+    "name": "Chaite Dashain",
+    "name_np": "चैते दशैँ",
+    "month": "Chaitra",
+    "note": "Main festival on Chaitra Shukla Ashtami; devotees light oil lamps, perform puja and some marry here."
+   },
+   {
+    "name": "Dashain",
+    "name_np": "दशैँ",
+    "month": "Ashwin",
+    "note": "Celebrated from the bright fortnight of Ashwin to the full moon."
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": 15,
+   "footprint_m": [
+    14,
+    14
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#a8322a",
+    "#5b4636",
+    "#c9a23a"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "bell",
+    "toran",
+    "lamps-diyo"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "forest",
+    "sacred-grove",
+    "city-street"
+   ],
+   "notes": "Red three-roofed pagoda with a very wide lowest roof over a pillared walkway, in a big paved courtyard with small shrines and gateways, tall sal forest all round."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Baglung_Kalika_Temple_2018_14.jpg/1280px-Baglung_Kalika_Temple_2018_14.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Baglung_Kalika_Temple_2018_14.jpg",
+   "author": "Nabin K. Sapkota",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Baglung_Kalika_Temple_2018_01.jpg/1280px-Baglung_Kalika_Temple_2018_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Baglung_Kalika_Temple_2018_01.jpg",
+    "author": "Nabin K. Sapkota",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Ornate gateway to the temple courtyard"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Baglung_Kalika_Temple_2018_08.jpg/1280px-Baglung_Kalika_Temple_2018_08.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Baglung_Kalika_Temple_2018_08.jpg",
+    "author": "Nabin K. Sapkota",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone structure in the temple grounds"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Baglung_Kalika_Temple_2018_05.jpg/1280px-Baglung_Kalika_Temple_2018_05.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Baglung_Kalika_Temple_2018_05.jpg",
+    "author": "Nabin K. Sapkota",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Offerings and prayer cloths in the sacred forest"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Baglung_Kalika_Temple_Marketplace.jpg/1280px-Baglung_Kalika_Temple_Marketplace.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Baglung_Kalika_Temple_Marketplace.jpg",
+    "author": "Sajansharma",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stalls selling flowers and coconuts for puja"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Baglung_kalika_temple.jpg/1280px-Baglung_kalika_temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Baglung_kalika_temple.jpg",
+    "author": "Bishow11",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The temple lit up at night"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Balgung_Kalika_Temple_02.jpg/1280px-Balgung_Kalika_Temple_02.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Balgung_Kalika_Temple_02.jpg",
+    "author": "Acharya Bipin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple courtyard and forest"
+   }
+  ]
+ },
+ {
+  "slug": "gupteshwor-mahadev-cave",
+  "name": "Gupteshwor Mahadev Cave",
+  "name_np": "गुप्तेश्वर महादेव गुफा",
+  "alt_names": [
+   "Gupteshwor Gufa",
+   "Gupteshwar Cave"
+  ],
+  "city": "Pokhara",
+  "zone": null,
+  "lat": 28.189444,
+  "lng": 83.957778,
+  "coord_source": "Wikidata P625 (Q31154559)",
+  "type": "cave",
+  "religion": "Hindu",
+  "deity": "Shiva (Gupteshwor Mahadev, 'the hidden lord'), worshipped as a lingam",
+  "built_year": null,
+  "built_century_text": "A natural karst cave, reported discovered in 1950; the staircase entrance was built in 1991. It was first surveyed by Tony Waltham's British Karst Research Expedition, and a second British expedition studied its animals in 1976.",
+  "dynasty": null,
+  "architecture": "Natural cave in Pokhara conglomerate entered down a spiral concrete stairway, with a shrine chamber holding a Shiva lingam behind metal bars; a lower passage descends about 20 m to the Pardi Khola behind Devi's Fall. Showcaves.com gives 2,950 m length and 48 m vertical range.",
+  "unesco": false,
+  "short": "A Shiva cave shrine in Chhorepatan, Pokhara, whose lower passage lets you see Devi's Fall plunging from behind.",
+  "story": "Wind your way down the spiral stairway at Chhorepatan and the noise of the city fades into the echo of rushing water. You are entering Gupteshwor Mahadev, the cave of the hidden Lord Shiva. In the first chamber, protected behind metal bars, stands the lingam that pilgrims come to worship, perhaps shaped by nature itself as a stalagmite. People here say the cave was found in 1950, and the entrance stairs you just used were built in 1991. If the season allows, keep going down. A damp, narrow passage drops about twenty metres to the river, and suddenly you are standing behind Devi's Fall, the waterfall across the road, watching the water of Phewa Lake thunder past in the darkness. British cave researchers came here in the 1970s to map the passages and to count its residents, including great leaf-nosed bats and fruit bats. Hold the railing and enjoy the cool air.",
+  "legend": null,
+  "facts": [
+   "The cave lies in Pokhara-17, Chhorepatan, opposite Devi's (Davis) Fall.",
+   "Water from Devi's Fall, the outflow of Phewa Lake (Pardi Khola), passes through the cave.",
+   "Showcaves.com reports it was discovered in 1950 and its entrance staircase was built in 1991.",
+   "A 1976 British expedition recorded great Himalayan leaf-nosed bats and fruit bats living inside.",
+   "Showcaves.com lists the cave as about 2,950 m long with a vertical range of 48 m."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 60,
+   "hours_note": "Cave temple open daily; the deeper cave behind it was reported open October-May and closed in the June-September monsoon (showcaves.com, 2010 data).",
+   "fee_note": "Showcaves.com (2010 data) listed Rs 30 for the temple and Rs 100 for the cave behind; current fees not confirmed."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Which god is worshipped inside Gupteshwor Cave?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Ganesh",
+     "Hanuman"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Gupteshwor Mahadev means the hidden Lord Shiva; a Shiva lingam is worshipped inside."
+   },
+   {
+    "q": "Which famous waterfall can be seen from inside the cave?",
+    "options": [
+     "Hyangja Falls",
+     "Devi's Fall",
+     "Rupse Falls",
+     "Jumdi Falls"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "A lower passage leads behind Devi's Fall (Patale Chhango), across the road."
+   },
+   {
+    "q": "In which part of Pokhara is the cave?",
+    "options": [
+     "Lakeside",
+     "Chhorepatan",
+     "Bindhyabasini",
+     "Mahendrapul"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The cave is in Pokhara-17, Chhorepatan."
+   },
+   {
+    "q": "In which year was the entrance staircase built?",
+    "options": [
+     "1950",
+     "1976",
+     "1991",
+     "2015"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Showcaves.com records the staircase at the entrance as built in 1991."
+   },
+   {
+    "q": "Which river, draining Phewa Lake, flows through the cave?",
+    "options": [
+     "Seti",
+     "Pardi Khola",
+     "Bijayapur Khola",
+     "Madi"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Wikipedia notes the river draining Phewa Tal through the cave is the Pardi Khola."
+   }
+  ],
+  "clues": [
+   "Spiral down beneath a busy road to meet a hidden lord, then keep going to watch a famous waterfall from behind.",
+   "The outflow of a big lake vanishes into the ground opposite me, and I let pilgrims see where it goes."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gupteshwor_Mahadev_Cave",
+   "https://www.wikidata.org/wiki/Q31154559",
+   "https://showcaves.com/english/np/showcaves/Gupteshwor.html",
+   "https://www.thelongestwayhome.com/travel-guides/nepal/pokhara/gupteshwor-mahadev-cave.html",
+   "https://commons.wikimedia.org/wiki/Category:Gupteshwor_Mahadev_Cave"
+  ],
+  "province": "Gandaki",
+  "district": "Kaski",
+  "festivals": [],
+  "model": {
+   "kind": "cave",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "round",
+   "height_m": 20,
+   "footprint_m": [
+    30,
+    30
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#3f7fb5",
+    "#e8e2d8",
+    "#7a6650"
+   ],
+   "features": [
+    "rock-face",
+    "fence-railing",
+    "shiva-lingam",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "cave-mouth",
+    "city-street",
+    "river"
+   ],
+   "notes": "A round sunken pit with a white-railed spiral staircase and blue painted walls leading down into a dark rock cave; daylight shaft over a thundering waterfall below."
+  },
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Gupteshwar_Parishar.jpg/1280px-Gupteshwar_Parishar.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Gupteshwar_Parishar.jpg",
+   "author": "Shalgina.dangi",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Circular_ladder_like_structure_in_Gupteshwor_CAVE_POKHARA.jpg/1280px-Circular_ladder_like_structure_in_Gupteshwor_CAVE_POKHARA.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Circular_ladder_like_structure_in_Gupteshwor_CAVE_POKHARA.jpg",
+    "author": "Nabin845",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Spiral stairway down into the cave"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Devis_falla_viewed_from_Gupteshwor_Cave.jpg/1280px-Devis_falla_viewed_from_Gupteshwor_Cave.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Devis_falla_viewed_from_Gupteshwor_Cave.jpg",
+    "author": "Nabin845",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Devi's Fall seen from inside the cave"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Gupteswar_gufa.jpg/1280px-Gupteswar_gufa.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gupteswar_gufa.jpg",
+    "author": "Anupg44",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Long exposure inside Gupteshwor Cave"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Monument_at_Gupteshwor_Cave.jpg/1280px-Monument_at_Gupteshwor_Cave.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Monument_at_Gupteshwor_Cave.jpg",
+    "author": "Nabin845",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Monument at the cave complex"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Gupteswor_cave_interior.jpg/1280px-Gupteswor_cave_interior.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gupteswor_cave_interior.jpg",
+    "author": "Paradox7vr",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "A narrow passage in the cave interior"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Stairs_at_the_entrance_of_Gupteshwor_cave.jpg/1280px-Stairs_at_the_entrance_of_Gupteshwor_cave.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Stairs_at_the_entrance_of_Gupteshwor_cave.jpg",
+    "author": "Nabin845",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stairs at the cave entrance"
+   }
+  ]
+ }
+]
