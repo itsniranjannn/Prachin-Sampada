@@ -1,6 +1,8 @@
 // MapLibre GL map with free OpenFreeMap vector tiles, a tilted 3D camera and heritage pins.
 import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react';
 import maplibregl from 'maplibre-gl';
+import { createElement, Suspense as ReactSuspense } from 'react';
+import { createRoot } from 'react-dom/client';
 
 export const VALLEY = { center: [85.345, 27.69], zoom: 11.6 };
 export const NEPAL = { center: [84.15, 28.25], zoom: 6.3 };
@@ -32,7 +34,7 @@ function pinEl(m) {
  */
 const MapView = forwardRef(function MapView({
   markers = [], numbered = false, route = null, routeColor = '#81021f', onSelect, onMapClick, extra = [], lines = [],
-  pitch = 55, bearing = -12, start = null, fitOnChange = false, interactive = true, initial = VALLEY, popup = true, show3d = true, padding = null, cluster = false,
+  pitch = 55, bearing = -12, start = null, fitOnChange = false, interactive = true, initial = VALLEY, popup = true, show3d = true, padding = null, cluster = false, model3d = null,
 }, ref) {
   const el = useRef(null);
   const map = useRef(null);
@@ -146,6 +148,26 @@ const MapView = forwardRef(function MapView({
       if (pts.length) fitPoints(m, pts, 80);
     }
   }, [markers, numbered, start, extra, fitOnChange, popup, cluster, zoomStep]);
+
+  // the selected site's own 3D model, standing above its pin
+  useEffect(() => {
+    const m = map.current;
+    if (!m || !model3d) return undefined;
+    const node = document.createElement('div');
+    node.className = 'map-model';
+    const label = document.createElement('span');
+    label.textContent = model3d.name || '';
+    const stage = document.createElement('div');
+    stage.className = 'map-model-stage';
+    node.append(stage, label);
+    const marker = new maplibregl.Marker({ element: node, anchor: 'bottom', offset: [0, -44] }).setLngLat([model3d.lng, model3d.lat]).addTo(m);
+    const root = createRoot(stage);
+    let alive = true;
+    import('../three/site.jsx').then(({ SiteMini }) => {
+      if (alive) root.render(createElement(ReactSuspense, { fallback: null }, createElement(SiteMini, { spec: model3d.spec, type: model3d.type })));
+    });
+    return () => { alive = false; marker.remove(); setTimeout(() => root.unmount(), 0); };
+  }, [model3d]);
 
   // route + lines
   useEffect(() => {

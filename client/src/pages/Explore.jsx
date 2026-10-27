@@ -65,6 +65,7 @@ export default function Explore() {
 
   // on site: anything within 150 m (or the GPS accuracy) pulses like a butter lamp
   const markers = useMemo(() => list.map((m) => ({ ...m, stamped: stamps.has(m.id), pulse: sel?.id === m.id || (m.metres != null && m.metres <= Math.max(150, me?.accuracy || 0)) })), [list, stamps, sel, me]);
+  const model3d = useMemo(() => (sel ? { lng: sel.lng, lat: sel.lat, spec: sel.model, type: sel.type, name: sel.name } : null), [sel]);
   const meDot = useMemo(() => (me ? [{ lat: me.lat, lng: me.lng, color: '#27187E', label: 'You are here' }] : []), [me]);
   const padding = useMemo(() => (panel && wide ? { left: 400, top: 0, right: 0, bottom: 0 } : { left: 0, top: 0, right: 0, bottom: 0 }), [panel, wide]);
   const types = useMemo(() => [...new Set((all || []).map((m) => m.type))], [all]);
@@ -112,7 +113,7 @@ export default function Explore() {
   return (
     <div className="explore">
       <div className="explore-map">
-        <MapView ref={map} markers={markers} extra={meDot} padding={padding} onSelect={select} initial={NEPAL} cluster />
+        <MapView ref={map} markers={markers} extra={meDot} padding={padding} onSelect={select} initial={NEPAL} cluster model3d={model3d} />
       </div>
 
       <AnimatePresence>
@@ -188,6 +189,7 @@ export default function Explore() {
               <p className="small" style={{ margin: '0.5rem 0 0.8rem' }}>{sel.short}</p>
               <div className="row">
                 <Link className="btn sm" to={`/m/${sel.slug}`}>Open the story <ArrowRight size={15} /></Link>
+                <Link className="btn ghost sm" to={`/m/${sel.slug}#model`}>Full 3D view</Link>
                 {story >= 0 && (
                   <>
                     <button className="icon-btn" onClick={() => go(Math.max(0, story - 1))} aria-label="Previous stop" disabled={story === 0}><ChevronLeft size={17} /></button>

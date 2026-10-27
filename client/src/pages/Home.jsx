@@ -1,14 +1,13 @@
-import { lazy, Suspense, useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
-import { Users, ArrowRight, ArrowUpRight, Sparkles } from 'lucide-react';
+import { AnimatePresence, motion, useScroll, useTransform, useSpring } from 'framer-motion';
+import { Users, ArrowRight, ArrowUpRight, Sparkles, Box } from 'lucide-react';
 import { api } from '../lib/api.js';
-import { usePrefs, useT } from '../lib/prefs.jsx';
+import { useT } from '../lib/prefs.jsx';
 import { MonumentCard } from '../components/MonumentCard.jsx';
-import { Mandala, Toran, OrnDivider } from '../components/Ornaments.jsx';
-import { ShlokaRotator } from '../components/Shloka.jsx';
+import { Mandala, OrnDivider } from '../components/Ornaments.jsx';
+import { ShlokaRotator, Epigraph } from '../components/Shloka.jsx';
 
-const HeroSite = lazy(() => import('../three/site.jsx').then((m) => ({ default: m.HeroSite })));
 const EASE = [0.22, 0.9, 0.24, 1];
 
 export const PROVINCES = [
@@ -69,6 +68,7 @@ function Provinces({ data }) {
           <div>
             <div className="eyebrow">Saat Pradesh · <span lang="ne">सात प्रदेश</span></div>
             <h2>Seven provinces, one sacred map</h2>
+            <Epigraph index={0} />
           </div>
           <p className="muted">From the plains of Janakpur to the snows of Muktinath. Scroll to travel east to west.</p>
         </div>
@@ -97,14 +97,93 @@ function Provinces({ data }) {
   );
 }
 
+// Darshan of the great sites: full-screen photographs crossfade with a slow drift; the strip below picks a site.
+const FEATURED = ['pashupatinath', 'boudhanath', 'nyatapola-temple', 'janaki-mandir', 'muktinath-temple', 'maya-devi-temple-lumbini', 'swayambhunath', 'tal-barahi-temple'];
+
+function HeroShowcase({ t, meta }) {
+  const [sites, setSites] = useState([]);
+  const [i, setI] = useState(0);
+  const [hold, setHold] = useState(false);
+  const { scrollY } = useScroll();
+  const drift = useTransform(scrollY, [0, 800], [0, 140]);
+  const fade = useTransform(scrollY, [0, 600], [1, 0.2]);
+  useEffect(() => {
+    api('/monuments').then((d) => {
+      const by = new Map(d.results.map((m) => [m.slug, m]));
+      setSites(FEATURED.map((s) => by.get(s)).filter((m) => m && m.image));
+    }).catch(() => {});
+  }, []);
+  useEffect(() => {
+    if (hold || sites.length < 2) return undefined;
+    const id = setTimeout(() => setI((x) => (x + 1) % sites.length), 7000);
+    return () => clearTimeout(id);
+  }, [i, hold, sites.length]);
+  const cur = sites[i];
+  return (
+    <section className="hero2">
+      <motion.div className="hero2-photos" style={{ y: drift }}>
+        <AnimatePresence initial={false}>
+          {cur && (
+            <motion.img key={cur.slug} src={cur.image} alt="" className="hero2-img"
+              initial={{ opacity: 0, scale: 1.12 }} animate={{ opacity: 1, scale: 1.02 }} exit={{ opacity: 0 }}
+              transition={{ opacity: { duration: 1.4 }, scale: { duration: 8, ease: 'linear' } }} />
+          )}
+        </AnimatePresence>
+      </motion.div>
+      <div className="hero2-shade" />
+      <motion.div className="wrap hero2-body" style={{ opacity: fade }}>
+        <motion.p className="invocation" lang="sa" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.6, ease: EASE }}>
+          असतो मा सद्गमय · तमसो मा ज्योतिर्गमय
+        </motion.p>
+        <h1 className="hero-title">
+          <SplitWords text="Walk where the" delay={0.2} /> <em><SplitWords text="gods still live." delay={0.45} /></em>
+        </h1>
+        <motion.span className="hero-np" lang="ne" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 0.8 }}>हाम्रो प्राचीन सम्पदा</motion.span>
+        <motion.p className="lead" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.9, ease: EASE }}>
+          {meta ? `${meta.monuments} temples, stupas, palaces and pilgrim sites` : 'Temples, stupas, palaces and pilgrim sites'} across all seven provinces.
+          Hear their stories, turn each one in 3D, plan a yatra and race your friends in live heritage hunts.
+        </motion.p>
+        <motion.div className="hero-cta" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 1.05, ease: EASE }}>
+          <Link to="/explore" className="btn lg">{t('Begin the yatra', 'यात्रा सुरु गर्नुहोस्')} <ArrowRight size={18} className="arrow" /></Link>
+          <Link to="/hunt" className="btn lg light-ghost"><Users size={18} /> {t('Play with friends', 'साथीसँग खेल्नुहोस्')}</Link>
+        </motion.div>
+      </motion.div>
+
+      {cur && (
+        <div className="hero2-now">
+          <AnimatePresence mode="wait">
+            <motion.div key={cur.slug} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }} transition={{ duration: 0.5 }}>
+              <span className="cap">{cur.city} · {cur.province} Province</span>
+              <b>{cur.name}</b>
+              <span lang="ne" className="np">{cur.name_np}</span>
+              <span className="row" style={{ gap: '0.5rem', marginTop: '0.6rem' }}>
+                <Link to={`/m/${cur.slug}`} className="btn sm">Open the story <ArrowRight size={14} /></Link>
+                <Link to={`/m/${cur.slug}#model`} className="btn sm light-ghost"><Box size={14} /> 3D</Link>
+              </span>
+            </motion.div>
+          </AnimatePresence>
+        </div>
+      )}
+
+      <div className="hero2-strip" onMouseEnter={() => setHold(true)} onMouseLeave={() => setHold(false)}>
+        <div className="wrap hero2-strip-row thin-scroll">
+          {sites.map((s, k) => (
+            <button key={s.slug} className={`hero2-thumb ${k === i ? 'on' : ''}`} onClick={() => setI(k)} aria-label={s.name}>
+              <img src={s.image} alt="" loading="lazy" />
+              <span className="hero2-thumb-text"><b>{s.name.replace(/ Temple$| Stupa$/, '')}</b><small>{s.province}</small></span>
+              {k === i && <motion.i key={`p${i}${hold}`} className="hero2-progress" initial={{ scaleX: 0 }} animate={{ scaleX: hold ? 0 : 1 }} transition={{ duration: hold ? 0.2 : 7, ease: 'linear' }} />}
+            </button>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home() {
   const t = useT();
   const [meta, setMeta] = useState(null);
   const [recs, setRecs] = useState(null);
-  const { theme } = usePrefs();
-  const { scrollY } = useScroll();
-  const spin = useTransform(scrollY, [0, 900], [0, 60]);
-  const canvasY = useTransform(scrollY, [0, 900], [0, 120]);
   useEffect(() => {
     api('/monuments/meta').then(setMeta).catch(() => {});
     api('/monuments/recommend?limit=8').then((d) => setRecs(d.results)).catch(() => setRecs([]));
@@ -115,46 +194,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="hero">
-        <div className="hero-bg" />
-        <motion.div className="hero-mandala" style={{ rotate: spin }}><Mandala size={900} strokeWidth={0.8} className="spin-slow" /></motion.div>
-        <div className="hero-grain" />
-        <Toran />
-        <div className="wrap hero-grid">
-          <div>
-            <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: EASE }} className="eyebrow">{t('Heritage of Nepal · all seven provinces', 'नेपालको सम्पदा · सातै प्रदेश')}</motion.div>
-            <h1 className="hero-title">
-              <SplitWords text="Walk where the" delay={0.1} /> <em><SplitWords text="gods still live." delay={0.3} /></em>
-            </h1>
-            <motion.span className="hero-np" lang="ne" initial={{ opacity: 0, filter: 'blur(8px)' }} animate={{ opacity: 1, filter: 'blur(0px)' }} transition={{ duration: 1, delay: 0.6 }}>हाम्रो प्राचीन सम्पदा</motion.span>
-            <motion.p className="lead" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.75, ease: EASE }}>
-              Temples, stupas, palaces and pilgrim trails from Janakpur to Muktinath. Fly over them in 3D, hear their stories,
-              plan a yatra that keeps every shrine open, and race your friends in live heritage hunts.
-            </motion.p>
-            <motion.div className="hero-cta" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.9, ease: EASE }}>
-              <Link to="/explore" className="btn lg diyo">{t('Begin the yatra', 'यात्रा सुरु गर्नुहोस्')} <ArrowRight size={18} className="arrow" /></Link>
-              <Link to="/hunt" className="btn lg light-ghost"><Users size={18} /> {t('Play with friends', 'साथीसँग खेल्नुहोस्')}</Link>
-            </motion.div>
-            <motion.div className="hero-stats" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 1.1 }}>
-              <div><b className="num">{meta ? meta.monuments : '—'}</b><span>heritage sites</span></div>
-              <div><b className="num">{meta ? meta.provinces?.filter((p) => p.count).length || 7 : 7}</b><span>provinces</span></div>
-              <div><b className="num">{meta ? meta.questions : '—'}</b><span>quiz questions</span></div>
-            </motion.div>
-          </div>
-          <motion.div className="hero-canvas" style={{ y: canvasY }} initial={{ opacity: 0, scale: 0.94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.3, ease: EASE }}>
-            <Suspense fallback={null}>
-              <HeroSite />
-            </Suspense>
-            <motion.div className="hero-chip c1" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 1.4, duration: 0.7 }}>
-              <span><b>Nyatapola, Bhaktapur</b><br /><span style={{ opacity: 0.75 }}>Five roofs, five plinths, 1702</span></span>
-            </motion.div>
-            <motion.div className="hero-chip c2" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 1.6, duration: 0.7 }}>
-              <span><b>Drag to turn</b><br /><span style={{ opacity: 0.75 }}>Every site has its own 3D model</span></span>
-            </motion.div>
-          </motion.div>
-        </div>
-        <div className="scroll-cue" aria-hidden="true"><i />Scroll</div>
-      </section>
+      <HeroShowcase t={t} meta={meta} />
 
       <div className="name-band" aria-hidden="true">
         <div className="marquee">
@@ -170,6 +210,7 @@ export default function Home() {
             <Reveal>
               <div className="eyebrow">{t('Five ways in', 'पाँच बाटा')}</div>
               <h2>{t('Choose how you meet the heritage', 'सम्पदासँग कसरी भेट्ने, रोज्नुहोस्')}</h2>
+              <Epigraph index={4} />
             </Reveal>
             <Reveal delay={0.1}><p className="muted">Every mode is free, bilingual and works on a phone at the temple gate.</p></Reveal>
           </div>
@@ -199,10 +240,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section dark-band on-dark shloka-section">
+      <section className="section shloka-section">
         <Mandala size={820} className="mandala-bg spin-slow" strokeWidth={0.7} style={{ left: '50%', top: '50%', translate: '-50% -50%' }} />
         <div className="wrap">
-          <div className="eyebrow" style={{ justifyContent: 'center', display: 'flex' }}>{t('Words carved in stone and sung at dawn', 'श्लोक')}</div>
+          <div className="eyebrow" style={{ justifyContent: 'center', display: 'flex' }}>{t('Shlokas · words sung at dawn in every courtyard', 'श्लोक')}</div>
           <ShlokaRotator />
         </div>
       </section>
@@ -213,6 +254,7 @@ export default function Home() {
             <Reveal>
               <div className="eyebrow">{t('Picked for you', 'तपाईंका लागि')}</div>
               <h2>{t('Where to begin', 'कहाँबाट सुरु गर्ने')}</h2>
+              <Epigraph index={14} />
               <p className="muted">Ranked by your interests, explorer ratings and the places you have not stamped yet.</p>
             </Reveal>
             <Link to="/explore" className="btn ghost">{t('See every site', 'सबै सम्पदा हेर्नुहोस्')} <ArrowRight size={16} className="arrow" /></Link>
@@ -231,6 +273,7 @@ export default function Home() {
               <Reveal>
                 <div className="eyebrow">{t('Jatra and parva', 'जात्रा र पर्व')}</div>
                 <h2>Festivals coming up from {month}</h2>
+                <Epigraph index={13} />
               </Reveal>
               <p className="muted">Heritage is alive: chariots, lamps and fairs return to these courtyards every year.</p>
             </div>

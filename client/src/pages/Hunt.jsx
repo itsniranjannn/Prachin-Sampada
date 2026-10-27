@@ -11,6 +11,7 @@ import { useAuth } from '../lib/auth.jsx';
 import { usePrefs, useT } from '../lib/prefs.jsx';
 import { useToast } from '../lib/toast.jsx';
 import { play, buzz } from '../lib/sound.js';
+import { Epigraph } from '../components/Shloka.jsx';
 
 const NAME_KEY = 'sampada-hunt-name';
 const EMOJIS = ['🙏', '🔥', '👏', '😮', '🎉'];
@@ -130,6 +131,7 @@ export default function Hunt() {
             <div className="flags" aria-hidden="true">{Array.from({ length: 15 }).map((_, i) => <i key={i} />)}</div>
             <div className="eyebrow" style={{ marginTop: '1rem' }}>Live heritage hunt · लाइभ सम्पदा खेल</div>
             <h1 style={{ fontSize: 'var(--fs-h2)' }}>{t('Race your friends across the valley', 'साथीहरूसँग उपत्यकाभरि दौड')}</h1>
+            <Epigraph index={16} />
             <p className="lead">Everyone sees the same photo and riddle. Drop your pin, beat the clock, watch the leaderboard move. Great for classes, school trips and Saturday hangouts. No account needed to join.</p>
           </div>
           <div className="grid-2" style={{ marginTop: '1.5rem' }}>

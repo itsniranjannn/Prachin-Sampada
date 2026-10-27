@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Brain, Crosshair } from 'lucide-react';
 import { api } from '../lib/api.js';
 import { Loader } from '../components/Shell.jsx';
+import { Epigraph } from '../components/Shloka.jsx';
 
 const Medal = ({ i }) => <span className={`medal m${i}`}>{i + 1}</span>;
 
@@ -14,6 +15,7 @@ export default function Leaderboard() {
       <div className="page-head">
         <div className="eyebrow">Leaderboard · अग्रता सूची</div>
         <h1 style={{ fontSize: 'var(--fs-h2)' }}>Keepers of Nepal’s stories</h1>
+            <Epigraph index={1} />
       </div>
       {!d ? <Loader /> : (
         <div className="grid-2">

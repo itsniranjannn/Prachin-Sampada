@@ -936,3 +936,28 @@ function HeroInner() {
     </>
   );
 }
+
+/** Compact, transparent model for the map: the monument alone on a stone disc, turning slowly. */
+export function SiteMini({ spec, type }) {
+  const s = spec || DEFAULT_SPECS[type] || DEFAULT_SPECS.pagoda;
+  return (
+    <Canvas dpr={[1, 1.6]} camera={{ position: [9, 7, 12], fov: 34 }} gl={{ antialias: true, alpha: true }}>
+      <Suspense fallback={null}>
+        <MatProvider>
+          <hemisphereLight args={['#fff3e0', '#6a4a5a', 1]} />
+          <directionalLight position={[6, 10, 6]} intensity={2.2} color="#fff1d6" />
+          <directionalLight position={[-6, 4, -4]} intensity={0.6} color="#ae7fff" />
+          <Spin on>
+            <Bounds fit clip observe margin={1.35}>
+              <Monument spec={{ ...s, surroundings: [] }} />
+            </Bounds>
+            <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.02, 0]}>
+              <circleGeometry args={[4.4, 48]} />
+              <meshStandardMaterial color="#e8dcc8" roughness={1} transparent opacity={0.7} />
+            </mesh>
+          </Spin>
+        </MatProvider>
+      </Suspense>
+    </Canvas>
+  );
+}

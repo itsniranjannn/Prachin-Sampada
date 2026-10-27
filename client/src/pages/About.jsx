@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Route, Brain, Crosshair, Sparkles, Users, Headphones } from 'lucide-react';
+import { Epigraph } from '../components/Shloka.jsx';
 
 const SECTIONS = [
   { I: Route, t: 'Heritage walk planner', d: 'An Orienteering Problem with Time Windows. Every monument gets a value from your interests (with a small UNESCO bonus, and a large one for places you chose). Starting empty, the planner inserts the place with the best value per extra minute at its cheapest feasible position, checking that each visit starts after opening and ends before closing and that the day ends on time. Then 2-opt reverses parts of the route while that shortens it, and the freed minutes are filled again. Legs under about 2.5 km of lane walking are walked; longer ones become a taxi with an estimated fare. On small cases the result matches exhaustive search.' },
@@ -16,6 +17,7 @@ export default function About() {
       <div className="page-head">
         <div className="eyebrow">How it works</div>
         <h1 style={{ fontSize: 'var(--fs-h2)' }}>The engine behind Hamro Prachin Sampada</h1>
+            <Epigraph index={8} />
         <p className="lead">Classical, explainable algorithms adapted to Nepal’s lanes, hill roads, opening hours and stories. Free resources only: OpenStreetMap data via OpenFreeMap tiles, Wikimedia Commons photos, and open-source libraries.</p>
       </div>
       <div className="grid">

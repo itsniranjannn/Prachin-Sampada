@@ -8,6 +8,7 @@ import { usePrefs, useT } from '../lib/prefs.jsx';
 import { useToast, announceBadges } from '../lib/toast.jsx';
 import { play, buzz } from '../lib/sound.js';
 import { Loader } from '../components/Shell.jsx';
+import { Epigraph } from '../components/Shloka.jsx';
 
 const GUEST = 'sampada-guest-quiz';
 const LEVELS = [
@@ -119,6 +120,7 @@ export default function Quiz() {
             <motion.div key="intro" className="quiz-intro card pad-l lattice-soft" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }}>
               <div className="eyebrow">Adaptive quiz trail · प्रश्नोत्तर यात्रा</div>
               <h1 style={{ fontSize: 'var(--fs-h2)' }}>{t('How well do you know your heritage?', 'आफ्नो सम्पदालाई कत्तिको चिन्नुहुन्छ?')}</h1>
+            <Epigraph index={15} />
               <p className="lead">{ROUND} questions that adapt to you. Get one right and the next is a little harder; miss one and it comes back later to help you remember.</p>
               <div className="level-row">
                 <Tiers rating={rating} />

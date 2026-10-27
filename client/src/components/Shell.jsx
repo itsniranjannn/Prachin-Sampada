@@ -4,8 +4,7 @@ import { AnimatePresence, motion, useMotionValueEvent, useScroll, useSpring } fr
 import Lenis from 'lenis';
 import { Menu, X, Moon, Sun, SunMedium, Volume2, VolumeX, LogOut, Stamp, Shield, Languages, ArrowUpRight, Github } from 'lucide-react';
 import { Logo } from './Logo.jsx';
-import { Mandala, Toran } from './Ornaments.jsx';
-import { MANTRA_LINE } from './Shloka.jsx';
+import { Mandala } from './Ornaments.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import { usePrefs, useT } from '../lib/prefs.jsx';
 
@@ -131,7 +130,6 @@ export function Nav() {
         {open && (
           <motion.div className="mnav" initial={{ clipPath: 'circle(0% at 92% 4%)' }} animate={{ clipPath: 'circle(150% at 92% 4%)' }} exit={{ clipPath: 'circle(0% at 92% 4%)' }} transition={{ duration: 0.6, ease: [0.22, 0.9, 0.24, 1] }}>
             <Mandala size={620} className="mnav-mandala spin-slow" strokeWidth={0.8} />
-            <Toran />
             <nav className="mnav-links" aria-label="Mobile">
               {[...LINKS, ...(user ? [{ to: '/passport', en: 'My passport', np: 'मेरो राहदानी' }] : []), ...(user?.role === 'admin' ? [{ to: '/admin', en: 'Admin', np: 'प्रशासन' }] : [])].map((l, i) => (
                 <motion.div key={l.to} initial={{ opacity: 0, y: 26 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.18 + i * 0.06, duration: 0.5, ease: [0.22, 0.9, 0.24, 1] }}>
@@ -164,7 +162,6 @@ export function Footer() {
   const t = useT();
   return (
     <footer className="footer">
-      <Toran />
       <Mandala size={720} className="footer-mandala spin-slow" strokeWidth={0.7} />
       <div className="wrap footer-cta">
         <div>
@@ -194,9 +191,6 @@ export function Footer() {
           <Link to="/about">How it works</Link><Link to="/credits">Photo credits &amp; sources</Link>
           <a href="https://github.com/itsniranjannn/Prachin-Sampada" target="_blank" rel="noreferrer"><Github size={14} style={{ verticalAlign: '-2px' }} /> Source code</a>
         </div>
-      </div>
-      <div className="footer-shloka" aria-label="Verses from the Bhagavad Gita, the Panchakshara and Om Mani Padme Hum">
-        <div className="marquee"><span lang="sa">{MANTRA_LINE} {MANTRA_LINE}</span><span lang="sa" aria-hidden="true">{MANTRA_LINE} {MANTRA_LINE}</span></div>
       </div>
       <div className="wrap footer-base">
         <span>© {new Date().getFullYear()} Hamro Prachin Sampada · BCA Project III</span>

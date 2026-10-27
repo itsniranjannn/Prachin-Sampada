@@ -12,7 +12,7 @@ import { MonumentCard, TYPE_LABEL } from '../components/MonumentCard.jsx';
 import { PageLoader } from '../components/Shell.jsx';
 import MapView from '../components/MapView.jsx';
 import { Gallery } from '../components/Gallery.jsx';
-import { Toran } from '../components/Ornaments.jsx';
+import { ShrineVerse } from '../components/Shloka.jsx';
 
 const SiteViewer = lazy(() => import('../three/site.jsx').then((x) => ({ default: x.SiteViewer })));
 
@@ -101,7 +101,6 @@ export default function Monument() {
     <div className="page monument">
       <section className="mon-hero">
         <motion.div className="mon-hero-img" style={{ y: heroY, scale: heroScale }}>{m.image ? <img src={m.image} alt={m.name} /> : <div className="jaali" style={{ height: '100%' }} />}</motion.div>
-        <Toran />
         <div className="wrap mon-hero-text">
           <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.9, ease: [0.22, 0.9, 0.24, 1] }}>
             <nav className="mon-crumbs" aria-label="Breadcrumb">
@@ -172,6 +171,7 @@ export default function Monument() {
                 <ul className="facts">{m.facts.map((f) => <li key={f}>{f}</li>)}</ul>
               </>
             )}
+            <ShrineVerse faith={m.faith} seed={m.id} />
             {m.quake2015 && <div className="quake"><TriangleAlert size={18} /><div><b>2015 earthquake.</b> {m.quake2015}</div></div>}
           </article>
 

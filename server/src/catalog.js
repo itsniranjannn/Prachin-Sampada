@@ -64,5 +64,5 @@ export const card = (m) => ({
   short: m.short_text, built: m.built_text, builtYear: m.built_year, dynasty: m.dynasty,
   image: m.image_url, imageCredit: m.image_credit, tags: m.tags, visitMinutes: m.visit_minutes,
   open: m.open_time, close: m.close_time, avgRating: m.avgRating, ratingCount: m.ratingCount,
-  galleryCount: m.gallery?.length || 0, modelKind: m.model?.kind || null,
+  galleryCount: m.gallery?.length || 0, modelKind: m.model?.kind || null, model: m.model || null,
 });

@@ -9,6 +9,7 @@ import { useAuth } from '../lib/auth.jsx';
 import { useToast, announceBadges } from '../lib/toast.jsx';
 import { useT } from '../lib/prefs.jsx';
 import { Loader } from '../components/Shell.jsx';
+import { Epigraph } from '../components/Shloka.jsx';
 
 const STARTS = [
   { key: 'kds', name: 'Basantapur (Kathmandu Durbar Sq.)', lat: 27.7041, lng: 85.3069 },
@@ -92,6 +93,7 @@ export default function Walk() {
         <div className="page-head">
           <div className="eyebrow">Heritage yatra planner · यात्रा योजना</div>
           <h1 style={{ fontSize: 'var(--fs-h2)' }}>{t('Plan the best yatra for the hours you have', 'तपाईंसँग भएको समयमा उत्तम यात्रा')}</h1>
+            <Epigraph index={3} />
           <p className="lead" style={{ maxWidth: 720 }}>Start in any heritage town in Nepal, then pick places or just your interests. The planner chooses what fits, orders it for the shortest walk, waits for opening times and tells you when a taxi beats walking.</p>
         </div>
         <div className="walk-grid">
