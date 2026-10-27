@@ -190,7 +190,7 @@ export default function Monument() {
                 <span className="cap">{spec?.notes || `A ${TYPE_LABEL[m.type]?.toLowerCase() || 'temple'} built from its architecture.`} Drag to orbit, scroll to zoom.</span>
               </div>
             </div>
-            <Suspense fallback={<div className="skeleton" style={{ height: 440, margin: '1rem' }} />}><SiteViewer spec={spec} type={m.type} initialDusk={theme === 'dark'} /></Suspense>
+            <Suspense fallback={<div className="skeleton" style={{ height: 440, margin: '1rem' }} />}><SiteViewer spec={spec} type={m.type} slug={m.slug} initialDusk={theme === 'dark'} /></Suspense>
             {spec && (
               <div className="model-specs">
                 {spec.tiers > 1 && <span className="tag">{spec.tiers} {['pagoda', 'gumba', 'lake-shrine'].includes(spec.kind) ? 'roofs' : 'storeys'}</span>}

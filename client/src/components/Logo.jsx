@@ -1,5 +1,5 @@
 // Logo: a wine-red seal holding a shikhara spire with its kalash finial on a stepped plinth, ringed in light sand.
-// Wordmark: "SAMPADA" in an inscription serif over "हाम्रो प्राचीन", set off from the seal by a hairline.
+// Wordmark: "हाम्रो प्राचीन" in a bold Devanagari display face over "Sampada" in a flowing italic serif.
 export function LogoMark({ size = 40 }) {
   return (
     <svg width={size} height={size} viewBox="0 0 64 64" aria-hidden="true">
@@ -23,10 +23,9 @@ export function Logo({ compact = false }) {
   return (
     <span className="logo">
       <LogoMark size={compact ? 38 : 44} />
-      <span className="logo-rule" aria-hidden="true" />
       <span className="logo-words">
-        <span className="logo-en">Sampada</span>
         <span className="logo-kicker" lang="ne">हाम्रो प्राचीन</span>
+        <span className="logo-en">Sampada</span>
       </span>
     </span>
   );

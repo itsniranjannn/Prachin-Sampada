@@ -39,8 +39,17 @@ function MatProvider({ children }) {
 }
 const useM = () => useContext(MatCtx);
 
-function wallMat(M, walls, rx = 2, ry = 1) {
-  if (walls === 'white-plaster' || walls === 'whitewashed-stone') return M.mat('plaster', rx, ry, { color: '#ffffff', roughness: 0.75 });
+/** Mix a researched site colour towards white so it tints the texture without darkening it. */
+function lighten(hex, k = 0.55) {
+  const n = parseInt(String(hex).replace('#', ''), 16);
+  if (!Number.isFinite(n)) return null;
+  const c = [(n >> 16) & 255, (n >> 8) & 255, n & 255].map((v) => Math.round(v + (255 - v) * k));
+  return `#${c.map((v) => v.toString(16).padStart(2, '0')).join('')}`;
+}
+function wallMat(M, walls, rx = 2, ry = 1, tint = null) {
+  if (tint && (walls === 'red-brick' || !walls)) return M.mat('brick', rx, ry, { color: lighten(tint) || '#f0c2a8' });
+  if (tint && walls === 'ochre-plaster') return M.mat('ochre', rx, ry, { color: lighten(tint, 0.4) || '#e6c78f' });
+  if (walls === 'white-plaster' || walls === 'whitewashed-stone') return M.plain('#f7f4ee', { roughness: 0.82 });
   if (walls === 'ochre-plaster') return M.mat('ochre', rx, ry, { color: '#e6c78f' });
   if (walls === 'stone') return M.mat('granite', rx, ry, { color: STONE });
   if (walls === 'timber') return M.mat('wood', rx, ry, { color: '#8a5a3a' });
@@ -72,14 +81,31 @@ const Ball = ({ rad, p = [0, 0, 0], sc, m }) => (
     <sphereGeometry args={[rad, 20, 14]} />
   </mesh>
 );
-/** Square pyramid roof spanning w x d, with a slight concave sag like Newar roofs. */
+/** Hip roof over a w x d plan: four sloped faces meeting at a ridge (or a point when square). */
+function hipGeometry(w, d, h) {
+  const hw = w / 2;
+  const hd = d / 2;
+  const rx = Math.max(0, hw - hd);
+  const rz = Math.max(0, hd - hw);
+  const v = [[-hw, 0, -hd], [hw, 0, -hd], [hw, 0, hd], [-hw, 0, hd], [-rx, h, -rz], [rx, h, rz]];
+  const faces = rx >= rz
+    ? [[0, 4, 5, 1], [1, 5, 2], [2, 5, 4, 3], [3, 4, 0]]
+    : [[0, 4, 1], [1, 4, 5, 2], [2, 5, 3], [3, 5, 4, 0]];
+  const pos = [];
+  const uv = [];
+  faces.forEach((f) => {
+    const tris = f.length === 4 ? [[f[0], f[1], f[2]], [f[0], f[2], f[3]]] : [f];
+    tris.forEach((t) => t.forEach((i) => { pos.push(...v[i]); uv.push((v[i][0] + v[i][2]) / 2, v[i][1] * 1.5); }));
+  });
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+  g.setAttribute('uv', new THREE.Float32BufferAttribute(uv, 2));
+  g.computeVertexNormals();
+  return g;
+}
 function Roof({ w, d, h, y, m }) {
-  const r = Math.max(w, d) * Math.SQRT1_2;
-  return (
-    <mesh position={[0, y + h / 2, 0]} rotation={[0, Math.PI / 4, 0]} scale={[w >= d ? 1 : w / d, 1, w >= d ? d / w : 1]} material={m} castShadow receiveShadow>
-      <coneGeometry args={[r, h, 4, 1, false]} />
-    </mesh>
-  );
+  const geo = useMemo(() => hipGeometry(w, d, h), [w, d, h]);
+  return <mesh geometry={geo} position={[0, y, 0]} material={m} castShadow receiveShadow />;
 }
 
 /** Gilded finial (gajur): bell, stacked umbrellas and a spike. */
@@ -367,7 +393,7 @@ function Plinth({ steps, shape = 'square', w, d, m, guards, stairs = true }) {
 }
 
 /* ---------- building kinds ---------- */
-function PagodaBody({ tiers = 3, w = 2.6, d = 2.6, y0 = 0, walls, roof, f, small = false }) {
+function PagodaBody({ tiers = 3, w = 2.6, d = 2.6, y0 = 0, walls, roof, f, small = false, wh = 1, ov = 1, taper = 0.72, tint = null }) {
   const M = useM();
   const out = [];
   let y = y0;
@@ -375,8 +401,8 @@ function PagodaBody({ tiers = 3, w = 2.6, d = 2.6, y0 = 0, walls, roof, f, small
   let dd = d;
   const rm = roofMat(M, roof);
   for (let i = 0; i < tiers; i += 1) {
-    const wallH = i === 0 ? (small ? 0.9 : 1.25) : 0.62;
-    out.push(<Box key={`w${i}`} s={[ww, wallH, dd]} p={[0, y + wallH / 2, 0]} m={wallMat(M, walls, ww / 1.2, wallH / 0.6)} />);
+    const wallH = (i === 0 ? (small ? 0.9 : 1.25) : 0.62) * wh;
+    out.push(<Box key={`w${i}`} s={[ww, wallH, dd]} p={[0, y + wallH / 2, 0]} m={wallMat(M, walls, ww / 1.2, wallH / 0.6, tint)} />);
     out.push(<Box key={`b${i}`} s={[ww + 0.06, 0.08, dd + 0.06]} p={[0, y + wallH - 0.04, 0]} m={M.dark} />);
     if (i === 0) {
       out.push(<Box key="door" s={[0.62, 0.86, 0.06]} p={[0, y + 0.43, dd / 2 + 0.01]} m={f.has('golden-door') ? M.gold : M.dark} />);
@@ -387,7 +413,7 @@ function PagodaBody({ tiers = 3, w = 2.6, d = 2.6, y0 = 0, walls, roof, f, small
         <Box key={`win${i}${k}`} s={[0.36, 0.3, 0.05]} p={[x, y + wallH * 0.5, z]} r={[0, ry, 0]} m={M.dark} />,
       ));
     }
-    const o = 0.42 + 0.08 * (tiers - i);
+    const o = (0.42 + 0.08 * (tiers - i)) * ov;
     const rw = ww + 2 * o;
     const rd = dd + 2 * o;
     const rh = 0.5 + 0.04 * (tiers - i);
@@ -407,8 +433,8 @@ function PagodaBody({ tiers = 3, w = 2.6, d = 2.6, y0 = 0, walls, roof, f, small
       <mesh key={`bell${i}${k}`} position={[sx * rw / 2 * 0.96, y + wallH - 0.14, sz * rd / 2 * 0.96]} material={M.gold}><coneGeometry args={[0.05, 0.14, 8]} /></mesh>,
     ));
     y += wallH + rh * 0.6;
-    ww *= 0.72;
-    dd *= 0.72;
+    ww *= taper;
+    dd *= taper;
   }
   out.push(<Gajur key="g" y={y - 0.05} s={small ? 0.7 : 1} />);
   if (roof === 'gilded-copper' || f.has('toran')) out.push(<Box key="pataka" s={[0.06, 1.6, 0.02]} p={[0, y0 + 1.4 + tiers * 0.7, d / 2 + 0.9]} m={M.gold} />);
@@ -419,7 +445,7 @@ function StupaBody({ y0 = 0, scale = 1, f, colors }) {
   const M = useM();
   const eyes = useMemo(() => eyesTexture(), []);
   const grass = colors?.[0] && /^#[4-7][0-9a-f]8/i.test(colors[0]);
-  const domeMat = grass ? M.mat('grass', 3, 3, { color: '#7a9a50' }) : M.mat('plaster', 3, 2, { color: '#ffffff', roughness: 0.75 });
+  const domeMat = grass ? M.mat('grass', 3, 3, { color: '#7a9a50' }) : M.plain('#f7f4ee', { roughness: 0.82 });
   const harm = new THREE.MeshStandardMaterial({ map: eyes, roughness: 0.8 });
   const plain = M.plain('#d9b55a', { metalness: 0.6, roughness: 0.35 });
   return (
@@ -563,7 +589,7 @@ function DomeTemple({ walls, colors, f }) {
 
 function Gumba({ f, colors }) {
   const M = useM();
-  const wm = M.mat('plaster', 3, 2, { color: '#ffffff', roughness: 0.75 });
+  const wm = M.plain('#f7f4ee', { roughness: 0.82 });
   const band = M.plain(colors?.[1] && colors[1] !== '#f5f2ea' ? colors[1] : '#7a1f1f', { roughness: 0.9 });
   return (
     <group>
@@ -705,7 +731,7 @@ function AshokaPillar({ f }) {
 function House({ p, r = 0, h = 2.4, w = 1.8, d = 1.6, plaster = false, M }) {
   return (
     <group position={p} rotation={[0, r, 0]}>
-      <Box s={[w, h, d]} p={[0, h / 2, 0]} m={plaster ? M.mat('plaster', 1, 1, { color: '#efe4cf' }) : wallMat(M, 'red-brick', w / 1.4, h / 1.2)} />
+      <Box s={[w, h, d]} p={[0, h / 2, 0]} m={plaster ? M.plain('#efe6d6', { roughness: 0.85 }) : wallMat(M, 'red-brick', w / 1.4, h / 1.2)} />
       {Array.from({ length: Math.floor(h / 0.8) }, (_, s) => [-0.45, 0.45].map((x) => <Box key={`${s}${x}`} s={[0.28, 0.32, 0.04]} p={[x * w / 1.8, 0.55 + s * 0.8, d / 2 + 0.02]} m={M.dark} />))}
       <mesh position={[0, h + 0.28, 0]} rotation={[0, 0, 0]} scale={[w / 1.8 + 0.15, 1, d / 1.6 + 0.2]} material={roofMat(M, plaster ? 'slate' : 'clay-tile')} castShadow>
         <cylinderGeometry args={[0.01, 1.1, 0.56, 4, 1, false, Math.PI / 4]} />
@@ -760,8 +786,13 @@ function Surroundings({ list, radius = 10, dusk }) {
 }
 
 /* ---------- composer ---------- */
+/** Small stable hash of a slug, used to vary proportions per site. */
+const hashOf = (str = '') => { let h = 2166136261; for (const ch of str) { h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619); } return (h >>> 0) / 4294967295; };
 function Monument({ spec, dusk }) {
   const M = useM();
+  const rnd = (k) => hashOf(`${spec.slug || spec.notes || ''}:${k}`);
+  const hScale = spec.height_m ? Math.min(1.35, Math.max(0.8, spec.height_m / ((spec.tiers || 3) * 6))) : 0.9 + rnd(1) * 0.3;
+  const vary = { wh: hScale, ov: 0.85 + rnd(2) * 0.35, taper: 0.66 + rnd(3) * 0.12, tint: spec.colors?.[0] || null };
   const f = useMemo(() => new Set(spec.features || []), [spec]);
   const kind = spec.kind || 'pagoda';
   const tiers = Math.max(1, Math.min(spec.tiers || (kind === 'pagoda' ? 3 : 1), 9));
@@ -828,7 +859,7 @@ function Monument({ spec, dusk }) {
       </group>
     );
   } else {
-    body = <group position={[0, plinthH, 0]}><PagodaBody tiers={tiers} w={w} d={d} walls={spec.walls} roof={spec.roof} f={f} /></group>;
+    body = <group position={[0, plinthH, 0]}><PagodaBody tiers={tiers} w={w} d={d} walls={spec.walls} roof={spec.roof} f={f} {...vary} /></group>;
   }
   const plinth = ['pagoda', 'shikhara', 'palace', 'stupa'].includes(kind)
     ? <Plinth steps={steps} shape={kind === 'stupa' && spec.plinth_shape === 'round' ? 'round' : spec.plinth_shape} w={kind === 'stupa' ? 4.6 : w} d={kind === 'stupa' ? 4.6 : kind === 'palace' ? 2.8 : d} m={kind === 'shikhara' && spec.walls === 'stone' ? M.stone : wallMat(M, kind === 'stupa' ? 'white-plaster' : 'red-brick', 3, 0.5)} guards={guards && kind !== 'stupa'} />
@@ -845,7 +876,8 @@ function Spin({ on, children }) {
 function Scene({ spec, dusk, spin, fit = true }) {
   const bg = dusk ? '#2a1a44' : '#eadcc8';
   const radius = ['square', 'courtyard', 'fort', 'dome-temple'].includes(spec.kind) ? 13 : 11;
-  const inner = <Monument spec={spec} dusk={dusk} />;
+  const L = LANDMARKS[spec.slug];
+  const inner = L ? <L.Main /> : <Monument spec={spec} dusk={dusk} />;
   return (
     <>
       <color attach="background" args={[bg]} />
@@ -861,7 +893,7 @@ function Scene({ spec, dusk, spin, fit = true }) {
       </Environment>
       <Spin on={spin}>
         {fit ? <Bounds fit clip observe margin={1.25}>{inner}</Bounds> : inner}
-        <Surroundings list={spec.surroundings} radius={radius} dusk={dusk} />
+        {L ? <L.Env /> : <Surroundings list={spec.surroundings} radius={radius} dusk={dusk} />}
       </Spin>
       <ContactShadows position={[0, 0.02, 0]} opacity={0.4} scale={radius * 2.4} blur={2.4} far={8} />
     </>
@@ -878,8 +910,8 @@ export const DEFAULT_SPECS = {
 const NYATAPOLA = { kind: 'pagoda', tiers: 5, plinth_steps: 5, plinth_shape: 'square', footprint_m: [25, 25], walls: 'red-brick', roof: 'clay-tile', features: ['gilded-pinnacle', 'carved-struts', 'guardian-pairs-on-stairs'], surroundings: ['stone-paved-plaza', 'newar-houses'] };
 
 /** Viewer for one site, with day and dusk lighting, auto-turn and drag to orbit. */
-export function SiteViewer({ spec, type, height = 440, initialDusk = false }) {
-  const s = spec || DEFAULT_SPECS[type] || DEFAULT_SPECS.pagoda;
+export function SiteViewer({ spec, type, slug, height = 440, initialDusk = false }) {
+  const s = { ...(spec || DEFAULT_SPECS[type] || DEFAULT_SPECS.pagoda), slug };
   const [dusk, setDusk] = useState(initialDusk);
   const [spin, setSpin] = useState(true);
   return (
@@ -938,8 +970,9 @@ function HeroInner() {
 }
 
 /** Compact, transparent model for the map: the monument alone on a stone disc, turning slowly. */
-export function SiteMini({ spec, type }) {
-  const s = spec || DEFAULT_SPECS[type] || DEFAULT_SPECS.pagoda;
+export function SiteMini({ spec, type, slug }) {
+  const s = { ...(spec || DEFAULT_SPECS[type] || DEFAULT_SPECS.pagoda), slug };
+  const L = LANDMARKS[slug];
   return (
     <Canvas dpr={[1, 1.6]} camera={{ position: [9, 7, 12], fov: 34 }} gl={{ antialias: true, alpha: true }}>
       <Suspense fallback={null}>
@@ -949,7 +982,7 @@ export function SiteMini({ spec, type }) {
           <directionalLight position={[-6, 4, -4]} intensity={0.6} color="#ae7fff" />
           <Spin on>
             <Bounds fit clip observe margin={1.35}>
-              <Monument spec={{ ...s, surroundings: [] }} />
+              {L ? <L.Main /> : <Monument spec={{ ...s, surroundings: [] }} />}
             </Bounds>
             <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.02, 0]}>
               <circleGeometry args={[4.4, 48]} />
@@ -961,3 +994,588 @@ export function SiteMini({ spec, type }) {
     </Canvas>
   );
 }
+
+/* ---------- hand-built landmarks ----------
+   The best-known sites are modelled one by one from their real layout, each with its own surroundings.
+   Each landmark has Main (framed by the camera) and Env (the setting around it). */
+const silverMat = (M) => M.plain('#d4d6da', { metalness: 0.9, roughness: 0.28 });
+const whiteMat = (M) => M.plain('#f7f4ee', { roughness: 0.82 });
+const brickMat = (M, rx = 2, ry = 1) => wallMat(M, 'red-brick', rx, ry);
+/** Invisible box that tells the camera how much of the scene to frame. */
+const Frame = ({ s, p = [0, s[1] / 2, 0] }) => <mesh position={p} visible={false}><boxGeometry args={s} /></mesh>;
+const Water = ({ w, d, p, r = 0, color = '#5b7f80' }) => (
+  <mesh rotation={[-Math.PI / 2, 0, r]} position={p} receiveShadow><planeGeometry args={[w, d]} /><meshStandardMaterial color={color} metalness={0.35} roughness={0.12} /></mesh>
+);
+/** Stepped stone tank with water, as at Kumbheshwar, Muktinath and Puskarini. */
+function Tank({ w, d, p, steps = 3 }) {
+  const M = useM();
+  const top = 0.12 + steps * 0.08;
+  return (
+    <group position={p}>
+      {Array.from({ length: steps }, (_, k) => {
+        const y = top - k * 0.08;
+        const ww = w - k * 0.5;
+        const dd = d - k * 0.5;
+        return (
+          <group key={k}>
+            <Box s={[ww, y, 0.25]} p={[0, y / 2, dd / 2 - 0.125]} m={M.stone} />
+            <Box s={[ww, y, 0.25]} p={[0, y / 2, -dd / 2 + 0.125]} m={M.stone} />
+            <Box s={[0.25, y, dd]} p={[ww / 2 - 0.125, y / 2, 0]} m={M.stone} />
+            <Box s={[0.25, y, dd]} p={[-ww / 2 + 0.125, y / 2, 0]} m={M.stone} />
+          </group>
+        );
+      })}
+      <Water w={w - steps * 0.5} d={d - steps * 0.5} p={[0, 0.05, 0]} />
+    </group>
+  );
+}
+/** Small open pavilion (chhatri) with four posts and a spire, as on Krishna Mandir. */
+function Chhatri({ p, s = 1, m }) {
+  return (
+    <group position={p} scale={s}>
+      {[[-1, -1], [1, -1], [-1, 1], [1, 1]].map(([a, b]) => <Box key={`${a}${b}`} s={[0.07, 0.6, 0.07]} p={[a * 0.24, 0.3, b * 0.24]} m={m} />)}
+      <Box s={[0.62, 0.08, 0.62]} p={[0, 0.64, 0]} m={m} />
+      <Spire r0={0.3} h={0.75} y={0.68} m={m} />
+    </group>
+  );
+}
+function OnionDome({ p, r = 0.6, m }) {
+  const M = useM();
+  return (
+    <group position={p}>
+      <Cyl rt={r * 0.8} h={r * 0.5} p={[0, r * 0.25, 0]} m={m} seg={20} />
+      <Ball rad={r} sc={[1, 1.15, 1]} p={[0, r * 1.2, 0]} m={m} />
+      <mesh position={[0, r * 2.35, 0]} material={M.gold}><coneGeometry args={[r * 0.12, r * 0.6, 10]} /></mesh>
+    </group>
+  );
+}
+function Monkey({ p, r = 0 }) {
+  const M = useM();
+  const fur = M.plain('#8a6a4a');
+  return (
+    <group position={p} rotation={[0, r, 0]}>
+      <Ball rad={0.16} sc={[1, 0.9, 1.3]} p={[0, 0.18, 0]} m={fur} />
+      <Ball rad={0.1} p={[0, 0.3, 0.18]} m={fur} />
+      <Cyl rt={0.02} h={0.4} p={[0, 0.3, -0.25]} r={[-0.9, 0, 0]} m={fur} seg={6} />
+    </group>
+  );
+}
+const ringOf = (n, r, fn, skip = () => false) => Array.from({ length: n }, (_, i) => {
+  const a = (i / n) * Math.PI * 2;
+  return skip(a) ? null : fn([Math.cos(a) * r, 0, Math.sin(a) * r], -a + Math.PI / 2, i);
+});
+const GroundDisc = ({ r, m, y = -0.01 }) => <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, y, 0]} receiveShadow material={m}><circleGeometry args={[r, 64]} /></mesh>;
+
+/* Pashupatinath: two gilded roofs, four silver doors, the golden Nandi, and the Bagmati with its ghats and Shivalayas */
+function PashupatiMain() {
+  const M = useM();
+  const f = useMemo(() => new Set(['carved-struts']), []);
+  const sv = silverMat(M);
+  return (
+    <group>
+      <Box s={[5.4, 0.5, 5.4]} p={[0, 0.25, 0]} m={M.stone} />
+      <group position={[0, 0.5, 0]}><PagodaBody tiers={2} w={3.4} d={3.4} walls="red-brick" roof="gilded-copper" f={f} /></group>
+      {[[0, 1.72, 0], [0, -1.72, Math.PI], [1.72, 0, Math.PI / 2], [-1.72, 0, -Math.PI / 2]].map(([x, z, r], k) => (
+        <group key={k} position={[x, 0.5, z]} rotation={[0, r, 0]}>
+          <Box s={[0.95, 1.05, 0.06]} p={[0, 0.53, 0.03]} m={sv} />
+          <mesh position={[0, 1.12, 0.05]} material={M.gold}><torusGeometry args={[0.5, 0.06, 8, 24, Math.PI]} /></mesh>
+        </group>
+      ))}
+      <group position={[0, 0, 5.6]} scale={1.5}><Nandi p={[0, 0, 0]} face={Math.PI} gold /></group>
+      <Trident p={[2.6, 0.5, 2.4]} h={2.4} />
+      <Trident p={[-2.6, 0.5, 2.4]} h={2.4} />
+      <BellPavilion p={[-3.4, 0, 4.6]} s={0.6} />
+      <Frame s={[13, 6, 11]} p={[2.5, 3, 1]} />
+    </group>
+  );
+}
+function PashupatiEnv() {
+  const M = useM();
+  const shrine = M.mat('granite', 1, 1, { color: '#f0ebe2' });
+  return (
+    <group>
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[-2, -0.01, 0]} receiveShadow material={M.mat('stone', 8, 8, { color: '#efe6d8' })}><planeGeometry args={[22, 26]} /></mesh>
+      <GroundDisc r={80} y={-0.04} m={M.mat('grass', 30, 30, { color: '#b8c890' })} />
+      {Array.from({ length: 7 }, (_, k) => <House key={`b${k}`} M={M} p={[-9 + k * 2.4, 0, -8.4]} h={2.4 + (k % 2) * 0.6} w={2.2} plaster />)}
+      {Array.from({ length: 6 }, (_, k) => <House key={`l${k}`} M={M} p={[-9.4, 0, -5.6 + k * 2.4]} r={Math.PI / 2} h={2.2 + (k % 2) * 0.6} w={2.2} plaster />)}
+      <Water w={3.6} d={60} p={[10.6, 0.01, 0]} />
+      {[0, 1, 2, 3].map((k) => <Box key={`g${k}`} s={[0.4, 0.5 - k * 0.12, 22]} p={[8.2 + k * 0.4, (0.5 - k * 0.12) / 2, 0]} m={M.stone} />)}
+      {[-6, -2.5, 1, 4.5].map((z) => (
+        <group key={`c${z}`} position={[9.6, 0, z]}>
+          <Cyl rt={0.75} h={0.32} p={[0, 0.16, 0]} m={M.stone} />
+          <Box s={[0.7, 0.18, 0.4]} p={[0, 0.41, 0]} m={M.dark} />
+        </group>
+      ))}
+      {[0, 1, 2].map((k) => <Box key={`t${k}`} s={[2.2, 0.6 + k * 0.7, 24]} p={[13.6 + k * 2.2, (0.6 + k * 0.7) / 2, 0]} m={M.stone} />)}
+      {Array.from({ length: 11 }, (_, k) => (
+        <group key={`s${k}`} position={[13.6, 0.6, -9 + k * 1.8]}>
+          <Box s={[1, 1, 1]} p={[0, 0.5, 0]} m={shrine} />
+          <mesh position={[0, 1, 0]} material={shrine} castShadow><sphereGeometry args={[0.52, 16, 8, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
+          <mesh position={[0, 1.65, 0]} material={M.gold}><coneGeometry args={[0.07, 0.3, 8]} /></mesh>
+        </group>
+      ))}
+      {Array.from({ length: 16 }, (_, k) => <Tree key={`tr${k}`} p={[19 + (k % 3) * 2.4, 2, -14 + k * 1.9]} s={1.1 + (k % 2) * 0.3} kind={k % 3 ? 'broad' : 'pine'} />)}
+      {[[-14, 6], [-14, -6], [-6, 13], [4, 13]].map(([x, z], k) => <House key={`h${k}`} M={M} p={[x, 0, z]} r={k} h={2.2} plaster />)}
+    </group>
+  );
+}
+
+/* Boudhanath: three notched mandala terraces, the great white dome, the gilded square spire with the eyes, its ring of gompas */
+function Terrace({ w, h, y, m }) {
+  return (
+    <group>
+      <Box s={[w, h, w * 0.7]} p={[0, y + h / 2, 0]} m={m} />
+      <Box s={[w * 0.7, h, w]} p={[0, y + h / 2, 0]} m={m} />
+      <Box s={[w * 0.86, h, w * 0.86]} p={[0, y + h / 2, 0]} m={m} />
+    </group>
+  );
+}
+function BoudhaMain() {
+  const M = useM();
+  const wm = whiteMat(M, 6, 1);
+  const eyes = useMemo(() => eyesTexture(), []);
+  const harm = useMemo(() => new THREE.MeshStandardMaterial({ map: eyes, roughness: 0.8 }), [eyes]);
+  const gold = M.gold;
+  const top = 2.1 + 0.5 + 4.4 * 0.8;
+  return (
+    <group>
+      {[15, 12.4, 10].map((w, k) => <Terrace key={w} w={w} h={0.7} y={k * 0.7} m={wm} />)}
+      <Cyl rt={4.7} h={0.5} p={[0, 2.35, 0]} m={wm} seg={64} />
+      {Array.from({ length: 40 }, (_, k) => {
+        const a = (k / 40) * Math.PI * 2;
+        return <Box key={k} s={[0.3, 0.32, 0.06]} p={[Math.cos(a) * 4.72, 2.35, Math.sin(a) * 4.72]} r={[0, -a + Math.PI / 2, 0]} m={M.plain('#7a1f1f')} />;
+      })}
+      <mesh position={[0, 2.6, 0]} scale={[1, 0.8, 1]} material={wm} castShadow receiveShadow><sphereGeometry args={[4.4, 64, 32, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
+      <Box s={[1.6, 0.14, 1.6]} p={[0, top + 0.05, 0]} m={gold} />
+      <mesh position={[0, top + 0.82, 0]} castShadow material={[gold, gold, gold, gold, harm, harm]}><boxGeometry args={[1.45, 1.4, 1.45]} /></mesh>
+      <mesh position={[0, top + 0.82, 0]} rotation={[0, Math.PI / 2, 0]} material={[gold, gold, gold, gold, harm, harm]}><boxGeometry args={[1.451, 1.4, 1.451]} /></mesh>
+      {Array.from({ length: 13 }, (_, k) => <Box key={k} s={[1.5 - k * 0.08, 0.17, 1.5 - k * 0.08]} p={[0, top + 1.62 + k * 0.19, 0]} m={gold} />)}
+      <mesh position={[0, top + 4.25, 0]} material={gold} castShadow><coneGeometry args={[0.75, 0.32, 24]} /></mesh>
+      <Gajur y={top + 4.38} s={0.9} />
+      {Array.from({ length: 16 }, (_, k) => {
+        const a = (k / 16) * Math.PI * 2 + 0.2;
+        return <PrayerFlags key={k} from={[0, top + 4.2, 0]} to={[Math.cos(a) * 7.4, 2.1, Math.sin(a) * 7.4]} n={20} />;
+      })}
+      <PrayerWheels radius={7.9} n={72} />
+      <Frame s={[16, 12, 16]} />
+    </group>
+  );
+}
+function BoudhaEnv() {
+  const M = useM();
+  const tints = ['#f6f1e8', '#efe0c4', '#e9d3c8', '#f3ecdf', '#dfe6e2'];
+  return (
+    <group>
+      <GroundDisc r={26} m={M.mat('stone', 10, 10, { color: '#efe6d8' })} />
+      <GroundDisc r={80} y={-0.04} m={M.mat('grass', 30, 30, { color: '#b8c890' })} />
+      {ringOf(34, 20, (p, r, i) => (i % 7 === 3
+        ? <group key={i} position={p} rotation={[0, r, 0]} scale={0.42}><Gumba f={new Set()} colors={['#f2ede2', '#8a2a22']} /></group>
+        : (
+          <group key={i} position={p} rotation={[0, r, 0]}>
+            <Box s={[2.6, 2 + (i % 4) * 0.5, 2]} p={[0, (2 + (i % 4) * 0.5) / 2, 0]} m={M.plain(tints[i % tints.length], { roughness: 0.85 })} />
+            {[0, 1].map((s) => [-0.7, 0, 0.7].map((x) => <Box key={`${s}${x}`} s={[0.32, 0.4, 0.04]} p={[x, 0.7 + s * 0.85, -1.01]} m={M.dark} />))}
+            <Box s={[2.7, 0.12, 2.1]} p={[0, 2.06 + (i % 4) * 0.5, 0]} m={M.plain('#8a3a2a')} />
+          </group>
+        )), (a) => Math.abs(a - Math.PI / 2) < 0.18)}
+    </group>
+  );
+}
+
+/* Swayambhunath: the stupa on its wooded hill, the great vajra, the twin white shikharas and the east stairway */
+function SwayamMain() {
+  const M = useM();
+  const wm = whiteMat(M, 4, 2);
+  const eyes = useMemo(() => eyesTexture(), []);
+  const harm = useMemo(() => new THREE.MeshStandardMaterial({ map: eyes, roughness: 0.8 }), [eyes]);
+  const gold = M.gold;
+  return (
+    <group>
+      <GroundDisc r={8.8} y={0.005} m={M.mat('stone', 6, 6, { color: '#e9dfcf' })} />
+      <Cyl rt={3.7} h={0.5} p={[0, 0.25, 0]} m={wm} seg={48} />
+      <mesh position={[0, 0.5, 0]} scale={[1, 0.85, 1]} material={wm} castShadow><sphereGeometry args={[3.3, 48, 24, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
+      {[0, 1, 2, 3].map((k) => {
+        const a = k * Math.PI / 2 + Math.PI / 4;
+        return <group key={k} position={[Math.cos(a) * 3.4, 0.5, Math.sin(a) * 3.4]} rotation={[0, -a + Math.PI / 2, 0]}><Box s={[0.9, 1.1, 0.4]} p={[0, 0.55, 0]} m={gold} /><Roof w={1.1} d={0.6} h={0.35} y={1.1} m={gold} /></group>;
+      })}
+      <Box s={[1.2, 0.12, 1.2]} p={[0, 3.36, 0]} m={gold} />
+      <mesh position={[0, 3.95, 0]} castShadow material={[gold, gold, gold, gold, harm, harm]}><boxGeometry args={[1.05, 1.05, 1.05]} /></mesh>
+      <mesh position={[0, 3.95, 0]} rotation={[0, Math.PI / 2, 0]} material={[gold, gold, gold, gold, harm, harm]}><boxGeometry args={[1.051, 1.05, 1.051]} /></mesh>
+      {Array.from({ length: 13 }, (_, i) => <Cyl key={i} rt={0.62 - i * 0.034} rb={0.66 - i * 0.034} h={0.16} p={[0, 4.6 + i * 0.17, 0]} m={gold} />)}
+      <mesh position={[0, 7.0, 0.38]} material={gold}><torusGeometry args={[0.55, 0.1, 8, 24, Math.PI]} /></mesh>
+      <mesh position={[0, 6.95, 0]} material={gold}><coneGeometry args={[0.6, 0.3, 24]} /></mesh>
+      <Gajur y={7.05} s={0.8} />
+      <group position={[0, 0, 5.6]}>
+        <Cyl rt={0.95} rb={1.05} h={0.75} p={[0, 0.38, 0]} m={M.mat('granite', 1, 1, { color: '#6a6560' })} seg={24} />
+        <group position={[0, 1.05, 0]} rotation={[0, 0, Math.PI / 2]} scale={1.15}>
+          <Ball rad={0.22} m={gold} />
+          {[-1, 1].map((k) => (
+            <group key={k} position={[0, k * 0.55, 0]}>
+              <Cyl rt={0.07} h={0.4} p={[0, -k * 0.2, 0]} m={gold} seg={10} />
+              <Ball rad={0.24} sc={[1, 0.8, 1]} m={gold} />
+              <mesh position={[0, k * 0.28, 0]} rotation={[k > 0 ? 0 : Math.PI, 0, 0]} material={gold}><coneGeometry args={[0.16, 0.3, 10]} /></mesh>
+            </group>
+          ))}
+        </group>
+      </group>
+      {[-1, 1].map((k) => (
+        <group key={k} position={[k * 3.6, 0, 4.4]}>
+          <Box s={[1.5, 1.7, 1.5]} p={[0, 0.85, 0]} m={wm} />
+          <Spire r0={0.8} h={3.4} y={1.7} m={wm} />
+        </group>
+      ))}
+      {ringOf(10, 7.4, (p, r, i) => <Chaitya key={i} p={p} s={0.9} />, (a) => Math.abs(a - Math.PI / 2) < 0.5)}
+      {Array.from({ length: 10 }, (_, k) => {
+        const a = (k / 10) * Math.PI * 2;
+        return <PrayerFlags key={k} from={[0, 6.9, 0]} to={[Math.cos(a) * 8.4, 0.6, Math.sin(a) * 8.4]} n={22} />;
+      })}
+      {[[2.2, 0, 7.6, 0.4], [-1.6, 0, 7.9, 2], [5.2, 0, 2.4, 3.5]].map(([x, y, z, r], k) => <Monkey key={k} p={[x, y, z]} r={r} />)}
+      <Frame s={[18, 9, 18]} p={[0, 3, 2]} />
+    </group>
+  );
+}
+function SwayamEnv() {
+  const M = useM();
+  const grass = M.mat('grass', 10, 4, { color: '#93ad6a' });
+  return (
+    <group>
+      <mesh position={[0, -4.02, 0]} material={grass} receiveShadow><cylinderGeometry args={[8.9, 19, 8, 48]} /></mesh>
+      <GroundDisc r={90} y={-8} m={M.mat('grass', 30, 30, { color: '#b8c890' })} />
+      {Array.from({ length: 30 }, (_, k) => <Box key={k} s={[1.6, 0.27, 0.34]} p={[0, -k * 0.27 + 0.13, 9 + k * 0.33]} m={M.stone} />)}
+      {Array.from({ length: 46 }, (_, k) => {
+        const a = (k / 46) * Math.PI * 2 + (k % 3) * 0.05;
+        if (Math.abs(a - Math.PI / 2) < 0.22) return null;
+        const r = 10.5 + (k % 4) * 1.8;
+        const y = -((r - 8.9) / 10.1) * 8;
+        return <Tree key={k} p={[Math.cos(a) * r, y, Math.sin(a) * r]} s={1.2 + (k % 3) * 0.25} kind={k % 4 ? 'broad' : 'pine'} />;
+      })}
+      {ringOf(26, 30, (p, r, i) => <House key={i} M={M} p={[p[0], -8, p[2]]} r={r} h={2 + (i % 3) * 0.8} plaster={i % 2 === 0} />)}
+    </group>
+  );
+}
+
+/* Nyatapola on Taumadhi Square, with the broad three-roofed Bhairavnath temple beside it */
+function NyatapolaMain() {
+  const M = useM();
+  return (
+    <group>
+      <Monument spec={NYATAPOLA} />
+      <group position={[8.5, 0, 1]} rotation={[0, -Math.PI / 2, 0]}>
+        <Plinth steps={1} w={4.6} d={2.6} m={brickMat(M, 3, 0.4)} guards={false} />
+        <group position={[0, 0.34, 0]}><PagodaBody tiers={3} w={4.6} d={2.6} walls="red-brick" roof="clay-tile" f={new Set(['carved-struts', 'carved-windows', 'golden-door'])} /></group>
+      </group>
+      <Frame s={[15, 10, 10]} p={[2.5, 5, 0]} />
+    </group>
+  );
+}
+const PlazaEnv = ({ radius = 15, list = ['stone-paved-plaza', 'newar-houses'] }) => <Surroundings list={list} radius={radius} />;
+
+/* Kasthamandap: a three-roofed timber pavilion, open on the ground floor */
+function KasthaMain() {
+  const M = useM();
+  const wood = M.mat('wood', 1, 2, { color: '#7a4a2e' });
+  const posts = [];
+  for (let x = 0; x < 4; x += 1) for (let z = 0; z < 4; z += 1) posts.push(<Cyl key={`${x}${z}`} rt={0.12} h={1.7} p={[-2.25 + x * 1.5, 1.35, -2.25 + z * 1.5]} m={wood} seg={8} />);
+  const rm = roofMat(M, 'clay-tile');
+  const lattice = M.plain('#2a1810');
+  return (
+    <group>
+      <Box s={[6.6, 0.5, 6.6]} p={[0, 0.25, 0]} m={brickMat(M, 4, 0.4)} />
+      <Box s={[7.4, 0.2, 7.4]} p={[0, 0.1, 0]} m={M.stone} />
+      {posts}
+      <Box s={[5.2, 0.18, 5.2]} p={[0, 2.29, 0]} m={wood} />
+      <Roof w={7.6} d={7.6} h={0.9} y={2.2} m={rm} />
+      <Box s={[4, 1.1, 4]} p={[0, 3.2, 0]} m={wood} />
+      {[-1.2, 0, 1.2].map((j) => <group key={j}><Box s={[0.7, 0.6, 0.05]} p={[j, 3.25, 2.02]} m={lattice} /><Box s={[0.7, 0.6, 0.05]} p={[j, 3.25, -2.02]} m={lattice} /><Box s={[0.05, 0.6, 0.7]} p={[2.02, 3.25, j]} m={lattice} /><Box s={[0.05, 0.6, 0.7]} p={[-2.02, 3.25, j]} m={lattice} /></group>)}
+      <Roof w={5.8} d={5.8} h={0.8} y={3.7} m={rm} />
+      <Box s={[2.6, 0.8, 2.6]} p={[0, 4.55, 0]} m={wood} />
+      <Roof w={4.1} d={4.1} h={0.75} y={4.9} m={rm} />
+      <Gajur y={5.6} s={0.9} />
+      <Frame s={[10, 7, 10]} />
+    </group>
+  );
+}
+
+/* Krishna Mandir: a stone shikhara ringed by three storeys of pillared pavilions, 21 spires in all, with Garuda in front */
+function KrishnaMain() {
+  const M = useM();
+  const st = M.mat('granite', 1, 1, { color: '#f2e6cc' });
+  const lv = [];
+  const levels = [{ half: 2.2, core: 2.7, h: 1.4, ch: 8 }, { half: 1.85, core: 2.2, h: 1.0, ch: 8 }, { half: 1.4, core: 1.7, h: 0.85, ch: 4 }];
+  let y = 1.02;
+  levels.forEach((L, i) => {
+    lv.push(<Box key={`c${i}`} s={[L.core, L.h, L.core]} p={[0, y + L.h / 2, 0]} m={st} />);
+    if (i === 0) for (let k = -3; k <= 3; k += 1) [[k * L.half / 3, L.half], [k * L.half / 3, -L.half], [L.half, k * L.half / 3], [-L.half, k * L.half / 3]].forEach(([x, z], s) => lv.push(<Cyl key={`col${k}${s}`} rt={0.07} h={L.h} p={[x, y + L.h / 2, z]} m={st} seg={8} />));
+    lv.push(<Box key={`s${i}`} s={[L.half * 2 + 0.3, 0.16, L.half * 2 + 0.3]} p={[0, y + L.h + 0.08, 0]} m={st} />);
+    const pos = L.ch === 8 ? [[1, 1], [1, -1], [-1, 1], [-1, -1], [0, 1], [0, -1], [1, 0], [-1, 0]] : [[1, 1], [1, -1], [-1, 1], [-1, -1]];
+    pos.forEach(([a, b], k) => lv.push(<Chhatri key={`ch${i}${k}`} p={[a * (L.half - 0.15), y + L.h + 0.16, b * (L.half - 0.15)]} s={1 - i * 0.12} m={st} />));
+    y += L.h + 0.16;
+  });
+  return (
+    <group>
+      <Plinth steps={3} w={4.6} d={4.6} m={st} guards />
+      {lv}
+      <Box s={[1.2, 0.9, 1.2]} p={[0, y + 0.45, 0]} m={st} />
+      <Spire r0={0.78} h={3.1} y={y + 0.9} m={st} />
+      <PillarStatue p={[0, 0, 7]} face={Math.PI} />
+      <Frame s={[10, 9, 14]} p={[0, 4.5, 1.5]} />
+    </group>
+  );
+}
+function KrishnaEnv() {
+  const M = useM();
+  return (
+    <group>
+      <Surroundings list={['stone-paved-plaza', 'newar-houses']} radius={16} />
+      <PalaceBody w={18} d={3} storeys={3} walls="red-brick" roof="clay-tile" f={new Set(['carved-windows', 'golden-door'])} p={[0, 0, -9]} />
+      {[[-7.5, 1.5], [7.5, 2]].map(([x, z], k) => (
+        <group key={k} position={[x, 0, z]} scale={0.8}>
+          <Plinth steps={3} w={2.6} d={2.6} m={brickMat(M, 2, 0.4)} guards={false} />
+          <group position={[0, 1.02, 0]}><PagodaBody tiers={k ? 3 : 2} walls="red-brick" roof="clay-tile" f={new Set(['carved-struts'])} /></group>
+        </group>
+      ))}
+    </group>
+  );
+}
+
+/* Janaki Mandir: a white Hindu-Rajput facade of arched bays, a domed central gate and four tall corner towers */
+function JanakiMain() {
+  const M = useM();
+  const wm = whiteMat(M, 6, 2);
+  const trim = M.plain('#e7b34a', { roughness: 0.6 });
+  const dark = M.plain('#3a2a3a');
+  const arches = (w, y, z, n, s = 1) => Array.from({ length: n }, (_, k) => {
+    const x = -w / 2 + (k + 0.5) * (w / n);
+    if (Math.abs(x) < 1.9) return null;
+    return (
+      <group key={`${y}${k}`} position={[x, y, z]} scale={s}>
+        <Box s={[0.5, 0.9, 0.06]} m={dark} />
+        <mesh position={[0, 0.45, 0]} material={dark}><circleGeometry args={[0.25, 16, 0, Math.PI]} /></mesh>
+      </group>
+    );
+  });
+  return (
+    <group>
+      <Box s={[16.5, 0.5, 8]} p={[0, 0.25, 0]} m={M.stone} />
+      <Box s={[15, 3.4, 6]} p={[0, 2.2, -0.4]} m={wm} />
+      {arches(14.4, 1.4, 2.62, 14)}
+      {arches(14.4, 3.0, 2.62, 14, 0.8)}
+      <Box s={[15.2, 0.16, 6.2]} p={[0, 3.98, -0.4]} m={trim} />
+      {Array.from({ length: 10 }, (_, k) => <OnionDome key={k} p={[-6.4 + k * 1.42, 4.06, 2.3]} r={0.28} m={wm} />)}
+      <Box s={[3.8, 5.4, 6.8]} p={[0, 3.2, -0.2]} m={wm} />
+      <Box s={[1.6, 2.6, 0.08]} p={[0, 1.8, 3.2]} m={dark} />
+      <mesh position={[0, 3.1, 3.21]} material={dark}><circleGeometry args={[0.8, 24, 0, Math.PI]} /></mesh>
+      <mesh position={[0, 3.1, 3.24]} material={trim}><torusGeometry args={[0.95, 0.07, 8, 32, Math.PI]} /></mesh>
+      <OnionDome p={[0, 5.9, -0.2]} r={1.25} m={wm} />
+      {[-1.4, 1.4].map((x) => <OnionDome key={x} p={[x, 5.9, 2.4]} r={0.42} m={wm} />)}
+      <Box s={[7, 1.8, 3.4]} p={[0, 4.9, -2.2]} m={wm} />
+      {[-2.6, 2.6].map((x) => <OnionDome key={`b${x}`} p={[x, 5.8, -2.2]} r={0.7} m={wm} />)}
+      {[[-7.6, 2.5], [7.6, 2.5], [-7.6, -3.3], [7.6, -3.3]].map(([x, z]) => (
+        <group key={`${x}${z}`} position={[x, 0.5, z]}>
+          <Cyl rt={0.6} rb={0.78} h={6.4} p={[0, 3.2, 0]} m={wm} seg={12} />
+          {[1.7, 3.4, 5.1].map((yy) => <Cyl key={yy} rt={0.85} h={0.12} p={[0, yy, 0]} m={trim} seg={12} />)}
+          {[[-1, -1], [1, -1], [-1, 1], [1, 1]].map(([a, b]) => <Cyl key={`${a}${b}`} rt={0.05} h={0.7} p={[a * 0.42, 6.75, b * 0.42]} m={wm} seg={8} />)}
+          <OnionDome p={[0, 7.1, 0]} r={0.62} m={wm} />
+        </group>
+      ))}
+      {[-3, 0, 3].map((x) => <group key={`f${x}`} position={[x, 7.4, -0.2]}><Cyl rt={0.03} h={1.6} p={[0, 0.8, 0]} m={M.dark} seg={6} /><Box s={[0.7, 0.45, 0.01]} p={[0.36, 1.35, 0]} m={M.plain('#e86a1e')} /></group>)}
+      <Frame s={[18, 9, 10]} />
+    </group>
+  );
+}
+function JanakiEnv() {
+  const M = useM();
+  return (
+    <group>
+      <GroundDisc r={22} m={M.mat('stone', 10, 10, { color: '#efe6d8' })} />
+      <GroundDisc r={80} y={-0.04} m={M.mat('grass', 30, 30, { color: '#b8c890' })} />
+      {[-1, 1].map((k) => <mesh key={k} rotation={[-Math.PI / 2, 0, 0]} position={[k * 4.8, 0.005, 8.5]} receiveShadow material={M.mat('grass', 4, 3, { color: '#8fb060' })}><planeGeometry args={[7, 6]} /></mesh>)}
+      {[-1, 1].map((k) => [0, 1, 2].map((j) => <Tree key={`${k}${j}`} p={[k * (2.6 + j * 2.2), 0, 10.4]} s={0.75} />))}
+      <Box s={[20, 0.9, 0.3]} p={[0, 0.45, 12]} m={M.mat('plaster', 4, 1, { color: '#ffffff' })} />
+      {ringOf(22, 19, (p, r, i) => <House key={i} M={M} p={p} r={r} h={2.2 + (i % 3) * 0.7} plaster />, (a) => Math.abs(a - Math.PI / 2) < 0.35)}
+    </group>
+  );
+}
+
+/* Muktinath: the small pagoda, the arc of 108 bull-headed spouts behind it and the two sacred kunds in front */
+function MuktiMain() {
+  const M = useM();
+  const wallStone = M.mat('granite', 1, 1, { color: '#bdb5a8' });
+  const spouts = [];
+  for (let k = 0; k < 108; k += 1) {
+    const a = Math.PI + 0.25 + (k / 107) * (Math.PI - 0.5);
+    spouts.push(<Box key={k} s={[0.07, 0.07, 0.16]} p={[Math.cos(a) * 4.05, 0.95, Math.sin(a) * 4.05]} r={[0, -a + Math.PI / 2, 0]} m={M.gold} />);
+  }
+  return (
+    <group>
+      <Box s={[3.4, 0.4, 3.4]} p={[0, 0.2, 0]} m={M.stone} />
+      <group position={[0, 0.4, 0]}><PagodaBody tiers={3} w={2.3} d={2.3} walls="red-brick" roof="copper" f={new Set(['carved-struts', 'golden-door'])} small /></group>
+      {Array.from({ length: 24 }, (_, k) => {
+        const a = Math.PI + 0.2 + (k / 23) * (Math.PI - 0.4);
+        return <Box key={`w${k}`} s={[0.62, 1.3, 0.3]} p={[Math.cos(a) * 4.25, 0.65, Math.sin(a) * 4.25]} r={[0, -a + Math.PI / 2, 0]} m={wallStone} />;
+      })}
+      {spouts}
+      <Water w={8} d={0.5} p={[0, 0.02, -3.7]} color="#7aa6b0" />
+      <Tank w={2.4} d={1.6} p={[-1.8, 0.01, 3.4]} steps={2} />
+      <Tank w={2.4} d={1.6} p={[1.8, 0.01, 3.4]} steps={2} />
+      {[[-6, 6], [6, 6], [-6, -6], [6, -6]].map(([x, z], k) => <PrayerFlags key={k} from={[0, 4.4, 0]} to={[x, 0.6, z]} n={22} />)}
+      <Frame s={[13, 6, 13]} />
+    </group>
+  );
+}
+function MuktiEnv() {
+  const M = useM();
+  const wallStone = M.mat('granite', 4, 1, { color: '#bdb5a8' });
+  return (
+    <group>
+      <Surroundings list={['desert-cliffs', 'snow-peaks']} radius={12} />
+      {[-6.5, 6.5].map((x) => <Box key={x} s={[0.4, 1, 13]} p={[x, 0.5, 0]} m={wallStone} />)}
+      <Box s={[13, 1, 0.4]} p={[0, 0.5, -6.5]} m={wallStone} />
+      {ringOf(16, 9, (p, r, i) => <group key={i} position={p}><Cyl rt={0.12} rb={0.16} h={2.2} p={[0, 1.1, 0]} m={M.plain('#6a5040')} seg={8} /><mesh position={[0, 3, 0]} material={M.plain('#9ab060')} castShadow><coneGeometry args={[0.55, 2.4, 8]} /></mesh></group>, (a) => Math.abs(a - Math.PI / 2) < 0.5)}
+    </group>
+  );
+}
+
+/* Changu Narayan: a two-roofed pagoda in a walled courtyard, the kneeling Garuda, chakra and conch pillars */
+function ChanguMain() {
+  const M = useM();
+  const st = M.mat('granite', 1, 1, { color: '#a69a88' });
+  return (
+    <group>
+      <Plinth steps={2} w={3.4} d={3.2} m={brickMat(M, 2, 0.4)} guards={false} />
+      <group position={[0, 0.68, 0]}><PagodaBody tiers={2} w={3.4} d={3.2} walls="red-brick" roof="clay-tile" f={new Set(['carved-struts', 'golden-door', 'carved-windows'])} /></group>
+      {[-1, 1].map((k) => <group key={k} position={[k * 0.8, 0.68, 2.6]} scale={1.5}>{k < 0 ? <Lion m={st} /> : <Elephant m={st} />}</group>)}
+      <group position={[0, 0, 5.4]}>
+        <Box s={[1, 0.7, 1]} p={[0, 0.35, 0]} m={st} />
+        <group position={[0, 0.7, 0]} scale={2.2}><Garuda m={st} /></group>
+      </group>
+      {[-1, 1].map((k) => (
+        <group key={`p${k}`} position={[k * 2.2, 0, 4.4]}>
+          <Box s={[0.5, 0.3, 0.5]} p={[0, 0.15, 0]} m={st} />
+          <Cyl rt={0.09} rb={0.12} h={3.2} p={[0, 1.9, 0]} m={st} seg={10} />
+          {k < 0
+            ? <mesh position={[0, 3.75, 0]} material={M.gold}><torusGeometry args={[0.3, 0.07, 8, 24]} /></mesh>
+            : <mesh position={[0, 3.75, 0]} rotation={[0, 0, 0.6]} material={M.plain('#f2ece0', { roughness: 0.4 })}><coneGeometry args={[0.18, 0.6, 10]} /></mesh>}
+        </group>
+      ))}
+      <group position={[-4.8, 0, -3.4]} scale={0.6}><Plinth steps={1} w={2.4} d={2.4} m={brickMat(M, 2, 0.4)} guards={false} /><group position={[0, 0.34, 0]}><PagodaBody tiers={2} walls="red-brick" roof="clay-tile" f={new Set()} /></group></group>
+      <group position={[4.8, 0, -3.6]} scale={0.55}><Plinth steps={1} w={2.4} d={2.4} m={st} guards={false} /><ShikharaBody tiers={1} y0={0.34} walls="stone" f={new Set()} /></group>
+      <Frame s={[16, 7, 15]} />
+    </group>
+  );
+}
+function ChanguEnv() {
+  const M = useM();
+  return (
+    <group>
+      <Surroundings list={['hilltop', 'forest']} radius={12} />
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.004, 0]} receiveShadow material={M.mat('herring', 6, 6, { color: '#f0c0a6' })}><planeGeometry args={[15, 14]} /></mesh>
+      {[[0, -7.4, 0, 15], [-7.6, 0, Math.PI / 2, 14], [7.6, 0, Math.PI / 2, 14]].map(([x, z, r, w], k) => <PalaceBody key={k} w={w} d={1.5} storeys={2} walls="red-brick" roof="clay-tile" f={new Set()} p={[x, 0, z]} r={r} windowsRow={false} />)}
+      {[-1, 1].map((k) => <PalaceBody key={`f${k}`} w={5.6} d={1.5} storeys={2} walls="red-brick" roof="clay-tile" f={new Set()} p={[k * 4.7, 0, 7.4]} windowsRow={false} />)}
+    </group>
+  );
+}
+
+/* Maya Devi Temple: the white shelter over the birthplace, the Puskarini pond, the bodhi tree and the Ashoka pillar */
+function MayaMain() {
+  const M = useM();
+  const wm = whiteMat(M, 4, 2);
+  return (
+    <group>
+      <Box s={[8.4, 0.4, 6.2]} p={[0, 0.2, 0]} m={M.stone} />
+      <Box s={[7.6, 2.6, 5.4]} p={[0, 1.7, 0]} m={wm} />
+      {[-2.6, -1.3, 0, 1.3, 2.6].map((x) => <Box key={x} s={[0.5, 1.5, 0.05]} p={[x, 1.6, 2.72]} m={M.plain('#5a4a40')} />)}
+      <Box s={[7.9, 0.2, 5.7]} p={[0, 3.1, 0]} m={wm} />
+      <Box s={[2.4, 1.4, 2.4]} p={[0, 3.9, 0]} m={wm} />
+      <Box s={[2.7, 0.15, 2.7]} p={[0, 4.65, 0]} m={wm} />
+      <Gajur y={4.72} s={0.7} />
+      <Box s={[2.4, 0.3, 2]} p={[0, 0.25, 3.9]} m={M.stone} />
+      <Tank w={6} d={4} p={[0, 0.01, 8]} steps={3} />
+      <SacredTree p={[5.6, 0, 7.6]} />
+      {[[0, 0.4, 5.6], [3, 0.4, 11], [8.4, 0.4, 11]].map((to, k) => <PrayerFlags key={k} from={[5.6, 3.2, 7.6]} to={to} n={16} />)}
+      <group position={[-7, 0, 1]} scale={0.8}><AshokaPillar f={new Set(['fence-railing'])} /></group>
+      <Frame s={[16, 6, 16]} p={[0, 3, 3]} />
+    </group>
+  );
+}
+function MayaEnv() {
+  const M = useM();
+  const walls = useMemo(() => Array.from({ length: 22 }, (_, i) => {
+    const r = Math.sin(i * 12.9898) * 43758.5453;
+    const f = r - Math.floor(r);
+    return { x: -12 + (i % 6) * 4.2 + f, z: -11 + Math.floor(i / 6) * 3.4, w: 2 + f * 1.6, rot: (i % 2) * Math.PI / 2 };
+  }).filter((b) => !(Math.abs(b.x) < 5.5 && b.z > -4.5)), []);
+  return (
+    <group>
+      <Surroundings list={['garden-lawn', 'plains-fields']} radius={15} />
+      {walls.map((b, i) => <Box key={i} s={[b.w, 0.4, 0.4]} p={[b.x, 0.2, b.z]} r={[0, b.rot, 0]} m={brickMat(M, 1, 0.3)} />)}
+    </group>
+  );
+}
+
+/* Taleju (Kathmandu): three gilded roofs raised on a twelve-stage plinth */
+function TalejuMain() {
+  const M = useM();
+  return (
+    <group>
+      <Plinth steps={12} w={2.8} d={2.8} m={brickMat(M, 4, 0.3)} guards={false} />
+      <group position={[0, 12 * 0.34, 0]}><PagodaBody tiers={3} w={2.8} d={2.8} walls="red-brick" roof="gilded-copper" f={new Set(['carved-struts', 'golden-door', 'toran'])} /></group>
+      <Frame s={[14, 12, 14]} />
+    </group>
+  );
+}
+
+/* Dharahara: the rebuilt white tower with balconies and a bronze crown */
+function DharaMain() {
+  const M = useM();
+  const wm = whiteMat(M, 3, 6);
+  const bronze = M.plain('#9a6a3a', { metalness: 0.75, roughness: 0.35 });
+  return (
+    <group>
+      <Box s={[6, 0.4, 6]} p={[0, 0.2, 0]} m={M.stone} />
+      <Box s={[4.4, 1.6, 4.4]} p={[0, 1.2, 0]} m={wm} />
+      <Cyl rt={1.15} rb={1.55} h={14} p={[0, 9, 0]} m={wm} seg={16} />
+      {[6, 11.5].map((y) => <group key={y}><Cyl rt={1.9} h={0.18} p={[0, y, 0]} m={wm} seg={16} /><mesh position={[0, y + 0.35, 0]} rotation={[Math.PI / 2, 0, 0]} material={M.dark}><torusGeometry args={[1.85, 0.03, 6, 32]} /></mesh></group>)}
+      {Array.from({ length: 12 }, (_, k) => [0, 1, 2, 3].map((j) => {
+        const a = (j / 4) * Math.PI * 2 + 0.4;
+        const r = 1.52 - (k / 12) * 0.38;
+        return <Box key={`${k}${j}`} s={[0.22, 0.4, 0.05]} p={[Math.cos(a) * r, 2.6 + k * 1.05, Math.sin(a) * r]} r={[0, -a + Math.PI / 2, 0]} m={M.dark} />;
+      }))}
+      <Cyl rt={1.3} h={0.5} p={[0, 16.2, 0]} m={wm} seg={16} />
+      <mesh position={[0, 16.45, 0]} material={bronze} castShadow><sphereGeometry args={[1.1, 24, 12, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
+      <mesh position={[0, 18.2, 0]} material={bronze}><coneGeometry args={[0.12, 1.6, 10]} /></mesh>
+      <Frame s={[8, 19, 8]} />
+    </group>
+  );
+}
+
+/* Kumbheshwar: a slender five-roofed Shiva pagoda beside its sacred tank */
+function KumbhMain() {
+  const M = useM();
+  return (
+    <group>
+      <Plinth steps={1} w={2.6} d={2.6} m={brickMat(M, 2, 0.4)} guards={false} />
+      <group position={[0, 0.34, 0]}><PagodaBody tiers={5} w={2.6} d={2.6} walls="red-brick" roof="clay-tile" f={new Set(['carved-struts', 'golden-door'])} /></group>
+      <Nandi p={[0, 0, 3.6]} face={Math.PI} />
+      <Tank w={4.6} d={4.6} p={[6, 0.01, 0.5]} steps={4} />
+      <Lingam p={[6, 0.05, 0.5]} />
+      <Frame s={[13, 9, 9]} p={[2.6, 4.5, 0]} />
+    </group>
+  );
+}
+
+const LANDMARKS = {
+  pashupatinath: { Main: PashupatiMain, Env: PashupatiEnv },
+  boudhanath: { Main: BoudhaMain, Env: BoudhaEnv },
+  swayambhunath: { Main: SwayamMain, Env: SwayamEnv },
+  'nyatapola-temple': { Main: NyatapolaMain, Env: () => <PlazaEnv radius={16} /> },
+  kasthamandap: { Main: KasthaMain, Env: () => <PlazaEnv radius={13} /> },
+  'krishna-mandir': { Main: KrishnaMain, Env: KrishnaEnv },
+  'janaki-mandir': { Main: JanakiMain, Env: JanakiEnv },
+  'muktinath-temple': { Main: MuktiMain, Env: MuktiEnv },
+  'changu-narayan-temple': { Main: ChanguMain, Env: ChanguEnv },
+  'maya-devi-temple-lumbini': { Main: MayaMain, Env: MayaEnv },
+  'taleju-temple': { Main: TalejuMain, Env: () => <PlazaEnv radius={14} /> },
+  dharahara: { Main: DharaMain, Env: () => <PlazaEnv radius={14} list={['stone-paved-plaza', 'city-street']} /> },
+  'kumbheshwar-temple': { Main: KumbhMain, Env: () => <PlazaEnv radius={14} list={['brick-courtyard', 'newar-houses']} /> },
+};
+export const hasLandmark = (slug) => !!LANDMARKS[slug];

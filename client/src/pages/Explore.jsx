@@ -65,7 +65,7 @@ export default function Explore() {
 
   // on site: anything within 150 m (or the GPS accuracy) pulses like a butter lamp
   const markers = useMemo(() => list.map((m) => ({ ...m, stamped: stamps.has(m.id), pulse: sel?.id === m.id || (m.metres != null && m.metres <= Math.max(150, me?.accuracy || 0)) })), [list, stamps, sel, me]);
-  const model3d = useMemo(() => (sel ? { lng: sel.lng, lat: sel.lat, spec: sel.model, type: sel.type, name: sel.name } : null), [sel]);
+  const model3d = useMemo(() => (sel ? { lng: sel.lng, lat: sel.lat, spec: sel.model, type: sel.type, name: sel.name, slug: sel.slug } : null), [sel]);
   const meDot = useMemo(() => (me ? [{ lat: me.lat, lng: me.lng, color: '#27187E', label: 'You are here' }] : []), [me]);
   const padding = useMemo(() => (panel && wide ? { left: 400, top: 0, right: 0, bottom: 0 } : { left: 0, top: 0, right: 0, bottom: 0 }), [panel, wide]);
   const types = useMemo(() => [...new Set((all || []).map((m) => m.type))], [all]);

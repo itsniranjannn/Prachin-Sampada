@@ -164,7 +164,7 @@ const MapView = forwardRef(function MapView({
     const root = createRoot(stage);
     let alive = true;
     import('../three/site.jsx').then(({ SiteMini }) => {
-      if (alive) root.render(createElement(ReactSuspense, { fallback: null }, createElement(SiteMini, { spec: model3d.spec, type: model3d.type })));
+      if (alive) root.render(createElement(ReactSuspense, { fallback: null }, createElement(SiteMini, { spec: model3d.spec, type: model3d.type, slug: model3d.slug })));
     });
     return () => { alive = false; marker.remove(); setTimeout(() => root.unmount(), 0); };
   }, [model3d]);

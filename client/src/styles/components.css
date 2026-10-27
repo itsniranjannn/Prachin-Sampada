@@ -5,11 +5,13 @@
 /* ---------- logo ---------- */
 .logo { display: inline-flex; align-items: center; gap: 0.75rem; color: var(--text); text-decoration: none; }
 .logo-rule { width: 1px; height: 34px; background: linear-gradient(transparent, var(--wine-700) 25%, var(--wine-700) 75%, transparent); opacity: 0.55; }
-.logo-words { display: grid; gap: 0.18rem; line-height: 1; }
-.logo-kicker { font-family: var(--font-np-display); font-size: 0.8rem; font-weight: 700; color: var(--wine-700); line-height: 1.25; }
-.logo-en { font-family: 'Cinzel', var(--font-display); font-weight: 600; font-size: 1.22rem; letter-spacing: 0.2em; line-height: 1; text-transform: uppercase; margin-right: -0.2em; }
+.logo-words { display: grid; gap: 0; line-height: 1; }
+.logo-kicker { font-family: var(--font-np-display); font-size: 0.98rem; font-weight: 800; color: var(--wine-700); line-height: 1.3; letter-spacing: 0.01em; }
+.logo-en { font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 1.72rem; line-height: 0.82; letter-spacing: 0.005em; color: var(--plum-800); padding-left: 0.9rem; }
 :root[data-theme='dark'] .logo-kicker { color: var(--lilac-300); }
+:root[data-theme='dark'] .logo-en { color: var(--milk); }
 .nav.over-dark .logo-kicker { color: var(--lilac-300); }
+.nav.over-dark .logo-en { color: var(--milk); }
 .footer .logo, .footer .logo-en { color: var(--milk); }
 .footer .logo-kicker { color: var(--sand); }
 
@@ -57,8 +59,8 @@
   .nav { padding-top: 8px; }
   .nav-row { height: 58px; padding: 0 0.4rem 0 0.6rem; }
   .nav-tools > .icon-btn:not(.nav-burger), .nav-signin { display: none; }
-  .logo-kicker { font-size: 0.7rem; }
-  .logo-en { font-size: 1.02rem; }
+  .logo-kicker { font-size: 0.86rem; }
+  .logo-en { font-size: 1.46rem; }
 }
 
 /* mobile menu: a peacock sanctum that opens from the menu button */
