@@ -1138,7 +1138,7 @@ export default function make(K) {
         <GroundDisc r={140} y={-28} m={M.plain('#a3a876', { roughness: 1 })} />
         {Array.from({ length: 30 }, (_, i) => { const a = rnd(i, 1) * 6.28; const rr = 36 + rnd(i, 2) * 34; const c = ['#e6e0d0', '#9ec2d8', '#e1a48b', '#d9b36a'][i % 4]; return <Box key={i} s={[2.4, 1.6, 2.2]} p={[Math.cos(a) * rr, -27, Math.sin(a) * rr]} m={M.plain(c)} />; })}
         {Array.from({ length: 36 }, (_, i) => { const a = (i / 36) * Math.PI * 2; const rr = 14 + rnd(i, 3) * 4; if (Math.sin(a) > 0.4) return null; return <Tree key={i} p={[Math.cos(a) * rr, 0, Math.sin(a) * rr]} s={2.4 + rnd(i, 2)} kind="pine" />; })}
-        {[[-14, 12], [14, 12], [-16, 6]].map(([x, z], i) => <FwBigTree key={i} p={[x, 0, z]} s={1.2} col="#58713a" />)}
+        {[[-14, 12], [20, 4], [-16, 6]].map(([x, z], i) => <FwBigTree key={i} p={[x, 0, z]} s={1.2} col="#58713a" />)}
         <FwHill p={[-60, -28, -30]} sc={[40, 44, 50]} m={M.plain('#718a58', { roughness: 1 })} />
         <FwHill p={[64, -28, -40]} sc={[40, 50, 50]} m={M.plain('#698254', { roughness: 1 })} />
         <FwHill p={[0, -28, -90]} sc={[90, 56, 30]} m={M.plain('#8aa09a', { roughness: 1 })} />

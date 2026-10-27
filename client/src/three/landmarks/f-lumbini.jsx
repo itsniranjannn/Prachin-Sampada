@@ -29,7 +29,7 @@ export default function make(K) {
         const hh = h * (0.62 + 0.38 * rnd(seed + si * 7 + i * 3));
         const l = b - a;
         const mid = (a + b) / 2;
-        const m = brickM(M, Math.max(1, l / 1.3), Math.max(0.5, hh / 0.5), c);
+        const m = brickM(M, Math.max(1, l / 0.6), Math.max(1, hh / 0.2), c);
         out.push(vert
           ? <Box key={`${k}${i}`} s={[t, hh, l]} p={[off, hh / 2, mid]} m={m} />
           : <Box key={`${k}${i}`} s={[l, hh, t]} p={[mid, hh / 2, off]} m={m} />);
@@ -263,7 +263,7 @@ export default function make(K) {
     const hedge = M.plain('#3f6b30', { roughness: 1 });
     return (
       <group>
-        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.004, 3]} receiveShadow material={M.plain('#d4805f', { roughness: 0.95 })}><planeGeometry args={[34, 21]} /></mesh>
+        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.004, 3]} receiveShadow material={M.plain('#c98a6c', { roughness: 0.95 })}><planeGeometry args={[34, 21]} /></mesh>
         <GroundDisc r={90} y={-0.04} m={grassM(M, '#86ad54')} />
         <GroundDisc r={30} y={-0.02} m={grassM(M, '#93b95e')} />
         {/* clipped hedges and the garden beyond the pond */}
@@ -298,7 +298,7 @@ export default function make(K) {
     const M = useM();
     return (
       <group>
-        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.004, 4]} receiveShadow material={M.plain('#d4805f', { roughness: 0.95 })}><planeGeometry args={[30, 22]} /></mesh>
+        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.004, 4]} receiveShadow material={M.plain('#c98a6c', { roughness: 0.95 })}><planeGeometry args={[30, 22]} /></mesh>
         <GroundDisc r={90} y={-0.04} m={grassM(M, '#86ad54')} />
         <GroundDisc r={26} y={-0.02} m={grassM(M, '#93b95e')} />
         <BRect p={[-7.5, 0, -2]} w={4.4} d={3.6} h={0.7} t={0.5} seed={4} />
@@ -484,9 +484,9 @@ export default function make(K) {
   /* Kudan (Nigrodharama): the stepped brick stupa mound with its stair, flags and Shiva shrine, in open grassland */
   function KudanMain() {
     const M = useM();
-    const b1 = brickM(M, 8, 1, '#e0a285');
-    const b2 = brickM(M, 6, 1, '#d99478');
-    const b3 = brickM(M, 4, 1, '#e4ab8e');
+    const b1 = brickM(M, 18, 2, '#e0a285');
+    const b2 = brickM(M, 14, 2, '#d99478');
+    const b3 = brickM(M, 10, 2, '#e4ab8e');
     const tiers = [{ w: 12, d: 8.6, h: 0.85, m: b1 }, { w: 9.8, d: 6.6, h: 0.95, m: b2 }, { w: 7.2, d: 4.8, h: 0.9, m: b3 }];
     let y = 0;
     const cz = -1;
@@ -620,11 +620,11 @@ export default function make(K) {
       <group>
         <Patch p={[0, 0.004, 0]} w={24} d={20} c="#7cb84e" />
         {/* the mound: ~23.5 m across and 10 m high, a smooth dome with a gentle shoulder */}
-        <mesh position={[0.4, 0, -0.4]} scale={[6.2, 3.1, 5.8]} material={g1} castShadow receiveShadow><sphereGeometry args={[1, 40, 18, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
-        <mesh position={[-2.6, -0.02, 0.8]} scale={[3.4, 1.7, 3.2]} material={g2} castShadow receiveShadow><sphereGeometry args={[1, 28, 12, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
+        <mesh position={[0.4, 0, -0.4]} scale={[6.4, 4.3, 6]} material={g1} castShadow receiveShadow><sphereGeometry args={[1, 40, 18, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
+        <mesh position={[-2.6, -0.02, 0.8]} scale={[3.4, 2.2, 3.2]} material={g2} castShadow receiveShadow><sphereGeometry args={[1, 28, 12, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
         <mesh position={[3.2, -0.02, 1.6]} scale={[3.0, 1.2, 3.0]} material={g3} receiveShadow><sphereGeometry args={[1, 24, 10, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
         {/* the bodhi tree at the foot of the mound, ringed by a low railing */}
-        <Canopy p={[-6.6, 0, 3.0]} s={1.9} n={6} c="#6c8f3a" c2="#9a7c3c" lo={1.1} />
+        <Canopy p={[-7.2, 0, 3.2]} s={1.55} n={6} c="#6c8f3a" c2="#9a7c3c" lo={1.1} />
         {Array.from({ length: 14 }, (_, i) => {
           const a = (i / 14) * Math.PI * 2;
           return <Cyl key={i} rt={0.03} h={0.7} p={[-6.6 + Math.cos(a) * 1.5, 0.35, 3.0 + Math.sin(a) * 1.5]} m={M.plain('#6a5a4a')} seg={5} />;
@@ -634,7 +634,7 @@ export default function make(K) {
         <PrayerFlags from={[-6.2, 4.4, 3.0]} to={[-3.6, 0.5, 8.4]} n={16} />
         <PrayerFlags from={[-6.2, 5.2, 3.0]} to={[-7.6, 0.6, -3.4]} n={14} />
         {[[1.8, 6.2], [-3.6, 8.4]].map(([x, z], i) => <Pole key={i} p={[x, 0, z]} h={1.4} fl={0} />)}
-        <Frame s={[18, 6.6, 15]} p={[-1.5, 3.2, 2]} />
+        <Frame s={[17, 7, 13]} p={[-1.5, 3, 1.5]} />
       </group>
     );
   }
@@ -648,8 +648,8 @@ export default function make(K) {
         <Plain r={34} y={-0.03} c="#79b24a" />
         {[[-22, -8, 14, 10, '#d3c15a'], [20, -12, 16, 10, '#9fc65a'], [-20, 14, 12, 10, '#6fae45'], [24, 12, 12, 10, '#b8c760']].map(([x, z, w, d, c], i) => <Patch key={i} p={[x, 0.003, z]} w={w} d={d} c={c} />)}
         {/* the earth road and the gate arch of the memorial compound */}
-        <Patch p={[2.4, 0.01, 17]} w={3.2} d={26} c="#cdbb96" />
-        <group position={[2.4, 0, 21]}>
+        <Patch p={[-3, 0.01, 15]} w={3.2} d={24} c="#cdbb96" />
+        <group position={[-3, 0, 26]}>
           {[-2.6, 2.6].map((x) => (
             <group key={x} position={[x, 0, 0]}>
               <Box s={[0.9, 3.8, 0.9]} p={[0, 1.9, 0]} m={white} />

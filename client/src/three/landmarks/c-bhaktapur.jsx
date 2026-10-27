@@ -729,7 +729,7 @@ export default function make(K) {
           { w: 2.7, d: 2.4, wh: 1.05, ov: 1.0, rh: 0.75 },
         ]} />
         {/* Garuda pillar, gilded wheel pillar and trident before the temple */}
-        <group position={[1.9, 0, 6.2]}>
+        <group position={[4.2, 0, 6.6]}>
           <Box s={[0.9, 0.3, 0.9]} p={[0, 0.15, 0]} m={st} />
           <Cyl rt={0.2} rb={0.26} h={5.4} p={[0, 3.0, 0]} m={st} seg={12} />
           <Cyl rt={0.32} rb={0.2} h={0.22} p={[0, 5.8, 0]} m={st} seg={12} />
@@ -802,7 +802,7 @@ export default function make(K) {
         {/* the Peacock Window, Mhaykha Jhya */}
         <group position={[0, 3.55, 0.5]}>
           <Box s={[2.8, 2.8, 0.14]} p={[0, 0, 0]} m={wood} />
-          <Box s={[2.3, 2.3, 0.05]} p={[0, 0, 0.1]} m={[wood, wood, wood, wood, new THREE.MeshStandardMaterial({ map: tex, roughness: 0.85 }), wood]} />
+          <Box s={[2.3, 2.3, 0.05]} p={[0, 0, 0.1]} m={[wood, wood, wood, wood, tex, wood]} />
           {[-1, 1].map((k) => (
             <group key={k} position={[k * 1.32, 0, 0.1]}>
               <Box s={[0.2, 2.8, 0.14]} p={[0, 0, 0]} m={wood2} />
@@ -1090,7 +1090,7 @@ export default function make(K) {
         {[[-3.8, 4.2], [-2.6, 5], [3.5, 1.5], [-4.4, 1], [4.4, -2]].map(([x, z], i) => <group key={i} position={[x, 0.5, z]} scale={1.1}><Box s={[0.5, 0.2, 0.4]} p={[0, 0.1, 0]} m={st} />{[Goddess, Lion, Elephant, Goddess, Lion][i] && React_el(i, st)}</group>)}
         <Nandi p={[0, 0.5, -3.6]} face={0} />
         <group position={[-3.6, 0.5, -3.4]}><Cyl rt={0.8} h={0.7} p={[0, 0.35, 0]} m={M.plain('#c8503a')} seg={20} /></group>
-        <Frame s={[12, 7, 12]} p={[0, 3.5, 0]} />
+        <Frame s={[17, 9, 17]} p={[0, 4.5, 0]} />
       </group>
     );
   }
@@ -1146,12 +1146,12 @@ export default function make(K) {
     const M = useM();
     return (
       <group>
-        <Floor r={26} mat={M.mat('stone', 10, 10, { color: '#d8d0c0' })} />
+        <Floor r={26} mat={M.mat('stone', 10, 10, { color: '#ffffff' })} />
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.003, 14]} material={M.plain('#5a5a60')}><planeGeometry args={[80, 7]} /></mesh>
         <Row x={0} z={-12} n={9} step={3.2} seed={61} smin={3} smax={4} plasterP={0.5} />
         <Row x={-14} z={0} ry={Math.PI / 2} n={5} step={3.2} seed={62} smin={2} smax={4} />
         <Row x={14} z={0} ry={-Math.PI / 2} n={5} step={3.2} seed={63} smin={2} smax={4} />
-        {[-14, -4, 6, 16].map((x) => <Cyl key={x} rt={0.1} h={7} p={[x, 3.5, 10.8]} m={M.plain('#6a6a6a')} seg={6} />)}
+        {[-14, -4, 6, 16].map((x) => <Cyl key={x} rt={0.1} h={7} p={[x, 3.5, -9.5]} m={M.plain('#6a6a6a')} seg={6} />)}
         <Hills seed={18} h={9} />
       </group>
     );

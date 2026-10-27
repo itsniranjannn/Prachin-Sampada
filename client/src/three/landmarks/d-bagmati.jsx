@@ -1243,7 +1243,7 @@ export default function make(K) {
   function NamoMain() {
     const M = useM();
     const white = M.plain('#f6f2ea', { roughness: 0.85 });
-    const wall = M.mat('plaster', 3, 1, { color: '#eee8dc' });
+    const wall = M.plain('#f1ece0', { roughness: 0.9 });
     const gold = M.gold;
     const eyes = useMemo(() => K.eyesTexture(), []);
     const harm = useMemo(() => new THREE.MeshStandardMaterial({ map: eyes, roughness: 0.8 }), [eyes]);
