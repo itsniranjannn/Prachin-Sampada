@@ -5,7 +5,7 @@
 import crypto from 'node:crypto';
 import { getCatalog, card } from './catalog.js';
 import { query } from './db.js';
-import { scoreGuess, rankPlayers, pickRounds, inValley } from './algorithms/game.js';
+import { scoreGuess, rankPlayers, pickRounds, inValley, imageVariants, pickVariant } from './algorithms/game.js';
 import { readToken } from './middleware/auth.js';
 import { checkBadges } from './badges.js';
 
@@ -31,7 +31,7 @@ export function attachHunts(io) {
 
     const emitRoom = (room) => io.to(room.code).emit('room', publicRoom(room));
 
-    socket.on('host', async ({ name, rounds = 5, roundSeconds = 45 } = {}, ack = () => {}) => {
+    socket.on('host', async ({ name, rounds = 5, roundSeconds = 45, seenClues = [], seenImages = [] } = {}, ack = () => {}) => {
       try {
         const cat = await getCatalog();
         const pool = cat.monuments.filter((m) => m.image_url && cat.clues.some((c) => c.monument_id === m.id) && inValley(m));
@@ -43,7 +43,8 @@ export function attachHunts(io) {
           code, hostId: socket.id, status: 'lobby', roundIndex: -1, roundSeconds: Math.max(20, Math.min(90, Number(roundSeconds) || 45)),
           rounds: pickRounds(pool, n, seed).map((m, i) => {
             const clues = cat.clues.filter((c) => c.monument_id === m.id);
-            return { monumentId: m.id, clue: clues[(seed + i) % clues.length].clue, clue_np: clues[(seed + i) % clues.length].clue_np || null };
+            const { clue, image } = pickVariant(clues, imageVariants(m), { seenClues: Array.isArray(seenClues) ? seenClues.slice(-600) : [], seenImages: Array.isArray(seenImages) ? seenImages.slice(-600).map(String) : [] });
+            return { monumentId: m.id, clueId: clue?.id || null, clue: clue?.clue || m.short_text, clue_np: clue?.clue_np || null, image: image?.url || m.image_url, credit: image?.credit ?? m.image_credit };
           }),
           players: new Map(), created: Date.now(), timer: null, roundStarted: 0,
         };
@@ -144,7 +145,7 @@ export function attachHunts(io) {
 }
 
 function roundPayload(room) {
-  return { index: room.roundIndex, clue: room.rounds[room.roundIndex].clue, clue_np: room.rounds[room.roundIndex].clue_np, image: room.rounds[room.roundIndex].image, credit: room.rounds[room.roundIndex].credit, endsAt: room.roundStarted + room.roundSeconds * 1000 };
+  return { index: room.roundIndex, clueId: room.rounds[room.roundIndex].clueId, clue: room.rounds[room.roundIndex].clue, clue_np: room.rounds[room.roundIndex].clue_np, image: room.rounds[room.roundIndex].image, credit: room.rounds[room.roundIndex].credit, endsAt: room.roundStarted + room.roundSeconds * 1000 };
 }
 
 async function nextRound(io, room) {
@@ -152,7 +153,6 @@ async function nextRound(io, room) {
   room.roundIndex += 1;
   const r = room.rounds[room.roundIndex];
   const m = cat.byId.get(r.monumentId);
-  r.image = m.image_url; r.credit = m.image_credit;
   for (const p of room.players.values()) p.answered = false;
   room.roundStarted = Date.now();
   io.to(room.code).emit('round', roundPayload(room));

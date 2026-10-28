@@ -122,8 +122,8 @@ export default function Explore() {
           <motion.aside className="explore-panel" initial={{ x: -30, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -30, opacity: 0 }} transition={{ duration: 0.3 }}>
             <div className="explore-panel-head">
               <div>
-                <div className="eyebrow" style={{ marginBottom: '0.3rem' }}>{t('Story map', 'कथा नक्सा')}</div>
-                <h2>{t('Explore Nepal', 'नेपाल अन्वेषण')}</h2>
+                <div className="eyebrow" style={{ marginBottom: '0.3rem' }}>{t('Story map', 'कथाको नक्सा')}</div>
+                <h2>{t('Explore Nepal', 'नेपाल घुम्नुहोस्')}</h2>
               </div>
               <button className="icon-btn" onClick={() => setPanel(false)} aria-label="Hide list"><X size={17} /></button>
             </div>

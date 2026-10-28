@@ -92,7 +92,7 @@ export default function Monument() {
     m.deity && { k: 'Dedicated to', v: m.deity },
     { k: 'Style', v: m.architecture || TYPE_LABEL[m.type] },
     (m.open || m.close) && { k: 'Open', v: `${m.open || '—'} – ${m.close || '—'}` },
-    { k: t('Typical visit', 'सामान्य भ्रमण'), v: t(`${m.visitMinutes} minutes`, `${t.n(m.visitMinutes)} मिनेट`) },
+    { k: t('Typical visit', 'सामान्यतया लाग्ने समय'), v: t(`${m.visitMinutes} minutes`, `${t.n(m.visitMinutes)} मिनेट`) },
   ].filter(Boolean);
   const photos = [
     m.image && { url: m.image, caption: m.name, author: m.imageCredit, license: '' },
@@ -126,7 +126,7 @@ export default function Monument() {
             <p className="lead" style={{ maxWidth: 640 }} lang={nepali && m.short_np ? 'ne' : undefined}>{pick(m.short_np, m.short)}</p>
             {data.parent && <p className="small">Part of <Link to={`/m/${data.parent.slug}`}>{data.parent.name}</Link></p>}
             <div className="mon-hero-tools">
-              {photos.length > 1 && <button className="btn light-ghost" onClick={() => setLightbox(true)}><Images size={16} /> {t(`${photos.length} photos`, `${t.n(photos.length)} तस्बिर`)}</button>}
+              {photos.length > 1 && <button className="btn light-ghost" onClick={() => setLightbox(true)}><Images size={16} /> {t(`${photos.length} photos`, `${t.n(photos.length)} फोटो`)}</button>}
               <a className="btn light-ghost" href="#model">3D model</a>
               <a className="btn light-ghost" href="#story">Read the story</a>
             </div>
@@ -139,7 +139,7 @@ export default function Monument() {
           {/* audio guide */}
           <div className="card pad-l audio-card">
             <div className="row between">
-              <div className="row"><div><h4 style={{ margin: 0 }}>{t('Audio guide', 'श्रव्य मार्गदर्शक')}</h4><span className="cap">{t(`${chapters.length} short chapters · read aloud by your device`, `${t.n(chapters.length)} छोटा अध्याय · तपाईंको उपकरणले पढेर सुनाउँछ`)}</span></div></div>
+              <div className="row"><div><h4 style={{ margin: 0 }}>{t('Audio guide', 'अडियो गाइड')}</h4><span className="cap">{t(`${chapters.length} short chapters · read aloud by your device`, `${t.n(chapters.length)} छोटा भाग · तपाईंको फोनले पढेर सुनाउँछ`)}</span></div></div>
               {narrator.supported ? (
                 <div className="row">
                   {narrator.playing && !narrator.paused ? <button className="btn sm" onClick={narrator.pause}><Pause size={15} /> Pause</button>
@@ -181,12 +181,12 @@ export default function Monument() {
               </>
             )}
             <ShrineVerse faith={m.faith} seed={m.id} />
-            {m.quake2015 && <div className="quake"><TriangleAlert size={18} /><div><b>{t('2015 earthquake.', '२०७२ को भूकम्प।')}</b> {pick(m.quake_np, m.quake2015)}</div></div>}
+            {m.quake2015 && <div className="quake"><TriangleAlert size={18} /><div><b>{t('2015 earthquake.', '२०७२ सालको भूकम्प।')}</b> {pick(m.quake_np, m.quake2015)}</div></div>}
           </article>
 
           {photos.length > 1 && (
             <section className="gallery">
-              <div className="sec-head" style={{ marginBottom: '1rem' }}><div><div className="eyebrow">{t('Photographs', 'तस्बिरहरू')}</div><h3 style={{ margin: 0 }}>{t(`Every side of ${m.name}`, `${m.name_np || m.name}का सबै पाटा`)}</h3></div><span className="cap">Free-licensed photos from Wikimedia Commons</span></div>
+              <div className="sec-head" style={{ marginBottom: '1rem' }}><div><div className="eyebrow">{t('Photographs', 'फोटोहरू')}</div><h3 style={{ margin: 0 }}>{t(`Every side of ${m.name}`, `${m.name_np || m.name}का सबै कोणबाट`)}</h3></div><span className="cap">Free-licensed photos from Wikimedia Commons</span></div>
               <Gallery photos={photos} open={lightbox} setOpen={setLightbox} />
             </section>
           )}
@@ -194,8 +194,8 @@ export default function Monument() {
           <div className="card model-card" id="model">
             <div className="model-head">
               <div>
-                <div className="eyebrow" style={{ marginBottom: '0.4rem' }}>{t('Turn it in 3D', 'थ्रीडीमा घुमाउनुहोस्')}</div>
-                <h3 style={{ margin: 0 }}>{t(`${m.name} and its surroundings`, `${m.name_np || m.name} र वरिपरिको दृश्य`)}</h3>
+                <div className="eyebrow" style={{ marginBottom: '0.4rem' }}>{t('Turn it in 3D', '३D मा घुमाउनुहोस्')}</div>
+                <h3 style={{ margin: 0 }}>{t(`${m.name} and its surroundings`, `${m.name_np || m.name} र वरिपरिको ठाउँ`)}</h3>
                 <span className="cap">{showScan ? 'A 3D scan of the real monument. Press play, then drag to orbit and scroll to zoom.' : `${spec?.notes || `A ${TYPE_LABEL[m.type]?.toLowerCase() || 'temple'} built from its architecture.`} Drag to orbit, scroll to zoom.`}</span>
               </div>
               {siteScan && (
@@ -211,7 +211,7 @@ export default function Monument() {
             {!showScan && spec && (
               <div className="model-specs">
                 {spec.tiers > 1 && <span className="tag">{spec.tiers} {['pagoda', 'gumba', 'lake-shrine'].includes(spec.kind) ? 'roofs' : 'storeys'}</span>}
-                {spec.plinth_steps > 0 && <span className="tag">{t(`${spec.plinth_steps} plinth levels`, `${t.n(spec.plinth_steps)} तह चौकी`)}</span>}
+                {spec.plinth_steps > 0 && <span className="tag">{t(`${spec.plinth_steps} plinth levels`, `${t.n(spec.plinth_steps)} तहको चौकी`)}</span>}
                 {(spec.features || []).slice(0, 6).map((x) => <span key={x} className="tag">{x.replace(/-/g, ' ')}</span>)}
               </div>
             )}
@@ -219,8 +219,8 @@ export default function Monument() {
 
           {detailScans.length > 0 && (
             <section className="scan-section">
-              <div className="eyebrow">{t('Scanned at the site', 'स्थलमै स्क्यान गरिएको')}</div>
-              <h3 style={{ marginTop: 0 }}>{t(`Shrines and sculptures of ${m.name} in 3D`, `${m.name_np || m.name}का मन्दिर र मूर्तिहरू थ्रीडीमा`)}</h3>
+              <div className="eyebrow">{t('Scanned at the site', 'ठाउँमै गएर स्क्यान गरिएको')}</div>
+              <h3 style={{ marginTop: 0 }}>{t(`Shrines and sculptures of ${m.name} in 3D`, `${m.name_np || m.name}का मन्दिर र मूर्ति ३D मा`)}</h3>
               <ScanDetails scans={detailScans} />
             </section>
           )}
@@ -233,7 +233,7 @@ export default function Monument() {
           )}
 
           <section style={{ marginTop: '2.5rem' }} id="reviews">
-            <h3>{t('Explorer reviews', 'अन्वेषकका समीक्षा')}</h3>
+            <h3>{t('Explorer reviews', 'घुमन्तेका समीक्षा')}</h3>
             <form className="card review-form" onSubmit={rate}>
               <div className="row between">
                 <div className="stars" role="radiogroup" aria-label="Your rating">
@@ -267,11 +267,11 @@ export default function Monument() {
                 <div className="stamped-big"><span className="stamp-mark" style={{ width: 70, height: 70, fontSize: '0.85rem' }}>छाप<br />✓</span><div><b>In your passport</b><div className="cap">{data.me.stamped.method === 'gps' ? 'Verified on site by GPS' : 'Stamped manually'}</div></div></div>
               ) : (
                 <>
-                  <b>{t('Visiting today?', 'आज भ्रमण गर्दै हुनुहुन्छ?')}</b>
+                  <b>{t('Visiting today?', 'आज घुम्न आउनुभएको हो?')}</b>
                   <p className="cap" style={{ margin: '0.2rem 0 0.7rem' }}>Stamp your heritage passport. GPS stamps need you within about 60 m.</p>
                   <div className="row">
-                    <button className="btn sm" onClick={() => stamp(true)} disabled={busy === 'stamp'}><Stamp size={15} /> {busy === 'stamp' ? t('Checking…', 'जाँच्दै…') : t('Stamp with GPS', 'जीपीएसबाट छाप')}</button>
-                    <button className="btn ghost sm" onClick={() => stamp(false)} disabled={busy === 'stamp'}>{t('I am here', 'म यहीँ छु')}</button>
+                    <button className="btn sm" onClick={() => stamp(true)} disabled={busy === 'stamp'}><Stamp size={15} /> {busy === 'stamp' ? t('Checking…', 'जाँच्दै…') : t('Stamp with GPS', 'GPS ले छाप लगाउनुहोस्')}</button>
+                    <button className="btn ghost sm" onClick={() => stamp(false)} disabled={busy === 'stamp'}>{t('I am here', 'म यहाँ छु')}</button>
                   </div>
                 </>
               )}
@@ -295,7 +295,7 @@ export default function Monument() {
             {m.festivals?.length > 0 && (
               <>
                 <div className="divider" />
-                <b>{t('Festivals here', 'यहाँका पर्व')}</b>
+                <b>{t('Festivals here', 'यहाँका चाडपर्व')}</b>
                 <div className="fest-list">
                   {m.festivals.map((x) => <div key={x.name} className="fest-item"><span className="fest-month" lang="ne">{x.month}{x.name_np ? ` · ${x.name_np}` : ''}</span><b>{t.nepali && x.name_np ? x.name_np : x.name}</b>{x.note && <span className="cap">{t.nepali && x.note_np ? x.note_np : x.note}</span>}</div>)}
                 </div>
@@ -303,7 +303,7 @@ export default function Monument() {
             )}
             <div className="divider" />
             <div className="grid" style={{ gap: '0.5rem' }}>
-              <Link className="btn" to={`/quiz?monument=${m.id}`}><Brain size={16} /> {t(`Quiz on this place (${m.questionCount})`, `यस ठाउँबारे प्रश्नोत्तर (${t.n(m.questionCount)})`)}</Link>
+              <Link className="btn" to={`/quiz?monument=${m.id}`}><Brain size={16} /> {t(`Quiz on this place (${m.questionCount})`, `यो ठाउँबारे क्विज (${t.n(m.questionCount)})`)}</Link>
               <Link className="btn ghost" to={`/walk?add=${m.id}`}><Route size={16} /> Add to a yatra</Link>
               <button className="btn ghost" onClick={fav}><Heart size={16} fill={data.me?.favorite ? 'currentColor' : 'none'} /> {data.me?.favorite ? 'Saved' : 'Save'}</button>
               <a className="btn ghost" href={`https://www.google.com/maps/dir/?api=1&destination=${m.lat},${m.lng}&travelmode=walking`} target="_blank" rel="noreferrer"><MapPin size={16} /> Directions</a>

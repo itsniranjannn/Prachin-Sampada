@@ -38,13 +38,13 @@ export default function Verify() {
     try {
       const r = await api('/auth/verify-email', { method: 'POST', body: { code: c } });
       setUser(r.user);
-      toast(t('Email confirmed. Welcome aboard!', 'इमेल प्रमाणित भयो। स्वागत छ!'), 'ok');
+      toast(t('Email confirmed. Welcome aboard!', 'इमेल पुष्टि भयो। स्वागत छ!'), 'ok');
       nav(next, { replace: true });
     } catch (e) { setErr(e.message); setCode(''); } finally { setBusy(false); }
   };
   const resend = async () => {
     setErr('');
-    try { await api('/auth/resend-code', { method: 'POST' }); setWait(60); toast(t('A new code is on its way.', 'नयाँ कोड पठाइँदैछ।'), 'ok'); } catch (e) { if (e.data?.wait) setWait(e.data.wait); setErr(e.message); }
+    try { await api('/auth/resend-code', { method: 'POST' }); setWait(60); toast(t('A new code is on its way.', 'नयाँ कोड पठाइँदै छ।'), 'ok'); } catch (e) { if (e.data?.wait) setWait(e.data.wait); setErr(e.message); }
   };
 
   return (
@@ -53,21 +53,21 @@ export default function Verify() {
         <motion.div className="card pad-l verify-card" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}>
           <Mandala size={420} className="mandala-bg spin-slow" strokeWidth={0.7} />
           <div><LogoMark size={56} /></div>
-          <div className="eyebrow" style={{ marginTop: '1rem' }}>{t('Verify your email', 'आफ्नो इमेल प्रमाणित गर्नुहोस्')}</div>
-          <h2 style={{ margin: '0 0 0.4rem' }}>{t('Enter the six-digit code', 'छ अङ्कको कोड लेख्नुहोस्')}</h2>
+          <div className="eyebrow" style={{ marginTop: '1rem' }}>{t('Verify your email', 'इमेल पुष्टि गर्नुहोस्')}</div>
+          <h2 style={{ margin: '0 0 0.4rem' }}>{t('Enter the six-digit code', '६ अङ्कको कोड हाल्नुहोस्')}</h2>
           <p className="muted">
-            {t('We sent a code to', 'हामीले कोड पठायौँ')} <b>{user?.email}</b>. {t('It works for 10 minutes.', 'यो १० मिनेटसम्म मान्य हुन्छ।')}
+            {t('We sent a code to', 'हामीले कोड पठायौं')} <b>{user?.email}</b>. {t('It works for 10 minutes.', 'यो कोड १० मिनेटसम्म चल्छ।')}
           </p>
-          <CodeInput value={code} onChange={setCode} onComplete={submit} disabled={busy} label={t('Verification code', 'प्रमाणीकरण कोड')} />
+          <CodeInput value={code} onChange={setCode} onComplete={submit} disabled={busy} label={t('Verification code', 'पुष्टि गर्ने कोड')} />
           {err && <p className="error-text" role="alert" style={{ textAlign: 'center' }}>{err}</p>}
           <button className="btn lg" style={{ width: '100%', marginTop: '0.6rem' }} onClick={() => submit()} disabled={busy || code.length !== 6}>
             <MailCheck size={18} /> {busy ? t('Checking…', 'जाँच्दै…') : t('Confirm my email', 'मेरो इमेल पक्का गर्नुहोस्')}
           </button>
           <div className="row between" style={{ marginTop: '1rem' }}>
-            <button className="link-btn" onClick={resend} disabled={wait > 0}><RotateCw size={14} style={{ verticalAlign: '-2px' }} /> {wait > 0 ? t(`Send again in ${wait}s`, `${t.n(wait)} सेकेन्डमा फेरि पठाउनुहोस्`) : t('Send a new code', 'नयाँ कोड पठाउनुहोस्')}</button>
+            <button className="link-btn" onClick={resend} disabled={wait > 0}><RotateCw size={14} style={{ verticalAlign: '-2px' }} /> {wait > 0 ? t(`Send again in ${wait}s`, `${t.n(wait)} सेकेन्डपछि फेरि पठाउनुहोस्`) : t('Send a new code', 'नयाँ कोड पठाउनुहोस्')}</button>
             <Link to={next} className="small">{t('Skip for now', 'अहिलेलाई छोड्नुहोस्')}</Link>
           </div>
-          {mode === 'preview' && <p className="cap" style={{ marginTop: '1rem' }}>{t('Developer note: email sending is not set up yet, so the code is printed in the server console.', 'विकासकर्ताको टिप्पणी: इमेल पठाउने व्यवस्था गरिएको छैन, कोड सर्भर कन्सोलमा छापिन्छ।')}</p>}
+          {mode === 'preview' && <p className="cap" style={{ marginTop: '1rem' }}>{t('Developer note: email sending is not set up yet, so the code is printed in the server console.', 'डेभलपरका लागि: इमेल पठाउने व्यवस्था अझै भएको छैन, त्यसैले कोड सर्भरको कन्सोलमा छापिन्छ।')}</p>}
         </motion.div>
       </div>
     </div>

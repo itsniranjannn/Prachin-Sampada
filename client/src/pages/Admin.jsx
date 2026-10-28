@@ -251,7 +251,7 @@ export default function Admin() {
   const TABS = [['dash', 'Dashboard', LayoutDashboard], ['mon', 'Monuments & quiz', Landmark], ['users', 'Explorers', Users], ['hunts', 'Live hunts', Trophy]];
   return (
     <div className="page wrap" style={{ paddingBottom: '3rem' }}>
-      <div className="page-head"><div className="eyebrow">Admin · प्रशासन</div><h1 style={{ fontSize: 'var(--fs-h2)' }}>Sampada control room</h1></div>
+      <div className="page-head"><div className="eyebrow">Admin · एडमिन</div><h1 style={{ fontSize: 'var(--fs-h2)' }}>Sampada control room</h1></div>
       <div className="seg" style={{ marginBottom: '1.4rem', flexWrap: 'wrap' }}>
         {TABS.map(([k, label, I]) => <button key={k} className={tab === k ? 'on' : ''} onClick={() => setTab(k)}><I size={15} /> {label}</button>)}
       </div>

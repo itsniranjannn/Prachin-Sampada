@@ -5,7 +5,7 @@ import { query } from '../db.js';
 import { getCatalog, card } from '../catalog.js';
 import { optionalAuth, ah } from '../middleware/auth.js';
 import { pickNext, updateElo, sm2, levelFor, BASE_PLAYER } from '../algorithms/adaptive.js';
-import { scoreGuess, pickRounds, inValley } from '../algorithms/game.js';
+import { scoreGuess, pickRounds, inValley, imageVariants, pickVariant } from '../algorithms/game.js';
 import { checkBadges } from '../badges.js';
 
 const r = Router();
@@ -87,12 +87,25 @@ r.post('/game/start', ah(async (req, res) => {
   const seed = crypto.randomInt(1, 2 ** 31);
   const picks = pickRounds(pool, n, seed);
   const id = crypto.randomBytes(9).toString('base64url');
+  const seen = { seenClues: Array.isArray(req.body?.seenClues) ? req.body.seenClues.slice(-600) : [], seenImages: Array.isArray(req.body?.seenImages) ? req.body.seenImages.slice(-600).map(String) : [] };
   const rounds = picks.map((m) => {
     const clues = cat.clues.filter((c) => c.monument_id === m.id);
-    return { monumentId: m.id, clue: clues[seed % clues.length]?.clue || m.short_text, clue_np: clues[seed % clues.length]?.clue_np || null, hint: `${m.city} · ${m.type}`, image: m.image_url, credit: m.image_credit, answered: false };
+    const { clue, image } = pickVariant(clues, imageVariants(m), seen);
+    // a hint is a second, different clue plus where the place is
+    const spare = clues.filter((c) => c !== clue);
+    const extra = spare.length ? spare[Math.floor(Math.random() * spare.length)] : null;
+    return { monumentId: m.id, clueId: clue?.id || null, clue: clue?.clue || m.short_text, clue_np: clue?.clue_np || null, hint: { text: extra?.clue || null, text_np: extra?.clue_np || null, where: `${m.city} · ${m.type}` }, image: image?.url || m.image_url, credit: image?.credit ?? m.image_credit, answered: false };
   });
   games.set(id, { rounds, created: Date.now(), total: 0, scope });
-  res.json({ gameId: id, scope, rounds: rounds.map((x, i) => ({ index: i, clue: x.clue, clue_np: x.clue_np, image: x.image, credit: x.credit })), limitMs: 60000 });
+  res.json({ gameId: id, scope, rounds: rounds.map((x, i) => ({ index: i, clueId: x.clueId, clue: x.clue, clue_np: x.clue_np, image: x.image, credit: x.credit })), limitMs: 60000 });
+}));
+
+r.post('/game/hint', ah(async (req, res) => {
+  const g = games.get(String(req.body?.gameId || ''));
+  const round = g?.rounds[Number(req.body?.round)];
+  if (!round || round.answered) return res.status(400).json({ error: 'No open round' });
+  round.hintUsed = true;
+  res.json({ hint: round.hint });
 }));
 
 r.post('/game/guess', optionalAuth, ah(async (req, res) => {
@@ -106,7 +119,7 @@ r.post('/game/guess', optionalAuth, ah(async (req, res) => {
   const lat = Number(req.body?.lat); const lng = Number(req.body?.lng);
   if (!Number.isFinite(lat) || !Number.isFinite(lng)) return res.status(400).json({ error: 'Place your guess on the map' });
   const m = cat.byId.get(round.monumentId);
-  const s = scoreGuess({ lat, lng }, m, { timeMs: Number(req.body?.timeMs) || 60000, limitMs: 60000, hints: req.body?.hint ? 1 : 0, scope: g.scope });
+  const s = scoreGuess({ lat, lng }, m, { timeMs: Number(req.body?.timeMs) || 60000, limitMs: 60000, hints: round.hintUsed ? 1 : 0, scope: g.scope });
   round.answered = true;
   g.total += s.points;
   const last = g.rounds.every((x) => x.answered);

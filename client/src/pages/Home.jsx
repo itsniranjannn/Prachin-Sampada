@@ -145,8 +145,8 @@ function HeroShowcase({ t, meta }) {
           Hear their stories, turn each one in 3D, plan a yatra and race your friends in live heritage hunts.
         </motion.p>
         <motion.div className="hero-cta" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 1.05, ease: EASE }}>
-          <Link to="/explore" className="btn lg">{t('Begin the yatra', 'यात्रा सुरु गर्नुहोस्')} <ArrowRight size={18} className="arrow" /></Link>
-          <Link to="/hunt" className="btn lg light-ghost"><Users size={18} /> {t('Play with friends', 'साथीसँग खेल्नुहोस्')}</Link>
+          <Link to="/explore" className="btn lg">{t('Begin the yatra', 'यात्रा सुरु गरौं')} <ArrowRight size={18} className="arrow" /></Link>
+          <Link to="/hunt" className="btn lg light-ghost"><Users size={18} /> {t('Play with friends', 'साथीहरूसँग खेल्नुहोस्')}</Link>
         </motion.div>
       </motion.div>
 
@@ -209,17 +209,17 @@ export default function Home() {
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <div className="eyebrow">{t('Five ways in', 'पाँच बाटा')}</div>
-              <h2>{t('Choose how you meet the heritage', 'सम्पदासँग कसरी भेट्ने, रोज्नुहोस्')}</h2>
+              <div className="eyebrow">{t('Five ways in', 'पाँच तरिका')}</div>
+              <h2>{t('Choose how you meet the heritage', 'सम्पदालाई कसरी भेट्ने, छान्नुहोस्')}</h2>
               <Epigraph index={4} />
             </Reveal>
             <Reveal delay={0.1}><p className="muted">Every mode is free, bilingual and works on a phone at the temple gate.</p></Reveal>
           </div>
           <div className="modes">
             {[
-              { to: '/explore', cls: 'm-map', en: '3D story map', np: 'कथा नक्सा', p: 'Fly across Nepal in 3D, open any temple and hear its story read aloud, with photos from every side.', img: recs?.[0]?.image },
+              { to: '/explore', cls: 'm-map', en: '3D story map', np: 'कथाको नक्सा', p: 'Fly across Nepal in 3D, open any temple and hear its story read aloud, with photos from every side.', img: recs?.[0]?.image },
               { to: '/walk', cls: 'm-walk', en: 'Plan a yatra', np: 'यात्रा योजना', p: 'Pick places or interests; we build the shortest route that keeps every temple open.' },
-              { to: '/quiz', cls: 'm-quiz', en: 'Quiz trail', np: 'प्रश्नोत्तर', p: 'Questions adapt to you. Climb from New Explorer to Sampada Guru.' },
+              { to: '/quiz', cls: 'm-quiz', en: 'Quiz trail', np: 'क्विज', p: 'Questions adapt to you. Climb from New Explorer to Sampada Guru.' },
               { to: '/find', cls: 'm-find', en: 'Find the monument', np: 'सम्पदा खोज', p: 'A photo and a riddle. Drop your pin on the map of Nepal.', img: recs?.[2]?.image },
               { to: '/hunt', cls: 'm-hunt', en: 'Live heritage hunt', np: 'लाइभ खेल', p: 'Open a room, share the code or QR, race your class in real time.', img: recs?.[4]?.image },
             ].map((m, i) => (
@@ -253,7 +253,7 @@ export default function Home() {
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <div className="eyebrow">{t('Picked for you', 'तपाईंका लागि')}</div>
+              <div className="eyebrow">{t('Picked for you', 'तपाईंका लागि छानिएको')}</div>
               <h2>{t('Where to begin', 'कहाँबाट सुरु गर्ने')}</h2>
               <Epigraph index={14} />
               <p className="muted">Ranked by your interests, explorer ratings and the places you have not stamped yet.</p>
@@ -273,7 +273,7 @@ export default function Home() {
             <div className="sec-head">
               <Reveal>
                 <div className="eyebrow">{t('Jatra and parva', 'जात्रा र पर्व')}</div>
-                <h2>{t(`Festivals coming up from ${month}`, `${MONTH_NP[month] || month} देखि आउने पर्वहरू`)}</h2>
+                <h2>{t(`Festivals coming up from ${month}`, `${MONTH_NP[month] || month} देखि आउने चाडपर्व`)}</h2>
                 <Epigraph index={13} />
               </Reveal>
               <p className="muted">Heritage is alive: chariots, lamps and fairs return to these courtyards every year.</p>
@@ -298,8 +298,8 @@ export default function Home() {
         <Mandala size={760} className="mandala-bg spin-rev" strokeWidth={0.8} style={{ left: -260, top: -180 }} />
         <div className="wrap how-grid">
           <Reveal>
-            <div className="eyebrow">{t('Under the roof', 'भित्री कुरा')}</div>
-            <h2>{t('Smart, but explained', 'स्मार्ट, तर स्पष्ट')}</h2>
+            <div className="eyebrow">{t('Under the roof', 'भित्र के छ')}</div>
+            <h2>{t('Smart, but explained', 'स्मार्ट, तर बुझिने')}</h2>
             <p className="lead">Every suggestion tells you why. The algorithms are written for Nepal: its lanes, opening hours, hill roads and stories.</p>
             <Link to="/about" className="btn light-ghost" style={{ marginTop: '0.5rem' }}>How it works <ArrowRight size={16} className="arrow" /></Link>
           </Reveal>
@@ -326,11 +326,11 @@ export default function Home() {
           <Reveal className="cta-band">
             <Mandala size={680} className="mandala-bg spin-slow" strokeWidth={0.8} />
             <OrnDivider width={220} />
-            <h2>{t('Fill your heritage passport', 'आफ्नो सम्पदा राहदानी भर्नुहोस्')}</h2>
+            <h2>{t('Fill your heritage passport', 'आफ्नो सम्पदा पासपोर्ट भर्नुहोस्')}</h2>
             <p>Stamp sites on location with GPS, collect every UNESCO site and all seven provinces, and earn badges like <b>Tin Durbar</b>, <b>Sapta Sampada</b> and <b>Saat Pradesh</b>.</p>
             <div className="row" style={{ justifyContent: 'center' }}>
-              <Link to="/register" className="btn lg diyo"><Sparkles size={18} /> {t('Get my passport', 'मेरो राहदानी बनाउनुहोस्')}</Link>
-              <Link to="/quiz" className="btn lg light-ghost">{t('Try the quiz first', 'पहिले प्रश्नोत्तर खेल्नुहोस्')}</Link>
+              <Link to="/register" className="btn lg diyo"><Sparkles size={18} /> {t('Get my passport', 'मेरो पासपोर्ट बनाउनुहोस्')}</Link>
+              <Link to="/quiz" className="btn lg light-ghost">{t('Try the quiz first', 'पहिले क्विज खेल्नुहोस्')}</Link>
             </div>
           </Reveal>
         </div>

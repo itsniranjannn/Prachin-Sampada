@@ -52,14 +52,14 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "The Malla kings of Lalitpur ruled from this palace; most present buildings date from their 17th-century reigns.",
-    "q_np": "पाटन दरबार क्षेत्रका अधिकांश दरबार र मन्दिर कुन राजवंशले बनाए?",
+    "q_np": "पाटन दरबार क्षेत्रका धेरैजसो दरबार र मन्दिर कुन राजवंशले बनाएको हो?",
     "options_np": [
      "लिच्छवि",
      "मल्ल",
      "शाह",
      "राणा"
     ],
-    "explanation_np": "ललितपुरका मल्ल राजाहरूले यही दरबारबाट शासन गरे; हालका अधिकांश भवन उनीहरूको 17 औं शताब्दीको शासनकालका हुन्।"
+    "explanation_np": "ललितपुरका मल्ल राजाले यही दरबारबाट शासन गरे; अहिलेका धेरैजसो भवन उनीहरूकै १७ औं शताब्दीको पालाका हुन्।"
    },
    {
     "q": "What is the Newar name for the city of Lalitpur?",
@@ -79,7 +79,7 @@
      "यल",
      "कीर्तिपुर"
     ],
-    "explanation_np": "ललितपुरलाई नेपाल भाषामा स्थानीय रूपमा यल भनिन्छ।"
+    "explanation_np": "नेपाल भाषामा ललितपुरलाई यल भनिन्छ।"
    },
    {
     "q": "In which year was the Kathmandu Valley, including Patan Durbar Square, inscribed as a UNESCO World Heritage Site?",
@@ -92,14 +92,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "The Kathmandu Valley site, with its seven Monument Zones, was inscribed in 1979.",
-    "q_np": "पाटन दरबार क्षेत्र सहितको काठमाडौं उपत्यका कुन वर्षमा युनेस्को विश्व सम्पदा सूचीमा सूचीकृत भयो?",
+    "q_np": "पाटन दरबार क्षेत्र सहितको काठमाडौं उपत्यका कुन वर्ष युनेस्को विश्व सम्पदा सूचीमा परेको हो?",
     "options_np": [
-     "1972",
-     "1979",
-     "1991",
-     "2006"
+     "१९७२",
+     "१९७९",
+     "१९९१",
+     "२००६"
     ],
-    "explanation_np": "सात सम्पदा क्षेत्र भएको काठमाडौं उपत्यका 1979 मा सूचीकृत भएको थियो।"
+    "explanation_np": "सात सम्पदा क्षेत्र भएको काठमाडौं उपत्यका सन् १९७९ मा सूचीमा परेको हो।"
    },
    {
     "q": "Which way do the entrances of the main temples in the square face?",
@@ -112,14 +112,14 @@
     "answer_index": 2,
     "difficulty": 3,
     "explanation": "The main temples stand opposite the palace and their entrances face east toward it.",
-    "q_np": "चोकका मुख्य मन्दिरका प्रवेशद्वार कुन दिशातर्फ फर्केका छन्?",
+    "q_np": "चोकका मुख्य मन्दिरका ढोका कुन दिशातिर फर्केका छन्?",
     "options_np": [
      "उत्तर",
      "दक्षिण",
-     "पूर्व, दरबारतर्फ",
+     "पूर्व, दरबारतिर",
      "पश्चिम, दरबारबाट टाढा"
     ],
-    "explanation_np": "मुख्य मन्दिरहरू दरबारको सामुन्ने छन् र उनीहरूका प्रवेशद्वार पूर्वतर्फ, दरबारतिर फर्केका छन्।"
+    "explanation_np": "मुख्य मन्दिरहरू दरबारको सामुन्ने छन् र तिनका ढोका पूर्वतिर, दरबारतिर फर्केका छन्।"
    },
    {
     "q": "Which two temples in the square collapsed in the 2015 earthquake and were later rebuilt?",
@@ -132,19 +132,123 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "Char Narayan and Hari Shankar collapsed in April 2015 and were rebuilt using salvaged bricks and carvings.",
-    "q_np": "चोकका कुन दुई मन्दिर 2015 को भूकम्पमा ढले र पछि पुनर्निर्माण गरिए?",
+    "q_np": "चोकका कुन दुई मन्दिर २०१५ को भूकम्पमा ढले र पछि फेरि बनाइए?",
     "options_np": [
      "कृष्ण मन्दिर र भीमसेन",
-     "चार नारायण र हरिशङ्कर",
+     "चार नारायण र हरि शङ्कर",
      "विश्वनाथ र तलेजु",
      "कुम्भेश्वर र महाबौद्ध"
     ],
-    "explanation_np": "चार नारायण र हरिशङ्कर अप्रिल 2015 मा ढले र जोगिएका इँटा र कलाकृति प्रयोग गरेर पुनर्निर्माण गरिए।"
+    "explanation_np": "चार नारायण र हरि शङ्कर अप्रिल २०१५ मा ढले, र बचेका इँटा र कुँदिएका कलाकृति प्रयोग गरेर फेरि बनाइए।"
+   },
+   {
+    "q": "Which museum now occupies the old royal palace along the eastern side of the square?",
+    "options": [
+     "Patan Museum",
+     "National Museum of Nepal",
+     "Narayanhiti Palace Museum",
+     "Bhaktapur Art Gallery"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "The long palace with courtyards such as Mul Chowk and Sundari Chowk is today home to the Patan Museum.",
+    "q_np": "चोकको पूर्वतिरको पुरानो शाही दरबारमा अहिले कुन संग्रहालय छ?",
+    "options_np": [
+     "पाटन संग्रहालय",
+     "राष्ट्रिय संग्रहालय",
+     "नारायणहिटी दरबार संग्रहालय",
+     "भक्तपुर कला दीर्घा"
+    ],
+    "explanation_np": "मूल चोक र सुन्दरी चोक जस्ता आँगन भएको यो लामो दरबारमा अहिले पाटन संग्रहालय छ।"
+   },
+   {
+    "q": "What is the entry fee for Nepali citizens at Patan Durbar Square?",
+    "options": [
+     "NPR 500",
+     "NPR 1000",
+     "NPR 250",
+     "Free"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "The square is an open-air public space where Nepali citizens enter free; foreign visitors buy a ticket.",
+    "q_np": "नेपाली नागरिकले पाटन दरबार क्षेत्र हेर्न कति शुल्क तिर्नुपर्छ?",
+    "options_np": [
+     "रु. ५००",
+     "रु. १०००",
+     "रु. २५०",
+     "निःशुल्क"
+    ],
+    "explanation_np": "यो खुला सार्वजनिक चोक हो, जहाँ नेपाली नागरिकलाई निःशुल्क प्रवेश छ; विदेशी पर्यटकले टिकट किन्नुपर्छ।"
+   },
+   {
+    "q": "Which king and his son Srinivasa are credited with building most of what surrounds the square?",
+    "options": [
+     "Siddhi Narasimha Malla",
+     "Jung Bahadur Rana",
+     "Prithvi Narayan Shah",
+     "Amshuverma"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Most of the present buildings date from the 1600s under King Siddhi Narasimha Malla and his son Srinivasa Malla.",
+    "q_np": "चोकवरिपरिका धेरैजसो भवन बनाउने श्रेय कुन राजा र उनका छोरा श्रीनिवासलाई दिइन्छ?",
+    "options_np": [
+     "सिद्धि नरसिंह मल्ल",
+     "जङ्गबहादुर राणा",
+     "पृथ्वीनारायण शाह",
+     "अंशुवर्मा"
+    ],
+    "explanation_np": "अहिलेका धेरैजसो भवन १६०० को दशकमा राजा सिद्धि नरसिंह मल्ल र उनका छोरा श्रीनिवास मल्लको पालामा बनेका हुन्।"
+   },
+   {
+    "q": "Which festival sees a tall chariot pulled through Patan over several weeks?",
+    "options": [
+     "Indra Jatra",
+     "Gai Jatra",
+     "Teej",
+     "Rato Machhindranath Jatra"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "During Rato Machhindranath Jatra in Baisakh, the god's tall chariot is pulled through the streets of Patan.",
+    "q_np": "कुन चाडमा पाटनका गल्लीमा धेरै हप्तासम्म अग्लो रथ तानिन्छ?",
+    "options_np": [
+     "इन्द्रजात्रा",
+     "गाईजात्रा",
+     "तीज",
+     "रातो मच्छिन्द्रनाथ जात्रा"
+    ],
+    "explanation_np": "वैशाखमा हुने रातो मच्छिन्द्रनाथ जात्रामा देवताको अग्लो रथ पाटनका गल्लीभरि तानिन्छ।"
+   },
+   {
+    "q": "When did the square reopen to visitors after the April 2015 earthquake?",
+    "options": [
+     "June 2015",
+     "April 2016",
+     "May 2015",
+     "December 2015"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Despite heavy damage in April 2015, the square reopened to visitors in June 2015.",
+    "q_np": "अप्रिल २०१५ को भूकम्पपछि चोक कहिले फेरि पर्यटकका लागि खुल्यो?",
+    "options_np": [
+     "जुन २०१५",
+     "अप्रिल २०१६",
+     "मे २०१५",
+     "डिसेम्बर २०१५"
+    ],
+    "explanation_np": "अप्रिल २०१५ मा ठूलो क्षति भए पनि चोक जुन २०१५ मा फेरि पर्यटकका लागि खुल्यो।"
    }
   ],
   "clues": [
    "Gods on one side, kings on the other, and red brick beneath your feet: find the old royal heart of Yala.",
-   "Three famous courtyards line my eastern edge, and a great bell hangs among my temples."
+   "Three famous courtyards line my eastern edge, and a great bell hangs among my temples.",
+   "My palace hides a museum of bronze gods and carved wood, and one ticket for foreigners opens both doors.",
+   "In 2015 two of my tall temples fell, and craftsmen rebuilt them with the old bricks and carvings.",
+   "UNESCO counts me as one of seven monument zones of this valley, listed in 1979.",
+   "Every spring a towering red god's chariot rolls through the lanes around me."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
@@ -162,21 +266,21 @@
     "name_np": "कृष्ण जन्माष्टमी",
     "month": "Bhadra",
     "note": "Krishna's birthday; devotees queue and sing hymns through the night at Krishna Mandir",
-    "note_np": "कृष्णको जन्मोत्सव; भक्तजन कृष्ण मन्दिरमा लाइन लाग्छन् र रातभरि भजन गाउँछन्"
+    "note_np": "कृष्णको जन्मदिन; भक्तजन कृष्ण मन्दिरमा लाइन लाग्छन् र रातभरि भजन गाउँछन्"
    },
    {
     "name": "Rato Machhindranath Jatra",
     "name_np": "रातो मच्छिन्द्रनाथ जात्रा",
     "month": "Baisakh",
     "note": "The god's tall chariot is pulled through Patan over several weeks",
-    "note_np": "देवताको अग्लो रथ धेरै हप्तासम्म पाटनभरि तानिन्छ"
+    "note_np": "देवताको अग्लो रथ धेरै हप्तासम्म पाटनका गल्लीमा तानिन्छ"
    },
    {
     "name": "Dashain",
     "name_np": "दशैँ",
     "month": "Ashwin",
     "note": "Main Durga festival; Taleju shrines and Durga temples draw worship and offerings",
-    "note_np": "दुर्गाको मुख्य चाड; तलेजुका मन्दिर र दुर्गा मन्दिरहरूमा पूजा र चढावा चढाइन्छ"
+    "note_np": "दुर्गाको मुख्य चाड; तलेजुका मन्दिर र दुर्गा मन्दिरमा पूजा र चढावा चढाइन्छ"
    }
   ],
   "gallery": [
@@ -255,19 +359,23 @@
    ],
    "notes": "Long brick palace on the east side; a row of pagodas and the stone Krishna Mandir face it, with a king on a tall pillar"
   },
-  "short_np": "ललितपुरका मल्ल राजाहरूको रातो इँटाको शाही चोक, मन्दिर, चोक र कुँदाइले भरिएको।",
-  "story_np": "तपाईं पुरानो ललितपुरको मुटुमा उभिनुभएको छ, जुन सहरलाई नेवारहरू यल भन्छन्। यो इँटा छापिएको चोक पुरानो चौबाटोबाट मल्ल राजाहरूको शाही गद्दीमा विकसित भयो, र तपाईंको वरिपरि रहेका अधिकांश कुरा राजा सिद्धि नरसिंह मल्ल र उनका छोरा श्रीनिवासको नेतृत्वमा १६०० को दशकमा बनेका थिए। पूर्वतिर हेर्नुहोस् र तपाईंले मूल चोक, सुन्दरी चोक र केशव नारायण चोक जस्ता चोकहरूमा विभाजित लामो दरबार देख्नुहुनेछ, जुन आज पाटन संग्रहालयको घर हो। त्यसको सामुन्ने, मन्दिरहरूको पङ्क्तिले आफ्ना ढोका दरबारतर्फ फर्काएको छ, त्यसैले देवता र राजाहरूले चोकको आरपार एकअर्कालाई हेर्थे। हिन्दू र बौद्ध परम्पराहरूले यो ठाउँ सहजै बाँड्छन्; पाटनमा १३६ बहाल र ५५ प्रमुख मन्दिर छन् भनिन्छ। अप्रिल २०१५ मा शक्तिशाली भूकम्पले चार नारायण र हरि शङ्कर लगायतका मन्दिरहरू ढाल्यो, र धेरै कुरा बचाइएका मौलिक भागहरू प्रयोग गरी पुनर्निर्माण गरिएका छन्। आफ्नो समय लिनुहोस्, कुँदिएका छानाका टेकोहरूमा माथि हेर्नुहोस्, र ठूलो घण्टा सुन्नुहोस्।",
+  "short_np": "ललितपुरका मल्ल राजाहरूको रातो इँटाको शाही चोक, जहाँ मन्दिर, आँगन र कुँदिएका कलाकृति भरिएका छन्।",
+  "story_np": "तपाईं पुरानो ललितपुरको मुटुमा उभिनुभएको छ, जसलाई नेवारहरू यल भन्छन्। इँटा छापिएको यो चोक पुरानो चौबाटोबाट बढ्दै मल्ल राजाहरूको दरबार बन्यो। वरिपरि देखिने धेरैजसो कुरा राजा सिद्धि नरसिंह मल्ल र उनका छोरा श्रीनिवासको पालामा १६०० को दशकमा बनेका हुन्। पूर्वतिर हेर्नुहोस्, लामो दरबार देखिन्छ। त्यसमा मूल चोक, सुन्दरी चोक र केशव नारायण चोक जस्ता आँगन छन्, र आज त्यहाँ पाटन संग्रहालय छ। त्यसको सामुन्ने मन्दिरहरूको लाम छ, जसका ढोका दरबारतिर फर्केका छन्। त्यसैले देवता र राजाले चोकको आरपार एकअर्कालाई हेर्थे। हिन्दू र बौद्ध परम्परा यहाँ सँगसँगै सजिलै बाँचेका छन्; पाटनमा १३६ बहाल र ५५ वटा मुख्य मन्दिर छन् भनिन्छ। अप्रिल २०१५ को ठूलो भूकम्पले चार नारायण र हरि शङ्कर लगायत धेरै मन्दिर ढाल्यो। अहिले धेरै मन्दिर बचेका पुराना भाग प्रयोग गरेर फेरि बनाइएका छन्। आफ्नै गतिमा घुम्नुहोस्, कुँदिएका छानाका टेकोहरू माथि हेर्नुहोस्, र ठूलो घण्टाको आवाज सुन्नुहोस्।",
   "legend_np": null,
   "facts_np": [
-   "पाटन दरबार क्षेत्र सन् १९७९ मा सूचीकृत काठमाडौं उपत्यका युनेस्को विश्व सम्पदा स्थलका सात स्मारक क्षेत्रमध्ये एक हो।",
-   "हालको अधिकांश वास्तुकला १७ औं शताब्दीको हो, सिद्धि नरसिंह मल्ल र श्रीनिवास मल्लको समयको।",
-   "मुख्य मन्दिरहरू दरबारको पश्चिमी अनुहारको सामुन्ने छन्, तिनका प्रवेशद्वार दरबारतर्फ पूर्वमुखी छन्।",
-   "चोकमा अप्रिल २०१५ को भूकम्पले ठूलो क्षति पुर्‍यायो र जुन २०१५ मा पर्यटकका लागि पुनः खुल्यो।"
+   "पाटन दरबार क्षेत्र काठमाडौं उपत्यकाको युनेस्को विश्व सम्पदा स्थलका सात सम्पदा क्षेत्रमध्ये एक हो, जुन सन् १९७९ मा सूचीमा परेको हो।",
+   "अहिलेका धेरैजसो भवन १७ औं शताब्दीमा सिद्धि नरसिंह मल्ल र श्रीनिवास मल्लको पालामा बनेका हुन्।",
+   "मुख्य मन्दिरहरू दरबारको पश्चिमी भागको सामुन्ने छन्, र तिनका ढोका पूर्वतिर, दरबारतिर फर्केका छन्।",
+   "अप्रिल २०१५ को भूकम्पले चोकमा ठूलो क्षति पुर्‍यायो, र जुन २०१५ मा यो फेरि पर्यटकका लागि खुल्यो।"
   ],
-  "quake_np": "अप्रिल २०१५ को भूकम्पले चोकलाई ठूलो क्षति पुर्‍यायो; चार नारायण र हरि शङ्कर मन्दिरहरू ढले र पछि बचाइएका मौलिक भागहरू प्रयोग गरी पुनर्निर्माण गरिए।",
+  "quake_np": "अप्रिल २०१५ को भूकम्पले चोकमा ठूलो क्षति पुर्‍यायो। चार नारायण र हरि शङ्कर मन्दिर ढले, र पछि बचेका पुराना भाग प्रयोग गरेर फेरि बनाइए।",
   "clues_np": [
-   "एकतिर देवता, अर्कोतिर राजा, र खुट्टामुनि रातो इँटा: यलको पुरानो शाही हृदय खोज।",
-   "मेरो पूर्वी किनारमा तीनवटा प्रसिद्ध चोक छन्, र मेरा मन्दिरहरूबीच एउटा विशाल घण्टा झुण्डिएको छ।"
+   "एकातिर देवता, अर्कातिर राजा, र खुट्टामुनि रातो इँटा: यलको पुरानो शाही मुटु खोज्नुहोस्।",
+   "मेरो पूर्वी किनारमा तीनवटा प्रसिद्ध आँगन छन्, र मेरा मन्दिरहरूबीच एउटा ठूलो घण्टा झुण्डिएको छ।",
+   "मेरो दरबारभित्र काँसाका देवता र कुँदिएको काठको संग्रहालय छ, र विदेशीको एउटै टिकटले दुवै ठाउँ हेर्न पाइन्छ।",
+   "२०१५ मा मेरा दुईवटा अग्ला मन्दिर ढले, र कारिगरले पुराना इँटा र कुँदाइ प्रयोग गरेर फेरि बनाए।",
+   "युनेस्कोले मलाई यो उपत्यकाका सात सम्पदा क्षेत्रमध्ये एक मानेको छ, सन् १९७९ देखि।",
+   "हरेक वसन्तमा एउटा अग्लो रातो देवताको रथ मेरो वरिपरिका गल्लीमा गुड्छ।"
   ]
  },
  {
@@ -323,14 +431,14 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "King Siddhi Narasimha Malla built the temple in 1637.",
-    "q_np": "कृष्ण मन्दिर कुन राजाले बनाए?",
+    "q_np": "कृष्ण मन्दिर कुन राजाले बनाएका हुन्?",
     "options_np": [
      "श्रीनिवास मल्ल",
      "सिद्धि नरसिंह मल्ल",
      "योगनरेन्द्र मल्ल",
      "पृथ्वीनारायण शाह"
     ],
-    "explanation_np": "राजा सिद्धि नरसिंह मल्लले 1637 मा मन्दिर बनाए।"
+    "explanation_np": "राजा सिद्धि नरसिंह मल्लले सन् १६३७ मा यो मन्दिर बनाए।"
    },
    {
     "q": "How many golden pinnacles crown Krishna Mandir?",
@@ -345,12 +453,12 @@
     "explanation": "The temple is topped by 21 golden pinnacles.",
     "q_np": "कृष्ण मन्दिरको टुप्पोमा कतिवटा सुनौला गजुर छन्?",
     "options_np": [
-     "5",
-     "9",
-     "21",
-     "108"
+     "५",
+     "९",
+     "२१",
+     "१०८"
     ],
-    "explanation_np": "मन्दिरको माथिल्लो भागमा 21 वटा सुनौला गजुर छन्।"
+    "explanation_np": "मन्दिरको माथिल्लो भागमा २१ वटा सुनौला गजुर छन्।"
    },
    {
     "q": "What is the name of the local shikhara style used for Krishna Mandir?",
@@ -363,14 +471,14 @@
     "answer_index": 0,
     "difficulty": 3,
     "explanation": "It was built in the local variety of shikhara called Granthakuta.",
-    "q_np": "कृष्ण मन्दिरमा प्रयोग गरिएको शिखर शैलीको स्थानीय प्रकारको नाम के हो?",
+    "q_np": "कृष्ण मन्दिरमा प्रयोग भएको स्थानीय शिखर शैलीको नाम के हो?",
     "options_np": [
      "ग्रन्थकूट",
      "भूमिज",
      "नागर-द्रविड",
      "गजपृष्ठ"
     ],
-    "explanation_np": "यो शिखरको स्थानीय प्रकार ग्रन्थकूट शैलीमा बनेको हो।"
+    "explanation_np": "यो मन्दिर ग्रन्थकूट भनिने स्थानीय शिखर शैलीमा बनेको हो।"
    },
    {
     "q": "Which epic is carved on the beams above the first-floor pillars?",
@@ -383,14 +491,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "The first floor shows the Mahabharata; the second floor shows the Ramayana.",
-    "q_np": "पहिलो तल्लाका खम्बामाथिका दलिनमा कुन महाकाव्य कुँदिएको छ?",
+    "q_np": "पहिलो तलाका खम्बामाथिका धरनमा कुन महाकाव्य कुँदिएको छ?",
     "options_np": [
      "रामायण",
      "महाभारत",
      "भागवत पुराण",
      "जातक कथा"
     ],
-    "explanation_np": "पहिलो तल्लामा महाभारत र दोस्रो तल्लामा रामायण देखाइएको छ।"
+    "explanation_np": "पहिलो तलामा महाभारत र दोस्रो तलामा रामायण कुँदिएको छ।"
    },
    {
     "q": "To whom is the third floor of Krishna Mandir dedicated?",
@@ -403,19 +511,123 @@
     "answer_index": 2,
     "difficulty": 4,
     "explanation": "The first floor holds Krishna, the second Shiva and the third Lokeshwor.",
-    "q_np": "कृष्ण मन्दिरको तेस्रो तल्ला कसलाई समर्पित छ?",
+    "q_np": "कृष्ण मन्दिरको तेस्रो तला कसलाई समर्पित छ?",
     "options_np": [
      "शिव",
      "गणेश",
      "लोकेश्वर (अवलोकितेश्वर)",
      "तलेजु"
     ],
-    "explanation_np": "पहिलो तल्लामा कृष्ण, दोस्रोमा शिव र तेस्रोमा लोकेश्वर छन्।"
+    "explanation_np": "पहिलो तलामा कृष्ण, दोस्रोमा शिव र तेस्रोमा लोकेश्वर छन्।"
+   },
+   {
+    "q": "What material is Krishna Mandir mainly built from, unusual in a valley of brick and timber temples?",
+    "options": [
+     "Timber",
+     "Mud and straw",
+     "Brick",
+     "Stone"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "The temple is made almost entirely of stone, unlike the brick-and-timber pagodas around it.",
+    "q_np": "इँटा र काठका मन्दिर भएको उपत्यकामा कृष्ण मन्दिर मुख्यतया कुन सामग्रीले बनेको छ?",
+    "options_np": [
+     "काठ",
+     "माटो र परालको",
+     "इँटा",
+     "ढुङ्गा"
+    ],
+    "explanation_np": "यो मन्दिर लगभग पूरै ढुङ्गाले बनेको छ, वरपरका इँटा र काठका पगोडा जस्तो होइन।"
+   },
+   {
+    "q": "Which mythical bird-like figure kneels on a column facing Krishna Mandir?",
+    "options": [
+     "Garuda",
+     "Ganesh",
+     "Hanuman",
+     "Nandi"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "A column topped by Garuda stands before the temple, with the figure kneeling toward his lord.",
+    "q_np": "कृष्ण मन्दिरको सामुन्ने खम्बामाथि घुँडा टेकेर बसेको चरा जस्तो पौराणिक आकृति को हो?",
+    "options_np": [
+     "गरुड",
+     "गणेश",
+     "हनुमान",
+     "नन्दी"
+    ],
+    "explanation_np": "मन्दिरको सामुन्ने गरुड बसेको खम्बा छ, जसले आफ्ना स्वामीतिर घुँडा टेकेर बसेको छ।"
+   },
+   {
+    "q": "Which two figures stand on either side of Krishna in the first-floor main shrine?",
+    "options": [
+     "Parvati and Saraswati",
+     "Taleju and Kumari",
+     "Sita and Lakshmi",
+     "Radha and Rukmini"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "The first-floor shrine holds Krishna with Radha and Rukmini on either side.",
+    "q_np": "पहिलो तलाको मुख्य मन्दिरमा कृष्णका दुवैतिर को को छन्?",
+    "options_np": [
+     "पार्वती र सरस्वती",
+     "तलेजु र कुमारी",
+     "सीता र लक्ष्मी",
+     "राधा र रुक्मिणी"
+    ],
+    "explanation_np": "पहिलो तलाको मन्दिरमा कृष्ण छन्, र उनका दुवैतिर राधा र रुक्मिणी छन्।"
+   },
+   {
+    "q": "According to the legend, what did King Siddhi Narasimha Malla see that inspired the temple?",
+    "options": [
+     "Krishna and Radha standing before the palace",
+     "A golden snake in the courtyard",
+     "A river flowing from the stone",
+     "Shiva dancing on the roof"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "The king saw Lord Krishna and Radha before the royal palace one night and ordered a temple built on that very spot.",
+    "q_np": "कथा अनुसार राजा सिद्धि नरसिंह मल्लले के देखेपछि यो मन्दिर बनाए?",
+    "options_np": [
+     "दरबारको अगाडि उभिएका कृष्ण र राधा",
+     "आँगनमा सुनौलो सर्प",
+     "ढुङ्गाबाट बगेको नदी",
+     "छानामा नाचिरहेका शिव"
+    ],
+    "explanation_np": "एक रात राजाले शाही दरबारको अगाडि कृष्ण र राधालाई देखे, र ठीक त्यही ठाउँमा मन्दिर बनाउन आदेश दिए।"
+   },
+   {
+    "q": "In which year was Krishna Mandir restored after the 2015 earthquake?",
+    "options": [
+     "2020",
+     "2018",
+     "2016",
+     "2017"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The temple was damaged in April 2015 and restored in 2018.",
+    "q_np": "२०१५ को भूकम्पपछि कृष्ण मन्दिर कुन वर्ष मर्मत गरियो?",
+    "options_np": [
+     "२०२०",
+     "२०१८",
+     "२०१६",
+     "२०१७"
+    ],
+    "explanation_np": "मन्दिर अप्रिल २०१५ मा क्षतिग्रस्त भएको थियो र सन् २०१८ मा मर्मत गरियो।"
    }
   ],
   "clues": [
    "Stone, not brick: twenty-one golden spires and two great epics carved in my beams.",
-   "A king saw a divine couple before his palace and raised me where they stood."
+   "A king saw a divine couple before his palace and raised me where they stood.",
+   "My second floor belongs to the destroyer god, and my top floor to a compassionate bodhisattva.",
+   "A kneeling bird-king on a tall column faces me across the square.",
+   "On the god's birthday, thousands crowd around me and sing hymns through the night.",
+   "I am the stone temple of Patan's palace square, my door still facing the royal palace, restored in 2018."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Krishna_Mandir,_Patan",
@@ -431,7 +643,7 @@
     "name_np": "कृष्ण जन्माष्टमी",
     "month": "Bhadra",
     "note": "Krishna's birthday; devotees queue and sing hymns through the night at Krishna Mandir",
-    "note_np": "कृष्णको जन्मदिन; भक्तजनहरू लाइन लागेर कृष्ण मन्दिरमा रातभर भजन गाउँछन्।"
+    "note_np": "कृष्णको जन्मदिन; भक्तजन लाइन लागेर कृष्ण मन्दिरमा रातभर भजन गाउँछन्"
    }
   ],
   "gallery": [
@@ -506,19 +718,23 @@
    ],
    "notes": "Grey stone tower ringed by open pillared pavilions with 21 small spires; Garuda kneels on a pillar in front"
   },
-  "short_np": "२१ वटा सुनौला गजुर र महाभारत र रामायणका कुँदिएका दृश्य भएको १७औं शताब्दीको ढुङ्गाको शिखर मन्दिर।",
-  "story_np": "तपाईंको अगाडि लगभग पूर्ण रूपमा ढुङ्गाले बनेको मन्दिर उभिएको छ, इँटा र काठका पगोडाको उपत्यकामा असामान्य। यो कृष्ण मन्दिर हो, सन् १६३७ मा राजा सिद्धि नरसिंह मल्लले ग्रन्थकूट भनिने स्थानीय शिखर शैलीमा बनाएका। सकिन्छ भने गजुरहरू गन्नुहोस्: २१ वटा छन्, सबै सुनौला। मन्दिरमा तीन तला छन्। पहिलो तलामा कृष्णको मुख्य मन्दिर छ, दुवै छेउमा राधा र रुक्मिणीसहित। दोस्रो तला शिवलाई र तेस्रो तला लोकेश्वरलाई, करुणामय अवलोकितेश्वरलाई, समर्पित छ, पाटनमा हिन्दू र बौद्ध पूजा कसरी मिल्छ भन्ने शान्त सङ्केत। अब खम्बाहरूमाथिका धरन नजिकबाट हेर्नुहोस्। पहिलो तलाका कुँदाइहरूले महाभारतका कथा भन्छन्, र दोस्रो तलाका कुँदाइहरूले रामायण चित्रित गर्छन्। कृष्णाष्टमीमा, कृष्णको जन्मदिनमा, हजारौँ भक्तजनहरू यो चोकमा भीड गर्छन्। मन्दिर सन् २०१५ को भूकम्पमा क्षतिग्रस्त भयो र सन् २०१८ मा पुनर्स्थापित भयो। अर्कोतिर, गरुड माथि राखिएको खम्बातिर हेर्नुहोस्, आफ्ना स्वामीतिर घुँडा टेकेको।",
-  "legend_np": "भनिन्छ, एक रात राजा सिद्धि नरसिंह मल्लले भगवान् कृष्ण र उनकी सहचरी राधालाई शाही दरबारको अगाडि उभिएको देखे। त्यो दर्शनबाट भावविह्वल भई उनले जहाँ ती देखा परेका थिए ठीक त्यही ठाउँमा मन्दिर बनाउन आदेश दिए, र कृष्ण मन्दिर त्यहाँ उठ्यो, चोकको पारि दरबारतिर फर्केर। आजसम्म पनि मन्दिरको मुख्य प्रवेशद्वार शाही दरबारतिर फर्केको छ, मानौँ कृष्णले अझै राजाको पहरा दिइरहेका छन्।",
+  "short_np": "१७ औं शताब्दीको ढुङ्गाको शिखर मन्दिर, जसमा २१ वटा सुनौला गजुर छन् र महाभारत र रामायणका दृश्य कुँदिएका छन्।",
+  "story_np": "तपाईंको अगाडि लगभग पूरै ढुङ्गाले बनेको मन्दिर उभिएको छ। इँटा र काठका पगोडा भएको यो उपत्यकामा यस्तो मन्दिर विरलै पाइन्छ। यो कृष्ण मन्दिर हो, जसलाई सन् १६३७ मा राजा सिद्धि नरसिंह मल्लले ग्रन्थकूट भनिने स्थानीय शिखर शैलीमा बनाएका थिए। सक्नुहुन्छ भने गजुर गन्नुहोस्: जम्मा २१ वटा छन्, सबै सुनौला। मन्दिर तीन तलाको छ। पहिलो तलामा कृष्णको मुख्य मन्दिर छ, दुवैतिर राधा र रुक्मिणी छन्। दोस्रो तला शिवलाई र तेस्रो तला करुणामय अवलोकितेश्वर अर्थात् लोकेश्वरलाई समर्पित छ। यसले पाटनमा हिन्दू र बौद्ध पूजा कसरी मिल्छ भन्ने चुपचाप देखाउँछ। अब खम्बामाथिका धरन नजिकबाट हेर्नुहोस्। पहिलो तलाका कुँदाइमा महाभारतका कथा छन्, र दोस्रो तलाका कुँदाइमा रामायणका दृश्य छन्। कृष्णको जन्मदिन कृष्णाष्टमीमा हजारौँ भक्तजन यो चोकमा भेला हुन्छन्। २०१५ को भूकम्पले मन्दिरमा क्षति पुर्‍यायो, र सन् २०१८ मा यसलाई मर्मत गरियो। अब सामुन्नेको गरुड चढेको खम्बातिर हेर्नुहोस्, जसले आफ्ना स्वामीतिर घुँडा टेकेर बसेको छ।",
+  "legend_np": "भनिन्छ, एक रात राजा सिद्धि नरसिंह मल्लले भगवान् कृष्ण र उनकी सँगिनी राधालाई शाही दरबारको अगाडि उभिएको देखे। त्यो दर्शनले राजा भावुक भए र ती जहाँ देखिएका थिए, ठीक त्यही ठाउँमा मन्दिर बनाउन आदेश दिए। त्यसरी कृष्ण मन्दिर चोकको पारि दरबारतिर फर्केर उठ्यो। आज पनि मन्दिरको मुख्य ढोका शाही दरबारतिरै फर्केको छ, मानौँ कृष्ण अझै राजाको रक्षा गरिरहेका छन्।",
   "facts_np": [
-   "सन् १६३७ मा राजा सिद्धि नरसिंह मल्लले बनाएका (केही स्रोतले सन् १६६७ दिन्छन्, तर राजाले १६६१ सम्ममा गद्दी त्यागिसकेका थिए)।",
-   "यसमा तीन तलामाथि २१ वटा सुनौला गजुर छन्।",
-   "पहिलो तलाका धरनका कुँदाइहरूले महाभारत देखाउँछन्; दोस्रो तलाका कुँदाइहरूले रामायण देखाउँछन्।",
-   "माथिल्ला तलाहरू शिव र लोकेश्वर (अवलोकितेश्वर) लाई समर्पित छन्।"
+   "सन् १६३७ मा राजा सिद्धि नरसिंह मल्लले बनाएका हुन् (केही स्रोतले १६६७ भन्छन्, तर राजाले १६६१ सम्ममा गद्दी छाडिसकेका थिए)।",
+   "तीन तलामाथि २१ वटा सुनौला गजुर छन्।",
+   "पहिलो तलाका धरनका कुँदाइमा महाभारत छ; दोस्रो तलाका कुँदाइमा रामायण छ।",
+   "माथिल्ला तला शिव र लोकेश्वर (अवलोकितेश्वर) लाई समर्पित छन्।"
   ],
-  "quake_np": "सन् २०१५ अप्रिलको भूकम्पमा क्षतिग्रस्त भयो र सन् २०१८ मा पुनर्स्थापित गरियो।",
+  "quake_np": "अप्रिल २०१५ को भूकम्पमा क्षति भएको थियो, र सन् २०१८ मा मर्मत गरियो।",
   "clues_np": [
-   "इँटा होइन, ढुङ्गा: 21 सुनौला गजुर र मेरा दलिनमा कुँदिएका दुई महाकाव्य।",
-   "एक राजाले आफ्नो दरबारअगाडि दिव्य जोडी देखे र जहाँ उनीहरू उभिएका थिए, त्यहीँ मलाई खडा गरे।"
+   "इँटा होइन, ढुङ्गा: २१ वटा सुनौला गजुर र मेरा धरनमा कुँदिएका दुईवटा महाकाव्य।",
+   "एक राजाले आफ्नो दरबारको अगाडि दिव्य जोडी देखे, र जहाँ ती उभिएका थिए त्यहीँ मलाई बनाए।",
+   "मेरो दोस्रो तला विनाशका देवता शिवको हो, र माथिल्लो तला करुणामय बोधिसत्वको हो।",
+   "घुँडा टेकेर बसेको चरा-राजा अग्लो खम्बामाथिबाट चोकको आरपार मलाई हेरिरहेको छ।",
+   "देवताको जन्मदिनमा हजारौँ मानिस मेरो वरिपरि भेला भएर रातभर भजन गाउँछन्।",
+   "म पाटन दरबार चोकको ढुङ्गाको मन्दिर हुँ, मेरो ढोका अझै शाही दरबारतिरै फर्केको छ, र सन् २०१८ मा मलाई मर्मत गरियो।"
   ]
  },
  {
@@ -576,12 +792,12 @@
     "explanation": "King Birendra inaugurated the Patan Museum in 1997.",
     "q_np": "पाटन संग्रहालय कुन वर्ष खुल्यो?",
     "options_np": [
-     "1979",
-     "1997",
-     "2007",
-     "2015"
+     "१९७९",
+     "१९९७",
+     "२००७",
+     "२०१५"
     ],
-    "explanation_np": "राजा वीरेन्द्रले सन् 1997 मा पाटन संग्रहालयको उद्घाटन गरे।"
+    "explanation_np": "राजा वीरेन्द्रले सन् १९९७ मा पाटन संग्रहालय उद्घाटन गरे।"
    },
    {
     "q": "Which palace courtyard houses the Patan Museum?",
@@ -594,14 +810,14 @@
     "answer_index": 2,
     "difficulty": 2,
     "explanation": "The museum quadrangle is Keshav Narayan Chowk.",
-    "q_np": "पाटन संग्रहालय दरबारको कुन चोकमा अवस्थित छ?",
+    "q_np": "पाटन संग्रहालय दरबारको कुन चोकमा छ?",
     "options_np": [
      "मूल चोक",
      "सुन्दरी चोक",
      "केशव नारायण चोक",
      "नासल चोक"
     ],
-    "explanation_np": "संग्रहालयको चोक केशव नारायण चोक हो।"
+    "explanation_np": "संग्रहालय भएको आँगन केशव नारायण चोक हो।"
    },
    {
     "q": "Which architect led the restoration of the palace for the museum?",
@@ -614,14 +830,14 @@
     "answer_index": 0,
     "difficulty": 3,
     "explanation": "The Austrian architect Götz Hagmüller restored the building.",
-    "q_np": "संग्रहालयका लागि दरबारको पुनर्स्थापना कुन वास्तुकारले नेतृत्व गरे?",
+    "q_np": "संग्रहालयका लागि दरबार मर्मत गर्ने काममा कुन वास्तुकारले नेतृत्व गरे?",
     "options_np": [
      "गोट्ज ह्यागमुलर",
      "निल्स गुत्शोव",
      "ले कर्बुजियर",
      "अरनिको"
     ],
-    "explanation_np": "अस्ट्रियाली वास्तुकार गोट्ज ह्यागमुलरले भवनको पुनर्स्थापना गरे।"
+    "explanation_np": "अस्ट्रियाली वास्तुकार गोट्ज ह्यागमुलरले भवन मर्मत गरे।"
    },
    {
     "q": "Which crafts make up most of the collection?",
@@ -634,14 +850,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "Most objects are cast bronzes and gilt copper repoussé, crafts Patan is renowned for.",
-    "q_np": "सङ्ग्रहको अधिकांश भाग कुन शिल्पले बनेको छ?",
+    "q_np": "सङ्ग्रहका धेरैजसो वस्तु कुन शिल्पका हुन्?",
     "options_np": [
      "थाङ्का चित्र र कपडा",
-     "ढलौटका कांस्य र सुनौला तामाका पत्रमूर्ति",
-     "माटोका भाँडा",
+     "ढलौटका काँसा र सुनको पानी चढाएका तामाका कलाकृति",
+     "माटाका भाँडा",
      "हतियार र कवच"
     ],
-    "explanation_np": "अधिकांश वस्तु ढलौटका कांस्य र सुनौला तामाका पत्रमूर्ति हुन्, जुन शिल्पका लागि पाटन प्रख्यात छ।"
+    "explanation_np": "धेरैजसो वस्तु ढलौटका काँसा र सुनको पानी चढाएका तामाका ठोकेर बनाइएका कलाकृति हुन्, जुन शिल्पका लागि पाटन प्रसिद्ध छ।"
    },
    {
     "q": "What destroyed the east wing of the palace, which was later rebuilt?",
@@ -654,19 +870,123 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "The east wing was destroyed in the 1934 earthquake and later rebuilt.",
-    "q_np": "दरबारको पूर्वी भाग कसले ध्वस्त पार्‍यो, जुन पछि पुनर्निर्माण गरियो?",
+    "q_np": "दरबारको पूर्वी भाग केले ध्वस्त पार्‍यो, जुन पछि फेरि बनाइयो?",
     "options_np": [
-     "सन् 1662 को आगलागी",
-     "सन् 1934 को भूकम्प",
-     "सन् 1768 को गोरखा विजय",
-     "सन् 2015 को भूकम्प"
+     "सन् १६६२ को आगलागी",
+     "सन् १९३४ को भूकम्प",
+     "सन् १७६८ को गोरखा विजय",
+     "सन् २०१५ को भूकम्प"
     ],
-    "explanation_np": "पूर्वी भाग सन् 1934 को भूकम्पमा ध्वस्त भयो र पछि पुनर्निर्माण गरियो।"
+    "explanation_np": "पूर्वी भाग सन् १९३४ को भूकम्पमा ढल्यो र पछि फेरि बनाइयो।"
+   },
+   {
+    "q": "What can you walk through to enter Keshav Narayan Chowk, the museum courtyard?",
+    "options": [
+     "A stone arch",
+     "A wooden drawbridge",
+     "A brass gate",
+     "A golden doorway"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "Visitors enter the northern courtyard of the old Malla palace through its golden doorway.",
+    "q_np": "संग्रहालयको आँगन केशव नारायण चोकमा पस्न कुन ढोकाबाट जानुपर्छ?",
+    "options_np": [
+     "ढुङ्गाको मेहराब",
+     "काठको पुल",
+     "पित्तलको ढोका",
+     "सुनौलो ढोका"
+    ],
+    "explanation_np": "पुरानो मल्ल दरबारको उत्तरी आँगनमा सुनौलो ढोकाबाट पसिन्छ।"
+   },
+   {
+    "q": "What kind of art does the Patan Museum mainly explain?",
+    "options": [
+     "Sacred art and iconography of Hinduism and Buddhism",
+     "European sculpture",
+     "Folk music instruments",
+     "Modern oil painting"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "The collection explains the sacred art and iconography of Hinduism and Buddhism.",
+    "q_np": "पाटन संग्रहालयले मुख्यतया कस्तो कला बुझाउँछ?",
+    "options_np": [
+     "हिन्दू र बौद्ध धर्मका पवित्र कला र मूर्तिकला",
+     "युरोपेली मूर्तिकला",
+     "लोक बाजा",
+     "आधुनिक तेलचित्र"
+    ],
+    "explanation_np": "यहाँको सङ्ग्रहले हिन्दू र बौद्ध धर्मका पवित्र कला र मूर्तिकला बुझाउँछ।"
+   },
+   {
+    "q": "Who curated the collection of the Patan Museum?",
+    "options": [
+     "Götz Hagmüller",
+     "Niels Gutschow",
+     "Mary Shepherd Slusser",
+     "Arniko"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The collection was curated by the scholar Mary Shepherd Slusser, while Hagmüller led the restoration.",
+    "q_np": "पाटन संग्रहालयको सङ्ग्रह कसले सजाएकी थिइन्?",
+    "options_np": [
+     "गोट्ज ह्यागमुलर",
+     "निल्स गुत्शोव",
+     "मेरी शेफर्ड स्लसर",
+     "अरनिको"
+    ],
+    "explanation_np": "विद्वान मेरी शेफर्ड स्लसरले सङ्ग्रह सजाएकी थिइन्, र ह्यागमुलरले मर्मतको नेतृत्व गरेका थिए।"
+   },
+   {
+    "q": "What stood on the palace site before the palace was built?",
+    "options": [
+     "A royal garden",
+     "A Muslim shrine",
+     "A market hall",
+     "A Buddhist monastery"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "The palace was built on the site of a Buddhist monastery and renovated many times, taking its present form in 1734.",
+    "q_np": "दरबार बन्नुअघि त्यो ठाउँमा के थियो?",
+    "options_np": [
+     "शाही बगैँचा",
+     "मुस्लिम धर्मस्थल",
+     "बजार भवन",
+     "बौद्ध विहार"
+    ],
+    "explanation_np": "दरबार बौद्ध विहार भएको ठाउँमा बनेको थियो, धेरै पटक मर्मत भयो, र सन् १७३४ मा अहिलेको रूप पायो।"
+   },
+   {
+    "q": "Which restored courtyard with the royal Tusha Hiti bath was added to the museum in 2017?",
+    "options": [
+     "Sundari Chowk",
+     "Mul Chowk",
+     "Nasal Chowk",
+     "Bhandarkhal"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "In 2017 the restored Sundari Chowk, with the royal Tusha Hiti bath, was added to the museum.",
+    "q_np": "सन् २०१७ मा तुषा हिटी भएको शाही नुहाउने ठाउँसहित कुन मर्मत गरिएको चोक संग्रहालयमा थपियो?",
+    "options_np": [
+     "सुन्दरी चोक",
+     "मूल चोक",
+     "नासल चोक",
+     "भण्डारखाल"
+    ],
+    "explanation_np": "सन् २०१७ मा तुषा हिटी भएको शाही नुहाउने ठाउँसहित मर्मत गरिएको सुन्दरी चोक संग्रहालयमा थपियो।"
    }
   ],
   "clues": [
    "Once a royal home, once a schoolhouse, now a treasury of bronze gods behind a golden door.",
-   "An Austrian architect gave me new life, and a king opened my doors in 1997."
+   "An Austrian architect gave me new life, and a king opened my doors in 1997.",
+   "I was built over an old monastery, and one earthquake brought my east wing down.",
+   "Walk through my golden doorway and the walls around the courtyard are lined with carved timber windows.",
+   "My shelves hold Hindu and Buddhist gods cast in bronze and hammered in gilt copper.",
+   "I sit inside the royal palace of the red-brick square, and a cafe offers a rest between my galleries."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Patan_Museum",
@@ -741,19 +1061,23 @@
    ],
    "notes": "Brick palace wing on the square with a gilded copper door and gilded window above it; square inner courtyard"
   },
-  "short_np": "मल्ल राजदरबारको चोकबाट हिन्दू र बौद्ध पवित्र कलाको सङ्ग्रहालयमा परिणत।",
-  "story_np": "सुनौलो ढोकाबाट पस्नुहोस् र तपाईं पुरानो मल्ल दरबारको उत्तरी चोक केशव नारायण चोकमा प्रवेश गर्नुहुन्छ। दरबार बौद्ध विहारको स्थलमा बनाइएको थियो, धेरै पटक नवीकरण गरिएको छ, र यसको हालको स्वरूप 1734 को हो। 1934 को भूकम्पले पूर्वी भाग ध्वस्त पारेपछि यसलाई पुनर्निर्माण गरियो, र केही समय भवनमा सार्वजनिक विद्यालय पनि चल्यो। पुनर्स्थापना 1982 मा, अस्ट्रियन वास्तुकार गोट्ज हागमुलरको नेतृत्वमा, सुरु भयो, र 1997 मा राजा वीरेन्द्रले यहाँ पाटन सङ्ग्रहालय उद्घाटन गरे। विद्वान मेरी शेफर्ड स्लसरले क्युरेट गरेको सङ्ग्रह हिन्दू र बौद्ध धर्मको पवित्र कला र प्रतिमाशास्त्र बुझाउँछ। अधिकांश वस्तु ढलौटका काँसा र सुनमाढिएको तामाको ठोकेर बनाइएका कलाकृति हुन्, जुन शिल्पका लागि पाटनका धातुकर्मीहरू प्रसिद्ध छन्। दीर्घा-दीर्घा हिँड्दा पुराना काठका झ्यालले चोकलाई कसरी फ्रेम गर्छन् भनेर ध्यान दिनुहोस्। 2017 मा शाही तुषा हिटीसहित पुनर्स्थापित सुन्दरी चोक सङ्ग्रहालयमा थपियो। विश्राम चाहिएमा सङ्ग्रहालयको क्याफे रमाइलो ठाउँ हो।",
+  "short_np": "मल्ल राजाको दरबारको आँगन, जुन अहिले हिन्दू र बौद्ध पवित्र कलाको संग्रहालय बनेको छ।",
+  "story_np": "सुनौलो ढोकाबाट भित्र पस्नुहोस्, तपाईं पुरानो मल्ल दरबारको उत्तरी आँगन केशव नारायण चोकमा पुग्नुहुन्छ। दरबार बौद्ध विहार भएको ठाउँमा बनेको थियो, धेरै पटक मर्मत भयो, र अहिलेको रूप सन् १७३४ को हो। १९३४ को भूकम्पले पूर्वी भाग ढालेपछि त्यसलाई फेरि बनाइयो, र केही समय त्यहाँ सार्वजनिक विद्यालय पनि चलेको थियो। सन् १९८२ मा अस्ट्रियाली वास्तुकार गोट्ज ह्यागमुलरको नेतृत्वमा मर्मत सुरु भयो, र १९९७ मा राजा वीरेन्द्रले यहाँ पाटन संग्रहालय उद्घाटन गरे। विद्वान मेरी शेफर्ड स्लसरले सजाएको यो सङ्ग्रहले हिन्दू र बौद्ध धर्मका पवित्र कला र मूर्तिकलाको अर्थ बुझाउँछ। धेरैजसो वस्तु ढलौटका काँसा र सुनको पानी चढाएका तामाका ठोकेर बनाइएका कलाकृति हुन्, जुन शिल्पका लागि पाटनका धातुकर्मी प्रसिद्ध छन्। कोठा-कोठा घुम्दा पुराना काठका झ्यालले आँगनलाई कसरी फ्रेम बनाएका छन्, हेर्नुहोस्। सन् २०१७ मा तुषा हिटी भएको शाही नुहाउने ठाउँसहित मर्मत गरिएको सुन्दरी चोक संग्रहालयमा थपियो। थकाइ लागे संग्रहालयको क्याफे बसेर आराम गर्न राम्रो ठाउँ हो।",
   "legend_np": null,
   "facts_np": [
-   "सङ्ग्रहालय 1997 मा राजा वीरेन्द्र वीर विक्रम शाहले उद्घाटन गरेका थिए।",
-   "यो मल्ल राजदरबारको चोक केशव नारायण चोकमा छ, जसको हालको स्वरूप 1734 को हो।",
-   "1982 मा सुरु भएको पुनर्स्थापना अस्ट्रियन वास्तुकार गोट्ज हागमुलरको नेतृत्वमा भयो; सङ्ग्रह मेरी शेफर्ड स्लसरले क्युरेट गरेकी थिइन्।",
-   "अधिकांश प्रदर्शित वस्तु ढलौटका काँसा र सुनमाढिएको तामाको ठोकेर बनाइएका कलाकृति हुन्, जुन शिल्पका लागि पाटन प्रसिद्ध छ।"
+   "संग्रहालय सन् १९९७ मा राजा वीरेन्द्र वीर विक्रम शाहले उद्घाटन गरेका हुन्।",
+   "यो मल्ल राजदरबारको केशव नारायण चोकमा छ, जसको अहिलेको रूप सन् १७३४ को हो।",
+   "सन् १९८२ मा सुरु भएको मर्मत अस्ट्रियाली वास्तुकार गोट्ज ह्यागमुलरको नेतृत्वमा भयो; सङ्ग्रह मेरी शेफर्ड स्लसरले सजाएकी हुन्।",
+   "धेरैजसो प्रदर्शित वस्तु ढलौटका काँसा र सुनको पानी चढाएका तामाका ठोकेर बनाइएका कलाकृति हुन्, जुन शिल्पका लागि पाटन प्रसिद्ध छ।"
   ],
-  "quake_np": "सन् 2015 अप्रिलको भूकम्पपछि केशव नारायण चोक सामान्य क्षति भएका दरबार संरचनाहरूमध्ये सूचीबद्ध थियो।",
+  "quake_np": "अप्रिल २०१५ को भूकम्पपछि केशव नारायण चोक सामान्य क्षति भएका दरबारका संरचनाहरूमा गनिएको थियो।",
   "clues_np": [
-   "एक पटक शाही घर, एक पटक विद्यालय, अहिले सुनौलो ढोकापछिको कांस्य देवताहरूको खजाना।",
-   "एक अस्ट्रियाली वास्तुकारले मलाई नयाँ जीवन दिए, र एक राजाले सन् 1997 मा मेरा ढोका खोले।"
+   "एक पटक शाही घर, एक पटक विद्यालय, अहिले सुनौलो ढोकाभित्र काँसाका देवताहरूको खजाना।",
+   "एक अस्ट्रियाली वास्तुकारले मलाई नयाँ जीवन दिए, र एक राजाले सन् १९९७ मा मेरा ढोका खोले।",
+   "म पुरानो विहारमाथि बनेको हुँ, र एउटा भूकम्पले मेरो पूर्वी भाग ढालेको थियो।",
+   "मेरो सुनौलो ढोकाबाट पस्नुहोस्, आँगनवरिपरि कुँदिएका काठका झ्याल देखिन्छन्।",
+   "मेरा दराजमा हिन्दू र बौद्ध देवता काँसामा ढालिएर र सुनको पानी चढाएको तामामा ठोकिएर बसेका छन्।",
+   "म रातो इँटाको चोकको शाही दरबारभित्र छु, र मेरा कोठाहरूबीच बसेर चिया खान क्याफे पनि छ।"
   ]
  },
  {
@@ -809,14 +1133,14 @@
     "answer_index": 0,
     "difficulty": 1,
     "explanation": "Bhimsen is Bhima, second of the five Pandava brothers.",
-    "q_np": "हिन्दु महाकाव्य परम्परामा भीमसेन को हुन्?",
+    "q_np": "हिन्दू महाकाव्यमा भीमसेन को हुन्?",
     "options_np": [
-     "महाभारतका एक पाण्डव भाइ",
+     "महाभारतका एक पाण्डव दाजुभाइ",
      "लङ्काका एक राजा",
      "शिवको एक रूप",
      "एक बौद्ध भिक्षु"
     ],
-    "explanation_np": "भीमसेन भीम हुन्, पाँच पाण्डव भाइमध्ये दोस्रा।"
+    "explanation_np": "भीमसेन भीम हुन्, पाँच पाण्डव दाजुभाइमध्ये दोस्रा।"
    },
    {
     "q": "Newars worship Bhimsen especially as the god of what?",
@@ -829,14 +1153,14 @@
     "answer_index": 1,
     "difficulty": 2,
     "explanation": "In the Newar tradition Bhimsen is a patron of business and trade.",
-    "q_np": "नेवारहरू भीमसेनलाई विशेष गरी केको देवताका रूपमा पूजा गर्छन्?",
+    "q_np": "नेवारहरू भीमसेनलाई विशेष गरी केका देवता मानेर पूजा गर्छन्?",
     "options_np": [
      "वर्षा",
      "व्यापार र व्यवसाय",
      "युद्ध",
      "विद्या"
     ],
-    "explanation_np": "नेवार परम्परामा भीमसेन व्यापार र व्यवसायका संरक्षक हुन्।"
+    "explanation_np": "नेवार परम्परामा भीमसेन व्यापार र व्यवसायका संरक्षक देवता हुन्।"
    },
    {
     "q": "Which king built the Bhimsen Temple of Patan?",
@@ -849,14 +1173,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "Srinivasa Malla built it in 1680.",
-    "q_np": "पाटनको भीमसेन मन्दिर कुन राजाले बनाए?",
+    "q_np": "पाटनको भीमसेन मन्दिर कुन राजाले बनाएका हुन्?",
     "options_np": [
-     "सिद्धिनरसिंह मल्ल",
+     "सिद्धि नरसिंह मल्ल",
      "श्रीनिवास मल्ल",
      "जयस्थिति मल्ल",
      "विष्णु मल्ल"
     ],
-    "explanation_np": "श्रीनिवास मल्लले यसलाई 1680 मा बनाए।"
+    "explanation_np": "श्रीनिवास मल्लले यसलाई सन् १६८० मा बनाएका हुन्।"
    },
    {
     "q": "What feature is the temple most renowned for?",
@@ -871,12 +1195,12 @@
     "explanation": "Its three interconnected golden windows are its best-known feature.",
     "q_np": "यो मन्दिर सबैभन्दा बढी केका लागि प्रसिद्ध छ?",
     "options_np": [
-     "कामुक मूर्तिकला भएका काठे टेको",
-     "तीन जोडिएका सुनौला झ्याल",
+     "कामुक दृश्य कुँदिएका काठका टेको",
+     "जोडिएका तीनवटा सुनौला झ्याल",
      "ढुङ्गाको लिङ्ग",
-     "एक्काइस गजुर"
+     "२१ वटा गजुर"
     ],
-    "explanation_np": "यसका तीन जोडिएका सुनौला झ्याल यसको सबैभन्दा चर्चित विशेषता हुन्।"
+    "explanation_np": "जोडिएका तीनवटा सुनौला झ्याल यसको सबैभन्दा चर्चित विशेषता हुन्।"
    },
    {
     "q": "In what year was the temple built?",
@@ -889,19 +1213,123 @@
     "answer_index": 2,
     "difficulty": 4,
     "explanation": "Wikipedia dates the temple to 1680 under Srinivasa Malla.",
-    "q_np": "मन्दिर कुन वर्षमा बनाइएको थियो?",
+    "q_np": "मन्दिर कुन वर्ष बनेको थियो?",
     "options_np": [
-     "1627",
-     "1637",
-     "1680",
-     "1736"
+     "१६२७",
+     "१६३७",
+     "१६८०",
+     "१७३६"
     ],
-    "explanation_np": "विकिपिडियाले यो मन्दिर श्रीनिवास मल्लको पालाको 1680 मा बनेको मानेको छ।"
+    "explanation_np": "विकिपिडियाका अनुसार श्रीनिवास मल्लको पालामा, सन् १६८० मा मन्दिर बनेको हो।"
+   },
+   {
+    "q": "Where in the square does the Bhimsen Temple stand?",
+    "options": [
+     "At the southern gate",
+     "Inside Mul Chowk",
+     "On the far western road",
+     "At the northern end"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "The temple stands at the northern end of the square, in line with the other main temples.",
+    "q_np": "भीमसेन मन्दिर चोकको कुन भागमा छ?",
+    "options_np": [
+     "दक्षिणी ढोकामा",
+     "मूल चोकभित्र",
+     "टाढा पश्चिमको सडकमा",
+     "उत्तरी छेउमा"
+    ],
+    "explanation_np": "मन्दिर चोकको उत्तरी छेउमा छ, अरू मुख्य मन्दिरहरूसँग एउटै लाइनमा।"
+   },
+   {
+    "q": "Can tourists go inside the Bhimsen Temple?",
+    "options": [
+     "No, it is a working shrine and visitors are not allowed inside",
+     "Only on Saturdays",
+     "Only if they remove their shoes",
+     "Yes, with the Durbar Square ticket"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It is a working shrine, so visitors are not allowed inside and photography inside is not permitted.",
+    "q_np": "पर्यटकले भीमसेन मन्दिरभित्र जान पाउँछन्?",
+    "options_np": [
+     "पाउँदैनन्, यो पूजा भइरहेको मन्दिर हो र आगन्तुकलाई भित्र जान दिइँदैन",
+     "शनिबार मात्र",
+     "जुत्ता खोले मात्र",
+     "पाउँछन्, दरबार क्षेत्रको टिकट भए"
+    ],
+    "explanation_np": "यो पूजा भइरहेको मन्दिर भएकाले आगन्तुकलाई भित्र जान दिइँदैन र भित्र फोटो खिच्न पनि पाइँदैन।"
+   },
+   {
+    "q": "What happened to the temple in the April 2015 earthquake?",
+    "options": [
+     "It was completely destroyed",
+     "It was untouched",
+     "It was partially damaged and later repaired",
+     "It was moved to a new site"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The temple was partially damaged in the April 2015 earthquake and has been repaired since.",
+    "q_np": "अप्रिल २०१५ को भूकम्पमा मन्दिरलाई के भयो?",
+    "options_np": [
+     "पूरै ध्वस्त भयो",
+     "केही भएन",
+     "आंशिक क्षति भयो र पछि मर्मत गरियो",
+     "नयाँ ठाउँमा सारियो"
+    ],
+    "explanation_np": "अप्रिल २०१५ को भूकम्पले मन्दिरमा आंशिक क्षति पुर्‍यायो, र त्यसपछि मर्मत गरिएको छ।"
+   },
+   {
+    "q": "Which two other temples stand in the same line as Bhimsen Temple, all facing the palace?",
+    "options": [
+     "Taleju and Golden Temple",
+     "Char Narayan and Hari Shankar",
+     "Kumbheshwar and Mahabouddha",
+     "Vishwanath and Krishna Mandir"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "The temple sits in line with Vishwanath Temple and Krishna Mandir, all facing the palace across the bricks.",
+    "q_np": "भीमसेन मन्दिरसँग एउटै लाइनमा, दरबारतिर फर्केका अरू कुन दुई मन्दिर छन्?",
+    "options_np": [
+     "तलेजु र सुनको मन्दिर",
+     "चार नारायण र हरि शङ्कर",
+     "कुम्भेश्वर र महाबौद्ध",
+     "विश्वनाथ र कृष्ण मन्दिर"
+    ],
+    "explanation_np": "भीमसेन मन्दिर विश्वनाथ मन्दिर र कृष्ण मन्दिरसँग एउटै लाइनमा छ, र सबै इँटा छापिएको चोकको पारि दरबारतिर फर्केका छन्।"
+   },
+   {
+    "q": "Which of the five Pandava brothers is Bhima, famous for strength and courage?",
+    "options": [
+     "The second",
+     "The fourth",
+     "The youngest",
+     "The eldest"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Bhima, known as Bhimsen, is the second of the five Pandava brothers in the Mahabharata.",
+    "q_np": "बल र साहसका लागि चर्चित भीम पाँच पाण्डव दाजुभाइमध्ये कुन नम्बरका हुन्?",
+    "options_np": [
+     "दोस्रा",
+     "चौथा",
+     "कान्छा",
+     "जेठा"
+    ],
+    "explanation_np": "भीमसेन अर्थात् भीम महाभारतका पाँच पाण्डव दाजुभाइमध्ये दोस्रा हुन्।"
    }
   ],
   "clues": [
    "A mighty Pandava keeps the accounts of Patan's merchants behind three golden windows.",
-   "I stand at the northern end of the temple row; you may admire me, but you may not enter."
+   "I stand at the northern end of the temple row; you may admire me, but you may not enter.",
+   "Shopkeepers pause at my steps for a quick prayer before the day's trade begins.",
+   "My god is the second of five brothers, famed for strength, yet traders bow to him for profit.",
+   "Travellers may admire me from outside, but cameras and visitors are not welcome within my walls.",
+   "Built in 1680 by a king named Srinivasa, I stand in line with a Shiva temple and a stone Krishna temple, all facing the palace."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
@@ -982,19 +1410,23 @@
    ],
    "notes": "Rectangular brick pagoda whose first floor carries a projecting balcony of three joined gilded windows"
   },
-  "short_np": "भीमसेनको मल्लकालीन पगोडा, पाण्डव नायक जसलाई नेवार व्यापारीहरूले व्यवसायका देवताका रूपमा पूजा गर्छन्।",
-  "story_np": "चोकको उत्तरी छेउमा सन् 1680 मा राजा श्रीनिवास मल्लले बनाएको भीमसेनको मन्दिर उभिएको छ। भीमसेन महाभारतका पाँच पाण्डव भाइमध्ये दोस्रा भीम हुन्, जो आफ्नो बल र साहसका लागि प्रसिद्ध छन्। तर यहाँ पाटनमा उनको अर्कै भूमिका छ: नेवार व्यापारी र वणिकहरूले उनलाई व्यवसाय र व्यापारका देवताका रूपमा पूजा गर्छन्, त्यसैले तपाईंले पसलेहरूलाई रोकिएर प्रार्थना गरिरहेका देख्न सक्नुहुन्छ। अग्रभागतिर हेर्नुहोस् र यसको गौरव, चोकमाथि चम्किरहेका तीन एकअर्कासँग जोडिएका सुनौला झ्याल खोज्नुहोस्। मन्दिर चलिरहेको पूजास्थल हो, त्यसैले आगन्तुकलाई भित्र जान दिइँदैन र भित्र फोटो खिच्न पनि अनुमति छैन; चोकबाटै यसको आनन्द लिनुहोस्। यो विश्वनाथ मन्दिर र कृष्ण मन्दिरसँग एउटै रेखामा कसरी उभिएको छ, सबै इँटाको आँगन पारि दरबारतिर फर्किएका, ध्यान दिनुहोस्। सन् 2015 को भूकम्पले मन्दिरलाई आंशिक क्षति पुर्‍यायो, र त्यसयता मर्मत गरिएको छ। अघि बढ्नुअघि सम्पूर्ण भवन देखिने गरी पर्याप्त पछाडि उभिनुहोस् र तीन शताब्दीभन्दा बढी समयदेखि यहाँ प्रार्थना गरेका व्यापारीहरूको कल्पना गर्नुहोस्।",
+  "short_np": "भीमसेनको मल्लकालीन पगोडा; पाण्डव वीर भीमसेनलाई नेवार व्यापारीले व्यापारका देवता मानेर पूजा गर्छन्।",
+  "story_np": "चोकको उत्तरी छेउमा राजा श्रीनिवास मल्लले सन् १६८० मा बनाएको भीमसेनको मन्दिर छ। भीमसेन महाभारतका पाँच पाण्डव दाजुभाइमध्ये दोस्रा भीम हुन्, जो आफ्नो बल र साहसका लागि चर्चित छन्। तर पाटनमा उनको अर्कै भूमिका छ। नेवार व्यापारीहरू उनलाई व्यवसाय र व्यापारका देवता मानेर पूजा गर्छन्, त्यसैले पसलेहरू रोकिएर प्रार्थना गरिरहेका तपाईंले देख्न सक्नुहुन्छ। अगाडिको भाग हेर्नुहोस् र यसको शान आँखा लाग्ने गरी जोडिएका तीनवटा सुनौला झ्याल खोज्नुहोस्, जो चोकमाथि चम्किरहेका छन्। यो पूजा भइरहेको मन्दिर भएकाले भित्र जान दिइँदैन र भित्र फोटो खिच्न पनि पाइँदैन; चोकबाटै हेरेर मज्जा लिनुहोस्। यो विश्वनाथ मन्दिर र कृष्ण मन्दिरसँग एउटै लाइनमा छ, र सबै इँटा छापिएको चोकको पारि दरबारतिर फर्केका छन्। सन् २०१५ को भूकम्पले मन्दिरमा आंशिक क्षति पुर्‍यायो, र त्यसपछि मर्मत गरियो। अघि बढ्नुअघि अलि पर उभिएर पूरै भवन हेर्नुहोस्, र तीन सय वर्षभन्दा बढी यहाँ प्रार्थना गर्ने व्यापारीहरूको कल्पना गर्नुहोस्।",
   "legend_np": null,
   "facts_np": [
-   "राजा श्रीनिवास मल्लले सन् 1680 मा बनाएका।",
-   "तीन एकअर्कासँग जोडिएका सुनौला झ्यालका लागि प्रसिद्ध।",
-   "नेवारहरूले पाण्डव नायक भीमसेनलाई व्यवसाय र व्यापारका देवताका रूपमा पूजा गर्छन्।",
-   "पर्यटकलाई भित्र जान अनुमति छैन, र भित्र फोटो खिच्न पनि अनुमति छैन।"
+   "राजा श्रीनिवास मल्लले सन् १६८० मा बनाएका हुन्।",
+   "जोडिएका तीनवटा सुनौला झ्यालका लागि प्रसिद्ध छ।",
+   "नेवारहरू पाण्डव वीर भीमसेनलाई व्यवसाय र व्यापारका देवता मानेर पूजा गर्छन्।",
+   "पर्यटकलाई भित्र जान दिइँदैन, र भित्र फोटो खिच्न पनि पाइँदैन।"
   ],
-  "quake_np": "सन् 2015 को अप्रिलको भूकम्पमा आंशिक रूपमा क्षति भएको र पछि मर्मत गरिएको।",
+  "quake_np": "अप्रिल २०१५ को भूकम्पमा आंशिक क्षति भएको थियो, र पछि मर्मत गरियो।",
   "clues_np": [
-   "एक शक्तिशाली पाण्डवले तीन सुनौला झ्यालपछाडि पाटनका व्यापारीहरूको हिसाबकिताब राख्छन्।",
-   "म मन्दिरहरूको पङ्क्तिको उत्तरी छेउमा उभिएको छु; तपाईंले मलाई हेरेर प्रशंसा गर्न सक्नुहुन्छ, तर भित्र पस्न पाइँदैन।"
+   "एक शक्तिशाली पाण्डव तीनवटा सुनौला झ्यालपछाडि पाटनका व्यापारीको हिसाबकिताब राख्छन्।",
+   "म मन्दिरहरूको लामको उत्तरी छेउमा छु; तपाईंले मलाई बाहिरबाट हेर्न सक्नुहुन्छ, तर भित्र पस्न पाइँदैन।",
+   "पसलेहरू दिनको व्यापार सुरु गर्नुअघि मेरो भर्‍याङमा रोकिएर छोटो प्रार्थना गर्छन्।",
+   "मेरा देवता पाँच दाजुभाइमध्ये दोस्रा हुन्, बलका लागि चर्चित, तर व्यापारीहरू नाफाका लागि उनलाई ढोग्छन्।",
+   "यात्रीहरूले मलाई बाहिरबाट हेर्न सक्छन्, तर मेरा भित्र आगन्तुक र क्यामेरा दुवै मनाही छन्।",
+   "श्रीनिवास नाम गरेका राजाले सन् १६८० मा बनाएको म शिवको मन्दिर र ढुङ्गाको कृष्ण मन्दिरसँग एउटै लाइनमा छु, सबै दरबारतिर फर्केका।"
   ]
  },
  {
@@ -1057,7 +1489,7 @@
      "कृष्ण",
      "गणेश"
     ],
-    "explanation_np": "विश्वनाथ, \"ब्रह्माण्डका स्वामी\", शिवको नाम हो।"
+    "explanation_np": "विश्वनाथ अर्थात् \"ब्रह्माण्डका स्वामी\" शिवको नाम हो।"
    },
    {
     "q": "Which animals guard the front entrance?",
@@ -1070,14 +1502,14 @@
     "answer_index": 1,
     "difficulty": 2,
     "explanation": "Two stone elephants flank the entrance.",
-    "q_np": "अगाडिको प्रवेशद्वारको रक्षा कुन जनावरले गर्छन्?",
+    "q_np": "अगाडिको ढोकाको रक्षा कुन जनावरले गर्छन्?",
     "options_np": [
      "सिंह",
      "हात्ती",
      "ग्रिफिन",
      "घोडा"
     ],
-    "explanation_np": "प्रवेशद्वारका दुवैतिर ढुङ्गाका दुई हात्ती छन्।"
+    "explanation_np": "ढोकाका दुवैतिर दुईवटा ढुङ्गाका हात्ती छन्।"
    },
    {
     "q": "What sits on the opposite side of the temple?",
@@ -1090,14 +1522,14 @@
     "answer_index": 1,
     "difficulty": 2,
     "explanation": "Nandi, Shiva's vehicle, is sculpted on the other side.",
-    "q_np": "मन्दिरको विपरीत पट्टि के छ?",
+    "q_np": "मन्दिरको अर्कोतिर के छ?",
     "options_np": [
      "गरुड",
      "नन्दी गोरु",
      "सिंह",
      "मयूर"
     ],
-    "explanation_np": "शिवको वाहन नन्दी अर्कोपट्टि कुँदिएको छ।"
+    "explanation_np": "शिवको सवारी नन्दीको मूर्ति अर्कोतिर छ।"
    },
    {
     "q": "In what year was Vishwanath Temple built?",
@@ -1110,14 +1542,14 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "It dates to 1627, during Siddhi Narasimha Malla's reign.",
-    "q_np": "विश्वनाथ मन्दिर कुन वर्षमा बनाइएको थियो?",
+    "q_np": "विश्वनाथ मन्दिर कुन वर्ष बनेको थियो?",
     "options_np": [
-     "1592",
-     "1627",
-     "1680",
-     "1734"
+     "१५९२",
+     "१६२७",
+     "१६८०",
+     "१७३४"
     ],
-    "explanation_np": "यो सिद्धि नरसिंह मल्लको शासनकालमा 1627 मा बनेको हो।"
+    "explanation_np": "यो सिद्धि नरसिंह मल्लको पालामा सन् १६२७ मा बनेको हो।"
    },
    {
     "q": "Between which two temples does Vishwanath stand?",
@@ -1130,19 +1562,123 @@
     "answer_index": 0,
     "difficulty": 3,
     "explanation": "Vishwanath is located between Krishna Mandir and Bhimsen Temple.",
-    "q_np": "विश्वनाथ कुन दुई मन्दिरको बीचमा पर्छ?",
+    "q_np": "विश्वनाथ कुन दुई मन्दिरको बीचमा छ?",
     "options_np": [
      "कृष्ण मन्दिर र भीमसेन",
      "तलेजु र मूल चोक",
      "कुम्भेश्वर र सुनको मन्दिर",
-     "हरिशङ्कर र चार नारायण"
+     "हरि शङ्कर र चार नारायण"
     ],
-    "explanation_np": "विश्वनाथ कृष्ण मन्दिर र भीमसेन मन्दिरको बीचमा अवस्थित छ।"
+    "explanation_np": "विश्वनाथ कृष्ण मन्दिर र भीमसेन मन्दिरको बीचमा छ।"
+   },
+   {
+    "q": "In what form is Shiva worshipped inside Vishwanath Temple?",
+    "options": [
+     "A golden statue",
+     "A painted portrait",
+     "A stone linga",
+     "A bronze mask"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "A stone linga, the abstract form in which Shiva is worshipped, is enshrined inside.",
+    "q_np": "विश्वनाथ मन्दिरभित्र शिवको पूजा कुन रूपमा गरिन्छ?",
+    "options_np": [
+     "सुनको मूर्ति",
+     "रङ्गीन चित्र",
+     "ढुङ्गाको लिङ्ग",
+     "काँसाको मुखौटा"
+    ],
+    "explanation_np": "भित्र ढुङ्गाको लिङ्ग स्थापना गरिएको छ, जुन शिवको पूजा गरिने निराकार रूप हो।"
+   },
+   {
+    "q": "Which festival, on the night of Shiva, draws worshippers to Shiva shrines like this one?",
+    "options": [
+     "Indra Jatra",
+     "Dashain",
+     "Holi",
+     "Maha Shivaratri"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "Maha Shivaratri, in Falgun, is the Night of Shiva when devotees offer worship at Shiva shrines.",
+    "q_np": "शिवको रात भनेर चिनिने कुन चाडमा यस्ता शिव मन्दिरमा भक्तजन पूजा गर्न आउँछन्?",
+    "options_np": [
+     "इन्द्रजात्रा",
+     "दशैँ",
+     "होली",
+     "महाशिवरात्रि"
+    ],
+    "explanation_np": "फागुनमा पर्ने महाशिवरात्रि शिवको रात हो, जब भक्तजन शिव मन्दिरमा पूजा गर्छन्।"
+   },
+   {
+    "q": "Which king ruled when Vishwanath Temple was built in 1627?",
+    "options": [
+     "Siddhi Narasimha Malla",
+     "Jayasthiti Malla",
+     "Srinivasa Malla",
+     "Prithvi Narayan Shah"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "The temple was built during the reign of Siddhi Narasimha Malla.",
+    "q_np": "सन् १६२७ मा विश्वनाथ मन्दिर बन्दा कुन राजाले शासन गर्दै थिए?",
+    "options_np": [
+     "सिद्धि नरसिंह मल्ल",
+     "जयस्थिति मल्ल",
+     "श्रीनिवास मल्ल",
+     "पृथ्वीनारायण शाह"
+    ],
+    "explanation_np": "मन्दिर सिद्धि नरसिंह मल्लको पालामा बनेको हो।"
+   },
+   {
+    "q": "What are the carved roof struts of Vishwanath often read as symbols of?",
+    "options": [
+     "Wealth and trade",
+     "War and conquest",
+     "Creation and fertility",
+     "Rain and harvest"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The erotic scenes on the roof struts are widespread on Shiva temples and often read as symbols of creation and fertility.",
+    "q_np": "विश्वनाथको छानाका कुँदिएका टेकोका दृश्यलाई प्रायः केको प्रतीक मानिन्छ?",
+    "options_np": [
+     "धन र व्यापार",
+     "युद्ध र विजय",
+     "सृष्टि र उर्वरता",
+     "वर्षा र बाली"
+    ],
+    "explanation_np": "छानाका टेकोमा कुँदिएका कामुक दृश्य शिव मन्दिरमा सामान्य छन् र प्रायः सृष्टि र उर्वरताका प्रतीक मानिन्छन्।"
+   },
+   {
+    "q": "How much older is Vishwanath Temple than the neighbouring Krishna Mandir?",
+    "options": [
+     "About fifty years",
+     "About two centuries",
+     "They were built the same year",
+     "About a decade"
+    ],
+    "answer_index": 3,
+    "difficulty": 3,
+    "explanation": "Vishwanath dates to 1627, a decade before Krishna Mandir (1637).",
+    "q_np": "विश्वनाथ मन्दिर छेउको कृष्ण मन्दिरभन्दा कति पुरानो हो?",
+    "options_np": [
+     "करिब पचास वर्ष",
+     "करिब दुई सय वर्ष",
+     "दुवै एकै वर्ष बनेका हुन्",
+     "करिब दश वर्ष"
+    ],
+    "explanation_np": "विश्वनाथ सन् १६२७ को हो, कृष्ण मन्दिर (१६३७) भन्दा दश वर्ष अघिको।"
    }
   ],
   "clues": [
    "Two elephants at my door and a bull at my back: I keep the Lord of the Universe.",
-   "I am the middle sibling of the temple row, a decade older than the stone shikhara beside me."
+   "I am the middle sibling of the temple row, a decade older than the stone shikhara beside me.",
+   "Look up at my carved roof struts: among the figures are scenes read as symbols of creation.",
+   "Unseen inside me stands a stone pillar, the formless shape in which my lord is worshipped.",
+   "Locals brush my steps with their fingers as they pass by.",
+   "Built in 1627, I carry almost four centuries of devotion, and my lord's night is celebrated in Falgun."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
@@ -1157,7 +1693,7 @@
     "name_np": "महाशिवरात्रि",
     "month": "Falgun",
     "note": "Night of Shiva; devotees offer worship at Shiva shrines",
-    "note_np": "शिवको रात; भक्तजनहरू शिव मन्दिरहरूमा पूजा गर्छन्"
+    "note_np": "शिवको रात; भक्तजन शिव मन्दिरमा पूजा गर्छन्"
    }
   ],
   "gallery": [
@@ -1232,19 +1768,23 @@
    ],
    "notes": "Two-roofed Shiva pagoda with a pillared ground-floor arcade; stone elephants flank the front stairs, a stone Nandi behind"
   },
-  "short_np": "ढुङ्गाका हात्तीले रक्षा गरेको शिवको पगोडा, अर्को छेउमा नन्दी गोरु प्रतीक्षारत।",
-  "story_np": "कृष्ण मन्दिर र भीमसेन मन्दिरको बीचमा विश्वनाथ उभिएको छ, सन् १६२७ मा सिद्धि नरसिंह मल्लको शासनकालमा बनाइएको भगवान् शिवको मन्दिर। अगाडिको भर्‍याङबाट सुरु गर्नुहोस्, जहाँ प्रवेशद्वारमा दुई ढुङ्गाका हात्ती पहरा दिइरहेका छन्। त्यसपछि अर्को छेउतिर घुम्नुहोस्: त्यहाँ शिवको वफादार वाहन नन्दी गोरुको मूर्ति बसेको छ। भित्र, नदेखिने गरी, ढुङ्गाको लिङ्ग स्थापित छ, शिवको पूजा गरिने अमूर्त रूप। अब टाउको पछाडि झुकाएर कुँदिएका काठका छानाका टेकोहरू अध्ययन गर्नुहोस्। धेरै आकृतिहरूमध्ये तपाईंले कामुक दृश्यहरू देख्न सक्नुहुन्छ, भारतका शिव मन्दिरहरूमा व्यापक र काठमाडौं उपत्यकामा सामान्य चित्रण, जसलाई प्रायः सृष्टि र उर्वरताका प्रतीक मानिन्छ। मन्दिरलाई अप्रिल २०१५ को भूकम्पले आंशिक क्षति पुर्‍यायो र त्यसयता मर्मत गरिएको छ। यो यस पङ्क्तिका सबैभन्दा पुराना मन्दिरमध्ये एक हो, कृष्ण मन्दिरभन्दा एक दशकअघि बनेको, त्यसैले तपाईं करिब चार शताब्दीको भक्ति हेर्दै हुनुहुन्छ। यहीँ रोकिनुहोस्, र स्थानीयहरूले हिँड्दा भर्‍याङ कसरी छुन्छन् हेर्नुहोस्।",
+  "short_np": "ढुङ्गाका हात्तीले रक्षा गरेको शिवको पगोडा; अर्कोतिर नन्दी गोरु पर्खेर बसेको छ।",
+  "story_np": "कृष्ण मन्दिर र भीमसेन मन्दिरको बीचमा विश्वनाथ छ। यो भगवान् शिवको मन्दिर राजा सिद्धि नरसिंह मल्लको पालामा सन् १६२७ मा बनेको हो। अगाडिको भर्‍याङबाट सुरु गर्नुहोस्, जहाँ ढोकामा दुईवटा ढुङ्गाका हात्ती पहरा दिइरहेका छन्। अनि अर्कोतिर घुम्नुहोस्: त्यहाँ शिवको भरोसिलो सवारी नन्दी गोरुको मूर्ति बसेको छ। भित्र, नदेखिने गरी, ढुङ्गाको लिङ्ग स्थापना गरिएको छ। शिवलाई पूजा गर्ने निराकार रूप यही हो। अब टाउको पछाडि फर्काएर कुँदिएका काठका छानाका टेकोहरू हेर्नुहोस्। धेरै आकृतिका बीचमा तपाईंले कामुक दृश्य पनि देख्न सक्नुहुन्छ। भारतका शिव मन्दिरमा यस्ता चित्र धेरै हुन्छन् र काठमाडौं उपत्यकामा पनि सामान्य छन्, र यिनलाई प्रायः सृष्टि र उर्वरताको प्रतीक मानिन्छ। अप्रिल २०१५ को भूकम्पले मन्दिरमा आंशिक क्षति पुर्‍यायो, र त्यसपछि मर्मत गरियो। यो लाइनका सबैभन्दा पुराना मन्दिरमध्ये एक हो, कृष्ण मन्दिरभन्दा दश वर्ष अघि बनेको। त्यसैले तपाईं लगभग चार सय वर्षको भक्ति हेर्दै हुनुहुन्छ। यहाँ केही बेर रोकिनुहोस्, र स्थानीयहरू हिँड्दा भर्‍याङ छोएर जाने तरिका हेर्नुहोस्।",
   "legend_np": null,
   "facts_np": [
-   "सिद्धि नरसिंह मल्लको शासनकालमा सन् १६२७ मा बनाइएको।",
-   "दुई ढुङ्गाका हात्तीले अगाडिको प्रवेशद्वारको रक्षा गर्छन्।",
-   "शिवको गोरु नन्दीको मूर्ति उल्टो छेउमा छ।",
-   "यो कृष्ण मन्दिर र भीमसेन मन्दिरको बीचमा छ, भित्र ढुङ्गाको लिङ्ग सहित।"
+   "सिद्धि नरसिंह मल्लको पालामा सन् १६२७ मा बनेको।",
+   "अगाडिको ढोकाको रक्षा दुईवटा ढुङ्गाका हात्तीले गर्छन्।",
+   "शिवको गोरु नन्दीको मूर्ति अर्कोतिर छ।",
+   "यो कृष्ण मन्दिर र भीमसेन मन्दिरको बीचमा छ, र भित्र ढुङ्गाको लिङ्ग छ।"
   ],
-  "quake_np": "अप्रिल २०१५ को भूकम्पमा आंशिक क्षति भई पछि मर्मत गरिएको।",
+  "quake_np": "अप्रिल २०१५ को भूकम्पमा आंशिक क्षति भएको थियो, र पछि मर्मत गरियो।",
   "clues_np": [
-   "मेरो ढोकामा दुई हात्ती र पछाडि एक गोरु: म ब्रह्माण्डका स्वामीलाई सुरक्षित राख्छु।",
-   "म मन्दिरको पङ्क्तिको बीचमा पर्छु, छेउको ढुङ्गाको शिखरभन्दा एक दशक जेठो।"
+   "मेरो ढोकामा दुई हात्ती र पछाडि एक गोरु: म ब्रह्माण्डका स्वामीको घर हुँ।",
+   "म मन्दिरहरूको लामको बीचमा छु, छेउको ढुङ्गाको शिखरभन्दा एक दशक जेठो।",
+   "मेरा छानाका कुँदिएका टेकोतिर हेर्नुहोस्: आकृतिहरूबीच सृष्टिका प्रतीक मानिने दृश्य पनि छन्।",
+   "भित्र नदेखिने गरी एउटा ढुङ्गाको स्तम्भ छ, जुन मेरा देवताको निराकार रूप हो र त्यसैको पूजा हुन्छ।",
+   "स्थानीयहरू हिँड्दाहिँड्दै औँलाले मेरो भर्‍याङ छोएर जान्छन्।",
+   "सन् १६२७ मा बनेको म लगभग चार सय वर्षको भक्ति बोकेको छु, र फागुनमा मेरा देवताको रात मनाइन्छ।"
   ]
  },
  {
@@ -1300,14 +1840,14 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "It is named for Taleju Bhawani, royal goddess of the Mallas.",
-    "q_np": "यो ठूलो घण्टको नाम कुन देवीका नामबाट राखिएको हो?",
+    "q_np": "यो ठूलो घण्टको नाम कुन देवीको नामबाट राखिएको हो?",
     "options_np": [
      "कुमारी",
      "तलेजु भवानी",
      "दुर्गा भवानी",
      "लक्ष्मी"
     ],
-    "explanation_np": "यो मल्लहरूकी राजकीय देवी तलेजु भवानीका नामबाट राखिएको हो।"
+    "explanation_np": "यो मल्ल राजाहरूकी शाही देवी तलेजु भवानीको नामबाट राखिएको हो।"
    },
    {
     "q": "Which king is credited with installing the bell?",
@@ -1320,7 +1860,7 @@
     "answer_index": 2,
     "difficulty": 3,
     "explanation": "Sources credit King Vishnu Malla.",
-    "q_np": "घण्ट स्थापना गर्ने श्रेय कुन राजालाई दिइन्छ?",
+    "q_np": "घण्ट राख्ने श्रेय कुन राजालाई दिइन्छ?",
     "options_np": [
      "सिद्धि नरसिंह मल्ल",
      "श्रीनिवास मल्ल",
@@ -1340,14 +1880,14 @@
     "answer_index": 2,
     "difficulty": 3,
     "explanation": "Most sources give 1736.",
-    "q_np": "धेरैजसो स्रोतका अनुसार घण्ट कुन वर्ष स्थापना गरियो?",
+    "q_np": "धेरैजसो स्रोतका अनुसार घण्ट कुन वर्ष राखिएको थियो?",
     "options_np": [
-     "1637",
-     "1680",
-     "1736",
-     "1934"
+     "१६३७",
+     "१६८०",
+     "१७३६",
+     "१९३४"
     ],
-    "explanation_np": "धेरैजसो स्रोतले 1736 भन्छन्।"
+    "explanation_np": "धेरैजसो स्रोतले सन् १७३६ भन्छन्।"
    },
    {
     "q": "Where was an earlier bell from 1703 reportedly moved?",
@@ -1360,14 +1900,14 @@
     "answer_index": 1,
     "difficulty": 5,
     "explanation": "Accounts say the 1703 bell was moved to the Rato Machhindranath Temple.",
-    "q_np": "1703 को अघिल्लो घण्ट कहाँ सारिएको भनिन्छ?",
+    "q_np": "सन् १७०३ को अघिल्लो घण्ट कहाँ सारिएको भनिन्छ?",
     "options_np": [
      "कुम्भेश्वर मन्दिर",
      "रातो मच्छिन्द्रनाथ मन्दिर",
-     "स्वर्ण मन्दिर",
+     "सुनको मन्दिर",
      "स्वयम्भूनाथ"
     ],
-    "explanation_np": "विवरणहरू अनुसार 1703 को घण्ट रातो मच्छिन्द्रनाथ मन्दिरमा सारिएको थियो।"
+    "explanation_np": "विवरण अनुसार सन् १७०३ को घण्ट रातो मच्छिन्द्रनाथ मन्दिरमा सारिएको थियो।"
    },
    {
     "q": "Besides worship, what was a royal bell like this used for?",
@@ -1380,19 +1920,123 @@
     "answer_index": 1,
     "difficulty": 2,
     "explanation": "Royal bells also served to call the public to the palace.",
-    "q_np": "पूजाबाहेक यस्तो राजकीय घण्ट केका लागि प्रयोग हुन्थ्यो?",
+    "q_np": "पूजाबाहेक यस्तो शाही घण्ट केका लागि प्रयोग हुन्थ्यो?",
     "options_np": [
      "ज्वारभाटा बताउन",
      "मानिसलाई दरबारमा बोलाउन",
      "वर्षा नाप्न",
      "चरा धपाउन"
     ],
-    "explanation_np": "राजकीय घण्टले जनतालाई दरबारमा बोलाउने काम पनि गर्थे।"
+    "explanation_np": "शाही घण्टले आम मानिसलाई दरबारमा बोलाउने काम पनि गर्थे।"
+   },
+   {
+    "q": "What is the Taleju Bell made of?",
+    "options": [
+     "Cast bronze",
+     "Carved stone",
+     "Hollow wood",
+     "Beaten silver"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It is a large cast bronze bell hung in a frame on a raised plinth.",
+    "q_np": "तलेजु घण्ट केले बनेको छ?",
+    "options_np": [
+     "ढलौटको काँसा",
+     "कुँदिएको ढुङ्गा",
+     "खोक्रो काठ",
+     "ठोकेको चाँदी"
+    ],
+    "explanation_np": "यो ढलौटको काँसाको ठूलो घण्ट हो, जुन अग्लो चौतारीमाथि फ्रेममा झुण्ड्याइएको छ।"
+   },
+   {
+    "q": "Who was Taleju Bhawani to the Malla kings?",
+    "options": [
+     "A famous sculptor",
+     "A Buddhist monk",
+     "A rival queen",
+     "The royal goddess"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "Taleju Bhawani was the royal goddess, the personal deity of the Malla kings.",
+    "q_np": "मल्ल राजाहरूका लागि तलेजु भवानी को थिइन्?",
+    "options_np": [
+     "प्रसिद्ध मूर्तिकार",
+     "बौद्ध भिक्षु",
+     "प्रतिद्वन्द्वी रानी",
+     "शाही देवी"
+    ],
+    "explanation_np": "तलेजु भवानी मल्ल राजाहरूकी शाही देवी, अर्थात् उनीहरूकी आफ्नै देवी थिइन्।"
+   },
+   {
+    "q": "Who set up the bell in 1736 together with King Vishnu Malla?",
+    "options": [
+     "His queen",
+     "His minister",
+     "His priest",
+     "His son"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Travel guides record that King Vishnu Malla and his queen set up the bell in 1736.",
+    "q_np": "सन् १७३६ मा राजा विष्णु मल्लसँगै घण्ट राख्ने अर्को व्यक्ति को थिए?",
+    "options_np": [
+     "उनकी रानी",
+     "उनका मन्त्री",
+     "उनका पुरोहित",
+     "उनका छोरा"
+    ],
+    "explanation_np": "यात्रा गाइडहरूका अनुसार सन् १७३६ मा राजा विष्णु मल्ल र उनकी रानीले घण्ट राखेका थिए।"
+   },
+   {
+    "q": "Which entrances are only a few steps from the Taleju Bell?",
+    "options": [
+     "Kumbheshwar and Mahabouddha",
+     "The museum café and the southern gate",
+     "Rato Machhindranath and Ashok Stupa",
+     "Mul Chowk and the Taleju temples"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "From the bell, the entrances to Mul Chowk and the Taleju temples are only a few steps away.",
+    "q_np": "तलेजु घण्टबाट केही पाइलामा कुन ठाउँका प्रवेशद्वार छन्?",
+    "options_np": [
+     "कुम्भेश्वर र महाबौद्ध",
+     "संग्रहालयको क्याफे र दक्षिणी ढोका",
+     "रातो मच्छिन्द्रनाथ र अशोक स्तूप",
+     "मूल चोक र तलेजु मन्दिर"
+    ],
+    "explanation_np": "घण्टबाट मूल चोक र तलेजु मन्दिरका प्रवेशद्वार केही पाइलामै छन्।"
+   },
+   {
+    "q": "What kind of source gives the 1736 date for the bell?",
+    "options": [
+     "Travel guides, not a scholarly source",
+     "A UNESCO report",
+     "A stone inscription",
+     "A royal chronicle"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "The 1736 date comes from travel guides, not a scholarly source, so it should be treated with some caution.",
+    "q_np": "घण्टको सन् १७३६ को मिति कस्तो स्रोतबाट आएको हो?",
+    "options_np": [
+     "यात्रा गाइड, विद्वत् स्रोत होइन",
+     "युनेस्कोको प्रतिवेदन",
+     "ढुङ्गाको अभिलेख",
+     "शाही वंशावली"
+    ],
+    "explanation_np": "सन् १७३६ को मिति यात्रा गाइडबाट आएको हो, विद्वत् स्रोतबाट होइन, त्यसैले अलि सावधानीसाथ लिनुपर्छ।"
    }
   ],
   "clues": [
    "I have no shrine inside me, yet I speak for a goddess whenever I am struck.",
-   "Hung near the palace front in 1736, my bronze voice once called all of Yala."
+   "Hung near the palace front in 1736, my bronze voice once called all of Yala.",
+   "I am cast in bronze and hung in a frame above a raised plinth.",
+   "Royal summons once travelled by my voice, long before any screens.",
+   "Steps away are the doorways of the royal courtyard and the temples of the goddess I am named for.",
+   "An older twin of mine, hung in 1703, was moved to the temple of the red god."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
@@ -1472,19 +2116,23 @@
    ],
    "notes": "Big bronze bell under a small tiled roof with three gilded finials, held by two stone pillars on a tall carved stone plinth"
   },
-  "short_np": "मल्ल राजाहरूको विशाल काँसाको घण्ट, शाही देवी तलेजुको नामबाट नामित।",
-  "story_np": "दरबारको अगाडि नजिकै एउटा विशाल काँसाको घण्ट झुन्डिएको छ। यो तलेजु घण्ट हो, मल्ल राजाहरूकी शाही देवी तलेजु भवानीको नामबाट नामित। यात्रा गाइडहरूले राजा विष्णु मल्ल र उनकी रानीले यसलाई सन् १७३६ मा स्थापना गरेको अभिलेख गर्छन्, सन् १७०३ मा स्थापित अघिल्लो घण्ट रातो मत्स्येन्द्रनाथ मन्दिरमा सारिएपछि। यस्ता शाही घण्टहरू देवीको पूजाका बेला बज्थे र सार्वजनिक सङ्केतको रूपमा काम गर्थे, मानिसहरूलाई दरबारमा बोलाउने तरिका। यसलाई थामेको चौकोस र मुनिको चौतारी हेर्नुहोस्, र चोकका मुख्य मन्दिरहरूको छेउमा घण्ट कसरी मिलेको छ ध्यान दिनुहोस्। मल्लकालमा, जब समाचार र शाही बोलावट स्क्रिनले होइन ध्वनिबाट यात्रा गर्थे, यालाका छानाहरूमा फैलिने यसको गहिरो स्वरको कल्पना गर्नुहोस्। चोकका थोरै वस्तुले तपाईंलाई दरबारको दैनिक जीवनसँग यति प्रत्यक्ष जोड्छन्। नजिकबाट हेर्नुहोस् र ढलौटको शिल्पकलाको प्रशंसा गर्नुहोस्। यहाँबाट मूल चोक र तलेजु मन्दिरहरूका प्रवेशद्वार केही पाइलामै छन्।",
+  "short_np": "मल्ल राजाहरूको विशाल काँसाको घण्ट, शाही देवी तलेजुको नामबाट नाम राखिएको।",
+  "story_np": "दरबारको अगाडि नजिकै एउटा विशाल काँसाको घण्ट झुण्डिएको छ। यो तलेजु घण्ट हो, जसको नाम मल्ल राजाहरूकी शाही देवी तलेजु भवानीको नामबाट राखिएको हो। यात्रा गाइडहरूका अनुसार सन् १७३६ मा राजा विष्णु मल्ल र उनकी रानीले यो घण्ट राखेका थिए। त्यसअघि सन् १७०३ मा राखिएको घण्ट रातो मच्छिन्द्रनाथ मन्दिरमा सारिएको थियो। यस्ता शाही घण्ट देवीको पूजामा बजाइन्थे, र मानिसलाई दरबारमा बोलाउने सार्वजनिक सङ्केतको काम पनि गर्थे। घण्ट अडिएको फ्रेम र मुनिको चौतारी हेर्नुहोस्, र चोकका मुख्य मन्दिरहरूको छेउमा घण्ट कसरी मिलेर बसेको छ, त्यो पनि हेर्नुहोस्। मल्लकालमा समाचार र शाही बोलावट स्क्रिनबाट होइन, आवाजबाट पुग्थ्यो। त्यतिबेला यसको गहिरो आवाज यलका छानाहरूमाथि गुञ्जिएको कल्पना गर्नुहोस्। चोकका थोरै वस्तुले मात्र तपाईंलाई दरबारको दैनिक जीवनसँग यति सीधै जोड्छन्। नजिकबाट हेर्नुहोस् र ढलौटको कारिगरी मन पराउनुहोस्। यहाँबाट मूल चोक र तलेजु मन्दिरका ढोका केही पाइलामै छन्।",
   "legend_np": null,
   "facts_np": [
-   "मल्ल राजाहरूकी निजी देवी तलेजु भवानीको नामबाट नामित।",
+   "मल्ल राजाहरूकी आफ्नै देवी तलेजु भवानीको नामबाट नाम राखिएको।",
    "यात्रा स्रोतहरूले यसलाई सन् १७३६ को मान्छन् र राजा विष्णु मल्लको श्रेय दिन्छन्।",
-   "सन् १७०३ मा स्थापित अघिल्लो घण्ट रातो मत्स्येन्द्रनाथ मन्दिरमा सारिएको बताइन्छ।",
-   "यो दरबारसामुन्ने रहेका मुख्य मन्दिरहरूको छेउमा सोझो मिलाएर राखिएको छ।"
+   "सन् १७०३ मा राखिएको अघिल्लो घण्ट रातो मच्छिन्द्रनाथ मन्दिरमा सारिएको बताइन्छ।",
+   "यो दरबारतिर फर्केका मुख्य मन्दिरहरूको छेउमा एउटै लाइनमा मिलेर बसेको छ।"
   ],
   "quake_np": null,
   "clues_np": [
-   "मभित्र कुनै मन्दिर छैन, तैपनि जब म बजाइन्छु, म एउटी देवीका लागि बोल्छु।",
-   "1736 मा दरबारको अगाडिपट्टि झुण्ड्याइएको मेरो काँसाको आवाजले एक पटक सारा यललाई बोलाउँथ्यो।"
+   "मभित्र कुनै मन्दिर छैन, तैपनि जब मलाई बजाइन्छ, म एउटी देवीको तर्फबाट बोल्छु।",
+   "सन् १७३६ मा दरबारको अगाडि झुण्ड्याइएको मेरो काँसाको आवाजले एक पटक सारा यल सहरलाई बोलाउँथ्यो।",
+   "म काँसामा ढालिएको छु र उठेको चौतारीमाथि फ्रेममा झुण्डिएको छु।",
+   "स्क्रिन आउनुअघि शाही बोलावट मेरै आवाजले पुग्थ्यो।",
+   "केही पाइला पर शाही आँगन र मेरो नाम जसको नामबाट राखिएको हो, ती देवीका मन्दिरका ढोका छन्।",
+   "सन् १७०३ मा झुण्ड्याइएको मेरो जेठो जोडी रातो देवताको मन्दिरमा सारिएको थियो।"
   ]
  },
  {
@@ -1540,14 +2188,14 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "The three main courtyards are Mul Chowk, Sundari Chowk and Keshav Narayan Chowk.",
-    "q_np": "मूल चोक पाटनका कति वटा मुख्य दरबार चोकमध्ये सबैभन्दा ठूलो हो?",
+    "q_np": "पाटनका मुख्य दरबार आँगनहरूमध्ये मूल चोक कतिवटामध्ये सबैभन्दा ठूलो हो?",
     "options_np": [
      "दुई",
      "तीन",
      "पाँच",
      "सात"
     ],
-    "explanation_np": "तीन मुख्य चोक मूल चोक, सुन्दरी चोक र केशव नारायण चोक हुन्।"
+    "explanation_np": "तीन मुख्य आँगन मूल चोक, सुन्दरी चोक र केशव नारायण चोक हुन्।"
    },
    {
     "q": "What stands at the centre of Mul Chowk?",
@@ -1580,14 +2228,14 @@
     "answer_index": 0,
     "difficulty": 2,
     "explanation": "Taleju temples surround the courtyard.",
-    "q_np": "मल्ल राजाहरूकी कुलदेवी, जसलाई मूल चोक वरिपरिका मन्दिरले सम्मान गर्छन्, को हुन्?",
+    "q_np": "मल्ल राजाहरूकी आफ्नै देवी, जसका मन्दिर मूल चोकवरिपरि छन्, को हुन्?",
     "options_np": [
      "तलेजु भवानी",
      "सरस्वती",
      "कुमारी",
      "हारीती"
     ],
-    "explanation_np": "चोकको वरिपरि तलेजु मन्दिरहरू छन्।"
+    "explanation_np": "चोकवरिपरि तलेजुका मन्दिर छन्।"
    },
    {
     "q": "On what creature does the river goddess Ganga stand at the Taleju doorway?",
@@ -1600,14 +2248,14 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "Ganga stands on a tortoise; Jamuna stands on a makara.",
-    "q_np": "तलेजुको द्वारमा नदी देवी गङ्गा कुन प्राणीमाथि उभिएकी छन्?",
+    "q_np": "तलेजुको ढोकामा नदी देवी गङ्गा कुन प्राणीमाथि उभिएकी छन्?",
     "options_np": [
      "मकर",
      "कछुवा",
      "सिंह",
      "मयूर"
     ],
-    "explanation_np": "गङ्गा कछुवामाथि उभिएकी छन्; यमुना मकरमाथि।"
+    "explanation_np": "गङ्गा कछुवामाथि उभिएकी छन्; जमुना मकरमाथि।"
    },
    {
     "q": "What happened to Mul Chowk in 1662?",
@@ -1620,19 +2268,123 @@
     "answer_index": 1,
     "difficulty": 5,
     "explanation": "The original buildings burned in 1662 and were rebuilt by Srinivasa Malla.",
-    "q_np": "सन् 1662 मा मूल चोकमा के भयो?",
+    "q_np": "सन् १६६२ मा मूल चोकमा के भयो?",
     "options_np": [
      "पहिलो पटक बनाइयो",
-     "जल्यो र पछि श्रीनिवास मल्लले पुनर्निर्माण गरे",
+     "जल्यो र पछि श्रीनिवास मल्लले फेरि बनाए",
      "भूकम्पले ध्वस्त पार्‍यो",
-     "संग्रहालयमा परिणत गरियो"
+     "संग्रहालय बनाइयो"
     ],
-    "explanation_np": "मूल भवनहरू सन् 1662 मा जले र श्रीनिवास मल्लले पुनर्निर्माण गरे।"
+    "explanation_np": "पुराना भवन सन् १६६२ मा जले, र श्रीनिवास मल्लले फेरि बनाए।"
+   },
+   {
+    "q": "What role did Mul Chowk play in the Malla court?",
+    "options": [
+     "Its royal stables",
+     "Its grain market",
+     "Its ritual heart",
+     "Its prison"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Mul Chowk was the ritual heart of the Malla court.",
+    "q_np": "मल्ल दरबारमा मूल चोकको भूमिका के थियो?",
+    "options_np": [
+     "शाही घोडाशाला",
+     "अन्नको बजार",
+     "धार्मिक विधिको केन्द्र",
+     "कारागार"
+    ],
+    "explanation_np": "मूल चोक मल्ल दरबारको धार्मिक विधिको केन्द्र थियो।"
+   },
+   {
+    "q": "Which major autumn festival draws worship and offerings at the Taleju shrines?",
+    "options": [
+     "Teej",
+     "Gai Jatra",
+     "Holi",
+     "Dashain"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "During Dashain, the main Durga festival, Taleju shrines and Durga temples draw worship and offerings.",
+    "q_np": "कुन ठूलो चाडमा तलेजुका मन्दिरमा पूजा र चढावा चढाइन्छ?",
+    "options_np": [
+     "तीज",
+     "गाईजात्रा",
+     "होली",
+     "दशैँ"
+    ],
+    "explanation_np": "दुर्गाको मुख्य चाड दशैँमा तलेजु र दुर्गा मन्दिरमा पूजा र चढावा चढाइन्छ।"
+   },
+   {
+    "q": "On which creature does the river goddess Jamuna stand beside the Taleju doorway?",
+    "options": [
+     "A makara",
+     "A tortoise",
+     "A lion",
+     "A peacock"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Jamuna stands on a makara, a mythical water creature, while Ganga stands on a tortoise.",
+    "q_np": "तलेजुको ढोकाछेउ नदी देवी जमुना कुन प्राणीमाथि उभिएकी छन्?",
+    "options_np": [
+     "मकर",
+     "कछुवा",
+     "सिंह",
+     "मयूर"
+    ],
+    "explanation_np": "जमुना मकर नामको पौराणिक जलचरमाथि उभिएकी छन्, गङ्गा कछुवामाथि।"
+   },
+   {
+    "q": "How many roofs does the Taleju temple on the northern side of the courtyard have?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "Five"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The Taleju temple to the north is described as triple-roofed.",
+    "q_np": "चोकको उत्तरपट्टिको तलेजु मन्दिरमा कतिवटा छाना छन्?",
+    "options_np": [
+     "एउटा",
+     "दुईवटा",
+     "तीनवटा",
+     "पाँचवटा"
+    ],
+    "explanation_np": "उत्तरको तलेजु मन्दिर तीन छाने मन्दिरका रूपमा चिनिन्छ।"
+   },
+   {
+    "q": "In which year were the courtyard's temples restored, before the 2015 earthquake?",
+    "options": [
+     "2016",
+     "1962",
+     "1984",
+     "2014"
+    ],
+    "answer_index": 3,
+    "difficulty": 3,
+    "explanation": "The courtyard's temples were restored in 2014, and repairs were needed again after the 2015 earthquake.",
+    "q_np": "२०१५ को भूकम्प अघि चोकका मन्दिर कुन वर्ष मर्मत गरिएका थिए?",
+    "options_np": [
+     "२०१६",
+     "१९६२",
+     "१९८४",
+     "२०१४"
+    ],
+    "explanation_np": "चोकका मन्दिर सन् २०१४ मा मर्मत गरिएका थिए, र २०१५ को भूकम्पपछि फेरि मर्मत गर्नुपर्‍यो।"
    }
   ],
   "clues": [
    "The royal goddess keeps her temples on my north and south, and two river goddesses guard her door.",
-   "I am the middle and the biggest of three, the ritual heart of a Malla palace."
+   "I am the middle and the biggest of three, the ritual heart of a Malla palace.",
+   "Fire took my buildings in 1662, and a king raised them again within a few years.",
+   "A small gilded shrine stands at my centre, and a triple-roofed temple rises to my north.",
+   "A tortoise and a water monster carry two river goddesses beside a gilded door in my south.",
+   "Every Dashain, worshippers bring offerings to the royal goddess whose shrines surround me."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Patan_Durbar_Square",
@@ -1649,7 +2401,7 @@
     "name_np": "दशैँ",
     "month": "Ashwin",
     "note": "Main Durga festival; Taleju shrines and Durga temples draw worship and offerings",
-    "note_np": "मुख्य दुर्गा पर्व; तलेजु मन्दिर र दुर्गा मन्दिरमा पूजा र भेटी चढाइन्छ"
+    "note_np": "दुर्गाको मुख्य चाड; तलेजुका मन्दिर र दुर्गा मन्दिरमा पूजा र चढावा चढाइन्छ"
    }
   ],
   "gallery": [
@@ -1723,19 +2475,23 @@
    ],
    "notes": "Two-storey brick courtyard with a small gilded temple in the middle and a tall Taleju temple rising over one wing"
   },
-  "short_np": "पाटन दरबारको सबैभन्दा ठूलो र पवित्र चोक, राजकीय देवी तलेजुका मन्दिरले घेरिएको।",
-  "story_np": "तपाईं अहिले मूल चोकमा हुनुहुन्छ, पाटनको राजदरबारका तीन मुख्य चोकमध्ये बीचको र सबैभन्दा ठूलो। यो मल्ल दरबारको धार्मिक विधिको हृदय थियो। मूल भवनहरू 1662 मा जलेका थिए र राजा श्रीनिवास मल्लले केही वर्षभित्रै पुनर्निर्माण गराए। बीचमा सानो सुनौलो मन्दिर, विद्या मन्दिर, छ, र चोकवरिपरि राजाहरूकी निजी देवी तलेजु भवानीका मन्दिर उठेका छन्: उत्तरमा तीन छाने तलेजु मन्दिर र दक्षिणतिर तलेजु भवानीको मन्दिर। दक्षिणतिरको तलेजु मन्दिरको ढोका हेर्नुहोस्। यसका दुवैतिर दुई नदी देवी छन्, कछुवामा उभिएकी गङ्गा र मकर, पौराणिक जलचर, मा जमुना। उनीहरूका सुनौला मूर्ति दरबारका उत्कृष्ट धातुकलामध्ये छन्। चोकका मन्दिरहरू 2014 मा पुनर्स्थापित गरिएका थिए, र 2015 को भूकम्पपछि यसका पर्खाल र भवनहरू फेरि मर्मत गर्नुपर्‍यो। केही क्षण चुपचाप उभिनुहोस् र यी ढुङ्गाका पाटामा एक समय गरिएका राजकीय अनुष्ठानको कल्पना गर्नुहोस्।",
+  "short_np": "पाटन दरबारको सबैभन्दा ठूलो र पवित्र आँगन, जसलाई शाही देवी तलेजुका मन्दिरले घेरेका छन्।",
+  "story_np": "तपाईं अहिले मूल चोकमा हुनुहुन्छ। यो पाटनको राजदरबारका तीन मुख्य आँगनमध्ये बीचको र सबैभन्दा ठूलो हो। मल्ल दरबारको धार्मिक विधिको केन्द्र यही थियो। पुराना भवन सन् १६६२ मा जले, र राजा श्रीनिवास मल्लले केही वर्षभित्रै फेरि बनाए। बीचमा सानो सुनौलो मन्दिर, विद्या मन्दिर, छ। वरिपरि राजाहरूकी आफ्नै देवी तलेजु भवानीका मन्दिर उभिएका छन्: उत्तरमा तीन छाने तलेजु मन्दिर र दक्षिणतिर तलेजु भवानीको मन्दिर। दक्षिणतिरको तलेजु मन्दिरको ढोका हेर्नुहोस्। त्यसका दुवैतिर दुई नदी देवी छन्: कछुवामाथि उभिएकी गङ्गा र मकर नामको पौराणिक जलचरमाथि उभिएकी जमुना। तिनका सुनौला मूर्ति दरबारका सबैभन्दा राम्रा धातुकलामध्ये पर्छन्। चोकका मन्दिर सन् २०१४ मा मर्मत गरिएका थिए, र २०१५ को भूकम्पपछि यसका भित्ता र भवन फेरि मर्मत गर्नुपर्‍यो। केही बेर चुपचाप उभिनुहोस्, र यी ढुङ्गाका पाटामा कुनै बेला हुने शाही पूजाविधिको कल्पना गर्नुहोस्।",
   "legend_np": null,
   "facts_np": [
-   "मूल चोक दरबारका तीन मुख्य चोकमध्ये बीचको र सबैभन्दा ठूलो हो।",
+   "मूल चोक दरबारका तीन मुख्य आँगनमध्ये बीचको र सबैभन्दा ठूलो हो।",
    "यसको बीचमा सानो सुनौलो मन्दिर, विद्या मन्दिर, छ।",
-   "तलेजु मन्दिरको ढोकाका दुवैतिर कछुवामा गङ्गा र मकरमा जमुना छन्।",
-   "1662 को आगलागीपछि श्रीनिवास मल्लले चोकको पुनर्निर्माण गरे।"
+   "तलेजु मन्दिरको ढोकाका दुवैतिर कछुवामाथि गङ्गा र मकरमाथि जमुना छन्।",
+   "सन् १६६२ को आगलागीपछि श्रीनिवास मल्लले चोक फेरि बनाए।"
   ],
-  "quake_np": "चोकवरिपरिका पर्खाल र भवनहरू सन् 2015 अप्रिलको भूकम्पमा क्षतिग्रस्त भए र पछि मर्मत गरिए; दक्षिण तलेजु मन्दिर भूकम्पपछिको संरचनात्मक पुनर्स्थापनाको विषय थियो।",
+  "quake_np": "अप्रिल २०१५ को भूकम्पमा चोकवरिपरिका भित्ता र भवनमा क्षति भयो र पछि मर्मत गरियो; दक्षिण तलेजु मन्दिर भूकम्पपछिको संरचनागत मर्मतको विषय थियो।",
   "clues_np": [
-   "शाही देवीले मेरो उत्तर र दक्षिणमा आफ्ना मन्दिर राखेकी छिन्, र दुई नदी देवीले उनको द्वारको रक्षा गर्छन्।",
-   "म तीनमध्ये बीचको र सबैभन्दा ठूलो हुँ, मल्ल दरबारको धार्मिक हृदय।"
+   "शाही देवीले मेरो उत्तर र दक्षिणमा आफ्ना मन्दिर राखेकी छिन्, र दुई नदी देवीले उनको ढोकाको रक्षा गर्छन्।",
+   "म तीनमध्ये बीचको र सबैभन्दा ठूलो हुँ, मल्ल दरबारको धार्मिक विधिको केन्द्र।",
+   "सन् १६६२ मा आगोले मेरा भवन खाइदियो, र एक राजाले केही वर्षभित्रै फेरि उठाए।",
+   "मेरो बीचमा सानो सुनौलो मन्दिर छ, र उत्तरतिर तीन छाने मन्दिर उठेको छ।",
+   "मेरो दक्षिणको सुनौलो ढोकाछेउ एउटा कछुवा र एउटा जलचरले दुई नदी देवीलाई बोकेका छन्।",
+   "हरेक दशैँमा मलाई घेरेका मन्दिरकी शाही देवीका लागि भक्तजन चढावा ल्याउँछन्।"
   ]
  },
  {
@@ -1793,7 +2549,7 @@
     "explanation": "Tusha Hiti is the sunken royal bath in Sundari Chowk.",
     "q_np": "तुषा हिटी के हो?",
     "options_np": [
-     "शाही भुइँमुनिको स्नानकुण्ड",
+     "भुइँमुनिको शाही स्नानकुण्ड",
      "पहरा दिने बुर्जा",
      "बौद्ध गुम्बा",
      "सहरको ढोका"
@@ -1813,12 +2569,12 @@
     "explanation": "King Siddhi Narasimha Malla is credited with it.",
     "q_np": "तुषा हिटी बनाउने श्रेय कुन राजालाई दिइन्छ?",
     "options_np": [
-     "सिद्धिनरसिंह मल्ल",
+     "सिद्धि नरसिंह मल्ल",
      "श्रीनिवास मल्ल",
      "विष्णु मल्ल",
      "जयस्थिति मल्ल"
     ],
-    "explanation_np": "राजा सिद्धिनरसिंह मल्लले यो बनाएको मानिन्छ।"
+    "explanation_np": "राजा सिद्धि नरसिंह मल्लले यो बनाएको मानिन्छ।"
    },
    {
     "q": "What shape is the bath's basin?",
@@ -1833,12 +2589,12 @@
     "explanation": "The octagonal shape reflects the king's devotion to the eight Nagas.",
     "q_np": "स्नानकुण्डको आकार कस्तो छ?",
     "options_np": [
-     "गोलाकार",
+     "गोलो",
      "अष्टकोणीय",
      "त्रिकोणीय",
      "क्रस आकारको"
     ],
-    "explanation_np": "अष्टकोणीय आकारले आठ नागप्रति राजाको भक्ति झल्काउँछ।"
+    "explanation_np": "अष्टकोणीय आकारले आठ नागप्रति राजाको भक्ति देखाउँछ।"
    },
    {
     "q": "Which deities ride Garuda on the original gilt spout?",
@@ -1851,7 +2607,7 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "The spout shows Vishnu and Lakshmi riding Garuda.",
-    "q_np": "सुनको जलप लगाइएको मूल धारामा कुन देवताहरू गरुडमाथि सवार छन्?",
+    "q_np": "सुनको पानी चढाएको मूल धारामा कुन देवता गरुडमाथि सवार छन्?",
     "options_np": [
      "शिव र पार्वती",
      "विष्णु र लक्ष्मी",
@@ -1871,19 +2627,123 @@
     "answer_index": 2,
     "difficulty": 5,
     "explanation": "Tusha Hiti houses 72 stone sculptures of deities.",
-    "q_np": "तुषा हिटीमा आज देवताहरूका कतिओटा ढुङ्गाका मूर्ति छन्?",
+    "q_np": "तुषा हिटीमा देवताका कतिवटा ढुङ्गाका मूर्ति छन्?",
     "options_np": [
-     "24",
-     "36",
-     "72",
-     "108"
+     "२४",
+     "३६",
+     "७२",
+     "१०८"
     ],
-    "explanation_np": "तुषा हिटीमा देवताहरूका 72 ढुङ्गाका मूर्ति छन्।"
+    "explanation_np": "तुषा हिटीमा देवताका ७२ वटा ढुङ्गाका मूर्ति छन्।"
+   },
+   {
+    "q": "Since 2017, Sundari Chowk has been part of which museum?",
+    "options": [
+     "National Museum of Nepal",
+     "Bhaktapur Woodcarving Museum",
+     "Nepal Art Council",
+     "Patan Museum"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "Sundari Chowk became part of the Patan Museum in 2017.",
+    "q_np": "सन् २०१७ देखि सुन्दरी चोक कुन संग्रहालयको भाग भएको छ?",
+    "options_np": [
+     "राष्ट्रिय संग्रहालय",
+     "भक्तपुर काष्ठकला संग्रहालय",
+     "नेपाल कला परिषद्",
+     "पाटन संग्रहालय"
+    ],
+    "explanation_np": "सुन्दरी चोक सन् २०१७ मा पाटन संग्रहालयको भाग बन्यो।"
+   },
+   {
+    "q": "Does water flow from the spout of Tusha Hiti today?",
+    "options": [
+     "Yes, all year round",
+     "Only during festivals",
+     "No, no water flows now",
+     "Only in the monsoon"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Today no water flows; after the 2015 earthquake the water became polluted and by 2019 the spout was dry.",
+    "q_np": "आज तुषा हिटीको धाराबाट पानी बग्छ?",
+    "options_np": [
+     "बग्छ, वर्षभरि",
+     "चाडपर्वमा मात्र",
+     "बग्दैन, अहिले पानी बग्दैन",
+     "वर्षामा मात्र"
+    ],
+    "explanation_np": "आज पानी बग्दैन; २०१५ को भूकम्पपछि पानी फोहोर भयो र सन् २०१९ सम्म धारा सुकेको थियो।"
+   },
+   {
+    "q": "About how far below the courtyard floor does Tusha Hiti sit?",
+    "options": [
+     "About 10 metres",
+     "About 50 metres",
+     "About 15 cm",
+     "About 1.5 metres"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "The bath is sunk about 150 cm, roughly one and a half metres, below the courtyard.",
+    "q_np": "तुषा हिटी आँगनको भुइँभन्दा करिब कति तल छ?",
+    "options_np": [
+     "करिब १० मिटर",
+     "करिब ५० मिटर",
+     "करिब १५ सेन्टिमिटर",
+     "करिब डेढ मिटर"
+    ],
+    "explanation_np": "स्नानकुण्ड आँगनभन्दा करिब १५० सेन्टिमिटर, अर्थात् डेढ मिटर तल छ।"
+   },
+   {
+    "q": "Which famous film from 1993 featured Tusha Hiti?",
+    "options": [
+     "Little Buddha",
+     "Himalaya",
+     "Seven Years in Tibet",
+     "Kundun"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "The bath appeared in the films Arabian Nights (1974) and Little Buddha (1993).",
+    "q_np": "सन् १९९३ को कुन चर्चित चलचित्रमा तुषा हिटी देखिएको थियो?",
+    "options_np": [
+     "लिटिल बुद्ध",
+     "हिमालय",
+     "सेभेन इयर्स इन टिबेट",
+     "कुन्दुन"
+    ],
+    "explanation_np": "यो स्नानकुण्ड ‘अरेबियन नाइट्स’ (१९७४) र ‘लिटिल बुद्ध’ (१९९३) चलचित्रमा देखिएको थियो।"
+   },
+   {
+    "q": "In which year was the original gilt copper spout of Tusha Hiti stolen?",
+    "options": [
+     "2015",
+     "2010",
+     "1934",
+     "1990"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The original gilt spout was stolen in 2010 and later recovered; its top part is in the National Museum.",
+    "q_np": "तुषा हिटीको सुनको पानी चढाएको मूल तामाको धारा कुन वर्ष चोरी भयो?",
+    "options_np": [
+     "२०१५",
+     "२०१०",
+     "१९३४",
+     "१९९०"
+    ],
+    "explanation_np": "मूल धारा सन् २०१० मा चोरी भयो र पछि फेला पर्‍यो; त्यसको माथिल्लो भाग राष्ट्रिय संग्रहालयमा छ।"
    }
   ],
   "clues": [
    "Eight sides, two serpents and seventy-two gods line a bath where a king once greeted the dawn.",
-   "My golden spout was stolen and found again, yet no water flows from me today."
+   "My golden spout was stolen and found again, yet no water flows from me today.",
+   "A tiny copy of a stone temple from the square sits on the main axis of the bath inside me.",
+   "Legend says a king bathed here at dawn, then sat in meditation on a slab beside the water.",
+   "Cameras once found me for a film about a young Buddha.",
+   "Since 2017 I have been part of the museum of the palace, as its southern courtyard."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Tusha_Hiti",
@@ -1965,19 +2825,23 @@
    ],
    "notes": "Brick palace courtyard around a sunken stone bath lined with small deity carvings and a gilded spout"
   },
-  "short_np": "शाही चोक जसले राजा सिद्धिनरसिंह मल्लको भूमिगत ढुङ्गाको स्नानकुण्ड तुषा हिटी लुकाएको छ।",
-  "story_np": "दरबारको दक्षिणी चोक सुन्दरी चोकमा पस्नुहोस् र तल हेर्नुहोस्। तपाईंको पाउमुनि करिब डेढ मिटर तल तुषा हिटी छ, 17औँ शताब्दीका राजा सिद्धिनरसिंह मल्लको श्रेय दिइने शाही स्नानकुण्ड। कुण्ड अष्टकोणीय छ, जसले राजाको आठ नागप्रतिको भक्तिलाई सङ्केत गर्छ, र दुई ढुङ्गाका सर्पले यसको किनार घेरेका छन्। यसका पर्खालमा देवीदेवताका 72 वटा ढुङ्गाका मूर्ति छन्, जसमा अष्टमातृका, अष्टभैरव र विष्णुका दश अवतार पर्छन्। पानी कुनै बेला गरुडमाथि सवार विष्णु र लक्ष्मी देखाइएको सुनले मोहोरिएको तामाको धाराबाट खस्थ्यो। तपाईंले देख्नुभएको धारा प्रतिकृति हो; सन् 2010 मा मूल चोरी भयो, पछि फेला पर्‍यो, र यसको माथिल्लो भाग अहिले राष्ट्रिय संग्रहालयमा छ। स्नानकुण्डको मुख्य अक्षमा कृष्ण मन्दिरको सानो प्रतिकृति छ। किंवदन्ती अनुसार राजाले यहाँ बिहानै स्नान गर्थे र नजिकैको ढुङ्गाको पाटामा ध्यान गर्थे। आज पानी बग्दैन। सुन्दरी चोक सन् 2017 मा पाटन संग्रहालयको अंश बन्यो।",
-  "legend_np": "किंवदन्ती अनुसार राजा सिद्धिनरसिंह मल्ल हरेक बिहान चाँडै उठ्थे, तुषा हिटीमा स्नान गर्थे र त्यसपछि छेउको ढुङ्गाको पाटामा घण्टौँ ध्यान गर्थे। सेवकहरूले तौलिया र लुगा ल्याउँथे भने रानीले माथिका कुँदिएका झ्यालबाट हेर्थिन्, र त्यसपछि राजा तेलले मालिस गराउन ढुङ्गाको ओछ्यानमा सुत्थे। केही इतिहासकारले यो कथामा शङ्का गर्छन्, उनीहरूका अनुसार यो स्नानकुण्ड शाही स्नानका लागि नभई देवताहरूलाई विधिपूर्वक जल अर्पण गर्नका लागि बनाइएको थियो।",
+  "short_np": "शाही आँगन, जसले राजा सिद्धि नरसिंह मल्लको भुइँमुनिको ढुङ्गाको स्नानकुण्ड तुषा हिटी लुकाएको छ।",
+  "story_np": "दरबारको दक्षिणी आँगन सुन्दरी चोकमा पस्नुहोस् र तल हेर्नुहोस्। तपाईंको खुट्टाभन्दा करिब डेढ मिटर तल तुषा हिटी छ। यो १७ औं शताब्दीका राजा सिद्धि नरसिंह मल्लले बनाएको मानिने शाही स्नानकुण्ड हो। कुण्ड अष्टकोणीय छ, जसले राजाको आठ नागप्रतिको भक्ति देखाउँछ, र दुईवटा ढुङ्गाका सर्पले यसको किनार घेरेका छन्। यसका पर्खालमा देवीदेवताका ७२ वटा ढुङ्गाका मूर्ति छन्। तिनमा अष्टमातृका, अष्टभैरव र विष्णुका दश अवतार पर्छन्। पहिले गरुडमाथि सवार विष्णु र लक्ष्मी देखिने सुनको पानी चढाएको तामाको धाराबाट पानी खस्थ्यो। अहिले देखिने धारा नक्कल हो; सन् २०१० मा मूल धारा चोरी भयो, पछि फेला पर्‍यो, र अहिले त्यसको माथिल्लो भाग राष्ट्रिय संग्रहालयमा छ। स्नानकुण्डको मुख्य रेखामा कृष्ण मन्दिरको सानो नक्कल छ। भनिन्छ, राजा यहाँ बिहानै नुहाउँथे र नजिकैको ढुङ्गाको पाटामा ध्यान गर्थे। आज पानी बग्दैन। सुन्दरी चोक सन् २०१७ मा पाटन संग्रहालयको भाग बन्यो।",
+  "legend_np": "भनिन्छ, राजा सिद्धि नरसिंह मल्ल हरेक बिहान सबेरै उठ्थे, तुषा हिटीमा नुहाउँथे, अनि छेउको ढुङ्गाको पाटामा घण्टौँ ध्यान गर्थे। सेवकले तौलिया र लुगा ल्याइदिन्थे, र माथिका कुँदिएका झ्यालबाट रानी हेरिरहन्थिन्। त्यसपछि राजा तेलले मालिस गराउन ढुङ्गाको ओछ्यानमा पल्टन्थे। केही इतिहासकारले यो कथामा शङ्का गर्छन्। उनीहरूका अनुसार यो कुण्ड राजाको नुहाइका लागि होइन, देवतालाई विधिपूर्वक जल चढाउन बनाइएको थियो।",
   "facts_np": [
-   "तुषा हिटी करिब 5.3 मि. लामो, 4 मि. चौडा छ र चोकभन्दा 150 से.मि. तल छ।",
-   "स्नानकुण्डमा विष्णुका दश अवतार सहित देवताहरूका 72 वटा ढुङ्गाका मूर्तिकला छन्।",
-   "सुनले मोहोरिएको मूल धारा सन् 2010 मा चोरी भयो र फेला पर्‍यो; यसको माथिल्लो भाग नेपालको राष्ट्रिय संग्रहालयमा छ।",
-   "स्नानकुण्ड ‘अरेबियन नाइट्स’ (1974) र ‘लिटिल बुद्ध’ (1993) चलचित्रमा देखिएको थियो।"
+   "तुषा हिटी करिब ५.३ मिटर लामो, ४ मिटर चौडा छ र आँगनभन्दा १५० सेन्टिमिटर तल छ।",
+   "स्नानकुण्डमा विष्णुका दश अवतार लगायत देवताका ७२ वटा ढुङ्गाका मूर्ति छन्।",
+   "सुनको पानी चढाएको मूल धारा सन् २०१० मा चोरी भयो र फेला पर्‍यो; त्यसको माथिल्लो भाग नेपालको राष्ट्रिय संग्रहालयमा छ।",
+   "यो स्नानकुण्ड ‘अरेबियन नाइट्स’ (१९७४) र ‘लिटिल बुद्ध’ (१९९३) चलचित्रमा देखिएको थियो।"
   ],
-  "quake_np": "सन् 2015 को अप्रिलको भूकम्पपछि स्नानकुण्डको पानी प्रदूषित भयो, र सन् 2019 सम्म धाराबाट पानी बगेको थिएन।",
+  "quake_np": "अप्रिल २०१५ को भूकम्पपछि स्नानकुण्डको पानी फोहोर भयो, र सन् २०१९ सम्म धाराबाट पानी बगेको थिएन।",
   "clues_np": [
    "आठ कुना, दुई सर्प र बहत्तर देवताले एउटा स्नानकुण्ड घेरेका छन्, जहाँ एक राजाले कुनै बेला बिहानीलाई स्वागत गर्थे।",
-   "मेरो सुनौलो धारा चोरी भयो र फेरि भेटियो, तर आज मबाट पानी बग्दैन।"
+   "मेरो सुनौलो धारा चोरी भयो र फेरि भेटियो, तर आज मबाट पानी बग्दैन।",
+   "मभित्रको स्नानकुण्डको मुख्य रेखामा चोकको ढुङ्गाको मन्दिरको सानो नक्कल बसेको छ।",
+   "भनिन्छ, एक राजा यहाँ बिहानै नुहाउँथे, अनि पानीछेउको पाटामा ध्यान गर्थे।",
+   "एउटा सानो बुद्धबारे बनेको चलचित्रका लागि क्यामेराले मलाई कुनै बेला भेट्यो।",
+   "सन् २०१७ देखि म दरबारको संग्रहालयको भाग हुँ, त्यसको दक्षिणी आँगन।"
   ]
  },
  {
@@ -2035,12 +2899,12 @@
     "explanation": "Hiranya Varna Mahavihar is known locally as Kwa Bahal.",
     "q_np": "सुनको मन्दिरको स्थानीय नेवार नाम के हो?",
     "options_np": [
-     "क्वाबहाल",
-     "टाबहाल",
-     "नागबहाल",
-     "इबही"
+     "क्वा बहाल",
+     "ता बहाल",
+     "नाग बहाल",
+     "इ बही"
     ],
-    "explanation_np": "हिरण्यवर्ण महाविहारलाई स्थानीय रूपमा क्वाबहाल भनिन्छ।"
+    "explanation_np": "हिरण्यवर्ण महाविहारलाई स्थानीय रूपमा क्वा बहाल भनिन्छ।"
    },
    {
     "q": "How old is the chief priest (Bapacha) of the Golden Temple?",
@@ -2055,12 +2919,12 @@
     "explanation": "The Bapacha is a boy, always under twelve, who serves for a month.",
     "q_np": "सुनको मन्दिरका मुख्य पुजारी (बापचा) को उमेर कति हुन्छ?",
     "options_np": [
-     "60 भन्दा माथि",
+     "६० वर्षभन्दा माथि",
      "सधैँ बाह्र वर्षभन्दा कम",
-     "ठीक 21",
+     "ठीक २१ वर्ष",
      "जुनसुकै उमेर"
     ],
-    "explanation_np": "बापचा एक बालक हुन्छ, जो सधैँ बाह्र वर्षभन्दा कम उमेरको हुन्छ र एक महिना सेवा गर्छ।"
+    "explanation_np": "बापचा सधैँ बाह्र वर्षभन्दा कम उमेरको बालक हुन्छ, र एक महिना सेवा गर्छ।"
    },
    {
     "q": "What does the legend say happened at the site?",
@@ -2073,14 +2937,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "Legend says it was built where a rat was seen chasing a cat.",
-    "q_np": "किंवदन्ती अनुसार यस स्थानमा के घटना भएको थियो?",
+    "q_np": "कथा अनुसार यो ठाउँमा के घटना भएको थियो?",
     "options_np": [
      "बिरालोले मुसालाई लखेट्यो",
      "मुसाले बिरालोलाई लखेट्यो",
      "सर्पले भ्यागुतो निल्यो",
-     "बाँदरले घण्टा चोर्‍यो"
+     "बाँदरले घण्टी चोर्‍यो"
     ],
-    "explanation_np": "किंवदन्ती अनुसार मुसाले बिरालोलाई लखेटेको देखिएको ठाउँमा यो बनाइएको हो।"
+    "explanation_np": "कथा अनुसार मुसाले बिरालोलाई लखेटेको देखिएको ठाउँमा यो विहार बनेको हो।"
    },
    {
     "q": "What is the main image in the shrine, also called Kwabaju?",
@@ -2093,7 +2957,7 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "The main image is a large silver Shakyamuni Buddha known as Kwabaju.",
-    "q_np": "गर्भगृहको मुख्य मूर्ति, जसलाई क्वाबाजु पनि भनिन्छ, के हो?",
+    "q_np": "मन्दिरको मुख्य मूर्ति, जसलाई क्वाबाजु पनि भनिन्छ, के हो?",
     "options_np": [
      "सुनको तारा",
      "चाँदीको शाक्यमुनि बुद्ध",
@@ -2113,19 +2977,123 @@
     "answer_index": 1,
     "difficulty": 5,
     "explanation": "Founded traditionally in the 12th century, it has been in its current form since 1409.",
-    "q_np": "विहार कुन वर्षदेखि हालको रूपमा रहेको छ?",
+    "q_np": "यो विहार कुन वर्षदेखि अहिलेको रूपमा छ?",
     "options_np": [
-     "1192",
-     "1409",
-     "1637",
-     "1934"
+     "११९२",
+     "१४०९",
+     "१६३७",
+     "१९३४"
     ],
-    "explanation_np": "परम्परागत रूपमा 12 औं शताब्दीमा स्थापना भएको यो विहार 1409 देखि हालको रूपमा छ।"
+    "explanation_np": "परम्पराअनुसार १२ औं शताब्दीमा स्थापना भएको यो विहार सन् १४०९ देखि अहिलेको रूपमा छ।"
+   },
+   {
+    "q": "What must visitors do before entering the Golden Temple shrine?",
+    "options": [
+     "Ring the bell three times",
+     "Buy a flower garland",
+     "Remove their shoes",
+     "Cover their heads"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Visitors must take off their shoes before entering the monastery.",
+    "q_np": "सुनको मन्दिरभित्र पस्नुअघि आगन्तुकले के गर्नुपर्छ?",
+    "options_np": [
+     "तीन पटक घण्टी बजाउनुपर्छ",
+     "फूलको माला किन्नुपर्छ",
+     "जुत्ता खोल्नुपर्छ",
+     "टाउको छोप्नुपर्छ"
+    ],
+    "explanation_np": "विहारभित्र पस्नुअघि आगन्तुकले जुत्ता खोल्नुपर्छ।"
+   },
+   {
+    "q": "Which animals guard the stone gate of the monastery?",
+    "options": [
+     "Dogs",
+     "Elephants",
+     "Tigers",
+     "Lions"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "A pair of lions guards the stone gate leading into the monastery.",
+    "q_np": "विहारको ढुङ्गाको ढोकामा कुन जनावरको जोडीले पहरा दिएको छ?",
+    "options_np": [
+     "कुकुर",
+     "हात्ती",
+     "बाघ",
+     "सिंह"
+    ],
+    "explanation_np": "विहार भित्रिने ढुङ्गाको ढोकामा दुईवटा सिंहले पहरा दिएका छन्।"
+   },
+   {
+    "q": "What do the golden elephants in the courtyard stand on?",
+    "options": [
+     "Tortoises",
+     "Stone drums",
+     "Snakes",
+     "Lotus flowers"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "In the courtyard, golden elephants stand on tortoises.",
+    "q_np": "आँगनका सुनौला हात्ती केमाथि उभिएका छन्?",
+    "options_np": [
+     "कछुवा",
+     "ढुङ्गाका ढोल",
+     "सर्प",
+     "कमलका फूल"
+    ],
+    "explanation_np": "आँगनमा सुनौला हात्ती कछुवामाथि उभिएका छन्।"
+   },
+   {
+    "q": "What mandala can be found on the ceiling above the entrance gate?",
+    "options": [
+     "Bhairava",
+     "Vajradhatu",
+     "Kalachakra",
+     "Shri Yantra"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Looking up as you pass the gate, you can find a Kalachakra mandala on the ceiling.",
+    "q_np": "प्रवेशद्वारमाथि छानामा कुन मण्डल देखिन्छ?",
+    "options_np": [
+     "भैरव",
+     "वज्रधातु",
+     "कालचक्र",
+     "श्रीयन्त्र"
+    ],
+    "explanation_np": "ढोका नाघ्दा माथि हेर्यो भने छानामा कालचक्र मण्डल देखिन्छ।"
+   },
+   {
+    "q": "How often is the roughly 800-year-old Prajnaparamita manuscript restored?",
+    "options": [
+     "Every twelve years",
+     "Never",
+     "Every year",
+     "Every three years"
+    ],
+    "answer_index": 3,
+    "difficulty": 3,
+    "explanation": "The approximately 800-year-old Prajnaparamita manuscript is restored every three years.",
+    "q_np": "करिब ८०० वर्ष पुरानो प्रज्ञापारमिता पाण्डुलिपि कति वर्षमा एकपटक मर्मत गरिन्छ?",
+    "options_np": [
+     "हरेक बाह्र वर्षमा",
+     "कहिल्यै गरिँदैन",
+     "हरेक वर्ष",
+     "हरेक तीन वर्षमा"
+    ],
+    "explanation_np": "करिब ८०० वर्ष पुरानो प्रज्ञापारमिता पाण्डुलिपि हरेक तीन वर्षमा मर्मत गरिन्छ।"
    }
   ],
   "clues": [
    "Here a rat once chased a cat, and today a child priest rings his bell in silence.",
-   "Gold-coloured and great, I am a monastery courtyard just north of the royal square."
+   "Gold-coloured and great, I am a monastery courtyard just north of the royal square.",
+   "I guard an ancient text of the perfection of wisdom, nearly eight centuries old, mended every three years.",
+   "Two lions flank my stone gate, and a mandala of time hides on the ceiling above it.",
+   "Golden elephants stand on tortoises in my courtyard, around a small chaitya older than I am.",
+   "My shrine has three gilded roofs, a silver Buddha waits inside, and you must leave your shoes at the door."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Hiranya_Varna_Mahavihar",
@@ -2209,19 +3177,23 @@
    ],
    "notes": "Enclosed monastery courtyard: a three-roofed gilded-copper pagoda shrine with a small gilded chaitya in the yard"
   },
-  "short_np": "क्वा बहाल, चम्किलो बौद्ध विहार जहाँ बाह्र वर्षमुनिको बालकले बुद्धको मन्दिरको सेवा गर्छ।",
-  "story_np": "सिंहको जोडीले रक्षा गरेको ढुङ्गाको ढोकाबाट पस्नुहोस् र तपाईं हिरण्यवर्ण महाविहार, सुनौलो रङको महाविहार, मा प्रवेश गर्नुहुन्छ, जो स्थानीय रूपमा क्वा बहाल र पर्यटकका लागि सुनौलो मन्दिर भनिन्छ। परम्पराअनुसार यो १२ औं शताब्दीमा स्थापना भएको हो; यसको हालको रूप सन् १४०९ को हो। ढोका पार गर्दा, छतमा कालचक्र मण्डल खोज्न माथि हेर्नुहोस्। आँगनमा, सुनौला हात्तीहरू कछुवामाथि उभिएका छन्, र बीचमा स्वयम्भूसँग चिनिने सानो चैत्य छ, जो मन्दिर आफैँभन्दा पुरानो मानिन्छ। सामुन्ने तीन सुनौला छाना भएको मुख्य मन्दिर उठेको छ, जसको अनुहारमा बुद्धको जीवनका दृश्यहरू छन्। भित्र शाक्यमुनि बुद्धको चाँदीको मूर्ति बसेको छ, जसलाई क्वाबाजु भनिन्छ। अब पुजारी खोज्नुहोस्: उनी बालक हुन्, सधैं बाह्र वर्षमुनिका, जसले एक महिना सेवा गर्छन्, हरेक बिहान र साँझ घण्टी बजाउँदै मौन रूपमा टोल घुम्छन्। विहारमा ८०० वर्ष पुरानो प्रज्ञापारमिता ग्रन्थ पनि राखिएको छ। भित्र पस्नुअघि जुत्ता खोल्न नबिर्सनुहोस्।",
-  "legend_np": "कथाअनुसार सुनौलो मन्दिर बिरालोलाई खेदिरहेको मुसा देखिएको ठाउँमा बनाइएको थियो, एक उल्टो शकुन जसले त्यो ठाउँलाई विशेष र विहारका योग्य चिनायो। यो कथा अझै टोलमा सम्झिन्छ, र सन् १९९४ सम्म पनि त्यहाँ मुसालाई खुवाइन्थ्यो। आँगनमा खानेकुराका साना भेटी देख्ने आगन्तुकहरूले त्यो परम्पराको अन्तिम प्रतिध्वनि देखिरहेका हुन सक्छन्।",
+  "short_np": "क्वा बहाल, चम्किलो बौद्ध विहार, जहाँ बाह्र वर्षभन्दा कम उमेरको बालकले बुद्धको मन्दिरको सेवा गर्छ।",
+  "story_np": "दुईवटा सिंहले पहरा दिएको ढुङ्गाको ढोकाबाट भित्र पस्नुहोस्, तपाईं हिरण्यवर्ण महाविहारमा पुग्नुहुन्छ। यसको अर्थ सुनको रङको ठूलो विहार हो। स्थानीयले यसलाई क्वा बहाल भन्छन्, र पर्यटकले सुनको मन्दिर। परम्पराअनुसार यो १२ औं शताब्दीमा स्थापना भएको हो; यसको अहिलेको रूप सन् १४०९ को हो। ढोका नाघ्दा माथि छानामा कालचक्र मण्डल खोज्नुहोस्। आँगनमा सुनौला हात्ती कछुवामाथि उभिएका छन्, र बीचमा स्वयम्भूसँग जोडिएको सानो चैत्य छ, जसलाई मन्दिरभन्दा पनि पुरानो मानिन्छ। सामुन्ने तीन सुनौला छाना भएको मुख्य मन्दिर छ, जसको अगाडिको भागमा बुद्धको जीवनका दृश्य छन्। भित्र शाक्यमुनि बुद्धको चाँदीको मूर्ति छ, जसलाई क्वाबाजु भनिन्छ। अब पुजारी खोज्नुहोस्: उनी सधैँ बाह्र वर्षभन्दा कम उमेरको बालक हुन्छन्, एक महिना सेवा गर्छन्, र हरेक बिहान र साँझ घण्टी बजाउँदै चुपचाप टोल घुम्छन्। विहारमा ८०० वर्ष पुरानो प्रज्ञापारमिता ग्रन्थ पनि छ। भित्र पस्नुअघि जुत्ता खोल्न नबिर्सनुहोस्।",
+  "legend_np": "भनिन्छ, सुनको मन्दिर बिरालोलाई लखेटिरहेको मुसा देखिएको ठाउँमा बनेको हो। यो उल्टो शकुन थियो, जसले त्यो ठाउँलाई विशेष र विहार बनाउन योग्य देखायो। यो कथा अझै टोलमा सम्झिन्छ, र सन् १९९४ सम्म पनि त्यहाँ मुसालाई खान दिइन्थ्यो। आँगनमा खानेकुराका साना भेटी देख्नुभयो भने, तपाईंले त्यही परम्पराको बाँकी रहेको झल्को देख्दै हुनुहुन्छ।",
   "facts_np": [
-   "क्वा बहाल पनि भनिन्छ; नामको अर्थ \"सुनौलो रङको महाविहार\" हो।",
-   "प्रमुख पुजारी बाह्र वर्षमुनिको बालक हुन्छ जसले एक महिना सेवा गर्छ।",
-   "यसले करिब ८०० वर्ष पुरानो प्रज्ञापारमिता पाण्डुलिपि राख्छ, जसलाई हरेक तीन वर्षमा पुनर्स्थापित गरिन्छ।",
-   "यसका आँगनका भवनहरू २०१५ मा क्षतिग्रस्त भए र जुलाई २०२१ मा पुनर्स्थापना सुरु भयो।"
+   "यसलाई क्वा बहाल पनि भनिन्छ; नामको अर्थ \"सुनको रङको ठूलो विहार\" हो।",
+   "प्रमुख पुजारी बाह्र वर्षभन्दा कम उमेरको बालक हुन्छ, जसले एक महिना सेवा गर्छ।",
+   "यहाँ करिब ८०० वर्ष पुरानो प्रज्ञापारमिता पाण्डुलिपि छ, जसलाई हरेक तीन वर्षमा मर्मत गरिन्छ।",
+   "यसका आँगनका भवन सन् २०१५ मा क्षतिग्रस्त भए, र जुलाई २०२१ मा मर्मत सुरु भयो।"
   ],
-  "quake_np": "सन् २०१५ को भूकम्पमा आँगनका भवनहरूमा संरचनात्मक क्षति भयो; पुनर्स्थापना जुलाई २०२१ मा सुरु भयो।",
+  "quake_np": "सन् २०१५ को भूकम्पमा आँगनका भवनमा संरचनागत क्षति भयो; मर्मत जुलाई २०२१ मा सुरु भयो।",
   "clues_np": [
-   "यहाँ एकपटक मुसाले बिरालोलाई लखेट्यो, र आज एक बाल पुजारीले मौनतामा घण्टी बजाउँछन्।",
-   "सुनौलो र महान्, म शाही चोकको ठीक उत्तरमा रहेको विहारको आँगन हुँ।"
+   "यहाँ एकपटक मुसाले बिरालोलाई लखेट्यो, र आज एक बाल पुजारी चुपचाप घण्टी बजाउँदै हिँड्छन्।",
+   "सुनको रङको र ठूलो, म शाही चोकको ठीक उत्तरमा रहेको विहारको आँगन हुँ।",
+   "म प्रज्ञापारमिताको करिब आठ सय वर्ष पुरानो ग्रन्थ जोगाउँछु, र हरेक तीन वर्षमा त्यसको मर्मत गरिन्छ।",
+   "मेरो ढुङ्गाको ढोकाका दुवैतिर सिंह छन्, र त्यसमाथिको छानामा समयको मण्डल लुकेको छ।",
+   "मेरो आँगनमा सुनौला हात्ती कछुवामाथि उभिएका छन्, र मभन्दा पुरानो सानो चैत्य बीचमा छ।",
+   "मेरो मन्दिरमा तीन सुनौला छाना छन्, भित्र चाँदीको बुद्ध बसेका छन्, र ढोकैमा जुत्ता खोल्नुपर्छ।"
   ]
  },
  {
@@ -2284,7 +3256,7 @@
      "पाँच",
      "नौ"
     ],
-    "explanation_np": "यो पाँच तले प्यागोडा हो।"
+    "explanation_np": "यो पाँच तले पगोडा हो।"
    },
    {
     "q": "To which god is Kumbheshwar dedicated?",
@@ -2304,7 +3276,7 @@
      "गणेश",
      "बुद्ध"
     ],
-    "explanation_np": "अगाडिको नन्दी साँढेले देखाएझैँ यो शिवको मन्दिर हो।"
+    "explanation_np": "अगाडि नन्दी गोरु भएकाले देखिन्छ, यो शिवको मन्दिर हो।"
    },
    {
     "q": "Which other Kathmandu Valley temple is a free-standing five-storey pagoda?",
@@ -2317,14 +3289,14 @@
     "answer_index": 0,
     "difficulty": 3,
     "explanation": "Nyatapola in Bhaktapur is the only other free-standing five-storey temple.",
-    "q_np": "काठमाडौँ उपत्यकाको अर्को कुन मन्दिर स्वतन्त्र रूपमा उभिएको पाँच तले प्यागोडा हो?",
+    "q_np": "काठमाडौँ उपत्यकाको अर्को कुन मन्दिर एक्लै उभिएको पाँच तले पगोडा हो?",
     "options_np": [
      "न्यातपोल, भक्तपुर",
      "काष्ठमण्डप, काठमाडौँ",
      "चाँगुनारायण",
      "पशुपतिनाथ"
     ],
-    "explanation_np": "भक्तपुरको न्यातपोल अर्को एक मात्र स्वतन्त्र रूपमा उभिएको पाँच तले मन्दिर हो।"
+    "explanation_np": "भक्तपुरको न्यातपोल एक्लै उभिएको अर्को पाँच तले मन्दिर हो।"
    },
    {
     "q": "From which lake is the spring water of the temple ponds believed to come?",
@@ -2337,7 +3309,7 @@
     "answer_index": 2,
     "difficulty": 3,
     "explanation": "Popular belief holds the water comes from Gosainkunda.",
-    "q_np": "मन्दिरका पोखरीको मूलको पानी कुन तालबाट आउँछ भन्ने विश्वास छ?",
+    "q_np": "मन्दिरका पोखरीको पानी कुन तालबाट आउँछ भन्ने विश्वास छ?",
     "options_np": [
      "फेवा",
      "रारा",
@@ -2357,19 +3329,123 @@
     "answer_index": 0,
     "difficulty": 4,
     "explanation": "King Jayasthiti Malla built it around 1392.",
-    "q_np": "करिब 1392 मा कुम्भेश्वर मन्दिर कुन राजाले बनाए?",
+    "q_np": "करिब सन् १३९२ मा कुम्भेश्वर मन्दिर कुन राजाले बनाए?",
     "options_np": [
      "जयस्थिति मल्ल",
      "सिद्धि नरसिंह मल्ल",
      "यक्ष मल्ल",
      "अंशुवर्मा"
     ],
-    "explanation_np": "राजा जयस्थिति मल्लले करिब 1392 मा यो बनाए।"
+    "explanation_np": "राजा जयस्थिति मल्लले करिब सन् १३९२ मा यो बनाए।"
+   },
+   {
+    "q": "Which animal kneels in front of Kumbheshwar Temple, facing it?",
+    "options": [
+     "An elephant",
+     "A tortoise",
+     "A lion",
+     "A bull (Nandi)"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "A large Nandi, Shiva's bull, kneels in front of the temple, facing it.",
+    "q_np": "कुम्भेश्वर मन्दिरको अगाडि मन्दिरतिर फर्केर घुँडा टेकेर बस्ने जनावर कुन हो?",
+    "options_np": [
+     "हात्ती",
+     "कछुवा",
+     "सिंह",
+     "गोरु (नन्दी)"
+    ],
+    "explanation_np": "शिवको सवारी ठूलो नन्दी गोरु मन्दिरको अगाडि मन्दिरतिर फर्केर घुँडा टेकेर बसेको छ।"
+   },
+   {
+    "q": "How many hiti ponds are found in the Kumbheshwar complex?",
+    "options": [
+     "One",
+     "Two",
+     "Five",
+     "Nine"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The complex has two hiti ponds along with other shrines such as Bagalamukhi and Ulmanta Bhairava.",
+    "q_np": "कुम्भेश्वर परिसरमा कतिवटा हिटी पोखरी छन्?",
+    "options_np": [
+     "एउटा",
+     "दुईवटा",
+     "पाँचवटा",
+     "नौवटा"
+    ],
+    "explanation_np": "परिसरमा बगलामुखी र उल्मन्ता भैरव जस्ता अरू मन्दिरसँगै दुईवटा हिटी पोखरी छन्।"
+   },
+   {
+    "q": "About how far north of Durbar Square is Kumbheshwar?",
+    "options": [
+     "About 2 kilometres",
+     "About 20 kilometres",
+     "About 20 metres",
+     "About 200 metres"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "Kumbheshwar stands about 200 metres north of Patan Durbar Square.",
+    "q_np": "कुम्भेश्वर दरबार क्षेत्रबाट करिब कति उत्तरमा छ?",
+    "options_np": [
+     "करिब २ किलोमिटर",
+     "करिब २० किलोमिटर",
+     "करिब २० मिटर",
+     "करिब २०० मिटर"
+    ],
+    "explanation_np": "कुम्भेश्वर पाटन दरबार क्षेत्रभन्दा करिब २०० मिटर उत्तरमा छ।"
+   },
+   {
+    "q": "On which festival do devotees take a dip in the ponds, said to equal bathing in Gosainkunda?",
+    "options": [
+     "Janai Purnima",
+     "Holi",
+     "Indra Jatra",
+     "Dashain"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "On Janai Purnima, a dip in the ponds is said to equal bathing in Gosainkunda, and the courtyard fills with pilgrims.",
+    "q_np": "कुन चाडमा पोखरीमा डुबुल्की मार्दा गोसाइँकुण्डमै नुहाए जत्तिकै मानिन्छ?",
+    "options_np": [
+     "जनै पूर्णिमा",
+     "होली",
+     "इन्द्रजात्रा",
+     "दशैँ"
+    ],
+    "explanation_np": "जनै पूर्णिमामा पोखरीमा डुबुल्की मार्नु गोसाइँकुण्डमै नुहाए जत्तिकै मानिन्छ, र आँगन तीर्थयात्रीले भरिन्छ।"
+   },
+   {
+    "q": "What happened to the temple's top tier in the April 2015 earthquake, according to a structural study?",
+    "options": [
+     "It was gilded",
+     "It collapsed",
+     "It was untouched",
+     "It cracked slightly"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "A structural study reports that the temple's top tier collapsed in the April 2015 earthquake.",
+    "q_np": "एउटा संरचनागत अध्ययन अनुसार अप्रिल २०१५ को भूकम्पमा मन्दिरको माथिल्लो तहलाई के भयो?",
+    "options_np": [
+     "सुनको पानी चढाइयो",
+     "ढल्यो",
+     "केही भएन",
+     "थोरै चर्क्यो"
+    ],
+    "explanation_np": "एउटा संरचनागत अध्ययन अनुसार अप्रिल २०१५ को भूकम्पमा मन्दिरको माथिल्लो तह ढलेको थियो।"
    }
   ],
   "clues": [
    "Five roofs tall and older than the palace temples, I have a twin only in Bhaktapur.",
-   "A bull kneels before me, and my ponds whisper of a lake high in the mountains."
+   "A bull kneels before me, and my ponds whisper of a lake high in the mountains.",
+   "Two sacred ponds lie in my courtyard, with shrines of a fierce goddess and a Bhairava nearby.",
+   "In 2015 my uppermost tier fell, yet my slender proportions still draw the eye.",
+   "Built around 1392 by a king named Jayasthiti, I am the oldest temple in my city.",
+   "On the full moon of Shrawan, pilgrims crowd to dip in my ponds as if bathing in a mountain lake."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Kumbheshwar_Temple",
@@ -2385,14 +3461,14 @@
     "name_np": "जनै पूर्णिमा",
     "month": "Shrawan",
     "note": "Fair at the sacred ponds; a silver-gold linga is set in the pond for worship",
-    "note_np": "पवित्र पोखरीमा मेला लाग्छ; पूजाका लागि पोखरीमा चाँदी-सुनको लिङ्ग राखिन्छ।"
+    "note_np": "पवित्र पोखरीमा मेला लाग्छ; पूजाका लागि पोखरीमा चाँदी र सुनको लिङ्ग राखिन्छ"
    },
    {
     "name": "Maha Shivaratri",
     "name_np": "महाशिवरात्रि",
     "month": "Falgun",
     "note": "Night of Shiva; devotees offer worship at Shiva shrines",
-    "note_np": "शिवको रात; भक्तजनहरूले शिवालयमा पूजा गर्छन्।"
+    "note_np": "शिवको रात; भक्तजन शिव मन्दिरमा पूजा गर्छन्"
    }
   ],
   "gallery": [
@@ -2469,19 +3545,23 @@
    ],
    "notes": "Slender five-roofed brick pagoda in a courtyard with a walled sacred pond beside it; Nandi bull facing the door"
   },
-  "short_np": "पाटनको सबैभन्दा पुरानो मन्दिर: शिवको पाँच तले पगोडा, जसका पोखरीहरू गोसाइँकुण्डबाट पानी आउँछ भनिन्छ।",
-  "story_np": "दरबार स्क्वायरको करिब २०० मिटर उत्तरमा तपाईं कुम्भेश्वर पुग्नुहुन्छ, जुन करिब सन् १३९२ मा राजा जयस्थिति मल्लले बनाएका थिए र पाटनको सबैभन्दा पुरानो मन्दिर मानिन्छ। छानाहरू गन्नुहोस्: पाँचवटा। उपत्यकामा रहेका एक्लै उभिएका दुईवटा मात्र पाँच तले मन्दिरमध्ये यो एक हो; अर्को भक्तपुरको प्रसिद्ध न्यातपोल हो। कुम्भेश्वर शिवलाई समर्पित छ, र उनको बाहन ठूलो नन्दी अगाडि मन्दिरतिर फर्केर घुँडा टेकेको छ। परिसरमा हिँड्दा तपाईंले बगलामुखी र उल्मन्ता भैरवलगायत अन्य मन्दिर र दुईवटा हिटी पोखरी भेट्टाउनुहुनेछ। धेरैले यी पोखरीलाई पानी दिने मूल काठमाडौँको ४३ किलोमिटर उत्तरको पवित्र ताल गोसाइँकुण्डबाट आएको विश्वास गर्छन्। त्यसैले जनै पूर्णिमामा भक्तजनहरू यहाँ डुबुल्की मार्छन्, जुन गोसाइँकुण्डमै नुहाएसरह मानिन्छ, र आँगन तीर्थयात्रीले भरिन्छ। मन्दिरको माथिल्लो भाग सन् २०१५ को भूकम्पमा क्षतिग्रस्त भयो। जाँदा, अग्ला तहहरू फेरि हेर्नुहोस् र मन्दिर प्रसिद्ध रहेको सुन्दर अनुपात र बारीक काष्ठकला ध्यान दिनुहोस्।",
-  "legend_np": "कुम्भेश्वरका पोखरीलाई भर्ने मूल काठमाडौँको ४३ किमी उत्तरको हिमाली पवित्र ताल गोसाइँकुण्डबाट उत्पत्ति हुन्छ भन्ने लोकप्रिय विश्वास छ। यही लुकेको भूमिगत सम्बन्धका कारण जनै पूर्णिमाको पर्वमा यहाँ अनुष्ठानको डुबुल्की मार्दा गोसाइँकुण्डमै नुहाएजस्तै पुण्य मिल्छ भनिन्छ। लामो हिमाली यात्रा गर्न नसक्ने तीर्थयात्रीका लागि कुम्भेश्वरले त्यही आशीर्वाद धेरै नजिकै दिन्छ।",
+  "short_np": "पाटनको सबैभन्दा पुरानो मन्दिर: शिवको पाँच छाने पगोडा, जसका पोखरीमा गोसाइँकुण्डबाट पानी आउँछ भनिन्छ।",
+  "story_np": "दरबार क्षेत्रबाट करिब २०० मिटर उत्तर हिँड्दा तपाईं कुम्भेश्वर पुग्नुहुन्छ। यो करिब सन् १३९२ मा राजा जयस्थिति मल्लले बनाएका हुन्, र पाटनको सबैभन्दा पुरानो मन्दिर मानिन्छ। छाना गन्नुहोस्: पाँचवटा। उपत्यकामा एक्लै उभिएका पाँच तले मन्दिर दुईवटा मात्र छन्, र यो ती मध्ये एक हो। अर्को भक्तपुरको चर्चित न्यातपोल हो। कुम्भेश्वर शिवलाई समर्पित छ, र उनको सवारी ठूलो नन्दी गोरु अगाडि मन्दिरतिर फर्केर घुँडा टेकेर बसेको छ। परिसर घुम्दा अरू मन्दिर पनि भेट्नुहुन्छ, जसमा बगलामुखी र उल्मन्ता भैरव छन्, र दुईवटा हिटी पोखरी पनि छन्। धेरैले यी पोखरी भर्ने मूल काठमाडौँभन्दा ४३ किलोमिटर उत्तरको पवित्र ताल गोसाइँकुण्डबाटै आउँछ भन्ने विश्वास गर्छन्। त्यसैले जनै पूर्णिमामा भक्तजन यहाँ डुबुल्की मार्छन्, जसलाई गोसाइँकुण्डमै नुहाए जत्तिकै मानिन्छ, र आँगन तीर्थयात्रीले भरिन्छ। २०१५ को भूकम्पमा मन्दिरको माथिल्लो भागमा क्षति पुग्यो। फर्कने बेला अग्ला तहहरू फेरि हेर्नुहोस्, र यो मन्दिर जसका लागि प्रसिद्ध छ, त्यो सुन्दर अनुपात र बारीक काठको कुँदाइ ध्यान दिएर हेर्नुहोस्।",
+  "legend_np": "कुम्भेश्वरका पोखरी भर्ने मूल काठमाडौँभन्दा ४३ किलोमिटर उत्तरका हिमालको पवित्र ताल गोसाइँकुण्डबाट आउँछ भन्ने लोकविश्वास छ। यही भूमिगत जोडाइका कारण जनै पूर्णिमाको चाडमा यहाँ डुबुल्की मार्दा गोसाइँकुण्डमै नुहाए जत्तिकै पुण्य पाइन्छ भनिन्छ। लामो हिमाली यात्रा गर्न नसक्ने तीर्थयात्रीलाई कुम्भेश्वरले त्यही आशीर्वाद धेरै नजिकै दिन्छ।",
   "facts_np": [
-   "करिब सन् १३९२ मा राजा जयस्थिति मल्लले बनाएका, जसले यसलाई पाटनको सबैभन्दा पुरानो मन्दिर बनाउँछ।",
-   "उपत्यकाका एक्लै उभिएका दुईवटा पाँच तले मन्दिरमध्ये एक, अर्को भक्तपुरको न्यातपोल।",
-   "एउटा ठूलो नन्दी साँढे मन्दिरतिर फर्केको छ, जसले यसलाई शिव मन्दिर जनाउँछ।",
-   "यसका पोखरीहरू गोसाइँकुण्डबाट पानी आउँछ भन्ने विश्वास छ र जनै पूर्णिमामा भीड तान्छन्।"
+   "करिब सन् १३९२ मा राजा जयस्थिति मल्लले बनाएको, त्यसैले यो पाटनको सबैभन्दा पुरानो मन्दिर हो।",
+   "उपत्यकाका दुईवटा एक्लै उभिएका पाँच तले मन्दिरमध्ये एक; अर्को भक्तपुरको न्यातपोल हो।",
+   "ठूलो नन्दी गोरु मन्दिरतिर फर्केको छ, जसले यो शिवको मन्दिर हो भन्ने देखाउँछ।",
+   "यसका पोखरीमा गोसाइँकुण्डबाट पानी आउँछ भन्ने विश्वास छ, र जनै पूर्णिमामा यहाँ भीड लाग्छ।"
   ],
-  "quake_np": "एउटा संरचनात्मक अध्ययनले सन् २०१५ अप्रिलको भूकम्पमा मन्दिरको माथिल्लो तह ढलेको बताएको छ।",
+  "quake_np": "एउटा संरचनागत अध्ययन अनुसार अप्रिल २०१५ को भूकम्पमा मन्दिरको माथिल्लो तह ढलेको थियो।",
   "clues_np": [
    "पाँच छाना अग्लो र दरबार क्षेत्रका मन्दिरभन्दा पुरानो, मेरो जोडी भक्तपुरमा मात्र छ।",
-   "मेरो अगाडि साँढे घुँडा टेकेर बस्छ, र मेरा पोखरीले हिमालको कुनै अग्लो तालको कुरा फुसफुसाउँछन्।"
+   "मेरो अगाडि गोरु घुँडा टेकेर बस्छ, र मेरा पोखरीले हिमालको कुनै अग्लो तालको कुरा गर्छन्।",
+   "मेरो आँगनमा दुईवटा पवित्र पोखरी छन्, र छेउमै उग्र देवी र भैरवका मन्दिर छन्।",
+   "२०१५ मा मेरो सबैभन्दा माथिल्लो तह ढल्यो, तैपनि मेरो पातलो अनुपातले अझै आँखा तान्छ।",
+   "जयस्थिति नाम गरेका राजाले करिब सन् १३९२ मा बनाएको म आफ्नो सहरकै सबैभन्दा पुरानो मन्दिर हुँ।",
+   "श्रावणको पूर्णिमामा तीर्थयात्री मेरा पोखरीमा डुबुल्की मार्न भीड लगाउँछन्, मानौँ हिमालको तालमै नुहाइरहेका छन्।"
   ]
  },
  {
@@ -2537,14 +3617,14 @@
     "answer_index": 0,
     "difficulty": 1,
     "explanation": "It is loosely based on the Mahabodhi Temple at Bodh Gaya.",
-    "q_np": "महाबौद्धको बनावटलाई कुन प्रसिद्ध मन्दिरले प्रेरित गर्‍यो?",
+    "q_np": "कुन प्रसिद्ध मन्दिरबाट महाबौद्धको बनावट प्रेरित भएको हो?",
     "options_np": [
      "महाबोधि मन्दिर, बोधगया",
      "अङ्कोर वाट",
      "बोरोबुदुर",
-     "श्वेदागोन पगोडा"
+     "श्वेडागोन पगोडा"
     ],
-    "explanation_np": "यो बोधगयाको महाबोधि मन्दिरमा ढिलो रूपमा आधारित छ।"
+    "explanation_np": "यो बोधगयाको महाबोधि मन्दिरबाट केही हदसम्म लिइएको हो।"
    },
    {
     "q": "Why is Mahabouddha called the Temple of a Thousand Buddhas?",
@@ -2559,12 +3639,12 @@
     "explanation": "Each terracotta tile carries a small Buddha image.",
     "q_np": "महाबौद्धलाई हजार बुद्धको मन्दिर किन भनिन्छ?",
     "options_np": [
-     "भित्र 1,000 वटा मूर्ति छन्",
+     "भित्र १,००० वटा मूर्ति छन्",
      "यसका टेराकोटा टायलमा बुद्धका आकृति छन्",
-     "1,000 भिक्षुले यसलाई बनाए",
-     "बनाउन 1,000 वर्ष लाग्यो"
+     "१,००० भिक्षुले बनाएका थिए",
+     "बन्न १,००० वर्ष लाग्यो"
     ],
-    "explanation_np": "प्रत्येक टेराकोटा टायलमा बुद्धको सानो आकृति छ।"
+    "explanation_np": "हरेक टेराकोटा टायलमा बुद्धको सानो आकृति छ।"
    },
    {
     "q": "What material clads the temple?",
@@ -2579,8 +3659,8 @@
     "explanation": "It is covered in terracotta tiles.",
     "q_np": "मन्दिर कुन सामग्रीले ढाकिएको छ?",
     "options_np": [
-     "संगमरमर",
-     "सुनौलो तामा",
+     "सङ्गमरमर",
+     "सुन चढाएको तामा",
      "टेराकोटा",
      "काठ"
     ],
@@ -2597,14 +3677,14 @@
     "answer_index": 0,
     "difficulty": 3,
     "explanation": "It was rebuilt after the 1934 Nepal-India earthquake.",
-    "q_np": "कुन विपत्तिले मन्दिर ध्वस्त पार्‍यो, जसले पुनर्निर्माण गर्न लगायो?",
+    "q_np": "कुन विपत्तिले मन्दिर ढाल्यो, जसपछि यसलाई फेरि बनाइयो?",
     "options_np": [
-     "सन् 1934 को भूकम्प",
-     "सन् 1662 को आगलागी",
-     "सन् 1768 को विजय",
-     "सन् 1988 को भूकम्प"
+     "सन् १९३४ को भूकम्प",
+     "सन् १६६२ को आगलागी",
+     "सन् १७६८ को विजय",
+     "सन् १९८८ को भूकम्प"
     ],
-    "explanation_np": "सन् 1934 को नेपाल-भारत भूकम्पपछि यो पुनर्निर्माण गरियो।"
+    "explanation_np": "सन् १९३४ को नेपाल-भारत भूकम्पपछि यसलाई फेरि बनाइएको थियो।"
    },
    {
     "q": "Which architectural form is Mahabouddha?",
@@ -2617,7 +3697,7 @@
     "answer_index": 2,
     "difficulty": 4,
     "explanation": "It is a shikhara-style Newar Buddhist temple.",
-    "q_np": "महाबौद्ध कुन वास्तुकला रूप हो?",
+    "q_np": "महाबौद्ध वास्तुकलाको कुन रूपमा बनेको हो?",
     "options_np": [
      "पगोडा",
      "स्तूप",
@@ -2625,11 +3705,115 @@
      "गुम्बा"
     ],
     "explanation_np": "यो शिखर शैलीको नेवार बौद्ध मन्दिर हो।"
+   },
+   {
+    "q": "From where can you get the best view of the cramped Mahabouddha courtyard?",
+    "options": [
+     "A hilltop stupa",
+     "The Patan Museum balcony",
+     "A boat on a nearby river",
+     "The rooftops of surrounding workshops"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "Because the courtyard is so cramped, the best views come from the rooftops of the surrounding workshops.",
+    "q_np": "साँघुरो आँगनमा रहेको महाबौद्धको सबैभन्दा राम्रो दृश्य कहाँबाट देखिन्छ?",
+    "options_np": [
+     "डाँडाको स्तूपबाट",
+     "पाटन संग्रहालयको झ्यालबाट",
+     "नजिकको नदीको डुङ्गाबाट",
+     "वरपरका कार्यशालाका छतबाट"
+    ],
+    "explanation_np": "आँगन साँघुरो भएकाले सबैभन्दा राम्रो दृश्य वरपरका कार्यशालाका छतबाट देखिन्छ।"
+   },
+   {
+    "q": "What do many of the workshops around the temple sell?",
+    "options": [
+     "Woollen carpets",
+     "Patan's famous metal statues",
+     "Tea and spices",
+     "Paper lanterns"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Many surrounding workshops sell Patan's famous metal statues.",
+    "q_np": "मन्दिर वरपरका धेरै कार्यशालामा के बेचिन्छ?",
+    "options_np": [
+     "ऊनका गलैँचा",
+     "पाटनका चर्चित धातुका मूर्ति",
+     "चिया र मसला",
+     "कागजका लालटिन"
+    ],
+    "explanation_np": "वरपरका धेरै कार्यशालामा पाटनका चर्चित धातुका मूर्ति बेचिन्छन्।"
+   },
+   {
+    "q": "Which Patan priest does local tradition credit with starting the temple?",
+    "options": [
+     "Siddhi Narasimha",
+     "Jayasthiti",
+     "Gorakhnath",
+     "Abhaya Raj Shakya"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "Local tradition credits a Patan priest, Abhaya Raj Shakya, who was inspired by a pilgrimage to Bodh Gaya.",
+    "q_np": "स्थानीय परम्परा अनुसार मन्दिर सुरु गर्ने श्रेय पाटनका कुन पुजारीलाई दिइन्छ?",
+    "options_np": [
+     "सिद्धि नरसिंह",
+     "जयस्थिति",
+     "गोरखनाथ",
+     "अभय राज शाक्य"
+    ],
+    "explanation_np": "स्थानीय परम्परा अनुसार बोधगयाको तीर्थयात्राबाट प्रेरित पाटनका पुजारी अभय राज शाक्यले यो सुरु गरेका थिए।"
+   },
+   {
+    "q": "In the legend, who urged a discouraged son to finish the temple his father had begun?",
+    "options": [
+     "A goddess",
+     "A Buddhist monk",
+     "A foreign pilgrim",
+     "A king"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Some accounts say one son nearly gave up before a goddess appeared and urged him to finish his father's work.",
+    "q_np": "कथामा, बुबाले सुरु गरेको मन्दिर पूरा गर्न हिम्मत हारेका छोरालाई कसले आग्रह गर्‍यो?",
+    "options_np": [
+     "एक देवीले",
+     "एक बौद्ध भिक्षुले",
+     "एक विदेशी तीर्थयात्रीले",
+     "एक राजाले"
+    ],
+    "explanation_np": "केही विवरण अनुसार एक छोराले काम छोड्न लाग्दा एकजना देवी देखा परिन् र बुबाको काम पूरा गर्न भनिन्।"
+   },
+   {
+    "q": "According to Wikipedia, in which year was Mahabouddha built?",
+    "options": [
+     "1736",
+     "1585",
+     "1409",
+     "1673"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Wikipedia dates the temple to 1585, while other accounts place its beginning earlier and completion around 1610.",
+    "q_np": "विकिपिडियाका अनुसार महाबौद्ध कुन वर्ष बनेको हो?",
+    "options_np": [
+     "१७३६",
+     "१५८५",
+     "१४०९",
+     "१६७३"
+    ],
+    "explanation_np": "विकिपिडियाले मन्दिर १५८५ को हो भन्छ, तर अरू विवरणले सुरु अलि अघि र पूरा हुँदा करिब १६१० मा भएको भन्छन्।"
    }
   ],
   "clues": [
    "A pilgrim brought Bodh Gaya home to Patan; now countless clay faces gaze from my tiles.",
-   "I hide in a cramped courtyard, so climb a neighbour's roof to see my full height."
+   "I hide in a cramped courtyard, so climb a neighbour's roof to see my full height.",
+   "A priest's sons carried my building on across the years, and a goddess once urged one of them not to quit.",
+   "Sold in the workshops that crowd around me are Patan's famous metal statues.",
+   "In 1934 an earthquake brought me down, and I was raised again.",
+   "I am a tall terracotta tower squeezed into a tiny courtyard south-east of the palace square."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Mahabouddha_Temple",
@@ -2708,19 +3892,23 @@
    ],
    "notes": "Tall terracotta tower covered in small Buddha tiles, squeezed into a tiny courtyard hemmed in by houses"
   },
-  "short_np": "बोधगयाबाट प्रेरित टेराकोटाको शिखर, जसका इँटामा अनगिन्ती साना बुद्ध छन्।",
-  "story_np": "दरबार क्षेत्रको दक्षिणपूर्वका साँघुरा गल्ली पछ्याउनुहोस्, र अचानक एउटा सानो आँगनमा थिचिएको अग्लो टेराकोटा टावर देखिन्छ। यो महाबौद्ध हो, हजार बुद्धको मन्दिर। यसको नक्सा भारतको बोधगयास्थित महाबोधि मन्दिरबाट ढिलो रूपमा लिइएको हो, जहाँ बुद्धले बोधि प्राप्त गरे। नजिक गएर सतह हेर्नुहोस्: यो टेराकोटाका इँटाले ढाकिएको छ, र प्रत्येक इँटामा बुद्धको सानो मूर्ति छ, जसले मन्दिरलाई यो उपनाम दिएको हो। विकिपिडियाले मन्दिरलाई 1585 को भन्छ, भने अन्य वृत्तान्तले यसको सुरुवात अलि अघि र पूर्णता करिब 1610 मा राख्छन्। स्थानीय परम्परा अनुसार बोधगया तीर्थयात्राबाट प्रेरित भएका पाटनका पुजारी अभय राज शाक्यले यो सुरु गरेका हुन्। 1934 को ठूलो भूकम्पले मन्दिर ध्वस्त पार्‍यो, र त्यसपछि यसलाई पुनर्निर्माण गरियो। आँगन साँघुरो भएकाले उत्कृष्ट दृश्य वरिपरिका कार्यशालाका छतबाट आउँछ, जसमध्ये धेरैले पाटनका प्रसिद्ध धातुका मूर्ति बेच्छन्। विनम्रतापूर्वक सोध्नुहोस्, र तपाईंलाई माथि बोलाइन सक्छ।",
-  "legend_np": "परम्परा अनुसार पुजारी अभय राज शाक्यले बोधगयाको तीर्थयात्राबाट फर्केपछि मन्दिर सुरु गरे, तर जग हालेको केही समयमै उनको मृत्यु भयो। उनका छोराहरूले वर्षौँ काम अगाडि बढाए, र अन्ततः परिवारले मन्दिर पूरा गर्‍यो, पुस्तौँसम्म चलेको भक्ति। केही वृत्तान्तले भन्छन्, एक छोराले लगभग काम छाड्न लागेका बेला देवी प्रकट भइन् र बुबाले सुरु गरेको काम पूरा गर्न आग्रह गरिन्।",
+  "short_np": "बोधगयाबाट प्रेरित टेराकोटाको शिखर मन्दिर, जसका टायलमा अनगिन्ती साना बुद्ध छन्।",
+  "story_np": "दरबार क्षेत्रको दक्षिणपूर्वका साँघुरा गल्ली हिँड्दै जानुहोस्। अचानक सानो आँगनमा निचोरिएर बसेको अग्लो टेराकोटाको टावर देखिन्छ। यो महाबौद्ध हो, हजार बुद्धको मन्दिर। यसको बनावट भारतको बोधगयामा रहेको महाबोधि मन्दिरबाट केही हदसम्म लिइएको हो, जहाँ बुद्धले ज्ञान पाएका थिए। नजिक गएर सतह हेर्नुहोस्: यो टेराकोटाका टायलले ढाकिएको छ, र हरेक टायलमा बुद्धको सानो आकृति छ। यसैले मन्दिरलाई यो उपनाम मिलेको हो। विकिपिडियाले मन्दिर १५८५ को हो भन्छ, तर अरू विवरणले सुरु अलि अघि र पूरा हुँदा करिब १६१० मा भएको भन्छन्। स्थानीय परम्परा अनुसार बोधगयाको तीर्थयात्राबाट प्रेरित भएका पाटनका पुजारी अभय राज शाक्यले यो सुरु गरेका थिए। सन् १९३४ को ठूलो भूकम्पले मन्दिर ढाल्यो, र त्यसपछि यसलाई फेरि बनाइयो। आँगन साँघुरो भएकाले सबैभन्दा राम्रो दृश्य वरपरका कार्यशालाका छतबाट देखिन्छ। ती धेरै कार्यशालामा पाटनका चर्चित धातुका मूर्ति बेचिन्छन्। नम्रतासाथ सोध्नुहोस्, तपाईंलाई माथि बोलाइन सक्छ।",
+  "legend_np": "परम्परा अनुसार पुजारी अभय राज शाक्यले बोधगयाको तीर्थयात्राबाट फर्केर मन्दिर सुरु गरे, तर जग हालेको केही समयमै उनको मृत्यु भयो। उनका छोराहरूले वर्षौँसम्म काम अघि बढाए, र अन्त्यमा परिवारले नै मन्दिर पूरा गर्‍यो। यो भक्ति कैयौँ पुस्तासम्म चल्यो। केही विवरण अनुसार एक छोराले काम छोडिदिन लाग्दा एकजना देवी देखा परिन् र बुबाले सुरु गरेको काम पूरा गर्न भनिन्।",
   "facts_np": [
-   "यसको नक्सा भारतको बोधगयास्थित महाबोधि मन्दिरबाट ढिलो रूपमा लिइएको हो।",
-   "यो उपनाम बुद्धको मूर्ति भएका धेरै टेराकोटा इँटाबाट आएको हो।",
-   "विकिपिडियाले मन्दिरलाई 1585 को भन्छ; अन्य वृत्तान्तले c. 1564 देखि 1610 सम्म दिन्छन्।",
-   "यो 1934 को नेपाल-भारत भूकम्पपछि पुनर्निर्माण गरिएको थियो।"
+   "यसको बनावट भारतको बोधगयाको महाबोधि मन्दिरबाट केही हदसम्म लिइएको हो।",
+   "यो उपनाम बुद्धको आकृति भएका धेरै टेराकोटा टायलबाट आएको हो।",
+   "विकिपिडियाले मन्दिरलाई १५८५ को भन्छ; अरू विवरणले करिब १५६४ देखि १६१० सम्म भन्छन्।",
+   "सन् १९३४ को नेपाल-भारत भूकम्पपछि यसलाई फेरि बनाइएको थियो।"
   ],
   "quake_np": null,
   "clues_np": [
-   "एक तीर्थयात्रीले बोधगयालाई पाटन ल्याए; अहिले मेरा टायलबाट असङ्ख्य माटाका अनुहार हेरिरहेका छन्।",
-   "म साँघुरो चोकमा लुकेको छु, त्यसैले मेरो पूरा उचाइ हेर्न छिमेकीको छतमा चढ।"
+   "एक तीर्थयात्रीले बोधगयालाई पाटन ल्याए; अहिले मेरा टायलबाट असङ्ख्य साना अनुहार हेरिरहेका छन्।",
+   "म साँघुरो आँगनमा लुकेको छु, त्यसैले मेरो पूरै उचाइ हेर्न छिमेकीको छतमा चढ्नुपर्छ।",
+   "एक पुजारीका छोराहरूले वर्षौँसम्म मेरो निर्माण अगाडि बढाए, र एकपटक एकजना देवीले एउटा छोरालाई काम नछाड्न भनिन्।",
+   "मलाई घेरेका कार्यशालामा पाटनका चर्चित धातुका मूर्ति बेचिन्छन्।",
+   "सन् १९३४ को भूकम्पले मलाई ढाल्यो, र मलाई फेरि उठाइयो।",
+   "म शाही चोकको दक्षिणपूर्वतिर सानो आँगनमा निचोरिएर बसेको अग्लो टेराकोटाको टावर हुँ।"
   ]
  },
  {
@@ -2783,7 +3971,7 @@
      "पुरानो",
      "पवित्र"
     ],
-    "explanation_np": "रातो भनेको नेपालीमा रातो रङ, देवताको मूर्तिको रङ।"
+    "explanation_np": "रातो भनेको देवताको मूर्तिको रङ हो।"
    },
    {
     "q": "What is the deity believed to bring?",
@@ -2796,14 +3984,14 @@
     "answer_index": 1,
     "difficulty": 2,
     "explanation": "Bunga Dyah is popularly believed to bring the monsoon rains.",
-    "q_np": "देवताले के ल्याउँछन् भन्ने विश्वास गरिन्छ?",
+    "q_np": "देवताले के ल्याउँछन् भन्ने विश्वास छ?",
     "options_np": [
      "धन",
-     "मनसुनी वर्षा",
-     "युद्धमा विजय",
+     "मनसुनको वर्षा",
+     "युद्धमा जित",
      "सन्तान"
     ],
-    "explanation_np": "बुङ्गद्यले मनसुनको वर्षा ल्याउँछन् भन्ने लोकविश्वास छ।"
+    "explanation_np": "बुङ्ग द्यःले मनसुनको वर्षा ल्याउँछन् भन्ने लोकविश्वास छ।"
    },
    {
     "q": "Which ceremony concludes the chariot festival at Jawalakhel?",
@@ -2816,14 +4004,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "The festival ends with Bhoto Jatra, the display of a jewelled vest.",
-    "q_np": "जावलाखेलमा रथजात्राको समापन कुन समारोहले गर्छ?",
+    "q_np": "जावलाखेलमा रथजात्राको अन्त्य कुन समारोहले गर्छ?",
     "options_np": [
      "इन्द्रजात्रा",
      "भोटो जात्रा",
      "बिस्केट जात्रा",
      "घोडेजात्रा"
     ],
-    "explanation_np": "जात्रा भोटो जात्रा, रत्नजडित भोटो देखाउने समारोहसँगै सकिन्छ।"
+    "explanation_np": "जात्रा भोटो जात्राले सकिन्छ, जब रत्नजडित भोटो देखाइन्छ।"
    },
    {
     "q": "In which courtyard does the Patan temple stand?",
@@ -2836,14 +4024,14 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "The temple stands in the centre of the Ta Bahal courtyard.",
-    "q_np": "पाटनको मन्दिर कुन चोकमा अवस्थित छ?",
+    "q_np": "पाटनको मन्दिर कुन आँगनमा छ?",
     "options_np": [
-     "क्वबहाल",
-     "तबहाल",
-     "नागबहाल",
-     "मूलचोक"
+     "क्वा बहाल",
+     "ता बहाल",
+     "नाग बहाल",
+     "मूल चोक"
     ],
-    "explanation_np": "मन्दिर तबहालको चोकको बीचमा उभिएको छ।"
+    "explanation_np": "मन्दिर ता बहालको आँगनको बीचमा छ।"
    },
    {
     "q": "From what year does the present Patan temple date?",
@@ -2856,19 +4044,123 @@
     "answer_index": 2,
     "difficulty": 5,
     "explanation": "The current building dates from 1673; an earlier temple stood there by 1408.",
-    "q_np": "पाटनको हालको मन्दिर कुन वर्षको हो?",
+    "q_np": "पाटनको अहिलेको मन्दिर कुन वर्षको हो?",
     "options_np": [
-     "1408",
-     "1592",
-     "1673",
-     "1934"
+     "१४०८",
+     "१५९२",
+     "१६७३",
+     "१९३४"
     ],
-    "explanation_np": "हालको भवन 1673 को हो; 1408 सम्ममा त्यहाँ अघिल्लो मन्दिर थियो।"
+    "explanation_np": "अहिलेको भवन सन् १६७३ को हो; सन् १४०८ सम्ममा त्यहाँ अघिल्लो मन्दिर थियो।"
+   },
+   {
+    "q": "How many tiers does the Rato Machhindranath Temple have?",
+    "options": [
+     "Three",
+     "Five",
+     "One",
+     "Two"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It is a three-tiered Newar pagoda in the centre of the Ta Bahal courtyard.",
+    "q_np": "रातो मच्छिन्द्रनाथ मन्दिरमा कति तल्ला छन्?",
+    "options_np": [
+     "तीन",
+     "पाँच",
+     "एक",
+     "दुई"
+    ],
+    "explanation_np": "यो ता बहालको आँगनको बीचमा रहेको तीन तले नेवार पगोडा हो।"
+   },
+   {
+    "q": "In which other place does the god spend part of the year?",
+    "options": [
+     "Bhaktapur",
+     "Dhulikhel",
+     "Pokhara",
+     "Bungamati"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "The god divides his year between Patan and his other home in Bungamati.",
+    "q_np": "देवताले वर्षको केही समय अर्को कुन ठाउँमा बिताउँछन्?",
+    "options_np": [
+     "भक्तपुर",
+     "धुलिखेल",
+     "पोखरा",
+     "बुङ्गमती"
+    ],
+    "explanation_np": "देवताले आफ्नो वर्ष पाटन र बुङ्गमतीमा रहेको अर्को घरबीच बाँडेर बिताउँछन्।"
+   },
+   {
+    "q": "Which Bodhisattva is the Newar Bunga Dyah (Karunamaya) a form of?",
+    "options": [
+     "Avalokiteshvara",
+     "Maitreya",
+     "Vajrapani",
+     "Manjushri"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Newars call him Bunga Dyah or Karunamaya, the compassionate one, a form of the Bodhisattva Avalokiteshvara.",
+    "q_np": "नेवारहरूले बुङ्ग द्यः (करुणामय) लाई कुन बोधिसत्त्वको रूप मान्छन्?",
+    "options_np": [
+     "अवलोकितेश्वर",
+     "मैत्रेय",
+     "वज्रपाणि",
+     "मञ्जुश्री"
+    ],
+    "explanation_np": "नेवारहरू उनलाई बुङ्ग द्यः वा करुणामय भन्छन्, जो बोधिसत्त्व अवलोकितेश्वरको एउटा रूप हो।"
+   },
+   {
+    "q": "In the legend, which sage sat meditating on the rain-bringing serpents during a twelve-year drought?",
+    "options": [
+     "Vyasa",
+     "Valmiki",
+     "Gorakhnath",
+     "Narada"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The sage Gorakhnath sat meditating on the serpents that bring rain until his teacher Machhindranath arrived.",
+    "q_np": "कथामा बाह्र वर्षको खडेरीमा वर्षा ल्याउने नागमाथि ध्यान गरेर बस्ने ऋषि को थिए?",
+    "options_np": [
+     "व्यास",
+     "वाल्मीकि",
+     "गोरखनाथ",
+     "नारद"
+    ],
+    "explanation_np": "ऋषि गोरखनाथ वर्षा ल्याउने नागहरूमाथि ध्यान गरेर बसे, जबसम्म उनका गुरु मच्छिन्द्रनाथ आएनन्।"
+   },
+   {
+    "q": "Where is the roughly 60-foot chariot for the festival built?",
+    "options": [
+     "Jawalakhel",
+     "Bungamati",
+     "Kumbheshwar",
+     "Pulchowk"
+    ],
+    "answer_index": 3,
+    "difficulty": 3,
+    "explanation": "The chariot, about 60 feet tall, is built at Pulchowk and pulled through the streets to Jawalakhel.",
+    "q_np": "जात्राको करिब ६० फिट अग्लो रथ कहाँ बनाइन्छ?",
+    "options_np": [
+     "जावलाखेल",
+     "बुङ्गमती",
+     "कुम्भेश्वर",
+     "पुल्चोक"
+    ],
+    "explanation_np": "करिब ६० फिट अग्लो रथ पुल्चोकमा बनाइन्छ, र गल्ली-गल्ली हुँदै जावलाखेलसम्म तानिन्छ।"
    }
   ],
   "clues": [
    "Red-faced and rain-bringing, I leave home each year to ride Nepal's longest chariot procession through Patan.",
-   "I share my year between this courtyard and a village on a spur above the Bagmati."
+   "I share my year between this courtyard and a village on a spur above the Bagmati.",
+   "Hindus call me one name, Newars call me the compassionate one, a form of Avalokiteshvara.",
+   "A chariot about sixty feet tall is built anew each year to carry me through the streets.",
+   "On the closing day of my festival a jewelled vest is held up for everyone to see.",
+   "Once a sage held the rain-serpents captive; my arrival freed them and ended a twelve-year drought."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Rato_Machindranath_Jatra",
@@ -2892,7 +4184,7 @@
     "name_np": "भोटो जात्रा",
     "month": "Jestha",
     "note": "Closing day of the chariot festival: the jewelled vest is shown at Jawalakhel",
-    "note_np": "रथजात्राको समापन दिन: जावलाखेलमा रत्नजडित भोटो देखाइन्छ"
+    "note_np": "रथजात्राको अन्तिम दिन: जावलाखेलमा रत्नजडित भोटो देखाइन्छ"
    }
   ],
   "gallery": [
@@ -2968,19 +4260,23 @@
    ],
    "notes": "Three-roofed pagoda standing alone in a large open brick courtyard, guarded by stone lions, with pillars around it"
   },
-  "short_np": "रातो वर्षाका देवता बुङ्गद्यःको पाटनस्थित घर, नेपालको सबैभन्दा लामो रथयात्राले सम्मानित।",
-  "story_np": "दरबार चोकको दक्षिणमा, ता बहालको खुला आँगनमा रातो मच्छिन्द्रनाथको तीनतले मन्दिर उभिएको छ। हालको भवन सन् 1673 को हो, यद्यपि यहाँ कम्तीमा सन् 1408 देखि मन्दिर रहँदै आएको छ। देवताका धेरै नाम छन्। नेवारहरूले उनलाई बुङ्गद्यः वा करुणामय, दयालु, बोधिसत्त्व अवलोकितेश्वरको एक रूप भन्छन्; हिन्दूहरू उनलाई मच्छिन्द्रनाथ भनेर चिन्छन्। रातो भनेको रातो, उनको मूर्तिको रङ। उनले मनसुनको वर्षा ल्याउँछन् भन्ने विश्वास गरिन्छ। हरेक वर्ष रातो मच्छिन्द्रनाथ जात्रामा उनको मूर्ति यो मन्दिरबाट निस्कन्छ र पुल्चोकमा बनाइएको करिब 60 फिट अग्लो रथमा सवार भई जावलाखेलसम्म सहरका गल्लीहरूबाट एक महिना लामो यात्रा गर्छ। यो नेपालको सबैभन्दा लामो रथयात्रा हो, र यो भोटो जात्रामा सकिन्छ, जब एउटा रत्नजडित कोट सबैले देख्ने गरी उठाइन्छ। देवताले आफ्नो वर्ष पाटन र बुङ्गमतीमा रहेको अर्को घरबीच बाँड्छन्। आँगनमा बिस्तारै घुम्नुहोस्, जहाँ हिन्दू र बौद्ध भक्ति साँच्चै मिल्छन्।",
-  "legend_np": "बाह्र वर्षे अनिकालका बेला ऋषि गोरखनाथ वर्षा ल्याउने नागहरूमाथि ध्यानमा बसे। उनका गुरु मच्छिन्द्रनाथको आगमनले मात्र उनलाई उठाउन सक्थ्यो, त्यसैले दूतहरूले मच्छिन्द्रनाथलाई उपत्यकामा ल्याए। गोरखनाथ उनलाई स्वागत गर्न उठे, नागहरू मुक्त भए र वर्षा फर्कियो। ललितपुरका चतुर राजाले त्यसपछि देवतालाई आफ्नै सहरमा राखे, र त्यसयता हरेक वर्ष पाटनका मानिसहरूले राम्रो वर्षाका लागि प्रार्थना गर्दै उनको रथ गल्लीहरूमा तान्छन्।",
+  "short_np": "रातो वर्षा देवता बुङ्ग द्यःको पाटनको घर, जहाँबाट नेपालको सबैभन्दा लामो रथजात्रा निस्कन्छ।",
+  "story_np": "दरबार क्षेत्रको दक्षिणमा, ता बहालको खुला आँगनमा रातो मच्छिन्द्रनाथको तीन तले मन्दिर छ। अहिलेको भवन सन् १६७३ को हो, तर यहाँ कम्तीमा सन् १४०८ देखि मन्दिर छ। देवताका धेरै नाम छन्। नेवारहरू उनलाई बुङ्ग द्यः वा करुणामय भन्छन्, जो बोधिसत्त्व अवलोकितेश्वरको एउटा रूप हो। हिन्दूहरू उनलाई मच्छिन्द्रनाथ भन्छन्। रातो भनेको उनको मूर्तिको रङ। उनले मनसुनको वर्षा ल्याउँछन् भन्ने विश्वास छ। हरेक वर्ष रातो मच्छिन्द्रनाथ जात्रामा उनको मूर्ति यही मन्दिरबाट निस्कन्छ। पुल्चोकमा बनेको करिब ६० फिट अग्लो रथमा चढेर, गल्ली-गल्ली हुँदै जावलाखेलसम्मको एक महिना लामो यात्रा गर्छ। यो नेपालकै सबैभन्दा लामो रथजात्रा हो, र भोटो जात्राले यसको अन्त्य हुन्छ, जब रत्नजडित भोटो सबैले देख्ने गरी उचालिन्छ। देवताले आफ्नो वर्ष पाटन र बुङ्गमतीको अर्को घरमा बाँडेर बिताउँछन्। आँगनमा बिस्तारै घुम्नुहोस्, जहाँ हिन्दू र बौद्ध भक्ति साँच्चै भेट हुन्छन्।",
+  "legend_np": "बाह्र वर्षको खडेरीमा ऋषि गोरखनाथ वर्षा ल्याउने नागहरूमाथि ध्यान गरेर बसे। उनका गुरु मच्छिन्द्रनाथ आएपछि मात्र उनी उठ्न सक्थे, त्यसैले दूतहरूले मच्छिन्द्रनाथलाई उपत्यकामा ल्याए। गोरखनाथ उनलाई स्वागत गर्न उठे, नागहरू मुक्त भए, र वर्षा फर्कियो। ललितपुरका चलाख राजाले त्यसपछि देवतालाई आफ्नै सहरमा राखे। त्यसयता हरेक वर्ष पाटनका मानिस राम्रो वर्षाको प्रार्थना गर्दै उनको रथ गल्लीमा तान्छन्।",
   "facts_np": [
-   "हालको मन्दिर सन् 1673 को हो; यो स्थानमा कम्तीमा सन् 1408 देखि मन्दिर छ।",
-   "रातो भनेको ‘रातो’, देवताको मूर्तिको रङ।",
-   "उनको रथयात्रा नेपालकै सबैभन्दा लामो हो, जुन जावलाखेलमा भोटो जात्रामा सकिन्छ।",
-   "देवताले वर्षको करिब छ महिना बुङ्गमतीमा र बाँकी पाटनमा बिताउँछन्।"
+   "अहिलेको मन्दिर सन् १६७३ को हो; यो ठाउँमा कम्तीमा सन् १४०८ देखि मन्दिर छ।",
+   "रातो भनेको देवताको मूर्तिको रङ हो।",
+   "उनको रथजात्रा नेपालकै सबैभन्दा लामो हो, र जावलाखेलमा भोटो जात्राले यसको अन्त्य हुन्छ।",
+   "देवताले वर्षको करिब छ महिना बुङ्गमतीमा र बाँकी समय पाटनमा बिताउँछन्।"
   ],
   "quake_np": null,
   "clues_np": [
-   "रातो अनुहार भएको र वर्षा ल्याउने म हरेक वर्ष घरबाट निस्कन्छु र पाटनमा नेपालको सबैभन्दा लामो रथयात्रामा सवार हुन्छु।",
-   "म आफ्नो वर्ष यस चोक र बागमतीमाथिको एक थुम्कोमा रहेको गाउँबीच बाँड्छु।"
+   "रातो अनुहार भएको र वर्षा ल्याउने म हरेक वर्ष घरबाट निस्कन्छु र नेपालकै सबैभन्दा लामो रथजात्रामा सवार हुन्छु।",
+   "म आफ्नो वर्ष यो आँगन र बागमतीको थुम्कोमाथिको एउटा गाउँबीच बाँड्छु।",
+   "हिन्दूहरू मलाई एउटा नाम लिन्छन्, नेवारहरू मलाई करुणामय भन्छन्, जो अवलोकितेश्वरको एउटा रूप हो।",
+   "मलाई गल्ली-गल्ली घुमाउन हरेक वर्ष करिब साठी फिट अग्लो रथ नयाँ बनाइन्छ।",
+   "मेरो जात्राको अन्तिम दिन रत्नजडित भोटो सबैले देख्ने गरी उचालिन्छ।",
+   "एकपटक एक ऋषिले वर्षा ल्याउने नागलाई बन्दी बनाएका थिए; मेरो आगमनले तिनलाई मुक्त गर्‍यो र बाह्र वर्षको खडेरी अन्त्य भयो।"
   ]
  },
  {
@@ -3036,14 +4332,14 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "Tradition credits the Mauryan emperor Ashoka.",
-    "q_np": "पाटनका चारवटा स्तूप बनाउने श्रेय परम्परागत रूपमा कुन सम्राट्लाई दिइन्छ?",
+    "q_np": "पाटनका चारवटा स्तूप बनाउने श्रेय परम्परा अनुसार कुन सम्राट्लाई दिइन्छ?",
     "options_np": [
      "कनिष्क",
      "अशोक",
      "चन्द्रगुप्त",
      "हर्ष"
     ],
-    "explanation_np": "परम्पराले मौर्य सम्राट् अशोकलाई श्रेय दिन्छ।"
+    "explanation_np": "परम्परा अनुसार यसको श्रेय मौर्य सम्राट् अशोकलाई दिइन्छ।"
    },
    {
     "q": "How many Ashoka stupas are there around Patan?",
@@ -3056,7 +4352,7 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "There are four, at the cardinal points of the old city.",
-    "q_np": "पाटनको वरिपरि कतिवटा अशोक स्तूप छन्?",
+    "q_np": "पाटनवरिपरि कतिवटा अशोक स्तूप छन्?",
     "options_np": [
      "दुई",
      "चार",
@@ -3078,12 +4374,12 @@
     "explanation": "Lagankhel is the southern and largest stupa.",
     "q_np": "चारमध्ये लगनखेलको स्तूप कुन हो?",
     "options_np": [
-     "उत्तरी",
-     "दक्षिणी",
-     "पूर्वी",
-     "पश्चिमी"
+     "उत्तरको",
+     "दक्षिणको",
+     "पूर्वको",
+     "पश्चिमको"
     ],
-    "explanation_np": "लगनखेल दक्षिणी र सबैभन्दा ठूलो स्तूप हो।"
+    "explanation_np": "लगनखेलको स्तूप दक्षिणको र सबैभन्दा ठूलो स्तूप हो।"
    },
    {
     "q": "Which daughter of Ashoka is linked to his legendary visit to the valley?",
@@ -3096,14 +4392,14 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "Legend says Ashoka visited with his daughter Charumati.",
-    "q_np": "अशोकको उपत्यका भ्रमणको दन्त्यकथासँग जोडिएकी उनकी कुन छोरी हुन्?",
+    "q_np": "अशोकको उपत्यका भ्रमणको कथासँग जोडिएकी उनकी कुन छोरी हुन्?",
     "options_np": [
      "सङ्घमित्रा",
      "चारुमती",
      "भृकुटी",
      "यशोधरा"
     ],
-    "explanation_np": "किंवदन्ती अनुसार अशोक आफ्नी छोरी चारुमतीसँग आएका थिए।"
+    "explanation_np": "कथा अनुसार अशोक आफ्नी छोरी चारुमतीसँग आएका थिए।"
    },
    {
     "q": "Which is the western Ashoka stupa of Patan?",
@@ -3116,19 +4412,123 @@
     "answer_index": 2,
     "difficulty": 4,
     "explanation": "The western stupa stands beside the main road at Pulchowk.",
-    "q_np": "पाटनको पश्चिमी अशोक स्तूप कुन हो?",
+    "q_np": "पाटनको पश्चिमको अशोक स्तूप कुन हो?",
     "options_np": [
      "लगनखेल",
-     "तेटा",
+     "तेता",
      "पुल्चोक",
      "इबही"
     ],
-    "explanation_np": "पश्चिमी स्तूप पुल्चोकमा मुख्य सडकको छेउमा छ।"
+    "explanation_np": "पश्चिमको स्तूप पुल्चोकमा मुख्य सडकको छेउमा छ।"
+   },
+   {
+    "q": "What covers the surface of the Lagankhel stupa today?",
+    "options": [
+     "Grass",
+     "White plaster",
+     "Marble",
+     "Gilded copper"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "The stupa was built of stacked bricks and over the centuries became a grassy mound.",
+    "q_np": "आज लगनखेलको स्तूपको सतह केले ढाकिएको छ?",
+    "options_np": [
+     "घाँसले",
+     "सेतो प्लास्टरले",
+     "सङ्गमरमरले",
+     "सुनको पानी चढाएको तामाले"
+    ],
+    "explanation_np": "स्तूप थुपारिएका इँटाबाट बनेको थियो र सयौँ वर्षमा घाँसले ढाकिएको टिला बन्यो।"
+   },
+   {
+    "q": "In which direction do Buddhists walk around a stupa such as this one?",
+    "options": [
+     "Anticlockwise",
+     "Back and forth",
+     "Only to the north",
+     "Clockwise"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "Visitors are advised to walk clockwise around it, as Buddhists do.",
+    "q_np": "यस्तो स्तूपको वरिपरि बौद्धहरू कुन दिशामा घुम्छन्?",
+    "options_np": [
+     "घडीको उल्टो दिशामा",
+     "अगाडि-पछाडि",
+     "उत्तरतिर मात्र",
+     "घडीको दिशामा"
+    ],
+    "explanation_np": "आगन्तुकले बौद्धहरूले जस्तै स्तूपको वरिपरि घडीको दिशामा घुम्नुपर्छ।"
+   },
+   {
+    "q": "What is the local name of the Lagankhel stupa?",
+    "options": [
+     "Lagan Thura",
+     "Teta Thura",
+     "Ibahi Thura",
+     "Pulchowk Thura"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "The southern stupa is known locally as Lagan Thura.",
+    "q_np": "लगनखेलको स्तूपको स्थानीय नाम के हो?",
+    "options_np": [
+     "लगन थुरा",
+     "तेता थुरा",
+     "इबही थुरा",
+     "पुल्चोक थुरा"
+    ],
+    "explanation_np": "दक्षिणको स्तूपलाई स्थानीय रूपमा लगन थुरा भनिन्छ।"
+   },
+   {
+    "q": "Around which year does tradition say Emperor Ashoka visited the valley?",
+    "options": [
+     "100 CE",
+     "1349 CE",
+     "249 BCE",
+     "563 BCE"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Local tradition says Ashoka visited around 249 BCE, though archaeology has not proven it.",
+    "q_np": "परम्पराले अशोक उपत्यका आएको करिब कुन वर्ष भन्छ?",
+    "options_np": [
+     "१०० ईस्वी",
+     "१३४९ ईस्वी",
+     "२४९ ईसा पूर्व",
+     "५६३ ईसा पूर्व"
+    ],
+    "explanation_np": "स्थानीय परम्पराले अशोक करिब २४९ ईसा पूर्वमा आएका थिए भन्छ, तर पुरातत्त्वले यो प्रमाणित गरेको छैन।"
+   },
+   {
+    "q": "What does the historian Niels Gutschow suggest the four stupas marked?",
+    "options": [
+     "Trade route crossings",
+     "Water sources",
+     "Royal burial grounds",
+     "The limits of the ancient town's sacred space"
+    ],
+    "answer_index": 3,
+    "difficulty": 3,
+    "explanation": "Gutschow suggests the stupas marked the limits of the ancient town's sacred space.",
+    "q_np": "इतिहासकार निल्स गुत्शोका अनुसार चारै स्तूपले केको सिमाना चिनाउँथे?",
+    "options_np": [
+     "व्यापारिक बाटोको चौबाटोको",
+     "पानीका स्रोतको",
+     "शाही चिहानको",
+     "पुरानो सहरको पवित्र क्षेत्रको"
+    ],
+    "explanation_np": "गुत्शोका अनुसार स्तूपहरूले पुरानो सहरको पवित्र क्षेत्रको सिमाना चिनाउँथे।"
    }
   ],
   "clues": [
    "An emperor from Magadha is said to have planted four of us; I am the biggest, guarding the south.",
-   "Once stacked brick, now a green hill beside a busy bus park."
+   "Once stacked brick, now a green hill beside a busy bus park.",
+   "Walk clockwise around me and look back toward the old city, as pilgrims do.",
+   "Historians call my link to an emperor a tradition, not a proven fact, though I am surely ancient.",
+   "Three siblings stand guard at the west, north and east edges of the old town; I keep the south.",
+   "A scholar suggests we four once marked the limits of the old town's sacred space."
   ],
   "sources": [
    "https://www.lonelyplanet.com/points-of-interest/lagan-southern-stupa/1508250",
@@ -3212,19 +4612,23 @@
    ],
    "notes": "Low wide grass-covered mound with a small white harmika and gilded spire, prayer flags, and a ring wall of prayer wheels"
   },
-  "short_np": "पाटनका चार अशोक स्तूपमध्ये सबैभन्दा ठूलो, पुरानो सहरको दक्षिणी सिमाना चिनाउने घाँसले ढाकिएको टिला।",
-  "story_np": "लगनखेल बस पार्कको ठीक दक्षिणको सानो उचाइमा चढ्नुहोस् र तपाईंले पाटनका चार अशोक स्तूपमध्ये सबैभन्दा ठूलो भेट्नुहुन्छ। स्थानीय परम्परा भन्छ मौर्य सम्राट अशोकले करिब २४९ ईसा पूर्वमा उपत्यकाको भ्रमण गरे र सहरका चारै दिशामा, उत्तर, दक्षिण, पूर्व र पश्चिममा, चारवटा स्तूप खडा गरे। यो दक्षिणी हो, जसलाई स्थानीय रूपमा लगन थुरा भनिन्छ। इतिहासकारहरूले अशोकसँगको सम्बन्धलाई प्रमाणित तथ्यभन्दा परम्परा मान्छन्, तर स्तूपहरू निःसन्देह पुराना छन्। ती मूलतः थुपारिएका इँटाबाट बनेका थिए र शताब्दीयौंमा घाँसले ढाकिएका टिला भए, जुन तपाईं यहाँ देख्नुहुन्छ, सानो चुचुराले मुकुट लगाएको। इतिहासकार नील्स गुत्शोले यिनले प्राचीन सहरको पवित्र क्षेत्रको सीमा जनाएका सुझाव दिन्छन्। यो स्तूप अग्लो भूमिमा रहेकोले यसले लामो समयदेखि स्थानीय क्षितिजमा प्रभुत्व जमाएको छ। बौद्धहरूले जस्तै घडीको दिशामा यसको वरिपरि हिँड्नुहोस्, र पुरानो सहरतर्फ फर्केर हेर्नुहोस्। त्यसपछि कल्पना गर्नुहोस् कि यस्तै अरू तीन टिला प्राचीन यलका अन्य छेउमा पहरा दिइरहेका छन्।",
-  "legend_np": "कथाअनुसार सम्राट अशोक आफ्नी छोरी चारुमतीसँग काठमाडौं उपत्यका आए र पाटन सहरलाई पवित्र बनाउन यसका चारै दिशामा, उत्तर, दक्षिण, पूर्व र पश्चिममा, चारवटा स्तूप खडा गरे। लगनखेलको दक्षिणी स्तूप चारमध्ये सबैभन्दा ठूलो हो, र सँगै तिनले पवित्र सहरलाई घेरेका भनिन्छ। चारुमतीलाई परम्पराले काठमाडौंको चाबहिलको चारुमती विहारसँग पनि जोड्छ।",
+  "short_np": "पाटनका चार अशोक स्तूपमध्ये सबैभन्दा ठूलो, घाँसले ढाकिएको टिला, जसले पुरानो सहरको दक्षिणी सिमाना चिनाउँछ।",
+  "story_np": "लगनखेल बस पार्कको ठीक दक्षिणको सानो उचाइमा चढ्नुहोस्, तपाईं पाटनका चारवटा अशोक स्तूपमध्ये सबैभन्दा ठूलो स्तूपमा पुग्नुहुन्छ। स्थानीय परम्परा अनुसार मौर्य सम्राट् अशोक करिब २४९ ईसा पूर्वमा उपत्यका आएका थिए, र सहरका चारै दिशामा, उत्तर, दक्षिण, पूर्व र पश्चिममा चारवटा स्तूप बनाएका थिए। यो दक्षिणको स्तूप हो, जसलाई स्थानीयले लगन थुरा भन्छन्। इतिहासकारहरू अशोकसँगको जोडाइलाई प्रमाणित तथ्य होइन, परम्परा मान्छन्। तर स्तूपहरू पक्कै पुराना छन्। यी सुरुमा थुपारिएका इँटाबाट बनेका थिए, र सयौँ वर्षमा घाँसले ढाकिएका टिला बने। तपाईंले यहाँ देख्ने यही हो, जसको टुप्पोमा सानो चुचुरो छ। इतिहासकार निल्स गुत्शोका अनुसार यिनले पुरानो सहरको पवित्र क्षेत्रको सिमाना चिनाउँथे। अग्लो ठाउँमा भएकाले यो स्तूप लामो समयदेखि वरपरको क्षितिजमा हावी छ। बौद्धहरूले जस्तै घडीको दिशामा यसको वरिपरि घुम्नुहोस्, र पुरानो सहरतिर फर्केर हेर्नुहोस्। अनि कल्पना गर्नुहोस्, यस्तै अरू तीनवटा टिला प्राचीन यलका अरू छेउमा पहरा दिइरहेका छन्।",
+  "legend_np": "भनिन्छ, सम्राट् अशोक आफ्नी छोरी चारुमतीसँग काठमाडौँ उपत्यका आए। पाटन सहरलाई पवित्र बनाउन उनले यसका चारै दिशामा, उत्तर, दक्षिण, पूर्व र पश्चिममा चारवटा स्तूप बनाए। लगनखेलको दक्षिणी स्तूप चारमध्ये सबैभन्दा ठूलो हो, र सबैले मिलेर पवित्र सहरलाई घेर्छन् भनिन्छ। परम्पराले चारुमतीलाई काठमाडौँको चाबहिलको चारुमती विहारसँग पनि जोड्छ।",
   "facts_np": [
-   "यो परम्परागत रूपमा सम्राट अशोकलाई श्रेय दिइने पाटनका चार स्तूपमध्ये दक्षिणी र सबैभन्दा ठूलो हो।",
-   "अशोकसँगको सम्बन्ध (करिब २४९ ईसा पूर्व) स्थानीय परम्परा हो, पुरातत्त्वले प्रमाणित गरेको होइन।",
-   "स्तूपहरू मूलतः इँटाका थिए र समयसँगै घाँसले ढाकिएका टिला बनेका छन्।",
-   "अन्य तीन पुल्चोक (पश्चिम), इबही (उत्तर) र तेता (पूर्व) मा छन्।"
+   "परम्परा अनुसार सम्राट् अशोकले बनाएको मानिने पाटनका चार स्तूपमध्ये यो दक्षिणको र सबैभन्दा ठूलो हो।",
+   "अशोकसँगको जोडाइ (करिब २४९ ईसा पूर्व) स्थानीय परम्परा हो, पुरातत्त्वले प्रमाणित गरेको होइन।",
+   "स्तूपहरू सुरुमा इँटाका थिए र समयसँगै घाँसले ढाकिएका टिला बनेका छन्।",
+   "अरू तीनवटा पुल्चोक (पश्चिम), इबही (उत्तर) र तेता (पूर्व) मा छन्।"
   ],
   "quake_np": null,
   "clues_np": [
-   "मगधका एक सम्राट्ले हामीमध्ये चारवटा रोपेका थिए भनिन्छ; म सबैभन्दा ठूलो हुँ, दक्षिणको रक्षा गर्छु।",
-   "एकपटक इँटा थुपारिएको, अहिले व्यस्त बस पार्कको छेउमा हरियो डाँडा।"
+   "मगधका एक सम्राट्ले हामीमध्ये चारवटा बनाएका थिए भनिन्छ; म सबैभन्दा ठूलो हुँ, दक्षिणको रक्षा गर्छु।",
+   "एकपटक इँटा थुपारेर बनेको, अहिले व्यस्त बस पार्कको छेउमा हरियो डाँडा।",
+   "मेरो वरिपरि घडीको दिशामा घुम्नुहोस्, र तीर्थयात्रीले जस्तै पुरानो सहरतिर फर्केर हेर्नुहोस्।",
+   "इतिहासकारहरू मेरो सम्राट्सँगको सम्बन्धलाई प्रमाणित तथ्य होइन, परम्परा भन्छन्, तर म पक्कै पुरानो हुँ।",
+   "मेरा तीनजना दाजुभाइ पुरानो सहरका पश्चिम, उत्तर र पूर्वी छेउमा पहरा दिन्छन्; म दक्षिण सम्हाल्छु।",
+   "एक विद्वान भन्छन्, हामी चारैले कुनै बेला पुरानो सहरको पवित्र क्षेत्रको सिमाना चिनाउँथ्यौँ।"
   ]
  }
 ]

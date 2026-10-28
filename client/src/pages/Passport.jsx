@@ -57,7 +57,7 @@ export default function Passport() {
             <div className="avatar" style={{ width: 84, height: 84, fontSize: '2rem' }}>{u.name.slice(0, 1).toUpperCase()}</div>
           </div>
           <div>
-            <div className="eyebrow">Heritage passport · सम्पदा राहदानी</div>
+            <div className="eyebrow">Heritage passport · सम्पदा पासपोर्ट</div>
             <h1 style={{ fontSize: 'var(--fs-h2)', color: 'var(--milk)', margin: 0 }}>{u.name}</h1>
             <div className="np" lang="ne" style={{ color: 'var(--lilac-300)' }}>{u.level.np} · {u.level.label}</div>
             <div className="pass-stats">
@@ -71,7 +71,7 @@ export default function Passport() {
         </motion.div>
 
         {!u.emailVerified && (
-          <div className="verify-bar"><span><b>{t('Confirm your email.', 'आफ्नो इमेल प्रमाणित गर्नुहोस्।')}</b> {t('Enter the code we sent so you can reset your password later.', 'पछि पासवर्ड रिसेट गर्न सकिने गरी हामीले पठाएको कोड लेख्नुहोस्।')}</span><Link className="btn sm" to="/verify">{t('Enter the code', 'कोड लेख्नुहोस्')}</Link></div>
+          <div className="verify-bar"><span><b>{t('Confirm your email.', 'आफ्नो इमेल पुष्टि गर्नुहोस्।')}</b> {t('Enter the code we sent so you can reset your password later.', 'हामीले पठाएको कोड हाल्नुहोस्, ताकि पछि पासवर्ड रिसेट गर्न सकियोस्।')}</span><Link className="btn sm" to="/verify">{t('Enter the code', 'कोड लेख्नुहोस्')}</Link></div>
         )}
 
         {d.stats.reviewsDue > 0 && (
@@ -79,7 +79,7 @@ export default function Passport() {
         )}
 
         <section className="section" style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
-          <div className="sec-head"><div><div className="eyebrow">Sapta Sampada</div><h3 style={{ margin: 0 }}>{t('The seven UNESCO zones of the valley', 'उपत्यकाका सात युनेस्को सम्पदा क्षेत्र')}</h3></div><span className="cap">A stamp anywhere inside a zone counts</span></div>
+          <div className="sec-head"><div><div className="eyebrow">Sapta Sampada</div><h3 style={{ margin: 0 }}>{t('The seven UNESCO zones of the valley', 'उपत्यकाका सातवटा युनेस्को सम्पदा क्षेत्र')}</h3></div><span className="cap">A stamp anywhere inside a zone counts</span></div>
           <div className="zones">
             {d.unesco.map((z, i) => (
               <Link key={z.slug} to={`/m/${z.slug}`} className={`zone ${z.done ? 'done' : ''}`}>
@@ -133,7 +133,7 @@ export default function Passport() {
         </div>
 
         <section className="section" style={{ paddingTop: '2.5rem' }}>
-          <div className="sec-head"><div><div className="eyebrow">Stamp book</div><h3 style={{ margin: 0 }}>{t('Places you have stamped', 'छाप लगाइएका ठाउँ')}</h3></div><div className="pass-meter"><span style={{ width: `${pct}%` }} /></div></div>
+          <div className="sec-head"><div><div className="eyebrow">Stamp book</div><h3 style={{ margin: 0 }}>{t('Places you have stamped', 'छाप लगाएका ठाउँ')}</h3></div><div className="pass-meter"><span style={{ width: `${pct}%` }} /></div></div>
           {!d.stamps.length ? (
             <div className="empty card"><div className="icon"><Stamp size={26} /></div><h4>Your stamp book is empty</h4><p className="muted">Open any monument and press “Stamp with GPS” when you are there, or “I am here”.</p><Link className="btn" to="/explore">Find a monument</Link></div>
           ) : (

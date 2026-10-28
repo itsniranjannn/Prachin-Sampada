@@ -22,9 +22,13 @@ export default function Auth({ mode }) {
     e.preventDefault();
     setErr(''); setBusy(true);
     try {
-      if (isLogin) await login(f.email, f.password);
-      else await register(f);
-      nav(isLogin ? next : `/verify?next=${encodeURIComponent(next)}`, { replace: true });
+      let dest = next;
+      if (isLogin) {
+        const u = await login(f.email, f.password);
+        // admins land on the admin panel unless they were sent to a specific page
+        if (u?.role === 'admin' && !params.get('next')) dest = '/admin';
+      } else await register(f);
+      nav(isLogin ? dest : `/verify?next=${encodeURIComponent(next)}`, { replace: true });
     } catch (x) { setErr(x.message); } finally { setBusy(false); }
   };
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });

@@ -94,7 +94,7 @@ export default function Walk() {
       <div className="wrap">
         <div className="page-head">
           <div className="eyebrow">Heritage yatra planner · यात्रा योजना</div>
-          <h1 style={{ fontSize: 'var(--fs-h2)', maxWidth: '24ch', textWrap: 'balance' }}>{t('Plan the best yatra for the hours you have', 'तपाईंसँग भएको समयमा उत्तम यात्रा')}</h1>
+          <h1 style={{ fontSize: 'var(--fs-h2)', maxWidth: '24ch', textWrap: 'balance' }}>{t('Plan the best yatra for the hours you have', 'तपाईंसँग भएको समयमा सबैभन्दा राम्रो यात्रा')}</h1>
             <Epigraph index={3} />
           <p className="lead" style={{ maxWidth: 720 }}>Start in any heritage town in Nepal, then pick places or just your interests. The planner chooses what fits, orders it for the shortest walk, waits for opening times and tells you when a taxi beats walking.</p>
         </div>
@@ -162,8 +162,8 @@ export default function Walk() {
                       <li key={s.id}>
                         <div className="tl-leg">
                           {s.leg.mode === 'walk' ? <Footprints size={14} /> : <Car size={14} />}
-                          {s.leg.mode === 'walk' ? t(`Walk ${fmtM(s.leg.metres)} · ${s.leg.minutes} min`, `हिँड्ने ${t.n(fmtM(s.leg.metres))} · ${t.n(s.leg.minutes)} मिनेट`) : t(`Taxi ${fmtM(s.leg.metres)} · ~${s.leg.minutes} min · ${npr(s.leg.costNpr)}`, `ट्याक्सी ${t.n(fmtM(s.leg.metres))} · ~${t.n(s.leg.minutes)} मिनेट · ${t.n(npr(s.leg.costNpr))}`)}
-                          {s.waitMinutes > 0 && <span className="tl-wait"><Coffee size={13} /> {t(`wait ${s.waitMinutes} min for opening`, `खुल्न ${t.n(s.waitMinutes)} मिनेट प्रतीक्षा`)}</span>}
+                          {s.leg.mode === 'walk' ? t(`Walk ${fmtM(s.leg.metres)} · ${s.leg.minutes} min`, `पैदल ${t.n(fmtM(s.leg.metres))} · ${t.n(s.leg.minutes)} मिनेट`) : t(`Taxi ${fmtM(s.leg.metres)} · ~${s.leg.minutes} min · ${npr(s.leg.costNpr)}`, `ट्याक्सी ${t.n(fmtM(s.leg.metres))} · ~${t.n(s.leg.minutes)} मिनेट · ${t.n(npr(s.leg.costNpr))}`)}
+                          {s.waitMinutes > 0 && <span className="tl-wait"><Coffee size={13} /> {t(`wait ${s.waitMinutes} min for opening`, `खुल्न ${t.n(s.waitMinutes)} मिनेट कुर्नुपर्छ`)}</span>}
                         </div>
                         <span className="tl-dot num">{i + 1}</span>
                         <Link to={`/m/${s.monument.slug}`} className="tl-stop">

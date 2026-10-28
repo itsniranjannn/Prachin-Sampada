@@ -51,7 +51,7 @@ export default function Hunt() {
     s.on('connect', () => setConnected(true));
     s.on('disconnect', () => setConnected(false));
     s.on('room', (r) => setRoom(r));
-    s.on('round', (r) => { setRound(r); setReveal(null); setPin(null); setMine(null); map.current?.reset(); play('tick', sound); });
+    s.on('round', (r) => { markSeen(r.clueId, r.image); setRound(r); setReveal(null); setPin(null); setMine(null); map.current?.reset(); play('tick', sound); });
     s.on('reveal', (r) => {
       setReveal(r);
       const pts = [[r.monument.lng, r.monument.lat], ...r.guesses.filter((g) => g.guess).map((g) => [g.guess.lng, g.guess.lat])];
@@ -81,7 +81,7 @@ export default function Hunt() {
   });
   const host = () => {
     if (!name.trim()) return setErr('Enter your name first');
-    sock.current.emit('host', { name: name.trim(), rounds, roundSeconds: secs }, async (ack) => { if (!ack.ok) return setErr(ack.error); await doJoin(ack.code); });
+    sock.current.emit('host', { name: name.trim(), rounds, roundSeconds: secs, ...seenForServer() }, async (ack) => { if (!ack.ok) return setErr(ack.error); await doJoin(ack.code); });
   };
   const start = () => sock.current.emit('start', {}, (ack) => { if (!ack.ok) toast(ack.error, 'err'); });
   const lock = () => {

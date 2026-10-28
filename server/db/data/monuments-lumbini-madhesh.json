@@ -49,7 +49,7 @@
     "name_np": "बुद्ध जयन्ती",
     "month": "Baisakh",
     "note": "Full-moon day of Baisakh marking the Buddha's birth; pilgrims gather in the Sacred Garden around the temple.",
-    "note_np": "बुद्धको जन्मको सम्झनामा बैशाख पूर्णिमाका दिन मनाइन्छ; तीर्थयात्रीहरू मन्दिर वरिपरिको पवित्र उद्यानमा भेला हुन्छन्।"
+    "note_np": "बुद्धको जन्मको सम्झनामा बैशाख पूर्णिमाका दिन मनाइन्छ। मन्दिर वरिपरिको पवित्र उद्यानमा तीर्थयात्री भेला हुन्छन्।"
    }
   ],
   "image": {
@@ -105,14 +105,14 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "Buddhists venerate the marker stone inside as the birthplace of Siddhartha Gautama.",
-    "q_np": "मायादेवी मन्दिरले कसको जन्मको स्मरण गराउँछ?",
+    "q_np": "मायादेवी मन्दिरले कसको जन्मको सम्झना गराउँछ?",
     "options_np": [
      "सम्राट अशोक",
      "सिद्धार्थ गौतम, बुद्ध",
      "राजा जनक",
      "गुरु रिम्पोछे"
     ],
-    "explanation_np": "बौद्धहरू भित्रको चिह्न शिलालाई सिद्धार्थ गौतमको जन्मस्थल मानेर पूजा गर्छन्।"
+    "explanation_np": "बौद्धहरू भित्रको चिह्न ढुङ्गालाई सिद्धार्थ गौतमको जन्मस्थल मानेर पूजा गर्छन्।"
    },
    {
     "q": "In which district is Lumbini?",
@@ -125,14 +125,14 @@
     "answer_index": 2,
     "difficulty": 2,
     "explanation": "Lumbini lies in Rupandehi District of Lumbini Province.",
-    "q_np": "लुम्बिनी कुन जिल्लामा छ?",
+    "q_np": "लुम्बिनी कुन जिल्लामा पर्छ?",
     "options_np": [
      "कपिलवस्तु",
      "पाल्पा",
      "रुपन्देही",
      "नवलपरासी"
     ],
-    "explanation_np": "लुम्बिनी लुम्बिनी प्रदेशको रुपन्देही जिल्लामा पर्छ।"
+    "explanation_np": "लुम्बिनी, लुम्बिनी प्रदेशको रुपन्देही जिल्लामा पर्छ।"
    },
    {
     "q": "In what year was Lumbini inscribed as a UNESCO World Heritage Site?",
@@ -145,14 +145,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "UNESCO inscribed Lumbini in 1997.",
-    "q_np": "लुम्बिनी कुन वर्ष युनेस्कोको विश्व सम्पदा सूचीमा सूचीकृत भयो?",
+    "q_np": "लुम्बिनी कुन वर्ष युनेस्कोको विश्व सम्पदा सूचीमा परेको थियो?",
     "options_np": [
      "1979",
      "1997",
      "2003",
      "2013"
     ],
-    "explanation_np": "युनेस्कोले लुम्बिनीलाई 1997 मा सूचीकृत गर्‍यो।"
+    "explanation_np": "युनेस्कोले लुम्बिनीलाई 1997 मा सूचीमा राख्यो।"
    },
    {
     "q": "What did archaeologists report finding beneath the temple in 2013?",
@@ -165,14 +165,14 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "The excavation found postholes of a timber shrine dated to the 6th century BCE.",
-    "q_np": "2013 मा पुरातत्त्वविद्हरूले मन्दिरमुनि के भेटेको जनाए?",
+    "q_np": "2013 मा पुरातत्त्वविद्हरूले मन्दिरमुनि के भेटेको जानकारी दिए?",
     "options_np": [
      "सुनको अस्थिकलश",
-     "ई.पू. 6 औँ शताब्दीको काठको मन्दिर",
+     "ई.पू. छैटौँ शताब्दीको काठको मन्दिर",
      "मुगल सिक्काको भण्डार",
      "गाडिएको अशोक स्तम्भ"
     ],
-    "explanation_np": "उत्खननमा ई.पू. 6 औँ शताब्दीको मानिएको काठको मन्दिरका खम्बा गाडिएका खाल्डाहरू भेटिए।"
+    "explanation_np": "उत्खननमा ई.पू. छैटौँ शताब्दीको मानिएको काठको मन्दिरका खम्बा गाडिएका खाल्डा भेटिए।"
    },
    {
     "q": "Which tree is Maya said to have held while giving birth?",
@@ -185,19 +185,123 @@
     "answer_index": 2,
     "difficulty": 3,
     "explanation": "The nativity sculpture shows Maya holding a branch of a sal tree.",
-    "q_np": "मायादेवीले बच्चा जन्माउँदा कुन रुखको हाँगा समातेकी थिइन् भनिन्छ?",
+    "q_np": "बच्चा जन्माउँदा मायादेवीले कुन रुखको हाँगा समातेकी थिइन् भनिन्छ?",
     "options_np": [
      "पिपल",
      "बर",
      "साल",
      "आँप"
     ],
-    "explanation_np": "जन्मको मूर्तिकलामा मायादेवीले सालको रुखको हाँगा समातेको देखाइएको छ।"
+    "explanation_np": "जन्मको मूर्तिमा मायादेवीले सालको हाँगा समातेको देखाइएको छ।"
+   },
+   {
+    "q": "What must visitors do before entering the Maya Devi Temple?",
+    "options": [
+     "Cover their heads",
+     "Ring the temple bell",
+     "Take off their shoes",
+     "Leave their bags with a priest"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Shoes are removed before entering the temple, as noted in the visiting information.",
+    "q_np": "मायादेवी मन्दिर भित्र पस्नुअघि आगन्तुकले के गर्नुपर्छ?",
+    "options_np": [
+     "टाउको छोप्नुपर्छ",
+     "मन्दिरको घण्टा बजाउनुपर्छ",
+     "जुत्ता खोल्नुपर्छ",
+     "झोला पुजारीलाई राख्न दिनुपर्छ"
+    ],
+    "explanation_np": "मन्दिर भित्र पस्नुअघि जुत्ता खोल्नुपर्छ।"
+   },
+   {
+    "q": "Which festival marks the Buddha's birth here on the full-moon day of Baisakh?",
+    "options": [
+     "Buddha Jayanti",
+     "Indra Jatra",
+     "Maha Shivaratri",
+     "Tihar"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Buddha Jayanti falls on the full-moon day of Baisakh, when pilgrims gather in the Sacred Garden.",
+    "q_np": "बैशाख पूर्णिमाका दिन यहाँ बुद्धको जन्मको सम्झनामा कुन चाड मनाइन्छ?",
+    "options_np": [
+     "बुद्ध जयन्ती",
+     "इन्द्रजात्रा",
+     "महाशिवरात्रि",
+     "तिहार"
+    ],
+    "explanation_np": "बुद्ध जयन्ती बैशाख पूर्णिमाका दिन पर्छ। त्यस दिन पवित्र उद्यानमा तीर्थयात्री भेला हुन्छन्।"
+   },
+   {
+    "q": "According to tradition, which pond near the temple did Maya bathe in before the birth?",
+    "options": [
+     "Kamal Pokhari",
+     "Puskarini",
+     "Rani Pokhari",
+     "Taleju Kunda"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The Puskarini pond outside the temple is where Maya is said to have bathed before giving birth.",
+    "q_np": "परम्परा अनुसार जन्म दिनुअघि माया मन्दिर नजिकको कुन पोखरीमा नुहाएकी थिइन्?",
+    "options_np": [
+     "कमल पोखरी",
+     "पुष्करिणी",
+     "रानी पोखरी",
+     "तलेजु कुण्ड"
+    ],
+    "explanation_np": "मन्दिर बाहिरको पुष्करिणी पोखरीमा जन्म दिनुअघि माया नुहाएकी थिइन् भनिन्छ।"
+   },
+   {
+    "q": "Who is shown beside Maya Devi in the worn nativity sculpture?",
+    "options": [
+     "Her husband Suddhodana",
+     "Her sister Prajapati",
+     "The sage Asita",
+     "Princess Yashodhara"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The nativity sculpture shows Maya holding the branch with her sister Prajapati at her side.",
+    "q_np": "घिसिएको जन्मको मूर्तिमा मायादेवीको छेउमा को देखिन्छन्?",
+    "options_np": [
+     "उनका पति शुद्धोधन",
+     "उनकी बहिनी प्रजापति",
+     "ऋषि असित",
+     "राजकुमारी यशोधरा"
+    ],
+    "explanation_np": "जन्मको मूर्तिमा माया हाँगा समातेकी छिन् र छेउमा उनकी बहिनी प्रजापति छिन्।"
+   },
+   {
+    "q": "The sacred spot was rebuilt in 1939 under which Rana ruler?",
+    "options": [
+     "Juddha Shumsher",
+     "Chandra Shumsher",
+     "Bir Shumsher",
+     "Kaiser Shumsher"
+    ],
+    "answer_index": 3,
+    "difficulty": 3,
+    "explanation": "The shrine was rebuilt in 1939 under Kaiser Shumsher; the present protective temple dates from 2003.",
+    "q_np": "सन् 1939 मा यो पवित्र स्थान कुन राणा शासकको पालामा पुनर्निर्माण गरियो?",
+    "options_np": [
+     "जुद्ध शमशेर",
+     "चन्द्र शमशेर",
+     "वीर शमशेर",
+     "कैसर शमशेर"
+    ],
+    "explanation_np": "सन् 1939 मा कैसर शमशेरको पालामा मन्दिर पुनर्निर्माण गरियो। अहिलेको सुरक्षात्मक मन्दिर 2003 को हो।"
    }
   ],
   "clues": [
    "Under a plain white roof, pilgrims file past a small stone said to mark where a prince was born.",
-   "A queen on her way to her parents' home stopped in a garden here, and the world gained a teacher."
+   "A queen on her way to her parents' home stopped in a garden here, and the world gained a teacher.",
+   "Beside me stands a tall stone pillar raised by an emperor, and a pond where a queen is said to have bathed.",
+   "Diggers working beneath my floor found the postholes of a wooden shrine older than the emperor's bricks.",
+   "On a full-moon day in Baisakh, pilgrims gather in the garden around me to remember a birth.",
+   "I am a low, boxy white building; inside, a raised walkway circles old brick foundations and a marker stone under glass."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Maya_Devi_Temple,_Lumbini",
@@ -251,20 +355,24 @@
     "caption": "The temple with the Ashoka pillar in the Sacred Garden"
    }
   ],
-  "short_np": "बौद्धहरूले सिद्धार्थ गौतम, बुद्धको जन्म भएको ठ्याक्कै स्थान मान्ने चिह्न ढुङ्गामाथिको मन्दिर।",
-  "story_np": "जुत्ता खोल्नुहोस् र चुपचाप भित्र पस्नुहोस्। यो सादा सेतो छानामुनि बौद्धहरूका लागि पृथ्वीका सबैभन्दा पवित्र स्थानमध्ये एक छ। परम्परा अनुसार रानी मायादेवी देवदहस्थित माइत जाँदै गर्दा लुम्बिनीको बगैँचामा रोकिइन्, शालको हाँगा समातिन्, र राजकुमार सिद्धार्थलाई जन्म दिइन्, जो पछि बुद्ध बने। उठाइएको बाटोमा हिँड्नुहोस् र पुराना इँटाका जग हेर्नुहोस्। सम्राट अशोकका निर्माणकर्ताहरूले यहाँ करिब 249 ई.पू. मा इँटा बिछ्याएका थिए, र सन् 2013 मा यो भुइँमुनि काम गरिरहेका पुरातत्त्वविद्हरूले छैटौँ शताब्दी ई.पू. को काठको मन्दिरका चिह्न भेटे, जुन दक्षिण एसियामा ज्ञात सबैभन्दा पुराना बौद्ध मन्दिरमध्ये हो। तीर्थयात्रीको पङ्क्ति पछ्याउँदै सिसामुनिको सानो ढुङ्गामा पुग्नुहोस्: जन्मको चिह्न ढुङ्गा। नजिकै घिसिएको जन्म मूर्तिकला छ, जसमा माया शालको हाँगा समातिरहेकी र उनकी बहिनी प्रजापति छेउमा छिन्। बाहिर पुष्करिणी पोखरी छ, जहाँ जन्म अघि माया नुहाएकी भनिन्छ।",
-  "legend_np": "जन्मअघि रानी मायाले सपना देखिन् कि कमलको फूल बोकेको सेतो हात्ती उनको दायाँ कोखमा पस्यो, जसलाई महान् शासक वा बुद्धको आगमनको सङ्केत मानियो। उनले लुम्बिनीको बगैँचामा शालको हाँगा समातेर उभिएरै जन्म दिइन्, र सात दिनपछि निधन भइन्।",
+  "short_np": "बौद्धहरूले सिद्धार्थ गौतम, अर्थात् बुद्ध जन्मेको ठ्याक्कै ठाउँ मान्ने चिह्न ढुङ्गामाथि बनेको मन्दिर।",
+  "story_np": "जुत्ता खोलेर चुपचाप भित्र पस्नुहोस्। यो सादा सेतो छानामुनि बौद्धहरूका लागि संसारकै सबैभन्दा पवित्र ठाउँ मध्ये एउटा छ। परम्परा अनुसार रानी मायादेवी देवदहमा रहेको माइत जाँदै गर्दा लुम्बिनीको बगैँचामा रोकिइन्, सालको हाँगा समातिन् र राजकुमार सिद्धार्थलाई जन्म दिइन्, जो पछि बुद्ध भए। माथिको बाटोमा हिँडेर तल पुराना इँटाका जग हेर्नुहोस्। सम्राट अशोकका कारिगरले यहाँ करिब 249 ई.पू. मा इँटा बिछ्याएका थिए। सन् 2013 मा यही भुइँमुनि काम गर्दै गरेका पुरातत्त्वविद्हरूले ई.पू. छैटौँ शताब्दीको काठको मन्दिरका चिह्न भेटे, जुन दक्षिण एसियाका सबैभन्दा पुराना बौद्ध मन्दिरमध्ये मानिन्छ। तीर्थयात्रीको लाइन पछ्याएर सिसामुनिको सानो ढुङ्गासम्म पुग्नुहोस्। त्यो नै जन्मको चिह्न ढुङ्गा हो। नजिकै घिसिएको जन्मको मूर्ति छ, जसमा माया सालको हाँगा समातेर उभिएकी र छेउमा उनकी बहिनी प्रजापति छिन्। बाहिर पुष्करिणी पोखरी छ, जहाँ जन्म दिनुअघि माया नुहाएकी थिइन् भनिन्छ।",
+  "legend_np": "जन्म हुनुअघि रानी मायाले सपना देखिन्, कमलको फूल बोकेको एउटा सेतो हात्ती उनको दायाँ कोखमा पस्यो। यसलाई महान् शासक वा बुद्ध जन्मने सङ्केत मानियो। उनले लुम्बिनीको बगैँचामा सालको हाँगा समातेर उभिँदै बच्चा जन्माइन् र सात दिनपछि बितिन्।",
   "facts_np": [
-   "मन्दिरमा बुद्धको जन्मसँग सम्बन्धित चिह्न ढुङ्गा र जन्म मूर्तिकला राखिएको छ।",
-   "युनेस्को, डरहम विश्वविद्यालय, नेपालको पुरातत्त्व विभाग र लुम्बिनी विकास कोषको उत्खनन सन् 2010 मा सुरु भयो।",
-   "सन् 2013 मा टोलीले इँटाको मन्दिरमुनि छैटौँ शताब्दी ई.पू. को काठको मन्दिर फेला परेको जनायो।",
-   "हालको मन्दिर भवन सन् 2003 मा लुम्बिनी विकास कोषले पूरा गरेको थियो।",
-   "लुम्बिनी सन् 1997 मा युनेस्को विश्व सम्पदा स्थलमा सूचीकृत भयो।"
+   "मन्दिरभित्र बुद्धको जन्मसँग जोडिएको चिह्न ढुङ्गा र जन्मको मूर्ति राखिएका छन्।",
+   "युनेस्को, डरहम विश्वविद्यालय, नेपालको पुरातत्त्व विभाग र लुम्बिनी विकास कोषले सन् 2010 मा उत्खनन सुरु गरे।",
+   "सन् 2013 मा टोलीले इँटाको मन्दिरमुनि ई.पू. छैटौँ शताब्दीको काठको मन्दिर भेटिएको जानकारी दियो।",
+   "अहिलेको मन्दिर भवन सन् 2003 मा लुम्बिनी विकास कोषले बनाइसकेको हो।",
+   "लुम्बिनी सन् 1997 मा युनेस्कोको विश्व सम्पदा सूचीमा परेको हो।"
   ],
   "quake_np": null,
   "clues_np": [
-   "सादा सेतो छानामुनि तीर्थयात्रीहरू एउटा सानो ढुङ्गाको अगाडि लाइन लागेर जान्छन्, जसले एक राजकुमारको जन्मस्थल चिनाउँछ भनिन्छ।",
-   "माइतीघर जाँदै गरेकी एक रानी यहाँको बगैँचामा रोकिइन्, र संसारले एक गुरु पायो।"
+   "सादा सेतो छानामुनि तीर्थयात्री एउटा सानो ढुङ्गाको अगाडि लाइन लागेर जान्छन्। त्यो ढुङ्गाले एक राजकुमार जन्मेको ठाउँ चिनाउँछ भनिन्छ।",
+   "माइत जाँदै गरेकी एक रानी यहाँको बगैँचामा रोकिइन्, र संसारले एक गुरु पायो।",
+   "मेरो छेउमा एक सम्राटले गाडेको अग्लो ढुङ्गाको स्तम्भ छ, र रानीले नुहाएको भनिने पोखरी पनि छ।",
+   "मेरो भुइँमुनि खन्नेहरूले सम्राटका इँटा भन्दा पुरानो काठको मन्दिरका खम्बा गाडिएका खाल्डा भेटे।",
+   "बैशाख पूर्णिमाका दिन तीर्थयात्रीहरू एउटा जन्मको सम्झनामा मेरो वरिपरिको बगैँचामा भेला हुन्छन्।",
+   "म होचो, चौकोर सेतो भवन हुँ। भित्र उठाइएको बाटोले पुराना इँटाका जग र सिसामुनिको चिह्न ढुङ्गालाई घुमेर जान्छ।"
   ]
  },
  {
@@ -319,7 +427,7 @@
     "name_np": "बुद्ध जयन्ती",
     "month": "Baisakh",
     "note": "Baisakh full-moon celebration of the Buddha's birth in the Sacred Garden around the pillar.",
-    "note_np": "स्तम्भ वरिपरिको पवित्र उद्यानमा वैशाख पूर्णिमाका दिन बुद्धको जन्मको उत्सव मनाइन्छ।"
+    "note_np": "स्तम्भ वरिपरिको पवित्र उद्यानमा बैशाख पूर्णिमाका दिन बुद्धको जन्मको उत्सव मनाइन्छ।"
    }
   ],
   "image": {
@@ -372,14 +480,14 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "The Mauryan emperor Ashoka raised it during his pilgrimage in the 3rd century BCE.",
-    "q_np": "लुम्बिनीमा स्तम्भ कुन सम्राट्ले स्थापना गरे?",
+    "q_np": "लुम्बिनीमा यो स्तम्भ कुन सम्राटले खडा गरेका थिए?",
     "options_np": [
      "कनिष्क",
      "अशोक",
      "चन्द्रगुप्त द्वितीय",
      "हर्ष"
     ],
-    "explanation_np": "मौर्य सम्राट् अशोकले ईसापूर्व तेस्रो शताब्दीमा आफ्नो तीर्थयात्राका क्रममा यो स्थापना गरे।"
+    "explanation_np": "मौर्य सम्राट अशोकले ई.पू. तेस्रो शताब्दीमा तीर्थयात्रामा आउँदा यो स्तम्भ खडा गराए।"
    },
    {
     "q": "In which script is the pillar's main inscription written?",
@@ -399,7 +507,7 @@
      "ब्राह्मी",
      "रञ्जना"
     ],
-    "explanation_np": "पाँच पङ्क्तिको शिलालेख प्राकृत भाषामा ब्राह्मी लिपिमा लेखिएको छ।"
+    "explanation_np": "पाँच लाइनको शिलालेख प्राकृत भाषामा ब्राह्मी लिपिमा लेखिएको छ।"
    },
    {
     "q": "In what year was the inscription uncovered?",
@@ -412,14 +520,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "It was dug out in December 1896.",
-    "q_np": "शिलालेख कुन वर्षमा फेला पारियो?",
+    "q_np": "शिलालेख कुन वर्ष भेटियो?",
     "options_np": [
      "1856",
      "1896",
      "1934",
      "1997"
     ],
-    "explanation_np": "यो डिसेम्बर 1896 मा खनेर निकालिएको थियो।"
+    "explanation_np": "सन् 1896 को डिसेम्बरमा खनेर यो शिलालेख निकालियो।"
    },
    {
     "q": "What tax privilege did Ashoka grant Lumbini village according to the inscription?",
@@ -432,14 +540,14 @@
     "answer_index": 0,
     "difficulty": 4,
     "explanation": "The village was made free of taxes and paying only an eighth share of produce.",
-    "q_np": "शिलालेख अनुसार अशोकले लुम्बिनी गाउँलाई कस्तो कर सुविधा दिए?",
+    "q_np": "शिलालेख अनुसार अशोकले लुम्बिनी गाउँलाई कस्तो कर छुट दिए?",
     "options_np": [
-     "उब्जनीको आठौं भाग मात्र तिर्ने",
+     "उब्जनीको आठौँ भाग मात्र तिर्ने",
      "आधा भाग तिर्ने",
-     "कुनै सुविधा छैन",
-     "निःशुल्क नुन"
+     "कुनै छुट दिएनन्",
+     "नुन निःशुल्क"
     ],
-    "explanation_np": "गाउँलाई करमुक्त गरियो र उब्जनीको आठौं भाग मात्र तिर्नुपर्ने बनाइयो।"
+    "explanation_np": "गाउँलाई करमुक्त गरियो र उब्जनीको आठौँ भाग मात्र तिर्नुपर्ने बनाइयो।"
    },
    {
     "q": "Whose name appears in the later 'Om mani padme hum' inscription?",
@@ -452,19 +560,123 @@
     "answer_index": 1,
     "difficulty": 5,
     "explanation": "The medieval line wishes long victory to Prince Ripu Malla, dated Saka 1234.",
-    "q_np": "पछिल्लो 'ॐ मणि पद्मे हुम्' शिलालेखमा कसको नाम आउँछ?",
+    "q_np": "पछि कुँदिएको ॐ मणि पद्मे हुम् शिलालेखमा कसको नाम आउँछ?",
     "options_np": [
      "पृथ्वीनारायण शाह",
      "रिपु मल्ल",
      "जयस्थिति मल्ल",
      "मुकुन्द सेन"
     ],
-    "explanation_np": "मध्यकालीन पङ्क्तिले शक 1234 मा राजकुमार रिपु मल्लको लामो विजयको कामना गर्छ।"
+    "explanation_np": "मध्यकालीन लाइनमा शक १२३४ मा राजकुमार रिपु मल्लको लामो विजयको कामना गरिएको छ।"
+   },
+   {
+    "q": "Next to which famous building does the Ashoka Pillar stand?",
+    "options": [
+     "Pashupatinath Temple",
+     "Boudhanath Stupa",
+     "Janaki Mandir",
+     "Maya Devi Temple"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "The pillar stands inside a low railing beside the Maya Devi Temple in the Sacred Garden.",
+    "q_np": "अशोक स्तम्भ कुन प्रसिद्ध भवनको छेउमा छ?",
+    "options_np": [
+     "पशुपतिनाथ मन्दिर",
+     "बौद्धनाथ स्तूप",
+     "जानकी मन्दिर",
+     "मायादेवी मन्दिर"
+    ],
+    "explanation_np": "स्तम्भ पवित्र उद्यानमा मायादेवी मन्दिरको छेउमा होचो रेलिङभित्र उभिएको छ।"
+   },
+   {
+    "q": "What does the inscription on the pillar declare about the place?",
+    "options": [
+     "That the Buddha Shakyamuni was born here",
+     "That Ashoka was crowned here",
+     "That a great battle was won here",
+     "That the Buddha attained enlightenment here"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "The Brahmi lines say the king worshipped here because the Buddha Shakyamuni was born here.",
+    "q_np": "स्तम्भको शिलालेखले यो ठाउँबारे के घोषणा गर्छ?",
+    "options_np": [
+     "यहाँ शाक्यमुनि बुद्ध जन्मेका थिए",
+     "यहाँ अशोकको राज्याभिषेक भएको थियो",
+     "यहाँ ठूलो युद्ध जितिएको थियो",
+     "यहाँ बुद्धले ज्ञान पाएका थिए"
+    ],
+    "explanation_np": "ब्राह्मी लाइनमा राजाले पूजा गरे, किनभने यहाँ शाक्यमुनि बुद्ध जन्मेका थिए भनिएको छ।"
+   },
+   {
+    "q": "What is the pillar made of?",
+    "options": [
+     "Marble",
+     "Granite",
+     "Polished sandstone",
+     "Fired brick"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "It is a polished sandstone monolith, a single piece of stone.",
+    "q_np": "यो स्तम्भ केले बनेको छ?",
+    "options_np": [
+     "सङ्गमरमर",
+     "ग्रेनाइट",
+     "पालिस गरिएको बलुवा ढुङ्गा",
+     "पोलेको इँटा"
+    ],
+    "explanation_np": "यो पालिस गरिएको बलुवा ढुङ्गाको एउटै टुक्राबाट बनेको स्तम्भ हो।"
+   },
+   {
+    "q": "Who led the Nepali team that dug around the pillar in December 1896?",
+    "options": [
+     "Bhimsen Thapa",
+     "Jung Bahadur Rana",
+     "General Khadga Shumsher Rana",
+     "Prithvi Narayan Shah"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "General Khadga Shumsher Rana led the team, with the archaeologist Alois Führer close by.",
+    "q_np": "सन् 1896 को डिसेम्बरमा स्तम्भ वरिपरि खन्ने नेपाली टोलीको नेतृत्व कसले गरे?",
+    "options_np": [
+     "भीमसेन थापा",
+     "जङ्गबहादुर राणा",
+     "जनरल खड्ग शमशेर राणा",
+     "पृथ्वीनारायण शाह"
+    ],
+    "explanation_np": "जनरल खड्ग शमशेर राणाले टोलीको नेतृत्व गरे, नजिकै पुरातत्त्वविद् आलोइस फ्युरर थिए।"
+   },
+   {
+    "q": "Which Chinese pilgrim reported seeing a horse on top of the pillar?",
+    "options": [
+     "Faxian",
+     "Xuanzang",
+     "Yijing",
+     "Zhang Qian"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Xuanzang described a horse capital on the pillar; today the crown is gone.",
+    "q_np": "स्तम्भको टुप्पोमा घोडा देखेको कुन चिनियाँ तीर्थयात्रीले बताएका थिए?",
+    "options_np": [
+     "फाहियान",
+     "ह्वेनसाङ",
+     "इचिङ",
+     "झाङ छ्येन"
+    ],
+    "explanation_np": "ह्वेनसाङले स्तम्भको टुप्पोमा घोडा देखेको वर्णन गरे। आज त्यो टुप्पो हराइसकेको छ।"
    }
   ],
   "clues": [
    "Five lines of ancient script low on my stone shaft tell the world whose birthplace this is.",
-   "A Chinese pilgrim saw a horse on my head; lightning and time took it away."
+   "A Chinese pilgrim saw a horse on my head; lightning and time took it away.",
+   "I am a single polished grey sandstone column, and my lower part lay buried and forgotten for centuries.",
+   "In December 1896 a Nepali general and his team dug around my base, and the world learned where a teacher was born.",
+   "Much later, a medieval king had the mantra Om mani padme hum carved higher up my shaft.",
+   "I stand inside a low railing beside a white temple and a sacred pond, in a garden where pilgrims remove their shoes."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Lumbini_pillar_inscription",
@@ -517,20 +729,24 @@
     "caption": "The pillar photographed in 1956"
    }
   ],
-  "short_np": "सम्राट अशोकको ढुङ्गाको स्तम्भ, जसको ब्राह्मी शिलालेखले शाक्यमुनि बुद्ध यहीँ जन्मिएको घोषणा गर्छ।",
-  "story_np": "रेलिङनजिक उभिएर यो चिल्लो खैरो स्तम्भलाई हेर्नुहोस्। करिब २४९ ईसा पूर्वमा मौर्य सम्राट अशोक आफ्नो राज्याभिषेकको बीस वर्षपछि तीर्थयात्रामा यहाँ आए र यो स्तम्भ खडा गराए। शताब्दीयौंसम्म यो आधा गाडिएर बिर्सिएर रह्यो, सन् १८९६ को डिसेम्बरसम्म, जब जनरल खड्ग शमशेर राणाको नेतृत्वमा नेपाली टोलीले, पुरातत्त्वविद् आलोइस फ्युरर नजिकै रहँदा, यसको फेदमा खनेर हेर्‍यो। तल्तिर उनीहरूले ब्राह्मी लिपिका पाँच पङ्क्ति भेटे, जसले छोटकरीमा भन्छन्: राजा स्वयम् आए र पूजा गरे, किनभने यहाँ शाक्यमुनि बुद्ध जन्मिएका थिए। उनले लुम्बिनी गाउँलाई कर-मुक्त पनि बनाए, केवल आठौँ भाग मात्र तिर्नुपर्ने गरी। ती शब्दहरूले बिर्सिएको टिलालाई बुद्धको मान्यताप्राप्त जन्मस्थलमा परिणत गरे। अझ माथि हेर्नुभयो भने तपाईंले पछिल्लो पङ्क्ति, ओम मणि पद्मे हुम्, देख्न सक्नुहुन्छ, जो चौधौं शताब्दीमा राजा रिपु मल्लका लागि कुँदिएको थियो। चिनियाँ तीर्थयात्री श्वेनचाङले माथि घोडा देखेका थिए; आज टुप्पो हराइसकेको छ।",
+  "short_np": "सम्राट अशोकको ढुङ्गाको स्तम्भ, जसको ब्राह्मी शिलालेखले शाक्यमुनि बुद्ध यहीँ जन्मेका थिए भनेर बताउँछ।",
+  "story_np": "रेलिङको छेउमा उभिएर यो चिल्लो खैरो स्तम्भ हेर्नुहोस्। करिब २४९ ई.पू. मा मौर्य सम्राट अशोक राज्याभिषेकको बीस वर्षपछि तीर्थयात्रामा यहाँ आएर यो स्तम्भ खडा गराए। सयौँ वर्षसम्म यो आधा गाडिएर बिर्सिएको अवस्थामा रह्यो। सन् १८९६ को डिसेम्बरमा जनरल खड्ग शमशेर राणाको नेतृत्वमा नेपाली टोलीले यसको फेद वरिपरि खन्यो, नजिकै पुरातत्त्वविद् आलोइस फ्युरर पनि थिए। तल्तिर उनीहरूले ब्राह्मी लिपिका पाँच लाइन भेटे। त्यसमा छोटकरीमा लेखिएको छ: राजा आफैँ आएर पूजा गरे, किनभने यहाँ शाक्यमुनि बुद्ध जन्मेका थिए। उनले लुम्बिनी गाउँलाई करमुक्त पनि बनाए, उब्जनीको आठौँ भाग मात्र तिर्नुपर्ने गरी। ती शब्दले बिर्सिएको थुम्कोलाई बुद्धको जन्मस्थलका रूपमा चिनायो। अलि माथि हेर्नुभयो भने पछि कुँदिएको ॐ मणि पद्मे हुम् पनि देख्न सक्नुहुन्छ, जुन चौधौँ शताब्दीमा राजा रिपु मल्लका लागि कुँदिएको थियो। चिनियाँ तीर्थयात्री ह्वेनसाङले टुप्पोमा घोडा देखेका थिए, तर आज त्यो टुप्पो हराइसकेको छ।",
   "legend_np": null,
   "facts_np": [
-   "ब्राह्मी शिलालेख सन् १८९६ को डिसेम्बरमा जनरल खड्ग शमशेर राणाको टोलीले, आलोइस एन्टोन फ्युररसँग, पत्ता लगाएको थियो।",
-   "यसले अभिलेख गर्छ कि अशोक आफ्नो अभिषेकको बीस वर्षपछि आए किनभने यहाँ शाक्यमुनि बुद्ध जन्मिएका थिए।",
-   "शिलालेखले भन्छ अशोकले लुम्बिनी गाउँलाई कर-मुक्त बनाए, उपजको केवल आठौँ भाग तिर्नुपर्ने गरी।",
-   "स्तम्भमा रहेको पछिल्लो शिलालेखमा राजा रिपु मल्लको नामसहित 'ओम मणि पद्मे हुम्' लेखिएको छ, शक १२३४ मिति।",
-   "अशोक विद्वान ह्यारी फाल्कले शिलालेखको प्रामाणिकतालाई 'विवादभन्दा परको' भनेका छन्।"
+   "ब्राह्मी शिलालेख सन् १८९६ को डिसेम्बरमा जनरल खड्ग शमशेर राणाको टोलीले आलोइस एन्टोन फ्युररसँग मिलेर फेला पारेको हो।",
+   "त्यसमा लेखिएको छ, अशोक राज्याभिषेकको बीस वर्षपछि यहाँ आए, किनभने यहाँ शाक्यमुनि बुद्ध जन्मेका थिए।",
+   "शिलालेख अनुसार अशोकले लुम्बिनी गाउँलाई करमुक्त बनाए र उब्जनीको आठौँ भाग मात्र तिर्नुपर्ने गरे।",
+   "स्तम्भमा पछि कुँदिएको शिलालेखमा राजा रिपु मल्लको नामसहित ॐ मणि पद्मे हुम् लेखिएको छ, जसको मिति शक १२३४ हो।",
+   "अशोकसम्बन्धी विद्वान ह्यारी फाल्कले यो शिलालेख साँचो हुनमा कुनै विवाद छैन भनेका छन्।"
   ],
   "quake_np": null,
   "clues_np": [
-   "मेरो ढुङ्गाको खम्बाको तल्लो भागमा रहेका प्राचीन लिपिका पाँच पङ्क्तिले यो कसको जन्मस्थल हो भनी संसारलाई बताउँछन्।",
-   "एक चिनियाँ यात्रीले मेरो टुप्पामा घोडा देखेका थिए; बिजुली र समयले त्यसलाई लगे।"
+   "मेरो ढुङ्गाको खम्बाको तल्लो भागमा प्राचीन लिपिका पाँच लाइन छन्, जसले यो कसको जन्मस्थल हो भनेर संसारलाई बताउँछन्।",
+   "एक चिनियाँ यात्रीले मेरो टुप्पोमा घोडा देखेका थिए। बिजुली र समयले त्यो लग्यो।",
+   "म पालिस गरिएको खैरो बलुवा ढुङ्गाको एउटै खम्बा हुँ, र मेरो तल्लो भाग सयौँ वर्ष गाडिएर बिर्सिएको थियो।",
+   "सन् १८९६ को डिसेम्बरमा एक नेपाली जनरल र उनको टोलीले मेरो फेद वरिपरि खने, अनि एक गुरु कहाँ जन्मेका रहेछन् भन्ने संसारले थाहा पायो।",
+   "धेरै पछि एक मध्यकालीन राजाले मेरो खम्बाको माथिल्लो भागमा ॐ मणि पद्मे हुम् कुँदाए।",
+   "म एउटा सेतो मन्दिर र पवित्र पोखरीको छेउमा होचो रेलिङभित्र उभिएको छु, जुन बगैँचामा तीर्थयात्रीले जुत्ता खोल्छन्।"
   ]
  },
  {
@@ -629,14 +845,14 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "Most scholars follow P. C. Mukherji in identifying Tilaurakot with Kapilavastu, the Shakya capital.",
-    "q_np": "तिलौराकोटलाई व्यापक रूपमा कुन प्राचीन नगरसँग पहिचान गरिन्छ?",
+    "q_np": "तिलौराकोटलाई धेरैले कुन प्राचीन नगरसँग जोडेर चिन्छन्?",
     "options_np": [
      "पाटलिपुत्र",
      "कपिलवस्तु",
      "वैशाली",
      "कुशीनगर"
     ],
-    "explanation_np": "धेरै विद्वान्ले पी. सी. मुखर्जीलाई पछ्याउँदै तिलौराकोटलाई शाक्य राजधानी कपिलवस्तुसँग पहिचान गर्छन्।"
+    "explanation_np": "धेरै विद्वानले पी. सी. मुखर्जीलाई पछ्याउँदै तिलौराकोटलाई शाक्य राजधानी कपिलवस्तु मान्छन्।"
    },
    {
     "q": "Which river flows beside Tilaurakot?",
@@ -656,7 +872,7 @@
      "नारायणी",
      "कालीगण्डकी"
     ],
-    "explanation_np": "यो स्थल बाणगङ्गा नदीको किनारमा छ।"
+    "explanation_np": "यो ठाउँ बाणगङ्गा नदीको किनारमा छ।"
    },
    {
     "q": "According to tradition, how many years did Siddhartha live at Kapilavastu before leaving?",
@@ -669,14 +885,14 @@
     "answer_index": 2,
     "difficulty": 2,
     "explanation": "He is said to have spent his first 29 years as a prince here.",
-    "q_np": "परम्परा अनुसार सिद्धार्थले कपिलवस्तु छाड्नुअघि कति वर्ष बिताए?",
+    "q_np": "परम्परा अनुसार सिद्धार्थले कपिलवस्तु छाड्नुअघि यहाँ कति वर्ष बिताए?",
     "options_np": [
      "7",
      "16",
      "29",
      "35"
     ],
-    "explanation_np": "उनले यहाँ राजकुमारका रूपमा आफ्ना पहिलो 29 वर्ष बिताएको भनिन्छ।"
+    "explanation_np": "उनले राजकुमारका रूपमा आफ्ना पहिलो 29 वर्ष यहीँ बिताएको भनिन्छ।"
    },
    {
     "q": "Who carried out the first excavation at Tilaurakot in 1899?",
@@ -689,14 +905,14 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "P. C. Mukherji excavated the site for the Archaeological Survey of India in 1899.",
-    "q_np": "1899 मा तिलौराकोटमा पहिलो उत्खनन कसले गरे?",
+    "q_np": "सन् 1899 मा तिलौराकोटमा पहिलो उत्खनन कसले गरे?",
     "options_np": [
-     "एलोइस फ्युरर",
+     "आलोइस फ्युरर",
      "पी. सी. मुखर्जी",
      "अलेक्जेन्डर कनिङ्घम",
      "रोबिन कोनिङ्घम"
     ],
-    "explanation_np": "पी. सी. मुखर्जीले 1899 मा भारतीय पुरातत्त्व सर्वेक्षणका लागि यो स्थल उत्खनन गरे।"
+    "explanation_np": "पी. सी. मुखर्जीले सन् 1899 मा भारतीय पुरातत्त्व सर्वेक्षणका लागि यो ठाउँ खनेका थिए।"
    },
    {
     "q": "What did excavators find south of the citadel in 2012?",
@@ -709,19 +925,123 @@
     "answer_index": 1,
     "difficulty": 5,
     "explanation": "The Lohasariya mound yielded about 9 tonnes of iron slag dated from around 400 BCE.",
-    "q_np": "2012 मा उत्खननकर्ताहरूले दुर्गको दक्षिणतिर के भेट्टाए?",
+    "q_np": "सन् 2012 मा खन्नेहरूले गढीको दक्षिणतिर के भेट्टाए?",
     "options_np": [
      "सुनको मुकुट",
      "नौ टन फलामको धातुमल",
      "अशोक स्तम्भ",
      "रोमन सिक्का"
     ],
-    "explanation_np": "लोहसरिया टिलाबाट करिब ई.पू. 400 को करिब 9 टन फलामको धातुमल फेला पर्‍यो।"
+    "explanation_np": "लोहसरिया थुम्काबाट करिब ई.पू. 400 को 9 टन फलामको धातुमल भेटियो।"
+   },
+   {
+    "q": "Which ancient clan is said to have ruled from this city?",
+    "options": [
+     "Licchavi",
+     "Malla",
+     "Shakya",
+     "Kirat"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Tilaurakot is widely identified with the capital of the Shakya clan.",
+    "q_np": "यो सहरबाट कुन प्राचीन वंशले शासन गरेको भनिन्छ?",
+    "options_np": [
+     "लिच्छवि",
+     "मल्ल",
+     "शाक्य",
+     "किरात"
+    ],
+    "explanation_np": "तिलौराकोटलाई शाक्य वंशको राजधानी भनेर धेरैले चिन्छन्।"
+   },
+   {
+    "q": "What kind of landscape surrounds the ruins?",
+    "options": [
+     "Apple orchards",
+     "Sal forest",
+     "Alpine meadow",
+     "Tea gardens"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The brick walls, moat, ponds and stupa mounds survive among sal forest.",
+    "q_np": "भग्नावशेष वरिपरि कस्तो वातावरण छ?",
+    "options_np": [
+     "स्याउबारी",
+     "सालको जङ्गल",
+     "हिमाली चरन",
+     "चिया बगान"
+    ],
+    "explanation_np": "इँटाका पर्खाल, खाडल, पोखरी र स्तूपका थुम्का सालको जङ्गलका बीचमा बाँकी छन्।"
+   },
+   {
+    "q": "How was the town laid out, according to the excavations?",
+    "options": [
+     "In a circle around a temple",
+     "Along one winding lane",
+     "Randomly, with no plan",
+     "On a grid with streets north-south and east-west"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "Excavations show a planned grid-pattern town by about 570 BCE.",
+    "q_np": "उत्खननले देखाए अनुसार सहर कसरी बसाइएको थियो?",
+    "options_np": [
+     "मन्दिरको वरिपरि गोलो आकारमा",
+     "एउटै बाङ्गोटिङ्गो गल्लीमा",
+     "योजना बिना जथाभावी",
+     "उत्तर-दक्षिण र पूर्व-पश्चिम सडक भएको जाली जस्तो योजनामा"
+    ],
+    "explanation_np": "उत्खनन अनुसार करिब ई.पू. 570 सम्ममा यहाँ जाली जस्तो योजना भएको सहर थियो।"
+   },
+   {
+    "q": "Roughly how far and in which direction is Tilaurakot from Lumbini?",
+    "options": [
+     "About 27 km west",
+     "About 5 km east",
+     "About 100 km north",
+     "About 60 km south"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "It lies about 27 km west of Lumbini, on the Banganga river.",
+    "q_np": "तिलौराकोट लुम्बिनीबाट करिब कति टाढा र कुन दिशामा छ?",
+    "options_np": [
+     "करिब २७ किमी पश्चिम",
+     "करिब ५ किमी पूर्व",
+     "करिब १०० किमी उत्तर",
+     "करिब ६० किमी दक्षिण"
+    ],
+    "explanation_np": "यो लुम्बिनीबाट करिब २७ किमी पश्चिममा, बाणगङ्गा नदीको किनारमा छ।"
+   },
+   {
+    "q": "Which two Chinese pilgrims described a palace that may have stood inside the inner walls?",
+    "options": [
+     "Faxian and Xuanzang",
+     "Yijing and Zhang Qian",
+     "Zheng He and Faxian",
+     "Xuanzang and Marco Polo"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "The pilgrims Faxian and Xuanzang described the palace of the Shakya capital.",
+    "q_np": "भित्री पर्खालभित्र रहेको हुनसक्ने दरबार कुन दुई चिनियाँ तीर्थयात्रीले वर्णन गरेका थिए?",
+    "options_np": [
+     "फाहियान र ह्वेनसाङ",
+     "इचिङ र झाङ छ्येन",
+     "चङ हे र फाहियान",
+     "ह्वेनसाङ र मार्को पोलो"
+    ],
+    "explanation_np": "फाहियान र ह्वेनसाङ तीर्थयात्रीले शाक्य राजधानीको दरबार वर्णन गरेका थिए।"
    }
   ],
   "clues": [
    "I am said to be the home a prince left at twenty-nine, walking away from palace life to seek an end to suffering.",
-   "My brick walls sit in a sal forest by the Banganga, and pilgrims argue whether I or a site across the border was the Shakya capital."
+   "My brick walls sit in a sal forest by the Banganga, and pilgrims argue whether I or a site across the border was the Shakya capital.",
+   "Around me a moat, ponds and stupa mounds lie among sal trees, and brick gateways still stand in the grass.",
+   "By about 570 BCE my streets ran in a neat grid, and a wooden fence guarded me from river floods.",
+   "Digging south of my citadel turned up nine tonnes of iron slag from ancient workshops.",
+   "Chinese pilgrims wrote about a palace that may have stood inside my inner walled compound."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Tilaurakot",
@@ -774,20 +1094,24 @@
     "caption": "Samai Mai temple on a mound south of the citadel"
    }
   ],
-  "short_np": "पर्खाल भएको प्राचीन सहरका इँटाका भग्नावशेष, जुन राजकुमार सिद्धार्थ हुर्केको कपिलवस्तु भनेर व्यापक रूपमा चिनिन्छ।",
-  "story_np": "यी पुराना इँटाका पर्खालका बीचको खाली ठाउँबाट हिँड्नुहोस् र आफ्नो वरिपरि व्यस्त सहरको कल्पना गर्नुहोस्। धेरै विद्वान्हरू यही शाक्य वंशको राजधानी कपिलवस्तु थियो भन्ने विश्वास गर्छन्, जहाँ राजकुमार सिद्धार्थले ज्ञानको खोजीमा निस्कनुअघि आफ्ना पहिलो उनन्तीस वर्ष बिताए। पुरातत्त्वविद्हरूले करिब ईसापूर्व ५७० सम्ममा यहाँ योजनाबद्ध सहर थियो भन्ने पत्ता लगाएका छन्, उत्तरदेखि दक्षिण र पूर्वदेखि पश्चिम जाने सडकहरूसहित, र तपाईंको छेउको बाणगङ्गा नदीको बाढीविरुद्ध बनाइएको पहिलेको काठको बार। पूर्वी ढोका खोज्नुहोस्, घाँसमा अझै उभिएका यसका इँटाका चौकोसहित। पर्खालभित्र सय मिटरभन्दा बढी फराकिलो दोस्रो पर्खाल भएको परिसर थियो, सायद चिनियाँ तीर्थयात्री फाहियान र ह्वेनसाङले वर्णन गरेको दरबार। गढीको दक्षिणमा, सन् २०१२ मा गरिएको खनाइले प्राचीन कार्यशालाहरूबाट नौ टन फलामको धातुमल भेट्टायो। साल रूखमा चराको चिरबिर सुन्नुहोस् र सम्झनुहोस् कि एक राजकुमार कुनै बेला यी गल्लीहरूमा हिँडेका थिए।",
+  "short_np": "पर्खाल भएको प्राचीन सहरका इँटाका भग्नावशेष, जसलाई राजकुमार सिद्धार्थ हुर्केको कपिलवस्तु भनेर धेरैले चिन्छन्।",
+  "story_np": "यी पुराना इँटाका पर्खालको खाली ठाउँबाट भित्र पस्नुहोस् र वरिपरि व्यस्त सहर छ भनेर सोच्नुहोस्। धेरै विद्वानको विश्वास छ, यही शाक्य वंशको राजधानी कपिलवस्तु थियो। यहीँ राजकुमार सिद्धार्थले ज्ञानको खोजीमा निस्कनुअघि आफ्ना पहिलो उनन्तीस वर्ष बिताएका थिए। पुरातत्त्वविद्हरूले पत्ता लगाएका छन्, करिब ५७० ई.पू. सम्ममा यहाँ योजना बनाएर बसाइएको सहर थियो, जहाँ उत्तर-दक्षिण र पूर्व-पश्चिम सडक थिए, र छेउको बाणगङ्गा नदीको बाढीबाट जोगिन पहिले काठको बार लगाइएको थियो। पूर्वी ढोका खोज्नुहोस्, घाँसमा अझै उभिएका यसका इँटाका चौखट भेट्टाउनुहुनेछ। पर्खालभित्र सय मिटरभन्दा बढी फराकिलो अर्को पर्खाल लगाइएको परिसर थियो, सायद चिनियाँ तीर्थयात्री फाहियान र ह्वेनसाङले वर्णन गरेको दरबार यही हो। गढीको दक्षिणतिर सन् २०१२ मा खन्दा पुराना कार्यशालाबाट नौ टन फलामको धातुमल भेटियो। सालका रुखमा चराको चिरबिर सुन्नुहोस् र सम्झनुहोस्, कुनै बेला एक राजकुमार यिनै गल्लीमा हिँडेका थिए।",
   "legend_np": null,
   "facts_np": [
    "यो लुम्बिनीबाट करिब २७ किमी पश्चिममा, बाणगङ्गा नदीको किनारमा छ।",
-   "भारतीय पुरातत्त्व सर्वेक्षणका पी. सी. मुखर्जीले सन् १८९९ मा पहिलो पटक यसको उत्खनन गरे।",
-   "किलाबन्दी गरिएको गढीको नाप करिब ५०० गुणा ४०० मिटर छ र यो ग्रिड योजनामा बनेको छ।",
-   "सन् २०१२ को उत्खननले करिब ईसापूर्व ४०० को ९ टन फलामको धातुमल फेला पार्‍यो।",
-   "नेपालले यसलाई सन् १९९६ मा युनेस्को विश्व सम्पदा अस्थायी सूचीमा राख्यो।"
+   "भारतीय पुरातत्त्व सर्वेक्षणका पी. सी. मुखर्जीले सन् १८९९ मा पहिलो पटक यहाँ उत्खनन गरेका थिए।",
+   "किल्ला जस्तो गढीको नाप करिब ५०० गुणा ४०० मिटर छ, र यो जाली जस्तो योजनामा बनेको छ।",
+   "सन् २०१२ को उत्खननमा करिब ४०० ई.पू. को ९ टन फलामको धातुमल भेटियो।",
+   "नेपालले यसलाई सन् १९९६ मा युनेस्कोको विश्व सम्पदा अस्थायी सूचीमा राखेको थियो।"
   ],
   "quake_np": null,
   "clues_np": [
-   "म त्यो घर हुँ भनिन्छ जहाँबाट एक राजकुमार 29 वर्षको उमेरमा दुःखको अन्त्य खोज्न दरबारी जीवन छाडेर हिँडे।",
-   "मेरा इँटाका पर्खाल बाणगङ्गाको किनारमा सालको जङ्गलमा छन्, र तीर्थयात्रीहरू शाक्य राजधानी म हुँ कि सीमापारिको कुनै स्थल भनेर बहस गर्छन्।"
+   "भनिन्छ, एक राजकुमारले उनन्तीस वर्षको उमेरमा दुःखको अन्त्य खोज्न दरबारको जीवन छाडेर यहीँबाट हिँडेका थिए।",
+   "मेरा इँटाका पर्खाल बाणगङ्गाको किनारमा सालको जङ्गलमा छन्, र तीर्थयात्रीहरू शाक्य राजधानी म हुँ कि सीमापारिको कुनै ठाउँ भनेर बहस गर्छन्।",
+   "मेरो वरिपरि सालका रुखबीच खाडल, पोखरी र स्तूपका थुम्का छन्, र घाँसमा इँटाका ढोका अझै उभिएका छन्।",
+   "करिब ५७० ई.पू. सम्ममा मेरा सडक मिलेको जाली जस्तो ढाँचामा थिए, र नदीको बाढीबाट जोगाउन काठको बार थियो।",
+   "मेरो गढीको दक्षिणतिर खन्दा पुराना कार्यशालाबाट नौ टन फलामको धातुमल भेटियो।",
+   "चिनियाँ तीर्थयात्रीहरूले मेरो भित्री पर्खाल लगाइएको परिसरमा रहेको हुनसक्ने दरबारबारे लेखेका छन्।"
   ]
  },
  {
@@ -887,14 +1211,14 @@
     "answer_index": 1,
     "difficulty": 2,
     "explanation": "Kudan is identified with Nigrodharama, the banyan grove monastery near Kapilavastu.",
-    "q_np": "कुदान परम्परागत रूपमा कुन प्राचीन विहारसँग जोडिन्छ?",
+    "q_np": "कुदानलाई परम्परा अनुसार कुन प्राचीन विहारसँग जोडिन्छ?",
     "options_np": [
      "जेतवन",
      "न्यग्रोधाराम",
      "नालन्दा",
      "वेळुवन"
     ],
-    "explanation_np": "कुदानलाई कपिलवस्तु नजिकको वटवृक्षको वन विहार न्यग्रोधारामसँग जोडिन्छ।"
+    "explanation_np": "कुदानलाई कपिलवस्तु नजिकको बरको बगैँचामा रहेको विहार न्यग्रोधाराम मानिन्छ।"
    },
    {
     "q": "Whom did the Buddha meet here, according to tradition?",
@@ -910,11 +1234,11 @@
     "q_np": "परम्परा अनुसार बुद्धले यहाँ कसलाई भेटे?",
     "options_np": [
      "सम्राट अशोक",
-     "पिता राजा शुद्धोदन",
+     "आफ्ना पिता राजा शुद्धोदन",
      "राजा बिम्बिसार",
      "ऋषि असित"
     ],
-    "explanation_np": "शुद्धोदनले छोरालाई बुद्धत्व प्राप्तिपछि भेट्न यहाँ विहार बनाए।"
+    "explanation_np": "बुद्धले ज्ञान पाएपछि छोरालाई भेट्न शुद्धोदनले यहाँ विहार बनाए।"
    },
    {
     "q": "In which district is Kudan?",
@@ -929,7 +1253,7 @@
     "explanation": "Kudan lies near Taulihawa in Kapilvastu District.",
     "q_np": "कुदान कुन जिल्लामा छ?",
     "options_np": [
-     "रूपन्देही",
+     "रुपन्देही",
      "कपिलवस्तु",
      "दाङ",
      "बाँके"
@@ -947,14 +1271,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "A small Shiva shrine with a linga sits on the main mound.",
-    "q_np": "कुदानको मुख्य स्तूप टुकामाथि कस्तो मन्दिर छ?",
+    "q_np": "कुदानको मुख्य स्तूपको थुम्कामाथि कस्तो मन्दिर छ?",
     "options_np": [
      "जैन मन्दिर",
      "शिव मन्दिर",
      "मस्जिद",
      "तिब्बती गुम्बा"
     ],
-    "explanation_np": "मुख्य टुकामाथि लिङ्गसहितको सानो शिव मन्दिर छ।"
+    "explanation_np": "मुख्य थुम्कामाथि शिवलिङ्ग भएको सानो शिव मन्दिर छ।"
    },
    {
     "q": "What did excavators report at Kudan in 2016?",
@@ -970,16 +1294,120 @@
     "q_np": "सन् 2016 मा उत्खननकर्ताहरूले कुदानमा के भेटेको जनाए?",
     "options_np": [
      "सुनका सिक्काको भण्डार",
-     "कसैले प्रवचनसँग जोडेको खम्बा गाड्ने प्वाल",
+     "प्रवचनसँग जोडिएको खम्बा गाडिएको प्वाल",
      "अशोकको शिलालेख",
      "शाही छाप"
     ],
-    "explanation_np": "एउटा खम्बा गाड्ने प्वाल भेटिएको जनाइयो, जसलाई केहीले बुद्धले घर फर्कँदा प्रवचन दिएको ठाउँ मान्छन्।"
+    "explanation_np": "काठको खम्बा गाडिएको एउटा प्वाल भेटियो, जसलाई कतिपयले बुद्धले घर फर्कँदा प्रवचन दिएको ठाउँ मान्छन्।"
+   },
+   {
+    "q": "Which kind of tree gives Nigrodharama its name?",
+    "options": [
+     "Peepal",
+     "Sal",
+     "Banyan",
+     "Neem"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Nigrodharama is the banyan grove monastery near Kapilavastu.",
+    "q_np": "न्यग्रोधारामको नाम कुन रुखबाट आएको हो?",
+    "options_np": [
+     "पिपल",
+     "साल",
+     "बर",
+     "निम"
+    ],
+    "explanation_np": "न्यग्रोधाराम कपिलवस्तु नजिकको बरको बगैँचामा रहेको विहार हो।"
+   },
+   {
+    "q": "What decorates the stair that climbs to the top of the main stupa mound?",
+    "options": [
+     "Marble lions",
+     "Prayer flags",
+     "Brass bells",
+     "Painted eyes"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The stair up the main mound is hung with fluttering prayer flags.",
+    "q_np": "मुख्य स्तूपको थुम्कासम्म पुर्‍याउने सिँढीमा के सजाइएको छ?",
+    "options_np": [
+     "सङ्गमरमरका सिंह",
+     "प्रार्थना झण्डा",
+     "पित्तलका घण्टा",
+     "रङ्गीन आँखा"
+    ],
+    "explanation_np": "मुख्य थुम्का चढ्ने सिँढीमा प्रार्थना झण्डा फहराइएका छन्।"
+   },
+   {
+    "q": "Which members of his family did the Buddha teach at Kudan, according to the story?",
+    "options": [
+     "His mother Maya and aunt Prajapati",
+     "Yashodhara and Rahula",
+     "Ananda and Devadatta",
+     "Channa and Kanthaka"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The legend says he taught the Shakyas, including his wife Yashodhara and son Rahula.",
+    "q_np": "कथा अनुसार बुद्धले कुदानमा आफ्नो परिवारका कसलाई उपदेश दिए?",
+    "options_np": [
+     "आमा माया र काकी प्रजापति",
+     "यशोधरा र राहुल",
+     "आनन्द र देवदत्त",
+     "छन्न र कण्थक"
+    ],
+    "explanation_np": "कथा अनुसार उनले शाक्यहरूलाई उपदेश दिए, जसमा पत्नी यशोधरा र छोरा राहुल पनि थिए।"
+   },
+   {
+    "q": "How many stupas survive at Kudan, along with a well and a ruined pond?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "Seven"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The surviving remains include three stupas, a well and the ruins of a large pond.",
+    "q_np": "कुदानमा इनार र भत्किएको पोखरीसँगै कतिवटा स्तूप बाँकी छन्?",
+    "options_np": [
+     "एउटा",
+     "दुईवटा",
+     "तीनवटा",
+     "सातवटा"
+    ],
+    "explanation_np": "बाँकी अवशेषमा तीनवटा स्तूप, एउटा इनार र ठूलो पोखरीको भग्नावशेष छन्।"
+   },
+   {
+    "q": "Which university joined UNESCO and Nepal's archaeology department in the 2016 excavation?",
+    "options": [
+     "Harvard University",
+     "Durham University",
+     "Kyoto University",
+     "Tribhuvan University"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "A team from Durham University, UNESCO and Nepal's Department of Archaeology reported the wooden post-hole.",
+    "q_np": "सन् 2016 को उत्खननमा युनेस्को र नेपालको पुरातत्त्व विभागसँग कुन विश्वविद्यालय थियो?",
+    "options_np": [
+     "हार्वर्ड विश्वविद्यालय",
+     "डरहम विश्वविद्यालय",
+     "क्योटो विश्वविद्यालय",
+     "त्रिभुवन विश्वविद्यालय"
+    ],
+    "explanation_np": "डरहम विश्वविद्यालय, युनेस्को र नेपालको पुरातत्त्व विभागको टोलीले काठको खम्बा गाडिएको प्वाल भेटेको जनायो।"
    }
   ],
   "clues": [
    "A king built a monastery in a banyan grove here so he could greet his enlightened son.",
-   "A Hindu shrine now crowns my Buddhist brick mound, a short ride south of the district headquarters."
+   "A Hindu shrine now crowns my Buddhist brick mound, a short ride south of the district headquarters.",
+   "In 2016 diggers found a wooden post-hole in my soil that some link to a first sermon on a visit home.",
+   "A wife and a young son once listened here as their husband and father taught.",
+   "Three brick stupas, a well and the ruins of a big pond lie scattered across my open grassland.",
+   "A stair hung with prayer flags climbs my main brick mound, where a small Shiva shrine sits on top."
   ],
   "sources": [
    "https://lumbinidevtrust.gov.np/page/2_667f8489290b3",
@@ -1031,20 +1459,24 @@
     "caption": "Excavated brickwork at Kudan"
    }
   ],
-  "short_np": "कुदानका भग्न स्तूप, न्यग्रोधाराम भनी चिनिने, जहाँ बुद्धले ज्ञान प्राप्तिपछि आफ्ना पितासँग भेट गरेको भनिन्छ।",
-  "story_np": "तपाईं तौलिहवाबाट छोटो सवारी दक्षिणमा रहेको कुदानमा उभिनुभएको छ, पुराना इँटाका टिला छरिएको घाँसे मैदानमा। बौद्ध परम्पराले यो ठाउँलाई कपिलवस्तु नजिकको बरको बगैँचाको विहार, न्यग्रोधारामसँग जोड्छ। भनिन्छ, राजकुमार बुद्ध भएपछि पहिलो पटक आफ्ना छोरालाई भेट्न राजा शुद्धोदनले यहाँ ठूलो विहार बनाए। यहीँ, कथा अनुसार, बुद्धले आफ्नो परिवारलाई शिक्षा दिए, जसमा उनकी पत्नी यशोधरा र सानो छोरा राहुल पनि थिए। फर्फराउँदो प्रार्थना झण्डाले सजिएको सिँढी चढेर मुख्य स्तूपको टिलाको शिखरसम्म पुग्नुहोस्। त्यहाँ बसेको सानो शिव मन्दिरमा ध्यान दिनुहोस्: हिन्दू र बौद्ध भक्ति लामो समयदेखि यही भूमि साझा गर्दै आएका छन्। 2016 मा डरहम विश्वविद्यालय, युनेस्को र नेपालको पुरातत्त्व विभागको टोलीले यहाँ एउटा काठको खम्बा-प्वाल पाएको जनायो, जसलाई कतिपयले घर फर्कँदा बुद्धको पहिलो प्रवचनसँग जोड्छन्। खेतपारि तिलौराकोटतिर हेर्नुहोस्, उनले एक समय छाडेको पुरानो सहर।",
-  "legend_np": "राजा शुद्धोदनले बरको बगैँचामा आफ्ना छोरा, अब बुद्ध, लाई स्वागत गर्न ठूलो विहार बनाए, जसले यहाँ यशोधरा र राहुलसहित शाक्यहरूलाई उपदेश दिए।",
+  "short_np": "कुदानका भत्किएका स्तूप, न्यग्रोधाराम भनेर चिनिने ठाउँ, जहाँ बुद्धले ज्ञान पाएपछि आफ्ना पितासँग भेट गरेका थिए भनिन्छ।",
+  "story_np": "तपाईं तौलिहवाबाट अलि दक्षिण कुदानमा हुनुहुन्छ, जहाँ घाँसे मैदानमा पुराना इँटाका थुम्का छरिएका छन्। बौद्ध परम्परा अनुसार यो ठाउँ कपिलवस्तु नजिकको बरको बगैँचामा रहेको विहार, न्यग्रोधाराम हो। भनिन्छ, राजकुमार बुद्ध भएपछि छोरालाई पहिलो पटक भेट्न राजा शुद्धोदनले यहाँ ठूलो विहार बनाए। कथा अनुसार यहीँ बुद्धले आफ्नो परिवारलाई उपदेश दिए, जसमा उनकी पत्नी यशोधरा र सानो छोरा राहुल पनि थिए। प्रार्थना झण्डा फहराएको सिँढी चढेर मुख्य स्तूपको थुम्कामाथि पुग्नुहोस्। त्यहाँ एउटा सानो शिव मन्दिर छ, हेर्नुहोस्। हिन्दू र बौद्धको आस्था लामो समयदेखि यही ठाउँमा सँगै बसेको छ। सन् 2016 मा डरहम विश्वविद्यालय, युनेस्को र नेपालको पुरातत्त्व विभागको टोलीले यहाँ काठको खम्बा गाडिएको प्वाल भेटेको जनायो। कतिपयले यसलाई घर फर्कँदा बुद्धले दिएको पहिलो प्रवचनसँग जोड्छन्। खेतपारि तिलौराकोटतिर हेर्नुहोस्, उनले कुनै बेला छाडेर गएको पुरानो सहर।",
+  "legend_np": "राजा शुद्धोदनले बरको बगैँचामा आफ्ना छोरा, अब बुद्ध भएकालाई स्वागत गर्न ठूलो विहार बनाए। बुद्धले यहीँ शाक्यहरूलाई उपदेश दिए, जसमा यशोधरा र राहुल पनि थिए।",
   "facts_np": [
-   "लुम्बिनी विकास कोषले कुदानलाई तौलिहवाको करिब 3 किलोमिटर दक्षिणमा राख्छ र यसलाई न्यग्रोधारामसँग चिनाउँछ।",
-   "परम्परा अनुसार बुद्धले ज्ञान प्राप्तिपछि पहिलो पटक आफ्ना पिता राजा शुद्धोदनसँग यहीँ भेट गरे।",
-   "2016 मा उत्खननकर्ताहरूले एउटा खम्बा-प्वाल पाएको जनाए, जसलाई कतिपयले घर फर्कँदा बुद्धको पहिलो प्रवचनको चिन्ह मान्छन्।",
-   "बाँकी अवशेषमा तीनवटा स्तूप, एउटा इनार र ठूलो पोखरीका भग्नावशेष छन्।",
-   "मुख्य स्तूपको टिलाको माथि सानो शिव मन्दिर छ।"
+   "लुम्बिनी विकास कोषका अनुसार कुदान तौलिहवाबाट करिब 3 किलोमिटर दक्षिणमा छ र यसलाई न्यग्रोधाराम भनेर चिनिन्छ।",
+   "परम्परा अनुसार बुद्धले ज्ञान पाएपछि पहिलो पटक आफ्ना पिता राजा शुद्धोदनलाई यहीँ भेटेका थिए।",
+   "सन् 2016 मा उत्खननकर्ताहरूले एउटा खम्बा गाडिएको प्वाल भेटेको जनाए, जसलाई कतिपयले घर फर्कँदा बुद्धले दिएको पहिलो प्रवचनको चिह्न मान्छन्।",
+   "बाँकी अवशेषमा तीनवटा स्तूप, एउटा इनार र ठूलो पोखरीको भग्नावशेष छन्।",
+   "मुख्य स्तूपको थुम्कामाथि सानो शिव मन्दिर छ।"
   ],
   "quake_np": null,
   "clues_np": [
-   "एक राजाले वटवृक्षको वनमा विहार बनाए ताकि बुद्धत्व पाएका छोरालाई स्वागत गर्न सकून्।",
-   "एउटा हिन्दू मन्दिरले अहिले मेरो बौद्ध इँटाको टुकामाथि मुकुट चढाएको छ, जिल्ला सदरमुकामको अलि दक्षिणमा।"
+   "एक राजाले बरको बगैँचामा विहार बनाए, ताकि बुद्धत्व पाएका छोरालाई स्वागत गर्न सकून्।",
+   "अहिले मेरो बौद्ध इँटाको थुम्कामाथि एउटा हिन्दू मन्दिर छ, जिल्ला सदरमुकामबाट अलि दक्षिणमा।",
+   "सन् २०१६ मा खन्नेहरूले मेरो माटोमा काठको खम्बा गाडिएको प्वाल भेटे, जसलाई कतिपयले घर फर्कँदाको पहिलो प्रवचनसँग जोड्छन्।",
+   "एक पत्नी र सानो छोराले यहीँ आफ्ना पति र बुबाको उपदेश सुनेका थिए।",
+   "मेरो खुला घाँसे मैदानमा इँटाका तीनवटा स्तूप, एउटा इनार र ठूलो पोखरीका भग्नावशेष छरिएका छन्।",
+   "प्रार्थना झण्डा फहराएको सिँढी मेरो मुख्य इँटाको थुम्कामा चढ्छ, जसको टुप्पामा सानो शिव मन्दिर छ।"
   ]
  },
  {
@@ -1141,14 +1573,14 @@
     "answer_index": 1,
     "difficulty": 2,
     "explanation": "Gotihawa is identified with Khemavati, birthplace of Krakuchhanda (Kakusandha) Buddha.",
-    "q_np": "गोटिहवामा जन्मेका भनिने पूर्ववर्ती बुद्ध कुन हुन्?",
+    "q_np": "गोटिहवामा जन्मेका भनिने पहिलेका बुद्ध को हुन्?",
     "options_np": [
      "कनकमुनि",
      "क्रकुच्छन्द",
      "दीपङ्कर",
      "मैत्रेय"
     ],
-    "explanation_np": "गोटिहवालाई क्रकुच्छन्द (ककुसन्ध) बुद्धको जन्मस्थल खेमावतीका रूपमा चिनिन्छ।"
+    "explanation_np": "गोटिहवालाई क्रकुच्छन्द (ककुसन्ध) बुद्धको जन्मस्थल खेमवती मानिन्छ।"
    },
    {
     "q": "What was Gotihawa's ancient name?",
@@ -1163,12 +1595,12 @@
     "explanation": "Modern Gotihawa was known as Khemavati.",
     "q_np": "गोटिहवाको प्राचीन नाम के थियो?",
     "options_np": [
-     "खेमावती",
+     "खेमवती",
      "देवदह",
      "रामग्राम",
      "श्रावस्ती"
     ],
-    "explanation_np": "आधुनिक गोटिहवा खेमावतीका नामले चिनिन्थ्यो।"
+    "explanation_np": "अहिलेको गोटिहवालाई पहिले खेमवती भनिन्थ्यो।"
    },
    {
     "q": "Which emperor set up the pillar at Gotihawa?",
@@ -1181,14 +1613,14 @@
     "answer_index": 0,
     "difficulty": 1,
     "explanation": "Ashoka erected a pillar here in the 3rd century BCE.",
-    "q_np": "गोटिहवामा स्तम्भ कुन सम्राटले स्थापना गरे?",
+    "q_np": "गोटिहवामा स्तम्भ कुन सम्राटले खडा गरेका थिए?",
     "options_np": [
      "अशोक",
      "कनिष्क",
      "समुद्रगुप्त",
      "हर्ष"
     ],
-    "explanation_np": "अशोकले यहाँ ई.पू. 3 औँ शताब्दीमा स्तम्भ खडा गरे।"
+    "explanation_np": "अशोकले यहाँ ई.पू. तेस्रो शताब्दीमा स्तम्भ खडा गराए।"
    },
    {
     "q": "Which pillar's fragments may originally have stood on Gotihawa's base?",
@@ -1201,14 +1633,14 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "Scholars have suggested the Nigali Sagar fragments came from the Gotihawa base.",
-    "q_np": "कुन स्तम्भका टुक्राहरू मूलतः गोटिहवाको आधारमा उभिएका हुन सक्छन्?",
+    "q_np": "कुन स्तम्भका टुक्रा सुरुमा गोटिहवाको आधारमा उभिएका हुन सक्छन्?",
     "options_np": [
      "लुम्बिनी",
-     "निगालीसागर",
+     "निग्लीसागर",
      "सारनाथ",
      "वैशाली"
     ],
-    "explanation_np": "विद्वान्हरूले निगालीसागरका टुक्राहरू गोटिहवाको आधारबाट आएको हुन सक्ने सुझाव दिएका छन्।"
+    "explanation_np": "विद्वान्हरूले निग्लीसागरका टुक्रा गोटिहवाको आधारबाट आएका हुन सक्छन् भनी सुझाएका छन्।"
    },
    {
     "q": "In which district is Gotihawa?",
@@ -1229,11 +1661,115 @@
      "रुपन्देही"
     ],
     "explanation_np": "गोटिहवा कपिलवस्तु जिल्लामा तौलिहवा नजिक पर्छ।"
+   },
+   {
+    "q": "What is unusual about the Ashoka pillar at Gotihawa compared with the one at Lumbini?",
+    "options": [
+     "It is made of gold",
+     "It is taller",
+     "It stands upside down",
+     "It carries no inscription"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "Unlike the Lumbini pillar, the Gotihawa pillar has no surviving inscription.",
+    "q_np": "लुम्बिनीको स्तम्भको तुलनामा गोटिहवाको अशोक स्तम्भमा के फरक छ?",
+    "options_np": [
+     "यो सुनले बनेको छ",
+     "यो अझ अग्लो छ",
+     "यो उल्टो उभिएको छ",
+     "यसमा कुनै शिलालेख छैन"
+    ],
+    "explanation_np": "लुम्बिनीको स्तम्भ जस्तो नभई गोटिहवाको स्तम्भमा कुनै शिलालेख बाँकी छैन।"
+   },
+   {
+    "q": "What is left of Ashoka's pillar at Gotihawa today?",
+    "options": [
+     "The whole pillar with its lion top",
+     "Only the broken lower stump",
+     "Just a few carved fragments in a museum",
+     "Nothing at all"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The broken lower stump of the polished sandstone pillar stands in a fenced enclosure.",
+    "q_np": "गोटिहवामा अशोकको स्तम्भको आज के बाँकी छ?",
+    "options_np": [
+     "सिंहको टुप्पो भएको पूरै स्तम्भ",
+     "भाँचिएको तल्लो मुढो मात्र",
+     "सङ्ग्रहालयमा रहेका केही कुँदिएका टुक्रा",
+     "केही पनि छैन"
+    ],
+    "explanation_np": "पालिस गरिएको बलुवा ढुङ्गाको स्तम्भको भाँचिएको तल्लो मुढो घेरिएको ठाउँमा उभिएको छ।"
+   },
+   {
+    "q": "The brick stupa base beside the pillar is generally linked with what?",
+    "options": [
+     "The nirvana of Krakuchhanda",
+     "The first sermon of the Buddha",
+     "Ashoka's coronation",
+     "The birth of Siddhartha"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "The stupa base is generally linked with the nirvana of Krakuchhanda Buddha.",
+    "q_np": "स्तम्भको छेउको इँटाको स्तूपको आधारलाई सामान्यतया केसँग जोडिन्छ?",
+    "options_np": [
+     "क्रकुच्छन्दको निर्वाण",
+     "बुद्धको पहिलो प्रवचन",
+     "अशोकको राज्याभिषेक",
+     "सिद्धार्थको जन्म"
+    ],
+    "explanation_np": "स्तूपको आधारलाई सामान्यतया क्रकुच्छन्द बुद्धको निर्वाणसँग जोडिन्छ।"
+   },
+   {
+    "q": "The 1993-94 excavation found pottery and brickwork going back to about when?",
+    "options": [
+     "100 CE",
+     "500 BCE",
+     "900 BCE",
+     "2000 BCE"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The excavation found remains dating back to around 900 BCE.",
+    "q_np": "सन् 1993-94 को उत्खननमा भेटिएका माटाका भाँडा र इँटाको काम करिब कहिलेसम्म पुराना थिए?",
+    "options_np": [
+     "सन् 100",
+     "ई.पू. 500",
+     "ई.पू. 900",
+     "ई.पू. 2000"
+    ],
+    "explanation_np": "उत्खननमा करिब ई.पू. 900 सम्मका अवशेष भेटिए।"
+   },
+   {
+    "q": "In the Buddhavamsa, which numbered Buddha (of 29) is Krakuchhanda counted as?",
+    "options": [
+     "The 1st",
+     "The 10th",
+     "The 25th",
+     "The 29th"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Krakuchhanda is counted as the 25th of the 29 Buddhas in the Buddhavamsa.",
+    "q_np": "बुद्धवंशमा क्रकुच्छन्दलाई 29 बुद्धमध्ये कतिौँ गनिएको छ?",
+    "options_np": [
+     "पहिलो",
+     "दसौँ",
+     "पच्चीसौँ",
+     "उनन्तीसौँ"
+    ],
+    "explanation_np": "बुद्धवंशमा क्रकुच्छन्दलाई 29 बुद्धमध्ये 25 औँ गनिएको छ।"
    }
   ],
   "clues": [
    "An emperor's pillar here carries no words, only a broken stump beside a brick stupa.",
-   "Once called Khemavati, I am honoured as the birthplace of a Buddha who came long before Siddhartha."
+   "Once called Khemavati, I am honoured as the birthplace of a Buddha who came long before Siddhartha.",
+   "I am the broken lower stump of a polished sandstone pillar, standing inside a fence.",
+   "Scholars think pillar pieces now lying a few kilometres away once stood on the brick base beside me.",
+   "Diggers in 1993 and 1994 found pottery and brickwork here going back to about 900 BCE.",
+   "Tradition says an emperor stopped here on his pilgrimage to a famous garden of birth."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Gotihawa",
@@ -1286,20 +1822,24 @@
     "caption": "A historic pond in the Gotihawa area"
    }
   ],
-  "short_np": "अशोकको भाँचिएको स्तम्भ र इँटाको स्तूप भएको गाउँ, क्रकुच्छन्द बुद्धको जन्मस्थलका रूपमा पूजनीय।",
-  "story_np": "तपाईंको अगाडिको चम्काइएको ढुङ्गाको ठुटोतिर हेर्नुहोस्। यो ई.पू. तेस्रो शताब्दीमा सम्राट अशोकले उठाएको स्तम्भको यहाँ बाँकी रहेको एक मात्र अंश हो, र लुम्बिनीको स्तम्भजस्तो यसमा कुनै अभिलेख छैन। बौद्ध परम्परा अनुसार यो गाउँ, जसलाई पहिले खेमवती भनिन्थ्यो, पालीमा कक्कुसन्ध भनिने क्रकुच्छन्द बुद्धको जन्मस्थल थियो, जो सिद्धार्थ गौतमभन्दा पहिले आएका भनिने बुद्धहरूमध्ये एक हुन्। अशोकले लुम्बिनीको तीर्थयात्रामा यहाँ रोकिएको विश्वास गरिन्छ। स्तम्भको छेउको इँटाको थुप्रोतिर फर्कनुहोस्: यो स्तूपको आधार हो, जसलाई सामान्यतया क्रकुच्छन्दको निर्वाणसँग जोडिन्छ। विद्वानहरूले सुझाव दिएका छन् कि केही कि.मि. टाढा निग्लीसागरमा अहिले परेका भाँचिएको स्तम्भका टुक्राहरू मूलतः यही आधारमा उभिएका हुन सक्छन्। सन् 1993 र 1994 को उत्खननमा करिब ई.पू. 900 सम्मका माटाका भाँडा र इँटाको काम भेटिए। शान्त खेतमा केही बेर रोकिनुहोस् र दुई हजार वर्ष पहिले यही बाटोमा हिँडेका तीर्थयात्रीहरूको कल्पना गर्नुहोस्।",
-  "legend_np": "थेरवाद परम्परा अनुसार क्रकुच्छन्द बुद्ध यहाँको खेमवती उद्यानमा जन्मे, राजा खेमङ्करका पुरोहित अग्गिदत्तका छोरा।",
+  "short_np": "अशोकको भाँचिएको स्तम्भ र इँटाको स्तूप भएको गाउँ, क्रकुच्छन्द बुद्धको जन्मस्थलका रूपमा मानिने।",
+  "story_np": "तपाईंको अगाडिको पालिस गरिएको ढुङ्गाको मुढो हेर्नुहोस्। ई.पू. तेस्रो शताब्दीमा सम्राट अशोकले खडा गराएको स्तम्भको यहाँ यति मात्र बाँकी छ। लुम्बिनीको स्तम्भ जस्तो यसमा कुनै शिलालेख छैन। बौद्ध परम्परा अनुसार यो गाउँ, जसलाई पहिले खेमवती भनिन्थ्यो, क्रकुच्छन्द बुद्धको जन्मस्थल हो। पालीमा उनलाई कक्कुसन्ध भनिन्छ, जो सिद्धार्थ गौतम भन्दा पहिले आएका भनिने बुद्धमध्ये एक हुन्। अशोक लुम्बिनीको तीर्थयात्रामा जाँदा यहाँ रोकिएका थिए भन्ने मानिन्छ। स्तम्भको छेउको इँटाको थुप्रोतिर फर्कनुहोस्। त्यो स्तूपको आधार हो, जसलाई सामान्यतया क्रकुच्छन्दको निर्वाणसँग जोडिन्छ। केही किमी टाढा निग्लीसागरमा अहिले रहेका भाँचिएको स्तम्भका टुक्रा सुरुमा यही आधारमा उभिएका हुन सक्छन् भनी विद्वान्हरूले भनेका छन्। सन् 1993 र 1994 को उत्खननमा करिब ई.पू. 900 सम्मका माटाका भाँडा र इँटाको काम भेटिए। शान्त खेतमा केही बेर रोकिनुहोस् र दुई हजार वर्षअघि यही बाटोमा हिँडेका तीर्थयात्रीको कल्पना गर्नुहोस्।",
+  "legend_np": "थेरवाद परम्परा अनुसार क्रकुच्छन्द बुद्ध यहाँको खेमवती उद्यानमा जन्मिए। उनी राजा खेमङ्करका पुरोहित अग्गिदत्तका छोरा थिए।",
   "facts_np": [
-   "प्राचीन खेमवतीलाई आधुनिक गोटिहवासँग चिनाइन्छ।",
-   "यहाँको अशोक स्तम्भमा कुनै अभिलेख बाँकी छैन।",
-   "विद्वानहरूले यसको आधार निग्लीसागर स्तम्भका टुक्राहरूको मूल आधार थियो भनी सुझाव दिएका छन्।",
+   "प्राचीन खेमवतीलाई अहिलेको गोटिहवा मानिन्छ।",
+   "यहाँको अशोक स्तम्भमा कुनै शिलालेख बाँकी छैन।",
+   "विद्वान्हरूले यसको आधार निग्लीसागरमा रहेका स्तम्भका टुक्राको सुरुको आधार हुन सक्छ भनेका छन्।",
    "सन् 1993-94 को उत्खननमा करिब ई.पू. 900 सम्मका अवशेष भेटिए।",
-   "बुद्धवंशमा क्रकुच्छन्दलाई 29 बुद्धमध्ये 25औँ गनिएको छ।"
+   "बुद्धवंशमा क्रकुच्छन्दलाई 29 बुद्धमध्ये 25 औँ गनिएको छ।"
   ],
   "quake_np": null,
   "clues_np": [
-   "यहाँ एक सम्राटको स्तम्भमा कुनै अक्षर छैन, केवल इँटाको स्तूपछेउ एउटा भाँचिएको मुढो छ।",
-   "कुनै बेला खेमावती भनिएको म सिद्धार्थभन्दा धेरै अघि आएका एक बुद्धको जन्मस्थलका रूपमा सम्मानित छु।"
+   "यहाँ एक सम्राटको स्तम्भमा कुनै अक्षर छैन। इँटाको स्तूपको छेउमा एउटा भाँचिएको मुढो मात्र छ।",
+   "कुनै बेला खेमवती भनिएको म, सिद्धार्थ भन्दा धेरै अघि आएका एक बुद्धको जन्मस्थल भनेर मानिन्छु।",
+   "म पालिस गरिएको बलुवा ढुङ्गाको स्तम्भको भाँचिएको तल्लो मुढो हुँ, घेराभित्र उभिएको।",
+   "केही किमी टाढा रहेका स्तम्भका टुक्रा सुरुमा मेरै छेउको इँटाको आधारमा उभिएका थिए भन्ने विद्वान्हरू ठान्छन्।",
+   "सन् १९९३ र १९९४ मा खन्नेहरूले यहाँ करिब ९०० ई.पू. सम्मका माटाका भाँडा र इँटाको काम भेटे।",
+   "परम्परा अनुसार एक सम्राट जन्मस्थलको प्रसिद्ध बगैँचातिर तीर्थयात्रामा जाँदा यहाँ रोकिएका थिए।"
   ]
  },
  {
@@ -1417,14 +1957,14 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "It is believed to be the only one of the eight original relic stupas left undisturbed.",
-    "q_np": "आठ धातु स्तूपमध्ये रामग्राम किन विशेष छ?",
+    "q_np": "अस्थि राखिएका आठ स्तूपमध्ये रामग्राम किन विशेष छ?",
     "options_np": [
      "यो सबैभन्दा अग्लो छ",
-     "यो कहिल्यै नखोलिएको विश्वास गरिन्छ",
+     "यो कहिल्यै नखोलिएको मानिन्छ",
      "यो सङ्गमरमरले बनेको छ",
      "यो भारतमा छ"
     ],
-    "explanation_np": "आठवटा मूल धातु स्तूपमध्ये यही एउटा मात्र छोइएको नरहेको मानिन्छ।"
+    "explanation_np": "आठवटा मौलिक स्तूपमध्ये यही एउटा मात्र नछोइएको मानिन्छ।"
    },
    {
     "q": "According to the Mahavamsa, what stopped Ashoka from taking the relics?",
@@ -1437,7 +1977,7 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "A powerful naga guarding the stupa prevented him.",
-    "q_np": "महावंश अनुसार अशोकलाई धातु लैजानबाट कुनले रोक्यो?",
+    "q_np": "महावंश अनुसार अशोकलाई अस्थि लैजानबाट कसले रोक्यो?",
     "options_np": [
      "बाढीले",
      "नाग रक्षकले",
@@ -1457,14 +1997,14 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "The stupa complex measures about 23.5 m in diameter and 10 m high.",
-    "q_np": "स्तूपको टिलो करिब कति चौडा छ?",
+    "q_np": "स्तूपको थुम्को करिब कति चौडा छ?",
     "options_np": [
-     "5 m",
-     "23.5 m",
-     "60 m",
-     "100 m"
+     "5 मिटर",
+     "23.5 मिटर",
+     "60 मिटर",
+     "100 मिटर"
     ],
-    "explanation_np": "स्तूप परिसर करिब 23.5 m व्यास र 10 m अग्लो छ।"
+    "explanation_np": "स्तूप परिसर करिब 23.5 मिटर व्यासको र 10 मिटर अग्लो छ।"
    },
    {
     "q": "Why was the buried monastery's area called the 'unlucky field'?",
@@ -1477,19 +2017,123 @@
     "answer_index": 1,
     "difficulty": 5,
     "explanation": "Dense brickwork under the surface prevented crops from growing.",
-    "q_np": "पुरिएको विहारको क्षेत्रलाई 'अशुभ खेत' किन भनिन्थ्यो?",
+    "q_np": "गाडिएको विहारको क्षेत्रलाई अशुभ खेत किन भनिन्थ्यो?",
     "options_np": [
-     "त्यहाँ सर्पहरू बस्थे",
+     "त्यहाँ सर्प बस्थे",
      "तलको इँटाले बाली उम्रन दिँदैनथ्यो",
-     "त्यो हरेक वर्ष डुब्थ्यो",
+     "त्यो हरेक वर्ष डुबान हुन्थ्यो",
      "कुनै राजाले त्यसलाई श्राप दिएका थिए"
     ],
     "explanation_np": "सतहमुनिको बाक्लो इँटाको संरचनाले बाली उम्रन दिँदैनथ्यो।"
+   },
+   {
+    "q": "What grows at the foot of the Ramagrama mound, hung with prayer flags?",
+    "options": [
+     "A large bodhi tree",
+     "A sal tree",
+     "A lotus pond",
+     "A bamboo grove"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "A large bodhi tree hung with prayer flags grows at the foot of the mound.",
+    "q_np": "रामग्रामको थुम्कोको फेदमा प्रार्थना झण्डा झुन्ड्याइएको के उम्रेको छ?",
+    "options_np": [
+     "ठूलो बोधिवृक्ष",
+     "सालको रुख",
+     "कमलको पोखरी",
+     "बाँसघारी"
+    ],
+    "explanation_np": "थुम्कोको फेदमा प्रार्थना झण्डा झुन्ड्याइएको ठूलो बोधिवृक्ष छ।"
+   },
+   {
+    "q": "What does the Ramagrama stupa look like today?",
+    "options": [
+     "A gilded dome",
+     "A white-painted tower",
+     "A grassy earthen mound",
+     "A ruined temple with carvings"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "It is an unexcavated brick stupa buried under a grassy earthen mound.",
+    "q_np": "आज रामग्राम स्तूप कस्तो देखिन्छ?",
+    "options_np": [
+     "सुनौलो गुम्बज",
+     "सेतो रङ लगाएको टावर",
+     "घाँसले ढाकिएको माटोको थुम्को",
+     "कुँदिएका मूर्ति भएको भत्केको मन्दिर"
+    ],
+    "explanation_np": "यो नखनिएको इँटाको स्तूप हो, जुन घाँसले ढाकिएको माटोको थुम्कोमुनि गाडिएको छ।"
+   },
+   {
+    "q": "Into how many kingdoms were the Buddha's ashes divided, according to Buddhist texts?",
+    "options": [
+     "Three",
+     "Five",
+     "Eight",
+     "Twelve"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Texts say the ashes were divided among eight kingdoms, each building a stupa.",
+    "q_np": "बौद्ध ग्रन्थ अनुसार बुद्धको अस्थि कतिवटा राज्यमा बाँडिएको थियो?",
+    "options_np": [
+     "तीन",
+     "पाँच",
+     "आठ",
+     "बाह्र"
+    ],
+    "explanation_np": "ग्रन्थ अनुसार अस्थि आठ राज्यमा बाँडिएको थियो र प्रत्येकले आफ्नो स्तूप बनायो।"
+   },
+   {
+    "q": "What did a geophysical survey find buried beside the mound?",
+    "options": [
+     "A Mughal fort",
+     "A square Kushan-era monastery",
+     "A royal palace",
+     "A Shiva temple"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Geophysical survey revealed a buried square monastery of the Kushan era.",
+    "q_np": "माटोमुनि जाँच गर्ने सर्वेक्षणले थुम्कोको छेउमा के गाडिएको भेट्यो?",
+    "options_np": [
+     "मुगल किल्ला",
+     "कुषाण कालको चौकोर विहार",
+     "शाही दरबार",
+     "शिव मन्दिर"
+    ],
+    "explanation_np": "सर्वेक्षणले कुषाण कालको गाडिएको चौकोर विहार देखायो।"
+   },
+   {
+    "q": "When was Ramagrama added to UNESCO's World Heritage Tentative List?",
+    "options": [
+     "23 May 1996",
+     "1 January 1979",
+     "15 July 2008",
+     "3 March 2015"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "It was added to the Tentative List on 23 May 1996.",
+    "q_np": "रामग्राम कहिले युनेस्कोको विश्व सम्पदा सम्भावित सूचीमा थपियो?",
+    "options_np": [
+     "२३ मे १९९६",
+     "१ जनवरी १९७९",
+     "१५ जुलाई २००८",
+     "३ मार्च २०१५"
+    ],
+    "explanation_np": "यो २३ मे १९९६ मा सम्भावित सूचीमा थपिएको थियो।"
    }
   ],
   "clues": [
    "I look like a grassy hill, but an emperor once came to open me and a serpent sent him away.",
-   "Of eight mounds built over a teacher's ashes, I am said to be the only one never opened."
+   "Of eight mounds built over a teacher's ashes, I am said to be the only one never opened.",
+   "A large bodhi tree hung with prayer flags grows at my foot.",
+   "You see only grass, but my core is brick: unexcavated, about ten metres high.",
+   "A survey found a square monastery buried beside me; its bricks stopped crops growing, so farmers called the spot unlucky.",
+   "My builders were the Buddha's mother's people, who received a share of his ashes."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Ramagrama_stupa",
@@ -1539,20 +2183,24 @@
     "caption": "Another view of the Ramagrama mound"
    }
   ],
-  "short_np": "घाँसले ढाकिएको टिलाभित्र लुकेको इँटाको स्तूप, बुद्धको अवशेषको मूल स्तूपहरूमध्ये कहिल्यै नखोलिएको एकमात्र मानिने।",
-  "story_np": "तपाईंको अगाडि हल्का हरियो डाँडा जस्तो देखिने कुरा वास्तवमा स्तूप हो। बौद्ध ग्रन्थहरूले भन्छन् बुद्धको निधनपछि उनको अस्थि आठ राज्यमा बाँडिएको थियो, र उनकी आमाका आफन्त रामग्रामका कोलियहरूले आफ्नो भागमाथि स्तूप बनाए। करिब तीन शताब्दीपछि सम्राट अशोकले आठै स्तूप खोलेर अवशेषहरू हजारौँ नयाँ स्तूपमा बाँड्न थाले। महावंशका अनुसार जब उनी रामग्राम पुगे, एक नाग, सर्प रक्षक, ले उनलाई रोक्यो। त्यसैले यो आठमध्ये कहिल्यै नखोलिएको एकमात्र स्तूप मानिन्छ। नेपालका पुरातत्त्वविद्हरू घाँसमुनिको इँटाको भित्री भाग अझै अक्षुण्ण छ भन्ने ठान्छन्। एउटा सर्वेक्षणले नजिकै गाडिएको वर्गाकार विहार पनि फेला पार्‍यो; यसका इँटाले बाली उम्रन दिएनन्, त्यसैले त्यो ठाउँ अशुभ खेत भनेर चिनियो। बोधिवृक्षमा झुण्डिएका प्रार्थना झण्डामुनि टिलाको वरिपरि बिस्तारै हिँड्नुहोस्, र सम्झनुहोस् कि अवशेषहरू तपाईंको खुट्टामुनि केही मिटर तल हुन सक्छन्।",
-  "legend_np": "अशोक अवशेष लिन आउँदा, स्तूपको रक्षा गरिरहेको शक्तिशाली नागले उनलाई रोक्यो, त्यसैले रामग्राम स्तूपले मात्र आफ्ना मौलिक अवशेषहरू सुरक्षित राख्यो।",
+  "short_np": "घाँसले ढाकिएको थुम्कोभित्र लुकेको इँटाको स्तूप, बुद्धको अस्थि राखिएका मौलिक स्तूपमध्ये कहिल्यै नखोलिएको एउटै मानिने।",
+  "story_np": "तपाईंको अगाडि सानो हरियो डाँडा जस्तो देखिने चिज वास्तवमा स्तूप हो। बौद्ध ग्रन्थ अनुसार बुद्धको निधनपछि उनको अस्थि आठ राज्यमा बाँडिएको थियो। बुद्धकी आमाका आफन्त रामग्रामका कोलियहरूले आफ्नो भागमाथि स्तूप बनाए। करिब तीन सय वर्षपछि सम्राट अशोकले आठै स्तूप खोलेर अस्थि हजारौँ नयाँ स्तूपमा बाँड्न थाले। महावंश अनुसार उनी रामग्राम पुग्दा एउटा नाग, अर्थात् सर्प रक्षकले उनलाई रोक्यो। त्यसैले यो आठमध्ये कहिल्यै नखोलिएको एउटै स्तूप हो भनिन्छ। नेपालका पुरातत्त्वविद्हरूको विचारमा घाँसमुनिको इँटाको भित्री भाग अझै नबिग्रिएको छ। सर्वेक्षणमा नजिकै गाडिएको चौकोर विहार पनि भेटियो। त्यसका इँटाले बाली उम्रन दिँदैनथे, त्यसैले त्यो ठाउँ अशुभ खेत भनेर चिनियो। बोधिवृक्षमा झुन्ड्याइएका प्रार्थना झण्डामुनि थुम्कोको वरिपरि बिस्तारै हिँड्नुहोस्, र सम्झनुहोस्, तपाईंको खुट्टामुनि केही मिटर तल अस्थि हुन सक्छ।",
+  "legend_np": "अशोक अस्थि लिन आउँदा स्तूपको रक्षा गर्ने शक्तिशाली नागले उनलाई रोक्यो। त्यसैले रामग्राम स्तूपले मात्र आफ्ना मौलिक अस्थि जोगाएर राख्यो।",
   "facts_np": [
-   "बौद्ध ग्रन्थहरूका अनुसार यो बुद्धको बाँडिएको अस्थिमाथि बनेका आठ स्तूपमध्ये एक हो।",
-   "नेपाली पुरातत्त्वविद्हरू यसलाई बुद्धको अवशेष राखिएको एकमात्र अक्षुण्ण मौलिक स्तूप मान्छन्।",
+   "बौद्ध ग्रन्थ अनुसार यो बुद्धको बाँडिएको अस्थिमाथि बनेका आठ स्तूपमध्ये एउटा हो।",
+   "नेपालका पुरातत्त्वविद्हरूले यसलाई बुद्धको अस्थि राखिएको नबिग्रिएको एउटै मौलिक स्तूप मान्छन्।",
    "स्तूप परिसर करिब १० मिटर अग्लो र २३.५ मिटर व्यासको छ।",
-   "भू-भौतिक सर्वेक्षणले टिलाको छेउमा गाडिएको कुषाण कालको वर्गाकार विहार पत्ता लगायो।",
+   "माटोमुनि जाँच गर्ने सर्वेक्षणले थुम्कोको छेउमा गाडिएको कुषाण कालको चौकोर विहार देखायो।",
    "यो २३ मे १९९६ मा युनेस्कोको विश्व सम्पदा सम्भावित सूचीमा थपिएको थियो।"
   ],
   "quake_np": null,
   "clues_np": [
-   "म घाँसे डाँडा जस्तो देखिन्छु, तर एकपटक एक सम्राट् मलाई खोल्न आए र एक सर्पले उनलाई फर्काइदियो।",
-   "एक गुरुको अस्थिमाथि बनेका आठ थुम्कामध्ये म नै कहिल्यै नखोलिएको एक मात्र हुँ भनिन्छ।"
+   "म घाँसे डाँडा जस्तो देखिन्छु, तर एक पटक एक सम्राट मलाई खोल्न आएका थिए र एउटा सर्पले उनलाई फर्काइदियो।",
+   "एक गुरुको अस्थिमाथि बनेका आठ थुम्कामध्ये म नै कहिल्यै नखोलिएको एउटै हुँ भनिन्छ।",
+   "मेरो फेदमा प्रार्थना झण्डा झुन्ड्याइएको ठूलो बोधिवृक्ष उम्रेको छ।",
+   "तपाईंले घाँस मात्र देख्नुहुन्छ, तर मेरो भित्र इँटा छ। म नखनिएको छु, करिब दस मिटर अग्लो।",
+   "सर्वेक्षणले मेरो छेउमा गाडिएको चौकोर विहार भेट्यो। त्यसका इँटाले बाली उम्रन दिएनन्, त्यसैले किसानले त्यो ठाउँलाई अशुभ भने।",
+   "मलाई बनाउने बुद्धकी आमाका आफन्त थिए, जसले उनको अस्थिको एक भाग पाएका थिए।"
   ]
  },
  {
@@ -1607,7 +2255,7 @@
     "name_np": "रिडी मेला (माघे सङ्क्रान्ति)",
     "month": "Magh",
     "note": "Three-day bathing fair in the Kali Gandaki with worship at the Rishikesh temple.",
-    "note_np": "कालीगण्डकीमा स्नान र ऋषिकेश मन्दिरमा पूजासहितको तीन दिने स्नान मेला।"
+    "note_np": "कालीगण्डकीमा स्नान र ऋषिकेश मन्दिरमा पूजा गरिने तीन दिने स्नान मेला।"
    }
   ],
   "image": {
@@ -1692,7 +2340,7 @@
      "बागमती",
      "राप्ती"
     ],
-    "explanation_np": "रिडी रिडी खोला र कालीगण्डकीको सङ्गममा छ।"
+    "explanation_np": "रिडी, रिडी खोला र कालीगण्डकीको सङ्गममा छ।"
    },
    {
     "q": "Which king is said to have found the image and founded the temple?",
@@ -1705,14 +2353,14 @@
     "answer_index": 0,
     "difficulty": 3,
     "explanation": "Tradition credits Mukunda Sen, first king of Palpa.",
-    "q_np": "मूर्ति भेट्टाएर मन्दिर स्थापना गर्ने राजा को थिए भनिन्छ?",
+    "q_np": "मूर्ति भेटेर मन्दिर बनाउने राजा को थिए भनिन्छ?",
     "options_np": [
      "मुकुन्द सेन",
      "पृथ्वीनारायण शाह",
      "राम शाह",
      "जयस्थिति मल्ल"
     ],
-    "explanation_np": "परम्पराले पाल्पाका पहिलो राजा मुकुन्द सेनलाई श्रेय दिन्छ।"
+    "explanation_np": "परम्पराले पाल्पाका पहिलो राजा मुकुन्द सेनलाई यसको श्रेय दिन्छ।"
    },
    {
     "q": "During which festival is the Ridi Mela held?",
@@ -1752,12 +2400,116 @@
      "2015",
      "1979"
     ],
-    "explanation_np": "यो 30 जनवरी 2008 मा थपिएको थियो।"
+    "explanation_np": "यो ३० जनवरी २००८ मा थपिएको थियो।"
+   },
+   {
+    "q": "What is the Rishikesh image inside the sanctum made of?",
+    "options": [
+     "White marble",
+     "Gilded copper",
+     "Painted clay",
+     "Black stone"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "A black stone image of Rishikesh, a form of Vishnu, stands in the tiled sanctum.",
+    "q_np": "गर्भगृहभित्रको ऋषिकेशको मूर्ति केले बनेको छ?",
+    "options_np": [
+     "सेतो सङ्गमरमर",
+     "सुनको पानी लगाएको तामा",
+     "रङ लगाएको माटो",
+     "कालो ढुङ्गा"
+    ],
+    "explanation_np": "टायल बिछ्याएको गर्भगृहमा विष्णुको रूप ऋषिकेशको कालो ढुङ्गाको मूर्ति छ।"
+   },
+   {
+    "q": "The ancient name of this holy site, counted among Nepal's four dhams, is what?",
+    "options": [
+     "Pashupati Kshetra",
+     "Ruru Kshetra",
+     "Muktinath Kshetra",
+     "Devghat Kshetra"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Hindu tradition counts Ruru Kshetra among the four holy dhams of Nepal.",
+    "q_np": "नेपालका चार धाममध्ये गनिने यो पवित्र ठाउँको प्राचीन नाम के हो?",
+    "options_np": [
+     "पशुपति क्षेत्र",
+     "रुरु क्षेत्र",
+     "मुक्तिनाथ क्षेत्र",
+     "देवघाट क्षेत्र"
+    ],
+    "explanation_np": "हिन्दू परम्परामा रुरु क्षेत्र नेपालका चार पवित्र धाममध्ये एक मानिन्छ।"
+   },
+   {
+    "q": "Which three districts meet at the confluence at Ridi?",
+    "options": [
+     "Kaski, Tanahun and Lamjung",
+     "Palpa, Gulmi and Syangja",
+     "Dang, Banke and Bardiya",
+     "Chitwan, Makwanpur and Gorkha"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The Ridi Khola joins the Kali Gandaki where Palpa, Gulmi and Syangja meet.",
+    "q_np": "रिडीको सङ्गममा कुन तीन जिल्ला जोडिन्छन्?",
+    "options_np": [
+     "कास्की, तनहुँ र लमजुङ",
+     "पाल्पा, गुल्मी र स्याङ्जा",
+     "दाङ, बाँके र बर्दिया",
+     "चितवन, मकवानपुर र गोरखा"
+    ],
+    "explanation_np": "रिडी खोला कालीगण्डकीमा मिसिने ठाउँमा पाल्पा, गुल्मी र स्याङ्जा जोडिन्छन्।"
+   },
+   {
+    "q": "What are shaligrams, found along the river bank here?",
+    "options": [
+     "Carved wooden masks",
+     "Fossil stones honoured as symbols of Vishnu",
+     "Copper coins offered to the river",
+     "Ancient brass lamps"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Shaligrams are fossil stones honoured as symbols of Vishnu.",
+    "q_np": "यहाँ नदी किनारमा पाइने शालिग्राम के हुन्?",
+    "options_np": [
+     "कुँदिएका काठका मुकुन्डो",
+     "विष्णुको प्रतीक मानिने जीवाश्म ढुङ्गा",
+     "नदीलाई चढाइने तामाका सिक्का",
+     "पुराना पित्तलका बत्ती"
+    ],
+    "explanation_np": "शालिग्राम विष्णुको प्रतीक मानिने जीवाश्म ढुङ्गा हुन्।"
+   },
+   {
+    "q": "UNESCO's entry notes which tradition at the site?",
+    "options": [
+     "Bhaktini Amas, female mendicants",
+     "Masked dances by monks",
+     "Kumari worship",
+     "Animal sacrifice at dawn"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "UNESCO's entry notes the tradition of Bhaktini Amas, female mendicants, at the site.",
+    "q_np": "युनेस्कोको विवरणमा यहाँको कुन परम्परा उल्लेख छ?",
+    "options_np": [
+     "भक्तिनी आमा, अर्थात् महिला साधु",
+     "भिक्षुहरूको मुकुन्डो नाच",
+     "कुमारी पूजा",
+     "बिहान पशुबलि"
+    ],
+    "explanation_np": "युनेस्कोको विवरणमा यहाँ भक्तिनी आमा, अर्थात् महिला साधुहरूको परम्परा रहेको उल्लेख छ।"
    }
   ],
   "clues": [
    "Three districts meet where a small stream joins a great river, and a king pulled a god out of the water here.",
-   "In the month of Magh, pilgrims bathe here three days running: the eldest, the middle and the youngest day."
+   "In the month of Magh, pilgrims bathe here three days running: the eldest, the middle and the youngest day.",
+   "Fossil stones sacred to Vishnu are picked from the river bank beside my ghats.",
+   "A black stone image dressed in yellow and heavy with garlands stands in my small tiled sanctum.",
+   "I am counted among the four holy dhams of Nepal, and my ghats are also an old cremation site.",
+   "Rows of brass bells hang in my courtyard of brick and carved timber windows, above the ghats of a great river."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Ruru_Kshetra",
@@ -1810,20 +2562,24 @@
     "caption": "The deity Rishikeshav inside the temple"
    }
   ],
-  "short_np": "रिडीमा रिडी खोला र कालीगण्डकीको सङ्गममा रहेको नदीकिनारको विष्णु मन्दिर, माघे सङ्क्रान्तिको मेलाका लागि प्रसिद्ध।",
-  "story_np": "आफ्नो तल रहेका दुई नदीको आवाज सुन्नुहोस्। यहाँ रिडीमा रिडी खोला कालीगण्डकीमा मिल्छ, पाल्पा, गुल्मी र स्याङ्जाको भेटघाटमा, र हिन्दू परम्पराले यो स्थान, रुरु क्षेत्रलाई नेपालका चार पवित्र धाममध्ये एक गन्छ। ढुङ्गाका भर्‍याङ उक्लेर आँगनमा पुग्नुहोस् र पित्तलका घण्टमध्ये एउटा बजाउनुहोस्। टायल लगाइएको सानो गर्भगृहभित्र भगवान् विष्णुको रूप ऋषिकेशको कालो ढुङ्गाको मूर्ति उभिएको छ, पहेँलो वस्त्र लगाएको र मालाले भारी। दन्त्यकथाअनुसार पाल्पाका पहिलो राजा मुकुन्द सेनले कालीगण्डकीमा पवित्र डुबुल्की मार्दा यही मूर्ति भेट्टाए, र यसलाई राख्न मन्दिर बनाए। नदीका ढुङ्गाहरू हेर्नुहोस्: विष्णुको प्रतीकका रूपमा सम्मानित जीवाश्म ढुङ्गा शालिग्रामहरू यही किनारमा पाइन्छन्। हरेक माघे सङ्क्रान्तिमा सहर रिडी मेलाका लागि भरिन्छ, जब तीर्थयात्रीहरू मोक्षको आशामा जेठी, माइली र कान्छी सङ्क्रान्ति भनिने तीन दिन नुहाउँछन्। घाटहरू पुरानो दाहसंस्कार स्थल पनि हुन्।",
-  "legend_np": "पाल्पाका राजा मुकुन्द सेनले कालीगण्डकीमा नुहाउँदा ऋषिकेशको मूर्ति भेट्टाएर त्यसका लागि मन्दिर स्थापना गरेको भनिन्छ।",
+  "short_np": "रिडी खोला र कालीगण्डकीको सङ्गममा रहेको नदी किनारको विष्णु मन्दिर, माघे सङ्क्रान्तिको मेलाका लागि प्रसिद्ध।",
+  "story_np": "तल बग्ने दुई नदीको आवाज सुन्नुहोस्। यहाँ रिडीमा रिडी खोला कालीगण्डकीमा मिसिन्छ, जहाँ पाल्पा, गुल्मी र स्याङ्जा भेट्छन्। हिन्दू परम्परामा यो ठाउँ, रुरु क्षेत्र, नेपालका चार पवित्र धाममध्ये एक मानिन्छ। ढुङ्गाका भर्‍याङ उक्लेर आँगनमा पुग्नुहोस् र पित्तलका घण्टमध्ये एउटा बजाउनुहोस्। टायल बिछ्याएको सानो गर्भगृहभित्र भगवान् विष्णुको रूप ऋषिकेशको कालो ढुङ्गाको मूर्ति छ, पहेँलो वस्त्र लगाएको र माला भारी भएको। कथा अनुसार पाल्पाका पहिलो राजा मुकुन्द सेनले कालीगण्डकीमा पवित्र स्नान गर्दा यही मूर्ति भेटे, र त्यसलाई राख्न मन्दिर बनाए। नदीका ढुङ्गा हेर्नुहोस्। विष्णुको प्रतीक मानिने शालिग्राम, अर्थात् जीवाश्म ढुङ्गा, यही किनारमा पाइन्छन्। हरेक माघे सङ्क्रान्तिमा रिडी मेलाका लागि यहाँ भीड लाग्छ। मोक्षको आशामा तीर्थयात्रीहरू जेठी, माइली र कान्छी सङ्क्रान्ति भनिने तीन दिन स्नान गर्छन्। घाटहरू पुरानो दाहसंस्कार गर्ने ठाउँ पनि हुन्।",
+  "legend_np": "पाल्पाका राजा मुकुन्द सेनले कालीगण्डकीमा नुहाउँदा ऋषिकेशको मूर्ति भेटे र त्यसका लागि मन्दिर बनाए भनिन्छ।",
   "facts_np": [
-   "रुरु क्षेत्र रिडी खोला र कालीगण्डकीको सङ्गममा छ, जहाँ गुल्मी, पाल्पा र स्याङ्जा भेटिन्छन्।",
-   "यसलाई नेपालका चार धाममध्ये एक गनिन्छ।",
-   "रुरु क्षेत्रको ऋषिकेश परिसर ३० जनवरी २००८ मा युनेस्कोको अस्थायी सूचीमा थपियो।",
+   "रुरु क्षेत्र रिडी खोला र कालीगण्डकीको सङ्गममा छ, जहाँ गुल्मी, पाल्पा र स्याङ्जा जोडिन्छन्।",
+   "यसलाई नेपालका चार धाममध्ये एक मानिन्छ।",
+   "रुरु क्षेत्रको ऋषिकेश परिसर ३० जनवरी २००८ मा युनेस्कोको सम्भावित सूचीमा थपियो।",
    "माघे सङ्क्रान्तिको रिडी मेलामा तीन स्नान दिन हुन्छन्: जेठी, माइली र कान्छी सङ्क्रान्ति।",
-   "युनेस्कोको प्रविष्टिले यस स्थलमा भक्तिनी आमा, महिला भिक्षुणीहरूको परम्परा उल्लेख गर्छ।"
+   "युनेस्कोको विवरणमा यहाँ भक्तिनी आमा, अर्थात् महिला साधुहरूको परम्परा रहेको उल्लेख छ।"
   ],
   "quake_np": null,
   "clues_np": [
-   "एउटा सानो खोला ठूलो नदीमा मिल्ने ठाउँमा तीन जिल्ला जोडिन्छन्, र यहीँ एक राजाले पानीबाट देवता निकालेका थिए।",
-   "माघ महिनामा तीर्थयात्रीहरू यहाँ लगातार तीन दिन नुहाउँछन्: जेठो, माहिलो र कान्छो दिन।"
+   "एउटा सानो खोला ठूलो नदीमा मिसिने ठाउँमा तीन जिल्ला जोडिन्छन्, र यहीँ एक राजाले पानीबाट देवता निकालेका थिए।",
+   "माघ महिनामा तीर्थयात्रीहरू यहाँ लगातार तीन दिन नुहाउँछन्: जेठी, माइली र कान्छी दिन।",
+   "विष्णुका प्रतीक मानिने जीवाश्म ढुङ्गा मेरो घाटको छेउको नदी किनारबाट टिपिन्छन्।",
+   "पहेँलो वस्त्र लगाएको र मालाले भारी भएको कालो ढुङ्गाको मूर्ति मेरो सानो गर्भगृहमा उभिएको छ।",
+   "म नेपालका चार पवित्र धाममध्ये एक मानिन्छु, र मेरा घाटहरू पुरानो दाहसंस्कार गर्ने ठाउँ पनि हुन्।",
+   "ठूलो नदीको घाटमाथि इँटा र कुँदिएका काठका झ्याल भएको मेरो आँगनमा पित्तलका घण्ट लस्करै झुन्डिएका छन्।"
   ]
  },
  {
@@ -1924,7 +2680,7 @@
     "explanation": "General Khadga Shumsher Rana built it from 1893.",
     "q_np": "रानीमहल कसले बनाए?",
     "options_np": [
-     "जंगबहादुर राणा",
+     "जङ्गबहादुर राणा",
      "खड्ग शमशेर राणा",
      "चन्द्र शमशेर राणा",
      "राजा महेन्द्र"
@@ -1964,12 +2720,12 @@
     "explanation": "Like the Taj Mahal, it was built for a lost love beside a river.",
     "q_np": "रानीमहललाई नेपालको ताजमहल किन भनिन्छ?",
     "options_np": [
-     "यो संगमरमरले बनेको छ",
-     "यो प्यारी पत्नीको सम्झनामा नदीको किनारमा बनाइएको हो",
-     "यसमा चार मिनार छन्",
+     "यो सङ्गमरमरले बनेको छ",
+     "यो प्यारी पत्नीको सम्झनामा नदी किनारमा बनाइएको हो",
+     "यसमा चारवटा मिनार छन्",
      "यो मुगलहरूले बनाएका हुन्"
     ],
-    "explanation_np": "ताजमहलजस्तै यो पनि नदीको किनारमा गुमाएको मायाका लागि बनाइएको हो।"
+    "explanation_np": "ताजमहल जस्तै यो पनि नदी किनारमा गुमाएको मायाका लागि बनाइएको हो।"
    },
    {
     "q": "In which year did Khadga Shumsher flee to India, abandoning the palace?",
@@ -1982,7 +2738,7 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "He fled with his family in 1902.",
-    "q_np": "कुन वर्ष खड्ग शमशेर दरबार छाडेर भारत भागे?",
+    "q_np": "खड्ग शमशेर दरबार छाडेर कुन वर्ष भारत भागे?",
     "options_np": [
      "1885",
      "1902",
@@ -2002,7 +2758,7 @@
     "answer_index": 0,
     "difficulty": 3,
     "explanation": "Tej Kumari Devi, his youngest wife, died in 1892.",
-    "q_np": "दरबारले सम्झना गर्ने रानीको नाम के थियो?",
+    "q_np": "दरबारले सम्झना गरेकी रानीको नाम के थियो?",
     "options_np": [
      "तेज कुमारी देवी",
      "राजेन्द्र लक्ष्मी",
@@ -2010,11 +2766,115 @@
      "योगमाया"
     ],
     "explanation_np": "उनकी कान्छी पत्नी तेज कुमारी देवीको सन् 1892 मा निधन भयो।"
+   },
+   {
+    "q": "In what style is Rani Mahal built?",
+    "options": [
+     "Pagoda style",
+     "European-style Rana palace",
+     "Mughal garden style",
+     "Mountain stone monastery"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is a European-style Rana palace with arched windows, columns and a pitched red roof.",
+    "q_np": "रानीमहल कुन शैलीमा बनेको छ?",
+    "options_np": [
+     "पगोडा शैली",
+     "युरोपेली शैलीको राणा दरबार",
+     "मुगल बगैँचा शैली",
+     "हिमाली ढुङ्गाको गुम्बा"
+    ],
+    "explanation_np": "यो मेहराबी झ्याल, खम्बा र ढल्केको रातो छाना भएको युरोपेली शैलीको राणा दरबार हो।"
+   },
+   {
+    "q": "How far is Rani Mahal from Tansen by road?",
+    "options": [
+     "About 5 minutes",
+     "About half an hour",
+     "About 3 hours",
+     "About a full day"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is about half an hour by road from Tansen.",
+    "q_np": "रानीमहल तानसेनबाट सडकमार्गबाट कति टाढा छ?",
+    "options_np": [
+     "करिब ५ मिनेट",
+     "करिब आधा घण्टा",
+     "करिब ३ घण्टा",
+     "करिब एक दिन"
+    ],
+    "explanation_np": "यो तानसेनबाट सडकमार्गबाट करिब आधा घण्टाको दूरीमा छ।"
+   },
+   {
+    "q": "What did Khadga Shumsher name the forest and the riverbank?",
+    "options": [
+     "Shanti Ban and Shanti Ghat",
+     "Sundari Ban and Sundari Ghat",
+     "Rani Ban and Rani Ghat",
+     "Raj Ban and Raj Ghat"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "He named the forest Rani Ban and the riverbank Rani Ghat.",
+    "q_np": "खड्ग शमशेरले जङ्गल र नदी किनारको नाम के राखे?",
+    "options_np": [
+     "शान्ति वन र शान्ति घाट",
+     "सुन्दरी वन र सुन्दरी घाट",
+     "रानी वन र रानीघाट",
+     "राज वन र राज घाट"
+    ],
+    "explanation_np": "उनले जङ्गलको नाम रानी वन र नदी किनारको नाम रानीघाट राखे।"
+   },
+   {
+    "q": "Khadga Shumsher was banished from Kathmandu after a failed plot against which Prime Minister?",
+    "options": [
+     "Jung Bahadur Rana",
+     "Bir Shumsher",
+     "Chandra Shumsher",
+     "Bhimsen Thapa"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "He was banished after a failed plot against Prime Minister Bir Shumsher.",
+    "q_np": "खड्ग शमशेरलाई कुन प्रधानमन्त्रीविरुद्धको असफल षड्यन्त्रपछि काठमाडौँबाट निकालिएको थियो?",
+    "options_np": [
+     "जङ्गबहादुर राणा",
+     "वीर शमशेर",
+     "चन्द्र शमशेर",
+     "भीमसेन थापा"
+    ],
+    "explanation_np": "प्रधानमन्त्री वीर शमशेरविरुद्धको असफल षड्यन्त्रपछि उनलाई निकालिएको थियो।"
+   },
+   {
+    "q": "From which year did the Government of Nepal restore the palace?",
+    "options": [
+     "1960",
+     "1985",
+     "2003",
+     "2017"
+    ],
+    "answer_index": 3,
+    "difficulty": 3,
+    "explanation": "The government restored it from 2017 and set up a museum inside.",
+    "q_np": "नेपाल सरकारले कुन वर्षदेखि दरबार मर्मत गर्न थाल्यो?",
+    "options_np": [
+     "1960",
+     "1985",
+     "2003",
+     "2017"
+    ],
+    "explanation_np": "सरकारले सन् 2017 देखि यसलाई मर्मत गर्‍यो र भित्र सङ्ग्रहालय बनायो।"
    }
   ],
   "clues": [
    "A banished general built me for his late wife where white terraces meet a great gorge river.",
-   "People compare me to a famous tomb in Agra, though no one is buried here."
+   "People compare me to a famous tomb in Agra, though no one is buried here.",
+   "My main block has arched windows, columns and a pitched red roof, with white terraces stepping down to the water.",
+   "A British architect is said to have drawn my plans; workers came from India, along with soldiers and villagers, some forced to labour.",
+   "The forest behind me and the bank below were both named after the one he mourned.",
+   "I fell into ruin after my builder fled to India in 1902, until the government restored me from 2017 and opened a museum inside."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Ranighat_Palace",
@@ -2066,19 +2926,23 @@
    }
   ],
   "short_np": "कालीगण्डकी किनारको सेतो राणा दरबार, खड्ग शमशेरले आफ्नी दिवङ्गत पत्नीका लागि बनाएको र नेपालको ताजमहल भनिने।",
-  "story_np": "तपाईं लामो उपत्यकाको बाटो हुँदै नदी किनारबाट उम्रेजस्तो देखिने दरबारमा आइपुग्नुभएको छ। 1892 मा जनरल खड्ग शमशेर राणाकी कान्छी पत्नी तेज कुमारी देवीको यहीँ पाल्पामा निधन भयो। खड्ग शमशेर प्रधानमन्त्री वीर शमशेरविरुद्धको असफल षड्यन्त्रपछि काठमाडौँबाट निर्वासित भएका थिए, र उनले आफ्नो शोकलाई यो भवनमा रूपान्तरण गरे। नक्सा बेलायती वास्तुकारको भनिन्छ, र कामदारहरू भारतबाट, सिपाही र स्थानीय गाउँलेहरूबाट ल्याइए, कतिपयलाई जबरजस्ती श्रम गराइयो। यसमा करिब चार वर्ष लाग्यो। उनले जङ्गलको नाम रानी वन र नदी किनारको नाम रानीघाट राखे। खैरो-हरियो कालीगण्डकीतिर तल झर्दै गएका भव्य सेता टेरेसहरू हेर्नुहोस्। त्यसैले मानिसहरू यसलाई नेपालको ताजमहल भन्छन्: दुवै नदी किनारमा हराएको प्रेमका लागि बनाइएका थिए। 1902 मा खड्ग शमशेर भारत भागे, र सरकारले 2017 देखि पुनर्स्थापना गरी भित्र सङ्ग्रहालय खोल्दासम्म दरबार बिस्तारै भग्नावशेष बन्दै गयो।",
+  "story_np": "लामो उपत्यकाको बाटो हुँदै तपाईं नदी किनारबाट उम्रिएजस्तो देखिने दरबारमा आइपुग्नुभएको छ। सन् 1892 मा जनरल खड्ग शमशेर राणाकी कान्छी पत्नी तेज कुमारी देवीको यहीँ पाल्पामा निधन भयो। प्रधानमन्त्री वीर शमशेरविरुद्धको असफल षड्यन्त्रपछि खड्ग शमशेरलाई काठमाडौँबाट निकालिएको थियो। उनले आफ्नो शोक यही भवनमा उतारे। नक्सा कुनै बेलायती वास्तुकारले बनाएको भनिन्छ। कामदार भारतबाट ल्याइएका थिए, साथै सिपाही र स्थानीय गाउँलेहरू पनि थिए, जसमध्ये कतिपयलाई जबरजस्ती काममा लगाइएको थियो। यसमा करिब चार वर्ष लाग्यो। उनले जङ्गलको नाम रानी वन र नदी किनारको नाम रानीघाट राखे। खैरो-हरियो कालीगण्डकीतिर तल झर्दै गएका भव्य सेता तल्ला हेर्नुहोस्। त्यसैले मानिसहरू यसलाई नेपालको ताजमहल भन्छन्, किनभने दुवै नदी किनारमा गुमाएको मायाका लागि बनाइएका हुन्। सन् 1902 मा खड्ग शमशेर भारत भागे र दरबार बिस्तारै भत्किँदै गयो। सरकारले सन् 2017 देखि यसलाई मर्मत गर्‍यो र भित्र सङ्ग्रहालय खोल्यो।",
   "legend_np": null,
   "facts_np": [
-   "जनरल खड्ग शमशेर राणाले आफ्नी पत्नी तेज कुमारी देवीको स्मृतिमा 1893 मा दरबार निर्माण सुरु गरे।",
-   "यो बनाउन करिब चार वर्ष लाग्यो, र कथित रूपमा बेलायती वास्तुकारको नक्सामा बनेको थियो।",
-   "खड्ग शमशेर 1902 मा परिवारसहित भारत भागे र दरबार छाडे।",
-   "नेपाल सरकारले 2017 देखि यसलाई पुनर्स्थापना गर्‍यो र भित्र सङ्ग्रहालय स्थापना गर्‍यो।",
+   "जनरल खड्ग शमशेर राणाले आफ्नी पत्नी तेज कुमारी देवीको सम्झनामा सन् 1893 मा दरबार बनाउन सुरु गरे।",
+   "यो बनाउन करिब चार वर्ष लाग्यो, र बेलायती वास्तुकारको नक्सा अनुसार बनेको भनिन्छ।",
+   "खड्ग शमशेर सन् 1902 मा परिवारसहित भारत भागे र दरबार छाडे।",
+   "नेपाल सरकारले सन् 2017 देखि यसलाई मर्मत गर्‍यो र भित्र सङ्ग्रहालय बनायो।",
    "यो तानसेनबाट सडकमार्गबाट करिब आधा घण्टाको दूरीमा छ।"
   ],
   "quake_np": null,
   "clues_np": [
-   "निर्वासित एक सेनापतिले आफ्नी दिवङ्गत पत्नीका लागि मलाई बनाए, जहाँ सेता तलहरू विशाल खोँचको नदीसँग मिल्छन्।",
-   "मानिसहरू मलाई आगराको एउटा प्रसिद्ध समाधिसँग तुलना गर्छन्, यद्यपि यहाँ कसैलाई गाडिएको छैन।"
+   "निकालिएका एक सेनापतिले आफ्नी दिवङ्गत पत्नीका लागि मलाई बनाए, जहाँ सेता तल्ला विशाल खोँचको नदीसँग भेटिन्छन्।",
+   "मानिसहरू मलाई आगराको एउटा प्रसिद्ध समाधिसँग तुलना गर्छन्, तर यहाँ कसैलाई गाडिएको छैन।",
+   "मेरो मुख्य भवनमा मेहराबी झ्याल, खम्बा र ढल्केको रातो छाना छ, र सेता तल्ला पानीतिर झर्दै गएका छन्।",
+   "मेरो नक्सा बेलायती वास्तुकारले बनाएको भनिन्छ। कामदार भारतबाट आए, साथमा सिपाही र गाउँलेहरू पनि थिए, जसमध्ये कतिपयलाई जबरजस्ती काममा लगाइएको थियो।",
+   "मेरो पछाडिको जङ्गल र तलको नदी किनार दुवैको नाम उनले शोक गरेकी मानिसको नामबाट राखिएको हो।",
+   "सन् १९०२ मा मलाई बनाउनेले भारत भागेपछि म भत्कँदै गएँ। सन् २०१७ देखि सरकारले मलाई मर्मत गर्‍यो र भित्र सङ्ग्रहालय खोल्यो।"
   ]
  },
  {
@@ -2178,14 +3042,14 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "It was the seat of the Rana governors in Palpa.",
-    "q_np": "तानसेन दरबारलाई कसले आफ्नो बासस्थान बनाएका थिए?",
+    "q_np": "तानसेन दरबारलाई कसले आफ्नो कार्यालय बनाएका थिए?",
     "options_np": [
      "मल्ल राजाहरू",
      "राणा गभर्नरहरू",
      "सेन राजाहरू",
      "बेलायती रेसिडेन्टहरू"
     ],
-    "explanation_np": "यो पाल्पाका राणा गभर्नरहरूको कार्यालय र निवास थियो।"
+    "explanation_np": "यो पाल्पाका राणा गभर्नरहरूको कार्यालय थियो।"
    },
    {
     "q": "Which Rana is credited with building it in 1927?",
@@ -2198,11 +3062,11 @@
     "answer_index": 0,
     "difficulty": 3,
     "explanation": "Wikipedia credits Pratap Shumsher Jang Bahadur Rana.",
-    "q_np": "1927 मा यसलाई बनाउने श्रेय कुन राणालाई दिइन्छ?",
+    "q_np": "सन् 1927 मा यसलाई बनाउने श्रेय कुन राणालाई दिइन्छ?",
     "options_np": [
      "प्रताप शमशेर",
      "खड्ग शमशेर",
-     "युद्ध शमशेर",
+     "जुद्ध शमशेर",
      "वीर शमशेर"
     ],
     "explanation_np": "विकिपिडियाले यसको श्रेय प्रताप शमशेर जङ्गबहादुर राणालाई दिएको छ।"
@@ -2225,7 +3089,7 @@
      "यो बेचियो",
      "केही भएन"
     ],
-    "explanation_np": "माओवादीहरूले यसलाई ध्वस्त पारे र पछि पुनर्निर्माण गरियो।"
+    "explanation_np": "माओवादीहरूले यसलाई ध्वस्त पारे र पछि फेरि बनाइयो।"
    },
    {
     "q": "On which day is the Palpa Durbar Museum closed?",
@@ -2238,14 +3102,14 @@
     "answer_index": 2,
     "difficulty": 4,
     "explanation": "The 2019 schedule lists Tuesday as the closing day.",
-    "q_np": "पाल्पा दरबार संग्रहालय कुन दिन बन्द रहन्छ?",
+    "q_np": "पाल्पा दरबार सङ्ग्रहालय कुन दिन बन्द रहन्छ?",
     "options_np": [
      "शनिबार",
      "आइतबार",
      "मङ्गलबार",
      "शुक्रबार"
     ],
-    "explanation_np": "2019 को तालिकाले मङ्गलबारलाई बन्द रहने दिनका रूपमा सूचीबद्ध गरेको छ।"
+    "explanation_np": "2019 को तालिकामा मङ्गलबार बन्द रहने दिन हो।"
    },
    {
     "q": "When was the museum formally inaugurated?",
@@ -2258,7 +3122,7 @@
     "answer_index": 2,
     "difficulty": 4,
     "explanation": "It was formally inaugurated on 29 May 2019.",
-    "q_np": "संग्रहालयको औपचारिक उद्घाटन कहिले भएको थियो?",
+    "q_np": "सङ्ग्रहालयको औपचारिक उद्घाटन कहिले भएको थियो?",
     "options_np": [
      "2008",
      "2015",
@@ -2266,11 +3130,115 @@
      "2023"
     ],
     "explanation_np": "यसको औपचारिक उद्घाटन 29 मे 2019 मा भएको थियो।"
+   },
+   {
+    "q": "What colour are the main walls of Tansen Durbar?",
+    "options": [
+     "Pure white",
+     "Deep red",
+     "Pale yellow",
+     "Grey stone"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The palace has deep red walls with white pilasters and green latticed windows.",
+    "q_np": "तानसेन दरबारका मुख्य भित्ता कुन रङका छन्?",
+    "options_np": [
+     "पूरै सेतो",
+     "गाढा रातो",
+     "हल्का पहेँलो",
+     "खैरो ढुङ्गा"
+    ],
+    "explanation_np": "दरबारका भित्ता गाढा रातो छन्, सेता खम्बा र हरिया जालीदार झ्यालसहित।"
+   },
+   {
+    "q": "What is the rebuilt palace used as today?",
+    "options": [
+     "A government school",
+     "A hotel",
+     "A museum",
+     "A military barracks"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "It is open as the Palpa Durbar Museum, run under Tansen Municipality.",
+    "q_np": "पुनर्निर्माण गरिएको दरबार अहिले के रूपमा प्रयोग हुन्छ?",
+    "options_np": [
+     "सरकारी विद्यालय",
+     "होटल",
+     "सङ्ग्रहालय",
+     "सैनिक ब्यारेक"
+    ],
+    "explanation_np": "यो तानसेन नगरपालिकाले चलाएको पाल्पा दरबार सङ्ग्रहालयका रूपमा खुला छ।"
+   },
+   {
+    "q": "How many storeys does the palace have?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "Five"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "It is a large three-storey Rana palace in neoclassical style around a courtyard.",
+    "q_np": "दरबारमा कति तल्ला छन्?",
+    "options_np": [
+     "एक",
+     "दुई",
+     "तीन",
+     "पाँच"
+    ],
+    "explanation_np": "यो आँगनको वरिपरि बनेको नवशास्त्रीय शैलीको तीन तल्ले ठूलो राणा दरबार हो।"
+   },
+   {
+    "q": "What is the focal point of the palace's long facade?",
+    "options": [
+     "A tall central tower",
+     "The central balcony porch over the entrance",
+     "A stone fountain",
+     "A golden dome"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The central balcony over the entrance is the focal point of the whole facade.",
+    "q_np": "दरबारको लामो अगाडिको भागको केन्द्रबिन्दु के हो?",
+    "options_np": [
+     "अग्लो बीचको टावर",
+     "प्रवेशद्वारमाथिको बीचको बार्दली",
+     "ढुङ्गाको फोहरा",
+     "सुनको गुम्बज"
+    ],
+    "explanation_np": "प्रवेशद्वारमाथिको बीचको बार्दली पूरै अगाडिको भागको केन्द्रबिन्दु हो।"
+   },
+   {
+    "q": "A museum report gives a different construction year for the palace. Which one?",
+    "options": [
+     "1803",
+     "1855",
+     "1903",
+     "1975"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Wikipedia gives 1927, but a museum report gives 1903.",
+    "q_np": "सङ्ग्रहालयको एउटा प्रतिवेदनले दरबार बनेको अर्को वर्ष कुन दिएको छ?",
+    "options_np": [
+     "1803",
+     "1855",
+     "1903",
+     "1975"
+    ],
+    "explanation_np": "विकिपिडियाले 1927 भनेको छ, तर सङ्ग्रहालयको प्रतिवेदनले 1903 भनेको छ।"
    }
   ],
   "clues": [
    "Rana governors ruled the western hills from my red halls; I burned in a civil war and rose again as a museum.",
-   "Green lattice windows line my long red facade on the main square of a hill town in Palpa."
+   "Green lattice windows line my long red facade on the main square of a hill town in Palpa.",
+   "I have three storeys around a courtyard, with deep red walls, white pilasters and corner towers.",
+   "A central balcony porch over my entrance is the focus of my whole facade.",
+   "Since 2019 I have been open as a museum run by the municipality, and I close on Tuesdays.",
+   "Below me, lanes of old Newar houses run down the hill."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Tansen_Durbar",
@@ -2320,20 +3288,24 @@
     "caption": "The museum courtyard side of the palace"
    }
   ],
-  "short_np": "तानसेनको मुटुमा रहेको रातो र सेतो राणा गभर्नरहरूको दरबार, ध्वस्त भएपछि पुनर्निर्माण गरिएको र अहिले पाल्पा संग्रहालय।",
-  "story_np": "खुला चोकमा उभिएर तपाईंको अगाडिको सेतो खम्बा र हरिया जालीदार झ्यालले सजिएको लामो रातो अग्रभागतिर हेर्नुहोस्। यो तानसेन दरबार हो, पाल्पाबाट पश्चिम नेपाल चलाउने राणा गभर्नरहरूका लागि बनाइएको। विकिपिडियाले यसको श्रेय प्रताप शमशेर राणा र सन् 1927 लाई दिन्छ। दशकौँसम्म यो पश्चिमी पहाडमा राणा शक्तिको केन्द्र थियो। त्यसपछि सन् 2000 को मध्यतिरको माओवादी द्वन्द्वका बेला तानसेनमाथिको आक्रमणमा दरबार ध्वस्त भयो। अहिले तपाईंले देख्नुभएको पुरानै डिजाइन पछ्याएको पुनर्निर्माण हो। सन् 2019 देखि यो तानसेन नगरपालिकाअन्तर्गत सञ्चालित पाल्पा दरबार संग्रहालयका रूपमा औपचारिक रूपमा खुला छ, त्यसैले गभर्नरहरू कुनै बेला टहलिने गलियारामा तपाईं हिँड्न सक्नुहुन्छ। पछाडि सरेर प्रवेशद्वारमाथिको केन्द्रीय बार्दली हेर्नुहोस्; यो सम्पूर्ण अग्रभागको केन्द्रबिन्दु हो। त्यसपछि तानसेनका पुराना नेवार घरका गल्लीहरूतर्फ ओरालो हिँड्नुहोस्।",
+  "short_np": "तानसेनको मुटुमा रहेको रातो र सेतो राणा गभर्नरहरूको दरबार, ध्वस्त भएपछि पुनर्निर्माण गरिएको र अहिले पाल्पा दरबार सङ्ग्रहालय।",
+  "story_np": "खुला चोकमा उभिएर तपाईंको अगाडि सेता खम्बा र हरिया जालीदार झ्यालले सजिएको लामो रातो अगाडिको भाग हेर्नुहोस्। यो तानसेन दरबार हो, जुन पाल्पाबाट पश्चिम नेपाल चलाउने राणा गभर्नरहरूका लागि बनाइएको थियो। विकिपिडियाले यसको श्रेय प्रताप शमशेर राणा र सन् 1927 लाई दिन्छ। दशकौँसम्म यो पश्चिमी पहाडमा राणा शक्तिको केन्द्र थियो। त्यसपछि सन् 2000 को मध्यतिरको माओवादी द्वन्द्वका बेला तानसेनमाथिको आक्रमणमा दरबार ध्वस्त भयो। अहिले देखिने भवन पुरानै डिजाइन पछ्याएर बनाइएको हो। सन् 2019 देखि यो तानसेन नगरपालिकाले चलाएको पाल्पा दरबार सङ्ग्रहालयका रूपमा औपचारिक रूपमा खुला छ, त्यसैले गभर्नरहरू कुनै बेला टहलिने बार्दलीमा तपाईं हिँड्न सक्नुहुन्छ। अलि पछाडि सरेर प्रवेशद्वारमाथिको बीचको बार्दली हेर्नुहोस्। यही पूरै अगाडिको भागको केन्द्र हो। त्यसपछि तानसेनका पुराना नेवार घरका गल्लीतिर ओरालो हिँड्नुहोस्।",
   "legend_np": null,
   "facts_np": [
-   "यो राणा कालमा पाल्पाका राणा गभर्नरहरूको कार्यालय थियो।",
-   "विकिपिडियाले यसलाई प्रताप शमशेर जङ्गबहादुर राणाको पालामा सन् 1927 को भनेको छ।",
-   "गृहयुद्धका बेला माओवादीहरूले दरबार ध्वस्त पारे र पछि पुनर्निर्माण गरियो।",
-   "पाल्पा दरबार संग्रहालय सन् 2019 को मे 29 मा औपचारिक रूपमा उद्घाटन गरियो।",
-   "संग्रहालय मङ्गलबार बन्द रहन्छ।"
+   "राणा कालमा यो पाल्पाका राणा गभर्नरहरूको कार्यालय थियो।",
+   "विकिपिडिया अनुसार यो प्रताप शमशेर जङ्गबहादुर राणाको पालामा सन् 1927 मा बनेको हो।",
+   "गृहयुद्धका बेला माओवादीहरूले दरबार ध्वस्त पारे र पछि फेरि बनाइयो।",
+   "पाल्पा दरबार सङ्ग्रहालयको औपचारिक उद्घाटन सन् 2019 मे 29 मा भयो।",
+   "सङ्ग्रहालय मङ्गलबार बन्द रहन्छ।"
   ],
   "quake_np": null,
   "clues_np": [
-   "राणा गभर्नरहरूले मेरा रातो कोठाबाट पश्चिमी पहाडमा शासन गरे; म गृहयुद्धमा जलेँ र संग्रहालयका रूपमा फेरि उभिएँ।",
-   "पाल्पाको एउटा पहाडी सहरको मुख्य चोकमा मेरो लामो रातो अग्रभागमा हरिया जालीदार झ्याल छन्।"
+   "राणा गभर्नरहरूले मेरा रातो कोठाबाट पश्चिमी पहाडमा शासन गरे। म गृहयुद्धमा ध्वस्त भएँ र सङ्ग्रहालयका रूपमा फेरि उभिएँ।",
+   "पाल्पाको एउटा पहाडी सहरको मुख्य चोकमा मेरो लामो रातो अगाडिको भागमा हरिया जालीदार झ्याल छन्।",
+   "मेरा तीन तल्ला आँगनको वरिपरि छन्, गाढा रातो भित्ता, सेता खम्बा र कुनामा टावरसहित।",
+   "प्रवेशद्वारमाथिको बीचको बार्दली मेरो पूरै अगाडिको भागको केन्द्रबिन्दु हो।",
+   "सन् २०१९ देखि म नगरपालिकाले चलाएको सङ्ग्रहालयका रूपमा खुला छु, र मङ्गलबार बन्द रहन्छु।",
+   "मेरो तल पुराना नेवार घरका गल्ली ओरालो झर्दै गएका छन्।"
   ]
  },
  {
@@ -2387,14 +3359,14 @@
     "name_np": "वैशाख पूर्णिमा",
     "month": "Baisakh",
     "note": "Full-moon fair marking the day the sacred fire is said to have been lit in 1895.",
-    "note_np": "पवित्र धुनी 1895 मा बालिएको भनिने दिनलाई जनाउने पूर्णिमाको मेला।"
+    "note_np": "सन् १८९५ मा पवित्र धुनी बालिएको भनिने दिनको सम्झनामा लाग्ने पूर्णिमाको मेला।"
    },
    {
     "name": "Kartik Purnima",
-    "name_np": "कार्तिक पूर्णिमा",
+    "name_np": "कात्तिक पूर्णिमा",
     "month": "Kartik",
     "note": "Kartik full-moon pilgrimage fair at the ashram.",
-    "note_np": "आश्रममा लाग्ने कार्तिक पूर्णिमाको तीर्थयात्रा मेला।"
+    "note_np": "आश्रममा लाग्ने कात्तिक पूर्णिमाको तीर्थयात्रा मेला।"
    }
   ],
   "image": {
@@ -2448,10 +3420,10 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "Swarga means heaven and dwar means gate.",
-    "q_np": "'स्वर्गद्वारी' को अर्थ के हो?",
+    "q_np": "स्वर्गद्वारी भन्नाले के बुझिन्छ?",
     "options_np": [
      "सुनको नदी",
-     "स्वर्गको प्रवेशद्वार",
+     "स्वर्गको ढोका",
      "हिउँको बासस्थान",
      "गाईहरूको डाँडा"
     ],
@@ -2488,14 +3460,14 @@
     "answer_index": 1,
     "difficulty": 2,
     "explanation": "The founder herded thousands of cows, and the site commemorates their special role in Hinduism.",
-    "q_np": "स्वर्गद्वारीमा विशेष गरी कुन जनावरलाई सम्मान गरिन्छ?",
+    "q_np": "स्वर्गद्वारीमा विशेष गरी कुन जनावरको सम्मान गरिन्छ?",
     "options_np": [
      "हात्ती",
      "गाई",
      "बाँदर",
      "मयूर"
     ],
-    "explanation_np": "संस्थापकले हजारौं गाई चराउँथे, र यो स्थानले हिन्दू धर्ममा गाईको विशेष भूमिकालाई सम्झाउँछ।"
+    "explanation_np": "संस्थापकले हजारौँ गाई चराउँथे, र यहाँ हिन्दू धर्ममा गाईको विशेष स्थानलाई सम्झिइन्छ।"
    },
    {
     "q": "Which epic heroes are said to have worshipped here before going to heaven?",
@@ -2508,14 +3480,14 @@
     "answer_index": 0,
     "difficulty": 3,
     "explanation": "Local belief links the site to the Pandavas' last worship of Shiva.",
-    "q_np": "स्वर्ग जानुअघि कुन महाकाव्यका नायकहरूले यहाँ पूजा गरेको भनिन्छ?",
+    "q_np": "महाकाव्यका कुन नायकले स्वर्ग जानुअघि यहाँ पूजा गरेका थिए भनिन्छ?",
     "options_np": [
      "पाण्डवहरू",
      "राम र लक्ष्मण",
      "कौरवहरू",
      "सप्तर्षि"
     ],
-    "explanation_np": "स्थानीय विश्वासले यो स्थानलाई पाण्डवहरूको शिवको अन्तिम पूजासँग जोड्छ।"
+    "explanation_np": "स्थानीय विश्वासले यो ठाउँलाई पाण्डवहरूले अन्तिम पटक गरेको शिवको पूजासँग जोड्छ।"
    },
    {
     "q": "In about which year is the continuous sacred fire said to have been lit?",
@@ -2528,19 +3500,123 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "Accounts date it to Baisakh full moon 1952 BS, about 1895 CE.",
-    "q_np": "निरन्तर बलिरहने पवित्र धुनी लगभग कुन वर्षमा बालिएको भनिन्छ?",
+    "q_np": "निरन्तर बलिरहेको पवित्र आगो करिब कुन वर्षमा बालिएको भनिन्छ?",
     "options_np": [
      "1768",
      "1895",
      "1951",
      "1990"
     ],
-    "explanation_np": "विवरणहरूले यसलाई वि.सं. 1952 को वैशाख पूर्णिमा, अर्थात् करिब 1895 CE मा राख्छन्।"
+    "explanation_np": "विवरण अनुसार यो वि.सं. 1952 को वैशाख पूर्णिमा, अर्थात् करिब सन् 1895 मा बालिएको हो।"
+   },
+   {
+    "q": "Roughly how high above sea level does the Swargadwari ashram stand?",
+    "options": [
+     "About 300 m",
+     "About 900 m",
+     "About 2,100 m",
+     "About 4,500 m"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "The hilltop ashram stands at about 2,100 m.",
+    "q_np": "स्वर्गद्वारी आश्रम समुद्र सतहबाट करिब कति उचाइमा छ?",
+    "options_np": [
+     "करिब ३०० मिटर",
+     "करिब ९०० मिटर",
+     "करिब २,१०० मिटर",
+     "करिब ४,५०० मिटर"
+    ],
+    "explanation_np": "डाँडामाथिको यो आश्रम करिब २,१०० मिटरको उचाइमा छ।"
+   },
+   {
+    "q": "What roofing material is used on the temples at Swargadwari?",
+    "options": [
+     "Thatch",
+     "Copper sheet",
+     "Terracotta tiles",
+     "Stepped slate"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "The white and pink temples have stepped slate roofs with small gilded pinnacles.",
+    "q_np": "स्वर्गद्वारीका मन्दिरमा कस्तो छाना प्रयोग गरिएको छ?",
+    "options_np": [
+     "खर",
+     "तामाको पाता",
+     "माटाका टायल",
+     "तह मिलाएको स्लेट"
+    ],
+    "explanation_np": "सेता र गुलाबी मन्दिरमा तह मिलाएको स्लेटको छाना छ, माथि साना सुनौला टुप्पा छन्।"
+   },
+   {
+    "q": "For what purpose did Swami Hamsananda begin the unbroken fire sacrifice?",
+    "options": [
+     "For a good harvest",
+     "For world peace",
+     "For rain",
+     "To protect the cattle"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "He started the unbroken fire sacrifice for world peace.",
+    "q_np": "स्वामी हंसानन्दले नभुसिने यज्ञ केका लागि सुरु गरे?",
+    "options_np": [
+     "राम्रो बालीका लागि",
+     "विश्व शान्तिका लागि",
+     "वर्षाका लागि",
+     "गाईवस्तुको रक्षाका लागि"
+    ],
+    "explanation_np": "उनले विश्व शान्तिका लागि नभुसिने यज्ञ सुरु गरेका थिए।"
+   },
+   {
+    "q": "On which full moons do pilgrims especially crowd the hill?",
+    "options": [
+     "Baisakh and Kartik",
+     "Falgun and Shrawan",
+     "Poush and Jestha",
+     "Magh and Ashadh"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Fairs are held on the full moons of Baisakh and Kartik.",
+    "q_np": "कुन पूर्णिमामा तीर्थयात्रीको विशेष भीड हुन्छ?",
+    "options_np": [
+     "वैशाख र कात्तिक",
+     "फागुन र श्रावण",
+     "पुस र जेठ",
+     "माघ र असार"
+    ],
+    "explanation_np": "वैशाख र कात्तिक पूर्णिमामा मेला लाग्छ।"
+   },
+   {
+    "q": "Under what birth name was Swami Hamsananda known before becoming a guru?",
+    "options": [
+     "Narayan Gautam",
+     "Krishna Prasad",
+     "Hari Bahadur",
+     "Ram Sharan"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Swami Hamsananda was born Narayan Gautam.",
+    "q_np": "गुरु बन्नुअघि स्वामी हंसानन्द कुन जन्मनामले चिनिन्थे?",
+    "options_np": [
+     "नारायण गौतम",
+     "कृष्ण प्रसाद",
+     "हरि बहादुर",
+     "राम शरण"
+    ],
+    "explanation_np": "स्वामी हंसानन्दको जन्मनाम नारायण गौतम थियो।"
    }
   ],
   "clues": [
    "A cowherd guru lit a fire on a hilltop, and devotees say it has never gone out.",
-   "My name promises a door to heaven, and five epic brothers are said to have prayed here on their way."
+   "My name promises a door to heaven, and five epic brothers are said to have prayed here on their way.",
+   "I sit at about 2,100 metres, and the hills roll away below my white and pink temples.",
+   "My temples have stepped slate roofs and small gilded pinnacles, behind dry-stone walls among palms and pines.",
+   "The guru who founded me herded and milked thousands of cows, so cows are honoured above all here.",
+   "Pilgrims crowd my hilltop on the full moons of Baisakh and Kartik."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Swargadwari",
@@ -2591,20 +3667,24 @@
     "caption": "Another view of Swargadwari"
    }
   ],
-  "short_np": "प्युठानको डाँडामाथिको आश्रम जहाँ सन् १८९५ देखि पवित्र धुनी बलिरहेको भनिन्छ, गाई र स्वामी हंसानन्दको सम्मान गर्दै।",
-  "story_np": "सास फेर्नुहोस्: तपाईं करिब २,१०० मिटर चढ्नुभएको छ, र प्युठानका डाँडाहरू तपाईंको तल फैलिएका छन्। स्वर्गद्वारी भनेको स्वर्गको प्रवेशद्वार हो। स्थानीय विश्वासअनुसार पाँच पाण्डव दाजुभाइले स्वर्ग चढ्नुअघि अन्तिम पटक यहाँ शिवको पूजा गरेका थिए। तपाईंले देख्नुभएको आश्रम स्वामी हंसानन्द नामका गुरुले स्थापना गरेका हुन्, जन्मनाम नारायण गौतम, जसले आफ्नो धेरै जीवन यी डाँडाहरूमा हजारौँ गाई चराउँदै र दुहुँदै बिताए। त्यसैले यहाँ गाईको विशेष सम्मान गरिन्छ। विवरणहरूअनुसार सन् १८९५ तिर, १९५२ साल को वैशाख पूर्णिमामा, उनले विश्व शान्तिका लागि अविच्छिन्न यज्ञ सुरु गरे, र भक्तजनहरू भन्छन् त्यो ज्योति तब देखि बलिरहेको छ। ढुङ्गाका पर्खाल पार गर्दै स्लेटको छाना र सुनौलो गजुर भएको सेतो मन्दिरसम्म हिँड्नुहोस्, र मुख्य मूर्तिमा हेर्नुहोस्। वैशाख वा कात्तिक पूर्णिमामा आउनुभयो भने तपाईंले तीर्थयात्रीहरूको भीडसँग डाँडा बाँड्नुहुनेछ।",
-  "legend_np": "पाण्डवहरूले द्वापर युगमा स्वर्ग आरोहण गर्नुअघि अन्तिम पटक यहाँ महादेवको पूजा गरेको मानिन्छ।",
+  "short_np": "प्यूठानको डाँडामाथिको आश्रम, जहाँ सन् १८९५ देखि पवित्र धुनी बलिरहेको भनिन्छ। यहाँ स्वामी हंसानन्द र गाईको विशेष सम्मान गरिन्छ।",
+  "story_np": "अलि सास फेर्नुहोस्। तपाईं करिब २,१०० मिटर माथि चढ्नुभएको छ, र प्यूठानका डाँडा तपाईंको तल फैलिएका छन्। स्वर्गद्वारी भनेको स्वर्गको ढोका हो। स्थानीय विश्वास अनुसार पाँच पाण्डव दाजुभाइले स्वर्ग जानुअघि अन्तिम पटक यहीँ शिवको पूजा गरेका थिए। तपाईंले देखेको आश्रम स्वामी हंसानन्द नामका गुरुले स्थापना गरेका हुन्। उनको जन्मनाम नारायण गौतम थियो। उनले आफ्नो धेरै जीवन यी डाँडामा हजारौँ गाई चराउँदै र दुहुँदै बिताए। त्यसैले यहाँ गाईको विशेष सम्मान गरिन्छ। विवरण अनुसार सन् १८९५ तिर, वि.सं. १९५२ को वैशाख पूर्णिमामा, उनले विश्व शान्तिका लागि नभुसिने यज्ञ सुरु गरे। भक्तजन भन्छन्, त्यो आगो तब देखि आजसम्म बलिरहेको छ। ढुङ्गाका पर्खाल कटेर स्लेटको छाना र सुनौलो टुप्पो भएको सेतो मन्दिरसम्म पुग्नुहोस्, र मुख्य मूर्ति हेर्नुहोस्। वैशाख वा कात्तिक पूर्णिमामा आउनुभयो भने तीर्थयात्रीको भीडसँग डाँडा बाँड्नुपर्नेछ।",
+  "legend_np": "द्वापर युगमा स्वर्ग जानुअघि पाण्डवहरूले अन्तिम पटक यहीँ महादेवको पूजा गरेका थिए भन्ने मानिन्छ।",
   "facts_np": [
-   "विकिपिडियाले यसको उचाइ करिब २,१०० मिटर उल्लेख गरेको छ; अन्य स्रोतहरूले २,१२१ मिटर वा २,३०० मिटर भन्छन्।",
-   "यो स्वामी हंसानन्द (नारायण गौतम) ले स्थापना गरेका भनिन्छ, जसले यहाँ हजारौँ गाई चराए।",
-   "भक्तजनहरूको विश्वास छ कि सन् १८९५ मा बालिएको यज्ञको ज्योति तब देखि निरन्तर बलिरहेको छ।",
-   "यो नेपालको सांस्कृतिक तथा ऐतिहासिक सम्पदा स्थलहरूको राष्ट्रिय सूचीमा सूचीकृत छ।",
-   "गृहयुद्धपछि दाना घाँसको चन्दा यति घट्यो कि यहाँका गाईवस्तु भोकले मर्ने जोखिममा परे।"
+   "विकिपिडियाले यसको उचाइ करिब २,१०० मिटर भनेको छ। अरू स्रोतले २,१२१ मिटर वा २,३०० मिटर भनेका छन्।",
+   "यो स्वामी हंसानन्द (नारायण गौतम) ले स्थापना गरेको भनिन्छ, जसले यहाँ हजारौँ गाई चराए।",
+   "भक्तजनको विश्वास छ, सन् १८९५ मा बालिएको यज्ञको आगो तब देखि निरन्तर बलिरहेको छ।",
+   "यो नेपालको सांस्कृतिक तथा ऐतिहासिक सम्पदा स्थलहरूको राष्ट्रिय सूचीमा परेको छ।",
+   "गृहयुद्धपछि घाँस दानाको चन्दा यति घट्यो कि यहाँका गाईवस्तु भोकै मर्ने खतरामा परे।"
   ],
   "quake_np": null,
   "clues_np": [
    "एक गोठालो गुरुले डाँडाको टुप्पोमा आगो बाले, र भक्तजन भन्छन् त्यो कहिल्यै निभेको छैन।",
-   "मेरो नामले स्वर्गको ढोकाको वाचा गर्छ, र पाँच महाकाव्य भाइहरूले आफ्नो यात्रामा यहाँ प्रार्थना गरेको भनिन्छ।"
+   "मेरो नामले स्वर्गको ढोकाको वाचा गर्छ, र पाँच महाकाव्यका दाजुभाइले आफ्नो यात्रामा यहाँ प्रार्थना गरेको भनिन्छ।",
+   "म करिब २,१०० मिटर माथि छु, र मेरा सेता र गुलाबी मन्दिरको तल डाँडाहरू फैलिएका छन्।",
+   "मेरा मन्दिरमा तह मिलाएको स्लेटको छाना र साना सुनौला टुप्पा छन्, खजुर र चीडका बीच सुक्खा ढुङ्गाका पर्खालपछाडि।",
+   "मलाई बसाल्ने गुरुले हजारौँ गाई चराए र दुहे, त्यसैले यहाँ गाईको सबैभन्दा बढी सम्मान गरिन्छ।",
+   "वैशाख र कात्तिक पूर्णिमामा तीर्थयात्रीले मेरो डाँडा भरिन्छ।"
   ]
  },
  {
@@ -2657,21 +3737,21 @@
     "name_np": "दशैँ",
     "month": "Ashwin",
     "note": "Huge crowds on Saptami, Ashtami and Navami; the Fulpati arrives on Saptami and sacrifices are offered on Ashtami.",
-    "note_np": "सप्तमी, अष्टमी र नवमीमा ठूलो भीड हुन्छ; फूलपाती सप्तमीमा आइपुग्छ र अष्टमीमा बलि चढाइन्छ।"
+    "note_np": "सप्तमी, अष्टमी र नवमीमा ठूलो भीड हुन्छ। फूलपाती सप्तमीमा आइपुग्छ र अष्टमीमा बलि चढाइन्छ।"
    },
    {
     "name": "Maha Shivaratri",
     "name_np": "महाशिवरात्रि",
     "month": "Falgun",
     "note": "Crowds worship at the Mahadev temple in the Siddha Pokhari.",
-    "note_np": "सिद्ध पोखरीको महादेव मन्दिरमा भक्तजनहरूको भीड लाग्छ।"
+    "note_np": "सिद्ध पोखरीको महादेव मन्दिरमा भक्तजनको भीड लाग्छ।"
    },
    {
     "name": "Teej",
     "name_np": "तीज",
     "month": "Bhadra",
     "note": "Women gather at the temple during Teej.",
-    "note_np": "तीजको बेला महिलाहरू मन्दिरमा भेला हुन्छन्।"
+    "note_np": "तीजमा महिलाहरू मन्दिरमा भेला हुन्छन्।"
    }
   ],
   "image": {
@@ -2767,14 +3847,14 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "Locals say it is the only Mahadev with a moustache.",
-    "q_np": "सिद्ध पोखरीमा रहेको महादेवको मूर्तिको असामान्य कुरा के हो?",
+    "q_np": "सिद्ध पोखरीको महादेवको मूर्तिमा के विशेष छ?",
     "options_np": [
      "यो सुनको बनेको छ",
      "यसमा जुँगा छ",
      "यसका पाँच मुख छन्",
-     "यो तैरिन्छ"
+     "यो पानीमा तैरिन्छ"
     ],
-    "explanation_np": "स्थानीयहरू भन्छन्, जुँगा भएको महादेव यही एउटै हो।"
+    "explanation_np": "स्थानीयहरू भन्छन्, जुँगा भएको महादेव यही एउटा मात्र हो।"
    },
    {
     "q": "Who carries in the Fulpati on Dashain Saptami?",
@@ -2787,14 +3867,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "The army and police bring the Fulpati into the temple.",
-    "q_np": "दशैँको सप्तमीमा फूलपाती को ल्याउँछन्?",
+    "q_np": "दशैँको सप्तमीमा फूलपाती कसले ल्याउँछन्?",
     "options_np": [
      "पुजारी मात्र",
      "सेना र प्रहरी",
      "विद्यालयका बालबालिका",
      "मेयर"
     ],
-    "explanation_np": "सेना र प्रहरीले फूलपाती मन्दिरमा भित्र्याउँछन्।"
+    "explanation_np": "सेना र प्रहरीले फूलपाती मन्दिरमा ल्याउँछन्।"
    },
    {
     "q": "Where was the founding holy man travelling to when he dreamed of the goddess?",
@@ -2807,7 +3887,7 @@
     "answer_index": 1,
     "difficulty": 5,
     "explanation": "He and his disciple were on their way to Pashupati.",
-    "q_np": "संस्थापक साधुले देवीको सपना देख्दा कहाँ जाँदै थिए?",
+    "q_np": "देवीको सपना देख्दा संस्थापक साधु कहाँ जाँदै थिए?",
     "options_np": [
      "मुक्तिनाथ",
      "पशुपति",
@@ -2815,11 +3895,115 @@
      "लुम्बिनी"
     ],
     "explanation_np": "उनी र उनका चेला पशुपति जाँदै थिए।"
+   },
+   {
+    "q": "What is the name of the pond beside the temple, with a Mahadev shrine in its middle?",
+    "options": [
+     "Rani Pokhari",
+     "Kamal Pokhari",
+     "Siddha Pokhari",
+     "Gosainkunda"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "The Siddha Pokhari pond lies beside the temple, with a Mahadev shrine in the middle.",
+    "q_np": "मन्दिरको छेउको, बीचमा महादेवको मन्दिर भएको पोखरीको नाम के हो?",
+    "options_np": [
+     "रानी पोखरी",
+     "कमल पोखरी",
+     "सिद्ध पोखरी",
+     "गोसाइँकुण्ड"
+    ],
+    "explanation_np": "मन्दिरको छेउमा सिद्ध पोखरी छ, जसको बीचमा महादेवको मन्दिर छ।"
+   },
+   {
+    "q": "What style is the present temple built in?",
+    "options": [
+     "Stone shikhara style",
+     "Three-tier pagoda style",
+     "Mughal dome style",
+     "Tibetan gompa style"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The temple is a modern three-tier pagoda-style building with copper-sheathed roofs.",
+    "q_np": "अहिलेको मन्दिर कुन शैलीमा बनेको छ?",
+    "options_np": [
+     "ढुङ्गाको शिखर शैली",
+     "तीन तले पगोडा शैली",
+     "मुगल गुम्बज शैली",
+     "तिब्बती गुम्बा शैली"
+    ],
+    "explanation_np": "यो तामाले छोपेको छाना भएको आधुनिक तीन तले पगोडा शैलीको मन्दिर हो।"
+   },
+   {
+    "q": "According to local tradition, what did the goddess's original name Bakyeshwari mean?",
+    "options": [
+     "Lady of speech",
+     "Lady of the river",
+     "Mother of the forest",
+     "Queen of victory"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Tradition says the name changed from Bakyeshwari, lady of speech, to Bageshwari.",
+    "q_np": "स्थानीय परम्परा अनुसार देवीको पुरानो नाम वाक्येश्वरीको अर्थ के हो?",
+    "options_np": [
+     "वाणीकी देवी",
+     "नदीकी देवी",
+     "जङ्गलकी आमा",
+     "विजयकी रानी"
+    ],
+    "explanation_np": "परम्परा अनुसार देवीको नाम वाक्येश्वरी, अर्थात् वाणीकी देवीबाट बागेश्वरी भयो।"
+   },
+   {
+    "q": "In the founding holy man's dream, where did the goddess say her seat was?",
+    "options": [
+     "On a hilltop",
+     "Under a banyan tree",
+     "In a hollow in the ground",
+     "Inside a cave"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "She told the guru that her seat was in a hollow in the ground, which pilgrims still look into.",
+    "q_np": "संस्थापक साधुको सपनामा देवीले आफ्नो आसन कहाँ छ भनिन्?",
+    "options_np": [
+     "डाँडाको टुप्पोमा",
+     "बरको रुखमुनि",
+     "भुइँको खाल्डोमा",
+     "गुफाभित्र"
+    ],
+    "explanation_np": "उनले गुरुलाई आफ्नो आसन भुइँको खाल्डोमा छ भनिन्। तीर्थयात्री अझै त्यो खाल्डोमा हेर्छन्।"
+   },
+   {
+    "q": "In which tol and ward of Nepalgunj does the temple stand?",
+    "options": [
+     "Gharbari Tol, ward 2",
+     "Tribhuvan Chowk, ward 7",
+     "Ratna Nagar, ward 4",
+     "Lumbini Tol, ward 10"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "It stands in Gharbari Tol, ward 2 of Nepalgunj.",
+    "q_np": "मन्दिर नेपालगञ्जको कुन टोल र वडामा छ?",
+    "options_np": [
+     "घरबारी टोल, वडा २",
+     "त्रिभुवन चोक, वडा ७",
+     "रत्ननगर, वडा ४",
+     "लुम्बिनी टोल, वडा १०"
+    ],
+    "explanation_np": "यो नेपालगञ्जको वडा २ को घरबारी टोलमा छ।"
    }
   ],
   "clues": [
    "A goddess of speech is said to have left her tongue here, in a hollow you can still look into.",
-   "Beside my courtyard, a pond holds a Shiva with a moustache in a western Terai city."
+   "Beside my courtyard, a pond holds a Shiva with a moustache in a western Terai city.",
+   "My three-tiered pagoda roofs are sheathed in copper and edged in red, with rows of bells around the sanctum.",
+   "A holy man bound for a great Shiva shrine slept here, and in a dream the goddess told him her seat lay in a hollow.",
+   "My chief priests trace their line back to the disciple of that holy man.",
+   "On Saptami of the great autumn festival, soldiers and police carry sacred flowers in through my gate."
   ],
   "sources": [
    "https://ne.wikipedia.org/wiki/बागेश्वरी_मन्दिर,_नेपालगन्ज",
@@ -2869,20 +4053,24 @@
     "caption": "Another view of the temple"
    }
   ],
-  "short_np": "नेपालगञ्जको मध्यभागको व्यस्त शक्तिपीठ, जहाँ सतीको जिब्रो खसेको विश्वास गरिन्छ, सिद्ध पोखरीको छेउमा।",
-  "story_np": "नेपालगञ्जका व्यस्त सडकबाट यस उज्यालो आँगनमा पस्नुहोस् र घण्टको आवाज सुन्नुहोस्। भक्तजनहरू यही ठाउँमा देवी सतीको जिब्रो पृथ्वीमा खसेको विश्वास गर्छन्, जसले यसलाई उनका शक्तिपीठमध्ये एक बनाउँछ। नेपालीमा जिब्रोलाई जिब्रो भनिन्छ, र स्थानीय परम्पराअनुसार देवीको नाम वाक्येश्वरी, वाणीकी देवीबाट बागेश्वरी भयो। कथा यस्तो छ कि एक साधु र उनका चेला पशुपति जाने क्रममा यहाँ रात बिताए, र देवीले गुरुलाई सपनामा आफ्नो आसन भूमिको खाल्डोमा छ भनिन्। तीर्थयात्रीहरू अझै त्यो खाल्डोमा हेर्छन्। मुख्य पुजारीहरूले आफ्नो वंश त्यही चेलासम्म पुर्‍याउँछन्। सिद्ध पोखरीतिर घुम्नुहोस्। यसको बीचमा महादेवको मन्दिर छ जसमा शिवको मूर्तिको जुँगा छ, जुन स्थानीयहरू यसप्रकारको एकमात्र भन्छन्। दशैँमा आउनुहोस्, जब सैनिक र प्रहरीले सप्तमीमा फूलपाती ल्याउँछन्।",
-  "legend_np": "पशुपति जाँदै गरेका एक घुमन्ते साधुले देवीको आसन यहाँको खाल्डोमा छ भनी सपना देखे; त्यही ठाउँमा मन्दिर स्थापना गरियो, र सतीको जिब्रो त्यहीँ खसेको विश्वास गरिन्छ।",
+  "short_np": "नेपालगञ्जको बीचमा रहेको व्यस्त शक्तिपीठ, जहाँ सतीको जिब्रो खसेको विश्वास गरिन्छ। छेउमा सिद्ध पोखरी छ।",
+  "story_np": "नेपालगञ्जका व्यस्त सडकबाट यो उज्यालो आँगनमा पस्नुहोस् र घण्टको आवाज सुन्नुहोस्। भक्तजनले यही ठाउँमा देवी सतीको जिब्रो खसेको विश्वास गर्छन्, त्यसैले यो उनका शक्तिपीठमध्ये एक हो। नेपालीमा जिब्रोलाई जिब्रो नै भनिन्छ। स्थानीय परम्परा अनुसार देवीको नाम वाक्येश्वरी, अर्थात् वाणीकी देवीबाट बागेश्वरी भयो। कथा यस्तो छ, एक साधु र उनका चेला पशुपति जाँदै गर्दा यहाँ रात बिताए। देवीले गुरुलाई सपनामा भनिन्, उनको आसन भुइँको एउटा खाल्डोमा छ। तीर्थयात्री अझै त्यो खाल्डोमा हेर्छन्। मुख्य पुजारीहरू आफ्नो वंश त्यही चेलासम्म जोड्छन्। सिद्ध पोखरीतिर पनि जानुहोस्। त्यसको बीचमा महादेवको मन्दिर छ, जहाँको शिवको मूर्तिमा जुँगा छ। यस्तो मूर्ति यही एउटा मात्र हो भनेर स्थानीय भन्छन्। दशैँमा आउनुहोस्, जब सैनिक र प्रहरीले सप्तमीका दिन फूलपाती ल्याउँछन्।",
+  "legend_np": "पशुपति जाँदै गरेका एक घुमन्ते साधुले सपनामा देखे, देवीको आसन यहाँको खाल्डोमा छ। त्यही ठाउँमा मन्दिर बनाइयो, र सतीको जिब्रो त्यहीँ खसेको विश्वास गरिन्छ।",
   "facts_np": [
-   "यो बाँकेको नेपालगञ्ज वडा २ को घरबारी टोलमा छ।",
-   "भक्तजनहरू यसलाई शक्तिपीठमध्ये गन्छन्, जहाँ सतीको जिब्रो खसेको विश्वास गरिन्छ।",
-   "मुख्य पुजारीहरू स्थापना गर्ने साधुसँग आएका चेलाका सन्तान भनिन्छ।",
-   "दशैँमा सेना र प्रहरीले सप्तमीमा फूलपाती ल्याउँछन्।",
+   "यो बाँके जिल्लाको नेपालगञ्ज वडा २ को घरबारी टोलमा छ।",
+   "भक्तजन यसलाई शक्तिपीठमध्ये एक गन्छन्, जहाँ सतीको जिब्रो खसेको विश्वास गरिन्छ।",
+   "मुख्य पुजारीहरू मन्दिर स्थापना गर्ने साधुसँग आएका चेलाका सन्तान हुन् भनिन्छ।",
+   "दशैँमा सेना र प्रहरीले सप्तमीका दिन फूलपाती ल्याउँछन्।",
    "सिद्ध पोखरीको महादेव मन्दिरमा जुँगा भएको शिवको मूर्ति छ।"
   ],
   "quake_np": null,
   "clues_np": [
-   "वाणीकी देवीले यहीँ आफ्नो जिब्रो छाडेकी भनिन्छ, अहिले पनि हेर्न सकिने एउटा खोपिलोमा।",
-   "मेरो आँगनछेउको पोखरीमा पश्चिमी तराईको एक सहरमा जुँगा भएका शिव बस्छन्।"
+   "वाणीकी देवीले यहीँ आफ्नो जिब्रो छाडेकी भनिन्छ, अहिले पनि हेर्न सकिने एउटा खाल्डोमा।",
+   "मेरो आँगनको छेउको पोखरीमा, पश्चिमी तराईको एउटा सहरमा, जुँगा भएका शिव बस्छन्।",
+   "मेरा तीन तले पगोडा छाना तामाले छोपिएका र किनारा रातो छन्, र गर्भगृह वरिपरि घण्ट लस्करै झुन्डिएका छन्।",
+   "ठूलो शिव मन्दिर जाँदै गरेका एक साधु यहाँ सुते, र सपनामा देवीले आफ्नो आसन खाल्डोमा छ भनिन्।",
+   "मेरा मुख्य पुजारीहरू आफ्नो वंश ती साधुका चेलासम्म जोड्छन्।",
+   "ठूलो शरद चाडको सप्तमीमा सैनिक र प्रहरीले पवित्र फूलपाती मेरो ढोकाभित्र ल्याउँछन्।"
   ]
  },
  {
@@ -2937,21 +4125,21 @@
     "name_np": "विवाह पञ्चमी",
     "month": "Mangsir",
     "note": "Celebrates the wedding of Rama and Sita; the marriage is re-enacted in Janakpur.",
-    "note_np": "राम र सीताको विवाह मनाइन्छ; जनकपुरमा विवाहको पुनःप्रदर्शन गरिन्छ।"
+    "note_np": "राम र सीताको विवाह मनाइन्छ। जनकपुरमा विवाहको पुनःप्रदर्शन गरिन्छ।"
    },
    {
     "name": "Ram Navami",
     "name_np": "रामनवमी",
     "month": "Chaitra",
     "note": "Rama's birthday draws thousands of pilgrims to the temple.",
-    "note_np": "रामको जन्मदिनले मन्दिरमा हजारौँ तीर्थयात्रीलाई तान्छ।"
+    "note_np": "रामको जन्मदिनमा मन्दिरमा हजारौँ तीर्थयात्री आउँछन्।"
    },
    {
     "name": "Dashain",
     "name_np": "दशैँ",
     "month": "Ashwin",
     "note": "Major festival when the temple is crowded with worshippers.",
-    "note_np": "प्रमुख पर्व, जब मन्दिर भक्तजनले भरिन्छ।"
+    "note_np": "ठूलो चाड, जब मन्दिर भक्तजनले भरिन्छ।"
    }
   ],
   "image": {
@@ -3030,11 +4218,11 @@
     "q_np": "यसलाई नौलखा मन्दिर किन भनिन्छ?",
     "options_np": [
      "यसमा नौ लाख इँटा छन्",
-     "यसको निर्माणमा करिब नौ लाख सिक्का खर्च भयो",
+     "यो बनाउन करिब नौ लाख सिक्का खर्च भयो",
      "नौ लाख तीर्थयात्रीले यसलाई बनाए",
-     "यो नौ तले अग्लो छ"
+     "यो नौ तल्ले अग्लो छ"
     ],
-    "explanation_np": "यसको निर्माणमा करिब नौ लाख सिक्का खर्च भएको थियो।"
+    "explanation_np": "यो बनाउन करिब नौ लाख सिक्का खर्च भएको थियो।"
    },
    {
     "q": "Who built the present temple?",
@@ -3047,14 +4235,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "Queen Vrisha Bhanu of Orchha completed it in 1910.",
-    "q_np": "अहिलेको मन्दिर कसले बनाए?",
+    "q_np": "अहिलेको मन्दिर कसले बनाइन्?",
     "options_np": [
-     "जंगबहादुर राणा",
+     "जङ्गबहादुर राणा",
      "ओरछाकी रानी वृषभानु",
      "राजा जनक",
      "अमरसिंह थापा"
     ],
-    "explanation_np": "ओरछाकी रानी वृषभानुले सन् 1910 मा यसलाई पूरा गरिन्।"
+    "explanation_np": "ओरछाकी रानी वृषभानुले सन् 1910 मा यसलाई पूरा गराइन्।"
    },
    {
     "q": "Which festival re-enacts the wedding of Rama and Sita here?",
@@ -3067,14 +4255,14 @@
     "answer_index": 1,
     "difficulty": 2,
     "explanation": "Vivaha Panchami in Mangsir celebrates their marriage.",
-    "q_np": "यहाँ राम र सीताको विवाह पुनःप्रदर्शन गर्ने पर्व कुन हो?",
+    "q_np": "यहाँ राम र सीताको विवाहको पुनःप्रदर्शन गरिने चाड कुन हो?",
     "options_np": [
      "तीज",
      "विवाह पञ्चमी",
      "होली",
      "छठ"
     ],
-    "explanation_np": "मङ्सिरको विवाह पञ्चमीले उनीहरूको विवाह मनाउँछ।"
+    "explanation_np": "मङ्सिरको विवाह पञ्चमीमा उनीहरूको विवाह मनाइन्छ।"
    },
    {
     "q": "In what year was a golden image of Sita reportedly found on the site?",
@@ -3087,19 +4275,123 @@
     "answer_index": 0,
     "difficulty": 5,
     "explanation": "Shurkishordas is said to have found it in 1657.",
-    "q_np": "यस स्थानमा सीताको सुनको मूर्ति कुन वर्ष भेटिएको भनिन्छ?",
+    "q_np": "यस ठाउँमा सीताको सुनको मूर्ति कुन वर्ष भेटिएको भनिन्छ?",
     "options_np": [
      "1657",
      "1769",
      "1910",
      "1934"
     ],
-    "explanation_np": "शूरकिशोरदासले सन् 1657 मा भेटेको भनिन्छ।"
+    "explanation_np": "शुरकिशोरदासले सन् 1657 मा यो भेटेको भनिन्छ।"
+   },
+   {
+    "q": "What is Janaki Mandir built of?",
+    "options": [
+     "Red brick and timber",
+     "Black granite",
+     "Stone and marble",
+     "Mud and thatch"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "The three-storey temple is built entirely of stone and marble and is fully white.",
+    "q_np": "जानकी मन्दिर केले बनेको छ?",
+    "options_np": [
+     "रातो इँटा र काठ",
+     "कालो ग्रेनाइट",
+     "ढुङ्गा र सङ्गमरमर",
+     "माटो र खर"
+    ],
+    "explanation_np": "तीन तले यो मन्दिर पूरै ढुङ्गा र सङ्गमरमरले बनेको छ, र पूरा सेतो छ।"
+   },
+   {
+    "q": "What stands next door where, Hindus believe, Sita chose Rama as her husband?",
+    "options": [
+     "A wedding pavilion",
+     "A royal stable",
+     "A school",
+     "A cremation ghat"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Next door is the wedding pavilion where Sita is believed to have chosen Rama.",
+    "q_np": "हिन्दूहरूको विश्वास अनुसार सीताले रामलाई पति रोजेको ठाउँ, छेउमै के छ?",
+    "options_np": [
+     "विवाह मण्डप",
+     "शाही घोडाशाला",
+     "विद्यालय",
+     "दाहसंस्कार घाट"
+    ],
+    "explanation_np": "छेउमै विवाह मण्डप छ, जहाँ सीताले रामलाई रोजेको मानिन्छ।"
+   },
+   {
+    "q": "Roughly how many rooms in the temple are decorated with coloured glass, engravings and paintings?",
+    "options": [
+     "About 6",
+     "About 20",
+     "About 60",
+     "About 600"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The temple holds some 60 rooms decorated with coloured glass, engravings and paintings.",
+    "q_np": "मन्दिरमा रङ्गीन सिसा, कुँदाइ र चित्रले सजिएका कोठा करिब कति छन्?",
+    "options_np": [
+     "करिब ६",
+     "करिब २०",
+     "करिब ६०",
+     "करिब ६००"
+    ],
+    "explanation_np": "मन्दिरमा रङ्गीन सिसा, कुँदाइ र चित्रले सजिएका करिब ६० कोठा छन्।"
+   },
+   {
+    "q": "Sita is called Janaki because she was the daughter of the king of which land?",
+    "options": [
+     "Kosala",
+     "Mithila",
+     "Magadha",
+     "Videha Hills"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "She was the daughter of King Janak of Mithila.",
+    "q_np": "सीतालाई जानकी भनिन्छ, किनभने उनी कुन राज्यका राजाकी छोरी थिइन्?",
+    "options_np": [
+     "कोसल",
+     "मिथिला",
+     "मगध",
+     "विदेह डाँडा"
+    ],
+    "explanation_np": "उनी मिथिलाका राजा जनककी छोरी थिइन्।"
+   },
+   {
+    "q": "In what year was the temple placed on UNESCO's World Heritage Tentative List?",
+    "options": [
+     "1979",
+     "1996",
+     "2008",
+     "2019"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "It was placed on the Tentative List in 2008.",
+    "q_np": "मन्दिर कुन वर्ष युनेस्कोको विश्व सम्पदा सम्भावित सूचीमा राखिएको थियो?",
+    "options_np": [
+     "1979",
+     "1996",
+     "2008",
+     "2019"
+    ],
+    "explanation_np": "यसलाई सन् 2008 मा सम्भावित सूचीमा राखिएको थियो।"
    }
   ],
   "clues": [
    "Nine lakh coins built my white marble walls for a princess who chose her husband by a broken bow.",
-   "A queen from central India finished me in 1910 in the old capital of Mithila."
+   "A queen from central India finished me in 1910 in the old capital of Mithila.",
+   "Domes, turrets and latticed windows crown my three storeys of pure white marble.",
+   "Inside, about sixty rooms glitter with coloured glass, and the walls carry Madhubani paintings.",
+   "Next door stands the pavilion where a bride is believed to have chosen her groom.",
+   "Each year at Vivaha Panchami, my town re-enacts a divine wedding."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Janaki_Mandir",
@@ -3149,20 +4441,24 @@
     "caption": "Wide view of the temple front"
    }
   ],
-  "short_np": "जनकपुरमा सीताको चम्किलो सेतो संगमरमरको मन्दिर, नौ लाख लागतका कारण नौलखा मन्दिर भनिने।",
-  "story_np": "आँखामाथि हात राख्नुहोस्: तराईको घाममा सेतो संगमरमर चम्कन्छ। यो जानकी मन्दिर हो, सीताको मन्दिर, जसलाई मिथिलाका राजा जनककी छोरी भएकाले जानकी भनिन्छ। मानिसहरू यसलाई नौलखा मन्दिर, नौ लाखको मन्दिर, पनि भन्छन्, किनभने यसको निर्माणमा करिब नौ लाख सिक्का खर्च भएको भनिन्छ। यो 1910 मा मध्य भारतको ओरछाकी रानी वृषभानु कुँवरीले पूरा गरेकी थिइन्। परम्परा अनुसार 1657 मा सन्त शुरकिशोरदासले यही ठाउँमा सीताको सुनको मूर्ति भेटे, र राजा जनकले यहीँ शिवको धनुषको पूजा गर्थे। गुम्बज र बुर्जाहरूमाथि हेर्नुहोस्, अनि भित्र पस्नुहोस्, जहाँ मन्दिरमा रङ्गीन गिलास, नक्काशी र चित्रले सजिएका करिब 60 कोठा छन्, र भित्तामा मधुबनी कला छ। छेउमै विवाह मण्डप छ, जहाँ हिन्दूहरूको विश्वास अनुसार सीताले रामलाई आफ्नो पति रोजिन्। विवाह पञ्चमीमा आउनुभयो भने त्यो विवाहको पुनःप्रदर्शन देख्न पाउनुहुन्छ।",
-  "legend_np": "यहीँ सीता स्वयंवर भएको मानिन्छ, जहाँ रामले शिवको धनुष भाँचेपछि सीताले उनलाई रोजिन्; राजा जनकले यही ठाउँमा धनुषको पूजा गर्थे भनिन्छ।",
+  "short_np": "जनकपुरमा सीताको चम्किलो सेतो सङ्गमरमरको मन्दिर, नौ लाख सिक्का खर्च भएकाले नौलखा मन्दिर भनिने।",
+  "story_np": "आँखामाथि हात राख्नुहोस्। तराईको घाममा सेतो सङ्गमरमर चम्कन्छ। यो जानकी मन्दिर हो, सीताको मन्दिर। मिथिलाका राजा जनककी छोरी भएकाले उनलाई जानकी भनिन्छ। मानिसहरू यसलाई नौलखा मन्दिर, अर्थात् नौ लाखको मन्दिर पनि भन्छन्, किनभने यो बनाउन करिब नौ लाख सिक्का खर्च भएको भनिन्छ। मध्य भारतको ओरछाकी रानी वृषभानु कुँवरीले सन् 1910 मा यसलाई पूरा गराइन्। परम्परा अनुसार सन् 1657 मा सन्त शुरकिशोरदासले यही ठाउँमा सीताको सुनको मूर्ति भेटे, र राजा जनकले यहीँ शिवको धनुषको पूजा गर्थे। माथि गुम्बज र बुर्जा हेर्नुहोस्, अनि भित्र पस्नुहोस्। मन्दिरमा रङ्गीन सिसा, कुँदाइ र चित्रले सजिएका करिब 60 कोठा छन्, र भित्तामा मधुबनी कला छ। छेउमै विवाह मण्डप छ। हिन्दूहरूको विश्वास अनुसार सीताले यहीँ रामलाई आफ्नो पति रोजेकी थिइन्। विवाह पञ्चमीमा आउनुभयो भने त्यो विवाहको पुनःप्रदर्शन देख्न पाउनुहुन्छ।",
+  "legend_np": "यहीँ सीता स्वयंवर भएको मानिन्छ, जहाँ रामले शिवको धनुष भाँचेपछि सीताले उनलाई रोजिन्। राजा जनकले यही ठाउँमा धनुषको पूजा गर्थे भनिन्छ।",
   "facts_np": [
-   "ओरछा (टिकमगढ) की रानी वृषभानु कुँवरीले 1910 मा मन्दिर बनाइन्।",
-   "यसको निर्माणमा करिब नौ लाख सिक्का खर्च भएकाले यसलाई नौलखा मन्दिर भनिन्छ।",
-   "तीन तले यो मन्दिर करिब 1,480 वर्गमिटरमा फैलिएको छ र ढुङ्गा तथा संगमरमरले बनेको छ।",
-   "यो 2008 मा युनेस्कोको विश्व सम्पदा अस्थायी सूचीमा राखिएको थियो।",
+   "ओरछा (टिकमगढ)की रानी वृषभानु कुँवरीले सन् 1910 मा मन्दिर बनाइन्।",
+   "यो बनाउन करिब नौ लाख सिक्का खर्च भएकाले यसलाई नौलखा मन्दिर भनिन्छ।",
+   "तीन तले यो मन्दिर करिब 1,480 वर्गमिटरमा फैलिएको छ र ढुङ्गा तथा सङ्गमरमरले बनेको छ।",
+   "सन् 2008 मा यसलाई युनेस्कोको विश्व सम्पदा सम्भावित सूचीमा राखिएको थियो।",
    "नेपालले प्राचीन स्मारक संरक्षण ऐन, 1956 अन्तर्गत मन्दिर क्षेत्रलाई संरक्षित स्मारक क्षेत्र घोषणा गरेको छ।"
   ],
-  "quake_np": "26 अप्रिल 2015 का प्रतिवेदनहरूले अप्रिल 2015 को भूकम्पमा मन्दिर आंशिक रूपमा ढलेको बताएका थिए।",
+  "quake_np": "सन् 2015 अप्रिल 26 का प्रतिवेदनमा अप्रिल 2015 को भूकम्पले मन्दिर आंशिक रूपमा भत्किएको बताइएको थियो।",
   "clues_np": [
-   "नौ लाख सिक्काले मेरा सेता संगमरमरका पर्खाल बनाए, भाँचिएको धनुषले आफ्नो पति रोज्ने राजकुमारीका लागि।",
-   "मध्य भारतकी एक रानीले मिथिलाको पुरानो राजधानीमा सन् 1910 मा मलाई पूरा गरिन्।"
+   "नौ लाख सिक्काले मेरा सेता सङ्गमरमरका पर्खाल बनाए, भाँचिएको धनुषले आफ्नो पति रोज्ने एक राजकुमारीका लागि।",
+   "मध्य भारतकी एक रानीले मिथिलाको पुरानो राजधानीमा सन् 1910 मा मलाई पूरा गराइन्।",
+   "गुम्बज, बुर्जा र जालीदार झ्यालले मेरा तीन तल्ला शुद्ध सेतो सङ्गमरमरलाई सजाएका छन्।",
+   "भित्र करिब साठीवटा कोठा रङ्गीन सिसाले झिलिमिली छन्, र भित्तामा मधुबनी चित्र छन्।",
+   "छेउमै त्यो मण्डप छ, जहाँ एक दुलहीले आफ्नो दुलहा रोजेकी थिइन् भन्ने विश्वास छ।",
+   "हरेक वर्ष विवाह पञ्चमीमा मेरो सहरमा एउटा दिव्य विवाहको पुनःप्रदर्शन गरिन्छ।"
   ]
  },
  {
@@ -3215,14 +4511,14 @@
     "name_np": "रामनवमी",
     "month": "Chaitra",
     "note": "Rama's birthday, celebrated across Janakpur's temples.",
-    "note_np": "रामको जन्मदिन, जनकपुरका मन्दिरहरूमा मनाइन्छ।"
+    "note_np": "रामको जन्मदिन, जनकपुरका मन्दिरमा मनाइन्छ।"
    },
    {
     "name": "Vivaha Panchami",
     "name_np": "विवाह पञ्चमी",
     "month": "Mangsir",
     "note": "Janakpur celebrates the wedding of Rama and Sita.",
-    "note_np": "जनकपुरमा राम र सीताको विवाहोत्सव मनाइन्छ।"
+    "note_np": "जनकपुरमा राम र सीताको विवाह उत्सव मनाइन्छ।"
    }
   ],
   "image": {
@@ -3296,14 +4592,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "The Gorkhali general Amar Singh Thapa rebuilt it.",
-    "q_np": "1782 मा राम मन्दिरको पुनर्निर्माण कसले गरे?",
+    "q_np": "सन् 1782 मा राम मन्दिर कसले फेरि बनाए?",
     "options_np": [
      "भीमसेन थापा",
      "अमरसिंह थापा",
      "जङ्गबहादुर राणा",
      "पृथ्वीनारायण शाह"
     ],
-    "explanation_np": "गोर्खाली सेनापति अमरसिंह थापाले यसको पुनर्निर्माण गरे।"
+    "explanation_np": "गोर्खाली सेनापति अमरसिंह थापाले यसलाई फेरि बनाए।"
    },
    {
     "q": "What architectural style is the Ram Mandir?",
@@ -3343,7 +4639,7 @@
      "रानी पोखरी",
      "सिद्ध पोखरी"
     ],
-    "explanation_np": "मन्दिर पवित्र धनुषसागरतर्फ फर्केको छ।"
+    "explanation_np": "मन्दिर पवित्र धनुषसागरतिर फर्किएको छ।"
    },
    {
     "q": "Which Shakti shrine is inside the Ram Mandir complex?",
@@ -3363,12 +4659,116 @@
      "कङ्काली",
      "बागेश्वरी"
     ],
-    "explanation_np": "राजदेवी मन्दिर, एक शक्तिपीठ, परिसरभित्र छ।"
+    "explanation_np": "राजदेवी मन्दिर, एउटा शक्तिपीठ, परिसरभित्र छ।"
+   },
+   {
+    "q": "What is the Ram Mandir mainly built of?",
+    "options": [
+     "White marble",
+     "Exposed red brick",
+     "Black basalt",
+     "Grey concrete"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is a pagoda temple of exposed red brick with carved timber struts.",
+    "q_np": "राम मन्दिर मुख्य रूपमा केले बनेको छ?",
+    "options_np": [
+     "सेतो सङ्गमरमर",
+     "बाहिरै देखिने रातो इँटा",
+     "कालो ढुङ्गा",
+     "खैरो कङ्क्रिट"
+    ],
+    "explanation_np": "यो बाहिरै देखिने रातो इँटा र कुँदिएका काठका टेका भएको पगोडा मन्दिर हो।"
+   },
+   {
+    "q": "How many tiers does the temple have?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "Five"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is a two-tiered Nepali pagoda temple.",
+    "q_np": "मन्दिरमा कति तह छन्?",
+    "options_np": [
+     "एक",
+     "दुई",
+     "तीन",
+     "पाँच"
+    ],
+    "explanation_np": "यो दुई तह भएको नेपाली पगोडा मन्दिर हो।"
+   },
+   {
+    "q": "What hangs in rows under the eaves of the temple?",
+    "options": [
+     "Prayer flags",
+     "Small bells",
+     "Oil lamps",
+     "Flower garlands"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Rows of small bells hang under the eaves and ring in the wind.",
+    "q_np": "मन्दिरको छानाको किनारमुनि लस्करै के झुन्डिएका छन्?",
+    "options_np": [
+     "प्रार्थना झण्डा",
+     "साना घण्टी",
+     "तेलका बत्ती",
+     "फूलका माला"
+    ],
+    "explanation_np": "छानाको किनारमुनि साना घण्टी लस्करै झुन्डिएका छन्, जुन हावामा बज्छन्।"
+   },
+   {
+    "q": "Who is credited with building the first shrine here in the 17th century?",
+    "options": [
+     "Amar Singh Thapa",
+     "Queen Vrisha Bhanu",
+     "Chaturbhuj Giri",
+     "King Janak"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The holy man Chaturbhuj Giri is credited with the first shrine in the 17th century.",
+    "q_np": "सत्रौँ शताब्दीमा यहाँ पहिलो मन्दिर बनाउने श्रेय कसलाई दिइन्छ?",
+    "options_np": [
+     "अमरसिंह थापा",
+     "रानी वृषभानु",
+     "चतुर्भुज गिरि",
+     "राजा जनक"
+    ],
+    "explanation_np": "सत्रौँ शताब्दीमा पहिलो मन्दिर बनाउने श्रेय सन्त चतुर्भुज गिरिलाई दिइन्छ।"
+   },
+   {
+    "q": "Which nearby temple, a short walk away, is dedicated to Rama's wife?",
+    "options": [
+     "Dhanusha Dham",
+     "Janaki Mandir",
+     "Rajdevi Mandir",
+     "Bageshwori Temple"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The Janaki Mandir, dedicated to Sita, is a short walk from the Ram Mandir.",
+    "q_np": "छोटो पैदल दूरीमा रहेको रामकी पत्नीलाई समर्पित मन्दिर कुन हो?",
+    "options_np": [
+     "धनुषाधाम",
+     "जानकी मन्दिर",
+     "राजदेवी मन्दिर",
+     "बागेश्वरी मन्दिर"
+    ],
+    "explanation_np": "सीतालाई समर्पित जानकी मन्दिर राम मन्दिरबाट छोटो पैदल दूरीमा छ।"
    }
   ],
   "clues": [
    "A Gorkhali general rebuilt me in 1782 as a hill-style pagoda on the plains of Mithila.",
-   "I face a sacred pond named after a famous bow, a short walk from a white marble palace-temple."
+   "I face a sacred pond named after a famous bow, a short walk from a white marble palace-temple.",
+   "A holy man named Chaturbhuj Giri raised my first shrine in the seventeenth century.",
+   "I am built of exposed red brick in two tiers, with carved timber struts and a gilded pinnacle.",
+   "Little bells hang under my eaves and ring when the wind blows.",
+   "A Shakti shrine shares my courtyard of stone columns."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Ram_Mandir,_Janakpur",
@@ -3419,19 +4819,23 @@
    }
   ],
   "short_np": "जनकपुरका सबैभन्दा पुराना मन्दिरमध्ये एक, सन् 1782 मा सेनापति अमरसिंह थापाले पुनर्निर्माण गरेको रामको रातो इँटाको पगोडा।",
-  "story_np": "यहाँ, मिथिलाको समथर भूमिमा, तपाईं असामान्य कुरा हेर्दै हुनुहुन्छ: पहाडी शैलीको नेपाली पगोडा। यो राम मन्दिर हो, जनकपुरका सबैभन्दा पुराना मन्दिरमध्ये एक। यसको पहिलो मन्दिरको श्रेय सत्रौँ शताब्दीका चतुर्भुज गिरि नामक सन्तलाई दिइन्छ। सन् 1782 मा गोर्खाली सेनापति अमरसिंह थापाले यसलाई आजको पगोडा शैलीमा पुनर्निर्माण गरे, दुई तले इँटा, कुँदिएका काठका टेका र सुनौलो गजुरसहित। छानाका किनारमुनि झुण्डिएका साना घण्टी गन्नुहोस्; हावा चल्दा ती बज्छन्। मन्दिर जनकपुरका धेरै पवित्र पोखरीमध्ये एक पवित्र धनुषसागरको ठीक अगाडि उभिएको छ, त्यसैले पानीपारि हेर्न केही बेर रोकिनुहोस्। यही परिसरभित्र राजदेवी मन्दिर छ, एक शक्ति मन्दिर। जनकपुरको विश्वास छ कि सीताको जन्म र विवाह यहीँ भएको थियो, त्यसैले उनका पति रामको मन्दिर जानकी मन्दिरबाट छोटो दूरीमा हुनु एकदमै स्वाभाविक लाग्छ।",
+  "story_np": "यहाँ, मिथिलाको समथर भूमिमा, तपाईं एउटा अनौठो चिज हेर्दै हुनुहुन्छ, पहाडी शैलीको नेपाली पगोडा। यो राम मन्दिर हो, जनकपुरका सबैभन्दा पुराना मन्दिरमध्ये एक। सत्रौँ शताब्दीमा चतुर्भुज गिरि नामका सन्तले यहाँ पहिलो मन्दिर बनाएको मानिन्छ। सन् 1782 मा गोर्खाली सेनापति अमरसिंह थापाले यसलाई अहिलेको पगोडा शैलीमा फेरि बनाए, दुई तले इँटाको भवन, कुँदिएका काठका टेकासहित र माथि सुनौलो टुप्पो। छानाको किनारमुनि झुन्डिएका साना घण्टी गन्नुहोस्। हावा चल्दा ती बज्छन्। मन्दिर जनकपुरका धेरै पवित्र पोखरीमध्ये एक, पवित्र धनुषसागरको ठीक अगाडि छ, त्यसैले पानीपारि हेर्न केही बेर रोकिनुहोस्। यही परिसरभित्र राजदेवी मन्दिर पनि छ, जुन शक्तिको मन्दिर हो। जनकपुरवासीको विश्वास छ, सीताको जन्म र विवाह यहीँ भएको थियो। त्यसैले उनका पति रामको मन्दिर जानकी मन्दिरबाट छोटो पैदल दूरीमा हुनु एकदमै स्वाभाविक लाग्छ।",
   "legend_np": null,
   "facts_np": [
    "यो जनकपुरका सबैभन्दा पुराना हिन्दू मन्दिरमध्ये एक हो।",
-   "चतुर्भुज गिरिलाई 17औँ शताब्दीमा पहिलो मन्दिर बनाएको श्रेय दिइन्छ।",
-   "गोर्खाली सेनापति अमरसिंह थापाले सन् 1782 मा यसलाई पुनर्निर्माण गरे।",
-   "यो धेरैजसो तराईका मन्दिरभन्दा फरक, परम्परागत नेपाली पगोडा शैलीमा बनेको छ।",
-   "यो धनुषसागर पोखरीको अगाडि छ र राजदेवी शक्ति मन्दिर समावेश गर्छ।"
+   "चतुर्भुज गिरिले 17 औँ शताब्दीमा पहिलो मन्दिर बनाएको मानिन्छ।",
+   "गोर्खाली सेनापति अमरसिंह थापाले सन् 1782 मा यसलाई फेरि बनाए।",
+   "धेरैजसो तराईका मन्दिर भन्दा फरक, यो परम्परागत नेपाली पगोडा शैलीमा बनेको छ।",
+   "यो धनुषसागर पोखरीको अगाडि छ र यसमा राजदेवी शक्ति मन्दिर पनि पर्छ।"
   ],
   "quake_np": null,
   "clues_np": [
-   "एक गोर्खाली सेनापतिले मिथिलाको समथलमा 1782 मा मलाई पहाडी शैलीको पगोडाका रूपमा पुनर्निर्माण गरे।",
-   "एउटा प्रसिद्ध धनुषको नाम पाएको पवित्र पोखरीतर्फ म फर्केको छु, सेतो सङ्गमरमरको दरबारजस्तो मन्दिरबाट छोटो पैदल दूरीमा।"
+   "एक गोर्खाली सेनापतिले मिथिलाको समथर भूमिमा सन् 1782 मा मलाई पहाडी शैलीको पगोडाका रूपमा फेरि बनाए।",
+   "एउटा प्रसिद्ध धनुषको नाम पाएको पवित्र पोखरीतिर म फर्किएको छु, सेतो सङ्गमरमरको दरबार जस्तो मन्दिरबाट छोटो पैदल दूरीमा।",
+   "चतुर्भुज गिरि नामका एक सन्तले सत्रौँ शताब्दीमा मेरो पहिलो मन्दिर बनाए।",
+   "म दुई तहमा बाहिरै देखिने रातो इँटाले बनेको छु, कुँदिएका काठका टेका र सुनौलो टुप्पोसहित।",
+   "मेरो छानाको किनारमुनि साना घण्टी झुन्डिएका छन्, जो हावा चल्दा बज्छन्।",
+   "ढुङ्गाका खम्बा भएको मेरो आँगनमा एउटा शक्ति मन्दिर पनि छ।"
   ]
  },
  {
@@ -3485,7 +4889,7 @@
     "name_np": "मकर मेला",
     "month": "Magh",
     "note": "Fair held on Sundays of Magh; hundreds of thousands of devotees visit Dhanushadham.",
-    "note_np": "माघका आइतबार लाग्ने मेला; लाखौं भक्तजन धनुषाधाम आउँछन्।"
+    "note_np": "माघका आइतबार लाग्ने मेला। लाखौँ भक्तजन धनुषाधाम आउँछन्।"
    }
   ],
   "image": {
@@ -3540,12 +4944,12 @@
     "explanation": "A fragment believed to be from Shiva's bow, broken by Rama, is honoured here.",
     "q_np": "धनुषाधाममा कुन वस्तुको पूजा गरिन्छ?",
     "options_np": [
-     "बुद्धको पदचिन्ह",
+     "बुद्धको पाइलाको चिह्न",
      "शिवको धनुषको टुक्रा",
      "सीताको हार",
      "हनुमानको गदा"
     ],
-    "explanation_np": "रामले भाँचेको शिवको धनुषको टुक्रा भनी मानिने अंश यहाँ पूजिन्छ।"
+    "explanation_np": "रामले भाँचेको शिवको धनुषको टुक्रा भनिने अंश यहाँ पूजा गरिन्छ।"
    },
    {
     "q": "Who broke Shiva's bow to win Sita?",
@@ -3565,7 +4969,7 @@
      "राम",
      "परशुराम"
     ],
-    "explanation_np": "सीताको स्वयम्वरमा रामले धनुष भाँचे।"
+    "explanation_np": "सीताको स्वयंवरमा रामले धनुष भाँचे।"
    },
    {
     "q": "Which district is named after the bow?",
@@ -3585,7 +4989,7 @@
      "सिराहा",
      "सर्लाही"
     ],
-    "explanation_np": "धनुषा शब्द धनुषबाट आएको हो, जसको अर्थ बाण छोड्ने हतियार हो।"
+    "explanation_np": "धनुषा शब्द धनुषबाट आएको हो, जसको अर्थ बाण हान्ने धनु हो।"
    },
    {
     "q": "When is the Makar Mela held at Dhanushadham?",
@@ -3605,7 +5009,7 @@
      "हरेक पूर्णिमा",
      "दशैँमा मात्र"
     ],
-    "explanation_np": "जनकपुरको सम्पदा सूचीका अनुसार यो माघका आइतबार लाग्छ।"
+    "explanation_np": "जनकपुरको सम्पदा सूची अनुसार यो माघका आइतबार लाग्छ।"
    },
    {
     "q": "In what state is the bow fragment said to be preserved?",
@@ -3618,7 +5022,7 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "It is described as a fossilised bow piece.",
-    "q_np": "धनुषको टुक्रा कुन अवस्थामा संरक्षित रहेको भनिन्छ?",
+    "q_np": "धनुषको टुक्रा कस्तो अवस्थामा जोगिएको भनिन्छ?",
     "options_np": [
      "सुनको जल लगाइएको",
      "ढुङ्गा बनेको (जीवाश्म)",
@@ -3626,11 +5030,115 @@
      "फलामको"
     ],
     "explanation_np": "यसलाई जीवाश्म बनेको धनुषको टुक्राका रूपमा वर्णन गरिन्छ।"
+   },
+   {
+    "q": "Which king of the Ramayana promised his daughter to whoever could string Shiva's bow?",
+    "options": [
+     "Dasharatha",
+     "Ravana",
+     "Janak",
+     "Sugriva"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "King Janak promised Sita to whoever could string Shiva's mighty bow.",
+    "q_np": "रामायणका कुन राजाले शिवको धनुषमा प्रत्यञ्चा चढाउन सक्नेलाई आफ्नी छोरी दिने वचन दिए?",
+    "options_np": [
+     "दशरथ",
+     "रावण",
+     "जनक",
+     "सुग्रीव"
+    ],
+    "explanation_np": "राजा जनकले शिवको शक्तिशाली धनुषमा प्रत्यञ्चा चढाउन सक्नेलाई सीता दिने वचन दिएका थिए।"
+   },
+   {
+    "q": "Which words are painted on the bright gate of the shrine?",
+    "options": [
+     "Om Namah Shivaya",
+     "Sita Ram",
+     "Jai Maa Durga",
+     "Buddham Saranam"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The gate is painted with the words Sita Ram.",
+    "q_np": "मन्दिरको रङ्गीन ढोकामा कुन शब्द लेखिएका छन्?",
+    "options_np": [
+     "ॐ नमः शिवाय",
+     "सीता राम",
+     "जय माता दुर्गा",
+     "बुद्धं शरणं"
+    ],
+    "explanation_np": "ढोकामा सीता राम लेखिएको छ।"
+   },
+   {
+    "q": "What shades the small shrine at Dhanusha Dham?",
+    "options": [
+     "A tall palm grove",
+     "A glass canopy",
+     "A large spreading tree",
+     "A stone pavilion"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The shrine stands under a large spreading tree.",
+    "q_np": "धनुषाधामको सानो मन्दिरमा छहारी कसले दिन्छ?",
+    "options_np": [
+     "अग्लो खजुरको बगैँचा",
+     "सिसाको छानो",
+     "ठूलो फैलिएको रुख",
+     "ढुङ्गाको मण्डप"
+    ],
+    "explanation_np": "मन्दिर ठूलो फैलिएको रुखमुनि छ।"
+   },
+   {
+    "q": "In which direction from Janakpur does Dhanushadham lie?",
+    "options": [
+     "South-west",
+     "North-east",
+     "Due south",
+     "West"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Dhanushadham Municipality lies north-east of Janakpur.",
+    "q_np": "धनुषाधाम जनकपुरबाट कुन दिशामा पर्छ?",
+    "options_np": [
+     "दक्षिण-पश्चिम",
+     "उत्तर-पूर्व",
+     "ठ्याक्कै दक्षिण",
+     "पश्चिम"
+    ],
+    "explanation_np": "धनुषाधाम नगरपालिका जनकपुरको उत्तर-पूर्वमा पर्छ।"
+   },
+   {
+    "q": "How many devotees does Janakpur's heritage catalogue say crowd Dhanushadham at the Makar Mela?",
+    "options": [
+     "A few dozen",
+     "A few hundred",
+     "Hundreds of thousands",
+     "Exactly one million"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The catalogue says hundreds of thousands of devotees crowd Dhanushadham during the fair.",
+    "q_np": "जनकपुरको सम्पदा सूची अनुसार मकर मेलामा धनुषाधाममा कति भक्तजन भीड लगाउँछन्?",
+    "options_np": [
+     "केही दर्जन",
+     "केही सय",
+     "लाखौँ",
+     "ठ्याक्कै दश लाख"
+    ],
+    "explanation_np": "सूची अनुसार मेलाको बेला लाखौँ भक्तजन धनुषाधाममा भीड लगाउँछन्।"
    }
   ],
   "clues": [
    "A prince snapped a god's weapon to win a bride, and a piece is said to have landed here.",
-   "A whole district shares my name, which simply means 'bow'."
+   "A whole district shares my name, which simply means 'bow'.",
+   "I am a small shrine under a large spreading tree, behind a low wall painted yellow, red and blue.",
+   "A fossil-like fragment inside me is honoured as part of a god's weapon.",
+   "My bright gate carries the names of a divine couple.",
+   "On Sundays in Magh, huge crowds come to my fair, the Makar Mela."
   ],
   "sources": [
    "https://janakpurmun.gov.np/sites/janakpurmun.gov.np/files/documents/Janakpur-Heritage-Catalogue-design-hz8wr4.pdf",
@@ -3681,20 +5189,24 @@
     "caption": "Surroundings of the Dhanush temple"
    }
   ],
-  "short_np": "गाउँको मन्दिर जहाँ सीता जित्न रामले भाँचेको शिवको धनुषको एक टुक्रा खसेर ढुङ्गा बनेको विश्वास गरिन्छ।",
-  "story_np": "तपाईं जनकपुरबाट धनुषाका गाउँहरूतर्फ आउनुभएको छ, जुन जिल्लाले यहाँ सम्मानित वस्तुबाटै आफ्नो नाम पाएको छ। रामायणमा राजा जनकले शिवको शक्तिशाली धनुषमा प्रत्यञ्चा चढाउन सक्नेलाई आफ्नी छोरी सीता दिने वचन दिएका थिए। राजकुमार रामले त्यसलाई उठाए, झुकाए र दुई टुक्रा पारे। हिन्दूहरूको विश्वास छ कि त्यो भाँचिएको धनुषको एक टुक्रा यही ठाउँमा खस्यो, र धनुष मन्दिरभित्र भक्तजनहरूले त्यसकै अंश भनिने जीवाश्म टुक्राको सम्मान गर्छन्। 'सीता राम' लेखिएको रङ्गीन ढोकाबाट हिँड्नुहोस् र मन्दिरमा छाया दिने विशाल रुखमुनि रोकिनुहोस्। जिल्लाको नाम धनुषा पनि धनुषबाटै आएको हो। माघमा आउनुहोस्, जब आइतबारहरूमा मकर मेला लाग्छ र, जनकपुरको सम्पदा सूचीअनुसार, लाखौँ भक्तजन धनुषाधाममा भीड लगाउँछन्। यो जनकपुरको वरिपरिको रामायण मार्गमा एउटा शान्त, ग्रामीण विश्रामस्थल हो।",
-  "legend_np": "जनकपुरमा सीताको स्वयंवरमा रामले शिवको धनुष भाँच्दा त्यसको एक टुक्रा यहाँ खसेको र जीवाश्मका रूपमा रहेको विश्वास गरिन्छ।",
+  "short_np": "गाउँको मन्दिर, जहाँ सीतालाई जित्न रामले भाँचेको शिवको धनुषको एक टुक्रा खसेर ढुङ्गा बनेको विश्वास गरिन्छ।",
+  "story_np": "तपाईं जनकपुरबाट धनुषाका गाउँतिर आउनुभएको छ। यहाँ पूजिने वस्तुबाटै यो जिल्लाले आफ्नो नाम पाएको हो। रामायणमा राजा जनकले शिवको शक्तिशाली धनुषमा प्रत्यञ्चा चढाउन सक्नेलाई आफ्नी छोरी सीता दिने वचन दिएका थिए। राजकुमार रामले त्यसलाई उठाए, झुकाए र दुई टुक्रा पारे। हिन्दूको विश्वास छ, त्यो भाँचिएको धनुषको एक टुक्रा यही ठाउँमा खस्यो। धनुष मन्दिरभित्र भक्तजनले त्यसैको अंश मानिने जीवाश्म बनेको टुक्राको पूजा गर्छन्। सीता राम लेखिएको रङ्गीन ढोकाबाट भित्र जानुहोस् र मन्दिरमा छहारी दिने ठूलो रुखमुनि केही बेर रोकिनुहोस्। जिल्लाको नाम धनुषा पनि धनुषबाटै आएको हो। माघमा आउनुहोस्, जब आइतबारहरूमा मकर मेला लाग्छ। जनकपुरको सम्पदा सूची अनुसार त्यतिबेला लाखौँ भक्तजन धनुषाधाममा भीड लगाउँछन्। जनकपुरवरपरको रामायण यात्रामा यो शान्त, गाउँले विश्राम स्थल हो।",
+  "legend_np": "जनकपुरमा सीताको स्वयंवरमा रामले शिवको धनुष भाँच्दा त्यसको एक टुक्रा यहीँ खसेको र जीवाश्मका रूपमा रहेको विश्वास गरिन्छ।",
   "facts_np": [
    "रामले सीताको स्वयंवरमा शिवको धनुष भाँचेपछि त्यसको एक टुक्रा खसेको ठाउँ यही हो भन्ने विश्वास गरिन्छ।",
-   "भक्तजनहरूले धनुषबाट आएको भनिने जीवाश्म टुक्राको पूजा गर्छन्।",
-   "माघमा आइतबारहरूमा लाग्ने मकर मेलाले ठूलो भीड तान्छ।",
-   "यो धनुषा जिल्लामा जनकपुरको उत्तर-पूर्वमा धनुषाधाम नगरपालिकामा अवस्थित छ।",
-   "धनुषा जिल्लाले आफ्नो नाम धनुष, अर्थात् धनुषबाट पाएको हो।"
+   "भक्तजनले धनुषबाट आएको भनिने जीवाश्म बनेको टुक्राको पूजा गर्छन्।",
+   "माघका आइतबार लाग्ने मकर मेलामा ठूलो भीड हुन्छ।",
+   "यो धनुषा जिल्लामा, जनकपुरको उत्तर-पूर्वमा रहेको धनुषाधाम नगरपालिकामा पर्छ।",
+   "धनुषा जिल्लाले आफ्नो नाम धनुष, अर्थात् धनुबाट पाएको हो।"
   ],
   "quake_np": null,
   "clues_np": [
    "एक राजकुमारले दुलही जित्न देवताको हतियार भाँचे, र एउटा टुक्रा यहीँ खसेको भनिन्छ।",
-   "एउटा पूरै जिल्लाले मेरो नाम बोक्छ, जसको अर्थ सरल रूपमा 'धनु' हो।"
+   "एउटा पूरै जिल्लाले मेरो नाम बोकेको छ, जसको अर्थ सरल भाषामा धनु हो।",
+   "म ठूलो फैलिएको रुखमुनि रहेको सानो मन्दिर हुँ, पहेँलो, रातो र निलो रङ लगाएको होचो पर्खालभित्र।",
+   "मभित्रको जीवाश्म जस्तो टुक्रा एक देवताको हतियारको अंश मानेर पूजा गरिन्छ।",
+   "मेरो रङ्गीन ढोकामा एक दिव्य जोडीको नाम लेखिएको छ।",
+   "माघका आइतबार मेरो मकर मेलामा ठूलो भीड आउँछ।"
   ]
  },
  {
@@ -3747,7 +5259,7 @@
     "name_np": "गढीमाई मेला",
     "month": "Mangsir",
     "note": "Held every five years (most recently from 2 Dec 2024); notorious for mass animal sacrifice.",
-    "note_np": "हरेक पाँच वर्षमा लाग्ने (पछिल्लो पटक 2 डिसेम्बर 2024 देखि); सामूहिक पशुबलिका लागि बदनाम।"
+    "note_np": "हरेक पाँच वर्षमा लाग्ने मेला (पछिल्लो पटक २०२४ डिसेम्बर २ देखि)। सामूहिक पशुबलिका लागि बदनाम।"
    }
   ],
   "image": {
@@ -3828,7 +5340,7 @@
      "हरेक बाह्र वर्षमा",
      "हरेक अधिवर्षमा"
     ],
-    "explanation_np": "यो हरेक पाँच वर्षमा हुन्छ।"
+    "explanation_np": "यो हरेक पाँच वर्षमा लाग्छ।"
    },
    {
     "q": "In which district is the Gadhimai Temple?",
@@ -3861,14 +5373,14 @@
     "answer_index": 0,
     "difficulty": 4,
     "explanation": "Nepal's Supreme Court issued the order in 2019.",
-    "q_np": "2019 मा मेलामा जीवित जनावरको बलि रोक्न कुन अदालतले आदेश दियो?",
+    "q_np": "सन् 2019 मा मेलामा जीवित पशुबलि रोक्न कुन अदालतले आदेश दियो?",
     "options_np": [
      "नेपालको सर्वोच्च अदालत",
      "बारा जिल्ला अदालत",
      "भारतको सर्वोच्च अदालत",
      "संयुक्त राष्ट्र सङ्घको न्यायाधिकरण"
     ],
-    "explanation_np": "नेपालको सर्वोच्च अदालतले 2019 मा आदेश दिएको थियो।"
+    "explanation_np": "नेपालको सर्वोच्च अदालतले सन् 2019 मा आदेश दिएको थियो।"
    },
    {
     "q": "According to tradition, who started the festival after a dream in jail?",
@@ -3881,19 +5393,123 @@
     "answer_index": 0,
     "difficulty": 5,
     "explanation": "Feudal lord Bhagwan Chaudhary is said to have dreamed of offering a sacrifice to be freed.",
-    "q_np": "परम्परा अनुसार जेलमा सपना देखेर मेला सुरु गर्ने को थिए?",
+    "q_np": "परम्परा अनुसार जेलमा सपना देखेपछि मेला सुरु गर्ने को थिए?",
     "options_np": [
-     "भगवान चौधरी",
+     "भगवान् चौधरी",
      "जङ्गबहादुर राणा",
      "नान्यदेव",
      "अमरसिंह थापा"
     ],
-    "explanation_np": "जमिनदार भगवान चौधरीले मुक्त हुन बलि चढाउने सपना देखेको भनिन्छ।"
+    "explanation_np": "जमिनदार भगवान् चौधरीले छुट्कारा पाउन भेटी चढाउने सपना देखेको भनिन्छ।"
+   },
+   {
+    "q": "Near which Terai town is the Gadhimai Temple?",
+    "options": [
+     "Birgunj",
+     "Kalaiya",
+     "Janakpur",
+     "Biratnagar"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The temple is about 7 km east of Kalaiya in Bara District.",
+    "q_np": "गढीमाई मन्दिर तराईको कुन सहर नजिक छ?",
+    "options_np": [
+     "वीरगञ्ज",
+     "कलैयाँ",
+     "जनकपुर",
+     "विराटनगर"
+    ],
+    "explanation_np": "मन्दिर बारा जिल्लाको कलैयाबाट करिब ७ किमी पूर्वमा छ।"
+   },
+   {
+    "q": "Which animal is painted on the walls of the shrine?",
+    "options": [
+     "Elephants",
+     "Peacocks",
+     "Tigers",
+     "Cows"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "The cream-painted shrine has arched openings decorated with relief tigers.",
+    "q_np": "मन्दिरका भित्तामा कुन जनावरको चित्र बनाइएको छ?",
+    "options_np": [
+     "हात्ती",
+     "मयूर",
+     "बाघ",
+     "गाई"
+    ],
+    "explanation_np": "क्रिम रङ लगाइएको मन्दिरका मेहराबी ढोकामा बाघका आकृति छन्।"
+   },
+   {
+    "q": "Which offerings do pilgrims from Nepal and India bring to the shrine?",
+    "options": [
+     "Coconuts, sweets and red cloth",
+     "Only gold coins",
+     "Only rice and milk",
+     "Silver bells"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Pilgrims bring coconuts, sweets and red cloth, and many also bring animals.",
+    "q_np": "नेपाल र भारतबाट आउने तीर्थयात्रीले मन्दिरमा कस्ता भेटी ल्याउँछन्?",
+    "options_np": [
+     "नरिवल, मिठाई र रातो कपडा",
+     "सुनका सिक्का मात्र",
+     "चामल र दूध मात्र",
+     "चाँदीका घण्ट"
+    ],
+    "explanation_np": "तीर्थयात्रीले नरिवल, मिठाई र रातो कपडा ल्याउँछन्, र धेरैले पशु पनि ल्याउँछन्।"
+   },
+   {
+    "q": "On what date did the most recent Gadhimai festival begin?",
+    "options": [
+     "2 December 2024",
+     "14 April 2019",
+     "1 January 2000",
+     "15 October 2015"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "The most recent festival began on 2 December 2024.",
+    "q_np": "पछिल्लो गढीमाई मेला कुन मितिमा सुरु भयो?",
+    "options_np": [
+     "२०२४ डिसेम्बर २",
+     "२०१९ अप्रिल १४",
+     "२००० जनवरी १",
+     "२०१५ अक्टोबर १५"
+    ],
+    "explanation_np": "पछिल्लो मेला २०२४ डिसेम्बर २ मा सुरु भयो।"
+   },
+   {
+    "q": "Around which year is the Gadhimai festival said to have begun?",
+    "options": [
+     "1459",
+     "1659",
+     "1759",
+     "1959"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The festival is said to date from around 1759.",
+    "q_np": "गढीमाई मेला करिब कुन वर्षमा सुरु भएको भनिन्छ?",
+    "options_np": [
+     "1459",
+     "1659",
+     "1759",
+     "1959"
+    ],
+    "explanation_np": "यो मेला करिब सन् 1759 देखि सुरु भएको भनिन्छ।"
    }
   ],
   "clues": [
    "Painted tigers prowl my walls, and every fifth year crowds of pilgrims flood my fields.",
-   "A prisoner's dream around 1759 is said to have begun a festival here that animal-rights campaigners fight to stop."
+   "A prisoner's dream around 1759 is said to have begun a festival here that animal-rights campaigners fight to stop.",
+   "I am a modest cream-painted shrine with arched openings and a stepped red-and-gold tiled roof, under big trees.",
+   "I stand about seven kilometres east of a small Terai town, close to the Indian border.",
+   "Pilgrims from Nepal and India bring coconuts, sweets and red cloth to me.",
+   "I am honoured as an aspect of Kali, the goddess of power."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Gadhimai_Temple",
@@ -3945,20 +5561,24 @@
     "caption": "The walled arena used during the Gadhimai festival"
    }
   ],
-  "short_np": "बाराको देवी गढीमाईको मन्दिर, पाँच वर्षमा हुने पशुबलिका लागि चिनिने मेलाको थलो।",
-  "story_np": "तपाईं कलैयाको करिब सात किलोमिटर पूर्वमा, भारतीय सीमा नजिकको बरियारपुरमा हुनुहुन्छ। तपाईंको अगाडिको सादा मन्दिर गढीमाईको हो, जसलाई शक्तिकी देवी कालीको रूप मानिन्छ। यसका भित्तामा परेड गरिरहेका रङ्गिएका बाघहरू हेर्नुहोस्। हरेक पाँच वर्षमा यो शान्त स्थान गढीमाई मेलाले भरिन्छ, जुन करिब सन् १७५९ मा सुरु भएको भनिन्छ, जब भगवान् चौधरी नामका एक स्थानीय जमिनदारले जेलमा सपना देखे कि देवीलाई रगतको चढाउँदा उनी मुक्त हुनेछन्। नेपाल र भारतका तीर्थयात्रीहरू नरिवल, मिठाई र रातो कपडा ल्याउँछन्, र धेरैले पशुहरू पनि ल्याउँछन्। यो मेलालाई संसारकै सबैभन्दा ठूलो पशुबलि कार्यक्रम भनिएको छ, र यसले पशु अधिकार समूह र धेरै नेपाली हिन्दूहरूबाट कडा विरोध पाएको छ। सन् २०१९ मा नेपालको सर्वोच्च अदालतले जीवित बलि अन्त्य गर्न आदेश दियो, तर प्रतिवेदनहरूका अनुसार आदेश व्यापक रूपमा बेवास्ता गरिएको छ। पछिल्लो मेला सन् २०२४ डिसेम्बर २ मा सुरु भयो।",
-  "legend_np": "मेला भगवान् चौधरीले कैदमा रहँदा गढीमाईले रगतको बलि चढाए आफूलाई मुक्त गर्नेछिन् भन्ने सपना देखेपछि सुरु भएको भनिन्छ।",
+  "short_np": "बाराकी देवी गढीमाईको मन्दिर, पाँच वर्षमा लाग्ने र पशुबलिका लागि चर्चित मेलाको थलो।",
+  "story_np": "तपाईं कलैयाबाट करिब सात किलोमिटर पूर्व, भारतीय सीमा नजिकको बरियारपुरमा हुनुहुन्छ। तपाईंको अगाडिको सादा मन्दिर गढीमाईको हो, जसलाई शक्तिकी देवी कालीको रूप मानिन्छ। भित्तामा लस्करै चित्र बनाइएका बाघ हेर्नुहोस्। हरेक पाँच वर्षमा यो शान्त ठाउँ गढीमाई मेलाले भरिन्छ। यो मेला करिब सन् १७५९ मा सुरु भएको भनिन्छ, जब भगवान् चौधरी नाम गरेका एक स्थानीय जमिनदारले जेलमा सपना देखे, देवीलाई रगतको भेटी चढाए उनी छुट्नेछन्। नेपाल र भारतबाट तीर्थयात्री नरिवल, मिठाई र रातो कपडा ल्याउँछन्, र धेरैले पशु पनि ल्याउँछन्। यो मेलालाई संसारकै सबैभन्दा ठूलो पशुबलि हुने कार्यक्रम भनिएको छ। पशु अधिकारका समूह र धेरै नेपाली हिन्दूले यसको कडा विरोध गरेका छन्। सन् २०१९ मा नेपालको सर्वोच्च अदालतले जीवित पशुबलि बन्द गर्न आदेश दियो, तर प्रतिवेदन अनुसार त्यो आदेश धेरैले मानेका छैनन्। पछिल्लो मेला सन् २०२४ डिसेम्बर २ मा सुरु भयो।",
+  "legend_np": "जेलमा रहेका भगवान् चौधरीले सपना देखे, रगतको बलि चढाए गढीमाईले उनलाई मुक्त गर्नेछिन्। त्यसपछि मेला सुरु भएको भनिन्छ।",
   "facts_np": [
-   "मन्दिर बारा जिल्लाको कलैयाबाट करिब ७ किमी पूर्व महागढीमाई नगरपालिकामा छ।",
+   "मन्दिर बारा जिल्लाको कलैयाबाट करिब ७ किमी पूर्वको महागढीमाई नगरपालिकामा छ।",
    "गढीमाई मेला हरेक पाँच वर्षमा हुन्छ र करिब सन् १७५९ देखि सुरु भएको भनिन्छ।",
-   "सन् २००९ को मेलामा अनुमानित २,५०,००० वा बढी पशुको बलि दिइयो।",
-   "नेपालको सर्वोच्च अदालतले सन् २०१९ मा जीवित पशुबलि अन्त्य गर्न आदेश दियो, तर आदेश व्यापक रूपमा बेवास्ता गरिन्छ।",
+   "सन् २००९ को मेलामा अनुमानित २,५०,००० वा त्योभन्दा बढी पशुको बलि दिइएको थियो।",
+   "नेपालको सर्वोच्च अदालतले सन् २०१९ मा जीवित पशुबलि बन्द गर्न आदेश दियो, तर त्यो आदेश धेरैले मानेका छैनन्।",
    "सन् २०२४ को मेला डिसेम्बर २ मा सुरु भयो।"
   ],
   "quake_np": null,
   "clues_np": [
-   "रङ्गिएका बाघहरू मेरा भित्तामा डुल्छन्, र हरेक पाँचौँ वर्ष तीर्थयात्रीको भीडले मेरा खेत भरिन्छन्।",
-   "लगभग 1759 को एक कैदीको सपनाले यहाँ यस्तो मेला सुरु गरेको भनिन्छ, जसलाई रोक्न पशु अधिकारकर्मीहरू लडिरहेका छन्।"
+   "रङ्गीन बाघ मेरा भित्तामा डुल्छन्, र हरेक पाँचौँ वर्ष तीर्थयात्रीको भीडले मेरा खेत भरिन्छन्।",
+   "करिब १७५९ तिरको एक कैदीको सपनाले यहाँ यस्तो मेला सुरु गरेको भनिन्छ, जसलाई रोक्न पशु अधिकारकर्मी लडिरहेका छन्।",
+   "म क्रिम रङ लगाएको साधारण मन्दिर हुँ, मेहराबी ढोका र रातो-सुनौलो टायलको तह मिलाएको छानासहित, ठूला रुखमुनि।",
+   "म तराईको एउटा सानो सहरबाट करिब सात किलोमिटर पूर्वमा, भारतीय सीमा नजिक उभिएको छु।",
+   "नेपाल र भारतबाट तीर्थयात्री मकहाँ नरिवल, मिठाई र रातो कपडा ल्याउँछन्।",
+   "मलाई शक्तिकी देवी कालीको रूप मानेर पूजा गरिन्छ।"
   ]
  },
  {
@@ -4073,7 +5693,7 @@
      "सुनसरी",
      "धनुषा"
     ],
-    "explanation_np": "यो सप्तरी जिल्लामा, राजविराजबाट करिब 10 km टाढा छ।"
+    "explanation_np": "यो सप्तरी जिल्लामा, राजविराजबाट करिब 10 किमी टाढा छ।"
    },
    {
     "q": "What does the name Chhinnamasta refer to?",
@@ -4089,11 +5709,11 @@
     "q_np": "छिन्नमस्ता नामले केलाई जनाउँछ?",
     "options_np": [
      "दश हात",
-     "काटिएको टाउको",
+     "काटिएको शिर",
      "सुनको मुकुट",
      "सिंहको वाहन"
     ],
-    "explanation_np": "देवीको मूर्ति शिर नभएको छ, त्यसैले उनलाई छिन्नमस्ता भनिन्छ।"
+    "explanation_np": "देवीको मूर्तिमा शिर छैन, त्यसैले उनलाई छिन्नमस्ता भनिन्छ।"
    },
    {
     "q": "Which dynasty's king founded the temple?",
@@ -4113,7 +5733,7 @@
      "सेन",
      "लिच्छवि"
     ],
-    "explanation_np": "सिम्रौनगढको कर्नाट वंशका शक्तिसिंहदेवले यसको स्थापना गरे।"
+    "explanation_np": "सिमरौनगढका कर्नाट वंशका शक्तिसिंहदेवले यसको स्थापना गरे।"
    },
    {
     "q": "Whose armies damaged the temple in 1324?",
@@ -4126,14 +5746,14 @@
     "answer_index": 1,
     "difficulty": 4,
     "explanation": "Ghiyasuddin Tughlaq's armies passed through on their way to Simraungadh.",
-    "q_np": "सन् 1324 मा कसको सेनाले मन्दिरलाई क्षति पुर्‍यायो?",
+    "q_np": "सन् 1324 मा कसका सेनाले मन्दिरमा क्षति पुर्‍याए?",
     "options_np": [
      "मुगल",
      "तुगलक",
-     "ब्रिटिश",
-     "गोरखाली"
+     "बेलायती",
+     "गोर्खाली"
     ],
-    "explanation_np": "गियासुद्दिन तुगलकका सेना सिम्रौनगढतर्फ जाँदा यहाँबाट गुज्रिए।"
+    "explanation_np": "गियासुद्दीन तुगलकका सेना सिमरौनगढतिर जाँदा यहाँ भएर गए।"
    },
    {
     "q": "What was the temple's historical name?",
@@ -4153,12 +5773,116 @@
      "बागेश्वरी",
      "राजदेवी"
     ],
-    "explanation_np": "राजाको उपनामका आधारमा यो सखडा (सखरेश्वरी) भगवतीका नामले चिनिन्थ्यो।"
+    "explanation_np": "राजाको उपनाम अनुसार यो सखडा (सखरेश्वरी) भगवतीका नामले चिनिन्थ्यो।"
+   },
+   {
+    "q": "Which festival draws thousands of devotees from Nepal and India to the temple?",
+    "options": [
+     "Holi",
+     "Chhath",
+     "Bada Dashain",
+     "Teej"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Thousands of devotees from Nepal and India come at Bada Dashain.",
+    "q_np": "कुन चाडमा नेपाल र भारतबाट हजारौँ भक्तजन मन्दिरमा आउँछन्?",
+    "options_np": [
+     "होली",
+     "छठ",
+     "बडा दशैँ",
+     "तीज"
+    ],
+    "explanation_np": "बडा दशैँमा नेपाल र भारतबाट हजारौँ भक्तजन यहाँ आउँछन्।"
+   },
+   {
+    "q": "What style is the temple building?",
+    "options": [
+     "Three-tier pagoda style",
+     "Domed stupa style",
+     "Stone shikhara style",
+     "Tibetan gompa style"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It is a three-tier pagoda-style temple with red sheet roofs edged in white.",
+    "q_np": "मन्दिर भवन कुन शैलीको छ?",
+    "options_np": [
+     "तीन तले पगोडा शैली",
+     "गुम्बज भएको स्तूप शैली",
+     "ढुङ्गाको शिखर शैली",
+     "तिब्बती गुम्बा शैली"
+    ],
+    "explanation_np": "यो सेतो किनारा भएको रातो पाताको छाना भएको तीन तले पगोडा शैलीको मन्दिर हो।"
+   },
+   {
+    "q": "Roughly how far is the temple from Rajbiraj?",
+    "options": [
+     "About 1 km",
+     "About 10 km",
+     "About 50 km",
+     "About 120 km"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It is about 10 km from Rajbiraj, in Chhinnamasta Rural Municipality.",
+    "q_np": "मन्दिर राजविराजबाट करिब कति टाढा छ?",
+    "options_np": [
+     "करिब १ किमी",
+     "करिब १० किमी",
+     "करिब ५० किमी",
+     "करिब १२० किमी"
+    ],
+    "explanation_np": "यो छिन्नमस्ता गाउँपालिकामा, राजविराजबाट करिब १० किमी टाढा छ।"
+   },
+   {
+    "q": "Who overthrew King Shaktisimhadeva in 1295?",
+    "options": [
+     "A Tughlaq general",
+     "His own minister",
+     "A Rana prime minister",
+     "His brother-in-law, a Malla king"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "He was overthrown in a coup by his own minister, Chadeshwar Thakur.",
+    "q_np": "सन् 1295 मा राजा शक्तिसिंहदेवलाई कसले गद्दीबाट हटाए?",
+    "options_np": [
+     "तुगलकका एक सेनापतिले",
+     "उनकै मन्त्रीले",
+     "राणा प्रधानमन्त्रीले",
+     "उनका ज्वाइँ मल्ल राजाले"
+    ],
+    "explanation_np": "उनलाई आफ्नै मन्त्री चडेश्वर ठाकुरले विद्रोह गरेर गद्दीबाट हटाए।"
+   },
+   {
+    "q": "What is the place near the temple where the founding king's fort stood still called?",
+    "options": [
+     "Gadhi Gaachhi",
+     "Kot Tol",
+     "Durbar Chowk",
+     "Raja Bazaar"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "His fort stood nearby at a place still called Gadhi Gaachhi.",
+    "q_np": "संस्थापक राजाको किल्ला रहेको मन्दिर नजिकको ठाउँ अहिले पनि के भनिन्छ?",
+    "options_np": [
+     "गढी गाछी",
+     "कोट टोल",
+     "दरबार चोक",
+     "राजा बजार"
+    ],
+    "explanation_np": "उनको किल्ला नजिकै गढी गाछी भनिने ठाउँमा थियो।"
    }
   ],
   "clues": [
    "A king who lost his throne in 1295 came here to live in the forest and set up his goddess.",
-   "Invading armies passed by in 1324, and the goddess here has been honoured without her head ever since."
+   "Invading armies passed by in 1324, and the goddess here has been honoured without her head ever since.",
+   "My founder was overthrown by his own minister and spent his last years clearing this forest.",
+   "I stand about ten kilometres from a district town, close to the Indian border.",
+   "I am a three-tiered pagoda with red roofs edged in white, and a great bell hangs in my queueing yard.",
+   "At the great autumn festival, thousands of devotees from Nepal and India throng my courtyard."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Chinnamasta_Bhagawati_Temple",
@@ -4209,20 +5933,24 @@
     "caption": "Devotees at the temple"
    }
   ],
-  "short_np": "सप्तरीको सबैभन्दा पुरानो र श्रद्धेय मन्दिर, पदच्युत कर्नाट राजाले स्थापना गरेको, जहाँ देवीको मूर्तिको टाउको छैन।",
-  "story_np": "तपाईं राजविराजबाट करिब दस किलोमिटर, भारतीय सीमा नजिक, सप्तरीको सबैभन्दा श्रद्धेय मन्दिरमा हुनुहुन्छ। यसको पुरानो नाम सखडा भगवती हो। कथा मिथिलाका कर्नाट राजाहरूको राजधानी सिमरौनगढबाट सुरु हुन्छ। 1295 मा राजा शक्तिसिंहदेव, जसलाई शक्रसिंहदेव पनि भनिन्छ, आफ्नै मन्त्रीबाट अपदस्थ भए। उनी जीवनका अन्तिम वर्ष वनमा एकान्तवासमा बिताउन यहाँ आए, जङ्गल फँडानी गरे र आफ्नी देवीलाई स्थापना गरे, जसलाई उनकै नामबाट सख्रेश्वरी भनियो। उनको किल्ला नजिकै थियो, अहिले पनि गढी गाछी भनिने ठाउँमा। 1324 मा सुल्तान गियासुद्दीन तुगलकका सेनाले सिमरौनगढ जाने क्रममा यो भूमि पार गर्दा मन्दिर र यसको मूर्तिमा क्षति पुर्‍याए। देवीको मूर्तिको टाउको नभएकाले मानिसहरूले उनलाई छिन्नमस्ता, टाउको काटिएकी, भन्छन्। तह-तहका रातो छानामुनि पसेर ठूलो घण्टा बजाउनुहोस्। बडा दशैँमा नेपाल र भारतका हजारौँ भक्तजन यहाँ आउँछन्।",
+  "short_np": "सप्तरीको सबैभन्दा पुरानो र श्रद्धेय मन्दिर, पदच्युत कर्नाट राजाले स्थापना गरेको, जहाँ देवीको मूर्तिको शिर छैन।",
+  "story_np": "तपाईं राजविराजबाट करिब दस किलोमिटर टाढा, भारतीय सीमा नजिकै, सप्तरीको सबैभन्दा श्रद्धेय मन्दिरमा हुनुहुन्छ। यसको पुरानो नाम सखडा भगवती हो। कथा मिथिलाका कर्नाट राजाको राजधानी सिमरौनगढबाट सुरु हुन्छ। सन् 1295 मा राजा शक्तिसिंहदेव, जसलाई शक्रसिंहदेव पनि भनिन्छ, आफ्नै मन्त्रीबाट गद्दीबाट हटाइए। उनी जीवनका अन्तिम वर्ष वनमा एकान्तवासमा बिताउन यहाँ आए, जङ्गल सफा गरे र आफ्नी देवीलाई स्थापना गरे, जसलाई उनकै नामबाट सखरेश्वरी भनियो। उनको किल्ला नजिकै गढी गाछी भनिने ठाउँमा थियो, जुन नाम आजसम्म चलिरहेको छ। सन् 1324 मा सुल्तान गियासुद्दीन तुगलकका सेना सिमरौनगढ जाने बाटोमा यो भूमि हुँदै गए, र मन्दिर तथा मूर्तिमा क्षति पुर्‍याए। देवीको मूर्तिमा शिर छैन, त्यसैले मानिसहरू उनलाई छिन्नमस्ता, अर्थात् शिर काटिएकी देवी भन्छन्। तह-तहका रातो छानामुनि पसेर ठूलो घण्टा बजाउनुहोस्। बडा दशैँमा नेपाल र भारतबाट हजारौँ भक्तजन यहाँ आउँछन्।",
   "legend_np": null,
   "facts_np": [
    "यो तेह्रौँ शताब्दीमा कर्नाट वंशका पाँचौँ शासक शक्तिसिंहदेवले स्थापना गरेका थिए।",
-   "शक्तिसिंहदेव 1295 मा आफ्ना मन्त्री चडेश्वर ठाकुरको विद्रोहमा अपदस्थ भए।",
-   "तुगलक सेनाले 1324 मा मन्दिर र यसको मूर्तिमा क्षति पुर्‍याए।",
-   "छिन्नमस्ता नामले देवीको नभएको टाउकोलाई जनाउँछ।",
-   "यो राजविराजबाट करिब 10 किलोमिटर, छिन्नमस्ता गाउँपालिकामा छ।"
+   "सन् 1295 मा शक्तिसिंहदेवलाई उनका मन्त्री चडेश्वर ठाकुरले विद्रोह गरेर गद्दीबाट हटाए।",
+   "तुगलकका सेनाले सन् 1324 मा मन्दिर र यसको मूर्तिमा क्षति पुर्‍याए।",
+   "छिन्नमस्ता नामले देवीको शिर नभएकोलाई जनाउँछ।",
+   "यो राजविराजबाट करिब 10 किलोमिटर टाढा, छिन्नमस्ता गाउँपालिकामा छ।"
   ],
   "quake_np": null,
   "clues_np": [
-   "सन् 1295 मा सिंहासन गुमाएका एक राजा यहाँ जङ्गलमा बस्न र आफ्नी देवीको स्थापना गर्न आए।",
-   "सन् 1324 मा आक्रमणकारी सेना यहाँबाट गुज्रिए, र त्यसयता यहाँ देवीलाई शिरविना पूजा गरिँदै आएको छ।"
+   "सन् 1295 मा आफ्नो सिंहासन गुमाएका एक राजा यहाँ जङ्गलमा बस्न आए र आफ्नी देवीलाई स्थापना गरे।",
+   "सन् 1324 मा आक्रमणकारी सेना यहाँबाट गुज्रे, र त्यसयता यहाँ देवीलाई शिर बिना पूजा गरिँदै आएको छ।",
+   "मलाई बसाल्ने राजालाई उनकै मन्त्रीले गद्दीबाट हटाए, र उनले अन्तिम वर्षहरू यही जङ्गल फँडानी गर्दै बिताए।",
+   "म जिल्लाको एउटा सहरबाट करिब दश किलोमिटर टाढा, भारतीय सीमा नजिकै छु।",
+   "म सेतो किनारा भएको रातो छानाको तीन तले पगोडा हुँ, र मेरो लाइन लाग्ने चोकमा ठूलो घण्टा झुन्डिएको छ।",
+   "ठूलो शरद चाडमा नेपाल र भारतबाट हजारौँ भक्तजन मेरो आँगनमा भीड लगाउँछन्।"
   ]
  },
  {
@@ -4278,7 +6006,7 @@
     "name_np": "रामनवमी",
     "month": "Chaitra",
     "note": "Thousands of worshippers from Nepal and India gather at Simraungadh's Kankali temple.",
-    "note_np": "नेपाल र भारतबाट हजारौँ भक्तजन सिम्रौनगढको कङ्काली मन्दिरमा भेला हुन्छन्।"
+    "note_np": "नेपाल र भारतबाट हजारौँ भक्तजन सिमरौनगढको कङ्काली मन्दिरमा भेला हुन्छन्।"
    }
   ],
   "image": {
@@ -4331,14 +6059,14 @@
     "answer_index": 1,
     "difficulty": 2,
     "explanation": "The Karnat dynasty ruled Mithila from Simraungadh from 1097 CE.",
-    "q_np": "कुन वंशले सिम्रौनगढलाई आफ्नो राजधानी बनायो?",
+    "q_np": "कुन वंशले सिमरौनगढलाई आफ्नो राजधानी बनायो?",
     "options_np": [
      "मल्ल",
      "कर्नाट",
      "सेन",
      "राणा"
     ],
-    "explanation_np": "कर्नाट वंशले 1097 ई. देखि सिम्रौनगढबाट मिथिलामा शासन गर्‍यो।"
+    "explanation_np": "कर्नाट वंशले सन् 1097 देखि सिमरौनगढबाट मिथिलामा शासन गर्‍यो।"
    },
    {
     "q": "Who founded the Karnat dynasty in 1097?",
@@ -4351,14 +6079,14 @@
     "answer_index": 0,
     "difficulty": 3,
     "explanation": "Nanyadeva established the kingdom in 1097 CE.",
-    "q_np": "1097 मा कर्नाट वंशको स्थापना कसले गरे?",
+    "q_np": "सन् 1097 मा कर्नाट वंशको स्थापना कसले गरे?",
     "options_np": [
      "नान्यदेव",
      "हरिसिंहदेव",
      "शिवसिंह",
      "राम शाह"
     ],
-    "explanation_np": "नान्यदेवले 1097 ई. मा राज्यको स्थापना गरे।"
+    "explanation_np": "नान्यदेवले सन् 1097 मा राज्यको स्थापना गरे।"
    },
    {
     "q": "Who built the Ranivas Ram Janaki temple in 1878?",
@@ -4371,14 +6099,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "Jagat Jung Rana built it at the wish of his mother.",
-    "q_np": "1878 मा रानीवास राम जानकी मन्दिर कसले बनाए?",
+    "q_np": "सन् 1878 मा रानीवास राम जानकी मन्दिर कसले बनाए?",
     "options_np": [
      "जङ्गबहादुर राणा",
      "जगतजङ्ग राणा",
      "चन्द्र शमशेर",
      "राजा सुरेन्द्र"
     ],
-    "explanation_np": "जगतजङ्ग राणाले आफ्नी आमाको इच्छा अनुसार यसलाई बनाए।"
+    "explanation_np": "जगतजङ्ग राणाले आमाको इच्छा अनुसार यसलाई बनाए।"
    },
    {
     "q": "In which district is Simraungadh?",
@@ -4391,14 +6119,14 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "Simraungadh is a municipality in Bara District.",
-    "q_np": "सिम्रौनगढ कुन जिल्लामा छ?",
+    "q_np": "सिमरौनगढ कुन जिल्लामा छ?",
     "options_np": [
      "पर्सा",
      "बारा",
      "रौतहट",
      "सप्तरी"
     ],
-    "explanation_np": "सिम्रौनगढ बारा जिल्लाको एक नगरपालिका हो।"
+    "explanation_np": "सिमरौनगढ बारा जिल्लाको एउटा नगरपालिका हो।"
    },
    {
     "q": "Which Tibetan monk visited Simraungadh in the 13th century?",
@@ -4411,7 +6139,7 @@
     "answer_index": 1,
     "difficulty": 5,
     "explanation": "Dharmasvamin passed through during the reign of Rama Singh Deva.",
-    "q_np": "13 औँ शताब्दीमा कुन तिब्बती भिक्षु सिम्रौनगढ आएका थिए?",
+    "q_np": "तेह्रौँ शताब्दीमा कुन तिब्बती भिक्षु सिमरौनगढ आएका थिए?",
     "options_np": [
      "मिलारेपा",
      "धर्मस्वामी",
@@ -4419,11 +6147,115 @@
      "मार्पा"
     ],
     "explanation_np": "धर्मस्वामी रामसिंहदेवको शासनकालमा यहाँबाट गएका थिए।"
+   },
+   {
+    "q": "What colour is the main Ranivas temple?",
+    "options": [
+     "Black",
+     "Blue",
+     "White",
+     "Pink"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "It is a white shikhara temple with red and green bands.",
+    "q_np": "रानीवासको मुख्य मन्दिर कुन रङको छ?",
+    "options_np": [
+     "कालो",
+     "निलो",
+     "सेतो",
+     "गुलाबी"
+    ],
+    "explanation_np": "यो रातो र हरियो पट्टी भएको सेतो शिखर शैलीको मन्दिर हो।"
+   },
+   {
+    "q": "Which bronze images stand inside the Ranivas temple?",
+    "options": [
+     "Shiva and Parvati",
+     "Rama and Sita",
+     "Krishna and Radha",
+     "Buddha and Tara"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Inside are bronze images of Rama and Sita, which is why it is called the Ram Janaki Mandir.",
+    "q_np": "रानीवास मन्दिरभित्र कुन काँसाका मूर्ति छन्?",
+    "options_np": [
+     "शिव र पार्वती",
+     "राम र सीता",
+     "कृष्ण र राधा",
+     "बुद्ध र तारा"
+    ],
+    "explanation_np": "भित्र राम र सीताका काँसाका मूर्ति छन्, त्यसैले यसलाई राम जानकी मन्दिर भनिन्छ।"
+   },
+   {
+    "q": "Roughly how long were the earthen ramparts and ditches around the old city?",
+    "options": [
+     "About 750 m",
+     "About 2 km",
+     "About 7.5 km",
+     "About 70 km"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The city sat inside earthen ramparts and ditches roughly seven and a half kilometres long.",
+    "q_np": "पुरानो सहर वरिपरिका माटाका गह्रा र खाडल करिब कति लामा थिए?",
+    "options_np": [
+     "करिब ७५० मिटर",
+     "करिब २ किमी",
+     "करिब ७.५ किमी",
+     "करिब ७० किमी"
+    ],
+    "explanation_np": "सहर करिब साढे सात किलोमिटर लामा माटाका गह्रा र खाडलले घेरिएको थियो।"
+   },
+   {
+    "q": "Which prime minister died at Patharghat in 1877, leading to the building of the temple?",
+    "options": [
+     "Bir Shumsher",
+     "Jung Bahadur Rana",
+     "Bhimsen Thapa",
+     "Chandra Shumsher"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Jung Bahadur Rana died at Patharghat in Rautahat after a hunt; his queen wished for a temple.",
+    "q_np": "सन् 1877 मा पथरघाटमा कुन प्रधानमन्त्रीको निधन भयो, जसपछि मन्दिर बनाइयो?",
+    "options_np": [
+     "वीर शमशेर",
+     "जङ्गबहादुर राणा",
+     "भीमसेन थापा",
+     "चन्द्र शमशेर"
+    ],
+    "explanation_np": "जङ्गबहादुर राणा रौतहटको पथरघाटमा सिकारपछि बिते। उनकी रानीले मन्दिरको इच्छा राखिन्।"
+   },
+   {
+    "q": "How many bighas did the nearby Jharokhar pond once cover?",
+    "options": [
+     "5",
+     "12",
+     "52",
+     "520"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The roughly 800-year-old Jharokhar pond once covered 52 bighas.",
+    "q_np": "नजिकैको झरोखर पोखरी पहिले कति बिघामा फैलिएको थियो?",
+    "options_np": [
+     "५",
+     "१२",
+     "५२",
+     "५२०"
+    ],
+    "explanation_np": "करिब ८०० वर्ष पुरानो झरोखर पोखरी पहिले ५२ बिघामा फैलिएको थियो।"
    }
   ],
   "clues": [
    "Kings of Mithila ruled from here behind earthen ramparts until invaders came in the 14th century.",
-   "A prime minister's widow, before going to the pyre, asked for a temple; her son raised it here on palace ruins."
+   "A prime minister's widow, before going to the pyre, asked for a temple; her son raised it here on palace ruins.",
+   "Earthen ramparts and ditches about seven and a half kilometres long once circled my city.",
+   "Crumbling brick arches of an old palace surround my white temple, raised on a stepped plinth.",
+   "Inside my temple stand bronze images of the divine couple of the Ramayana.",
+   "Nearby lie a Kankali shrine and a great old pond, once covering fifty-two bighas."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Simraungadh",
@@ -4473,20 +6305,24 @@
     "caption": "An old stone pillar at Simraungadh"
    }
   ],
-  "short_np": "मिथिलाका कर्णाट राजाहरूको मध्यकालीन राजधानी, जहाँ प्राचीन दरबारका भग्नावशेषबाट राणाकालीन राम जानकी मन्दिर उठेको छ।",
-  "story_np": "यी भत्केका इँटाका मेहराबबीच उभिएर शाही सहरको कल्पना गर्नुहोस्। सन् 1097 देखि यो सिम्रौनगढ थियो, कर्णाट राजाहरूको राजधानी, जसलाई नान्यदेवले स्थापना गरेका थिए, र जसको राज्य आजको सीमाका दुवै छेउमा तिरहुत वा मिथिलाभर फैलिएको थियो। सहर माटाका गह्रा र खाडल भित्र थियो, जो करिब साढे सात कि.मि. लामा थिए, र तिब्बती भिक्षु धर्मस्वामी तेह्रौँ शताब्दीमा यहाँबाट गुज्रिए। तपाईंको अगाडि सेतो रानीवास मन्दिर छ, जसलाई राम जानकी मन्दिर पनि भनिन्छ। यसको कथा दुःखद छ। सन् 1877 मा प्रधानमन्त्री जङ्गबहादुर राणा यहाँनजिकैको सिकारपछि रौतहटको पथरघाटमा बिते। उनकी रानी हिरण्य गर्भा देवीले सती जानुअघि मन्दिरको इच्छा राखिन्, र उनका छोरा जगतजङ्ग राणाले सन् 1878 मा यो बनाए। मानिसहरू विश्वास गर्छन् कि यो कर्णाट राजाहरूको पुरानो दरबारमाथि उभिएको छ। भित्र राम र सीताका काँसाका मूर्तिहरू हेर्नुहोस्, त्यसपछि नजिकैको कङ्काली मन्दिर र ठूलो झरोखर पोखरी घुम्नुहोस्।",
+  "short_np": "मिथिलाका कर्नाट राजाको मध्यकालीन राजधानी, जहाँ पुराना दरबारका भग्नावशेषमाथि राणाकालीन राम जानकी मन्दिर उभिएको छ।",
+  "story_np": "यी भत्किएका इँटाका मेहराबबीच उभिएर शाही सहरको कल्पना गर्नुहोस्। सन् 1097 देखि यो सिमरौनगढ थियो, कर्नाट राजाहरूको राजधानी। यसको स्थापना नान्यदेवले गरेका थिए, र उनको राज्य आजको सीमाका दुवै छेउमा तिरहुत, अर्थात् मिथिलाभर फैलिएको थियो। सहर माटाका गह्रा र खाडलले घेरिएको थियो, जो करिब साढे सात किलोमिटर लामा थिए। तेह्रौँ शताब्दीमा तिब्बती भिक्षु धर्मस्वामी यहाँबाट गए। तपाईंको अगाडि सेतो रानीवास मन्दिर छ, जसलाई राम जानकी मन्दिर पनि भनिन्छ। यसको कथा दुःखद छ। सन् 1877 मा प्रधानमन्त्री जङ्गबहादुर राणा यहाँ नजिकै सिकार खेलेपछि रौतहटको पथरघाटमा बितेका थिए। उनकी रानी हिरण्य गर्भा देवीले सती जानुअघि एउटा मन्दिर चाहेकी थिइन्। उनका छोरा जगतजङ्ग राणाले सन् 1878 मा यो मन्दिर बनाए। मानिसहरूको विश्वास छ, यो कर्नाट राजाहरूको पुरानो दरबारमाथि उभिएको छ। भित्र राम र सीताका काँसाका मूर्ति हेर्नुहोस्, अनि नजिकैको कङ्काली मन्दिर र ठूलो झरोखर पोखरी पनि घुम्नुहोस्।",
   "legend_np": null,
   "facts_np": [
-   "नान्यदेवले सन् 1097 ई. मा सिम्रौनगढमा कर्णाट वंश स्थापना गरे।",
-   "किल्लाबन्दी सहरको मुख्य घेरा उत्तर-दक्षिण करिब 7.5 कि.मि. र पूर्व-पश्चिम 4.5 कि.मि. छ।",
+   "नान्यदेवले सन् 1097 मा सिमरौनगढमा कर्नाट वंश स्थापना गरे।",
+   "किल्लाबन्दी गरिएको सहरको मुख्य घेरा उत्तर-दक्षिण करिब 7.5 किमी र पूर्व-पश्चिम 4.5 किमी छ।",
    "जगतजङ्ग राणाले आमा हिरण्य गर्भा देवीको इच्छा अनुसार सन् 1878 मा रानीवास राम जानकी मन्दिर बनाए।",
    "रानीवास परिसर 600 बिघामा फैलिएको भनिन्छ।",
    "नजिकैको झरोखर पोखरी, करिब 800 वर्ष पुरानो, पहिले 52 बिघामा फैलिएको थियो।"
   ],
   "quake_np": null,
   "clues_np": [
-   "मिथिलाका राजाहरूले यहाँ माटोका गढभित्रबाट शासन गरे, 14 औँ शताब्दीमा आक्रमणकारी आउँदासम्म।",
-   "एक प्रधानमन्त्रीकी विधवाले चितामा जानुअघि मन्दिरको इच्छा राखिन्; उनका छोराले यहाँ दरबारका भग्नावशेषमाथि त्यो उठाए।"
+   "मिथिलाका राजाहरूले यहाँ माटाका गढभित्रबाट शासन गरे, १४ औँ शताब्दीमा आक्रमणकारी नआउन्जेल।",
+   "एक प्रधानमन्त्रीकी विधवाले चितामा जानुअघि मन्दिर चाहिन्। उनका छोराले दरबारका भग्नावशेषमाथि यहाँ त्यो मन्दिर बनाए।",
+   "माटाका गह्रा र खाडल, करिब साढे सात किलोमिटर लामा, कुनै बेला मेरो सहरलाई घेरेका थिए।",
+   "पुरानो दरबारका भत्किएका इँटाका मेहराब मेरो सेतो मन्दिरलाई घेरेका छन्, जो तह मिलाइएको आधारमाथि उभिएको छ।",
+   "मेरो मन्दिरभित्र रामायणका दिव्य जोडीका काँसाका मूर्ति छन्।",
+   "नजिकै कङ्काली मन्दिर र एउटा ठूलो पुरानो पोखरी छ, जो कुनै बेला बाउन्न बिघामा फैलिएको थियो।"
   ]
  }
 ]

@@ -9,9 +9,9 @@ import { useAuth } from '../lib/auth.jsx';
 import { usePrefs, useT } from '../lib/prefs.jsx';
 
 const LINKS = [
-  { to: '/explore', en: 'Explore', np: 'अन्वेषण' },
+  { to: '/explore', en: 'Explore', np: 'घुम्नुहोस्' },
   { to: '/walk', en: 'Plan a yatra', np: 'यात्रा योजना' },
-  { to: '/quiz', en: 'Quiz trail', np: 'प्रश्नोत्तर' },
+  { to: '/quiz', en: 'Quiz trail', np: 'क्विज' },
   { to: '/find', en: 'Find it', np: 'खोज' },
   { to: '/hunt', en: 'Live hunt', np: 'लाइभ खेल' },
 ];
@@ -131,7 +131,7 @@ export function Nav() {
           <motion.div className="mnav" initial={{ clipPath: 'circle(0% at 92% 4%)' }} animate={{ clipPath: 'circle(150% at 92% 4%)' }} exit={{ clipPath: 'circle(0% at 92% 4%)' }} transition={{ duration: 0.6, ease: [0.22, 0.9, 0.24, 1] }}>
             <Mandala size={620} className="mnav-mandala spin-slow" strokeWidth={0.8} />
             <nav className="mnav-links" aria-label="Mobile">
-              {[...LINKS, ...(user ? [{ to: '/passport', en: 'My passport', np: 'मेरो राहदानी' }] : []), ...(user?.role === 'admin' ? [{ to: '/admin', en: 'Admin', np: 'प्रशासन' }] : [])].map((l, i) => (
+              {[...LINKS, ...(user ? [{ to: '/passport', en: 'My passport', np: 'मेरो पासपोर्ट' }] : []), ...(user?.role === 'admin' ? [{ to: '/admin', en: 'Admin', np: 'एडमिन' }] : [])].map((l, i) => (
                 <motion.div key={l.to} initial={{ opacity: 0, y: 26 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.18 + i * 0.06, duration: 0.5, ease: [0.22, 0.9, 0.24, 1] }}>
                   <NavLink to={l.to} className={({ isActive }) => (isActive ? 'active' : '')}>
                     <span className="mnav-num">{String(i + 1).padStart(2, '0')}</span>
@@ -165,7 +165,7 @@ export function Footer() {
       <Mandala size={720} className="footer-mandala spin-slow" strokeWidth={0.7} />
       <div className="wrap footer-cta">
         <div>
-          <div className="eyebrow">{t('Begin the yatra', 'यात्रा सुरु गरौँ')}</div>
+          <div className="eyebrow">{t('Begin the yatra', 'यात्रा सुरु गरौं')}</div>
           <h2>Every courtyard in Nepal has a story waiting for you.</h2>
         </div>
         <Link to="/explore" className="btn lg diyo">{t('Open the map', 'नक्सा खोल्नुहोस्')} <ArrowUpRight size={18} className="arrow" /></Link>
@@ -194,7 +194,7 @@ export function Footer() {
       </div>
       <div className="wrap footer-base">
         <span>© {new Date().getFullYear()} Hamro Prachin Sampada · BCA Project III</span>
-        <span lang="ne">सम्पदा जोगाऔँ, पुस्तालाई सुम्पौँ</span>
+        <span lang="ne">सम्पदा जोगाऔं, अर्को पुस्तालाई सुम्पौं</span>
       </div>
     </footer>
   );

@@ -122,6 +122,11 @@ export default function Quiz() {
               <h1 style={{ fontSize: 'var(--fs-h2)' }}>{t('How well do you know your heritage?', 'आफ्नो सम्पदालाई कत्तिको चिन्नुहुन्छ?')}</h1>
             <Epigraph index={15} />
               <p className="lead">{t(`${ROUND} questions that adapt to you. Get one right and the next is a little harder; miss one and it comes back later to help you remember.`, `तपाईंसँग मिल्दा ${t.n(ROUND)} प्रश्न। एउटा सही गर्दा अर्को अलि गाह्रो हुन्छ; एउटा छुट्यो भने सम्झन सजिलो होस् भनी पछि फर्किन्छ।`)}</p>
+              <ul className="rules">
+                <li>{t(`You get ${ROUND} questions, 25 seconds each. Press 1 to 4 or tap an answer.`, `${t.n(ROUND)} वटा प्रश्न, प्रत्येकमा २५ सेकेन्ड। १ देखि ४ थिच्नुहोस् वा जवाफमा छुनुहोस्।`)}</li>
+                <li>{t('Your rating moves with every answer: a hard question you get right earns more, an easy one you miss costs more, and a quick answer earns a little extra.', 'हरेक जवाफसँगै तपाईंको रेटिङ बदलिन्छ: गाह्रो प्रश्न सही गर्दा धेरै अङ्क, सजिलो प्रश्न छुट्दा धेरै घट्छ, र छिटो जवाफ दिँदा अलिकति बढी।')}</li>
+                <li>{t('Questions you miss come back later so you remember them.', 'छुटेका प्रश्न पछि फेरि आउँछन्, ताकि सम्झन सजिलो होस्।')}</li>
+              </ul>
               <div className="level-row">
                 <Tiers rating={rating} />
                 <div>

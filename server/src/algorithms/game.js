@@ -51,3 +51,23 @@ export function pickRounds(pool, n, seed) {
   }
   return a.slice(0, Math.min(n, a.length));
 }
+
+/** Every photo of a site (main + gallery), as { url, credit }. */
+export function imageVariants(m) {
+  const out = [];
+  if (m.image_url) out.push({ url: m.image_url, credit: m.image_credit || '' });
+  for (const g of m.gallery || []) if (g?.url && g.url !== m.image_url) out.push({ url: g.url, credit: [g.author, g.license].filter(Boolean).join(' · ') });
+  return out;
+}
+
+/**
+ * Pick one clue and one photo for a round, preferring ones this player has not seen before so a repeated
+ * site shows something new. If everything was seen, the least recently seen one is not tracked; just pick at random.
+ * seenClues: clue ids; seenImages: urls.
+ */
+export function pickVariant(clues, images, { seenClues = [], seenImages = [], rnd = Math.random } = {}) {
+  const sc = new Set(seenClues.map(Number));
+  const si = new Set(seenImages);
+  const pick = (list, fresh) => { const pool = list.filter(fresh); const from = pool.length ? pool : list; return from[Math.floor(rnd() * from.length)]; };
+  return { clue: clues.length ? pick(clues, (c) => !sc.has(c.id)) : null, image: images.length ? pick(images, (i) => !si.has(i.url)) : null };
+}

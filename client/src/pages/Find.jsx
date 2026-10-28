@@ -18,7 +18,7 @@ export default function Find() {
   const [pin, setPin] = useState(null);
   const [result, setResult] = useState(null);
   const [results, setResults] = useState([]);
-  const [hint, setHint] = useState(false);
+  const [hint, setHint] = useState(null);
   const [busy, setBusy] = useState(false);
   const [left, setLeft] = useState(1);
   const [scope, setScope] = useState('valley');
@@ -31,8 +31,9 @@ export default function Find() {
   const start = async () => {
     setBusy(true);
     try {
-      const g = await api('/play/game/start', { method: 'POST', body: { rounds: 5, scope } });
-      setGame(g); setI(0); setResults([]); setPin(null); setResult(null); setHint(false);
+      const g = await api('/play/game/start', { method: 'POST', body: { rounds: 5, scope, ...seenForServer() } });
+      setGame(g); setI(0); setResults([]); setPin(null); setResult(null); setHint(null);
+      markSeen(g.rounds[0]?.clueId, g.rounds[0]?.image);
       t0.current = performance.now();
       map.current?.reset();
     } catch (e) { toast(e.message, 'err'); } finally { setBusy(false); }
@@ -48,7 +49,7 @@ export default function Find() {
     if (!pin || busy) return;
     setBusy(true);
     try {
-      const r = await api('/play/game/guess', { method: 'POST', body: { gameId: game.gameId, round: i, lat: pin.lat, lng: pin.lng, timeMs: Math.round(performance.now() - t0.current), hint } });
+      const r = await api('/play/game/guess', { method: 'POST', body: { gameId: game.gameId, round: i, lat: pin.lat, lng: pin.lng, timeMs: Math.round(performance.now() - t0.current) } });
       setResult(r); setResults((l) => [...l, r]);
       play(r.points >= 600 ? 'bowl' : 'soft', sound); buzz(r.points >= 600 ? 20 : 40);
       map.current?.fit([[pin.lng, pin.lat], [r.monument.lng, r.monument.lat]], 140);
@@ -57,7 +58,7 @@ export default function Find() {
   };
 
   const next = () => {
-    setI(i + 1); setPin(null); setResult(null); setHint(false); t0.current = performance.now(); setLeft(1);
+    markSeen(game.rounds[i + 1]?.clueId, game.rounds[i + 1]?.image); setI(i + 1); setPin(null); setResult(null); setHint(null); t0.current = performance.now(); setLeft(1);
     map.current?.reset();
   };
 
@@ -86,7 +87,8 @@ export default function Find() {
             </div>
             <ul className="rules">
               <li><Target size={16} /> {scope === 'valley' ? 'Within 40 m counts as perfect.' : 'Within 1 km counts as perfect.'}</li>
-              <li><Lightbulb size={16} /> A hint shows the city and type, for 100 points.</li>
+              <li><Lightbulb size={16} /> A hint shows a second clue plus the town and type, for −100 points.</li>
+              <li><Target size={16} /> Each round gives up to 800 points for distance and 200 for speed. The photo and clue change every time a place comes up again.</li>
               <li><Trophy size={16} /> 4,000+ earns the <b>Sampada Shikari</b> badge.</li>
             </ul>
             <button className="btn lg diyo" onClick={start} disabled={busy}><Crosshair size={18} /> {busy ? t('Setting up…', 'तयार हुँदै…') : t('Start the game', 'खेल सुरु गर्नुहोस्')}</button>
@@ -109,11 +111,11 @@ export default function Find() {
               <div className="clue" lang={t.nepali && round.clue_np ? 'ne' : undefined}>“{t.nepali && round.clue_np ? round.clue_np : round.clue}”</div>
               {!result ? (
                 <>
-                  {hint && <div className="tag sky" style={{ marginTop: '0.6rem' }}>Hint used: −100</div>}
+                  {hint && <div className="hint-box"><span className="tag sky">Hint · −100</span>{hint.text && <p lang={t.nepali && hint.text_np ? 'ne' : undefined}>“{t.nepali && hint.text_np ? hint.text_np : hint.text}”</p>}<p className="cap">{hint.where}</p></div>}
                   <p className="cap" style={{ margin: '0.7rem 0' }}>{pin ? `Pin dropped at ${pin.lat.toFixed(4)}, ${pin.lng.toFixed(4)}. Tap again to move it.` : 'Tap the map to drop your pin.'}</p>
                   <div className="row">
                     <button className="btn" onClick={guess} disabled={!pin || busy}><MapPin size={16} /> {t('Lock my guess', 'मेरो अनुमान पक्का')}</button>
-                    {!hint && <button className="btn ghost" onClick={() => setHint(true)}><Lightbulb size={16} /> {t('Hint', 'सङ्केत')}</button>}
+                    {!hint && <button className="btn ghost" onClick={async () => { try { const r = await api('/play/game/hint', { method: 'POST', body: { gameId: game.gameId, round: i } }); setHint(r.hint); } catch (e) { toast(e.message, 'err'); } }}><Lightbulb size={16} /> {t('Hint', 'सङ्केत')}</button>}
                   </div>
                 </>
               ) : (

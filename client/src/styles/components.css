@@ -867,3 +867,5 @@ select option { background: var(--bg-2); color: var(--text); }
 :root[data-theme='dark'] :is(.stars button.on, .stars-static, .faith-ic, .deity-ic, .rules svg, .empty .icon, .nav-links a:hover, .mcard:hover .mcard-body h4, .add-list button:hover) { color: var(--lilac-300); }
 :root[data-theme='dark'] .chapter.on { color: var(--lilac-300); border-color: var(--lilac-500); }
 :root[data-theme='dark'] .dropcap::first-letter, :root[data-theme='dark'] .legend-box::before { color: var(--lilac-300); }
+.hint-box { margin-top: 0.7rem; padding: 0.7rem 0.9rem; border-radius: 12px; border: 1px dashed var(--line-strong); background: color-mix(in srgb, var(--info) 8%, transparent); }
+.hint-box p { margin: 0.4rem 0 0; font-style: italic; }
