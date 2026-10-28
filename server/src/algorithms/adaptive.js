@@ -5,6 +5,9 @@
 // but not discouraging. Questions the player missed come back on an SM-2 spaced-repetition schedule.
 
 export const BASE_PLAYER = 1000;
+export const MIN_RATING = 600;
+export const MAX_RATING = 1800;
+const clamp = (n) => Math.min(MAX_RATING, Math.max(MIN_RATING, n));
 export const difficultyToRating = (d) => 800 + (Math.min(5, Math.max(1, d)) - 1) * 150; // 1 -> 800 ... 5 -> 1400
 
 /** Probability that a player with rating rp answers a question with rating rq correctly. */
@@ -17,16 +20,16 @@ export const kFactor = (answered) => (answered < 10 ? 40 : answered < 30 ? 28 : 
  * Update ratings after one answer.
  * Returns { player, question, delta, expected } with new ratings.
  */
-export function updateElo(playerRating, questionRating, correct, answered = 0, timeMs = null, limitMs = 20000) {
+export function updateElo(playerRating, questionRating, correct, answered = 0, timeMs = null, limitMs = 25000) {
   const p = expected(playerRating, questionRating);
   // fast correct answers count slightly more (max +15%); slow ones slightly less
   const speed = correct && timeMs != null ? 1 + 0.15 * Math.max(0, 1 - timeMs / limitMs) : 1;
   const score = correct ? 1 : 0;
   const delta = kFactor(answered) * speed * (score - p);
   return {
-    player: Math.round(playerRating + delta),
-    question: Math.round(questionRating - delta * 0.5), // questions move more slowly than players
-    delta: Math.round(delta),
+    player: clamp(Math.round(playerRating + delta)),
+    question: clamp(Math.round(questionRating - delta * 0.5)), // questions move more slowly than players
+    delta: clamp(Math.round(playerRating + delta)) - Math.round(playerRating), // the change actually applied, after the 600-1800 bounds
     expected: p,
   };
 }

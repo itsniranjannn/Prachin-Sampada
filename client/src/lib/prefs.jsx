@@ -8,11 +8,12 @@ const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
 export function PrefsProvider({ children }) {
   const saved = load();
   const [theme, setTheme] = useState(saved.theme || (window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
-  const [sound, setSound] = useState(saved.sound ?? false); // muted until the user turns it on
+  const [sound, setSound] = useState(true); // sound effects are always on (no toggle); the narrator only speaks when asked
   const [nepali, setNepali] = useState(saved.nepali ?? false);
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
+    document.documentElement.dataset.lang = nepali ? 'ne' : 'en';
     document.querySelector('meta[name=theme-color]')?.setAttribute('content', theme === 'dark' ? '#17110D' : '#3B2416');
     try { localStorage.setItem(KEY, JSON.stringify({ theme, sound, nepali })); } catch { /* ignore */ }
   }, [theme, sound, nepali]);

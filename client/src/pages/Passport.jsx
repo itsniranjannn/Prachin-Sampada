@@ -10,7 +10,9 @@ import { PageLoader } from '../components/Shell.jsx';
 import { MonumentCard } from '../components/MonumentCard.jsx';
 import { useT } from '../lib/prefs.jsx';
 import { Tiers } from './Quiz.jsx';
+import '../styles/passport-qa.css';
 
+const INTEREST_NP = { hindu: 'हिन्दू', buddhist: 'बौद्ध', pagoda: 'प्यागोडा', stupa: 'स्तुप', shikhara: 'शिखर शैली', palace: 'दरबार', courtyard: 'चोक', water: 'जल सम्पदा', art: 'कला', festival: 'चाडपर्व', legend: 'दन्त्यकथा', unesco: 'युनेस्को', malla: 'मल्ल', licchavi: 'लिच्छवि' };
 const INTERESTS = ['hindu', 'buddhist', 'pagoda', 'stupa', 'shikhara', 'palace', 'courtyard', 'water', 'art', 'festival', 'legend', 'unesco', 'malla', 'licchavi'];
 
 function Spark({ data }) {
@@ -44,9 +46,9 @@ export default function Passport() {
   const u = d.user;
   const saveInterests = async () => {
     const r = await api('/auth/me', { method: 'PUT', body: { interests } });
-    setUser(r.user); setEditing(false); toast('Interests saved. Recommendations will follow them.', 'ok');
+    setUser(r.user); setEditing(false); toast(t('Interests saved. Recommendations will follow them.', 'रुचि सेभ भयो। सिफारिस अब यिनै अनुसार आउँछ।'), 'ok');
   };
-  const delTour = async (id) => { if (!confirm('Delete this walk?')) return; await api(`/tours/${id}`, { method: 'DELETE' }); setTours(tours.filter((t) => t.id !== id)); };
+  const delTour = async (id) => { if (!confirm(t('Delete this walk?', 'यो यात्रा मेटाउने?'))) return; await api(`/tours/${id}`, { method: 'DELETE' }); setTours(tours.filter((t) => t.id !== id)); };
   const pct = Math.round((d.stats.stamps / Math.max(1, d.stats.total)) * 100);
   return (
     <div className="page passport">
@@ -57,9 +59,9 @@ export default function Passport() {
             <div className="avatar" style={{ width: 84, height: 84, fontSize: '2rem' }}>{u.name.slice(0, 1).toUpperCase()}</div>
           </div>
           <div>
-            <div className="eyebrow">Heritage passport · सम्पदा पासपोर्ट</div>
+            <div className="eyebrow">{t('Heritage passport · सम्पदा पासपोर्ट', 'सम्पदा पासपोर्ट')}</div>
             <h1 style={{ fontSize: 'var(--fs-h2)', color: 'var(--milk)', margin: 0 }}>{u.name}</h1>
-            <div className="np" lang="ne" style={{ color: 'var(--lilac-300)' }}>{u.level.np} · {u.level.label}</div>
+            <div className="np" lang="ne" style={{ color: 'var(--lilac-300)' }}>{t.nepali ? u.level.np : `${u.level.np} · ${u.level.label}`}</div>
             <div className="pass-stats">
               <span><b className="num">{t.n(d.stats.stamps)}</b>/{t.n(d.stats.total)} {t('stamps', 'छाप')}</span>
               <span><b className="num">{u.rating}</b> quiz rating</span>
@@ -75,7 +77,7 @@ export default function Passport() {
         )}
 
         {d.stats.reviewsDue > 0 && (
-          <Link to="/quiz" className="review-due"><Repeat size={18} /> <span><b>{d.stats.reviewsDue} question{d.stats.reviewsDue > 1 ? 's' : ''} ready for review.</b> Missed facts come back on a schedule so they stick.</span><Brain size={18} /></Link>
+          <Link to="/quiz" className="review-due"><Repeat size={18} /> <span><b>{t(`${d.stats.reviewsDue} question${d.stats.reviewsDue > 1 ? 's' : ''} ready for review.`, `${t.n(d.stats.reviewsDue)} वटा प्रश्न दोहोर्याउन तयार छ।`)}</b> {t('Missed facts come back on a schedule so they stick.', 'छुटेका तथ्य बेलाबेला फेरि आउँछन्, ताकि याद रहून्।')}</span><Brain size={18} /></Link>
         )}
 
         <section className="section" style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
@@ -113,7 +115,7 @@ export default function Passport() {
             <div className="row between"><h5 style={{ margin: 0 }}>Your interests</h5>{!editing && <button className="link-btn" onClick={() => setEditing(true)}>Edit</button>}</div>
             <div className="chips-row">
               {(editing ? INTERESTS : interests).map((k) => (
-                <button key={k} className={`chip ${interests.includes(k) ? 'on' : ''}`} disabled={!editing} onClick={() => setInterests(interests.includes(k) ? interests.filter((x) => x !== k) : [...interests, k].slice(0, 6))}>{k}</button>
+                <button key={k} className={`chip ${interests.includes(k) ? 'on' : ''}`} disabled={!editing} onClick={() => setInterests(interests.includes(k) ? interests.filter((x) => x !== k) : [...interests, k].slice(0, 6))}>{t.nepali ? INTEREST_NP[k] || k : k}</button>
               ))}
               {!editing && !interests.length && <span className="cap">None yet. Add some for better recommendations.</span>}
             </div>
@@ -143,7 +145,7 @@ export default function Passport() {
                   <Link to={`/m/${s.slug}`} className="stamp-card">
                     <span className="stamp-ring">{s.method === 'gps' ? 'GPS' : '✓'}</span>
                     <b>{s.name}</b>
-                    <span className="np cap" lang="ne">{s.name_np}</span>
+                    {!t.nepali && <span className="np cap" lang="ne">{s.name_np}</span>}
                     <span className="cap">{new Date(s.stampedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
                   </Link>
                 </motion.div>

@@ -7,6 +7,7 @@ import { useAuth } from '../lib/auth.jsx';
 import { useT } from '../lib/prefs.jsx';
 import { useToast } from '../lib/toast.jsx';
 import { LogoMark } from '../components/Logo.jsx';
+import '../styles/auth-qa.css';
 import { CodeInput } from '../components/CodeInput.jsx';
 import { Mandala } from '../components/Ornaments.jsx';
 

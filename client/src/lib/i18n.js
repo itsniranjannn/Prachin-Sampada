@@ -35,19 +35,52 @@ const PATTERNS = [
   [/^(\d+) roofs?$/, (m) => `${dv(m[1])} छाना`],
   [/^(\d+) storeys?$/, (m) => `${dv(m[1])} तला`],
   [/^(\d+) min$/, (m) => `${dv(m[1])} मिनेट`],
+  [/^(\d{1,2}):(\d{2}) (AM|PM)$/, (m) => `${m[3] === 'AM' ? 'बिहान' : +m[1] === 12 || +m[1] < 6 ? 'दिउँसो' : 'साँझ'} ${dv(+m[1])}:${dv(m[2])}`],
+  [/^(\d{1,2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)$/, (m) => `${dv(m[1])} ${MONTHS[m[2]]}`],
+  [/^([\d.]+) km$/, (m) => `${dv(m[1])} किमी`],
+  [/^(.+) district$/, (m) => `${dict.get(m[1]) || m[1]} जिल्ला`],
+  [/^(.+) Province$/, (m) => (dict.get(m[1]) ? `${dict.get(m[1])} प्रदेश` : null)],
 ];
+const MONTHS = { Jan: 'जनवरी', Feb: 'फेब्रुअरी', Mar: 'मार्च', Apr: 'अप्रिल', May: 'मे', Jun: 'जुन', Jul: 'जुलाई', Aug: 'अगस्ट', Sep: 'सेप्टेम्बर', Oct: 'अक्टोबर', Nov: 'नोभेम्बर', Dec: 'डिसेम्बर' };
+// the 3D viewer caption always ends with this hint; the part before it is the monument's own description
+const ORBIT = ' Drag to orbit, scroll to zoom.';
+const ORBIT_NP = ' घुमाउन तान्नुहोस्, ठूलो-सानो गर्न स्क्रोल गर्नुहोस्।';
+
+// text that is already mixed: translate the English pieces between commas and fix the unit
+function mixed(core) {
+  let out = core.replace(/ km(?![A-Za-z])/g, ' किमी');
+  const parts = out.split(/(, )/);
+  if (parts.length > 1) out = parts.map((p) => (LATIN.test(p) && !DEVA.test(p) ? (dict.get(p) || fromPattern(p) || p) : p)).join('');
+  return out;
+}
+function fromPattern(core) {
+  for (const [re, fn] of PATTERNS) { const x = core.match(re); const r = x && fn(x); if (r) return r; }
+  return null;
+}
 
 function lookup(raw) {
   const m = raw.match(/^(\s*)([\s\S]*?)(\s*)$/);
   const core = m[2].replace(/\s+/g, ' ');
-  if (!core || !LATIN.test(core) || DEVA.test(core)) return null;
+  if (!core || !LATIN.test(core)) return null;
+  if (DEVA.test(core)) {
+    // "English · नेपाली" headings that carry both languages: keep only the Nepali half
+    const both = core.match(/^[A-Za-z][^ऀ-ॿ]*? · ([ऀ-ॿ].*)$/);
+    if (both) return m[1] + both[1] + m[3];
+    const fixed = mixed(core);
+    return fixed !== core ? m[1] + fixed + m[3] : null;
+  }
   const hit = dict.get(core);
   if (hit) return m[1] + hit + m[3];
-  for (const [re, fn] of PATTERNS) { const x = core.match(re); if (x) return m[1] + fn(x) + m[3]; }
+  if (core.endsWith(ORBIT)) {
+    const base = dict.get(core.slice(0, -ORBIT.length));
+    if (base) return m[1] + base + ORBIT_NP + m[3];
+  }
+  const pat = fromPattern(core);
+  if (pat) return m[1] + pat + m[3];
   // "Name, Province" and "Name · Province" labels: translate each side that is known
   const parts = core.split(/(, | · )/);
   if (parts.length > 1) {
-    const joined = parts.map((p) => (/^(, | · )$/.test(p) ? p : (dict.get(p) || p))).join('');
+    const joined = parts.map((p) => (/^(, | · )$/.test(p) ? p : (dict.get(p) || fromPattern(p) || p))).join('');
     if (joined !== core) return m[1] + joined + m[3];
   }
   missing.add(core);
@@ -58,7 +91,10 @@ function doText(node) {
   const st = textState.get(node);
   if (st && node.nodeValue === st.applied) return;
   const orig = node.nodeValue;
-  const out = lookup(orig);
+  let out = lookup(orig);
+  // "Live heritage hunt · <span lang="ne">…</span>": the Nepali span already says it, so drop the English lead-in
+  const sib = node.nextSibling;
+  if (!out && /·\s*$/.test(orig) && LATIN.test(orig) && sib?.nodeType === 1 && sib.lang === 'ne') out = ' ';
   if (out && out !== orig) { textState.set(node, { orig, applied: out }); node.nodeValue = out; } else if (st) textState.delete(node);
 }
 function doAttrs(el) {

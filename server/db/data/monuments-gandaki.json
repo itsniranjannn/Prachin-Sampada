@@ -118,7 +118,7 @@
      "सगरमाथा र ल्होत्से",
      "कञ्चनजङ्घा र जन्नु",
      "मनास्लु, हिमालचुली, अन्नपूर्ण र गणेश",
-     "धौलागिरि र साइपाल"
+     "धौलागिरि र अपि"
     ],
     "explanation_np": "दरबारबाट मनास्लु, हिमालचुली, अन्नपूर्ण र गणेश हिमाल देखिन्छन्।"
    },
@@ -132,7 +132,7 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "It was added in 1996 as 'The medieval palace complex of Gorkha' (reference 842).",
+    "explanation": "It was added in 1996 as 'The medieval palace complex of Gorkha'.",
     "q_np": "नेपालको युनेस्को अस्थायी सूचीमा यो स्थल कुन नामले छ?",
     "options_np": [
      "गोरखा किल्ला",
@@ -140,7 +140,7 @@
      "शाह दरबार गोरखा",
      "गोरखकाली सम्पदा क्षेत्र"
     ],
-    "explanation_np": "सन् 1996 मा यसलाई 'गोरखाको मध्यकालीन दरबार परिसर' (सन्दर्भ 842) नामले सूचीमा राखिएको थियो।"
+    "explanation_np": "सन् 1996 मा यसलाई 'गोरखाको मध्यकालीन दरबार परिसर' नामले सूचीमा राखिएको थियो।"
    },
    {
     "q": "Which king of Gorkha built the durbar?",
@@ -176,7 +176,7 @@
     "q_np": "गोरखा दरबार मुख्यतः कुन सामग्रीले बनेको छ?",
     "options_np": [
      "संगमरमर र सिसा",
-     "माटो र परालको छानो",
+     "माटो र पराल",
      "कंक्रिट र फलाम",
      "इँटा, ढुङ्गा र काठ"
     ],
@@ -245,7 +245,7 @@
   ],
   "clues": [
    "Craftsmen from the Kathmandu Valley carved my windows and the wooden beams that hold up my floors.",
-   "I stand on a ridge about a thousand metres high, an hour's climb above the bazaar below.",
+   "I stand on a ridge about a thousand meters high, an hour's climb above the bazaar below.",
    "A king who joined many small states into one nation was born behind my thick walls on a mountain ridge.",
    "Climb my long stairway and a goddess temple, a yogi's cave and a flame that never goes out are waiting at the top.",
    "Every full moon of Baisakh, a fair fills the cave of a yogi just below my walls.",
@@ -364,7 +364,7 @@
    "उपत्यकाका शिल्पीहरूले मेरा झ्याल र भुइँ थाम्ने काठका धरन कुँदेका हुन्।",
    "म करिब एक हजार मिटर अग्लो डाँडामा छु, तलको बजारबाट एक घण्टा उकालो चढ्नुपर्छ।",
    "धेरै साना राज्य जोडेर एउटै देश बनाउने राजा डाँडामाथिका मेरा बाक्लो पर्खालभित्र जन्मिएका थिए।",
-   "मेरो लामो भ्याङ्ग चढ्नुहोस्। माथि देवीको मन्दिर, योगीको गुफा र कहिल्यै नबुझ्ने ज्योति तपाईंलाई पर्खिरहेका छन्।",
+   "मेरो लामो सिँढी चढ्नुहोस्। माथि देवीको मन्दिर, योगीको गुफा र कहिल्यै नबुझ्ने ज्योति तपाईंलाई पर्खिरहेका छन्।",
    "हरेक बैशाख पूर्णिमामा मेरा पर्खालमुनिको योगीको गुफामा मेला लाग्छ।",
    "खुला दिनमा उत्तरतिर मनास्लु, हिमालचुली, अन्नपूर्ण र गणेश हिमाल लहरै देखिन्छन्। सन् 2015 को भूकम्पले मलाई चोट पुर्‍यायो, अहिलेसम्म मेरो पुनर्निर्माण भइरहेको छ।"
   ]
@@ -458,7 +458,7 @@
      "Ram Shah",
      "Lakhan Thapa Magar",
      "Prithvi Narayan Shah",
-     "Arman Rayamajhi"
+     "Bhimsen Thapa"
     ],
     "answer_index": 1,
     "difficulty": 3,
@@ -468,7 +468,7 @@
      "राम शाह",
      "लखन थापा मगर",
      "पृथ्वीनारायण शाह",
-     "अर्मन रायमाझी"
+     "भीमसेन थापा"
     ],
     "explanation_np": "मन्दिर बनाउने लखन थापा मगरका सन्तान नै पुजारी हुनुपर्छ।"
    },
@@ -502,7 +502,7 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "About 14 kg of gold, costing around NPR 90 million, was used.",
+    "explanation": "About 14 kg of gold was used.",
     "q_np": "सन् 2015-2018 को जीर्णोद्धारमा छाना, ढोका, गजुर र झ्यालमा करिब कति सुन चढाइयो?",
     "options_np": [
      "2 केजी",
@@ -510,7 +510,7 @@
      "50 केजी",
      "140 केजी"
     ],
-    "explanation_np": "करिब 14 केजी सुन चढाइयो, जसमा करिब 9 करोड रुपैयाँ खर्च भयो।"
+    "explanation_np": "करिब 14 केजी सुन चढाइयो।"
    },
    {
     "q": "Which goddess is worshipped at Manakamana?",
@@ -614,7 +614,7 @@
    }
   ],
   "clues": [
-   "Two stacked roofs, carved timber windows and a walkway round my inner room: I look down from a hill 1,300 metres above two joining rivers.",
+   "Two stacked roofs, carved timber windows and a walkway round my inner room: I look down from a hill 1,300 meters above two joining rivers.",
    "A king once set aside a trust so that worship is offered, and pigeons are fed, in my courtyard every day.",
    "A stone that bled milk in a farmer's field led a Magar priest to build my shrine above two meeting rivers.",
    "The 2015 earthquake tilted me towards the north-east; restorers rebuilt me and gilded my roof, door and windows with about 14 kg of gold.",
@@ -729,7 +729,7 @@
    "एक राजाले गुठी राखेका थिए, जसले गर्दा मेरो आँगनमा हरेक दिन पूजा हुन्छ र परेवालाई दाना खुवाइन्छ।",
    "किसानको खेतमा दूध बगाउने ढुङ्गा भेटिएपछि एक मगर पुजारीले दुई नदी भेटिने ठाउँमाथि मेरो मन्दिर बनाए।",
    "सन् 2015 को भूकम्पले मलाई उत्तरपूर्वतिर ढल्काइदियो। जीर्णोद्धार गर्दा मेरो छाना, ढोका र झ्यालमा करिब 14 केजी सुन चढाइयो।",
-   "सन् 1998 अघि भक्तजन तीन घण्टा उकालो हिँडेर आउँथे; अहिले करिब दश मिनेटको यात्राले पुर्‍याउँछ।",
+   "सन् 1998 अघि भक्तजन तीन घण्टा उकालो हिँडेर आउँथे; अहिले करिब दस मिनेटको यात्राले पुर्‍याउँछ।",
    "मेरो नामले मनको इच्छालाई जोड्छ, र एउटा केबलकारले मानिसलाई मेरो सुनौलो छानासम्म ल्याउँछ।"
   ]
  },
@@ -816,7 +816,7 @@
      "108",
      "1,008"
     ],
-    "explanation_np": "आँगनलाई घेरेर गाईको मुखजस्ता 108 वटा धारा छन्, जसलाई मुक्तिधारा भनिन्छ।"
+    "explanation_np": "आँगनलाई घेरेर साँढेको टाउकोजस्ता 108 वटा धारा छन्, जसलाई मुक्तिधारा भनिन्छ।"
    },
    {
     "q": "What do Tibetan Buddhists call Muktinath?",
@@ -848,7 +848,7 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "The 1814-15 construction is credited to Queen Subarna Prabha Devi, who made a pilgrimage around 1807.",
+    "explanation": "The 1814-15 construction is credited to Queen Subarna Prabha Devi.",
     "q_np": "लगभग 1815 मा हालको मन्दिर बनाउने श्रेय कुन रानीलाई दिइन्छ?",
     "options_np": [
      "राजेन्द्र लक्ष्मी",
@@ -856,7 +856,7 @@
      "ललित त्रिपुरा सुन्दरी",
      "चम्पावती"
     ],
-    "explanation_np": "1814-15 को निर्माणको श्रेय रानी सुवर्ण प्रभा देवीलाई दिइन्छ; उनले करिब 1807 मा तीर्थयात्रा गरेकी थिइन्।"
+    "explanation_np": "1814-15 को निर्माणको श्रेय रानी सुवर्ण प्रभा देवीलाई दिइन्छ।"
    },
    {
     "q": "Which mountain pass rises just above the Muktinath valley?",
@@ -929,7 +929,7 @@
     "answer_index": 2,
     "difficulty": 2,
     "explanation": "The poplars are said to have grown from the staffs of the eighty-four siddhas who passed through on their way to Tibet.",
-    "q_np": "किंवदन्तीअनुसार पवित्र वनका पोखरीका रूखहरू केबाट उम्रिए?",
+    "q_np": "किंवदन्तीअनुसार पवित्र वनका पोपलरका रूखहरू केबाट उम्रिए?",
     "options_np": [
      "भारतबाट ल्याइएका बीउबाट",
      "पद्मसम्भवको कपालबाट",
@@ -981,7 +981,7 @@
   ],
   "clues": [
    "My three-tiered roof ends in a golden pinnacle, and I stand small inside a grove of poplar trees.",
-   "I sit about 3,800 metres up at the foot of a famous pass, where the air is thin and cold.",
+   "I sit about 3,800 meters up at the foot of a famous pass, where the air is thin and cold.",
    "Pilgrims dash through a hundred and eight icy streams here, high in a dry mountain valley.",
    "My poplars are said to have sprouted from the staffs of eighty-four wandering saints on their way to Tibet.",
    "Hindus call me the Lord of Liberation and Buddhists call me the Hundred Springs; a flame burns beside water nearby.",
@@ -1091,7 +1091,7 @@
   ],
   "quake_np": null,
   "clues_np": [
-   "मेरो तीन तले छाना सुनौलो गजुरमा टुङ्गिन्छ, र म पोखरीका रूखहरूको बीचमा सानो भएर उभिएको छु।",
+   "मेरो तीन तहको छाना सुनौलो गजुरमा टुङ्गिन्छ, र म पोपलरका रूखहरूको बीचमा सानो भएर उभिएको छु।",
    "म एउटा चर्चित भञ्ज्याङको फेदीमा करिब 3,800 मिटर उचाइमा छु, जहाँ हावा पातलो र चिसो छ।",
    "यहाँ सुक्खा हिमाली उपत्यकामा तीर्थयात्री एक सय आठ चिसा धाराबाट दौडेर निस्कन्छन्।",
    "मेरा रूखहरू तिब्बततर्फ जाँदै गरेका चौरासी सिद्धका लट्ठीबाट उम्रेका हुन् भनिन्छ।",
@@ -1233,7 +1233,7 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "Wikipedia notes devotees visit especially in Baisakh and Kartik.",
+    "explanation": "Devotees visit especially in Baisakh and Kartik.",
     "q_np": "भक्तजन कुन दुई नेपाली महिनामा विशेष गरी दर्शन गर्न जान्छन्?",
     "options_np": [
      "माघ र फागुन",
@@ -1259,15 +1259,15 @@
      "पहाड",
      "टापु",
      "नदी",
-     "सरोवर"
+     "ताल"
     ],
-    "explanation_np": "ताल भनेको सरोवर हो; बाराही मातृशक्ति देवी हुन्, जसलाई नारीशक्तिको प्रतीक मानेर पुजिन्छ।"
+    "explanation_np": "ताल भनेको पानीको ठूलो जलाशय हो; बाराही मातृशक्ति देवी हुन्, जसलाई नारीशक्तिको प्रतीक मानेर पुजिन्छ।"
    },
    {
     "q": "Which mountain range floats above the water behind the temple on a clear morning?",
     "options": [
      "Langtang",
-     "Manaslu",
+     "Makalu",
      "Annapurna",
      "Kanchenjunga"
     ],
@@ -1277,7 +1277,7 @@
     "q_np": "सफा बिहान मन्दिरको पछाडि पानीमाथि कुन हिमाल देखिन्छ?",
     "options_np": [
      "लाङटाङ",
-     "मनास्लु",
+     "मकालु",
      "अन्नपूर्ण",
      "कञ्चनजङ्घा"
     ],
@@ -1603,7 +1603,7 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "Girvan Yuddha Bikram Shah appointed Kahindra Padhya Poudel as priest in 1815.",
+    "explanation": "Girvan Yuddha Bikram Shah appointed the temple's priest in June 1815.",
     "q_np": "सन् 1815 को जुनमा कुन राजाले मन्दिरको नयाँ पुजारी नियुक्त गरे?",
     "options_np": [
      "पृथ्वीनारायण शाह",
@@ -1611,10 +1611,10 @@
      "गीर्वाणयुद्ध विक्रम शाह",
      "राजेन्द्र विक्रम शाह"
     ],
-    "explanation_np": "सन् 1815 मा गीर्वाणयुद्ध विक्रम शाहले कहीन्द्र पाध्या पौडेललाई पुजारी नियुक्त गरे।"
+    "explanation_np": "सन् 1815 को जुनमा गीर्वाणयुद्ध विक्रम शाहले मन्दिरका पुजारी नियुक्त गरे।"
    },
    {
-    "q": "What colour is the main shikhara of the temple?",
+    "q": "What color is the main shikhara of the temple?",
     "options": [
      "White",
      "Red",
@@ -1659,7 +1659,7 @@
      "Prithvi Narayan Shah",
      "Siddhi Narayan Shah",
      "Rana Bahadur Shah",
-     "Kulmandan Shah"
+     "Ram Shah"
     ],
     "answer_index": 1,
     "difficulty": 2,
@@ -1669,7 +1669,7 @@
      "पृथ्वीनारायण शाह",
      "सिद्धि नारायण शाह",
      "रणबहादुर शाह",
-     "कुलमन्दन शाह"
+     "राम शाह"
     ],
     "explanation_np": "कास्कीका राजा सिद्धि नारायण शाहले विन्ध्याचलबाट देवीलाई ल्याउनुपर्छ भन्ने सपना देखे।"
    },
@@ -1823,7 +1823,7 @@
   ],
   "quake_np": null,
   "clues_np": [
-   "म सानो डाँडामाथिको सेतो शिखर हुँ; तीन तर्फबाट ढुङ्गाका भ्याङ मसम्म पुग्छन्, र अहिले वृद्धहरूका लागि लिफ्ट पनि छ।",
+   "म सानो डाँडामाथिको सेतो शिखर हुँ; तीन तर्फबाट ढुङ्गाका सिँढी मसम्म पुग्छन्, र अहिले वृद्धहरूका लागि लिफ्ट पनि छ।",
    "मेरो आँगन वरिपरि विद्याकी देवी, शिव, हनुमान, गणेश र विष्णुका मन्दिर र एउटा संस्कृत विद्यालय छन्।",
    "टाढाको पहाडबाट बोकेर ल्याइएको मूर्ति पुरानो पोखराको यही डाँडामा आएपछि एक पाइला पनि हिँड्न मानेन।",
    "मेरी देवी कंस नामका अत्याचारीबाट उम्केर आकाशमा उडेकी बच्चीका रूपमा जन्मिएकी थिइन्।",
@@ -1905,14 +1905,14 @@
     "answer_index": 2,
     "difficulty": 3,
     "explanation": "The eastern way has 292 steps; the southern route has 265.",
-    "q_np": "डाँडाको पूर्वी भागमा कतिवटा भ्याङ छन्?",
+    "q_np": "डाँडाको पूर्वी भागमा कतिवटा सिँढी छन्?",
     "options_np": [
      "108",
      "265",
      "292",
      "365"
     ],
-    "explanation_np": "पूर्वी बाटोमा 292 वटा भ्याङ छन्; दक्षिणी बाटोमा 265 वटा।"
+    "explanation_np": "पूर्वी बाटोमा 292 वटा सिँढी छन्; दक्षिणी बाटोमा 265 वटा।"
    },
    {
     "q": "Which festival draws the biggest crowds here?",
@@ -1964,7 +1964,7 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "Wikipedia records that the hill was previously known as 'Mudule Thumko'.",
+    "explanation": "The hill was previously known as 'Mudule Thumko'.",
     "q_np": "मन्दिर स्थापना हुनुअघि यो डाँडालाई के भनिन्थ्यो?",
     "options_np": [
      "सराङकोट",
@@ -1972,7 +1972,7 @@
      "कहुँ डाँडा",
      "मटेपानी"
     ],
-    "explanation_np": "विकिपिडियामा यो डाँडालाई पहिले 'मुदुले थुम्को' भनिन्थ्यो भनेर लेखिएको छ।"
+    "explanation_np": "यो डाँडालाई पहिले 'मुदुले थुम्को' भनिन्थ्यो।"
    },
    {
     "q": "In which part of Pokhara does Bhadrakali Temple stand?",
@@ -2196,10 +2196,10 @@
   "clues_np": [
    "अग्ला रूखले मेरो सानो डाँडालाई ढाकेका छन्; मेरो तह तहको छाना सुनौलो गजुरमा टुङ्गिन्छ, र एउटा ढुङ्गाको सिंह रखवाली गर्छ।",
    "मेरो परिसर करिब 135 रोपनीमा फैलिएको छ, रूखबीच गणेश मन्दिर र एउटा कुटी छन्।",
-   "मेरो सानो डाँडामाथिको मन्दिर पुग्न पूर्वबाट 292 वटा वा दक्षिणबाट 265 वटा भ्याङ रोज्नुहोस्।",
+   "मेरो सानो डाँडामाथिको मन्दिर पुग्न पूर्वबाट 292 वटा वा दक्षिणबाट 265 वटा सिँढी रोज्नुहोस्।",
    "यहाँ मन्दिर बन्नुअघि मानिसहरू यो थुम्कोलाई मुदुले थुम्को भन्थे।",
    "एक पुजारीले पूर्वी पोखराको रूख लागेको थुम्को खने, र भित्र एक उग्र देवी पर्खिरहेकी भेटे।",
-   "दशैंमा हजारौँ भक्तजनले मेरा शान्त बाटा भरिदिन्छन्; शक्तिकी देवी, काली र दुर्गाको रूपको पूजा गर्न।"
+   "दशैंमा हजारौँ भक्तजन मेरा शान्त बाटा भरेर आउँछन्, काली र दुर्गाकै रूप मानिने शक्तिकी देवीको पूजा गर्न।"
   ]
  },
  {
@@ -2383,7 +2383,7 @@
      "नदीको किनारमा",
      "विमानस्थल छेउमा"
     ],
-    "explanation_np": "मन्दिर बन्दिपुर बजारको उत्तरी छेउको ढुङ्गा छापिएको चोकमा छ।"
+    "explanation_np": "मन्दिर बन्दिपुर बजारको उत्तरी छेउको ढुङ्गा ओछ्याइएको चोकमा छ।"
    },
    {
     "q": "At about what height above sea level does Bandipur sit?",
@@ -2564,8 +2564,8 @@
   ],
   "quake_np": "वि.सं. 2072 (सन् 2015) को भूकम्पमा मन्दिरमा क्षति पुग्यो र पछि यसलाई फेरि बनाइयो, जुन कमन्सका फोटोग्राफरको वर्णनअनुसार हो।",
   "clues_np": [
-   "इँटा र कुँदिएको काठ सिँढीजस्तो आधारमाथि दुई तहमा उठेका छन्, ढुङ्गा छापिएको चोकमा।",
-   "मेरो वरिपरि झ्यालमा ढोका लगाइएका अग्ला घर छन्, तिनका बरण्डामुनि पसल छन्।",
+   "इँटा र कुँदिएको काठ सिँढीजस्तो आधारमाथि दुई तहमा उठेका छन्, ढुङ्गा ओछ्याइएको चोकमा।",
+   "मेरो वरिपरि पल्ला भएका झ्याल बसालिएका अग्ला घर छन्, तिनका बरण्डामुनि पसल छन्।",
    "पुरानो तिब्बत व्यापार मार्गको डाँडामाथिको सडकको छेउमा, भक्तपुरी शैलीका व्यापारी घरहरूको रखवाली गर्ने एउटा पगोडा छ।",
    "सन् 1768 पछि उपत्यकाका व्यापारी यहाँ आए, र महाभारत पर्वत शृङ्खलाको यो भञ्ज्याङमा औलोको डर थिएन।",
    "तलको उपत्यकामा राजमार्ग बनेपछि मेरो सहर डाँडामै एक्लियो, तर नयाँ वर्षमा देवी अझै रथमा सवार हुन्छिन्।",
@@ -2739,7 +2739,7 @@
     "q": "What is the shrine mainly built of?",
     "options": [
      "White marble",
-     "Grey stone",
+     "Gray stone",
      "Mud and thatch",
      "Red brick"
     ],
@@ -2750,7 +2750,7 @@
     "options_np": [
      "सेतो संगमरमर",
      "खैरो ढुङ्गा",
-     "माटो र परालको छानो",
+     "माटो र पराल",
      "रातो इँटा"
     ],
     "explanation_np": "यो ढलान परेको टायलको छाना भएको दुई तले रातो इँटाको मन्दिर हो।"
@@ -2796,24 +2796,24 @@
     "explanation_np": "मन्दिर बन्दिपुरका नेवार श्रेष्ठ परिवारका लागि विशेष महत्त्वको छ।"
    },
    {
-    "q": "In which century did King Mukunda Sen, owner of the sword, rule?",
+    "q": "Whose statue stands in the sanctum of the temple?",
     "options": [
-     "12th",
-     "14th",
-     "16th",
-     "19th"
+     "Khadgamai",
+     "Bhadrakali",
+     "Manakamana",
+     "Barahi"
     ],
-    "answer_index": 2,
-    "difficulty": 3,
-    "explanation": "The sword is believed to have belonged to Mukunda Sen, a king of the 16th century.",
-    "q_np": "तरबारका मालिक राजा मुकुन्द सेनले कुन शताब्दीमा शासन गरे?",
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "A statue of Khadgamai stands in the sanctum, with pati rest houses and big pipal trees nearby.",
+    "q_np": "मन्दिरको गर्भगृहमा कुन देवीको मूर्ति छ?",
     "options_np": [
-     "बाह्रौँ",
-     "चौधौँ",
-     "सोह्रौँ",
-     "उन्नाइसौँ"
+     "खड्गमाई",
+     "भद्रकाली",
+     "मनकामना",
+     "बाराही"
     ],
-    "explanation_np": "खड्ग सोह्रौँ शताब्दीका राजा मुकुन्द सेनको थियो भन्ने विश्वास गरिन्छ।"
+    "explanation_np": "गर्भगृहमा खड्गमाईको मूर्ति छ, नजिकै पाटी र ठूला पिपलका रूख छन्।"
    }
   ],
   "clues": [
@@ -2935,11 +2935,11 @@
   "quake_np": null,
   "clues_np": [
    "मेरा रातो इँटाका भित्तामाथि सानो टुप्पो र गजुर भएको ढलान परेको टायलको छाना छ।",
-   "मेरो ढोकासम्म पुग्न केही ढुङ्गाका भ्याङ छन्, र छेउमा पाटी भनिने पुराना विश्राम घर छन्।",
+   "मेरो ढोकासम्म पुग्न केही ढुङ्गाका सिँढी छन्, र छेउमा पाटी भनिने पुराना विश्राम घर छन्।",
    "नेवारी बजारमाथि ठूला पिपलका रूखमुनि एउटी देवीले शिवको उपहार भनिने हतियार राखेकी छन्।",
    "म जे सुरक्षित राख्छु त्यो सोह्रौँ शताब्दीका राजा मुकुन्द सेनको थियो भनिने तरबार हो।",
    "ठूलो शरद चाडको एक दिन मात्र मेरो ढोका खुल्छ, जब एक पुरानो राजाको तरबार सडकभरि बोकिन्छ।",
-   "शरद चाडमा मगर र विश्वकर्मा समुदायले मेरो खड्ग बोकेर जुलुस निकाल्छन्, र डाँडाको सहरका नेवार श्रेष्ठ परिवारले मलाई मन पराउँछन्।"
+   "शरद चाडमा मगर र विश्वकर्मा समुदायले मेरो खड्ग बोकेर जुलुस निकाल्छन्, र डाँडाको सहरका नेवार श्रेष्ठ परिवारले मलाई विशेष श्रद्धा राख्छन्।"
   ]
  },
  {
@@ -3056,7 +3056,7 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "The hall rests on 35 wooden pillars, originally 42.",
+    "explanation": "The hall rests on 35 wooden pillars.",
     "q_np": "थुबचेन ल्हाखाङको मुख्य हल अहिले कतिवटा काठका खम्बामा अडिएको छ?",
     "options_np": [
      "12",
@@ -3064,7 +3064,7 @@
      "35",
      "108"
     ],
-    "explanation_np": "हल 35 वटा काठका खम्बामा अडिएको छ, सुरुमा 42 वटा थिए।"
+    "explanation_np": "हल 35 वटा काठका खम्बामा अडिएको छ।"
    },
    {
     "q": "In which year did the king of Mustang lose his title?",
@@ -3127,7 +3127,7 @@
     "explanation_np": "पर्खालभित्रका घरका सपाट छानामा दाउरा थुपारिएको हुन्छ।"
    },
    {
-    "q": "What colour are the great walls of the monasteries Thubchen and Jampa?",
+    "q": "What color are the great walls of the monasteries Thubchen and Jampa?",
     "options": [
      "Red",
      "Blue",
@@ -3192,7 +3192,7 @@
    "Beyond my wall, green barley fields stretch into a desert of eroded cliffs.",
    "Walk through my only gate into the earthen capital of a vanished Himalayan kingdom, ruled by one line of kings for six centuries.",
    "A warrior named Ame Pal raised my wall in 1380; his line ruled here until Nepal became a republic in 2008.",
-   "My red temples hide 15th-century murals and a thousand painted mandalas, deep in a closed land opened to visitors in 1992.",
+   "My red temples hide 15th-century murals and the world's largest collection of painted mandalas, deep in a closed land opened to visitors in 1992.",
    "Every spring a masked-dance festival fills my streets, and foreigners need a costly special permit just to walk through my gate."
   ],
   "sources": [
@@ -3320,7 +3320,7 @@
    "मेरो पर्खालबाहिर खिइएका पहाडी भिरको मरुभूमिमा हरिया जौका खेत फैलिएका छन्।",
    "मेरो एउटै ढोकाबाट भित्र पस्नुहोस्; हराइसकेको एक हिमाली राज्यको माटोको राजधानी, जहाँ एउटै वंशका राजाले छ सय वर्ष शासन गरे।",
    "अमे पाल नामका योद्धाले सन् 1380 मा मेरो पर्खाल उठाए; सन् 2008 मा नेपाल गणतन्त्र नबनुन्जेल उनका सन्तानले यहीँ शासन गरे।",
-   "मेरा रातो मन्दिरहरूमा पन्ध्रौँ शताब्दीका भित्ते चित्र र हजारौँ चित्रित मण्डल लुकेका छन्, सन् 1992 मा मात्र पर्यटकका लागि खुलेको बन्द भूमिको गहिराइमा।",
+   "मेरा रातो मन्दिरहरूमा पन्ध्रौँ शताब्दीका भित्ते चित्र र संसारकै सबैभन्दा ठूलो चित्रित मण्डलको सङ्ग्रह लुकेका छन्, सन् 1992 मा मात्र पर्यटकका लागि खुलेको बन्द भूमिको गहिराइमा।",
    "हरेक वसन्तमा मुखुन्डा नाचको चाडले मेरा गल्ली भरिन्छन्, र विदेशीले मेरो ढोकाबाट छिर्न पनि महँगो विशेष अनुमतिपत्र लिनुपर्छ।"
   ]
  },
@@ -3412,7 +3412,7 @@
     "q": "What are the kheni figures at Kagbeni's gates believed to do?",
     "options": [
      "Bring rain",
-     "Count travellers",
+     "Count travelers",
      "Eat ghosts and guard the village",
      "Mark the border with Tibet"
     ],
@@ -3458,7 +3458,7 @@
     ],
     "answer_index": 2,
     "difficulty": 4,
-    "explanation": "Lonely Planet describes it as a Sakyapa monastery.",
+    "explanation": "Kag Chode belongs to the Sakya tradition.",
     "q_np": "काग छोडे गुम्बाले कुन बौद्ध परम्परा मान्छ?",
     "options_np": [
      "गेलुग",
@@ -3466,10 +3466,10 @@
      "साक्य",
      "काग्यु"
     ],
-    "explanation_np": "लोनली प्लानेटले यसलाई साक्यपा गुम्बा भनेको छ।"
+    "explanation_np": "काग छोडे साक्य परम्पराको गुम्बा हो।"
    },
    {
-    "q": "What colour are the walls of Kag Chode monastery?",
+    "q": "What color are the walls of Kag Chode monastery?",
     "options": [
      "Red",
      "White",
@@ -3572,7 +3572,7 @@
   "clues": [
    "Flat-roofed mud-brick houses crowd together in my village, linked by dark tunnel-like alleys.",
    "Near me stand the crumbling four-storey adobe towers of a local king's old palace.",
-   "Clay guardians nicknamed ghost eaters watch my gates, where travellers turn north into a once-forbidden kingdom.",
+   "Carved guardians nicknamed ghost eaters watch my gates, where travelers turn north into a once-forbidden kingdom.",
    "Hindu families come to my stony riverbanks to perform rites for their ancestors.",
    "My blood-red monastery has stood above a river meeting since 1429, and pilgrims rest here on the way to the hundred springs.",
    "My red walls belong to the Sakya tradition, and a flood on my river in August 2023 threatened them."
@@ -3684,7 +3684,7 @@
   "clues_np": [
    "मेरो गाउँमा सपाट छाना भएका माटो-इँटाका घर एकअर्कासँग टाँसिएका छन्, अँध्यारा सुरुङजस्ता गल्लीले जोडिएका।",
    "मेरो नजिकै एक स्थानीय राजाको पुरानो दरबारका भत्किँदै गरेका चार तले माटोका टावर छन्।",
-   "भूत खाने भनिने माटोका रक्षकले मेरा ढोका पहरा दिन्छन्, जहाँबाट यात्रीहरू कुनै बेला निषेध रहेको राज्यतिर उत्तर मोडिन्छन्।",
+   "भूत खाने भनिने कुँदिएका रक्षकले मेरा ढोका पहरा दिन्छन्, जहाँबाट यात्रीहरू कुनै बेला निषेध रहेको राज्यतिर उत्तर मोडिन्छन्।",
    "हिन्दू परिवार मेरा ढुङ्गैढुङ्गाका नदी किनारमा पितृको श्राद्ध गर्न आउँछन्।",
    "मेरो रगत रङको गुम्बा सन् 1429 देखि नदी मिल्ने ठाउँमाथि उभिएको छ, र तीर्थयात्री सय धारातिर जाँदा यहीँ बिसाउँछन्।",
    "मेरा रातो भित्ता साक्य परम्पराका हुन्, र सन् 2023 अगस्टमा मेरो खोलामा आएको बाढीले तिनलाई खतरामा पार्‍यो।"
@@ -3844,7 +3844,7 @@
     ],
     "answer_index": 3,
     "difficulty": 1,
-    "explanation": "The temple stands where the Rahughat (Rahu) stream joins the grey Kali Gandaki.",
+    "explanation": "The temple stands where the Rahughat (Rahu) stream joins the gray Kali Gandaki.",
     "q_np": "मन्दिरको छेउमा कालीगण्डकीमा कुन खोला मिल्छ?",
     "options_np": [
      "सेती",
@@ -3939,7 +3939,7 @@
    "A two-tiered pagoda roof stands on one enormous rock of about three ropani at the water's edge.",
    "Beside me a narrow pool among the rocks is said never to dry in winter nor overflow in the monsoon.",
    "A goddess's neck is said to have fallen at this river meeting, and a shrine of Shiva now sits on one giant rock.",
-   "A clear stream called Rahu rushes into a grey, wide river right at the foot of my rock.",
+   "A clear stream called Rahu rushes into a gray, wide river right at the foot of my rock.",
    "Pilgrims bound for the hundred springs of Mustang pause at me first, just north of Myagdi's headquarters.",
    "Each Maha Shivaratri, crowds from five districts light a great lamp at my door, tens of thousands in all."
   ],
@@ -4083,7 +4083,7 @@
    "यही नदी सङ्गममा एक देवीको गला खसेको भनिन्छ, र अहिले एउटा विशाल चट्टानमाथि शिवको मन्दिर छ।",
    "राहु नामको सफा खोला मेरो चट्टानको फेदमै एउटा खैरो फराकिलो नदीमा मिसिन्छ।",
    "मुस्ताङका सय धारा जाने तीर्थयात्री पहिले मकहाँ रोकिन्छन्, म्याग्दीको सदरमुकामको अलि उत्तरमा।",
-   "हरेक महाशिवरात्रिमा पाँच जिल्लाका भक्तजनले मेरो ढोकामा ठूलो दीप बाल्छन्, हजारौँ मानिस जम्मा हुन्छन्।"
+   "हरेक महाशिवरात्रिमा पाँच जिल्लाका भक्तजनले मेरो ढोकामा ठूलो दीप बाल्छन्, दशौँ हजार मानिस जम्मा हुन्छन्।"
   ]
  },
  {
@@ -4281,7 +4281,7 @@
     "answer_index": 2,
     "difficulty": 2,
     "explanation": "The Trishuli, coming from the north-east, is fed by Gosaikunda.",
-    "q_np": "यहाँ कालीगण्डकीसँग मिल्ने त्रिशूली नदीलाई कुन ताल/कुण्डले पानी दिन्छ?",
+    "q_np": "यहाँ कालीगण्डकीसँग मिल्ने त्रिशूली नदीलाई कुन तालले पानी दिन्छ?",
     "options_np": [
      "रारा",
      "फेवा",
@@ -4336,7 +4336,7 @@
    "Elderly Hindus come to spend their last years beside my waters.",
    "A river from Mustang and a river from Gosaikunda meet below my steps, and a swinging bridge joins two districts.",
    "Pilgrims sift my gravel for stones they worship as Vishnu himself.",
-   "In the month of Magh, pilgrims crowd my banks to bathe where Shiva and Vishnu are honoured together.",
+   "In the month of Magh, pilgrims crowd my banks to bathe where Shiva and Vishnu are honored together.",
    "The sage Vasistha is said to have had his ashram here, and below me the joined river is called the Narayani."
   ],
   "sources": [
@@ -4462,7 +4462,7 @@
   "clues_np": [
    "मेरा किनारमा साना मन्दिर, शान्त आश्रम र सीतासँग जोडिने एउटा गुफासमेत छन्।",
    "धेरै वृद्ध हिन्दू आफ्नो अन्तिम समय मेरो पानीको छेउमा बिताउन आउँछन्।",
-   "मुस्ताङबाट आएको नदी र गोसाइँकुण्डबाट आएको नदी मेरा भ्याङमुनि भेटिन्छन्, र एउटा झोलुङ्गे पुलले दुई जिल्लालाई जोड्छ।",
+   "मुस्ताङबाट आएको नदी र गोसाइँकुण्डबाट आएको नदी मेरा सिँढीमुनि भेटिन्छन्, र एउटा झोलुङ्गे पुलले दुई जिल्लालाई जोड्छ।",
    "तीर्थयात्री मेरा बालुवा-गिट्टी खोतलेर विष्णु नै मानेर पुजिने ढुङ्गा खोज्छन्।",
    "माघ महिनामा शिव र विष्णु दुवैको सम्मान हुने मेरो किनारमा नुहाउन तीर्थयात्रीको भीड लाग्छ।",
    "ऋषि वशिष्ठले यहीँ आश्रम बनाएका थिए भनिन्छ, र मुनि मिलेको नदीलाई नारायणी भनिन्छ।"
@@ -4652,7 +4652,7 @@
     "explanation_np": "बाटो अँध्यारो र चिप्लो हुन्छ; हेल्मेट र हेडल्याम्प दिइन्छ।"
    },
    {
-    "q": "What is the adult entry fee, plus a compulsory guide of the same price (showcaves.com, 2025)?",
+    "q": "According to showcaves.com (2025), what is the entry fee for an adult?",
     "options": [
      "Free",
      "NPR 20",
@@ -4662,7 +4662,7 @@
     "answer_index": 2,
     "difficulty": 2,
     "explanation": "The fee is NPR 100 per adult plus NPR 100 for a compulsory guide.",
-    "q_np": "वयस्कको प्रवेश शुल्क (शोकेभ्स डटकम, सन् 2025) कति हो, र उत्तिकै पर्ने अनिवार्य गाइड पनि चाहिन्छ?",
+    "q_np": "showcaves.com (सन् 2025) अनुसार वयस्कको प्रवेश शुल्क कति हो?",
     "options_np": [
      "निःशुल्क",
      "रु. 20",
@@ -4681,7 +4681,7 @@
     ],
     "answer_index": 1,
     "difficulty": 2,
-    "explanation": "It is open daily all year, 10:00-17:00.",
+    "explanation": "Showcaves.com (2025) lists it open daily all year, 10:00-17:00.",
     "q_np": "गुफा दैनिक कुन समय खुला हुन्छ?",
     "options_np": [
      "6:00-9:00",
@@ -4689,7 +4689,7 @@
      "18:00-22:00",
      "24 घण्टा"
     ],
-    "explanation_np": "यो वर्षभरि दैनिक 10:00-17:00 खुला हुन्छ।"
+    "explanation_np": "showcaves.com (सन् 2025) अनुसार यो वर्षभरि दैनिक 10:00-17:00 खुला हुन्छ।"
    },
    {
     "q": "Which nationality of cave explorers surveyed the cave in 1990 and 1991?",
@@ -4715,9 +4715,9 @@
   "clues": [
    "Layers of brown and white limestone line my walls, and stalactites and stalagmites fill my chambers.",
    "A forested slope above a highway leads to my entrance, about thirty minutes' walk uphill from a small bazaar.",
-   "A herb gatherer stumbled on my dark mouth in 1989, halfway up the trail to a Newar hill town.",
+   "A herb gatherer stumbled on my dark mouth in 1989, on the old trail up to a Newar hill town.",
    "German cave explorers mapped my passages in 1990 and 1991; I am among the largest caves in the country.",
-   "Bring a torch: inside me, stone elephants, snake heads and turtles hang from the roof among sleeping bats.",
+   "Bring a flashlight: inside me, stone elephants, snake heads and turtles hang from the roof among sleeping bats.",
    "Pilgrims read my rock shapes as signs of Shiva, and my name means an accomplished ascetic; meditators sometimes stay in a shelter inside."
   ],
   "sources": [
@@ -4831,7 +4831,7 @@
   "clues_np": [
    "मेरा भित्तामा खैरो र सेतो चूनढुङ्गाका तह छन्, र मेरा कोठा स्टालाक्टाइट र स्टालाग्माइटले भरिएका छन्।",
    "राजमार्गमाथिको रूख लागेको भिरालो डाँडाले मेरो मुखसम्म पुर्‍याउँछ, सानो बजारबाट करिब तीस मिनेट उकालो हिँड्नुपर्छ।",
-   "सन् 1989 मा एक जडीबुटी टिप्ने महिलाले नेवारी डाँडाको सहर जाने बाटोको आधा उकालोमा मेरो अँध्यारो मुख भेटिन्।",
+   "सन् 1989 मा एक जडीबुटी टिप्ने महिलाले नेवारी डाँडाको सहर जाने पुरानो बाटोमा मेरो अँध्यारो मुख भेटिन्।",
    "जर्मन गुफा अन्वेषकले सन् 1990 र 1991 मा मेरो बाटोको नक्सा बनाए; म देशकै ठूला गुफामध्ये एक हुँ।",
    "टर्च लिएर आउनुहोस्: मभित्र हात्ती, सर्पको टाउको र कछुवाजस्ता ढुङ्गाका आकृति सुतिरहेका चमेराबीच छतबाट झुन्डिएका छन्।",
    "तीर्थयात्रीले मेरा चट्टानका आकृतिलाई शिवका चिह्न ठान्छन्, र मेरो नामको अर्थ सिद्धि पाएका तपस्वी हो; भित्र कहिलेकाहीँ ध्यान गर्नेहरू बस्ने बास पनि छ।"
@@ -4921,24 +4921,24 @@
     "explanation_np": "चोकमा चार दिशामा एक-एकवटा गरी चारवटा प्रवेशद्वार छन्।"
    },
    {
-    "q": "In which Nepali month is the main festival, Chaite Dashain, held?",
+    "q": "What do some couples do at the temple during Chaite Dashain?",
     "options": [
-     "Ashwin",
-     "Chaitra",
-     "Magh",
-     "Shrawan"
+     "Get married",
+     "Hold a boat race",
+     "Plant trees",
+     "Take a vow of silence"
     ],
-    "answer_index": 1,
-    "difficulty": 3,
-    "explanation": "Chaite Dashain falls on the eighth day of the bright fortnight of Chaitra.",
-    "q_np": "मुख्य चाड चैते दशैं नेपाली कुन महिनामा मनाइन्छ?",
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "On Chaite Dashain some couples marry here for the goddess's blessing.",
+    "q_np": "चैते दशैंमा केही जोडी मन्दिरमा के गर्छन्?",
     "options_np": [
-     "असोज",
-     "चैत",
-     "माघ",
-     "श्रावण"
+     "विवाह गर्छन्",
+     "डुङ्गा दौड गर्छन्",
+     "रूख रोप्छन्",
+     "मौन व्रत बस्छन्"
     ],
-    "explanation_np": "चैते दशैं चैत शुक्ल पक्षको अष्टमीमा पर्छ।"
+    "explanation_np": "चैते दशैंमा केही जोडी देवीको आशीर्वाद लिन यहीँ विवाह गर्छन्।"
    },
    {
     "q": "How did the king of Parbat receive the goddess's image, according to folklore?",
@@ -4970,7 +4970,7 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "Pigeon sacrifice ended on 13 April 2016 because the pigeon symbolises peace.",
+    "explanation": "Pigeon sacrifice ended on 13 April 2016.",
     "q_np": "सन् 2016 अप्रिलमा मन्दिरमा कुन चलन बन्द गरियो?",
     "options_np": [
      "बोकाको बलि",
@@ -4978,10 +4978,10 @@
      "नरिवल चढाउने",
      "चामल चढाउने"
     ],
-    "explanation_np": "परेवा शान्तिको प्रतीक भएकाले 13 अप्रिल 2016 मा परेवाको बलि बन्द गरियो।"
+    "explanation_np": "13 अप्रिल 2016 मा परेवाको बलि बन्द गरियो।"
    },
    {
-    "q": "What colour is the temple's three-tiered pagoda?",
+    "q": "What color is the temple's three-tiered pagoda?",
     "options": [
      "White",
      "Green",
@@ -5337,14 +5337,14 @@
     "answer_index": 2,
     "difficulty": 3,
     "explanation": "Showcaves.com records the staircase at the entrance as built in 1991.",
-    "q_np": "प्रवेशको भ्याङ कुन वर्षमा बनाइएको थियो?",
+    "q_np": "प्रवेशको सिँढी कुन वर्षमा बनाइएको थियो?",
     "options_np": [
      "1950",
      "1976",
      "1991",
      "2015"
     ],
-    "explanation_np": "शोकेभ्स डटकमका अनुसार प्रवेशको भ्याङ सन् 1991 मा बनेको हो।"
+    "explanation_np": "शोकेभ्स डटकमका अनुसार प्रवेशको सिँढी सन् 1991 मा बनेको हो।"
    },
    {
     "q": "Which river, draining Phewa Lake, flows through the cave?",
@@ -5356,7 +5356,7 @@
     ],
     "answer_index": 1,
     "difficulty": 4,
-    "explanation": "Wikipedia notes the river draining Phewa Tal through the cave is the Pardi Khola.",
+    "explanation": "The river draining Phewa Lake through the cave is the Pardi Khola.",
     "q_np": "फेवा तालको निकास भएर गुफाभित्र बग्ने खोला कुन हो?",
     "options_np": [
      "सेती",
@@ -5364,7 +5364,7 @@
      "बिजयपुर खोला",
      "मादी"
     ],
-    "explanation_np": "विकिपिडियाका अनुसार फेवा तालको निकास भएर गुफाभित्र बग्ने खोला पर्दी खोला हो।"
+    "explanation_np": "फेवा तालको निकास भएर गुफाभित्र बग्ने खोला पर्दी खोला हो।"
    },
    {
     "q": "Which animals roost in the darkness of the cave?",
@@ -5401,10 +5401,10 @@
     "options_np": [
      "डुङ्गाबाट",
      "केबलकारबाट",
-     "घुम्ती भ्याङबाट तल झरेर",
+     "घुम्ती सिँढीबाट तल झरेर",
      "डोरीको पुलबाट"
     ],
-    "explanation_np": "गुफाभित्र घुम्ती कंक्रिटको भ्याङबाट तल झरेर पसिन्छ।"
+    "explanation_np": "गुफाभित्र घुम्ती कंक्रिटको सिँढीबाट तल झरेर पसिन्छ।"
    },
    {
     "q": "What might have shaped the lingam in the first chamber?",
@@ -5471,9 +5471,9 @@
    "Inside me, a chamber behind metal bars holds a lingam perhaps shaped by nature as a stalagmite.",
    "Great leaf-nosed bats and fruit bats live in my darkness, counted by British researchers in the 1970s.",
    "Spiral down beneath a busy road to meet a hidden lord, then keep going to watch a famous waterfall from behind.",
-   "My lower passage drops about twenty metres through a damp, narrow gap to a river.",
+   "My lower passage drops about twenty meters through a damp, narrow gap to a river.",
    "The outflow of a big lake vanishes into the ground opposite me, and I let pilgrims see where it goes.",
-   "Stand in my lowest passage and you are behind the thundering waterfall just across the road."
+   "Reported found in 1950, entered by a staircase built in 1991, and about 2,950 meters long by one survey, I lie in the Chhorepatan area of a lake city."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Gupteshwor_Mahadev_Cave",
@@ -5590,7 +5590,7 @@
    "व्यस्त सडकमुनि घुम्दै झर्नुहोस् र लुकेका भगवानलाई भेट्नुहोस्, अनि अझै तल गएर प्रसिद्ध झरनालाई पछाडिबाट हेर्नुहोस्।",
    "मेरो तल्लो बाटो चिसो साँघुरो ओडारबाट करिब बीस मिटर तल नदीसम्म झर्छ।",
    "ठूलो तालको निकास मेरो सामुन्ने जमिनमा हराउँछ, र तीर्थयात्रीलाई म त्यो कहाँ जान्छ देखाउँछु।",
-   "मेरो सबैभन्दा तल्लो बाटोमा उभिनुभयो भने तपाईं सडकपारिको गर्जँदै खस्ने झरनाको पछाडि हुनुहुन्छ।"
+   "सन् 1950 मा भेटिएको भनिएको, सन् 1991 मा बनेको सिँढीबाट पस्नुपर्ने, र एउटा सर्भेअनुसार करिब 2,950 मिटर लामो म ताल सहरको छोरेपाटन क्षेत्रमा छु।"
   ]
  }
 ]

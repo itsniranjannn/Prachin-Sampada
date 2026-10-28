@@ -421,7 +421,7 @@ export default function make(K) {
         <FwHill p={[-34, -2, -60]} sc={[28, 22, 22]} m={dry} />
         <FwHill p={[30, -2, -62]} sc={[30, 28, 24]} m={brown} />
         {Array.from({ length: 28 }, (_, i) => { const side = i % 2 ? 1 : -1; return <Tree key={i} p={[side * (30 + rnd(i, 2) * 14), 2 + rnd(i, 3) * 12, -50 + rnd(i, 4) * 90]} s={2.6 + rnd(i, 5) * 1.5} kind="pine" />; })}
-        {Array.from({ length: 16 }, (_, i) => <Tree key={`w${i}`} p={[sinjaX(-40 + i * 5) + (i % 2 ? 4 : -4), 0, -40 + i * 5]} s={1.2 + rnd(i, 8) * 0.6} kind="broad" />)}
+        {Array.from({ length: 16 }, (_, i) => (Math.abs(-40 + i * 5) < 14 ? null : <Tree key={`w${i}`} p={[sinjaX(-40 + i * 5) + (i % 2 ? 5 : -5), 0, -40 + i * 5]} s={1.2 + rnd(i, 8) * 0.6} kind="broad" />))}
         <FwPeak p={[-18, -2, -100]} r={26} h={44} rock={M.mat('rock', 4, 4, { color: '#8b8a90' })} />
         <FwPeak p={[22, -2, -105]} r={30} h={52} rock={M.mat('rock', 4, 4, { color: '#85848c' })} />
         <FwPeak p={[60, -2, -90]} r={22} h={34} rock={M.mat('rock', 4, 4, { color: '#8b8a90' })} />
@@ -1665,85 +1665,200 @@ export default function make(K) {
      Parshuram Dham, Mahakali bank: towering painted statue of the bearded sage with axe and bow on a
      stepped plinth, painted gateway with Hanuman and Bhairav shrines, brick Ganesh temple, river
      ===================================================================================== */
+  /** Round limb between two points a and b (radius r0 at a, r1 at b). */
+  function FwLimb({ a, b, r0 = 0.3, r1 = 0.25, m }) {
+    const va = new THREE.Vector3(...a); const vb = new THREE.Vector3(...b);
+    const d = vb.clone().sub(va); const len = d.length();
+    const q = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 1, 0), d.normalize());
+    const c = va.clone().add(vb).multiplyScalar(0.5);
+    return <mesh position={[c.x, c.y, c.z]} quaternion={q} material={m} castShadow><cylinderGeometry args={[r1, r0, len, 10]} /></mesh>;
+  }
+  /** Painted lettering on a plain panel; vertical stacks one syllable per line. */
+  function useLetterTex(lines, w, h, bg, fg, vertical = false) {
+    return useMemo(() => {
+      const c = document.createElement('canvas');
+      c.width = w; c.height = h;
+      const g = c.getContext('2d');
+      g.fillStyle = bg; g.fillRect(0, 0, w, h);
+      g.fillStyle = fg; g.textAlign = 'center'; g.textBaseline = 'middle';
+      const sz = vertical ? Math.min(w * 0.78, (h / lines.length) * 0.8) : Math.min((h / lines.length) * 0.7, (w / Math.max(...lines.map((s) => s.length))) * 1.5);
+      g.font = `bold ${sz}px 'Noto Sans Devanagari','Nirmala UI','Mangal',Arial,sans-serif`;
+      lines.forEach((s, i) => g.fillText(s, w / 2, ((i + 0.5) * h) / lines.length));
+      const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 4;
+      return t;
+    }, [lines.join('|'), w, h, bg, fg, vertical]);
+  }
+  function FwSign({ p, w, h, tex, rot = [0, 0, 0] }) {
+    return <mesh position={p} rotation={rot}><planeGeometry args={[w, h]} /><meshStandardMaterial map={tex} roughness={0.8} /></mesh>;
+  }
+  /** Parshuram's axe blade: a broad crescent, flat plate in the XY plane. */
+  function FwAxeBlade({ p, s = 1, flip = 1, m }) {
+    const g = useMemo(() => {
+      const sh = new THREE.Shape();
+      sh.moveTo(0, -0.5); sh.bezierCurveTo(0.6, -1.0, 1.8, -0.8, 1.7, 0.1); sh.bezierCurveTo(1.6, 0.9, 0.6, 1.1, 0, 0.75); sh.lineTo(0, -0.5);
+      const gg = new THREE.ExtrudeGeometry(sh, { depth: 0.1, bevelEnabled: true, bevelSize: 0.03, bevelThickness: 0.03, bevelSegments: 1, curveSegments: 14 });
+      gg.translate(0, 0, -0.05);
+      return gg;
+    }, []);
+    return <mesh geometry={g} material={m} position={p} scale={[s * flip, s, s]} castShadow />;
+  }
+  /** Gateway face: a wall with a round-arched opening cut through it. */
+  function FwArchFace({ w = 3.4, h = 3.8, hw = 1.0, hh = 2.5, d = 0.7, m }) {
+    const g = useMemo(() => {
+      const sh = new THREE.Shape();
+      sh.moveTo(-w / 2, 0); sh.lineTo(w / 2, 0); sh.lineTo(w / 2, h); sh.lineTo(-w / 2, h); sh.closePath();
+      const hole = new THREE.Path();
+      hole.moveTo(-hw, 0); hole.lineTo(-hw, hh - hw); hole.absarc(0, hh - hw, hw, Math.PI, 0, true); hole.lineTo(hw, 0); hole.closePath();
+      sh.holes.push(hole);
+      const gg = new THREE.ExtrudeGeometry(sh, { depth: d, bevelEnabled: false, curveSegments: 24 });
+      gg.translate(0, 0, -d / 2);
+      return gg;
+    }, [w, h, hw, hh, d]);
+    return <mesh geometry={g} material={m} castShadow receiveShadow />;
+  }
+  /** Small gable-roofed shrine with a round dark opening and a name board. */
+  function FwShrineSmall({ p, roofC, trimC, tex, deity }) {
+    const M = useM();
+    const cream = M.plain('#f3e2cc', { roughness: 0.9 });
+    return (
+      <group position={p}>
+        <Box s={[2.1, 0.22, 1.7]} p={[0, 0.11, 0]} m={M.plain('#d98c80')} />
+        <Box s={[1.9, 1.45, 1.5]} p={[0, 0.95, 0]} m={cream} />
+        <mesh position={[0, 0.95, 0.76]} rotation={[Math.PI / 2, 0, 0]} material={M.plain('#2a201a')}><cylinderGeometry args={[0.42, 0.42, 0.06, 20]} /></mesh>
+        <mesh position={[0, 0.95, 0.8]} material={M.plain('#6a4a3a')}><torusGeometry args={[0.43, 0.05, 6, 22]} /></mesh>
+        <Ball rad={0.2} sc={[0.9, 1.2, 0.6]} p={[0, 0.88, 0.7]} m={M.plain(deity, { roughness: 0.9 })} />
+        <FwSign p={[0, 1.62, 0.78]} w={1.0} h={0.22} tex={tex} />
+        <group position={[0, 1.68, 0]}><FwGable w={2.3} d={1.9} h={0.7} m={M.plain(roofC, { roughness: 0.8 })} wallM={cream} ov={0.22} /></group>
+        {[-1, 1].map((k) => <Box key={k} s={[0.08, 0.1, 2.0]} p={[k * 1.14, 1.72, 0]} m={M.plain(trimC)} cast={false} />)}
+      </group>
+    );
+  }
   function ParshuMain() {
     const M = useM();
-    const skin = M.plain('#d99a7a', { roughness: 0.8 });
-    const saffron = M.plain('#ef8f66', { roughness: 0.8 });
-    const dhoti = M.plain('#ec9c74', { roughness: 0.8 });
+    const skin = M.plain('#d9967a', { roughness: 0.8 });
+    const orange = M.plain('#ee8a63', { roughness: 0.8 });
+    const dhoti = M.plain('#f0a07a', { roughness: 0.8 });
     const green = M.plain('#2f9a63', { roughness: 0.8 });
-    const black = M.plain('#17130f', { roughness: 0.9 });
+    const black = M.plain('#14110e', { roughness: 0.9 });
     const yellow = M.plain('#e8b82c', { roughness: 0.7 });
     const stone = M.plain('#cfc6b6', { roughness: 1 });
-    const pink = M.plain('#f0a28a', { roughness: 0.85 });
-    const blue = M.plain('#2f78c2', { roughness: 0.8 });
-    const cream = M.plain('#f6e3cc', { roughness: 0.85 });
+    const steel = M.plain('#c9ccd2', { metalness: 0.25, roughness: 0.4 });
+    const red = M.plain('#c8382c');
+    const white = M.plain('#f6f2e8');
+    const bead = M.plain('#3a2214', { roughness: 0.7 });
+    const gold = M.plain('#c98a2a', { roughness: 0.5, metalness: 0.4 });
+    const cream = M.plain('#f3e6da', { roughness: 0.9 });
+    const bluePaint = M.plain('#2f78c2', { roughness: 0.8 });
+    const pinkRoof = M.plain('#ee9a8c', { roughness: 0.8 });
+    const wel = useLetterTex(['स्वा', 'ग', 'त', 'म्'], 96, 512, '#f6ebde', '#c8382c', true);
+    const come = useLetterTex(['W', 'E', 'L', 'C', 'O', 'M', 'E'], 96, 512, '#f6ebde', '#c8382c', true);
+    const nameTex = useLetterTex(['श्री परशुराम धाम'], 512, 96, '#f6ebde', '#b3302a');
+    const hanu = useLetterTex(['हनुमान मन्दिर'], 256, 64, '#f6ebde', '#b3302a');
+    const bhai = useLetterTex(['भैरव मन्दिर'], 256, 64, '#f6ebde', '#b3302a');
+    const ganesh = useLetterTex(['गणेश मन्दिर'], 256, 64, '#f4e3b0', '#7a2a1a');
+    const arcPts = 0.43;
     return (
       <group>
         {/* five-step plinth */}
         {[0, 1, 2, 3, 4].map((k) => <Box key={k} s={[6.4 - k * 0.8, 0.4, 5.2 - k * 0.7]} p={[0, 0.2 + k * 0.4, -2]} m={k % 2 ? stone : M.plain('#e8ddc9', { roughness: 1 })} />)}
-        <group position={[0, 2.0, -2]} scale={1.15}>
-          {/* long wrapped saffron dhoti, bare feet, green sash with a hanging knot */}
-          {[-0.5, 0.5].map((x) => <Box key={x} s={[0.55, 0.3, 1.0]} p={[x, 0.15, 0.25]} m={skin} />)}
-          <Cyl rt={0.95} rb={1.2} h={4.0} p={[0, 2.3, 0]} m={dhoti} seg={18} />
-          {[-0.5, 0.5].map((x) => <Cyl key={x} rt={0.42} rb={0.5} h={3.4} p={[x, 1.9, 0.12]} m={dhoti} seg={12} />)}
-          <Cyl rt={1.0} rb={1.0} h={0.35} p={[0, 4.35, 0]} m={green} seg={18} />
-          <Box s={[0.4, 1.1, 0.14]} p={[0.2, 3.7, 1.0]} r={[0, 0, 0.1]} m={green} />
-          <Box s={[0.14, 0.8, 0.1]} p={[0.1, 4.2, 1.02]} r={[0, 0, -0.2]} m={M.plain('#c8382c')} cast={false} />
-          {/* bare torso, shoulders, orange sash across the chest, rudraksha strings */}
-          <Cyl rt={1.15} rb={0.95} h={2.2} p={[0, 5.6, 0]} m={skin} seg={16} />
-          <Ball rad={0.5} p={[-1.15, 6.5, 0]} m={skin} /><Ball rad={0.5} p={[1.15, 6.5, 0]} m={skin} />
-          <Cyl rt={0.3} h={0.4} p={[0, 6.9, 0]} m={skin} seg={10} />
-          <mesh position={[0, 5.9, 0.05]} rotation={[0, 0, 0.75]} material={saffron}><boxGeometry args={[2.6, 0.32, 1.9]} /></mesh>
-          {[0, 1, 2].map((i) => <mesh key={i} position={[0, 6.5 - i * 0.45, 0.62]} rotation={[0.5, 0, 0]} scale={[1 - i * 0.08, 1, 1.2]} material={M.plain(i === 1 ? '#c98a2a' : '#2a1a12')}><torusGeometry args={[0.62, 0.05, 6, 24]} /></mesh>)}
-          {/* right arm hangs holding the tall yellow bow, left arm bent up holding the axe */}
-          <Cyl rt={0.26} rb={0.3} h={1.6} p={[-1.45, 5.7, 0.1]} r={[0.1, 0, -0.1]} m={skin} seg={10} />
-          <Cyl rt={0.22} rb={0.26} h={1.5} p={[-1.5, 4.3, 0.35]} r={[-0.3, 0, -0.05]} m={skin} seg={10} />
-          <Ball rad={0.27} p={[-1.55, 3.65, 0.65]} m={skin} />
-          <mesh position={[-1.6, 5.9, 0.1]} material={M.plain('#2a1a12')}><torusGeometry args={[0.3, 0.05, 6, 12]} /></mesh>
-          <Cyl rt={0.17} h={9.2} p={[-1.7, 4.9, 0.75]} r={[0, 0, 0.03]} m={yellow} seg={8} />
-          <Cyl rt={0.26} rb={0.3} h={1.5} p={[1.5, 5.8, 0.25]} r={[0.5, 0, 0.25]} m={skin} seg={10} />
-          <Cyl rt={0.22} rb={0.26} h={1.4} p={[1.95, 6.35, 0.95]} r={[-0.15, 0, 0.1]} m={skin} seg={10} />
-          <Ball rad={0.27} p={[2.0, 6.9, 0.95]} m={skin} />
-          <Cyl rt={0.06} h={4.4} p={[2.0, 6.0, 0.95]} m={M.plain('#7a4a2a')} seg={6} />
-          <Box s={[0.12, 1.0, 0.7]} p={[2.0, 8.0, 0.95]} m={M.plain('#b9b9bd', { metalness: 0.7, roughness: 0.3 })} />
-          <Box s={[0.5, 0.7, 0.14]} p={[2.25, 8.2, 0.95]} m={M.plain('#b9b9bd', { metalness: 0.7, roughness: 0.3 })} />
-          {/* head: face, eyes, nose, moustache, long black beard down the chest, hair and top-knot, tilak */}
-          <Ball rad={0.62} sc={[0.95, 1.12, 0.95]} p={[0, 7.55, 0.05]} m={skin} />
-          <Ball rad={0.7} sc={[0.95, 1.2, 0.7]} p={[0, 6.85, 0.5]} m={black} />
-          <Ball rad={0.62} sc={[0.8, 0.85, 0.5]} p={[0, 6.1, 0.8]} m={black} />
-          <Ball rad={0.13} sc={[1.4, 0.45, 0.6]} p={[0, 7.3, 0.7]} m={black} />
-          {[-1, 1].map((k) => <group key={k}><Ball rad={0.09} sc={[1.3, 0.7, 0.5]} p={[k * 0.25, 7.65, 0.64]} m={M.plain('#f6f2e8')} /><Ball rad={0.045} p={[k * 0.25, 7.65, 0.69]} m={black} /><Box s={[0.28, 0.05, 0.06]} p={[k * 0.25, 7.82, 0.66]} m={black} cast={false} /></group>)}
-          <Ball rad={0.1} sc={[0.8, 1.3, 0.8]} p={[0, 7.5, 0.7]} m={skin} />
-          <Box s={[0.06, 0.28, 0.04]} p={[0, 7.98, 0.66]} m={M.plain('#c8382c')} cast={false} />
-          <Ball rad={0.72} sc={[1.0, 0.6, 1.0]} p={[0, 8.0, -0.02]} m={black} />
-          <Ball rad={0.28} p={[0, 8.55, -0.05]} m={black} />
-          {/* quiver and arrows on the back */}
-          <Cyl rt={0.22} h={1.9} p={[-0.6, 6.5, -0.95]} r={[0, 0, 0.45]} m={M.plain('#c4802a')} seg={8} />
-          {[0, 1, 2].map((i) => <Cyl key={i} rt={0.03} h={0.7} p={[-1.0 + i * 0.14, 7.55 + i * 0.05, -0.95]} r={[0, 0, 0.45]} m={M.plain('#f1ece0')} seg={5} />)}
+        <group position={[0, 2.0, -2]} scale={1.2}>
+          {/* bare feet and a long wrapped saffron dhoti falling in folds */}
+          {[-0.5, 0.5].map((x) => <Box key={x} s={[0.6, 0.28, 1.1]} p={[x, 0.14, 0.3]} m={skin} />)}
+          <Cyl rt={0.85} rb={1.1} h={3.6} p={[0, 2.0, 0]} m={dhoti} seg={20} />
+          {[-0.52, 0.52].map((x) => <Cyl key={x} rt={0.4} rb={0.52} h={3.3} p={[x, 1.85, 0.2]} m={dhoti} seg={12} />)}
+          {[-0.2, 0.2].map((x, i) => <Box key={i} s={[0.07, 2.8, 0.1]} p={[x, 1.9, 0.98 + i * 0.01]} m={M.plain('#d98462')} cast={false} />)}
+          {/* green waist sash with a hanging knot and striped ends */}
+          <Cyl rt={0.95} rb={1.0} h={0.34} p={[0, 3.75, 0]} m={green} seg={20} />
+          <Ball rad={0.24} sc={[1.2, 1, 0.7]} p={[0.15, 3.75, 0.98]} m={green} />
+          <Box s={[0.38, 1.1, 0.1]} p={[0.05, 3.1, 1.0]} r={[0, 0, 0.08]} m={green} />
+          <Box s={[0.34, 0.9, 0.1]} p={[0.4, 3.2, 1.01]} r={[0, 0, -0.12]} m={white} cast={false} />
+          <Box s={[0.34, 0.18, 0.11]} p={[0.42, 2.8, 1.02]} r={[0, 0, -0.12]} m={red} cast={false} />
+          {/* torso: broad chest, shoulders, neck */}
+          <group scale={[1, 1, 0.72]}><Cyl rt={1.12} rb={0.92} h={2.3} p={[0, 5.0, 0]} m={skin} seg={18} /></group>
+          <Ball rad={0.5} p={[-1.15, 6.05, 0]} m={skin} /><Ball rad={0.5} p={[1.15, 6.05, 0]} m={skin} />
+          <Cyl rt={0.3} rb={0.36} h={0.5} p={[0, 6.3, 0.05]} m={skin} seg={10} />
+          {/* orange shawl over the left shoulder and across the chest to the right hip */}
+          <mesh position={[0.1, 5.2, 0.12]} rotation={[0, 0, 0.8]} material={orange}><boxGeometry args={[2.9, 0.36, 1.5]} /></mesh>
+          <Ball rad={0.56} p={[1.15, 6.12, 0.04]} sc={[1, 0.8, 1]} m={orange} />
+          {/* rudraksha strings: three hanging loops, a gold bead at the heart */}
+          {[0.55, 0.78, 1.0].map((r, i) => <mesh key={i} position={[0, 6.15, 0.66 - i * 0.02]} rotation={[0, 0, Math.PI]} material={i === 1 ? gold : bead}><torusGeometry args={[r, 0.065, 6, 24, Math.PI]} /></mesh>)}
+          <Ball rad={0.1} p={[0, 5.12, 0.72]} m={gold} />
+          {/* left arm (statue's right): hangs, hand grips the great axe */}
+          <FwLimb a={[-1.25, 6.0, 0]} b={[-1.62, 4.6, 0.15]} r0={0.34} r1={0.28} m={skin} />
+          <FwLimb a={[-1.62, 4.6, 0.15]} b={[-1.78, 3.7, 0.78]} r0={0.27} r1={0.23} m={skin} />
+          <Ball rad={0.3} p={[-1.8, 3.6, 0.82]} m={skin} />
+          <Cyl rt={0.3} rb={0.3} h={0.16} p={[-1.62, 4.65, 0.15]} m={black} seg={10} />
+          <Cyl rt={0.075} rb={0.085} h={7.0} p={[-1.8, 4.3, 0.82]} m={M.plain('#7a4a2a')} seg={8} />
+          <FwAxeBlade p={[-1.8, 7.3, 0.82]} s={1.15} flip={-1} m={steel} />
+          <Box s={[0.28, 0.28, 0.28]} p={[-1.8, 7.9, 0.82]} m={steel} />
+          {/* right arm (statue's left): upper arm out, forearm raised, fist on the tall yellow bow */}
+          <FwLimb a={[1.25, 6.0, 0]} b={[1.7, 4.6, 0.2]} r0={0.34} r1={0.28} m={skin} />
+          <FwLimb a={[1.7, 4.6, 0.2]} b={[2.1, 5.4, 0.72]} r0={0.27} r1={0.23} m={skin} />
+          <Ball rad={0.3} p={[2.15, 5.5, 0.74]} m={skin} />
+          <Cyl rt={0.3} rb={0.3} h={0.16} p={[1.7, 4.65, 0.2]} m={black} seg={10} />
+          <mesh position={[2.18 - 20, 4.9, 0.74]} rotation={[0, 0, -arcPts / 2]} material={yellow} castShadow><torusGeometry args={[20, 0.14, 7, 40, arcPts]} /></mesh>
+          <Box s={[0.28, 0.7, 0.26]} p={[2.17, 5.5, 0.74]} m={M.plain('#a4672a')} />
+          {/* head: face, brows, eyes, nose, moustache, long black beard, long hair, top-knot */}
+          <Ball rad={0.64} sc={[0.88, 1.1, 0.9]} p={[0, 7.1, 0.1]} m={skin} />
+          <Ball rad={0.78} sc={[1.0, 1.35, 0.8]} p={[0, 6.85, -0.28]} m={black} />
+          {[-1, 1].map((k) => <Ball key={k} rad={0.2} sc={[0.7, 3.2, 0.9]} p={[k * 0.6, 6.45, 0.0]} m={black} />)}
+          <Ball rad={0.74} sc={[0.95, 0.55, 0.95]} p={[0, 7.62, 0.0]} m={black} />
+          <Ball rad={0.6} sc={[0.85, 1.55, 0.55]} p={[0, 6.15, 0.55]} m={black} />
+          <Ball rad={0.36} sc={[0.8, 1.5, 0.5]} p={[0, 5.45, 0.6]} m={black} />
+          <Ball rad={0.17} sc={[2.0, 0.45, 0.7]} p={[0, 6.8, 0.74]} m={black} />
+          {[-1, 1].map((k) => <group key={k}>
+            <Ball rad={0.095} sc={[1.35, 0.7, 0.5]} p={[k * 0.25, 7.18, 0.7]} m={white} />
+            <Ball rad={0.048} p={[k * 0.25, 7.18, 0.74]} m={black} />
+            <Box s={[0.34, 0.06, 0.07]} p={[k * 0.25, 7.36, 0.7]} r={[0, 0, k * 0.15]} m={black} cast={false} />
+          </group>)}
+          <Ball rad={0.1} sc={[0.8, 1.5, 0.9]} p={[0, 7.02, 0.76]} m={skin} />
+          {[0, 1, 2].map((i) => <Box key={i} s={[0.4, 0.035, 0.04]} p={[0, 7.52 + i * 0.07, 0.72]} m={white} cast={false} />)}
+          <Box s={[0.07, 0.2, 0.04]} p={[0, 7.4, 0.73]} m={red} cast={false} />
+          <Ball rad={0.5} sc={[1, 1.15, 1]} p={[0, 8.3, -0.12]} m={black} />
+          <mesh position={[0, 7.98, -0.12]} rotation={[Math.PI / 2, 0, 0]} material={yellow}><torusGeometry args={[0.52, 0.06, 6, 20]} /></mesh>
+          {/* quiver with arrows behind the shoulder */}
+          <Cyl rt={0.24} rb={0.2} h={2.2} p={[-0.7, 6.0, -0.85]} r={[0, 0, 0.4]} m={M.plain('#c4802a')} seg={8} />
+          {[0, 1, 2, 3].map((i) => <group key={i} position={[-0.88 + i * 0.12, 7.0 + i * 0.03, -0.85]} rotation={[0, 0, 0.4]}><Cyl rt={0.03} h={0.9} m={white} seg={5} /><Box s={[0.12, 0.2, 0.03]} p={[0, 0.5, 0]} m={i % 2 ? red : yellow} cast={false} /></group>)}
+          <Box s={[2.5, 0.08, 0.06]} p={[0.1, 5.7, -0.62]} r={[0, 0, 0.65]} m={black} cast={false} />
         </group>
-        {/* painted gateway flanked by the Hanuman and Bhairav shrines */}
-        <group position={[-6.2, 0, 4.2]}>
-          <Box s={[7.4, 0.5, 1.8]} p={[0, 0.25, 0]} m={M.plain('#c8bca8')} />
-          {[-1, 1].map((k) => <Box key={k} s={[0.55, 2.8, 0.7]} p={[k * 0.9, 1.9, 0]} m={blue} />)}
-          <mesh position={[0, 3.3, 0]} material={pink}><torusGeometry args={[0.9, 0.2, 8, 24, Math.PI]} /></mesh>
-          <Box s={[2.6, 0.5, 0.9]} p={[0, 3.45, 0]} m={pink} />
-          <FwPyr p={[0, 4.0, 0]} w={2.2} h={0.6} m={pink} />
-          {[-1, 1].map((k) => (
-            <group key={k} position={[k * 2.6, 0.5, 0]}>
-              <Box s={[1.9, 1.6, 1.6]} p={[0, 0.8, 0]} m={cream} />
-              <mesh position={[0, 0.9, 0.82]} rotation={[Math.PI / 2, 0, 0]} material={M.plain('#3a2a22')}><cylinderGeometry args={[0.38, 0.38, 0.05, 16]} /></mesh>
-              <group position={[0, 1.6, 0]}><FwGable w={2.2} d={1.9} h={0.55} m={M.plain(k < 0 ? '#2f78c2' : '#d96a5a', { roughness: 0.8 })} wallM={cream} ov={0.2} /></group>
-            </group>
-          ))}
+        {/* painted welcome gateway flanked by the Hanuman and Bhairav shrines */}
+        <group position={[-6.2, 0, 4.4]}>
+          <Box s={[8.6, 0.5, 2.4]} p={[0, 0.25, 0]} m={M.plain('#c8bca8')} />
+          <Box s={[2.2, 0.16, 0.5]} p={[0, 0.58, 1.3]} m={M.plain('#c8382c')} />
+          <group position={[0, 0.5, 0]}>
+            <FwArchFace w={3.6} h={3.9} hw={1.0} hh={2.6} d={0.7} m={cream} />
+            {/* blue painted bases and lettered pillar strips */}
+            {[-1, 1].map((k) => <Box key={k} s={[0.62, 0.9, 0.76]} p={[k * 1.3, 0.45, 0]} m={bluePaint} />)}
+            <FwSign p={[-1.3, 2.0, 0.37]} w={0.55} h={2.1} tex={wel} />
+            <FwSign p={[1.3, 2.0, 0.37]} w={0.55} h={2.1} tex={come} />
+            {/* pink arch band and name board above */}
+            <mesh position={[0, 1.6, 0.36]} material={pinkRoof}><torusGeometry args={[1.12, 0.14, 8, 28, Math.PI]} /></mesh>
+            <FwSign p={[0, 3.35, 0.36]} w={2.5} h={0.5} tex={nameTex} />
+            <Box s={[4.0, 0.2, 1.2]} p={[0, 3.95, 0]} m={M.plain('#e8806e')} />
+            <FwPyr p={[0, 4.5, 0]} w={3.9} h={0.9} m={pinkRoof} />
+            <Cyl rt={0.03} rb={0.05} h={0.6} p={[0, 5.2, 0]} m={gold} seg={6} />
+            <Ball rad={0.07} p={[0, 5.55, 0]} m={gold} />
+            {/* temple bell inside the arch */}
+            <Cyl rt={0.03} h={0.5} p={[0, 2.35, 0]} m={black} seg={4} />
+            <Cyl rt={0.07} rb={0.17} h={0.3} p={[0, 2.0, 0]} m={gold} seg={10} />
+          </group>
+          <FwShrineSmall p={[-3.0, 0.5, 0]} roofC="#2f78c2" trimC="#f6f2e8" tex={hanu} deity="#d96a2a" />
+          <FwShrineSmall p={[3.0, 0.5, 0]} roofC="#e8847a" trimC="#2f78c2" tex={bhai} deity="#3a3a44" />
         </group>
-        {/* brick Ganesh temple with yellow bands */}
+        {/* brick Ganesh temple: red brick with yellow bands, arched window, wide timber eaves on struts, steel railing */}
         <group position={[7.2, 0, 3.4]}>
-          <Box s={[2.4, 2.2, 2.2]} p={[0, 1.1, 0]} m={M.mat('brick', 2, 2, { color: '#ffd5d0' })} />
-          {[0.5, 1.5].map((y) => <Box key={y} s={[2.5, 0.16, 2.3]} p={[0, y, 0]} m={yellow} />)}
-          <Box s={[0.8, 1.2, 0.06]} p={[0, 0.7, 1.12]} m={M.plain('#4a2a1a')} cast={false} />
-          <Box s={[2.9, 0.18, 2.7]} p={[0, 2.35, 0]} m={M.plain('#6a4a3a')} />
+          <Box s={[4.4, 0.3, 4.0]} p={[0, 0.15, 0.4]} m={M.plain('#b9b3a6')} />
+          <Box s={[2.4, 2.3, 2.2]} p={[0, 1.45, 0]} m={M.mat('brick', 2, 2, { color: '#ffd5d0' })} />
+          {[1.1, 2.0].map((y) => <Box key={y} s={[2.5, 0.16, 2.3]} p={[0, y, 0]} m={yellow} />)}
+          <Box s={[0.8, 1.3, 0.06]} p={[0, 1.1, 1.12]} m={M.plain('#4a2a1a')} cast={false} />
+          <mesh position={[0, 1.95, 1.12]}><circleGeometry args={[0.26, 14, 0, Math.PI]} /><meshStandardMaterial color="#3a2a1e" side={DS} /></mesh>
+          <FwSign p={[0, 2.35, 1.12]} w={0.9} h={0.2} tex={ganesh} />
+          <FwPyr p={[0, 3.0, 0]} w={4.4} h={0.9} m={M.plain('#5e4636', { roughness: 0.9 })} />
+          {[[-1.6, 1.6], [1.6, 1.6], [-1.6, -1.6], [1.6, -1.6]].map(([x, z], i) => <Box key={i} s={[0.1, 1.5, 0.1]} p={[x * 0.85, 2.35, z * 0.85]} r={[z * 0.12, 0, -x * 0.12]} m={M.plain('#4a2a1a')} cast={false} />)}
+          {[-1.8, -0.9, 0, 0.9, 1.8].map((x) => <Cyl key={x} rt={0.03} h={0.9} p={[x, 0.75, 2.3]} m={steel} seg={5} />)}
+          <Box s={[3.8, 0.05, 0.05]} p={[0, 1.18, 2.3]} m={steel} cast={false} />
         </group>
-        <Frame s={[20, 12.6, 12]} p={[-0.6, 6.3, -0.4]} />
+        <Frame s={[20, 12.8, 12]} p={[-0.6, 6.4, -0.4]} />
       </group>
     );
   }
@@ -1760,10 +1875,16 @@ export default function make(K) {
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.04, -36]}><planeGeometry args={[240, 40]} /><meshStandardMaterial color="#b9b0a0" roughness={1} /></mesh>
         <Water w={240} d={22} p={[0, -0.02, -56]} color="#7fa8a8" />
         {Array.from({ length: 40 }, (_, i) => <Ball key={i} rad={0.7} p={[-60 + rnd(i, 1) * 120, 0, -24 - rnd(i, 2) * 22]} sc={[1.4, 0.5, 1]} m={M.plain(i % 2 ? '#8e8a82' : '#a39d92', { roughness: 1 })} />)}
+        {/* the bathing rocks: a broken ledge of layered grey slabs with a small white shrine and a flag */}
         <group position={[-14, 0, -30]}>
-          <Ball rad={3} sc={[1.6, 0.6, 1]} m={M.plain('#8e8a82', { roughness: 1 })} />
-          <Box s={[0.8, 0.9, 0.8]} p={[0.8, 1.2, 0]} m={M.plain('#f6f2e8')} />
-          <FwPyr p={[0.8, 1.9, 0]} w={1.0} h={0.5} m={M.plain('#e8704a')} />
+          {[[0, 0, 0, 7, 0.9, 4.2, 0.05], [-1.6, 0.8, 0.3, 4.6, 0.8, 3.2, -0.12], [1.4, 1.5, -0.2, 3.4, 0.7, 2.6, 0.1], [4.6, 0.3, 1.2, 3.2, 0.6, 2.2, 0.3], [-5, 0.2, -0.8, 3.0, 0.6, 2.4, -0.2]].map(([x, y, z, w, h, d, r], i) => (
+            <Box key={i} s={[w, h, d]} p={[x, y + h / 2, z]} r={[0.03 * i, r, 0.04 * (i % 2 ? 1 : -1)]} m={M.plain(i % 2 ? '#8e8a82' : '#a39d92', { roughness: 1 })} />
+          ))}
+          {Array.from({ length: 10 }, (_, i) => <Ball key={i} rad={0.5} sc={[1.3, 0.55, 1]} p={[-6 + rnd(i, 5) * 12, 0.15, -2.4 + rnd(i, 6) * 5]} m={M.plain('#9a958a', { roughness: 1 })} />)}
+          <Box s={[0.8, 0.9, 0.8]} p={[1.4, 2.2, -0.2]} m={M.plain('#f6f2e8')} />
+          <FwPyr p={[1.4, 2.95, -0.2]} w={1.0} h={0.5} m={M.plain('#e8704a')} />
+          <Cyl rt={0.03} h={2.2} p={[2.4, 2.7, -0.2]} m={M.plain('#6a4a2a')} seg={4} />
+          <Box s={[0.5, 0.3, 0.02]} p={[2.65, 3.6, -0.2]} m={M.plain('#e8791f')} cast={false} />
         </group>
         <FwHill p={[-50, -1, -90]} sc={[50, 24, 20]} m={M.plain('#6f8a62', { roughness: 1 })} />
         <FwHill p={[40, -1, -96]} sc={[60, 30, 20]} m={M.plain('#657f5a', { roughness: 1 })} />

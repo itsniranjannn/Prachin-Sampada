@@ -28,7 +28,7 @@
    "Statues of the Buddha and of Hindu deities including Ganesh, Saraswati and Shiva were found at the site.",
    "The Department of Archaeology excavated the site in 2000 and later rebuilt the temple using its original stones.",
    "Eight craftsmen from Bhaktapur, led by Chandra Ranjitkar, worked on the restoration that began in 2016, with a budget of Rs 81.8 million.",
-   "The rebuilt shikhara temple is about six metres tall.",
+   "The rebuilt shikhara temple is about six meters tall.",
    "Its stone architecture resembles temples in Kumaon, to the west, rather than those of the Kathmandu Valley."
   ],
   "visit": {
@@ -186,14 +186,14 @@
    {
     "q": "About how tall is the rebuilt shikhara temple?",
     "options": [
-     "16 metres",
-     "30 metres",
-     "6 metres",
-     "60 metres"
+     "16 meters",
+     "30 meters",
+     "6 meters",
+     "60 meters"
     ],
     "answer_index": 2,
     "difficulty": 2,
-    "explanation": "The rebuilt shikhara temple is about six metres tall.",
+    "explanation": "The rebuilt shikhara temple is about six meters tall.",
     "q_np": "पुनर्निर्माण गरिएको शिखर मन्दिर करिब कति अग्लो छ?",
     "options_np": [
      "१६ मिटर",
@@ -247,7 +247,7 @@
   "clues": [
    "Buddha and Ganesh were both dug out of this forested hill above a valley capital.",
    "A stone spire once lay in hundreds of pieces until craftsmen from the Kathmandu Valley fitted it back together.",
-   "I am a stone spire about six metres high, standing on a hillock covered in pine and sal woods.",
+   "I am a stone spire about six meters high, standing on a hillock covered in pine and sal woods.",
    "My walls and spire look more like the temples of Kumaon to the west than those of the Kathmandu Valley.",
    "One tale says I was a palace of the Pandava brothers, and another says two pairs raced to build me in a single night.",
    "In 2000 the Department of Archaeology dug me out, and in 2016 a rebuilding costing Rs 81.8 million began."
@@ -384,14 +384,14 @@
   "coord_source": "Wikidata Q5070967 P625",
   "type": "dome-temple",
   "religion": "Hindu",
-  "deity": "Dattatreya (Chandannath), with Bhairav (Bhairavnath) in the neighbouring shrine",
+  "deity": "Dattatreya (Chandannath), with Bhairav (Bhairavnath) in the neighboring shrine",
   "built_year": null,
   "built_century_text": "Tradition places its founding in the Kalyal (Kallala) dynasty period. A royal order of King Rajendra dated VS 1881 (c. 1824 CE) sent 22 workers to build the temple of Shri Chandannath at Jumla.",
   "dynasty": "Kalyal (traditional founding); rebuilt under the Shah kings",
   "architecture": "Small whitewashed square shrine with a yellow cornice band, crowned by a metal-clad onion dome and finial. Beside it stand very tall red-painted timber poles (lingo) carrying huge triangular saffron flags, shared with the adjoining Bhairavnath temple.",
   "unesco": false,
   "short": "The guardian temple of Jumla bazaar, famous for the towering flag poles that are replaced every Dashain.",
-  "story": "You are in Khalanga, the old bazaar of Jumla, high in the Karnali hills. Look up first: those towering red poles with their enormous saffron flags are called lingo, and each is more than fifty feet of timber. Every year, on Ghatasthapana, the first day of Dashain, the people of Jumla take the old lingo down and raise a new one. They believe misfortune will follow if a pole breaks during the change, so the whole town holds its breath. Now lower your eyes to the little whitewashed shrine with its shining dome. Inside is Dattatreya, honoured here as Chandannath. Local belief says an ascetic named Chandannath came from Kashmir carrying this image, and that he also brought the red Marsi rice that grows in these fields. Next door stands Bhairavnath. In 2016 thieves stole twenty-eight idols from this temple, and the town protested until many were recovered.",
+  "story": "You are in Khalanga, the old bazaar of Jumla, high in the Karnali hills. Look up first: those towering red poles with their enormous saffron flags are called lingo, and each is more than fifty feet of timber. Every year, on Ghatasthapana, the first day of Dashain, the people of Jumla take the old lingo down and raise a new one. They believe misfortune will follow if a pole breaks during the change, so the whole town holds its breath. Now lower your eyes to the little whitewashed shrine with its shining dome. Inside is Dattatreya, honored here as Chandannath. Local belief says an ascetic named Chandannath came from Kashmir carrying this image, and that he also brought the red Marsi rice that grows in these fields. Next door stands Bhairavnath. In 2016 thieves stole twenty-eight idols from this temple, and the town protested until many were recovered.",
   "legend": "One story says a cow that gave no milk at home let her milk flow freely whenever she stood on this spot, so villagers knew the ground was holy and built the temple there. Another credits Chandannath of Kashmir with bringing the image of Dattatreya and red Marsi rice to Jumla.",
   "facts": [
    "The lingo poles are more than 52 feet long and are replaced every year on Ghatasthapana, the first day of Dashain.",
@@ -457,8 +457,8 @@
     "options": [
      "Yosin",
      "Lingo",
-     "Dhwaja-khamba",
-     "Linga"
+     "Torana",
+     "Gajur"
     ],
     "answer_index": 1,
     "difficulty": 3,
@@ -467,8 +467,8 @@
     "options_np": [
      "योसिन",
      "लिङ्गो",
-     "ध्वज-खम्बा",
-     "लिङ्ग"
+     "तोरण",
+     "गजुर"
     ],
     "explanation_np": "ठूला झन्डा फहराइने रातो रङ लगाएका काठका खम्बालाई लिङ्गो भनिन्छ।"
    },
@@ -513,7 +513,7 @@
     "explanation_np": "जुम्लाको हावापानी कश्मीरजस्तै रहेछ भन्ने देखेपछि उनले मार्सी चामल ल्याएको विश्वास गरिन्छ।"
    },
    {
-    "q": "What colour are the tall lingo poles?",
+    "q": "What color are the tall lingo poles?",
     "options": [
      "White",
      "Red",
@@ -614,7 +614,7 @@
    }
   ],
   "clues": [
-   "Two towering red poles with saffron flags are swapped every Dashain here, and nobody wants them to snap.",
+   "Towering red poles with saffron flags are swapped every Dashain here, and nobody wants them to snap.",
    "A sage from Kashmir is said to have brought both the god and the red rice to this high bazaar.",
    "I am a small whitewashed square shrine, with a yellow band beneath my roof and a shining metal onion dome on top.",
    "Next door stands a Bhairav shrine; we share the tall flag poles and the committee that cares for us.",
@@ -752,7 +752,7 @@
   ],
   "quake_np": null,
   "clues_np": [
-   "यहाँ हरेक दशैँमा केसरी झन्डा लगाएका दुई अग्ला रातो खम्बा फेरिन्छन्, र कसैले ती भाँचिएको चाहँदैन।",
+   "यहाँ हरेक दशैँमा केसरी झन्डा लगाएका अग्ला रातो खम्बा फेरिन्छन्, र कसैले ती भाँचिएको चाहँदैन।",
    "कश्मीरका एक ऋषिले यो अग्लो बजारमा देवता र रातो चामल दुवै ल्याएको भनिन्छ।",
    "म सेतो चुना लगाएको सानो वर्गाकार मन्दिर हुँ। मेरो छानामुनि पहेँलो पट्टी छ र माथि चम्किलो धातुको गुम्बज छ।",
    "मेरो छेउमा एउटा भैरवको मन्दिर छ। हामी अग्ला झन्डा-खम्बा र हेरचाह गर्ने समिति साझा गर्छौँ।",
@@ -882,7 +882,7 @@
      "२००८",
      "२०१५"
     ],
-    "explanation_np": "यो सांस्कृतिक श्रेणीमा २००८ जनवरी ३० मा राखिएको हो।"
+    "explanation_np": "यो सांस्कृतिक श्रेणीमा ३० जनवरी २००८ मा राखिएको हो।"
    },
    {
     "q": "Into how many small kingdoms did the Khasa kingdom split after the 14th century?",
@@ -1146,7 +1146,7 @@
   "dynasty": null,
   "architecture": "A small hillside shrine complex: a whitewashed single-storey building with a low pitched roof, a beaten-earth courtyard with a sacrificial post, collections of old carved stone images, and natural gas flames burning from rock niches.",
   "unesco": false,
-  "short": "A flame shrine in Dullu where natural gas burns from the rocks, honoured as the place where the head of the goddess Sati fell.",
+  "short": "A flame shrine in Dullu where natural gas burns from the rocks, honored as the place where the head of the goddess Sati fell.",
   "story": "Step quietly into the courtyard and look down at the rocks by the wall. A small flame is burning straight out of the stone, with no wick and no oil. This is Shirasthan, in Rawatkot of Dullu, one of the five sacred sites of the Panchakoshi pilgrimage of Dailekh. Gas seeping from the ground keeps these flames alight, and pilgrims call the whole area Jwala Tirtha, the place of fire. The name means the place of the head. Hindu tradition, told in the Swasthani, says that as Shiva wandered carrying the body of his wife Sati, her head fell here; her navel fell at Nabhisthan nearby. Notice the collections of old carved stone images around you and the post where sacrifices are made. Its priest is an ascetic of the Nath sect. People say that when the sacred flames at Chandannath in Jumla or at Badimalika go out, they are lit again with fire carried from this place.",
   "legend": "According to the Swasthani, Shiva carried the body of Sati across the world after her death, and her head fell at Shirasthan, giving the shrine its name. Her navel fell at nearby Nabhisthan.",
   "facts": [
@@ -1199,7 +1199,7 @@
     "answer_index": 1,
     "difficulty": 2,
     "explanation": "Gas seeping from the rocks feeds the flames, so the area is called Jwala Tirtha.",
-    "q_np": "शिरस्थानका पवित्र ज्वाला के ले बलिरहेका छन्?",
+    "q_np": "शिरस्थानका पवित्र ज्वाला केले बलिरहेका छन्?",
     "options_np": [
      "घिउको बत्ती",
      "जमिनबाट निस्कने प्राकृतिक ग्यास",
@@ -1289,24 +1289,24 @@
     "explanation_np": "शिर भनेको टाउको हो, त्यसैले नामको अर्थ \"शिरको स्थान\" हुन्छ।"
    },
    {
-    "q": "Whose story explains how the shrine got its name?",
+    "q": "Local belief says the flames of Chandannath and Badimalika are relit with fire carried from which place?",
     "options": [
-     "Lakshmi",
-     "Saraswati",
-     "Sati",
-     "Durga"
+     "Shirasthan",
+     "Muktinath",
+     "Pashupatinath",
+     "Gosaikunda"
     ],
-    "answer_index": 2,
-    "difficulty": 1,
-    "explanation": "In the Swasthani, Shiva wandered with the body of his wife Sati and her head fell here.",
-    "q_np": "मन्दिरको नामको कथा कसको हो?",
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "People say that when the sacred flames at Chandannath in Jumla or at Badimalika go out, they are lit again with fire carried from Shirasthan.",
+    "q_np": "स्थानीय विश्वासअनुसार चन्दननाथ र बडिमालिकाका ज्वाला निभेपछि कुन ठाउँबाट ल्याइएको आगोले फेरि बालिन्छन्?",
     "options_np": [
-     "लक्ष्मी",
-     "सरस्वती",
-     "सती",
-     "दुर्गा"
+     "शिरस्थान",
+     "मुक्तिनाथ",
+     "पशुपतिनाथ",
+     "गोसाइँकुण्ड"
     ],
-    "explanation_np": "स्वस्थानीअनुसार शिवले पत्नी सतीको शव बोकेर हिँड्दा उनको शिर यहीँ खस्यो।"
+    "explanation_np": "जुम्लाको चन्दननाथ वा बडिमालिकाका पवित्र ज्वाला निभेपछि शिरस्थानबाट ल्याएको आगोले फेरि बालिन्छ भन्ने मानिन्छ।"
    },
    {
     "q": "Which scripture tells how Sati's head fell at Shirasthan?",
@@ -1476,7 +1476,7 @@
    }
   ],
   "short_np": "दुल्लुको ज्वाला मन्दिर, जहाँ चट्टानबाट प्राकृतिक ग्यास बल्छ। यो ठाउँ देवी सतीको शिर खसेको ठाउँ मानिन्छ।",
-  "story_np": "चुपचाप आँगनमा पस्नुहोस् र पर्खालछेउका चट्टानमा हेर्नुहोस्। ढुङ्गाबाटै सानो आगो बलिरहेको छ। न बत्ती छ, न तेल। यो दुल्लुको रावतकोटमा रहेको शिरस्थान हो, दैलेखको पञ्चकोशी तीर्थका पाँच पवित्र स्थानमध्ये एक। जमिनबाट निस्कने ग्यासले यी ज्वाला बलिरहेका छन्, त्यसैले तीर्थयात्रीहरू यो क्षेत्रलाई ज्वाला तीर्थ, अर्थात् आगोको ठाउँ, भन्छन्। नामको अर्थ शिरको स्थान हो। स्वस्थानीमा भनिएको हिन्दू मान्यताअनुसार शिवले पत्नी सतीको शव बोकेर हिँड्दा उनको शिर यहीँ खस्यो र नाभि नजिकैको नाभिस्थानमा खस्यो। वरपर पुराना कुँदिएका ढुङ्गाका मूर्तिका थुप्रा र बलि दिने खम्बा हेर्नुहोस्। यहाँका पुजारी नाथ सम्प्रदायका तपस्वी हुन्। मानिस भन्छन्, जुम्लाको चन्दननाथ वा बडीमालिकाका पवित्र आगो निभे यहीँबाट आगो लगेर फेरि बालिन्छ।",
+  "story_np": "चुपचाप आँगनमा पस्नुहोस् र पर्खालछेउका चट्टानमा हेर्नुहोस्। ढुङ्गाबाटै सानो आगो बलिरहेको छ। न बत्ती छ, न तेल। यो दुल्लुको रावतकोटमा रहेको शिरस्थान हो, दैलेखको पञ्चकोशी तीर्थका पाँच पवित्र स्थानमध्ये एक। जमिनबाट निस्कने ग्यासले यी ज्वाला बलिरहेका छन्, त्यसैले तीर्थयात्रीहरू यो क्षेत्रलाई ज्वाला तीर्थ, अर्थात् आगोको ठाउँ, भन्छन्। नामको अर्थ शिरको स्थान हो। स्वस्थानीमा भनिएको हिन्दू मान्यताअनुसार शिवले पत्नी सतीको शव बोकेर हिँड्दा उनको शिर यहीँ खस्यो र नाभि नजिकैको नाभिस्थानमा खस्यो। वरपर पुराना कुँदिएका ढुङ्गाका मूर्तिका थुप्रा र बलि दिने खम्बा हेर्नुहोस्। यहाँका पुजारी नाथ सम्प्रदायका तपस्वी हुन्। मानिस भन्छन्, जुम्लाको चन्दननाथ वा बडिमालिकाका पवित्र आगो निभे यहीँबाट आगो लगेर फेरि बालिन्छ।",
   "legend_np": "स्वस्थानीअनुसार सतीको मृत्युपछि शिवले उनको शव बोकेर संसारभर हिँडे र उनको शिर शिरस्थानमा खस्यो। त्यसैले यो मन्दिरको नाम शिरस्थान रह्यो। उनको नाभि नजिकैको नाभिस्थानमा खस्यो।",
   "facts_np": [
    "शिरस्थान दैलेखको पञ्चकोशी तीर्थका स्थानमध्ये एक हो। अरू चारवटा नाभिस्थान, धुलेश्वर, पादुकास्थान र डुङ्गेश्वर हुन्।",
@@ -1518,7 +1518,7 @@
   "architecture": "A flat upright stone stele with a rounded top, carved near the top with a stepped Buddhist chaitya above a line of large letters, and covered below with rows of inscription. It stands inside a protective metal railing in Dullu bazaar.",
   "unesco": false,
   "short": "An inscribed 14th-century stone pillar in Dullu that records the family tree of the Khasa Malla kings.",
-  "story": "You are standing in Dullu, once the winter seat of the Khasa Malla kings, whose capital lay up in the Sinja Valley of Jumla. In front of you, behind its railing, rises a flat grey stone with a rounded top. This is a kirtistambha, a pillar of fame. Look near the top and you will see a small stepped chaitya, the Buddhist shrine shape, carved above a line of large letters. Below it, row after row of writing fills the stone. The pillar is associated with King Prithvi Malla and dated to 1354, and its inscription sets out the genealogy of his dynasty, naming Nagaraja as the founder who set up the capital at Sinja. The Italian scholar Giuseppe Tucci recorded these Dullu stones in the 1950s. Nearby you can find more carved pillars, and a stone water tank whose inscription says one of Prithvi Malla's ministers built it in 1358.",
+  "story": "You are standing in Dullu, once the winter seat of the Khasa Malla kings, whose capital lay up in the Sinja Valley of Jumla. In front of you, behind its railing, rises a flat gray stone with a rounded top. This is a kirtistambha, a pillar of fame. Look near the top and you will see a small stepped chaitya, the Buddhist shrine shape, carved above a line of large letters. Below it, row after row of writing fills the stone. The pillar is associated with King Prithvi Malla and dated to 1354, and its inscription sets out the genealogy of his dynasty, naming Nagaraja as the founder who set up the capital at Sinja. The Italian scholar Giuseppe Tucci recorded these Dullu stones in the 1950s. Nearby you can find more carved pillars, and a stone water tank whose inscription says one of Prithvi Malla's ministers built it in 1358.",
   "legend": null,
   "facts": [
    "The pillar is associated with King Prithvi Malla and dated 1354 CE.",
@@ -1669,7 +1669,7 @@
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "It is a flat upright grey stone stele with a rounded top.",
+    "explanation": "It is a flat upright gray stone stele with a rounded top.",
     "q_np": "कीर्तिस्तम्भ केले बनेको छ?",
     "options_np": [
      "काठ",
@@ -1720,7 +1720,7 @@
     "explanation_np": "अभिलेखमा खस मल्ल वंशको वंशावली छ।"
    },
    {
-    "q": "In which year was the nearby stone water tank, built by a minister of Prithvi Malla, dated?",
+    "q": "In which year did one of Prithvi Malla's ministers build the nearby stone water tank?",
     "options": [
      "1308",
      "1338",
@@ -1730,7 +1730,7 @@
     "answer_index": 2,
     "difficulty": 3,
     "explanation": "The tank's inscription says one of Prithvi Malla's ministers built it in 1358.",
-    "q_np": "पृथ्वी मल्लका मन्त्रीले बनाएको नजिकैको ढुङ्गाको पानी ट्याङ्की कुन सालको हो?",
+    "q_np": "पृथ्वी मल्लका एक मन्त्रीले नजिकैको ढुङ्गाको पानी ट्याङ्की कुन सालमा बनाएका थिए?",
     "options_np": [
      "१३०८",
      "१३३८",
@@ -1741,12 +1741,12 @@
    }
   ],
   "clues": [
-   "A flat grey stone behind a railing lists a mountain dynasty's ancestors under a tiny carved shrine.",
+   "A flat gray stone behind a railing lists a mountain dynasty's ancestors under a tiny carved shrine.",
    "Kings who summered in Sinja wintered in this town, and one of them left his family tree in stone here.",
-   "I am a flat grey stone with a rounded top, standing behind a metal railing in a busy bazaar.",
+   "I am a flat gray stone with a rounded top, standing behind a metal railing in a busy bazaar.",
    "Near my top a small stepped Buddhist shrine is carved above a line of large letters, and rows of writing fill the rest of me.",
    "I was set up around 1354, and my words name the founder who set up a mountain capital.",
-   "An Italian scholar recorded me and my neighbours in the 1950s, and a stone water tank with an inscription stands close by."
+   "An Italian scholar recorded me and my neighbors in the 1950s, and a stone water tank with an inscription stands close by."
   ],
   "festivals": [],
   "model": {
@@ -1774,7 +1774,7 @@
     "village",
     "hilltop"
    ],
-   "notes": "Tall flat grey stone slab with a rounded top and a carved chaitya at the top, caged in a silver metal railing beside village houses."
+   "notes": "Tall flat gray stone slab with a rounded top and a carved chaitya at the top, caged in a silver metal railing beside village houses."
   },
   "province": "Karnali",
   "district": "Dailekh",
@@ -1878,10 +1878,10 @@
   "architecture": "High-altitude ridge-top shrine. Photos from 2018 show a small whitewashed square shrine with a pyramidal roof inside dry-stone walls, an open white pavilion, and stone frames hung with hundreds of bells and tridents. The 2025 rebuild used sal wood, stone and mud.",
   "unesco": false,
   "short": "A Shakti shrine at about 4,200 m in Bajura, where tens of thousands of pilgrims climb for the full-moon festival of Janai Purnima.",
-  "story": "Catch your breath: you are at roughly four thousand two hundred metres on a grassy ridge in Bajura, and this is Badimalika, one of the great goddess shrines of the far west. Pilgrims climb for hours over open, often slippery pastures, past places such as Triveni and the 22 Patan meadows, to reach this spot. Hindu tradition says that when Shiva carried the body of Sati, her left shoulder fell on this mountain, once called Mallagiri. Look at the frames around the shrine: they are hung with bells and tridents left by grateful pilgrims. Local legend tells of King Dipraj Chhatyal, whose bow was stopped by an unseen force while he hunted here, and who then built a temple for the goddess with help from the king of Jumla. Two priests serve here, one from Kalikot and one from Bajura. In 2025 the Nepali Army rebuilt the shrine, carrying materials up by helicopter and on foot.",
+  "story": "Catch your breath: you are at roughly four thousand two hundred meters on a grassy ridge in Bajura, and this is Badimalika, one of the great goddess shrines of the far west. Pilgrims climb for hours over open, often slippery pastures, past places such as Triveni and the 22 Patan meadows, to reach this spot. Hindu tradition says that when Shiva carried the body of Sati, her left shoulder fell on this mountain, once called Mallagiri. Look at the frames around the shrine: they are hung with bells and tridents left by grateful pilgrims. Local legend tells of King Dipraj Chhatyal, whose bow was stopped by an unseen force while he hunted here, and who then built a temple for the goddess with help from the king of Jumla. Two priests serve here, one from Kalikot and one from Bajura. In 2025 the Nepali Army rebuilt the shrine, carrying materials up by helicopter and on foot.",
   "legend": "When Sati's body was carried by Shiva, her left shoulder fell on Mallagiri, which became Malika. A later tale says King Dipraj Chhatyal was stopped from hunting here by an unseen force, dreamed of the goddess, and built her temple together with the king of Jumla.",
   "facts": [
-   "The temple stands at about 4,200 metres; the Nepali Army gives 4,220 m.",
+   "The temple stands at about 4,200 meters; the Nepali Army gives 4,220 m.",
    "Its main puja is held on Shrawan Shukla Chaturdashi, the day before Janai Purnima.",
    "It is served by two priests, one representing Kalikot district and the other Bajura district.",
    "The Nepali Army rebuilt the temple from April to July 2025 at a cost of about Rs 20 million, under the Ancient Monument Preservation Act.",
@@ -2101,9 +2101,9 @@
    }
   ],
   "clues": [
-   "Two priests from neighbouring districts share duty at this shrine above four thousand metres.",
+   "Two priests from neighboring districts share duty at this shrine above four thousand meters.",
    "Pilgrims cross the meadows of 22 Patan to ring bells for the goddess on a bare summit.",
-   "I sit on a grassy ridge about four thousand two hundred metres up, where the air is thin and the pastures are slippery.",
+   "I sit on a grassy ridge about four thousand two hundred meters up, where the air is thin and the pastures are slippery.",
    "Stone frames around my shrine are hung with hundreds of bells and tridents left by grateful pilgrims.",
    "A hunting king's bow was stopped by an unseen force here, and he built a temple for me with help from the king of Jumla.",
    "My old shrine was pulled down, and in 2025 soldiers carried wood and stone up here by helicopter and on foot to build a new one."
@@ -2387,7 +2387,7 @@
     "explanation_np": "यसलाई यस क्षेत्रका नौ शक्तिपीठमध्ये एक भनिन्छ।"
    },
    {
-    "q": "What colours is the temple sanctum painted?",
+    "q": "What colors is the temple sanctum painted?",
     "options": [
      "Red and gold",
      "Pink and turquoise",
@@ -2696,7 +2696,7 @@
      "शाही बगैँचा",
      "नदीको किल्ला"
     ],
-    "explanation_np": "यो संस्कृतको अजय (अजेय) र मेरु (पर्वत) बाट आएको मानिन्छ।"
+    "explanation_np": "यो संस्कृतको अजय (अजेय) र मेरु (पर्वत)बाट आएको मानिन्छ।"
    },
    {
     "q": "Where did the Doti capital move after Ajaymerukot was destroyed?",
@@ -2769,7 +2769,7 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "A river curls around three sides of the ridge, leaving only one path up.",
-    "q_np": "डाँडालाई तीन तिरबाट के ले घेरेको छ?",
+    "q_np": "डाँडालाई तीन तिरबाट केले घेरेको छ?",
     "options_np": [
      "जङ्गल",
      "नदी",
@@ -2895,7 +2895,7 @@
     "forest",
     "terraced-fields"
    ],
-   "notes": "Grey dry-stone palace walls on a dry ridge, beside two small stacked-stone shikhara shrines and a pillared stone pavilion with a heavy lintel."
+   "notes": "Gray dry-stone palace walls on a dry ridge, beside two small stacked-stone shikhara shrines and a pillared stone pavilion with a heavy lintel."
   },
   "province": "Sudurpashchim",
   "district": "Dadeldhura",
@@ -3121,7 +3121,7 @@
     "explanation_np": "एक पुराना बासिन्दाले फूलपातीका दिन टुँडिखेलमा तोप पड्केको सम्झन्छन्।"
    },
    {
-    "q": "Which materials is the fort built from?",
+    "q": "Which materials was the fort built from?",
     "options": [
      "Brick and mud",
      "Stone and timber",
@@ -3141,7 +3141,7 @@
     "explanation_np": "किल्ला ढुङ्गा र काठले बनेको छ, र यसका ढुङ्गाका पर्खाल अग्ला र ढल्केका छन्।"
    },
    {
-    "q": "What colours are the steps leading up to the fort painted?",
+    "q": "What colors are the steps leading up to the fort painted?",
     "options": [
      "Red and white",
      "Yellow and blue",
@@ -3459,7 +3459,7 @@
     ],
     "answer_index": 0,
     "difficulty": 4,
-    "explanation": "She is taken by chariot to a temple in Kapadi village and brought back.",
+    "explanation": "She is taken by chariot to Kapadi village and brought back to the temple.",
     "q_np": "आषाढी जात्रामा देवीलाई रथमा कहाँ लगिन्छ?",
     "options_np": [
      "कपडी गाउँ",
@@ -3467,7 +3467,7 @@
      "महाकाली नदी",
      "पाटन"
     ],
-    "explanation_np": "उनलाई रथमा राखेर कपडी गाउँको मन्दिरमा लगिन्छ र फेरि फर्काइन्छ।"
+    "explanation_np": "उनलाई रथमा राखेर कपडी गाउँ लगिन्छ र फेरि मन्दिरमा फर्काइन्छ।"
    },
    {
     "q": "How many roof tiers does the present temple have?",
@@ -3479,7 +3479,7 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "Photos show a porch roof topped by two smaller tiled roofs.",
+    "explanation": "It is a three-roofed pagoda: a porch roof topped by two smaller tiled roofs.",
     "q_np": "अहिलेको मन्दिरमा कति तहका छाना छन्?",
     "options_np": [
      "एक",
@@ -3487,10 +3487,10 @@
      "तीन",
      "पाँच"
     ],
-    "explanation_np": "तस्बिरमा पोर्चको छानामाथि दुईवटा साना टायलका छाना देखिन्छन्।"
+    "explanation_np": "यो तीन छाना भएको प्यागोडा हो: पोर्चको छानामाथि दुईवटा साना टायलका छाना छन्।"
    },
    {
-    "q": "What colour are the pillars of the temple's front porch?",
+    "q": "What color are the pillars of the temple's front porch?",
     "options": [
      "White",
      "Red",
@@ -3591,11 +3591,11 @@
    }
   ],
   "clues": [
-   "Her name means the beauty of three worlds, but on these far-western hills she is called Ransaini.",
+   "Locals in these far-western hills call this goddess Ransaini, and some say her shrine is older than a Doti king named Nagi Malla.",
    "Each midsummer a chariot carries this goddess to Kapadi village and back, with pilgrims from across the Mahakali.",
    "Three stacked roofs rise above my wide porch of red pillars and pointed arches.",
    "Bells hang from the branches of a tree in my grassy courtyard, each one a pilgrim's offering.",
-   "I am counted among Nepal's seven prominent Bhagwati temples, and some say I am older than the Doti king Nagi Malla.",
+   "I am counted among Nepal's seven prominent Bhagwati temples, and tall flag poles and small shrines fill my courtyard.",
    "My hills lie near the western border, and I was listed among the top 100 tourist destinations for Visit Nepal 2020."
   ],
   "festivals": [
@@ -3730,11 +3730,11 @@
   ],
   "quake_np": null,
   "clues_np": [
-   "उनको नामको अर्थ तीन लोककी सुन्दरी हो, तर यी सुदूरपश्चिमका पहाडमा उनलाई रणसैनी भनिन्छ।",
+   "यी सुदूरपश्चिमका पहाडमा स्थानीयले यी देवीलाई रणसैनी भन्छन्, र कसैकसैका अनुसार उनको मन्दिर डोटीका राजा नागी मल्लभन्दा पुरानो हो।",
    "हरेक मध्यगर्मीमा रथले यी देवीलाई कपडी गाउँसम्म लैजान्छ र फर्काउँछ, महाकालीपारिका तीर्थयात्री पनि आउँछन्।",
    "मेरो फराकिलो पोर्चमाथि रातो खम्बा र टुप्पो भएका मेहराब छन्, र त्योमाथि तीन तहको छाना उठेको छ।",
    "मेरो घाँसे आँगनमा रूखका हाँगामा घण्टी झुन्डिएका छन्, हरेक घण्टी कुनै तीर्थयात्रीको भेटी हो।",
-   "म नेपालका सात प्रमुख भगवती मन्दिरमध्ये एक हुँ, र कसैकसैले म डोटीका राजा नागी मल्लभन्दा पुरानो हुँ भन्छन्।",
+   "म नेपालका सात प्रमुख भगवती मन्दिरमध्ये एक हुँ, र मेरो आँगनमा अग्ला झन्डाका खम्बा र साना मन्दिर छन्।",
    "म पश्चिमी सीमा नजिकैको पहाडमा छु, र भ्रमण वर्ष २०२० का लागि शीर्ष १०० पर्यटकीय गन्तव्यमा परेको थिएँ।"
   ]
  },
@@ -3761,7 +3761,7 @@
   "architecture": "A small temple compound shaded by old trees on a stone-paved courtyard: a whitewashed and painted shrine hall with a red-trimmed gable, carved timber front and a small tiered tower roof, entered through a painted gateway guarded by lion statues and a large trident.",
   "unesco": false,
   "short": "The goddess temple of Silgadhi, said to be named in the Skanda Purana, where Parvati is believed to have emerged from a rock.",
-  "story": "You are in Silgadhi, the old hill town of Doti, standing on a stone courtyard shaded by great trees. Ahead is the temple of Shaileshwori, one of the most famous shrines of Nepal's far-western hills. The name comes from shaila or shila, meaning rock. One telling says Shiva and Parvati chose these hills as a retreat, and when Brahma, Vishnu and the other gods came searching for Shiva, Parvati, embarrassed, hid by turning into stone. When the gods prayed to her, she emerged again, and the rock came to be worshipped as Shiladevi, later Shaileshwori. Look at the painted gateway with its lions and its giant trident, then step through to the shrine where devotees come every day to ask the goddess to ease their troubles and grant their wishes. Nepal honoured this temple on a postage stamp in 1985. During Dashain the courtyard fills with devotees for special pujas, and the annual Shaileshwori Mela brings music and celebration to the town.",
+  "story": "You are in Silgadhi, the old hill town of Doti, standing on a stone courtyard shaded by great trees. Ahead is the temple of Shaileshwori, one of the most famous shrines of Nepal's far-western hills. The name comes from shaila or shila, meaning rock. One telling says Shiva and Parvati chose these hills as a retreat, and when Brahma, Vishnu and the other gods came searching for Shiva, Parvati, embarrassed, hid by turning into stone. When the gods prayed to her, she emerged again, and the rock came to be worshipped as Shiladevi, later Shaileshwori. Look at the painted gateway with its lions and its giant trident, then step through to the shrine where devotees come every day to ask the goddess to ease their troubles and grant their wishes. Nepal honored this temple on a postage stamp in 1985. During Dashain the courtyard fills with devotees for special pujas, and the annual Shaileshwori Mela brings music and celebration to the town.",
   "legend": "Parvati is said to have hidden herself as a stone when the gods came looking for Shiva in these hills; when they prayed to her she emerged from the rock, and the stone was worshipped as Shiladevi, later known as Shaileshwori.",
   "facts": [
    "The goddess Shaileshwori is said to be mentioned in the Skanda Purana.",
@@ -3860,7 +3860,7 @@
      "१९८५",
      "१९९५"
     ],
-    "explanation_np": "यो सन् १९८५ डिसेम्बर १५ मा भिजिट नेपाल शृङ्खलामा आएको थियो।"
+    "explanation_np": "यो १५ डिसेम्बर १९८५ मा भिजिट नेपाल शृङ्खलामा आएको थियो।"
    },
    {
     "q": "In the legend, why did Parvati turn herself into stone?",
@@ -3903,24 +3903,24 @@
     "explanation_np": "रङ्गीन ढोकामा सिंहका मूर्ति र एउटा ठूलो त्रिशूलले पहरा दिएका छन्।"
    },
    {
-    "q": "In which town does the Shaileshwori Temple stand?",
+    "q": "Which annual event brings music and celebration to the temple's town?",
     "options": [
-     "Silgadhi",
-     "Dadeldhura",
-     "Baitadi",
-     "Dhangadhi"
+     "Shaileshwori Mela",
+     "Bisket Jatra",
+     "Gai Jatra",
+     "Rato Machhindranath Jatra"
     ],
     "answer_index": 0,
-    "difficulty": 1,
-    "explanation": "The temple stands in Silgadhi, the old hill town of Doti.",
-    "q_np": "शैलेश्वरी मन्दिर कुन सहरमा छ?",
+    "difficulty": 2,
+    "explanation": "An annual Shaileshwori Mela brings music and celebration to the town, and special pujas fill the courtyard at Dashain.",
+    "q_np": "मन्दिर रहेको सहरमा हरेक वर्ष कुन कार्यक्रमले गीतसङ्गीत र उत्सवको माहोल ल्याउँछ?",
     "options_np": [
-     "सिलगढी",
-     "डडेलधुरा",
-     "बैतडी",
-     "धनगढी"
+     "शैलेश्वरी मेला",
+     "बिस्केट जात्रा",
+     "गाईजात्रा",
+     "रातो मच्छिन्द्रनाथ जात्रा"
     ],
-    "explanation_np": "मन्दिर डोटीको पुरानो पहाडी सहर सिलगढीमा छ।"
+    "explanation_np": "हरेक वर्ष लाग्ने शैलेश्वरी मेलाले सहरमा गीतसङ्गीत र उत्सवको माहोल ल्याउँछ, र दशैँमा आँगनमा विशेष पूजा हुन्छ।"
    },
    {
     "q": "After which fallen fortress did Silgadhi become the Doti capital?",
@@ -3943,24 +3943,24 @@
     "explanation_np": "सोह्रौँ शताब्दीमा अजयमेरुकोट ध्वस्त भएपछि डोटीको राजधानी सिलगढीमा सरेको थियो।"
    },
    {
-    "q": "Who came searching for Shiva when Parvati hid as a stone?",
+    "q": "What do devotees come every day to ask the goddess for?",
     "options": [
-     "Indra and Yama",
-     "Brahma, Vishnu and other gods",
-     "Ram and Lakshman",
-     "The Pandavas"
+     "To ease their troubles and grant their wishes",
+     "To bring rain for the fields",
+     "To open the mountain passes",
+     "To cure only fevers"
     ],
-    "answer_index": 1,
-    "difficulty": 2,
-    "explanation": "Brahma, Vishnu and the other gods came searching for Shiva, and Parvati hid as a rock.",
-    "q_np": "पार्वती ढुङ्गा बनेर लुक्दा शिवलाई खोज्दै को आए?",
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Devotees come every day to ask the goddess to ease their troubles and grant their wishes.",
+    "q_np": "भक्तजन दिनहुँ देवीसँग के माग्न आउँछन्?",
     "options_np": [
-     "इन्द्र र यम",
-     "ब्रह्मा, विष्णु र अरू देवता",
-     "राम र लक्ष्मण",
-     "पाण्डवहरू"
+     "दुःख हल्का गर्न र इच्छा पूरा गर्न",
+     "खेतका लागि पानी पर्न",
+     "हिमाली भञ्ज्याङ खुलाउन",
+     "ज्वरो मात्र निको पार्न"
     ],
-    "explanation_np": "ब्रह्मा, विष्णु र अरू देवता शिवलाई खोज्दै आउँदा पार्वती चट्टान बनेर लुकिन्।"
+    "explanation_np": "भक्तजन दिनहुँ देवीसँग आफ्ना दुःख हल्का गरिदिन र इच्छा पूरा गरिदिन माग्न आउँछन्।"
    },
    {
     "q": "What was the rock first worshipped as, before it became Shaileshwori?",
@@ -4188,7 +4188,7 @@
     "q_np": "घोडाघोडी नाममा 'घोडा' ले के जनाउँछ?",
     "options_np": [
      "कमलको फूल",
-     "जनावर घोडा",
+     "घोडा",
      "पानी",
      "जङ्गल"
     ],
@@ -4232,7 +4232,7 @@
      "२००३",
      "२०१५"
     ],
-    "explanation_np": "यो सन् २००३ अगस्ट १३ मा घोषित भएको थियो।"
+    "explanation_np": "यो १३ अगस्ट २००३ मा घोषित भएको थियो।"
    },
    {
     "q": "Which community festival brings Tharu devotees to bathe in the lake?",
@@ -4255,7 +4255,7 @@
     "explanation_np": "रामसार सूचीले डिसेम्बरमा मनाइने थारूको अगन पञ्चमी चाडको उल्लेख गरेको छ।"
    },
    {
-    "q": "What colour is the lakeside shrine?",
+    "q": "What color is the lakeside shrine?",
     "options": [
      "White",
      "Yellow",
@@ -4515,7 +4515,7 @@
   "facts": [
    "Khaptad Baba was born Shivanath Dogra in Kashmir in 1880 and trained as a doctor before taking sannyas.",
    "He settled in the Khaptad valley in the 1940s and lived there for more than fifty years.",
-   "Khaptad National Park was established in 1984 on his advice; it covers 225 square kilometres across Bajhang, Bajura, Achham and Doti.",
+   "Khaptad National Park was established in 1984 on his advice; it covers 225 square kilometers across Bajhang, Bajura, Achham and Doti.",
    "The ashram keeps two statues of the Baba, one wooden and one bronze, and objects he used, including a sitar and his bed.",
    "The Ganga Dashahara fair draws pilgrims to Khaptad once a year in the Jestha-Ashadh season."
   ],
@@ -4592,24 +4592,24 @@
     "explanation_np": "निकुञ्ज सन् १९८४ मा स्थापना भएको थियो।"
    },
    {
-    "q": "Where was Khaptad Baba born?",
+    "q": "What is Triveni, a short walk from the ashram?",
     "options": [
-     "Kashmir",
-     "Varanasi",
-     "Kathmandu",
-     "Doti"
+     "A sacred confluence",
+     "A mountain pass",
+     "A royal palace",
+     "A Buddhist monastery"
     ],
     "answer_index": 0,
-    "difficulty": 3,
-    "explanation": "He was born Shivanath Dogra into a Dogra family of Kashmir.",
-    "q_np": "खप्तड बाबाको जन्म कहाँ भएको थियो?",
+    "difficulty": 2,
+    "explanation": "Triveni is a sacred confluence a short walk from the ashram.",
+    "q_np": "आश्रमबाट केही पर रहेको त्रिवेणी के हो?",
     "options_np": [
-     "कश्मीर",
-     "वाराणसी",
-     "काठमाडौँ",
-     "डोटी"
+     "पवित्र सङ्गम",
+     "हिमाली भञ्ज्याङ",
+     "राजदरबार",
+     "बौद्ध गुम्बा"
     ],
-    "explanation_np": "उनी कश्मीरको डोगरा परिवारमा शिवनाथ डोगराका रूपमा जन्मिएका थिए।"
+    "explanation_np": "त्रिवेणी आश्रमबाट केही पर रहेको पवित्र सङ्गम हो।"
    },
    {
     "q": "Which festival brings pilgrims to Khaptad each year?",
@@ -4632,7 +4632,7 @@
     "explanation_np": "गङ्गा दशहराको मेला वर्षमा एकपटक जेठ-असारको मौसममा लाग्छ।"
    },
    {
-    "q": "What colour is the long veranda of the ashram?",
+    "q": "What color is the long veranda of the ashram?",
     "options": [
      "Blue",
      "Red",
@@ -4721,7 +4721,7 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "The park covers 225 square kilometres across Bajhang, Bajura, Achham and Doti.",
+    "explanation": "The park covers 225 square kilometers across Bajhang, Bajura, Achham and Doti.",
     "q_np": "खप्तड राष्ट्रिय निकुञ्जको क्षेत्रफल कति छ?",
     "options_np": [
      "२२५ वर्ग किमी",
@@ -4956,7 +4956,7 @@
      "नदी",
      "शिक्षक"
     ],
-    "explanation_np": "शिवले बैद्य, अर्थात् उपचार गर्ने, को काम गरेकाले यो ठाउँ बैद्यनाथ कहलियो।"
+    "explanation_np": "शिवले बैद्यको, अर्थात् उपचार गर्नेको, काम गरेकाले यो ठाउँ बैद्यनाथ कहलियो।"
    },
    {
     "q": "Which demon king is said to have meditated here?",
@@ -5079,7 +5079,7 @@
     "explanation_np": "कथाअनुसार उनीहरू अन्धा भएर हतियार छाडी फर्किए।"
    },
    {
-    "q": "Which king wrote around 1383 that this place could cure all diseases?",
+    "q": "Which king wrote around 1383 CE that this place could cure all diseases?",
     "options": [
      "Prithvi Malla",
      "Abhaya Malla",
@@ -5089,7 +5089,7 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "King Abhaya Malla of Achham wrote in 1440 BS (c. 1383 CE) that the place could cure all diseases.",
-    "q_np": "करिब १३८३ मा कुन राजाले यो ठाउँले सबै रोग निको पार्न सक्छ भनी लेखे?",
+    "q_np": "करिब सन् १३८३ मा कुन राजाले यो ठाउँले सबै रोग निको पार्न सक्छ भनी लेखे?",
     "options_np": [
      "पृथ्वी मल्ल",
      "अभय मल्ल",
@@ -5104,7 +5104,7 @@
    "Vedic students in red chant beside a white bull where two far-western rivers meet.",
    "I am a compact shrine with two dark roofs over a whitewashed stone storey and a gilded finial on top.",
    "A white bull sits facing my door, always watching his lord.",
-   "Around 1383 a king wrote that I could cure all diseases.",
+   "Around 1383 CE a king wrote that I could cure all diseases.",
    "Legend says soldiers who came to invade during unification were struck blind here and left their weapons behind."
   ],
   "festivals": [
@@ -5195,7 +5195,7 @@
    "सुदूरपश्चिमका दुई नदी मिल्ने ठाउँमा रातो लुगा लगाएका वैदिक विद्यार्थी सेतो साँढेको छेउमा मन्त्र पढ्छन्।",
    "म सानो मन्दिर हुँ। मेरो सेतो पोतिएको ढुङ्गाको भुइँतलामाथि दुईवटा कालो धातुका छाना छन् र टुप्पोमा सुनौलो टुप्पी छ।",
    "एउटा सेतो साँढे मेरो ढोकातिर फर्केर बसेको छ, आफ्ना स्वामीलाई सधैँ हेरिरहेको।",
-   "करिब १३८३ मा एक राजाले म सबै रोग निको पार्न सक्छु भनेर लेखे।",
+   "करिब सन् १३८३ मा एक राजाले म सबै रोग निको पार्न सक्छु भनेर लेखे।",
    "कथाअनुसार एकीकरणका बेला आक्रमण गर्न आएका सिपाही यहाँ अन्धा भए र हतियार छाडेर फर्किए।"
   ]
  },

@@ -7,6 +7,7 @@ import { useT } from '../lib/prefs.jsx';
 import { MonumentCard } from '../components/MonumentCard.jsx';
 import { Mandala, OrnDivider } from '../components/Ornaments.jsx';
 import { ShlokaRotator, Epigraph } from '../components/Shloka.jsx';
+import '../styles/home-qa.css';
 
 const EASE = [0.22, 0.9, 0.24, 1];
 
@@ -49,6 +50,7 @@ function Reveal({ children, delay = 0, y = 26, className, style }) {
 }
 
 function Provinces({ data }) {
+  const t = useT();
   const ref = useRef(null);
   const track = useRef(null);
   const [dist, setDist] = useState(0);
@@ -67,7 +69,7 @@ function Provinces({ data }) {
       <div className="hscroll-sticky">
         <div className="wrap sec-head" style={{ marginBottom: '1.6rem' }}>
           <div>
-            <div className="eyebrow">Saat Pradesh · <span lang="ne">सात प्रदेश</span></div>
+            <div className="eyebrow">{t('Saat Pradesh · ', '')}<span lang="ne">{t('सात प्रदेश', 'सात प्रदेश')}</span></div>
             <h2>Seven provinces, one sacred map</h2>
             <Epigraph index={0} />
           </div>
@@ -82,7 +84,7 @@ function Provinces({ data }) {
                   {d?.image ? <img src={d.image} alt={`${p.key} Province`} loading="lazy" /> : <div className="jaali" style={{ width: '100%', height: '100%' }} />}
                   <span className="prov-no">{i + 1}</span>
                   <div className="prov-text">
-                    <div className="np" lang="ne">{p.np} प्रदेश</div>
+                    <div className="np" lang={t.nepali ? 'en' : 'ne'} data-notranslate>{t.nepali ? `${p.key} Province` : `${p.np} प्रदेश`}</div>
                     <h3>{p.key}</h3>
                     <div className="cap">{d ? `${d.count} heritage sites` : 'Heritage sites'}</div>
                   </div>
@@ -137,9 +139,10 @@ function HeroShowcase({ t, meta }) {
           असतो मा सद्गमय · तमसो मा ज्योतिर्गमय
         </motion.p>
         <h1 className="hero-title">
-          <SplitWords text="Walk where the" delay={0.2} /> <em><SplitWords text="gods still live." delay={0.45} /></em>
+          <SplitWords text={t('Walk where the', 'देवताहरू अझै बस्ने')} delay={0.2} /> <em><SplitWords text={t('gods still live.', 'ठाउँमा हिँड्नुहोस्।')} delay={0.45} /></em>
         </h1>
-        <motion.span className="hero-np" lang="ne" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 0.8 }}>हाम्रो प्राचीन सम्पदा</motion.span>
+        {/* the Devanagari name is a subtitle under the English headline; in Nepali mode the headline already is Devanagari */}
+        {!t.nepali && <motion.span className="hero-np" lang="ne" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 0.8 }}>हाम्रो प्राचीन सम्पदा</motion.span>}
         <motion.p className="lead" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.9, ease: EASE }}>
           {meta ? `${meta.monuments} temples, stupas, palaces and pilgrim sites` : 'Temples, stupas, palaces and pilgrim sites'} across all seven provinces.
           Hear their stories, turn each one in 3D, plan a yatra and race your friends in live heritage hunts.
@@ -156,7 +159,7 @@ function HeroShowcase({ t, meta }) {
             <motion.div key={cur.slug} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }} transition={{ duration: 0.5 }}>
               <span className="cap">{cur.city} · {t(`${cur.province} Province`, `${t.prov(cur.province)} प्रदेश`)}</span>
               <b>{cur.name}</b>
-              <span lang="ne" className="np">{cur.name_np}</span>
+              {!t.nepali && <span lang="ne" className="np">{cur.name_np}</span>}
               <span className="row" style={{ gap: '0.5rem', marginTop: '0.6rem' }}>
                 <Link to={`/m/${cur.slug}`} className="btn sm">Open the story <ArrowRight size={14} /></Link>
                 <Link to={`/m/${cur.slug}#model`} className="btn sm light-ghost"><Box size={14} /> 3D</Link>
@@ -230,7 +233,7 @@ export default function Home() {
                   <span className="mode-go"><ArrowUpRight size={20} /></span>
                   <div className="mode-no">{String(i + 1).padStart(2, '0')}</div>
                   <div style={{ marginTop: 'auto', paddingTop: '2rem' }}>
-                    <div className="np" lang="ne">{m.np}</div>
+                    <div className="np" lang={t.nepali ? 'en' : 'ne'} data-notranslate>{t.nepali ? m.en : m.np}</div>
                     <h3>{m.en}</h3>
                     <p>{m.p}</p>
                   </div>
@@ -249,7 +252,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section" style={{ paddingTop: 0 }}>
+      <section className="section after-shloka" style={{ paddingTop: 0 }}>
         <div className="wrap">
           <div className="sec-head">
             <Reveal>

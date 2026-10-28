@@ -103,6 +103,10 @@
 .footer h5 { color: var(--sand); font-family: var(--font-display); font-weight: 600; font-size: 1.1rem; margin-bottom: 0.9rem; }
 .footer a { display: block; color: #eadfe6; text-decoration: none; padding: 0.24rem 0; font-size: 0.95rem; transition: color 0.2s, transform 0.25s var(--ease); }
 .footer a:hover { color: var(--lilac-300); transform: translateX(4px); }
+/* the CTA button keeps its own colors and padding instead of the plain-link rule above */
+.footer a.btn { display: inline-flex; color: var(--t); padding: 0.65rem 1.3rem; font-size: 0.95rem; }
+.footer a.btn.lg { padding: 0.85rem 1.75rem; font-size: 1.03rem; }
+.footer a.btn:hover { color: var(--t); transform: translateY(-2px); }
 .footer-shloka { border-block: 1px solid rgba(246, 235, 207, 0.16); padding: 0.9rem 0; overflow: hidden; }
 .footer-shloka .marquee span { font-family: var(--font-script); font-size: clamp(1.3rem, 1rem + 1.4vw, 2rem); color: var(--sand); padding-right: 2rem; }
 .footer-base { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; padding-block: 1.3rem 2rem; font-size: 0.85rem; color: #a996a6; }
@@ -799,14 +803,6 @@ input[type='range'], input[type='checkbox'], input[type='radio'] { accent-color:
 @media (max-width: 760px) { .map-model-stage { width: 160px; height: 150px; } }
 
 
-/* Sketchfab scans */
-.scan-frame { margin: 0; }
-.scan-frame iframe { width: 100%; border: 0; border-radius: 16px; background: #120a14; display: block; }
-.scan-frame figcaption { display: flex; flex-wrap: wrap; gap: 0.3rem; align-items: center; margin-top: 0.55rem; }
-.scan-frame figcaption a { color: inherit; }
-.model-head .seg { flex: none; }
-.scan-section { margin-top: 2.4rem; }
-.scan-details .chips-row { margin: 0 0 0.8rem; }
 
 /* code entry and verify card */
 .verify-card { position: relative; overflow: hidden; isolation: isolate; }
@@ -869,3 +865,25 @@ select option { background: var(--bg-2); color: var(--text); }
 :root[data-theme='dark'] .dropcap::first-letter, :root[data-theme='dark'] .legend-box::before { color: var(--lilac-300); }
 .hint-box { margin-top: 0.7rem; padding: 0.7rem 0.9rem; border-radius: 12px; border: 1px dashed var(--line-strong); background: color-mix(in srgb, var(--info) 8%, transparent); }
 .hint-box p { margin: 0.4rem 0 0; font-style: italic; }
+
+/* ---------- Nepali mode: Devanagari needs more line height, calmer sizes, and room for the marks above and below the line ---------- */
+html[data-lang='ne'] :is(h1, h2, h3, h4, .display, .hero-title) { font-family: var(--font-np-display); font-weight: 700; letter-spacing: 0; line-height: 1.34; text-transform: none; }
+html[data-lang='ne'] .hero-title { font-size: clamp(2.6rem, 1.4rem + 4.6vw, 5.2rem); }
+html[data-lang='ne'] .hero-title em { font-style: normal; font-weight: 700; }
+html[data-lang='ne'] .mon-hero h1 { font-size: clamp(2.4rem, 1.4rem + 3.6vw, 4.4rem); max-width: 18ch; line-height: 1.3; }
+html[data-lang='ne'] .page-head h1, html[data-lang='ne'] .hero2 h1 { font-size: clamp(2.1rem, 1.3rem + 2.8vw, 3.6rem); max-width: 22ch; }
+html[data-lang='ne'] .split-line { padding: 0.18em 0.04em 0.22em; margin-block: -0.18em -0.22em; }
+html[data-lang='ne'] :is(.lead, p, li, .cap, .small) { line-height: 1.8; }
+html[data-lang='ne'] .btn, html[data-lang='ne'] .chip, html[data-lang='ne'] .tag { line-height: 1.5; letter-spacing: 0; text-transform: none; }
+html[data-lang='ne'] .eyebrow { letter-spacing: 0.02em; text-transform: none; }
+html[data-lang='ne'] .mcard-body h4 { line-height: 1.45; }
+/* Devanagari has no capitals and does not justify well: left-align body text, drop tracking and uppercase, lift small caption sizes */
+html[data-lang='ne'] :is(.lead, .dropcap, .mcard-body p, .story p, .walk-intro p, .scan-details p) { text-align: left; hyphens: none; }
+html[data-lang='ne'] .eyebrow { font-size: 0.9rem; font-weight: 600; }
+html[data-lang='ne'] :is(.scroll-cue, .table th, .shloka figcaption, .hero2-now .cap, .epigraph small, .fm-score small, .stars) { letter-spacing: 0; text-transform: none; }
+html[data-lang='ne'] .tag { font-size: 0.8rem; font-weight: 700; }
+html[data-lang='ne'] :is(.btn, .chip, .tag, .nav a, .mnav a, label, th, td, summary, button) { overflow-wrap: anywhere; }
+html[data-lang='ne'] :is(.btn, .chip) { min-height: 2.6em; padding-block: 0.45em; height: auto; white-space: normal; }
+html[data-lang='ne'] :is(h2, h3) { line-height: 1.4; }
+html[data-lang='ne'] :is(input, textarea, select)::placeholder { opacity: 0.75; }
+html[data-lang='ne'] :is(.cap, small, figcaption) { line-height: 1.65; }

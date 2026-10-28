@@ -635,12 +635,12 @@
    }
   ],
   "clues": [
-   "Two stone women hold red powder beside my steps, and every spring the crowd turns red in my honour.",
-   "A copper plate announcing a victory over Tibet was fixed to my walls, and captured weapons were stored upstairs.",
+   "Two carved women hold red powder beside my steps, and every spring the crowd turns red in my honour.",
+   "A copper plate announcing a victory over Tibet and China was placed here, and captured weapons were stored upstairs.",
    "I face west, and two pairs of lions, one cast in metal and one carved in stone, guard my door.",
    "My priest is called the Dhami; he once needed the king's permission to cross two rivers, and when he dies his eldest son takes his place.",
    "I stand about two hundred metres from a tall brick palace on the same ridge, and I wear a roof of copper.",
-   "I am a pagoda temple of the goddess who is the consort of Bhairav, known locally by the name of a great river; I was rebuilt after 2015 and finished in August 2020."
+   "I am a pagoda temple of the goddess who is the consort of Bhairav, known locally by the name of a great river; I was restored after 2015 and finished in August 2020."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Bhairabi_Temple,_Nuwakot",
@@ -734,12 +734,12 @@
   ],
   "quake_np": "सन् २०१५ अप्रिलको भूकम्पले मन्दिर ध्वस्त पार्‍यो। पुनर्स्थापना सन् २०२० अगस्टमा सकियो।",
   "clues_np": [
-   "मेरा भ्याङ्गछेउ दुई ढुङ्गाका महिलाले रातो अबिर बोकेका छन्, र हरेक वसन्तमा मेरो सम्मानमा भीड रातो हुन्छ।",
-   "तिब्बतमाथि विजयको घोषणा गर्ने तामाको पाता मेरा भित्तामा ठोकिएको थियो, र कब्जा गरेका हतियार माथिल्लो तल्लामा राखिएका थिए।",
+   "मेरा सिँढीछेउ दुई कुँदिएका महिलाले रातो अबिर बोकेका छन्, र हरेक वसन्तमा मेरो सम्मानमा भीड रातो हुन्छ।",
+   "तिब्बत र चीनमाथि विजयको घोषणा गर्ने तामाको पाता यहीँ राखिएको थियो, र कब्जा गरेका हतियार माथिल्लो तल्लामा राखिएका थिए।",
    "म पश्चिमतिर फर्केको छु, र धातुको एक जोडी र ढुङ्गाको एक जोडी सिंहले मेरो ढोका रक्षा गर्छन्।",
-   "मेरा पुजारीलाई धामी भनिन्छ। उनले दुई नदी तर्न राजाको अनुमति चाहिन्थ्यो, र उनको मृत्यु भएपछि जेठो छोराले ठाउँ लिन्छ।",
+   "मेरा पुजारीलाई धामी भनिन्छ। उनलाई दुई नदी तर्न राजाको अनुमति चाहिन्थ्यो, र उनको मृत्यु भएपछि जेठो छोराले ठाउँ लिन्छ।",
    "म एउटै डाँडामा इँटाको अग्लो दरबारबाट करिब दुई सय मिटरमा उभिएको छु, र मेरो छाना तामाको छ।",
-   "म भैरवकी शक्ति देवीको पगोडा मन्दिर हुँ, एउटा ठूलो नदीको नामले स्थानीयले मलाई चिन्छन्। सन् २०१५ पछि मलाई फेरि बनाइयो र सन् २०२० अगस्टमा सकियो।"
+   "म भैरवकी शक्ति देवीको पगोडा मन्दिर हुँ, एउटा ठूलो नदीको नामले स्थानीयले मलाई चिन्छन्। सन् २०१५ पछि मलाई मर्मत गरियो र सन् २०२० अगस्टमा सकियो।"
   ]
  },
  {
@@ -815,7 +815,7 @@
      "ब्रह्मा",
      "इन्द्र"
     ],
-    "explanation_np": "किंवदन्ती अनुसार विष पिएपछि शिवले पानी निकाल्न त्रिशूलले पहाडमा प्रहार गरे।"
+    "explanation_np": "कथा अनुसार विष पिएपछि शिवले पानी निकाल्न त्रिशूलले पहाडमा प्रहार गरे।"
    },
    {
     "q": "At about what altitude does Gosaikunda lie?",
@@ -875,7 +875,7 @@
      "नाग पोखरी",
      "सिद्ध पोखरी"
     ],
-    "explanation_np": "किंवदन्ती अनुसार कुम्भेश्वर मन्दिरको पोखरीको मुहान गोसाइँकुण्डसँग जोडिएको छ।"
+    "explanation_np": "कथा अनुसार कुम्भेश्वर मन्दिरको पोखरीको मुहान गोसाइँकुण्डसँग जोडिएको छ।"
    },
    {
     "q": "In which year was the Gosaikunda lake complex listed as a Ramsar site?",
@@ -895,7 +895,7 @@
      "२००७",
      "२०१५"
     ],
-    "explanation_np": "यो सन् २००७ सेप्टेम्बर २९ मा रामसार सिमसारका रूपमा तोकिएको थियो।"
+    "explanation_np": "यो सन् २००७ को सेप्टेम्बर २९ मा रामसार सिमसारका रूपमा तोकिएको थियो।"
    },
    {
     "q": "In which national park does Gosaikunda lie?",
@@ -1112,7 +1112,7 @@
   "quake_np": null,
   "clues_np": [
    "घाँटी पोलेका एक देवताले यो पहाडमा त्रिशूलले प्रहार गरे, र चिसो पानी फुत्किएर आयो।",
-   "वर्षको आधा समय म जमेको हुन्छु। अगस्टको एक पूर्णिमामा हजारौँ मानिस दिनौँ हिँडेर मा नुहाउन चढ्छन्।",
+   "वर्षको आधा समय म जमेको हुन्छु। अगस्टको एक पूर्णिमामा हजारौँ मानिस दिनौँ हिँडेर ममा नुहाउन चढ्छन्।",
    "म राष्ट्रिय निकुञ्जभित्र ४,३८० मिटरको उचाइमा छु। वरिपरि नाङ्गो चट्टान छ र मेरो किनारमा साना ढुङ्गाका मन्दिर छन्।",
    "पाटनमा मानिसहरू एउटा प्रसिद्ध शिव मन्दिरको पोखरीमा मेरै पानी आउँछ भन्ने विश्वास गर्छन्।",
    "नेवारहरूले मलाई अर्कै नामले चिन्छन्, र मेरै बारेमा चर्चित गीत र चलचित्र बनेका छन्।",
@@ -1603,7 +1603,7 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "A cable car was added in 2018 for the growing number of visitors.",
+    "explanation": "A cable car from Kuri village opened in 2018.",
     "q_np": "कालिञ्चोकको केबल कार कुन वर्ष सुरु भयो?",
     "options_np": [
      "सन् २००८",
@@ -1611,7 +1611,7 @@
      "सन् २०१८",
      "सन् २०२२"
     ],
-    "explanation_np": "आउने मानिस बढेपछि सन् २०१८ मा केबल कार थपियो।"
+    "explanation_np": "कुरी गाउँबाट केबल कार सन् २०१८ मा सुरु भयो।"
    },
    {
     "q": "About how high is the shrine?",
@@ -1756,7 +1756,7 @@
   ],
   "clues": [
    "No roof, no tower: only a thicket of iron tridents and fluttering cloth on a snowy summit near 3,800 m.",
-   "Pilgrims once climbed for hours from Kuri village; since 2018 a cable lifts them up in minutes.",
+   "Pilgrims once climbed on foot for an hour and a half from Kuri village; since 2018 a cable lifts them up in minutes.",
    "Layers of red, yellow and blue cloth and rows of bells are tied around the goddess here, among black iron.",
    "A holy pond lies inside my small enclosure, and my hill is near the sources of two big rivers.",
    "In winter my slopes turn white and visitors come to play in the snow; on clear days Gaurishankar, Jugal and Ganesh line the horizon.",
@@ -1861,7 +1861,7 @@
   "quake_np": null,
   "clues_np": [
    "न छाना, न मीनार। करिब ३,८०० मिटरको हिउँले ढाकेको शिखरमा फलामका त्रिशूलको झुण्ड र फर्फराइरहेका कपडा मात्र छन्।",
-   "तीर्थयात्री पहिले कुरी गाउँबाट घण्टौँ हिँडेर चढ्थे। सन् २०१८ देखि केबल कारले मिनेटमै माथि पुर्‍याउँछ।",
+   "तीर्थयात्री पहिले कुरी गाउँबाट डेढ घण्टा हिँडेर चढ्थे। सन् २०१८ देखि केबल कारले मिनेटमै माथि पुर्‍याउँछ।",
    "यहाँ देवीको वरिपरि कालो फलामबीच रातो, पहेँलो र निलो कपडाका तह र घण्टका लहर बाँधिएका छन्।",
    "मेरो सानो घेराभित्र पवित्र पोखरी छ, र मेरो डाँडा दुई ठूला नदीको मुहान नजिकै छ।",
    "जाडोमा मेरा भिराला सेता हुन्छन् र मानिस हिउँमा खेल्न आउँछन्। मौसम खुला हुँदा गौरीशङ्कर, जुगल र गणेश हिमाल क्षितिजमा लहरै देखिन्छन्।",
@@ -2665,7 +2665,7 @@
   ],
   "quiz": [
    {
-    "q": "Which demon did the goddess Chandeshwori defeat?",
+    "q": "According to this temple's legend, which demon did the goddess slay?",
     "options": [
      "Mahishasur",
      "Chanda",
@@ -2675,7 +2675,7 @@
     "answer_index": 1,
     "difficulty": 1,
     "explanation": "The goddess takes her name from killing the demon Chanda.",
-    "q_np": "देवी चण्डेश्वरीले कुन दानवलाई हराइन्?",
+    "q_np": "यस मन्दिरको कथा अनुसार देवीले कुन दानवलाई मारिन्?",
     "options_np": [
      "महिषासुर",
      "चण्ड",
@@ -3743,7 +3743,7 @@
    "मेरो मुख सूर्योदयतिर फर्केको अर्धचन्द्र हो। हिन्दू, बौद्ध र किराती राई सबैले मलाई पवित्र मान्छन्।",
    "म सतहभन्दा करिब ६७ फिट तल छु, भित्र गोलो छु, र मेरो मुनि अर्को गुफा पनि छ।",
    "मेरो माथिको डाँडामा एउटा गुम्बा छ, जहाँका भिक्षु भन्छन्, एक गुरु र उनकी सहचरीले यहीँ दीर्घायुको शक्ति पाएका थिए।",
-   "किराती राई मलाई पुर्खाको थलो मान्छन्, र शिवरात्रि र बाला चतुर्दशीमा मलाई तीर्थयात्रीले भरिदिन्छन्।",
+   "किराती राई मलाई पुर्खाको थलो मान्छन्, र शिवरात्रि र बाला चतुर्दशीमा ममा तीर्थयात्रीको भीड लाग्छ।",
    "म दूधकोशी र सुनकोशी नदीको बीचका डाँडामा रहेको चुनढुङ्गाको गुफा हुँ, र मलाई पूर्वको पशुपतिनाथ भनिन्छ।"
   ]
  },
@@ -3884,7 +3884,7 @@
     ],
     "answer_index": 2,
     "difficulty": 5,
-    "explanation": "The development committee replaced the sacred rock with a statue in 2001.",
+    "explanation": "In 2001 the sacred rock on the summit was replaced with a statue of Durga.",
     "q_np": "टुप्पोको चट्टानको ठाउँमा दुर्गाको मूर्ति कुन वर्ष राखियो?",
     "options_np": [
      "सन् १९५०",
@@ -3892,7 +3892,7 @@
      "सन् २००१",
      "सन् २०१५"
     ],
-    "explanation_np": "पाथीभरा क्षेत्र विकास समितिले सन् २००१ मा पवित्र चट्टानको ठाउँमा मूर्ति राख्यो।"
+    "explanation_np": "सन् २००१ मा टुप्पोको पवित्र चट्टानको ठाउँमा दुर्गाको मूर्ति राखियो।"
    },
    {
     "q": "Which great Himalayan peak can be seen from the temple on a clear morning?",
@@ -4603,7 +4603,7 @@
      "भूकम्प",
      "बाढी"
     ],
-    "explanation_np": "सन् १९८९ को जनवरी १९ मा बिजुलीको आगलागीले गुम्बा नष्ट गर्‍यो।"
+    "explanation_np": "सन् १९८९ को जनवरी १९ मा बिजुलीको सर्ट सर्किटबाट लागेको आगोले गुम्बा नष्ट गर्‍यो।"
    },
    {
     "q": "Which festival with masked dances is held at Tengboche?",
@@ -4611,7 +4611,7 @@
      "Losar",
      "Mani Rimdu",
      "Tiji",
-     "Dumje"
+     "Teej"
     ],
     "answer_index": 1,
     "difficulty": 3,
@@ -4621,7 +4621,7 @@
      "ल्होसार",
      "मानी रिम्दु",
      "टिजी",
-     "दुम्जे"
+     "तीज"
     ],
     "explanation_np": "मानी रिम्दु यहाँ तिब्बती पात्रोको दसौँ महिनामा मनाइन्छ।"
    },
@@ -5067,7 +5067,7 @@
     "explanation_np": "शोकमा डुबेका शिव सतीको शव बोकेर घुमे, र उनका अङ्ग देशभर खसे।"
    },
    {
-    "q": "What colour are the temple's walls?",
+    "q": "What colour are the walls of the pagoda itself?",
     "options": [
      "White",
      "Blue",
@@ -5077,7 +5077,7 @@
     "answer_index": 3,
     "difficulty": 2,
     "explanation": "The pagoda has grey roofs and red-orange walls inside a whitewashed compound.",
-    "q_np": "मन्दिरका भित्ता कुन रङका छन्?",
+    "q_np": "पगोडाकै भित्ता कुन रङका छन्?",
     "options_np": [
      "सेतो",
      "निलो",
@@ -5323,7 +5323,7 @@
      "यो कहिल्यै बढ्दैन",
      "यो हरेक वर्ष फुल्छ"
     ],
-    "explanation_np": "किंवदन्ती अनुसार शिव र पार्वतीका धनुषबाट झुप्पा नभएको बाँस उम्रिएको हो।"
+    "explanation_np": "कथा अनुसार शिव र पार्वतीका धनुषबाट झुप्पा नभएको बाँस उम्रिएको हो।"
    },
    {
     "q": "What do couples tie to the bamboo today?",
@@ -5443,7 +5443,7 @@
      "ब्रह्मा र सरस्वती",
      "राम र सीता"
     ],
-    "explanation_np": "किंवदन्ती अनुसार शिव र पार्वती याक्थुङ राजा र रानीको भेषमा आएका थिए।"
+    "explanation_np": "कथा अनुसार शिव र पार्वती याक्थुङ राजा र रानीको भेषमा आएका थिए।"
    },
    {
     "q": "According to the legend, what did the bamboo grow from?",
@@ -5456,7 +5456,7 @@
     "answer_index": 3,
     "difficulty": 2,
     "explanation": "Tuftless bamboo sprouted from the bows Shiva and Parvati stuck into the ground.",
-    "q_np": "किंवदन्ती अनुसार बाँस केबाट उम्रियो?",
+    "q_np": "कथा अनुसार बाँस केबाट उम्रियो?",
     "options_np": [
      "लौरो",
      "भाला",
@@ -5476,14 +5476,14 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "The legend names them Theba Sammang and Yuma Sammang.",
-    "q_np": "किंवदन्तीका याक्थुङ राजा र रानी कुन नामले चिनिन्छन्?",
+    "q_np": "कथाका याक्थुङ राजा र रानी कुन नामले चिनिन्छन्?",
     "options_np": [
      "डुङ्डुङ साम्माङ र युमा साम्माङ",
      "थेबा साम्माङ र युमा साम्माङ",
      "बुद्धिकर्ण र युमा",
      "खेबाङ र साम्माङ"
     ],
-    "explanation_np": "किंवदन्तीमा उनीहरूको नाम थेबा साम्माङ र युमा साम्माङ हो।"
+    "explanation_np": "कथामा उनीहरूको नाम थेबा साम्माङ र युमा साम्माङ हो।"
    }
   ],
   "clues": [
@@ -5590,12 +5590,12 @@
   ],
   "quake_np": null,
   "clues_np": [
-   "प्रेमीहरूले कुनै बेला मेरो बाँसमा नाम कुँदे। अहिले टुप्पोमा झुप्पा नहुने बाँसका ठाँटमा उनीहरू रङ्गीन धागो बाँध्छन्।",
+   "प्रेमीहरूले कुनै बेला मेरो बाँसमा नाम कुँदे। अहिले टुप्पोमा झुप्पा नहुने बाँसका डाँठमा उनीहरू रङ्गीन धागो बाँध्छन्।",
    "शान्तिवार्तामा बोलाइएका एक लिम्बू राजा यो डाँडाबाट कहिल्यै फर्केनन्। यहाँ उनको दयालु आत्माको पूजा गरिन्छ।",
    "कसैले भन्छन्, लिम्बू राजा र रानीको भेषमा शिव र पार्वतीले यहीँ आफ्ना सिकारका धनुष रोपे, र त्यसैबाट बाँस उम्रियो।",
-   "रातो खम्बा भएको सानो खुला मण्डप र त्यसको छेउको पहेँलो मेहराबी मन्दिरवरिपरि बाँसका ठाँट चर्किरहन्छन्।",
+   "रातो खम्बा भएको सानो खुला मण्डप र त्यसको छेउको पहेँलो मेहराबी मन्दिरवरिपरि बाँसका डाँठ चर्किरहन्छन्।",
    "यो डाँडामा कुनै बेला एउटा लिम्बू राज्यको राजधानी थियो, र त्यसका अन्तिम राजालाई सन् १७७३ मा मारियो।",
-   "म बाँसघारीभित्रको किराँत मन्दिर हुँ, जहाँ मानिसले पवित्र धागो र घण्ट झुन्ड्याउँछन् र एक पुराना राजाको दयालु आत्माको पूजा गर्छन्।"
+   "म बाँसघारीभित्रको किराँत मन्दिर हुँ, जहाँ मानिसले पवित्र धागो र घण्ट झुन्ड्याउँछन् र पुराना राजाको दयालु आत्माको पूजा गर्छन्।"
   ]
  },
  {
@@ -5820,7 +5820,7 @@
     "q_np": "मन्दिरभित्र के कहिल्यै निभ्न दिइँदैन?",
     "options_np": [
      "धूप",
-     "मुठ्ठा",
+     "मसाल",
      "मैनबत्ती",
      "तेलका दियो"
     ],
@@ -5868,7 +5868,7 @@
    }
   ],
   "clues": [
-   "Every Monday of the monsoon month, barefoot crowds walk twenty kilometres from a river with water for my lingam.",
+   "Every Monday of the monsoon month, crowds, many of them barefoot, walk twenty kilometres from a river with water for my lingam.",
    "Behind my orange spire runs a long row of arches, and inside, the oil lamps are never allowed to go out.",
    "A local scholar says I appear in eighteen chapters of an ancient Purana.",
    "People link me to the origin of rudraksha beads.",
@@ -5974,7 +5974,7 @@
   ],
   "quake_np": null,
   "clues_np": [
-   "वर्षा महिनाको हरेक सोमबार खाली खुट्टा भक्तजन नदीबाट मेरो शिवलिङ्गका लागि जल बोकेर बीस किलोमिटर हिँड्छन्।",
+   "वर्षा महिनाको हरेक सोमबार धेरैजसो खाली खुट्टा भक्तजन नदीबाट मेरो शिवलिङ्गका लागि जल बोकेर बीस किलोमिटर हिँड्छन्।",
    "मेरो सुन्तला रङको शिखरपछाडि मेहराबको लामो लहर छ, र भित्र तेलका दियो कहिल्यै निभ्न दिइँदैन।",
    "एक जना स्थानीय विद्वान भन्छन्, एउटा प्राचीन पुराणका अठारह अध्यायमा मेरो नाम आउँछ।",
    "मानिसहरू मलाई रुद्राक्षको उत्पत्तिसँग जोड्छन्।",
@@ -6240,7 +6240,7 @@
   ],
   "clues": [
    "A Gorkha king married a princess of this hilltop fort, then came back with an army to capture it.",
-   "Three battles in 1762, 1763 and 1816 echoed off my 25-foot stone walls above Hetauda.",
+   "Three battles in 1762, 1763 and 1816 echoed off my 25-foot stone walls on this ridge.",
    "A wall about twenty-five feet high and seven feet wide, with a ditch ten feet deep outside, once protected a palace whose walls now lie in ruins.",
    "Old iron cannons stand in my grounds, one of them named after the goddess Kali.",
    "A story says a king promised his son-in-law a white elephant as dowry, but his son refused to hand it over.",
@@ -6334,7 +6334,7 @@
   "quake_np": null,
   "clues_np": [
    "एक गोरखा राजाले डाँडाको यो किल्लाकी राजकुमारीसँग विवाह गरे, अनि सेना लिएर फर्केर यसलाई कब्जा गरे।",
-   "सन् १७६२, १७६३ र १८१६ का तीन लडाइँको प्रतिध्वनि हेटौँडामाथिका मेरा २५ फिट अग्ला ढुङ्गाका पर्खालमा गुञ्जियो।",
+   "सन् १७६२, १७६३ र १८१६ का तीन लडाइँको प्रतिध्वनि यही डाँडाका मेरा २५ फिट अग्ला ढुङ्गाका पर्खालमा गुञ्जियो।",
    "करिब पच्चीस फिट अग्लो र सात फिट बाक्लो पर्खाल र बाहिर दस फिट गहिरो खाल्डोले एउटा दरबारलाई जोगाउँथ्यो। त्यो दरबारका भित्ता अहिले भग्नावशेष भएका छन्।",
    "मेरो चौरमा पुराना फलामका तोप राखिएका छन्, तीमध्ये एउटाको नाम काली देवीका नामबाट राखिएको छ।",
    "एउटा कथा अनुसार एक राजाले ज्वाइँलाई दाइजोमा सेतो हात्ती दिने वचन दिएका थिए, तर उनका छोराले दिन मानेनन्।",
@@ -6591,7 +6591,7 @@
   ],
   "clues": [
    "From my stone walls high in the hills you can see the whole jungle valley I once ruled as its capital.",
-   "District officials worked inside my walls until the 1960s, when they moved down to the plains at Bharatpur.",
+   "District officials worked inside my walls until the 1960s, when they moved down to a town on the plains.",
    "Inside my carved stone wall lie a weapon house, a well, a two-room house and a little temple.",
    "Cannons and shells have been recovered here, and the Department of Archaeology began restoring me in 2023.",
    "Historians argue whether a Shah prince fighting the British or the older Sen kings built me.",
@@ -6690,8 +6690,8 @@
   ],
   "quake_np": null,
   "clues_np": [
-   "डाँडामाथिका मेरा ढुङ्गाका पर्खालबाट म एक समय राजधानी भएर शासन गरेको सारा जङ्गली उपत्यका देखिन्छ।",
-   "सन् १९६० को दशकसम्म जिल्लाका अधिकारी मेरा पर्खालभित्र काम गर्थे, त्यसपछि उनीहरू समथर भूमिको भरतपुरमा झरे।",
+   "डाँडामाथिका मेरा ढुङ्गाका पर्खालबाट एक समय मैले राजधानी भएर शासन गरेको सारा जङ्गली उपत्यका देखिन्छ।",
+   "सन् १९६० को दशकसम्म जिल्लाका अधिकारी मेरा पर्खालभित्र काम गर्थे, त्यसपछि उनीहरू समथर भूमिको सहरमा झरे।",
    "मेरो कुँदिएको ढुङ्गाको पर्खालभित्र हतियार घर, इनार, दुई कोठे घर र सानो मन्दिर छन्।",
    "यहाँबाट तोप र गोला भेटिएका छन्, र पुरातत्त्व विभागले सन् २०२३ मा मेरो पुनर्स्थापना सुरु गर्‍यो।",
    "अङ्ग्रेजसँग लडेका शाह वंशका राजकुमारले बनाएका हुन् कि पुराना सेन राजाले, इतिहासकार यसबारे बहस गर्छन्।",

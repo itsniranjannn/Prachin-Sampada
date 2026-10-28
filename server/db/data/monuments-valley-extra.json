@@ -161,10 +161,10 @@
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "It lies about a kilometre east of the Pashupati area, on the southern bank of the Bagmati.",
+    "explanation": "It lies about a kilometer east of the Pashupati area, on the southern bank of the Bagmati.",
     "q_np": "गुह्येश्वरी मन्दिर पशुपतिनाथको कुन दिशामा छ?",
     "options_np": [
-     "करिब १ किमी पूर्वमा, बागमतीको माथिल्तिर",
+     "करिब १ किमी पूर्वमा, बागमतीको माथिल्लो भागमा",
      "करिब १० किमी पश्चिममा",
      "पशुपतिनाथको मुख्य आँगनभित्र",
      "उत्तरतिरको अर्को डाँडामा"
@@ -257,7 +257,7 @@
    "Travel guides say my inner courtyard is open only to Hindus, while others look in from outside.",
    "Upstream from the great Shiva temple, the hidden goddess is worshipped in a jar over a spring.",
    "Newar Karmacharya priests perform my daily tantric rites, and a Malla king renewed me in the 17th century.",
-   "Buddhists honour me as the home of Vajravarahi, a kilometre east of the most famous Shiva temple in the land.",
+   "Buddhists honor me as the home of Vajravarahi, a kilometer east of the most famous Shiva temple in the land.",
    "Gilded serpents guard my roof, and my name means the secret goddess."
   ],
   "sources": [
@@ -363,7 +363,7 @@
   "clues_np": [
    "मेरो ठाउँ मातृदेवीको आसन हो; शोकमा डुबेका शिवले सतीको शरीर बोकेर डुल्दा उनको एक अङ्ग यहीँ खसेको भनिन्छ।",
    "यात्रा गाइडहरू भन्छन्, मेरो भित्री आँगनमा हिन्दूहरूलाई मात्र प्रवेश छ; अरूले बाहिरबाट हेर्छन्।",
-   "ठूलो शिव मन्दिरभन्दा नदीको माथिल्तिर, लुकेकी देवीलाई मूलमाथि राखिएको कलशमा पूजा गरिन्छ।",
+   "ठूलो शिव मन्दिरभन्दा नदीको माथिल्लो भागमा, लुकेकी देवीलाई मूलमाथि राखिएको कलशमा पूजा गरिन्छ।",
    "नेवार कर्माचार्य पुजारीले मेरो दैनिक तान्त्रिक पूजा गर्छन्, र १७औँ शताब्दीमा एक मल्ल राजाले मलाई नयाँ बनाए।",
    "बौद्धहरू मलाई वज्रवाराहीको बास मान्छन्; देशकै सबैभन्दा प्रख्यात शिव मन्दिरभन्दा एक किलोमिटर पूर्वमा छु।",
    "मेरो छानामा सुनौला सर्पहरूले पहरा दिन्छन्, र मेरो नामको अर्थ नै गोप्य देवी हो।"
@@ -440,7 +440,7 @@
     "explanation_np": "महादेव शिवको नाम हो; गर्भगृहमा शिवलिङ्ग छ।"
    },
    {
-    "q": "Which festival brings families here to honour their fathers?",
+    "q": "Which festival brings families here to honor their fathers?",
     "options": [
      "Teej",
      "Gokarna Aunsi",
@@ -1005,8 +1005,8 @@
    "Archaeologists say the story told about my builder still needs confirming.",
    "Tiny chaityas, stupas and stone images, some from the Licchavi period, crowd around my base.",
    "An emperor's daughter married here and stayed, and a stupa with watching eyes keeps her memory.",
-   "A brick with a princess's name turned up when my cracked dome was mended near the Chabahil crossroads.",
-   "I am also called Dhando Chaitya, and I was mended again after the April 2015 earthquake.",
+   "A brick with a princess's name turned up when my cracked dome was mended near a busy crossroads.",
+   "Locals know me by a second name, and I was mended again after the April 2015 earthquake.",
    "My white dome with painted Buddha eyes sits just off a busy road, close to the valley's biggest stupa at Boudhanath."
   ],
   "sources": [
@@ -1115,11 +1115,11 @@
   ],
   "quake_np": "सन् २०१५ को अप्रिलको भूकम्पले स्तूपमा क्षति पुर्‍यायो, र त्यसपछि यसलाई फेरि जीर्णोद्धार गरियो।",
   "clues_np": [
-   "मेरी निर्माताबारे भनिने कथा अझै पुष्टि हुनुपर्छ भन्छन् पुरातत्त्वविद्हरू।",
+   "मेरी निर्माताबारे भनिने कथा अझै पुष्टि हुन बाँकी छ भन्छन् पुरातत्त्वविद्हरू।",
    "मेरो फेदमा साना चैत्य, स्तूप र ढुङ्गाका मूर्तिहरू भीड लगाएर बसेका छन्; केही लिच्छविकालका हुन्।",
    "एक सम्राटकी छोरी यहीँ विवाह गरेर बसिन्, र आँखा भएको एउटा स्तूपले उनको सम्झना जोगाएको छ।",
-   "चाबहिलको चौबाटोनजिक मेरो चिरा परेको गुम्बज मर्मत गर्दा एक राजकुमारीको नाम लेखिएको इँटा भेटियो।",
-   "मलाई ढन्दो चैत्य पनि भनिन्छ, र सन् २०१५ को अप्रिलको भूकम्पपछि मलाई फेरि मर्मत गरियो।",
+   "व्यस्त चौबाटोनजिक मेरो चिरा परेको गुम्बज मर्मत गर्दा एक राजकुमारीको नाम लेखिएको इँटा भेटियो।",
+   "स्थानीयले मलाई अर्कै नामले पनि चिन्छन्, र सन् २०१५ को अप्रिलको भूकम्पपछि मलाई फेरि मर्मत गरियो।",
    "बुद्धका रङ्गीन आँखा भएको मेरो सेतो गुम्बज व्यस्त सडकको छेउमा छ, उपत्यकाको सबैभन्दा ठूलो स्तूप बौद्धनाथको नजिकै।"
   ]
  },
@@ -1331,9 +1331,9 @@
      "त्रिशूल",
      "वज्र",
      "हलो",
-     "बाङ्गो खुकुरी"
+     "बाङ्गो छुरी"
     ],
-    "explanation_np": "उनले बाङ्गो खुकुरीले पहाड काटेर पानी बगाइदिइन्।"
+    "explanation_np": "उनले बाङ्गो छुरीले पहाड काटेर पानी बगाइदिइन्।"
    },
    {
     "q": "Which Tibetan masters are linked with the caves near the temple?",
@@ -1496,9 +1496,9 @@
   ],
   "quake_np": "सन् २०१५ को भूकम्पले मन्दिरलाई असुरक्षित बनायो; मूर्तिहरू सुरक्षाका लागि सारिए, संरचनालाई काठले टेको लगाइयो, र पछि जीर्णोद्धार गरियो।",
   "clues_np": [
-   "मुनिको पुरानो नेवार सहरको सबैभन्दा पुरानो शिलालेख सन् ५३८ को हो।",
+   "मेरो फेदको पुरानो नेवार सहरको सबैभन्दा पुरानो शिलालेख सन् ५३८ को हो।",
    "मेरी देवीको अनुहार रातो छ र तीन आँखा छन्, अनि हिन्दू र बौद्ध दुवैले उनलाई भेटी चढाउँछन्।",
-   "बाङ्गो खुकुरी भएकी एक देवीले ताल खाली गरिन्, र उनको जङ्गलको भर्‍याङमुनि शङ्खको आकारको सहर बस्यो।",
+   "बाङ्गो छुरी भएकी एक देवीले ताल खाली गरिन्, र उनको जङ्गलको भर्‍याङमुनि शङ्खको आकारको सहर बस्यो।",
    "मेरो तीन तले मन्दिरलाई चीडका रुख, ढुङ्गाको लामो भर्‍याङ र तिब्बती योगीहरूका गुफाले घेरेका छन्।",
    "सन् २०१५ को भूकम्पपछि मलाई काठले टेको लगाइयो र मेरा मूर्तिहरू सुरक्षाका लागि अन्त सारिए।",
    "हरेक वसन्तमा मेरी देवी रथमा चढेर फेदको पुरानो नेवार सहरमा झर्छिन्, र राजा प्रताप मल्लले बनाएको तीन तले मन्दिर मेरो डाँडाको मुकुट हो।"
@@ -1761,7 +1761,7 @@
    "A stone inscription in my grounds is said to be written in Kannada, the language of far-off southern India.",
    "I am a pagoda in a cluster of five shrines in a quiet village, and my large linga draws crowds on Shivaratri.",
    "A bull's body is worshipped far away in the Himalaya, and pilgrims say its head rests in my village.",
-   "South of the Ganesh shrine of Suryabinayak, Bhima's grip on a fleeing bull is remembered in my linga.",
+   "A few kilometers south of a famous Ganesh shrine, Bhima's grip on a fleeing bull is remembered in my linga.",
    "In Shrawan, devotees offer milk and bel leaves to my linga, especially on Mondays.",
    "In 2009 the head priest of a famous Indian shrine declared me to be the head of the bull whose body he worships."
   ],
@@ -1877,7 +1877,7 @@
    "मेरो परिसरको एउटा ढुङ्गाको शिलालेख टाढाको दक्षिण भारतको भाषा कन्नडमा लेखिएको भनिन्छ।",
    "म शान्त गाउँका पाँच मन्दिरको समूहमा रहेको पगोडा हुँ, र शिवरात्रिमा मेरो ठूलो शिवलिङ्गमा भीड लाग्छ।",
    "हिमालयमा टाढा एउटा साँढेको शरीर पूजिन्छ, र तीर्थयात्रीहरू भन्छन् उसको टाउको मेरै गाउँमा छ।",
-   "सूर्यविनायकको गणेश मन्दिरको दक्षिणतिर, भागिरहेको साँढेमाथि भीमले गरेको पकडको सम्झना मेरो शिवलिङ्गमा गरिन्छ।",
+   "एउटा प्रख्यात गणेश मन्दिरभन्दा केही किलोमिटर दक्षिणतिर, भागिरहेको साँढेमाथि भीमले गरेको पकडको सम्झना मेरो शिवलिङ्गमा गरिन्छ।",
    "श्रावण महिनामा भक्तजनले मेरो शिवलिङ्गमा दूध र बेलपत्र चढाउँछन्, विशेषगरी सोमबार।",
    "सन् २००९ मा एउटा प्रख्यात भारतीय तीर्थका मुख्य पुजारीले मलाई आफूले पूजा गर्ने साँढेको टाउको भनी घोषणा गरे।"
   ]
@@ -2002,7 +2002,7 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "It has three storeys on a square base.",
+    "explanation": "It has three roofs on a square base.",
     "q_np": "मन्दिरमा कतिवटा छाना छन्?",
     "options_np": [
      "एउटा",
@@ -2113,24 +2113,24 @@
     "explanation_np": "सन् २०१५ मा १७औँ शताब्दीको दिगु भैरवको मूर्ति चोरी भयो।"
    },
    {
-    "q": "What colour does the square turn during Sindoor Jatra?",
+    "q": "A shrine of which fierce god stands in the temple compound?",
     "options": [
-     "Orange-red",
-     "Blue",
-     "White",
-     "Golden"
+     "Bhairav",
+     "Karttikeya",
+     "Varuna",
+     "Yama"
     ],
     "answer_index": 0,
-    "difficulty": 1,
-    "explanation": "Clouds of vermilion turn the square orange-red.",
-    "q_np": "सिन्दुरे जात्रामा चोक कुन रङको हुन्छ?",
+    "difficulty": 2,
+    "explanation": "A Bhairav shrine stands in the compound of the Balkumari temple.",
+    "q_np": "मन्दिर परिसरमा कुन उग्र देवताको मन्दिर छ?",
     "options_np": [
-     "सुन्तला-रातो",
-     "निलो",
-     "सेतो",
-     "सुनौलो"
+     "भैरव",
+     "कार्तिकेय",
+     "वरुण",
+     "यम"
     ],
-    "explanation_np": "सिन्दुरको बादलले चोकलाई सुन्तला-रातो बनाउँछ।"
+    "explanation_np": "बालकुमारी मन्दिरको परिसरमा भैरवको मन्दिर छ।"
    }
   ],
   "clues": [
@@ -2358,7 +2358,7 @@
    {
     "q": "Which Buddhist master is linked to the cave above the temple?",
     "options": [
-     "Milarepa",
+     "Tsongkhapa",
      "Padmasambhava",
      "Atisha",
      "Nagarjuna"
@@ -2368,7 +2368,7 @@
     "explanation": "Yangleshö cave is linked to Guru Padmasambhava.",
     "q_np": "मन्दिरमाथिको गुफा कुन बौद्ध गुरुसँग जोडिएको छ?",
     "options_np": [
-     "मिलारेपा",
+     "चोङखापा",
      "पद्मसम्भव",
      "अतिश",
      "नागार्जुन"
@@ -2376,24 +2376,24 @@
     "explanation_np": "यङ्लेशो गुफा गुरु पद्मसम्भवसँग जोडिएको छ।"
    },
    {
-    "q": "Which sun-god image lies in one of the ponds?",
+    "q": "Which god's image lies half-sunk in one of the ponds?",
     "options": [
-     "Surya Narayan",
-     "Aditya",
-     "Mitra",
-     "Savitri"
+     "Aditya, the sun god",
+     "Kubera, god of wealth",
+     "Yama, god of death",
+     "Agni, god of fire"
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "An image of Aditya lies partly underwater in a pond.",
-    "q_np": "कुन सूर्यदेवको मूर्ति पोखरीमा छ?",
+    "explanation": "An image of Aditya, the sun god, lies partly underwater in a pond.",
+    "q_np": "पोखरीमा आधा डुबेको मूर्ति कुन देवताको हो?",
     "options_np": [
-     "सूर्यनारायण",
-     "आदित्य",
-     "मित्र",
-     "सावित्री"
+     "आदित्य, सूर्यदेव",
+     "कुबेर, धनका देवता",
+     "यम, मृत्युका देवता",
+     "अग्नि, आगोका देवता"
     ],
-    "explanation_np": "आदित्यको मूर्ति आधा पोखरीको पानीमुनि छ।"
+    "explanation_np": "सूर्यदेव आदित्यको मूर्ति पोखरीमा आधा पानीमुनि छ।"
    },
    {
     "q": "Which Licchavi king do traditions link to the four Narayan temples?",
@@ -2478,28 +2478,28 @@
    {
     "q": "At the foot of what natural feature does the temple sit?",
     "options": [
-     "A grey rock cliff",
+     "A gray rock cliff",
      "A waterfall",
      "A glacier",
      "A bamboo forest"
     ],
     "answer_index": 0,
     "difficulty": 1,
-    "explanation": "The temple and ponds lie at the foot of a cliff of grey rock.",
+    "explanation": "The temple and ponds lie at the foot of a cliff of gray rock.",
     "q_np": "मन्दिर कुन प्राकृतिक संरचनाको फेदमा छ?",
     "options_np": [
-     "खैरो चट्टानको भीर",
+     "खरानी रङको चट्टानको भीर",
      "झरना",
      "हिमनदी",
      "बाँसको जङ्गल"
     ],
-    "explanation_np": "मन्दिर र पोखरी खैरो चट्टानको भिरको फेदमा छन्।"
+    "explanation_np": "मन्दिर र पोखरी खरानी रङको चट्टानको भिरको फेदमा छन्।"
    }
   ],
   "clues": [
    "Tradition says a Licchavi king raised me and three siblings to guard the valley from four directions.",
    "Some of the carved stone images in my courtyard are far older than my 17th-century main temple.",
-   "I guard the valley's south-west corner beneath a grey cliff, with carp circling old stone gods in my ponds.",
+   "I guard one corner of the valley beneath a gray cliff, with carp circling old stone gods in my ponds.",
    "Local belief says the valley's holiest river begins its journey near my ponds.",
    "Hindus pray to the god on the serpent below, while Buddhists climb to a guru's cave above me.",
    "I rest by the road just before an old Newar town about 20 km south-west of the capital, where Vishnu lies on a serpent."
@@ -2603,7 +2603,7 @@
   "clues_np": [
    "परम्पराअनुसार एक लिच्छवि राजाले उपत्यकाको चारै दिशाको रक्षाका लागि मलाई र मेरा तीन दाजुभाइलाई बनाए।",
    "मेरो आँगनका कुँदिएका केही ढुङ्गाका मूर्ति मेरो १७औँ शताब्दीको मुख्य मन्दिरभन्दा धेरै पुराना छन्।",
-   "म एउटा खैरो चट्टानमुनि उपत्यकाको दक्षिण-पश्चिमी कुना कुरिरहेको छु, मेरा पोखरीमा माछाहरू पुराना ढुङ्गाका देवताहरूवरिपरि घुम्छन्।",
+   "म एउटा खरानी रङको चट्टानमुनि उपत्यकाको एक कुना कुरिरहेको छु, मेरा पोखरीमा माछाहरू पुराना ढुङ्गाका देवताहरूवरिपरि घुम्छन्।",
    "स्थानीय विश्वासअनुसार उपत्यकाको सबैभन्दा पवित्र नदीले मेरा पोखरीनजिकबाटै यात्रा सुरु गर्छ।",
    "तल सर्पमाथिका देवतालाई हिन्दूहरूले पूजा गर्छन्, र बौद्धहरू मेरो माथिको गुरुको गुफामा चढ्छन्।",
    "म राजधानीबाट करिब २० किमी दक्षिण-पश्चिम, पुरानो नेवार सहर पुग्नुअघि सडकछेउमा छु, जहाँ विष्णु सर्पमाथि विराजमान छन्।"
@@ -2822,7 +2822,7 @@
     "explanation_np": "महाभारत युद्धबाट टाढै राख्न कृष्णले उनको टाउको काटिदिएको भनिन्छ।"
    },
    {
-    "q": "What colour is the deity's great face?",
+    "q": "What color is the deity's great face?",
     "options": [
      "Red",
      "Gold",
@@ -3033,7 +3033,7 @@
   },
   "quiz": [
    {
-    "q": "Which divine couple does Uma Maheshwar honour?",
+    "q": "Which divine couple does Uma Maheshwar honor?",
     "options": [
      "Rama and Sita",
      "Shiva and Parvati",
@@ -3237,7 +3237,7 @@
    "A metal banner hangs from my pinnacle down to my first roof.",
    "I stand on four brick plinths, and twenty carved pillars hold up my tiled roofs.",
    "Two stone elephants guard my steps at the very top of a Newar hill town, with snow peaks behind the valley.",
-   "On a clear day you can see Langtang and Gaurishankar from my yard, about 1,414 metres above the sea.",
+   "On a clear day you can see Langtang and Gaurishankar from my yard, about 1,414 meters above the sea.",
    "Shiva and Parvati share my three roofs, and locals simply call me the temple on the hill.",
    "Saraswati and Ganesh stand inside with the divine couple, and my town's municipality dates me to 1655."
   ],

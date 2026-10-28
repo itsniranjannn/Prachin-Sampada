@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { LogIn, UserPlus } from 'lucide-react';
 import { useAuth } from '../lib/auth.jsx';
 import { LogoMark } from '../components/Logo.jsx';
+import '../styles/auth-qa.css';
 
 const ART = 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/View_of_Bhaktapur_Durbar_Square.jpg/1280px-View_of_Bhaktapur_Durbar_Square.jpg';
 const INTERESTS = [['hindu', 'Hindu temples'], ['buddhist', 'Buddhist sites'], ['pagoda', 'Pagodas'], ['stupa', 'Stupas'], ['palace', 'Palaces'], ['courtyard', 'Courtyards'], ['art', 'Art & carving'], ['legend', 'Legends'], ['water', 'Water heritage'], ['festival', 'Festivals']];

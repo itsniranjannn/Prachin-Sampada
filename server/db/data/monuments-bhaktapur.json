@@ -365,7 +365,7 @@
   ],
   "quake_np": "सन् २०१५ अप्रिलको भूकम्पले यहाँका ११६ ऐतिहासिक स्मारकमा क्षति पुर्‍यायो र वत्सला दुर्गा मन्दिर ढल्यो। त्यो मन्दिर अहिले फेरि बनिसकेको छ।",
   "clues_np": [
-   "यहाँ एक पटक उनान्सय वटा चोक गनिन्थे। भूकम्पपछि थोरै मात्र बाँकी छन्।",
+   "यहाँ पहिले उनान्सय वटा चोक गनिन्थे। भूकम्पपछि थोरै मात्र बाँकी छन्।",
    "ढुङ्गाको स्तम्भमाथि सुनौलो राजा आफूले सेवा गरेको दरबारतिरै फर्केर बसेका छन्, खुट्टामा युद्धको दाग बोकेर।",
    "म इँटा र कुँदिएको काठले बनेको हुँ। दरबार, चोक, पगोडा शैलीका र शिखर शैलीका मन्दिर सबै एउटै फराकिलो खुला ठाउँतिर फर्केका छन्।",
    "मेरो दरबारबाट मल्ल वंशका राजाहरूले शासन गरे, सन् १७६९ मा गोरखाबाट विजेता आइपुगेसम्म।",
@@ -500,7 +500,7 @@
     ],
     "answer_index": 0,
     "difficulty": 5,
-    "explanation": "Research in 2001 identified the female figure as Queen Vishva Lakshmi.",
+    "explanation": "The murals show Bhupatindra Malla and his queen, Vishva Lakshmi, as a cosmic Shiva and consort.",
     "q_np": "प्रसिद्ध भित्तेचित्रमा भूपतीन्द्र मल्लसँग शिव-पार्वतीको जोडीका रूपमा कसलाई देखाइएको छ?",
     "options_np": [
      "रानी विश्वलक्ष्मी",
@@ -613,7 +613,7 @@
   ],
   "clues": [
    "Count the wooden eyes along my brick face and you will find a number between fifty and sixty.",
-   "A band of tiny musicians in wood runs above my ground floor; a king and queen hide in my murals as gods.",
+   "A band of tiny carvings of musical ragas runs above my ground floor; a king and queen hide in my murals as gods.",
    "I am a long brick palace; my most famous feature is a row of carved wooden windows set high along my face.",
    "Quakes took my old self, and in 1708 a Malla king finished the palace you see.",
    "In 1934 I lost my top floor, and for decades foreign roof tiles covered the wound until 2006.",
@@ -718,7 +718,7 @@
   "quake_np": null,
   "clues_np": [
    "मेरो इँटाको अनुहारमा काठका आँखा गन्नुहोस्, पचास र साठीको बीचको सङ्ख्या भेट्नुहुनेछ।",
-   "भुइँतलाको माथि काठका साना सङ्गीतकारहरूको एउटा पट्टी छ। मेरा भित्तेचित्रमा एक राजा र रानी देवताका रूपमा लुकेका छन्।",
+   "भुइँतलाको माथि सङ्गीतका रागहरूका साना कुँदाइको पट्टी छ। मेरा भित्तेचित्रमा एक राजा र रानी देवताका रूपमा लुकेका छन्।",
    "म इँटाले बनेको लामो दरबार हुँ। मेरो सबैभन्दा चर्चित विशेषता मेरो अगाडिको भागमा माथि बसालिएका कुँदिएका काठका झ्यालको लहर हो।",
    "भूकम्पले मेरो पुरानो रूप लग्यो। सन् १७०८ मा एक मल्ल राजाले तपाईंले देख्ने यो दरबार पूरा गरे।",
    "सन् १९३४ मा मैले माथिल्लो तला गुमाएँ। सन् २००६ सम्म धेरै दशक विदेशी छानाका टाइलले त्यो घाउ छोपे।",
@@ -852,7 +852,7 @@
     ],
     "answer_index": 0,
     "difficulty": 5,
-    "explanation": "Percy Brown praised it as \"the most lovely piece of art in the whole kingdom\".",
+    "explanation": "Percy Brown, the English art historian, called it the loveliest piece of art in the kingdom.",
     "q_np": "कुन कला इतिहासकारले यो ढोकालाई राज्यकै सबैभन्दा सुन्दर कलाकृति भनेका थिए?",
     "options_np": [
      "पर्सी ब्राउन",
@@ -883,44 +883,44 @@
     "explanation_np": "सुनढोकालाई नेवारीमा लुन ध्वाखा भनिन्छ।"
    },
    {
-    "q": "The gate is the entrance to the shrine of which goddess?",
+    "q": "Which of these was one of the smiths who made the gate between 1751 and 1754?",
     "options": [
-     "Kumari",
-     "Taleju",
-     "Vatsala",
-     "Ganga"
+     "Bhaskara",
+     "Divakara",
+     "Subhakara",
+     "Prabhakara"
     ],
-    "answer_index": 1,
-    "difficulty": 1,
-    "explanation": "It guards the way to the inner courtyards and the shrine of Taleju, guardian goddess of the Malla kings.",
-    "q_np": "यो ढोका कुन देवीको मन्दिरमा जाने बाटो हो?",
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "The gate was made by the smiths Subhakara, Karunakara and Ratikara.",
+    "q_np": "सन् १७५१ देखि १७५४ बीच ढोका बनाउने सुनारमध्ये एक को थिए?",
     "options_np": [
-     "कुमारी",
-     "तलेजु",
-     "वत्सला",
-     "गंगा"
+     "भास्कर",
+     "दिवाकर",
+     "सुभकर",
+     "प्रभाकर"
     ],
-    "explanation_np": "यसले भित्री चोक र मल्ल राजाहरूकी रक्षक देवी तलेजुको मन्दिरतिर जाने बाटो रक्षा गर्छ।"
+    "explanation_np": "ढोका सुभकर, करुणाकर र रतिकर नाम गरेका सुनारले बनाएका थिए।"
    },
    {
-    "q": "From which city did King Jagajjyoti Malla bring goldsmiths in 1646?",
+    "q": "How many years passed between the first plan in 1646 and the completion of the gate in 1754?",
     "options": [
-     "Kathmandu",
-     "Lalitpur",
-     "Pokhara",
-     "Gorkha"
+     "54",
+     "72",
+     "108",
+     "150"
     ],
-    "answer_index": 1,
-    "difficulty": 2,
-    "explanation": "In 1646 he brought two goldsmiths from Lalitpur, but they died before work began.",
-    "q_np": "सन् १६४६ मा राजा जगज्योति मल्लले कुन सहरबाट सुनार ल्याएका थिए?",
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "1754 minus 1646 is 108 years, which is why the project is said to have stalled for over a century.",
+    "q_np": "सन् १६४६ मा पहिलो योजना बनेदेखि सन् १७५४ मा ढोका पूरा हुँदासम्म कति वर्ष लाग्यो?",
     "options_np": [
-     "काठमाडौँ",
-     "ललितपुर",
-     "पोखरा",
-     "गोरखा"
+     "५४",
+     "७२",
+     "१०८",
+     "१५०"
     ],
-    "explanation_np": "उनले सन् १६४६ मा ललितपुरबाट दुईजना सुनार ल्याएका थिए, तर काम सुरु हुनुअघि नै उनीहरू बिते।"
+    "explanation_np": "१७५४ मा १६४६ घटाउँदा १०८ वर्ष हुन्छ। त्यसैले यो काम सय वर्षभन्दा बढी अडिएको भनिन्छ।"
    },
    {
     "q": "Who is allowed to enter the Taleju courtyard beyond the gate?",
@@ -1176,7 +1176,7 @@
     "explanation_np": "भूकम्पले यो मन्दिर पूरै ढाल्यो र पछि फेरि बनाइयो।"
    },
    {
-    "q": "Vatsala temples were traditionally built to protect Bhaktapur from what?",
+    "q": "The goddess Vatsala is believed to shield Bhaktapur from what?",
     "options": [
      "Floods",
      "Epidemics",
@@ -1186,7 +1186,7 @@
     "answer_index": 1,
     "difficulty": 3,
     "explanation": "The goddess Bacchala is locally believed to shield the city from epidemics.",
-    "q_np": "वत्सला मन्दिर परम्परागत रूपमा भक्तपुरलाई केबाट जोगाउन बनाइएको थियो?",
+    "q_np": "वत्सला देवीले भक्तपुरलाई केबाट जोगाउँछिन् भन्ने विश्वास छ?",
     "options_np": [
      "बाढी",
      "महामारी",
@@ -1236,24 +1236,24 @@
     "explanation_np": "वत्सला दुर्गाको मातृदेवी रूप हुन्।"
    },
    {
-    "q": "What is the temple mainly built of?",
+    "q": "Who rebuilt the temple after it collapsed in 2015?",
     "options": [
-     "Stone",
-     "Brick and timber",
-     "Metal",
-     "Bamboo"
+     "The Nepal Army",
+     "A foreign company",
+     "Bhaktapur Municipality",
+     "A hotel owner"
     ],
-    "answer_index": 0,
-    "difficulty": 1,
-    "explanation": "It is a stone shikhara, unlike the brick-and-timber pagodas around it.",
-    "q_np": "यो मन्दिर मुख्यतः केले बनेको छ?",
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Bhaktapur Municipality rebuilt it with traditional methods, using the town's own craftsmen.",
+    "q_np": "सन् २०१५ मा ढलेपछि मन्दिर कसले फेरि बनायो?",
     "options_np": [
-     "ढुङ्गा",
-     "इँटा र काठ",
-     "धातु",
-     "बाँस"
+     "नेपाली सेना",
+     "विदेशी कम्पनी",
+     "भक्तपुर नगरपालिका",
+     "होटल मालिक"
     ],
-    "explanation_np": "वरपरका इँटा र काठका पगोडाभन्दा फरक, यो ढुङ्गाको शिखर मन्दिर हो।"
+    "explanation_np": "भक्तपुर नगरपालिकाले सहरकै सिपालुहरू लगाएर परम्परागत विधिले मन्दिर फेरि बनायो।"
    },
    {
     "q": "Which king is the big bell on the platform attributed to?",
@@ -1317,7 +1317,7 @@
    }
   ],
   "clues": [
-   "I am a stone tower among wooden roofs, and my bell is said to set the dogs howling.",
+   "I am a stone tower among wooden roofs, and my bell is said to set the dogs barking.",
    "The 2015 quake laid me flat; stonemasons raised my spires again.",
    "I wear slender spires of pale stone, not the tiered wooden roofs of my neighbours.",
    "Stone elephants and lions guard my steps and a carved portico stands before my shrine.",
@@ -1539,7 +1539,7 @@
     ],
     "answer_index": 2,
     "difficulty": 3,
-    "explanation": "Two legendary wrestlers stand at the bottom; elephants, lions, griffins and goddesses follow.",
+    "explanation": "Two legendary wrestlers stand on the lowest level; each pair above is said to be ten times stronger.",
     "q_np": "सबैभन्दा तल्लो तलामा कुन द्वारपाल उभिएका छन्?",
     "options_np": [
      "हात्ती",
@@ -1547,7 +1547,7 @@
      "दुई जना पहलमान",
      "ग्रिफिन"
     ],
-    "explanation_np": "सबैभन्दा तल दुई पौराणिक पहलमान छन्, त्यसमाथि हात्ती, सिंह, ग्रिफिन र अन्त्यमा देवीहरू।"
+    "explanation_np": "सबैभन्दा तल दुई पौराणिक पहलमान छन्। माथिका हरेक जोडी तलकोभन्दा दस गुणा बलियो मानिन्छ।"
    },
    {
     "q": "Roughly how long did construction take?",
@@ -1806,7 +1806,7 @@
    "मेरा भर्‍याङ चढ्दै जानुहोस्: पहलमान, हात्ती, सिंह, ग्रिफिन र देवीहरू पार गर्दै। हरेक जोडी अघिल्लोभन्दा बलियो छ।",
    "मेरो नाम मेरा छानाले दिएको हो, कुनै देवीले होइन। नेपालमा मभन्दा अग्लो मन्दिर अर्को छैन।",
    "म पाँच तला चबुतरामाथि करिब ३३ मिटर उठेको छु, एउटा फराकिलो आयताकार मन्दिरको छेउको चोकमा।",
-   "एक राजाले मलाई छ महिनामै बनाए, राज्यभरिबाट दान आएका काठ, इँट र ढुङ्गाले।",
+   "एक राजाले मलाई छ महिनामै बनाए, राज्यभरिबाट दान आएका काठ, इँटा र ढुङ्गाले।",
    "किंवदन्ती अनुसार, मेरो छेउमै मन्दिर भएका एक उग्र देवतालाई शान्त पार्न मलाई बनाइएको हो।",
    "म सन् १९३४ र २०१५ का भूकम्पमा अडिग रहें। भित्र देवीलाई पुजारीले मात्र भेट्न पाउँछन् र हरेक वसन्तमा मेरो पाउनिर एउटा विशाल रथ तानिन्छ।"
   ]
@@ -1949,24 +1949,24 @@
     "explanation_np": "सन् १९३४ को भूकम्पले मन्दिर ढाल्यो र उही रूपमा फेरि बनाइयो।"
    },
    {
-    "q": "Which tall temple stands right beside the Bhairavnath Temple?",
+    "q": "What happened to the temple in the April 2015 earthquake?",
     "options": [
-     "Nyatapola",
-     "Dattatreya",
-     "Changu Narayan",
-     "Vatsala Durga"
+     "It collapsed completely and was never rebuilt",
+     "It was damaged and later renovated",
+     "It was untouched",
+     "It sank into the ground"
     ],
-    "answer_index": 0,
-    "difficulty": 1,
-    "explanation": "The towering Nyatapola stands beside it in Taumadhi Square.",
-    "q_np": "भैरवनाथ मन्दिरको ठीक छेउमा कुन अग्लो मन्दिर छ?",
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The April 2015 earthquake damaged the temple, which was later renovated.",
+    "q_np": "सन् २०१५ अप्रिलको भूकम्पमा मन्दिरलाई के भयो?",
     "options_np": [
-     "न्यातपोल",
-     "दत्तात्रेय",
-     "चाँगुनारायण",
-     "वत्सला दुर्गा"
+     "पूरै ढल्यो र फेरि बनाइएन",
+     "क्षति पुग्यो र पछि मर्मत गरियो",
+     "केही भएन",
+     "जमिनमा भासियो"
     ],
-    "explanation_np": "तौमढी चोकमा यसको छेउमै अग्लो न्यातपोल छ।"
+    "explanation_np": "सन् २०१५ अप्रिलको भूकम्पले मन्दिरमा क्षति पुर्‍यायो। पछि त्यसको मर्मत गरियो।"
    },
    {
     "q": "How many roofs does the Bhairavnath Temple have?",
@@ -2261,7 +2261,7 @@
     ],
     "answer_index": 1,
     "difficulty": 3,
-    "explanation": "The single-tree story is also told about Kasthamandap; historians find no proof.",
+    "explanation": "A popular story says the whole temple came from a single tree, but historians find no proof.",
     "q_np": "मन्दिरको काठबारे कुन किंवदन्ती सुनाइन्छ?",
     "options_np": [
      "यो भारतबाट बगेर आएको हो",
@@ -2301,7 +2301,7 @@
     ],
     "answer_index": 0,
     "difficulty": 5,
-    "explanation": "Jaimal and Patta (Pratap) also guard Nyatapola.",
+    "explanation": "Jaimal and Patta also guard Nyatapola.",
     "q_np": "प्रवेशद्वारमा पहरा दिने पहलमानको जोडी को हो?",
     "options_np": [
      "जयमल र पत्ता",
@@ -2352,24 +2352,24 @@
     "explanation_np": "नेपालमा दत्तात्रेयलाई समर्पित यही एउटै मन्दिर हो भनिन्छ।"
    },
    {
-    "q": "In which century was the temple built?",
+    "q": "A local history records a different year for the temple than the popular 1427. Which year?",
     "options": [
-     "13th",
-     "15th",
-     "17th",
-     "19th"
+     "1392",
+     "1470",
+     "1558",
+     "1702"
     ],
     "answer_index": 1,
-    "difficulty": 2,
-    "explanation": "King Yaksha Malla built it in the fifteenth century.",
-    "q_np": "यो मन्दिर कुन शताब्दीमा बनेको थियो?",
+    "difficulty": 4,
+    "explanation": "A local history records 1470, while popular guides give 1427.",
+    "q_np": "लोकप्रिय पुस्तिकाले दिएको १४२७ भन्दा फरक कुन वर्ष स्थानीय इतिहासले लेखेको छ?",
     "options_np": [
-     "१३ औँ",
-     "१५ औँ",
-     "१७ औँ",
-     "१९ औँ"
+     "१३९२",
+     "१४७०",
+     "१५५८",
+     "१७०२"
     ],
-    "explanation_np": "राजा यक्ष मल्लले पन्ध्रौँ शताब्दीमा यो मन्दिर बनाएका थिए।"
+    "explanation_np": "स्थानीय इतिहासले १४७० लेखेको छ भने लोकप्रिय पुस्तिकाहरूले १४२७ दिन्छन्।"
    },
    {
     "q": "Which famous window is found in the nearby Pujari Math?",
@@ -2417,7 +2417,7 @@
    "Two stone wrestlers guard my steps while a winged devotee kneels on a pillar before me.",
    "I rise in tiers of timber roofs in the eastern part of an old Newar town.",
    "Guidebooks date me to 1427, while a local history says 1470; a king named Yaksha raised me.",
-   "Perhaps I am the only temple in the whole country to honour my god; his son added storeys in 1495.",
+   "Perhaps I am the only temple in the whole country to honour my god; the builder's son added storeys in 1495.",
    "In the square around me, a former priests' house has a famous window with a fan-tailed bird."
   ],
   "sources": [
@@ -2526,7 +2526,7 @@
    "दुई ढुङ्गाका पहलमानले मेरा भर्‍याङको रक्षा गर्छन्, अनि पखेटा भएको एक भक्त मेरो अगाडि स्तम्भमाथि घुँडा टेकेर बस्छ।",
    "म एउटा पुरानो नेवार सहरको पूर्वी भागमा काठका तले छानासहित उठेको छु।",
    "पुस्तिकाहरूले मलाई सन् १४२७ को भन्छन्, स्थानीय इतिहासले १४७० को। यक्ष नाम गरेका राजाले मलाई बनाए।",
-   "सायद मेरो देवतालाई समर्पित म सिङ्गो देशमै एक मात्र मन्दिर हुँ। उनका छोराले सन् १४९५ मा मलाई थप तला थपे।",
+   "सायद मेरो देवतालाई समर्पित म सिङ्गो देशमै एक मात्र मन्दिर हुँ। मलाई बनाउने राजाका छोराले सन् १४९५ मा थप तला जोडे।",
    "मेरो वरिपरिको चोकमा पुजारीको पुरानो घरमा पुच्छर फिजाएको चराको प्रसिद्ध झ्याल छ।"
   ]
  },
@@ -2774,7 +2774,7 @@
    "I am a carved lattice, with smaller birds and ornaments filling the gaps around my centrepiece.",
    "I belong to a former priests' house that now holds a museum of woodwork.",
    "Foreign experts repaired my house in 1979; in 2015 the wall around me was rebuilt, but I was unharmed.",
-   "I look over a lane just off a square where a temple to a three-in-one god stands, and I am called the most famous window in Nepal."
+   "I look over a lane just off a square where a temple to a three-in-one god stands, and I am among the most celebrated pieces of Newar woodcarving."
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Newar_window",
@@ -2880,7 +2880,7 @@
    "म कुँदिएको जाली हुँ। मेरो बीचको मुख्य आकृतिवरिपरि साना चरा र बुट्टाले ठाउँ भरिएको छ।",
    "म पुजारीहरूको पुरानो घरको भाग हुँ, जहाँ अहिले काठको कामको संग्रहालय छ।",
    "सन् १९७९ मा विदेशी विशेषज्ञले मेरो घर मर्मत गरे। सन् २०१५ मा वरिपरिको भित्ता फेरि बनाइयो, तर मलाई केही भएन।",
-   "म एउटा चोकछेउको गल्लीमाथि छु, जहाँ तीन देवता एकैमा भएका देवताको मन्दिर छ। मलाई नेपालकै सबैभन्दा प्रसिद्ध झ्याल भनिन्छ।"
+   "म एउटा चोकछेउको गल्लीमाथि छु, जहाँ तीन देवता एकैमा भएका देवताको मन्दिर छ। मलाई नेवारी काष्ठकलाका सबैभन्दा प्रसिद्ध नमुनामध्ये एक मानिन्छ।"
   ]
  },
  {
@@ -3021,44 +3021,44 @@
     "explanation_np": "ती साथी ठिमीका थिए। त्यसैले ठिमीका मानिस लामो समयसम्म यो पोखरीबाट टाढा बसे।"
    },
    {
-    "q": "About how wide is the pond?",
+    "q": "On which side of old Bhaktapur does the pond lie?",
     "options": [
-     "About 73 m",
-     "About 20 m",
-     "About 150 m",
-     "About 300 m"
+     "Eastern side",
+     "Northern side",
+     "Western side",
+     "Southern side"
     ],
-    "answer_index": 0,
-    "difficulty": 1,
-    "explanation": "The pond is about 171 m long and 73 m wide.",
-    "q_np": "पोखरीको चौडाइ करिब कति छ?",
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The pond lies on the western side of old Bhaktapur.",
+    "q_np": "पुरानो भक्तपुरको कुन भागमा पोखरी पर्छ?",
     "options_np": [
-     "करिब ७३ मिटर",
-     "करिब २० मिटर",
-     "करिब १५० मिटर",
-     "करिब ३०० मिटर"
+     "पूर्वी भाग",
+     "उत्तरी भाग",
+     "पश्चिमी भाग",
+     "दक्षिणी भाग"
     ],
-    "explanation_np": "पोखरी करिब १७१ मिटर लामो र ७३ मिटर चौडा छ।"
+    "explanation_np": "पोखरी पुरानो भक्तपुरको पश्चिमी भागमा पर्छ।"
    },
    {
-    "q": "What kind of water body is Siddha Pokhari?",
+    "q": "Which description fits Siddha Pokhari best?",
     "options": [
-     "A natural lake",
-     "A man-made pond",
+     "A natural lake fed by springs",
+     "The city's largest man-made pond",
      "A hot spring",
      "A glacial lake"
     ],
     "answer_index": 1,
     "difficulty": 1,
-    "explanation": "It is a large rectangular man-made reservoir pond.",
-    "q_np": "सिद्ध पोखरी कस्तो जलाशय हो?",
+    "explanation": "It is the largest man-made pond in the city, a large rectangular reservoir.",
+    "q_np": "सिद्ध पोखरीलाई कुन वर्णनले ठीकसँग भन्छ?",
     "options_np": [
-     "प्राकृतिक ताल",
-     "मानव निर्मित पोखरी",
+     "झरनाले भरिने प्राकृतिक ताल",
+     "सहरको सबैभन्दा ठूलो मानव निर्मित पोखरी",
      "तातोपानी कुण्ड",
      "हिमताल"
     ],
-    "explanation_np": "यो ठूलो आयताकार, मानिसले बनाएको जलाशय पोखरी हो।"
+    "explanation_np": "यो सहरकै सबैभन्दा ठूलो मानिसले बनाएको आयताकार पोखरी हो।"
    },
    {
     "q": "About how deep is the pond?",
@@ -3104,9 +3104,9 @@
     "q": "In the legend, why did the friend fail to help?",
     "options": [
      "He was terrified by two thrashing serpents and ran away",
-     "He ran out of rice",
-     "A king ordered him away",
-     "He fell asleep"
+     "He ran out of enchanted rice before reaching the pond",
+     "A king ordered him to leave the city",
+     "He fell asleep waiting by the water's edge"
     ],
     "answer_index": 0,
     "difficulty": 3,
@@ -3114,9 +3114,9 @@
     "q_np": "किंवदन्तीमा साथीले किन सहयोग गर्न सकेनन्?",
     "options_np": [
      "पानीमा छटपटाइरहेका दुई सर्प देखेर डराएर भागे",
-     "चामल सकियो",
-     "राजाले हटाए",
-     "निदाए"
+     "पोखरी पुग्नुअघि नै मन्त्र पढेको चामल सकियो",
+     "राजाले उनलाई सहरबाट निकाले",
+     "पोखरीको किनारमा कुर्दाकुर्दै निदाए"
     ],
     "explanation_np": "पानीमा छटपटाइरहेका दुई सर्प देखेर डराएका साथी भागे।"
    }
@@ -3127,7 +3127,7 @@
    "I am a long, still rectangle of water, about 171 metres by 73.",
    "A fifteenth-century king is said to have dug me, though some say I am older.",
    "For centuries I stored water for the city, helped the farmers and gave people a place to gather.",
-   "People from a neighbouring town long avoided me, fearing revenge, on the western side of an old brick city."
+   "On the western side of an old brick city, I was long avoided by people from a neighboring town who feared revenge."
   ],
   "sources": [
    "https://nepaltraveller.com/sidetrack/the-legend-of-siddha-pokhari-in-bhaktapur",
@@ -3235,7 +3235,7 @@
    "म करिब १७१ मिटर लामो र ७३ मिटर चौडा, लामो र शान्त आयताकार पानीको पोखरी हुँ।",
    "पन्ध्रौँ शताब्दीका एक राजाले मलाई खनेका हुन् भनिन्छ, तर केहीले म अझ पुरानो हुँ भन्छन्।",
    "सयौँ वर्षदेखि म सहरका लागि पानी जम्मा गर्थें, किसानलाई सघाउँथें र मानिसलाई भेट्ने ठाउँ दिन्थें।",
-   "इँटाको पुरानो सहरको पश्चिम भागमा रहेको म, बदलाको डरले छिमेकी सहरका मानिसले लामो समयसम्म टाढै राखे।"
+   "इँटाको पुरानो सहरको पश्चिम भागमा रहेको मभन्दा छिमेकी सहरका मानिस बदलाको डरले लामो समयसम्म टाढै बसे।"
   ]
  },
  {
@@ -3305,7 +3305,7 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "The Licchavi king Manadeva erected it.",
+    "explanation": "The Licchavi king Manadeva set up the pillar inscription.",
     "q_np": "यहाँको प्रसिद्ध स्तम्भलेख कुन राजाले राखेका थिए?",
     "options_np": [
      "मानदेव",
@@ -3313,7 +3313,7 @@
      "यक्ष मल्ल",
      "भूपतीन्द्र मल्ल"
     ],
-    "explanation_np": "लिच्छवि राजा मानदेवको ४६४ ई. को अभिलेख यहाँको स्तम्भमा छ।"
+    "explanation_np": "यो स्तम्भलेख लिच्छवि राजा मानदेवले राखेका हुन्।"
    },
    {
     "q": "What year is the Manadeva pillar inscription dated to?",
@@ -3706,7 +3706,7 @@
     ],
     "answer_index": 0,
     "difficulty": 3,
-    "explanation": "Tradition attributes it to Pratap Malla of Kathmandu, after a dream.",
+    "explanation": "Tradition attributes the shrine to Pratap Malla of Kathmandu in the 17th century.",
     "q_np": "परम्परा अनुसार कुन राजाले यो मन्दिर स्थापना गरे?",
     "options_np": [
      "प्रताप मल्ल",
@@ -4082,7 +4082,7 @@
     "explanation_np": "किंवदन्ती अनुसार बोधिसत्व मञ्जुश्रीले चोभारनजिकको डाँडा काटेर पानी बगाइदिए।"
    },
    {
-    "q": "Hindus regard Adinath as one of the four what?",
+    "q": "Hindus count Adinath among four of which deities?",
     "options": [
      "Bhairavas",
      "Matsyendranaths",
@@ -4091,8 +4091,8 @@
     ],
     "answer_index": 1,
     "difficulty": 5,
-    "explanation": "Nepali-speaking Hindus count Adinath among the four Matsyendranaths.",
-    "q_np": "हिन्दूहरू आदिनाथलाई चार कुनमध्ये एक मान्छन्?",
+    "explanation": "Hindus count Adinath among the four Matsyendranaths.",
+    "q_np": "हिन्दूहरू आदिनाथलाई कुन चार देवताहरूमध्ये एक गन्छन्?",
     "options_np": [
      "भैरव",
      "मत्स्येन्द्रनाथ",
@@ -4122,24 +4122,24 @@
     "explanation_np": "बागमती नदी चोभारको साँघुरो खोँचबाट उपत्यकाबाट बाहिर निस्कन्छ।"
    },
    {
-    "q": "What is hung on the temple walls?",
+    "q": "According to the legend, what was rescued from a river and enshrined here?",
     "options": [
-     "Prayer flags",
-     "Silk scarves",
-     "Metal pots, pans and utensils",
-     "Clay lamps"
+     "A golden bell",
+     "A sacred cow",
+     "An image of Adinath",
+     "A royal crown"
     ],
     "answer_index": 2,
-    "difficulty": 1,
-    "explanation": "The walls are hung with metal pots, pans and household utensils.",
-    "q_np": "मन्दिरको भित्तामा के झुन्ड्याइएको छ?",
+    "difficulty": 3,
+    "explanation": "An image of Adinath was rescued from a river and enshrined as Anandadi Lokeshwar.",
+    "q_np": "किंवदन्ती अनुसार नदीबाट उद्धार गरेर यहाँ स्थापना गरिएको के हो?",
     "options_np": [
-     "प्रार्थना ध्वजा",
-     "रेशमी खादा",
-     "धातुका भाँडा, कराही र सामान",
-     "माटोका दियो"
+     "सुनको घण्ट",
+     "पवित्र गाई",
+     "आदिनाथको मूर्ति",
+     "राजाको मुकुट"
     ],
-    "explanation_np": "भित्तामा धातुका भाँडा, कराही र घरका सामान झुन्ड्याइएका छन्।"
+    "explanation_np": "आदिनाथको मूर्ति नदीबाट उद्धार गरेर आनन्दादि लोकेश्वरका रूपमा यहाँ स्थापना गरिएको थियो।"
    },
    {
     "q": "The temple stands on a hill at the edge of which town?",

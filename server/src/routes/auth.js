@@ -42,6 +42,25 @@ async function checkCode(email, purpose, code) {
 }
 const CODE_ERRORS = { wrong: 'That code is not right. Check the email and try again.', expired: 'That code has expired. Ask for a new one.', locked: 'Too many wrong tries. Ask for a new code.' };
 
+// Slow down password guessing: ten wrong passwords for one address from one client pause sign-in for five minutes.
+// A right password clears the count. Kept in memory, which is enough for a single server.
+const LOGIN_FAILS = 10;
+const LOGIN_WINDOW_MS = 5 * 60 * 1000;
+const loginMisses = new Map();
+const loginKey = (req, email) => `${req.ip}|${email}`;
+function loginWait(key) {
+  const hit = loginMisses.get(key);
+  if (!hit) return 0;
+  if (Date.now() - hit.first > LOGIN_WINDOW_MS) { loginMisses.delete(key); return 0; }
+  return hit.n >= LOGIN_FAILS ? Math.ceil((hit.first + LOGIN_WINDOW_MS - Date.now()) / 1000) : 0;
+}
+function loginMiss(key) {
+  const hit = loginMisses.get(key);
+  if (!hit || Date.now() - hit.first > LOGIN_WINDOW_MS) loginMisses.set(key, { n: 1, first: Date.now() });
+  else hit.n += 1;
+  if (loginMisses.size > 5000) for (const [k, v] of loginMisses) if (Date.now() - v.first > LOGIN_WINDOW_MS) loginMisses.delete(k);
+}
+
 const publicUser = (u) => ({
   id: u.id, name: u.name, email: u.email, role: u.role, emailVerified: !!u.email_verified,
   interests: u.interests ? u.interests.split(',') : [], rating: u.rating, answered: u.answered,
@@ -53,13 +72,19 @@ r.get('/interests', (_req, res) => res.json({ interests: INTERESTS }));
 r.post('/register', ah(async (req, res) => {
   const { name, email, password, interests } = req.body || {};
   if (!name || String(name).trim().length < 2) return res.status(400).json({ error: 'Please enter your name' });
-  if (!EMAIL_RE.test(String(email || ''))) return res.status(400).json({ error: 'Please enter a valid email address' });
+  if (!EMAIL_RE.test(String(email || '').trim())) return res.status(400).json({ error: 'Please enter a valid email address' });
   if (!password || String(password).length < 6) return res.status(400).json({ error: 'Password must be at least 6 characters' });
-  const exists = await query('SELECT id FROM users WHERE email = ?', [String(email).toLowerCase()]);
+  const exists = await query('SELECT id FROM users WHERE email = ?', [String(email).trim().toLowerCase()]);
   if (exists.length) return res.status(409).json({ error: 'An account with this email already exists' });
   const hash = await bcrypt.hash(String(password), 10);
-  const out = await query('INSERT INTO users (name, email, password_hash, interests) VALUES (?, ?, ?, ?)',
-    [String(name).trim(), String(email).toLowerCase(), hash, cleanInterests(interests)]);
+  let out;
+  try {
+    out = await query('INSERT INTO users (name, email, password_hash, interests) VALUES (?, ?, ?, ?)',
+      [String(name).trim(), String(email).trim().toLowerCase(), hash, cleanInterests(interests)]);
+  } catch (e) {
+    if (e.code === 'ER_DUP_ENTRY') return res.status(409).json({ error: 'An account with this email already exists' });
+    throw e;
+  }
   const [user] = await query('SELECT * FROM users WHERE id = ?', [out.insertId]);
   const issued = await issueCode(user.email, 'verify');
   const mail = issued.code ? await sendMail(user.email, verifyEmail({ name: user.name, code: issued.code, origin: clientOrigin(), minutes: CODE_MINUTES })) : { ok: false };
@@ -119,9 +144,14 @@ r.get('/mail-mode', (_req, res) => res.json({ mode: mailMode() }));
 
 r.post('/login', ah(async (req, res) => {
   const { email, password } = req.body || {};
-  const [user] = await query('SELECT * FROM users WHERE email = ?', [String(email || '').toLowerCase()]);
-  if (!user || !(await bcrypt.compare(String(password || ''), user.password_hash))) return res.status(401).json({ error: 'Email or password is incorrect' });
+  const addr = String(email || '').trim().toLowerCase();
+  const key = loginKey(req, addr);
+  const wait = loginWait(key);
+  if (wait) return res.status(429).json({ error: `Too many tries. Please wait ${Math.ceil(wait / 60)} minute${wait > 60 ? 's' : ''} and try again.`, wait });
+  const [user] = await query('SELECT * FROM users WHERE email = ?', [addr]);
+  if (!user || !(await bcrypt.compare(String(password || ''), user.password_hash))) { loginMiss(key); return res.status(401).json({ error: 'Email or password is incorrect' }); }
   if (!user.is_active) return res.status(403).json({ error: 'This account has been deactivated' });
+  loginMisses.delete(key);
   res.json({ token: signToken(user), user: publicUser(user) });
 }));
 

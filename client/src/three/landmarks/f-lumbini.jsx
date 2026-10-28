@@ -8,7 +8,7 @@ export default function make(K) {
   /* ---------- shared helpers ---------- */
   const backOnly = (a) => a < Math.PI - 0.15 || a > Math.PI * 2 - 0.7;
   const rnd = (i) => { const r = Math.sin(i * 12.9898 + 4.1) * 43758.5453; return r - Math.floor(r); };
-  const brickM = (M, rx = 2, ry = 1, c = '#e6ad92') => M.mat('brick', rx, ry, { color: c });
+  const brickM = (M, rx = 2, ry = 1, c = '#e6ad92') => M.mat('brick', rx, ry, c === '#f0c4a4' ? { color: '#ffffff', emissive: '#b06a44', emissiveIntensity: 0.5 } : { color: c });
   const grassM = (M, c = '#8db35a') => M.plain(c, { roughness: 1 });
 
   function segs(len, gaps = []) {
@@ -396,7 +396,7 @@ export default function make(K) {
   /* Tilaurakot: the excavated walled city of Kapilavastu, its moat, gate, citadel and sal trees */
   function TilGate({ p = [0, 0, 0], r = 0 }) {
     const M = useM();
-    const b = brickM(M, 2, 1, '#e0a285');
+    const b = brickM(M, 2, 1, '#f0c4a4');
     return (
       <group position={p} rotation={[0, r, 0]}>
         {[-1.55, 1.55].map((x) => (
@@ -416,14 +416,30 @@ export default function make(K) {
     const W = 22;
     const D = 17;
     const mo = 1.5;
+    const bc = '#f0c4a4';
+    const orange = M.plain('#e8962a', { roughness: 0.9 });
+    const orangeD = M.plain('#c97a1c', { roughness: 0.9 });
+    const mound = M.plain('#7f9a4c', { roughness: 1 });
+    const sand = '#d9c79a';
     return (
       <group>
-        <Patch p={[0, 0.004, 0]} w={W + 3} d={D + 3} c="#b4a27a" />
-        <BRect w={W} d={D} h={0.6} t={0.7} seed={5} gaps={{ s: [[0, 2.6]], w: [[1.5, 2.2]] }} />
-        {/* corner bastions and the tower on the south wall */}
-        {[[-W / 2, -D / 2], [W / 2, -D / 2], [-W / 2, D / 2], [W / 2, D / 2]].map(([x, z], i) => <Box key={i} s={[1.7, 0.7 + 0.2 * (i % 2), 1.7]} p={[x, 0.4, z]} m={brickM(M, 1, 1, '#d99478')} />)}
-        <Box s={[2.4, 1.2, 2.4]} p={[-6.5, 0.6, D / 2 + 0.4]} m={brickM(M, 2, 1, '#dc9a7c')} />
-        <Box s={[1.8, 0.4, 1.8]} p={[-6.5, 1.4, D / 2 + 0.4]} m={brickM(M, 2, 1, '#dc9a7c')} />
+        {/* grass inside the walls with the bare sandy tracks and worn patches seen on site */}
+        <Patch p={[0, 0.004, 0]} w={W + 3.4} d={D + 3.4} c="#93ad5c" />
+        <Patch p={[1, 0.007, -1.5]} w={9} d={6.5} c={sand} />
+        <Patch p={[-6.5, 0.007, 1.8]} w={5.5} d={4} c={sand} />
+        <Patch p={[5, 0.007, 3]} w={6} d={3.2} c="#cdbb8c" />
+        <Patch p={[0, 0.007, 7.2]} w={3.2} d={6} c={sand} />
+        <BRect w={W} d={D} h={0.8} t={0.75} seed={5} c={bc} gaps={{ s: [[0, 2.6]], w: [[1.5, 2.2]] }} />
+        {/* corner bastions and the stepped tower on the south wall */}
+        {[[-W / 2, -D / 2], [W / 2, -D / 2], [-W / 2, D / 2], [W / 2, D / 2]].map(([x, z], i) => (
+          <group key={i} position={[x, 0, z]}>
+            <Box s={[1.9, 0.5, 1.9]} p={[0, 0.25, 0]} m={brickM(M, 2, 1, bc)} />
+            <Box s={[1.5, 0.35 + 0.15 * (i % 2), 1.5]} p={[0, 0.67 + 0.07 * (i % 2), 0]} m={brickM(M, 2, 1, bc)} />
+          </group>
+        ))}
+        <Box s={[2.8, 0.5, 2.8]} p={[-6.5, 0.25, D / 2 + 0.4]} m={brickM(M, 2, 1, bc)} />
+        <Box s={[2.3, 0.6, 2.3]} p={[-6.5, 0.8, D / 2 + 0.4]} m={brickM(M, 2, 1, bc)} />
+        <Box s={[1.7, 0.4, 1.7]} p={[-6.5, 1.3, D / 2 + 0.4]} m={brickM(M, 2, 1, bc)} />
         <TilGate p={[0, 0, D / 2]} />
         {/* the moat */}
         <Water w={W + 2 * mo + 2} d={mo} p={[0, 0.02, -D / 2 - mo / 2 - 0.5]} color="#4e7a6a" />
@@ -432,29 +448,47 @@ export default function make(K) {
         <Water w={mo} d={D + 1} p={[-W / 2 - mo / 2 - 0.5, 0.02, 0]} color="#4e7a6a" />
         <Water w={mo} d={D + 1} p={[W / 2 + mo / 2 + 0.5, 0.02, 0]} color="#4e7a6a" />
         {/* the inner citadel with gateways on the north and west */}
-        <BRect p={[-3, 0, -3.2]} w={8.4} d={8.4} h={0.65} t={0.6} seed={11} gaps={{ n: [[0.5, 2]], w: [[0, 2]] }} />
+        <BRect p={[-3, 0, -3.2]} w={8.4} d={8.4} h={0.85} t={0.65} seed={11} c={bc} gaps={{ n: [[0.5, 2]], w: [[0, 2]] }} />
         <TilGate p={[-3.5, 0, -7.4]} r={Math.PI} />
         {/* street-grid foundations of houses and halls inside the city */}
         {[[5.5, 2.2, 4, 2.6], [7.4, -3.6, 3, 3.4], [-7.6, 4.8, 3.6, 2.8], [3.5, -5.6, 3.2, 2.2], [-9, -0.2, 2, 3.2], [8.6, 5, 2.4, 2.4], [-2.4, 3.6, 2.6, 2.2]].map(([x, z, w, d], i) => (
-          <BRect key={i} p={[x, 0, z]} w={w} d={d} h={0.35} t={0.4} seed={20 + i * 3} gaps={{ s: i % 2 ? [[0, 0.8]] : [], e: i % 3 === 0 ? [[0.2, 0.7]] : [] }} />
+          <BRect key={i} p={[x, 0, z]} w={w} d={d} h={0.5} t={0.5} seed={20 + i * 3} c={bc} gaps={{ s: i % 2 ? [[0, 0.8]] : [], e: i % 3 === 0 ? [[0.2, 0.7]] : [] }} />
         ))}
-        <BRect p={[0.6, 0, 0.5]} w={1.6} d={1.6} h={0.28} t={0.35} seed={40} />
-        {/* the mound of the Samai Mai shrine with its orange compound wall */}
-        <group position={[6.6, 0, 6.3]}>
-          <mesh position={[0, 0, 0]} material={M.plain('#8f9a52', { roughness: 1 })} castShadow><sphereGeometry args={[1.8, 18, 8, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
-          <Box s={[1.1, 0.5, 1.0]} p={[0, 1.5, 0]} m={M.plain('#e69a2e', { roughness: 0.9 })} />
-          <Box s={[0.7, 0.2, 0.6]} p={[0, 1.85, 0]} m={M.plain('#b3402f')} />
+        <BRect p={[0.6, 0, 0.5]} w={1.6} d={1.6} h={0.4} t={0.4} seed={40} c={bc} />
+        {/* the mound of the Samai Mai shrine: orange compound wall with a saw-tooth top, gate and a small shrine */}
+        <group position={[6.6, 0, 8.2]}>
+          <mesh material={mound} castShadow scale={[1, 0.7, 1]}><sphereGeometry args={[3, 22, 8, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
+          <Box s={[1.5, 0.9, 1.3]} p={[0, 1.85, -0.2]} m={M.plain('#f3e6c8', { roughness: 0.9 })} />
+          <Box s={[1.8, 0.14, 1.6]} p={[0, 2.38, -0.2]} m={M.plain('#b3402f')} />
+          <Box s={[1.1, 0.14, 1.0]} p={[0, 2.52, -0.2]} m={M.plain('#b3402f')} />
+          <Box s={[0.4, 0.6, 0.06]} p={[0, 1.7, 0.47]} m={M.plain('#6b2a1c')} cast={false} />
         </group>
-        <Box s={[2.6, 0.45, 0.2]} p={[3.8, 0.22, 8.1]} m={M.plain('#e69a2e', { roughness: 0.9 })} />
-        <Box s={[2.6, 0.45, 0.2]} p={[9.2, 0.22, 8.1]} m={M.plain('#e69a2e', { roughness: 0.9 })} />
-        {/* Shiva linga under the banyan-like tree, with a trident */}
-        <Canopy p={[-8.4, 0, -5.4]} s={1.5} n={6} c="#54803a" c2="#6a9442" />
-        <group position={[-6.6, 0, -3.4]} scale={0.55}><Lingam p={[0, 0, 0]} /></group>
-        <Trident p={[-6.2, 0, -3.8]} h={1.3} />
-        <Canopy p={[8.6, 0, -6]} s={1.35} n={5} c="#4d7a35" c2="#628f40" r={2} />
-        <PrayerFlags from={[-8.4, 4.8, -5.4]} to={[8.6, 4.2, -6]} n={34} />
-        <PrayerFlags from={[-8.4, 4.4, -5.4]} to={[-3, 0.8, 2]} n={18} />
-        <Frame s={[26, 5.5, 22]} p={[0, 2.7, 0]} />
+        {Array.from({ length: 22 }, (_, k) => {
+          const x = 0.6 + k * 0.46;
+          return (
+            <group key={k} position={[x, 0, 10.3]}>
+              <Box s={[0.46, 0.42, 0.16]} p={[0, 0.21, 0]} m={k % 2 ? orange : orangeD} cast={false} />
+              <mesh position={[0, 0.56, 0]} material={k % 2 ? orange : orangeD} rotation={[0, Math.PI / 4, 0]}><coneGeometry args={[0.2, 0.28, 4]} /></mesh>
+            </group>
+          );
+        })}
+        <Box s={[0.4, 1.1, 0.4]} p={[3.25, 0.55, 10.3]} m={orange} />
+        <Box s={[0.4, 1.1, 0.4]} p={[4.55, 0.55, 10.3]} m={orange} />
+        <Box s={[1.7, 0.2, 0.4]} p={[3.9, 1.2, 10.3]} m={orangeD} />
+        {/* Shiva linga venerated on a sandy plot, red cloth, trident and the old brick niche behind */}
+        <Patch p={[-6.6, 0.012, -3.4]} w={3.6} d={3.2} c="#e6d3a4" />
+        <Box s={[2.2, 1.5, 0.5]} p={[-6.6, 0.75, -5.3]} m={brickM(M, 2, 2, '#d99f80')} />
+        <Box s={[0.9, 0.9, 0.55]} p={[-6.6, 0.45, -5.28]} m={M.plain('#3a2a20')} cast={false} />
+        <group position={[-6.6, 0, -3.4]} scale={1.15}>
+          <Lingam p={[0, 0, 0]} />
+          <Cyl rt={0.34} rb={0.4} h={0.12} p={[0, 0.06, 0]} m={M.plain('#c0392b')} seg={14} />
+        </group>
+        <Trident p={[-5.6, 0, -3.5]} h={1.6} />
+        <Canopy p={[-10.2, 0, -8]} s={1.2} n={6} c="#54803a" c2="#6a9442" />
+        <Canopy p={[12.5, 0, -11]} s={1.05} n={5} c="#4d7a35" c2="#628f40" r={2} />
+        <PrayerFlags from={[-10.2, 3.4, -8]} to={[-8.2, 1.4, 6]} n={26} />
+        <PrayerFlags from={[-6.8, 1.6, 8]} to={[8.4, 1.8, 3.5]} n={30} />
+        <Frame s={[26, 4, 22]} p={[0, 1.4, 0]} />
       </group>
     );
   }
@@ -473,9 +507,9 @@ export default function make(K) {
         {/* ponds of the ancient city */}
         <Water w={8} d={5.5} p={[-23, 0.03, -4]} color="#4e7a6a" />
         <Water w={6} d={4} p={[-15, 0.03, 20]} color="#4e7a6a" />
-        {/* sal forest around the site */}
-        {ringOf(34, 30, (p, r, i) => <Canopy key={i} p={[p[0] * (1 + (i % 3) * 0.07), 0, p[2] * (1 + (i % 3) * 0.07)]} s={1.3 + (i % 4) * 0.22} r={i} n={5} c={i % 2 ? '#4a7a36' : '#58853b'} />, backOnly)}
-        {[[-17, -3], [-16, -12], [17, -14], [-18, 6]].map(([x, z], i) => <Canopy key={`s${i}`} p={[x, 0, z]} s={1.5} n={6} r={i} />)}
+        {/* sal and banyan forest around the back of the site, kept low and away from the viewing angles */}
+        {ringOf(30, 38, (p, r, i) => <Canopy key={i} p={[p[0] * (1 + (i % 3) * 0.06), 0, p[2] * (1 + (i % 3) * 0.06)]} s={1.1 + (i % 4) * 0.18} r={i} n={5} c={i % 2 ? '#4a7a36' : '#58853b'} />, backOnly)}
+        {[[-22, -10], [-24, 4], [21, -16]].map(([x, z], i) => <Canopy key={`s${i}`} p={[x, 0, z]} s={1.3} n={6} r={i} />)}
         {[[-24, 24], [-30, 8], [22, 40]].map(([x, z], i) => <House key={`h${i}`} M={M} p={[x, 0, z]} r={i} h={2.2} plaster />)}
       </group>
     );

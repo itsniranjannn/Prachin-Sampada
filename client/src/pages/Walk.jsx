@@ -11,6 +11,7 @@ import { useT } from '../lib/prefs.jsx';
 import { Loader } from '../components/Shell.jsx';
 import { Epigraph } from '../components/Shloka.jsx';
 import { Dropdown, TimePicker } from '../components/Pickers.jsx';
+import '../styles/explore-walk-qa.css';
 
 const STARTS = [
   { key: 'kds', name: 'Basantapur (Kathmandu Durbar Sq.)', lat: 27.7041, lng: 85.3069 },
@@ -42,6 +43,8 @@ export default function Walk() {
   const [endTime, setEndTime] = useState('15:00');
   const [ret, setRet] = useState(false);
   const [plan, setPlan] = useState(null);
+  const [planRet, setPlanRet] = useState(false); // whether the plan on screen includes the walk back
+  const [naming, setNaming] = useState(null); // title being typed when saving a walk
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState('');
   const [pickOnMap, setPickOnMap] = useState(false);
@@ -61,14 +64,16 @@ export default function Walk() {
     try {
       const body = { start: { lat: start.lat, lng: start.lng }, startTime, endTime, returnToStart: ret, ...(mode === 'places' ? { monumentIds: picked } : { interests }) };
       const { plan: p } = await api('/tours/plan', { method: 'POST', body });
-      setPlan(p);
+      setPlan(p); setPlanRet(ret); setNaming(null);
       if (!p.stops.length) setErr('Nothing fits this time window. Try a longer window or a different start.');
     } catch (e) { setErr(e.message); } finally { setBusy(false); }
   };
 
-  const save = async () => {
+  const save = async (e) => {
+    e?.preventDefault();
     if (!user) return nav('/login?next=/walk');
-    const title = window.prompt('Name this walk', `${start.name.split(' (')[0]} heritage walk`);
+    if (naming === null) { setNaming(`${start.name.split(' (')[0]} heritage walk`); return; }
+    const title = naming.trim();
     if (!title) return;
     try {
       const r = await api('/tours', { method: 'POST', body: { title, start: { lat: start.lat, lng: start.lng }, startTime, endTime, returnToStart: ret, ...(mode === 'places' ? { monumentIds: picked } : { interests }) } });
@@ -76,7 +81,8 @@ export default function Walk() {
       try { await navigator.clipboard.writeText(link); } catch { /* clipboard blocked */ }
       toast(<span>Walk saved. Share link copied: <b>{link}</b></span>, 'ok', 6000);
       announceBadges(toast, r.badges);
-    } catch (e) { toast(e.message, 'err'); }
+      setNaming(null);
+    } catch (x) { toast(x.message, 'err'); }
   };
 
   const markers = useMemo(() => (plan ? plan.stops.map((s) => ({ ...s.monument })) : []), [plan]);
@@ -84,7 +90,7 @@ export default function Walk() {
   const startMarker = useMemo(() => ({ lat: start.lat, lng: start.lng }), [start]);
   useEffect(() => { if (plan?.stops.length) setTimeout(() => map.current?.fit([[start.lng, start.lat], ...plan.stops.map((s) => [s.monument.lng, s.monument.lat])], 90), 150); }, [plan, start]);
 
-  const gmaps = plan?.stops.length ? `https://www.google.com/maps/dir/?api=1&origin=${start.lat},${start.lng}&destination=${plan.stops.at(-1).monument.lat},${plan.stops.at(-1).monument.lng}&waypoints=${plan.stops.slice(0, -1).map((s) => `${s.monument.lat},${s.monument.lng}`).join('|')}&travelmode=walking` : '#';
+  const gmaps = plan?.stops.length ? `https://www.google.com/maps/dir/?api=1&origin=${start.lat},${start.lng}&destination=${plan.stops.at(-1).monument.lat},${plan.stops.at(-1).monument.lng}${plan.stops.length > 1 ? `&waypoints=${plan.stops.slice(0, -1).map((s) => `${s.monument.lat},${s.monument.lng}`).join('|')}` : ''}&travelmode=walking` : '#';
   const filtered = all.filter((m) => !picked.includes(m.id) && (!q || `${m.name} ${m.name_np} ${m.city}`.toLowerCase().includes(q.toLowerCase()))).slice(0, 6);
 
   const locate = () => !navigator.geolocation ? toast('This browser has no location support. Pick a place from the list.', 'err') : navigator.geolocation.getCurrentPosition((p) => { setStart({ key: 'me', name: 'My location', lat: p.coords.latitude, lng: p.coords.longitude }); setPlan(null); }, (e) => toast(e.code === 1 ? 'Location permission is blocked. Allow it in the browser address bar, or pick a place from the list.' : 'Could not find your location. Pick a place from the list or tap the map.', 'err', 6000), { enableHighAccuracy: true, timeout: 9000 });
@@ -151,7 +157,7 @@ export default function Walk() {
               {!busy && plan && plan.stops.length > 0 && (
                 <motion.div key="plan" className="card pad-l" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }}>
                   <div className="walk-summary">
-                    <div><b className="num">{plan.stops.length}</b><span>stops</span></div>
+                    <div><b className="num">{plan.stops.length}</b><span>{plan.stops.length === 1 ? t('stop', 'ठाउँ') : t('stops', 'ठाउँहरू')}</span></div>
                     <div><b className="num">{plan.startTime}–{plan.finish}</b><span>your day</span></div>
                     <div><b className="num">{fmtM(plan.walkMetres)}</b><span>on foot</span></div>
                     <div><b className="num">{plan.rideCostNpr ? npr(plan.rideCostNpr) : 'Rs 0'}</b><span>taxi fares</span></div>
@@ -172,14 +178,22 @@ export default function Walk() {
                         </Link>
                       </li>
                     ))}
+                    {planRet && <li className="tl-start tl-end"><span className="tl-dot" /><div><b>{t('Back at the start', 'सुरुकै ठाउँमा फिर्ता')}</b><span className="cap">{start.name} · {plan.finish}</span></div></li>}
                   </ol>
                   {plan.skipped.length > 0 && (
                     <div className="quake" style={{ marginTop: '1rem' }}><TriangleAlert size={18} /><div><b>Left out:</b> {plan.skipped.map((s) => `${s.monument.name} (${s.reason})`).join('; ')}.</div></div>
                   )}
                   <div className="row" style={{ marginTop: '1.2rem' }}>
-                    <a className="btn" href={gmaps} target="_blank" rel="noreferrer"><Navigation size={16} /> Open in Google Maps</a>
-                    <button className="btn ghost" onClick={save}><Save size={16} /> Save &amp; share</button>
+                    <a className="btn" href={gmaps} target="_blank" rel="noreferrer"><Navigation size={16} /> {t('Open in Google Maps', 'गुगल म्यापमा खोल्नुहोस्')}</a>
+                    {naming === null && <button className="btn ghost" onClick={save}><Save size={16} /> {t('Save & share', 'सेभ र सेयर गर्नुहोस्')}</button>}
                   </div>
+                  {naming !== null && (
+                    <form className="row walk-name" onSubmit={save}>
+                      <input className="input" value={naming} onChange={(e) => setNaming(e.target.value)} maxLength={80} autoFocus aria-label={t('Name this walk', 'यो यात्राको नाम')} placeholder={t('Name this walk', 'यो यात्राको नाम')} />
+                      <button className="btn sm" type="submit" disabled={!naming.trim()}><Save size={15} /> {t('Save', 'सेभ')}</button>
+                      <button className="btn ghost sm" type="button" onClick={() => setNaming(null)}>{t('Cancel', 'रद्द')}</button>
+                    </form>
+                  )}
                 </motion.div>
               )}
               {!busy && !plan && (

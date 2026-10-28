@@ -6,6 +6,8 @@ export const DIST_SCALE_M = 1200; // at 1.2 km the distance score has fallen to 
 export const PERFECT_M = 40; // within 40 m counts as standing on the site
 /** Round scope: inside one valley the curve works in metres; across Nepal it works in kilometres. */
 export const SCOPES = { valley: { perfect: PERFECT_M, scale: DIST_SCALE_M }, nepal: { perfect: 1000, scale: 40000 } };
+/** Tier of a scored round: perfect, close (600+) or far. */
+export const tierFor = (s) => (s.perfect ? 'perfect' : s.points >= 600 ? 'close' : 'far');
 export const inValley = (m) => m.lat > 27.55 && m.lat < 27.82 && m.lng > 85.18 && m.lng < 85.56;
 
 /**
@@ -13,6 +15,11 @@ export const inValley = (m) => m.lat > 27.55 && m.lat < 27.82 && m.lng > 85.18 &
  * points = distance part (exponential decay) + speed bonus, minus hint penalty.
  */
 export function scoreGuess(guess, target, { timeMs = 0, limitMs = 60000, hints = 0, scope = 'valley' } = {}) {
+  timeMs = Math.max(0, Math.min(limitMs, Number(timeMs) || 0));
+  if (!guess || !Number.isFinite(guess.lat) || !Number.isFinite(guess.lng)) {
+    // no pin placed before time ran out: nothing scored
+    return { metres: null, points: 0, distPart: 0, speedPart: 0, penalty: 0, perfect: false, missed: true };
+  }
   const d = haversine(guess, target);
   const { perfect, scale } = SCOPES[scope] || SCOPES.valley;
   const distPart = d <= perfect ? 800 : Math.round(800 * Math.exp(-(d - perfect) / scale));

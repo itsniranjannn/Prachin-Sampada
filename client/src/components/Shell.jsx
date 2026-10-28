@@ -2,11 +2,12 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { AnimatePresence, motion, useMotionValueEvent, useScroll, useSpring } from 'framer-motion';
 import Lenis from 'lenis';
-import { Menu, X, Moon, Sun, SunMedium, Volume2, VolumeX, LogOut, Stamp, Shield, Languages, ArrowUpRight, Github } from 'lucide-react';
+import { Menu, X, Moon, Sun, SunMedium, LogOut, Stamp, Shield, Languages, ArrowUpRight, Github } from 'lucide-react';
 import { Logo } from './Logo.jsx';
 import { Mandala } from './Ornaments.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import { usePrefs, useT } from '../lib/prefs.jsx';
+import '../styles/shell-qa.css';
 
 const LINKS = [
   { to: '/explore', en: 'Explore', np: 'घुम्नुहोस्' },
@@ -58,7 +59,7 @@ export function ScrollProgress() {
 
 export function Nav() {
   const { user, logout } = useAuth();
-  const { theme, setTheme, sound, setSound, nepali, setNepali } = usePrefs();
+  const { theme, setTheme, nepali, setNepali } = usePrefs();
   const t = useT();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -80,6 +81,7 @@ export function Nav() {
   const nextTheme = { light: 'dark', dark: 'dhoop', dhoop: 'light' }[theme] || 'light';
   const ThemeIcon = theme === 'dark' ? Moon : theme === 'dhoop' ? SunMedium : Sun;
   const themeLabel = { light: 'Light theme', dark: 'Ratri (dark) theme', dhoop: 'Dhoop (outdoor, high contrast)' }[theme];
+  const themeShort = { light: ['Light theme', 'उज्यालो मोड'], dark: ['Ratri theme', 'रात्री मोड'], dhoop: ['Dhoop theme', 'घाम मोड'] }[theme] || ['Theme', 'मोड'];
   const onHome = loc.pathname === '/';
   return (
     <>
@@ -105,9 +107,6 @@ export function Nav() {
           <div className="nav-tools">
             <button className="icon-btn" title={nepali ? 'Show English first' : 'नेपालीमा हेर्नुहोस्'} aria-label="Toggle Nepali labels" aria-pressed={nepali} onClick={() => setNepali(!nepali)}><Languages size={17} /></button>
             <button className="icon-btn" title={`${themeLabel}. Click to switch`} aria-label={themeLabel} onClick={() => setTheme(nextTheme)}><ThemeIcon size={17} /></button>
-            <button className="icon-btn" title={sound ? 'Sound on' : 'Sound off'} aria-label={sound ? 'Mute sounds' : 'Turn sounds on'} aria-pressed={sound} onClick={() => setSound(!sound)}>
-              {sound ? <Volume2 size={17} /> : <VolumeX size={17} />}
-            </button>
             {user ? (
               <div className="nav-user">
                 <Link to="/passport" className="avatar" title="My heritage passport">{user.name.slice(0, 1).toUpperCase()}</Link>
@@ -115,7 +114,7 @@ export function Nav() {
                   <div className="small"><b>{user.name}</b><br /><span className="muted">{user.level?.label}</span></div>
                   <Link to="/passport"><Stamp size={16} /> My passport</Link>
                   {user.role === 'admin' && <Link to="/admin"><Shield size={16} /> Admin</Link>}
-                  <button onClick={() => { logout(); nav('/'); }}><LogOut size={16} /> Log out</button>
+                  <button onClick={() => { logout(); nav('/'); }}><LogOut size={16} /> {t('Log out', 'लगआउट')}</button>
                 </div>
               </div>
             ) : (
@@ -135,19 +134,19 @@ export function Nav() {
                 <motion.div key={l.to} initial={{ opacity: 0, y: 26 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.18 + i * 0.06, duration: 0.5, ease: [0.22, 0.9, 0.24, 1] }}>
                   <NavLink to={l.to} className={({ isActive }) => (isActive ? 'active' : '')}>
                     <span className="mnav-num">{String(i + 1).padStart(2, '0')}</span>
-                    <span className="mnav-en">{l.en}</span>
-                    <span className="mnav-np" lang="ne">{l.np}</span>
+                    {/* the language in use leads; the other sits underneath so the two lines never repeat */}
+                    <span className="mnav-en" lang={nepali ? 'ne' : undefined}>{nepali ? l.np : l.en}</span>
+                    <span className="mnav-np" lang={nepali ? 'en' : 'ne'} data-notranslate>{nepali ? l.en : l.np}</span>
                   </NavLink>
                 </motion.div>
               ))}
             </nav>
             <motion.div className="mnav-foot" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
               <div className="row">
-                <button className="btn light-ghost sm" onClick={() => setTheme(nextTheme)}><ThemeIcon size={15} /> {themeLabel.split(' (')[0]}</button>
-                <button className="btn light-ghost sm" onClick={() => setSound(!sound)}>{sound ? <Volume2 size={15} /> : <VolumeX size={15} />} Sound {sound ? 'on' : 'off'}</button>
-                <button className="btn light-ghost sm" onClick={() => setNepali(!nepali)}><Languages size={15} /> {nepali ? 'English' : 'नेपाली'}</button>
+                <button className="btn light-ghost sm" onClick={() => setTheme(nextTheme)}><ThemeIcon size={15} /> {t(...themeShort)}</button>
+                <button className="btn light-ghost sm" onClick={() => setNepali(!nepali)}><Languages size={15} /> <span data-notranslate>{nepali ? 'English' : 'नेपाली'}</span></button>
               </div>
-              {user ? <button className="btn light-ghost" onClick={() => { logout(); nav('/'); }}><LogOut size={16} /> Log out</button>
+              {user ? <button className="btn light-ghost" onClick={() => { logout(); nav('/'); }}><LogOut size={16} /> {t('Log out', 'लगआउट')}</button>
                 : <Link className="btn" to="/login">{t('Sign in', 'साइन इन')} <ArrowUpRight size={16} /></Link>}
             </motion.div>
           </motion.div>

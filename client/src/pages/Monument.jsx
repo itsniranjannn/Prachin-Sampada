@@ -12,9 +12,9 @@ import { MonumentCard, TYPE_LABEL } from '../components/MonumentCard.jsx';
 import { PageLoader } from '../components/Shell.jsx';
 import MapView from '../components/MapView.jsx';
 import { Gallery } from '../components/Gallery.jsx';
-import { ScanFrame, ScanDetails } from '../components/ScanViewer.jsx';
-import { SCANS } from '../data/scans.js';
+import AudioGuide from '../components/AudioGuide.jsx';
 import { ShrineVerse } from '../components/Shloka.jsx';
+import '../styles/explore-walk-qa.css';
 
 const SiteViewer = lazy(() => import('../three/site.jsx').then((x) => ({ default: x.SiteViewer })));
 
@@ -31,7 +31,6 @@ export default function Monument() {
   const toast = useToast();
   const nav = useNavigate();
   const [lightbox, setLightbox] = useState(false);
-  const [view, setView] = useState(() => (new URLSearchParams(window.location.search).get('view') === 'model' ? 'model' : 'scan'));
   const { scrollY } = useScroll();
   const heroY = useTransform(scrollY, [0, 700], [0, 160]);
   const heroScale = useTransform(scrollY, [0, 700], [1.06, 1.16]);
@@ -99,10 +98,6 @@ export default function Monument() {
     ...(m.gallery || []).map((g) => ({ url: g.url, caption: g.caption, author: g.author, license: g.license })),
   ].filter(Boolean);
   const spec = m.model;
-  const scans = SCANS[m.slug] || [];
-  const siteScan = scans.find((x) => x.kind === 'site');
-  const detailScans = scans.filter((x) => x !== siteScan);
-  const showScan = siteScan && view === 'scan';
   const hasFees = m.fees && [m.fees.foreigner, m.fees.saarc, m.fees.nepali].some((x) => x != null);
 
   return (
@@ -122,7 +117,7 @@ export default function Monument() {
               <span className="tag light">{m.religion}</span>
             </div>
             <h1 style={{ marginBottom: '0.1em' }}>{m.name}</h1>
-            <div className="mon-np" lang="ne">{m.name_np}</div>
+            {!nepali && <div className="mon-np" lang="ne">{m.name_np}</div>}
             <p className="lead" style={{ maxWidth: 640 }} lang={nepali && m.short_np ? 'ne' : undefined}>{pick(m.short_np, m.short)}</p>
             {data.parent && <p className="small">Part of <Link to={`/m/${data.parent.slug}`}>{data.parent.name}</Link></p>}
             <div className="mon-hero-tools">
@@ -137,33 +132,7 @@ export default function Monument() {
       <div className="wrap mon-grid">
         <div className="mon-main">
           {/* audio guide */}
-          <div className="card pad-l audio-card">
-            <div className="row between">
-              <div className="row"><div><h4 style={{ margin: 0 }}>{t('Audio guide', 'अडियो गाइड')}</h4><span className="cap">{t(`${chapters.length} short chapters · read aloud by your device`, `${t.n(chapters.length)} छोटा भाग · तपाईंको फोनले पढेर सुनाउँछ`)}</span></div></div>
-              {narrator.supported ? (
-                <div className="row">
-                  {narrator.playing && !narrator.paused ? <button className="btn sm" onClick={narrator.pause}><Pause size={15} /> Pause</button>
-                    : <button className="btn sm diyo" onClick={() => (narrator.paused ? narrator.resume() : narrator.play(narrator.progress >= 1 ? 0 : narrator.chapter || 0))}><Play size={15} /> {narrator.paused ? t('Resume', 'जारी राख्नुहोस्') : t('Listen', 'सुन्नुहोस्')}</button>}
-                  {narrator.playing && <button className="icon-btn" onClick={narrator.stop} aria-label="Stop"><Square size={14} /></button>}
-                </div>
-              ) : <span className="cap">Your browser has no speech voice; read the story below.</span>}
-            </div>
-            <div className="chapters">
-              {chapters.map((c, i) => (
-                <button key={c.title} className={`chapter ${narrator.playing && narrator.chapter === i ? 'on' : ''}`} onClick={() => narrator.play(i)} disabled={!narrator.supported}>
-                  <span>{c.title}</span>
-                  <i style={{ width: narrator.chapter === i ? `${Math.round((narrator.progress || 0) * 100)}%` : narrator.chapter > i && narrator.playing ? '100%' : 0 }} />
-                </button>
-              ))}
-            </div>
-            {narrator.noVoice && <p className="cap error-text" style={{ marginTop: '0.6rem' }}>This device has no Nepali voice installed, so it cannot read Nepali aloud. Switch to English, or add a Nepali or Hindi voice in your system speech settings.</p>}
-            {narrator.supported && (
-              <label className="cap row" style={{ marginTop: '0.6rem' }}>Speed
-                <input type="range" min="0.7" max="1.3" step="0.05" value={narrator.rate} onChange={(e) => narrator.setRate(Number(e.target.value))} aria-label="Reading speed" />
-                {narrator.rate.toFixed(2)}×
-              </label>
-            )}
-          </div>
+          <AudioGuide narrator={narrator} chapters={chapters} />
 
           <article className="story" id="story">
             <h2>{t('The story', 'कथा')}</h2>
@@ -196,19 +165,11 @@ export default function Monument() {
               <div>
                 <div className="eyebrow" style={{ marginBottom: '0.4rem' }}>{t('Turn it in 3D', '३D मा घुमाउनुहोस्')}</div>
                 <h3 style={{ margin: 0 }}>{t(`${m.name} and its surroundings`, `${m.name_np || m.name} र वरिपरिको ठाउँ`)}</h3>
-                <span className="cap">{showScan ? 'A 3D scan of the real monument. Press play, then drag to orbit and scroll to zoom.' : `${spec?.notes || `A ${TYPE_LABEL[m.type]?.toLowerCase() || 'temple'} built from its architecture.`} Drag to orbit, scroll to zoom.`}</span>
+                <span className="cap">{`${spec?.notes || `A ${TYPE_LABEL[m.type]?.toLowerCase() || 'temple'} built from its architecture.`} Drag to orbit, scroll to zoom.`}</span>
               </div>
-              {siteScan && (
-                <div className="seg" role="tablist" aria-label="3D view">
-                  <button role="tab" aria-selected={view === 'scan'} className={view === 'scan' ? 'on' : ''} onClick={() => setView('scan')}>Real scan</button>
-                  <button role="tab" aria-selected={view === 'model'} className={view === 'model' ? 'on' : ''} onClick={() => setView('model')}>Reconstruction</button>
-                </div>
-              )}
             </div>
-            {showScan
-              ? <div style={{ padding: '0 1rem 1rem' }}><ScanFrame scan={siteScan} /></div>
-              : <Suspense fallback={<div className="skeleton" style={{ height: 440, margin: '1rem' }} />}><SiteViewer spec={spec} type={m.type} slug={m.slug} initialDusk={theme === 'dark'} /></Suspense>}
-            {!showScan && spec && (
+            <Suspense fallback={<div className="skeleton" style={{ height: 440, margin: '1rem' }} />}><SiteViewer spec={spec} type={m.type} slug={m.slug} initialDusk={theme === 'dark'} /></Suspense>
+            {spec && (
               <div className="model-specs">
                 {spec.tiers > 1 && <span className="tag">{spec.tiers} {['pagoda', 'gumba', 'lake-shrine'].includes(spec.kind) ? 'roofs' : 'storeys'}</span>}
                 {spec.plinth_steps > 0 && <span className="tag">{t(`${spec.plinth_steps} plinth levels`, `${t.n(spec.plinth_steps)} तहको चौकी`)}</span>}
@@ -216,14 +177,6 @@ export default function Monument() {
               </div>
             )}
           </div>
-
-          {detailScans.length > 0 && (
-            <section className="scan-section">
-              <div className="eyebrow">{t('Scanned at the site', 'ठाउँमै गएर स्क्यान गरिएको')}</div>
-              <h3 style={{ marginTop: 0 }}>{t(`Shrines and sculptures of ${m.name} in 3D`, `${m.name_np || m.name}का मन्दिर र मूर्ति ३D मा`)}</h3>
-              <ScanDetails scans={detailScans} />
-            </section>
-          )}
 
           {data.inside.length > 0 && (
             <section style={{ marginTop: '2.5rem' }}>

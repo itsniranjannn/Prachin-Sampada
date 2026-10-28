@@ -7,7 +7,9 @@ import { TYPE_LABEL } from '../components/MonumentCard.jsx';
 import { api } from '../lib/api.js';
 import { useAuth } from '../lib/auth.jsx';
 import { useNarrator } from '../lib/speech.js';
+import { Equalizer } from '../components/AudioGuide.jsx';
 import { useT, usePrefs } from '../lib/prefs.jsx';
+import '../styles/explore-walk-qa.css';
 
 // Nepal story: west to east along the great pilgrim sites; any stop missing from the data is skipped
 const STORY_ORDER = [/maya devi|lumbini/i, /^muktinath/i, /^gorkha durbar/i, /^swayambhu/i, /^pashupati/i, /^boudha/i, /^patan durbar/i, /^bhaktapur durbar/i, /^janaki/i, /^tengboche/i, /^pathibhara/i];
@@ -55,6 +57,9 @@ export default function Explore() {
   const [wide, setWide] = useState(() => window.innerWidth > 760);
   useEffect(() => { const on = () => setWide(window.innerWidth > 760); window.addEventListener('resize', on); return () => window.removeEventListener('resize', on); }, []);
 
+  // whole of Nepal in the free part of the screen: tighter on a wide window, wider on a phone
+  const nepalView = useMemo(() => ({ ...NEPAL, zoom: wide ? 6.9 : 5.8 }), []); // eslint-disable-line react-hooks/exhaustive-deps
+
   const list = useMemo(() => {
     if (!all) return [];
     const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
@@ -68,7 +73,7 @@ export default function Explore() {
   const markers = useMemo(() => list.map((m) => ({ ...m, stamped: stamps.has(m.id), pulse: sel?.id === m.id || (m.metres != null && m.metres <= Math.max(150, me?.accuracy || 0)) })), [list, stamps, sel, me]);
   const model3d = useMemo(() => (sel ? { lng: sel.lng, lat: sel.lat, spec: sel.model, type: sel.type, name: sel.name, slug: sel.slug } : null), [sel]);
   const meDot = useMemo(() => (me ? [{ lat: me.lat, lng: me.lng, color: '#27187E', label: 'You are here' }] : []), [me]);
-  const padding = useMemo(() => (panel && wide ? { left: 400, top: 0, right: 0, bottom: 0 } : { left: 0, top: 0, right: 0, bottom: 0 }), [panel, wide]);
+  const padding = useMemo(() => (panel && wide ? { left: 400, top: 0, right: 0, bottom: 0 } : { left: 0, top: 0, right: 0, bottom: panel ? 400 : 0 }), [panel, wide]);
   const types = useMemo(() => [...new Set((all || []).map((m) => m.type))], [all]);
   const provCount = useMemo(() => (all || []).reduce((a, m) => ({ ...a, [m.province]: (a[m.province] || 0) + 1 }), {}), [all]);
   // fly to the chosen province
@@ -94,7 +99,7 @@ export default function Explore() {
     }
   }, [narrator.chapter, narrator.playing, story, storyStops]);
 
-  const select = (m) => { setSel(m); map.current?.flyTo(m.lng, m.lat, 17, { pitch: 60 }); };
+  const select = (m) => { setSel(m); if (!wide) setPanel(false); map.current?.flyTo(m.lng, m.lat, 17, { pitch: 60 }); };
   const locate = () => {
     if (!navigator.geolocation) { setLocMsg('This device cannot share its location.'); return; }
     setLocMsg('Finding you…');
@@ -114,7 +119,7 @@ export default function Explore() {
   return (
     <div className="explore">
       <div className="explore-map">
-        <MapView ref={map} markers={markers} extra={meDot} padding={padding} onSelect={select} initial={NEPAL} cluster model3d={model3d} />
+        <MapView ref={map} markers={markers} extra={meDot} padding={padding} onSelect={select} initial={nepalView} cluster model3d={model3d} />
       </div>
 
       <AnimatePresence>
@@ -129,7 +134,7 @@ export default function Explore() {
             </div>
             <label className="search">
               <Search size={17} />
-              <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search temples, deities, cities…" aria-label="Search monuments" />
+              <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t('Search temples, deities, cities…', 'मन्दिर, देवता, सहर खोज्नुहोस्…')} aria-label={t('Search monuments', 'सम्पदा खोज्नुहोस्')} />
             </label>
             <div className="chips-row">
               <button className={`chip ${unesco ? 'on' : ''}`} onClick={() => setUnesco(!unesco)}>UNESCO</button>
@@ -195,12 +200,13 @@ export default function Explore() {
                   <>
                     <button className="icon-btn" onClick={() => go(Math.max(0, story - 1))} aria-label="Previous stop" disabled={story === 0}><ChevronLeft size={17} /></button>
                     <button className="icon-btn" onClick={() => (story + 1 < storyStops.length ? go(story + 1) : endStory())} aria-label="Next stop"><ChevronRight size={17} /></button>
-                    {narrator.supported && (narrator.playing && !narrator.paused
-                      ? <button className="btn ghost sm" onClick={narrator.pause}>Pause voice</button>
-                      : <button className="btn ghost sm" onClick={() => (narrator.paused ? narrator.resume() : narrator.play(story))}><Play size={14} /> Voice</button>)}
+                    {narrator.supported && !narrator.noVoice && (narrator.playing && !narrator.paused
+                      ? <button className="btn ghost sm" onClick={narrator.pause}><Equalizer active={narrator.speaking} /> {t('Pause voice', 'आवाज रोक्नुहोस्')}</button>
+                      : <button className="btn ghost sm" onClick={() => (narrator.paused ? narrator.resume() : narrator.play(story))}><Play size={14} /> {narrator.paused ? t('Resume', 'जारी राख्नुहोस्') : t('Voice', 'आवाज')}</button>)}
                   </>
                 )}
               </div>
+              {story >= 0 && narrator.noVoice && <p className="cap error-text" style={{ marginTop: '0.5rem' }}>{t('No voice installed on this device for this language, so the story cannot be read aloud. The text still plays on screen.', 'यो उपकरणमा यो भाषाको आवाज छैन, त्यसैले पढेर सुनाउन सकिँदैन। लेखिएको कथा भने हेर्न पाइन्छ।')}</p>}
               {story >= 0 && <div className="story-bar"><span style={{ width: `${((story + (narrator.progress || 0)) / storyStops.length) * 100}%` }} /></div>}
             </div>
           </motion.div>
