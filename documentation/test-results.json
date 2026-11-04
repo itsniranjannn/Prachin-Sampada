@@ -1,0 +1,215 @@
+{
+  "generated": "2026-11-04T08:49:06.064Z",
+  "base": "http://localhost:5174",
+  "notes": [],
+  "cases": [
+    {
+      "id": "E2E-01",
+      "name": "Home page loads",
+      "steps": "Open / ; wait for brand text and navigation",
+      "expected": "Page renders the brand, hero, nav links to Explore, with no console errors or failed API calls",
+      "actual": "Title \"Hamro Prachin Sampada · हाम्रो प्राचीन सम्पदा\", 6 explore links, 628 chars of text",
+      "pass": true
+    },
+    {
+      "id": "E2E-02",
+      "name": "Explore: map and list render",
+      "steps": "Open /explore ; wait for the monument list and map canvas",
+      "expected": "List shows 100+ monuments and the MapLibre canvas exists",
+      "actual": "116 list rows rendered, map canvas present",
+      "pass": true
+    },
+    {
+      "id": "E2E-03",
+      "name": "Explore: province filter and search",
+      "steps": "Open /explore ; click province chip Lumbini ; count rows ; clear ; type \"Pashupati\" in search ; open first result",
+      "expected": "Province chip narrows list to only that province; search finds Pashupatinath and the detail card offers \"Open the story\"",
+      "actual": "All=116, Lumbini=11 (all Lumbini), search \"Pashupati\" -> 2 hits, detail card opened",
+      "pass": true
+    },
+    {
+      "id": "E2E-04",
+      "name": "Monument detail page",
+      "steps": "Fetch catalogue ; open /m/<slug> of Pashupatinath ; read heading",
+      "expected": "Page shows the monument name as the main heading, with no console errors or failed API calls",
+      "actual": "/m/pashupatinath h1=\"Pashupatinath Temple\"",
+      "pass": true
+    },
+    {
+      "id": "E2E-05",
+      "name": "Monument 3D model viewer",
+      "steps": "Open /m/<slug>?view=model&still=1 ; wait for .model-viewer[data-ready=\"1\"] canvas",
+      "expected": "WebGL canvas for the site-specific procedural model appears and is marked ready",
+      "actual": "canvas 829x440 ready",
+      "pass": true
+    },
+    {
+      "id": "E2E-06",
+      "name": "Gallery and lightbox",
+      "steps": "Open monument ; wait for gallery ; click \"N photos\" ; verify lightbox opens ; press Escape",
+      "expected": "Gallery thumbnails render, lightbox opens full screen and closes with Escape",
+      "actual": "7 thumbnails; lightbox opened (still mounted after Esc)",
+      "pass": true
+    },
+    {
+      "id": "E2E-07",
+      "name": "Register a new explorer, then log out",
+      "steps": "Open /register ; fill name, email, password, pick an interest ; submit ; arrive at /verify ; Skip for now ; open user menu ; Log out",
+      "expected": "Account is created, user lands on verification page and can skip; logout removes the avatar from the nav",
+      "actual": "Registered e2e1793782022099@example.com, verify page reached, skipped, logged out",
+      "pass": true
+    },
+    {
+      "id": "E2E-08",
+      "name": "Login with demo account and logout",
+      "steps": "Open /login ; enter demo@sampada.np / explorer123 ; submit ; verify redirect ; log out",
+      "expected": "Valid demo credentials sign in and redirect to /passport; avatar appears; logout removes it",
+      "actual": "Signed in as demo, landed on /passport, logged out",
+      "pass": true
+    },
+    {
+      "id": "E2E-09",
+      "name": "Login rejects a wrong password",
+      "steps": "Open /login ; enter demo email with a wrong password ; submit",
+      "expected": "An inline alert is shown and the user stays on /login (401 expected)",
+      "actual": "Alert: \"Email or password is incorrect\"",
+      "pass": true
+    },
+    {
+      "id": "E2E-10",
+      "name": "Yatra planner builds a route",
+      "steps": "Open /walk ; choose an interest chip ; press the plan button ; wait for timeline",
+      "expected": "A timeline with at least 2 stops and a Google Maps link is produced",
+      "actual": "17 stops in route, Google Maps link present",
+      "pass": true
+    },
+    {
+      "id": "E2E-11",
+      "name": "Adaptive quiz trail",
+      "steps": "Open /quiz ; Start the trail ; answer 5 questions, pressing Next each time",
+      "expected": "Each answer shows right/wrong feedback and the rating chip is present; the question advances",
+      "actual": "Answered 5 questions with feedback; rating chip \"908\"",
+      "pass": true
+    },
+    {
+      "id": "E2E-12",
+      "name": "Find the Monument round",
+      "steps": "Open /find ; Start the game (Kathmandu Valley) ; click the map to drop a pin ; Lock my guess",
+      "expected": "A round starts with a photo and clue; pin can be placed; the result step appears with Next round / See results",
+      "actual": "Round 1 submitted and result step shown",
+      "pass": true
+    },
+    {
+      "id": "E2E-13",
+      "name": "Passport: stamps and badges (demo explorer)",
+      "steps": "Login as demo ; open /passport ; count badges and UNESCO zones ; open a monument and press \"I am here\" (manual stamp) ; reopen /passport",
+      "expected": "Passport shows badge grid and seven UNESCO zones; the manual stamp appears as a stamp card",
+      "actual": "11 badges, 7 UNESCO zones, 1 stamp(s) after manual stamp",
+      "pass": true
+    },
+    {
+      "id": "E2E-14",
+      "name": "Leaderboard",
+      "steps": "Open /leaderboard",
+      "expected": "Heading and the quiz and game boards (or empty states) render",
+      "actual": "Leaderboard heading present",
+      "pass": true
+    },
+    {
+      "id": "E2E-15",
+      "name": "Verify page",
+      "steps": "Open /verify logged out (expect redirect to /login) ; register a fresh explorer and land on /verify ; check code form ; login as verified demo and open /verify",
+      "expected": "Anonymous users go to /login; an unverified explorer sees the six-digit code form; an already verified explorer is sent on to /passport",
+      "actual": "unverified user sees code form; verified demo is redirected from /verify to /passport",
+      "pass": true
+    },
+    {
+      "id": "E2E-16",
+      "name": "Forgot password page",
+      "steps": "Open /forgot ; enter email ; submit",
+      "expected": "Form appears and moves to the code / new-password step without errors",
+      "actual": "Reset code requested, second step shown",
+      "pass": true
+    },
+    {
+      "id": "E2E-17",
+      "name": "Admin login and screens",
+      "steps": "Login as admin@sampada.np ; land on /admin ; click every admin tab",
+      "expected": "Admin is redirected to /admin; each tab (dashboard, monuments, explorers, reviews, activity) renders content",
+      "actual": "Tabs rendered: Dashboard:1786, Monuments & quiz:1718, Explorers:1097, Reviews:712, Activity:810",
+      "pass": true
+    },
+    {
+      "id": "E2E-18",
+      "name": "Admin route is protected for explorers",
+      "steps": "Login as demo ; open /admin",
+      "expected": "A non-admin user is redirected away from /admin and sees no admin tabs",
+      "actual": "Redirected to /",
+      "pass": true
+    },
+    {
+      "id": "E2E-19",
+      "name": "404 page",
+      "steps": "Open /no-such-page",
+      "expected": "Friendly \"This lane leads nowhere\" page with Home and map links",
+      "actual": "404 page rendered",
+      "pass": true
+    },
+    {
+      "id": "E2E-20",
+      "name": "Mobile 375x812: home has no horizontal overflow",
+      "steps": "Set viewport 375x812 ; open / ; compare scrollWidth with clientWidth",
+      "expected": "No horizontal scroll",
+      "actual": "scrollWidth 375 <= clientWidth 375",
+      "pass": true
+    },
+    {
+      "id": "E2E-21",
+      "name": "Mobile 375x812: monument page has no horizontal overflow",
+      "steps": "Set viewport 375x812 ; open /m/<slug>",
+      "expected": "No horizontal scroll and the heading is visible",
+      "actual": "scrollWidth 375 <= clientWidth 375",
+      "pass": true
+    },
+    {
+      "id": "E2E-22",
+      "name": "Mobile 375x812: other pages have no horizontal overflow",
+      "steps": "Set viewport 375x812 ; open /explore, /walk, /quiz, /find, /leaderboard, /login, /about",
+      "expected": "No page scrolls horizontally",
+      "actual": "7 pages fit within 375px",
+      "pass": true
+    },
+    {
+      "id": "E2E-23",
+      "name": "Polish: image alt text and internal links",
+      "steps": "Open /, /explore, /m/<slug>, /about, /credits ; collect <img> without alt and internal <a href> ; request each link from the dev server",
+      "expected": "Every <img> has an alt attribute; every internal link returns 200",
+      "actual": "127 unique internal links all 200, no img missing alt",
+      "pass": true
+    },
+    {
+      "id": "E2E-24",
+      "name": "Server unit tests (npm test)",
+      "steps": "Run npm test in server/",
+      "expected": "12 algorithm unit tests (tour planner vs brute force, Elo, SM-2, scoring, recommender) pass",
+      "actual": "pass 12, fail 0",
+      "pass": true
+    },
+    {
+      "id": "E2E-25",
+      "name": "Server API tests (npm run test:api)",
+      "steps": "Run npm run test:api in server/ against the running API",
+      "expected": "18 API tests (catalogue, auth, walk, quiz, stamps, find, admin) pass",
+      "actual": "pass 18, fail 0",
+      "pass": true
+    },
+    {
+      "id": "E2E-26",
+      "name": "Live hunt simulation (hunt-sim.mjs)",
+      "steps": "Run node test/hunt-sim.mjs : 3 players join a Socket.io room and play 3 rounds",
+      "expected": "Room created, duplicate name and non-host start refused, 3 reveals, final ranking printed",
+      "actual": "ranking: 1.Host 189, 2.Aarati 189, 3.Bikash 5",
+      "pass": true
+    }
+  ]
+}

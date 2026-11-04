@@ -34,6 +34,7 @@ Demo accounts: explorer `demo@sampada.np` / `explorer123`, admin `admin@sampada.
 - `cd server && npm test`: 12 unit tests for the algorithms (tour planner vs brute force, Elo, SM-2, scoring in valley and Nepal scopes, recommender).
 - `cd server && npm run test:api`: 18 end-to-end API tests (needs the server running on a freshly seeded database).
 - `node server/test/hunt-sim.mjs`: simulates a 3-player live hunt over Socket.io.
+- `node e2e/flows.mjs`: 23 real-browser flow checks (needs MySQL, API and client running; reseed first). Results go to `documentation/test-results.json`.
 
 ## What is inside
 
@@ -47,7 +48,7 @@ Demo accounts: explorer `demo@sampada.np` / `explorer123`, admin `admin@sampada.
 | 3D | A procedural builder (three.js / React Three Fiber) turns each site's researched model spec (roof tiers, plinth levels, guardian sculptures, features, surroundings) into its own scene, textured with CC0 Poly Haven materials, with day and dusk-aarti lighting |
 | Photos | 4-6 extra CC-licensed Wikimedia Commons photos per site in a swipeable gallery with a full-screen lightbox |
 | Map | Nepal-wide MapLibre GL map on free OpenFreeMap vector tiles: province filters, pin clustering, tilted 3D buildings |
-| Data | Verified heritage sites across the seven provinces, starting from 42 in the Kathmandu Valley (coordinates from Wikidata/OSM, CC-licensed Wikimedia photos), 210 quiz questions, 84 clues; see `server/db/data` |
+| Data | 116 heritage sites across the seven provinces (42 in the Kathmandu Valley) (coordinates from Wikidata/OSM, CC-licensed Wikimedia photos), 1,160 quiz questions (10 per site), 696 clues (6 per site); see `server/db/data` |
 
 Design system: Plum + Milk, Wine Red + Light Sand, Persian + Ghost and Lilac + Midnight palette pairs (WCAG-checked),
 Cormorant Garamond / Jost / Martel / Hind typography, temple-arch photo frames, a hanging garland toran, mandala
