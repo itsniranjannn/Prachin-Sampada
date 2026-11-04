@@ -1047,7 +1047,7 @@ export function SiteViewer({ spec, type, slug, height = 440, initialDusk = false
   const [dusk, setDusk] = useState(qs.has('dusk') ? qs.get('dusk') === '1' : initialDusk);
   const [spin, setSpin] = useState(qs.get('still') !== '1');
   const [broke, setBroke] = useState(false);
-  const ready = useLandmarks();
+  const ready = useLandmarks(slug);
   if (broke) s.slug = null;
   return (
     <div className="model-viewer" style={{ height }} data-ready={ready ? '1' : '0'}>
@@ -1745,19 +1745,28 @@ const KIT = {
   NewarHouse, LatticeWindow, TripleWindow, EaveStruts, Doorway, Arcade, Surroundings, Frame, Water, Tank, Chhatri, OnionDome,
   Monkey, ringOf, GroundDisc, silverMat, whiteMat, brickMat, Terrace, Monument, curvedRoofGeometry, TIMBER, LATTICE,
 };
-const lazyFiles = import.meta.glob('./landmarks/*.jsx');
+const lazyFiles = import.meta.glob('./landmarks/[a-h]-*.jsx');
+/* v3-<slug>.jsx: one rebuilt model per site, fetched only when that site is opened; it overrides the group files above */
+const lazyV3 = import.meta.glob('./landmarks/v3-*.jsx');
 let loading = null;
-function loadLandmarks() {
+const loadedV3 = {};
+function loadLandmarks(slug) {
   if (!loading) {
     loading = Promise.all(Object.entries(lazyFiles).map(([name, load]) => load()
       .then((mod) => { Object.assign(LANDMARKS, mod.default(KIT)); })
       .catch((e) => console.error(`landmark file ${name} failed:`, e)))).then(() => true);
   }
-  return loading;
+  const key = `./landmarks/v3-${slug}.jsx`;
+  if (slug && lazyV3[key] && !loadedV3[slug]) {
+    loadedV3[slug] = loading.then(() => lazyV3[key]())
+      .then((mod) => { Object.assign(LANDMARKS, mod.default(KIT)); })
+      .catch((e) => console.error(`landmark ${slug} failed:`, e));
+  }
+  return Promise.all([loading, loadedV3[slug]]).then(() => true);
 }
-function useLandmarks() {
+function useLandmarks(slug) {
   const [ok, setOk] = useState(false);
-  useEffect(() => { let on = true; loadLandmarks().then(() => { if (on) setOk(true); }); return () => { on = false; }; }, []);
+  useEffect(() => { let on = true; setOk(false); loadLandmarks(slug).then(() => { if (on) setOk(true); }); return () => { on = false; }; }, [slug]);
   return ok;
 }
 export const hasLandmark = (slug) => !!LANDMARKS[slug];
