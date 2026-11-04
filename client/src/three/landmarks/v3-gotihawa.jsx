@@ -8,15 +8,15 @@ export default function make(K) {
   const rng = (seed) => { let s = seed; return () => { s = (s * 16807) % 2147483647; return s / 2147483647; }; };
   const GOLD = '#d9a21b';
   const FLAGC = ['#1f5fbf', '#f4f4ef', '#d6262b', '#2f9a4a', '#f2c22b', '#f08a1c'];
-  const FLOOR = -0.8; // enclosure floor
-  const TOP = 0.1; // brick wall top
+  const FLOOR = -0.35; // enclosure floor
+  const TOP = 0.08; // brick wall top
   const PX = 3.0; const PZ = 2.3; // enclosure half-sizes (inner)
   const HX = 2.1; const HZ = 1.4; // cage half-sizes (4.2 x 2.8 m)
-  const MOUND = [-12, -7]; // buried stupa centre
+  const MOUND = [-10, -6]; // buried stupa centre
   const MR = 8.5; // stupa radius (steep grassy rise)
   const MH = 2.8; // hump height
   const hump = (d) => (d >= MR ? 0 : MH * (1 - Math.pow(d / MR, 2.6)));
-  const SW = 1.4; const SN = 4; // stair well width, number of steps
+  const SW = 1.4; const SN = 2; // stair well width, number of steps
   const POND = [-36, -27];
 
   /** Instanced mesh helper. items: [{p,s,ry,rx,rz,c}] */
@@ -43,7 +43,7 @@ export default function make(K) {
   /* ---------- the stump: a wide rounded boulder-like stone, reddish-grey patina ---------- */
   function Stump() {
     const geo = useMemo(() => {
-      const prof = [[0, 0], [0.62, 0], [0.65, 0.25], [0.58, 0.8], [0.52, 1.3], [0.46, 1.7], [0.4, 1.9], [0, 2.1]];
+      const prof = [[0, 0], [0.8, 0], [0.82, 0.25], [0.66, 0.8], [0.55, 1.3], [0.47, 1.7], [0.4, 1.9], [0, 2.1]];
       const g = new THREE.LatheGeometry(prof.map(([r, y]) => new THREE.Vector2(r, y)), 7);
       const p = g.attributes.position; const cols = []; const c = new THREE.Color();
       const c1 = new THREE.Color('#7D7468'); const c2 = new THREE.Color('#8a6a52'); const c3 = new THREE.Color('#5f574f');
@@ -88,21 +88,21 @@ export default function make(K) {
         for (let i = 1; i < n; i += 1) {
           const u = -half + (i * 2 * half) / n;
           const q = alongX ? [u, fix] : [fix, u];
-          bars.push({ p: [q[0], 0.5, q[1]] }); tips.push({ p: [q[0], 1.0, q[1]] });
+          bars.push({ p: [q[0], 0.65, q[1]] }); tips.push({ p: [q[0], 1.38, q[1]] });
         }
       };
       run(10, HX, HZ, true); run(10, HX, -HZ, true); run(7, HZ, HX, false); run(7, HZ, -HX, false);
       [[-HX, -HZ], [HX, -HZ], [HX, HZ], [-HX, HZ], [0, HZ], [0, -HZ], [-HX / 2, HZ], [HX / 2, HZ], [-HX / 2, -HZ], [HX / 2, -HZ], [HX, 0], [-HX, 0]].forEach(([a, b]) => {
-        posts.push({ p: [a, 0.6, b] }); fin.push({ p: [a, 1.25, b] });
+        posts.push({ p: [a, 0.75, b] }); fin.push({ p: [a, 1.55, b] });
       });
       return { bars, tips, posts, fin };
     }, []);
-    const rails = [0.12, 0.92];
+    const rails = [0.14, 1.2];
     return (
       <group position={[0, FLOOR, 0]}>
-        <Inst geo={<cylinderGeometry args={[0.016, 0.016, 0.85, 5]} />} mat={gold} items={items.bars} />
+        <Inst geo={<cylinderGeometry args={[0.018, 0.018, 1.15, 5]} />} mat={gold} items={items.bars} />
         <Inst geo={<coneGeometry args={[0.035, 0.16, 5]} />} mat={gold} items={items.tips} />
-        <Inst geo={<boxGeometry args={[0.1, 1.2, 0.1]} />} mat={gold} items={items.posts} shadow />
+        <Inst geo={<boxGeometry args={[0.1, 1.5, 0.1]} />} mat={gold} items={items.posts} shadow />
         <Inst geo={<sphereGeometry args={[0.07, 8, 6]} />} mat={gold} items={items.fin} />
         {rails.map((y, i) => (
           <group key={i}>
@@ -119,7 +119,7 @@ export default function make(K) {
   /* ---------- prayer flags strung corner to corner over the cage ---------- */
   function Flags() {
     const data = useMemo(() => {
-      const top = 1.15 + FLOOR;
+      const top = 1.45 + FLOOR;
       const corners = [[-HX, top, HZ], [HX, top, HZ], [HX, top, -HZ], [-HX, top, -HZ]];
       const ropes = []; const flags = [];
       let k = 0;
@@ -154,7 +154,7 @@ export default function make(K) {
     const M = useM();
     const brick = M.mat('brick', 1, 0.2, { color: '#a86b4e' });
     const dark = M.mat('brick', 1, 0.2, { color: '#8a5038' });
-    const cop = M.plain('#7a4430', { roughness: 0.9 });
+    const cop = M.plain('#6a3a2a', { roughness: 0.9 });
     const floor = M.plain('#a9a08c', { roughness: 1 });
     const crack = M.plain('#5b564d', { roughness: 1 });
     const T = 0.3; const top = TOP; const wh = top - FLOOR; const yc = (top + FLOOR) / 2;
@@ -176,7 +176,7 @@ export default function make(K) {
         <Box s={[T + 0.1, 0.06, 2 * PZ - 1.4]} p={[PX + T / 2, top + 0.02, -0.7]} m={cop} cast={false} />
         {/* brick stair: four 0.2 m steps down at the front-right corner, with cheek walls */}
         {Array.from({ length: SN }, (_, i) => {
-          const tr = SW / SN; const topY = FLOOR + 0.2 * (SN - i); const h = topY - FLOOR;
+          const tr = SW / SN; const topY = FLOOR + 0.2 * (SN - i) + 0.03; const h = topY - FLOOR;
           const x = PX + SW - tr * (i + 0.5);
           return (
             <group key={i}>
@@ -198,7 +198,7 @@ export default function make(K) {
 
   /* ---------- the buried round brick stupa: a smooth grassy hump with a few ragged brick patches ---------- */
   function Mound() {
-    const grass = useMemo(() => new THREE.MeshStandardMaterial({ color: '#c8b055', roughness: 1 }), []);
+    const grass = useMemo(() => new THREE.MeshStandardMaterial({ color: '#b2a24f', roughness: 1 }), []);
     const geo = useMemo(() => {
       const pts = []; const n = 36;
       for (let i = n; i >= 0; i -= 1) { const d = (i / n) * (MR + 0.3); pts.push(new THREE.Vector2(d, hump(d) - (d > MR ? 0.05 : 0))); }
@@ -220,10 +220,19 @@ export default function make(K) {
       }
       return out;
     }, []);
+    const tufts = useMemo(() => {
+      const r = rng(8); const out = [];
+      for (let i = 0; i < 120; i += 1) {
+        const a = r() * Math.PI * 2; const d = Math.sqrt(r()) * (MR - 0.3);
+        out.push({ p: [Math.cos(a) * d, hump(d) + 0.1, Math.sin(a) * d], s: [1, 0.8 + r() * 1.2, 1], c: r() > 0.4 ? '#7f9440' : '#d2bc62' });
+      }
+      return out;
+    }, []);
     return (
       <group position={[MOUND[0], 0, MOUND[1]]}>
         <mesh geometry={geo} material={grass} castShadow receiveShadow />
         <Inst geo={<boxGeometry args={[1, 1, 1]} />} mat={new THREE.MeshStandardMaterial({ color: '#ffffff', roughness: 0.95 })} items={courses} shadow />
+        <Inst geo={<coneGeometry args={[0.06, 0.35, 4]} />} mat={new THREE.MeshStandardMaterial({ color: '#ffffff', roughness: 1 })} items={tufts} />
       </group>
     );
   }
@@ -263,7 +272,7 @@ export default function make(K) {
         <Flags />
         <Signboard />
         <Mound />
-        <Frame s={[6.8, 2.5, 5.2]} p={[0.5, 0.45, 0.4]} />
+        <Frame s={[6.4, 2.2, 5.0]} p={[0.4, 0.75, 0.5]} />
       </group>
     );
   }

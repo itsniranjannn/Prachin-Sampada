@@ -211,7 +211,7 @@ export default function make(K) {
         pr.forEach(([zl, y, k]) => {
           pos.push(xs[j], y - (k === 'p' ? 0.06 : 0), zl);
           const n = rr();
-          if (k === 'p') C.set(dusk ? '#4e5a40' : '#858a5c').offsetHSL(0, 0, (n - 0.5) * 0.05);
+          if (k === 'p') C.set(dusk ? '#4a4a40' : '#9b917c').offsetHSL(0, 0, (n - 0.5) * 0.05);
           else if (k === 'w') C.set('#7a6955');
           else if (k === 'a') C.set('#9d9484');
           else if (k === 's') C.set(dusk ? '#757080' : '#a8a090').offsetHSL(0, 0, (n - 0.5) * 0.04);
@@ -506,7 +506,7 @@ export default function make(K) {
       const prot = (x, z) => (
         (Math.abs(x) < 12.4 && z > -10.4 && z < 12.2) ||
         (Math.abs(x) < 2.8 && z > 5) ||
-        (x > 11 && z < 14.5)
+        (x > 11 && x < 42 && z > 1 && z < 14.5)
       );
       for (let gx = -92; gx <= 92; gx += 2.9) {
         for (let gz = -34; gz <= 96; gz += 2.9) {
@@ -881,7 +881,7 @@ export default function make(K) {
       <group ref={ref} rotation={[0, ROT, 0]}>
         <Temple dusk={dusk} />
         <Courtyard dusk={dusk} />
-        <Frame s={[12.5, 11.5, 14.5]} p={[0, 5.4, 2.2]} />
+        <Frame s={[9.6, 9.6, 11.5]} p={[0, 4.6, 2.6]} />
       </group>
     );
   }

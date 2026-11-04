@@ -11,8 +11,8 @@ export default function make(K) {
   const DK2 = '#5a3626';
   const LEAF = '#6f4030';
 
-  const tileM = (M, rx = 5, ry = 5) => M.mat('roof', Math.max(3, rx), Math.max(3, ry), { color: '#a98462' });
-  const htileM = (M) => M.mat('roof', 4, 3, { color: '#9a7e68' });
+  const tileM = (M, rx = 5, ry = 5) => M.mat('roof', Math.max(3, rx), Math.max(3, ry), { color: '#b3ad9f' });
+  const htileM = (M) => M.mat('roof', 4, 3, { color: '#b3ad9f' });
   const brickM = (M, rx, ry) => M.mat('brick', rx, ry, { color: K.lighten(BRICK, 0.62) });
   const stoneM = (M, rx = 2, ry = 1, c = '#cfc6b6') => M.plain(K.lighten(c, 0.0), { roughness: 0.95 });
 
@@ -243,7 +243,7 @@ export default function make(K) {
 
   function Plinth() {
     const M = useM();
-    const cs = [[7.6, 0.18, '#8a8274'], [7.0, 0.18, '#948b7b']];
+    const cs = [[8.6, 0.18, '#8a8274'], [7.9, 0.18, '#948b7b']];
     const joint = M.plain('#4e473c');
     let y = 0;
     return (
@@ -271,9 +271,9 @@ export default function make(K) {
     const brick = (rx, ry) => brickM(M, rx, ry);
     const timber = M.plain(DK2, { roughness: 0.85 });
     const pl = 0.7;
-    const hw1 = 1.95; const y1a = pl; const y1b = 2.9;
-    const hw2 = 1.35; const y2a = 3.1; const y2b = 5.5;
-    const hw3 = 0.85; const y3a = 5.7; const y3b = 7.3;
+    const hw1 = 2.2; const y1a = pl; const y1b = 2.9;
+    const hw2 = 1.55; const y2a = 3.1; const y2b = 5.5;
+    const hw3 = 0.95; const y3a = 5.7; const y3b = 7.3;
     return (
       <group>
         <Plinth />
@@ -283,34 +283,34 @@ export default function make(K) {
         <Frame4 hw={hw1} y0={y1a} y1={y1b} m={timber} />
         <GroundFront hw={hw1} y0={y1a} />
         {[P / 2, P, -P / 2].map((a) => <group key={a} rotation={[0, a, 0]}><GroundSide hw={hw1} y0={y1a} /></group>)}
-        <Struts hw={hw1} o={1.3} yb={2.0} yt={2.88} n={14} tk={1.4} />
+        <Struts hw={hw1} o={1.9} yb={2.0} yt={2.88} n={14} tk={1.4} />
         {[1, 3, 5, 7].map((q) => (
           <group key={`cs${q}`} rotation={[0, (q * P) / 4, 0]}>
-            <Box s={[0.16, 1.5, 0.2]} p={[0, 2.42, 3.4]} r={[0.97, 0, 0]} m={timber} />
-            <Box s={[0.24, 0.24, 0.24]} p={[0, 1.8, 2.85]} m={M.plain(DK)} cast={false} />
+            <Box s={[0.16, 1.5, 0.2]} p={[0, 2.42, 4.0]} r={[0.97, 0, 0]} m={timber} />
+            <Box s={[0.24, 0.24, 0.24]} p={[0, 1.8, 3.1]} m={M.plain(DK)} cast={false} />
           </group>
         ))}
-        <PRoof w={6.8} d={6.8} h={0.9} y={2.92} fringe trim={DK} />
+        <PRoof w={8.8} d={8.8} h={1.15} y={2.92} fringe trim={DK} />
         {/* storey 2 */}
         <Box s={[hw2 * 2, y2b - y2a, hw2 * 2]} p={[0, (y2a + y2b) / 2, 0]} m={brick(3, 2)} />
         <Frame4 hw={hw2} y0={y2a} y1={y2b} m={timber} />
         {[0, P / 2, P, -P / 2].map((a, i) => <group key={a} rotation={[0, a, 0]}><UpperFace hw={hw2} y={4.3} n={3} ww={0.6} wh={1.5} detail={i === 0} /></group>)}
-        <Struts hw={hw2} o={0.8} yb={4.3} yt={5.48} n={10} tk={1.3} />
-        <PRoof w={4.3} d={4.3} h={0.75} y={5.52} trim={DK} />
+        <Struts hw={hw2} o={1.3} yb={4.3} yt={5.48} n={10} tk={1.3} />
+        <PRoof w={5.7} d={5.7} h={0.95} y={5.52} trim={DK} />
         {/* storey 3 */}
         <Box s={[hw3 * 2, y3b - y3a, hw3 * 2]} p={[0, (y3a + y3b) / 2, 0]} m={brick(2, 1.5)} />
         <Frame4 hw={hw3} y0={y3a} y1={y3b} m={timber} />
         {[0, P / 2, P, -P / 2].map((a, i) => <group key={a} rotation={[0, a, 0]}><UpperFace hw={hw3} y={6.5} n={3} ww={0.36} wh={1.0} detail={i === 0} /></group>)}
-        <Struts hw={hw3} o={0.6} yb={6.3} yt={7.28} n={6} tk={1.2} />
-        <PRoof w={2.8} d={2.8} h={0.8} y={7.32} trim="#c9a227" sag={1.45} />
+        <Struts hw={hw3} o={0.85} yb={6.3} yt={7.28} n={6} tk={1.2} />
+        <PRoof w={3.5} d={3.5} h={0.85} y={7.32} trim="#c9a227" sag={1.45} />
         <Gajur y={8.1} s={1.08} />
         {/* pots and pans hung from roof2 and roof3 eaves (front) */}
-        <Pots items={[[-1.2, 5.25, 2.14, 1], [-0.6, 5.18, 2.14, 0], [0.5, 5.23, 2.14, 1], [1.1, 5.18, 2.14, 0], [1.75, 5.27, 2.0, 1], [-1.75, 5.27, 2.0, 0], [-0.55, 6.95, 1.28, 1], [0.1, 6.99, 1.28, 0], [0.65, 6.95, 1.28, 1]]} />
+        <Pots items={[[-1.4, 5.25, 2.5, 1], [-0.7, 5.18, 2.5, 0], [0.6, 5.23, 2.5, 1], [1.3, 5.18, 2.5, 0], [2.0, 5.27, 2.3, 1], [-2.0, 5.27, 2.3, 0], [-0.55, 6.95, 1.28, 1], [0.1, 6.99, 1.28, 0], [0.65, 6.95, 1.28, 1]]} />
         {/* guardian lions flank the door, Nandi faces it */}
-        <group position={[0, 0.7, 2.3]} scale={1.05}><GuardLion x={-0.8} /><GuardLion x={0.8} /></group>
-        <group position={[0, 0.7, 3.1]} rotation={[0, P, 0]} scale={1.0}><PaleNandi /></group>
+        <group position={[0, 0.7, 2.55]} scale={1.05}><GuardLion x={-0.8} /><GuardLion x={0.8} /></group>
+        <group position={[0, 0.7, 3.5]} rotation={[0, P, 0]} scale={1.0}><PaleNandi /></group>
         </group>
-        <Frame s={[14, 9.4, 9]} p={[-0.5, 4.7, 2.2]} />
+        <Frame s={[12.5, 8.6, 7.5]} p={[-1.3, 4.3, 1.6]} />
       </group>
     );
   }
@@ -355,7 +355,7 @@ export default function make(K) {
     return (
       <group>
         <Temple />
-        <TwoRoof p={[-8, 0, 4.5]} r={0.1} s={1.1} />
+        <TwoRoof p={[-7.6, 0, 4.2]} r={0.1} s={1.0} />
       </group>
     );
   }
@@ -522,13 +522,13 @@ export default function make(K) {
 
         {/* small shrines, lingas and lamp posts filling the square */}
         {[[8.4, -6.6], [-5.6, -9.2], [-5.4, 8.8], [6.6, 8.6], [9.2, -9.4], [-9.4, 0.4], [3.6, -9.4], [-10, 9]].map(([x, z], i) => <ShrineBox key={i} p={[x, 0, z]} r={i * 0.5} s={0.85 + (i % 3) * 0.1} />)}
-        {[[-3.2, 7.4], [4.6, 7.2], [-9.8, -3.4], [9.6, -1.6], [6, -9], [-1, 9.6], [8.6, 5.8]].map(([x, z], i) => (
+        {[[-9.8, -3.4], [9.6, -1.6], [6, -9], [-1, 9.6], [8.6, 5.8]].map(([x, z], i) => (
           <group key={i} position={[x, 0, z]} scale={0.7}>
             <Box s={[0.9, 0.16, 0.9]} p={[0, 0.08, 0]} m={stone} />
             <Lingam p={[0, 0.16, 0]} />
           </group>
         ))}
-        {[[-4.6, 5.6], [4.8, 4.6], [-6.6, -5.6], [7.4, -3.4], [-1.8, -10.2]].map(([x, z], i) => <LampPost key={i} p={[x, 0, z]} />)}
+        {[[-6.6, -5.6], [7.4, -3.4], [-1.8, -10.2]].map(([x, z], i) => <LampPost key={i} p={[x, 0, z]} />)}
         <Diyo p={[-1.0, 0.36, 4.0]} light />
         <Diyo p={[1.0, 0.36, 4.0]} />
         <pointLight position={[0, 1.6, 4.0]} intensity={0.5} distance={5} color="#ffb35a" />

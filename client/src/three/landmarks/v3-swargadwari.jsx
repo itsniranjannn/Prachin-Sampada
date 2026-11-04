@@ -344,41 +344,100 @@ export default function make(K) {
     );
   }
 
+  /* big sacred fire pit (dhuni) in a stone-kerbed court */
+  function Dhuni({ p }) {
+    const M = useM();
+    const stone = M.mat('rock', 1, 1, { color: '#9a8f7c' });
+    return (
+      <group position={p}>
+        <Cyl rt={2.0} rb={2.1} h={0.12} p={[0, 0.06, 0]} m={M.plain('#c9bda5', { roughness: 1 })} seg={20} />
+        <Cyl rt={1.15} rb={1.25} h={0.4} p={[0, 0.3, 0]} m={stone} seg={16} />
+        <Cyl rt={0.95} rb={0.95} h={0.42} p={[0, 0.32, 0]} m={M.plain('#2a2420', { roughness: 1 })} seg={16} />
+        <mesh position={[0, 0.8, 0]}><coneGeometry args={[0.7, 1.2, 8]} /><meshBasicMaterial color="#ff8a2a" toneMapped={false} /></mesh>
+        <mesh position={[0.15, 0.95, 0.05]}><coneGeometry args={[0.4, 1.0, 7]} /><meshBasicMaterial color="#ffd25a" toneMapped={false} /></mesh>
+        {Array.from({ length: 8 }, (_, i) => { const a = (i / 8) * Math.PI * 2; return <Box key={i} s={[0.5, 0.3, 0.12]} p={[Math.cos(a) * 1.7, 0.22, Math.sin(a) * 1.7]} r={[0, -a + Math.PI / 2, 0]} m={stone} cast={false} />; })}
+        <Trident p={[1.7, 0.1, -1.2]} h={2.8} />
+        <pointLight position={[0, 1.2, 0]} intensity={2} distance={7} color="#ff9a4a" />
+      </group>
+    );
+  }
+
+  /* tall bamboo pole with a big saffron flag and pennants */
+  function SaffronFlag({ p, h = 10 }) {
+    const M = useM();
+    const saf = M.plain('#f08a12', { roughness: 0.9 });
+    return (
+      <group position={p}>
+        <Cyl rt={0.05} rb={0.1} h={h} p={[0, h / 2, 0]} m={M.plain('#b9a050', { roughness: 0.8 })} seg={6} />
+        <Box s={[0.7, 0.7, 0.7]} p={[0, 0.35, 0]} m={M.plain('#cfc7b8', { roughness: 1 })} />
+        <mesh position={[0.95, h - 0.7, 0]} material={saf} rotation={[0, 0, 0]}>
+          <boxGeometry args={[1.9, 1.1, 0.02]} />
+        </mesh>
+        <mesh position={[2.2, h - 0.7, 0]} material={saf} rotation={[0, 0, -Math.PI / 2]}><coneGeometry args={[0.55, 0.7, 3]} /></mesh>
+        {[0, 1, 2].map((k) => <Box key={k} s={[0.9 - k * 0.15, 0.3, 0.015]} p={[0.5, h - 1.9 - k * 0.45, 0]} m={M.plain(k % 2 ? '#c0222a' : '#f4e8c8', { roughness: 0.9 })} cast={false} />)}
+      </group>
+    );
+  }
+
+  /* pilgrim stone stair climbing up the slope onto the ridge: each tread follows the terrain */
+  function PilgrimStair({ x = 0, z0 = 6.3, n = 16 }) {
+    const M = useM();
+    const st = M.mat('rock', 1, 1, { color: '#a59a86' });
+    const rail = M.plain('#e9e6df', { roughness: 0.7 });
+    return (
+      <group>
+        {Array.from({ length: n }, (_, k) => {
+          const z = z0 + k * 0.55, y = hgt(0, z) + 0.06;
+          return (
+            <group key={k}>
+              <Box s={[2.6, 0.22, 0.6]} p={[x, y, z]} m={k % 2 ? st : M.plain('#c4baa6', { roughness: 1 })} />
+              <Box s={[2.4, 2.0, 0.55]} p={[x, y - 1.1, z]} m={M.plain('#a89d89', { roughness: 1 })} cast={false} />
+              {k % 3 === 0 && [-1, 1].map((sd) => <Box key={sd} s={[0.1, 0.8, 0.1]} p={[x + sd * 1.35, y + 0.4, z]} m={rail} cast={false} />)}
+            </group>
+          );
+        })}
+      </group>
+    );
+  }
+
   /* ================= MAIN ================= */
   function Main() {
     return (
       <group>
-        <WhiteTemple p={[0, 0, -2.6]} />
-        <group position={[-4.2, 0, 0.2]} scale={1.4}><PinkPagoda p={[0, 0, 0]} /></group>
-        <PinkShrine p={[-7.6, 0, 1]} r={0.15} />
-        <PinkShrine p={[-9.4, 0, 0.8]} r={0.2} w={1.3} d={1.2} h={0.95} />
-        <Statue p={[1.8, 0, 1.7]} />
-        <YagyaKunda p={[5.4, 0, -4.4]} />
-        <group position={[9, 0, -2]} scale={0.8}><AshramHouse p={[0, 0, 0]} r={0.25} /></group>
-        <CowShed p={[-5.5, 0, -5.6]} />
-        <Banyan p={[-10.5, 0, -5.0]} />
-        <Palm p={[-7.6, 0, -1.6]} h={5.6} lean={0.04} />
-        <Palm p={[-6.2, 0, -2.2]} h={6.0} lean={-0.05} />
-        <Palm p={[-4.6, 0, -1.2]} h={5.2} lean={0.05} />
-        <Palm p={[3.6, 0, -0.8]} h={5.4} lean={0.04} s={0.95} />
-        <Bamboo p={[-0.4, 0, 0.8]} h={6.5} tilt={0.025} />
-        <Bamboo p={[-1.6, 0, 2.6]} h={5.6} tilt={-0.03} c="#e07a1c" />
-        <Bamboo p={[5.2, 0, 1.1]} h={6.0} tilt={0.03} />
-        <Trident p={[3.0, 0, 2.6]} h={3.0} />
-        <Wire a={[-0.4, 6.4, 0.8]} b={[5.2, 5.9, 1.1]} sag={0.35} />
-        <Wire a={[-0.4, 6.4, 0.8]} b={[-1.6, 5.2, 2.6]} n={4} sag={0.15} />
-        <Wire a={[5.2, 5.9, 1.1]} b={[9.6, 3.8, 0.9]} sag={0.4} />
-        <Wire a={[-0.4, 6.4, 0.8]} b={[-7.6, 5.2, -1.6]} n={10} sag={0.5} />
-        <Railing a={[-10, 3.4]} b={[5.6, 3.4]} />
-        <Railing a={[-10, 3.4]} b={[-10, -3.0]} />
-        <StoneWall a={[-12, 6]} b={[3.0, 6]} seed={1} />
-        <StoneWall a={[4.4, 6]} b={[14, 6]} seed={2} />
-        <StoneWall a={[-12, 6]} b={[-12, -7]} seed={3} />
-        <Cow p={[1.5, 0, 4.7]} r={0.5} />
-        <Cow p={[4.2, 0, 4.3]} r={-0.8} c="#8a6a4a" patch="#efe6d6" />
-        <Cow p={[-3.8, 0, 4.8]} r={2.2} c="#e9dcc4" patch="#b58a5c" />
-        <Cow p={[-6.2, 0, -4.0]} r={1.2} c="#3a312c" patch="#ffffff" />
-        <Frame s={[21, 6.5, 10]} p={[0.5, 3, -1]} />
+        <group position={[0, 0, -3.4]} scale={1.3}><WhiteTemple p={[0, 0, 0]} /></group>
+        <group position={[-6.2, 0, 0.6]} scale={1.45}><PinkPagoda p={[0, 0, 0]} /></group>
+        <PinkShrine p={[-10, 0, 1.2]} r={0.15} />
+        <PinkShrine p={[-11.8, 0, 1.0]} r={0.2} w={1.3} d={1.2} h={0.95} />
+        <Dhuni p={[1.5, 0, 3.0]} />
+        <Statue p={[-2.2, 0, 2.2]} />
+        <SaffronFlag p={[5.0, 0, 2.2]} h={10} />
+        <YagyaKunda p={[7.4, 0, -4.4]} />
+        <group position={[11.4, 0, -1.6]} scale={0.85}><AshramHouse p={[0, 0, 0]} r={0.2} /></group>
+        {/* goshala: a row of cow sheds along the back of the ridge */}
+        {[-10, -6.4, -2.8, 0.8, 4.4].map((x, i) => <CowShed key={i} p={[x, 0, -8.2]} r={0} />)}
+        <Banyan p={[-13.5, 0, -6.0]} />
+        <Palm p={[-8.6, 0, -1.8]} h={6.4} lean={0.04} />
+        <Palm p={[-7.2, 0, -2.8]} h={6.8} lean={-0.05} />
+        <Palm p={[-5.4, 0, -1.6]} h={5.8} lean={0.05} />
+        <Palm p={[4.2, 0, -1.0]} h={6.0} lean={0.04} s={0.95} />
+        <Bamboo p={[-1.4, 0, 1.0]} h={6.5} tilt={0.025} />
+        <Bamboo p={[8.2, 0, 1.6]} h={6.0} tilt={0.03} />
+        <Wire a={[-1.4, 6.4, 1.0]} b={[5.0, 9.3, 2.2]} sag={0.35} />
+        <Wire a={[5.0, 9.3, 2.2]} b={[8.2, 5.9, 1.6]} sag={0.4} />
+        <Wire a={[-1.4, 6.4, 1.0]} b={[-8.6, 6.0, -1.8]} n={10} sag={0.5} />
+        <Railing a={[-12.5, 4.6]} b={[-3.6, 4.6]} />
+        <Railing a={[-12.5, 4.6]} b={[-12.5, -6.6]} />
+        <Railing a={[3.6, 4.6]} b={[9.5, 4.6]} />
+        <StoneWall a={[-15, 6.2]} b={[-1.8, 6.2]} seed={1} />
+        <StoneWall a={[1.8, 6.2]} b={[16, 6.2]} seed={2} />
+        <StoneWall a={[-15, 6.2]} b={[-15, -9]} seed={3} />
+        <PilgrimStair x={0} z0={6.3} n={16} />
+        <Cow p={[1.5, 0, -6.2]} r={0.5} />
+        <Cow p={[-4.6, 0, -6.4]} r={-0.8} c="#8a6a4a" patch="#efe6d6" />
+        <Cow p={[-8.2, 0, -6.2]} r={2.2} c="#e9dcc4" patch="#b58a5c" />
+        <Cow p={[-0.8, 0, -6.4]} r={1.2} c="#3a312c" patch="#ffffff" />
+        <Cow p={[4.8, 0, 4.4]} r={-0.6} c="#efe6d6" patch="#8a6a4a" />
+        <Frame s={[25, 9, 12]} p={[-1, 4.0, -2]} />
       </group>
     );
   }
@@ -542,14 +601,10 @@ export default function make(K) {
         <Forest />
         <RidgeTrees />
         {/* village roofs on the ridge, away from the compound */}
-        <VillageHouse x={-17} z={-1} roof="#b5382e" r={0.1} />
         <VillageHouse x={-19.5} z={-5.5} c="#e9d9a0" roof="#8a8a86" r={0.3} />
-        <VillageHouse x={-15.5} z={-1.5} roof="#b5382e" r={-0.2} w={2.6} />
-        <VillageHouse x={15.5} z={5} c="#f1eee6" roof="#8a8a86" r={0.2} />
         <VillageHouse x={18.5} z={-3} roof="#b5382e" r={-0.15} w={2.8} />
         <VillageHouse x={21} z={1.5} c="#e9d9a0" roof="#b5382e" r={0.4} w={1.8} />
         <VillageHouse x={-21.5} z={0.5} roof="#b5382e" r={0.5} w={2.0} />
-        <VillageHouse x={-9} z={-9.5} c="#f1eee6" roof="#8a8a86" r={-0.1} />
         {/* a few cows grazing on the open ridge, and goats' path of boulders */}
         {Array.from({ length: 10 }, (_, i) => { const x = -22 + rnd(i) * 44, z = -9 + rnd(i + 9) * 18; return qf(x, z) < 0.95 && Math.abs(x) > 14 ? <Ball key={i} rad={0.25 + rnd(i + 3) * 0.2} p={[x, 0.08, z]} sc={[1.3, 0.6, 1]} m={M.plain('#9a9082', { roughness: 1 })} /> : null; })}
         {/* sea of cloud in the valleys */}

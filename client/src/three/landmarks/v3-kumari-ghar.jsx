@@ -15,8 +15,8 @@ export default function make(K) {
   const G0 = PLH, G1 = 2.4, F1 = 3.8, F2 = 5.1, EAVE = 6.2;
   const Y1 = 3.1, Y2 = 4.45, YT = 5.65; // centres of the 1st / 2nd floor window rows
   const WOOD = '#2a1a0e', WOOD_L = '#4e3320', IRON = '#1d1a18';
-  const BRICK_TINT = '#f7b896';
-  const ROOF_TINT = '#a05c42';
+  const BRICK_TINT = '#ffd2ae';
+  const ROOF_TINT = '#c47a52';
   const NB_TINT = '#b98d78';
 
   /* ---------- shared caches ---------- */
@@ -427,9 +427,10 @@ export default function make(K) {
         {[-2.75, 2.75].map((x, i) => <CWin key={`g${i}`} p={[x, 1.3, D / 2 + 0.03]} w={0.6} h={0.5} lit={i === 0} />)}
 
         {/* first floor: small gabled windows; second floor: one carved bank + two gabled; top: small windows */}
-        {[-2.4, -1.2, 1.2, 2.4].map((x, i) => <Gabled key={`g1${i}`} p={[x, Y1, D / 2]} w={0.32} h={0.44} />)}
+        {[-2.35, 2.35].map((x, i) => <Bank key={`b1${i}`} p={[x, Y1, D / 2]} w={1.5} h={0.5} crown={0.3} lit={i === 0} />)}
+        {[-0.95, 0.95].map((x, i) => <Gabled key={`g1${i}`} p={[x, Y1, D / 2]} w={0.34} h={0.46} />)}
         <Bank p={[0, Y2, D / 2]} w={2.0} h={0.58} crown={0.34} lit />
-        {[-2.4, 2.4].map((x, i) => <Gabled key={`g2${i}`} p={[x, Y2, D / 2]} w={0.34} h={0.46} />)}
+        {[-2.35, 2.35].map((x, i) => <Bank key={`b2${i}`} p={[x, Y2, D / 2]} w={1.5} h={0.5} crown={0.3} />)}
         {[-3.0, -1.5, 0, 1.5, 3.0].map((x, i) => <BlackWin key={`a${i}`} p={[x, YT, D / 2 + 0.03]} w={0.4} h={0.2} />)}
 
         {/* ===== rear and side faces ===== */}
@@ -664,7 +665,7 @@ export default function make(K) {
 
         {/* Gaddi Baithak (white Rana block) visible on the left, Trailokya Mohan far north-west behind, Basantapur tower far */}
         <GaddiBaithak p={[-20.5, 0, 5]} r={0.35} sc={0.78} />
-        <Pagoda3 p={[-28, 0, -22]} w={2.6} sc={1.4} />
+        <Pagoda3 p={[-46, 0, -6]} w={2.6} sc={1.4} />
         <Nautale p={[30, 0, -18]} />
         {/* low open pavilion near the lions */}
         <LowHall p={[-9.5, 0, 13]} w={2.4} r={0.2} />

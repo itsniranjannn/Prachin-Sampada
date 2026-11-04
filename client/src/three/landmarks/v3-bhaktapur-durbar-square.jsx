@@ -16,7 +16,7 @@ export default function make(K) {
   const TIM_L = '#8f5a2c';
   const RED = '#a3281f';
   const OFF = [-0.8, 0, 0.3];
-  const FR = { s: [25, 8.5, 10], p: [3.0, 3.6, 0.2] };
+  const FR = { s: [21, 8.4, 6], p: [1.6, 3.7, 0.4] };
 
   /* ---------- own canvas textures ---------- */
   const texCache = new Map();
@@ -399,7 +399,7 @@ export default function make(K) {
       y += h + roofH[i] * 0.62;
       w *= 0.76;
     }
-    out.push(<Gajur key="g" y={y + 0.1} s={2.2} />);
+    out.push(<Gajur key="g" y={y + 0.1} s={1.4} />);
     return <group>{out}</group>;
   }
   /* ---------- Pashupatinath / Yakshesvara: tallest pagoda of the square, on a 5-step plinth ---------- */
@@ -538,7 +538,7 @@ export default function make(K) {
   }
 
   /* ---------- Env: surrounding brick houses, paving, distant haze ---------- */
-  const WALLS = [null, '#ecd0c0', '#d6b4a4', '#f0c4ac', '#c89886'];
+  const WALLS = [null, '#ecd0c0', '#d6b4a4', '#f0c4ac', '#c89886', '#e8cfa0', '#a8827a', '#d9c4b0'];
   const ROOFS = ['#d8a380', '#c8906c', '#b88060', '#d0987a'];
   function Block({ p, r = 0, w = 3, d = 2.4, st = 3, wall = 0, rt = 0, plaster = false, sh = 0.85, shop = true }) {
     const M = useM();
@@ -620,12 +620,26 @@ export default function make(K) {
       run(17, -16, 3, -2.0, 0.6, 2.8, 3.6, true, -Math.PI / 2, 'z'); // west end (a column of houses at x=-24)
       return out;
     }, []);
+    const cloudM = M.plain('#fbfbff', { roughness: 1 });
+    const pvM = [M.plain('#c98a64', { roughness: 1 }), M.plain('#c4825e', { roughness: 1 }), M.plain('#b87a58', { roughness: 1 }), M.plain('#cf9470', { roughness: 1 })];
+    const paveBits = useMemo(() => {
+      const r = rngMk(5), out = [];
+      for (let i = 0; i < 90; i += 1) out.push([-30 + r() * 62, -5 + r() * 40, 1 + r() * 3, 0.8 + r() * 2.5, pvM[i % 4]]);
+      return out;
+    }, []);
+    const clouds = useMemo(() => Array.from({ length: 14 }, (_, i) => ({ p: [Math.cos(i * 1.9) * 70, 30 + (i % 4) * 7, -50 - (i % 5) * 9 + Math.sin(i) * 20], s: [5 + (i % 3) * 2, 4, 4] })), []);
     const hills = useMemo(() => Array.from({ length: 22 }, (_, i) => ({ a: (i / 22) * Math.PI * 2, R: 92 + (i % 3) * 4, w: 40 + (i % 4) * 7, h: 3.2 + (i % 3) * 1.1 })), []);
     return (
       <group position={OFF}>
         {/* dark brick ground around the rim, herringbone plaza extending to the Env edge */}
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.09, 0]} receiveShadow material={ground}><circleGeometry args={[115, 48]} /></mesh>
         <Box s={[90, 0.06, 64]} p={[0.8, -0.03, 6]} m={plaza} cast={false} />
+        {paveBits.map((b, i) => <Box key={'pv' + i} s={[b[2], 0.01, b[3]]} p={[b[0], 0.01, b[1]]} m={b[4]} cast={false} />)}
+        {clouds.map((c, i) => (
+          <group key={'cl' + i} position={c.p} scale={c.s}>
+            {[[0, 0, 0, 1], [1.1, -0.15, 0.2, 0.8], [-1.1, -0.2, 0, 0.75], [0.4, 0.3, -0.2, 0.7]].map((q, k) => <Ball key={k} rad={q[3]} sc={[1.5, 0.55, 1]} p={[q[0], q[1], q[2]]} m={cloudM} />)}
+          </group>
+        ))}
         <mesh position={[0, 12, 0]} material={haze}><cylinderGeometry args={[108, 108, 34, 40, 1, true]} /></mesh>
         {/* east: a short low arcade only; the plaza stays open on that side */}
         <ArcadeRow p={[23.5, 0, -4.8]} r={-Math.PI / 2} len={8} n={6} />

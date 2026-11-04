@@ -62,8 +62,8 @@ export default function make(K) {
   })();
 
   /* colours */
-  const RED = '#b5352b';
-  const TIN = '#8f2f2a';
+  const RED = '#8e4733';
+  const TIN = '#6f3a30';
 
   /* ---------- a two-storey red-brick Newar range, local +z = courtyard face ---------- */
   function Block({ p, ry = 0, L, D = 1.2, outerRail = false, doors = [], base = 0.5, ground = 0.8, upper = 0.75 }) {
@@ -159,16 +159,15 @@ export default function make(K) {
     const M = useM();
     const gold = M.plain('#d9a82c', { roughness: 0.32, metalness: 0.7 });
     const goldRoof = M.plain('#d4a22a', { roughness: 0.45, metalness: 0.5 });
-    const red = M.plain('#a42b25', { roughness: 0.7 });
-    const deepRed = M.plain('#8a2220', { roughness: 0.75 });
+    const red = M.plain('#8e4a38', { roughness: 0.8 });
+    const deepRed = M.plain('#6e2f26', { roughness: 0.8 });
     const cream = M.plain('#efe2c4', { roughness: 0.8 });
     const dark = M.plain('#2a0f0c', { roughness: 0.8 });
     const stone = M.plain('#b9b1a3', { roughness: 0.95 });
     const goldE = M.plain('#e0a828', { roughness: 0.4, metalness: 0.5, emissive: '#ff8a1c', emissiveIntensity: 0.22 });
     const tiers = [
       { w: 4.8, d: 3.9, y: 1.3 },
-      { w: 3.9, d: 3.0, y: 2.05 },
-      { w: 3.0, d: 2.3, y: 2.7 },
+      { w: 3.7, d: 2.9, y: 2.1 },
     ];
     return (
       <group position={p}>
@@ -195,15 +194,12 @@ export default function make(K) {
           </group>
         ))}
         {/* upper storeys */}
-        <Box s={[3.2, 0.55, 2.4]} p={[0, 1.7, 0]} m={red} />
-        <Box s={[2.7, 0.38, 0.05]} p={[0, 1.72, 1.22]} m={gold} />
+        <Box s={[3.2, 0.62, 2.4]} p={[0, 1.72, 0]} m={red} />
+        <Box s={[2.7, 0.42, 0.05]} p={[0, 1.74, 1.22]} m={gold} />
         <Box s={[0.56, 0.3, 0.06]} p={[0, 1.72, 1.24]} m={dark} />
         {[-0.95, 0.95].map((x) => <Box key={`s${x}`} s={[0.14, 0.44, 0.07]} p={[x, 1.72, 1.24]} m={cream} />)}
-        <Box s={[2.4, 0.45, 1.8]} p={[0, 2.4, 0]} m={red} />
-        <Box s={[1.9, 0.32, 0.05]} p={[0, 2.41, 0.92]} m={gold} />
-        <Box s={[0.4, 0.24, 0.06]} p={[0, 2.41, 0.94]} m={dark} />
         {/* crown: four golden serpents around a compact finial */}
-        <group position={[0, 3.12, 0]} scale={0.8}>
+        <group position={[0, 2.55, 0]} scale={1.0}>
           <Cyl rt={0.13} rb={0.22} h={0.12} p={[0, 0.06, 0]} m={gold} />
           <Cyl rt={0.04} rb={0.05} h={0.6} p={[0, 0.36, 0]} m={gold} seg={10} />
           <Cyl rt={0.16} rb={0.1} h={0.08} p={[0, 0.4, 0]} m={gold} seg={14} />
@@ -265,9 +261,9 @@ export default function make(K) {
     const gold = M.plain('#d9a82c', { roughness: 0.32, metalness: 0.7 });
     const cream = M.plain('#efe3c6', { roughness: 0.8 });
     const yellow = M.plain('#e6b422', { roughness: 0.7 });
-    const redp = M.plain('#b3261e', { roughness: 0.7 });
+    const redp = M.plain('#8e3a2a', { roughness: 0.7 });
     const dark = M.plain('#241208', { roughness: 0.8 });
-    const tin = M.plain(TIN, { roughness: 0.55, metalness: 0.15 });
+    const tin = M.plain('#d4a22a', { roughness: 0.45, metalness: 0.5 });
     return (
       <group position={p}>
         {/* jambs: cream with yellow and red stripes */}
@@ -466,19 +462,20 @@ export default function make(K) {
   /* ================================ MAIN ================================ */
   function Main() {
     const M = useM();
-    const stone = M.plain('#a69e90', { roughness: 0.95 });
-    const redWall = M.plain('#b8392f', { roughness: 0.9 });
-    const redWallP = M.plain('#b8392f', { roughness: 0.9 });
-    const plinthM = M.plain('#a49d90', { roughness: 0.95 });
+    const stone = M.plain('#8c8478', { roughness: 0.95 });
+    const redWall = M.mat('brick', 3, 1, { color: '#e8a888' });
+    const redWallP = M.mat('brick', 1, 1, { color: '#e8a888' });
+    const plinthM = M.plain('#8a8377', { roughness: 0.95 });
     const gold = M.plain('#d9a82c', { roughness: 0.32, metalness: 0.7 });
     const steps = [];
     for (let k = 0; k < 8; k += 1) steps.push(<Box key={k} s={[5.2 - k * 0.0, 0.5 - 0.0625 * k, 0.22 * (k + 1)]} p={[0, (0.5 - 0.0625 * k) / 2, 4.45 + (0.22 * (k + 1)) / 2]} m={stone} />);
     return (
       <group>
-        <Frame s={[13, 4.8, 9]} p={[0, 2.4, 0.9]} />
+        <Frame s={[10, 4.4, 8]} p={[0, 2.2, 0.8]} />
         {/* raised courtyard terrace with grey stone plinth course */}
         <Box s={[10.6, 0.5, 8.6]} p={[0, 0.25, 0]} m={stone} />
         <Box s={[10.7, 0.18, 8.7]} p={[0, 0.09, 0]} m={plinthM} />
+        <Box s={[7.4, 0.03, 5.6]} p={[0, 0.515, 0.6]} m={M.mat('herring', 6, 5, { color: '#d9a58a' })} cast={false} />
         {/* ranges: left and right pulled back so the courtyard stays open; long back range */}
         <Block p={[-4.7, 0, -1.4]} ry={PI / 2} L={4.4} doors={[1, 3]} />
         <Block p={[4.7, 0, -1.4]} ry={-PI / 2} L={4.4} doors={[2]} outerRail />
@@ -487,12 +484,12 @@ export default function make(K) {
         {[-1, 1].map((sg) => (
           <group key={sg}>
             <Box s={[4.4, 0.4, 0.4]} p={[sg * 3.1, 0.2, 4.0]} m={plinthM} />
-            <Box s={[4.4, 1.2, 0.3]} p={[sg * 3.1, 1.0, 4.0]} m={redWall} />
-            <Box s={[4.5, 0.06, 0.38]} p={[sg * 3.1, 1.63, 4.0]} m={M.plain('#e8dcc4')} cast={false} />
+            <Box s={[4.4, 0.9, 0.3]} p={[sg * 3.1, 0.85, 4.0]} m={redWall} />
+            <Box s={[4.5, 0.08, 0.38]} p={[sg * 3.1, 1.34, 4.0]} m={M.plain('#e8dcc4')} cast={false} />
           </group>
         ))}
-        <Box s={[0.4, 1.6, 0.3]} p={[-5.15, 0.8, 4.0]} m={redWallP} />
-        <Box s={[0.4, 1.6, 0.3]} p={[5.15, 0.8, 4.0]} m={redWallP} />
+        <Box s={[0.4, 1.2, 0.3]} p={[-5.15, 0.6, 4.0]} m={redWallP} />
+        <Box s={[0.4, 1.2, 0.3]} p={[5.15, 0.6, 4.0]} m={redWallP} />
         {/* the gate on the terrace edge, with steps up to it */}
         <group position={[0, 0.5, 3.98]} scale={[1.25, 1.3, 1.1]}><Gate p={[0, 0, 0]} /></group>
         {steps}
@@ -500,27 +497,24 @@ export default function make(K) {
         {/* side cheek walls beside the steps */}
         {[-2.7, 2.7].map((x) => <Box key={x} s={[0.2, 0.34, 1.76]} p={[x, 0.17, 5.33]} m={plinthM} />)}
         {/* the shrine */}
-        <group position={[0, 0.5, -0.6]} scale={1.05}><Shrine p={[0, 0, 0]} /></group>
+        <group position={[0, 0.5, -0.6]} scale={1.3}><Shrine p={[0, 0, 0]} /></group>
         {/* three tall pillars in a loose row in front of it, the front one tallest */}
-        <Pillar p={[-1.9, 0.5, 2.75]} h={3.2} k={0} />
-        <Pillar p={[0.2, 0.5, 2.45]} h={3.0} k={1} />
-        <Pillar p={[2.1, 0.5, 2.95]} h={3.6} k={2} />
+        <Pillar p={[-2.6, 0.5, 2.9]} h={2.6} k={0} />
+        <Pillar p={[0.2, 0.5, 2.6]} h={2.4} k={1} />
+        <Pillar p={[2.8, 0.5, 3.0]} h={2.9} k={2} />
         {/* small stone shikhara shrine at the foot of the steps (left) */}
         <StoneShikhara p={[-3.9, 0, 6.6]} s={0.95} />
         {/* dusk glows: gate, pillar bases, steps */}
         <pointLight position={[0, 1.6, 5.2]} intensity={6} distance={8} color="#ffb04a" />
         <pointLight position={[0, 1.2, 3.2]} intensity={5} distance={8} color="#ff9a3a" />
         <pointLight position={[-4, 1.0, 6.6]} intensity={2.5} distance={6} color="#ffb04a" />
-        {[[-1.9, 2.75], [0.2, 2.45], [2.1, 2.95]].map(([x, z], i) => <Diyo key={'pd' + i} p={[x + 0.5, 0.5, z + 0.5]} light />)}
+        {[[-2.6, 2.9], [0.2, 2.6], [2.8, 3.0]].map(([x, z], i) => <Diyo key={'pd' + i} p={[x + 0.5, 0.5, z + 0.5]} light />)}
         {/* diyas on the steps */}
         <Diyo p={[-0.5, 0.5, 4.75]} light />
         <Diyo p={[0.5, 0.5, 4.75]} />
         <Diyo p={[0, 0.5, 4.75]} />
         <Diyo p={[1.2, 0.5, 4.75]} />
         <Diyo p={[1.8, 0.0, 6.4]} light />
-        {/* prayer flags from the gate to the bridge pole and the big tree */}
-        <PrayerFlags from={[0.95, 1.95, 4.4]} to={[4.1, 3.2, 6.4]} n={11} />
-        <PrayerFlags from={[-0.95, 1.95, 4.4]} to={[-4.2, 3.3, 7.2]} n={12} />
                 <Cyl rt={0.04} rb={0.06} h={3.4} p={[-4.2, 1.7, 7.2]} m={M.plain('#c8c0b0')} seg={6} />
       </group>
     );
@@ -534,9 +528,9 @@ export default function make(K) {
 
   function Env() {
     const M = useM();
-    const grass = M.plain('#90ae5e', { roughness: 1 });
-    const grassFar = M.plain('#86a458', { roughness: 1 });
-    const paving = M.plain('#968e80', { roughness: 0.95 });
+    const grass = M.plain('#7d8c58', { roughness: 1 });
+    const grassFar = M.plain('#76895a', { roughness: 1 });
+    const paving = M.mat('herring', 5, 2, { color: '#d2a088' });
     const water = useMemo(() => new THREE.MeshStandardMaterial({ color: '#6b6a3a', roughness: 0.3, metalness: 0.15 }), []);
     const bed = M.plain('#7b7650', { roughness: 1 });
     const bankStone = M.plain('#958d7f', { roughness: 0.95 });
@@ -585,18 +579,16 @@ export default function make(K) {
         {/* Gauri Ghat: a small red shrine and a rock with offerings on the near bank */}
         {[0, 1, 2].map((k) => <Box key={`g${k}`} s={[3.6 - k * 0.3, 0.5, 1.0]} p={[-5.0, -0.2 - k * 0.2, 11.9 + k * 1.0]} m={bankStone} />)}
         <group position={[-4.2, -0.1, 10.3]} scale={1.5}>
-          <Box s={[0.6, 0.9, 0.5]} p={[0, 0.45, 0]} m={M.plain('#b83a2c')} />
+          <Box s={[0.6, 0.9, 0.5]} p={[0, 0.45, 0]} m={M.plain('#9a4030')} />
           <Box s={[0.34, 0.5, 0.06]} p={[0, 0.42, 0.26]} m={M.plain('#1c1008')} />
-          <Box s={[0.7, 0.1, 0.6]} p={[0, 0.95, 0]} m={M.plain('#8a2a22')} />
-          <Ball rad={0.14} p={[0, 1.1, 0]} sc={[1, 1.1, 1]} m={M.plain('#b83a2c')} />
+          <Box s={[0.7, 0.1, 0.6]} p={[0, 0.95, 0]} m={M.plain('#6e2a22')} />
+          <Ball rad={0.14} p={[0, 1.1, 0]} sc={[1, 1.1, 1]} m={M.plain('#9a4030')} />
         </group>
         <Ball rad={1.1} p={[1.0, -0.4, 11.4]} sc={[1.5, 0.55, 1.1]} m={M.plain('#9d968a', { roughness: 1 })} />
         <Diyo p={[1.6, 0.06, 11.6]} />
         {Array.from({ length: 6 }, (_, i) => <Box key={i} s={[0.2, 0.08, 0.2]} p={[0.4 + (i % 3) * 0.3, 0.06, 11.2 + Math.floor(i / 3) * 0.3]} m={M.plain(i % 2 ? '#f08a1c' : '#d83a2e')} cast={false} />)}
         {/* footbridge beside the gate */}
         <Footbridge x={3.9} z0={8.6} z1={23.5} />
-        <PrayerFlags from={[3.4, 3.1, 8.6]} to={[3.4, 3.1, 23.5]} n={36} />
-        <PrayerFlags from={[4.4, 3.0, 8.6]} to={[4.4, 3.0, 23.5]} n={36} />
         </group>
         {/* paved riverside square */}
         <Box s={[9, 0.1, 2.6]} p={[-0.5, -0.03, 6.4]} m={paving} cast={false} />

@@ -159,7 +159,7 @@ export default function make(K) {
       g.rotateX(-Math.PI / 2);
       const p = g.attributes.position;
       const col = new Float32Array(p.count * 3);
-      const deep = new THREE.Color('#556b57'), shal = new THREE.Color('#8f9c78'), brown = new THREE.Color('#8a7a55');
+      const deep = new THREE.Color('#4a6a62'), shal = new THREE.Color('#86a08a'), brown = new THREE.Color('#7f7c58');
       const c = new THREE.Color();
       for (let i = 0; i < p.count; i += 1) {
         const u = p.getX(i), v = p.getZ(i);

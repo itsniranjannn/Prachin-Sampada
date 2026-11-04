@@ -9,7 +9,7 @@ export default function make(K) {
   const { useM, Box, Cyl, Ball, Roof, Elephant, Lion, Garuda, Frame, Tree, THREE, useMemo, useState, useEffect } = K;
 
   const rng = (seed) => () => { seed |= 0; seed = (seed + 0x6D2B79F5) | 0; let t = Math.imul(seed ^ (seed >>> 15), 1 | seed); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
-  const C = { brick: '#f2bc9a', brickP: '#e9ae8c', tile: '#b09282', timber: '#5a3a28', gold: '#c9a227', eave: '#d98a5a' };
+  const C = { brick: '#f2bc9a', brickP: '#e9ae8c', tile: '#9c8c82', timber: '#5a3a28', gold: '#c9a227', eave: '#d98a5a' };
   const BRICKS = ['#f2bc9a', '#e8a886', '#f5c4a2', '#dd9c7c', '#eeb48f'];
   const PI = Math.PI;
 
@@ -88,7 +88,7 @@ export default function make(K) {
   const eaveM = (M) => M.plain(C.eave, { roughness: 0.85 });
   const brickM = (M, w, h) => M.mat('brick', Math.max(1, w / 1.1), Math.max(1, h / 0.75), { color: C.brick });
   const brickPM = (M, w, h) => M.mat('brick', Math.max(1, w / 1.1), Math.max(1, h / 0.75), { color: C.brickP });
-  const tileM = (M) => lift(M.mat('roof', 3, 3, { color: C.tile }), '#3a1a10', 0.12);
+  const tileM = (M) => lift(M.mat('roof', 3, 3, { color: C.tile }), '#2a1a14', 0.04);
   const timberM = (M) => M.plain(C.timber, { roughness: 0.8 });
   const coreM = (M) => M.plain('#30261f', { roughness: 0.9 });
   const darkM = (M) => M.plain('#1c0f08', { roughness: 0.9 });
@@ -351,7 +351,7 @@ export default function make(K) {
     }, []);
     const sy = 1.37 + 0.7 + 0.13;
     const tur = useMemo(() => Array.from({ length: 8 }, (_, k) => { const a = k * PI / 4 + PI / 8; return { p: [1.12 * Math.sin(a), sy, 1.12 * Math.cos(a)] }; }), []);
-    const dome = memoGeo('cdome2', () => ribbedGeo(0.84, 3.0, { seg: 32, rows: 30, ribs: 8, amp: 0.025, p1: 2.3, p2: 0.55, belly: 0.2, tmax: 0.97 }));
+    const dome = memoGeo('cdome3', () => ribbedGeo(1.0, 2.5, { seg: 32, rows: 30, ribs: 8, amp: 0.03, p1: 2.2, p2: 0.7, belly: 0.3, tmax: 0.97 }));
     const archG = [memoGeo('cha0', () => archGeo(0.78, 0.72)), memoGeo('cha1', () => archGeo(0.58, 0.58))];
     const oct = (r, h, y, m, k) => <mesh key={k} position={[0, y, 0]} rotation={[0, PI / 8, 0]} material={m} castShadow receiveShadow><cylinderGeometry args={[r, r, h, 8]} /></mesh>;
     return (
@@ -369,9 +369,9 @@ export default function make(K) {
         <Inst geo={G.box} m={st} items={d.rails} />
         <mesh geometry={dome} position={[0, sy, 0]} material={st} castShadow receiveShadow />
         <StoneSpirelets items={tur} R={0.24} H={0.95} />
-        <Cyl rt={0.14} rb={0.14} h={0.16} p={[0, sy + 3.0 * 0.99, 0]} m={st} seg={12} />
-        <Ball rad={0.17} p={[0, sy + 3.2, 0]} m={M.gold} />
-        <mesh position={[0, sy + 3.62, 0]} material={M.gold} castShadow><coneGeometry args={[0.07, 0.8, 10]} /></mesh>
+        <Cyl rt={0.14} rb={0.14} h={0.16} p={[0, sy + 2.5 * 0.99, 0]} m={st} seg={12} />
+        <Ball rad={0.17} p={[0, sy + 2.7, 0]} m={M.gold} />
+        <mesh position={[0, sy + 3.1, 0]} material={M.gold} castShadow><coneGeometry args={[0.07, 0.8, 10]} /></mesh>
         {[0, 1, 2].map((k) => <Box key={k} s={[1.5, 0.2 * (k + 1), 0.34]} p={[0, 0.1 * (k + 1), 1.9 + (2 - k) * 0.34 + 0.1]} m={st} />)}
         {[-1, 1].map((k) => <group key={k} position={[k * 1.0, 0.0, 2.45]} scale={1.55}><Lion m={st} /></group>)}
       </group>
@@ -640,7 +640,7 @@ export default function make(K) {
           <group position={[-2.5, 0, 1.4]} scale={1.3}><KingColumn /></group>
           <group position={[0.2, 0, 8.6]}><SquarePillar /></group>
         </Plan>
-        <Frame s={[20, 9, 26]} p={[-2.7, 4.5, -4.2]} />
+        <Frame s={[17, 7.6, 22]} p={[-2.7, 3.8, -4.2]} />
       </group>
     );
   }
@@ -670,7 +670,7 @@ export default function make(K) {
       const bodyB = [], bodyP = [], roofs = [], win = [], wfr = [];
       const BR = ['#b87a5e', '#a86e54', '#c2866a', '#9c6450', '#b48066', '#c8977f'];
       const PL = ['#e4d6ba', '#dacaa8', '#d2c7b0', '#dfcba2', '#cdd0bc'];
-      const TL = ['#91573f', '#86503a', '#9a5f47', '#7c4c3a', '#8f5840', '#74503f'];
+      const TL = ['#8a6a58', '#7a5a4a', '#9a7a66', '#6e5a50', '#a0705a', '#5f4f48'];
       const hw = 0.8;
       const add = (cx, cz, face, w, dp, st, plaster, windows) => {
         const h = st * hw;
@@ -716,9 +716,9 @@ export default function make(K) {
       rowZ(-27.4, -38, 36, PI / 2, { s0: 3, s1: 5, windows: false, pl: 0.4 });
       rowZ(-33, -40, 40, PI / 2, { s0: 3, s1: 5, windows: false, pl: 0.5 });
       // beyond the road: one low frontage row only
-            rowZ(21, -30, 8, -PI / 2, { s0: 1, s1: 2, windows: false, pl: 0.1 });
+            rowZ(21, -30, 8, -PI / 2, { s0: 1, s1: 1, windows: false, pl: 0.1 });
       rowZ(26, -34, 40, -PI / 2, { s0: 2, s1: 4, windows: false, pl: 0.4 });
-      rowZ(14.6, -26, 8, -PI / 2, { s0: 1, s1: 2, windows: false, pl: 0.2 });
+      rowZ(14.6, -26, 8, -PI / 2, { s0: 1, s1: 1, windows: false, pl: 0.2 });
       rowZ(21, 14.5, 30, -PI / 2, { s0: 1, s1: 3, windows: false, pl: 0.3 });
       rowZ(31, -30, 40, -PI / 2, { s0: 2, s1: 4, windows: false, pl: 0.5 });
       // north end (Mangal Bazaar): faces the plaza
@@ -726,8 +726,7 @@ export default function make(K) {
       rowX(-30, -17, 20, 0, { s0: 3, s1: 4, windows: false, skip: [[-3.0, 0.6]] });
       rowX(-35.5, -30, 30, 0, { s0: 3, s1: 5, windows: false, pl: 0.4 });
       // south end, nearest the camera: one storey only so nothing hides the temples
-      rowX(25.2, -14, 16, PI, { s0: 1, s1: 2, windows: false, skip: [[-3.0, 0.6]], pl: 0.1 });
-      rowX(32, -34, 34, PI, { s0: 2, s1: 3, windows: false, skip: [[-3.0, 0.6]], pl: 0.3 });
+      rowX(33, -34, 34, PI, { s0: 1, s1: 2, windows: false, skip: [[-3.0, 0.6]], pl: 0.3 });
       rowX(38.5, -30, 30, PI, { s0: 2, s1: 4, windows: false, pl: 0.3 });
       return { bodyB, bodyP, roofs, win, wfr };
     }, []);
@@ -765,6 +764,7 @@ export default function make(K) {
         {borders.map((b, i) => <Box key={i} s={b.s} p={b.p} m={i % 3 ? stoneM(M) : stoneDM(M)} cast={false} />)}
         {[[-2.6, 17.2], [4.2, 17.0], [-1.0, -23.2]].map(([x, z], i) => <Box key={`st${i}`} s={[1.8, 0.1, 0.5]} p={[x, 0.05, z]} m={stoneM(M)} cast={false} />)}
         <Sky />
+        {[[-45,34,-60,9],[20,40,-70,12],[-10,30,-65,7],[-70,38,-20,10],[45,36,-55,8]].map(([x,y,z,r],i)=>(<group key={`cl${i}`} position={[x,y,z]}><Ball rad={r} sc={[1.6,0.45,1]} m={M.plain('#ffffff',{roughness:1})} /><Ball rad={r*0.7} sc={[1.4,0.5,1]} p={[r*0.9,-r*0.05,r*0.2]} m={M.plain('#f4f7fb',{roughness:1})} /></group>))}
         <mesh rotation={[-PI / 2, 0, 0]} position={[1.3, 0.002, 19.4]} receiveShadow material={brickGround}><planeGeometry args={[13.5, 6.4]} /></mesh>
         <mesh rotation={[-PI / 2, 0, 0]} position={[0, 0.004, 28.2]} receiveShadow material={M.plain('#3e3e41', { roughness: 0.95 })}><planeGeometry args={[80, 2.4]} /></mesh>
         {Array.from({ length: 14 }, (_, k) => <Box key={`rd${k}`} s={[1.4, 0.01, 0.1]} p={[-30 + k * 4.6, 0.012, 28.2]} m={M.plain('#d8d4c4')} cast={false} />)}

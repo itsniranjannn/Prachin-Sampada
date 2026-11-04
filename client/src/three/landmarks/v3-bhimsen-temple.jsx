@@ -161,12 +161,12 @@ export default function make(K) {
   function BhimsenMain() {
     const M = useM();
     const brick = M.mat('brick', 5, 1.2, { color: '#e0a088' });
-    const wallW = M.mat('wood', 3, 1, { color: '#a05040' });
-    const tile1 = M.mat('roof', 9, 6, { color: '#eed2bc' });
-    const tile2 = M.mat('roof', 8, 6, { color: '#e6c6ae' });
+    const wallW = M.mat('wood', 3, 1, { color: '#7a3a2c' });
+    const tile1 = M.mat('roof', 9, 6, { color: '#c4947a' });
+    const tile2 = M.mat('roof', 8, 6, { color: '#b88670' });
     const timber = M.plain(DARKW, { roughness: 0.8 });
     const fasc = M.plain('#7a3626', { roughness: 0.85 });
-    const recess = M.plain('#3a1c12', { roughness: 0.9 });
+    const recess = M.plain('#552a1c', { roughness: 0.9 });
     const plinthM = M.mat('stone', 2, 1, { color: '#cdb698' });
     const metal = M.plain('#58534a', { metalness: 0.7, roughness: 0.45 });
 
@@ -194,6 +194,10 @@ export default function make(K) {
         <Box s={[bw1, 1.2, bd1]} p={[0, 0.82, 0]} m={brick} />
         <Box s={[bw1 + 0.14, 0.12, bd1 + 0.14]} p={[0, 0.28, 0]} m={M.stone} cast={false} />
         {[-2.0, -1.0, 0, 1.0, 2.0].map((x) => <ArchPanel key={x} p={[x, 0.34, bd1 / 2 - 0.02]} w={0.62} h={0.72} m1={timber} m2={recess} />)}
+        {/* open timber arcade across the centre of the ground storey */}
+        <Box s={[3.4, 0.9, 0.5]} p={[0, 0.75, bd1 / 2 - 0.1]} m={recess} cast={false} />
+        {[-1.7, -0.85, 0, 0.85, 1.7].map((x) => <Cyl key={x} rt={0.07} rb={0.08} h={1.1} p={[x, 0.78, bd1 / 2 + 0.06]} m={timber} seg={8} />)}
+        <Box s={[3.6, 0.12, 0.2]} p={[0, 1.36, bd1 / 2 + 0.06]} m={timber} cast={false} />
         {[-2.7, 2.7].map((x) => <Box key={x} s={[0.14, 1.2, 0.14]} p={[x, 0.82, bd1 / 2 + 0.01]} m={timber} cast={false} />)}
         <Box s={[bw1 + 0.18, 0.2, bd1 + 0.18]} p={[0, 1.52, 0]} m={timber} />
 
@@ -250,9 +254,9 @@ export default function make(K) {
   /* ================= Vishwanath: 2-tier square pagoda on a taller plinth, stone elephants in front ================= */
   function Vishwanath({ p }) {
     const M = useM();
-    const brick = M.mat('brick', 4, 1.2, { color: '#c27860' });
-    const wallW = M.mat('wood', 3, 1, { color: '#8a4838' });
-    const tile = M.mat('roof', 8, 6, { color: '#e6c6ae' });
+    const brick = M.mat('plaster', 3, 1.2, { color: '#e8d6c0' });
+    const wallW = M.mat('plaster', 3, 1, { color: '#d8c0a0' });
+    const tile = M.mat('roof', 8, 6, { color: '#f4ecd8' });
     const timber = M.plain(DARKW, { roughness: 0.8 });
     return (
       <group position={p}>
@@ -391,10 +395,11 @@ export default function make(K) {
     const houses = useMemo(() => {
       let seed = 11;
       const rnd = () => { seed = (seed * 16807) % 2147483647; return seed / 2147483647; };
-      const brickTints = ['#d08a70', '#c07a62', '#d89478', '#b46c56'];
+      const brickTints = ['#d08a70', '#c07a62', '#d89478', '#b46c56', '#c88a72'];
       const mats = [
         ...brickTints.map((c, i) => M.mat('brick', 1.6 + i * 0.1, 2.6, { color: c })),
-        M.mat('brick', 1.9, 2.6, { color: '#a8644e' }), M.mat('brick', 2.0, 2.6, { color: '#b87058' }),
+        M.mat('plaster', 1.9, 2.6, { color: '#fff4e0' }), M.mat('plaster', 2.0, 2.6, { color: '#ffe0a8' }),
+        M.mat('plaster', 2.0, 2.6, { color: '#d8ecf4' }), M.mat('plaster', 2.0, 2.6, { color: '#ffc8bc' }),
       ];
       const out = [];
       const lane = (a, b, fixed, axis, r, d, maxSt = 4) => {
@@ -405,7 +410,7 @@ export default function make(K) {
           const c = pos + w / 2;
           const q = rnd();
           const st = q < 0.25 ? 2 : q < 0.6 ? 3 : Math.min(4, maxSt);
-          const m = mats[Math.floor(rnd() * 5.99)];
+          const m = mats[Math.floor(rnd() * 9.99)];
           const dd = d + (rnd() - 0.5) * 1.2;
           const off = (rnd() - 0.5) * 0.9;
           out.push({ x: axis === 'x' ? c : fixed + off, z: axis === 'x' ? fixed + off : c, r, w, d: dd, st, m, set: st >= 3 && rnd() < 0.3 });
@@ -436,7 +441,7 @@ export default function make(K) {
         {/* Vishwanath (2 tiers) on the viewer's left, same frontage line; small shrines; Krishna Mandir beyond */}
         {[6, 14, 24].map((z) => <Box key={z} s={[110, 0.02, 0.45]} p={[0, 0.0, z]} m={M.plain('#9d988f', { roughness: 1 })} cast={false} />)}
         {[-30, -14, 0, 14, 30].map((x) => <Box key={x} s={[0.45, 0.02, 80]} p={[x, 0.0, 30]} m={M.plain('#9d988f', { roughness: 1 })} cast={false} />)}
-        <Vishwanath p={[-8.4, 0, 0.4]} />
+        <group position={[-4, 0, -4]} scale={0.9}><Vishwanath p={[-8.4, 0, 0.4]} /></group>
         <Chaitya p={[-13.4, 0, 3.6]} s={1.3} />
         <Chaitya p={[-14.6, 0, 3.0]} s={1.0} />
         <KrishnaLite p={[-20.2, 0, -0.3]} />
@@ -469,6 +474,13 @@ export default function make(K) {
           </group>
         </group>
 
+        {/* overhead wires and market awnings */}
+        {[[16, 14, 5.2, 1.5], [14, 24, 5.8, 1.6], [20, 18, 5.0, 0.0]].map(([x, z, y, a], i) => (
+          <mesh key={`w${i}`} position={[x, y, z]} rotation={[0, a, PI / 2]} material={M.plain('#1a1a1a')}><cylinderGeometry args={[0.012, 0.012, 9, 4]} /></mesh>
+        ))}
+        {[['#c8402e', 12], ['#2f6fb0', 15.5], ['#e0b030', 19], ['#3d7a52', 23]].map(([c, z], i) => (
+          <Box key={`aw${i}`} s={[0.5, 0.06, 2.4]} p={[8.4 + (i % 2) * 0.4, 2.2, z]} m={M.plain(c, { roughness: 0.9 })} cast={false} r={[0, 0, i % 2 ? 0.2 : -0.2]} />
+        ))}
         {/* people for scale */}
         {[[1.8, 4.6, '#b03a2e'], [3.4, 5.2, '#2f5d9e'], [-2.4, 6.4, '#e6dccb'], [5.2, 8.5, '#3d7a52'], [-5.0, 9.2, '#c9a227'], [2.2, 11.5, '#6a3a7a'], [-8.2, 7.0, '#b03a2e'], [9.0, 6.5, '#2a2a30']].map(([x, z, c], i) => <Person key={i} p={[x, 0, z]} c={c} />)}
       </group>

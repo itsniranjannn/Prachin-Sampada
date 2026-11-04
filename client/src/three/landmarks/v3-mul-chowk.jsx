@@ -11,8 +11,8 @@ export default function make(K) {
   const O = I + D;   // outer half width
   const H = 2.4;     // eave height of the two-storey ranges
   const S = 1.3;     // bay width
-  const BRICK = '#c8805f';
-  const WOOD = '#4a3020';
+  const BRICK = '#a8573f';
+  const WOOD = '#34200f';
 
   /* ---------- instanced meshes: [x,y,z, sx,sy,sz, rotY, rotX] ---------- */
   function Inst({ items, m, kind = 'box', geo, cast = false }) {
@@ -184,7 +184,7 @@ export default function make(K) {
       c.ks.forEach((k) => {
         const x = k * S;
         const big = c.large.includes(k);
-        const gold = kind === 'W' && k === 0;
+        const gold = (kind === 'W' || kind === 'N') && k === 0;
         if (!gold) {
           const w = big ? 1.0 : 0.62; const h = big ? 0.84 : 0.56;
           frames.push([x, 1.78, 0.075, w + 0.16, h + 0.16, 0.15, 0]);
@@ -244,7 +244,7 @@ export default function make(K) {
         <Inst items={data.arches} m={dark} geo={g.arch} />
         <Inst items={data.posts} m={wood} />
         <Inst items={data.struts} m={wood} />
-        {kind === 'W' && <group scale={[1.18, 1.3, 1.4]}><GoldDoor /></group>}
+        {(kind === 'W' || kind === 'N') && <group scale={[1.18, 1.3, 1.4]}><GoldDoor /></group>}
       </group>
     );
   }
@@ -290,21 +290,15 @@ export default function make(K) {
   /* ---------- the entrance: a low brick wall with a central gap (stair) ---------- */
   function FrontWall() {
     const M = useM();
-    const brick = M.mat('brick', 4, 0.5, { color: BRICK, emissive: '#3a1608', emissiveIntensity: 0.1 });
-    const stone = M.mat('granite', 3, 0.3, { color: '#b9ad9c' });
-    const segs = [[-(O + 1.4) / 2 - 0.0, O - 1.4], [(O + 1.4) / 2, O - 1.4]];
+    const brick = M.mat('brick', 3, 0.4, { color: BRICK, emissive: '#3a1608', emissiveIntensity: 0.1 });
+    const stone = M.mat('granite', 3, 0.3, { color: '#9a9288' });
+    const segs = [[-(I + 1.3) / 2 - 0.65, I - 1.3 + 0.1], [(I + 1.3) / 2 + 0.65, I - 1.3 + 0.1]];
     return (
       <group>
         {segs.map(([x, w], i) => (
           <group key={i}>
-            <Box s={[w, 0.9, 0.5]} p={[x, 0.45, I + 0.25]} m={brick} />
-            <Box s={[w + 0.1, 0.08, 0.64]} p={[x, 0.94, I + 0.25]} m={stone} />
-          </group>
-        ))}
-        {[-1, 1].map((s) => (
-          <group key={`p${s}`}>
-            <Box s={[2.2, 1.9, 0.5]} p={[s * 2.6, 0.95, I + 0.25]} m={brick} />
-            <Box s={[2.34, 0.1, 0.64]} p={[s * 2.6, 1.95, I + 0.25]} m={stone} />
+            <Box s={[w + 0.8, 0.5, 0.5]} p={[x - Math.sign(x) * 0.4, 0.25, I + 0.25]} m={brick} />
+            <Box s={[w + 0.9, 0.07, 0.62]} p={[x - Math.sign(x) * 0.4, 0.53, I + 0.25]} m={stone} />
           </group>
         ))}
       </group>
@@ -318,7 +312,7 @@ export default function make(K) {
     const gN = useMemo(() => roofGeo(-O - 0.3, O + 0.3, 0.45, -D - 0.2, H - 0.05, H + 0.6, true, true), []);
     const gE = useMemo(() => roofGeo(-(I + 0.45), I + 0.3, 0.45, -D - 0.2, H - 0.05, H + 0.6, false, true), []);
     const gW = useMemo(() => roofGeo(-(I + 0.3), I + 0.45, 0.45, -D - 0.2, H - 0.05, H + 0.6, true, false), []);
-    const gF = useMemo(() => roofGeo(-I - 0.3, I + 0.3, 0.6, -D - 0.35, 1.75, 2.3, false, false), []);
+    const gF = useMemo(() => roofGeo(-I - 0.3, I + 0.3, 0.6, -D - 0.35, 1.72, 2.05, false, false), []);
     const wood = M.plain(WOOD, { roughness: 0.8 });
     return (
       <group>
@@ -327,7 +321,7 @@ export default function make(K) {
           <Box s={[2 * O - 1.2, 0.08, 0.12]} p={[0, H + 0.62, -0.5]} m={wood} cast={false} />
         </group>
         <group position={[I, 0, 0]} rotation={[0, -Math.PI / 2, 0]}>
-          <mesh geometry={gE} material={tile} castShadow receiveShadow />
+          <mesh geometry={gF} material={tile} castShadow receiveShadow />
         </group>
         <group position={[-I, 0, 0]} rotation={[0, Math.PI / 2, 0]}>
           <mesh geometry={gW} material={tile} castShadow receiveShadow />
@@ -343,10 +337,12 @@ export default function make(K) {
     const dk = M.plain('#17110c');
     const cone = (r, h, y) => <mesh position={[0, y, 0]} rotation={[0, Math.PI / 4, 0]} material={M.gold} castShadow><coneGeometry args={[r, h, 4]} /></mesh>;
     return (
-      <group scale={0.8} position={[0, 0.06, 0]}>
+      <group scale={1.0} position={[0, 0.06, 0]}>
         <Box s={[1.9, 0.1, 1.9]} p={[0, 0.05, 0]} m={pl} />
         <Box s={[1.55, 0.1, 1.55]} p={[0, 0.15, 0]} m={pl} />
         <Box s={[1.2, 0.1, 1.2]} p={[0, 0.25, 0]} m={pl} />
+        {[-1, 1].flatMap((a) => [-1, 1].map((b) => <Box key={`${a}${b}`} s={[0.16, 0.16, 0.16]} p={[a * 0.74, 0.22, b * 0.74]} m={M.mat('granite', 1, 1, { color: '#a89c8c' })} />))}
+        {[-1, 1].map((a) => <Box key={`f${a}`} s={[1.2, 0.05, 0.03]} p={[0, 0.18, a * 0.79]} m={M.gold} cast={false} />)}
         <group position={[0, 0.06, 0]}>
         <Box s={[0.74, 0.46, 0.74]} p={[0, 0.47, 0]} m={M.mat('granite', 1, 1, { color: '#8a7f72' })} />
         <Box s={[0.28, 0.32, 0.06]} p={[0, 0.4, 0.36]} m={dk} cast={false} />
@@ -355,10 +351,10 @@ export default function make(K) {
         <Box s={[0.9, 0.07, 0.9]} p={[0, 0.74, 0]} m={M.gold} />
         <Box s={[0.6, 0.22, 0.6]} p={[0, 0.88, 0]} m={M.gold} />
         <Box s={[0.74, 0.05, 0.74]} p={[0, 1.02, 0]} m={M.gold} />
-        {cone(0.5, 0.3, 1.19)}
-        {cone(0.36, 0.26, 1.46)}
-        {cone(0.24, 0.22, 1.68)}
-        <Gajur y={1.76} s={0.55} />
+        {cone(0.52, 0.22, 1.15)}
+        {cone(0.38, 0.2, 1.34)}
+        {cone(0.25, 0.18, 1.5)}
+        <Gajur y={1.58} s={0.5} />
         </group>
         {[-0.3, 0.3].map((x) => <Diyo key={x} p={[x, 0.32, 1.0]} light />)}
       </group>
@@ -374,7 +370,7 @@ export default function make(K) {
         <Box s={[1.0, 0.14, 1.0]} p={[0, 0.07, 0]} m={st} />
         <Box s={[0.8, 0.14, 0.8]} p={[0, 0.21, 0]} m={st} />
         <Box s={[0.62, 0.18, 0.62]} p={[0, 0.37, 0]} m={st} />
-        <group position={[0, 0.46, 0]} scale={2.5}>
+        <group position={[0, 0.46, 0]} scale={1.6}>
           <Box s={[0.22, 0.2, 0.3]} p={[0, 0.2, -0.04]} m={st} />
           <Ball rad={0.13} sc={[1.1, 1, 1]} p={[0, 0.14, -0.14]} m={st} />
           <Ball rad={0.1} sc={[1, 1.3, 0.8]} p={[0, 0.31, 0.08]} m={st} />
@@ -461,7 +457,6 @@ export default function make(K) {
     const stone = M.mat('granite', 3, 3, { color: '#b5a999' });
     const walls = [
       ['N', [0, 0, -I], 0, -I, I],
-      ['E', [I, 0, 0], -Math.PI / 2, -I, I],
       ['W', [-I, 0, 0], Math.PI / 2, -I, I],
     ];
     return (
@@ -478,25 +473,22 @@ export default function make(K) {
         {walls.map(([k, p, r, a, b]) => (
           <group key={k} position={p} rotation={[0, r, 0]}><Wing kind={k} x0={a} x1={b} /></group>
         ))}
+        <group position={[I, 0, 0]} rotation={[0, -Math.PI / 2, 0]}><Gate /></group>
         <FrontWall />
         <Roofs />
         <Tower />
         <Bidya />
         {/* entrance: low wall, central stair, lions and Bhairav murals */}
         {[0, 1, 2].map((i) => <Box key={i} s={[2.6 - i * 0.2, 0.09 * (3 - i), 0.34]} p={[0, 0.045 * (3 - i), I + 0.15 + (i + 0.5) * 0.34 - 0.34 * 0 + 0.0]} m={stone} />)}
-        <SLion p={[-1.85, 0, I + 1.7]} />
-        <SLion p={[1.85, 0, I + 1.7]} />
-        <group scale={1.1}>
-          <Mural p={[-2.95 / 1.1, 0.95 / 1.1 + 0.2, (I + 0.5) / 1.1 + 0.025]} />
-          <Mural p={[2.95 / 1.1, 0.95 / 1.1 + 0.2, (I + 0.5) / 1.1 + 0.025]} />
-        </group>
+        <SLion p={[-1.7, 0.5, I + 0.35]} />
+        <SLion p={[1.7, 0.5, I + 0.35]} />
         <ambientLight intensity={0.45} />
         <pointLight position={[-I + 1.5, 1.2, 0.6]} intensity={0.5} distance={4} color="#ffd48a" />
         <pointLight position={[0, 1.4, 1.2]} intensity={0.5} distance={4} color="#ffcf80" />
         <pointLight position={[-I + 0.8, 1.3, 0.3]} intensity={1.6} distance={7} color="#ffb85a" />
         <pointLight position={[I - 0.8, 1.3, -1.2]} intensity={1.4} distance={7} color="#ffb85a" />
         <pointLight position={[-0.4, 1.0, I - 0.8]} intensity={1.2} distance={6} color="#ffc070" />
-        <Frame s={[2 * O + 1.2, 7.4, 2 * O + 2.2]} p={[0, 3.7, 0.6]} />
+        <Frame s={[2 * I + 3.2, 6.6, 2 * I + 3.2]} p={[0, 3.3, 0.3]} />
       </group>
     );
   }
@@ -504,7 +496,7 @@ export default function make(K) {
   /* ---------- ENV ---------- */
   function MulChowkEnv() {
     const M = useM();
-    const tints = ['#c8805f', '#e2d5be', '#9a8a78', '#d9c2a2'];
+    const tints = ['#8f4b38', '#a89a84', '#7a6a5a', '#9c8468'];
     const tile = useTile();
     const wood = M.plain(WOOD, { roughness: 0.8 });
     const lat = useMemo(() => new THREE.MeshStandardMaterial({ map: latticeTex(), roughness: 0.8 }), []);
@@ -562,10 +554,9 @@ export default function make(K) {
     const people = [[-3.4, 9.2], [3.2, 10.4], [0.6, 12.5], [-6, 8.5]];
     return (
       <group>
-        <GroundDisc r={62} m={M.plain('#8b7f72', { roughness: 1 })} y={-0.02} />
-        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.05, 0]} material={M.mat('stone', 40, 40, { color: '#a49884' })}><circleGeometry args={[110, 48]} /></mesh>
+        <GroundDisc r={62} m={M.plain('#5f564d', { roughness: 1 })} y={-0.02} />
+        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.05, 0]} material={M.mat('stone', 40, 40, { color: '#7a6f62' })}><circleGeometry args={[110, 48]} /></mesh>
         {/* stone-edged path leading from the square to the gate */}
-        <Box s={[3.4, 0.03, 16]} p={[0, 0.01, O + 8]} m={stone} cast={false} />
         {list.map((h, i) => (
           <group key={i} position={[h.p[0], 0, h.p[1]]} rotation={[0, h.rot, 0]}>
             <Box s={[h.w, geo[i].ht - 0.0, h.d]} p={[0, geo[i].ht / 2, 0]} m={h.tint === 1 || h.tint === 3 ? M.mat('plaster', h.w / 2, h.st, { color: tints[h.tint] }) : M.mat('brick', h.w / 1.4, h.st * 0.8, { color: tints[h.tint], emissive: '#3a1608', emissiveIntensity: 0.1 })} />
@@ -575,7 +566,6 @@ export default function make(K) {
         ))}
         <Inst items={win.frames} m={wood} />
         <Inst items={win.lats} m={lat} kind="plane" />
-        {[[-9, -19], [8, -18], [21, -12], [-21, -7], [22, 14], [-20, 24]].map(([x, z], i) => <Tree key={i} p={[x, 0, z]} s={2.3 + (i % 2) * 0.5} />)}
         {people.map(([x, z], i) => (
           <group key={i} position={[x, 0, z]}>
             <Cyl rt={0.06} rb={0.07} h={0.22} p={[0, 0.14, 0]} m={M.plain(['#b3202a', '#2f6db5', '#e2b33c', '#f2efe6'][i])} seg={8} />

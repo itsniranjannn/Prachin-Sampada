@@ -14,7 +14,7 @@ export default function make(K) {
   const sm = (a, b, x) => { const t = Math.min(1, Math.max(0, (x - a) / (b - a))); return t * t * (3 - 2 * t); };
 
   /* ridge-top terrain: flat stone plateau (ellipse 8.5 x 6) then a steep fall into the valleys */
-  const PX = 6.5; const PZ = 4.5;
+  const PX = 8.5; const PZ = 5.6;
   function ell(x, z) { return Math.hypot(x / PX, z / PZ); }
   function H(x, z) {
     const e = ell(x, z);
@@ -102,57 +102,31 @@ export default function make(K) {
     );
   }
 
-  /* leaning dead-branch flag poles: base, height, lean (degrees) and lean direction */
-  const POLEDEF = [
-    { id: 'p1', b: [-5.1, 0, -2.9], L: 5.1, tl: 11, d: [-0.9, 0.4] },
-    { id: 'p2', b: [5.4, 0, -2.8], L: 4.8, tl: 9, d: [0.8, -0.3] },
-    { id: 'p3', b: [-2.0, 0, -4.1], L: 4.4, tl: 12, d: [-0.3, -1] },
-    { id: 'p4', b: [1.9, 0, -4.3], L: 5.0, tl: 8, d: [0.6, -0.8] },
-    { id: 'p5', b: [5.3, 0, 2.2], L: 3.9, tl: 10, d: [0.5, 0.8] },
-    { id: 'p6', b: [-5.2, 0, 1.6], L: 3.8, tl: 11, d: [-0.7, 0.5] },
+  /* two long flag lines: from a mast on the shelter ridge to two leaning rock-footed poles behind the shrine */
+  const poles = [
+    { id: 'p1', b: [7.4, 0, -1.2], t: [7.1, 5.6, -1.1] },
+    { id: 'p2', b: [5.4, 0, -4.6], t: [5.1, 5.1, -4.5] },
   ];
-  const poles = POLEDEF.map((q) => {
-    const dl = Math.hypot(q.d[0], q.d[1]); const tr = (q.tl * Math.PI) / 180;
-    return { id: q.id, b: q.b, t: [q.b[0] + q.L * Math.sin(tr) * q.d[0] / dl, q.L * Math.cos(tr), q.b[2] + q.L * Math.sin(tr) * q.d[1] / dl] };
-  });
-  const PM = {}; poles.forEach((q) => { PM[q.id] = q; });
-  const at = (id, f) => { const q = PM[id]; return [q.b[0] + (q.t[0] - q.b[0]) * f, q.t[1] * f, q.b[2] + (q.t[2] - q.b[2]) * f]; };
-  const G1 = [3.5, 3.0, -0.9]; const G2 = [5.8, 3.0, -0.9]; const G3 = [4.7, 3.08, -0.9]; const G4 = [4.1, 3.0, -0.9]; const G5 = [5.3, 3.0, -0.9];
+  const MAST = [-6.3, 4.7, -1.8];
   const lines = [
-    { a: at('p1', 0.96), b: at('p2', 0.94), sag: 0.45, n: 62 },
-    { a: at('p1', 0.86), b: at('p4', 0.96), sag: 0.35, n: 36 },
-    { a: at('p3', 0.96), b: at('p2', 0.88), sag: 0.4, n: 38 },
-    { a: at('p3', 0.8), b: at('p4', 0.8), sag: 0.3, n: 22 },
-    { a: G1, b: at('p5', 0.92), sag: 0.3, n: 22 },
-    { a: G2, b: at('p2', 0.88), sag: 0.25, n: 20 },
-    { a: G1, b: at('p4', 0.85), sag: 0.25, n: 22 },
-    { a: G2, b: at('p5', 0.7), sag: 0.2, n: 14 },
-    { a: at('p1', 0.7), b: at('p6', 0.9), sag: 0.3, n: 24 },
-    { a: at('p6', 0.92), b: at('p3', 0.75), sag: 0.35, n: 34 },
-    { a: G1, b: at('p3', 0.7), sag: 0.35, n: 30 },
-    { a: G2, b: at('p4', 0.65), sag: 0.2, n: 16 },
-    { a: G3, b: at('p6', 0.6), sag: 0.5, n: 40 },
-    { a: G4, b: at('p1', 0.55), sag: 0.5, n: 44 },
-    { a: G5, b: at('p3', 0.5), sag: 0.35, n: 24 },
-    { a: G3, b: at('p5', 0.8), sag: 0.25, n: 16 },
+    { a: MAST, b: poles[0].t, sag: 0.55, n: 56, h: 0.26 },
+    { a: [-6.2, 3.95, -1.9], b: poles[1].t, sag: 0.5, n: 52, h: 0.26 },
   ];
 
   function Flags() {
     const M = useM();
-    const tall = [
-      { p: [-4.6, 0, -4.6], h: 4.0, c: '#f2f2ee', tl: 0.17 }, { p: [-3.9, 0, -4.9], h: 3.4, c: '#f2f2ee', tl: -0.2 },
-      { p: [4.4, 0, -4.6], h: 3.7, c: '#f2f2ee', tl: 0.15 }, { p: [3.7, 0, -4.9], h: 3.1, c: '#d6261f', tl: -0.18 }, { p: [0.3, 0, -5.0], h: 3.3, c: '#f2c718', tl: 0.2 },
-    ];
+    const rk = M.plain('#7d7a74', { roughness: 1 });
     return (
       <group>
-        {poles.map((q) => <group key={q.id}><PoleBetween a={q.b} b={q.t} /><PoleTop p={q.t} /></group>)}
-        <FlagLines lines={lines} />
-        {tall.map((q, i) => (
-          <group key={i} position={q.p} rotation={[0, 0, q.tl]}>
-            <Cyl rt={0.015} rb={0.03} h={q.h} p={[0, q.h / 2, 0]} m={M.plain('#6b5d4c', { roughness: 1 })} seg={5} />
-            <mesh position={[0.1, q.h - 1.15, 0]} rotation={[0, 0.5 + i, 0]}><planeGeometry args={[0.2, 2.2, 1, 6]} /><meshStandardMaterial color={q.c} side={THREE.DoubleSide} roughness={1} emissive="#333" emissiveIntensity={0.4} /></mesh>
+        {poles.map((q) => (
+          <group key={q.id}>
+            <PoleBetween a={q.b} b={q.t} r={0.05} /><PoleTop p={q.t} />
+            <mesh position={[q.b[0], 0.2, q.b[2]]} scale={[0.5, 0.35, 0.45]} material={rk}><icosahedronGeometry args={[1, 0]} /></mesh>
+            <mesh position={[q.b[0] + 0.3, 0.12, q.b[2] + 0.2]} scale={[0.3, 0.22, 0.28]} material={rk}><icosahedronGeometry args={[1, 0]} /></mesh>
           </group>
         ))}
+        <Cyl rt={0.03} rb={0.04} h={1.5} p={[-6.3, 4.0, -1.8]} m={M.plain('#6b5d4c', { roughness: 1 })} seg={5} />
+        <FlagLines lines={lines} />
       </group>
     );
   }
@@ -283,13 +257,7 @@ export default function make(K) {
   function IronTridents() {
     const M = useM();
     const iron = M.plain('#2a2623', { roughness: 0.5, metalness: 0.6 });
-    const spots = [
-      [-2.05, 0.6, 0.04, 1.9], [-2.35, 0.55, -0.05, 1.6], [-2.65, 0.62, 0.07, 1.8], [-2.95, 0.58, -0.03, 1.5], [-3.2, 0.64, 0.05, 1.7],
-      [-2.1, -0.15, -0.04, 1.7], [-2.4, -0.1, 0.06, 2.0], [-2.7, -0.18, -0.06, 1.5], [-3.0, -0.12, 0.04, 1.8],
-      [2.05, 0.65, 0.05, 1.8], [2.35, 0.7, -0.04, 1.5], [2.65, 0.62, 0.06, 2.0], [2.95, 0.68, -0.05, 1.6],
-      [2.1, 1.4, -0.05, 1.6], [2.4, 1.45, 0.04, 1.9], [2.7, 1.38, -0.06, 1.5], [3.0, 1.44, 0.05, 1.7],
-      [-1.0, -1.45, 0.06, 1.7], [0.95, -1.5, -0.08, 1.6],
-    ];
+    const spots = [[3.5, 0.2, 0.05, 1.5], [3.8, -0.2, -0.05, 1.2], [-3.1, 1.5, 0.04, 1.3]];
     return (
       <group>
         {spots.map(([x, z, t, h], i) => (
@@ -317,32 +285,21 @@ export default function make(K) {
   }
   function BellGantry() {
     const M = useM();
-    const blk = M.plain('#1e1e1e', { roughness: 0.6, metalness: 0.3 });
-    const bronze = useMemo(() => new THREE.MeshStandardMaterial({ color: '#7a5f2b', metalness: 0.75, roughness: 0.4, side: THREE.DoubleSide }), []);
-    const wall = M.mat('stone', 3, 1, { color: '#a8a398' });
-    const BY = 2.9; // underside of the beam
-    const big = [[0, 1.6], [-0.78, 1.15], [0.8, 1.2], [-1.12, 0.95]];
-    const small = [[-0.45, 0.42, 0.34, 0.3], [0.42, 0.4, 0.4, -0.3], [-1.05, 0.36, 0.5, -0.32], [1.12, 0.45, 0.36, 0.3], [-0.2, 0.34, 0.52, -0.38], [0.2, 0.32, 0.3, 0.36], [1.1, 0.34, 0.6, -0.3]];
+    const red = M.plain('#a3261f', { roughness: 0.6, metalness: 0.2 });
+    const blk = M.plain('#2a2623', { roughness: 0.6, metalness: 0.3 });
+    const bronze = useMemo(() => new THREE.MeshStandardMaterial({ color: '#9a7430', metalness: 0.7, roughness: 0.4, side: THREE.DoubleSide }), []);
+    const BY = 2.0;
     return (
-      <group position={[4.7, 0, -0.9]}>
-        <Box s={[3.6, 0.12, 1.7]} p={[0, 0.06, 0]} m={M.mat('stone', 2, 1, { color: '#bfb9ad' })} />
-        {[-1.35, 1.35].map((x) => <Box key={x} s={[0.2, 3.0, 0.2]} p={[x, 1.62, 0]} m={blk} />)}
-        <Box s={[3.1, 0.24, 0.26]} p={[0, BY + 0.12, 0]} m={blk} />
-        {[-1, 1].map((x) => <Box key={x} s={[0.1, 0.62, 0.1]} p={[x * 1.1, BY - 0.25, 0]} r={[0, 0, x * 0.75]} m={blk} />)}
-        {big.map(([x, s], i) => (
-          <group key={i}>
-            <Cyl rt={0.02} h={0.1} p={[x, BY - 0.04, 0]} m={blk} seg={5} />
-            <Bell p={[x, BY - 0.68 * s - 0.04, 0]} s={s} m={bronze} />
-          </group>
+      <group position={[5.9, 0, 1.6]} rotation={[0, -0.3, 0]}>
+        <Box s={[2.0, 0.14, 1.2]} p={[0, 0.07, 0]} m={M.mat('stone', 2, 1, { color: '#bfb9ad' })} />
+        {[-0.8, 0.8].map((x) => <Box key={x} s={[0.14, 2.1, 0.14]} p={[x, 1.15, 0]} m={red} />)}
+        <Box s={[1.9, 0.14, 0.16]} p={[0, BY + 0.1, 0]} m={red} />
+        {[-1, 1].map((x) => <Box key={x} s={[0.07, 0.4, 0.07]} p={[x * 0.62, BY - 0.12, 0]} r={[0, 0, x * 0.75]} m={red} />)}
+        <Cyl rt={0.02} h={0.1} p={[0, BY - 0.04, 0]} m={blk} seg={5} />
+        <Bell p={[0, BY - 0.68 * 1.5 - 0.04, 0]} s={1.5} m={bronze} />
+        {[[-0.5, 0.4, 0.45], [0.5, 0.36, 0.55]].map(([x, s, cl], i) => (
+          <group key={i}><Cyl rt={0.006} h={cl} p={[x, BY - cl / 2, 0.1]} m={blk} seg={4} /><Bell p={[x, BY - cl - 0.68 * s, 0.1]} s={s} m={bronze} /></group>
         ))}
-        {small.map(([x, s, cl, z], i) => (
-          <group key={`s${i}`}>
-            <Cyl rt={0.006} h={cl} p={[x, BY - cl / 2, z]} m={blk} seg={4} />
-            <Bell p={[x, BY - cl - 0.68 * s, z]} s={s} m={bronze} />
-          </group>
-        ))}
-        {/* low dark stone retaining wall in front of the bells */}
-        <Box s={[3.7, 0.32, 0.26]} p={[0.1, 0.16, 0.95]} m={wall} />
       </group>
     );
   }
@@ -390,7 +347,7 @@ export default function make(K) {
       { p: [-W / 2 - 0.03, Y0 + 0.04, 0], s: [0.06, 0.07, D - 2 * C] }, { p: [-W / 2 - 0.03, Y0 + WH - 0.03, 0], s: [0.06, 0.08, D - 2 * C] },
     ], []);
     return (
-      <group position={[-3.6, 0, -2.0]} rotation={[0, 0.3, 0]}>
+      <group position={[-6.3, 0, -1.8]} rotation={[0, 0.3, 0]} scale={1.2}>
         <Box s={[W + 0.45, 0.28, D + 0.45]} p={[0, 0.14, 0]} m={M.mat('stone', 3, 1, { color: '#c4bfb4' })} />
         <mesh geometry={hull} material={wood} castShadow />
         <Inst items={posts} geo={unitBox} mat={<meshStandardMaterial color="#8a6838" roughness={0.9} />} />
@@ -443,7 +400,7 @@ export default function make(K) {
     }, []);
     return (
       <group>
-        <mesh position={[0, 0.0, -0.1]} scale={[4.9, 1, 3.7]}><cylinderGeometry args={[1, 1, 0.05, 14]} /><meshStandardMaterial color="#6f6a52" roughness={1} /></mesh>
+        <mesh position={[0, 0.0, -0.1]} scale={[4.9, 1, 3.7]}><cylinderGeometry args={[1, 1, 0.05, 14]} /><meshStandardMaterial color="#8a8985" roughness={1} /></mesh>
         <Inst items={slabs} geo={unitBox} mat={<meshStandardMaterial color="#ffffff" roughness={0.75} />} />
         <Inst items={stones} geo={unitIco} mat={<meshStandardMaterial color="#ffffff" roughness={1} flatShading />} />
       </group>
@@ -454,12 +411,12 @@ export default function make(K) {
     return (
       <group>
         <Ground />
-        <Shrine />
+        <group scale={1.4}><Shrine /></group>
         <IronTridents />
         <BellGantry />
         <Shelter />
         <Flags />
-        <Frame s={[11.5, 5.0, 6.5]} p={[0.2, 2.4, -0.6]} />
+        <Frame s={[15.5, 6.2, 6.4]} p={[0.2, 2.8, -0.4]} />
       </group>
     );
   }
@@ -481,10 +438,10 @@ export default function make(K) {
           pos.push(x, y, z);
           const e = ell(x, z);
           const n = noise[(i * 31 + j * 17) % 4000];
-          if (e < 1.0) c.set(n > 0.6 ? '#8d887c' : n > 0.3 ? '#8a7f5c' : '#7c7352');
-          else if (y > -6) c.set(n > 0.7 ? '#98948c' : n > 0.35 ? '#948a5e' : '#847d5e');
-          else if (y > -14) c.set(n > 0.65 ? '#8f8c88' : n > 0.3 ? '#8a8158' : '#7d7658');
-          else c.set(n > 0.5 ? '#5a6340' : '#66683f');
+          if (e < 1.0) c.set(n > 0.6 ? '#8d8d8b' : n > 0.3 ? '#7f807e' : '#94938f');
+          else if (y > -6) c.set(n > 0.7 ? '#7b7c7a' : n > 0.4 ? '#8a8a86' : '#4f5f38');
+          else if (y > -14) c.set(n > 0.65 ? '#75777a' : n > 0.35 ? '#4a5c38' : '#6c6e6c');
+          else c.set(n > 0.5 ? '#34482f' : '#3d5233');
           col.push(c.r, c.g, c.b);
         }
       }
@@ -500,7 +457,7 @@ export default function make(K) {
       g.setIndex(idx); g.computeVertexNormals();
       return g;
     }, []);
-    return <mesh geometry={geo} receiveShadow><meshStandardMaterial vertexColors flatShading roughness={1} emissive="#5a5236" emissiveIntensity={0.45} /></mesh>;
+    return <mesh geometry={geo} receiveShadow><meshStandardMaterial vertexColors flatShading roughness={1} emissive="#464c50" emissiveIntensity={0.45} /></mesh>;
   }
 
   function Ridge({ z, top, amp, col, haze = '#c4cfe6', seed, x0 = -110, x1 = 110, glow = 0.5 }) {
@@ -527,7 +484,7 @@ export default function make(K) {
   }
 
   /* Kanchenjunga: a broad glaciated massif (about 120 m wide): jagged white crest, snow-streaked blue-violet flanks down to the ridges */
-  const SUMMITS = [[-36, 30, 10], [-20, 40, 9], [-4, 47, 12], [12, 40, 9], [27, 34, 10], [42, 26, 9]];
+  const SUMMITS = [[-46, 34, 11], [-32, 46, 10], [-17, 56, 12], [0, 68, 13], [15, 55, 11], [29, 60, 12], [43, 44, 10], [55, 34, 9]];
   function SnowWall({ x0 = -34, z = -92, base = -24 }) {
     const geo = useMemo(() => {
       const N = 170; const R = 9;
@@ -576,8 +533,8 @@ export default function make(K) {
     const geo = useMemo(() => {
       const g = new THREE.SphereGeometry(215, 24, 16);
       const p = g.attributes.position; const cols = [];
-      const hz = new THREE.Color('#bcd4f0'); const zn = new THREE.Color('#6fa3e0'); const c = new THREE.Color();
-      for (let i = 0; i < p.count; i += 1) { c.copy(hz).lerp(zn, sm(-0.05, 0.6, p.getY(i) / 215)); cols.push(c.r, c.g, c.b); }
+      const hz = new THREE.Color('#8fb8ea'); const zn = new THREE.Color('#1f4fb0'); const c = new THREE.Color();
+      for (let i = 0; i < p.count; i += 1) { c.copy(hz).lerp(zn, sm(-0.05, 0.45, p.getY(i) / 215)); cols.push(c.r, c.g, c.b); }
       g.setAttribute('color', new THREE.Float32BufferAttribute(cols, 3));
       return g;
     }, []);
@@ -676,26 +633,53 @@ export default function make(K) {
     );
   }
 
+  function Scrub() {
+    const items = useMemo(() => {
+      const rg = rng(77); const out = []; const cols = ['#2f4a2a', '#3c5a30', '#4a5e2c', '#27402a'];
+      for (let i = 0; i < 70; i += 1) {
+        const a = rg() * Math.PI * 2; const f = 0.92 + rg() * 0.55;
+        const x = Math.cos(a) * PX * f; const z = Math.sin(a) * PZ * f;
+        const s = 0.25 + rg() * 0.45;
+        out.push({ p: [x, H(x, z) + s * 0.3, z], s: [s * 1.3, s * 0.75, s], c: cols[Math.floor(rg() * 4)] });
+      }
+      return out;
+    }, []);
+    return <Inst items={items} geo={unitIco} mat={<meshStandardMaterial color="#ffffff" roughness={1} flatShading />} />;
+  }
+  function SnowPatches() {
+    const items = useMemo(() => {
+      const rg = rng(88); const out = [];
+      for (let i = 0; i < 16; i += 1) {
+        const a = rg() * Math.PI * 2; const f = 0.88 + rg() * 0.3;
+        const x = Math.cos(a) * PX * f; const z = Math.sin(a) * PZ * f;
+        if (z > 1.5 && Math.abs(x) < 3.5) continue;
+        const w = 0.35 + rg() * 0.7;
+        out.push({ p: [x, H(x, z) + 0.05, z], s: [w, 0.05, w * 0.7], r: [0, rg() * 3, 0] });
+      }
+      return out;
+    }, []);
+    return <Inst items={items} geo={unitSphere} mat={<meshStandardMaterial color="#f4f7fb" roughness={0.9} />} />;
+  }
+
   function Env() {
     const T = (x, z) => [x, H(x, z), z];
     return (
       <group>
-        <mesh position={[0, -36, 0]}><cylinderGeometry args={[230, 230, 1, 24]} /><meshStandardMaterial color="#4f6040" roughness={1} /></mesh>
+        <mesh position={[0, -36, 0]}><cylinderGeometry args={[230, 230, 1, 24]} /><meshStandardMaterial color="#4a5a42" roughness={1} /></mesh>
         <SkyDome />
         <Terrain />
         <Rocks />
+        <Scrub />
+        <SnowPatches />
         <SlopeForest />
         <Clouds />
-        <BareTree p={T(7.2, -4.4)} s={1.4} seed={2} />
-        <BareTree p={T(-8.0, 3.6)} s={1.1} seed={5} />
-        <BareTree p={T(8.2, 1.2)} s={0.9} seed={8} />
-        <BareTree p={T(1.0, -6.0)} s={1.2} seed={11} />
-        <DarkFir p={T(-6.9, -4.3)} s={1.5} />
-        <DarkFir p={T(-8.4, -2.0)} s={1.0} />
-        <Ridge z={-34} top={-1} amp={2.8} col="#6b6558" haze="#8fa2b4" seed={1.3} glow={0.35} />
-        <Ridge z={-48} top={3} amp={4.2} col="#586aa0" haze="#a9b8dc" seed={2.9} glow={0.5} />
-        <Ridge z={-60} top={7} amp={5.5} col="#7d8fc2" haze="#bcc8e6" seed={4.4} glow={0.55} />
-        <SnowWall x0={-14} z={-96} base={-26} />
+        <BareTree p={T(7.6, -4.4)} s={1.2} seed={2} />
+        <BareTree p={T(1.0, -6.2)} s={1.1} seed={11} />
+        <DarkFir p={T(-8.6, -3.4)} s={1.3} />
+        <Ridge z={-34} top={-1} amp={2.8} col="#55607a" haze="#7f9ac0" seed={1.3} glow={0.35} />
+        <Ridge z={-46} top={3} amp={4.2} col="#3f58a8" haze="#8fa8dc" seed={2.9} glow={0.5} />
+        <Ridge z={-58} top={7} amp={5.5} col="#5f7ec8" haze="#a9bfe8" seed={4.4} glow={0.55} />
+        <SnowWall x0={-6} z={-92} base={-24} />
       </group>
     );
   }

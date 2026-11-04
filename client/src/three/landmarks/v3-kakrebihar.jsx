@@ -440,6 +440,10 @@ export default function make(K) {
         {trees.map((t, i) => <SalTree key={i} p={[t.x, 0, t.z]} s={t.s} kind={t.kind} v={t.v} />)}
         {/* a few tall straight sal trunks flanking the clearing on the camera side */}
         {[[11.5, -1.5, 1.0], [-11.5, 1.5, 1.1], [8, -7, 0.95], [-8.5, -6, 1.05]].map(([x, z, s], i) => <SalTree key={'t' + i} p={[x, 0, z]} s={s} kind="tall" v={i * 0.2} />)}
+        {/* forested Surkhet hills behind the temple (camera looks toward -z) */}
+        {[[-90, -120, 80, 60], [-20, -150, 95, 75], [70, -135, 85, 62], [130, -90, 70, 50], [-140, -60, 65, 48], [10, -95, 55, 40]].map(([x, z, r2, h], i) => (
+          <mesh key={'bh' + i} position={[x, -22 + h * 0.42, z]} scale={[1, 0.55, 1]} material={M.plain(['#3c5c3a', '#486a40', '#557a48'][i % 3], { roughness: 1 })}><coneGeometry args={[r2, h * 1.8, 10]} /></mesh>
+        ))}
         <Valley />
         <group position={[-13, 0, 6]} rotation={[0, 0.9, 0]}>
           <Gate />

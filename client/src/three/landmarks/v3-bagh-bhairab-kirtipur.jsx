@@ -324,9 +324,9 @@ export default function make(K) {
     const brickW = M.mat('brick', 4, 2, { color: '#f2b8a0', emissive: '#4a2216', emissiveIntensity: 0.35 });
     const brickP = M.mat('brick', 5, 1, { color: '#d9806a' });
     const upper = M.plain('#241810', { roughness: 0.85 });
-    const roof1 = tileMat('r1', '#6a3424', [['rgba(38,56,30,0.55)', 30, 16], ['rgba(110,116,100,0.25)', 10, 12], ['rgba(50,30,22,0.32)', 14, 10]], 11);
-    const roof2 = tileMat('r2', '#46301f', [['rgba(80,100,78,0.38)', 16, 14], ['rgba(130,138,128,0.30)', 14, 14]], 23);
-    const roof3 = tileMat('r3', '#46301f', [['rgba(80,100,78,0.34)', 12, 12], ['rgba(140,146,136,0.28)', 12, 12]], 37);
+    const roof1 = tileMat('r1', '#4e2a1e', [['rgba(38,56,30,0.55)', 30, 16], ['rgba(110,116,100,0.25)', 10, 12], ['rgba(50,30,22,0.32)', 14, 10]], 11);
+    const roof2 = tileMat('r2', '#33231a', [['rgba(80,100,78,0.38)', 16, 14], ['rgba(130,138,128,0.30)', 14, 14]], 23);
+    const roof3 = tileMat('r3', '#33231a', [['rgba(80,100,78,0.34)', 12, 12], ['rgba(140,146,136,0.28)', 12, 12]], 37);
     const stone = M.plain('#7a766c', { roughness: 0.95 });
     const stoneL = M.plain('#cfc9ba', { roughness: 0.9 });
     const sword = M.plain('#6f747a', { metalness: 0.7, roughness: 0.4 });
@@ -336,7 +336,7 @@ export default function make(K) {
     const W1 = 8.0; const D1 = 6.0;
     const W2 = 6.0; const D2 = 4.5;
     const W3 = 4.0; const D3 = 3.0;
-    const h1 = 1.1; const h2 = 0.95; const h3 = 0.8;
+    const h1 = 1.35; const h2 = 0.95; const h3 = 0.8;
     const topY = E3 + h3;
     // storey walls at ~80% of the roof above-eave width
     const w2 = 4.8; const d2 = 3.6; const w3 = 3.2; const d3 = 2.4;
@@ -345,9 +345,9 @@ export default function make(K) {
 
     return (
       <group>
-        <Frame s={[9.2, 8.6, 7.4]} p={[0, 4.3, 0.8]} />
+        <Frame s={[8.8, 8.4, 6.8]} p={[0, 4.2, 0.5]} />
         {/* two low brick-and-stone steps, only a little larger than the veranda */}
-        <Box s={[7.5, 0.22, 5.9]} p={[0, 0.11, 0.1]} m={brickP} />
+        <Box s={[7.5, 0.22, 5.9]} p={[0, 0.11, 0.1]} m={stone} />
         <Box s={[7.6, 0.05, 6.0]} p={[0, 0.225, 0.1]} m={stone} />
         <Box s={[7.6, 0.04, 6.0]} p={[0, 0.02, 0.1]} m={stone} cast={false} />
         <Box s={[6.9, 0.22, 5.3]} p={[0, 0.36, 0.1]} m={brickP} />
@@ -355,7 +355,21 @@ export default function make(K) {
         {/* front stair */}
         <Box s={[2.2, 0.2, 0.45]} p={[0, 0.1, 3.3]} m={stone} />
         <Box s={[2.2, 0.12, 0.35]} p={[0, 0.06, 3.65]} m={stone} />
-        {[-1.7, 1.7].map((x) => <group key={x} position={[x, 0.2, 3.4]} scale={0.7}><Elephant m={stone} /></group>)}
+        {/* sword-and-trident yard: iron tridents and swords planted in a stone bed, right of the stair */}
+        <group position={[4.3, 0, 3.2]}>
+          <Box s={[1.5, 0.3, 0.7]} p={[0, 0.15, 0]} m={stone} />
+          {[-0.55, -0.27, 0, 0.27, 0.55].map((x, i) => (
+            <group key={i} position={[x, 0.3, 0]}>
+              <Box s={[0.035, 1.3 + (i % 2) * 0.35, 0.035]} p={[0, 0.7, 0]} m={sword} cast={false} />
+              {i % 2 === 0 ? (
+                <group position={[0, 1.4 + 0.35 * 0, 0]}>
+                  <Box s={[0.2, 0.03, 0.03]} p={[0, 0.0, 0]} m={sword} cast={false} />
+                  {[-0.1, 0, 0.1].map((dx) => <Box key={dx} s={[0.025, 0.2, 0.025]} p={[dx, 0.1, 0]} m={sword} cast={false} />)}
+                </group>
+              ) : <Box s={[0.07, 0.025, 0.025]} p={[0, 1.3, 0]} m={sword} cast={false} />}
+            </group>
+          ))}
+        </group>
 
         {/* ground storey: cream wall, timber ring of columns, big cusped stone door */}
         <Box s={[5.6, 1.9, 3.8]} p={[0, B + 0.95, 0]} m={cream} />
@@ -389,7 +403,7 @@ export default function make(K) {
 
         {/* roof 1 with a thick red valance */}
         <Box s={[W1 - 0.1, 0.06, D1 - 0.1]} p={[0, E1 - 0.04, 0]} m={dark} cast={false} />
-        <HipRoof w={W1} d={D1} h={h1} y={E1} m={roof1} sag={1.3} lift={0.2} />
+        <HipRoof w={W1} d={D1} h={h1} y={E1} m={roof1} sag={1.5} lift={0.28} />
         <Valance w={W1} d={D1} y={E1 - 0.2} />
         <Struts ww={6.0} wd={4.4} ew={W1} ed={D1} y={E1 - 0.06} h={0.6} nF={11} nS={7} m={carved} />
         <Struts ww={6.0} wd={4.4} ew={W1 - 1.2} ed={D1 - 1.0} y={E1 - 0.06} h={0.4} nF={6} nS={4} m={timber} />
@@ -454,6 +468,12 @@ export default function make(K) {
           <group key={i} position={[x, E1 + 1.45 + (i % 2) * 0.04, d2 / 2 + 0.04]}>
             <Box s={[0.03, 0.4, 0.012]} p={[0, -0.02, 0]} r={[0, 0, 0.08 * (i % 2 ? 1 : -1)]} m={sword} cast={false} />
             <Box s={[0.08, 0.018, 0.014]} p={[0, 0.18, 0]} m={dark} cast={false} />
+          </group>
+        ))}
+        {[-1.45, 0, 1.45].map((x, i) => (
+          <group key={`sh${i}`} position={[x, E1 + 0.55, d2 / 2 + 0.05]} rotation={[Math.PI / 2, 0, 0]}>
+            <Cyl rt={0.2} rb={0.2} h={0.04} m={M.plain(i === 1 ? '#7a2a1c' : '#2a1a10', { roughness: 0.7 })} seg={16} />
+            <Cyl rt={0.05} rb={0.05} h={0.07} m={M.copper} seg={8} />
           </group>
         ))}
         {[-0.7, 0.7].map((z, i) => <Box key={i} s={[0.012, 0.38, 0.03]} p={[w2 / 2 + 0.04, E1 + 1.45, z]} m={sword} cast={false} />)}
@@ -561,7 +581,7 @@ export default function make(K) {
         <mesh position={[0, -3.8, 0]} material={mistMat}><cylinderGeometry args={[46, 46, 7, 48, 1, true]} /></mesh>
         {/* hill-top platform: paved brick top, stone retaining sides dropping into the valley */}
         <Box s={[30, 6, 29]} p={[-2.5, -3.02, -0.5]} m={M.mat('rock', 6, 2, { color: '#8a8174' })} />
-        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[-2.5, -0.012, -0.5]} receiveShadow material={M.mat('herring', 12, 11, { color: '#e8cdb8' })}><planeGeometry args={[30, 29]} /></mesh>
+        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[-2.5, -0.012, -0.5]} receiveShadow material={M.mat('granite', 10, 10, { color: '#d8d0c2' })}><planeGeometry args={[30, 29]} /></mesh>
         {/* valley floor far below, terraced fields */}
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -6.1, 0]} receiveShadow material={M.mat('grass', 26, 26, { color: '#8e9a70' })}><circleGeometry args={[72, 48]} /></mesh>
         {[[22, -4.5, -6, 9, 5], [24, -4.2, 6, 10, 5], [30, -3.8, 0, 8, 9]].map(([x, y, z, w, d], i) => (
@@ -578,14 +598,14 @@ export default function make(K) {
         ))}
 
         {/* west: four-storey houses of varied height, overhang and finish; the left one red-painted timber */}
-        <Hse p={[-13, 0, 3.0]} r={Math.PI / 2} w={3.8} d={2.6} st={4} sh={1.1} plaster="#9e3a2e" red roofTint="#8e5a48" ov={1.0} rh={0.15} />
+        <Hse p={[-13, 0, 3.0]} r={Math.PI / 2} w={3.8} d={2.6} st={4} sh={1.1} plaster="#cdbf9f" roofTint="#8e5a48" ov={1.0} rh={0.15} />
         <Hse p={[-13, 0, -1.2]} r={Math.PI / 2} w={3.8} d={2.6} st={3} sh={1.05} tint="#b87a64" ov={0.5} />
         <Hse p={[-13.4, 0, -5.4]} r={Math.PI / 2} w={3.8} d={2.8} st={4} sh={1.0} plaster="#e0d2b4" ov={0.9} rh={0.1} />
         <Hse p={[-13, 0, -9.4]} r={Math.PI / 2} w={3.8} d={2.6} st={4} sh={1.08} tint="#a8705c" ov={0.65} />
         {/* north: orange plastered house behind, old brick and whitewashed neighbours */}
         <Hse p={[-8.5, 0, -13]} w={3.6} d={2.6} st={4} sh={1.05} tint="#a8705c" ov={0.9} />
         <Hse p={[-4.6, 0, -13.4]} w={3.6} d={2.8} st={3} sh={1.0} plaster="#e0d2b4" ov={0.5} />
-        <Hse p={[-0.6, 0, -13.6]} w={4.2} d={2.8} st={4} sh={1.1} plaster="#d98a50" roofTint="#9a604c" ov={1.1} rh={0.12} />
+        <Hse p={[-0.6, 0, -13.6]} w={4.2} d={2.8} st={4} sh={1.1} plaster="#e6d9bc" roofTint="#9a604c" ov={1.1} rh={0.12} />
         <Hse p={[3.8, 0, -13]} w={3.6} d={2.6} st={4} sh={0.98} tint="#b4786a" ov={0.6} />
         <Hse p={[8.0, 0, -13.2]} w={3.6} d={2.6} st={3} sh={1.05} plaster="#d8c8a8" ov={0.8} />
         {/* east: the platform opens to the valley; a small hipped shrine and a low parapet with railing */}

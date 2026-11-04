@@ -15,7 +15,7 @@ export default function make(K) {
     else if (zr < 1) h = -0.06 - 1.74 * sstep((zr + 2) / 3);
     else if (zr < HW) h = -1.8;
     else h = -1.8 + 2.1 * sstep((zr - HW) / 3.5);
-    if (z > 24) h += sstep((z - 24) / 24) * 12 * (0.65 + 0.35 * Math.sin(x * 0.07 + 1));
+    if (z > 36) h += sstep((z - 36) / 26) * 6 * (0.65 + 0.35 * Math.sin(x * 0.07 + 1));
     if (z < -9) { const t = Math.min(1, (-9 - z) / 34); h += 17 * Math.pow(t, 1.35) * (0.7 + 0.3 * Math.sin(x * 0.06 + 2) + 0.1 * Math.sin(x * 0.19)); }
     const ax = Math.abs(x);
     if (ax > 36) h += Math.pow(Math.min(1, (ax - 36) / 26), 1.5) * 9;

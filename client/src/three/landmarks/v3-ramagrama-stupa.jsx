@@ -5,7 +5,7 @@ export default function make(K) {
   const { useM, Box, Cyl, Ball, THREE, useMemo, Frame } = K;
 
   const R = 12; // mound radius
-  const H = 5.8; // mound height
+  const H = 6.6; // mound height
   const gh = (x, z) => {
     const u = Math.hypot(x, z) / R; if (u >= 1) return 0;
     const a = Math.atan2(z, x);
@@ -13,7 +13,7 @@ export default function make(K) {
     return H * Math.pow(1 - u * u, 0.9) * lump;
   };
   const rng = (seed) => { let s = seed; return () => { s = (s * 16807) % 2147483647; return s / 2147483647; }; };
-  const TREE = [-9.6, 4.6]; // bodhi tree foot (x,z)
+  const TREE = [-13.2, 4.2]; // bodhi tree foot (x,z)
   const TY = gh(TREE[0], TREE[1]) - 0.15;
   const FLAGC = ['#2a62c9', '#f4f4ef', '#d6262b', '#2f9a4a', '#f2c22b', '#f08a1c'];
   const GOLD = '#d9a21b';
@@ -39,8 +39,8 @@ export default function make(K) {
           tmp.lerp(c3, Math.max(0, n - 0.5) * 0.25);
           const p2 = Math.sin(x * 0.7 + 3) * Math.sin(z * 0.6 + 1) * Math.sin(x * 0.2 - z * 0.3);
           const p3 = Math.sin(x * 1.3 + 2) * Math.sin(z * 1.7 - 1) * Math.sin(x * 0.4 + z * 0.35);
-          if (p3 > 0.45 && r > 2) tmp.lerp(c4, Math.min(0.7, (p3 - 0.45) * 2.4));
-          if (p2 > 0.25) tmp.lerp(c4, Math.min(0.4, (p2 - 0.25) * 1.2));
+          if (p3 > 0.45 && r > 2) tmp.lerp(c4, Math.min(0.45, (p3 - 0.45) * 1.6));
+          if (p2 > 0.25) tmp.lerp(c4, Math.min(0.2, (p2 - 0.25) * 0.6));
           tmp.lerp(c4, Math.max(0, y / H - 0.6) * 0.8);
           tmp.multiplyScalar(1 + 0.07 * Math.sin(r * 1.5));
           tmp.lerp(c5, Math.max(0, Math.sin(x * 0.45 - z * 0.3) * Math.sin(z * 0.5 + x * 0.2)) * 0.3);
@@ -62,21 +62,21 @@ export default function make(K) {
   }
 
   /* ---------- the bodhi tree ---------- */
-  const CROWN = [3.2, -1.2]; // crown centre relative to the foot: leans over the mound's shoulder
-  const LIMBS = [[7.5, 7.4, -3.0, 1], [-1.5, 7.2, -6.5, 1], [4.0, 7.0, 5.5, 1], [-6.5, 6.6, 2.5, 1], [10.5, 6.4, 1.0, 0], [1.5, 7.6, 1.0, 0], [-3.5, 6.8, -3.5, 0], [6.5, 7.0, -7.0, 0], [-8.0, 6.2, -2.0, 0]];
+  const CROWN = [-0.2, -0.8]; // crown centre relative to the foot: leans over the mound's shoulder
+  const LIMBS = [[5.5, 7.0, -2.0, 1], [-1.5, 7.2, -5.5, 1], [3.0, 6.8, 4.5, 1], [-6.0, 6.6, 2.0, 1], [7.5, 6.2, 1.0, 0], [-1.5, 8.2, 1.0, 0], [-3.5, 7.8, -3.5, 0], [4.5, 7.4, -5.0, 0], [-7.0, 6.2, -2.0, 0]];
   function Bodhi() {
     const M = useM();
     const bark = M.plain('#6b5440', { roughness: 1 });
     const leaves = useMemo(() => {
       const r = rng(17); const out = [];
       const cols = ['#5b7a2e', '#4f6e28', '#6d8a34', '#7a6a2a', '#5b7a2e', '#4a6624', '#8a5a2c', '#7a6a2a', '#556f2a', '#9a5a30', '#5b7a2e', '#6a7a30'];
-      for (let i = 0; i < 170; i += 1) {
-        const a = r() * Math.PI * 2; const d = Math.sqrt(r()) * 10.4;
-        const edge = d / 10.4;
+      for (let i = 0; i < 230; i += 1) {
+        const a = r() * Math.PI * 2; const d = Math.sqrt(r()) * 8.6;
+        const edge = d / 8.6;
         const x = CROWN[0] + Math.cos(a) * d; const z = CROWN[1] + Math.sin(a) * d * 0.9;
-        const y = 5.3 + 4.6 * Math.sqrt(Math.max(0, 1 - edge * edge)) + (r() - 0.5) * 1.8;
-        const rad = 1.3 + r() * 1.1 + (1 - edge) * 0.5;
-        out.push({ p: [x, Math.max(5.2, y), z], rad, c: cols[i % cols.length], s: [1.6, 0.6 + r() * 0.2, 1.6] });
+        const y = 4.9 + 5.4 * Math.sqrt(Math.max(0, 1 - edge * edge)) + (r() - 0.5) * 2.2;
+        const rad = 0.9 + r() * 0.9 + (1 - edge) * 0.4;
+        out.push({ p: [x, Math.max(4.8, y), z], rad, c: cols[i % cols.length], s: [1.35, 0.75 + r() * 0.2, 1.35] });
       }
       return out;
     }, []);
@@ -192,7 +192,7 @@ export default function make(K) {
         <mesh position={[0, 0.7, 0]} rotation={[Math.PI / 2, 0, 0]}><torusGeometry args={[14.6, 0.025, 5, 120]} /><primitive object={rail} attach="material" /></mesh>
         {/* minimal prayer platform */}
         <Box s={[2.4, 0.22, 1.8]} p={[10.2, 0.11, 9.8]} r={[0, -0.78, 0]} m={M.plain('#aaa69c', { roughness: 0.95 })} />
-        <Frame s={[28, 13, 24]} p={[-2, 4.5, 0]} />
+        <Frame s={[24, 10, 14]} p={[-3, 4.5, 2]} />
       </group>
     );
   }

@@ -18,7 +18,20 @@ export default function make(K) {
   const GY = -0.3;                    // ground level outside the walls (courtyard top = 0)
 
   /* ---------------- terrain ---------------- */
-  function rectDist(x, z) { const dx = Math.max(Math.abs(x) - HX, 0), dz = Math.max(Math.abs(z) - HZ, 0); return Math.hypot(dx, dz); }
+  /* irregular 8-sided enclosure following the hilltop; gate on the south edge (v5 -> v6) */
+  const POLY = [[-30, -12], [-16, -22], [10, -22], [30, -12], [32, 8], [10, 22], [-8, 22], [-31, 10]];
+  const GX = 1;
+  function sdPoly(x, z) {
+    let inside = false, best = 1e9;
+    for (let i = 0; i < POLY.length; i++) {
+      const [ax, az] = POLY[i], [bx, bz] = POLY[(i + 1) % POLY.length];
+      if ((az > z) !== (bz > z) && x < ((bx - ax) * (z - az)) / (bz - az) + ax) inside = !inside;
+      const vx = bx - ax, vz = bz - az, t = Math.max(0, Math.min(1, ((x - ax) * vx + (z - az) * vz) / (vx * vx + vz * vz)));
+      best = Math.min(best, Math.hypot(x - ax - vx * t, z - az - vz * t));
+    }
+    return inside ? -best : best;
+  }
+  function rectDist(x, z) { return Math.max(sdPoly(x, z), 0); }
   function terr(x, z) {
     const d = rectDist(x, z);
     if (d <= 0) return -0.3;
@@ -226,30 +239,113 @@ export default function make(K) {
     );
   }
 
-  /* ---------------- perimeter wall + gate ---------------- */
-  function Perimeter() {
+  /* ---------------- polygon perimeter, bastions, gate tower, stone ramp ---------------- */
+  let _bt = null;
+  const bastionMat = (color) => {
+    if (!_bt) { _bt = slabTex().clone(); _bt.repeat.set(7, 1.6); _bt.needsUpdate = true; }
+    return new THREE.MeshStandardMaterial({ map: _bt, color, roughness: 1, fog: false });
+  };
+  function Seg({ a, b, h, col = STONE, t = 1.0, k = 0 }) {
     const M = useM();
-    const T = 0.75, zS = HZ - T / 2;
-    const wallS = (x0, x1, top, col = STONE) => <Wall key={`${x0}`} cx={(x0 + x1) / 2} cz={zS} len={x1 - x0} y1={top} color={col} />;
+    const dx = b[0] - a[0], dz = b[1] - a[1], L = Math.hypot(dx, dz), ang = -Math.atan2(dz, dx);
+    const cx = (a[0] + b[0]) / 2, cz = (a[1] + b[1]) / 2, y0 = -3.2;
+    const n = Math.max(2, Math.floor(L / 3.0));
+    const caps = [];
+    for (let i = 0; i < n; i++) {
+      const u = (i + 0.5) / n - 0.5;
+      const bh = 0.35 + 0.35 * rnd(k * 17 + i);
+      if (i % 2 === 0) caps.push(<StoneBox key={'c' + i} s={[L / n * 0.72, bh, t * 0.62]} p={[u * L, h + bh / 2, 0]} color={i % 4 === 0 ? '#c7bfb1' : STONE3} tile={1.4} />);
+      else if (rnd(k * 5 + i) > 0.45) caps.push(<Box key={'m' + i} s={[L / n * 0.5, 0.05, t * 0.8]} p={[u * L, h + 0.05, 0]} m={plain(M, '#59693a', { roughness: 1 })} cast={false} />);
+    }
+    return (
+      <group position={[cx, 0, cz]} rotation={[0, ang, 0]}>
+        <StoneBox s={[L + 0.9, h - y0, t]} p={[0, (h + y0) / 2, 0]} color={col} tile={2.6} />
+        <StoneBox s={[L + 0.9, 0.22, t + 0.22]} p={[0, h + 0.11, 0]} color="#cfc7b8" tile={2.0} />
+        <StoneBox s={[L + 0.9, 1.1, t + 0.5]} p={[0, -0.55, 0.2]} color={STONE2} tile={2.0} />
+        {caps}
+      </group>
+    );
+  }
+  function Bastion({ x, z, r = 3.3, h = 5.0 }) {
+    const M = useM();
+    const mat = useMemo(() => bastionMat('#aaa296'), []);
+    const cap = useMemo(() => bastionMat('#cbc3b4'), []);
+    const blocks = [];
+    for (let i = 0; i < 12; i++) { const a = (i / 12) * 6.283; if (i % 2 === 0) blocks.push(<Box key={i} s={[1.0, 0.55, 0.7]} p={[Math.cos(a) * (r - 0.35), h + 0.55, Math.sin(a) * (r - 0.35)]} r={[0, -a + Math.PI / 2, 0]} m={cap} />); }
+    return (
+      <group position={[x, 0, z]}>
+        <Cyl rt={r} rb={r + 0.5} h={h + 3.2} p={[0, (h - 3.2) / 2, 0]} m={mat} seg={18} />
+        <Cyl rt={r + 0.25} rb={r + 0.25} h={0.25} p={[0, h + 0.12, 0]} m={cap} seg={18} />
+        <Cyl rt={r - 0.3} rb={r - 0.3} h={0.04} p={[0, h + 0.26, 0]} m={plain(M, '#3b362f', { roughness: 1 })} seg={18} />
+        {blocks}
+        {[0.6, 2.2, 3.8, 5.4].map((a, i) => <Box key={'s' + i} s={[0.14, 0.7, 0.2]} p={[Math.cos(a) * (r + 0.02), h - 1.3, Math.sin(a) * (r + 0.02)]} r={[0, -a, 0]} m={plain(M, '#120f0c', { roughness: 1 })} cast={false} />)}
+      </group>
+    );
+  }
+  function GateTower() {
+    const M = useM();
+    const wood = plain(M, '#2a1d13', { roughness: 0.9 }), woodL = plain(M, '#4a3826', { roughness: 0.9 }), dark = plain(M, '#0e0c0a', { roughness: 1 });
+    const W = 8, D = 6.4, H = 9.2, GW = 2.6, GH = 3.8, pw = (W - GW) / 2;
+    const z = 22 - 0.2;
+    return (
+      <group position={[GX, 0, z]}>
+        <StoneBox s={[W + 1.0, 1.0, D + 1.0]} p={[0, -0.45, 0]} color={STONE2} tile={2.4} />
+        <StoneBox s={[pw, H + 3, D]} p={[-(GW / 2 + pw / 2), (H - 3) / 2, 0]} color="#a59d92" tile={2.6} />
+        <StoneBox s={[pw, H + 3, D]} p={[GW / 2 + pw / 2, (H - 3) / 2, 0]} color="#b0a89b" tile={2.6} />
+        <StoneBox s={[GW + 0.02, H - GH, D]} p={[0, GH + (H - GH) / 2, 0]} color="#a9a195" tile={2.6} />
+        <Box s={[GW, GH, 0.2]} p={[0, GH / 2, -D / 2 + 0.6]} m={dark} cast={false} />
+        <Box s={[GW + 0.4, 0.28, 0.6]} p={[0, GH + 0.1, D / 2 - 0.1]} m={wood} />
+        <Box s={[0.22, GH, 0.6]} p={[-GW / 2 - 0.1, GH / 2, D / 2 - 0.1]} m={wood} /><Box s={[0.22, GH, 0.6]} p={[GW / 2 + 0.1, GH / 2, D / 2 - 0.1]} m={wood} />
+        <Box s={[3.6, 0.8, 0.22]} p={[0, GH + 0.8, D / 2 + 0.05]} m={woodL} />
+        {[0, 1, 2, 3, 4].map((i) => <Box key={i} s={[0.4, 0.4 + (i % 2) * 0.12, 0.08]} p={[-1.4 + i * 0.7, GH + 0.8, D / 2 + 0.2]} m={i % 2 ? wood : plain(M, '#7d6a52', { roughness: 0.9 })} cast={false} />)}
+        <Box s={[0.9, 1.3, 0.2]} p={[-2.3, 6.8, D / 2 + 0.02]} m={dark} cast={false} /><Box s={[0.9, 1.3, 0.2]} p={[2.3, 6.8, D / 2 + 0.02]} m={dark} cast={false} />
+        <Box s={[0.14, 0.9, 0.2]} p={[0, 6.8, D / 2 + 0.02]} m={dark} cast={false} />
+        <Box s={[0.2, 1.3, 0.9]} p={[W / 2 + 0.01, 6.8, 0]} m={dark} cast={false} />
+        <StoneBox s={[W + 0.4, 0.3, D + 0.4]} p={[0, 5.2, 0]} color="#c9c1b3" tile={2.4} />
+        <StoneBox s={[W + 0.7, 0.34, D + 0.7]} p={[0, H + 0.17, 0]} color="#cdc5b6" tile={2.4} />
+        {[-3.4, -1.6, 0.4, 2.2, 3.6].map((px, i) => [-2.8, 2.8].map((pz, j) => <StoneBox key={i + '-' + j} s={[1.1, 0.7 + ((i + j) % 2) * 0.35, 0.8]} p={[px, H + 0.34 + 0.4, pz]} color={(i + j) % 2 ? STONE : '#c4bcae'} tile={1.2} />))}
+        {[-2.2, 0, 2.2].map((pz, i) => [-3.7, 3.7].map((px, j) => <StoneBox key={'s' + i + j} s={[0.8, 0.7 + ((i + j) % 2) * 0.3, 1.0]} p={[px, H + 0.34 + 0.38, pz]} color={STONE3} tile={1.2} />))}
+        <Box s={[W - 1.2, 0.04, D - 1.2]} p={[0, H + 0.36, 0]} m={plain(M, '#2a251f', { roughness: 1 })} cast={false} />
+      </group>
+    );
+  }
+  function Ramp() {
+    const M = useM();
+    const steps = [];
+    for (let i = 0; i < 11; i++) {
+      const zc = 25.6 + i * 1.2, top = terr(GX, zc) + 0.1;
+      const ttop = Math.round(top * 4) / 4;
+      steps.push(
+        <group key={i}>
+          <StoneBox s={[3.4, 1.8, 1.2]} p={[GX, ttop - 0.9, zc]} color={i % 2 ? '#a79f93' : '#b9b1a4'} tile={1.8} />
+          <Box s={[3.5, 0.08, 1.0]} p={[GX, ttop + 0.01, zc]} m={plain(M, i % 3 ? '#8f877a' : '#9d9587', { roughness: 1 })} cast={false} />
+          <StoneBox s={[0.5, 0.8, 1.2]} p={[GX - 2.05, ttop + 0.2, zc]} color={STONE2} tile={1.2} />
+          <StoneBox s={[0.5, 0.8, 1.2]} p={[GX + 2.05, ttop + 0.2, zc]} color={STONE2} tile={1.2} />
+        </group>
+      );
+    }
+    return <group>{steps}</group>;
+  }
+  function Perimeter() {
+    const V = POLY;
+    const heights = [3.6, 4.4, 4.4, 3.8, 3.4, 3.6, 3.8, 3.4];
+    const cols = [STONE, STONE2, STONE3, STONE, STONE2, STONE, STONE3, STONE2];
+    const segs = [];
+    for (let i = 0; i < V.length; i++) {
+      if (i === 5) {
+        segs.push(<Seg key={i} a={V[5]} b={[GX + 4.2, 22]} h={heights[i]} col={cols[i]} k={i} />);
+        segs.push(<Seg key={i + 'b'} a={[GX - 4.2, 22]} b={V[6]} h={heights[i]} col={cols[i]} k={i + 20} />);
+      } else segs.push(<Seg key={i} a={V[i]} b={V[(i + 1) % V.length]} h={heights[i]} col={cols[i]} k={i} />);
+    }
     return (
       <group>
-        {/* north: tallest, level, flat-topped, continuous */}
-        <Wall cx={0} cz={-HZ + T / 2} len={2 * HX} y1={2.0} color={STONE2} />
-        {/* west and east, lower */}
-        <Wall cx={-HX + T / 2} cz={0} len={2 * HZ - 1.5} axis="z" y1={1.55} color={STONE} />
-        <Wall cx={HX - T / 2} cz={0} len={2 * HZ - 1.5} axis="z" y1={1.3} color={STONE3} />
-        {/* south: short wall stubs at both ends, an open 25 m gap with low rubble between them */}
-        {wallS(-HX, -22, 1.5)}
-        {wallS(-22, -14, 1.1, STONE2)}
-        {wallS(11, 18, 0.9, STONE2)}
-        {wallS(18, HX, 1.4, STONE3)}
-        {/* low rubble line along the gap (0.4-0.6 m) */}
-        {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => {
-          const x = -14 + i * 2.5 + rnd(i * 3) * 0.6, l = 1.2 + rnd(i + 4) * 1.6, h = 0.35 + rnd(i + 9) * 0.25;
-          return <StoneBox key={`g${i}`} s={[l, h, 0.6 + rnd(i + 2) * 0.3]} p={[x, h / 2 - 0.05, zS + (rnd(i + 7) - 0.5) * 0.4]} r={[0, (rnd(i + 1) - 0.5) * 0.3, 0]} color={i % 2 ? STONE2 : STONE} tile={1.6} />;
-        })}
-        {/* few stones tumbled outside the gap */}
-        {[0, 1, 2, 3, 4, 5, 6, 7].map((i) => <StoneBox key={`f${i}`} s={[0.7 + rnd(i) * 0.5, 0.3 + rnd(i + 3) * 0.25, 0.5 + rnd(i + 8) * 0.4]} p={[-13 + i * 3.1, 0.12, HZ + 0.8 + rnd(i + 12) * 1.4]} r={[0, rnd(i + 2) * 3, 0]} color={STONE2} tile={1.4} />)}
+        {segs}
+        <Bastion x={30} z={-12} r={3.4} h={5.6} />
+        <Bastion x={10} z={22} r={3.2} h={5.4} />
+        <Bastion x={-8} z={22} r={3.2} h={5.2} />
+        <Bastion x={-16} z={-22} r={2.6} h={4.4} />
+        <GateTower />
+        <Ramp />
       </group>
     );
   }
@@ -338,7 +434,7 @@ export default function make(K) {
     return (
       <group>
         {[-4, -2.4].map((dz, i) => (
-          <group key={i} position={[-HX + 1.35, 0, 17 + dz]}>
+          <group key={i} position={[-24.5, 0, 9 + dz * 0.5 + 4]}>
             <StoneBox s={[0.7, 1.0, 0.7]} p={[0, 0.5, 0]} color={STONE3} tile={1.5} />
             <Cyl rt={0.04} rb={0.04} h={0.4} p={[0.45, 0.8, 0]} r={[0, 0, Math.PI / 2]} m={iron} seg={6} />
             <Box s={[0.6, 0.1, 0.5]} p={[0.5, 0.05, 0]} m={stoneMat(STONE2)} cast={false} />
@@ -371,27 +467,35 @@ export default function make(K) {
       const tufts = [], tc = [], stones = [], sc = [], patches = [], pc = [];
       for (let i = 0; i < 400; i++) {
         const x = (rnd(i * 2.1) - 0.5) * 60, z = (rnd(i * 3.7 + 1) - 0.5) * 40;
+        if (sdPoly(x, z) > -1.6) continue;
         const h = 0.3 + rnd(i + 9) * 0.2;
         tufts.push(compose([x, h / 2, z], rnd(i) * 6, [0.16 + rnd(i + 4) * 0.12, h, 0.16 + rnd(i + 5) * 0.12]));
         tc.push(['#8c7a48', '#7f6e40', '#6f6035', '#85733f', '#766639'][i % 5]);
       }
       for (let i = 0; i < 56; i++) {
         const x = (rnd(i * 5.3 + 2) - 0.5) * 58, z = (rnd(i * 1.9 + 7) - 0.5) * 38;
+        if (sdPoly(x, z) > -1.6) continue;
         const w = 0.4 + rnd(i + 21) * 0.7;
         stones.push(compose([x, 0.03, z], rnd(i + 3) * 3, [w, 0.08, w * (0.5 + rnd(i + 6) * 0.4)]));
         sc.push(['#6a6258', '#5c554b', '#74695c'][i % 3]);
       }
       for (let i = 0; i < 26; i++) {
         const x = (rnd(i * 4.4 + 5) - 0.5) * 60, z = (rnd(i * 2.2 + 3) - 0.5) * 40, r = 1.2 + rnd(i + 3) * 3;
+        if (sdPoly(x, z) > -3) continue;
         patches.push(compose([x, 0.012 + (i % 5) * 0.001, z], 0, [r, 1, r * (0.5 + rnd(i) * 0.5)]));
         pc.push(['#6a5b32', '#73643a', '#5c4f2b', '#786838', '#554a2a'][i % 5]);
       }
       return { tufts, tc, stones, sc, patches, pc };
     }, []);
     const disc = useMemo(() => new THREE.CylinderGeometry(1, 1, 0.02, 10), []);
+    const floorGeo = useMemo(() => {
+      const sh = new THREE.Shape(POLY.map(([x, z]) => new THREE.Vector2(x * 0.985, -z * 0.985)));
+      const g = new THREE.ExtrudeGeometry(sh, { depth: 0.5, bevelEnabled: false });
+      g.rotateX(-Math.PI / 2); return g;
+    }, []);
     return (
       <group>
-        <Box s={[2 * (HX - 0.8), 0.5, 2 * (HZ - 0.8)]} p={[0, -0.25, 0]} m={grass} cast={false} />
+        <mesh geometry={floorGeo} position={[0, -0.5, 0]} material={grass} receiveShadow />
         <Inst geo={disc} mat={whiteMat} mats={data.patches} colors={data.pc} />
         <Inst geo={unitBox} mat={whiteMat} mats={data.stones} colors={data.sc} />
         <Inst geo={unitCone} mat={whiteMat} mats={data.tufts} colors={data.tc} />
@@ -408,6 +512,7 @@ export default function make(K) {
         const a = rnd(i * 3.3) * 6.283, side = i % 4;
         let x, z;
         if (side === 0) { x = (rnd(i + 1) - 0.5) * 56; z = -14 + rnd(i + 4) * 26; } else { x = (rnd(i + 8) - 0.5) * 58; z = (rnd(i + 2) - 0.5) * 36; }
+        if (sdPoly(x, z) > -2) continue;
         const w = 0.3 + rnd(i + 5) * 0.5;
         L.push(compose([x, 0.1 + w * 0.15, z], a, [w, w * 0.4, w * 0.7])); C.push(['#5a5249', '#6d6458', '#4d463f'][i % 3]);
       }
@@ -417,16 +522,15 @@ export default function make(K) {
       <group>
         <Courtyard />
         <Perimeter />
-        <Terraces />
         {/* roofless room outlines: irregular, off-axis, at differing heights */}
         <Room x={-21} z={-11.5} w={9} d={6} seed={1} rot={0.13} h={1.0} doors={[['s', 0.4, 1.1], ['e', 0.5, 1.0]]} />
         <Room x={-9} z={-10} w={11} d={5} seed={3} rot={-0.09} doors={[['s', 1, 1.2], ['w', 0, 1.0]]} h={1.2} />
         <Room x={-23} z={-0.5} w={5} d={5.4} seed={5} rot={0.17} doors={[['e', 0.8, 1.1]]} h={0.8} />
         <Room x={-17.5} z={2.5} w={5.2} d={4} seed={6} rot={-0.12} doors={[['s', 0.5, 1.1]]} h={0.7} />
         <Room x={-10} z={-0.8} w={5.5} d={5.4} seed={7} rot={0.08} doors={[['n', -0.4, 1.1]]} h={0.95} />
-        <Room x={23} z={-1.5} w={5} d={5} seed={8} rot={-0.15} doors={[['w', 0, 1.1]]} h={0.7} />
-        <Room x={25} z={14.5} w={7} d={5.6} seed={9} rot={0.1} doors={[['n', 0, 1.2], ['w', 0.2, 1.1]]} h={1.1} />
-        <Room x={-3.5} z={16.5} w={6.5} d={4.4} seed={11} rot={-0.14} doors={[['w', 0, 1.1], ['n', 1, 1.0]]} h={0.65} />
+        <Room x={24} z={-2.5} w={5} d={5} seed={8} rot={-0.15} doors={[['w', 0, 1.1]]} h={0.7} />
+        <Room x={22} z={7.5} w={6.6} d={5.4} seed={9} rot={0.1} doors={[['n', 0, 1.2], ['w', 0.2, 1.1]]} h={1.1} />
+        <Room x={-8} z={14.5} w={6.5} d={4.4} seed={11} rot={-0.14} doors={[['w', 0, 1.1], ['n', 1, 1.0]]} h={0.65} />
         <StepWall x={-1} z={-4} len={9} rot={0.07} />
         <StepWall x={15} z={6} len={7} rot={-0.14} color={STONE3} />
         {/* stepped platform blocks */}
@@ -435,20 +539,19 @@ export default function make(K) {
         <Platform x={-21} z={10.5} w={5.6} d={3.2} h={0.6} tiers={1} color={STONE3} rot={0.06} />
         <Platform x={18} z={-4.5} w={3.6} d={2.6} h={0.55} tiers={1} rot={0.2} />
         <Shell />
-        <KotGhar />
+        <KotGhar x={20} z={-10} />
         <Well />
         <Taps />
-        <Shrine />
+        <Shrine x={13} z={11} />
         {/* a few small trees at the wall edge */}
-        <Tree p={[-HX - 1.8, GY, -6]} s={1.6} kind="broad" />
-        <Tree p={[-HX - 2.2, GY, 8]} s={1.3} kind="broad" />
-        <Tree p={[HX + 2.5, GY, -2]} s={1.5} kind="broad" />
-        <Tree p={[HX + 2.0, GY, 12]} s={1.2} kind="broad" />
-        <Tree p={[6, GY, -HZ - 2.5]} s={1.4} kind="broad" />
+        <Tree p={[-34, terr(-34, -4), -4]} s={1.5} kind="broad" />
+        <Tree p={[-36, terr(-36, 12), 12]} s={1.3} kind="broad" />
+        <Tree p={[37, terr(37, -2), -2]} s={1.5} kind="broad" />
+        <Tree p={[22, terr(22, 21), 21]} s={1.2} kind="broad" />
         <Inst geo={unitBox} mat={whiteMat} mats={rubble.L} colors={rubble.C} cast />
         {/* gate lantern (lit at dusk) */}
-        <Ball rad={0.16} p={[GATE_X + 1.8, 3.6, HZ + 1.2]} m={plain(M, '#ffe2a0', { emissive: '#ffb860', emissiveIntensity: 1.2 })} />
-        <Frame s={[52, 6, 32]} p={[0, 1.5, 0]} />
+        <Ball rad={0.16} p={[GX + 2.4, 4.9, 25.4]} m={plain(M, '#ffe2a0', { emissive: '#ffb860', emissiveIntensity: 1.2 })} />
+        <Frame s={[50, 9, 34]} p={[0, 3.2, 0]} />
       </group>
     );
   }
@@ -543,8 +646,8 @@ export default function make(K) {
       for (let i = 0; i < 4200; i++) {
         const x = X0 + 4 + rnd(i * 1.37) * (X1 - X0 - 8), z = Z0 + 4 + rnd(i * 2.91 + 3) * (Z1 - Z0 - 8);
         const d = rectDist(x, z);
-        if (d < 12) continue;
-        if (rnd(i + 77) > 0.3 + 0.7 * sstep(12, 48, d)) continue;
+        if (d < 16) continue;
+        if (rnd(i + 77) > 0.12 + 0.5 * sstep(14, 60, d)) continue;
         if (nz2(x * 0.2 + 3, z * 0.2) < -0.5 && d < 26) continue; // open dry-grass clearings
         let near = false; for (let k = 0; k < PATH.length; k++) if (Math.hypot(x - PATH[k][0], z - PATH[k][1]) < 4) { near = true; break; }
         if (near) continue;
@@ -603,7 +706,6 @@ export default function make(K) {
         <Inst geo={unitCone} mat={farMat} mats={crest.L} colors={crest.C} />
         <Inst geo={unitCone} mat={farMat} mats={trees.cone} colors={trees.cc} cast />
         <Inst geo={unitBall} mat={farMat} mats={trees.ball} colors={trees.bc} cast />
-        <Inst geo={unitBox} mat={whiteMat} mats={stones.L} colors={stones.C} />
         {/* Ganesh shrine beside the path below the fort */}
         <group position={[-17, gy, 36]} rotation={[0, 0.5, 0]}>
           <StoneBox s={[2.0, 0.4, 2.0]} p={[0, 0.0, 0]} color={STONE2} tile={2} />

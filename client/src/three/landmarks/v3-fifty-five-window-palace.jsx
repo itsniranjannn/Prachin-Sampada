@@ -10,8 +10,8 @@ export default function make(K) {
   const FZ = D / 2; // facade plane
 
   const GL = { emissive: '#6a3a28', emissiveIntensity: 0.1 };
-  const BRK = '#eba088';
-  const TILE = { color: '#e07a52', emissive: '#4a1c10', emissiveIntensity: 0.1 };
+  const BRK = '#f2bc9e';
+  const TILE = { color: '#d98a5c', emissive: '#3a1a10', emissiveIntensity: 0.1 };
   const unitBox = new THREE.BoxGeometry(1, 1, 1);
   const mk = (pts) => {
     const s = new THREE.Shape();
@@ -78,8 +78,8 @@ export default function make(K) {
     const leafM = M.plain('#6b4a2e', { roughness: 0.85 });
     const rafM = M.plain('#4a2c18', { roughness: 0.9 });
     const brick = M.mat('brick', 10, 3.2, { color: BRK, ...GL });
-    const brickB = M.plain('#a85e48', { roughness: 0.95 });
-    const brickP = M.plain('#d8a890', { roughness: 0.95 });
+    const brickB = M.plain('#b87258', { roughness: 0.95 });
+    const brickP = M.plain('#e6bea6', { roughness: 0.95 });
     const brickPl = M.mat('brick', 10, 0.4, { color: '#d88a6e', ...GL });
     const tile = M.mat('roof', 10, 5, TILE);
     const courseM = M.plain('#7a3220', { roughness: 0.9 });
@@ -89,7 +89,7 @@ export default function make(K) {
 
     const W2 = L + 2.0;
     const D2 = D + 2.0;
-    const roofH = 0.95;
+    const roofH = 1.45;
     const rg = useMemo(() => hipGeometry(W2, D2, roofH), [W2, D2]);
 
     const bays = [-6.1, -3.2, -0.1, 3.1, 5.9];
@@ -318,7 +318,7 @@ export default function make(K) {
           <group position={[0, 0.08, 0]}><Lion m={M.stone} /></group>
         </group>
         {people.map(([p, c, s, r], i) => <Person key={i} p={p} c={c} s={s} r={r} />)}
-        <Frame s={[19.6, 7.0, 6.0]} p={[-1.1, 3.5, 1.0]} />
+        <Frame s={[18.4, 6.8, 4.6]} p={[-0.6, 3.4, 0.9]} />
       </group>
     );
   }
@@ -330,9 +330,9 @@ export default function make(K) {
     const dark = M.plain('#2d211a');
     const wood = M.plain('#4a3322');
     const lat = M.plain('#1c120b');
-    const cols = ['#cf8458', '#e09a76', '#d58e66', '#e6a885', '#c88a64', '#d9996f'];
+    const cols = ['#c8a088', '#d9b89c', '#cfa07a', '#e4d2bc', '#b9937c', '#d4aa88'];
     const mats = cols.map((c) => M.mat('brick', 2, 2, { color: c, ...GL }));
-    const roofs = ['#b0553a', '#bf6040', '#a34a32', '#c96a46'].map((c) => M.mat('roof', 2, 2, { color: c, emissive: '#3a1a10', emissiveIntensity: 0.1 }));
+    const roofs = ['#9a6048', '#a86a48', '#8a5a44', '#b27050'].map((c) => M.mat('roof', 2, 2, { color: c, emissive: '#3a1a10', emissiveIntensity: 0.1 }));
     const SH = 1.3;
     const win = useMemo(() => {
       const out = [];
@@ -452,10 +452,10 @@ export default function make(K) {
 
   function Env() {
     const M = useM();
-    const paving = M.mat('herring', 30, 22, { color: '#f0c8a8', emissive: '#8a6a52', emissiveIntensity: 0.2 });
+    const paving = M.mat('herring', 30, 22, { color: '#ecdcc8', emissive: '#7a6a58', emissiveIntensity: 0.2 });
     const strip = M.plain('#7e7a72', { roughness: 0.95 });
     const brickStrip = M.plain('#b87050', { roughness: 0.95 });
-    const ground = M.plain('#a08878', { roughness: 1, emissive: '#3a3028', emissiveIntensity: 0.2 });
+    const ground = M.plain('#9a9082', { roughness: 1, emissive: '#3a3630', emissiveIntensity: 0.2 });
     const edge = M.plain('#b09480', { roughness: 1 });
     const haze = M.plain('#b8b2a8', { roughness: 1, emissive: '#6a665e', emissiveIntensity: 0.4 });
     const houses = useMemo(() => {

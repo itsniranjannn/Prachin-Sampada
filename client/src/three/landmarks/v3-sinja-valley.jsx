@@ -54,7 +54,7 @@ export default function make(K) {
   const C = (h) => new THREE.Color(h);
   const COL = {
     green: C('#5c9e32'), green2: C('#58823a'), gold: C('#cfae48'), bund: C('#4a3e26'), path: C('#9a9460'), riser: C('#8a7650'),
-    ochre: C('#a88f6a'), tan: C('#8a6f4c'), stub: C('#b09a58'), red: C('#8a5a3e'), rock: C('#7f705c'), snow: C('#f1f3f6'), gravel: C('#a9a392'), bed: C('#9a9c8e'),
+    ochre: C('#97805a'), tan: C('#7a5f3f'), stub: C('#b09a58'), red: C('#8a5a3e'), rock: C('#7f705c'), snow: C('#f1f3f6'), gravel: C('#a9a392'), bed: C('#9a9c8e'),
   };
 
   /* ---------- small helpers ---------- */
@@ -114,8 +114,8 @@ export default function make(K) {
         <Rock p={[0.55, 0.14, 0.45]} s={[0.8, 0.4, 0.7]} c="#9a9488" />
         <group rotation={[lean[0], 0, lean[1]]}>
           <Cyl rt={0.46} rb={0.52} h={0.5} p={[0, 0.55, 0]} m={wood} seg={10} />
-          <Cyl rt={0.4} rb={0.46} h={3.0} p={[0, 2.3, 0]} m={wood} seg={10} />
-          {[0.9, 1.35, 1.8, 2.25, 2.7].map((y, i) => <Cyl key={i} rt={0.5 - i * 0.02} rb={0.5 - i * 0.02} h={0.1} p={[0, y, 0]} m={ring} seg={10} />)}
+          <Cyl rt={0.3} rb={0.36} h={3.0} p={[0, 2.3, 0]} m={wood} seg={10} />
+          {[0.9, 1.35, 1.8, 2.25, 2.7].map((y, i) => <Cyl key={i} rt={0.38 - i * 0.015} rb={0.38 - i * 0.015} h={0.1} p={[0, y, 0]} m={ring} seg={10} />)}
           <Cyl rt={0.42} rb={0.42} h={0.09} p={[0, 1.62, 0]} m={paint} seg={10} />
           <Cyl rt={0.41} rb={0.41} h={0.07} p={[0, 1.54, 0]} m={blue} seg={10} />
           {/* carved face block just below the figure */}
@@ -126,7 +126,7 @@ export default function make(K) {
           <Box s={[0.3, 0.06, 0.05]} p={[0, 3.3, 0.31]} m={eye} />
           <Cyl rt={0.5} rb={0.42} h={0.18} p={[0, 3.9, 0]} m={ring} seg={10} />
           <Cyl rt={0.3} rb={0.34} h={0.22} p={[0, 4.1, 0]} m={wood} seg={10} />
-          <Figure p={[0, 4.2, 0]} dark={false} s={1.7} />
+          <Figure p={[0, 4.2, 0]} dark={false} s={1.45} />
           {board && <group position={[-0.1, 1.25, 0.5]}><Box s={[0.95, 0.36, 0.05]} m={paint} /><Box s={[0.95, 0.07, 0.06]} p={[0, 0.1, 0]} m={blue} /></group>}
         </group>
       </group>
@@ -142,7 +142,7 @@ export default function make(K) {
       <group position={p}>
         <Rock p={[0, 0.18, 0]} s={[1.3, 0.5, 1.3]} c="#948f84" />
         <group rotation={[lean[0], 0, lean[1]]}>
-          {Array.from({ length: 15 }, (_, i) => <Cyl key={i} rt={i % 2 ? 0.31 : 0.37} rb={i % 2 ? 0.31 : 0.37} h={0.2} p={[0, 0.45 + i * 0.2, 0]} m={i % 2 ? b : a} seg={10} />)}
+          {Array.from({ length: 15 }, (_, i) => <Cyl key={i} rt={i % 2 ? 0.27 : 0.33} rb={i % 2 ? 0.27 : 0.33} h={0.2} p={[0, 0.45 + i * 0.2, 0]} m={i % 2 ? b : a} seg={10} />)}
           <Ball rad={0.33} p={[0, 3.55, 0]} sc={[1, 0.8, 1]} m={a} />
         </group>
       </group>
@@ -220,7 +220,7 @@ export default function make(K) {
         <Stele p={[5.4, 0, -2.4]} h={2.7} lean={0.15} leanX={0.05} ry={0.4} />
         {rocks.map((r, i) => <Rock key={i} {...r} />)}
         {[[-3.6, -6.5], [3.9, -6.4], [-3.8, 5.6], [4.6, 5.8]].map(([x, z], i) => <group key={i} position={[x, 0, z]}><Ball rad={0.55} p={[0, 0.35, 0]} sc={[1.3, 0.8, 1.1]} m={i % 2 ? bush : bush2} /><Ball rad={0.4} p={[0.5, 0.25, 0.2]} m={bush2} /></group>)}
-        <Frame s={[14, 17, 16]} p={[0.4, 7, -0.6]} />
+        <Frame s={[8, 8.2, 11]} p={[0.4, 3.6, -1.2]} />
       </group>
     );
   }

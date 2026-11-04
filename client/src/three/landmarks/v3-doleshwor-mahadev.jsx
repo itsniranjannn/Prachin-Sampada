@@ -70,6 +70,9 @@ export default function make(K) {
         <Cyl rt={0.12} rb={0.18} h={0.42} p={[0, 0.5, 0.3]} r={[0.8, 0, 0]} m={body} seg={10} />
         <Ball rad={0.15} sc={[0.85, 0.9, 1.25]} p={[0, 0.6, 0.52]} m={body} />
         <Ball rad={0.09} sc={[1.1, 0.85, 1.1]} p={[0, 0.5, 0.68]} m={body} />
+        <Ball rad={0.13} sc={[0.8, 1.1, 1.0]} p={[0, 0.66, -0.02]} m={body} />
+        <Ball rad={0.17} sc={[1.2, 0.8, 1.1]} p={[0, 0.5, 0.74]} m={body} />
+        {[-1, 1].map((k) => <Ball key={`e${k}`} rad={0.06} sc={[1.5, 0.5, 0.9]} p={[k * 0.2, 0.7, 0.44]} m={body} />)}
         {[-1, 1].map((k) => (
           <group key={k}>
             <mesh position={[k * 0.11, 0.76, 0.47]} rotation={[0, 0, k * -0.9]} material={horn} castShadow><coneGeometry args={[0.03, 0.2, 6]} /></mesh>
@@ -175,7 +178,7 @@ export default function make(K) {
     const mari = M.plain('#f09a1a', { roughness: 0.8 });
     const mari2 = M.plain('#ffd23a', { roughness: 0.8 });
     return (
-      <group position={p} scale={1.1}>
+      <group position={p} scale={1.4}>
         <Box s={[W + 0.7, 0.16, W + 0.7]} p={[0, 0.08, 0]} m={M.plain('#c9c1b0')} />
         <Box s={[1.3, 0.08, 0.4]} p={[0, 0.04, W / 2 + 0.55]} m={M.plain('#bdb5a4')} />
         <Box s={[W - 0.2, 0.02, W - 0.2]} p={[0, 0.17, 0]} m={M.plain('#f4f3ee')} cast={false} />
@@ -215,7 +218,7 @@ export default function make(K) {
     const x0 = -7; const x1 = 7; const z0 = -7.8; const z1 = -4.4; const ha = 2.9; const hb = 2.4; const n = 9; const lift = 0.8;
     const D = z1 - z0; const th = Math.atan2(ha - hb, D); const span = Math.hypot(D, ha - hb);
     const xs = Array.from({ length: n + 1 }, (_, i) => x0 + ((x1 - x0) * i) / n);
-    const bay = [-1.6, 2.2];
+    const bay = [1.0, 5.4];
     return (
       <group>
         {xs.map((x, i) => (
@@ -378,25 +381,25 @@ export default function make(K) {
 
         {/* shed behind, the sanctum in its open bay, the big Nandi on a two-step plinth in front of both */}
         <Shed />
-        <Sanctum p={[0.3, 0, -6.0]} />
-        <Box s={[2.7, 0.7, 4.0]} p={[1.8, 0.35, -0.5]} m={M.plain('#8f3426', { roughness: 0.95 })} />
-        <Box s={[2.35, 0.6, 3.6]} p={[1.8, 1.0, -0.5]} m={M.plain('#9c3a2c', { roughness: 0.95 })} />
-        <Box s={[2.55, 0.08, 3.8]} p={[1.8, 1.34, -0.5]} m={M.plain('#b9604c', { roughness: 0.9 })} />
+        <Sanctum p={[3.2, 0, -6.0]} />
+        <Box s={[2.7, 0.7, 4.0]} p={[-0.4, 0.35, -0.5]} m={M.plain('#8f3426', { roughness: 0.95 })} />
+        <Box s={[2.35, 0.6, 3.6]} p={[-0.4, 1.0, -0.5]} m={M.plain('#9c3a2c', { roughness: 0.95 })} />
+        <Box s={[2.55, 0.08, 3.8]} p={[-0.4, 1.34, -0.5]} m={M.plain('#b9604c', { roughness: 0.9 })} />
         {[[-0.9, 0.3], [-0.3, 0.45], [0.35, 0.35], [0.9, 0.5]].map(([dx, hh], i) => (
-          <Box key={`sf${i}`} s={[0.1, hh, 0.02]} p={[1.8 + dx, 0.7 - hh / 2, 1.52]} m={M.plain('#b5201a')} cast={false} />
+          <Box key={`sf${i}`} s={[0.1, hh, 0.02]} p={[-0.4 + dx, 0.7 - hh / 2, 1.52]} m={M.plain('#b5201a')} cast={false} />
         ))}
         {[[-0.8, 0.35], [0.0, 0.5], [0.7, 0.3]].map(([dz, hh], i) => (
-          <Box key={`sg${i}`} s={[0.02, hh, 0.12]} p={[3.16, 1.3 - hh / 2, -0.5 + dz * 1.4]} m={M.plain('#b5201a')} cast={false} />
+          <Box key={`sg${i}`} s={[0.02, hh, 0.12]} p={[0.96, 1.3 - hh / 2, -0.5 + dz * 1.4]} m={M.plain('#b5201a')} cast={false} />
         ))}
         {[[-0.7, 0.3], [0.5, 0.4]].map(([dx, hh], i) => (
-          <Box key={`sh${i}`} s={[0.1, hh, 0.02]} p={[1.8 + dx, 1.3 - hh / 2, 1.3]} m={M.plain('#b5201a')} cast={false} />
+          <Box key={`sh${i}`} s={[0.1, hh, 0.02]} p={[-0.4 + dx, 1.3 - hh / 2, 1.3]} m={M.plain('#b5201a')} cast={false} />
         ))}
-        <Box s={[0.9, 0.1, 0.02]} p={[1.8, 0.4, 1.51]} m={M.gold} cast={false} />
-        <NandiFig p={[1.8, 1.34, -0.4]} r={PI} s={3.2} body={nandiGrey} horn={horn} red={redM} />
-        <NandiFig p={[0.5, 0, 2.0]} r={PI * 0.9} s={0.6} body={orangeB} horn={horn} red={redM} />
-        <NandiFig p={[3.1, 0, 2.0]} r={PI * 1.1} s={0.6} body={M.plain('#8a4a2a')} horn={horn} red={redM} />
+        <Box s={[0.9, 0.1, 0.02]} p={[-0.4, 0.4, 1.51]} m={M.gold} cast={false} />
+        <NandiFig p={[-0.4, 1.34, -0.4]} r={PI + 0.25} s={3.5} body={nandiGrey} horn={horn} red={redM} />
+        <NandiFig p={[-1.6, 0, 2.0]} r={PI * 0.9} s={0.6} body={orangeB} horn={horn} red={redM} />
+        <NandiFig p={[0.7, 0, 2.0]} r={PI * 1.1} s={0.6} body={M.plain('#8a4a2a')} horn={horn} red={redM} />
         <Trishul p={[3.8, 0, 1.6]} h={2.0} />
-        <Trishul p={[-0.2, 0, 1.4]} h={1.7} />
+        <Trishul p={[-2.7, 0, 1.2]} h={1.7} />
         {/* gold Nandi on a red base, front-right where the camera sees it */}
         <Box s={[1.1, 0.18, 1.5]} p={[6.2, 0.09, -0.6]} m={red1} />
         <NandiFig p={[6.2, 0.18, -0.85]} r={0.5} s={1.2} body={goldB} horn={goldB} red={redM} />
@@ -411,11 +414,11 @@ export default function make(K) {
         {[[-1, -1], [1, -1], [-1, 1], [1, 1]].map(([a, b], i) => <Box key={i} s={[0.06, 0.75, 0.06]} p={[5 + a * 0.47, 0.4, 3.6 + b * 0.4]} m={M.plain('#b8a890')} cast={false} />)}
         <Person p={[5.8, 0, 5.2]} c="#d4252f" /><Person p={[2.4, 0, 3.2]} c="#2f7d5a" s={0.95} />
         {/* copper-orange chhatra on a tall pole, yellow-canopied kiosk */}
-        <Box s={[0.3, 0.12, 0.3]} p={[-1.3, 0.06, 0.5]} m={M.plain('#8a847a')} />
-        <Cyl rt={0.022} h={2.35} p={[-1.3, 1.2, 0.5]} m={M.plain('#7a6a4a', { metalness: 0.5 })} seg={8} />
-        <mesh position={[-1.3, 2.4, 0.5]} material={cu} castShadow><coneGeometry args={[0.55, 0.3, 18]} /></mesh>
-        <Cyl rt={0.55} h={0.05} p={[-1.3, 2.26, 0.5]} m={M.plain('#e8a040', { metalness: 0.5 })} seg={18} />
-        <Ball rad={0.05} p={[-1.3, 2.6, 0.5]} m={M.gold} />
+        <Box s={[0.3, 0.12, 0.3]} p={[2.8, 0.06, 1.8]} m={M.plain('#8a847a')} />
+        <Cyl rt={0.022} h={2.35} p={[2.8, 1.2, 1.8]} m={M.plain('#7a6a4a', { metalness: 0.5 })} seg={8} />
+        <mesh position={[2.8, 2.4, 1.8]} material={cu} castShadow><coneGeometry args={[0.55, 0.3, 18]} /></mesh>
+        <Cyl rt={0.55} h={0.05} p={[2.8, 2.26, 1.8]} m={M.plain('#e8a040', { metalness: 0.5 })} seg={18} />
+        <Ball rad={0.05} p={[2.8, 2.6, 1.8]} m={M.gold} />
         <group position={[-3.4, 0, 2.6]}>
           <Box s={[0.7, 0.6, 0.7]} p={[0, 0.3, 0]} m={M.plain('#77766f')} />
           {[[-1, -1], [1, -1], [-1, 1], [1, 1]].map(([a, b], i) => <Box key={i} s={[0.04, 0.45, 0.04]} p={[a * 0.32, 0.82, b * 0.32]} m={M.plain('#b09040')} cast={false} />)}
@@ -490,8 +493,8 @@ export default function make(K) {
           c.set('#456f3a'); c.offsetHSL(0, 0, (wob(x * 1.7, z * 1.3) - 0.2) * 0.06);
         } else if (h > 0.5) {
           c.set(h < 5 ? '#2d5530' : '#3f6b35'); c.offsetHSL(0, 0, (wob(x * 1.9, z * 1.4)) * 0.05);
-          if (wob(x * 0.9 + 5, z * 0.8) > 0.55 && h < 14) c.set('#8c7d55');
-          if (bare(x, z)) c.set(wob(x * 3, z * 3) > 0.1 ? '#8c7d55' : '#7a6c48');
+          if (wob(x * 0.9 + 5, z * 0.8) > 0.8 && h < 14) c.set('#6f7a45');
+          if (bare(x, z)) c.set(wob(x * 3, z * 3) > 0.1 ? '#6f7a45' : '#5f6a3c');
         } else { c.set('#86a052'); c.offsetHSL(0, 0, wob(x * 2.3, z * 2.1) * 0.04); }
         col[i * 3] = c.r; col[i * 3 + 1] = c.g; col[i * 3 + 2] = c.b;
       }

@@ -5,7 +5,7 @@
 export default function make(K) {
   const { useM, Box, Cyl, Ball, Roof, Gajur, Lion, Garuda, Doorway, TripleWindow, Frame, Tree, Spire, THREE, useMemo } = K;
 
-  const RED = '#c0301f', TIMBER = '#4a2c1a', TILE = '#8a4a32', BRICK = '#c8693f', WING = '#d6805a', GOLDC = '#c9a227';
+  const RED = '#c0301f', TIMBER = '#4a2c1a', TILE = '#9c5a3c', BRICK = '#d2733f', WING = '#dc8a58', GOLDC = '#c9a227';
   const SAND = '#d4b896';
   const g = {
     box: new THREE.BoxGeometry(1, 1, 1),
@@ -466,6 +466,31 @@ export default function make(K) {
         </group>
         <WhiteShrine p={[-12.4, 0, 6.4]} />
 
+        {/* the clutter of small pagodas and shrines between the pillar and the palace, as in the old photographs */}
+        <group position={[-1.5, 0, -4]}>
+          <Steps n={3} w0={3.6} dw={0.4} h={0.26} tint={SAND} />
+          <Pagoda p={[0, 0.78, 0]} w={1.7} tiers={2} wh={[1.5, 1.0]} ov={0.75} rise={0.3} taper={0.68} tile="#7a4632" brick="#c0603a" />
+        </group>
+        <group position={[4.2, 0, -2]}>
+          <Steps n={2} w0={3.0} dw={0.4} h={0.26} tint={SAND} />
+          <Pagoda p={[0, 0.52, 0]} w={1.4} tiers={3} wh={[1.2, 0.9, 0.8]} ov={0.6} rise={0.32} taper={0.72} tile="#a05c3c" brick="#d98a5a" edge="#b83020" />
+        </group>
+        <group position={[-3.6, 0, 3.4]}>
+          <Steps n={2} w0={2.8} dw={0.4} h={0.24} tint={SAND} />
+          <Pagoda p={[0, 0.48, 0]} w={1.3} tiers={2} wh={[1.1, 0.8]} ov={0.6} rise={0.34} taper={0.7} tile="#6a4034" brick="#b4563a" />
+        </group>
+        <group position={[8.5, 0, 2]}>
+          <Box s={[1.2, 0.5, 1.2]} p={[0, 0.25, 0]} m={M.stone} />
+          <Cyl rt={0.5} rb={0.5} h={0.5} p={[0, 0.75, 0]} m={M.stone} seg={10} />
+          <mesh position={[0, 1.4, 0]} material={M.gold} castShadow><coneGeometry args={[0.45, 0.8, 12]} /></mesh>
+        </group>
+        <group position={[2, 0, 7]}>
+          <Box s={[2.6, 0.3, 2.6]} p={[0, 0.15, 0]} m={M.stone} />
+          <Box s={[1.6, 1.6, 1.6]} p={[0, 1.1, 0]} m={M.plain('#8c8a86', { roughness: 0.9 })} />
+          <Roof w={2.8} d={2.8} h={0.8} y={1.9} m={M.mat('roof', 2, 2, { color: '#8a5a40' })} sag={1.2} fascia={false} />
+          <Gajur y={2.7} s={0.4} />
+        </group>
+
         <ShivaParvati p={[-15, 0, 10]} />
 
         {/* south-west corner, pushed to the edge of the view: Kasthamandap and Kumari Ghar */}
@@ -477,7 +502,7 @@ export default function make(K) {
         </group>
         <KumariGhar p={[-24, 0, 20]} r={Math.PI} />
 
-        <Frame s={[35, 12, 20]} p={[-3, 6, -3]} />
+        <Frame s={[42, 12, 20]} p={[-4, 6, -3]} />
       </group>
     );
   }
@@ -486,8 +511,8 @@ export default function make(K) {
   function Houses({ list }) {
     const M = useM();
     const win = [], fr = [];
-    const tints = ['#e0956f', '#d48a68', '#c97f5e', '#dba07c', '#bf7a58'];
-    const plas = ['#e6d4b8', '#d8c8ac'];
+    const tints = ['#e0956f', '#c9703f', '#b8603a', '#e8a878', '#a8553a', '#d98c4f'];
+    const plas = ['#efe6d2', '#e4d2a8', '#f4f0e6'];
     const out = list.map((h, i) => {
       const sh = 0.95, H = h.st * sh;
       for (let s = 1; s < h.st; s += 1) {
@@ -518,16 +543,16 @@ export default function make(K) {
       while (t < to) {
         const w = 2.6 + r() * 1.4;
         const st = stMin + Math.floor(r() * (stMax - stMin + 1));
-        const kind = n % 5 === 4 ? 1 : 0;
+        const kind = n % 4 === 3 ? 1 : 0;
         L.push({ x: ax === 'z' ? c + (r() - 0.5) * 0.5 : t + w / 2, z: ax === 'z' ? t + w / 2 : c + (r() - 0.5) * 0.5, w, d: 3.4 + r() * 0.8, ry, st, kind });
         n += 1; t += w + 0.1;
       }
     };
-    row('x', -32, -50, 50, 0, 4, 6);                 // north: rooftops behind the palace
-    row('z', -38, -30, 24, Math.PI / 2, 3, 5);       // west flank
-    row('z', 36, -30, 20, -Math.PI / 2, 3, 5);       // east flank, behind the tower
-    row('z', -46, -40, 30, Math.PI / 2, 4, 6);
-    row('z', 44, -40, 20, -Math.PI / 2, 4, 6);
+    row('x', -32, -50, 50, 0, 3, 5);                 // north: rooftops behind the palace
+    row('z', -38, -30, 10, Math.PI / 2, 3, 5);       // west flank
+    row('z', 36, -30, -8, -Math.PI / 2, 3, 5);       // east flank, behind the tower
+    row('z', -46, -40, 10, Math.PI / 2, 4, 6);
+    row('z', 44, -40, -6, -Math.PI / 2, 4, 6);
     return L;
   }
 
@@ -562,16 +587,16 @@ export default function make(K) {
       }
       return L;
     }, []);
-    const hills = [[-90, -85, 48, 13], [-35, -90, 42, 15], [20, -92, 48, 17], [70, -88, 44, 14], [112, -70, 40, 12], [-118, -50, 38, 12], [-60, -140, 70, 30], [40, -145, 80, 34]];
+    const hills = [[-90, -80, 48, 22], [-35, -88, 42, 28], [20, -90, 48, 34], [70, -86, 44, 26], [112, -70, 40, 20], [-118, -50, 38, 20], [-60, -140, 70, 44], [40, -145, 80, 50]];
     const pads = [[-7, -5, 7.4], [-16, -1, 12.4], [-8, 6.5, 6.2], [-15, 10, 9], [-29, 9, 9.2], [-7, 0.8, 4.2], [-24, 20, 8.5]];
     const trees = [[-33, -16, 1.15], [-33, -4, 1.0], [-31, 4, 1.1], [26, -2, 1.1], [27, -20, 1.2], [-26, -20, 1.2], [-9, -27, 1.2], [9, -27, 1.1], [26, 6, 1.0]];
     const lamps = [[-7, 3, 4], [-8, 3, 9], [-15, 3, 2], [-7, 4, -8], [4, 3, -9], [-2, 3, -15], [-15, 3, 12], [12, 3, -6], [-13, 3, -9], [0, 3, 8]];
     return (
       <group>
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.12, 0]} receiveShadow material={M.plain('#5f6a52', { roughness: 1 })}><circleGeometry args={[130, 40]} /></mesh>
-        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.05, 0]} receiveShadow material={M.plain('#6a665c', { roughness: 1 })}><circleGeometry args={[50, 48]} /></mesh>
-        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[-5, 0.006, -1]} receiveShadow material={M.plain('#86837a', { roughness: 1 })}><planeGeometry args={[50, 38]} /></mesh>
-        {[[-5, 18.6, 50, 1.2], [-30.6, -1, 1.2, 38], [20.6, -1, 1.2, 38]].map(([x, z, w, d], i) => (
+        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.05, 0]} receiveShadow material={M.plain('#74706a', { roughness: 1 })}><circleGeometry args={[50, 48]} /></mesh>
+        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[-5, 0.006, -1]} receiveShadow material={M.plain('#8a8680', { roughness: 1 })}><planeGeometry args={[50, 34]} /></mesh>
+        {[[-5, 16.6, 50, 1.2], [-30.6, -1, 1.2, 38], [20.6, -1, 1.2, 38]].map(([x, z, w, d], i) => (
           <mesh key={`bd${i}`} rotation={[-Math.PI / 2, 0, 0]} position={[x, 0.014, z]} receiveShadow material={M.mat('herring', w / 1.5, d / 1.5, { color: '#cf8264' })}><planeGeometry args={[w, d]} /></mesh>
         ))}
         {pads.map(([x, z, s], i) => (
@@ -585,7 +610,7 @@ export default function make(K) {
         <Inst geo={g.cap} m={M.plain('#ffffff', { roughness: 0.9 })} items={crowd} />
         <Inst geo={g.box} m={M.plain('#ffffff', { roughness: 0.9 })} items={pigeons} />
         {hills.map(([x, z, r, h], i) => (
-          <mesh key={i} position={[x, -0.5, z]} scale={[r, h, r * 0.6]} material={M.plain(i % 2 ? '#6b8872' : '#7a9680', { roughness: 1 })}><sphereGeometry args={[1, 18, 8, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
+          <mesh key={i} position={[x, -0.5, z]} scale={[r, h, r * 0.6]} material={M.plain(i % 2 ? '#4f7a55' : '#5d8a5f', { roughness: 1 })}><sphereGeometry args={[1, 18, 8, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
         ))}
         {lamps.map(([x, y, z], i) => <pointLight key={i} position={[x, y, z]} intensity={2.6} distance={18} color="#ffb35a" />)}
       </group>
