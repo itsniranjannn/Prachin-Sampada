@@ -27,10 +27,21 @@ app.use(express.json({ limit: '200kb' }));
 // admin-uploaded photos; nosniff keeps them served strictly as images
 app.use('/uploads', express.static(fileURLToPath(UPLOAD_DIR), { maxAge: '30d', immutable: true, setHeaders: (res) => res.setHeader('X-Content-Type-Options', 'nosniff') }));
 
-app.get('/api/health', ah(async (_req, res) => {
-  await query('SELECT 1');
-  res.json({ ok: true, name: 'Hamro Prachin Sampada' });
-}));
+app.get('/api/health', async (_req, res) => {
+  try {
+    await query('SELECT 1');
+    res.json({ ok: true, name: 'Hamro Prachin Sampada', host: process.env.DB_HOST || '127.0.0.1' });
+  } catch (err) {
+    res.status(503).json({
+      ok: false,
+      error: err.message,
+      code: err.code,
+      received_host: process.env.DB_HOST || '(NOT_INJECTED_OR_EMPTY)',
+      has_user: !!process.env.DB_USER,
+      has_pass: !!process.env.DB_PASSWORD,
+    });
+  }
+});
 // LAN addresses of this computer, so a hunt invite QR can point phones on the same Wi-Fi at it
 app.get('/api/net', (_req, res) => {
   const ips = Object.values(os.networkInterfaces()).flat().filter((n) => n && n.family === 'IPv4' && !n.internal).map((n) => n.address);
