@@ -1,0 +1,7 @@
+/* Shell QA fixes: mobile menu language pairing and a hover bridge for the account menu. */
+.mnav-np[lang='en'] { font-family: var(--font-body); font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; font-size: 0.74rem; }
+.mnav-links a { -webkit-tap-highlight-color: transparent; }
+.mnav-links a:active .mnav-en { color: var(--lilac-300); }
+/* the menu sits 10px below the avatar; this invisible strip keeps :hover alive while the pointer crosses the gap */
+.nav-user-menu::before { content: ''; position: absolute; left: 0; right: 0; top: -14px; height: 14px; }
+.mnav { overscroll-behavior: contain; }

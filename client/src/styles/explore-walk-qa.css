@@ -1,0 +1,23 @@
+/* Explore / Walk / Monument QA refinements */
+.walk-name { margin-top: 0.9rem; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+.walk-name .input { flex: 1 1 14rem; min-width: 0; }
+.tl-end .tl-dot { background: var(--wine-700); }
+.tl-end { padding-bottom: 0; }
+
+/* phones: keep the result list reachable inside the bottom sheet */
+@media (max-width: 760px) {
+  .explore .explore-panel { height: 56%; padding-top: 0.9rem; }
+  .explore .explore-panel-head { margin-bottom: 0.5rem; }
+  .explore .explore-panel-head h2 { font-size: 1.35rem; }
+  .explore .explore-panel .chips-row { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+  .explore .explore-panel .chips-row::-webkit-scrollbar { display: none; }
+  .explore .explore-panel .chips-row .chip { flex: none; }
+  .explore .explore-list { min-height: 8rem; }
+  .explore .explore-card .toran-img { display: none; }
+  .explore .explore-card-body { padding-right: 3.4rem; }
+  .explore .explore-card-body .close { top: 0.7rem; right: 0.7rem; }
+}
+
+/* monument page: breathing room between the 3D caption and the viewer */
+.model-head { padding-bottom: 1rem; }
+.model-head .cap { display: block; margin-top: 0.35rem; line-height: 1.5; text-align: left; }

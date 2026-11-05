@@ -1,0 +1,4325 @@
+[
+ {
+  "slug": "bhaktapur-durbar-square",
+  "name": "Bhaktapur Durbar Square",
+  "name_np": "भक्तपुर दरबार क्षेत्र",
+  "city": "Bhaktapur",
+  "zone": null,
+  "lat": 27.672194,
+  "lng": 85.428104,
+  "coord_source": "OpenStreetMap way 1192827651 (square centroid); Wikidata Q4900869 gives 27.672183, 85.428453",
+  "type": "square",
+  "religion": "Hindu",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "14th–18th century (Malla royal palace complex until 1769)",
+  "dynasty": "Malla",
+  "architecture": "Newar palace square of brick-and-timber palaces, courtyards and pagoda and shikhara temples",
+  "unesco": true,
+  "short": "Royal palace square of the Malla kings of Bhaktapur, once said to hold 99 courtyards.",
+  "story": "You are standing in Khwopa Layaku, the royal palace square of the old kingdom of Bhaktapur. Malla kings ruled from here until the Gorkhali conquest of 1769, and the square was once considered the grandest of the valley's three Durbar Squares. Look around and notice how open it feels. That space is a scar: earthquakes in 1833 and 1934 brought down palaces and temples that once crowded this ground. Tradition says the palace had ninety-nine courtyards; only about fifteen survive, mostly those tied to the goddess Taleju. Find the gilded statue of King Bhupatindra Malla on his stone column, hands folded toward the palace. Look closely at his leg and you may spot a bullet mark said to date from the battle of 1769. Ahead of you are the Palace of Fifty-five Windows and the shimmering Golden Gate. Since 1979 this square has been part of the Kathmandu Valley World Heritage Site.",
+  "legend": null,
+  "facts": [
+   "It housed the kings of Bhaktapur until the kingdom was conquered by the Gorkhalis in 1769.",
+   "Tradition says the palace once had 99 courtyards; only about 15 survive today.",
+   "The 1833 and 1934 earthquakes destroyed many buildings, which is why the square looks unusually open.",
+   "The 25 April 2015 earthquake damaged 116 historic and cultural monuments here."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1800,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 90,
+   "note": "Covered by the Bhaktapur Municipality heritage-area ticket (foreigners NPR 1,800, SAARC/China NPR 500 since 1 Jan 2023). Open-air site; no official opening hours published."
+  },
+  "earthquake_2015": "The April 2015 earthquake damaged 116 historic monuments in the square and destroyed the Vatsala Durga Temple, which has since been rebuilt.",
+  "quiz": [
+   {
+    "q": "Which dynasty ruled from Bhaktapur Durbar Square until 1769?",
+    "options": [
+     "Licchavi",
+     "Malla",
+     "Shah",
+     "Rana"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The Malla kings of Bhaktapur ruled from this palace until the Gorkhali conquest of 1769.",
+    "q_np": "सन् १७६९ सम्म भक्तपुर दरबार क्षेत्रबाट कुन वंशले शासन गर्‍यो?",
+    "options_np": [
+     "लिच्छवि",
+     "मल्ल",
+     "शाह",
+     "राणा"
+    ],
+    "explanation_np": "भक्तपुरका मल्ल राजाहरूले सन् १७६९ मा गोरखालीले जित्ने बेलासम्म यही दरबारबाट शासन गरे।"
+   },
+   {
+    "q": "According to tradition, how many courtyards did the palace once have?",
+    "options": [
+     "55",
+     "99",
+     "108",
+     "12"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The palace is traditionally said to have had 99 courtyards; only about 15 remain.",
+    "q_np": "परम्परा अनुसार दरबारमा पहिले कतिवटा चोक थिए?",
+    "options_np": [
+     "५५",
+     "९९",
+     "१०८",
+     "१२"
+    ],
+    "explanation_np": "परम्परा अनुसार दरबारमा ९९ वटा चोक थिए भनिन्छ। अहिले करिब १५ वटा मात्र बाँकी छन्।"
+   },
+   {
+    "q": "In which year was the square inscribed as part of the Kathmandu Valley World Heritage Site?",
+    "options": [
+     "1969",
+     "1979",
+     "1989",
+     "2006"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "UNESCO inscribed the Kathmandu Valley, including this square, in 1979.",
+    "q_np": "यो क्षेत्र कुन वर्ष काठमाडौँ उपत्यका विश्व सम्पदा स्थलमा सूचीकृत भयो?",
+    "options_np": [
+     "१९६९",
+     "१९७९",
+     "१९८९",
+     "२००६"
+    ],
+    "explanation_np": "युनेस्कोले सन् १९७९ मा यो क्षेत्रसहित काठमाडौँ उपत्यकालाई विश्व सम्पदामा राख्यो।"
+   },
+   {
+    "q": "Which two earthquakes are blamed for reducing the square to its present open size?",
+    "options": [
+     "1505 and 1681",
+     "1833 and 1934",
+     "1934 and 1988",
+     "1988 and 2015"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The 1833 and 1934 earthquakes destroyed many palaces and temples here.",
+    "q_np": "यो क्षेत्र अहिले यति खुला देखिनुको कारण कुन दुई भूकम्पलाई मानिन्छ?",
+    "options_np": [
+     "१५०५ र १६८१",
+     "१८३३ र १९३४",
+     "१९३४ र १९८८",
+     "१९८८ र २०१५"
+    ],
+    "explanation_np": "सन् १८३३ र १९३४ का भूकम्पले यहाँका धेरै दरबार र मन्दिर ढाले।"
+   },
+   {
+    "q": "What is the Newar name for Bhaktapur's palace square?",
+    "options": [
+     "Hanuman Dhoka",
+     "Mangal Bazaar",
+     "Khwopa Layaku",
+     "Thamel"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "Layaku means royal palace and Khwopa is the Newar name of Bhaktapur.",
+    "q_np": "भक्तपुरको दरबार क्षेत्रलाई नेवारीमा के भनिन्छ?",
+    "options_np": [
+     "हनुमान ढोका",
+     "मंगल बजार",
+     "ख्वप लायकु",
+     "ठमेल"
+    ],
+    "explanation_np": "लायकु भनेको राजदरबार हो र ख्वप भक्तपुरको नेवारी नाम हो।"
+   },
+   {
+    "q": "Whose gilded statue sits on a stone column facing the palace?",
+    "options": [
+     "Bhupatindra Malla",
+     "Prithvi Narayan Shah",
+     "Yaksha Malla",
+     "Jang Bahadur Rana"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "The gilded statue shows King Bhupatindra Malla on a stone column, hands folded toward the palace.",
+    "q_np": "ढुङ्गाको स्तम्भमाथि दरबारतिर फर्केको सुनले मोहोरिएको मूर्ति कसको हो?",
+    "options_np": [
+     "भूपतीन्द्र मल्ल",
+     "पृथ्वीनारायण शाह",
+     "यक्ष मल्ल",
+     "जंगबहादुर राणा"
+    ],
+    "explanation_np": "स्तम्भमाथि राजा भूपतीन्द्र मल्ल दरबारतिर हात जोडेर बसेका छन्।"
+   },
+   {
+    "q": "How much does a Nepali citizen pay to enter the square area?",
+    "options": [
+     "NPR 500",
+     "NPR 200",
+     "Nothing, it is free",
+     "NPR 1,800"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "The ticket is NPR 1,800 for foreigners and NPR 500 for SAARC/China visitors; Nepali citizens enter free.",
+    "q_np": "यो क्षेत्रमा नेपाली नागरिकले प्रवेश गर्न कति तिर्नुपर्छ?",
+    "options_np": [
+     "रु ५००",
+     "रु २००",
+     "केही पर्दैन, निःशुल्क छ",
+     "रु १,८००"
+    ],
+    "explanation_np": "विदेशीले रु १,८०० र सार्क/चिनियाँले रु ५०० तिर्छन्। नेपाली नागरिकलाई निःशुल्क छ।"
+   },
+   {
+    "q": "Most of the surviving courtyards are linked to which goddess?",
+    "options": [
+     "Kumari",
+     "Saraswati",
+     "Annapurna",
+     "Taleju"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "Of the roughly fifteen courtyards that survive, many are tied to the goddess Taleju.",
+    "q_np": "बाँकी रहेका धेरैजसो चोक कुन देवीसँग जोडिएका छन्?",
+    "options_np": [
+     "कुमारी",
+     "सरस्वती",
+     "अन्नपूर्ण",
+     "तलेजु"
+    ],
+    "explanation_np": "बाँकी करिब १५ वटा चोकमध्ये धेरै तलेजु भवानीसँग जोडिएका छन्।"
+   },
+   {
+    "q": "Which temple on the square was destroyed in 2015 and has since been rebuilt?",
+    "options": [
+     "Nyatapola Temple",
+     "Vatsala Durga Temple",
+     "Dattatreya Temple",
+     "Bhairavnath Temple"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The April 2015 earthquake destroyed the Vatsala Durga Temple, which has since been rebuilt.",
+    "q_np": "सन् २०१५ को भूकम्पमा यो क्षेत्रको कुन मन्दिर ढल्यो र अहिले फेरि बनिसकेको छ?",
+    "options_np": [
+     "न्यातपोल मन्दिर",
+     "वत्सला दुर्गा मन्दिर",
+     "दत्तात्रेय मन्दिर",
+     "भैरवनाथ मन्दिर"
+    ],
+    "explanation_np": "सन् २०१५ अप्रिलको भूकम्पले वत्सला दुर्गा मन्दिर ढाल्यो। त्यो अहिले फेरि बनिसकेको छ।"
+   },
+   {
+    "q": "The bullet mark said to be on the king statue's leg dates from the battle of which year?",
+    "options": [
+     "1934",
+     "1833",
+     "1769",
+     "1505"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Tradition links the bullet mark on Bhupatindra Malla's statue to the battle of 1769, when the Gorkhalis conquered Bhaktapur.",
+    "q_np": "राजाको मूर्तिको खुट्टामा देखिने गोलीको दाग कुन वर्षको युद्धको भनिन्छ?",
+    "options_np": [
+     "१९३४",
+     "१८३३",
+     "१७६९",
+     "१५०५"
+    ],
+    "explanation_np": "भनिन्छ, भूपतीन्द्र मल्लको मूर्तिको खुट्टाको दाग सन् १७६९ को युद्धको हो, जतिबेला गोरखालीले भक्तपुर जिते।"
+   }
+  ],
+  "clues": [
+   "Ninety-nine courtyards were once counted here; earthquakes left only a handful.",
+   "A gilded king on a stone pillar still faces the palace he served, a battle scar on his leg.",
+   "I am built of brick and carved timber: palaces, courtyards, pagoda roofs and stone-spired shrines all facing one wide open ground.",
+   "Kings of the Malla line ruled from my palace until a conqueror from Gorkha arrived in 1769.",
+   "Earthquakes in 1833 and 1934 knocked down so many buildings that I now feel strangely wide and open.",
+   "Beside me stand a palace with fifty-five windows and a shimmering golden gate; a Durga temple here was rebuilt after 2015."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bhaktapur_Durbar_Square",
+   "https://whc.unesco.org/en/list/121/",
+   "https://www.wikidata.org/wiki/Q4900869",
+   "https://www.openstreetmap.org/way/1192827651",
+   "https://www.bhaktapur.com/entry-fees-of-the-heritage-sites-in-nepal/"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/View_of_Bhaktapur_Durbar_Square.jpg/1280px-View_of_Bhaktapur_Durbar_Square.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:View_of_Bhaktapur_Durbar_Square.jpg",
+   "author": "Bikram Pratap Singh",
+   "license": "CC BY-SA 3.0",
+   "width": 1280,
+   "height": 849,
+   "verified_http": 200,
+   "bytes": 489982
+  },
+  "province": "Bagmati",
+  "district": "Bhaktapur",
+  "festivals": [
+   {
+    "name": "Bisket Jatra",
+    "name_np": "बिस्केट जात्रा",
+    "month": "Chaitra",
+    "note": "Bhaktapur's New Year festival; Bhairav's chariot is pulled around Taumadhi",
+    "note_np": "भक्तपुरको नयाँ वर्षको पर्व। भैरवको रथ तौमढी वरिपरि तानिन्छ।"
+   },
+   {
+    "name": "Gai Jatra",
+    "name_np": "गाईजात्रा",
+    "month": "Bhadra",
+    "note": "Families who lost someone that year parade through the squares in costume",
+    "note_np": "त्यस वर्ष आफन्त गुमाएका परिवारले भेषभूषा लगाएर चोकहरूमा घुम्छन्।"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bhaktapur_Durbar_Square_during_Gai_Jatra.jpg/1280px-Bhaktapur_Durbar_Square_during_Gai_Jatra.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur_Durbar_Square_during_Gai_Jatra.jpg",
+    "author": "Manish2mdr",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Bhaktapur Durbar Square during Gai Jatra"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Bhaktapur_Durbar_Square_2014.jpg/1280px-Bhaktapur_Durbar_Square_2014.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur_Durbar_Square_2014.jpg",
+    "author": "Avista",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Bhaktapur Durbar Square, 2014"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bhaktapur_Durbar_SQ_before_april_earthquake.JPG/1280px-Bhaktapur_Durbar_SQ_before_april_earthquake.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur_Durbar_SQ_before_april_earthquake.JPG",
+    "author": "Bhupengrg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The square before the April 2015 earthquake"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/BDS_groundshot.jpg/1280px-BDS_groundshot.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:BDS_groundshot.jpg",
+    "author": "Kp217c",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Ground-level view across the square"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Bhaktapur_Durbar_Square_2018-09_%281%29.jpg/1280px-Bhaktapur_Durbar_Square_2018-09_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur_Durbar_Square_2018-09_(1).jpg",
+    "author": "Nirmal Dulal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Bhaktapur Durbar Square, 2018"
+   }
+  ],
+  "model": {
+   "kind": "square",
+   "tiers": 3,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    200,
+    80
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#9c8a6e",
+    "#c9a227"
+   ],
+   "features": [
+    "golden-door",
+    "carved-windows",
+    "carved-struts",
+    "stone-pillar",
+    "bell",
+    "lion-statues",
+    "gilded-pinnacle"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "newar-houses"
+   ],
+   "notes": "Wide open brick plaza: long palace with 55 carved windows and a Golden Gate, a king on a pillar, stone Vatsala temple"
+  },
+  "short_np": "भक्तपुरका मल्ल राजाहरूको राजदरबार क्षेत्र, जहाँ ९९ वटा चोक थिए भनिन्छ।",
+  "story_np": "तपाईं ख्वप लायकु, अर्थात् पुरानो भक्तपुर राज्यको राजदरबार क्षेत्रमा हुनुहुन्छ। सन् १७६९ मा गोरखालीले जित्ने बेलासम्म मल्ल राजाहरूले यहीँबाट शासन गरे। उपत्यकाका तीन दरबार क्षेत्रमध्ये यो सबैभन्दा भव्य मानिन्थ्यो। वरिपरि हेर्नुहोस्, कत्ति खुला छ! त्यो खाली ठाउँ भूकम्पले छोडेको घाउ हो। सन् १८३३ र १९३४ का भूकम्पले यहाँ भीडभाड गरेर बसेका दरबार र मन्दिर ढाले। परम्परा अनुसार दरबारमा ९९ वटा चोक थिए, अहिले करिब १५ वटा मात्र बाँकी छन्, धेरैजसो तलेजु भवानीसँग जोडिएका। ढुङ्गाको स्तम्भमाथि दरबारतिर हात जोडेर बसेका राजा भूपतीन्द्र मल्लको सुनले मोहोरिएको मूर्ति खोज्नुहोस्। उनको खुट्टा ध्यान दिएर हेर्नुभयो भने सन् १७६९ को युद्धमा लागेको भनिएको गोलीको दाग भेट्न सक्नुहुन्छ। अगाडि पचपन्न झ्याले दरबार र झिलिमिली सुनढोका छन्। सन् १९७९ देखि यो क्षेत्र काठमाडौँ उपत्यका विश्व सम्पदा स्थलको भाग हो।",
+  "legend_np": null,
+  "facts_np": [
+   "सन् १७६९ मा गोरखालीले राज्य जित्ने बेलासम्म यहाँ भक्तपुरका राजाहरू बस्थे।",
+   "परम्परा अनुसार दरबारमा ९९ वटा चोक थिए, अहिले करिब १५ वटा मात्र बाँकी छन्।",
+   "सन् १८३३ र १९३४ का भूकम्पले धेरै भवन ढाले, त्यसैले यो क्षेत्र अरूभन्दा बढी खुला देखिन्छ।",
+   "सन् २०१५ अप्रिल २५ को भूकम्पले यहाँका ११६ ऐतिहासिक तथा सांस्कृतिक स्मारकमा क्षति पुर्‍यायो।"
+  ],
+  "quake_np": "सन् २०१५ अप्रिलको भूकम्पले यहाँका ११६ ऐतिहासिक स्मारकमा क्षति पुर्‍यायो र वत्सला दुर्गा मन्दिर ढल्यो। त्यो मन्दिर अहिले फेरि बनिसकेको छ।",
+  "clues_np": [
+   "यहाँ पहिले उनान्सय वटा चोक गनिन्थे। भूकम्पपछि थोरै मात्र बाँकी छन्।",
+   "ढुङ्गाको स्तम्भमाथि सुनौलो राजा आफूले सेवा गरेको दरबारतिरै फर्केर बसेका छन्, खुट्टामा युद्धको दाग बोकेर।",
+   "म इँटा र कुँदिएको काठले बनेको हुँ। दरबार, चोक, पगोडा शैलीका र शिखर शैलीका मन्दिर सबै एउटै फराकिलो खुला ठाउँतिर फर्केका छन्।",
+   "मेरो दरबारबाट मल्ल वंशका राजाहरूले शासन गरे, सन् १७६९ मा गोरखाबाट विजेता आइपुगेसम्म।",
+   "सन् १८३३ र १९३४ का भूकम्पले यति धेरै भवन ढाले कि अहिले म अचम्मै फराकिलो र खुला देखिन्छु।",
+   "मेरै छेउमा पचपन्न झ्याल भएको दरबार र झिलिमिली सुनौलो ढोका छन्। सन् २०१५ पछि यहाँको एउटा दुर्गा मन्दिर फेरि बनाइयो।"
+  ]
+ },
+ {
+  "slug": "fifty-five-window-palace",
+  "name": "Palace of Fifty-five Windows",
+  "name_np": "पचपन्न झ्याले दरबार",
+  "city": "Bhaktapur",
+  "zone": "bhaktapur-durbar-square",
+  "lat": 27.672158,
+  "lng": 85.428557,
+  "coord_source": "Wikidata Q13182983 (Pachpanna Jhyale Darbar); OSM node 11365076869 within 6 m",
+  "type": "palace",
+  "religion": "Secular",
+  "deity": null,
+  "built_year": 1708,
+  "built_century_text": "Completed 1708 under Bhupatindra Malla, replacing a 15th-century palace",
+  "dynasty": "Malla",
+  "architecture": "Brick-and-timber Newar palace with a long row of carved wooden windows",
+  "unesco": true,
+  "short": "Bhupatindra Malla's palace famed for its carved windows and rare Malla-era murals.",
+  "story": "Raise your eyes to the long brick façade in front of you and try counting the carved wooden windows. This is the Palace of Fifty-five Windows, Nge Nyapa Jhya Layaku in Newar. King Bhupatindra Malla completed it in 1708 after an earthquake in 1681 ruined an older palace from the fifteenth century. Look just above the ground floor and you will see a band of 147 tiny carvings of musical ragas, a hint that this palace was built with music in mind. The 1934 earthquake destroyed the top floor, and for decades it was patched with European roof tiles until a 2006 renovation restored traditional tiles and the projecting top-floor windows. Inside, out of sight, survive some of the finest Malla murals in Nepal. One shows the king and his queen, Vishva Lakshmi, painted as a cosmic Shiva and Parvati. Of all the palaces in the square, this façade has changed the least.",
+  "legend": null,
+  "facts": [
+   "Bhupatindra Malla completed the palace in 1708.",
+   "A cornice carries 147 miniature carvings of musical ragas.",
+   "The 1934 earthquake destroyed its top floor; a 2006 renovation restored traditional roof tiles.",
+   "Its murals include Bhupatindra Malla and Queen Vishva Lakshmi depicted as a cosmic Shiva and consort."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1800,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 20,
+   "note": "Exterior viewed from the square (Bhaktapur heritage ticket). Interior is not generally open; no official hours published."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Which king completed the Palace of Fifty-five Windows?",
+    "options": [
+     "Yaksha Malla",
+     "Bhupatindra Malla",
+     "Ranajit Malla",
+     "Prithvi Narayan Shah"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Bhupatindra Malla completed it in 1708.",
+    "q_np": "पचपन्न झ्याले दरबार कुन राजाले पूरा गरे?",
+    "options_np": [
+     "यक्ष मल्ल",
+     "भूपतीन्द्र मल्ल",
+     "रणजित मल्ल",
+     "पृथ्वीनारायण शाह"
+    ],
+    "explanation_np": "राजा भूपतीन्द्र मल्लले सन् १७०८ मा यो दरबार पूरा गरे।"
+   },
+   {
+    "q": "In which year was the palace completed?",
+    "options": [
+     "1427",
+     "1680",
+     "1708",
+     "1934"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Construction was completed in 1708.",
+    "q_np": "दरबार कुन वर्षमा पूरा भएको थियो?",
+    "options_np": [
+     "१४२७",
+     "१६८०",
+     "१७०८",
+     "१९३४"
+    ],
+    "explanation_np": "सन् १६८१ को भूकम्पपछि सन् १७०८ मा यो दरबार पूरा भयो।"
+   },
+   {
+    "q": "How many miniature raga carvings decorate the cornice?",
+    "options": [
+     "55",
+     "99",
+     "108",
+     "147"
+    ],
+    "answer_index": 3,
+    "difficulty": 4,
+    "explanation": "147 miniature carvings of musical ragas line the cornice above the ground floor.",
+    "q_np": "कर्निसमा रागका कतिवटा साना कुँदाइ छन्?",
+    "options_np": [
+     "५५",
+     "९९",
+     "१०८",
+     "१४७"
+    ],
+    "explanation_np": "कर्निसमा सङ्गीतका रागहरूका १४७ वटा साना कुँदाइ छन्।"
+   },
+   {
+    "q": "Which earthquake destroyed the top floor of the palace?",
+    "options": [
+     "1681",
+     "1833",
+     "1934",
+     "2015"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The 1934 earthquake destroyed the top floor.",
+    "q_np": "कुन भूकम्पले दरबारको माथिल्लो तला ढाल्यो?",
+    "options_np": [
+     "१६८१",
+     "१८३३",
+     "१९३४",
+     "२०१५"
+    ],
+    "explanation_np": "सन् १९३४ को भूकम्पले माथिल्लो तला ढालेको थियो।"
+   },
+   {
+    "q": "Whom does the famous mural pair with Bhupatindra Malla as a cosmic couple?",
+    "options": [
+     "Queen Vishva Lakshmi",
+     "Goddess Taleju",
+     "Queen Ganga Rani",
+     "Kumari"
+    ],
+    "answer_index": 0,
+    "difficulty": 5,
+    "explanation": "The murals show Bhupatindra Malla and his queen, Vishva Lakshmi, as a cosmic Shiva and consort.",
+    "q_np": "प्रसिद्ध भित्तेचित्रमा भूपतीन्द्र मल्लसँग शिव-पार्वतीको जोडीका रूपमा कसलाई देखाइएको छ?",
+    "options_np": [
+     "रानी विश्वलक्ष्मी",
+     "तलेजु भवानी",
+     "रानी गंगारानी",
+     "कुमारी"
+    ],
+    "explanation_np": "भित्तेचित्रमा राजा र रानी विश्वलक्ष्मीलाई ब्रह्माण्डका शिव र पार्वतीका रूपमा चित्रण गरिएको छ।"
+   },
+   {
+    "q": "What is the Newar name of the Palace of Fifty-five Windows?",
+    "options": [
+     "Lun Dhwakha",
+     "Nge Nyapa Jhya Layaku",
+     "Khwopa Layaku",
+     "Taleju Bhawani"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "In Newar the palace is called Nge Nyapa Jhya Layaku, meaning the royal palace of fifty-five windows.",
+    "q_np": "पचपन्न झ्याले दरबारको नेवारी नाम के हो?",
+    "options_np": [
+     "लुन ध्वाखा",
+     "ङे ङ्यापा झ्या लायकु",
+     "ख्वप लायकु",
+     "तलेजु भवानी"
+    ],
+    "explanation_np": "नेवारीमा यो दरबारलाई ‘ङे ङ्यापा झ्या लायकु’ भनिन्छ, अर्थात् पचपन्न झ्याल भएको राजदरबार।"
+   },
+   {
+    "q": "In what year did an earthquake ruin the older fifteenth-century palace on this site?",
+    "options": [
+     "1934",
+     "1681",
+     "1833",
+     "1505"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "An earthquake in 1681 ruined the older palace, and Bhupatindra Malla completed this one in 1708.",
+    "q_np": "यही ठाउँको पन्ध्रौँ शताब्दीको पुरानो दरबार कुन वर्षको भूकम्पले ध्वस्त पारेको थियो?",
+    "options_np": [
+     "१९३४",
+     "१६८१",
+     "१८३३",
+     "१५०५"
+    ],
+    "explanation_np": "सन् १६८१ को भूकम्पले पुरानो दरबार ध्वस्त पार्‍यो र सन् १७०८ मा भूपतीन्द्र मल्लले यो पूरा गरे।"
+   },
+   {
+    "q": "What are the main building materials of the palace facade?",
+    "options": [
+     "Stone slabs",
+     "Brick and timber",
+     "Cast iron",
+     "Marble"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is a brick-and-timber Newar palace with a long row of carved wooden windows.",
+    "q_np": "दरबारको अगाडिको भाग मुख्य रूपमा केले बनेको छ?",
+    "options_np": [
+     "ढुङ्गाका पाता",
+     "इँटा र काठ",
+     "ढलौटे फलाम",
+     "सङ्गमरमर"
+    ],
+    "explanation_np": "यो इँटा र काठले बनेको नेवारी दरबार हो, जसमा कुँदिएका काठका झ्यालको लामो लहर छ।"
+   },
+   {
+    "q": "What was used to patch the damaged top floor for decades after 1934?",
+    "options": [
+     "Thatch",
+     "European roof tiles",
+     "Tin sheets",
+     "Slate"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "For decades the top floor was patched with European roof tiles until a 2006 renovation restored traditional tiles.",
+    "q_np": "सन् १९३४ पछि धेरै दशकसम्म बिग्रेको माथिल्लो तला केले टालिएको थियो?",
+    "options_np": [
+     "खर",
+     "युरोपेली छानाका टाइल",
+     "टिनका पाता",
+     "स्लेट"
+    ],
+    "explanation_np": "सन् २००६ को मर्मतले परम्परागत टाइल फर्काउनुअघि धेरै दशकसम्म युरोपेली टाइलले टालिएको थियो।"
+   },
+   {
+    "q": "Can visitors usually go inside the palace?",
+    "options": [
+     "Yes, daily tours of every room",
+     "No, it is viewed from the square",
+     "Only during Bisket Jatra",
+     "Only with a priest"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The exterior is viewed from the square; the interior is not generally open to visitors.",
+    "q_np": "पर्यटकले सामान्यतया दरबारभित्र जान पाउँछन्?",
+    "options_np": [
+     "पाउँछन्, हरेक कोठाको दैनिक भ्रमण हुन्छ",
+     "पाउँदैनन्, चोकबाट बाहिरबाट हेरिन्छ",
+     "बिस्केट जात्रामा मात्र पाउँछन्",
+     "पुजारीसँग मात्र पाउँछन्"
+    ],
+    "explanation_np": "बाहिरको भाग चोकबाट हेरिन्छ। भित्र सामान्यतया खुला छैन।"
+   }
+  ],
+  "clues": [
+   "Count the wooden eyes along my brick face and you will find a number between fifty and sixty.",
+   "A band of tiny carvings of musical ragas runs above my ground floor; a king and queen hide in my murals as gods.",
+   "I am a long brick palace; my most famous feature is a row of carved wooden windows set high along my face.",
+   "Quakes took my old self, and in 1708 a Malla king finished the palace you see.",
+   "In 1934 I lost my top floor, and for decades foreign roof tiles covered the wound until 2006.",
+   "Visitors see only my outside, from a wide square where a golden gate and a gilded king on a pillar stand close by."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bhaktapur_Durbar_Square",
+   "https://www.wikidata.org/wiki/Q13182983",
+   "https://commons.wikimedia.org/wiki/Category:Pachpanna_Jhyale_Darbar",
+   "https://whc.unesco.org/en/list/121/"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/55_Jhyale_Darbar_bkt.JPG/1280px-55_Jhyale_Darbar_bkt.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:55_Jhyale_Darbar_bkt.JPG",
+   "author": "Shristibaral",
+   "license": "CC BY-SA 3.0",
+   "width": 1280,
+   "height": 960,
+   "verified_http": 200,
+   "bytes": 335759
+  },
+  "province": "Bagmati",
+  "district": "Bhaktapur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/55_Windows_Palace_01.jpg/1280px-55_Windows_Palace_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:55_Windows_Palace_01.jpg",
+    "author": "Krish Dulal",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Palace of Fifty-five Windows"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/55_Windows_Palace_02.jpg/1280px-55_Windows_Palace_02.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:55_Windows_Palace_02.jpg",
+    "author": "Krish Dulal",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Row of carved wooden windows"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/55_windows_Palace_at_Bhaktapur_Durbar_Square%2C_Nepal.jpg/1280px-55_windows_Palace_at_Bhaktapur_Durbar_Square%2C_Nepal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:55_windows_Palace_at_Bhaktapur_Durbar_Square,_Nepal.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The palace on Bhaktapur Durbar Square"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/55_Window_Palace%2C_Bhaktapur_Durbar_Square.jpg/1280px-55_Window_Palace%2C_Bhaktapur_Durbar_Square.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:55_Window_Palace,_Bhaktapur_Durbar_Square.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Palace facade with the Golden Gate"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/55window_palace_ST_%282%29.JPG/1280px-55window_palace_ST_%282%29.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:55window_palace_ST_(2).JPG",
+    "author": "सृजना",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Fifty-five Window Palace from the square"
+   }
+  ],
+  "model": {
+   "kind": "palace",
+   "tiers": 3,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    60,
+    15
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#3e2a1c",
+    "#c9a227"
+   ],
+   "features": [
+    "carved-windows",
+    "golden-door"
+   ],
+   "surroundings": [
+    "stone-paved-plaza"
+   ],
+   "notes": "Long brick facade with a continuous row of dark carved wooden windows along the top floor; Golden Gate at one end"
+  },
+  "short_np": "भूपतीन्द्र मल्लको दरबार, जो कुँदिएका झ्याल र मल्लकालीन दुर्लभ भित्तेचित्रका लागि प्रसिद्ध छ।",
+  "story_np": "तपाईंको अगाडि भएको लामो इँटाको भित्तातिर हेर्नुहोस् र कुँदिएका काठका झ्याल गन्ने प्रयास गर्नुहोस्। यो पचपन्न झ्याले दरबार हो, नेवारीमा ‘ङे ङ्यापा झ्या लायकु’। सन् १६८१ को भूकम्पले पन्ध्रौँ शताब्दीको पुरानो दरबार ढालेपछि राजा भूपतीन्द्र मल्लले सन् १७०८ मा यो दरबार पूरा गरे। भुइँतलाको ठीक माथि हेर्नुहोस्, सङ्गीतका रागहरूका १४७ वटा साना कुँदाइको पट्टी देख्नुहुनेछ। यो दरबार सङ्गीतलाई मनमा राखेर बनाइएको सङ्केत हो। सन् १९३४ को भूकम्पले माथिल्लो तला भत्कायो। धेरै दशकसम्म त्यसमा युरोपेली छानाका टाइल टालिएका थिए। सन् २००६ को मर्मतले परम्परागत टाइल र माथिल्लो तलाका बाहिर निस्किएका झ्याल फर्कायो। भित्र, नदेखिने गरी, नेपालकै उत्कृष्ट मल्लकालीन भित्तेचित्रमध्ये केही बाँकी छन्। एउटामा राजा र उनकी रानी विश्वलक्ष्मीलाई ब्रह्माण्डका शिव र पार्वतीका रूपमा चित्रण गरिएको छ। चोकका सबै दरबारमध्ये यसको अगाडिको भाग सबैभन्दा कम बदलिएको छ।",
+  "legend_np": null,
+  "facts_np": [
+   "भूपतीन्द्र मल्लले सन् १७०८ मा दरबार पूरा गरे।",
+   "एउटा कर्निसमा सङ्गीतका रागहरूका १४७ वटा साना कुँदाइ छन्।",
+   "सन् १९३४ को भूकम्पले माथिल्लो तला भत्कायो। सन् २००६ को मर्मतले परम्परागत छानाका टाइल फर्कायो।",
+   "यसका भित्तेचित्रमा भूपतीन्द्र मल्ल र रानी विश्वलक्ष्मीलाई ब्रह्माण्डका शिव र पार्वतीका रूपमा चित्रण गरिएको छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "मेरो इँटाको अनुहारमा काठका आँखा गन्नुहोस्, पचास र साठीको बीचको सङ्ख्या भेट्नुहुनेछ।",
+   "भुइँतलाको माथि सङ्गीतका रागहरूका साना कुँदाइको पट्टी छ। मेरा भित्तेचित्रमा एक राजा र रानी देवताका रूपमा लुकेका छन्।",
+   "म इँटाले बनेको लामो दरबार हुँ। मेरो सबैभन्दा चर्चित विशेषता मेरो अगाडिको भागमा माथि बसालिएका कुँदिएका काठका झ्यालको लहर हो।",
+   "भूकम्पले मेरो पुरानो रूप लग्यो। सन् १७०८ मा एक मल्ल राजाले तपाईंले देख्ने यो दरबार पूरा गरे।",
+   "सन् १९३४ मा मैले माथिल्लो तला गुमाएँ। सन् २००६ सम्म धेरै दशक विदेशी छानाका टाइलले त्यो घाउ छोपे।",
+   "आगन्तुकले मेरो बाहिरी भाग मात्र देख्छन्, फराकिलो चोकबाट। नजिकै सुनौलो ढोका र स्तम्भमाथि सुनौलो राजा छन्।"
+  ]
+ },
+ {
+  "slug": "golden-gate-bhaktapur",
+  "name": "Golden Gate (Lun Dhwakha)",
+  "name_np": "सुनढोका",
+  "city": "Bhaktapur",
+  "zone": "bhaktapur-durbar-square",
+  "lat": 27.67223,
+  "lng": 85.4285,
+  "coord_source": "APPROXIMATE (±15 m): no dedicated OSM/Wikidata point; derived from geotagged Commons close-up photos (27.672183,85.428453 / 27.672230,85.428530) at the gate on the palace façade",
+  "type": "gate",
+  "religion": "Hindu",
+  "deity": "Taleju",
+  "built_year": 1754,
+  "built_century_text": "Built 1751–1754 under Ranajit Malla (planned from 1646)",
+  "dynasty": "Malla",
+  "architecture": "Gilt-copper repoussé gateway with a torana showing Taleju, set in a brick palace wall",
+  "unesco": true,
+  "short": "A gilded gateway to the Taleju shrine, hailed as a masterpiece of Nepalese metalwork.",
+  "story": "Stand in front of the gleaming doorway set into the palace wall. This is Lun Dhwakha, the Golden Gate, and it guards the way to the inner courtyards and the shrine of Taleju, the guardian goddess of the Malla kings. Look up at the arched panel over the door: the central many-armed figure is Taleju herself. The idea is older than the gate. In 1646 King Jagajjyoti Malla brought two goldsmiths from Lalitpur to make it, but they died before work began, perhaps because there was not enough gold. More than a century later, King Ranajit Malla funded the project, and the smiths' descendants finished it in 1754. Notice the two Newar inscriptions of Ranajit Malla on either side. The English art historian Percy Brown called it the loveliest piece of art in the kingdom. Beyond the gate lies the Taleju temple, where entry is restricted to Hindus.",
+  "legend": null,
+  "facts": [
+   "The gate was made between 1751 and 1754 by the smiths Subhakara, Karunakara and Ratikara.",
+   "King Jagajjyoti Malla first planned it in 1646, but the project stalled for over a century.",
+   "The central figure on the tympanum is an image of the goddess Taleju.",
+   "It leads to the Taleju shrine; guidebooks report entry beyond is restricted to Hindus and photography is barred."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1800,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 15,
+   "note": "Viewable from the square with the Bhaktapur heritage ticket. Interior Taleju courtyard: Hindus only, no photography (per Lonely Planet)."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Which goddess is shown at the centre of the Golden Gate tympanum?",
+    "options": [
+     "Kali",
+     "Taleju",
+     "Saraswati",
+     "Kumari"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Taleju, tutelary goddess of the Mallas, is the main figure.",
+    "q_np": "सुनढोकाको तोरणको बीचमा कुन देवी देखाइएको छ?",
+    "options_np": [
+     "काली",
+     "तलेजु",
+     "सरस्वती",
+     "कुमारी"
+    ],
+    "explanation_np": "तोरणको बीचको धेरै हात भएकी आकृति देवी तलेजुको हो।"
+   },
+   {
+    "q": "In which year was the Golden Gate completed?",
+    "options": [
+     "1646",
+     "1702",
+     "1754",
+     "1856"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Work began in 1751 and finished in 1754.",
+    "q_np": "सुनढोका कुन वर्षमा पूरा भएको थियो?",
+    "options_np": [
+     "१६४६",
+     "१७०२",
+     "१७५४",
+     "१८५६"
+    ],
+    "explanation_np": "सुनारका सन्तानले सन् १७५४ मा ढोका पूरा गरे।"
+   },
+   {
+    "q": "Which king funded the completion of the gate?",
+    "options": [
+     "Ranajit Malla",
+     "Yaksha Malla",
+     "Bhupatindra Malla",
+     "Jung Bahadur Rana"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Ranajit Malla provided the funds; his inscriptions flank the gate.",
+    "q_np": "कुन राजाले ढोका पूरा गर्न खर्च जुटाए?",
+    "options_np": [
+     "रणजित मल्ल",
+     "यक्ष मल्ल",
+     "भूपतीन्द्र मल्ल",
+     "जंगबहादुर राणा"
+    ],
+    "explanation_np": "सय वर्षभन्दा बढीपछि राजा रणजित मल्लले परियोजनाको खर्च जुटाए।"
+   },
+   {
+    "q": "Who first planned the gate in 1646?",
+    "options": [
+     "Pratap Malla",
+     "Jagajjyoti Malla",
+     "Jitamitra Malla",
+     "Siddhi Narasingh Malla"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Jagajjyoti Malla brought goldsmiths from Lalitpur in 1646, but the work was postponed.",
+    "q_np": "सन् १६४६ मा ढोकाको योजना पहिलो पटक कसले बनाए?",
+    "options_np": [
+     "प्रताप मल्ल",
+     "जगज्योति मल्ल",
+     "जितामित्र मल्ल",
+     "सिद्धि नरसिंह मल्ल"
+    ],
+    "explanation_np": "राजा जगज्योति मल्लले सन् १६४६ मा ललितपुरबाट सुनार ल्याएका थिए।"
+   },
+   {
+    "q": "Which art historian called the gate the loveliest piece of art in the kingdom?",
+    "options": [
+     "Percy Brown",
+     "Sylvain Lévi",
+     "Henry Oldfield",
+     "Götz Hagmüller"
+    ],
+    "answer_index": 0,
+    "difficulty": 5,
+    "explanation": "Percy Brown, the English art historian, called it the loveliest piece of art in the kingdom.",
+    "q_np": "कुन कला इतिहासकारले यो ढोकालाई राज्यकै सबैभन्दा सुन्दर कलाकृति भनेका थिए?",
+    "options_np": [
+     "पर्सी ब्राउन",
+     "सिल्भाँ लेवी",
+     "हेनरी ओल्डफिल्ड",
+     "गोट्ज हागमुलर"
+    ],
+    "explanation_np": "अङ्ग्रेज कला इतिहासकार पर्सी ब्राउनले यसलाई राज्यकै सबैभन्दा सुन्दर कलाकृति भनेका थिए।"
+   },
+   {
+    "q": "What is the Newar name of the Golden Gate?",
+    "options": [
+     "Lun Dhwakha",
+     "Taumadhi",
+     "Layaku",
+     "Khwopa"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Lun Dhwakha is the Newar name of the Golden Gate.",
+    "q_np": "सुनढोकाको नेवारी नाम के हो?",
+    "options_np": [
+     "लुन ध्वाखा",
+     "तौमढी",
+     "लायकु",
+     "ख्वप"
+    ],
+    "explanation_np": "सुनढोकालाई नेवारीमा लुन ध्वाखा भनिन्छ।"
+   },
+   {
+    "q": "Which of these was one of the smiths who made the gate between 1751 and 1754?",
+    "options": [
+     "Bhaskara",
+     "Divakara",
+     "Subhakara",
+     "Prabhakara"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "The gate was made by the smiths Subhakara, Karunakara and Ratikara.",
+    "q_np": "सन् १७५१ देखि १७५४ बीच ढोका बनाउने सुनारमध्ये एक को थिए?",
+    "options_np": [
+     "भास्कर",
+     "दिवाकर",
+     "सुभकर",
+     "प्रभाकर"
+    ],
+    "explanation_np": "ढोका सुभकर, करुणाकर र रतिकर नाम गरेका सुनारले बनाएका थिए।"
+   },
+   {
+    "q": "How many years passed between the first plan in 1646 and the completion of the gate in 1754?",
+    "options": [
+     "54",
+     "72",
+     "108",
+     "150"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "1754 minus 1646 is 108 years, which is why the project is said to have stalled for over a century.",
+    "q_np": "सन् १६४६ मा पहिलो योजना बनेदेखि सन् १७५४ मा ढोका पूरा हुँदासम्म कति वर्ष लाग्यो?",
+    "options_np": [
+     "५४",
+     "७२",
+     "१०८",
+     "१५०"
+    ],
+    "explanation_np": "१७५४ मा १६४६ घटाउँदा १०८ वर्ष हुन्छ। त्यसैले यो काम सय वर्षभन्दा बढी अडिएको भनिन्छ।"
+   },
+   {
+    "q": "Who is allowed to enter the Taleju courtyard beyond the gate?",
+    "options": [
+     "Anyone with a ticket",
+     "Only Hindus",
+     "Only Buddhists",
+     "Only the royal family"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Guidebooks report entry to the Taleju courtyard is restricted to Hindus, and photography is not allowed.",
+    "q_np": "ढोकापारिको तलेजु चोकमा को जान पाउँछ?",
+    "options_np": [
+     "टिकट भएको जो कोही",
+     "हिन्दूले मात्र",
+     "बौद्धले मात्र",
+     "राजपरिवारले मात्र"
+    ],
+    "explanation_np": "पुस्तिकाहरूका अनुसार तलेजु चोकमा हिन्दूले मात्र जान पाउँछन् र फोटो खिच्न मनाही छ।"
+   },
+   {
+    "q": "The gate is made mainly with which metalwork technique?",
+    "options": [
+     "Gilded copper repoussé",
+     "Cast iron",
+     "Carved marble",
+     "Solid gold bars"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "It is a gilt-copper repoussé gateway set into the brick palace wall.",
+    "q_np": "यो ढोका मुख्यतः कुन धातुकलाबाट बनेको हो?",
+    "options_np": [
+     "सुन चढाएको तामा ठोकेर उठाइएको कला",
+     "ढलौटे फलाम",
+     "कुँदिएको सङ्गमरमर",
+     "ठोस सुनको डल्लो"
+    ],
+    "explanation_np": "यो इँटाको दरबारको पर्खालमा बसालिएको, सुन चढाएको तामा ठोकेर बनाइएको ढोका हो।"
+   }
+  ],
+  "clues": [
+   "Planned in 1646 but finished only in 1754, I shine where brick meets gold.",
+   "I am a doorway, not a temple, yet a many-armed goddess watches from above my arch.",
+   "I am made of copper beaten into fine patterns and covered in gold, set into a plain brick wall.",
+   "Two goldsmiths died before they could start me; their descendants finished the work.",
+   "An English art historian called me the loveliest piece of art in the kingdom.",
+   "Behind me is a goddess shrine only Hindus may enter; beside me stands a palace with many carved windows."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bhaktapur_Durbar_Square",
+   "https://commons.wikimedia.org/wiki/Category:Golden_Gate,_Bhaktapur_Durbar",
+   "https://www.lonelyplanet.com/points-of-interest/golden-gate/1438149",
+   "https://whc.unesco.org/en/list/121/"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/The_Golden_Gate_bkt.JPG/1280px-The_Golden_Gate_bkt.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:The_Golden_Gate_bkt.JPG",
+   "author": "Shristibaral",
+   "license": "CC BY-SA 3.0",
+   "width": 1280,
+   "height": 1707,
+   "verified_http": 200,
+   "bytes": 700886
+  },
+  "province": "Bagmati",
+  "district": "Bhaktapur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Bhaktapur_Durbar_square_and_Golden_Gate.jpg/1280px-Bhaktapur_Durbar_square_and_Golden_Gate.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur_Durbar_square_and_Golden_Gate.jpg",
+    "author": "सरोज कुमार ढकाल",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Golden Gate in the palace wall"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Golden_Gate_at_Bhaktapur_Durbar_Square.jpg/1280px-Golden_Gate_at_Bhaktapur_Durbar_Square.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Golden_Gate_at_Bhaktapur_Durbar_Square.jpg",
+    "author": "Manoguru",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Golden Gate at Bhaktapur Durbar Square"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tympanum_of_Golden_Gate_at_Bhaktapur_Durbar_Square%2C_Nepal.jpg/1280px-Tympanum_of_Golden_Gate_at_Bhaktapur_Durbar_Square%2C_Nepal.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tympanum_of_Golden_Gate_at_Bhaktapur_Durbar_Square,_Nepal.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Tympanum (torana) of the Golden Gate"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Garuda_of_Golden_Door_in_Bhaktapur_Durbar_Square.jpg/1280px-Garuda_of_Golden_Door_in_Bhaktapur_Durbar_Square.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Garuda_of_Golden_Door_in_Bhaktapur_Durbar_Square.jpg",
+    "author": "Prakat Shrestha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Garuda figure on the Golden Gate"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Detail_of_Golden_Gate_-_Durbar_Square_-_Bhaktapur_-_Nepal_%2813510264414%29.jpg/1280px-Detail_of_Golden_Gate_-_Durbar_Square_-_Bhaktapur_-_Nepal_%2813510264414%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Detail_of_Golden_Gate_-_Durbar_Square_-_Bhaktapur_-_Nepal_(13510264414).jpg",
+    "author": "Adam Jones from Kelowna, BC, Canada",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Detail of the gilt repousse work"
+   }
+  ],
+  "model": {
+   "kind": "gate",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    4,
+    1
+   ],
+   "walls": "red-brick",
+   "roof": "flat",
+   "colors": [
+    "#c9a227",
+    "#8b3a2b",
+    "#9c4a2a"
+   ],
+   "features": [
+    "golden-door",
+    "toran",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "stone-paved-plaza"
+   ],
+   "notes": "Gilt copper doorway set in a red brick wall, topped by a semicircular torana with Garuda and a many-armed goddess"
+  },
+  "short_np": "तलेजु मन्दिरतर्फ जाने सुनौलो प्रवेशद्वार, जसलाई नेपाली धातुकलाको उत्कृष्ट नमुना मानिन्छ।",
+  "story_np": "दरबारको पर्खालमा बनेको चम्किलो ढोकाअगाडि उभिनुहोस्। यो सुनढोका (लुन ध्वाखा) हो। यसले भित्री चोक र मल्ल राजाहरूकी रक्षक देवी तलेजुको मन्दिरतिर जाने बाटो रक्षा गर्छ। ढोकामाथिको अर्धगोलाकार तोरणमा हेर्नुहोस्: बीचमा धेरै हात भएकी आकृति स्वयं तलेजु हुन्। यो योजना ढोकाभन्दा पुरानो हो। सन् १६४६ मा राजा जगज्योति मल्लले ललितपुरबाट दुईजना सुनार ल्याएका थिए, तर काम सुरु हुनुअघि नै उनीहरू बिते, सायद पर्याप्त सुन नभएर होला। सय वर्षभन्दा बढीपछि राजा रणजित मल्लले खर्च जुटाए र ती सुनारका सन्तानले सन् १७५४ मा यो पूरा गरे। दुवै छेउमा रणजित मल्लका दुईवटा नेवारी शिलालेख छन्, ती पनि हेर्नुहोस्। अङ्ग्रेज कला इतिहासकार पर्सी ब्राउनले यसलाई राज्यकै सबैभन्दा सुन्दर कलाकृति भनेका थिए। ढोकापारि तलेजु मन्दिर छ, जहाँ हिन्दूबाहेक अरू जान पाउँदैनन्।",
+  "legend_np": null,
+  "facts_np": [
+   "यो ढोका सन् १७५१ देखि १७५४ बीच सुनार सुभाकर, करुणाकर र रतिकरले बनाएका थिए।",
+   "राजा जगज्योति मल्लले सन् १६४६ मा पहिलो पटक यसको योजना बनाएका थिए, तर काम सय वर्षभन्दा बढी रोकियो।",
+   "तोरणको बीचको आकृति देवी तलेजुको मूर्ति हो।",
+   "यसले तलेजु मन्दिरतर्फ लैजान्छ। पुस्तिकाहरूका अनुसार भित्र हिन्दूले मात्र जान पाउँछन् र फोटो खिच्न मनाही छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "सन् १६४६ मा योजना बनेर १७५४ मा मात्र पूरा भएको म इँटा र सुनको संगम भएको ठाउँमा चम्किन्छु।",
+   "म मन्दिर होइन, ढोका हुँ। तर मेरो तोरणमाथि धेरै हात भएकी देवीले हेरिरहेकी छिन्।",
+   "म तामालाई ठोकेर बारीक डिजाइन बनाएर सुन चढाइएको हुँ, सादा इँटाको पर्खालमा बसाइएको।",
+   "दुईजना सुनार मलाई सुरु गर्नुअघि नै बिते। उनीहरूका सन्तानले काम पूरा गरे।",
+   "एक अङ्ग्रेज कला इतिहासकारले मलाई राज्यकै सबैभन्दा सुन्दर कलाकृति भनेका थिए।",
+   "मेरो पछाडि एउटा देवीको मन्दिर छ, जहाँ हिन्दूले मात्र जान पाउँछन्। मेरै छेउमा धेरै कुँदिएका झ्याल भएको दरबार छ।"
+  ]
+ },
+ {
+  "slug": "vatsala-durga-temple",
+  "name": "Vatsala Durga Temple",
+  "name_np": "वत्सला दुर्गा मन्दिर",
+  "city": "Bhaktapur",
+  "zone": "bhaktapur-durbar-square",
+  "lat": 27.672197,
+  "lng": 85.428771,
+  "coord_source": "OpenStreetMap way 211082585 ('Vatsala Shikhara') centroid",
+  "type": "shikhara",
+  "religion": "Hindu",
+  "deity": "Vatsala (a form of Durga)",
+  "built_year": null,
+  "built_century_text": "17th–18th century (dated 1672–74 by local sources; present form linked to Bhupatindra Malla c. 1715); rebuilt after 2015",
+  "dynasty": "Malla",
+  "architecture": "Stone shikhara temple with a pillared portico and guardian animals on the stairway",
+  "unesco": true,
+  "short": "Stone shikhara of the mother goddess Vatsala, fronted by the famous \"barking dog\" bell.",
+  "story": "In front of you rises a pale stone shikhara, a tower-like temple quite different from the tiered pagodas around it. It is dedicated to Vatsala, the loving mother goddess, a form of Durga that people of Bhaktapur believed would shield the city from epidemics. Climb your eyes up from the stone elephants and lions on the steps to the carved portico and the slender spires. Sources disagree on its exact age: a local history credits Jagat Prakash Malla in 1672, while historians link its present form to King Bhupatindra Malla, around 1715. Now look for the large bell on the platform. Locals call it the barking dog bell, because dogs nearby are said to bark and whine when it rings. In April 2015 the earthquake brought this temple down completely. What you see now was rebuilt with traditional stone masonry methods by Bhaktapur's own craftsmen, with the reconstruction completed around 2020 to 2021.",
+  "legend": "Locals call the large bell on the temple platform the barking dog bell, because it is believed that whenever it rings, dogs in the neighbourhood begin to bark and whine. The bell is attributed to King Bhupatindra Malla. The goddess herself, Vatsala or Bacchala, is believed to shield Bhaktapur from epidemics, and some historians think the temple was remodelled around 1715 while a plague was spreading through the valley.",
+  "facts": [
+   "Vatsala is a mother-goddess form of Durga believed to protect the city from epidemics.",
+   "The bell before the temple is locally called the \"barking dog bell\".",
+   "The temple collapsed in the April 2015 earthquake.",
+   "It was rebuilt using traditional stone masonry methods, with work finishing around 2020–2021."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1800,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 15,
+   "note": "Covered by the Bhaktapur Municipality heritage-area ticket (foreigners NPR 1,800, SAARC/China NPR 500 since 1 Jan 2023). Open-air site; no official opening hours published."
+  },
+  "earthquake_2015": "The temple collapsed in the 25 April 2015 earthquake and was rebuilt by Bhaktapur Municipality using traditional methods (completion reported c. 2020–2021).",
+  "quiz": [
+   {
+    "q": "What architectural style is the Vatsala Durga Temple?",
+    "options": [
+     "Pagoda",
+     "Stupa",
+     "Stone shikhara",
+     "Gumba"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "It is a stone shikhara, unlike the tiered pagodas around it.",
+    "q_np": "वत्सला दुर्गा मन्दिर कुन शैलीको हो?",
+    "options_np": [
+     "पगोडा",
+     "स्तूप",
+     "ढुङ्गाको शिखर",
+     "गुम्बा"
+    ],
+    "explanation_np": "यो पगोडा होइन, ढुङ्गाको शिखर शैलीको मन्दिर हो।"
+   },
+   {
+    "q": "What nickname is given to the bell in front of the temple?",
+    "options": [
+     "Singing bell",
+     "Barking dog bell",
+     "Thunder bell",
+     "Silent bell"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Dogs are said to bark when it rings, so it is called the barking dog bell.",
+    "q_np": "मन्दिरअगाडिको घण्टलाई कुन उपनाम दिइएको छ?",
+    "options_np": [
+     "गीत गाउने घण्ट",
+     "भुक्ने कुकुरको घण्ट",
+     "गर्जने घण्ट",
+     "मौन घण्ट"
+    ],
+    "explanation_np": "यो घण्ट बज्दा नजिकका कुकुर भुक्छन् भन्ने विश्वासले यसलाई ‘भुक्ने कुकुरको घण्ट’ भनिन्छ।"
+   },
+   {
+    "q": "What happened to the temple in the April 2015 earthquake?",
+    "options": [
+     "It was untouched",
+     "Only its bell fell",
+     "It collapsed",
+     "It sank"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The temple was destroyed in 2015 and later rebuilt.",
+    "q_np": "सन् २०१५ अप्रिलको भूकम्पमा मन्दिरलाई के भयो?",
+    "options_np": [
+     "केही भएन",
+     "घण्ट मात्र खस्यो",
+     "ढल्यो",
+     "भासियो"
+    ],
+    "explanation_np": "भूकम्पले यो मन्दिर पूरै ढाल्यो र पछि फेरि बनाइयो।"
+   },
+   {
+    "q": "The goddess Vatsala is believed to shield Bhaktapur from what?",
+    "options": [
+     "Floods",
+     "Epidemics",
+     "Invaders",
+     "Droughts"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The goddess Bacchala is locally believed to shield the city from epidemics.",
+    "q_np": "वत्सला देवीले भक्तपुरलाई केबाट जोगाउँछिन् भन्ने विश्वास छ?",
+    "options_np": [
+     "बाढी",
+     "महामारी",
+     "आक्रमणकारी",
+     "खडेरी"
+    ],
+    "explanation_np": "वत्सला मातृदेवी हुन् र उनले सहरलाई महामारीबाट जोगाउँछिन् भन्ने विश्वास छ।"
+   },
+   {
+    "q": "Which animals guard the temple stairway?",
+    "options": [
+     "Camels and rhinos",
+     "Lions and elephants",
+     "Horses and dogs",
+     "Tigers and bulls"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Pairs of stone lions and elephants flank the entrance.",
+    "q_np": "मन्दिरको भर्‍याङमा कुन जनावरले पहरा दिएका छन्?",
+    "options_np": [
+     "ऊँट र गैँडा",
+     "सिंह र हात्ती",
+     "घोडा र कुकुर",
+     "बाघ र साँढे"
+    ],
+    "explanation_np": "भर्‍याङमा ढुङ्गाका हात्ती र सिंहले पहरा दिएका छन्।"
+   },
+   {
+    "q": "Vatsala is a form of which goddess?",
+    "options": [
+     "Lakshmi",
+     "Saraswati",
+     "Sita",
+     "Durga"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "Vatsala is a mother-goddess form of Durga.",
+    "q_np": "वत्सला कुन देवीको रूप हुन्?",
+    "options_np": [
+     "लक्ष्मी",
+     "सरस्वती",
+     "सीता",
+     "दुर्गा"
+    ],
+    "explanation_np": "वत्सला दुर्गाको मातृदेवी रूप हुन्।"
+   },
+   {
+    "q": "Who rebuilt the temple after it collapsed in 2015?",
+    "options": [
+     "The Nepal Army",
+     "A foreign company",
+     "Bhaktapur Municipality",
+     "A hotel owner"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Bhaktapur Municipality rebuilt it with traditional methods, using the town's own craftsmen.",
+    "q_np": "सन् २०१५ मा ढलेपछि मन्दिर कसले फेरि बनायो?",
+    "options_np": [
+     "नेपाली सेना",
+     "विदेशी कम्पनी",
+     "भक्तपुर नगरपालिका",
+     "होटल मालिक"
+    ],
+    "explanation_np": "भक्तपुर नगरपालिकाले सहरकै सिपालुहरू लगाएर परम्परागत विधिले मन्दिर फेरि बनायो।"
+   },
+   {
+    "q": "Which king is the big bell on the platform attributed to?",
+    "options": [
+     "Jagat Prakash Malla",
+     "Bhupatindra Malla",
+     "Yaksha Malla",
+     "Ranajit Malla"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The bell is attributed to King Bhupatindra Malla.",
+    "q_np": "चौतारीको ठूलो घण्ट कुन राजाको हो भनिन्छ?",
+    "options_np": [
+     "जगत प्रकाश मल्ल",
+     "भूपतीन्द्र मल्ल",
+     "यक्ष मल्ल",
+     "रणजित मल्ल"
+    ],
+    "explanation_np": "यो घण्ट राजा भूपतीन्द्र मल्लको हो भनिन्छ।"
+   },
+   {
+    "q": "Around which years was the post-2015 reconstruction completed?",
+    "options": [
+     "2015-2016",
+     "2017-2018",
+     "2020-2021",
+     "2024-2025"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The rebuilding with traditional stone masonry finished around 2020-2021.",
+    "q_np": "सन् २०१५ पछिको पुनर्निर्माण करिब कुन वर्षमा सकियो?",
+    "options_np": [
+     "२०१५-२०१६",
+     "२०१७-२०१८",
+     "२०२०-२०२१",
+     "२०२४-२०२५"
+    ],
+    "explanation_np": "परम्परागत ढुङ्गाको चिनाइ विधिले गरिएको पुनर्निर्माण करिब सन् २०२०-२०२१ मा सकियो।"
+   },
+   {
+    "q": "Which year do historians link to the temple's present form, said to coincide with a plague?",
+    "options": [
+     "1715",
+     "1672",
+     "1769",
+     "1934"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Historians link the present form to Bhupatindra Malla around 1715, while a local history credits Jagat Prakash Malla in 1672.",
+    "q_np": "इतिहासकारहरूले मन्दिरको अहिलेको रूपलाई करिब कुन वर्षसँग जोड्छन्, जतिबेला प्लेग फैलिएको थियो भनिन्छ?",
+    "options_np": [
+     "१७१५",
+     "१६७२",
+     "१७६९",
+     "१९३४"
+    ],
+    "explanation_np": "इतिहासकारहरू अहिलेको रूप करिब सन् १७१५ मा भूपतीन्द्र मल्लले दिएको मान्छन्। स्थानीय इतिहासले भने सन् १६७२ मा जगत प्रकाश मल्लको नाम लिन्छ।"
+   }
+  ],
+  "clues": [
+   "I am a stone tower among wooden roofs, and my bell is said to set the dogs barking.",
+   "The 2015 quake laid me flat; stonemasons raised my spires again.",
+   "I wear slender spires of pale stone, not the tiered wooden roofs of my neighbours.",
+   "Stone elephants and lions guard my steps and a carved portico stands before my shrine.",
+   "People trust me, a mother goddess, to shield the city from epidemics.",
+   "My neighbours are a king on a tall pillar, a golden gate and a palace with fifty-five windows."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bhaktapur_Durbar_Square",
+   "https://www.bhaktapur.com/discover/vatsala-durga-temple/",
+   "https://www.thelongestwayhome.com/travel-guides/nepal/vatsala-durga-temple-taleju-bell-bhaktapur.html",
+   "https://www.openstreetmap.org/way/211082585"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Batsala_devi_temple_Bhaktapur.jpg/1280px-Batsala_devi_temple_Bhaktapur.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Batsala_devi_temple_Bhaktapur.jpg",
+   "author": "सरोज कुमार ढकाल",
+   "license": "CC BY-SA 4.0",
+   "width": 1280,
+   "height": 1707,
+   "verified_http": 200,
+   "bytes": 631364
+  },
+  "province": "Bagmati",
+  "district": "Bhaktapur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Bhaktapur_Vatsala_Durga_Temple.JPG/1280px-Bhaktapur_Vatsala_Durga_Temple.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur_Vatsala_Durga_Temple.JPG",
+    "author": "Deepayan Sarkar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Vatsala Durga Temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Bhaktapur_Vatsala_Devi_Temple.jpg/1280px-Bhaktapur_Vatsala_Devi_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur_Vatsala_Devi_Temple.jpg",
+    "author": "Swagat Raj Pyakurel",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Vatsala Devi Temple, Bhaktapur"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Bhaktapur-Vatsala_Mandir_am_Palastplatz-03-gje.jpg/1280px-Bhaktapur-Vatsala_Mandir_am_Palastplatz-03-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Vatsala_Mandir_am_Palastplatz-03-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Vatsala Temple on the palace square"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Bhaktapur-Vatsala_Mandir_am_Palastplatz-01-gje.jpg/1280px-Bhaktapur-Vatsala_Mandir_am_Palastplatz-01-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Vatsala_Mandir_am_Palastplatz-01-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone shikhara of Vatsala Temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Bhaktapur_Durbar_square_and_Big_bell.jpg/1280px-Bhaktapur_Durbar_square_and_Big_bell.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur_Durbar_square_and_Big_bell.jpg",
+    "author": "सरोज कुमार ढकाल",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Vatsala Temple with the big bell in front"
+   }
+  ],
+  "model": {
+   "kind": "shikhara",
+   "tiers": 2,
+   "plinth_steps": 3,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    8,
+    8
+   ],
+   "walls": "stone",
+   "roof": "stone-spire",
+   "colors": [
+    "#a8957a",
+    "#c9a227",
+    "#5a4a32"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "bell",
+    "lion-statues",
+    "guardian-pairs-on-stairs"
+   ],
+   "surroundings": [
+    "stone-paved-plaza"
+   ],
+   "notes": "Pale stone shikhara with a pillared porch, animal guardians up the stairs and a big bell on two pillars in front"
+  },
+  "short_np": "मातृदेवी वत्सलाको ढुङ्गाको शिखर मन्दिर, जसको अगाडि प्रसिद्ध ‘भुक्ने कुकुर’ घण्ट छ।",
+  "story_np": "तपाईंको अगाडि फिक्का रङको ढुङ्गाको शिखर मन्दिर उभिएको छ। वरपरका तले पगोडाभन्दा यो निकै फरक, मीनारजस्तो देखिन्छ। यो मातृदेवी वत्सलाको मन्दिर हो। उनी दुर्गाको रूप हुन् र भक्तपुरका मानिस उनले सहरलाई महामारीबाट जोगाउँछिन् भन्ने विश्वास गर्थे। भर्‍याङका ढुङ्गाका हात्ती र सिंहदेखि सुरु गरेर कुँदिएको बरन्डा र सुन्दर चुचुरासम्म आँखा लगाउँदै जानुहोस्। यो कहिले बनेको हो भन्नेमा स्रोतहरू एकमत छैनन्। एउटा स्थानीय इतिहासले सन् १६७२ मा जगत प्रकाश मल्लले बनाएको भन्छ। इतिहासकारहरू भने अहिलेको रूप राजा भूपतीन्द्र मल्लले करिब सन् १७१५ मा दिएको मान्छन्। अब चौतारीमा रहेको ठूलो घण्ट खोज्नुहोस्। स्थानीयले यसलाई ‘भुक्ने कुकुरको घण्ट’ भन्छन्, किनकि यो बज्दा नजिकका कुकुर भुक्छन् र कन्हाउँछन् भन्ने विश्वास छ। सन् २०१५ अप्रिलको भूकम्पले यो मन्दिर पूरै ढाल्यो। अहिले देखिने मन्दिर भक्तपुरकै शिल्पीहरूले परम्परागत ढुङ्गाको चिनाइ विधिले फेरि बनाएका हुन्। काम करिब सन् २०२० देखि २०२१ सम्ममा सकियो।",
+  "legend_np": "मन्दिरको चौतारीमा भएको ठूलो घण्टलाई स्थानीयले ‘भुक्ने कुकुरको घण्ट’ भन्छन्। यो बज्दा छिमेकका कुकुर भुक्न र कन्हाउन थाल्छन् भन्ने विश्वास छ। यो घण्ट राजा भूपतीन्द्र मल्लले राखेको भनिन्छ। देवी वत्सला (बच्छला) ले भक्तपुरलाई महामारीबाट जोगाउँछिन् भन्ने विश्वास छ। केही इतिहासकार उपत्यकामा प्लेग फैलिइरहेको बेला करिब सन् १७१५ तिर मन्दिर नयाँ गरी बनाइएको मान्छन्।",
+  "facts_np": [
+   "वत्सला दुर्गाको मातृदेवी रूप हुन्, जसले सहरलाई महामारीबाट जोगाउँछिन् भन्ने विश्वास छ।",
+   "मन्दिरअगाडिको घण्टलाई स्थानीयले ‘भुक्ने कुकुरको घण्ट’ भन्छन्।",
+   "सन् २०१५ अप्रिलको भूकम्पमा मन्दिर ढल्यो।",
+   "यसलाई परम्परागत ढुङ्गाको चिनाइ विधिले फेरि बनाइयो। काम करिब सन् २०२०–२०२१ मा सकियो।"
+  ],
+  "quake_np": "सन् २०१५ अप्रिल २५ को भूकम्पमा मन्दिर ढल्यो। भक्तपुर नगरपालिकाले परम्परागत विधिले यसलाई फेरि बनायो (काम करिब सन् २०२०–२०२१ मा सकिएको बताइन्छ)।",
+  "clues_np": [
+   "म काठका छानाबीच उभिएको ढुङ्गाको मीनार हुँ। मेरो घण्ट बज्दा कुकुर भुक्छन् भनिन्छ।",
+   "सन् २०१५ को भूकम्पले मलाई ढालिदियो। ढुङ्गा कुँद्ने सिपालुहरूले मेरा शिखर फेरि उठाए।",
+   "मेरा छिमेकका काठका तले छाना छैनन्। मैले फिक्का रङको ढुङ्गाका पातला शिखर लगाएको छु।",
+   "मेरो भर्‍याङमा ढुङ्गाका हात्ती र सिंहले पहरा दिन्छन् र गर्भगृहको अगाडि कुँदिएको बरन्डा छ।",
+   "मानिसहरू मलाई मातृदेवी मान्छन् र सहरलाई महामारीबाट जोगाउँछु भन्ने विश्वास गर्छन्।",
+   "मेरा छिमेकी स्तम्भमाथि बसेका राजा, सुनौलो ढोका र पचपन्न झ्याल भएको दरबार हुन्।"
+  ]
+ },
+ {
+  "slug": "nyatapola-temple",
+  "name": "Nyatapola Temple",
+  "name_np": "न्यातपोल मन्दिर",
+  "city": "Bhaktapur",
+  "zone": null,
+  "lat": 27.67141,
+  "lng": 85.429373,
+  "coord_source": "OpenStreetMap way 85470341 centroid (wikidata Q1513892; Wikidata gives 27.6714, 85.4293)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Siddhi Lakshmi",
+  "built_year": 1702,
+  "built_century_text": "Built December 1701 – July 1702 under Bhupatindra Malla",
+  "dynasty": "Malla",
+  "architecture": "Five-tiered Newar pagoda on a five-level stepped plinth lined with stone guardians",
+  "unesco": false,
+  "short": "Nepal's tallest temple: five roofs, five plinths and five pairs of stone guardians.",
+  "story": "You are in Taumadhi Square, looking up at the tallest temple in Nepal. Nyatapola simply means five roofs, and it is one of the very few temples named for its shape rather than its deity. King Bhupatindra Malla raised it in just six months, from December 1701 to July 1702, with timber, bricks and stone donated from across the kingdom. Now climb the stairway with your eyes. Each landing has a pair of guardians, and each pair is said to be ten times stronger than the one below: two legendary wrestlers, then elephants, then lions, then griffins, and finally the goddesses Simhini and Vyaghrini. Inside sits the tantric goddess Siddhi Lakshmi, but her image is hidden from the public; only priests may enter. At about 33 metres, this temple has survived the great earthquakes of 1934 and 2015, a tribute to the engineering of Bhaktapur's craftsmen.",
+  "legend": "Legend says the fierce god Bhairava, whose temple stands beside this one, was causing havoc in the city. To restrain him the king appealed to the goddess, who took the form of Siddhi Lakshmi. A more powerful temple was raised for her right in front of Bhairava's shrine, and guardians were placed in pairs up its stairway, each pair ten times stronger than the one below. With the goddess towering over him, Bhairava was subdued and peace returned to Bhaktapur.",
+  "facts": [
+   "It was built in about six months, from December 1701 to July 1702.",
+   "At about 33 m it is the tallest temple in Nepal.",
+   "The name means 'five roofs'; it is one of only two five-tiered temples in the Kathmandu Valley.",
+   "It survived the 1934 and 2015 earthquakes."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1800,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 30,
+   "note": "Covered by the Bhaktapur Municipality heritage-area ticket (foreigners NPR 1,800, SAARC/China NPR 500 since 1 Jan 2023). Open-air site; no official opening hours published."
+  },
+  "earthquake_2015": "The temple survived the April 2015 earthquake, as it had survived the 1934 earthquake.",
+  "quiz": [
+   {
+    "q": "How many roofs does Nyatapola have?",
+    "options": [
+     "Three",
+     "Four",
+     "Five",
+     "Seven"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Nyatapola means 'five roofs'.",
+    "q_np": "न्यातपोलमा कतिवटा छाना छन्?",
+    "options_np": [
+     "तीन",
+     "चार",
+     "पाँच",
+     "सात"
+    ],
+    "explanation_np": "न्यातपोल भनेको ‘पाँच छाना’ हो।"
+   },
+   {
+    "q": "Which king built Nyatapola?",
+    "options": [
+     "Bhupatindra Malla",
+     "Yaksha Malla",
+     "Pratap Malla",
+     "Ranajit Malla"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Bhupatindra Malla built it in 1701–1702.",
+    "q_np": "न्यातपोल कुन राजाले बनाए?",
+    "options_np": [
+     "भूपतीन्द्र मल्ल",
+     "यक्ष मल्ल",
+     "प्रताप मल्ल",
+     "रणजित मल्ल"
+    ],
+    "explanation_np": "राजा भूपतीन्द्र मल्लले सन् १७०२ मा न्यातपोल बनाए।"
+   },
+   {
+    "q": "Which goddess is enshrined inside?",
+    "options": [
+     "Taleju",
+     "Siddhi Lakshmi",
+     "Kumari",
+     "Saraswati"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The tantric goddess Siddhi Lakshmi is enshrined, hidden from public view.",
+    "q_np": "भित्र कुन देवीको स्थापना गरिएको छ?",
+    "options_np": [
+     "तलेजु",
+     "सिद्धिलक्ष्मी",
+     "कुमारी",
+     "सरस्वती"
+    ],
+    "explanation_np": "भित्र तान्त्रिक देवी सिद्धिलक्ष्मी छिन्, तर उनको मूर्ति सबैले देख्न पाउँदैनन्।"
+   },
+   {
+    "q": "Which guardians stand on the lowest plinth?",
+    "options": [
+     "Elephants",
+     "Lions",
+     "Two wrestlers",
+     "Griffins"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Two legendary wrestlers stand on the lowest level; each pair above is said to be ten times stronger.",
+    "q_np": "सबैभन्दा तल्लो तलामा कुन द्वारपाल उभिएका छन्?",
+    "options_np": [
+     "हात्ती",
+     "सिंह",
+     "दुई जना पहलमान",
+     "ग्रिफिन"
+    ],
+    "explanation_np": "सबैभन्दा तल दुई पौराणिक पहलमान छन्। माथिका हरेक जोडी तलकोभन्दा दस गुणा बलियो मानिन्छ।"
+   },
+   {
+    "q": "Roughly how long did construction take?",
+    "options": [
+     "Six months",
+     "Six years",
+     "Twelve years",
+     "Sixty years"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "Construction ran from December 1701 to July 1702.",
+    "q_np": "निर्माण पूरा हुन करिब कति समय लाग्यो?",
+    "options_np": [
+     "छ महिना",
+     "छ वर्ष",
+     "बाह्र वर्ष",
+     "साठी वर्ष"
+    ],
+    "explanation_np": "यो करिब छ महिनामा, सन् १७०१ को डिसेम्बरदेखि १७०२ को जुलाईसम्ममा बनेको थियो।"
+   },
+   {
+    "q": "About how tall is Nyatapola?",
+    "options": [
+     "About 10 m",
+     "About 20 m",
+     "About 60 m",
+     "About 33 m"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "At about 33 metres, it is the tallest temple in Nepal.",
+    "q_np": "न्यातपोल करिब कति अग्लो छ?",
+    "options_np": [
+     "करिब १० मिटर",
+     "करिब २० मिटर",
+     "करिब ६० मिटर",
+     "करिब ३३ मिटर"
+    ],
+    "explanation_np": "करिब ३३ मिटर अग्लो भएकाले यो नेपालको सबैभन्दा अग्लो मन्दिर हो।"
+   },
+   {
+    "q": "In which square does Nyatapola stand?",
+    "options": [
+     "Taumadhi Square",
+     "Durbar Square",
+     "Tachupal Square",
+     "Dattatreya Square"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Nyatapola stands in Taumadhi Square, beside the Bhairavnath Temple.",
+    "q_np": "न्यातपोल कुन चोकमा छ?",
+    "options_np": [
+     "तौमढी चोक",
+     "दरबार क्षेत्र",
+     "तचपाल चोक",
+     "दत्तात्रेय चोक"
+    ],
+    "explanation_np": "न्यातपोल तौमढी चोकमा, भैरवनाथ मन्दिरको छेउमा छ।"
+   },
+   {
+    "q": "Who may enter the inner shrine of the goddess?",
+    "options": [
+     "Any visitor with a ticket",
+     "Only priests",
+     "Only the royal family",
+     "Only women"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The image of Siddhi Lakshmi is hidden from the public; only priests may enter.",
+    "q_np": "देवीको भित्री गर्भगृहमा कसले जान पाउँछ?",
+    "options_np": [
+     "टिकट भएको जो कोही",
+     "पुजारीले मात्र",
+     "राजपरिवारले मात्र",
+     "महिलाले मात्र"
+    ],
+    "explanation_np": "सिद्धिलक्ष्मीको मूर्ति सर्वसाधारणबाट लुकाइएको छ। पुजारीले मात्र भित्र जान पाउँछन्।"
+   },
+   {
+    "q": "According to legend, whose temper was the temple raised to restrain?",
+    "options": [
+     "Indra",
+     "Ganesh",
+     "Bhairava",
+     "Kumari"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "Legend says the goddess temple was raised in front of Bhairava's shrine to subdue the fierce god.",
+    "q_np": "किंवदन्ती अनुसार यो मन्दिर कसको रिस शान्त पार्न बनाइएको हो?",
+    "options_np": [
+     "इन्द्र",
+     "गणेश",
+     "भैरव",
+     "कुमारी"
+    ],
+    "explanation_np": "किंवदन्ती अनुसार उग्र भैरवलाई शान्त पार्न उनको मन्दिरकै अगाडि देवीको मन्दिर बनाइएको हो।"
+   },
+   {
+    "q": "Which guardians stand directly above the elephants?",
+    "options": [
+     "Griffins",
+     "Wrestlers",
+     "Simhini and Vyaghrini",
+     "Lions"
+    ],
+    "answer_index": 3,
+    "difficulty": 3,
+    "explanation": "The pairs rise from wrestlers to elephants, then lions, griffins and finally the goddesses Simhini and Vyaghrini.",
+    "q_np": "हात्तीको ठीक माथिको तलामा कुन द्वारपाल छन्?",
+    "options_np": [
+     "ग्रिफिन",
+     "पहलमान",
+     "सिंहिनी र व्याघ्रिणी",
+     "सिंह"
+    ],
+    "explanation_np": "क्रम यस्तो छ: पहलमान, हात्ती, सिंह, ग्रिफिन, अन्त्यमा सिंहिनी र व्याघ्रिणी देवी।"
+   }
+  ],
+  "clues": [
+   "Climb my steps past wrestlers, elephants, lions, griffins and goddesses, each pair stronger than the last.",
+   "I am named for my roofs, not my goddess, and no temple in Nepal stands taller.",
+   "I rise on five stepped plinths to about 33 metres, in a square shared with a broad rectangular shrine.",
+   "A king built me in barely six months from timber, brick and stone donated across the kingdom.",
+   "Legend says I was raised to calm a fierce god whose temple sits beside me.",
+   "I stood firm through the quakes of 1934 and 2015; only priests may meet the goddess inside, and each spring a huge chariot rolls past my feet."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nyatapola_Temple",
+   "https://www.wikidata.org/wiki/Q1513892",
+   "https://www.openstreetmap.org/way/85470341",
+   "https://www.bhaktapur.com/entry-fees-of-the-heritage-sites-in-nepal/"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Nyatapol_by_GP15.JPG/1280px-Nyatapol_by_GP15.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Nyatapol_by_GP15.JPG",
+   "author": "Ganesh Paudel",
+   "license": "CC BY-SA 3.0",
+   "width": 1280,
+   "height": 853,
+   "verified_http": 200,
+   "bytes": 211532
+  },
+  "province": "Bagmati",
+  "district": "Bhaktapur",
+  "festivals": [
+   {
+    "name": "Bisket Jatra",
+    "name_np": "बिस्केट जात्रा",
+    "month": "Chaitra",
+    "note": "Bhaktapur's New Year festival; Bhairav's chariot is pulled around Taumadhi",
+    "note_np": "भक्तपुरको नयाँ वर्षको पर्व। भैरवको रथ तौमढी वरिपरि तानिन्छ।"
+   },
+   {
+    "name": "Gai Jatra",
+    "name_np": "गाईजात्रा",
+    "month": "Bhadra",
+    "note": "Families who lost someone that year parade through the squares in costume",
+    "note_np": "त्यस वर्ष आफन्त गुमाएका परिवारले भेषभूषा लगाएर चोकहरूमा घुम्छन्।"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Bhaktapur-Nyatapola_Mandir_am_Taumadhi_Tole-01-1976-gje.jpg/1280px-Bhaktapur-Nyatapola_Mandir_am_Taumadhi_Tole-01-1976-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Nyatapola_Mandir_am_Taumadhi_Tole-01-1976-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Nyatapola Temple in 1976"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Bhaktapur-Nyatapola_Mandir_am_Taumadhi_Tole-22-gje.jpg/1280px-Bhaktapur-Nyatapola_Mandir_am_Taumadhi_Tole-22-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Nyatapola_Mandir_am_Taumadhi_Tole-22-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Nyatapola rising above Taumadhi Square"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Bhaktapur-Nyatapola_Mandir_am_Taumadhi_Tole-13-Treppe-2007-gje.jpg/1280px-Bhaktapur-Nyatapola_Mandir_am_Taumadhi_Tole-13-Treppe-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Nyatapola_Mandir_am_Taumadhi_Tole-13-Treppe-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stairway lined with guardian statues"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Bhaktapur-Nyatapola_Mandir_am_Taumadhi_Tole-14-unten_Ringer_Jayamalla%2BPhatta-2007-gje.jpg/1280px-Bhaktapur-Nyatapola_Mandir_am_Taumadhi_Tole-14-unten_Ringer_Jayamalla%2BPhatta-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Nyatapola_Mandir_am_Taumadhi_Tole-14-unten_Ringer_Jayamalla%2BPhatta-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Wrestlers Jayamalla and Phatta on the lowest step"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/A_lion_guarding_Nyatapola_Temple.jpg/1280px-A_lion_guarding_Nyatapola_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:A_lion_guarding_Nyatapola_Temple.jpg",
+    "author": "Dzeerve",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Stone lion guarding the stairs"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/5_storey_Temple_of_BKT_%40_gai_jatra.jpg/1280px-5_storey_Temple_of_BKT_%40_gai_jatra.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:5_storey_Temple_of_BKT_@_gai_jatra.jpg",
+    "author": "Satya krishna prajapati",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Nyatapola during Gai Jatra"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 5,
+   "plinth_steps": 5,
+   "plinth_shape": "square",
+   "height_m": 30,
+   "footprint_m": [
+    25,
+    25
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#c9a227"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "guardian-pairs-on-stairs",
+    "lion-statues",
+    "elephant-statues"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "newar-houses"
+   ],
+   "notes": "Tall five-roofed pagoda on five stepped brick platforms; one central stair with a guardian pair on each level"
+  },
+  "short_np": "नेपालको सबैभन्दा अग्लो मन्दिर: पाँच छाना, पाँच तला र पाँच जोडी ढुङ्गाका द्वारपाल।",
+  "story_np": "तपाईं तौमढी चोकमा हुनुहुन्छ, नेपालकै सबैभन्दा अग्लो मन्दिरतिर हेर्दै। न्यातपोल भनेको नै ‘पाँच छाना’ हो। देवताको नामले होइन, आकारले नाम पाएका थोरै मन्दिरमध्ये यो एक हो। राजा भूपतीन्द्र मल्लले राज्यभरिबाट दान आएका काठ, इँट र ढुङ्गाले यसलाई छ महिनामै बनाए, सन् १७०१ को डिसेम्बरदेखि १७०२ को जुलाईसम्म। अब आँखैले भर्‍याङ चढ्नुहोस्। हरेक तलामा एक जोडी द्वारपाल छन् र हरेक जोडी तल्लोभन्दा दश गुणा बलियो मानिन्छ। पहिले दुई पौराणिक पहलमान, त्यसपछि हात्ती, सिंह, ग्रिफिन र अन्त्यमा सिंहिनी र व्याघ्रिणी देवी। भित्र तान्त्रिक देवी सिद्धिलक्ष्मी छिन्, तर उनको मूर्ति सबैले देख्न पाउँदैनन्। पुजारीले मात्र भित्र जान पाउँछन्। करिब ३३ मिटर अग्लो यो मन्दिर सन् १९३४ र २०१५ का ठूला भूकम्पमा पनि टिक्यो। यो भक्तपुरका शिल्पीहरूको इन्जिनियरिङ सिपको प्रमाण हो।",
+  "legend_np": "किंवदन्ती अनुसार, यो मन्दिरको छेउमै मन्दिर भएका उग्र देवता भैरवले सहरमा उत्पात मच्चाएका थिए। उनलाई रोक्न राजाले देवीसँग प्रार्थना गरे र देवीले सिद्धिलक्ष्मीको रूप लिइन्। भैरवको मन्दिरकै अगाडि उनका लागि अझ शक्तिशाली मन्दिर बनाइयो र त्यसको भर्‍याङमा जोडी जोडी द्वारपाल राखिए, हरेक जोडी तल्लोभन्दा दश गुणा बलियो। देवी आफूमाथि उभिएपछि भैरव शान्त भए र भक्तपुरमा फेरि शान्ति आयो।",
+  "facts_np": [
+   "यो करिब छ महिनामा बनेको थियो, सन् १७०१ को डिसेम्बरदेखि १७०२ को जुलाईसम्म।",
+   "करिब ३३ मिटर अग्लो भएकाले यो नेपालको सबैभन्दा अग्लो मन्दिर हो।",
+   "नामको अर्थ ‘पाँच छाना’ हो। काठमाडौँ उपत्यकाका दुईवटा मात्र पाँच तले मन्दिरमध्ये यो एक हो।",
+   "यो सन् १९३४ र २०१५ का भूकम्पमा बाँचेको थियो।"
+  ],
+  "quake_np": "सन् १९३४ मा जस्तै सन् २०१५ अप्रिलको भूकम्पमा पनि यो मन्दिर बाँच्यो।",
+  "clues_np": [
+   "मेरा भर्‍याङ चढ्दै जानुहोस्: पहलमान, हात्ती, सिंह, ग्रिफिन र देवीहरू पार गर्दै। हरेक जोडी अघिल्लोभन्दा बलियो छ।",
+   "मेरो नाम मेरा छानाले दिएको हो, कुनै देवीले होइन। नेपालमा मभन्दा अग्लो मन्दिर अर्को छैन।",
+   "म पाँच तला चबुतरामाथि करिब ३३ मिटर उठेको छु, एउटा फराकिलो आयताकार मन्दिरको छेउको चोकमा।",
+   "एक राजाले मलाई छ महिनामै बनाए, राज्यभरिबाट दान आएका काठ, इँटा र ढुङ्गाले।",
+   "किंवदन्ती अनुसार, मेरो छेउमै मन्दिर भएका एक उग्र देवतालाई शान्त पार्न मलाई बनाइएको हो।",
+   "म सन् १९३४ र २०१५ का भूकम्पमा अडिग रहें। भित्र देवीलाई पुजारीले मात्र भेट्न पाउँछन् र हरेक वसन्तमा मेरो पाउनिर एउटा विशाल रथ तानिन्छ।"
+  ]
+ },
+ {
+  "slug": "bhairavnath-temple",
+  "name": "Bhairavnath Temple",
+  "name_np": "भैरवनाथ मन्दिर",
+  "city": "Bhaktapur",
+  "zone": null,
+  "lat": 27.671094,
+  "lng": 85.42947,
+  "coord_source": "OpenStreetMap way 185746728 centroid (wikidata Q854699; Wikidata gives 27.671056, 85.429528)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Bhairava (Kasi Vishwanath / Aakash Bhairav)",
+  "built_year": null,
+  "built_century_text": "Single-storey temple from the 17th century or earlier; made multi-roofed by Bhupatindra Malla c. 1717–18; rebuilt after 1934",
+  "dynasty": "Malla",
+  "architecture": "Three-roofed pagoda on a rectangular base in Taumadhi Square",
+  "unesco": false,
+  "short": "Rectangular three-roofed temple of fierce Bhairava, partner to Nyatapola in Taumadhi Square.",
+  "story": "Turn to the broad, rectangular temple beside Nyatapola in Taumadhi Square. This is the home of Bhairava, the fearsome form of Shiva, known here as Kasi Vishwanath and Aakash Bhairav. Its shape is unusual: instead of a square tower it stretches wide, under three roofs. The temple grew over time. It began as a single-storey shrine, and King Bhupatindra Malla rebuilt it with more roofs around 1717 to 1718, the same king who raised Nyatapola next door. The 1934 earthquake brought it down and it was rebuilt in the same form; in 2015 it was damaged again and repaired. Every spring during Bisket Jatra, Bhaktapur's new-year festival, Bhairava's huge chariot is hauled through these streets. Now glance back at towering Nyatapola. Local legend says the goddess's temple was raised right in front of this one to keep Bhairava's temper in check.",
+  "legend": "Oral tradition says Bhairava of Varanasi once came to Bhaktapur in disguise to watch the Bisket Jatra festival. A tantric priest recognised him and bound him with a spell. As Bhairava sank into the earth to escape back to Varanasi, the priest seized his head and cut it off with a sword. That is why, people say, the head worshipped here does not match the body of Kasi Vishwanath, and it is kept hidden in a box inside the temple.",
+  "facts": [
+   "The deity is Bhairava, a fierce form of Shiva, called Kasi Vishwanath and Aakash Bhairav.",
+   "Bhupatindra Malla expanded it into a multi-roofed temple around 1717–1718.",
+   "It collapsed in the 1934 earthquake and was rebuilt in the same form.",
+   "Bhairava's chariot is pulled through the city during the Bisket Jatra festival."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1800,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 15,
+   "note": "Covered by the Bhaktapur Municipality heritage-area ticket (foreigners NPR 1,800, SAARC/China NPR 500 since 1 Jan 2023). Open-air site; no official opening hours published."
+  },
+  "earthquake_2015": "The April 2015 earthquake damaged the temple, which was later renovated.",
+  "quiz": [
+   {
+    "q": "Bhairava is a fierce form of which god?",
+    "options": [
+     "Vishnu",
+     "Brahma",
+     "Shiva",
+     "Ganesha"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Bhairava is a fierce manifestation of Shiva.",
+    "q_np": "भैरव कुन देवताको उग्र रूप हुन्?",
+    "options_np": [
+     "विष्णु",
+     "ब्रह्मा",
+     "शिव",
+     "गणेश"
+    ],
+    "explanation_np": "भैरव शिवको उग्र रूप हुन्।"
+   },
+   {
+    "q": "In which square does the Bhairavnath Temple stand?",
+    "options": [
+     "Durbar Square",
+     "Taumadhi Square",
+     "Tachupal Square",
+     "Pottery Square"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It stands in Taumadhi Square beside Nyatapola.",
+    "q_np": "भैरवनाथ मन्दिर कुन चोकमा छ?",
+    "options_np": [
+     "दरबार क्षेत्र",
+     "तौमढी चोक",
+     "तचपाल चोक",
+     "कुम्हाले टोल"
+    ],
+    "explanation_np": "भैरवनाथ मन्दिर तौमढी चोकमा, न्यातपोलको छेउमा छ।"
+   },
+   {
+    "q": "What is unusual about the shape of its base?",
+    "options": [
+     "It is circular",
+     "It is rectangular",
+     "It is octagonal",
+     "It is triangular"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Unlike most square pagodas, it has a rectangular base.",
+    "q_np": "यसको आधारको आकारमा के अनौठो छ?",
+    "options_np": [
+     "यो गोलो छ",
+     "यो आयताकार छ",
+     "यो अष्टकोणीय छ",
+     "यो त्रिकोणीय छ"
+    ],
+    "explanation_np": "अरू मन्दिरझैं वर्गाकार टावर नभई यो चौडा आयताकार छ, तीन छानामुनि।"
+   },
+   {
+    "q": "During which festival is Bhairava's chariot pulled through Bhaktapur?",
+    "options": [
+     "Indra Jatra",
+     "Bisket Jatra",
+     "Gai Jatra",
+     "Tihar"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Bhairava's chariot is the centrepiece of Bisket Jatra.",
+    "q_np": "कुन चाडमा भैरवको रथ भक्तपुरभर तानिन्छ?",
+    "options_np": [
+     "इन्द्रजात्रा",
+     "बिस्केट जात्रा",
+     "गाईजात्रा",
+     "तिहार"
+    ],
+    "explanation_np": "भक्तपुरको नयाँ वर्षको पर्व बिस्केट जात्रामा भैरवको रथ तानिन्छ।"
+   },
+   {
+    "q": "Which earthquake made the temple collapse, after which it was rebuilt in the same form?",
+    "options": [
+     "1681",
+     "1833",
+     "1934",
+     "1988"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "It collapsed in 1934 and was rebuilt.",
+    "q_np": "कुन भूकम्पले मन्दिर ढाल्यो र त्यसपछि उही रूपमा फेरि बनाइयो?",
+    "options_np": [
+     "१६८१",
+     "१८३३",
+     "१९३४",
+     "१९८८"
+    ],
+    "explanation_np": "सन् १९३४ को भूकम्पले मन्दिर ढाल्यो र उही रूपमा फेरि बनाइयो।"
+   },
+   {
+    "q": "What happened to the temple in the April 2015 earthquake?",
+    "options": [
+     "It collapsed completely and was never rebuilt",
+     "It was damaged and later renovated",
+     "It was untouched",
+     "It sank into the ground"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The April 2015 earthquake damaged the temple, which was later renovated.",
+    "q_np": "सन् २०१५ अप्रिलको भूकम्पमा मन्दिरलाई के भयो?",
+    "options_np": [
+     "पूरै ढल्यो र फेरि बनाइएन",
+     "क्षति पुग्यो र पछि मर्मत गरियो",
+     "केही भएन",
+     "जमिनमा भासियो"
+    ],
+    "explanation_np": "सन् २०१५ अप्रिलको भूकम्पले मन्दिरमा क्षति पुर्‍यायो। पछि त्यसको मर्मत गरियो।"
+   },
+   {
+    "q": "How many roofs does the Bhairavnath Temple have?",
+    "options": [
+     "Two",
+     "Five",
+     "Three",
+     "Seven"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "It is a three-roofed pagoda on a rectangular base.",
+    "q_np": "भैरवनाथ मन्दिरमा कतिवटा छाना छन्?",
+    "options_np": [
+     "दुई",
+     "पाँच",
+     "तीन",
+     "सात"
+    ],
+    "explanation_np": "यो आयताकार आधारमाथि तीन छाना भएको पगोडा हो।"
+   },
+   {
+    "q": "Which king rebuilt it with more roofs around 1717-1718?",
+    "options": [
+     "Pratap Malla",
+     "Yaksha Malla",
+     "Ranajit Malla",
+     "Bhupatindra Malla"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "King Bhupatindra Malla, who also raised Nyatapola, rebuilt it with more roofs around 1717-1718.",
+    "q_np": "करिब सन् १७१७-१७१८ मा कुन राजाले थप छाना जोडेर यो मन्दिर फेरि बनाए?",
+    "options_np": [
+     "प्रताप मल्ल",
+     "यक्ष मल्ल",
+     "रणजित मल्ल",
+     "भूपतीन्द्र मल्ल"
+    ],
+    "explanation_np": "न्यातपोल बनाउने राजा भूपतीन्द्र मल्लले करिब सन् १७१७-१७१८ मा थप छाना जोडेर यसलाई फेरि बनाए।"
+   },
+   {
+    "q": "According to oral tradition, where is the head worshipped here kept?",
+    "options": [
+     "Buried under the plinth",
+     "Hidden in a box inside the temple",
+     "Sent back to Varanasi",
+     "Displayed on a pillar"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The head is said to be kept hidden in a box inside the temple.",
+    "q_np": "मौखिक परम्परा अनुसार यहाँ पूजा गरिने टाउको कहाँ राखिएको छ?",
+    "options_np": [
+     "चबुतरामुनि गाडिएको",
+     "मन्दिरभित्र बाकसमा लुकाएर",
+     "वाराणसी फर्काइएको",
+     "स्तम्भमाथि राखिएको"
+    ],
+    "explanation_np": "भनिन्छ, टाउको मन्दिरभित्र बाकसमा लुकाएर राखिएको छ।"
+   },
+   {
+    "q": "Which two other names is Bhairava known by in this temple?",
+    "options": [
+     "Kasi Vishwanath and Aakash Bhairav",
+     "Pashupati and Mahakal",
+     "Taleju and Kumari",
+     "Hanuman and Garuda"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Here Bhairava is known as Kasi Vishwanath and Aakash Bhairav.",
+    "q_np": "यस मन्दिरमा भैरवलाई अरू कुन दुई नामले चिनिन्छ?",
+    "options_np": [
+     "काशी विश्वनाथ र आकाश भैरव",
+     "पशुपति र महाकाल",
+     "तलेजु र कुमारी",
+     "हनुमान र गरुड"
+    ],
+    "explanation_np": "यहाँ भैरवलाई काशी विश्वनाथ र आकाश भैरव भनिन्छ।"
+   }
+  ],
+  "clues": [
+   "My base is long, not square, and a towering goddess temple stands beside me to keep me calm.",
+   "They say my head and body never matched, for a priest once caught me at a festival.",
+   "I wear three roofs and spread wide like a hall instead of rising like a tower.",
+   "I began as a single-storey shrine; a king added roofs around 1717.",
+   "At the New Year in spring, a huge chariot carrying my image is hauled through the lanes.",
+   "Beside me rises the tallest temple in Nepal, five roofs high."
+  ],
+  "sources": [
+   "https://www.bhaktapur.com/discover/bhairavnath-temple/",
+   "https://www.lonelyplanet.com/nepal/bhaktapur/attractions/bhairabnath-temple/a/poi-sig/449939/357114",
+   "https://www.wikidata.org/wiki/Q854699",
+   "https://en.wikipedia.org/wiki/Bisket_Jatra"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Bhaktapur-Bhairava_Mandir_am_Taumadhi_Tole-02-2007-gje.jpg/1280px-Bhaktapur-Bhairava_Mandir_am_Taumadhi_Tole-02-2007-gje.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Bhairava_Mandir_am_Taumadhi_Tole-02-2007-gje.jpg",
+   "author": "Gerd Eichmann",
+   "license": "CC BY-SA 4.0",
+   "width": 1280,
+   "height": 1715,
+   "verified_http": 200,
+   "bytes": 490190
+  },
+  "province": "Bagmati",
+  "district": "Bhaktapur",
+  "festivals": [
+   {
+    "name": "Bisket Jatra",
+    "name_np": "बिस्केट जात्रा",
+    "month": "Chaitra",
+    "note": "Bhaktapur's New Year festival; Bhairav's chariot is pulled around Taumadhi",
+    "note_np": "भक्तपुरको नयाँ वर्षको पर्व। भैरवको रथ तौमढी वरिपरि तानिन्छ।"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Bhairab_Nath_Temple%2C_Bhaktapur.jpg/1280px-Bhairab_Nath_Temple%2C_Bhaktapur.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhairab_Nath_Temple,_Bhaktapur.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Bhairavnath Temple, Taumadhi Square"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/1_Bhairavnath_Temple%2C_Bhaktapur_Durbar_Square%2C_NEPAL_01.jpg/1280px-1_Bhairavnath_Temple%2C_Bhaktapur_Durbar_Square%2C_NEPAL_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:1_Bhairavnath_Temple,_Bhaktapur_Durbar_Square,_NEPAL_01.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Bhairavnath Temple from the square"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Bhairav_Nath_Temple%2C_Bhaktapur_01.jpg/1280px-Bhairav_Nath_Temple%2C_Bhaktapur_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhairav_Nath_Temple,_Bhaktapur_01.jpg",
+    "author": "Nabin K. Sapkota",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Facade of Bhairavnath Temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Bhairabhnath_and_Bisket_Jatra.jpg/1280px-Bhairabhnath_and_Bisket_Jatra.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhairabhnath_and_Bisket_Jatra.jpg",
+    "author": "Youbesh Dhaubhadel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Bhairavnath Temple during Bisket Jatra"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Bhairava_Temple%2C_Bhatgaon_-_Oldfield_collection_%281852%29_-_BL_WD_3318.jpg/1280px-Bhairava_Temple%2C_Bhatgaon_-_Oldfield_collection_%281852%29_-_BL_WD_3318.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhairava_Temple,_Bhatgaon_-_Oldfield_collection_(1852)_-_BL_WD_3318.jpg",
+    "author": "Henry Ambrose Oldfield",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Bhairava Temple painted by H. A. Oldfield, 1852"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    14,
+    8
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#c9a227",
+    "#4a3020"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "carved-windows",
+    "lion-statues"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "newar-houses"
+   ],
+   "notes": "Broad rectangular three-roofed pagoda with a gilded roof crest, beside Nyatapola on the same square"
+  },
+  "short_np": "उग्र भैरवको आयताकार तीन तले मन्दिर, जो तौमढी चोकमा न्यातपोलको जोडी हो।",
+  "story_np": "तौमढी चोकमा न्यातपोलको छेउमा रहेको फराकिलो आयताकार मन्दिरतिर फर्कनुहोस्। यो शिवको भयङ्कर रूप भैरवको घर हो। यहाँ उनलाई काशी विश्वनाथ र आकाश भैरव पनि भनिन्छ। यसको आकार अनौठो छ। वर्गाकार टावरको सट्टा यो तीन छानामुनि चौडा फैलिएको छ। मन्दिर समयसँगै बढेको हो। सुरुमा यो एक तले मन्दिर थियो। राजा भूपतीन्द्र मल्लले सन् १७१७ देखि १७१८ तिर थप छाना जोडेर यसलाई फेरि बनाए। छेउको न्यातपोल पनि उनै राजाले बनाएका हुन्। सन् १९३४ को भूकम्पले यो ढल्यो र उही रूपमा फेरि बनाइयो। सन् २०१५ मा फेरि क्षति पुग्यो र मर्मत गरियो। हरेक वसन्तमा भक्तपुरको नयाँ वर्षको पर्व बिस्केट जात्रामा भैरवको विशाल रथ यिनै गल्लीमा तानिन्छ। अब अग्लो न्यातपोलतिर फर्केर हेर्नुहोस्। स्थानीय किंवदन्ती अनुसार भैरवको रिस शान्त राख्न देवीको मन्दिर ठीक यसको अगाडि बनाइएको हो।",
+  "legend_np": "मौखिक परम्परा अनुसार वाराणसीका भैरव एक पटक बिस्केट जात्रा हेर्न भेष बदलेर भक्तपुर आएका थिए। एक तान्त्रिक पुजारीले उनलाई चिने र मन्त्रले बाँधिदिए। वाराणसी फर्कन भैरव जमिनमा भासिँदै गर्दा पुजारीले उनको टाउको समातेर तरवारले काटिदिए। मानिसहरू भन्छन्, त्यसैले यहाँ पूजा गरिने टाउको काशी विश्वनाथको धडसँग मिल्दैन। त्यो टाउको मन्दिरभित्र बाकसमा लुकाएर राखिएको छ।",
+  "facts_np": [
+   "देवता भैरव हुन्। उनी शिवको उग्र रूप हुन् र उनलाई काशी विश्वनाथ र आकाश भैरव भनिन्छ।",
+   "भूपतीन्द्र मल्लले सन् १७१७–१७१८ तिर यसलाई धेरै छाना भएको मन्दिर बनाए।",
+   "यो सन् १९३४ को भूकम्पमा ढल्यो र उही रूपमा फेरि बनाइयो।",
+   "बिस्केट जात्रामा भैरवको रथ सहरभर तानिन्छ।"
+  ],
+  "quake_np": "सन् २०१५ अप्रिलको भूकम्पले मन्दिरमा क्षति पुर्‍यायो। पछि यसको मर्मत गरियो।",
+  "clues_np": [
+   "मेरो आधार वर्गाकार होइन, लामो छ। मलाई शान्त राख्न एउटा अग्लो देवीको मन्दिर मेरो छेउमै उभिएको छ।",
+   "भनिन्छ, मेरो टाउको र धड मिल्दैनन्, किनकि एक पुजारीले मलाई चाडको बेला समातेका थिए।",
+   "म टावरझैं उठेको छैन, हलझैं चौडा फैलिएको छु र मैले तीन छाना लगाएको छु।",
+   "म एक तले मन्दिरबाट सुरु भएको हुँ। करिब सन् १७१७ मा एक राजाले मलाई थप छाना जोडे।",
+   "वसन्तमा नयाँ वर्षका बेला मेरो मूर्ति राखिएको विशाल रथ गल्लीहरूमा तानिन्छ।",
+   "मेरो छेउमै नेपालकै सबैभन्दा अग्लो, पाँच छाना भएको मन्दिर उभिएको छ।"
+  ]
+ },
+ {
+  "slug": "dattatreya-temple",
+  "name": "Dattatreya Temple",
+  "name_np": "दत्तात्रेय मन्दिर",
+  "city": "Bhaktapur",
+  "zone": null,
+  "lat": 27.673539,
+  "lng": 85.435359,
+  "coord_source": "OpenStreetMap node 11365112169 (Dattatraya Temple), Tachupal Tole",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Dattatreya",
+  "built_year": null,
+  "built_century_text": "15th century under Yaksha Malla (1427 in popular sources; 1470 / NS 590 per a local history); storeys added 1495",
+  "dynasty": "Malla",
+  "architecture": "Tiered Newar pagoda guarded by stone wrestlers, with a Garuda pillar in front",
+  "unesco": false,
+  "short": "A 15th-century pagoda to Dattatreya in Tachupal Square, guarded by two stone wrestlers.",
+  "story": "Welcome to Tachupal Square in the eastern part of old Bhaktapur. The tall pagoda before you belongs to Dattatreya, a deity revered as a combined form of Brahma, Vishnu and Shiva. It is said to be the only temple dedicated to him in Nepal. King Yaksha Malla built it in the fifteenth century; popular guides give 1427, while a local history records 1470, with more storeys added by his son in 1495. Look at the entrance: two stone wrestlers stand guard, the same legendary pair you can see at Nyatapola. In front of the temple, a Garuda kneels on a tall pillar, hands joined toward the shrine. You may hear a famous tale that the whole temple was built from the wood of a single tree, just like Kathmandu's Kasthamandap. Historians say there is no proof, but it is a story every guide loves to tell. Around you, the old priests' houses include the Pujari Math with its celebrated Peacock Window.",
+  "legend": "A popular story claims the entire Dattatreya Temple was built from the timber of a single enormous tree, the same tale told about Kasthamandap in Kathmandu. Local historians note there is no solid proof, but the legend endures as a way of expressing how grand the temple seemed to the people who first saw it rise above Tachupal Square in the fifteenth century.",
+  "facts": [
+   "It is dedicated to Dattatreya, revered as a combined form of Brahma, Vishnu and Shiva.",
+   "King Yaksha Malla built it in the 15th century; sources give 1427 or 1470.",
+   "Stone statues of the wrestlers Jaimal and Patta guard the entrance, as at Nyatapola.",
+   "A Garuda statue on a pillar faces the temple with hands joined in greeting."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1800,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 20,
+   "note": "Covered by the Bhaktapur Municipality heritage-area ticket (foreigners NPR 1,800, SAARC/China NPR 500 since 1 Jan 2023). Open-air site; no official opening hours published."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Dattatreya is revered as a combined form of which three gods?",
+    "options": [
+     "Brahma, Vishnu and Shiva",
+     "Rama, Krishna and Hanuman",
+     "Ganesha, Kumar and Shiva",
+     "Indra, Agni and Varuna"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Dattatreya is seen as a union of the Hindu trinity.",
+    "q_np": "दत्तात्रेयलाई कुन तीन देवताको संयुक्त रूप मानेर पूजा गरिन्छ?",
+    "options_np": [
+     "ब्रह्मा, विष्णु र शिव",
+     "राम, कृष्ण र हनुमान",
+     "गणेश, कुमार र शिव",
+     "इन्द्र, अग्नि र वरुण"
+    ],
+    "explanation_np": "दत्तात्रेयलाई ब्रह्मा, विष्णु र शिव तीनै देवताको संयुक्त रूप मानिन्छ।"
+   },
+   {
+    "q": "Which king built the Dattatreya Temple?",
+    "options": [
+     "Bhupatindra Malla",
+     "Yaksha Malla",
+     "Ranajit Malla",
+     "Ananda Malla"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Yaksha Malla built it in the 15th century.",
+    "q_np": "दत्तात्रेय मन्दिर कुन राजाले बनाए?",
+    "options_np": [
+     "भूपतीन्द्र मल्ल",
+     "यक्ष मल्ल",
+     "रणजित मल्ल",
+     "आनन्द मल्ल"
+    ],
+    "explanation_np": "राजा यक्ष मल्लले पन्ध्रौँ शताब्दीमा यो मन्दिर बनाएका थिए।"
+   },
+   {
+    "q": "Which legend is told about the timber of the temple?",
+    "options": [
+     "It floated from India",
+     "It came from a single tree",
+     "It was gifted by Tibet",
+     "It never burns"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "A popular story says the whole temple came from a single tree, but historians find no proof.",
+    "q_np": "मन्दिरको काठबारे कुन किंवदन्ती सुनाइन्छ?",
+    "options_np": [
+     "यो भारतबाट बगेर आएको हो",
+     "यो एउटै रुखबाट बनेको हो",
+     "यो तिब्बतले उपहार दिएको हो",
+     "यो कहिल्यै जल्दैन"
+    ],
+    "explanation_np": "भनिन्छ, सिङ्गो मन्दिर एउटै विशाल रुखको काठले बनेको हो। इतिहासकारहरू यसको प्रमाण छैन भन्छन्।"
+   },
+   {
+    "q": "What stands on the pillar in front of the temple?",
+    "options": [
+     "A lion",
+     "Garuda",
+     "A king",
+     "A conch"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "A Garuda figure kneels on the pillar facing the shrine.",
+    "q_np": "मन्दिरअगाडिको स्तम्भमाथि के छ?",
+    "options_np": [
+     "सिंह",
+     "गरुड",
+     "राजा",
+     "शंख"
+    ],
+    "explanation_np": "स्तम्भमाथि गरुड हात जोडेर मन्दिरतिर फर्केर बसेको छ।"
+   },
+   {
+    "q": "Which pair of wrestlers guards the entrance?",
+    "options": [
+     "Jaimal and Patta",
+     "Bhima and Arjuna",
+     "Ram and Lakshman",
+     "Jaya and Vijaya"
+    ],
+    "answer_index": 0,
+    "difficulty": 5,
+    "explanation": "Jaimal and Patta also guard Nyatapola.",
+    "q_np": "प्रवेशद्वारमा पहरा दिने पहलमानको जोडी को हो?",
+    "options_np": [
+     "जयमल र पत्ता",
+     "भीम र अर्जुन",
+     "राम र लक्ष्मण",
+     "जय र विजय"
+    ],
+    "explanation_np": "जयमल र पत्ता नामका पहलमानका ढुङ्गाका मूर्ति प्रवेशद्वारमा पहरा दिन्छन्।"
+   },
+   {
+    "q": "In which square does the Dattatreya Temple stand?",
+    "options": [
+     "Taumadhi Square",
+     "Durbar Square",
+     "Tachupal Square",
+     "Pottery Square"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "The temple rises in Tachupal Square in the eastern part of old Bhaktapur.",
+    "q_np": "दत्तात्रेय मन्दिर कुन चोकमा छ?",
+    "options_np": [
+     "तौमढी चोक",
+     "दरबार क्षेत्र",
+     "तचपाल चोक",
+     "कुम्हाले टोल"
+    ],
+    "explanation_np": "दत्तात्रेय मन्दिर पुरानो भक्तपुरको पूर्वी भागको तचपाल चोकमा छ।"
+   },
+   {
+    "q": "This temple is said to be the only one in Nepal dedicated to which deity?",
+    "options": [
+     "Dattatreya",
+     "Vishnu",
+     "Narasimha",
+     "Hanuman"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It is said to be the only temple in Nepal dedicated to Dattatreya.",
+    "q_np": "यो मन्दिर नेपालमा कुन देवतालाई समर्पित एक मात्र मन्दिर हो भनिन्छ?",
+    "options_np": [
+     "दत्तात्रेय",
+     "विष्णु",
+     "नरसिंह",
+     "हनुमान"
+    ],
+    "explanation_np": "नेपालमा दत्तात्रेयलाई समर्पित यही एउटै मन्दिर हो भनिन्छ।"
+   },
+   {
+    "q": "A local history records a different year for the temple than the popular 1427. Which year?",
+    "options": [
+     "1392",
+     "1470",
+     "1558",
+     "1702"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "A local history records 1470, while popular guides give 1427.",
+    "q_np": "लोकप्रिय पुस्तिकाले दिएको १४२७ भन्दा फरक कुन वर्ष स्थानीय इतिहासले लेखेको छ?",
+    "options_np": [
+     "१३९२",
+     "१४७०",
+     "१५५८",
+     "१७०२"
+    ],
+    "explanation_np": "स्थानीय इतिहासले १४७० लेखेको छ भने लोकप्रिय पुस्तिकाहरूले १४२७ दिन्छन्।"
+   },
+   {
+    "q": "Which famous window is found in the nearby Pujari Math?",
+    "options": [
+     "Lotus Window",
+     "Golden Window",
+     "Tiger Window",
+     "Peacock Window"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "The Pujari Math, one of the priests' houses around the square, has the celebrated Peacock Window.",
+    "q_np": "नजिकैको पुजारी मठमा कुन प्रसिद्ध झ्याल छ?",
+    "options_np": [
+     "कमल झ्याल",
+     "सुनौलो झ्याल",
+     "बाघ झ्याल",
+     "मयूर झ्याल"
+    ],
+    "explanation_np": "चोक वरिपरिका पुजारीका घरमध्ये पुजारी मठमा प्रसिद्ध मयूर झ्याल छ।"
+   },
+   {
+    "q": "The single-tree legend about this temple is also told about which Kathmandu building?",
+    "options": [
+     "Kasthamandap",
+     "Hanuman Dhoka",
+     "Swayambhu",
+     "Basantapur Tower"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "The same single-tree tale is told about Kasthamandap in Kathmandu, though historians say there is no proof.",
+    "q_np": "यो मन्दिरबारे सुनाइने एउटै रुखको कथा काठमाडौँको कुन भवनबारे पनि सुनाइन्छ?",
+    "options_np": [
+     "कास्थमण्डप",
+     "हनुमान ढोका",
+     "स्वयम्भू",
+     "बसन्तपुर टावर"
+    ],
+    "explanation_np": "काठमाडौँको कास्थमण्डपबारे पनि यही कथा सुनाइन्छ, तर इतिहासकारहरू यसको प्रमाण छैन भन्छन्।"
+   }
+  ],
+  "clues": [
+   "Three gods in one are honoured in my sanctum, and legend says one tree built me.",
+   "Two stone wrestlers guard my steps while a winged devotee kneels on a pillar before me.",
+   "I rise in tiers of timber roofs in the eastern part of an old Newar town.",
+   "Guidebooks date me to 1427, while a local history says 1470; a king named Yaksha raised me.",
+   "Perhaps I am the only temple in the whole country to honour my god; the builder's son added storeys in 1495.",
+   "In the square around me, a former priests' house has a famous window with a fan-tailed bird."
+  ],
+  "sources": [
+   "https://www.bhaktapur.com/discover/dattatraya-temple/",
+   "https://nepaltraveller.com/sidetrack/dattatreya-temple-bhaktapur-a-quiet-masterpiece-of-newar-craftsmanship",
+   "https://www.thelongestwayhome.com/travel-guides/nepal/bhaktapur/guide-to-dattatreya-square.html",
+   "https://www.openstreetmap.org/node/11365112169"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Datatreya_Temple_05.jpg/1280px-Datatreya_Temple_05.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Datatreya_Temple_05.jpg",
+   "author": "Krish Dulal",
+   "license": "CC BY-SA 3.0",
+   "width": 1280,
+   "height": 2279,
+   "verified_http": 200,
+   "bytes": 665034
+  },
+  "province": "Bagmati",
+  "district": "Bhaktapur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-01-gje.jpg/1280px-Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-01-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-01-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Dattatreya Temple on Tachupal Tole"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-04-2013-gje.jpg/1280px-Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-04-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-04-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Dattatreya Temple, 2013"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-07-Garudasaeule-2015-gje.jpg/1280px-Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-07-Garudasaeule-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-07-Garudasaeule-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Garuda pillar in front of the temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-12-Ringer_Jayamalla%2BPhatta-2015-gje.jpg/1280px-Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-12-Ringer_Jayamalla%2BPhatta-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-12-Ringer_Jayamalla%2BPhatta-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone wrestlers Jayamalla and Phatta"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-09-gje.jpg/1280px-Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-09-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Dattatreya_Mandir_am_Tacapala_Tole-09-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Dattatreya Temple and its square"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 3,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    12,
+    10
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#c9a227"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "guardian-pairs-on-stairs",
+    "garuda-pillar",
+    "stone-pillar"
+   ],
+   "surroundings": [
+    "stone-paved-plaza",
+    "newar-houses"
+   ],
+   "notes": "Three-roofed pagoda with a front porch, two stone wrestlers on the stairs and a Garuda on a pillar facing it"
+  },
+  "short_np": "तचपाल चोकमा रहेको १५ औं शताब्दीको दत्तात्रेय मन्दिर, जसको प्रवेशद्वारमा दुई ढुङ्गाका पहलमान पहरा दिन्छन्।",
+  "story_np": "पुरानो भक्तपुरको पूर्वी भागको तचपाल चोकमा तपाईंलाई स्वागत छ। अगाडि उभिएको अग्लो पगोडा दत्तात्रेयको मन्दिर हो। दत्तात्रेयलाई ब्रह्मा, विष्णु र शिवको संयुक्त रूप मानेर पूजा गरिन्छ। नेपालमा उनको मन्दिर यही एउटा मात्र हो भनिन्छ। राजा यक्ष मल्लले पन्ध्रौँ शताब्दीमा यो बनाएका थिए। चर्चित पुस्तिकाहरूले सन् १४२७ भन्छन्, तर एउटा स्थानीय इतिहासमा सन् १४७० लेखिएको छ। उनका छोराले सन् १४९५ मा थप तला जोडेका थिए। प्रवेशद्वारमा हेर्नुहोस्। दुई ढुङ्गाका पहलमान पहरा दिइरहेका छन्, न्यातपोलमा देखिने त्यही पौराणिक जोडी। मन्दिरको अगाडि अग्लो स्तम्भमाथि गरुड हात जोडेर मन्दिरतिर घुँडा टेकेर बसेको छ। तपाईंले एउटा चर्चित कथा सुन्न सक्नुहुन्छ। काठमाडौँको कास्थमण्डपझैं यो सिङ्गो मन्दिर पनि एउटै रुखको काठले बनेको हो रे। इतिहासकारहरू यसको प्रमाण छैन भन्छन्, तर हरेक गाइडले सुनाउन मन पराउने कथा हो यो। वरिपरिका पुराना पुजारीका घरमध्ये प्रसिद्ध मयूर झ्याल भएको पुजारी मठ पनि छ।",
+  "legend_np": "एउटा चर्चित कथा अनुसार सिङ्गो दत्तात्रेय मन्दिर एउटै विशाल रुखको काठले बनेको हो। काठमाडौँको कास्थमण्डपबारे पनि यस्तै कथा सुनाइन्छ। स्थानीय इतिहासकारहरू यसको ठोस प्रमाण छैन भन्छन्। तैपनि पन्ध्रौँ शताब्दीमा तचपाल चोकमाथि उठेको यो मन्दिर पहिलो पटक देख्नेहरूलाई कति भव्य लागेको थियो भन्ने बताउने कथाका रूपमा यो आजसम्म चलिआएको छ।",
+  "facts_np": [
+   "यो दत्तात्रेयको मन्दिर हो। उनलाई ब्रह्मा, विष्णु र शिवको संयुक्त रूप मानेर पूजा गरिन्छ।",
+   "राजा यक्ष मल्लले १५ औं शताब्दीमा यो बनाएका थिए। स्रोतहरूले सन् १४२७ वा १४७० भन्छन्।",
+   "न्यातपोलमा जस्तै जयमल र पत्ता नामका पहलमानका ढुङ्गाका मूर्तिले प्रवेशद्वारको रक्षा गर्छन्।",
+   "स्तम्भमाथिको गरुडको मूर्ति हात जोडेर अभिवादन गर्दै मन्दिरतिर फर्केको छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "मेरो गर्भगृहमा तीन देवता एकै रूपमा पूजिन्छन् र किंवदन्ती भन्छ, मलाई एउटै रुखले बनाएको हो।",
+   "दुई ढुङ्गाका पहलमानले मेरा भर्‍याङको रक्षा गर्छन्, अनि पखेटा भएको एक भक्त मेरो अगाडि स्तम्भमाथि घुँडा टेकेर बस्छ।",
+   "म एउटा पुरानो नेवार सहरको पूर्वी भागमा काठका तले छानासहित उठेको छु।",
+   "पुस्तिकाहरूले मलाई सन् १४२७ को भन्छन्, स्थानीय इतिहासले १४७० को। यक्ष नाम गरेका राजाले मलाई बनाए।",
+   "सायद मेरो देवतालाई समर्पित म सिङ्गो देशमै एक मात्र मन्दिर हुँ। मलाई बनाउने राजाका छोराले सन् १४९५ मा थप तला जोडे।",
+   "मेरो वरिपरिको चोकमा पुजारीको पुरानो घरमा पुच्छर फिजाएको चराको प्रसिद्ध झ्याल छ।"
+  ]
+ },
+ {
+  "slug": "peacock-window",
+  "name": "Peacock Window (Pujari Math)",
+  "name_np": "मयूर झ्याल",
+  "city": "Bhaktapur",
+  "zone": null,
+  "lat": 27.673263,
+  "lng": 85.435578,
+  "coord_source": "Wikidata Q16917852 (Pujarimath Museum, the building that carries the window); geotagged close-up photo at 27.673216, 85.435576",
+  "type": "window",
+  "religion": "Hindu",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "15th century (window); Pujari Math rebuilt 1763",
+  "dynasty": "Malla",
+  "architecture": "Carved latticed wooden window (Mhaykha Jhya) centred on a fan-tailed peacock",
+  "unesco": false,
+  "short": "A 15th-century carved window with a fan-tailed peacock, the most famous window in Nepal.",
+  "story": "Step into the narrow lane beside the Pujari Math, a former priests' house off Tachupal Square, and look up at the wall. There it is: the Peacock Window, Mhaykha Jhya in Newar. At its centre a peacock spreads its fan-shaped tail, and around it the lattice is alive with smaller carved birds and ornament. This window is usually dated to the fifteenth century, which makes it one of the oldest and most celebrated examples of Newar woodcarving. The building it sits in was first built in the fifteenth century and rebuilt in 1763. German experts renovated it in 1979, and today it houses the National Woodworking Museum. In 2015 the earthquake damaged the building and the wall around the window had to be rebuilt, yet the peacock survived intact. Take a moment to imagine the carver, working the wood by hand more than five hundred years ago.",
+  "legend": null,
+  "facts": [
+   "The Newar name is Mhaykha Jhya, meaning \"peacock window\".",
+   "The window is generally dated to the 15th century.",
+   "The Pujari Math was first built in the 15th century and rebuilt in 1763.",
+   "The building now houses the National Woodworking Museum."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 1800,
+   "entry_fee_saarc_npr": 500,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 15,
+   "note": "Window is visible from the public lane (Bhaktapur heritage ticket). The woodworking museum inside has its own hours; not verified."
+  },
+  "earthquake_2015": "The 2015 earthquake damaged the Pujari Math and the wall around the window was rebuilt, but the Peacock Window itself survived intact.",
+  "quiz": [
+   {
+    "q": "Which bird is carved at the centre of this famous window?",
+    "options": [
+     "Eagle",
+     "Peacock",
+     "Crane",
+     "Parrot"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "A fan-tailed peacock forms the centrepiece.",
+    "q_np": "यो प्रसिद्ध झ्यालको बीचमा कुन चरा कुँदिएको छ?",
+    "options_np": [
+     "गरुड",
+     "मयूर",
+     "सारस",
+     "सुगा"
+    ],
+    "explanation_np": "झ्यालको बीचमा पुच्छर फिजाएको मयूर कुँदिएको छ।"
+   },
+   {
+    "q": "What is the Newar name of the Peacock Window?",
+    "options": [
+     "Lunjhya",
+     "Mhaykha Jhya",
+     "Sanjhya",
+     "Tikijhya"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Mhaykha Jhya means peacock window.",
+    "q_np": "मयूर झ्यालको नेवारी नाम के हो?",
+    "options_np": [
+     "लुँझ्या",
+     "म्हय्खा झ्या",
+     "सँझ्या",
+     "टिकीझ्या"
+    ],
+    "explanation_np": "नेवारीमा यसलाई ‘म्हय्खा झ्या’ भनिन्छ, अर्थात् मयूर झ्याल।"
+   },
+   {
+    "q": "To which century is the window generally dated?",
+    "options": [
+     "12th",
+     "15th",
+     "18th",
+     "20th"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It is usually described as a 15th-century carving.",
+    "q_np": "यो झ्याल सामान्यतया कुन शताब्दीको मानिन्छ?",
+    "options_np": [
+     "१२ औँ",
+     "१५ औँ",
+     "१८ औँ",
+     "२० औँ"
+    ],
+    "explanation_np": "यो झ्याल सामान्यतया पन्ध्रौँ शताब्दीको मानिन्छ।"
+   },
+   {
+    "q": "What does the Pujari Math building house today?",
+    "options": [
+     "A school",
+     "A woodworking museum",
+     "A police post",
+     "A hotel"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "It is home to the National Woodworking Museum.",
+    "q_np": "अहिले पुजारी मठ भवनमा के छ?",
+    "options_np": [
+     "विद्यालय",
+     "काष्ठकला संग्रहालय",
+     "प्रहरी चौकी",
+     "होटल"
+    ],
+    "explanation_np": "अहिले यो भवनमा राष्ट्रिय काष्ठकला संग्रहालय छ।"
+   },
+   {
+    "q": "In which year was the Pujari Math rebuilt?",
+    "options": [
+     "1427",
+     "1702",
+     "1763",
+     "1934"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "The math was rebuilt in 1763.",
+    "q_np": "पुजारी मठ कुन वर्षमा फेरि बनाइयो?",
+    "options_np": [
+     "१४२७",
+     "१७०२",
+     "१७६३",
+     "१९३४"
+    ],
+    "explanation_np": "पुजारी मठ सन् १७६३ मा फेरि बनाइएको थियो।"
+   },
+   {
+    "q": "What is the Peacock Window made of?",
+    "options": [
+     "Stone",
+     "Bronze",
+     "Clay",
+     "Wood"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "It is a carved latticed wooden window, a masterpiece of Newar woodcarving.",
+    "q_np": "मयूर झ्याल केले बनेको छ?",
+    "options_np": [
+     "ढुङ्गा",
+     "काँसा",
+     "माटो",
+     "काठ"
+    ],
+    "explanation_np": "यो कुँदिएको जालीदार काठको झ्याल हो, नेवारी काष्ठकलाको उत्कृष्ट नमुना।"
+   },
+   {
+    "q": "What happened to the window itself in the 2015 earthquake?",
+    "options": [
+     "It survived intact",
+     "It was completely destroyed",
+     "It was moved abroad",
+     "It was painted gold"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "The wall around it had to be rebuilt, but the window itself survived intact.",
+    "q_np": "सन् २०१५ को भूकम्पमा झ्याललाई आफैँलाई के भयो?",
+    "options_np": [
+     "यो सग्लै रह्यो",
+     "पूरै नष्ट भयो",
+     "विदेश लगियो",
+     "सुनौलो रङले रङ्ग्याइयो"
+    ],
+    "explanation_np": "वरिपरिको भित्ता फेरि बनाउनुपर्‍यो, तर झ्याल आफैँ सग्लै रह्यो।"
+   },
+   {
+    "q": "What is the name of the building in which the window sits?",
+    "options": [
+     "Taleju Math",
+     "Pujari Math",
+     "Kumari Ghar",
+     "Chyasin Mandap"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The window is set in the Pujari Math, a former priests' house.",
+    "q_np": "झ्याल रहेको भवनको नाम के हो?",
+    "options_np": [
+     "तलेजु मठ",
+     "पुजारी मठ",
+     "कुमारी घर",
+     "च्यासिन मण्डप"
+    ],
+    "explanation_np": "झ्याल पुजारीहरूको पुरानो घर, पुजारी मठमा छ।"
+   },
+   {
+    "q": "The Pujari Math is off which square?",
+    "options": [
+     "Tachupal Square",
+     "Taumadhi Square",
+     "Durbar Square",
+     "Pottery Square"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "The Pujari Math stands in a narrow lane off Tachupal Square.",
+    "q_np": "पुजारी मठ कुन चोकछेउमा छ?",
+    "options_np": [
+     "तचपाल चोक",
+     "तौमढी चोक",
+     "दरबार क्षेत्र",
+     "कुम्हाले टोल"
+    ],
+    "explanation_np": "पुजारी मठ तचपाल चोकछेउको साँघुरो गल्लीमा छ।"
+   },
+   {
+    "q": "Who renovated the building in 1979?",
+    "options": [
+     "Japanese engineers",
+     "British architects",
+     "German experts",
+     "Indian craftsmen"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "German experts renovated the building in 1979.",
+    "q_np": "सन् १९७९ मा भवनको मर्मत कसले गरे?",
+    "options_np": [
+     "जापानी इन्जिनियर",
+     "बेलायती वास्तुकार",
+     "जर्मन विशेषज्ञ",
+     "भारतीय शिल्पी"
+    ],
+    "explanation_np": "सन् १९७९ मा जर्मन विशेषज्ञहरूले यो भवनको मर्मत गरेका थिए।"
+   }
+  ],
+  "clues": [
+   "A bird spreads its tail in wood above a narrow lane near a priests' house.",
+   "More than five centuries old, I am a frame for light and air, not a door.",
+   "I am a carved lattice, with smaller birds and ornaments filling the gaps around my centrepiece.",
+   "I belong to a former priests' house that now holds a museum of woodwork.",
+   "Foreign experts repaired my house in 1979; in 2015 the wall around me was rebuilt, but I was unharmed.",
+   "I look over a lane just off a square where a temple to a three-in-one god stands, and I am among the most celebrated pieces of Newar woodcarving."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Newar_window",
+   "https://en.wikipedia.org/wiki/Pujarimath_Museum",
+   "https://www.lonelyplanet.com/points-of-interest/pujari-math/1432551",
+   "https://www.wikidata.org/wiki/Q16917852",
+   "https://commons.wikimedia.org/wiki/Category:Peacock_window,_Bhaktapur"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Peacock_Window%2C_Pujari_Math_%285241413125%29.jpg/1280px-Peacock_Window%2C_Pujari_Math_%285241413125%29.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Peacock_Window,_Pujari_Math_(5241413125).jpg",
+   "author": "Greg Willis from Denver, CO, usa",
+   "license": "CC BY-SA 2.0",
+   "width": 1280,
+   "height": 854,
+   "verified_http": 200,
+   "bytes": 408808
+  },
+  "province": "Bagmati",
+  "district": "Bhaktapur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Bhaktapur-Pujari_Math-04-Pfauenfenster-2013-gje.jpg/1280px-Bhaktapur-Pujari_Math-04-Pfauenfenster-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Pujari_Math-04-Pfauenfenster-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The carved peacock window, Pujari Math"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Bhaktapur-Pujari_Math-02-Pfauenfenster-2007-gje.jpg/1280px-Bhaktapur-Pujari_Math-02-Pfauenfenster-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Pujari_Math-02-Pfauenfenster-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Peacock window, 2007"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Peacock_window_%E2%80%93_Bhaktapur_%E2%80%93_01.jpg/1280px-Peacock_window_%E2%80%93_Bhaktapur_%E2%80%93_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Peacock_window_%E2%80%93_Bhaktapur_%E2%80%93_01.jpg",
+    "author": "Maesi64",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Peacock window close-up"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Puhari_Math%2C_Peacock_Window_and_Shop_%285242008704%29.jpg/1280px-Puhari_Math%2C_Peacock_Window_and_Shop_%285242008704%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Puhari_Math,_Peacock_Window_and_Shop_(5242008704).jpg",
+    "author": "Greg Willis from Denver, CO, usa",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Pujari Math with the peacock window"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Bhaktapur-Pujari_Math-12-Pfauenfenster-Erdbebenschaden-2015-gje.jpg/1280px-Bhaktapur-Pujari_Math-12-Pfauenfenster-Erdbebenschaden-2015-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur-Pujari_Math-12-Pfauenfenster-Erdbebenschaden-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Peacock window wall after the 2015 earthquake"
+   }
+  ],
+  "model": {
+   "kind": "palace",
+   "tiers": 3,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    20,
+    12
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#3e2a1c",
+    "#9c4a2a"
+   ],
+   "features": [
+    "carved-windows"
+   ],
+   "surroundings": [
+    "city-street",
+    "newar-houses"
+   ],
+   "notes": "Small dark latticed window with a carved peacock spreading its tail, set in a red brick monastery wall on a lane"
+  },
+  "short_np": "१५ औं शताब्दीको कुँदिएको झ्याल, जसमा पुच्छर फिजाएको मयूर छ। यो नेपालकै सबैभन्दा प्रसिद्ध झ्याल हो।",
+  "story_np": "तचपाल चोकछेउको पुजारीहरूको पुरानो घर, पुजारी मठको छेउको साँघुरो गल्लीमा पस्नुहोस् र भित्तातिर हेर्नुहोस्। त्यही हो मयूर झ्याल, नेवारीमा ‘म्हय्खा झ्या’। बीचमा मयूरले पङ्खाजस्तो पुच्छर फिजाएको छ र वरपरको जालीमा कुँदिएका साना चरा र बुट्टा जीवन्त देखिन्छन्। यो झ्याल सामान्यतया पन्ध्रौँ शताब्दीको मानिन्छ। त्यसैले यो नेवारी काष्ठकलाका सबैभन्दा पुराना र चर्चित नमुनामध्ये एक हो। यो भवन पन्ध्रौँ शताब्दीमा पहिलो पटक बनेको थियो र सन् १७६३ मा फेरि बनाइयो। जर्मन विशेषज्ञहरूले सन् १९७९ मा यसको मर्मत गरे। अहिले यसमा राष्ट्रिय काष्ठकला संग्रहालय छ। सन् २०१५ को भूकम्पले भवनमा क्षति पुर्‍यायो र झ्यालवरिपरिको भित्ता फेरि बनाउनुपर्‍यो, तर मयूर भने सग्लै रह्यो। पाँच सय वर्षभन्दा पहिले हातैले काठ कुँद्ने कलाकारको कल्पना गर्दै केही बेर उभिनुहोस्।",
+  "legend_np": null,
+  "facts_np": [
+   "नेवारी नाम ‘म्हय्खा झ्या’ हो, जसको अर्थ ‘मयूर झ्याल’ हो।",
+   "झ्याल सामान्यतया १५ औं शताब्दीको मानिन्छ।",
+   "पुजारी मठ १५ औं शताब्दीमा पहिलो पटक बनेको थियो र सन् १७६३ मा फेरि बनाइयो।",
+   "अहिले यो भवनमा राष्ट्रिय काष्ठकला संग्रहालय छ।"
+  ],
+  "quake_np": "सन् २०१५ को भूकम्पले पुजारी मठमा क्षति पुर्‍यायो र झ्यालवरिपरिको भित्ता फेरि बनाइयो, तर मयूर झ्याल आफैँ सग्लै रह्यो।",
+  "clues_np": [
+   "साँघुरो गल्लीमाथि पुजारीको घरनजिक एउटा चराले काठमा पुच्छर फिजाइरहेको छ।",
+   "पाँच शताब्दीभन्दा पुरानो म ढोका होइन, उज्यालो र हावा आउने झ्याल हुँ।",
+   "म कुँदिएको जाली हुँ। मेरो बीचको मुख्य आकृतिवरिपरि साना चरा र बुट्टाले ठाउँ भरिएको छ।",
+   "म पुजारीहरूको पुरानो घरको भाग हुँ, जहाँ अहिले काठको कामको संग्रहालय छ।",
+   "सन् १९७९ मा विदेशी विशेषज्ञले मेरो घर मर्मत गरे। सन् २०१५ मा वरिपरिको भित्ता फेरि बनाइयो, तर मलाई केही भएन।",
+   "म एउटा चोकछेउको गल्लीमाथि छु, जहाँ तीन देवता एकैमा भएका देवताको मन्दिर छ। मलाई नेवारी काष्ठकलाका सबैभन्दा प्रसिद्ध नमुनामध्ये एक मानिन्छ।"
+  ]
+ },
+ {
+  "slug": "siddha-pokhari",
+  "name": "Siddha Pokhari",
+  "name_np": "सिद्ध पोखरी",
+  "city": "Bhaktapur",
+  "zone": null,
+  "lat": 27.671933,
+  "lng": 85.420419,
+  "coord_source": "OpenStreetMap way 38605233 centroid (wikidata Q19712957; Wikidata point 27.671747, 85.420892 lies within the pond)",
+  "type": "pond",
+  "religion": "Secular",
+  "deity": null,
+  "built_year": null,
+  "built_century_text": "Traditionally 15th century under Yaksha Malla; some local historians argue for older origins",
+  "dynasty": "Malla",
+  "architecture": "Large rectangular man-made reservoir pond",
+  "unesco": false,
+  "short": "Bhaktapur's biggest man-made pond, Ta Pukhu, wrapped in a legend of a trapped serpent.",
+  "story": "Pause at the edge of this long, still pond on the western side of old Bhaktapur. This is Siddha Pokhari, called Ta Pukhu in Newar, which simply means the big pond. About 171 metres long, 73 metres wide and around three metres deep, it is the largest man-made pond in the city. Tradition credits King Yaksha Malla with building it in the fifteenth century, though some local historians argue its origins are even older. For centuries ponds like this stored water for the city, supported farming and gave people a place to gather. Now look into the water and think of the tale every child here knows: a powerful serpent spirit once ruled these depths, and a sorcerer who dared to fight it never came back as a man. That is why, the story goes, people from Thimi traditionally kept away from this pond.",
+  "legend": "A powerful Naga, a serpent spirit, was said to guard this pond. A tantric practitioner turned himself into a serpent to fight it underwater, first asking a friend from Thimi to scatter enchanted rice afterwards to restore his human form. But the friend, terrified by the two serpents thrashing in the water, ran away. The tantric stayed a serpent forever, and people from Thimi long avoided the pond, fearing revenge.",
+  "facts": [
+   "Its Newar name, Ta Pukhu, means \"big pond\".",
+   "It measures about 171 m by 73 m and is about 3 m deep.",
+   "It is the largest man-made pond in Bhaktapur.",
+   "Tradition credits King Yaksha Malla (15th century) with building it."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 20,
+   "note": "Public pond on the western edge of the old city; whether it falls inside the heritage-ticket checkpoints was not verified."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "What does the Newar name Ta Pukhu mean?",
+    "options": [
+     "Holy water",
+     "Big pond",
+     "Snake lake",
+     "Royal bath"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "'Ta' means big and 'pukhu' means pond.",
+    "q_np": "नेवारी नाम ‘ता पुखु’ को अर्थ के हो?",
+    "options_np": [
+     "पवित्र जल",
+     "ठूलो पोखरी",
+     "सर्पको ताल",
+     "शाही स्नानघर"
+    ],
+    "explanation_np": "‘ता पुखु’ को अर्थ ‘ठूलो पोखरी’ हो।"
+   },
+   {
+    "q": "Which king is traditionally credited with building Siddha Pokhari?",
+    "options": [
+     "Yaksha Malla",
+     "Bhupatindra Malla",
+     "Manadeva",
+     "Prithvi Narayan Shah"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Tradition credits Yaksha Malla in the 15th century.",
+    "q_np": "परम्परा अनुसार सिद्ध पोखरी बनाउने श्रेय कुन राजालाई दिइन्छ?",
+    "options_np": [
+     "यक्ष मल्ल",
+     "भूपतीन्द्र मल्ल",
+     "मानदेव",
+     "पृथ्वीनारायण शाह"
+    ],
+    "explanation_np": "परम्परा अनुसार पन्ध्रौँ शताब्दीमा राजा यक्ष मल्लले यो पोखरी बनाएका हुन्।"
+   },
+   {
+    "q": "Roughly how long is the pond?",
+    "options": [
+     "About 50 m",
+     "About 171 m",
+     "About 500 m",
+     "About 1 km"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "It is about 171 m long and 73 m wide.",
+    "q_np": "पोखरीको लम्बाइ करिब कति छ?",
+    "options_np": [
+     "करिब ५० मिटर",
+     "करिब १७१ मिटर",
+     "करिब ५०० मिटर",
+     "करिब १ किमी"
+    ],
+    "explanation_np": "पोखरी करिब १७१ मिटर लामो र ७३ मिटर चौडा छ।"
+   },
+   {
+    "q": "In the legend, what creature guarded the pond?",
+    "options": [
+     "A crocodile",
+     "A Naga serpent",
+     "A giant fish",
+     "A dragon"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "A Naga, a serpent spirit, was believed to live in the pond.",
+    "q_np": "किंवदन्तीमा पोखरीको रक्षा कुन प्राणीले गर्थ्यो?",
+    "options_np": [
+     "गोही",
+     "नाग सर्प",
+     "ठूलो माछा",
+     "ड्रागन"
+    ],
+    "explanation_np": "किंवदन्ती अनुसार एउटा शक्तिशाली नाग, अर्थात् सर्प आत्माले पोखरीको रक्षा गर्थ्यो।"
+   },
+   {
+    "q": "In the legend, the friend who failed the tantric came from which town?",
+    "options": [
+     "Patan",
+     "Thimi",
+     "Banepa",
+     "Kirtipur"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The friend was from Thimi, and Thimi people long avoided the pond.",
+    "q_np": "किंवदन्तीमा तान्त्रिकलाई साथ दिन नसक्ने साथी कुन सहरका थिए?",
+    "options_np": [
+     "पाटन",
+     "ठिमी",
+     "बनेपा",
+     "कीर्तिपुर"
+    ],
+    "explanation_np": "ती साथी ठिमीका थिए। त्यसैले ठिमीका मानिस लामो समयसम्म यो पोखरीबाट टाढा बसे।"
+   },
+   {
+    "q": "On which side of old Bhaktapur does the pond lie?",
+    "options": [
+     "Eastern side",
+     "Northern side",
+     "Western side",
+     "Southern side"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "The pond lies on the western side of old Bhaktapur.",
+    "q_np": "पुरानो भक्तपुरको कुन भागमा पोखरी पर्छ?",
+    "options_np": [
+     "पूर्वी भाग",
+     "उत्तरी भाग",
+     "पश्चिमी भाग",
+     "दक्षिणी भाग"
+    ],
+    "explanation_np": "पोखरी पुरानो भक्तपुरको पश्चिमी भागमा पर्छ।"
+   },
+   {
+    "q": "Which description fits Siddha Pokhari best?",
+    "options": [
+     "A natural lake fed by springs",
+     "The city's largest man-made pond",
+     "A hot spring",
+     "A glacial lake"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is the largest man-made pond in the city, a large rectangular reservoir.",
+    "q_np": "सिद्ध पोखरीलाई कुन वर्णनले ठीकसँग भन्छ?",
+    "options_np": [
+     "झरनाले भरिने प्राकृतिक ताल",
+     "सहरको सबैभन्दा ठूलो मानव निर्मित पोखरी",
+     "तातोपानी कुण्ड",
+     "हिमताल"
+    ],
+    "explanation_np": "यो सहरकै सबैभन्दा ठूलो मानिसले बनाएको आयताकार पोखरी हो।"
+   },
+   {
+    "q": "About how deep is the pond?",
+    "options": [
+     "About 30 cm",
+     "About 10 m",
+     "About 3 m",
+     "About 25 m"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "It is around three metres deep.",
+    "q_np": "पोखरी करिब कति गहिरो छ?",
+    "options_np": [
+     "करिब ३० सेन्टिमिटर",
+     "करिब १० मिटर",
+     "करिब ३ मिटर",
+     "करिब २५ मिटर"
+    ],
+    "explanation_np": "पोखरी झण्डै तीन मिटर गहिरो छ।"
+   },
+   {
+    "q": "What did the tantric ask his friend to scatter to restore his human form?",
+    "options": [
+     "Flower petals",
+     "Holy water",
+     "Gold dust",
+     "Enchanted rice"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "He asked a friend from Thimi to scatter enchanted rice afterwards to restore his human form.",
+    "q_np": "मानव रूप फर्काउन तान्त्रिकले साथीलाई के छर्न भनेका थिए?",
+    "options_np": [
+     "फूलका पात",
+     "पवित्र जल",
+     "सुनको धूलो",
+     "मन्त्र पढेको चामल"
+    ],
+    "explanation_np": "उनले ठिमीका साथीलाई पछि मन्त्र पढेको चामल छर्न भनेका थिए, ताकि आफू फेरि मानिस बन्न सकून्।"
+   },
+   {
+    "q": "In the legend, why did the friend fail to help?",
+    "options": [
+     "He was terrified by two thrashing serpents and ran away",
+     "He ran out of enchanted rice before reaching the pond",
+     "A king ordered him to leave the city",
+     "He fell asleep waiting by the water's edge"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Terrified by the two serpents thrashing in the water, the friend ran away.",
+    "q_np": "किंवदन्तीमा साथीले किन सहयोग गर्न सकेनन्?",
+    "options_np": [
+     "पानीमा छटपटाइरहेका दुई सर्प देखेर डराएर भागे",
+     "पोखरी पुग्नुअघि नै मन्त्र पढेको चामल सकियो",
+     "राजाले उनलाई सहरबाट निकाले",
+     "पोखरीको किनारमा कुर्दाकुर्दै निदाए"
+    ],
+    "explanation_np": "पानीमा छटपटाइरहेका दुई सर्प देखेर डराएका साथी भागे।"
+   }
+  ],
+  "clues": [
+   "A man who became a serpent is said to be trapped forever in my waters.",
+   "I am the biggest hand-dug water in the city, my Newar name simply calls me \"big\".",
+   "I am a long, still rectangle of water, about 171 metres by 73.",
+   "A fifteenth-century king is said to have dug me, though some say I am older.",
+   "For centuries I stored water for the city, helped the farmers and gave people a place to gather.",
+   "On the western side of an old brick city, I was long avoided by people from a neighboring town who feared revenge."
+  ],
+  "sources": [
+   "https://nepaltraveller.com/sidetrack/the-legend-of-siddha-pokhari-in-bhaktapur",
+   "https://www.bhaktapur.com/forgotten-history-of-siddha-pokhari/",
+   "https://www.wikidata.org/wiki/Q19712957",
+   "https://www.openstreetmap.org/way/38605233"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Sidhapokhari_of_Bhaktapur.jpg/1280px-Sidhapokhari_of_Bhaktapur.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Sidhapokhari_of_Bhaktapur.jpg",
+   "author": "Maneesa stha",
+   "license": "CC BY-SA 4.0",
+   "width": 1280,
+   "height": 1707,
+   "verified_http": 200,
+   "bytes": 384365
+  },
+  "province": "Bagmati",
+  "district": "Bhaktapur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Bhaktapur_shiddapokhari.jpg/1280px-Bhaktapur_shiddapokhari.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur_shiddapokhari.jpg",
+    "author": "Rabinphaiju",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Siddha Pokhari, Bhaktapur"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Bhaktapur_20180919_155238.jpg/1280px-Bhaktapur_20180919_155238.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur_20180919_155238.jpg",
+    "author": "Ricky Partel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Water and banks of Siddha Pokhari"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Bhaktapur_20180919_155943.jpg/1280px-Bhaktapur_20180919_155943.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur_20180919_155943.jpg",
+    "author": "Ricky Partel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Siddha Pokhari, 2018"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bhaktapur_20180919_160132.jpg/1280px-Bhaktapur_20180919_160132.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bhaktapur_20180919_160132.jpg",
+    "author": "Ricky Partel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Walkway around Siddha Pokhari"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/A_Historical_Tree_%28Peepal%29_2.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:A_Historical_Tree_(Peepal)_2.jpg",
+    "author": "Punya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Historic peepal tree at Siddha Pokhari"
+   }
+  ],
+  "model": {
+   "kind": "pond",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    171,
+    73
+   ],
+   "walls": "stone",
+   "roof": "none",
+   "colors": [
+    "#4a6b5a",
+    "#8b3a2b",
+    "#6b8e3a"
+   ],
+   "features": [
+    "ghat-steps",
+    "sacred-tree",
+    "idol-visible"
+   ],
+   "surroundings": [
+    "pond",
+    "city-street",
+    "newar-houses"
+   ],
+   "notes": "Long rectangular walled pond with a walkway around it and small shrines and trees along its edges"
+  },
+  "short_np": "भक्तपुरको सबैभन्दा ठूलो मानव निर्मित पोखरी, ता पुखु, जसको वरिपरि सर्पमा फसेको मानिसको किंवदन्ती छ।",
+  "story_np": "पुरानो भक्तपुरको पश्चिम भागको यो लामो, शान्त पोखरीको किनारमा केही बेर रोकिनुहोस्। यो सिद्ध पोखरी हो, नेवारीमा ‘ता पुखु’ भनिने, जसको अर्थ नै ठूलो पोखरी हो। यो करिब १७१ मिटर लामो, ७३ मिटर चौडा र झण्डै तीन मिटर गहिरो छ। यो सहरको सबैभन्दा ठूलो मानव निर्मित पोखरी हो। परम्परा अनुसार राजा यक्ष मल्लले पन्ध्रौँ शताब्दीमा यो बनाएका हुन्। केही स्थानीय इतिहासकार भने यो अझ पुरानो हो भन्छन्। सयौँ वर्षसम्म यस्ता पोखरीले सहरका लागि पानी जम्मा गरे, खेतीपातीमा सघाए र मानिसलाई भेट्ने ठाउँ दिए। अब पानीमा हेर्नुहोस् र यहाँका हरेक बच्चाले जानेको कथा सम्झनुहोस्। एउटा शक्तिशाली नाग आत्माले यही गहिराइमा राज गर्थ्यो। त्यससँग लड्न आँट गर्ने एक तान्त्रिक फेरि मानिस भएर फर्किएनन्। त्यसैले कथा अनुसार ठिमीका मानिस परम्परादेखि यो पोखरीबाट टाढै बस्थे।",
+  "legend_np": "यो पोखरीको रक्षा एउटा शक्तिशाली नाग, अर्थात् सर्प आत्माले गर्थ्यो भनिन्छ। एक तान्त्रिकले पानीभित्र त्यससँग लड्न आफैँ सर्पको रूप लिए। सुरुमै उनले ठिमीका एक साथीलाई पछि मन्त्र पढेको चामल छर्न भनेका थिए, ताकि आफू फेरि मानिस बन्न सकून्। तर पानीमा छटपटाइरहेका दुई सर्प देखेर डराएका ती साथी भागे। तान्त्रिक सधैँका लागि सर्प नै रहे। बदलाको डरले ठिमीका मानिस लामो समयसम्म यो पोखरीबाट टाढा बसे।",
+  "facts_np": [
+   "यसको नेवारी नाम ‘ता पुखु’ को अर्थ ‘ठूलो पोखरी’ हो।",
+   "यो करिब १७१ मिटर लामो, ७३ मिटर चौडा र करिब ३ मिटर गहिरो छ।",
+   "यो भक्तपुरको सबैभन्दा ठूलो मानव निर्मित पोखरी हो।",
+   "परम्परा अनुसार राजा यक्ष मल्ल (पन्ध्रौँ शताब्दी) ले यो बनाएका थिए।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "सर्प बनेको एक मानिस मेरो पानीमा सधैँका लागि फसेको भनिन्छ।",
+   "म यो सहरमा हातैले खनिएको सबैभन्दा ठूलो पोखरी हुँ। मेरो नेवारी नामले मलाई नै ‘ठूलो’ भन्छ।",
+   "म करिब १७१ मिटर लामो र ७३ मिटर चौडा, लामो र शान्त आयताकार पानीको पोखरी हुँ।",
+   "पन्ध्रौँ शताब्दीका एक राजाले मलाई खनेका हुन् भनिन्छ, तर केहीले म अझ पुरानो हुँ भन्छन्।",
+   "सयौँ वर्षदेखि म सहरका लागि पानी जम्मा गर्थें, किसानलाई सघाउँथें र मानिसलाई भेट्ने ठाउँ दिन्थें।",
+   "इँटाको पुरानो सहरको पश्चिम भागमा रहेको मभन्दा छिमेकी सहरका मानिस बदलाको डरले लामो समयसम्म टाढै बसे।"
+  ]
+ },
+ {
+  "slug": "changu-narayan-temple",
+  "name": "Changu Narayan Temple",
+  "name_np": "चाँगुनारायण मन्दिर",
+  "city": "Changunarayan",
+  "zone": null,
+  "lat": 27.716347,
+  "lng": 85.427897,
+  "coord_source": "OpenStreetMap way 186264410 centroid; Wikipedia/Wikidata Q1062150 give 27.716278, 85.427889",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Vishnu (Garuda Narayan)",
+  "built_year": 1702,
+  "built_century_text": "Founded c. 4th century (Licchavi); present temple rebuilt 1702 after a fire",
+  "dynasty": "Licchavi",
+  "architecture": "Two-tiered Newar pagoda with gilded doors and struts carved with the ten avatars of Vishnu",
+  "unesco": true,
+  "short": "One of Nepal's oldest Hindu temples, a hilltop Vishnu shrine with a pillar inscription from 464 AD.",
+  "story": "You have climbed to the hilltop of Changu, once called Dolagiri, above the Manohara River. This is Changu Narayan, one of the oldest Hindu temples in Nepal, honouring Lord Vishnu. Its origins go back to around the fourth century, and the two-roofed temple you see was rebuilt in 1702 after a fire. Walk to the pillar near the entrance. It carries an inscription of the Licchavi king Manadeva dated 464 AD, one of the oldest inscriptions in the country. Now look for the stone Vishnu riding on Garuda: this seventh-century sculpture is pictured on Nepal's ten-rupee banknote. Study the roof struts and you will find the ten incarnations of Vishnu carved in wood, while pairs of lions, griffins and elephants guard the four doorways. Only the priest may see the main image inside. Since 1979 the temple has been part of the Kathmandu Valley World Heritage Site, and it was badly damaged in 2015.",
+  "legend": "A Brahmin named Sudarshan noticed his sacred cow returning without milk. Hiding by a champak tree, he saw a man step out of the tree and drink the milk. Furious, he struck the stranger with his sword, only to see him reveal himself as Vishnu. Vishnu told the grieving Brahmin the beheading was fated by an ancient curse, and promised to dwell on that hill forever, asking to be worshipped there. So began Changu Narayan.",
+  "facts": [
+   "It is considered one of the oldest Hindu temples in Nepal, dating back to about the 4th century.",
+   "A pillar inscription of King Manadeva dated 464 AD stands in the courtyard.",
+   "A 7th-century sculpture of Vishnu on Garuda here appears on Nepal's 10-rupee banknote.",
+   "The temple is one of seven monument zones of the Kathmandu Valley World Heritage Site (1979)."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 400,
+   "entry_fee_saarc_npr": 300,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 60,
+   "note": "Fees per Changunarayan Tourism Centre as reported July 2025 (other sources quote NPR 250–350); opening hours not officially published."
+  },
+  "earthquake_2015": "The temple was badly damaged in the April 2015 earthquake and restored over several years with heritage specialists and local craftspeople.",
+  "quiz": [
+   {
+    "q": "To which god is Changu Narayan dedicated?",
+    "options": [
+     "Shiva",
+     "Vishnu",
+     "Brahma",
+     "Ganesha"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Changu Narayan is a temple of Vishnu (Narayan).",
+    "q_np": "चाँगुनारायण कुन देवतालाई समर्पित छ?",
+    "options_np": [
+     "शिव",
+     "विष्णु",
+     "ब्रह्मा",
+     "गणेश"
+    ],
+    "explanation_np": "चाँगुनारायण भगवान् विष्णुको मन्दिर हो।"
+   },
+   {
+    "q": "Which king set up the famous pillar inscription here?",
+    "options": [
+     "Manadeva",
+     "Amshuverma",
+     "Yaksha Malla",
+     "Bhupatindra Malla"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "The Licchavi king Manadeva set up the pillar inscription.",
+    "q_np": "यहाँको प्रसिद्ध स्तम्भलेख कुन राजाले राखेका थिए?",
+    "options_np": [
+     "मानदेव",
+     "अंशुवर्मा",
+     "यक्ष मल्ल",
+     "भूपतीन्द्र मल्ल"
+    ],
+    "explanation_np": "यो स्तम्भलेख लिच्छवि राजा मानदेवले राखेका हुन्।"
+   },
+   {
+    "q": "What year is the Manadeva pillar inscription dated to?",
+    "options": [
+     "464 AD",
+     "879 AD",
+     "1382 AD",
+     "1702 AD"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "The inscription dates to 464 AD.",
+    "q_np": "मानदेवको स्तम्भलेख कुन वर्षको हो?",
+    "options_np": [
+     "४६४ ई.",
+     "८७९ ई.",
+     "१३८२ ई.",
+     "१७०२ ई."
+    ],
+    "explanation_np": "स्तम्भलेख ४६४ ई. को हो, जुन देशकै सबैभन्दा पुराना अभिलेखमध्ये एक हो।"
+   },
+   {
+    "q": "Which Nepali banknote shows the Garuda Narayan sculpture from this temple?",
+    "options": [
+     "5 rupees",
+     "10 rupees",
+     "100 rupees",
+     "1000 rupees"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The 7th-century Vishnu on Garuda appears on the 10-rupee note.",
+    "q_np": "यस मन्दिरको गरुडनारायणको मूर्ति नेपालको कुन नोटमा छापिएको छ?",
+    "options_np": [
+     "५ रुपैयाँ",
+     "१० रुपैयाँ",
+     "१०० रुपैयाँ",
+     "१००० रुपैयाँ"
+    ],
+    "explanation_np": "सातौँ शताब्दीको गरुडमाथि बसेका विष्णुको मूर्ति दस रुपैयाँको नोटमा छापिएको छ।"
+   },
+   {
+    "q": "In which year was the present temple rebuilt after a fire?",
+    "options": [
+     "464",
+     "1427",
+     "1702",
+     "1934"
+    ],
+    "answer_index": 2,
+    "difficulty": 5,
+    "explanation": "The current two-tiered temple dates from its 1702 rebuilding.",
+    "q_np": "आगलागीपछि अहिलेको मन्दिर कुन वर्षमा फेरि बनाइयो?",
+    "options_np": [
+     "४६४",
+     "१४२७",
+     "१७०२",
+     "१९३४"
+    ],
+    "explanation_np": "आगलागीपछि सन् १७०२ मा अहिलेको दुई छाने मन्दिर फेरि बनाइयो।"
+   },
+   {
+    "q": "What was the old name of the hill on which the temple stands?",
+    "options": [
+     "Sundarijal",
+     "Phulchoki",
+     "Dolagiri",
+     "Nagarjun"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "The hilltop of Changu was once called Dolagiri.",
+    "q_np": "मन्दिर रहेको डाँडालाई पहिले के भनिन्थ्यो?",
+    "options_np": [
+     "सुन्दरीजल",
+     "फुल्चोकी",
+     "डोलागिरि",
+     "नागार्जुन"
+    ],
+    "explanation_np": "चाँगुको डाँडालाई पहिले डोलागिरि भनिन्थ्यो।"
+   },
+   {
+    "q": "How many roofs does the temple have?",
+    "options": [
+     "Two",
+     "One",
+     "Three",
+     "Five"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It is a two-tiered Newar pagoda with gilded doors.",
+    "q_np": "मन्दिरमा कतिवटा छाना छन्?",
+    "options_np": [
+     "दुई",
+     "एक",
+     "तीन",
+     "पाँच"
+    ],
+    "explanation_np": "यो सुनौला ढोका भएको दुई छाने नेवारी पगोडा हो।"
+   },
+   {
+    "q": "Which river flows below the Changu hilltop?",
+    "options": [
+     "Bagmati",
+     "Manohara",
+     "Bishnumati",
+     "Rudramati"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The hilltop rises above the Manohara River.",
+    "q_np": "चाँगु डाँडामुनि कुन नदी बग्छ?",
+    "options_np": [
+     "बागमती",
+     "मनोहरा",
+     "विष्णुमती",
+     "रुद्रमती"
+    ],
+    "explanation_np": "डाँडा मनोहरा नदीमाथि उठेको छ।"
+   },
+   {
+    "q": "In the legend, what was the name of the Brahmin who struck the stranger?",
+    "options": [
+     "Gautam",
+     "Bhrigu",
+     "Manadeva",
+     "Sudarshan"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "A Brahmin named Sudarshan struck the stranger, who revealed himself as Vishnu.",
+    "q_np": "किंवदन्तीमा अपरिचितलाई तरवारले हान्ने ब्राह्मणको नाम के थियो?",
+    "options_np": [
+     "गौतम",
+     "भृगु",
+     "मानदेव",
+     "सुदर्शन"
+    ],
+    "explanation_np": "सुदर्शन नामका ब्राह्मणले अपरिचितलाई हाने, जसले आफू विष्णु हुँ भनेर देखाए।"
+   },
+   {
+    "q": "What is carved on the roof struts of the temple?",
+    "options": [
+     "The Eight Mother Goddesses",
+     "The twelve zodiac signs",
+     "The ten avatars of Vishnu",
+     "The five Buddhas"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The roof struts carry the ten incarnations of Vishnu carved in wood.",
+    "q_np": "मन्दिरको छानाका टेकामा के कुँदिएको छ?",
+    "options_np": [
+     "अष्टमातृका",
+     "बाह्र राशि",
+     "विष्णुका दश अवतार",
+     "पाँच बुद्ध"
+    ],
+    "explanation_np": "छानाका टेकामा विष्णुका दश अवतार काठमा कुँदिएका छन्।"
+   }
+  ],
+  "clues": [
+   "On a hill once called Dolagiri, a king carved words on a pillar in 464 AD.",
+   "A god on his winged mount here has travelled across Nepal on a ten-rupee note.",
+   "Two roofs and gilded doors crown my hilltop; my roof struts carry the ten avatars of a god.",
+   "Lions, griffins and elephants stand in pairs at my four doorways.",
+   "A Brahmin once struck a stranger who stepped from a champak tree to drink his cow's milk; it was a god, who promised to stay here.",
+   "Fire took my old roofs, 1702 saw them rebuilt, and in 2015 I was badly shaken but restored over years."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Changu_Narayan_Temple",
+   "https://whc.unesco.org/en/list/121/",
+   "https://www.wikidata.org/wiki/Q1062150",
+   "https://www.openstreetmap.org/way/186264410",
+   "https://english.ratopati.com/story/40184",
+   "https://thehimalayantimes.com/nepal/inspired-by-nepal-uk-architect-rebuilds-ancient-changu-narayan/"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Changu_Narayan-Garuda_Narayana-12-ost-2013-gje.jpg/1280px-Changu_Narayan-Garuda_Narayana-12-ost-2013-gje.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Changu_Narayan-Garuda_Narayana-12-ost-2013-gje.jpg",
+   "author": "Gerd Eichmann",
+   "license": "CC BY-SA 4.0",
+   "width": 1280,
+   "height": 853,
+   "verified_http": 200,
+   "bytes": 441606
+  },
+  "province": "Bagmati",
+  "district": "Bhaktapur",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Changu_Narayan-Garuda_Narayana-02-nordost-2013-gje.jpg/1280px-Changu_Narayan-Garuda_Narayana-02-nordost-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Changu_Narayan-Garuda_Narayana-02-nordost-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Changu Narayan Temple from the northeast"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Changu_Narayan-Garuda_Narayana-18-ost-Dachstreben-2014-gje.jpg/1280px-Changu_Narayan-Garuda_Narayana-18-ost-Dachstreben-2014-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Changu_Narayan-Garuda_Narayana-18-ost-Dachstreben-2014-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Carved roof struts on the east side"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Changu_Narayan-Garuda_Narayana-52-sued-Portal-2013-gje.jpg/1280px-Changu_Narayan-Garuda_Narayana-52-sued-Portal-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Changu_Narayan-Garuda_Narayana-52-sued-Portal-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Gilded south portal"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Changu_Narayan-Garuda_Narayana-56-sued-Elefanten-2013-gje.jpg/1280px-Changu_Narayan-Garuda_Narayana-56-sued-Elefanten-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Changu_Narayan-Garuda_Narayana-56-sued-Elefanten-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone elephants at the south entrance"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Changu_Narayan-Manadeva-Saeule-06-2013-gje.jpg/1280px-Changu_Narayan-Manadeva-Saeule-06-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Changu_Narayan-Manadeva-Saeule-06-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Pillar of King Manadeva (464 AD)"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    12,
+    12
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#c9a227",
+    "#4a3020"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "golden-door",
+    "carved-struts",
+    "garuda-pillar",
+    "stone-pillar",
+    "elephant-statues",
+    "lion-statues"
+   ],
+   "surroundings": [
+    "brick-courtyard",
+    "hilltop",
+    "village"
+   ],
+   "notes": "Two-roofed pagoda with gilded doors and densely carved struts in a hilltop courtyard, Garuda kneeling in front"
+  },
+  "short_np": "नेपालका सबैभन्दा पुराना हिन्दू मन्दिरमध्ये एक, ४६४ ई. को स्तम्भलेख भएको डाँडामाथिको विष्णु मन्दिर।",
+  "story_np": "तपाईं मनोहरा नदीमाथिको चाँगु डाँडामा पुग्नुभएको छ। पहिले यसलाई डोलागिरि भनिन्थ्यो। यो चाँगुनारायण हो, भगवान् विष्णुको मन्दिर र नेपालका सबैभन्दा पुराना हिन्दू मन्दिरमध्ये एक। यसको सुरुवात करिब चौथो शताब्दीतिर भएको हो। अहिले देखिने दुई छाने मन्दिर आगलागीपछि सन् १७०२ मा फेरि बनाइएको हो। प्रवेशद्वारनजिकको स्तम्भमा जानुहोस्। त्यसमा लिच्छवि राजा मानदेवको ४६४ ई. को अभिलेख छ। यो देशकै सबैभन्दा पुराना अभिलेखमध्ये एक हो। अब गरुडमाथि बसेका विष्णुको ढुङ्गाको मूर्ति खोज्नुहोस्। सातौँ शताब्दीको यो मूर्ति नेपालको दस रुपैयाँको नोटमा छापिएको छ। छानाका टेकाहरू ध्यान दिएर हेर्नुभयो भने विष्णुका दश अवतार काठमा कुँदिएका देख्नुहुन्छ। चारै ढोकामा सिंह, ग्रिफिन र हात्तीका जोडीले पहरा दिन्छन्। भित्रको मुख्य मूर्ति पुजारीले मात्र देख्न पाउँछन्। सन् १९७९ देखि यो मन्दिर काठमाडौँ उपत्यका विश्व सम्पदा स्थलको भाग हो। सन् २०१५ मा यसमा ठूलो क्षति पुगेको थियो।",
+  "legend_np": "सुदर्शन नामका एक ब्राह्मणले आफ्नी पवित्र गाई दूध नदिईकन फर्कने गरेको देखे। चम्पाको रूखनजिक लुकेर बस्दा उनले रूखबाट एक जना मानिस निस्केर दूध पिएको देखे। रिसले उनले त्यो अपरिचितलाई तरवारले हाने, तर ती मानिसले आफू विष्णु हुँ भनेर देखाए। विष्णुले शोकमा डुबेका ब्राह्मणलाई भने, शिर काटिनु पुरानो श्रापको नियति थियो। उनले सधैँ त्यही डाँडामा बस्ने वचन दिए र त्यहीँ आफ्नो पूजा गर्न भने। यसरी चाँगुनारायणको सुरुवात भयो।",
+  "facts_np": [
+   "यो नेपालका सबैभन्दा पुराना हिन्दू मन्दिरमध्ये एक मानिन्छ। यो करिब चौथो शताब्दीको हो।",
+   "आँगनमा राजा मानदेवको ४६४ ई. को स्तम्भलेख छ।",
+   "यहाँको गरुडमाथि विष्णुको सातौँ शताब्दीको मूर्ति नेपालको १० रुपैयाँको नोटमा छापिएको छ।",
+   "यो मन्दिर काठमाडौँ उपत्यका विश्व सम्पदा स्थल (१९७९) का सात सम्पदा क्षेत्रमध्ये एक हो।"
+  ],
+  "quake_np": "सन् २०१५ अप्रिलको भूकम्पमा मन्दिरमा ठूलो क्षति पुगेको थियो। सम्पदा विशेषज्ञ र स्थानीय शिल्पीहरूको सहयोगमा धेरै वर्षमा यसलाई फेरि बनाइयो।",
+  "clues_np": [
+   "एक समय डोलागिरि भनिने डाँडामा एक राजाले ४६४ ई. मा स्तम्भमा अक्षर कुँदाएका थिए।",
+   "यहाँ पखेटा भएको वाहनमाथि बसेका एक देवता दस रुपैयाँको नोटमा चढेर नेपालभर घुमिसकेका छन्।",
+   "मेरो डाँडाको टुप्पोमा दुई छाना र सुनौला ढोका छन्। छानाका टेकामा एक देवताका दश अवतार कुँदिएका छन्।",
+   "मेरा चारै ढोकामा सिंह, ग्रिफिन र हात्तीका जोडी उभिएका छन्।",
+   "एक ब्राह्मणले चम्पाको रूखबाट निस्केर आफ्नी गाईको दूध पिउने अपरिचितलाई हाने। ती देवता रहेछन् र उनले यहीँ बस्ने वचन दिए।",
+   "आगोले मेरा पुराना छाना लग्यो र सन् १७०२ मा फेरि बने। सन् २०१५ मा मलाई ठूलो क्षति पुग्यो, तर धेरै वर्षमा मर्मत भयो।"
+  ]
+ },
+ {
+  "slug": "dakshinkali-temple",
+  "name": "Dakshinkali Temple",
+  "name_np": "दक्षिणकाली मन्दिर",
+  "city": "Dakshinkali",
+  "zone": null,
+  "lat": 27.605258,
+  "lng": 85.263489,
+  "coord_source": "OpenStreetMap node 360060921 (name:en 'Dakshinkali Temple'); Wikipedia's 27.5833, 85.25 is only approximate",
+  "type": "courtyard",
+  "religion": "Hindu",
+  "deity": "Dakshinkali (Kali)",
+  "built_year": null,
+  "built_century_text": "Traditionally 17th century, attributed to King Pratap Malla of Kathmandu",
+  "dynasty": "Malla",
+  "architecture": "Shrine compound; the sanctum of the goddess sits under a gilded canopy",
+  "unesco": false,
+  "short": "The valley's most famous Kali shrine, near Pharping, known for sacrifices on Tuesdays and Saturdays.",
+  "story": "You have travelled to the southern edge of the Kathmandu Valley, about a kilometre beyond Pharping village, to one of Nepal's most important shrines to the goddess Kali. Dakshin means south, and this is Kali of the south. Tradition says King Pratap Malla of Kathmandu built the shrine in the seventeenth century after the goddess appeared to him in a dream. Dakshin Kali is typically shown with her right foot on Shiva's chest, and her sanctum here sits beneath a gilded canopy. Come on a Tuesday or a Saturday and you will see long queues of devotees carrying offerings, including cockerels and uncastrated male goats for animal sacrifice, the main form of worship here. The crowds swell even more during the Dashain festival. If sacrifice is hard to watch, you can observe respectfully from a distance. The area is also a popular hiking destination.",
+  "legend": "Tradition holds that the goddess Kali appeared to King Pratap Malla of Kathmandu in a dream and told him to build a shrine for her in the forest at the southern edge of the valley. The king obeyed, and the shrine of Dakshinkali, the Kali of the south, has drawn worshippers ever since. Another explanation of the name links it to Yama, lord of death, who lives in the south and is said to tremble at Kali's name.",
+  "facts": [
+   "The temple is dedicated to the goddess Kali in her Dakshinkali form.",
+   "Animal sacrifices of cockerels and uncastrated male goats are the main form of worship.",
+   "Tuesdays and Saturdays are the busiest days, along with the Dashain festival.",
+   "It lies about 1 km south of Pharping, around 22 km from Kathmandu."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 0,
+   "entry_fee_saarc_npr": 0,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 60,
+   "note": "Active place of worship; no entry ticket found in sources. Official hours not verified (sacrifices are mainly held in the morning on Tuesdays and Saturdays)."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "Which goddess is worshipped at Dakshinkali?",
+    "options": [
+     "Kali",
+     "Lakshmi",
+     "Saraswati",
+     "Taleju"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Dakshinkali is a form of the goddess Kali.",
+    "q_np": "दक्षिणकालीमा कुन देवीको पूजा गरिन्छ?",
+    "options_np": [
+     "काली",
+     "लक्ष्मी",
+     "सरस्वती",
+     "तलेजु"
+    ],
+    "explanation_np": "यहाँ दक्षिणकाली रूपकी देवी कालीको पूजा गरिन्छ।"
+   },
+   {
+    "q": "What does 'Dakshin' mean in the temple's name?",
+    "options": [
+     "North",
+     "South",
+     "Sacred",
+     "River"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Dakshin means south; the shrine lies in the south of the valley.",
+    "q_np": "मन्दिरको नामको ‘दक्षिण’ को अर्थ के हो?",
+    "options_np": [
+     "उत्तर",
+     "दक्षिण",
+     "पवित्र",
+     "नदी"
+    ],
+    "explanation_np": "दक्षिण भनेको दक्षिण दिशा हो, त्यसैले दक्षिणकाली भनेको दक्षिणकी काली।"
+   },
+   {
+    "q": "On which days does the temple see the biggest crowds?",
+    "options": [
+     "Monday and Friday",
+     "Tuesday and Saturday",
+     "Wednesday and Sunday",
+     "Only on full moon"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Tuesdays and Saturdays are the main days for sacrifices.",
+    "q_np": "मन्दिरमा सबैभन्दा बढी भीड कुन दिन हुन्छ?",
+    "options_np": [
+     "सोमबार र शुक्रबार",
+     "मङ्गलबार र शनिबार",
+     "बुधबार र आइतबार",
+     "औँसीपूर्णिमामा मात्र"
+    ],
+    "explanation_np": "मङ्गलबार र शनिबार सबैभन्दा व्यस्त दिन हुन्। दशैँमा पनि भीड बढ्छ।"
+   },
+   {
+    "q": "Which king is traditionally credited with founding the shrine?",
+    "options": [
+     "Pratap Malla",
+     "Yaksha Malla",
+     "Manadeva",
+     "Bhupatindra Malla"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Tradition attributes the shrine to Pratap Malla of Kathmandu in the 17th century.",
+    "q_np": "परम्परा अनुसार कुन राजाले यो मन्दिर स्थापना गरे?",
+    "options_np": [
+     "प्रताप मल्ल",
+     "यक्ष मल्ल",
+     "मानदेव",
+     "भूपतीन्द्र मल्ल"
+    ],
+    "explanation_np": "परम्परा अनुसार काठमाडौँका राजा प्रताप मल्लले सत्रौँ शताब्दीमा यो मन्दिर बनाएका थिए।"
+   },
+   {
+    "q": "Which village lies about a kilometre north of the temple?",
+    "options": [
+     "Chobhar",
+     "Pharping",
+     "Thimi",
+     "Nagarkot"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The temple lies about 1 km south of Pharping.",
+    "q_np": "मन्दिरभन्दा करिब एक किमी उत्तरमा कुन गाउँ पर्छ?",
+    "options_np": [
+     "चोभार",
+     "फर्पिङ",
+     "ठिमी",
+     "नगरकोट"
+    ],
+    "explanation_np": "फर्पिङ गाउँ मन्दिरभन्दा करिब एक किलोमिटर उत्तरमा पर्छ।"
+   },
+   {
+    "q": "Which festival draws extra-large crowds to the shrine?",
+    "options": [
+     "Dashain",
+     "Holi",
+     "Teej",
+     "Buddha Jayanti"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Crowds swell even more during the Dashain festival.",
+    "q_np": "कुन चाडमा मन्दिरमा भीड अझै बढ्छ?",
+    "options_np": [
+     "दशैँ",
+     "होली",
+     "तीज",
+     "बुद्ध जयन्ती"
+    ],
+    "explanation_np": "दशैँको बेला भीड अझै बढ्छ।"
+   },
+   {
+    "q": "What is the main form of worship at this shrine?",
+    "options": [
+     "Silent meditation",
+     "Flower garlands only",
+     "Animal sacrifice",
+     "Singing hymns"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Animal sacrifice of cockerels and uncastrated male goats is the main form of worship here.",
+    "q_np": "यहाँ पूजाको मुख्य तरिका के हो?",
+    "options_np": [
+     "मौन ध्यान",
+     "फूलमाला मात्र",
+     "पशुबलि",
+     "भजन गाउने"
+    ],
+    "explanation_np": "भाले कुखुरा र बोकाको पशुबलि नै यहाँको पूजाको मुख्य तरिका हो।"
+   },
+   {
+    "q": "According to tradition, how did King Pratap Malla learn he should build the shrine?",
+    "options": [
+     "A priest's prophecy",
+     "The goddess appeared in his dream",
+     "A lightning strike",
+     "A battlefield vision"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Tradition says the goddess appeared to the king in a dream and told him to build her a shrine.",
+    "q_np": "परम्परा अनुसार राजा प्रताप मल्लले मन्दिर बनाउनुपर्छ भनेर कसरी थाहा पाए?",
+    "options_np": [
+     "पुजारीको भविष्यवाणीबाट",
+     "देवी सपनामा देखा परेर",
+     "चट्याङ पर्दा",
+     "युद्धभूमिको दृश्यबाट"
+    ],
+    "explanation_np": "परम्परा अनुसार देवी राजाको सपनामा देखा परेर आफ्नो मन्दिर बनाउन भनिन्।"
+   },
+   {
+    "q": "Dakshin Kali is typically shown with her right foot on what?",
+    "options": [
+     "A lion's back",
+     "A demon's head",
+     "Vishnu's lap",
+     "Shiva's chest"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "She is typically shown with her right foot on Shiva's chest.",
+    "q_np": "दक्षिणकालीलाई प्रायः दाहिने खुट्टा कसमाथि राखेको रूपमा देखाइन्छ?",
+    "options_np": [
+     "सिंहको पिठ्युँ",
+     "दानवको टाउको",
+     "विष्णुको काख",
+     "शिवको छाती"
+    ],
+    "explanation_np": "उनलाई प्रायः दाहिने खुट्टा शिवको छातीमा राखेको रूपमा देखाइन्छ।"
+   },
+   {
+    "q": "Another explanation links the name to which lord of death, said to tremble at Kali's name?",
+    "options": [
+     "Yama",
+     "Indra",
+     "Varuna",
+     "Kubera"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "One explanation links the name to Yama, lord of death who lives in the south.",
+    "q_np": "नामको अर्को व्याख्याले यसलाई कुन मृत्युका देवतासँग जोड्छ, जो कालीको नाम सुन्दा काम्छन् भनिन्छ?",
+    "options_np": [
+     "यम",
+     "इन्द्र",
+     "वरुण",
+     "कुबेर"
+    ],
+    "explanation_np": "एउटा व्याख्याले नामलाई दक्षिणमा बस्ने मृत्युका देवता यमसँग जोड्छ।"
+   }
+  ],
+  "clues": [
+   "A king dreamed of a goddess and built her a shrine at the southern edge of the valley.",
+   "Queues of goats and cockerels form here every Tuesday and Saturday.",
+   "I stand at the southern edge of a valley, in a forest about a kilometre beyond a village.",
+   "My goddess is shown with a foot on the chest of a god, her sanctum under a gilded canopy.",
+   "My name means 'of the south'; some say even the lord of death trembles at my goddess's name.",
+   "Hikers love the hills around me, some 22 km from the capital, and crowds swell at Dashain."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dakshinkali_Temple",
+   "https://www.openstreetmap.org/node/360060921",
+   "https://www.nepalhikingteam.com/dakshinkali-temple",
+   "https://nepaltraveller.com/travel/pilgrimage-sites/the-goddess-of-the-south-dakshin-kali"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dakshin_Kali_main_Temple.JPG/1280px-Dakshin_Kali_main_Temple.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Dakshin_Kali_main_Temple.JPG",
+   "author": "Ashim nep",
+   "license": "CC BY-SA 4.0",
+   "width": 1280,
+   "height": 960,
+   "verified_http": 200,
+   "bytes": 415355
+  },
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Dashain",
+    "name_np": "दशैँ",
+    "month": "Ashwin",
+    "note": "Main Durga festival; Taleju shrines and Durga temples draw worship and offerings",
+    "note_np": "दुर्गाको मुख्य चाड। तलेजुका मन्दिर र दुर्गा मन्दिरमा पूजा र चढावा चढाइन्छ।"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Dakshinkali-Opferschrein-00a-2007-gje.jpg/1280px-Dakshinkali-Opferschrein-00a-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dakshinkali-Opferschrein-00a-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Dakshinkali shrine, 2007"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Dakshinkali-Opferschrein-02-gje.jpg/1280px-Dakshinkali-Opferschrein-02-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dakshinkali-Opferschrein-02-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Sacrificial shrine of Dakshinkali"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Dakshin_Kali_Temple_Panorama.jpg/1280px-Dakshin_Kali_Temple_Panorama.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dakshin_Kali_Temple_Panorama.jpg",
+    "author": "Ashim nep",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Panorama of the Dakshinkali temple area"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/2009-03_Dakshinkali_04.jpg/1280px-2009-03_Dakshinkali_04.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:2009-03_Dakshinkali_04.jpg",
+    "author": "Ralf Lotys (Sicherlich)",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "caption": "Dakshinkali, 2009"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Dakshinkali-Umgebung-02-Terrassen-2007-gje.jpg/1280px-Dakshinkali-Umgebung-02-Terrassen-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dakshinkali-Umgebung-02-Terrassen-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Terraced hillsides around Dakshinkali"
+   }
+  ],
+  "model": {
+   "kind": "courtyard",
+   "tiers": 1,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    15,
+    10
+   ],
+   "walls": "stone",
+   "roof": "gilded-copper",
+   "colors": [
+    "#c9a227",
+    "#8b3a2b",
+    "#9c8a6e"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "bell",
+    "flags-red",
+    "prayer-flags",
+    "idol-visible",
+    "ghat-steps"
+   ],
+   "surroundings": [
+    "forest",
+    "river"
+   ],
+   "notes": "Open shrine yard in a wooded gorge where two streams meet; the goddess sits under a small gilded canopy"
+  },
+  "short_np": "उपत्यकाको सबैभन्दा प्रसिद्ध काली मन्दिर, फर्पिङनजिक। मङ्गलबार र शनिबार हुने बलिका लागि चर्चित।",
+  "story_np": "तपाईं काठमाडौँ उपत्यकाको दक्षिणी छेउ, फर्पिङ गाउँभन्दा करिब एक किलोमिटर पर, देवी कालीको नेपालकै सबैभन्दा महत्त्वपूर्ण मन्दिरमध्ये एउटामा आइपुग्नुभएको छ। दक्षिण भनेको दक्षिण दिशा हो, त्यसैले यी दक्षिणकी काली हुन्। परम्परा अनुसार काठमाडौँका राजा प्रताप मल्लले सत्रौँ शताब्दीमा देवी सपनामा देखा परेपछि यो मन्दिर बनाएका थिए। दक्षिणकालीलाई प्रायः दाहिने खुट्टा शिवको छातीमा राखेको रूपमा देखाइन्छ। यहाँको गर्भगृह सुनौलो छत्रमुनि छ। मङ्गलबार वा शनिबार आउनुभयो भने भाले कुखुरा र बोका जस्ता भेटी बोकेका भक्तजनको लामो लाइन देख्नुहुन्छ। पशुबलि नै यहाँको पूजाको मुख्य तरिका हो। दशैँमा भीड अझै बढ्छ। बलि हेर्न गाह्रो लाग्छ भने टाढाबाट आदरपूर्वक हेर्न सक्नुहुन्छ। यो क्षेत्र हाइकिङका लागि पनि लोकप्रिय छ।",
+  "legend_np": "परम्परा अनुसार देवी कालीले काठमाडौँका राजा प्रताप मल्लको सपनामा देखा परेर उपत्यकाको दक्षिणी छेउको जङ्गलमा आफ्नो मन्दिर बनाउन भनिन्। राजाले आज्ञा मानेर मन्दिर बनाए र त्यसपछि दक्षिणकाली, अर्थात् दक्षिणकी काली, को मन्दिरमा भक्तजन आइरहेकै छन्। नामको अर्को व्याख्याले यसलाई दक्षिणमा बस्ने मृत्युका देवता यमसँग जोड्छ। कालीको नाम सुन्दा यम पनि थरथर काम्छन् भनिन्छ।",
+  "facts_np": [
+   "यो मन्दिर दक्षिणकाली रूपकी देवी कालीलाई समर्पित छ।",
+   "भाले कुखुरा र बोकाको पशुबलि यहाँको पूजाको मुख्य तरिका हो।",
+   "मङ्गलबार र शनिबार सबैभन्दा व्यस्त दिन हुन्। दशैँ पनि त्यस्तै व्यस्त हुन्छ।",
+   "यो फर्पिङको करिब १ किमी दक्षिणमा र काठमाडौँबाट करिब २२ किमी टाढा छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "एक राजाले देवीको सपना देखे र उपत्यकाको दक्षिणी छेउमा उनको लागि मन्दिर बनाइदिए।",
+   "यहाँ हरेक मङ्गलबार र शनिबार बोका र भाले कुखुराको लाइन लाग्छ।",
+   "म उपत्यकाको दक्षिणी छेउमा, एउटा गाउँभन्दा करिब एक किलोमिटर पर जङ्गलमा छु।",
+   "मेरी देवी एक देवताको छातीमा खुट्टा राखेको रूपमा देखाइन्छिन् र उनको गर्भगृह सुनौलो छत्रमुनि छ।",
+   "मेरो नामको अर्थ ‘दक्षिणको’ हो। मृत्युका देवता पनि मेरी देवीको नाम सुन्दा काम्छन् भनिन्छ।",
+   "मेरो वरिपरिका डाँडा हाइकरहरूलाई मन पर्छन्। म राजधानीबाट करिब २२ किमी टाढा छु र दशैँमा भीड बढ्छ।"
+  ]
+ },
+ {
+  "slug": "adinath-lokeshwar-chobhar",
+  "name": "Adinath Lokeshwar Temple, Chobhar",
+  "name_np": "आदिनाथ मन्दिर",
+  "city": "Kirtipur",
+  "zone": null,
+  "lat": 27.665779,
+  "lng": 85.291395,
+  "coord_source": "OpenStreetMap node 1818580586 ('Adhinath temple', Chobhar); Wikidata Q16058104 gives 27.6657, 85.2913",
+  "type": "pagoda",
+  "religion": "Both",
+  "deity": "Adinath Lokeshwar (Anandadi Lokeshwar)",
+  "built_year": 1640,
+  "built_century_text": "Built 15th century; rebuilt 1640",
+  "dynasty": "Malla",
+  "architecture": "Newar pagoda temple whose walls are hung with metal pots, pans and utensils",
+  "unesco": false,
+  "short": "The \"pots and pans\" temple of Chobhar, sacred to both Hindus and Buddhists.",
+  "story": "You are on the hilltop of Chobhar, at the edge of Kirtipur, where the Bagmati River slips out of the Kathmandu Valley through a narrow gorge. The pagoda in front of you honours Adinath Lokeshwar, also called Anandadi Lokeshwar. Buddhists see him as one of the four principal Lokeshwar bodhisattvas of the valley; Hindus count him among the four Matsyendranaths. The temple was built in the fifteenth century and rebuilt in 1640. Now look closely at the walls. They are hung with metal pots, pans and household utensils, which is why visitors call it the pots and pans temple. Accounts differ on how the custom began, but all link it to the welfare of loved ones after death. This hill is also tied to the valley's creation story: Manjushri is said to have cut the hills here, draining the ancient lake that once filled the valley so people could settle.",
+  "legend": "Long ago the Kathmandu Valley was a lake. The bodhisattva Manjushri came and cut the rim of the hills near Chobhar, letting the water drain away. The deity of the hill protested at being cut, but Manjushri promised that a great civilisation would grow in the drained valley and that a Lokeshwar would one day make his home on this very hill. Ages later, an image of Adinath was rescued from a river and enshrined here as Anandadi Lokeshwar.",
+  "facts": [
+   "The temple is sacred to both Hindus and Buddhists.",
+   "It was built in the 15th century and rebuilt in 1640.",
+   "Visitors call it the \"pots and pans\" temple because of the utensils fixed to its walls.",
+   "Adinath is one of the four principal Lokeshwars of the valley, also counted as a Matsyendranath."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": 0,
+   "visit_minutes": 30,
+   "note": "Active temple; no entry fee found in sources (OSM tags it open 24/7). Not officially verified."
+  },
+  "earthquake_2015": null,
+  "quiz": [
+   {
+    "q": "What nickname do visitors give this temple?",
+    "options": [
+     "Monkey temple",
+     "Pots and pans temple",
+     "Golden temple",
+     "Bell temple"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Metal pots, pans and utensils are fixed to its walls.",
+    "q_np": "आगन्तुकले यो मन्दिरलाई कुन उपनाम दिएका छन्?",
+    "options_np": [
+     "बाँदर मन्दिर",
+     "भाँडाकुँडा मन्दिर",
+     "सुनको मन्दिर",
+     "घण्ट मन्दिर"
+    ],
+    "explanation_np": "भित्तामा टाँसिएका भाँडाकुँडाका कारण यसलाई भाँडाकुँडा मन्दिर भनिन्छ।"
+   },
+   {
+    "q": "Which two faiths revere this temple?",
+    "options": [
+     "Hinduism and Buddhism",
+     "Jainism and Islam",
+     "Bon and Sikhism",
+     "Only Hinduism"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "It is sacred to both Hindus and Buddhists.",
+    "q_np": "यो मन्दिरलाई कुन दुई धर्मका अनुयायीले मान्छन्?",
+    "options_np": [
+     "हिन्दू र बौद्ध",
+     "जैन र इस्लाम",
+     "बोन र सिख",
+     "हिन्दू मात्र"
+    ],
+    "explanation_np": "यो मन्दिर हिन्दू र बौद्ध दुवैका लागि पवित्र छ।"
+   },
+   {
+    "q": "In which year was the temple rebuilt?",
+    "options": [
+     "1382",
+     "1640",
+     "1769",
+     "1934"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Built in the 15th century, it was rebuilt in 1640.",
+    "q_np": "मन्दिर कुन वर्षमा फेरि बनाइयो?",
+    "options_np": [
+     "१३८२",
+     "१६४०",
+     "१७६९",
+     "१९३४"
+    ],
+    "explanation_np": "मन्दिर पन्ध्रौँ शताब्दीमा बनेको थियो र सन् १६४० मा फेरि बनाइयो।"
+   },
+   {
+    "q": "According to legend, who drained the valley lake by cutting the hill near Chobhar?",
+    "options": [
+     "Manjushri",
+     "Garuda",
+     "Bhairava",
+     "King Manadeva"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Manjushri is said to have cut the hill so the lake could drain.",
+    "q_np": "किंवदन्ती अनुसार चोभारनजिकको डाँडा काटेर उपत्यकाको ताल कसले खाली गराए?",
+    "options_np": [
+     "मञ्जुश्री",
+     "गरुड",
+     "भैरव",
+     "राजा मानदेव"
+    ],
+    "explanation_np": "किंवदन्ती अनुसार बोधिसत्व मञ्जुश्रीले चोभारनजिकको डाँडा काटेर पानी बगाइदिए।"
+   },
+   {
+    "q": "Hindus count Adinath among four of which deities?",
+    "options": [
+     "Bhairavas",
+     "Matsyendranaths",
+     "Ganeshas",
+     "Kumaris"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "Hindus count Adinath among the four Matsyendranaths.",
+    "q_np": "हिन्दूहरू आदिनाथलाई कुन चार देवताहरूमध्ये एक गन्छन्?",
+    "options_np": [
+     "भैरव",
+     "मत्स्येन्द्रनाथ",
+     "गणेश",
+     "कुमारी"
+    ],
+    "explanation_np": "हिन्दूहरू आदिनाथलाई चार मत्स्येन्द्रनाथमध्ये एक गन्छन्।"
+   },
+   {
+    "q": "Which river slips out of the Kathmandu Valley through the gorge near Chobhar?",
+    "options": [
+     "Bagmati",
+     "Trishuli",
+     "Koshi",
+     "Gandaki"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "The Bagmati River leaves the valley through a narrow gorge at Chobhar.",
+    "q_np": "चोभारको खोँचबाट कुन नदी काठमाडौँ उपत्यकाबाट बाहिर निस्कन्छ?",
+    "options_np": [
+     "बागमती",
+     "त्रिशूली",
+     "कोशी",
+     "गण्डकी"
+    ],
+    "explanation_np": "बागमती नदी चोभारको साँघुरो खोँचबाट उपत्यकाबाट बाहिर निस्कन्छ।"
+   },
+   {
+    "q": "According to the legend, what was rescued from a river and enshrined here?",
+    "options": [
+     "A golden bell",
+     "A sacred cow",
+     "An image of Adinath",
+     "A royal crown"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "An image of Adinath was rescued from a river and enshrined as Anandadi Lokeshwar.",
+    "q_np": "किंवदन्ती अनुसार नदीबाट उद्धार गरेर यहाँ स्थापना गरिएको के हो?",
+    "options_np": [
+     "सुनको घण्ट",
+     "पवित्र गाई",
+     "आदिनाथको मूर्ति",
+     "राजाको मुकुट"
+    ],
+    "explanation_np": "आदिनाथको मूर्ति नदीबाट उद्धार गरेर आनन्दादि लोकेश्वरका रूपमा यहाँ स्थापना गरिएको थियो।"
+   },
+   {
+    "q": "The temple stands on a hill at the edge of which town?",
+    "options": [
+     "Patan",
+     "Kirtipur",
+     "Thimi",
+     "Banepa"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "It is on the hilltop of Chobhar at the edge of Kirtipur.",
+    "q_np": "मन्दिर कुन सहरको छेउको डाँडामा छ?",
+    "options_np": [
+     "पाटन",
+     "कीर्तिपुर",
+     "ठिमी",
+     "बनेपा"
+    ],
+    "explanation_np": "यो कीर्तिपुरको छेउमा चोभारको डाँडामा छ।"
+   },
+   {
+    "q": "By which other name is Adinath Lokeshwar known?",
+    "options": [
+     "Swayambhu",
+     "Pashupati",
+     "Taleju",
+     "Anandadi Lokeshwar"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "He is also called Anandadi Lokeshwar.",
+    "q_np": "आदिनाथ लोकेश्वरलाई अर्को कुन नामले पनि चिनिन्छ?",
+    "options_np": [
+     "स्वयम्भू",
+     "पशुपति",
+     "तलेजु",
+     "आनन्दादि लोकेश्वर"
+    ],
+    "explanation_np": "उनलाई आनन्दादि लोकेश्वर पनि भनिन्छ।"
+   },
+   {
+    "q": "The custom of hanging utensils is linked in all accounts to what?",
+    "options": [
+     "The welfare of loved ones after death",
+     "A good harvest",
+     "Protection from floods",
+     "Wedding blessings"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Accounts differ on how the custom began, but all link it to the welfare of loved ones after death.",
+    "q_np": "भाँडाकुँडा झुन्ड्याउने चलनलाई सबै विवरणले केसँग जोड्छन्?",
+    "options_np": [
+     "मरेपछि प्रियजनको भलाइ",
+     "राम्रो बाली",
+     "बाढीबाट सुरक्षा",
+     "विवाहको आशीर्वाद"
+    ],
+    "explanation_np": "चलन कसरी सुरु भयो भन्नेमा कथा फरक छन्, तर सबैले यसलाई मरेपछि प्रियजनको भलाइसँग जोड्छन्।"
+   }
+  ],
+  "clues": [
+   "Kitchenware glints on my walls, offered for the wellbeing of the departed.",
+   "I sit on the hill where a cut in the rim once let a lake drain out of the valley.",
+   "I am a pagoda on a hilltop at the edge of an old town, above a narrow gorge where a river leaves the valley.",
+   "Buddhists see my deity as one of four great Lokeshwars; Hindus count him among four Matsyendranaths.",
+   "I was built in the fifteenth century and rebuilt in 1640.",
+   "Legend says a bodhisattva cut the hill here, and my deity's image was rescued from a river."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Adinath_Lokeshwar",
+   "https://www.openstreetmap.org/node/1818580586",
+   "https://www.wikidata.org/wiki/Q16058104",
+   "https://commons.wikimedia.org/wiki/Category:Adinath_Lokeshwar_Temple",
+   "https://en.wikipedia.org/wiki/Chobhar"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Chobhar-Adinath_Lokeshwar-04-2007-gje.jpg/1280px-Chobhar-Adinath_Lokeshwar-04-2007-gje.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Chobhar-Adinath_Lokeshwar-04-2007-gje.jpg",
+   "author": "Gerd Eichmann",
+   "license": "CC BY-SA 4.0",
+   "width": 1280,
+   "height": 1774,
+   "verified_http": 200,
+   "bytes": 732108
+  },
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Adinath_Temple_Chovar_Lalitpur.jpg/1280px-Adinath_Temple_Chovar_Lalitpur.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Adinath_Temple_Chovar_Lalitpur.jpg",
+    "author": "Dinesh 2016",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Adinath Temple, Chobhar"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Chobhar-Adinath_Lokeshwar-06-2007-gje.jpg/1280px-Chobhar-Adinath_Lokeshwar-06-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chobhar-Adinath_Lokeshwar-06-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Adinath Lokeshwar Temple, 2007"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Chobhar-Adinath_Lokeshwar-08-2007-gje.jpg/1280px-Chobhar-Adinath_Lokeshwar-08-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chobhar-Adinath_Lokeshwar-08-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Temple courtyard at Chobhar"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Chobhar-Adinath_Lokeshwar-14-Donnerkeil-2007-gje.jpg/1280px-Chobhar-Adinath_Lokeshwar-14-Donnerkeil-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chobhar-Adinath_Lokeshwar-14-Donnerkeil-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Vajra (thunderbolt) in front of the temple"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Adinath_temple_of_Chobar.jpg/1280px-Adinath_temple_of_Chobar.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Adinath_temple_of_Chobar.jpg",
+    "author": "Bipinpraja",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Adinath temple of Chobhar"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    10,
+    10
+   ],
+   "walls": "red-brick",
+   "roof": "copper",
+   "colors": [
+    "#8b3a2b",
+    "#c9a227",
+    "#b0a090"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "bell",
+    "chaityas",
+    "prayer-wheels"
+   ],
+   "surroundings": [
+    "hilltop",
+    "brick-courtyard",
+    "village"
+   ],
+   "notes": "Three-roofed pagoda on Chobhar hill with a stone shikhara chaitya before it; walls hung with metal pots and pans, prayer wheels at the sides"
+  },
+  "short_np": "चोभारको ‘भाँडाकुँडा’ मन्दिर, हिन्दू र बौद्ध दुवैका लागि पवित्र।",
+  "story_np": "तपाईं कीर्तिपुरको छेउको चोभारको डाँडामा हुनुहुन्छ, जहाँ बागमती नदी साँघुरो खोँचबाट काठमाडौँ उपत्यकाबाट बाहिर निस्कन्छ। अगाडिको पगोडा आदिनाथ लोकेश्वरको हो, जसलाई आनन्दादि लोकेश्वर पनि भनिन्छ। बौद्धहरू उनलाई उपत्यकाका चार प्रमुख लोकेश्वर बोधिसत्वमध्ये एक मान्छन्। हिन्दूहरू उनलाई चार मत्स्येन्द्रनाथमध्ये एक गन्छन्। मन्दिर पन्ध्रौँ शताब्दीमा बनेको थियो र सन् १६४० मा फेरि बनाइयो। अब भित्ताहरू नजिकबाट हेर्नुहोस्। तिनमा धातुका भाँडा, कराही र घरका सामान झुन्ड्याइएका छन्। त्यसैले आगन्तुकले यसलाई भाँडाकुँडा मन्दिर भन्छन्। यो चलन कसरी सुरु भयो भन्नेमा कथा फरक फरक छन्, तर सबैले यसलाई मरेपछि प्रियजनको भलाइसँग जोड्छन्। यो डाँडा उपत्यकाको सृष्टिको कथासँग पनि जोडिएको छ। मञ्जुश्रीले यहाँ डाँडा काटेर उपत्यका भरिएको पुरानो तालको पानी बगाइदिए, ताकि मानिस बस्न सकून् भनिन्छ।",
+  "legend_np": "धेरै पहिले काठमाडौँ उपत्यका ताल थियो। बोधिसत्व मञ्जुश्री आएर चोभारनजिकको डाँडाको किनारा काटिदिए र पानी बगेर गयो। डाँडाका देवताले आफू काटिएकोमा विरोध गरे। तर मञ्जुश्रीले वचन दिए, पानी बगेपछि उपत्यकामा ठूलो सभ्यता फक्रिन्छ र एक दिन एक लोकेश्वरले यही डाँडामा बास गर्नेछन्। धेरै युगपछि नदीबाट उद्धार गरिएको आदिनाथको मूर्ति यहाँ आनन्दादि लोकेश्वरका रूपमा स्थापना गरियो।",
+  "facts_np": [
+   "मन्दिर हिन्दू र बौद्ध दुवैका लागि पवित्र छ।",
+   "यो पन्ध्रौँ शताब्दीमा बनेको थियो र सन् १६४० मा फेरि बनाइयो।",
+   "भित्तामा टाँसिएका भाँडाकुँडाका कारण आगन्तुकले यसलाई ‘भाँडाकुँडा’ मन्दिर भन्छन्।",
+   "आदिनाथ उपत्यकाका चार प्रमुख लोकेश्वरमध्ये एक हुन् र उनलाई मत्स्येन्द्रनाथका रूपमा पनि गनिन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "मेरा भित्तामा भान्साका भाँडाकुँडा टल्कन्छन्, दिवङ्गतको भलाइका लागि चढाइएका।",
+   "म त्यही डाँडामा बसेको छु, जहाँ डाँडाको किनारा काटिँदा एक पटक उपत्यकाको ताल बगेर गएको थियो।",
+   "म एउटा पुरानो सहरको छेउको डाँडामा रहेको पगोडा हुँ, जहाँबाट एउटा नदी साँघुरो खोँचबाट उपत्यका छोडेर बाहिर निस्कन्छ।",
+   "बौद्धहरू मेरा देवतालाई चार महान् लोकेश्वरमध्ये एक मान्छन्। हिन्दूहरू उनलाई चार मत्स्येन्द्रनाथमध्ये गन्छन्।",
+   "म पन्ध्रौँ शताब्दीमा बनेको हुँ र सन् १६४० मा फेरि बनाइएँ।",
+   "किंवदन्ती अनुसार एक बोधिसत्वले यहाँ डाँडा काटे र मेरा देवताको मूर्ति नदीबाट उद्धार गरिएको थियो।"
+  ]
+ }
+]

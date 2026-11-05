@@ -1,0 +1,6 @@
+node_modules/
+.mysql/
+.env
+dist/
+server/uploads/
+mail-outbox/

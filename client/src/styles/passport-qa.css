@@ -1,0 +1,19 @@
+/* Passport QA fixes: dark-theme legibility of stamps and zones, and the phone layout of the cover and stamp book. */
+:root[data-theme='dark'] .stamp-card,
+:root[data-theme='dark'] .stamp-card b,
+:root[data-theme='dark'] .stamp-ring,
+:root[data-theme='dark'] .zone.done .zone-ring { color: var(--lilac-300); }
+:root[data-theme='dark'] .stamp-card,
+:root[data-theme='dark'] .stamp-ring,
+:root[data-theme='dark'] .zone.done .zone-ring { border-color: var(--lilac-500); }
+:root[data-theme='dark'] .stamp-card { background: color-mix(in srgb, var(--lilac-500) 10%, var(--card)); }
+:root[data-theme='dark'] .zone.done .zone-ring { background: color-mix(in srgb, var(--lilac-500) 14%, transparent); }
+.stamp-card .cap { font-size: 0.72rem; }
+.chip[disabled] { cursor: default; }
+@media (max-width: 700px) {
+  .pass-emblem { justify-self: start; width: fit-content; }
+  .stampbook { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem; padding: 0.9rem; }
+  .stamp-card { padding: 0.5rem; }
+  .stamp-card b { font-size: 0.8rem; }
+  .pass-meter { width: 100%; }
+}

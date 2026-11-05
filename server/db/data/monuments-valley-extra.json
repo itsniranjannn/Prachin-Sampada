@@ -1,0 +1,3354 @@
+[
+ {
+  "slug": "guhyeshwari-temple",
+  "name": "Guhyeshwari Temple",
+  "name_np": "गुह्येश्वरी मन्दिर",
+  "alt_names": [
+   "Guheswari",
+   "Gujeshwari",
+   "Guhyakali"
+  ],
+  "city": "Kathmandu",
+  "zone": null,
+  "lat": 27.711111,
+  "lng": 85.353333,
+  "coord_source": "Wikidata Q5615319 (P625)",
+  "type": "pagoda",
+  "religion": "Both",
+  "deity": "Guhyeshwari (Guhyakali); Vajravarahi for Buddhists",
+  "built_year": null,
+  "built_century_text": "Ancient Shakti pitha; main renovation by King Pratap Malla in the 17th century CE",
+  "dynasty": "Malla",
+  "architecture": "Newar pagoda-style shrine in the middle of a walled courtyard, crowned by gilded serpent (naga) finials; the goddess is worshipped in a kalash over a sacred spring",
+  "unesco": false,
+  "short": "A Shakti pitha by the Bagmati, about 1 km east of Pashupatinath, sacred to Hindu and Buddhist tantric worshippers.",
+  "story": "Follow the Bagmati upstream from Pashupatinath for about a kilometre and you reach one of the most secret shrines in the valley. Guhyeshwari takes its name from the Sanskrit words guhya, hidden, and ishwari, goddess. Hindu texts say this is where a part of the goddess Sati's body fell when grieving Shiva carried her across the world, so it counts as a Shakti pitha, a seat of the mother goddess. Many people see Guhyeshwari as the consort of Pashupati, and pilgrims often visit both together. There is no ordinary statue at the centre. Instead, the goddess is worshipped in a sacred water jar, a kalash, covered in silver and gold, over a spring. Look up and you will see gilded serpents rising over the roof. Buddhists honour the same place as Vajravarahi. King Pratap Malla renovated the temple in the 17th century, and during Navaratri the courtyard is packed with worshippers.",
+  "legend": "When Sati gave up her life after her father Daksha insulted Shiva, the grieving god wandered the world carrying her body. Parts of it fell to earth in different places, and each became a Shakti pitha. Tradition holds that the secret part of Sati fell here on the bank of the Bagmati, which is why the goddess is called Guhyeshwari, the hidden goddess.",
+  "facts": [
+   "The name comes from the Sanskrit guhya (secret or hidden) and ishwari (goddess).",
+   "It lies about 1 km east of the Pashupati area, on the southern bank of the Bagmati.",
+   "King Pratap Malla renovated the temple in the 17th century.",
+   "Vajrayana Buddhists revere the site as sacred to Vajravarahi.",
+   "Daily tantric rites are performed by Newar Karmacharya priests."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Travel guides say the inner courtyard is open only to Hindus; others can view the exterior. Confirm locally.",
+   "fee_note": "No published entry fee found. Confirm locally."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Pashupatinath-oberer_Zugang-10-Guhyeshvari-2013-gje.jpg/1280px-Pashupatinath-oberer_Zugang-10-Guhyeshvari-2013-gje.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Pashupatinath-oberer_Zugang-10-Guhyeshvari-2013-gje.jpg",
+   "author": "Gerd Eichmann",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "What does the word \"guhya\" in Guhyeshwari mean?",
+    "options": [
+     "Golden",
+     "Hidden or secret",
+     "River",
+     "Mountain"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Guhya means secret or hidden, and ishwari means goddess.",
+    "q_np": "गुह्येश्वरीको 'गुह्य' शब्दको अर्थ के हो?",
+    "options_np": [
+     "सुनौलो",
+     "गोप्य वा लुकेको",
+     "नदी",
+     "हिमाल"
+    ],
+    "explanation_np": "गुह्य भनेको गोप्य वा लुकेको, र ईश्वरी भनेको देवी हो।"
+   },
+   {
+    "q": "Which river flows past Guhyeshwari Temple?",
+    "options": [
+     "Bishnumati",
+     "Bagmati",
+     "Trishuli",
+     "Hanumante"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "The temple stands on the southern bank of the Bagmati.",
+    "q_np": "गुह्येश्वरी मन्दिरको छेउबाट कुन नदी बग्छ?",
+    "options_np": [
+     "विष्णुमती",
+     "बागमती",
+     "त्रिशूली",
+     "हनुमन्ते"
+    ],
+    "explanation_np": "मन्दिर बागमतीको दक्षिणी किनारमा छ।"
+   },
+   {
+    "q": "What kind of sacred site is Guhyeshwari for Hindus?",
+    "options": [
+     "A Shakti pitha",
+     "A jyotirlinga",
+     "A Buddhist vihar",
+     "A royal palace"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "It is counted as a Shakti pitha, a seat of the mother goddess.",
+    "q_np": "हिन्दूहरूका लागि गुह्येश्वरी कस्तो पवित्र स्थल हो?",
+    "options_np": [
+     "शक्तिपीठ",
+     "ज्योतिर्लिङ्ग",
+     "बौद्ध विहार",
+     "राजदरबार"
+    ],
+    "explanation_np": "यसलाई शक्तिपीठ, अर्थात् माता देवीको आसन मानिन्छ।"
+   },
+   {
+    "q": "Which Malla king renovated the temple in the 17th century?",
+    "options": [
+     "Yaksha Malla",
+     "Pratap Malla",
+     "Bhupatindra Malla",
+     "Siddhi Narasingh Malla"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Sources credit King Pratap Malla with its main renovation.",
+    "q_np": "१७औँ शताब्दीमा कुन मल्ल राजाले मन्दिर जीर्णोद्धार गरे?",
+    "options_np": [
+     "यक्ष मल्ल",
+     "प्रताप मल्ल",
+     "भूपतीन्द्र मल्ल",
+     "सिद्धि नरसिंह मल्ल"
+    ],
+    "explanation_np": "स्रोतहरूका अनुसार राजा प्रताप मल्लले यसको मुख्य जीर्णोद्धार गराएका हुन्।"
+   },
+   {
+    "q": "Buddhists consider the site sacred to which goddess?",
+    "options": [
+     "Tara",
+     "Hariti",
+     "Vajravarahi",
+     "Prajnaparamita"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "Vajrayana Buddhists see Guhyeshwari as Vajrayogini in the form of Vajravarahi.",
+    "q_np": "बौद्धहरू यो ठाउँलाई कुन देवीको पवित्र स्थल मान्छन्?",
+    "options_np": [
+     "तारा",
+     "हारिती",
+     "वज्रवाराही",
+     "प्रज्ञापारमिता"
+    ],
+    "explanation_np": "वज्रयान बौद्धहरू गुह्येश्वरीलाई वज्रवाराहीका रूपमा वज्रयोगिनी मान्छन्।"
+   },
+   {
+    "q": "Where is Guhyeshwari Temple in relation to Pashupatinath?",
+    "options": [
+     "About 1 km east, upstream on the Bagmati",
+     "About 10 km to the west",
+     "Inside Pashupatinath's main courtyard",
+     "On the opposite hill to the north"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It lies about a kilometer east of the Pashupati area, on the southern bank of the Bagmati.",
+    "q_np": "गुह्येश्वरी मन्दिर पशुपतिनाथको कुन दिशामा छ?",
+    "options_np": [
+     "करिब १ किमी पूर्वमा, बागमतीको माथिल्लो भागमा",
+     "करिब १० किमी पश्चिममा",
+     "पशुपतिनाथको मुख्य आँगनभित्र",
+     "उत्तरतिरको अर्को डाँडामा"
+    ],
+    "explanation_np": "यो पशुपति क्षेत्रभन्दा करिब एक किलोमिटर पूर्वमा, बागमतीको दक्षिणी किनारमा छ।"
+   },
+   {
+    "q": "What is the goddess worshipped in, instead of a statue?",
+    "options": [
+     "A black stone pillar",
+     "A painted mask",
+     "A sacred water jar (kalash) over a spring",
+     "A golden horse"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "She is worshipped in a kalash covered in silver and gold, set over a spring.",
+    "q_np": "मूर्तिको सट्टा देवीलाई केमा पूजा गरिन्छ?",
+    "options_np": [
+     "कालो ढुङ्गाको खम्बा",
+     "रङ्गीन मुखुन्डो",
+     "मूलमाथिको पवित्र जलको कलश",
+     "सुनको घोडा"
+    ],
+    "explanation_np": "देवीलाई मूलमाथि राखिएको, चाँदी र सुनले मोडिएको कलशमा पूजा गरिन्छ।"
+   },
+   {
+    "q": "What rises above the temple roof?",
+    "options": [
+     "Silver peacocks",
+     "Gilded serpents",
+     "Stone lions",
+     "Iron tridents"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Gilded serpents (nagas) rise above the roof.",
+    "q_np": "मन्दिरको छानामाथि के उठेको छ?",
+    "options_np": [
+     "चाँदीका मयूर",
+     "सुनौला सर्प",
+     "ढुङ्गाका सिंह",
+     "फलामका त्रिशूल"
+    ],
+    "explanation_np": "छानामाथि सुनौला सर्प (नाग) उठेका छन्।"
+   },
+   {
+    "q": "During which festival is the courtyard packed with worshippers?",
+    "options": [
+     "Holi",
+     "Teej",
+     "Buddha Jayanti",
+     "Navaratri"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "The courtyard fills with worshippers during Navaratri, the nine nights of the goddess.",
+    "q_np": "कुन चाडमा मन्दिरको आँगन भक्तजनले भरिन्छ?",
+    "options_np": [
+     "होली",
+     "तीज",
+     "बुद्ध जयन्ती",
+     "नवरात्रि"
+    ],
+    "explanation_np": "देवीका नौ रात, नवरात्रिमा आँगन भक्तजनले भरिन्छ।"
+   },
+   {
+    "q": "Who performs the daily tantric rites at the temple?",
+    "options": [
+     "Newar Karmacharya priests",
+     "Tibetan lamas",
+     "Wandering sadhus",
+     "Royal guards"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Newar Karmacharya priests perform the daily tantric rites.",
+    "q_np": "मन्दिरमा दैनिक तान्त्रिक पूजा कसले गर्छन्?",
+    "options_np": [
+     "नेवार कर्माचार्य पुजारी",
+     "तिब्बती लामा",
+     "घुमन्ते साधु",
+     "राजाका सुरक्षाकर्मी"
+    ],
+    "explanation_np": "नेवार कर्माचार्य पुजारीहरूले दैनिक तान्त्रिक पूजा गर्छन्।"
+   }
+  ],
+  "clues": [
+   "I am a seat of the mother goddess, where a part of Sati is said to have fallen as grieving Shiva wandered with her body.",
+   "Travel guides say my inner courtyard is open only to Hindus, while others look in from outside.",
+   "Upstream from the great Shiva temple, the hidden goddess is worshipped in a jar over a spring.",
+   "Newar Karmacharya priests perform my daily tantric rites, and a Malla king renewed me in the 17th century.",
+   "Buddhists honor me as the home of Vajravarahi, a kilometer east of the most famous Shiva temple in the land.",
+   "Gilded serpents guard my roof, and my name means the secret goddess."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Guhyeshwari_Temple",
+   "https://www.wikidata.org/wiki/Q5615319",
+   "https://www.nepaltraveller.com/sidetrack/guhyeshwari-temple-a-sacred-shakti-peetha-in-kathmandu",
+   "https://www.hopnepal.com/blog/guhyeshwari-temple-kathmandu-nepal"
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Navaratri (Dashain)",
+    "name_np": "नवरात्रि (दशैँ)",
+    "month": "Ashwin",
+    "note": "The courtyard is crowded with worshippers during the nine nights of the goddess",
+    "note_np": "देवीका नौ रातमा आँगन भक्तजनले भरिन्छ।"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Guhyeshwari_Temple_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Guhyeshwari_Temple_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Guhyeshwari_Temple_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Guhyeshwari Temple on the bank of the Bagmati"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Guhyeshwari_Temple_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_%282%29.jpg/1280px-Guhyeshwari_Temple_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_%282%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Guhyeshwari_Temple_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_(2).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple compound and its gateway"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Guhyeshwari_Temple_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_%2810%29.jpg/1280px-Guhyeshwari_Temple_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_%2810%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Guhyeshwari_Temple_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_(10).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Guhyeshwari Temple, Pashupati area"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Pashupatinath-oberer_Zugang-12-Votivstupas_bei_Guhyeshvari-2013-gje.jpg/1280px-Pashupatinath-oberer_Zugang-12-Votivstupas_bei_Guhyeshvari-2013-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Pashupatinath-oberer_Zugang-12-Votivstupas_bei_Guhyeshvari-2013-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Votive shrines near Guhyeshwari, 2013"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Gaurighat_Guheshwori_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Gaurighat_Guheshwori_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gaurighat_Guheshwori_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Gauri Ghat on the Bagmati beside the temple"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    20,
+    20
+   ],
+   "walls": "whitewashed-stone",
+   "roof": "gilded-copper",
+   "colors": [
+    "#c9a227",
+    "#f4f1ea",
+    "#8b3a2b"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "bell",
+    "lamps-diyo"
+   ],
+   "surroundings": [
+    "brick-courtyard",
+    "river",
+    "riverbank-ghats",
+    "sacred-grove"
+   ],
+   "notes": "Walled courtyard by the Bagmati; the central shrine has a gilded roof topped by four rising golden serpents"
+  },
+  "short_np": "बागमतीको किनारमा पशुपतिनाथभन्दा करिब १ किमी पूर्वमा रहेको शक्तिपीठ, जुन हिन्दू र बौद्ध दुवै तान्त्रिक साधकका लागि पवित्र छ।",
+  "story_np": "पशुपतिनाथबाट बागमतीको किनारै किनार करिब एक किलोमिटर माथि जानुहोस्, तपाईं उपत्यकाको सबैभन्दा गोप्य मन्दिरमध्ये एउटामा पुग्नुहुन्छ। गुह्येश्वरी नाम संस्कृतका गुह्य अर्थात् गोप्य र ईश्वरी अर्थात् देवीबाट आएको हो। हिन्दू ग्रन्थअनुसार शोकमा डुबेका शिवले सतीको शरीर बोकेर संसार घुम्दा उनको एक अङ्ग यहीँ खसेको थियो, त्यसैले यो शक्तिपीठ, अर्थात् माता देवीको आसन मानिन्छ। धेरैले गुह्येश्वरीलाई पशुपतिकी सहचरी मान्छन्, र भक्तजन प्रायः दुवैको दर्शन सँगै गर्छन्। यहाँ बीचमा साधारण मूर्ति छैन। देवीलाई मूलमाथि राखिएको, चाँदी र सुनले मोडिएको पवित्र जलको कलशमा पूजा गरिन्छ। माथि हेर्नुहोस्, छानामाथि सुनौला सर्प उठेका देख्नुहुनेछ। बौद्धहरू यही ठाउँलाई वज्रवाराहीका रूपमा मान्छन्। राजा प्रताप मल्लले १७औँ शताब्दीमा मन्दिर जीर्णोद्धार गरे, र नवरात्रिमा आँगन भक्तजनले भरिन्छ।",
+  "legend_np": "पिता दक्षले शिवको अपमान गरेपछि सतीले प्राण त्यागिन्, अनि शोकमा डुबेका शिव उनको शरीर बोकेर संसारभर डुल्न थाले। शरीरका अङ्गहरू फरक फरक ठाउँमा खसे, र ती हरेक ठाउँ शक्तिपीठ बने। परम्पराअनुसार सतीको गोप्य अङ्ग बागमतीको किनारमा यहीँ खस्यो, त्यसैले देवीलाई गुह्येश्वरी, अर्थात् गोप्य देवी भनिन्छ।",
+  "facts_np": [
+   "गुह्येश्वरी नाम संस्कृतका गुह्य (गोप्य वा लुकेको) र ईश्वरी (देवी) बाट बनेको हो।",
+   "यो पशुपति क्षेत्रभन्दा करिब १ किमी पूर्वमा, बागमतीको दक्षिणी किनारमा छ।",
+   "राजा प्रताप मल्लले १७औँ शताब्दीमा मन्दिर जीर्णोद्धार गरे।",
+   "वज्रयान बौद्धहरू यो ठाउँलाई वज्रवाराहीको पवित्र स्थल मान्छन्।",
+   "नेवार कर्माचार्य पुजारीहरूले यहाँ दैनिक तान्त्रिक पूजा गर्छन्।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "मेरो ठाउँ मातृदेवीको आसन हो; शोकमा डुबेका शिवले सतीको शरीर बोकेर डुल्दा उनको एक अङ्ग यहीँ खसेको भनिन्छ।",
+   "यात्रा गाइडहरू भन्छन्, मेरो भित्री आँगनमा हिन्दूहरूलाई मात्र प्रवेश छ; अरूले बाहिरबाट हेर्छन्।",
+   "ठूलो शिव मन्दिरभन्दा नदीको माथिल्लो भागमा, लुकेकी देवीलाई मूलमाथि राखिएको कलशमा पूजा गरिन्छ।",
+   "नेवार कर्माचार्य पुजारीले मेरो दैनिक तान्त्रिक पूजा गर्छन्, र १७औँ शताब्दीमा एक मल्ल राजाले मलाई नयाँ बनाए।",
+   "बौद्धहरू मलाई वज्रवाराहीको बास मान्छन्; देशकै सबैभन्दा प्रख्यात शिव मन्दिरभन्दा एक किलोमिटर पूर्वमा छु।",
+   "मेरो छानामा सुनौला सर्पहरूले पहरा दिन्छन्, र मेरो नामको अर्थ नै गोप्य देवी हो।"
+  ]
+ },
+ {
+  "slug": "gokarneshwor-mahadev",
+  "name": "Gokarneshwor Mahadev Temple",
+  "name_np": "गोकर्णेश्वर महादेव मन्दिर",
+  "alt_names": [
+   "Gokarna Mahadev",
+   "Gokarneshwar"
+  ],
+  "city": "Gokarneshwor",
+  "zone": null,
+  "lat": 27.739444,
+  "lng": 85.387778,
+  "coord_source": "Wikidata Q1534467 (P625); OSM way 342842416 gives 27.739343, 85.387825",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Shiva (Gokarneshwor)",
+  "built_year": 1582,
+  "built_century_text": "Present temple dates from 1582 CE; the site is believed to be older",
+  "dynasty": "Malla",
+  "architecture": "Three-roofed Newar pagoda beside the Bagmati, with a Shiva linga in the sanctum and a large collection of stone statues around it",
+  "unesco": false,
+  "short": "A three-roofed Shiva temple on the Bagmati, famous for its statues and for Gokarna Aunsi, the Nepali Father's Day.",
+  "story": "You are on the bank of the Bagmati, north-east of Boudhanath, where the river runs cleaner and greener than in the city. In front of you rises the three-roofed temple of Gokarneshwor Mahadev, the Lord of Gokarna. The present temple took its form in 1582, but people believe worship here is far older. Inside the sanctum is a Shiva linga, yet what makes Gokarna special is all around you. Walk slowly through the courtyard and look at the stone figures: Durga, Ganesh, Hanuman, Krishna, Indra riding his elephant, and a reclining Narayan. Behind the temple sits a patient Nandi bull. Every year, on the new moon of Bhadra, this quiet place fills with families. It is Gokarna Aunsi, the day Nepalis honour their fathers. Those whose fathers have died come to bathe in the river and make offerings for them. Down at the ghats, please be respectful: cremations still take place here.",
+  "legend": "One telling says the name Gokarna, cow's ear, comes from the shape of the land here. Another tradition links the place to a story in the Nepal Mahatmya, in which Brahma consecrated a great linga of Shiva at this spot. Gokarneshwor municipality itself notes there is no firm evidence for why the area is called Gokarna.",
+  "facts": [
+   "The present three-roofed temple dates from 1582.",
+   "The courtyard is known for its many stone sculptures, including Indra on an elephant and a reclining Narayan.",
+   "Gokarna Aunsi, Nepal's Father's Day, brings crowds here on the new moon of Bhadra.",
+   "The temple complex escaped damage in the 2015 earthquake."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": 100,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Cremations take place at the older ghats; photography there is discouraged.",
+   "fee_note": "A 100 NPR ticket for the temple complex is reported by a travel guide; other rates not found. Confirm locally."
+  },
+  "earthquake_2015": "A travel guide reports that the temple complex escaped damage in the 2015 earthquake.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Gokarna_Mahadev_Temple_01.jpg/1280px-Gokarna_Mahadev_Temple_01.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Gokarna_Mahadev_Temple_01.jpg",
+   "author": "Nabin K. Sapkota",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "To which god is Gokarneshwor Mahadev dedicated?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Ganesh",
+     "Indra"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Mahadev is a name of Shiva; a Shiva linga is in the sanctum.",
+    "q_np": "गोकर्णेश्वर महादेव कुन देवतालाई समर्पित छ?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "गणेश",
+     "इन्द्र"
+    ],
+    "explanation_np": "महादेव शिवको नाम हो; गर्भगृहमा शिवलिङ्ग छ।"
+   },
+   {
+    "q": "Which festival brings families here to honor their fathers?",
+    "options": [
+     "Teej",
+     "Gokarna Aunsi",
+     "Chhath",
+     "Holi"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Gokarna Aunsi is Nepal's Father's Day.",
+    "q_np": "कुन पर्वमा परिवारहरू आफ्ना बुवालाई सम्मान गर्न यहाँ आउँछन्?",
+    "options_np": [
+     "तीज",
+     "गोकर्ण औँसी",
+     "छठ",
+     "होली"
+    ],
+    "explanation_np": "गोकर्ण औँसी नेपालको बुवाको मुख हेर्ने दिन हो।"
+   },
+   {
+    "q": "How many roofs does the temple have?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "Five"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "It is a tall three-roofed pagoda.",
+    "q_np": "मन्दिरमा कतिवटा छाना छन्?",
+    "options_np": [
+     "एउटा",
+     "दुईवटा",
+     "तीनवटा",
+     "पाँचवटा"
+    ],
+    "explanation_np": "यो अग्लो तीन छाने पगोडा हो।"
+   },
+   {
+    "q": "In which year did the present temple take its form?",
+    "options": [
+     "1382",
+     "1582",
+     "1782",
+     "1934"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Sources date the present temple to 1582.",
+    "q_np": "अहिलेको मन्दिरले कुन वर्ष यो रूप लियो?",
+    "options_np": [
+     "१३८२",
+     "१५८२",
+     "१७८२",
+     "१९३४"
+    ],
+    "explanation_np": "स्रोतहरूले अहिलेको मन्दिर सन् १५८२ को हो भन्छन्।"
+   },
+   {
+    "q": "Which god is shown riding an elephant among the temple's statues?",
+    "options": [
+     "Indra",
+     "Agni",
+     "Varuna",
+     "Yama"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "Indra on his elephant is one of the well-known sculptures here.",
+    "q_np": "मन्दिरका मूर्तिहरूमध्ये कुन देवता हात्तीमा सवार छन्?",
+    "options_np": [
+     "इन्द्र",
+     "अग्नि",
+     "वरुण",
+     "यम"
+    ],
+    "explanation_np": "हात्तीमा सवार इन्द्र यहाँका प्रख्यात मूर्तिहरूमध्ये एक हुन्।"
+   },
+   {
+    "q": "How did the temple complex fare in the 2015 earthquake?",
+    "options": [
+     "It lost its top roof",
+     "It escaped damage, says a travel guide",
+     "It collapsed completely",
+     "It was rebuilt in stone"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "A travel guide reports that the complex escaped damage in the 2015 earthquake.",
+    "q_np": "सन् २०१५ को भूकम्पमा मन्दिर परिसरको अवस्था कस्तो थियो?",
+    "options_np": [
+     "माथिल्लो छाना गुम्यो",
+     "एउटा यात्रा गाइडका अनुसार क्षति भएन",
+     "पूरै ढल्यो",
+     "ढुङ्गाले फेरि बनाइयो"
+    ],
+    "explanation_np": "एउटा यात्रा गाइडका अनुसार सन् २०१५ को भूकम्पमा परिसर क्षतिबाट जोगिएको थियो।"
+   },
+   {
+    "q": "On the new moon of which month is Gokarna Aunsi held?",
+    "options": [
+     "Baisakh",
+     "Shrawan",
+     "Bhadra",
+     "Kartik"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Gokarna Aunsi falls on the new moon of Bhadra.",
+    "q_np": "गोकर्ण औँसी कुन महिनाको औँसीमा पर्छ?",
+    "options_np": [
+     "बैशाख",
+     "श्रावण",
+     "भाद्र",
+     "कार्तिक"
+    ],
+    "explanation_np": "गोकर्ण औँसी भाद्र महिनाको औँसीमा पर्छ।"
+   },
+   {
+    "q": "Which animal figure sits patiently behind the temple?",
+    "options": [
+     "A stone lion",
+     "A Nandi bull",
+     "A peacock",
+     "A horse"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "A Nandi bull, Shiva's mount, sits behind the temple.",
+    "q_np": "मन्दिरको पछाडि कुन जनावरको मूर्ति धैर्यले बसेको छ?",
+    "options_np": [
+     "ढुङ्गाको सिंह",
+     "नन्दी साँढे",
+     "मयूर",
+     "घोडा"
+    ],
+    "explanation_np": "मन्दिरको पछाडि शिवको वाहन नन्दी साँढे बसेको छ।"
+   },
+   {
+    "q": "According to one telling, what does the name Gokarna mean?",
+    "options": [
+     "Cow's ear",
+     "Lord of rivers",
+     "Hidden god",
+     "Gate of the moon"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "One telling says Gokarna, cow's ear, comes from the shape of the land here.",
+    "q_np": "एउटा भनाइअनुसार गोकर्ण नामको अर्थ के हो?",
+    "options_np": [
+     "गाईको कान",
+     "नदीका स्वामी",
+     "लुकेका देवता",
+     "चन्द्रमाको ढोका"
+    ],
+    "explanation_np": "एउटा भनाइअनुसार यहाँको जमिनको आकारका कारण गोकर्ण, अर्थात् गाईको कान, नाम पर्‍यो।"
+   },
+   {
+    "q": "Which reclining god is among the temple's statues?",
+    "options": [
+     "Ganesh",
+     "Surya",
+     "Narayan",
+     "Buddha"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "A reclining Narayan is among the stone figures in the courtyard.",
+    "q_np": "मन्दिरका मूर्तिहरूमध्ये कुन देवता पल्टिरहेका छन्?",
+    "options_np": [
+     "गणेश",
+     "सूर्य",
+     "नारायण",
+     "बुद्ध"
+    ],
+    "explanation_np": "आँगनका ढुङ्गाका मूर्तिमा पल्टिरहेका नारायण छन्।"
+   }
+  ],
+  "clues": [
+   "Brahma is said to have raised a great linga of Shiva on this spot, and one story says my name comes from a cow's ear.",
+   "Cremation fires still burn at my ghats, so please keep your camera down when you walk the riverbank.",
+   "Indra rides his elephant in my courtyard of stone gods, north-east of the great white stupa.",
+   "Behind me a patient stone bull waits, and a reclining Narayan rests among Durga, Ganesh and Hanuman in my courtyard.",
+   "My present three-roofed form dates from 1582, and I came through the 2015 earthquake without damage.",
+   "Three roofs by a green stretch of the Bagmati, where children remember their fathers on a new-moon day."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gokarneshwor_Mahadev_temple",
+   "https://www.wikidata.org/wiki/Q1534467",
+   "https://www.openstreetmap.org/way/342842416",
+   "https://www.thelongestwayhome.com/travel-guides/nepal/gokarna/guide-to-gokarna.html",
+   "https://info.gokarneshwormun.gov.np/tourist-places/6",
+   "https://nepaltraveller.com/sidetrack/exploring-nepals-oldest-gem-gokarneshwar-mahadev-temple"
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Gokarna Aunsi (Kushe Aunsi)",
+    "name_np": "गोकर्ण औँसी (कुशे औँसी)",
+    "month": "Bhadra",
+    "note": "Father's Day: people bathe in the Bagmati and make offerings for their fathers",
+    "note_np": "बुवाको मुख हेर्ने दिन: मानिसहरू बागमतीमा नुहाउँछन् र बुवाका नाममा भेटी चढाउँछन्।"
+   },
+   {
+    "name": "Maha Shivaratri",
+    "name_np": "महाशिवरात्रि",
+    "month": "Falgun",
+    "note": "Shiva's great night draws devotees to the linga",
+    "note_np": "शिवको महान् रातमा भक्तजन शिवलिङ्गको दर्शन गर्न आउँछन्।"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/03_Gokarnashwar_Mahadev_Temple%2C_Gokarna%2C_Kathmandu.jpg/1280px-03_Gokarnashwar_Mahadev_Temple%2C_Gokarna%2C_Kathmandu.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:03_Gokarnashwar_Mahadev_Temple,_Gokarna,_Kathmandu.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Eastern side of the temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gokarna_Mahadev_Temple_05.jpg/1280px-Gokarna_Mahadev_Temple_05.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gokarna_Mahadev_Temple_05.jpg",
+    "author": "Nabin K. Sapkota",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Gokarna Mahadev temple"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Gokarna_Mahadev_Temple_09.jpg/1280px-Gokarna_Mahadev_Temple_09.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gokarna_Mahadev_Temple_09.jpg",
+    "author": "Nabin K. Sapkota",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone sculptures in the temple grounds"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Gokarna_Mahadev_Temple_2017_01.jpg/1280px-Gokarna_Mahadev_Temple_2017_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gokarna_Mahadev_Temple_2017_01.jpg",
+    "author": "Nabin K. Sapkota",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Gokarna Mahadev temple in 2017"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Gokarna_Mahadev_Temple_2017_05.jpg/1280px-Gokarna_Mahadev_Temple_2017_05.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gokarna_Mahadev_Temple_2017_05.jpg",
+    "author": "Nabin K. Sapkota",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Temple grounds in 2017"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    15,
+    15
+   ],
+   "walls": "red-brick",
+   "roof": "gilded-copper",
+   "colors": [
+    "#8b3a2b",
+    "#c9a227",
+    "#4a3020"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "shiva-lingam",
+    "nandi-bull",
+    "idol-visible",
+    "bell"
+   ],
+   "surroundings": [
+    "river",
+    "riverbank-ghats",
+    "brick-courtyard",
+    "forest"
+   ],
+   "notes": "Tall three-roofed pagoda by the Bagmati ghats, surrounded by many stone god statues, with a Nandi bull behind"
+  },
+  "short_np": "बागमतीको किनारमा रहेको तीन छाने शिव मन्दिर, आफ्ना मूर्तिहरू र नेपालको बुवाको मुख हेर्ने दिन गोकर्ण औँसीका लागि प्रसिद्ध।",
+  "story_np": "तपाईं बौद्धनाथको उत्तरपूर्वमा बागमतीको किनारमा हुनुहुन्छ, जहाँ नदी सहरभन्दा सफा र हरियो देखिन्छ। तपाईंको अगाडि गोकर्णका स्वामी गोकर्णेश्वर महादेवको तीन छाने मन्दिर उभिएको छ। अहिलेको मन्दिरले १५८२ मा यो रूप लिएको हो, तर यहाँ पूजा त्योभन्दा धेरै पहिलेदेखि हुन्थ्यो भन्ने विश्वास छ। गर्भगृहभित्र शिवलिङ्ग छ, तर गोकर्णलाई खास बनाउने कुरा तपाईंको वरपर छ। आँगनमा बिस्तारै हिँड्दै ढुङ्गाका मूर्तिहरू हेर्नुहोस्: दुर्गा, गणेश, हनुमान, कृष्ण, हात्तीमा सवार इन्द्र र पल्टिरहेका नारायण। मन्दिरको पछाडि धैर्यले बसेको नन्दी साँढे छ। हरेक वर्ष भाद्रको औँसीमा यो शान्त ठाउँ परिवारले भरिन्छ। त्यो गोकर्ण औँसी हो, नेपालीले आफ्ना बुवालाई सम्मान गर्ने दिन। बुवा गुमाएकाहरू नदीमा नुहाउन र बुवाका नाममा भेटी चढाउन आउँछन्। तल घाटमा कृपया आदरपूर्वक व्यवहार गर्नुहोस्, किनकि यहाँ अहिले पनि दाहसंस्कार हुन्छ।",
+  "legend_np": "एउटा भनाइअनुसार यहाँको जमिनको आकार गाईको कानजस्तो भएकाले गोकर्ण नाम पर्‍यो। अर्को परम्पराले यो ठाउँलाई नेपाल महात्म्यको एउटा कथासँग जोड्छ, जसमा ब्रह्माले यहीँ शिवको ठूलो लिङ्ग स्थापना गरेका थिए। गोकर्णेश्वर नगरपालिकाले भने यो इलाकालाई किन गोकर्ण भनिन्छ भन्ने कुनै पक्का प्रमाण नभएको बताएको छ।",
+  "facts_np": [
+   "अहिलेको तीन छाने मन्दिर १५८२ को हो।",
+   "आँगन हात्तीमा सवार इन्द्र र पल्टिरहेका नारायणजस्ता धेरै ढुङ्गाका मूर्तिका लागि प्रसिद्ध छ।",
+   "भाद्रको औँसीमा पर्ने नेपालको बुवाको मुख हेर्ने दिन गोकर्ण औँसीमा यहाँ भीड लाग्छ।",
+   "सन् २०१५ को भूकम्पमा मन्दिर परिसरमा क्षति पुगेन।"
+  ],
+  "quake_np": "एउटा यात्रा गाइडका अनुसार सन् २०१५ को भूकम्पमा मन्दिर परिसर क्षतिबाट जोगिएको थियो।",
+  "clues_np": [
+   "ब्रह्माले यही ठाउँमा शिवको ठूलो लिङ्ग स्थापना गरेको भनिन्छ, र एउटा कथामा मेरो नाम गाईको कानबाट आएको हो।",
+   "मेरा घाटमा अहिले पनि दाहसंस्कार हुन्छ, त्यसैले नदीको किनारमा हिँड्दा क्यामेरा तल राख्नुहोस्।",
+   "ढुङ्गाका देवताहरू भएको मेरो चोकमा हात्तीमा सवार इन्द्र छन्, ठूलो सेतो स्तूपको उत्तरपूर्वमा।",
+   "मेरो पछाडि धैर्यले बसेको ढुङ्गाको साँढे छ, र आँगनमा दुर्गा, गणेश र हनुमानका बीच पल्टिरहेका नारायण छन्।",
+   "अहिलेको तीन छाने रूप मैले १५८२ मा लिएको हुँ, र सन् २०१५ को भूकम्पमा मलाई केही भएन।",
+   "बागमतीको हरियो किनारमा तीन छाना, जहाँ औँसीका दिन छोराछोरीले आफ्ना बुवालाई सम्झन्छन्।"
+  ]
+ },
+ {
+  "slug": "charumati-stupa",
+  "name": "Charumati Stupa",
+  "name_np": "चारुमती विहार",
+  "alt_names": [
+   "Chabahil Stupa",
+   "Dhando Chaitya",
+   "Charumati Bihar"
+  ],
+  "city": "Kathmandu",
+  "zone": null,
+  "lat": 27.715894,
+  "lng": 85.345872,
+  "coord_source": "Wikidata Q30174256 (P625); matches OSM way 194280472 (Charumati Bihar)",
+  "type": "stupa",
+  "religion": "Buddhist",
+  "deity": "Buddha",
+  "built_year": null,
+  "built_century_text": "Tradition: built by Charumati, daughter of Emperor Ashoka, 3rd century BCE; Licchavi-era renovation c. 5th century CE",
+  "dynasty": "Licchavi",
+  "architecture": "White hemispherical stupa with painted Buddha eyes on the harmika and a gilded spire, ringed by small votive chaityas and images",
+  "unesco": false,
+  "short": "An ancient Chabahil stupa traditionally credited to Charumati, daughter of the Indian emperor Ashoka.",
+  "story": "Step off the busy Chabahil road and you find a white stupa that may be one of the oldest in the valley. Local tradition says it was built by Charumati, a daughter of the Indian emperor Ashoka, who married a Nepali prince named Devapala and settled here. Later she became a Buddhist nun, and the neighbourhood of Chabahil grew around her vihara. Look up at the painted eyes of the Buddha watching all four directions, and then down at the small chaityas, stupas and stone images clustered around the base. Some of them date from the Licchavi period. For a long time the link with Charumati was only a story. Then, during restoration work begun in 2002, a brick bearing her name was reportedly found, along with old coins, seals and small bronze images. Archaeologists say the connection still needs confirming. The stupa was repaired again after the 2015 earthquake.",
+  "legend": "Tradition says Emperor Ashoka came on pilgrimage to the Kathmandu Valley with his daughter Charumati. She married Devapala, a local prince, and stayed behind. In later life she became a nun and built this stupa and a vihara, around which the settlement of Chabahil grew.",
+  "facts": [
+   "It is also known as Chabahil Stupa and Dhando Chaitya.",
+   "Tradition credits Charumati, a daughter of Emperor Ashoka, with building it.",
+   "Restoration began on 17 November 2002 after the stupa began to crack.",
+   "A brick inscribed with Charumati's name was reportedly found during the restoration; archaeologists call the link unconfirmed.",
+   "The stupa was restored again after the April 2015 earthquake."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 20,
+   "hours_note": "Open-air stupa in Chabahil.",
+   "fee_note": "No published entry fee found. Confirm locally."
+  },
+  "earthquake_2015": "The stupa was damaged and restored again after the April 2015 earthquake.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Charumati_Stupa.JPG/1280px-Charumati_Stupa.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Charumati_Stupa.JPG",
+   "author": "Nabin K. Sapkota",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Which emperor's daughter is said to have built this stupa?",
+    "options": [
+     "Ashoka",
+     "Akbar",
+     "Harsha",
+     "Kanishka"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Tradition credits Charumati, daughter of Emperor Ashoka.",
+    "q_np": "कुन सम्राटकी छोरीले यो स्तूप बनाएकी भनिन्छ?",
+    "options_np": [
+     "अशोक",
+     "अकबर",
+     "हर्ष",
+     "कनिष्क"
+    ],
+    "explanation_np": "परम्पराले यसको श्रेय सम्राट अशोककी छोरी चारुमतीलाई दिन्छ।"
+   },
+   {
+    "q": "In which part of Kathmandu is the stupa?",
+    "options": [
+     "Thamel",
+     "Chabahil",
+     "Patan",
+     "Kirtipur"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It stands in Chabahil, near Boudhanath.",
+    "q_np": "स्तूप काठमाडौँको कुन ठाउँमा छ?",
+    "options_np": [
+     "ठमेल",
+     "चाबहिल",
+     "पाटन",
+     "कीर्तिपुर"
+    ],
+    "explanation_np": "यो बौद्धनाथनजिकै चाबहिलमा छ।"
+   },
+   {
+    "q": "Whom did Charumati marry, according to tradition?",
+    "options": [
+     "Prince Devapala",
+     "King Manadeva",
+     "Prince Siddhartha",
+     "King Pratap Malla"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "She married the Nepali prince Devapala.",
+    "q_np": "परम्पराअनुसार चारुमतीले कोसँग विवाह गरिन्?",
+    "options_np": [
+     "राजकुमार देवपाल",
+     "राजा मानदेव",
+     "राजकुमार सिद्धार्थ",
+     "राजा प्रताप मल्ल"
+    ],
+    "explanation_np": "उनले नेपालका राजकुमार देवपालसँग विवाह गरिन्।"
+   },
+   {
+    "q": "What was reportedly found during the restoration begun in 2002?",
+    "options": [
+     "A gold crown",
+     "A brick inscribed with Charumati's name",
+     "A Malla coin hoard",
+     "A buried chariot"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "A brick bearing her name was reported, with coins, seals and small images.",
+    "q_np": "सन् २००२ मा सुरु भएको जीर्णोद्धारका बेला के भेटिएको भनियो?",
+    "options_np": [
+     "सुनको मुकुट",
+     "चारुमतीको नाम लेखिएको इँटा",
+     "मल्लकालीन सिक्काको भण्डार",
+     "गाडिएको रथ"
+    ],
+    "explanation_np": "उनको नाम लेखिएको इँटा, साथै सिक्का, छाप र साना मूर्ति भेटिएको भनियो।"
+   },
+   {
+    "q": "What is another name for the stupa?",
+    "options": [
+     "Dhando Chaitya",
+     "Kathesimbhu",
+     "Ashok Stupa",
+     "Namo Buddha"
+    ],
+    "answer_index": 0,
+    "difficulty": 5,
+    "explanation": "It is also called Dhando Chaitya.",
+    "q_np": "यो स्तूपको अर्को नाम के हो?",
+    "options_np": [
+     "ढन्दो चैत्य",
+     "कठेसिम्भु",
+     "अशोक स्तूप",
+     "नमोबुद्ध"
+    ],
+    "explanation_np": "यसलाई ढन्दो चैत्य पनि भनिन्छ।"
+   },
+   {
+    "q": "What is painted on the harmika of the stupa?",
+    "options": [
+     "The Buddha's eyes",
+     "Lotus flowers",
+     "Dragons",
+     "Mountain peaks"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Painted Buddha eyes watch all four directions.",
+    "q_np": "स्तूपको हर्मिकामा के रङ्गाइएको छ?",
+    "options_np": [
+     "बुद्धका आँखा",
+     "कमलका फूल",
+     "ड्रागन",
+     "हिमालका चुचुरा"
+    ],
+    "explanation_np": "चारै दिशातिर हेर्ने बुद्धका आँखा रङ्गाइएका छन्।"
+   },
+   {
+    "q": "What did Charumati become in later life, according to tradition?",
+    "options": [
+     "A queen",
+     "A Buddhist nun",
+     "A warrior",
+     "A potter"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "She later became a Buddhist nun and built a vihara here.",
+    "q_np": "परम्पराअनुसार पछि चारुमती के बनिन्?",
+    "options_np": [
+     "रानी",
+     "बौद्ध भिक्षुणी",
+     "योद्धा",
+     "कुमाले"
+    ],
+    "explanation_np": "पछि उनी बौद्ध भिक्षुणी भइन् र यहाँ विहार बनाइन्।"
+   },
+   {
+    "q": "From which period do some of the small chaityas and images around the base date?",
+    "options": [
+     "Rana",
+     "Malla",
+     "Licchavi",
+     "Shah"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Some of the small chaityas, stupas and images around the base date from the Licchavi period.",
+    "q_np": "आधारवरिपरिका केही साना चैत्य र मूर्ति कुन कालका हुन्?",
+    "options_np": [
+     "राणाकाल",
+     "मल्लकाल",
+     "लिच्छविकाल",
+     "शाहकाल"
+    ],
+    "explanation_np": "आधारवरिपरिका केही साना चैत्य, स्तूप र मूर्ति लिच्छविकालका हुन्।"
+   },
+   {
+    "q": "Why did restoration begin in 2002?",
+    "options": [
+     "The stupa began to crack",
+     "Lightning struck it",
+     "A fire damaged it",
+     "A flood washed over it"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Restoration began on 17 November 2002 after the stupa began to crack.",
+    "q_np": "सन् २००२ मा जीर्णोद्धार किन सुरु भयो?",
+    "options_np": [
+     "स्तूपमा चिरा पर्न थाल्यो",
+     "चट्याङ पर्‍यो",
+     "आगलागी भयो",
+     "बाढीले बगायो"
+    ],
+    "explanation_np": "स्तूपमा चिरा पर्न थालेपछि सन् २००२ नोभेम्बर १७ मा जीर्णोद्धार सुरु भयो।"
+   },
+   {
+    "q": "What happened to the stupa in the April 2015 earthquake?",
+    "options": [
+     "It was moved elsewhere",
+     "It vanished",
+     "It was left untouched",
+     "It was damaged and restored again"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "The stupa was damaged and restored again after the April 2015 earthquake.",
+    "q_np": "सन् २०१५ अप्रिलको भूकम्पमा स्तूपलाई के भयो?",
+    "options_np": [
+     "अर्को ठाउँमा सारियो",
+     "हरायो",
+     "केही भएन",
+     "क्षति पुग्यो र फेरि जीर्णोद्धार गरियो"
+    ],
+    "explanation_np": "सन् २०१५ अप्रिलको भूकम्पपछि स्तूपमा क्षति पुग्यो र यसलाई फेरि जीर्णोद्धार गरियो।"
+   }
+  ],
+  "clues": [
+   "Archaeologists say the story told about my builder still needs confirming.",
+   "Tiny chaityas, stupas and stone images, some from the Licchavi period, crowd around my base.",
+   "An emperor's daughter married here and stayed, and a stupa with watching eyes keeps her memory.",
+   "A brick with a princess's name turned up when my cracked dome was mended near a busy crossroads.",
+   "Locals know me by a second name, and I was mended again after the April 2015 earthquake.",
+   "My white dome with painted Buddha eyes sits just off a busy road, close to the valley's biggest stupa at Boudhanath."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Charumati_Stupa",
+   "https://en.wikipedia.org/wiki/Charumati",
+   "https://www.wikidata.org/wiki/Q30174256",
+   "https://www.openstreetmap.org/way/194280472",
+   "https://nepalitimes.com/a-monument-to-an-indian-princess",
+   "https://thingsasian.com/node/1203.html",
+   "https://ecs.com.np/features/charumati-the-princess-and-the-stupa"
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Buddha Jayanti",
+    "name_np": "बुद्ध जयन्ती",
+    "month": "Baisakh",
+    "note": "Buddha's birthday; devotees circle the stupa and light butter lamps",
+    "note_np": "बुद्धको जन्मदिन; भक्तजन स्तूप परिक्रमा गर्छन् र घिउका बत्ती बाल्छन्।"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Chabahil_Stupa_eyes_%2801%29.jpg/1280px-Chabahil_Stupa_eyes_%2801%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chabahil_Stupa_eyes_(01).jpg",
+    "author": "Christopher J. Fynn",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Buddha's eyes on the harmika"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Chabahil_Stupa_top.jpg/1280px-Chabahil_Stupa_top.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chabahil_Stupa_top.jpg",
+    "author": "Christopher J. Fynn",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Top of the stupa and its spire"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Charumati_Bihar%2C_Chabahil.jpg/1280px-Charumati_Bihar%2C_Chabahil.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Charumati_Bihar,_Chabahil.jpg",
+    "author": "Anil Simkhada",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "General view of Charumati Bihar, Chabahil"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Charumati_Stupa_Image_01.jpg/1280px-Charumati_Stupa_Image_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Charumati_Stupa_Image_01.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Charumati Stupa and the shrines around it"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Chabahil.stupa.jpg/1280px-Chabahil.stupa.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chabahil.stupa.jpg",
+    "author": "User:China_Crisis",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Chabahil stupa"
+   }
+  ],
+  "model": {
+   "kind": "stupa",
+   "tiers": 1,
+   "plinth_steps": 1,
+   "plinth_shape": "round",
+   "height_m": null,
+   "footprint_m": [
+    20,
+    20
+   ],
+   "walls": "white-plaster",
+   "roof": "white-dome",
+   "colors": [
+    "#f4f1ea",
+    "#c9a227",
+    "#2b4c8c"
+   ],
+   "features": [
+    "dome-white",
+    "harmika",
+    "buddha-eyes",
+    "gilded-pinnacle",
+    "chaityas",
+    "prayer-flags"
+   ],
+   "surroundings": [
+    "city-street",
+    "newar-houses",
+    "brick-courtyard"
+   ],
+   "notes": "Mid-sized white dome with painted eyes and gilded spire, ringed by small stone chaityas, beside a busy city road"
+  },
+  "short_np": "चाबहिलको प्राचीन स्तूप, परम्पराले जसलाई भारतीय सम्राट अशोककी छोरी चारुमतीले बनाएकी भन्छ।",
+  "story_np": "व्यस्त चाबहिल सडकबाट अलि भित्र पस्नुहोस्, उपत्यकाकै सबैभन्दा पुरानो स्तूपमध्ये एक हुन सक्ने सेतो स्तूप भेट्नुहुन्छ। स्थानीय परम्पराअनुसार यो भारतीय सम्राट अशोककी छोरी चारुमतीले बनाएकी हुन्। उनले देवपाल नाम गरेका नेपाली राजकुमारसँग विवाह गरिन् र यहीँ बसिन्। पछि उनी बौद्ध भिक्षुणी भइन्, र उनको विहारको वरिपरि चाबहिल बस्ती बस्दै गयो। चारै दिशातिर हेर्ने बुद्धका रङ्गीन आँखा हेर्नुहोस्, अनि फेदमा जम्मा भएका साना चैत्य, स्तूप र ढुङ्गाका मूर्तितिर तल हेर्नुहोस्। तीमध्ये केही लिच्छविकालका हुन्। धेरै समयसम्म चारुमतीसँगको सम्बन्ध कथा मात्र थियो। त्यसपछि सन् २००२ मा सुरु भएको जीर्णोद्धारमा उनको नाम लेखिएको इँटा, साथै पुराना सिक्का, छाप र साना काँसाका मूर्ति भेटिएको भनिन्छ। पुरातत्त्वविद्हरू भने यो सम्बन्ध अझै पुष्टि हुनुपर्छ भन्छन्। सन् २०१५ को भूकम्पपछि स्तूप फेरि मर्मत गरियो।",
+  "legend_np": "परम्पराअनुसार सम्राट अशोक आफ्नी छोरी चारुमतीसँग काठमाडौँ उपत्यकाको तीर्थयात्रामा आएका थिए। चारुमतीले यहाँका राजकुमार देवपालसँग विवाह गरिन् र यहीँ बसिन्। पछि उनी भिक्षुणी भइन् र यो स्तूप र एउटा विहार बनाइन्, जसको वरिपरि चाबहिल बस्ती बस्दै गयो।",
+  "facts_np": [
+   "यसलाई चाबहिल स्तूप र ढन्दो चैत्य पनि भनिन्छ।",
+   "परम्पराले यो स्तूप बनाउने श्रेय सम्राट अशोककी छोरी चारुमतीलाई दिन्छ।",
+   "स्तूपमा चिरा पर्न थालेपछि सन् २००२ नोभेम्बर १७ मा जीर्णोद्धार सुरु भयो।",
+   "जीर्णोद्धारका बेला चारुमतीको नाम लेखिएको इँटा भेटिएको भनिन्छ; पुरातत्त्वविद्हरू यो सम्बन्ध पुष्टि भएको छैन भन्छन्।",
+   "सन् २०१५ को अप्रिलको भूकम्पपछि स्तूप फेरि जीर्णोद्धार गरियो।"
+  ],
+  "quake_np": "सन् २०१५ को अप्रिलको भूकम्पले स्तूपमा क्षति पुर्‍यायो, र त्यसपछि यसलाई फेरि जीर्णोद्धार गरियो।",
+  "clues_np": [
+   "मेरी निर्माताबारे भनिने कथा अझै पुष्टि हुन बाँकी छ भन्छन् पुरातत्त्वविद्हरू।",
+   "मेरो फेदमा साना चैत्य, स्तूप र ढुङ्गाका मूर्तिहरू भीड लगाएर बसेका छन्; केही लिच्छविकालका हुन्।",
+   "एक सम्राटकी छोरी यहीँ विवाह गरेर बसिन्, र आँखा भएको एउटा स्तूपले उनको सम्झना जोगाएको छ।",
+   "व्यस्त चौबाटोनजिक मेरो चिरा परेको गुम्बज मर्मत गर्दा एक राजकुमारीको नाम लेखिएको इँटा भेटियो।",
+   "स्थानीयले मलाई अर्कै नामले पनि चिन्छन्, र सन् २०१५ को अप्रिलको भूकम्पपछि मलाई फेरि मर्मत गरियो।",
+   "बुद्धका रङ्गीन आँखा भएको मेरो सेतो गुम्बज व्यस्त सडकको छेउमा छ, उपत्यकाको सबैभन्दा ठूलो स्तूप बौद्धनाथको नजिकै।"
+  ]
+ },
+ {
+  "slug": "bajrayogini-temple-sankhu",
+  "name": "Bajrayogini Temple, Sankhu",
+  "name_np": "बज्रयोगिनी मन्दिर",
+  "alt_names": [
+   "Vajrayogini Temple",
+   "Khadgayogini",
+   "Gunbaha"
+  ],
+  "city": "Sankhu",
+  "zone": null,
+  "lat": 27.743776,
+  "lng": 85.467231,
+  "coord_source": "OpenStreetMap way 235411212 (Vajra Yogini) centroid; Wikidata Q4848945 gives 27.747, 85.483 (low precision)",
+  "type": "pagoda",
+  "religion": "Both",
+  "deity": "Vajrayogini (Ugratara)",
+  "built_year": null,
+  "built_century_text": "Main temple built under King Pratap Malla (17th century CE); site and inscriptions at Sankhu far older (538 CE)",
+  "dynasty": "Malla",
+  "architecture": "Three-storey Newar pagoda in a hillside temple complex in pine forest, reached by a long stone stairway, rich in metalwork and carved wood",
+  "unesco": false,
+  "short": "A forest hilltop temple of the tantric goddess Vajrayogini above the old Newar town of Sankhu.",
+  "story": "Climb the long stone stairway through the pine trees above Sankhu and you arrive at one of the holiest Newar Buddhist shrines in the valley. This is the temple of Vajrayogini, a tantric goddess also worshipped by Hindus. The main three-storey temple was built under King Pratap Malla, but this hillside was sacred long before. Legend says Vajrayogini once drained a lake from the Sankhu valley with her curved knife, then told King Sankhadev to build a town in the shape of a conch shell. The oldest inscription in Sankhu, from 538 CE, supports this story. Look around you: there is gilded metalwork, carved wood, an old stone water spout, and caves where famous Tibetan yogis are said to have meditated. Inside, the goddess has a red face and three eyes. The 2015 earthquake left the main temple unsafe, so it was propped up and restored. Each spring her chariot comes down to Sankhu.",
+  "legend": "Long ago the Sankhu valley was a lake. The goddess Vajrayogini cut through the hills with her curved knife and let the water drain away. She then appeared to the priest Jogdev and told King Sankhadev to build a town shaped like a conch shell, sankha, which is how Sankhu got its name.",
+  "facts": [
+   "The main temple is a three-storey building attributed to King Pratap Malla.",
+   "The oldest inscription in Sankhu dates to 538 CE.",
+   "The site is on Nepal's UNESCO tentative list as \"Vajrayogini and early settlement of Sankhu\".",
+   "Caves near the temple are linked to the Tibetan masters Marpa and Milarepa.",
+   "The temple was declared unsafe after the 2015 earthquake and its statues were moved for safety during repairs."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 90,
+   "hours_note": "Reached by a long stone stairway through forest above Sankhu.",
+   "fee_note": "No published entry fee found. Confirm locally."
+  },
+  "earthquake_2015": "The 2015 earthquake left the temple unsafe; statues were moved for safekeeping, the structure was propped with timber, and it was later restored.",
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bajrayogini_Temple_at_Bajrayogini.jpg/1280px-Bajrayogini_Temple_at_Bajrayogini.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Bajrayogini_Temple_at_Bajrayogini.jpg",
+   "author": "Mero Raja",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Which goddess is worshipped at this temple?",
+    "options": [
+     "Vajrayogini",
+     "Taleju",
+     "Saraswati",
+     "Lakshmi"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It is dedicated to the tantric goddess Vajrayogini.",
+    "q_np": "यो मन्दिरमा कुन देवीको पूजा गरिन्छ?",
+    "options_np": [
+     "वज्रयोगिनी",
+     "तलेजु",
+     "सरस्वती",
+     "लक्ष्मी"
+    ],
+    "explanation_np": "यो तान्त्रिक देवी वज्रयोगिनीलाई समर्पित छ।"
+   },
+   {
+    "q": "Which town lies at the foot of the temple hill?",
+    "options": [
+     "Sankhu",
+     "Thimi",
+     "Bungamati",
+     "Panauti"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "The temple stands on the forested hill above Sankhu.",
+    "q_np": "मन्दिर रहेको डाँडाको फेदमा कुन सहर पर्छ?",
+    "options_np": [
+     "साँखु",
+     "ठिमी",
+     "बुङ्गमती",
+     "पनौती"
+    ],
+    "explanation_np": "मन्दिर साँखुमाथिको जङ्गलले ढाकेको डाँडामा छ।"
+   },
+   {
+    "q": "According to legend, what shape was Sankhu built in?",
+    "options": [
+     "A lotus",
+     "A conch shell",
+     "A sword",
+     "A fish"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Vajrayogini told King Sankhadev to build it in the shape of a conch shell.",
+    "q_np": "किंवदन्तीअनुसार साँखु कुन आकारमा बसाइएको थियो?",
+    "options_np": [
+     "कमल",
+     "शङ्ख",
+     "तरवार",
+     "माछा"
+    ],
+    "explanation_np": "वज्रयोगिनीले राजा शङ्खदेवलाई शङ्खको आकारमा सहर बसाउन भनेकी थिइन्।"
+   },
+   {
+    "q": "Which Malla king is credited with the main temple?",
+    "options": [
+     "Pratap Malla",
+     "Jayasthiti Malla",
+     "Yaksha Malla",
+     "Bhupatindra Malla"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "Sources attribute the main temple to King Pratap Malla.",
+    "q_np": "मुख्य मन्दिर बनाएको श्रेय कुन मल्ल राजालाई दिइन्छ?",
+    "options_np": [
+     "प्रताप मल्ल",
+     "जयस्थिति मल्ल",
+     "यक्ष मल्ल",
+     "भूपतीन्द्र मल्ल"
+    ],
+    "explanation_np": "स्रोतहरूले मुख्य मन्दिरको श्रेय राजा प्रताप मल्ललाई दिन्छन्।"
+   },
+   {
+    "q": "The oldest inscription found at Sankhu dates to which year?",
+    "options": [
+     "238 BCE",
+     "538 CE",
+     "1138 CE",
+     "1538 CE"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "An inscription of 538 CE is the oldest at Sankhu.",
+    "q_np": "साँखुमा भेटिएको सबैभन्दा पुरानो शिलालेख कुन वर्षको हो?",
+    "options_np": [
+     "२३८ ईसा पूर्व",
+     "५३८ ईस्वी",
+     "११३८ ईस्वी",
+     "१५३८ ईस्वी"
+    ],
+    "explanation_np": "सन् ५३८ को शिलालेख साँखुकै सबैभन्दा पुरानो हो।"
+   },
+   {
+    "q": "What was done to the temple after the 2015 earthquake left it unsafe?",
+    "options": [
+     "It was demolished and left empty",
+     "It was propped with timber and later restored",
+     "It was abandoned as a ruin",
+     "It was replaced by a modern shrine"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The statues were moved for safety, the structure was propped with timber, and it was later restored.",
+    "q_np": "सन् २०१५ को भूकम्पले असुरक्षित बनाएपछि मन्दिरमा के गरियो?",
+    "options_np": [
+     "भत्काएर खाली छोडियो",
+     "काठले टेको लगाइयो र पछि जीर्णोद्धार गरियो",
+     "भग्नावशेषका रूपमा छोडियो",
+     "आधुनिक मन्दिरले प्रतिस्थापन गर्‍यो"
+    ],
+    "explanation_np": "मूर्तिहरू सुरक्षाका लागि सारिए, संरचनालाई काठले टेको लगाइयो र पछि जीर्णोद्धार गरियो।"
+   },
+   {
+    "q": "What surrounds the temple on its hillside?",
+    "options": [
+     "Rice terraces",
+     "Bamboo groves",
+     "Pine forest",
+     "Tea gardens"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "The complex sits in pine forest, reached by a long stone stairway.",
+    "q_np": "डाँडामा मन्दिरलाई के ले घेरेको छ?",
+    "options_np": [
+     "धानका खेत",
+     "बाँसघारी",
+     "चीडको जङ्गल",
+     "चिया बगान"
+    ],
+    "explanation_np": "मन्दिर चीडको जङ्गलभित्र छ र लामो ढुङ्गाको भर्‍याङले पुगिन्छ।"
+   },
+   {
+    "q": "According to legend, what did Vajrayogini use to drain the lake?",
+    "options": [
+     "A trident",
+     "A thunderbolt",
+     "A plough",
+     "A curved knife"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "She cut through the hills with her curved knife and let the water drain away.",
+    "q_np": "किंवदन्तीअनुसार वज्रयोगिनीले ताल बगाउन केको प्रयोग गरिन्?",
+    "options_np": [
+     "त्रिशूल",
+     "वज्र",
+     "हलो",
+     "बाङ्गो छुरी"
+    ],
+    "explanation_np": "उनले बाङ्गो छुरीले पहाड काटेर पानी बगाइदिइन्।"
+   },
+   {
+    "q": "Which Tibetan masters are linked with the caves near the temple?",
+    "options": [
+     "Marpa and Milarepa",
+     "Atisha and Tsongkhapa",
+     "Padmasambhava and Shantarakshita",
+     "Songtsen Gampo and Bhrikuti"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "The caves are linked to the Tibetan masters Marpa and Milarepa.",
+    "q_np": "मन्दिरनजिकका गुफा कुन तिब्बती गुरुहरूसँग जोडिएका छन्?",
+    "options_np": [
+     "मारपा र मिलारेपा",
+     "अतिश र चोङखापा",
+     "पद्मसम्भव र शान्तरक्षित",
+     "स्रोङचन गम्पो र भृकुटी"
+    ],
+    "explanation_np": "ती गुफाहरू तिब्बती गुरु मारपा र मिलारेपासँग जोडिएका छन्।"
+   },
+   {
+    "q": "What does the goddess look like inside the temple?",
+    "options": [
+     "Blue-faced with one eye",
+     "Red-faced with three eyes",
+     "White-faced with two eyes",
+     "Golden-faced with four eyes"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Inside, the goddess has a red face and three eyes.",
+    "q_np": "मन्दिरभित्र देवीको रूप कस्तो छ?",
+    "options_np": [
+     "निलो अनुहार र एउटा आँखा",
+     "रातो अनुहार र तीन आँखा",
+     "सेतो अनुहार र दुई आँखा",
+     "सुनौलो अनुहार र चार आँखा"
+    ],
+    "explanation_np": "भित्र देवीको अनुहार रातो छ र तीन आँखा छन्।"
+   }
+  ],
+  "clues": [
+   "The oldest inscription in the old Newar town below me is dated 538 CE.",
+   "My goddess has a red face and three eyes, and both Hindus and Buddhists bring her offerings.",
+   "A goddess with a curved knife drained a lake, and a conch-shaped town grew below her forest stairs.",
+   "Pine trees, a long stone staircase and caves of Tibetan yogis surround my three-storey shrine.",
+   "After the 2015 earthquake I was propped up with timber while my statues were moved out for safekeeping.",
+   "Each spring my goddess rides down in a chariot to the old Newar town at my feet, and King Pratap Malla's three storeys crown my hill."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bajrayogini_Temple",
+   "https://en.wikipedia.org/wiki/Sankhu",
+   "https://www.wikidata.org/wiki/Q4848945",
+   "https://www.openstreetmap.org/way/235411212",
+   "https://whc.unesco.org/en/tentativelists/"
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Bajrayogini Jatra",
+    "name_np": "बज्रयोगिनी जात्रा",
+    "month": "Chaitra",
+    "note": "Nine-day festival; the goddess is carried down to Sankhu in a chariot",
+    "note_np": "नौ दिने जात्रा; देवीलाई रथमा राखेर साँखु सहरमा ल्याइन्छ।"
+   },
+   {
+    "name": "Swasthani Brata (Madhav Narayan)",
+    "name_np": "स्वस्थानी व्रत (माधव नारायण)",
+    "month": "Magh",
+    "note": "Month-long fast and worship of Madhav Narayan in Sankhu town, Poush to Magh full moon",
+    "note_np": "साँखु सहरमा पौषदेखि माघ पूर्णिमासम्म एक महिनाभर उपवास बस्ने र माधव नारायणको पूजा गर्ने चलन छ।"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/2015.07.16_Sankhu_94_Bajrayogini_Temple_View.jpg/1280px-2015.07.16_Sankhu_94_Bajrayogini_Temple_View.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:2015.07.16_Sankhu_94_Bajrayogini_Temple_View.jpg",
+    "author": "Drdonnayates",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple complex, July 2015"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/2015.07.16_Sankhu_118_Bajrayogini_Temple_tops_and_pines.jpg/1280px-2015.07.16_Sankhu_118_Bajrayogini_Temple_tops_and_pines.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:2015.07.16_Sankhu_118_Bajrayogini_Temple_tops_and_pines.jpg",
+    "author": "Drdonnayates",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Temple roofs among the pine forest, 2015"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Sankhu_Vajarayogini_temple_under_restoration_13-04-2018.jpg/1280px-Sankhu_Vajarayogini_temple_under_restoration_13-04-2018.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Sankhu_Vajarayogini_temple_under_restoration_13-04-2018.jpg",
+    "author": "Christopher J. Fynn",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The main temple under restoration, April 2018"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sankhu_Vajarayogini_and_Jogeshvara_temples13-04-2018.jpg/1280px-Sankhu_Vajarayogini_and_Jogeshvara_temples13-04-2018.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Sankhu_Vajarayogini_and_Jogeshvara_temples13-04-2018.jpg",
+    "author": "Christopher J. Fynn",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Vajrayogini and Jogeshvara temples, 2018"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/FlowerStoneMandala.jpg/1280px-FlowerStoneMandala.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:FlowerStoneMandala.jpg",
+    "author": "RobV",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Stone flower mandala at the temple"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    15,
+    15
+   ],
+   "walls": "red-brick",
+   "roof": "gilded-copper",
+   "colors": [
+    "#8b3a2b",
+    "#c9a227",
+    "#3d5a3a"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "toran",
+    "golden-door",
+    "bell",
+    "chaityas",
+    "water-spouts"
+   ],
+   "surroundings": [
+    "hilltop",
+    "forest",
+    "brick-courtyard"
+   ],
+   "notes": "Three-roofed gilded pagoda in a small courtyard among pine trees, at the top of a long stone stairway"
+  },
+  "short_np": "साँखुको पुरानो नेवार सहरमाथि, जङ्गलभित्रको डाँडामा रहेको तान्त्रिक देवी वज्रयोगिनीको मन्दिर।",
+  "story_np": "साँखुमाथि चीडका रुखबीचको ढुङ्गाको लामो भर्‍याङ उक्लनुहोस्, तपाईं उपत्यकाका सबैभन्दा पवित्र नेवार बौद्ध मन्दिरमध्ये एउटामा पुग्नुहुन्छ। यो तान्त्रिक देवी वज्रयोगिनीको मन्दिर हो, जसलाई हिन्दूहरू पनि पूजा गर्छन्। मुख्य तीन तले मन्दिर राजा प्रताप मल्लको पालामा बनेको हो, तर यो डाँडा त्योभन्दा धेरै अघिदेखि पवित्र थियो। कथाअनुसार वज्रयोगिनीले आफ्नो बाङ्गो खुकुरीले साँखु उपत्यकाको ताल बगाइदिइन्, अनि राजा शङ्खदेवलाई शङ्खको आकारमा सहर बसाउन भनिन्। साँखुको सबैभन्दा पुरानो शिलालेख, सन् ५३८ को, यो कथालाई बलियो बनाउँछ। वरिपरि हेर्नुहोस्: सुनले मोडिएको धातुको काम, कुँदिएको काठ, पुरानो ढुङ्गाको धारा, र प्रसिद्ध तिब्बती योगीहरूले ध्यान गरेका भनिने गुफाहरू छन्। भित्र देवीको अनुहार रातो छ र तीन आँखा छन्। सन् २०१५ को भूकम्पले मुख्य मन्दिर असुरक्षित बनायो, त्यसैले यसलाई टेको लगाइयो र पछि जीर्णोद्धार गरियो। हरेक वसन्तमा देवीको रथ साँखुमा झारिन्छ।",
+  "legend_np": "धेरै पहिले साँखु उपत्यका ताल थियो। देवी वज्रयोगिनीले आफ्नो बाङ्गो खुकुरीले पहाड काटेर पानी बगाइदिइन्। त्यसपछि उनी पुजारी जोगदेवको सामु देखा परिन् र राजा शङ्खदेवलाई शङ्ख (सङ्खा) को आकारमा सहर बसाउन भनिन्। यसरी साँखुले आफ्नो नाम पायो।",
+  "facts_np": [
+   "मुख्य मन्दिर राजा प्रताप मल्लले बनाएको मानिने तीन तले भवन हो।",
+   "साँखुको सबैभन्दा पुरानो शिलालेख सन् ५३८ को हो।",
+   "नेपालको युनेस्को सम्भावित सूचीमा यो स्थल \"वज्रयोगिनी र साँखुको सुरुवाती बस्ती\" नामले राखिएको छ।",
+   "मन्दिरनजिकका गुफाहरू तिब्बती गुरु मारपा र मिलारेपासँग जोडिएका छन्।",
+   "सन् २०१५ को भूकम्पपछि मन्दिर असुरक्षित घोषणा गरियो र मर्मतका बेला मूर्तिहरू सुरक्षाका लागि अन्त सारिए।"
+  ],
+  "quake_np": "सन् २०१५ को भूकम्पले मन्दिरलाई असुरक्षित बनायो; मूर्तिहरू सुरक्षाका लागि सारिए, संरचनालाई काठले टेको लगाइयो, र पछि जीर्णोद्धार गरियो।",
+  "clues_np": [
+   "मेरो फेदको पुरानो नेवार सहरको सबैभन्दा पुरानो शिलालेख सन् ५३८ को हो।",
+   "मेरी देवीको अनुहार रातो छ र तीन आँखा छन्, अनि हिन्दू र बौद्ध दुवैले उनलाई भेटी चढाउँछन्।",
+   "बाङ्गो छुरी भएकी एक देवीले ताल खाली गरिन्, र उनको जङ्गलको भर्‍याङमुनि शङ्खको आकारको सहर बस्यो।",
+   "मेरो तीन तले मन्दिरलाई चीडका रुख, ढुङ्गाको लामो भर्‍याङ र तिब्बती योगीहरूका गुफाले घेरेका छन्।",
+   "सन् २०१५ को भूकम्पपछि मलाई काठले टेको लगाइयो र मेरा मूर्तिहरू सुरक्षाका लागि अन्त सारिए।",
+   "हरेक वसन्तमा मेरी देवी रथमा चढेर फेदको पुरानो नेवार सहरमा झर्छिन्, र राजा प्रताप मल्लले बनाएको तीन तले मन्दिर मेरो डाँडाको मुकुट हो।"
+  ]
+ },
+ {
+  "slug": "doleshwor-mahadev",
+  "name": "Doleshwor Mahadev",
+  "name_np": "डोलेश्वर महादेव",
+  "alt_names": [
+   "Doleshwar Mahadev",
+   "Sipadol Mahadev",
+   "Bimaleshwor"
+  ],
+  "city": "Suryabinayak",
+  "zone": null,
+  "lat": 27.638889,
+  "lng": 85.438056,
+  "coord_source": "Wikidata Q5288959 (P625); OSM node 6397585285 gives 27.638924, 85.438477",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Shiva (as the head of Kedarnath)",
+  "built_year": null,
+  "built_century_text": "Said to be first built in the 12th century CE; renovated by King Bhupatindra Malla of Bhaktapur; tradition claims far greater age",
+  "dynasty": "Malla",
+  "architecture": "Pagoda-style Shiva temple with a large linga, part of a cluster of five shrines in the village of Sipadol",
+  "unesco": false,
+  "short": "A Sipadol Shiva temple believed by many pilgrims to hold the head of the bull whose body is worshipped at Kedarnath.",
+  "story": "You have come to the quiet village of Sipadol, south of Suryabinayak in Bhaktapur district. This modest pagoda is Doleshwor Mahadev, and many pilgrims believe it is linked to Kedarnath in India. Here is the story. After the Mahabharata war, the five Pandava brothers wanted Shiva's forgiveness, but Shiva hid from them in the form of a bull. When Bhima grabbed the animal, its head sank into the ground. The body is worshipped at Kedarnath, and the head, people say, appeared here. In 2009 the head priest of Kedarnath publicly declared Doleshwor to be the head of Kedarnath, and pilgrim numbers grew quickly. Historians are more cautious: the temple is said to have been built in the 12th century and renovated by King Bhupatindra Malla. Inside is a large Shiva linga. Come on Shivaratri or in Shrawan and you will find the village crowded with devotees.",
+  "legend": "After the Kurukshetra war, the Pandavas sought Shiva to atone for the killing. Shiva turned himself into a bull to avoid them. Bhima recognised him and caught hold of the bull, and its head sank into the earth. The hump stayed at Kedarnath, while the head is believed to have emerged at Doleshwor.",
+  "facts": [
+   "It stands in Sipadol, Suryabinayak Municipality, Bhaktapur district.",
+   "In 2009 the head priest of Kedarnath declared Doleshwor to be the head of Kedarnath.",
+   "Sources say it was first built in the 12th century and renovated by King Bhupatindra Malla.",
+   "A stone inscription on the premises is reported to be written in Kannada.",
+   "Shivaratri and the month of Shrawan draw the biggest crowds."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "About 4 km south of Jagati near Suryabinayak; the last stretch of road is narrow.",
+   "fee_note": "No published entry fee found. Confirm locally."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Doleshwor_Mahadev_Temple_01.jpg/1280px-Doleshwor_Mahadev_Temple_01.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Doleshwor_Mahadev_Temple_01.jpg",
+   "author": "Prabina Karki",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Which god is worshipped at Doleshwor Mahadev?",
+    "options": [
+     "Vishnu",
+     "Shiva",
+     "Ganesh",
+     "Bhimsen"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Mahadev is Shiva; a large linga is inside.",
+    "q_np": "डोलेश्वर महादेवमा कुन देवताको पूजा गरिन्छ?",
+    "options_np": [
+     "विष्णु",
+     "शिव",
+     "गणेश",
+     "भीमसेन"
+    ],
+    "explanation_np": "महादेव भनेको शिव हुन्; भित्र ठूलो शिवलिङ्ग छ।"
+   },
+   {
+    "q": "Which Indian temple is Doleshwor believed to be linked to?",
+    "options": [
+     "Somnath",
+     "Kedarnath",
+     "Kashi Vishwanath",
+     "Jagannath Puri"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "It is believed to be the head of the Kedarnath bull.",
+    "q_np": "डोलेश्वरलाई भारतको कुन मन्दिरसँग जोडिएको मानिन्छ?",
+    "options_np": [
+     "सोमनाथ",
+     "केदारनाथ",
+     "काशी विश्वनाथ",
+     "जगन्नाथ पुरी"
+    ],
+    "explanation_np": "यो केदारनाथको साँढेको टाउको हो भन्ने विश्वास छ।"
+   },
+   {
+    "q": "In what form did Shiva hide from the Pandavas?",
+    "options": [
+     "A tiger",
+     "A bull",
+     "A snake",
+     "An eagle"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Shiva took the form of a bull.",
+    "q_np": "पाण्डवहरूबाट लुक्न शिवले कुन रूप लिए?",
+    "options_np": [
+     "बाघ",
+     "साँढे",
+     "सर्प",
+     "गरुड"
+    ],
+    "explanation_np": "शिवले साँढेको रूप लिएका थिए।"
+   },
+   {
+    "q": "In which district is the temple?",
+    "options": [
+     "Kathmandu",
+     "Lalitpur",
+     "Bhaktapur",
+     "Kavrepalanchok"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "It is in Sipadol, Bhaktapur district.",
+    "q_np": "मन्दिर कुन जिल्लामा छ?",
+    "options_np": [
+     "काठमाडौँ",
+     "ललितपुर",
+     "भक्तपुर",
+     "काभ्रेपलाञ्चोक"
+    ],
+    "explanation_np": "यो भक्तपुर जिल्लाको सिपाडोलमा छ।"
+   },
+   {
+    "q": "In which year did the Kedarnath head priest declare the link publicly?",
+    "options": [
+     "1991",
+     "2001",
+     "2009",
+     "2015"
+    ],
+    "answer_index": 2,
+    "difficulty": 4,
+    "explanation": "The declaration was made in 2009.",
+    "q_np": "केदारनाथका मुख्य पुजारीले यो सम्बन्ध कुन वर्ष सार्वजनिक रूपमा घोषणा गरे?",
+    "options_np": [
+     "१९९१",
+     "२००१",
+     "२००९",
+     "२०१५"
+    ],
+    "explanation_np": "यो घोषणा सन् २००९ मा गरिएको थियो।"
+   },
+   {
+    "q": "In which village does Doleshwor Mahadev stand?",
+    "options": [
+     "Bungamati",
+     "Panauti",
+     "Sipadol",
+     "Tokha"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "It stands in Sipadol, south of Suryabinayak.",
+    "q_np": "डोलेश्वर महादेव कुन गाउँमा छ?",
+    "options_np": [
+     "बुङ्गमती",
+     "पनौती",
+     "सिपाडोल",
+     "टोखा"
+    ],
+    "explanation_np": "यो सूर्यविनायकको दक्षिणमा रहेको सिपाडोलमा छ।"
+   },
+   {
+    "q": "Which Pandava brother grabbed the bull?",
+    "options": [
+     "Arjuna",
+     "Yudhishthira",
+     "Nakula",
+     "Bhima"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "Bhima recognised Shiva and caught hold of the bull.",
+    "q_np": "साँढेलाई कुन पाण्डवले समाते?",
+    "options_np": [
+     "अर्जुन",
+     "युधिष्ठिर",
+     "नकुल",
+     "भीम"
+    ],
+    "explanation_np": "भीमले शिवलाई चिनेर साँढेलाई समाते।"
+   },
+   {
+    "q": "In which language is a stone inscription on the premises reportedly written?",
+    "options": [
+     "Kannada",
+     "Tibetan",
+     "Persian",
+     "Sanskrit"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "A stone inscription at the temple is reported to be written in Kannada.",
+    "q_np": "परिसरको ढुङ्गाको शिलालेख कुन भाषामा लेखिएको भनिन्छ?",
+    "options_np": [
+     "कन्नड",
+     "तिब्बती",
+     "फारसी",
+     "संस्कृत"
+    ],
+    "explanation_np": "परिसरको एउटा ढुङ्गाको शिलालेख कन्नड भाषामा लेखिएको भन्ने जानकारी छ।"
+   },
+   {
+    "q": "In which month do devotees offer milk and bel leaves to the linga, especially on Mondays?",
+    "options": [
+     "Baisakh",
+     "Magh",
+     "Ashwin",
+     "Shrawan"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "In Shrawan devotees come with milk and bel leaves for the linga.",
+    "q_np": "कुन महिनामा भक्तजनले विशेषगरी सोमबार शिवलिङ्गमा दूध र बेलपत्र चढाउँछन्?",
+    "options_np": [
+     "बैशाख",
+     "माघ",
+     "असोज",
+     "श्रावण"
+    ],
+    "explanation_np": "श्रावण महिनामा भक्तजन शिवलिङ्गमा दूध र बेलपत्र चढाउन आउँछन्।"
+   },
+   {
+    "q": "Which Malla king of Bhaktapur renovated the temple?",
+    "options": [
+     "Jitamitra Malla",
+     "Bhupatindra Malla",
+     "Ranajit Malla",
+     "Jagajjaya Malla"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Sources say King Bhupatindra Malla of Bhaktapur renovated it.",
+    "q_np": "भक्तपुरका कुन मल्ल राजाले मन्दिर जीर्णोद्धार गरे?",
+    "options_np": [
+     "जितामित्र मल्ल",
+     "भूपतीन्द्र मल्ल",
+     "रणजित मल्ल",
+     "जगज्जय मल्ल"
+    ],
+    "explanation_np": "स्रोतहरूका अनुसार भक्तपुरका राजा भूपतीन्द्र मल्लले यसको जीर्णोद्धार गरे।"
+   }
+  ],
+  "clues": [
+   "A stone inscription in my grounds is said to be written in Kannada, the language of far-off southern India.",
+   "I am a pagoda in a cluster of five shrines in a quiet village, and my large linga draws crowds on Shivaratri.",
+   "A bull's body is worshipped far away in the Himalaya, and pilgrims say its head rests in my village.",
+   "A few kilometers south of a famous Ganesh shrine, Bhima's grip on a fleeing bull is remembered in my linga.",
+   "In Shrawan, devotees offer milk and bel leaves to my linga, especially on Mondays.",
+   "In 2009 the head priest of a famous Indian shrine declared me to be the head of the bull whose body he worships."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Doleshwor_Mahadeva_Temple",
+   "https://www.wikidata.org/wiki/Q5288959",
+   "https://www.openstreetmap.org/node/6397585285",
+   "https://myrepublica.nagariknetwork.com/index.php/news/rediscovering-doleshwor-mahadev",
+   "https://nepaltraveller.com/sidetrack/doleshwor-mahadev-nepals-sacred-head-of-kedarnath"
+  ],
+  "province": "Bagmati",
+  "district": "Bhaktapur",
+  "festivals": [
+   {
+    "name": "Maha Shivaratri",
+    "name_np": "महाशिवरात्रि",
+    "month": "Falgun",
+    "note": "Shiva's great night brings large crowds to Sipadol",
+    "note_np": "शिवको महान् रातमा सिपाडोलमा ठूलो भीड लाग्छ।"
+   },
+   {
+    "name": "Shrawan month",
+    "name_np": "श्रावण महिना",
+    "month": "Shrawan",
+    "note": "Devotees offer milk and bel leaves to the linga, especially on Mondays",
+    "note_np": "भक्तजनले विशेषगरी सोमबार शिवलिङ्गमा दूध र बेलपत्र चढाउँछन्।"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Doleshwor_Mahadeva.jpg/1280px-Doleshwor_Mahadeva.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Doleshwor_Mahadeva.jpg",
+    "author": "Janak Bhatta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Doleshwor Mahadev temple, Sipadol"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Doleshwor_Mahadeva3.jpg/1280px-Doleshwor_Mahadeva3.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Doleshwor_Mahadeva3.jpg",
+    "author": "Janak Bhatta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple and its courtyard"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Doleshwor_Mahadeva6.jpg/1280px-Doleshwor_Mahadeva6.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Doleshwor_Mahadeva6.jpg",
+    "author": "Janak Bhatta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Doleshwor Mahadev, Bhaktapur"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Doleshwor_Mahadev_Temple_04.jpg/1280px-Doleshwor_Mahadev_Temple_04.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Doleshwor_Mahadev_Temple_04.jpg",
+    "author": "Prabina Karki",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Temple surroundings"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Doleshor_Mahadev.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Doleshor_Mahadev.jpg",
+    "author": "Prabina Karki",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Doleshwor Mahadev"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    12,
+    12
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#c9a227"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "shiva-lingam",
+    "bell",
+    "trident"
+   ],
+   "surroundings": [
+    "village",
+    "terraced-fields",
+    "forest"
+   ],
+   "notes": "Modest brick pagoda with a Shiva linga, among smaller shrines on a rural hillside of fields"
+  },
+  "short_np": "सिपाडोलको शिव मन्दिर, जहाँ धेरै तीर्थयात्रीले केदारनाथमा पूजिने साँढेको टाउको रहेको विश्वास गर्छन्।",
+  "story_np": "तपाईं भक्तपुर जिल्लाको सूर्यविनायकको दक्षिणमा रहेको शान्त गाउँ सिपाडोलमा आइपुग्नुभएको छ। यो साधारण पगोडा डोलेश्वर महादेव हो, र धेरै तीर्थयात्री यसलाई भारतको केदारनाथसँग जोडेर हेर्छन्। कथा यस्तो छ। महाभारत युद्धपछि पाँच पाण्डव दाजुभाइले शिवसँग क्षमा माग्न चाहे, तर शिव साँढे बनेर तिनीहरूबाट लुके। भीमले त्यो साँढेलाई समात्दा त्यसको टाउको जमिनमा गाडियो। धड केदारनाथमा पूजिन्छ, र टाउको चाहिँ यहाँ प्रकट भयो भन्ने मानिसहरूको विश्वास छ। सन् २००९ मा केदारनाथका मुख्य पुजारीले डोलेश्वर नै केदारनाथको टाउको हो भनी सार्वजनिक रूपमा घोषणा गरे, र त्यसपछि तीर्थयात्री छिटो बढे। इतिहासकारहरू भने अलि होसियार छन्: मन्दिर १२औँ शताब्दीमा बनेको र राजा भूपतीन्द्र मल्लले जीर्णोद्धार गरेको भनिन्छ। भित्र ठूलो शिवलिङ्ग छ। शिवरात्रि वा श्रावणमा आउनुभयो भने गाउँ भक्तजनले भरिएको भेट्नुहुन्छ।",
+  "legend_np": "कुरुक्षेत्र युद्धपछि पाण्डवहरूले हत्याको प्रायश्चित्त गर्न शिवलाई खोजे। शिवले तिनीहरूबाट बच्न आफूलाई साँढे बनाए। भीमले उनलाई चिनेर साँढेलाई समाते, र साँढेको टाउको जमिनमा गाडियो। कुम केदारनाथमै रह्यो, र टाउको चाहिँ डोलेश्वरमा देखा परेको विश्वास गरिन्छ।",
+  "facts_np": [
+   "यो भक्तपुर जिल्लाको सूर्यविनायक नगरपालिकाभित्र सिपाडोलमा पर्छ।",
+   "सन् २००९ मा केदारनाथका मुख्य पुजारीले डोलेश्वरलाई केदारनाथको टाउको भनी घोषणा गरे।",
+   "स्रोतहरूका अनुसार यो १२औँ शताब्दीमा पहिलो पटक बनेको थियो र राजा भूपतीन्द्र मल्लले जीर्णोद्धार गरे।",
+   "परिसरमा रहेको ढुङ्गाको शिलालेख कन्नड भाषामा लेखिएको भन्ने जानकारी छ।",
+   "शिवरात्रि र श्रावण महिनामा सबैभन्दा बढी भीड हुन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "मेरो परिसरको एउटा ढुङ्गाको शिलालेख टाढाको दक्षिण भारतको भाषा कन्नडमा लेखिएको भनिन्छ।",
+   "म शान्त गाउँका पाँच मन्दिरको समूहमा रहेको पगोडा हुँ, र शिवरात्रिमा मेरो ठूलो शिवलिङ्गमा भीड लाग्छ।",
+   "हिमालयमा टाढा एउटा साँढेको शरीर पूजिन्छ, र तीर्थयात्रीहरू भन्छन् उसको टाउको मेरै गाउँमा छ।",
+   "एउटा प्रख्यात गणेश मन्दिरभन्दा केही किलोमिटर दक्षिणतिर, भागिरहेको साँढेमाथि भीमले गरेको पकडको सम्झना मेरो शिवलिङ्गमा गरिन्छ।",
+   "श्रावण महिनामा भक्तजनले मेरो शिवलिङ्गमा दूध र बेलपत्र चढाउँछन्, विशेषगरी सोमबार।",
+   "सन् २००९ मा एउटा प्रख्यात भारतीय तीर्थका मुख्य पुजारीले मलाई आफूले पूजा गर्ने साँढेको टाउको भनी घोषणा गरे।"
+  ]
+ },
+ {
+  "slug": "balkumari-temple-thimi",
+  "name": "Balkumari Temple, Thimi",
+  "name_np": "बालकुमारी मन्दिर, ठिमी",
+  "alt_names": [
+   "Balkumari Temple, Madhyapur Thimi"
+  ],
+  "city": "Madhyapur Thimi",
+  "zone": null,
+  "lat": 27.675948,
+  "lng": 85.385314,
+  "coord_source": "OpenStreetMap node 10068876012 (Balkumari Temple); matches Wikidata Q106597868 (27.6759, 85.385)",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Balkumari",
+  "built_year": null,
+  "built_century_text": "17th century CE",
+  "dynasty": "Malla",
+  "architecture": "Three-roofed Newar pagoda on a square base, with a peacock on a pillar in front and peacock figures at the roof corners; a Bhairav shrine stands in the compound",
+  "unesco": false,
+  "short": "Thimi's three-roofed goddess temple, where the vermilion-throwing Sindoor Jatra begins at Nepali New Year.",
+  "story": "You are in the old Newar town of Thimi, between Kathmandu and Bhaktapur, standing before the temple of the goddess Balkumari. It is one of four Kumari temples in the Kathmandu Valley and dates from the 17th century. Look at the pillar in front of the temple: a metal peacock sits on top. The peacock is the goddess's vehicle, and more peacocks once decorated the corners of the roofs. Now imagine this square at Nepali New Year. During Sindoor Jatra, part of the Bisket festival, dozens of palanquins called khats arrive from Thimi and nearby villages, each carrying a god or goddess. Men spin them around the temple while the crowd throws clouds of red vermilion powder into the air, until the whole square glows orange-red. A local legend says the goddess came here from Lubhu, brought by a princess who fell in love with a Thimi merchant. In 2015 an old Bhairav idol was stolen from the temple.",
+  "legend": "A merchant from Thimi fell in love with a princess of Lubhu. When she became pregnant she asked him to take her home with him. He agreed, on condition that she bring the goddess Balkumari too. So the princess carried the goddess with her, and Balkumari's home moved from Lubhu to Thimi.",
+  "facts": [
+   "It is one of four Kumari temples in the Kathmandu Valley.",
+   "The temple dates from the 17th century and has three roofs on a square base.",
+   "A pillar topped by a peacock, the goddess's vehicle, stands in front.",
+   "Sindoor Jatra starts here at Nepali New Year, with vermilion thrown into the air.",
+   "In 2015 a 17th-century Digu Bhairav idol was stolen from the temple."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Town temple in Madhyapur Thimi.",
+   "fee_note": "No published entry fee found. Confirm locally."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Balkumari_temple_of_Thimi.jpg/1280px-Balkumari_temple_of_Thimi.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Balkumari_temple_of_Thimi.jpg",
+   "author": "Bipinpraja",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Which festival begins at this temple at Nepali New Year?",
+    "options": [
+     "Indra Jatra",
+     "Sindoor Jatra",
+     "Gai Jatra",
+     "Ghode Jatra"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Sindoor Jatra, part of Bisket, starts here.",
+    "q_np": "नेपाली नयाँ वर्षमा यही मन्दिरबाट कुन जात्रा सुरु हुन्छ?",
+    "options_np": [
+     "इन्द्रजात्रा",
+     "सिन्दुरे जात्रा",
+     "गाईजात्रा",
+     "घोडेजात्रा"
+    ],
+    "explanation_np": "बिस्केटको भाग सिन्दुरे जात्रा यहीँबाट सुरु हुन्छ।"
+   },
+   {
+    "q": "What is thrown into the air during Sindoor Jatra?",
+    "options": [
+     "Rice",
+     "Flower petals",
+     "Vermilion powder",
+     "Coins"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "Pilgrims throw red vermilion (sindoor).",
+    "q_np": "सिन्दुरे जात्रामा हावामा के उडाइन्छ?",
+    "options_np": [
+     "चामल",
+     "फूलका पत्ती",
+     "सिन्दुर",
+     "सिक्का"
+    ],
+    "explanation_np": "भक्तजनले रातो सिन्दुर उडाउँछन्।"
+   },
+   {
+    "q": "Which bird sits on the pillar in front of the temple?",
+    "options": [
+     "Garuda",
+     "Peacock",
+     "Swan",
+     "Crow"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The peacock is Balkumari's vehicle.",
+    "q_np": "मन्दिरअगाडिको खम्बामा कुन चरा बसेको छ?",
+    "options_np": [
+     "गरुड",
+     "मयूर",
+     "हाँस",
+     "काग"
+    ],
+    "explanation_np": "मयूर बालकुमारीको वाहन हो।"
+   },
+   {
+    "q": "How many roofs does the temple have?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "Five"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "It has three roofs on a square base.",
+    "q_np": "मन्दिरमा कतिवटा छाना छन्?",
+    "options_np": [
+     "एउटा",
+     "दुईवटा",
+     "तीनवटा",
+     "पाँचवटा"
+    ],
+    "explanation_np": "यसमा वर्गाकार आधारमाथि तीन छाना छन्।"
+   },
+   {
+    "q": "According to legend, from which town was the goddess brought to Thimi?",
+    "options": [
+     "Lubhu",
+     "Sankhu",
+     "Bungamati",
+     "Pharping"
+    ],
+    "answer_index": 0,
+    "difficulty": 4,
+    "explanation": "A princess of Lubhu brought the goddess when she came to Thimi.",
+    "q_np": "किंवदन्तीअनुसार देवीलाई ठिमीमा कुन ठाउँबाट ल्याइएको थियो?",
+    "options_np": [
+     "लुभू",
+     "साँखु",
+     "बुङ्गमती",
+     "फर्पिङ"
+    ],
+    "explanation_np": "लुभूकी एक राजकुमारी ठिमी आउँदा देवीलाई साथमा ल्याएकी थिइन्।"
+   },
+   {
+    "q": "What are the palanquins that carry gods at Sindoor Jatra called?",
+    "options": [
+     "Rathas",
+     "Khats",
+     "Dolas",
+     "Chhatras"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "The palanquins carrying gods and goddesses are called khats.",
+    "q_np": "सिन्दुरे जात्रामा देवदेवी बोक्ने पालकीलाई के भनिन्छ?",
+    "options_np": [
+     "रथ",
+     "खट",
+     "डोला",
+     "छत्र"
+    ],
+    "explanation_np": "देवदेवी बोक्ने पालकीलाई खट भनिन्छ।"
+   },
+   {
+    "q": "Counting this one, how many Kumari temples are there in the Kathmandu Valley?",
+    "options": [
+     "Two",
+     "Three",
+     "Four",
+     "Seven"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "It is one of four Kumari temples in the valley.",
+    "q_np": "यो सहित काठमाडौँ उपत्यकामा कतिवटा कुमारी मन्दिर छन्?",
+    "options_np": [
+     "दुईवटा",
+     "तीनवटा",
+     "चारवटा",
+     "सातवटा"
+    ],
+    "explanation_np": "यो उपत्यकाका चार कुमारी मन्दिरमध्ये एउटा हो।"
+   },
+   {
+    "q": "From which century does the temple date?",
+    "options": [
+     "13th",
+     "15th",
+     "19th",
+     "17th"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "The temple dates from the 17th century.",
+    "q_np": "मन्दिर कुन शताब्दीको हो?",
+    "options_np": [
+     "१३औँ",
+     "१५औँ",
+     "१९औँ",
+     "१७औँ"
+    ],
+    "explanation_np": "मन्दिर १७औँ शताब्दीको हो।"
+   },
+   {
+    "q": "What was stolen from the temple in 2015?",
+    "options": [
+     "A gold Kumari mask",
+     "A bronze peacock",
+     "A 17th-century Digu Bhairav idol",
+     "A silver lion"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "A 17th-century Digu Bhairav idol was stolen from the temple in 2015.",
+    "q_np": "सन् २०१५ मा मन्दिरबाट के चोरी भयो?",
+    "options_np": [
+     "सुनको कुमारी मुखुन्डो",
+     "काँसाको मयूर",
+     "१७औँ शताब्दीको दिगु भैरवको मूर्ति",
+     "चाँदीको सिंह"
+    ],
+    "explanation_np": "सन् २०१५ मा १७औँ शताब्दीको दिगु भैरवको मूर्ति चोरी भयो।"
+   },
+   {
+    "q": "A shrine of which fierce god stands in the temple compound?",
+    "options": [
+     "Bhairav",
+     "Karttikeya",
+     "Varuna",
+     "Yama"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "A Bhairav shrine stands in the compound of the Balkumari temple.",
+    "q_np": "मन्दिर परिसरमा कुन उग्र देवताको मन्दिर छ?",
+    "options_np": [
+     "भैरव",
+     "कार्तिकेय",
+     "वरुण",
+     "यम"
+    ],
+    "explanation_np": "बालकुमारी मन्दिरको परिसरमा भैरवको मन्दिर छ।"
+   }
+  ],
+  "clues": [
+   "A merchant fell in love with a princess, and I am the home her goddess found with him.",
+   "I am one of four Kumari shrines in the valley, in an old Newar town between two old royal cities.",
+   "Three roofs sit on my square base, and peacocks once perched at the corners of the roofs.",
+   "A peacock on a pillar guards my door, and a princess from Lubhu is said to have carried my goddess here.",
+   "A Bhairav shrine shares my compound, and an old Bhairav idol was stolen from me in 2015.",
+   "At New Year my square turns orange-red as palanquins spin around me in clouds of vermilion."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Balkumari_temple,_Bhaktapur",
+   "https://www.wikidata.org/wiki/Q106597868",
+   "https://www.openstreetmap.org/node/10068876012",
+   "https://www.bhaktapur.com/discover/balkumari-temple-of-thimi/",
+   "https://en.wikipedia.org/wiki/Madhyapur_Thimi"
+  ],
+  "province": "Bagmati",
+  "district": "Bhaktapur",
+  "festivals": [
+   {
+    "name": "Sindoor Jatra (Bisket)",
+    "name_np": "सिन्दुरे जात्रा (बिस्केट)",
+    "month": "Baisakh",
+    "note": "On 2 Baisakh palanquins circle the temple amid clouds of vermilion powder",
+    "note_np": "बैशाख २ गते सिन्दुरको बादलबीच पालकीहरूले मन्दिर परिक्रमा गर्छन्।"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Sindur_Jatra%2C_Madhyapur_Thimi%2C_Bhaktapur.jpg/1280px-Sindur_Jatra%2C_Madhyapur_Thimi%2C_Bhaktapur.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Sindur_Jatra,_Madhyapur_Thimi,_Bhaktapur.jpg",
+    "author": "Shadow Ayush",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "A khat carried around the temple at Sindoor Jatra"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Balkumari_Jatra_01.jpg/1280px-Balkumari_Jatra_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Balkumari_Jatra_01.jpg",
+    "author": "Proxodimec",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Oil lamps offered to Balkumari at her jatra"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Sindoor_Jatra_01.jpg/1280px-Sindoor_Jatra_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Sindoor_Jatra_01.jpg",
+    "author": "Proxodimec",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Palanquins and vermilion powder at Sindoor Jatra"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Balkumari_temple.jpg/1280px-Balkumari_temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Balkumari_temple.jpg",
+    "author": "Newamiccha",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Balkumari temple, Madhyapur Thimi"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    12,
+    12
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#c9a227"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "toran",
+    "stone-pillar",
+    "bell"
+   ],
+   "surroundings": [
+    "brick-courtyard",
+    "newar-houses"
+   ],
+   "notes": "Three-roofed brick pagoda in a town square; a metal peacock on a pillar in front and peacocks at the roof corners"
+  },
+  "short_np": "ठिमीको तीन छाने देवी मन्दिर, जहाँबाट नेपाली नयाँ वर्षमा सिन्दुर उडाउने सिन्दुरे जात्रा सुरु हुन्छ।",
+  "story_np": "तपाईं काठमाडौँ र भक्तपुरबीचको पुरानो नेवार सहर ठिमीमा, देवी बालकुमारीको मन्दिरअगाडि उभिनुभएको छ। यो काठमाडौँ उपत्यकाका चार कुमारी मन्दिरमध्ये एउटा हो र १७औँ शताब्दीको हो। मन्दिरअगाडिको खम्बा हेर्नुहोस्: माथि धातुको मयूर बसेको छ। मयूर देवीको वाहन हो, र एक समय छानाका कुनामा अझ धेरै मयूर सजाइएका थिए। अब नेपाली नयाँ वर्षमा यो चोक कस्तो हुन्छ, कल्पना गर्नुहोस्। बिस्केट पर्वको भाग सिन्दुरे जात्रामा ठिमी र वरपरका गाउँबाट खट भनिने दर्जनौँ पालकी आउँछन्, हरेकमा एक देवता वा देवी बसेका हुन्छन्। मानिसहरूले तिनलाई मन्दिरवरिपरि घुमाउँछन्, भीडले हावामा रातो सिन्दुर उडाउँछ, र सारा चोक सुन्तला-रातो हुन्छ। स्थानीय किंवदन्तीअनुसार ठिमीका एक व्यापारीसँग माया बसेकी राजकुमारीले लुभूबाट देवीलाई यहाँ ल्याइन्। सन् २०१५ मा मन्दिरबाट एउटा पुरानो भैरवको मूर्ति चोरी भयो।",
+  "legend_np": "ठिमीका एक व्यापारी लुभूकी राजकुमारीसँग प्रेममा परे। राजकुमारी गर्भवती भएपछि उनले आफूलाई पनि घर लैजान भनिन्। व्यापारी राजी भए, तर देवी बालकुमारीलाई पनि साथमा ल्याउनुपर्छ भन्ने सर्त राखे। त्यसैले राजकुमारीले देवीलाई साथै बोकेर ल्याइन्, र बालकुमारीको बास लुभूबाट ठिमी सर्‍यो।",
+  "facts_np": [
+   "यो काठमाडौँ उपत्यकाका चार कुमारी मन्दिरमध्ये एउटा हो।",
+   "मन्दिर १७औँ शताब्दीको हो र वर्गाकार आधारमाथि तीन छाना छन्।",
+   "अगाडि देवीको वाहन मयूर राखिएको खम्बा छ।",
+   "नेपाली नयाँ वर्षमा यहीँबाट सिन्दुरे जात्रा सुरु हुन्छ, जहाँ सिन्दुर हावामा उडाइन्छ।",
+   "सन् २०१५ मा १७औँ शताब्दीको दिगु भैरवको मूर्ति मन्दिरबाट चोरी भयो।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "एक व्यापारीले राजकुमारीलाई माया गरे, र उनकी देवीले व्यापारीसँगै पाएको घर म हुँ।",
+   "म उपत्यकाका चार कुमारी मन्दिरमध्ये एउटा हुँ, दुई पुराना राजधानीबीचको पुरानो नेवार सहरमा।",
+   "मेरो वर्गाकार आधारमाथि तीन छाना छन्, र छानाका कुनामा एक समय मयूरहरू बसेका थिए।",
+   "खम्बामाथिको एउटा मयूरले मेरो ढोकाको रक्षा गर्छ, र लुभूकी एक राजकुमारीले मेरी देवीलाई यहाँ ल्याएकी भनिन्छ।",
+   "मेरो परिसरमा एउटा भैरव मन्दिर पनि छ, र सन् २०१५ मा मबाट एउटा पुरानो भैरवको मूर्ति चोरी भयो।",
+   "नयाँ वर्षमा पालकीहरू घुम्दा मेरो चोक सिन्दुरको बादलले सुन्तला-रातो हुन्छ।"
+  ]
+ },
+ {
+  "slug": "sheshnarayan-temple",
+  "name": "Sheshnarayan Temple",
+  "name_np": "शेषनारायण मन्दिर",
+  "alt_names": [
+   "Shesh Narayan",
+   "Sesh Narayan",
+   "Seshnarayan"
+  ],
+  "city": "Pharping",
+  "zone": null,
+  "lat": 27.616774,
+  "lng": 85.264238,
+  "coord_source": "OpenStreetMap node 3395315042 (Shesh Narayan Mandir); Wikidata Q7495631 gives only 27.63, 85.27",
+  "type": "pagoda",
+  "religion": "Both",
+  "deity": "Vishnu (Narayan on the serpent Shesha)",
+  "built_year": null,
+  "built_century_text": "Site traditionally dated to the Licchavi period; present main temple 17th century CE",
+  "dynasty": "Licchavi",
+  "architecture": "Pagoda-style Vishnu temple tucked under a rocky cliff, with sacred ponds, Licchavi-era stone sculptures and a cave shrine beside it",
+  "unesco": false,
+  "short": "One of the four Narayan temples guarding the valley, beneath a cliff near Pharping with ponds and a sacred cave.",
+  "story": "Just before the old town of Pharping, the road passes a cliff of grey rock. At its foot lie still green ponds and a small temple of Vishnu. This is Sheshnarayan, one of four Narayan temples said to guard the Kathmandu Valley from the four directions; the others are Changu, Ichangu and Bishankhu Narayan. Tradition links all four to the Licchavi king Vishnugupta. The main temple you see today is from the 17th century, but look closely at the courtyard: some of the carved stone images are much older, from the Licchavi era. In the ponds, carp swim around half-sunk carvings, including an image of the sun god Aditya. Above you, steps climb to the Yangleshö cave, where Buddhists believe Guru Padmasambhava meditated. So Hindus and Buddhists share this quiet place. Local belief even says the holy Bagmati river begins its journey near here.",
+  "legend": "Local tradition says the Bagmati, Nepal's most sacred river, has one of its sources here. Buddhists also believe Guru Padmasambhava and his consort meditated in the small cave above the temple, now called Yangleshö.",
+  "facts": [
+   "It is one of the four Narayan temples of the valley, with Changu, Ichangu and Bishankhu Narayan.",
+   "Tradition says the four were built in the reign of the Licchavi king Vishnugupta.",
+   "Lonely Planet dates the present main temple to the 17th century.",
+   "Ponds with carp and half-submerged carvings, including an image of Aditya, surround it.",
+   "Steps lead up to the Yangleshö cave, linked to Guru Padmasambhava."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 45,
+   "hours_note": "Roadside site about 20 km south-west of Kathmandu, just before Pharping.",
+   "fee_note": "No published entry fee found. Confirm locally."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Shesh_Narayan.jpg/1280px-Shesh_Narayan.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Shesh_Narayan.jpg",
+   "author": "Ksssshl",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Which god is worshipped at Sheshnarayan?",
+    "options": [
+     "Shiva",
+     "Vishnu",
+     "Brahma",
+     "Indra"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Narayan is Vishnu, here resting on the serpent Shesha.",
+    "q_np": "शेषनारायणमा कुन देवताको पूजा गरिन्छ?",
+    "options_np": [
+     "शिव",
+     "विष्णु",
+     "ब्रह्मा",
+     "इन्द्र"
+    ],
+    "explanation_np": "नारायण विष्णु हुन्, यहाँ शेषनागमाथि बसेका रूपमा।"
+   },
+   {
+    "q": "Near which town is Sheshnarayan?",
+    "options": [
+     "Pharping",
+     "Sankhu",
+     "Thimi",
+     "Kirtipur"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It lies just before Pharping, south-west of Kathmandu.",
+    "q_np": "शेषनारायण कुन सहरनजिक छ?",
+    "options_np": [
+     "फर्पिङ",
+     "साँखु",
+     "ठिमी",
+     "कीर्तिपुर"
+    ],
+    "explanation_np": "यो काठमाडौँको दक्षिण-पश्चिममा फर्पिङभन्दा अलि अगाडि पर्छ।"
+   },
+   {
+    "q": "Which of these is NOT one of the valley's four Narayan temples?",
+    "options": [
+     "Changu Narayan",
+     "Ichangu Narayan",
+     "Budhanilkantha",
+     "Bishankhu Narayan"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "The four are Changu, Ichangu, Bishankhu and Sheshnarayan.",
+    "q_np": "यीमध्ये कुन उपत्यकाका चार नारायण मन्दिरमा पर्दैन?",
+    "options_np": [
+     "चाँगुनारायण",
+     "इचङ्गुनारायण",
+     "बुढानिलकण्ठ",
+     "विशङ्खुनारायण"
+    ],
+    "explanation_np": "चार नारायण चाँगु, इचङ्गु, विशङ्खु र शेषनारायण हुन्।"
+   },
+   {
+    "q": "Which Buddhist master is linked to the cave above the temple?",
+    "options": [
+     "Tsongkhapa",
+     "Padmasambhava",
+     "Atisha",
+     "Nagarjuna"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Yangleshö cave is linked to Guru Padmasambhava.",
+    "q_np": "मन्दिरमाथिको गुफा कुन बौद्ध गुरुसँग जोडिएको छ?",
+    "options_np": [
+     "चोङखापा",
+     "पद्मसम्भव",
+     "अतिश",
+     "नागार्जुन"
+    ],
+    "explanation_np": "यङ्लेशो गुफा गुरु पद्मसम्भवसँग जोडिएको छ।"
+   },
+   {
+    "q": "Which god's image lies half-sunk in one of the ponds?",
+    "options": [
+     "Aditya, the sun god",
+     "Kubera, god of wealth",
+     "Yama, god of death",
+     "Agni, god of fire"
+    ],
+    "answer_index": 1,
+    "difficulty": 5,
+    "explanation": "An image of Aditya, the sun god, lies partly underwater in a pond.",
+    "q_np": "पोखरीमा आधा डुबेको मूर्ति कुन देवताको हो?",
+    "options_np": [
+     "आदित्य, सूर्यदेव",
+     "कुबेर, धनका देवता",
+     "यम, मृत्युका देवता",
+     "अग्नि, आगोका देवता"
+    ],
+    "explanation_np": "सूर्यदेव आदित्यको मूर्ति पोखरीमा आधा पानीमुनि छ।"
+   },
+   {
+    "q": "Which Licchavi king do traditions link to the four Narayan temples?",
+    "options": [
+     "Manadeva",
+     "Amshuverma",
+     "Vishnugupta",
+     "Narendradeva"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "Tradition says the four Narayan temples were built in the reign of the Licchavi king Vishnugupta.",
+    "q_np": "परम्पराले चार नारायण मन्दिरलाई कुन लिच्छवि राजासँग जोड्छ?",
+    "options_np": [
+     "मानदेव",
+     "अंशुवर्मा",
+     "विष्णुगुप्त",
+     "नरेन्द्रदेव"
+    ],
+    "explanation_np": "परम्पराले चारै मन्दिरलाई राजा विष्णुगुप्तसँग जोड्छ।"
+   },
+   {
+    "q": "What swims in the ponds beside the temple?",
+    "options": [
+     "Carp",
+     "Trout",
+     "Crocodiles",
+     "Eels"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Carp swim around half-sunk carvings in the ponds.",
+    "q_np": "मन्दिरछेउका पोखरीमा के पौडिन्छ?",
+    "options_np": [
+     "कार्प माछा",
+     "ट्राउट माछा",
+     "गोही",
+     "बाम माछा"
+    ],
+    "explanation_np": "पोखरीमा आधा डुबेका कुँदाइवरिपरि कार्प माछा पौडिन्छन्।"
+   },
+   {
+    "q": "Which sacred river is locally believed to begin near here?",
+    "options": [
+     "Trishuli",
+     "Bagmati",
+     "Kali Gandaki",
+     "Koshi"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Local tradition says the Bagmati has one of its sources here.",
+    "q_np": "स्थानीय विश्वासमा कुन पवित्र नदी यहीँनजिकबाट सुरु हुन्छ?",
+    "options_np": [
+     "त्रिशूली",
+     "बागमती",
+     "काली गण्डकी",
+     "कोसी"
+    ],
+    "explanation_np": "स्थानीय विश्वासअनुसार बागमती यहीँनजिकबाट सुरु हुन्छ।"
+   },
+   {
+    "q": "From which century is the present main temple, according to Lonely Planet?",
+    "options": [
+     "10th",
+     "12th",
+     "14th",
+     "17th"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "Lonely Planet dates the present main temple to the 17th century.",
+    "q_np": "लोनली प्लानेटका अनुसार अहिलेको मुख्य मन्दिर कुन शताब्दीको हो?",
+    "options_np": [
+     "१०औँ",
+     "१२औँ",
+     "१४औँ",
+     "१७औँ"
+    ],
+    "explanation_np": "लोनली प्लानेटले अहिलेको मुख्य मन्दिर १७औँ शताब्दीको भनेको छ।"
+   },
+   {
+    "q": "At the foot of what natural feature does the temple sit?",
+    "options": [
+     "A gray rock cliff",
+     "A waterfall",
+     "A glacier",
+     "A bamboo forest"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "The temple and ponds lie at the foot of a cliff of gray rock.",
+    "q_np": "मन्दिर कुन प्राकृतिक संरचनाको फेदमा छ?",
+    "options_np": [
+     "खरानी रङको चट्टानको भीर",
+     "झरना",
+     "हिमनदी",
+     "बाँसको जङ्गल"
+    ],
+    "explanation_np": "मन्दिर र पोखरी खरानी रङको चट्टानको भिरको फेदमा छन्।"
+   }
+  ],
+  "clues": [
+   "Tradition says a Licchavi king raised me and three siblings to guard the valley from four directions.",
+   "Some of the carved stone images in my courtyard are far older than my 17th-century main temple.",
+   "I guard one corner of the valley beneath a gray cliff, with carp circling old stone gods in my ponds.",
+   "Local belief says the valley's holiest river begins its journey near my ponds.",
+   "Hindus pray to the god on the serpent below, while Buddhists climb to a guru's cave above me.",
+   "I rest by the road just before an old Newar town about 20 km south-west of the capital, where Vishnu lies on a serpent."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sheshnarayan_Temple",
+   "https://en.wikipedia.org/wiki/Pharping",
+   "https://www.wikidata.org/wiki/Q7495631",
+   "https://www.openstreetmap.org/node/3395315042",
+   "https://www.lonelyplanet.com/nepal/around-the-kathmandu-valley/pharping/attractions/shesh-narayan-temple/a/poi-sig/1432633/357132",
+   "https://nepaltraveller.com/sidetrack/embracing-the-tranquility-of-shesh-narayan-temple"
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Pharping0882.JPG/1280px-Pharping0882.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Pharping0882.JPG",
+    "author": "Sundar1",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Temple grounds below the cliff"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Kunda_Seshnarayan_Temple_Pharping_Dachhinkali_Kathmandu_Nepal_Rajesh_Dhungana_%289%29.jpg/1280px-Kunda_Seshnarayan_Temple_Pharping_Dachhinkali_Kathmandu_Nepal_Rajesh_Dhungana_%289%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kunda_Seshnarayan_Temple_Pharping_Dachhinkali_Kathmandu_Nepal_Rajesh_Dhungana_(9).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The holy ponds at Sheshnarayan"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Religious_Cave_Cave_Sesh_Narayan_Dachhinkali_Kathmandu_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Religious_Cave_Cave_Sesh_Narayan_Dachhinkali_Kathmandu_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Religious_Cave_Cave_Sesh_Narayan_Dachhinkali_Kathmandu_Nepal_Rajesh_Dhungana_(1).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Cave shrine in the rock face"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Pharping-Sheshnarayan-12-Hindu-Fest-Tempel-2007-gje.jpg/1280px-Pharping-Sheshnarayan-12-Hindu-Fest-Tempel-2007-gje.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Pharping-Sheshnarayan-12-Hindu-Fest-Tempel-2007-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Festival day at the temple, 2007"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Seshnarayan_Temple_Sesh_Narayan_Dachhinkali_Kathmandu_Nepal_Rajesh_Dhungana_%282%29.jpg/1280px-Seshnarayan_Temple_Sesh_Narayan_Dachhinkali_Kathmandu_Nepal_Rajesh_Dhungana_%282%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Seshnarayan_Temple_Sesh_Narayan_Dachhinkali_Kathmandu_Nepal_Rajesh_Dhungana_(2).jpg",
+    "author": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Sheshnarayan Temple"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 2,
+   "plinth_steps": 1,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    10,
+    10
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#6e6e66",
+    "#4f7b6b"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "idol-visible",
+    "rock-face",
+    "water-spouts"
+   ],
+   "surroundings": [
+    "pond",
+    "cave-mouth",
+    "forest",
+    "village"
+   ],
+   "notes": "Small pagoda pressed against a grey cliff face, with square green ponds in front and stairs up to a cave"
+  },
+  "short_np": "उपत्यकाको रक्षा गर्ने चार नारायण मन्दिरमध्ये एउटा; फर्पिङनजिकै चट्टानको फेदमा पोखरी र पवित्र गुफासहित।",
+  "story_np": "फर्पिङको पुरानो सहर पुग्नुअघि सडक खैरो चट्टानको भिरछेउबाट गुज्रन्छ। त्यसको फेदमा शान्त हरिया पोखरी र विष्णुको सानो मन्दिर छ। यो शेषनारायण हो, काठमाडौँ उपत्यकाको चारै दिशामा रक्षा गर्छन् भनिने चार नारायण मन्दिरमध्ये एउटा; बाँकी तीन चाँगु, इचङ्गु र विशङ्खु नारायण हुन्। परम्पराले चारैलाई लिच्छवि राजा विष्णुगुप्तसँग जोड्छ। अहिलेको मुख्य मन्दिर १७औँ शताब्दीको हो, तर आँगनलाई ध्यान दिएर हेर्नुहोस्: कुँदिएका केही ढुङ्गाका मूर्ति धेरै पुराना, लिच्छविकालका छन्। पोखरीमा कार्प माछा आधा डुबेका कुँदाइहरूवरिपरि पौडिन्छन्, ती मध्ये सूर्य देवता आदित्यको मूर्ति पनि छ। माथि भर्‍याङले यङ्लेशो गुफासम्म पुर्‍याउँछ, जहाँ बौद्धहरू गुरु पद्मसम्भवले ध्यान गरेका थिए भन्ने विश्वास गर्छन्। यसरी हिन्दू र बौद्ध दुवै यो शान्त ठाउँ साझा गर्छन्। स्थानीय विश्वासअनुसार पवित्र बागमती नदीले यहीँनजिकबाट यात्रा सुरु गर्छ।",
+  "legend_np": "स्थानीय परम्पराअनुसार नेपालको सबैभन्दा पवित्र नदी बागमतीको एउटा मुहान यहीँ छ। बौद्धहरू मन्दिरमाथिको सानो गुफामा, जसलाई अहिले यङ्लेशो भनिन्छ, गुरु पद्मसम्भव र उनकी सहचरीले ध्यान गरेको पनि विश्वास गर्छन्।",
+  "facts_np": [
+   "चाँगु, इचङ्गु र विशङ्खु नारायणसँगै यो उपत्यकाका चार नारायण मन्दिरमध्ये एउटा हो।",
+   "परम्पराअनुसार चारै मन्दिर लिच्छवि राजा विष्णुगुप्तको पालामा बनेका थिए।",
+   "लोनली प्लानेटले अहिलेको मुख्य मन्दिर १७औँ शताब्दीको भनेको छ।",
+   "कार्प माछा भएका पोखरीमा आदित्यको मूर्तिसहित आधा डुबेका कुँदाइहरू छन्।",
+   "भर्‍याङ चढेर गुरु पद्मसम्भवसँग जोडिएको यङ्लेशो गुफासम्म पुगिन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "परम्पराअनुसार एक लिच्छवि राजाले उपत्यकाको चारै दिशाको रक्षाका लागि मलाई र मेरा तीन दाजुभाइलाई बनाए।",
+   "मेरो आँगनका कुँदिएका केही ढुङ्गाका मूर्ति मेरो १७औँ शताब्दीको मुख्य मन्दिरभन्दा धेरै पुराना छन्।",
+   "म एउटा खरानी रङको चट्टानमुनि उपत्यकाको एक कुना कुरिरहेको छु, मेरा पोखरीमा माछाहरू पुराना ढुङ्गाका देवताहरूवरिपरि घुम्छन्।",
+   "स्थानीय विश्वासअनुसार उपत्यकाको सबैभन्दा पवित्र नदीले मेरा पोखरीनजिकबाटै यात्रा सुरु गर्छ।",
+   "तल सर्पमाथिका देवतालाई हिन्दूहरूले पूजा गर्छन्, र बौद्धहरू मेरो माथिको गुरुको गुफामा चढ्छन्।",
+   "म राजधानीबाट करिब २० किमी दक्षिण-पश्चिम, पुरानो नेवार सहर पुग्नुअघि सडकछेउमा छु, जहाँ विष्णु सर्पमाथि विराजमान छन्।"
+  ]
+ },
+ {
+  "slug": "akash-bhairab-temple",
+  "name": "Akash Bhairab Temple",
+  "name_np": "आकाशभैरव मन्दिर",
+  "alt_names": [
+   "Aakash Bhairav",
+   "Aju",
+   "Yalambar"
+  ],
+  "city": "Kathmandu",
+  "zone": null,
+  "lat": 27.706003,
+  "lng": 85.309427,
+  "coord_source": "OpenStreetMap way 136526480 (Akash Bhairab Temple) centroid",
+  "type": "courtyard",
+  "religion": "Both",
+  "deity": "Akash Bhairav (identified with the Kirati king Yalambar)",
+  "built_year": null,
+  "built_century_text": "Date of present building unknown; the deity's head is said to have been dug up several hundred years ago",
+  "dynasty": "unknown",
+  "architecture": "Multi-storey town temple on the west side of Indra Chowk, partly covered in brass sheets, with shops on the ground floor, brass lions at the door and the deity's mask upstairs",
+  "unesco": false,
+  "short": "The Indra Chowk temple of Akash Bhairav, whose great mask is brought out into the square for Indra Jatra.",
+  "story": "Stand in busy Indra Chowk, among cloth sellers and scooters, and look at the building on the west side. Shops fill its ground floor, but two metal lions guard a doorway, and stairs lead up to the shrine of Akash Bhairav, the Bhairav of the sky. People here also call him Aju, the first king, and identify him with Yalambar, a legendary Kirati king of Nepal. His big blue face, with huge eyes and a crown of skulls and serpents, is said to have been dug up from the ground several hundred years ago. Most of the year you climb upstairs to see him. But during Indra Jatra, the great mask is carried out and enthroned in the square below, and crowds come with sweets, flowers and coins. Notice the small image on his head: Buddhists see the Buddha there and Hindus see Brahma, so everyone can worship him.",
+  "legend": "Legend says Akash Bhairav is Yalambar, a Kirati king who gained great power through tantric worship. When he set out to join the Mahabharata war, Krishna is said to have cut off his head to keep him out of the battle, and it flew through the sky and landed in Kathmandu. The mask is understood to represent that head.",
+  "facts": [
+   "The temple stands on the west side of Indra Chowk in old Kathmandu.",
+   "Akash Bhairav is identified with Yalambar, a legendary Kirati king.",
+   "His mask is displayed in the square during the Indra Jatra festival.",
+   "Two metal lions guard the entrance, and the ground floor is used by shops.",
+   "In 2007 Nepal's state airline sacrificed two goats to Akash Bhairav, whose symbol appears on its planes."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 15,
+   "hours_note": "The shrine is upstairs; the mask is shown in the square during Indra Jatra.",
+   "fee_note": "No published entry fee found. Confirm locally."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Akash_Bhairav_Temple_01.jpg/1280px-Akash_Bhairav_Temple_01.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Akash_Bhairav_Temple_01.jpg",
+   "author": "Suraj Belbase",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "In which square of Kathmandu is the Akash Bhairab Temple?",
+    "options": [
+     "Indra Chowk",
+     "Ason",
+     "Thamel Chowk",
+     "Lagankhel"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "It stands on the west side of Indra Chowk.",
+    "q_np": "काठमाडौँको कुन चोकमा आकाशभैरव मन्दिर छ?",
+    "options_np": [
+     "इन्द्रचोक",
+     "असन",
+     "ठमेल चोक",
+     "लगनखेल"
+    ],
+    "explanation_np": "यो इन्द्रचोकको पश्चिमपट्टि छ।"
+   },
+   {
+    "q": "During which festival is Akash Bhairav's mask shown in the square?",
+    "options": [
+     "Tihar",
+     "Indra Jatra",
+     "Holi",
+     "Losar"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "The mask is enthroned in the square during Indra Jatra.",
+    "q_np": "कुन चाडमा आकाशभैरवको मुखुन्डो चोकमा देखाइन्छ?",
+    "options_np": [
+     "तिहार",
+     "इन्द्रजात्रा",
+     "होली",
+     "ल्होसार"
+    ],
+    "explanation_np": "इन्द्रजात्राको बेला मुखुन्डो चोकमा स्थापना गरिन्छ।"
+   },
+   {
+    "q": "Which legendary king is Akash Bhairav identified with?",
+    "options": [
+     "Yalambar",
+     "Manadeva",
+     "Prithvi Narayan Shah",
+     "Jayasthiti Malla"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "He is said to be the Kirati king Yalambar.",
+    "q_np": "आकाशभैरवलाई कुन पौराणिक राजासँग जोडिन्छ?",
+    "options_np": [
+     "यलम्बर",
+     "मानदेव",
+     "पृथ्वीनारायण शाह",
+     "जयस्थिति मल्ल"
+    ],
+    "explanation_np": "उनी किराँती राजा यलम्बर हुन् भनिन्छ।"
+   },
+   {
+    "q": "What does the name \"Aju\" mean in Nepal Bhasa?",
+    "options": [
+     "Sky",
+     "First king or grandfather",
+     "Lion",
+     "Mask"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "Aju is understood as \"first king\".",
+    "q_np": "नेपाल भाषामा \"आजु\" नामको अर्थ के हो?",
+    "options_np": [
+     "आकाश",
+     "पहिलो राजा वा हजुरबुवा",
+     "सिंह",
+     "मुखुन्डो"
+    ],
+    "explanation_np": "आजुलाई \"पहिलो राजा\" भनेर बुझिन्छ।"
+   },
+   {
+    "q": "Which animals guard the temple door?",
+    "options": [
+     "Elephants",
+     "Metal lions",
+     "Bulls",
+     "Peacocks"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Two metal lions flank the entrance.",
+    "q_np": "मन्दिरको ढोकामा कुन जनावरले पहरा दिन्छन्?",
+    "options_np": [
+     "हात्ती",
+     "धातुका सिंह",
+     "साँढे",
+     "मयूर"
+    ],
+    "explanation_np": "प्रवेशद्वारका दुवैतिर धातुका दुईवटा सिंह छन्।"
+   },
+   {
+    "q": "What occupies the ground floor of the temple building?",
+    "options": [
+     "Shops",
+     "A school",
+     "A prison",
+     "A stable"
+    ],
+    "answer_index": 0,
+    "difficulty": 1,
+    "explanation": "Shops fill the ground floor, while the shrine is upstairs.",
+    "q_np": "मन्दिर भएको भवनको भुइँतलामा के छ?",
+    "options_np": [
+     "पसलहरू",
+     "स्कुल",
+     "कारागार",
+     "तबेला"
+    ],
+    "explanation_np": "भुइँतलामा पसलहरू छन्, र मन्दिर माथिल्लो तलामा छ।"
+   },
+   {
+    "q": "The small image on the deity's head is Brahma to Hindus. Whom do Buddhists see there?",
+    "options": [
+     "Tara",
+     "The Buddha",
+     "Manjushri",
+     "Avalokiteshvara"
+    ],
+    "answer_index": 1,
+    "difficulty": 3,
+    "explanation": "Buddhists see the Buddha there and Hindus see Brahma, so everyone can worship him.",
+    "q_np": "देवताको शिरमाथिको सानो मूर्तिलाई हिन्दूहरू ब्रह्मा मान्छन्। बौद्धहरू त्यहाँ कसलाई देख्छन्?",
+    "options_np": [
+     "तारा",
+     "बुद्ध",
+     "मञ्जुश्री",
+     "अवलोकितेश्वर"
+    ],
+    "explanation_np": "बौद्धहरू त्यहाँ बुद्ध देख्छन् र हिन्दूहरू ब्रह्मा, त्यसैले सबैले उनको पूजा गर्न सक्छन्।"
+   },
+   {
+    "q": "According to legend, who cut off the Kirati king's head?",
+    "options": [
+     "Arjuna",
+     "Bhima",
+     "Shiva",
+     "Krishna"
+    ],
+    "answer_index": 3,
+    "difficulty": 3,
+    "explanation": "Krishna is said to have cut off the king's head to keep him out of the Mahabharata war.",
+    "q_np": "कथाअनुसार किराँती राजाको टाउको कसले काटे?",
+    "options_np": [
+     "अर्जुन",
+     "भीम",
+     "शिव",
+     "कृष्ण"
+    ],
+    "explanation_np": "महाभारत युद्धबाट टाढै राख्न कृष्णले उनको टाउको काटिदिएको भनिन्छ।"
+   },
+   {
+    "q": "What color is the deity's great face?",
+    "options": [
+     "Red",
+     "Gold",
+     "Blue",
+     "White"
+    ],
+    "answer_index": 2,
+    "difficulty": 1,
+    "explanation": "He has a big blue face with huge eyes and a crown of skulls and serpents.",
+    "q_np": "देवताको ठूलो अनुहार कुन रङको छ?",
+    "options_np": [
+     "रातो",
+     "सुनौलो",
+     "निलो",
+     "सेतो"
+    ],
+    "explanation_np": "उनको ठूलो अनुहार निलो छ, ठूला आँखा र खप्पर तथा सर्पको मुकुटसहित।"
+   },
+   {
+    "q": "For how many days is the mask enthroned and decorated in the square during Indra Jatra?",
+    "options": [
+     "Three",
+     "Five",
+     "Fifteen",
+     "Eight"
+    ],
+    "answer_index": 3,
+    "difficulty": 2,
+    "explanation": "The great mask is enthroned in Indra Chowk and decorated for eight days.",
+    "q_np": "इन्द्रजात्रामा चोकमा मुखुन्डो कति दिनसम्म स्थापना गरेर सजाइन्छ?",
+    "options_np": [
+     "तीन दिन",
+     "पाँच दिन",
+     "पन्ध्र दिन",
+     "आठ दिन"
+    ],
+    "explanation_np": "ठूलो मुखुन्डोलाई आठ दिनसम्म स्थापना गरेर सजाइन्छ।"
+   }
+  ],
+  "clues": [
+   "My god's head, so the story goes, flew through the sky after Krishna cut it off, and landed in the valley.",
+   "He wears a crown of skulls and serpents, and a tiny figure on his head is the Buddha to some and Brahma to others.",
+   "Nepal's national airline carries my god's symbol on its planes.",
+   "Shops fill my ground floor, two metal lions guard my door, and my god is said to be an ancient Kirati king.",
+   "Sweets, flowers and coins pile up before my mask when it is enthroned in the square for eight days.",
+   "A sky god's blue mask watches the cloth market from upstairs, and comes down to the square once a year."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Akash_Bhairav",
+   "https://en.wikipedia.org/wiki/Indra_Chowk",
+   "https://www.wikidata.org/wiki/Q4700324",
+   "https://www.openstreetmap.org/way/136526480",
+   "https://nepalitimes.com/a-victim-of-the-mahabharatta"
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Indra Jatra",
+    "name_np": "इन्द्रजात्रा",
+    "month": "Bhadra",
+    "note": "The great mask is enthroned in Indra Chowk and decorated for eight days",
+    "note_np": "ठूलो मुखुन्डोलाई इन्द्रचोकमा स्थापना गरेर आठ दिनसम्म सजाइन्छ।"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Aakash_bhairav.jpg/1280px-Aakash_bhairav.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Aakash_bhairav.jpg",
+    "author": "Manjari Shrestha",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Akash Bhairav displayed during Indra Jatra"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Akash_Bhairav_Temple_Toran.jpg/1280px-Akash_Bhairav_Temple_Toran.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Akash_Bhairav_Temple_Toran.jpg",
+    "author": "Suraj Belbase",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The carved torana over the shrine"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Akash_Bhairav_Temple_%E2%80%93_Kathmandu_%E2%80%93_01.jpg/1280px-Akash_Bhairav_Temple_%E2%80%93_Kathmandu_%E2%80%93_01.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Akash_Bhairav_Temple_%E2%80%93_Kathmandu_%E2%80%93_01.jpg",
+    "author": "Maesi64",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Akash Bhairav Temple near Indra Chowk"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Akash_Bhairab.JPG/1280px-Akash_Bhairab.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Akash_Bhairab.JPG",
+    "author": "Rabs003",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Akash Bhairab, Indra Chowk"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Akash_Bhairab_Temple-IMG_2965.jpg/1280px-Akash_Bhairab_Temple-IMG_2965.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Akash_Bhairab_Temple-IMG_2965.jpg",
+    "author": "Bijaya2043",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Akash Bhairab Temple"
+   }
+  ],
+  "model": {
+   "kind": "courtyard",
+   "tiers": 3,
+   "plinth_steps": 0,
+   "plinth_shape": "rectangular",
+   "height_m": null,
+   "footprint_m": [
+    12,
+    10
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#b08d57",
+    "#2b4c8c"
+   ],
+   "features": [
+    "lion-statues",
+    "carved-windows",
+    "toran",
+    "idol-visible",
+    "bell"
+   ],
+   "surroundings": [
+    "market-houses",
+    "city-street",
+    "stone-paved-plaza"
+   ],
+   "notes": "Brass-fronted three-storey building over shops in a market square; metal lions at the door, blue Bhairav mask upstairs"
+  },
+  "short_np": "इन्द्रचोकको आकाशभैरवको मन्दिर, जसको ठूलो मुखुन्डो इन्द्रजात्रामा चोकमा ल्याइन्छ।",
+  "story_np": "कपडा पसल र स्कुटरको भीडले भरिएको इन्द्रचोकमा उभिनुहोस्, र पश्चिमपट्टिको भवनतिर हेर्नुहोस्। भुइँतलामा पसलहरू छन्, तर ढोकामा दुईवटा धातुका सिंहले पहरा दिएका छन्, र भर्‍याङले माथि आकाशका भैरव, आकाशभैरवको मन्दिरसम्म पुर्‍याउँछ। यहाँका मानिसले उनलाई आजु, अर्थात् पहिलो राजा पनि भन्छन्, र नेपालका पौराणिक किराँती राजा यलम्बरसँग जोड्छन्। ठूला आँखा र खप्पर तथा सर्पको मुकुट भएको उनको ठूलो निलो अनुहार धेरै सय वर्षअघि जमिनबाट खनेर निकालिएको भनिन्छ। वर्षको धेरैजसो समय उनको दर्शन गर्न माथि चढ्नुपर्छ। तर इन्द्रजात्रामा ठूलो मुखुन्डो बाहिर ल्याइन्छ र तलको चोकमा स्थापना गरिन्छ, अनि मिठाई, फूल र सिक्का लिएर भीड आउँछ। उनको शिरमा भएको सानो मूर्ति हेर्नुहोस्: बौद्धहरू त्यहाँ बुद्ध देख्छन् र हिन्दूहरू ब्रह्मा, त्यसैले सबैले उनको पूजा गर्न सक्छन्।",
+  "legend_np": "कथाअनुसार आकाशभैरव यलम्बर हुन्, तान्त्रिक पूजाबाट ठूलो शक्ति पाएका किराँती राजा। उनी महाभारत युद्धमा भाग लिन निस्कँदा कृष्णले उनलाई युद्धबाट टाढै राख्न उनको टाउको काटिदिए भनिन्छ, र त्यो आकाशमा उडेर काठमाडौँमा खस्यो। मुखुन्डोले त्यही टाउकोलाई जनाउँछ भन्ने बुझिन्छ।",
+  "facts_np": [
+   "मन्दिर पुरानो काठमाडौँको इन्द्रचोकको पश्चिमपट्टि छ।",
+   "आकाशभैरवलाई पौराणिक किराँती राजा यलम्बरसँग जोडेर हेरिन्छ।",
+   "इन्द्रजात्राको बेला उनको मुखुन्डो चोकमा राखिन्छ।",
+   "प्रवेशद्वारमा दुईवटा धातुका सिंहले पहरा दिन्छन्, र भुइँतला पसलले चलाएका छन्।",
+   "सन् २००७ मा नेपालको सरकारी वायुसेवाले आकाशभैरवलाई दुईवटा बोका बलि दियो, जसको चिह्न उसका जहाजमा देखिन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "कथाअनुसार कृष्णले मेरा देवताको टाउको काटेपछि त्यो आकाशमा उडेर उपत्यकामा खस्यो।",
+   "उनले खप्पर र सर्पको मुकुट लगाएका छन्, र शिरमाथिको सानो मूर्ति कसैका लागि बुद्ध र कसैका लागि ब्रह्मा हो।",
+   "नेपालको राष्ट्रिय वायुसेवाका जहाजमा मेरा देवताको चिह्न देखिन्छ।",
+   "मेरो भुइँतलामा पसलहरू छन्, ढोकामा दुईवटा धातुका सिंहले पहरा दिन्छन्, र मेरा देवता प्राचीन किराँती राजा हुन् भनिन्छ।",
+   "ठूलो मुखुन्डो आठ दिनसम्म चोकमा स्थापना हुँदा मेरो अगाडि मिठाई, फूल र सिक्काको थुप्रो लाग्छ।",
+   "आकाश देवताको निलो मुखुन्डो माथिल्लो तलाबाट कपडा बजारलाई हेर्छ, र वर्षमा एक पटक तलको चोकमा झर्छ।"
+  ]
+ },
+ {
+  "slug": "uma-maheshwar-kirtipur",
+  "name": "Uma Maheshwar Temple, Kirtipur",
+  "name_np": "उमा महेश्वर मन्दिर, कीर्तिपुर",
+  "alt_names": [
+   "Kwacho Dega",
+   "Uma Maheshwor"
+  ],
+  "city": "Kirtipur",
+  "zone": null,
+  "lat": 27.679948,
+  "lng": 85.274703,
+  "coord_source": "OpenStreetMap way 323644532 (उमा महेश्वर मन्दिर) centroid",
+  "type": "pagoda",
+  "religion": "Hindu",
+  "deity": "Shiva and Parvati (Uma Maheshwar)",
+  "built_year": 1655,
+  "built_century_text": "17th century CE (1655, Nepal Sambat 775, per Kirtipur Municipality)",
+  "dynasty": "Malla",
+  "architecture": "Three-roofed Newar pagoda with jhingati tile roofs on a four-stage brick plinth, guarded by two stone elephants, at the highest point of Kirtipur",
+  "unesco": false,
+  "short": "A three-roofed Shiva-Parvati temple guarded by stone elephants at the hilltop of Kirtipur.",
+  "story": "You have reached the highest point of Kirtipur, about 1,414 metres above sea level. Turn around first: on a clear day the whole Kathmandu Valley spreads below you, with Himalayan peaks such as Langtang and Gaurishankar on the horizon. Now face the temple. Locals call it Kwacho Dega, the temple on the hill. Its proper name, Uma Maheshwar, honours Shiva and his consort Parvati together. Kirtipur Municipality dates it to 1655. Climb the four brick plinths and you will pass two stone elephants guarding the entrance. Look up at the three tiled roofs, the twenty carved pillars and the metal banner hanging from the pinnacle down to the first roof. Inside are images of Shiva and Parvati, with Saraswati and Ganesh. Sources disagree about earthquakes: one says the temple once had four roofs and lost one in 1934; another says an earlier quake left it in ruins until its restoration.",
+  "legend": null,
+  "facts": [
+   "It stands at the highest point of Kirtipur, about 1,414 m.",
+   "Kirtipur Municipality dates its construction to 1655 (NS 775).",
+   "Two stone elephants guard the entrance on the first plinth.",
+   "It has three roofs of jhingati tiles on a four-stage brick plinth.",
+   "Locals call it Kwacho Dega, and it offers views to Langtang and Gaurishankar."
+  ],
+  "visit": {
+   "open": null,
+   "close": null,
+   "entry_fee_foreigner_npr": null,
+   "entry_fee_saarc_npr": null,
+   "entry_fee_nepali_npr": null,
+   "visit_minutes": 30,
+   "hours_note": "Hilltop viewpoint temple in old Kirtipur.",
+   "fee_note": "Kirtipur may charge visitors a town entry fee; no temple fee found. Confirm locally."
+  },
+  "earthquake_2015": null,
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Uma_Maheshwar_Temple_%281%29.jpg/1280px-Uma_Maheshwar_Temple_%281%29.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Uma_Maheshwar_Temple_(1).jpg",
+   "author": "Nirmal Dulal",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "verified_http_status": 200
+  },
+  "quiz": [
+   {
+    "q": "Which divine couple does Uma Maheshwar honor?",
+    "options": [
+     "Rama and Sita",
+     "Shiva and Parvati",
+     "Vishnu and Lakshmi",
+     "Krishna and Radha"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Uma is Parvati and Maheshwar is Shiva.",
+    "q_np": "उमा महेश्वरले कुन दिव्य जोडीलाई सम्मान गर्छ?",
+    "options_np": [
+     "राम र सीता",
+     "शिव र पार्वती",
+     "विष्णु र लक्ष्मी",
+     "कृष्ण र राधा"
+    ],
+    "explanation_np": "उमा भनेका पार्वती र महेश्वर भनेका शिव हुन्।"
+   },
+   {
+    "q": "Which animals guard the temple entrance?",
+    "options": [
+     "Lions",
+     "Elephants",
+     "Bulls",
+     "Griffins"
+    ],
+    "answer_index": 1,
+    "difficulty": 1,
+    "explanation": "Two stone elephants stand on the first plinth.",
+    "q_np": "मन्दिरको प्रवेशद्वारमा कुन जनावरले पहरा दिन्छन्?",
+    "options_np": [
+     "सिंह",
+     "हात्ती",
+     "साँढे",
+     "ग्रिफिन"
+    ],
+    "explanation_np": "पहिलो चौकीमा दुईवटा ढुङ्गाका हात्ती उभिएका छन्।"
+   },
+   {
+    "q": "What do locals call the temple?",
+    "options": [
+     "Kwacho Dega",
+     "Maju Dega",
+     "Nyatapola",
+     "Kumbheshwar"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Its local name is Kwacho Dega.",
+    "q_np": "स्थानीयले मन्दिरलाई के भन्छन्?",
+    "options_np": [
+     "क्वाछो देगः",
+     "मजु देगः",
+     "न्यातपोल",
+     "कुम्भेश्वर"
+    ],
+    "explanation_np": "यसको स्थानीय नाम क्वाछो देगः हो।"
+   },
+   {
+    "q": "How many roofs does the temple have today?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "Five"
+    ],
+    "answer_index": 2,
+    "difficulty": 3,
+    "explanation": "It has three roofs on a four-stage plinth.",
+    "q_np": "अहिले मन्दिरमा कतिवटा छाना छन्?",
+    "options_np": [
+     "एउटा",
+     "दुईवटा",
+     "तीनवटा",
+     "पाँचवटा"
+    ],
+    "explanation_np": "चार तहको चौकीमाथि यसमा तीनवटा छाना छन्।"
+   },
+   {
+    "q": "In which year does Kirtipur Municipality date the temple?",
+    "options": [
+     "1555",
+     "1655",
+     "1755",
+     "1855"
+    ],
+    "answer_index": 1,
+    "difficulty": 4,
+    "explanation": "The municipality gives 1655 AD (NS 775).",
+    "q_np": "कीर्तिपुर नगरपालिकाले मन्दिर कुन वर्षको भनेको छ?",
+    "options_np": [
+     "१५५५",
+     "१६५५",
+     "१७५५",
+     "१८५५"
+    ],
+    "explanation_np": "नगरपालिकाले सन् १६५५ (ने.सं. ७७५) भनेको छ।"
+   },
+   {
+    "q": "About how high above sea level is the temple?",
+    "options": [
+     "614 m",
+     "1,014 m",
+     "1,414 m",
+     "2,414 m"
+    ],
+    "answer_index": 2,
+    "difficulty": 2,
+    "explanation": "It stands at Kirtipur's highest point, about 1,414 m above sea level.",
+    "q_np": "मन्दिर समुद्र सतहभन्दा करिब कति उचाइमा छ?",
+    "options_np": [
+     "६१४ मिटर",
+     "१,०१४ मिटर",
+     "१,४१४ मिटर",
+     "२,४१४ मिटर"
+    ],
+    "explanation_np": "यो कीर्तिपुरको सबैभन्दा अग्लो ठाउँमा, करिब १,४१४ मिटरमा छ।"
+   },
+   {
+    "q": "How many carved pillars does the temple have?",
+    "options": [
+     "Twenty",
+     "Ten",
+     "Twelve",
+     "Thirty"
+    ],
+    "answer_index": 0,
+    "difficulty": 3,
+    "explanation": "The temple has twenty carved pillars.",
+    "q_np": "मन्दिरमा कतिवटा कुँदिएका खम्बा छन्?",
+    "options_np": [
+     "बीसवटा",
+     "दशवटा",
+     "बाह्रवटा",
+     "तीसवटा"
+    ],
+    "explanation_np": "मन्दिरमा बीसवटा कुँदिएका खम्बा छन्।"
+   },
+   {
+    "q": "Which Himalayan peaks can be seen from the temple on a clear day?",
+    "options": [
+     "Everest and Makalu",
+     "Langtang and Gaurishankar",
+     "Annapurna and Dhaulagiri",
+     "Kanchenjunga and Lhotse"
+    ],
+    "answer_index": 1,
+    "difficulty": 2,
+    "explanation": "Langtang and Gaurishankar appear on the horizon on a clear day.",
+    "q_np": "स्वच्छ दिनमा मन्दिरबाट कुन हिमाली चुचुरा देखिन्छन्?",
+    "options_np": [
+     "सगरमाथा र मकालु",
+     "लाङटाङ र गौरीशङ्कर",
+     "अन्नपूर्ण र धौलागिरि",
+     "कञ्चनजङ्घा र ल्होत्से"
+    ],
+    "explanation_np": "स्वच्छ दिनमा क्षितिजमा लाङटाङ र गौरीशङ्कर देखिन्छन्।"
+   },
+   {
+    "q": "What are the temple's three roofs covered with?",
+    "options": [
+     "Copper sheets",
+     "Thatch",
+     "Slate",
+     "Jhingati clay tiles"
+    ],
+    "answer_index": 3,
+    "difficulty": 1,
+    "explanation": "The three roofs are covered in jhingati tiles.",
+    "q_np": "मन्दिरका तीनवटा छाना केले छाइएका छन्?",
+    "options_np": [
+     "तामाका पाता",
+     "खर",
+     "स्लेट",
+     "झिँगटीका टायल"
+    ],
+    "explanation_np": "तीनवटै छाना झिँगटीका टायलले छाइएका छन्।"
+   },
+   {
+    "q": "Which two deities have images inside besides Shiva and Parvati?",
+    "options": [
+     "Saraswati and Ganesh",
+     "Hanuman and Durga",
+     "Indra and Brahma",
+     "Lakshmi and Kartikeya"
+    ],
+    "answer_index": 0,
+    "difficulty": 2,
+    "explanation": "Inside are images of Shiva and Parvati, with Saraswati and Ganesh.",
+    "q_np": "शिव र पार्वतीबाहेक भित्र कुन दुई देवताका मूर्ति छन्?",
+    "options_np": [
+     "सरस्वती र गणेश",
+     "हनुमान र दुर्गा",
+     "इन्द्र र ब्रह्मा",
+     "लक्ष्मी र कार्तिकेय"
+    ],
+    "explanation_np": "भित्र शिव र पार्वतीसँगै सरस्वती र गणेशका मूर्ति छन्।"
+   }
+  ],
+  "clues": [
+   "A metal banner hangs from my pinnacle down to my first roof.",
+   "I stand on four brick plinths, and twenty carved pillars hold up my tiled roofs.",
+   "Two stone elephants guard my steps at the very top of a Newar hill town, with snow peaks behind the valley.",
+   "On a clear day you can see Langtang and Gaurishankar from my yard, about 1,414 meters above the sea.",
+   "Shiva and Parvati share my three roofs, and locals simply call me the temple on the hill.",
+   "Saraswati and Ganesh stand inside with the divine couple, and my town's municipality dates me to 1655."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kirtipur",
+   "https://kirtipurmun.gov.np/heritage/uma-maheshwor",
+   "https://www.openstreetmap.org/way/323644532",
+   "https://nepalitimes.com/the-city-of-good-deeds",
+   "https://honeyguideapps.com/blog/?p=1682"
+  ],
+  "province": "Bagmati",
+  "district": "Kathmandu",
+  "festivals": [
+   {
+    "name": "Dashain (Mohani)",
+    "name_np": "दशैँ (मोहनी)",
+    "month": "Ashwin",
+    "note": "A special annual puja is held at the temple during Dashain",
+    "note_np": "दशैँमा मन्दिरमा वार्षिक विशेष पूजा गरिन्छ।"
+   }
+  ],
+  "gallery": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Uma_Maheshwar_Temple.jpg/1280px-Uma_Maheshwar_Temple.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Uma_Maheshwar_Temple.jpg",
+    "author": "Tsephu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Uma Maheshwar Temple, Kirtipur"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Uma_Maheshwar_Temple_%282%29.jpg/1280px-Uma_Maheshwar_Temple_%282%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Uma_Maheshwar_Temple_(2).jpg",
+    "author": "Nirmal Dulal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "The temple on its stepped plinth"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Uma_Maheshwar_Kritipur_IMG_7977_13.jpg/1280px-Uma_Maheshwar_Kritipur_IMG_7977_13.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Uma_Maheshwar_Kritipur_IMG_7977_13.jpg",
+    "author": "Harry Paudyal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Kwacho Dega at the top of Kirtipur"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Uma_Maheshwar_Kritipur_IMG_7977_16.jpg/1280px-Uma_Maheshwar_Kritipur_IMG_7977_16.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Uma_Maheshwar_Kritipur_IMG_7977_16.jpg",
+    "author": "Harry Paudyal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "View over the valley from the temple hill"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Uma_Maheshwar_Kritipur_IMG_7977_29.jpg/1280px-Uma_Maheshwar_Kritipur_IMG_7977_29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Uma_Maheshwar_Kritipur_IMG_7977_29.jpg",
+    "author": "Harry Paudyal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Uma Maheshwar temple detail"
+   }
+  ],
+  "model": {
+   "kind": "pagoda",
+   "tiers": 3,
+   "plinth_steps": 4,
+   "plinth_shape": "square",
+   "height_m": null,
+   "footprint_m": [
+    16,
+    16
+   ],
+   "walls": "red-brick",
+   "roof": "clay-tile",
+   "colors": [
+    "#8b3a2b",
+    "#4a3020",
+    "#c9a227"
+   ],
+   "features": [
+    "gilded-pinnacle",
+    "carved-struts",
+    "elephant-statues",
+    "bell"
+   ],
+   "surroundings": [
+    "hilltop",
+    "newar-houses",
+    "himalaya-backdrop"
+   ],
+   "notes": "Three-roofed brick pagoda on four stepped plinths with two stone elephants at the stair, on a hilltop with valley views"
+  },
+  "short_np": "कीर्तिपुरको डाँडाको टुप्पोमा ढुङ्गाका हात्तीले पहरा दिएको तीन छाने शिव-पार्वती मन्दिर।",
+  "story_np": "तपाईं कीर्तिपुरको सबैभन्दा अग्लो ठाउँमा, समुद्र सतहभन्दा करिब १,४१४ मिटरमा पुग्नुभएको छ। पहिले पछाडि फर्केर हेर्नुहोस्: मौसम सफा भए पूरै काठमाडौँ उपत्यका तपाईंको मुनि फैलिएको देखिन्छ, क्षितिजमा लाङटाङ र गौरीशङ्करजस्ता हिमाली चुचुरासहित। अब मन्दिरतिर फर्कनुहोस्। स्थानीयले यसलाई क्वाछो देगः, अर्थात् डाँडामाथिको मन्दिर भन्छन्। यसको औपचारिक नाम उमा महेश्वरले शिव र उनकी सहचरी पार्वतीलाई सँगै सम्मान गर्छ। कीर्तिपुर नगरपालिकाले यसलाई सन् १६५५ को मान्छ। इँटाका चार तहको चौकी उक्लिँदा प्रवेशद्वारमा पहरा दिइरहेका दुईवटा ढुङ्गाका हात्ती भेट्नुहुन्छ। माथि हेर्नुहोस्: झिँगटीका तीन छाना, बीसवटा कुँदिएका खम्बा, र चुचुरोबाट पहिलो छानासम्म झुन्डिएको धातुको पताका। भित्र शिव र पार्वतीका मूर्ति छन्, साथमा सरस्वती र गणेशका पनि। भूकम्पबारे स्रोतहरू एकमत छैनन्: एउटाले मन्दिरमा कुनै बेला चार छाना थिए र सन् १९३४ मा एउटा गुम्यो भन्छ; अर्कोले अघिल्लो भूकम्पले यसलाई भग्नावशेष बनाएको थियो र पछि जीर्णोद्धार गरियो भन्छ।",
+  "legend_np": null,
+  "facts_np": [
+   "यो कीर्तिपुरको सबैभन्दा अग्लो ठाउँमा, करिब १,४१४ मिटरमा छ।",
+   "कीर्तिपुर नगरपालिकाले यो मन्दिर सन् १६५५ (ने.सं. ७७५) मा बनेको भन्छ।",
+   "पहिलो चौकीमा दुईवटा ढुङ्गाका हात्तीले प्रवेशद्वारमा पहरा दिएका छन्।",
+   "चार तहको इँटाको चौकीमाथि झिँगटीका तीन छाना छन्।",
+   "स्थानीयले यसलाई क्वाछो देगः भन्छन्, र यहाँबाट लाङटाङ र गौरीशङ्करसम्मको दृश्य देखिन्छ।"
+  ],
+  "quake_np": null,
+  "clues_np": [
+   "मेरो चुचुरोबाट पहिलो छानासम्म एउटा धातुको पताका झुन्डिएको छ।",
+   "म इँटाका चार तहको चौकीमाथि उभिएको छु, र बीसवटा कुँदिएका खम्बाले मेरा टायलका छाना थामेका छन्।",
+   "नेवार डाँडा सहरको एकदमै टुप्पोमा दुईवटा ढुङ्गाका हात्तीले मेरा भर्‍याङमा पहरा दिन्छन्, उपत्यकाको पारि हिमाल देखिन्छन्।",
+   "सफा दिनमा समुद्र सतहभन्दा करिब १,४१४ मिटर माथिको मेरो आँगनबाट लाङटाङ र गौरीशङ्कर देखिन्छन्।",
+   "शिव र पार्वतीले मेरा तीन छाना साझा गर्छन्, र स्थानीयले मलाई सजिलै डाँडाको मन्दिर भन्छन्।",
+   "भित्र दिव्य जोडीसँगै सरस्वती र गणेश छन्, र मेरो सहरको नगरपालिकाले मलाई १६५५ को भन्छ।"
+  ]
+ }
+]
