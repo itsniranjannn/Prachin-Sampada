@@ -6,7 +6,8 @@ import mysql from 'mysql2/promise';
 import 'dotenv/config';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const sqlPath = path.join(here, '..', 'database', 'sampada.sql');
+const sqlPath = path.resolve(here, '..', '..', 'database', 'sampada.sql');
+
 
 async function pushToTiDB() {
   const user = process.argv[2] || process.env.TIDB_USER;
