@@ -1,9 +1,14 @@
 import mysql from 'mysql2/promise';
 import 'dotenv/config';
 
-// Support TiDB Cloud / SSL or connection URL if provided
-const sslOption = process.env.DB_SSL === 'true' || process.env.TIDB_ENABLE_SSL === 'true'
-  ? { rejectUnauthorized: true }
+// Detect TiDB Cloud host or explicit DB_SSL flag
+const isTiDB = (process.env.DB_HOST && process.env.DB_HOST.includes('tidbcloud.com')) ||
+               process.env.DB_PORT === '4000' ||
+               process.env.DB_SSL === 'true' ||
+               process.env.TIDB_ENABLE_SSL === 'true';
+
+const sslOption = isTiDB
+  ? { rejectUnauthorized: true, minVersion: 'TLSv1.2' }
   : (process.env.DB_SSL ? JSON.parse(process.env.DB_SSL) : undefined);
 
 export const pool = mysql.createPool(
@@ -33,4 +38,3 @@ export async function query(sql, params = []) {
   const [rows] = await pool.query(sql, params);
   return rows;
 }
-
