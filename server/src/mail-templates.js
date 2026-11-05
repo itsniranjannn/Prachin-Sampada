@@ -1,54 +1,165 @@
-// HTML emails in the site's palette: milk page, plum header, wine buttons, sand code tiles.
-// Table layout with inline styles so Gmail, Outlook and phone clients all draw them the same way.
-const C = { plum: '#381932', plum9: '#261024', wine: '#81021f', sand: '#f6ebcf', sandLine: '#c9b27a', milk: '#fff3e6', card: '#fffaf4', ink: '#261024', muted: '#6b5566', lilac: '#d2b8ff' };
-const SERIF = "Georgia, 'Times New Roman', serif";
-const SANS = "'Segoe UI', Arial, Helvetica, sans-serif";
-const NP = "'Noto Sans Devanagari', 'Mangal', 'Nirmala UI', Arial, sans-serif";
+// Modern, responsive email templates designed with Nepal heritage aesthetics
+// Palette: deep plum, royal gold, terracotta crimson, warm milk cream, rich dark cards
+const C = {
+  plum: '#2d142c',
+  plumDeep: '#1d0b1d',
+  gold: '#d4af37',
+  goldLight: '#f3e5ab',
+  goldLine: '#c59b27',
+  wine: '#81021f',
+  wineHover: '#a3082b',
+  cream: '#fff8f0',
+  card: '#ffffff',
+  sand: '#fbf4ea',
+  sandLine: '#ebd9c3',
+  ink: '#261024',
+  muted: '#685464',
+  lightMuted: '#968192',
+};
+
+const SERIF = "Playfair Display, 'Noto Serif Devanagari', Georgia, serif";
+const SANS = "'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
+const NP = "'Noto Sans Devanagari', 'Mukta', 'Mangal', sans-serif";
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const first = (name) => esc(String(name || 'friend').trim().split(/\s+/)[0]);
+const first = (name) => esc(String(name || 'मित्र').trim().split(/\s+/)[0]);
 
 function codeTiles(code) {
-  const cells = String(code).split('').map((d) => `<td width="46" height="58" align="center" style="width:46px;height:58px;background:${C.sand};border:1px solid ${C.sandLine};border-radius:10px;font:700 30px/58px ${SERIF};color:${C.wine}">${esc(d)}</td>`);
-  return `<table role="presentation" cellpadding="0" cellspacing="0" align="center" style="margin:26px auto 8px"><tr>${cells.join('<td width="8" style="width:8px">&nbsp;</td>')}</tr></table>`;
+  const cells = String(code).split('').map((d) => `
+    <td width="48" height="60" align="center" style="width:48px;height:60px;background:#ffffff;border:2px solid ${C.goldLine};border-radius:12px;font:700 32px/60px ${SERIF};color:${C.wine};box-shadow:0 4px 12px rgba(129,2,31,0.08);letter-spacing:1px">${esc(d)}</td>
+  `);
+  return `
+    <table role="presentation" cellpadding="0" cellspacing="0" align="center" style="margin:28px auto 14px">
+      <tr>${cells.join('<td width="10" style="width:10px">&nbsp;</td>')}</tr>
+    </table>
+  `;
 }
 
-const button = (href, label) => `<table role="presentation" cellpadding="0" cellspacing="0" align="center" style="margin:26px auto 6px"><tr><td align="center" bgcolor="${C.wine}" style="background:${C.wine};border-radius:999px"><a href="${esc(href)}" style="display:inline-block;padding:15px 34px;font:700 15px ${SANS};color:${C.milk};text-decoration:none;letter-spacing:.3px">${esc(label)}</a></td></tr></table>`;
-
-/** The common frame: header with the mark, a decorative rule, the body and a footer with a verse. */
-function frame({ preheader, eyebrow, title, titleNp, body, origin }) {
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>${esc(title)}</title></head>
-<body style="margin:0;padding:0;background:${C.milk}">
-<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:${C.milk}">${esc(preheader)}&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="${C.milk}" style="background:${C.milk}"><tr><td align="center" style="padding:28px 12px">
-<table role="presentation" width="560" cellpadding="0" cellspacing="0" style="width:100%;max-width:560px;border-radius:22px;overflow:hidden;border:1px solid ${C.sandLine};background:${C.card}">
-  <tr><td bgcolor="${C.plum}" style="background:${C.plum};padding:22px 28px">
-    <table role="presentation" cellpadding="0" cellspacing="0"><tr>
-      <td valign="middle" style="padding-right:14px"><img src="cid:sampada-logo" width="52" height="52" alt="" style="display:block;border:0"></td>
-      <td valign="middle">
-        <div style="font:400 15px/1.2 ${NP};color:${C.lilac}">हाम्रो प्राचीन</div>
-        <div style="font:700 25px/1.1 ${SERIF};color:${C.milk};letter-spacing:3px;text-transform:uppercase">Sampada</div>
+const button = (href, label) => `
+  <table role="presentation" cellpadding="0" cellspacing="0" align="center" style="margin:28px auto 8px">
+    <tr>
+      <td align="center" bgcolor="${C.wine}" style="background:linear-gradient(135deg, ${C.wine} 0%, #a3082b 100%);border-radius:30px;box-shadow:0 6px 18px rgba(129,2,31,0.25)">
+        <a href="${esc(href)}" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:16px 38px;font:700 15px/1.2 ${SANS};color:#ffffff;text-decoration:none;letter-spacing:0.5px;text-transform:uppercase">${esc(label)} &rarr;</a>
       </td>
-    </tr></table>
-  </td></tr>
-  <tr><td height="4" style="height:4px;font-size:0;line-height:0;background:${C.wine};border-top:1px solid ${C.sandLine}">&nbsp;</td></tr>
-  <tr><td style="padding:34px 34px 10px">
-    <div style="font:700 11px ${SANS};letter-spacing:3px;text-transform:uppercase;color:${C.wine}">${esc(eyebrow)}</div>
-    <h1 style="margin:10px 0 2px;font:600 30px/1.15 ${SERIF};color:${C.plum}">${title}</h1>
-    <div style="font:400 17px/1.5 ${NP};color:${C.wine}">${titleNp}</div>
-  </td></tr>
-  <tr><td style="padding:6px 34px 30px;font:400 16px/1.65 ${SANS};color:${C.ink}">${body}</td></tr>
-  <tr><td style="padding:0 34px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td height="1" style="height:1px;background:${C.sandLine};font-size:0;line-height:0">&nbsp;</td></tr></table></td></tr>
-  <tr><td align="center" style="padding:22px 34px 8px;font:400 19px/1.6 ${NP};color:${C.plum}">असतो मा सद्गमय · तमसो मा ज्योतिर्गमय</td></tr>
-  <tr><td align="center" style="padding:0 34px 26px;font:400 13px/1.5 ${SERIF};font-style:italic;color:${C.muted}">Lead me from darkness to light.</td></tr>
-  <tr><td bgcolor="${C.plum9}" align="center" style="background:${C.plum9};padding:18px 28px;font:400 12px/1.6 ${SANS};color:#c9b5c4">
-    Hamro Prachin Sampada &middot; heritage of Nepal, province by province<br>
-    <a href="${esc(origin)}" style="color:${C.lilac};text-decoration:none">${esc(origin.replace(/^https?:\/\//, ''))}</a>
-  </td></tr>
-</table>
-<div style="font:400 11px/1.6 ${SANS};color:${C.muted};padding:16px 20px;max-width:520px">This message was sent because someone used this address at Hamro Prachin Sampada. If that was not you, you can safely ignore it.</div>
-</td></tr></table></body></html>`;
+    </tr>
+  </table>
+`;
+
+/** The common responsive email frame */
+function frame({ preheader, eyebrow, title, titleNp, body, origin }) {
+  const webOrigin = origin || 'https://hamroprachinsampada.vercel.app';
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>${esc(title)}</title>
+</head>
+<body style="margin:0;padding:0;background-color:${C.sand};font-family:${SANS};-webkit-font-smoothing:antialiased">
+  <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:${C.sand}">${esc(preheader)}&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="${C.sand}" style="background-color:${C.sand};padding:32px 12px">
+    <tr>
+      <td align="center">
+        <!-- Main Container Card -->
+        <table role="presentation" width="580" cellpadding="0" cellspacing="0" style="width:100%;max-width:580px;border-radius:24px;overflow:hidden;background-color:${C.card};box-shadow:0 12px 36px rgba(45,20,44,0.08);border:1px solid ${C.sandLine}">
+          
+          <!-- Header Banner -->
+          <tr>
+            <td bgcolor="${C.plum}" style="background:linear-gradient(135deg, ${C.plumDeep} 0%, ${C.plum} 100%);padding:28px 36px">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="58" valign="middle" style="padding-right:16px">
+                    <img src="cid:sampada-logo" width="54" height="54" alt="Hamro Prachin Sampada" style="display:block;border:0;border-radius:12px">
+                  </td>
+                  <td valign="middle">
+                    <div style="font:500 14px/1.3 ${NP};color:${C.goldLight};letter-spacing:1px">हाम्रो प्राचीन सम्पदा</div>
+                    <div style="font:800 24px/1.1 ${SERIF};color:#ffffff;letter-spacing:2px;text-transform:uppercase">PRACHIN SAMPADA</div>
+                  </td>
+                  <td align="right" valign="middle">
+                    <span style="display:inline-block;padding:5px 12px;background:rgba(212,175,55,0.15);border:1px solid ${C.gold};border-radius:20px;font:600 11px ${SANS};color:${C.goldLight};letter-spacing:1px;text-transform:uppercase">NEPAL HERITAGE</span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Gold Accent Bar -->
+          <tr>
+            <td height="5" style="height:5px;font-size:0;line-height:0;background:linear-gradient(90deg, ${C.wine} 0%, ${C.gold} 50%, ${C.wine} 100%)">&nbsp;</td>
+          </tr>
+
+          <!-- Main Content -->
+          <tr>
+            <td style="padding:36px 36px 12px">
+              <div style="display:inline-block;padding:4px 10px;background:${C.sand};border-radius:6px;font:700 11px/1.4 ${SANS};letter-spacing:2px;text-transform:uppercase;color:${C.wine}">
+                ${esc(eyebrow)}
+              </div>
+              <h1 style="margin:16px 0 4px;font:700 28px/1.25 ${SERIF};color:${C.plum}">${title}</h1>
+              <div style="font:500 17px/1.5 ${NP};color:${C.wine}">${titleNp}</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:8px 36px 34px;font:400 16px/1.7 ${SANS};color:${C.ink}">
+              ${body}
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td style="padding:0 36px">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr><td height="1" style="height:1px;background-color:${C.sandLine};font-size:0;line-height:0">&nbsp;</td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Sanskrit Benediction / Cultural Shloka -->
+          <tr>
+            <td align="center" style="padding:24px 36px 6px">
+              <div style="font:600 17px/1.6 ${NP};color:${C.plum}">
+                ॐ असतो मा सद्गमय । तमसो मा ज्योतिर्गमय ।
+              </div>
+              <div style="font:400 13px/1.5 ${SERIF};font-style:italic;color:${C.muted};margin-top:4px">
+                "Lead me from darkness to light, from ignorance to truth."
+              </div>
+            </td>
+          </tr>
+
+          <!-- Footer Information -->
+          <tr>
+            <td bgcolor="${C.plumDeep}" align="center" style="background-color:${C.plumDeep};padding:22px 28px;border-top:1px solid #3c193b">
+              <p style="margin:0 0 6px;font:600 13px ${SANS};color:#ffffff;letter-spacing:0.5px">
+                Hamro Prachin Sampada &middot; Explore Nepal's Living Heritage
+              </p>
+              <p style="margin:0 0 10px;font:400 12px ${SANS};color:${C.lightMuted}">
+                Preserving & Celebrating 7 Provinces &middot; Temples &middot; Stupas &middot; Durbar Squares
+              </p>
+              <a href="${esc(webOrigin)}" target="_blank" rel="noopener noreferrer" style="font:600 12px ${SANS};color:${C.gold};text-decoration:none;padding:4px 12px;border:1px solid rgba(212,175,55,0.4);border-radius:15px">
+                ${esc(webOrigin.replace(/^https?:\/\//, ''))}
+              </a>
+            </td>
+          </tr>
+
+        </table>
+
+        <!-- Unsubscribe / Disclaimer -->
+        <table role="presentation" width="580" cellpadding="0" cellspacing="0" style="width:100%;max-width:580px">
+          <tr>
+            <td align="center" style="font:400 11px/1.6 ${SANS};color:${C.muted};padding:20px 24px 0">
+              This message was sent from <b>Hamro Prachin Sampada</b> to verify or update your heritage passport. If you didn't initiate this request, you can safely ignore this email.
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>`;
 }
+
 
 export function verifyEmail({ name, code, origin, minutes }) {
   return {
