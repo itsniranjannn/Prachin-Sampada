@@ -59,4 +59,9 @@ const io = new Server(server, { cors: { origin: allowOrigin }, pingInterval: 100
 attachHunts(io);
 
 const PORT = Number(process.env.PORT || 5050);
-server.listen(PORT, () => console.log(`Sampada API + live hunts on http://localhost:${PORT}`));
+if (process.env.NODE_ENV !== 'test' && !process.env.VERCEL) {
+  server.listen(PORT, () => console.log(`Sampada API + live hunts on http://localhost:${PORT}`));
+}
+
+export default app;
+
