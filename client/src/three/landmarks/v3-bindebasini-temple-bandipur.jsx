@@ -474,7 +474,7 @@ export default function make(K) {
         <Newar p={[-5.5, -0.8]} w={5.4} d={3} balcony col="#ecd9b0" tex="flat" roofCol="#5e625f" shut="#5b4636" />
         <Newar p={[-10.6, -1.2]} w={4.4} d={3} tex="plaster" col="#cdbfa6" shut="#5b4636" roofCol="#6a655f" tall={0.1} />
         {/* right: red-painted 3-storey house with blue shutters */}
-        <Newar p={[5.3, -1.6]} r={-0.45} w={3.8} d={3} tex="plaster" col="#a33224" tex="flat" quoin="#8a5a42" shut="#6f86a0" roofCol="#3e3b38" tall={0.15} />
+        <Newar p={[5.3, -1.6]} r={-0.45} w={3.8} d={3} col="#a33224" tex="flat" quoin="#8a5a42" shut="#6f86a0" roofCol="#3e3b38" tall={0.15} />
         <Newar p={[9.2, -2.8]} r={-Math.PI / 2} w={3.2} d={3} tex="brick" col="#e0a089" shut="#3e2a1e" roofCol="#6a655f" st={3} />
         <BackWall />
         <Newar p={[-9.7, -5.5]} w={4.5} d={3} tex="plaster" col="#e6d6b6" shut="#4a3426" roofCol="#6e6862" st={3} />
