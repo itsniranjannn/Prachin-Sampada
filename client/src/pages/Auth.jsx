@@ -2,22 +2,40 @@ import { useState } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { LogIn, UserPlus } from 'lucide-react';
+import { GoogleLogin } from '@react-oauth/google';
 import { useAuth } from '../lib/auth.jsx';
 import { LogoMark } from '../components/Logo.jsx';
 import '../styles/auth-qa.css';
+
 
 const ART = 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/View_of_Bhaktapur_Durbar_Square.jpg/1280px-View_of_Bhaktapur_Durbar_Square.jpg';
 const INTERESTS = [['hindu', 'Hindu temples'], ['buddhist', 'Buddhist sites'], ['pagoda', 'Pagodas'], ['stupa', 'Stupas'], ['palace', 'Palaces'], ['courtyard', 'Courtyards'], ['art', 'Art & carving'], ['legend', 'Legends'], ['water', 'Water heritage'], ['festival', 'Festivals']];
 
 export default function Auth({ mode }) {
   const isLogin = mode === 'login';
-  const { login, register } = useAuth();
+  const { login, googleLogin, register } = useAuth();
   const [params] = useSearchParams();
   const nav = useNavigate();
   const [f, setF] = useState({ name: '', email: '', password: '', interests: [] });
   const [err, setErr] = useState('');
   const [busy, setBusy] = useState(false);
   const next = params.get('next') || (isLogin ? '/passport' : '/explore');
+
+  const onGoogleSuccess = async (res) => {
+    if (!res.credential) return;
+    setErr(''); setBusy(true);
+    try {
+      const u = await googleLogin(res.credential);
+      let dest = next;
+      if (u?.role === 'admin' && !params.get('next')) dest = '/admin';
+      nav(dest, { replace: true });
+    } catch (x) {
+      setErr(x.message || 'Google sign-in failed');
+    } finally {
+      setBusy(false);
+    }
+  };
+
 
   const submit = async (e) => {
     e.preventDefault();
@@ -57,7 +75,27 @@ export default function Auth({ mode }) {
           )}
           {err && <p className="error-text" role="alert">{err}</p>}
           <button className="btn lg" type="submit" disabled={busy}>{isLogin ? <><LogIn size={17} /> {busy ? 'Signing in…' : 'Sign in'}</> : <><UserPlus size={17} /> {busy ? 'Creating…' : 'Create passport'}</>}</button>
+          
+          <div style={{ display: 'flex', alignItems: 'center', margin: '0.8rem 0', gap: '0.75rem' }}>
+            <div style={{ flex: 1, height: '1px', background: 'var(--sand-line, rgba(0,0,0,0.1))' }} />
+            <span style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--muted)' }}>or</span>
+            <div style={{ flex: 1, height: '1px', background: 'var(--sand-line, rgba(0,0,0,0.1))' }} />
+          </div>
+
+          <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+            <GoogleLogin
+              onSuccess={onGoogleSuccess}
+              onError={() => setErr('Google Sign-In was cancelled or failed')}
+              useOneTap={false}
+              shape="pill"
+              text={isLogin ? 'signin_with' : 'signup_with'}
+              theme="outline"
+              width="100%"
+            />
+          </div>
+
           <p className="small muted" style={{ margin: 0 }}>{isLogin ? <>New here? <Link to={`/register?next=${encodeURIComponent(next)}`}>Create a free passport</Link></> : <>Already have one? <Link to={`/login?next=${encodeURIComponent(next)}`}>Sign in</Link></>}</p>
+
           <p className="cap" style={{ margin: 0 }}>Everything except stamps, reviews and saved walks works without an account.</p>
         </motion.form>
       </div>

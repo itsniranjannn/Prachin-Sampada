@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import bcrypt from 'bcryptjs';
+import { OAuth2Client } from 'google-auth-library';
 import { query } from '../db.js';
 import { signToken, requireAuth, ah } from '../middleware/auth.js';
 import { levelFor } from '../algorithms/adaptive.js';
@@ -8,6 +9,8 @@ import { sendMail, clientOrigin, mailMode } from '../mail.js';
 import { verifyEmail, welcomeEmail, resetEmail, passwordChangedEmail } from '../mail-templates.js';
 
 const r = Router();
+const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+
 const INTERESTS = ['hindu', 'buddhist', 'pagoda', 'stupa', 'shikhara', 'palace', 'courtyard', 'water', 'art', 'festival', 'legend', 'unesco', 'malla', 'licchavi'];
 const cleanInterests = (list) => (Array.isArray(list) ? list : String(list || '').split(','))
   .map((s) => String(s).trim().toLowerCase()).filter((s) => INTERESTS.includes(s)).slice(0, 6).join(',');
@@ -142,7 +145,50 @@ r.post('/reset', ah(async (req, res) => {
 
 r.get('/mail-mode', (_req, res) => res.json({ mode: mailMode() }));
 
+// Google Sign-In verification endpoint
+r.post('/google', ah(async (req, res) => {
+  const { credential } = req.body || {};
+  if (!credential) return res.status(400).json({ error: 'Missing Google credential' });
+
+  let payload;
+  try {
+    const ticket = await googleClient.verifyIdToken({
+      idToken: credential,
+      audience: process.env.GOOGLE_CLIENT_ID,
+    });
+    payload = ticket.getPayload();
+  } catch (err) {
+    return res.status(401).json({ error: 'Invalid Google token: ' + err.message });
+  }
+
+  const { email, name, email_verified } = payload;
+  if (!email) return res.status(400).json({ error: 'Google account does not provide an email' });
+  const addr = email.trim().toLowerCase();
+
+  let [user] = await query('SELECT * FROM users WHERE email = ?', [addr]);
+
+  if (!user) {
+    // Generate secure random fallback password for OAuth-created users
+    const randPass = crypto.randomBytes(32).toString('hex');
+    const hash = await bcrypt.hash(randPass, 10);
+    const [result] = await query(
+      'INSERT INTO users (name, email, password_hash, role, email_verified, is_active) VALUES (?, ?, ?, ?, ?, ?)',
+      [name || 'Explorer', addr, hash, 'explorer', email_verified ? 1 : 0, 1]
+    );
+    [user] = await query('SELECT * FROM users WHERE id = ?', [result.insertId]);
+  } else {
+    if (!user.is_active) return res.status(403).json({ error: 'This account has been deactivated' });
+    if (!user.email_verified && email_verified) {
+      await query('UPDATE users SET email_verified = 1 WHERE id = ?', [user.id]);
+      user.email_verified = 1;
+    }
+  }
+
+  res.json({ token: signToken(user), user: publicUser(user) });
+}));
+
 r.post('/login', ah(async (req, res) => {
+
   const { email, password } = req.body || {};
   const addr = String(email || '').trim().toLowerCase();
   const key = loginKey(req, addr);

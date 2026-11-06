@@ -29,6 +29,10 @@ export function AuthProvider({ children }) {
       const { token, user: u } = await api('/auth/login', { method: 'POST', body: { email, password } });
       setToken(token); setUser(u); return u;
     },
+    async googleLogin(credential) {
+      const { token, user: u } = await api('/auth/google', { method: 'POST', body: { credential } });
+      setToken(token); setUser(u); return u;
+    },
     async register(payload) {
       const { token, user: u } = await api('/auth/register', { method: 'POST', body: payload });
       setToken(token); setUser(u); return u;
