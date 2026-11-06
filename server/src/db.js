@@ -18,6 +18,9 @@ export const pool = mysql.createPool(
         ssl: sslOption,
         waitForConnections: true,
         connectionLimit: 10,
+        enableKeepAlive: true,
+        keepAliveInitialDelay: 10000,
+        connectTimeout: 20000,
         decimalNumbers: true,
       }
     : {
@@ -29,10 +32,14 @@ export const pool = mysql.createPool(
         ssl: sslOption,
         waitForConnections: true,
         connectionLimit: 10,
+        enableKeepAlive: true,
+        keepAliveInitialDelay: 10000,
+        connectTimeout: 20000,
         decimalNumbers: true,
         charset: 'utf8mb4',
       }
 );
+
 
 export async function query(sql, params = []) {
   const [rows] = await pool.query(sql, params);

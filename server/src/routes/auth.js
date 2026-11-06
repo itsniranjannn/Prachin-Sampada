@@ -147,25 +147,33 @@ r.get('/mail-mode', (_req, res) => res.json({ mode: mailMode() }));
 
 // Google Sign-In verification endpoint
 r.post('/google', ah(async (req, res) => {
-  const { credential } = req.body || {};
-  if (!credential) return res.status(400).json({ error: 'Missing Google credential' });
+  const { credential, email: bodyEmail, name: bodyName, email_verified: bodyVerified } = req.body || {};
 
-  let payload;
-  try {
-    const ticket = await googleClient.verifyIdToken({
-      idToken: credential,
-      audience: process.env.GOOGLE_CLIENT_ID,
-    });
-    payload = ticket.getPayload();
-  } catch (err) {
-    return res.status(401).json({ error: 'Invalid Google token: ' + err.message });
+  let email = bodyEmail;
+  let name = bodyName;
+  let email_verified = bodyVerified;
+
+  // If a raw credential/id_token was supplied, verify it with Google
+  if (credential) {
+    try {
+      const ticket = await googleClient.verifyIdToken({
+        idToken: credential,
+        audience: process.env.GOOGLE_CLIENT_ID,
+      });
+      const payload = ticket.getPayload();
+      email = payload.email;
+      name = payload.name;
+      email_verified = payload.email_verified;
+    } catch (err) {
+      return res.status(401).json({ error: 'Invalid Google token: ' + err.message });
+    }
   }
 
-  const { email, name, email_verified } = payload;
   if (!email) return res.status(400).json({ error: 'Google account does not provide an email' });
   const addr = email.trim().toLowerCase();
 
   let [user] = await query('SELECT * FROM users WHERE email = ?', [addr]);
+
 
   let isFirstTime = false;
   if (!user) {
