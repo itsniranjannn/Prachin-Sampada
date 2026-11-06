@@ -178,26 +178,38 @@ export function verifyEmail({ name, code, origin, minutes }) {
   };
 }
 
-export function welcomeEmail({ name, origin }) {
-  const tile = (n, t, d) => `<tr><td valign="top" width="46" style="padding:10px 0"><div style="width:34px;height:34px;border-radius:50%;background:${C.wine};color:${C.milk};font:700 14px/34px ${SERIF};text-align:center">${n}</div></td><td style="padding:10px 0"><div style="font:700 15px ${SANS};color:${C.plum}">${t}</div><div style="font:400 14px/1.55 ${SANS};color:${C.muted}">${d}</div></td></tr>`;
+export function welcomeEmail({ name, origin, provider = 'email' }) {
+  const isGoogle = provider === 'google';
+  const tile = (n, t, d) => `<tr><td valign="top" width="46" style="padding:10px 0"><div style="width:34px;height:34px;border-radius:50%;background:${C.wine};color:#ffffff;font:700 14px/34px ${SERIF};text-align:center">${n}</div></td><td style="padding:10px 0"><div style="font:700 15px ${SANS};color:${C.plum}">${t}</div><div style="font:400 14px/1.55 ${SANS};color:${C.muted}">${d}</div></td></tr>`;
   return {
     kind: 'welcome',
-    subject: 'Welcome to Hamro Prachin Sampada',
-    text: `Namaste ${name},\n\nYour passport is ready. Explore: ${origin}/explore`,
+    subject: isGoogle ? 'Namaste! Welcome to Hamro Prachin Sampada' : 'Welcome to Hamro Prachin Sampada',
+    text: `Namaste ${name},\n\nYour heritage passport is ready! Start exploring Nepal's ancient monuments: ${origin}/explore`,
     html: frame({
-      origin, preheader: 'Your heritage passport is ready. Where will you stamp first?', eyebrow: 'Welcome',
-      title: `Your passport is ready, ${first(name)}.`, titleNp: 'तपाईंको सम्पदा राहदानी तयार छ',
-      body: `<p style="margin:12px 0 6px">Your email is confirmed. Temples, stupas, palaces and pilgrim sites in all seven provinces are waiting. A few ways to begin:</p>
+      origin, preheader: 'Your heritage passport is ready. Where will you stamp first?', eyebrow: isGoogle ? 'Connected with Google' : 'Welcome to Sampada',
+      title: `Welcome, ${first(name)}!`, titleNp: 'तपाईंको सम्पदा यात्रा सुरु भयो',
+      body: `<p style="margin:12px 0 10px;font:400 16px/1.65 ${SANS};color:${C.ink}">
+        Namaste <b>${esc(name)}</b>, your heritage passport has been successfully created ${isGoogle ? 'using your Google account' : ''}.
+        Temples, stupas, palaces, and sacred pilgrim sites across all seven provinces of Nepal are now at your fingertips.
+      </p>
+      
+      <div style="background-color:${C.sand};border-left:4px solid ${C.gold};padding:14px 18px;border-radius:0 12px 12px 0;margin:18px 0 24px">
+        <div style="font:700 14px ${SANS};color:${C.plum}">Your Explorer Passport is Active</div>
+        <div style="font:400 13px/1.5 ${SANS};color:${C.muted}">Track your heritage stamps, unlock ancient badges, and test your knowledge.</div>
+      </div>
+
+      <div style="font:700 13px ${SANS};text-transform:uppercase;letter-spacing:1.5px;color:${C.wine};margin:20px 0 8px">Four Ways to Begin Your Journey:</div>
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-        ${tile('1', 'Open the story map', 'Pick any site, hear its story and turn its 3D model.')}
-        ${tile('2', 'Stamp on site', 'Use GPS at the gate to fill your passport and earn badges like Tin Durbar and Saat Pradesh.')}
-        ${tile('3', 'Play the quiz trail', 'Questions adapt to you, from New Explorer to Sampada Guru.')}
-        ${tile('4', 'Race your friends', 'Open a live heritage hunt and share the code or QR.')}
+        ${tile('1', '3D Interactive Landmarks', 'Interact with high-detail 3D models and read rich historical narratives.')}
+        ${tile('2', 'GPS Passport Stamps', 'Visit sites physically to unlock digital badges like Tin Durbar and Saat Pradesh.')}
+        ${tile('3', 'Adaptive Heritage Quiz', 'Progress from New Explorer to Sampada Guru with Elo-rated trivia.')}
+        ${tile('4', 'Live Scavenger Hunts', 'Host real-time multiplayer scavenger hunts with friends via room codes.')}
       </table>
-      ${button(`${origin}/explore`, 'Begin the yatra')}`,
+      ${button(`${origin}/explore`, 'Start Exploring Nepal')}`,
     }),
   };
 }
+
 
 export function resetEmail({ name, code, origin, minutes }) {
   return {

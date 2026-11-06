@@ -167,6 +167,7 @@ r.post('/google', ah(async (req, res) => {
 
   let [user] = await query('SELECT * FROM users WHERE email = ?', [addr]);
 
+  let isFirstTime = false;
   if (!user) {
     // Generate secure random fallback password for OAuth-created users
     const randPass = crypto.randomBytes(32).toString('hex');
@@ -176,6 +177,7 @@ r.post('/google', ah(async (req, res) => {
       [name || 'Explorer', addr, hash, 'explorer', email_verified ? 1 : 0, 1]
     );
     [user] = await query('SELECT * FROM users WHERE id = ?', [result.insertId]);
+    isFirstTime = true;
   } else {
     if (!user.is_active) return res.status(403).json({ error: 'This account has been deactivated' });
     if (!user.email_verified && email_verified) {
@@ -183,6 +185,12 @@ r.post('/google', ah(async (req, res) => {
       user.email_verified = 1;
     }
   }
+
+  // Send a welcome email when user joins via Google for the first time
+  if (isFirstTime) {
+    sendMail(addr, welcomeEmail({ name: user.name, origin: clientOrigin(), provider: 'google' })).catch(() => {});
+  }
+
 
   res.json({ token: signToken(user), user: publicUser(user) });
 }));
