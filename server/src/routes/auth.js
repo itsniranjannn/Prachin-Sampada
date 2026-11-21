@@ -180,7 +180,7 @@ r.post('/google', ah(async (req, res) => {
     // Generate secure random fallback password for OAuth-created users
     const randPass = crypto.randomBytes(32).toString('hex');
     const hash = await bcrypt.hash(randPass, 10);
-    const [result] = await query(
+    const result = await query(
       'INSERT INTO users (name, email, password_hash, role, email_verified, is_active) VALUES (?, ?, ?, ?, ?, ?)',
       [name || 'Explorer', addr, hash, 'explorer', email_verified ? 1 : 0, 1]
     );

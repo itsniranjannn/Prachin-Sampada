@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "node --watch src/index.js",
+    "dev": "node --watch --watch-path=src src/index.js",
     "db:init": "node db/init.js",
     "test": "node --test src/algorithms/algorithms.test.js",
     "test:api": "node --test --test-concurrency=1 test/api-flow.test.js"
