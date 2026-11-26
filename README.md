@@ -1,48 +1,99 @@
-# Hamro Prachin Sampada (हाम्रो प्राचीन सम्पदा)
+<div align="center">
 
-Nepal heritage explorer: 116 sites, 3D model per site, story map, yatra planner, adaptive quiz, Find the Monument,
-live multiplayer hunts and a heritage passport. React + Vite client, Express + Socket.io + MySQL server.
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0d1117,50:7c2d12,100:ea580c&section=header&text=Hamro%20Prachin%20Sampada&fontSize=38&fontColor=ffffff&fontAlignY=38" width="100%" alt="Hamro Prachin Sampada Header"/>
 
-## Requirements
-- Node.js 20 or newer
-- MySQL 8.x running on this computer (default port 3306, user `root`)
+<a href="https://hamrosampada-umber.vercel.app">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=21&duration=2800&pause=900&color=FB923C&center=true&vCenter=true&width=680&lines=116+Nepalese+heritage+sites+in+3D.;Interactive+story+map+%26+yatra+planner.;Live+multiplayer+hunts+via+Socket.io.;Adaptive+quizzes+%26+heritage+passport." alt="Typing animation"/>
+</a>
 
-## Setup (5 steps)
+<br/>
 
-1. **Database.** Open a terminal in this folder and import the ready-made schema + data (creates database `sampada`):
-   ```
-   mysql -u root -p < database/sampada.sql
-   ```
-   (If your root user has no password, drop `-p`. MySQL Workbench works too: Server > Data Import > Import from Self-Contained File.)
-   *Alternative:* skip the import and run `npm run db:init` in step 3; it creates and seeds the same database from `server/db/schema.sql` and `server/db/data`.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-hamrosampada--umber.vercel.app-ea580c?style=for-the-badge&logo=vercel&logoColor=white)](https://hamrosampada-umber.vercel.app)
+![React](https://img.shields.io/badge/React-Vite-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Socket.io](https://img.shields.io/badge/Socket.io-Realtime-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-2. **Settings.** `server/.env` is already provided. Edit it only if your MySQL differs:
-   `DB_PORT` (3306), `DB_USER` (root), `DB_PASSWORD` (put your MySQL root password here if you have one).
-   Leave `SMTP_USER` / `SMTP_PASS` empty to run without real email: emails are saved to `server/mail-outbox/` and codes are printed in the server console.
+<br/>
 
-3. **Server** (API + live hunts on http://localhost:5050):
-   ```
-   cd server
-   npm install
-   npm run dev
-   ```
+**[Overview](#overview) · [Features](#features) · [Quick Start](#quick-start) · [Connect](#connect)**
 
-4. **Client** (second terminal, http://localhost:5174):
-   ```
-   cd client
-   npm install
-   npm run dev
-   ```
+</div>
 
-5. Open **http://localhost:5174**.
+---
 
-Demo accounts: explorer `demo@sampada.np` / `explorer123`, admin `admin@sampada.np` / `admin123`.
+## Overview
 
-## Tests
-- `cd server && npm test` : 12 unit tests (algorithms)
-- `cd server && npm run test:api` : 18 API flow tests (server must be running; run `npm run db:init` first for a clean database)
+**Hamro Prachin Sampada (हाम्रो प्राचीन सम्पदा)** is an interactive Nepal cultural heritage explorer featuring **116 heritage sites**, a **3D model per site**, a **story map**, a **yatra planner**, **adaptive quizzes**, **Find the Monument**, **live multiplayer hunts**, and a **heritage passport**.
 
-## Notes
-- The database already holds 116 sites, 1,160 quiz questions and 696 clues. `npm run db:init` drops and recreates it.
-- Map tiles, photos and fonts load from the internet (OpenFreeMap, Wikimedia Commons, Google Fonts), so an internet connection is needed for them.
-- Credits: OpenStreetMap / OpenFreeMap, Wikimedia Commons (CC), Poly Haven textures (CC0), Google Fonts.
+---
+
+## Features
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Explore & 3D
+- **116 heritage sites** with 3D monument models
+- **Story map** with geographic and historical context
+- **Yatra planner** for building cultural routes
+- **Heritage passport** tracking visited & unlocked sites
+
+</td>
+<td width="50%" valign="top">
+
+### Play & Compete
+- **Live multiplayer hunts** powered by Socket.io
+- **Adaptive quiz** engine (1,160+ curated questions)
+- **Find the Monument** visual/clue challenge (696 clues)
+- **12 unit tests + 18 API flow tests**
+
+</td>
+</tr>
+</table>
+
+---
+
+<details>
+<summary><b>Quick Start & Demo Accounts (click to expand)</b></summary>
+
+### Requirements
+- Node.js 20+
+- MySQL 8.x (default port `3306`, user `root`)
+
+### Setup
+```bash
+# 1) Import database (creates "sampada")
+mysql -u root -p < database/sampada.sql
+
+# 2) Start Server (http://localhost:5050)
+cd server
+npm install
+npm run dev
+
+# 3) Start Client (http://localhost:5174)
+cd ../client
+npm install
+npm run dev
+```
+
+### Demo Accounts
+| Role | Email | Password |
+| :--- | :--- | :--- |
+| Explorer | `demo@sampada.np` | `explorer123` |
+| Admin | `admin@sampada.np` | `admin123` |
+
+</details>
+
+---
+
+## Connect
+
+<div align="center">
+
+<a href="mailto:katwalniranjan7@gmail.com"><img src="https://img.shields.io/badge/katwalniranjan7%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/itsniranjannn"><img src="https://img.shields.io/badge/itsniranjannn-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=80&color=0:0d1117,50:7c2d12,100:ea580c&section=footer" width="100%" alt=""/>
+
+</div>
