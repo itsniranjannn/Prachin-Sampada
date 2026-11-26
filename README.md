@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0d1117,50:7c2d12,100:ea580c&section=header&text=Hamro%20Prachin%20Sampada&fontSize=38&fontColor=ffffff&fontAlignY=38" width="100%" alt="Hamro Prachin Sampada Header"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&height=125&color=0:0d1117,50:7c2d12,100:ea580c&section=header&text=Hamro%20Prachin%20Sampada&fontSize=38&fontColor=ffffff&fontAlignY=45&animation=twinkling" width="100%" alt="Hamro Prachin Sampada Header"/>
 
 <a href="https://hamrosampada-umber.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=21&duration=2800&pause=900&color=FB923C&center=true&vCenter=true&width=680&lines=116+Nepalese+heritage+sites+in+3D.;Interactive+story+map+%26+yatra+planner.;Live+multiplayer+hunts+via+Socket.io.;Adaptive+quizzes+%26+heritage+passport." alt="Typing animation"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=21&duration=2600&pause=800&color=FB923C&center=true&vCenter=true&width=680&lines=116+Nepalese+heritage+sites+in+3D.;Interactive+story+map+%26+yatra+planner.;Live+multiplayer+hunts+via+Socket.io.;Adaptive+quizzes+%26+heritage+passport." alt="Typing animation"/>
 </a>
 
 <br/>
