@@ -25,6 +25,12 @@
 
 **Hamro Prachin Sampada (हाम्रो प्राचीन सम्पदा)** is an interactive Nepal cultural heritage explorer featuring **116 heritage sites**, a **3D model per site**, a **story map**, a **yatra planner**, **adaptive quizzes**, **Find the Monument**, **live multiplayer hunts**, and a **heritage passport**.
 
+<p align="center">
+  <a href="https://hamrosampada-umber.vercel.app">
+    <img src="docs/screenshots/live-preview.png" alt="Hamro Prachin Sampada Live Preview" width="92%" />
+  </a>
+</p>
+
 ---
 
 ## Features
